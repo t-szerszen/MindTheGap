@@ -1,4 +1,5 @@
 import type { Exercise, PhraseSet, Tense, Topic } from '../../content/schema'
+import { normalizeAnswer } from '../answers'
 
 export type ContentSet = {
   tenses: Tense[]
@@ -52,6 +53,9 @@ export function checkContent(c: ContentSet): string[] {
     const s = e.sentence.toLowerCase()
     const hint = tenseNames.find((n) => s.includes(n))
     if (hint) errors.push(`${e.id}: zdanie podpowiada czas („${hint}”)`)
+    // skróty sprawdzarka rozwija sama, więc "'ll close" obok "will close" to zbędny duplikat
+    for (const a of dupes([...e.correct, ...(e.accepted ?? [])].map(normalizeAnswer)))
+      errors.push(`${e.id}: odpowiedź „${a}” powtarza się po rozwinięciu skrótów`)
   }
   return errors
 }

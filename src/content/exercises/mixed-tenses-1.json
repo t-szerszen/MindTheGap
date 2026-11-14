@@ -5,12 +5,18 @@
     "sentence": "My grandparents ___ (live) in the same flat since 1985.",
     "correct": ["have lived", "have been living"],
     "steps": [
-      { "label_pl": "sygnał", "text_pl": "since 1985 — punkt startowy w przeszłości." },
+      {
+        "label_pl": "sygnał",
+        "text_pl": "since 1985 — punkt startowy w przeszłości."
+      },
       {
         "label_pl": "wybór",
         "text_pl": "Mieszkają tam od 1985 roku aż do dziś — stan trwa do teraz, więc Present Perfect (albo Continuous, bo to czynność, która trwa)."
       },
-      { "label_pl": "forma", "text_pl": "have + V3 → have lived (albo have been living)." }
+      {
+        "label_pl": "forma",
+        "text_pl": "have + V3 → have lived (albo have been living)."
+      }
     ],
     "tags": ["present-perfect", "present-perfect-continuous"],
     "difficulty": 1
@@ -21,12 +27,18 @@
     "sentence": "I ___ (meet) my best friend on a school trip three years ago.",
     "correct": ["met"],
     "steps": [
-      { "label_pl": "sygnał", "text_pl": "three years ago — konkretny moment w przeszłości." },
+      {
+        "label_pl": "sygnał",
+        "text_pl": "three years ago — konkretny moment w przeszłości."
+      },
       {
         "label_pl": "wybór",
         "text_pl": "Spotkanie się skończyło i wiemy, kiedy było, więc Past Simple."
       },
-      { "label_pl": "forma", "text_pl": "meet – met – met (nieregularny) → met." }
+      {
+        "label_pl": "forma",
+        "text_pl": "meet – met – met (nieregularny) → met."
+      }
     ],
     "tags": ["past-simple"],
     "difficulty": 1
@@ -46,7 +58,10 @@
         "label_pl": "wybór",
         "text_pl": "Film zaczął się WCZEŚNIEJ, niż dotarliśmy: przeszłość przed przeszłością, więc Past Perfect."
       },
-      { "label_pl": "forma", "text_pl": "had + already + V3 → had already started." }
+      {
+        "label_pl": "forma",
+        "text_pl": "had + already + V3 → had already started."
+      }
     ],
     "tags": ["past-perfect"],
     "difficulty": 2
@@ -56,14 +71,19 @@
     "type": "gap-fill",
     "sentence": "Can I borrow your notes? I ___ (not / finish) mine yet.",
     "correct": ["haven't finished"],
-    "accepted": ["have not finished"],
     "steps": [
-      { "label_pl": "sygnał", "text_pl": "yet na końcu przeczenia." },
+      {
+        "label_pl": "sygnał",
+        "text_pl": "yet na końcu przeczenia."
+      },
       {
         "label_pl": "wybór",
         "text_pl": "Notatki nie są skończone, a ważne jest to teraz (dlatego proszę o twoje), więc Present Perfect."
       },
-      { "label_pl": "forma", "text_pl": "haven't + V3 → haven't finished." }
+      {
+        "label_pl": "forma",
+        "text_pl": "haven't + V3 → haven't finished."
+      }
     ],
     "tags": ["present-perfect"],
     "difficulty": 1
@@ -82,7 +102,10 @@
         "label_pl": "wybór",
         "text_pl": "Jego życie to zamknięty okres, więc nie ma związku z teraz: Past Simple, nie Present Perfect."
       },
-      { "label_pl": "forma", "text_pl": "write – wrote – written → wrote." }
+      {
+        "label_pl": "forma",
+        "text_pl": "write – wrote – written → wrote."
+      }
     ],
     "tags": ["past-simple", "present-perfect"],
     "difficulty": 3
@@ -92,14 +115,19 @@
     "type": "gap-fill",
     "sentence": "This is the most beautiful place I ___ (ever / see).",
     "correct": ["have ever seen"],
-    "accepted": ["'ve ever seen"],
     "steps": [
-      { "label_pl": "sygnał", "text_pl": "the most beautiful … ever — stopień najwyższy + ever." },
+      {
+        "label_pl": "sygnał",
+        "text_pl": "the most beautiful … ever — stopień najwyższy + ever."
+      },
       {
         "label_pl": "wybór",
         "text_pl": "Porównujesz z całym swoim życiem aż do teraz — to doświadczenie, więc Present Perfect."
       },
-      { "label_pl": "forma", "text_pl": "have + ever + V3 → have ever seen." }
+      {
+        "label_pl": "forma",
+        "text_pl": "have + ever + V3 → have ever seen."
+      }
     ],
     "tags": ["present-perfect"],
     "difficulty": 2
@@ -132,14 +160,19 @@
     "type": "gap-fill",
     "sentence": "A: It's really cold in here. B: Wait a second, I ___ (close) the window.",
     "correct": ["will close"],
-    "accepted": ["'ll close"],
     "steps": [
       {
         "label_pl": "sygnał",
         "text_pl": "Wait a second — reakcja na to, co ktoś przed chwilą powiedział."
       },
-      { "label_pl": "wybór", "text_pl": "Decyzja podjęta w chwili mówienia, więc will." },
-      { "label_pl": "forma", "text_pl": "will + V1 → will close (I'll close)." }
+      {
+        "label_pl": "wybór",
+        "text_pl": "Decyzja podjęta w chwili mówienia, więc will."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + V1 → will close (I'll close)."
+      }
     ],
     "tags": ["future-simple"],
     "difficulty": 1
@@ -151,9 +184,18 @@
     "correct": ["is going to fall"],
     "accepted": ["'s going to fall"],
     "steps": [
-      { "label_pl": "sygnał", "text_pl": "Look at… — widzisz dowód teraz." },
-      { "label_pl": "wybór", "text_pl": "Skutek widać gołym okiem, więc be going to." },
-      { "label_pl": "forma", "text_pl": "is going to + V1 → is going to fall." }
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Look at… — widzisz dowód teraz."
+      },
+      {
+        "label_pl": "wybór",
+        "text_pl": "Skutek widać gołym okiem, więc be going to."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "is going to + V1 → is going to fall."
+      }
     ],
     "tags": ["be-going-to"],
     "difficulty": 1
@@ -163,7 +205,6 @@
     "type": "gap-fill",
     "sentence": "Don't call me before ten — I ___ (not / finish) my essay by then.",
     "correct": ["won't have finished"],
-    "accepted": ["will not have finished"],
     "steps": [
       {
         "label_pl": "sygnał",
@@ -173,7 +214,10 @@
         "label_pl": "wybór",
         "text_pl": "Chodzi o to, czy wypracowanie będzie ZAKOŃCZONE przed tym momentem, więc Future Perfect."
       },
-      { "label_pl": "forma", "text_pl": "won't have + V3 → won't have finished." }
+      {
+        "label_pl": "forma",
+        "text_pl": "won't have + V3 → won't have finished."
+      }
     ],
     "tags": ["future-perfect"],
     "difficulty": 3
@@ -183,11 +227,19 @@
     "type": "gap-fill",
     "sentence": "This time tomorrow I ___ (fly) to London, so I won't be able to answer the phone.",
     "correct": ["will be flying"],
-    "accepted": ["'ll be flying"],
     "steps": [
-      { "label_pl": "sygnał", "text_pl": "This time tomorrow — konkretny moment w przyszłości." },
-      { "label_pl": "wybór", "text_pl": "Lot będzie wtedy w trakcie, więc Future Continuous." },
-      { "label_pl": "forma", "text_pl": "will be + V-ing → will be flying." }
+      {
+        "label_pl": "sygnał",
+        "text_pl": "This time tomorrow — konkretny moment w przyszłości."
+      },
+      {
+        "label_pl": "wybór",
+        "text_pl": "Lot będzie wtedy w trakcie, więc Future Continuous."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will be + V-ing → will be flying."
+      }
     ],
     "tags": ["future-continuous"],
     "difficulty": 2
@@ -198,12 +250,18 @@
     "sentence": "I'll text you as soon as I ___ (get) home.",
     "correct": ["get"],
     "steps": [
-      { "label_pl": "sygnał", "text_pl": "as soon as — zdanie czasowe o przyszłości." },
+      {
+        "label_pl": "sygnał",
+        "text_pl": "as soon as — zdanie czasowe o przyszłości."
+      },
       {
         "label_pl": "wybór",
         "text_pl": "Po as soon as, when, before, after i until nie ma will — zostaje czas teraźniejszy, chociaż chodzi o przyszłość."
       },
-      { "label_pl": "forma", "text_pl": "Present Simple → get." }
+      {
+        "label_pl": "forma",
+        "text_pl": "Present Simple → get."
+      }
     ],
     "tags": ["present-simple", "future-simple"],
     "difficulty": 2
@@ -214,12 +272,18 @@
     "sentence": "If it ___ (rain) tomorrow, we'll stay at home.",
     "correct": ["rains"],
     "steps": [
-      { "label_pl": "sygnał", "text_pl": "If + we'll stay — realny warunek w przyszłości." },
+      {
+        "label_pl": "sygnał",
+        "text_pl": "If + we'll stay — realny warunek w przyszłości."
+      },
       {
         "label_pl": "wybór",
         "text_pl": "W części z if nie ma will, mimo że chodzi o jutro: Present Simple (pierwszy tryb warunkowy)."
       },
-      { "label_pl": "forma", "text_pl": "it → V1 + -s → rains." }
+      {
+        "label_pl": "forma",
+        "text_pl": "it → V1 + -s → rains."
+      }
     ],
     "tags": ["conditionals", "present-simple"],
     "difficulty": 1
@@ -238,7 +302,10 @@
         "label_pl": "wybór",
         "text_pl": "Drugi tryb warunkowy: if + Past Simple, choć mówimy o teraźniejszości."
       },
-      { "label_pl": "forma", "text_pl": "have → had." }
+      {
+        "label_pl": "forma",
+        "text_pl": "have → had."
+      }
     ],
     "tags": ["conditionals", "past-simple"],
     "difficulty": 2
@@ -254,8 +321,14 @@
         "label_pl": "sygnał",
         "text_pl": "would have helped — przeszłość, której nie da się już zmienić."
       },
-      { "label_pl": "wybór", "text_pl": "Trzeci tryb warunkowy: if + Past Perfect." },
-      { "label_pl": "forma", "text_pl": "had + V3 → had told." }
+      {
+        "label_pl": "wybór",
+        "text_pl": "Trzeci tryb warunkowy: if + Past Perfect."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had + V3 → had told."
+      }
     ],
     "tags": ["conditionals", "past-perfect"],
     "difficulty": 3

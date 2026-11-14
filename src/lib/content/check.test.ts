@@ -83,3 +83,14 @@ describe('checkContent', () => {
     expect(errors[0]).toContain('podpowiada')
   })
 })
+
+describe('checkContent: odpowiedzi', () => {
+  it('skrót obok pełnej formy to duplikat', () => {
+    const e = exercise('e1', 'I ___ (close) it.', ['past-simple'])
+    const errors = checkContent({
+      ...base,
+      exercises: [{ ...e, correct: ['will close'], accepted: ["'ll close"] }],
+    })
+    expect(errors[0]).toContain('powtarza się')
+  })
+})
