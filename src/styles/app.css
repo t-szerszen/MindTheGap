@@ -1,0 +1,193 @@
+/* układ aplikacji: rzeczy, których nie było w /design jako osobnych klas */
+
+.app {
+  position: relative;
+  height: 100vh;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.viewport {
+  position: relative;
+  flex: 1 1 0;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  overscroll-behavior: contain;
+  scrollbar-width: none;
+}
+.viewport::-webkit-scrollbar {
+  display: none;
+}
+
+/* jedna kartka = jeden ekran */
+.sheet {
+  position: relative;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: calc(env(safe-area-inset-top) + 28px) calc(env(safe-area-inset-right) + 18px) 30px
+    calc(env(safe-area-inset-left) + 40px);
+}
+.sheet.plain {
+  padding-left: calc(env(safe-area-inset-left) + 22px);
+}
+.sheet > * {
+  flex-shrink: 0;
+}
+
+.tabbar {
+  --tabs: 6;
+  gap: 4px;
+  padding: 0 calc(env(safe-area-inset-right) + 8px) max(env(safe-area-inset-bottom), 14px)
+    calc(env(safe-area-inset-left) + 8px);
+}
+.tabbar .tab {
+  font-size: 15px;
+}
+.tabbar .tab[aria-current='page'] {
+  font-size: 16px;
+}
+.topbar {
+  display: none;
+}
+
+@media (min-width: 760px) {
+  .app {
+    padding: 14px max(env(safe-area-inset-right), 32px) 0 max(env(safe-area-inset-left), 32px);
+  }
+  .tabbar {
+    display: none;
+  }
+  .topbar {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 20px;
+    flex: none;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .topbar .toptabs {
+    padding-left: 18px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .topbar .logo {
+    display: none;
+    padding-bottom: 8px;
+    white-space: nowrap;
+  }
+  .viewport {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 24px;
+    scrollbar-width: thin;
+  }
+  .viewport::-webkit-scrollbar {
+    display: initial;
+  }
+  .sheet {
+    --mx: 56px;
+    min-height: calc(100% - 8px);
+    padding: 34px 48px 40px 84px;
+    box-shadow: 0 10px 22px -10px rgba(0, 0, 0, 0.45);
+    border-radius: 3px;
+  }
+  .sheet.plain {
+    padding-left: 48px;
+  }
+  .sheet > .measure {
+    max-width: 720px;
+  }
+}
+@media (min-width: 1100px) {
+  .topbar .logo {
+    display: block;
+  }
+}
+
+.measure {
+  width: 100%;
+}
+.center-note {
+  margin: auto 0;
+  padding: 40px 0;
+}
+
+/* start: okładka nad kartką */
+.home {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.home-cover {
+  position: relative;
+  flex: none;
+  padding: calc(env(safe-area-inset-top) + 26px) 22px 18px 20px;
+}
+.home-band {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 26px;
+  width: 12px;
+  background: var(--band);
+  box-shadow:
+    inset 2px 0 0 rgba(255, 255, 255, 0.14),
+    inset -2px 0 0 rgba(0, 0, 0, 0.22),
+    2px 0 5px rgba(0, 0, 0, 0.3);
+}
+.home-gear {
+  position: absolute;
+  top: calc(env(safe-area-inset-top) + 22px);
+  right: 46px;
+  color: var(--cover-ink);
+}
+.home-label {
+  width: 292px;
+  max-width: calc(100% - 64px);
+  background: var(--label);
+  color: var(--ink);
+  border-radius: 10px;
+  padding: 7px;
+  box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.55);
+}
+.home-label-in {
+  border: 1.5px solid var(--pen-blue);
+  outline: 1px solid var(--pen-blue);
+  outline-offset: 3px;
+  border-radius: 6px;
+  padding: 8px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+.home-name {
+  flex: 1;
+  min-height: 25px;
+  font-size: 25px;
+  line-height: 1;
+  border-bottom: 1.5px dotted var(--pencil);
+}
+.home-sheet {
+  flex: 1;
+  padding-top: 14px;
+}
+@media (min-width: 760px) {
+  .home-cover {
+    padding: 26px 22px 18px 40px;
+    border-radius: 3px 3px 0 0;
+  }
+  .home-gear {
+    display: none;
+  }
+  .home-sheet {
+    padding-top: 22px;
+    border-radius: 0 0 3px 3px;
+  }
+}
