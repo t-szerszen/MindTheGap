@@ -9,6 +9,18 @@ export function plural(n: number, one: string, few: string, many: string) {
   return many
 }
 
+const rtf = new Intl.RelativeTimeFormat('pl', { numeric: 'auto' })
+const DAY = 24 * 60 * 60 * 1000
+
+// „jutro”, „za 3 dni”; zaległe i dzisiejsze to po prostu „teraz”
+function dueIn(due: Date, now: Date) {
+  const startOfDay = (d: Date) => new Date(d.getFullYear(), d.getMonth(), d.getDate()).getTime()
+  const days = Math.round((startOfDay(due) - startOfDay(now)) / DAY)
+  if (due.getTime() <= now.getTime()) return 'teraz'
+  if (days <= 0) return 'dziś'
+  return rtf.format(days, 'day')
+}
+
 export const pl = {
   appName: 'Mind the Gap',
   nav: {
@@ -166,6 +178,33 @@ export const pl = {
     },
   },
   words: {
+    eyebrow: 'Fiszki',
+    title: 'Zapisane słówka',
+    search: 'Szukaj w zapisanych…',
+    searchLabel: 'Szukaj w zapisanych',
+    sortLabel: 'Sortuj',
+    sort: { newest: 'najnowsze', accuracy: 'najsłabsze', due: 'do powtórki' },
+    tagsLabel: 'Filtruj według etykiety',
+    allTags: 'wszystkie',
+    review: (n: number) => `Powtórka · ${n} ${plural(n, 'karta', 'karty', 'kart')}`,
+    nothingDue: 'Wszystko powtórzone',
+    leeches: (n: number) => `Uciekinierzy (${n})`,
+    attempts: (n: number) => `${n} ${plural(n, 'próba', 'próby', 'prób')}`,
+    accuracy: (pct: number) => `${pct}% dobrze`,
+    streak: (n: number) => `seria ${n}`,
+    fresh: 'nowe',
+    dueIn,
+    due: (due: Date, now: Date) => `powtórka: ${dueIn(due, now)}`,
+    edit: 'Edytuj',
+    editTitle: 'Popraw słówko',
+    editSave: 'Zapisz zmiany',
+    delete: 'Usuń',
+    confirmDelete: 'Usunąć na zawsze?',
+    confirmYes: 'Tak, usuń',
+    confirmNo: 'Zostaw',
+    empty: 'Nie masz jeszcze zapisanych słówek. Zapisz coś w tłumaczu albo dodaj zwrot z tematów.',
+    toTranslator: 'Do tłumacza',
+    noResults: 'Nic tu nie ma — spróbuj innego słowa albo etykiety.',
     saveTitle: 'Do fiszek',
     saveBtn: 'Zapisz do fiszek',
     duplicate: 'To już masz w fiszkach.',
@@ -178,6 +217,40 @@ export const pl = {
       tags: 'Etykiety, po przecinku',
       tagsPlaceholder: 'idiom, rozprawka',
     },
+  },
+  review: {
+    title: 'Powtórka',
+    leechTitle: 'Uciekinierzy',
+    close: 'Zamknij powtórkę',
+    dir: { 'pl-en': 'PL → EN', 'en-pl': 'EN → PL' },
+    dirLabel: (d: string) => `Kierunek: ${d}. Zamień`,
+    pos: (i: number, n: number) => `Karta ${i} z ${n}`,
+    finished: 'Gotowe',
+    counts: (k: number, a: number) => `wiedziałem: ${k} · nie wiedziałem: ${a}`,
+    tapToFlip: 'dotknij, by odwrócić',
+    flip: 'Odwróć kartę',
+    flipFront: 'Odwróć kartę, by zobaczyć odpowiedź',
+    flipBack: 'Karta odwrócona — pokaż przód',
+    knew: 'Wiedziałem',
+    didnt: 'Nie wiedziałem',
+    swipeHint: 'przesuń kartę: w prawo = wiedziałem, w lewo = nie wiedziałem',
+    example: 'przykład',
+    stats: 'statystyki',
+    endTitle: 'Koniec talii!',
+    endText: (k: number, n: number) =>
+      `Wiedziałeś ${k} z ${n}. Te, których nie wiedziałeś, wrócą jutro na górę stosu.`,
+    toList: 'Do listy słówek',
+    nothingDue: 'Wszystko powtórzone!',
+    nextDue: (label: string) => `Następna powtórka: ${label}.`,
+    noWords: 'Najpierw zapisz kilka słówek w tłumaczu.',
+    noLeeches: 'Nie ma uciekinierów — tak trzymaj.',
+  },
+  leeches: {
+    title: 'Uciekinierzy',
+    hint: 'słówka, które ciągle uciekają: 3 wpadki albo mniej niż 60% dobrze po 5 próbach',
+    lapses: (n: number) => `${n} ${plural(n, 'wpadka', 'wpadki', 'wpadek')}`,
+    practice: 'Ćwicz tylko te',
+    back: 'Wszystkie fiszki',
   },
   common: {
     back: 'Wstecz',
