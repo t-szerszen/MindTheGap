@@ -8,6 +8,20 @@ export default defineConfig(({ mode }) => {
   return {
     // na GitHub Pages strona siedzi pod /nazwa-repo/, lokalnie pod /
     base: env.VITE_BASE || '/',
+    build: {
+      rolldownOptions: {
+        output: {
+          // firebase osobno: zmienia się rzadko, więc po aktualizacji aplikacji nie trzeba go ściągać od nowa
+          codeSplitting: {
+            groups: [
+              { name: 'firebase', test: /node_modules[\\/](@?firebase)/, priority: 2 },
+              { name: 'vendor', test: /node_modules/, priority: 1 },
+            ],
+          },
+        },
+      },
+      chunkSizeWarningLimit: 700,
+    },
     plugins: [
       react(),
       VitePWA({
