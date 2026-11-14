@@ -1,0 +1,321 @@
+{
+  "id": "past-perfect",
+  "order": 7,
+  "nameEn": "Past Perfect",
+  "group": "past",
+  "aspect": "perfect",
+  "tabLabel": ["Past", "Perf."],
+  "oneLiner_pl": "przeszłość przed przeszłością",
+  "timeline": {
+    "now": 0.65,
+    "marks": [
+      {
+        "kind": "point",
+        "from": 0.16,
+        "label": "1. had done"
+      },
+      {
+        "kind": "point",
+        "from": 0.44,
+        "label": "2. did"
+      }
+    ]
+  },
+  "howToChoose": [
+    {
+      "step_pl": "sygnał",
+      "text_pl": "Widzisz by the time, before, after, already i drugą czynność w Past Simple?"
+    },
+    {
+      "step_pl": "relacja w czasie",
+      "text_pl": "Ta czynność wydarzyła się WCZEŚNIEJ niż inna czynność w przeszłości."
+    },
+    {
+      "step_pl": "forma",
+      "text_pl": "had + V3: The film had started."
+    }
+  ],
+  "forms": {
+    "active": {
+      "affirmative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "had",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "The film had started by the time we arrived.",
+          "pl": "Film zaczął się, zanim dotarliśmy."
+        }
+      },
+      "negative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "had",
+            "role": "aux"
+          },
+          {
+            "text": "not",
+            "role": "particle"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "She hadn't seen the sea before that trip.",
+          "pl": "Przed tą podróżą nie widziała morza."
+        }
+      },
+      "question": {
+        "pattern": [
+          {
+            "text": "Had",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "Had you met him before the party?",
+          "pl": "Znałeś go przed imprezą?"
+        }
+      },
+      "whQuestion": {
+        "pattern": [
+          {
+            "text": "Wh-word",
+            "role": "neutral"
+          },
+          {
+            "text": "had",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "Why had they left so early?",
+          "pl": "Dlaczego wyszli tak wcześnie?"
+        }
+      }
+    },
+    "passive": {
+      "affirmative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "had been",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "All the tickets had been sold before we got to the box office.",
+          "pl": "Wszystkie bilety zostały sprzedane, zanim dotarliśmy do kasy."
+        }
+      },
+      "negative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "had",
+            "role": "aux"
+          },
+          {
+            "text": "not",
+            "role": "particle"
+          },
+          {
+            "text": "been",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "The room hadn't been cleaned when we arrived.",
+          "pl": "Pokój nie był posprzątany, kiedy przyjechaliśmy."
+        }
+      },
+      "question": {
+        "pattern": [
+          {
+            "text": "Had",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "been",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "Had the decision been made before the meeting?",
+          "pl": "Czy decyzja zapadła przed spotkaniem?"
+        }
+      },
+      "whQuestion": {
+        "pattern": [
+          {
+            "text": "Wh-word",
+            "role": "neutral"
+          },
+          {
+            "text": "had",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "been",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "Why had the flight been cancelled?",
+          "pl": "Dlaczego lot został odwołany?"
+        }
+      }
+    }
+  },
+  "uses": [
+    {
+      "title_pl": "Wcześniej niż inna przeszła czynność",
+      "explanation_pl": "Opowiadasz w przeszłości i cofasz się jeszcze dalej.",
+      "examples": [
+        {
+          "en": "When I got to the station, the train had already left.",
+          "pl": "Kiedy dotarłem na dworzec, pociąg już odjechał."
+        }
+      ]
+    },
+    {
+      "title_pl": "Trzeci tryb warunkowy",
+      "explanation_pl": "Warunek o przeszłości, której nie da się zmienić.",
+      "examples": [
+        {
+          "en": "If I had known, I would have helped you.",
+          "pl": "Gdybym wiedział, pomógłbym ci."
+        }
+      ]
+    }
+  ],
+  "signalWords": [
+    {
+      "word": "by the time"
+    },
+    {
+      "word": "before"
+    },
+    {
+      "word": "after"
+    },
+    {
+      "word": "already"
+    },
+    {
+      "word": "by then"
+    },
+    {
+      "word": "never… before",
+      "note_pl": "np. I had never flown before."
+    }
+  ],
+  "relatedTenses": [
+    {
+      "id": "past-simple",
+      "relation_pl": "Past Simple to kolejne wydarzenia po kolei. Past Perfect cofa się do czegoś, co stało się wcześniej.",
+      "contrast": [
+        {
+          "en": "When I arrived, she left.",
+          "pl": "Kiedy przyjechałem, ona wyszła (po moim przyjściu)."
+        },
+        {
+          "en": "When I arrived, she had left.",
+          "pl": "Kiedy przyjechałem, już jej nie było (wyszła wcześniej)."
+        }
+      ]
+    },
+    {
+      "id": "present-perfect",
+      "relation_pl": "Ten sam pomysł „wcześniej + skutek”, tylko punktem odniesienia jest przeszłość, a nie teraz."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "After he finished, he had gone home.",
+      "right": "After he had finished, he went home.",
+      "why_pl": "Past Perfect dostaje czynność WCZEŚNIEJSZĄ, nie późniejszą."
+    }
+  ],
+  "maturaTips_pl": [
+    "Z after i before kolejność jest jasna, więc Past Simple w obu częściach też bywa poprawny. Przy by the time w drugiej części zdania zwykle potrzebny jest Past Perfect."
+  ]
+}

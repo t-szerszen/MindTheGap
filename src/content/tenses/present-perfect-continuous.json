@@ -1,0 +1,206 @@
+{
+  "id": "present-perfect-continuous",
+  "order": 4,
+  "nameEn": "Present Perfect Continuous",
+  "group": "present",
+  "aspect": "perfect-continuous",
+  "tabLabel": ["Pres.", "Perf. C."],
+  "oneLiner_pl": "trwa od… do teraz — liczy się, jak długo",
+  "timeline": {
+    "now": 0.65,
+    "marks": [
+      {
+        "kind": "span",
+        "from": 0.28,
+        "to": 0.65,
+        "label": "for… / since…"
+      }
+    ]
+  },
+  "howToChoose": [
+    {
+      "step_pl": "sygnał",
+      "text_pl": "Widzisz for, since, all day, How long…? albo widać ślady czynności (zmęczenie, mokre włosy)?"
+    },
+    {
+      "step_pl": "relacja w czasie",
+      "text_pl": "Czynność zaczęła się w przeszłości i trwa do teraz (albo przed chwilą się skończyła i widać skutek). Liczy się czas trwania."
+    },
+    {
+      "step_pl": "forma",
+      "text_pl": "have / has been + V-ing: She has been working all day."
+    }
+  ],
+  "forms": {
+    "active": {
+      "affirmative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "have / has been",
+            "role": "aux"
+          },
+          {
+            "text": "V-ing",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "I have been learning English for eight years.",
+          "pl": "Uczę się angielskiego od ośmiu lat."
+        }
+      },
+      "negative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "have / has",
+            "role": "aux"
+          },
+          {
+            "text": "not",
+            "role": "particle"
+          },
+          {
+            "text": "been",
+            "role": "aux"
+          },
+          {
+            "text": "V-ing",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "She hasn't been sleeping well lately.",
+          "pl": "Ona ostatnio źle śpi."
+        }
+      },
+      "question": {
+        "pattern": [
+          {
+            "text": "Have / Has",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "been",
+            "role": "aux"
+          },
+          {
+            "text": "V-ing",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "Have you been crying?",
+          "pl": "Płakałeś?"
+        }
+      },
+      "whQuestion": {
+        "pattern": [
+          {
+            "text": "Wh-word",
+            "role": "neutral"
+          },
+          {
+            "text": "have / has",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "been",
+            "role": "aux"
+          },
+          {
+            "text": "V-ing",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "How long have you been waiting?",
+          "pl": "Jak długo czekasz?"
+        }
+      }
+    },
+    "passive": null,
+    "passiveNote_pl": "Strona bierna (has been being + V3) praktycznie nie występuje. Zamiast niej użyj Present Perfect w stronie biernej: The road has been repaired."
+  },
+  "uses": [
+    {
+      "title_pl": "Trwa od… do teraz",
+      "explanation_pl": "Czynność zaczęła się w przeszłości i dalej trwa.",
+      "examples": [
+        {
+          "en": "It has been raining all day.",
+          "pl": "Pada (już) cały dzień."
+        }
+      ]
+    },
+    {
+      "title_pl": "Widoczny skutek trwającej czynności",
+      "explanation_pl": "Czynność przed chwilą trwała i widać jej ślady.",
+      "examples": [
+        {
+          "en": "You're out of breath. Have you been running?",
+          "pl": "Brakuje ci tchu. Biegałeś?"
+        }
+      ]
+    }
+  ],
+  "signalWords": [
+    {
+      "word": "for"
+    },
+    {
+      "word": "since"
+    },
+    {
+      "word": "all day"
+    },
+    {
+      "word": "How long…?"
+    },
+    {
+      "word": "lately"
+    },
+    {
+      "word": "recently"
+    }
+  ],
+  "relatedTenses": [
+    {
+      "id": "present-perfect",
+      "relation_pl": "Continuous skupia się na czynności i czasie trwania, Present Perfect — na wyniku."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I have been knowing him for years.",
+      "right": "I have known him for years.",
+      "why_pl": "Czasowniki stanu (know, be, have w znaczeniu „mieć”) nie mają formy ciągłej — zostaje Present Perfect."
+    }
+  ],
+  "maturaTips_pl": [
+    "Gdy w zdaniu jest liczba zrobionych rzeczy (three emails, twice), wybierz Present Perfect, nie Continuous."
+  ]
+}

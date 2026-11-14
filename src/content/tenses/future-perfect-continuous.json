@@ -1,0 +1,189 @@
+{
+  "id": "future-perfect-continuous",
+  "order": 13,
+  "nameEn": "Future Perfect Continuous",
+  "group": "future",
+  "aspect": "perfect-continuous",
+  "tabLabel": ["Fut.", "Perf. C."],
+  "oneLiner_pl": "jak długo coś będzie już trwało w danym momencie przyszłości",
+  "timeline": {
+    "now": 0.45,
+    "marks": [
+      {
+        "kind": "span",
+        "from": 0.3,
+        "to": 0.84,
+        "label": "will have been doing"
+      },
+      {
+        "kind": "point",
+        "from": 0.84,
+        "label": "by then"
+      }
+    ]
+  },
+  "howToChoose": [
+    {
+      "step_pl": "sygnał",
+      "text_pl": "Widzisz by + moment w przyszłości i for + okres?"
+    },
+    {
+      "step_pl": "relacja w czasie",
+      "text_pl": "W konkretnym momencie przyszłości czynność będzie trwała już od jakiegoś czasu. Liczy się, jak długo."
+    },
+    {
+      "step_pl": "forma",
+      "text_pl": "will have been + V-ing."
+    }
+  ],
+  "forms": {
+    "active": {
+      "affirmative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "will have been",
+            "role": "aux"
+          },
+          {
+            "text": "V-ing",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "By June, I'll have been learning English for ten years.",
+          "pl": "W czerwcu minie dziesięć lat, odkąd uczę się angielskiego."
+        }
+      },
+      "negative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "will",
+            "role": "aux"
+          },
+          {
+            "text": "not",
+            "role": "particle"
+          },
+          {
+            "text": "have been",
+            "role": "aux"
+          },
+          {
+            "text": "V-ing",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "By Christmas, we won't have been living here for a year.",
+          "pl": "Do świąt nie minie rok, odkąd tu mieszkamy."
+        }
+      },
+      "question": {
+        "pattern": [
+          {
+            "text": "Will",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "have been",
+            "role": "aux"
+          },
+          {
+            "text": "V-ing",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "Will you have been studying for three hours by then?",
+          "pl": "Czy do tego czasu będziesz się uczyć już trzy godziny?"
+        }
+      },
+      "whQuestion": {
+        "pattern": [
+          {
+            "text": "Wh-word",
+            "role": "neutral"
+          },
+          {
+            "text": "will",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "have been",
+            "role": "aux"
+          },
+          {
+            "text": "V-ing",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "How long will you have been working here by next summer?",
+          "pl": "Jak długo będziesz tu pracować do przyszłego lata?"
+        }
+      }
+    },
+    "passive": null,
+    "passiveNote_pl": "Strona bierna tego czasu w praktyce nie występuje."
+  },
+  "uses": [
+    {
+      "title_pl": "Jak długo — patrząc z przyszłości",
+      "explanation_pl": "Liczysz czas trwania aż do momentu w przyszłości.",
+      "examples": [
+        {
+          "en": "In September, my parents will have been living in this house for twenty years.",
+          "pl": "We wrześniu minie dwadzieścia lat, odkąd rodzice mieszkają w tym domu."
+        }
+      ]
+    }
+  ],
+  "signalWords": [
+    {
+      "word": "by … for",
+      "note_pl": "np. by June … for ten years"
+    },
+    {
+      "word": "by then"
+    },
+    {
+      "word": "by the end of"
+    }
+  ],
+  "relatedTenses": [
+    {
+      "id": "future-perfect",
+      "relation_pl": "Future Perfect — co będzie gotowe. Continuous — jak długo coś będzie trwało."
+    },
+    {
+      "id": "present-perfect-continuous",
+      "relation_pl": "Ten sam czas trwania, tylko liczony do momentu w przyszłości, a nie do teraz."
+    }
+  ],
+  "commonMistakes": [],
+  "maturaTips_pl": []
+}

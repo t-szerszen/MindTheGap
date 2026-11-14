@@ -1,0 +1,197 @@
+{
+  "id": "future-continuous",
+  "order": 11,
+  "nameEn": "Future Continuous",
+  "group": "future",
+  "aspect": "continuous",
+  "tabLabel": ["Fut.", "Cont."],
+  "oneLiner_pl": "w trakcie, w danym momencie przyszłości",
+  "timeline": {
+    "now": 0.45,
+    "marks": [
+      {
+        "kind": "span",
+        "from": 0.66,
+        "to": 0.9,
+        "label": "will be doing"
+      },
+      {
+        "kind": "point",
+        "from": 0.78,
+        "label": "at 10 tomorrow"
+      }
+    ]
+  },
+  "howToChoose": [
+    {
+      "step_pl": "sygnał",
+      "text_pl": "Widzisz this time tomorrow, this time next week, at 10 a.m. on Monday?"
+    },
+    {
+      "step_pl": "relacja w czasie",
+      "text_pl": "Czynność będzie w trakcie w konkretnym momencie przyszłości."
+    },
+    {
+      "step_pl": "forma",
+      "text_pl": "will be + V-ing: I'll be working."
+    }
+  ],
+  "forms": {
+    "active": {
+      "affirmative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "will be",
+            "role": "aux"
+          },
+          {
+            "text": "V-ing",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "This time next week we'll be lying on a beach.",
+          "pl": "W przyszłym tygodniu o tej porze będziemy leżeć na plaży."
+        }
+      },
+      "negative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "will",
+            "role": "aux"
+          },
+          {
+            "text": "not",
+            "role": "particle"
+          },
+          {
+            "text": "be",
+            "role": "aux"
+          },
+          {
+            "text": "V-ing",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "I won't be using the car tonight, so you can take it.",
+          "pl": "Nie będę dziś wieczorem korzystać z auta, więc możesz je wziąć."
+        }
+      },
+      "question": {
+        "pattern": [
+          {
+            "text": "Will",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "be",
+            "role": "aux"
+          },
+          {
+            "text": "V-ing",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "Will you be using the laptop tonight?",
+          "pl": "Będziesz dziś wieczorem korzystać z laptopa?"
+        }
+      },
+      "whQuestion": {
+        "pattern": [
+          {
+            "text": "Wh-word",
+            "role": "neutral"
+          },
+          {
+            "text": "will",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "be",
+            "role": "aux"
+          },
+          {
+            "text": "V-ing",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "What will you be doing at 8 p.m. on Saturday?",
+          "pl": "Co będziesz robić w sobotę o 20?"
+        }
+      }
+    },
+    "passive": null,
+    "passiveNote_pl": "Strona bierna (will be being + V3) prawie nie występuje — w praktyce zostajesz przy stronie czynnej albo używasz will be + V3."
+  },
+  "uses": [
+    {
+      "title_pl": "W trakcie w danym momencie przyszłości",
+      "explanation_pl": "O tej konkretnej porze czynność będzie trwała.",
+      "examples": [
+        {
+          "en": "At 10 a.m. tomorrow I'll be taking my English exam.",
+          "pl": "Jutro o 10 będę pisać egzamin z angielskiego."
+        }
+      ]
+    },
+    {
+      "title_pl": "Uprzejme pytanie o plany",
+      "explanation_pl": "Pytasz o czyjeś plany, zanim o coś poprosisz.",
+      "examples": [
+        {
+          "en": "Will you be going to the shops later? Could you get some milk?",
+          "pl": "Będziesz później w sklepie? Mógłbyś kupić mleko?"
+        }
+      ]
+    }
+  ],
+  "signalWords": [
+    {
+      "word": "this time tomorrow"
+    },
+    {
+      "word": "this time next week"
+    },
+    {
+      "word": "at 10 a.m. tomorrow"
+    },
+    {
+      "word": "all day tomorrow"
+    }
+  ],
+  "relatedTenses": [
+    {
+      "id": "future-perfect",
+      "relation_pl": "Continuous — wtedy będzie w trakcie. Perfect — do tego czasu będzie już gotowe."
+    }
+  ],
+  "commonMistakes": [],
+  "maturaTips_pl": []
+}

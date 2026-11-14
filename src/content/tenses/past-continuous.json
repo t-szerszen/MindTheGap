@@ -1,0 +1,312 @@
+{
+  "id": "past-continuous",
+  "order": 6,
+  "nameEn": "Past Continuous",
+  "group": "past",
+  "aspect": "continuous",
+  "tabLabel": ["Past", "Cont."],
+  "oneLiner_pl": "trwało w danym momencie przeszłości",
+  "timeline": {
+    "now": 0.65,
+    "marks": [
+      {
+        "kind": "span",
+        "from": 0.12,
+        "to": 0.46,
+        "label": "was doing"
+      },
+      {
+        "kind": "point",
+        "from": 0.3,
+        "label": "when…"
+      }
+    ]
+  },
+  "howToChoose": [
+    {
+      "step_pl": "sygnał",
+      "text_pl": "Widzisz while, when + przerwanie, at 8 p.m. yesterday, all evening?"
+    },
+    {
+      "step_pl": "relacja w czasie",
+      "text_pl": "Czynność trwała w pewnym momencie przeszłości — często była tłem dla czegoś krótszego."
+    },
+    {
+      "step_pl": "forma",
+      "text_pl": "was / were + V-ing: I was reading when she called."
+    }
+  ],
+  "forms": {
+    "active": {
+      "affirmative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "was / were",
+            "role": "aux"
+          },
+          {
+            "text": "V-ing",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "At 8 p.m. yesterday we were studying.",
+          "pl": "Wczoraj o 20 uczyliśmy się."
+        }
+      },
+      "negative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "was / were",
+            "role": "aux"
+          },
+          {
+            "text": "not",
+            "role": "particle"
+          },
+          {
+            "text": "V-ing",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "I wasn't listening, sorry.",
+          "pl": "Nie słuchałem, przepraszam."
+        }
+      },
+      "question": {
+        "pattern": [
+          {
+            "text": "Was / Were",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "V-ing",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "Were you sleeping when I called?",
+          "pl": "Spałeś, kiedy dzwoniłem?"
+        }
+      },
+      "whQuestion": {
+        "pattern": [
+          {
+            "text": "Wh-word",
+            "role": "neutral"
+          },
+          {
+            "text": "was / were",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "V-ing",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "What were you doing at midnight?",
+          "pl": "Co robiłeś o północy?"
+        }
+      }
+    },
+    "passive": {
+      "affirmative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "was / were being",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "The car was being repaired when we arrived.",
+          "pl": "Samochód był naprawiany, kiedy przyjechaliśmy."
+        }
+      },
+      "negative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "was / were",
+            "role": "aux"
+          },
+          {
+            "text": "not",
+            "role": "particle"
+          },
+          {
+            "text": "being",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "The windows weren't being cleaned at that time.",
+          "pl": "Okna nie były wtedy myte."
+        }
+      },
+      "question": {
+        "pattern": [
+          {
+            "text": "Was / Were",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "being",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "Was the room being painted when you moved in?",
+          "pl": "Czy pokój był malowany, kiedy się wprowadziłeś?"
+        }
+      },
+      "whQuestion": {
+        "pattern": [
+          {
+            "text": "Wh-word",
+            "role": "neutral"
+          },
+          {
+            "text": "was / were",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "being",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "Why were the students being questioned?",
+          "pl": "Dlaczego uczniowie byli przesłuchiwani?"
+        }
+      }
+    }
+  },
+  "uses": [
+    {
+      "title_pl": "Tło przerwane krótszą czynnością",
+      "explanation_pl": "Dłuższa czynność trwała, a w jej trakcie coś się wydarzyło.",
+      "examples": [
+        {
+          "en": "I was having a shower when the phone rang.",
+          "pl": "Brałem prysznic, kiedy zadzwonił telefon."
+        }
+      ]
+    },
+    {
+      "title_pl": "Dwie czynności naraz",
+      "explanation_pl": "Obie trwały w tym samym czasie.",
+      "examples": [
+        {
+          "en": "While Ola was cooking, Kuba was reading.",
+          "pl": "Gdy Ola gotowała, Kuba czytał."
+        }
+      ]
+    }
+  ],
+  "signalWords": [
+    {
+      "word": "while"
+    },
+    {
+      "word": "when"
+    },
+    {
+      "word": "as"
+    },
+    {
+      "word": "at 8 p.m. yesterday"
+    },
+    {
+      "word": "all evening"
+    }
+  ],
+  "relatedTenses": [
+    {
+      "id": "past-simple",
+      "relation_pl": "Continuous to tło, które trwało. Simple to krótka czynność albo coś, co stało się potem.",
+      "contrast": [
+        {
+          "en": "When she arrived, we were having dinner.",
+          "pl": "Kiedy przyszła, jedliśmy (już) kolację."
+        },
+        {
+          "en": "When she arrived, we had dinner.",
+          "pl": "Kiedy przyszła, zjedliśmy kolację (po jej przyjściu)."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "When I was arriving, they were having dinner.",
+      "right": "When I arrived, they were having dinner.",
+      "why_pl": "Krótka, zakończona czynność (przyjazd) to Past Simple, dłuższe tło — Past Continuous."
+    }
+  ],
+  "maturaTips_pl": []
+}
