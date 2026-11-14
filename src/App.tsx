@@ -10,6 +10,7 @@ import { SettingsPage } from './features/settings/SettingsPage'
 import { TensePage } from './features/tenses/TensePage'
 import { TensesIndexPage } from './features/tenses/TensesIndexPage'
 import { MorePage } from './features/topics/MorePage'
+import { TranslatorPage } from './features/translator/TranslatorPage'
 
 export function App() {
   // HashRouter, bo GitHub Pages nie ma fallbacku na index.html
@@ -23,6 +24,7 @@ export function App() {
               <Route index element={<HomePage />} />
               <Route path="tenses" element={<TensesIndexPage />} />
               <Route path="tenses/:id" element={<TensePage />} />
+              <Route path="translator" element={<TranslatorPage />} />
               <Route path="more" element={<MorePage />} />
               <Route path="settings" element={<SettingsPage />} />
               <Route path="login" element={<LoginPage />} />
