@@ -97,6 +97,10 @@ export function watchWords(
   cb: (words: Word[], meta: { fromCache: boolean; pending: boolean }) => void,
   onError?: (e: Error) => void,
 ) {
+  if (!getDb()) {
+    cb([], { fromCache: false, pending: false })
+    return () => {}
+  }
   return onSnapshot(
     query(wordsCol(uid), orderBy('createdAt', 'desc')),
     { includeMetadataChanges: true },

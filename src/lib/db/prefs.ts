@@ -23,6 +23,7 @@ function prefsRef(uid: string) {
 }
 
 export function watchPrefs(uid: string, cb: (p: RemotePrefs | null) => void) {
+  if (!getDb()) return () => {}
   return onSnapshot(
     prefsRef(uid),
     (snap) => cb(snap.exists() ? snap.data() : null),
@@ -31,6 +32,7 @@ export function watchPrefs(uid: string, cb: (p: RemotePrefs | null) => void) {
 }
 
 export function savePrefs(uid: string, p: RemotePrefs) {
+  if (!getDb()) return
   // offline promise czeka na serwer, więc nikt tego nie awaituje
-  return setDoc(prefsRef(uid), p).catch(() => {})
+  setDoc(prefsRef(uid), p).catch(() => {})
 }
