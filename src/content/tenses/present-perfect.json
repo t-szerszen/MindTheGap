@@ -9,16 +9,8 @@
   "timeline": {
     "now": 0.65,
     "marks": [
-      {
-        "kind": "point",
-        "from": 0.16,
-        "label": "at some point"
-      },
-      {
-        "kind": "arrow-to-now",
-        "from": 0.36,
-        "label": "result now"
-      }
+      { "kind": "point", "from": 0.16, "label": "at some point" },
+      { "kind": "arrow-to-now", "from": 0.36, "label": "result now" }
     ]
   },
   "howToChoose": [
@@ -31,6 +23,10 @@
       "text_pl": "Coś wydarzyło się wcześniej, ale patrzysz na to z perspektywy TERAZ: liczy się skutek, doświadczenie albo stan, który trwa do dziś."
     },
     {
+      "step_pl": "pułapka",
+      "text_pl": "Jeśli pojawia się zakończony moment (yesterday, last week, when I was ten), to już Past Simple — nawet jeśli po polsku brzmi identycznie."
+    },
+    {
       "step_pl": "forma",
       "text_pl": "have / has + V3. Przeczenie: haven't / hasn't + V3. Pytanie: Have / Has + podmiot + V3?"
     }
@@ -39,43 +35,19 @@
     "active": {
       "affirmative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "have / has",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "have / has", "role": "aux" },
+          { "text": "V3", "role": "verb" }
         ],
-        "example": {
-          "en": "She has finished her essay.",
-          "pl": "Skończyła (już) rozprawkę."
-        },
+        "example": { "en": "She has finished her essay.", "pl": "Skończyła (już) rozprawkę." },
         "note_pl": "he / she / it → has, reszta → have. V3 to trzecia forma: regularne -ed (worked), nieregularne z tabeli (go → gone)."
       },
       "negative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "have / has",
-            "role": "aux"
-          },
-          {
-            "text": "not",
-            "role": "particle"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "have / has", "role": "aux" },
+          { "text": "not", "role": "particle" },
+          { "text": "V3", "role": "verb" }
         ],
         "example": {
           "en": "I haven't seen this film yet.",
@@ -85,103 +57,43 @@
       },
       "question": {
         "pattern": [
-          {
-            "text": "Have / Has",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Have / Has", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "V3", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
-        "example": {
-          "en": "Have you ever been to London?",
-          "pl": "Byłeś kiedyś w Londynie?"
-        },
+        "example": { "en": "Have you ever been to London?", "pl": "Byłeś kiedyś w Londynie?" },
         "note_pl": "ever stoi między podmiotem a V3."
       },
       "whQuestion": {
         "pattern": [
-          {
-            "text": "Wh-word",
-            "role": "neutral"
-          },
-          {
-            "text": "have / has",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Wh-word", "role": "neutral" },
+          { "text": "have / has", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "V3", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
-        "example": {
-          "en": "How long have you known Ola?",
-          "pl": "Jak długo znasz Olę?"
-        },
+        "example": { "en": "How long have you known Ola?", "pl": "Jak długo znasz Olę?" },
         "note_pl": "Gdy pytasz o podmiot (Who? What?), nie ma przestawienia: Who has eaten my sandwich?"
       }
     },
     "passive": {
       "affirmative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "have / has been",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "have / has been", "role": "aux" },
+          { "text": "V3", "role": "verb" }
         ],
-        "example": {
-          "en": "The bridge has been repaired.",
-          "pl": "Most został naprawiony."
-        },
+        "example": { "en": "The bridge has been repaired.", "pl": "Most został naprawiony." },
         "note_pl": "Bierna = have / has + been + V3. Wykonawcę dodajesz przez by, tylko gdy jest ważny."
       },
       "negative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "have / has",
-            "role": "aux"
-          },
-          {
-            "text": "not",
-            "role": "particle"
-          },
-          {
-            "text": "been",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "have / has", "role": "aux" },
+          { "text": "not", "role": "particle" },
+          { "text": "been", "role": "aux" },
+          { "text": "V3", "role": "verb" }
         ],
         "example": {
           "en": "The results haven't been published yet.",
@@ -190,58 +102,22 @@
       },
       "question": {
         "pattern": [
-          {
-            "text": "Have / Has",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "been",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Have / Has", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "been", "role": "aux" },
+          { "text": "V3", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
-        "example": {
-          "en": "Has the parcel been sent?",
-          "pl": "Czy paczka została wysłana?"
-        }
+        "example": { "en": "Has the parcel been sent?", "pl": "Czy paczka została wysłana?" }
       },
       "whQuestion": {
         "pattern": [
-          {
-            "text": "Wh-word",
-            "role": "neutral"
-          },
-          {
-            "text": "have / has",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "been",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Wh-word", "role": "neutral" },
+          { "text": "have / has", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "been", "role": "aux" },
+          { "text": "V3", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
         "example": {
           "en": "Why has the concert been cancelled?",
@@ -250,23 +126,69 @@
       }
     }
   },
+  "modals": [
+    {
+      "modal": "must have",
+      "pattern": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "must", "role": "aux" },
+        { "text": "have", "role": "aux" },
+        { "text": "V3", "role": "verb" }
+      ],
+      "example": {
+        "en": "She must have forgotten about the meeting.",
+        "pl": "Musiała zapomnieć o spotkaniu."
+      },
+      "note_pl": "Pewność co do przeszłości — wnioskujesz z dowodów. To nie jest Present Perfect, tylko ten sam kawałek have + V3 po czasowniku modalnym, i dotyczy przeszłości."
+    },
+    {
+      "modal": "can't have",
+      "pattern": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "can't", "role": "aux" },
+        { "text": "have", "role": "aux" },
+        { "text": "V3", "role": "verb" }
+      ],
+      "example": {
+        "en": "He can't have seen us — he was in Gdańsk all week.",
+        "pl": "Nie mógł nas widzieć — cały tydzień był w Gdańsku."
+      },
+      "note_pl": "Pewność, że coś się NIE wydarzyło. Przeczenie od must have to can't have, a nie mustn't have."
+    },
+    {
+      "modal": "should have",
+      "pattern": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "should", "role": "aux" },
+        { "text": "have", "role": "aux" },
+        { "text": "V3", "role": "verb" }
+      ],
+      "example": {
+        "en": "You should have told me earlier.",
+        "pl": "Powinieneś był powiedzieć mi wcześniej."
+      },
+      "note_pl": "Krytyka albo żal: należało coś zrobić, a tego nie zrobiono."
+    },
+    {
+      "modal": "may / might have",
+      "pattern": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "may / might", "role": "aux" },
+        { "text": "have", "role": "aux" },
+        { "text": "V3", "role": "verb" }
+      ],
+      "example": { "en": "He might have missed the bus.", "pl": "Mógł spóźnić się na autobus." },
+      "note_pl": "Przypuszczenie o przeszłości: możliwe, ale nie pewne."
+    }
+  ],
   "uses": [
     {
       "title_pl": "Doświadczenie życiowe (bez „kiedy”)",
       "explanation_pl": "Mówisz, że coś zdarzyło się (albo nie) kiedykolwiek w twoim życiu aż do teraz. Moment nie jest ważny, więc go nie podajesz. Typowe słowa: ever, never, before, once, twice.",
       "examples": [
-        {
-          "en": "I have never eaten sushi.",
-          "pl": "Nigdy nie jadłem sushi."
-        },
-        {
-          "en": "Have you ever been to Scotland?",
-          "pl": "Byłeś kiedyś w Szkocji?"
-        },
-        {
-          "en": "She has read this book three times.",
-          "pl": "Czytała tę książkę trzy razy."
-        }
+        { "en": "I have never eaten sushi.", "pl": "Nigdy nie jadłem sushi." },
+        { "en": "Have you ever been to Scotland?", "pl": "Byłeś kiedyś w Szkocji?" },
+        { "en": "She has read this book three times.", "pl": "Czytała tę książkę trzy razy." }
       ]
     },
     {
@@ -281,49 +203,146 @@
           "en": "She has just left — you've missed her.",
           "pl": "Właśnie wyszła — minąłeś się z nią."
         },
+        { "en": "Have you finished your homework yet?", "pl": "Skończyłeś już pracę domową?" }
+      ]
+    },
+    {
+      "title_pl": "Stan, który trwa do teraz (for / since)",
+      "explanation_pl": "Sytuacja zaczęła się w przeszłości i trwa nadal. for = jak długo (for three years), since = od kiedy (since 2019). Po polsku mówimy wtedy w czasie teraźniejszym („mieszkam tu od…”), dlatego tak łatwo o błąd.",
+      "examples": [
         {
-          "en": "Have you finished your homework yet?",
-          "pl": "Skończyłeś już pracę domową?"
+          "en": "We have lived in Kraków since 2018.",
+          "pl": "Mieszkamy w Krakowie od 2018 roku."
+        },
+        { "en": "I've known Kasia for ten years.", "pl": "Znam Kasię od dziesięciu lat." }
+      ]
+    },
+    {
+      "title_pl": "Okres, który jeszcze trwa (today, this week, so far)",
+      "explanation_pl": "Jeśli okres się nie skończył (today, this week, this year, so far), liczysz wszystko od jego początku do teraz.",
+      "examples": [
+        { "en": "I've drunk three cups of coffee today.", "pl": "Wypiłem dziś trzy kawy." },
+        {
+          "en": "We haven't had any tests this week.",
+          "pl": "W tym tygodniu nie mieliśmy żadnych sprawdzianów."
+        },
+        { "en": "So far, she has written two chapters.", "pl": "Jak dotąd napisała dwa rozdziały." }
+      ]
+    },
+    {
+      "title_pl": "Nowość, a potem szczegóły",
+      "explanation_pl": "Wiadomość często zaczyna się od Present Perfect (co się stało — ważne teraz), a szczegóły z konkretnym czasem lecą już w Past Simple.",
+      "examples": [
+        {
+          "en": "Our school has won the national debating competition! The final took place in Warsaw last Friday.",
+          "pl": "Nasza szkoła wygrała ogólnopolski konkurs debat! Finał odbył się w Warszawie w zeszły piątek."
         }
       ]
     }
   ],
   "signalWords": [
+    { "word": "ever", "note_pl": "kiedykolwiek — głównie w pytaniach" },
+    { "word": "never", "note_pl": "nigdy (do teraz)" },
+    { "word": "just", "note_pl": "właśnie — stoi przed V3" },
+    { "word": "already", "note_pl": "już — zwykle w twierdzeniach" },
+    { "word": "yet", "note_pl": "już? / jeszcze nie — w pytaniach i przeczeniach, na końcu" },
+    { "word": "for", "note_pl": "+ okres: for two years" },
+    { "word": "since", "note_pl": "+ punkt startowy: since Monday, since 2019" },
+    { "word": "so far", "note_pl": "jak dotąd" },
     {
-      "word": "ever",
-      "note_pl": "kiedykolwiek — głównie w pytaniach"
+      "word": "recently",
+      "note_pl": "ostatnio (bywa też z Past Simple, gdy podajesz konkretne wydarzenie)"
     },
+    { "word": "before", "note_pl": "wcześniej, przedtem — na końcu zdania" },
+    { "word": "today / this week", "note_pl": "okres, który jeszcze się nie skończył" },
     {
-      "word": "never",
-      "note_pl": "nigdy (do teraz)"
-    },
-    {
-      "word": "just",
-      "note_pl": "właśnie — stoi przed V3"
-    },
-    {
-      "word": "already",
-      "note_pl": "już — zwykle w twierdzeniach"
-    },
-    {
-      "word": "yet",
-      "note_pl": "już? / jeszcze nie — w pytaniach i przeczeniach, na końcu"
-    },
-    {
-      "word": "for",
-      "note_pl": "+ okres: for two years"
-    },
-    {
-      "word": "since",
-      "note_pl": "+ punkt startowy: since Monday, since 2019"
+      "word": "It's the first time…",
+      "note_pl": "po tym zwrocie Present Perfect: It's the first time I've seen snow."
     }
   ],
   "relatedTenses": [
     {
       "id": "past-simple",
-      "relation_pl": "Past Simple, gdy podajesz (albo masz w głowie) konkretny, zakończony moment. Present Perfect, gdy moment jest nieważny, a liczy się związek z teraz."
+      "relation_pl": "Past Simple, gdy podajesz (albo masz w głowie) konkretny, zakończony moment. Present Perfect, gdy moment jest nieważny, a liczy się związek z teraz.",
+      "contrast": [
+        { "en": "I've seen this film.", "pl": "Widziałem ten film (kiedyś — wiem, o czym jest)." },
+        {
+          "en": "I saw this film last weekend.",
+          "pl": "Widziałem ten film w zeszły weekend (konkretny moment)."
+        },
+        {
+          "en": "She has worked here for five years.",
+          "pl": "Pracuje tu od pięciu lat (i dalej pracuje)."
+        },
+        {
+          "en": "She worked here for five years.",
+          "pl": "Pracowała tu przez pięć lat (już nie pracuje)."
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-continuous",
+      "relation_pl": "Oba łączą przeszłość z teraz. Present Perfect skupia się na wyniku (ile, co gotowe), Continuous — na samej czynności i na tym, jak długo trwa.",
+      "contrast": [
+        {
+          "en": "I've written three emails this morning.",
+          "pl": "Napisałem dziś rano trzy maile (wynik, liczba)."
+        },
+        {
+          "en": "I've been writing emails all morning.",
+          "pl": "Cały ranek piszę maile (czynność, czas trwania)."
+        }
+      ]
+    },
+    {
+      "id": "past-perfect",
+      "relation_pl": "Past Perfect to ten sam pomysł (coś wcześniej + skutek), tylko przesunięty w przeszłość: punktem odniesienia nie jest TERAZ, ale inny moment w przeszłości.",
+      "contrast": [
+        { "en": "I'm not hungry — I've already eaten.", "pl": "Nie jestem głodny — już jadłem." },
+        {
+          "en": "I wasn't hungry — I had already eaten.",
+          "pl": "Nie byłem głodny — zjadłem już wcześniej."
+        }
+      ]
     }
   ],
-  "commonMistakes": [],
-  "maturaTips_pl": []
+  "commonMistakes": [
+    {
+      "wrong": "I have seen him yesterday.",
+      "right": "I saw him yesterday.",
+      "why_pl": "yesterday to konkretny, zakończony moment → Past Simple. Present Perfect nie łączy się z yesterday, ago, last week ani in 2020."
+    },
+    {
+      "wrong": "I live here since 2019.",
+      "right": "I have lived here since 2019.",
+      "why_pl": "Po polsku „mieszkam tu od 2019” jest w czasie teraźniejszym, ale po angielsku stan od przeszłości do teraz wymaga Present Perfect."
+    },
+    {
+      "wrong": "How long do you know Tom?",
+      "right": "How long have you known Tom?",
+      "why_pl": "„Jak długo (aż do teraz)?” to pytanie o okres zaczęty w przeszłości → Present Perfect, mimo że po polsku pytamy w teraźniejszym."
+    },
+    {
+      "wrong": "She has went to school.",
+      "right": "She has gone to school.",
+      "why_pl": "Po have / has zawsze trzecia forma (V3), nie druga: go – went – gone."
+    },
+    {
+      "wrong": "She has been to the shop — she'll be back in five minutes.",
+      "right": "She has gone to the shop — she'll be back in five minutes.",
+      "why_pl": "has gone to = poszła i dalej tam jest. has been to = była i już wróciła (albo: była kiedyś, doświadczenie)."
+    },
+    {
+      "wrong": "I've had this phone since two years.",
+      "right": "I've had this phone for two years.",
+      "why_pl": "for + okres (two years, a week), since + punkt startowy (2019, Monday, I was ten)."
+    }
+  ],
+  "maturaTips_pl": [
+    "Zanim wpiszesz have / has + V3, przeczytaj całe zdanie: jedno yesterday albo ago gdziekolwiek zmienia wszystko na Past Simple.",
+    "Częsta transformacja: I've never seen such a big dog before. = It's the first time I've seen such a big dog.",
+    "Trzy wersje tego samego: It's two years since I last saw him. = I haven't seen him for two years. = The last time I saw him was two years ago.",
+    "Skróty w lukach są w porządku, ale uważaj: she's to she is albo she has. She's gone = she has gone.",
+    "W e-mailu Present Perfect świetnie otwiera nowinę: I've just passed my driving test! — brzmi naturalnie i pokazuje zakres struktur."
+  ]
 }
