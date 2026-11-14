@@ -8,15 +8,19 @@ export function NoteState({
   children,
   color = 'y',
   tilt = -1,
+  level = 2,
 }: {
   title: string
   children?: ReactNode
   color?: NoteColor
   tilt?: Tilt
+  // 1, gdy karteczka jest jedyną treścią ekranu (bramka logowania, brak strony)
+  level?: 1 | 2
 }) {
+  const H = level === 1 ? 'h1' : 'h2'
   return (
     <Sticky color={color} tilt={tilt} tape={{ color: 'm' }} className="center-note-card">
-      <p className="h-m">{title}</p>
+      <H className="h-m">{title}</H>
       {children && <div style={{ marginTop: 8 }}>{children}</div>}
     </Sticky>
   )
@@ -34,7 +38,7 @@ export function NotFound() {
   return (
     <div className="sheet ruled page-in">
       <div className="center-note">
-        <NoteState title={pl.common.notFound} color="p">
+        <NoteState title={pl.common.notFound} color="p" level={1}>
           <Link className="link-pen" to="/">
             {pl.common.toStart}
           </Link>

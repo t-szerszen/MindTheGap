@@ -11,7 +11,7 @@ export function RequireAuth({ children }: { children: ReactNode }) {
   if (!ready) return <Loading />
   if (user) return children
   return (
-    <NoteState title={pl.auth.gateTitle} color="b" tilt={1}>
+    <NoteState title={pl.auth.gateTitle} color="b" tilt={1} level={1}>
       <p className="small">{configured ? pl.auth.gateText : pl.auth.notConfigured}</p>
       {configured && (
         <Link
