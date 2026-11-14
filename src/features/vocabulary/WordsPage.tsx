@@ -27,7 +27,7 @@ function sortWords(words: Word[], sort: Sort) {
 
 export function WordsPage() {
   const { user } = useAuth()
-  const { words, loading } = useWords()
+  const { words, loading, error } = useWords()
   const [params, setParams] = useSearchParams()
   const [sort, setSort] = useState<Sort>('newest')
   const [tag, setTag] = useState<string | null>(null)
@@ -69,6 +69,12 @@ export function WordsPage() {
           <Scribble width={200} />
         </div>
       </header>
+
+      {error && (
+        <p className="note" role="alert" style={{ marginTop: 8 }}>
+          {pl.settings.syncError}
+        </p>
+      )}
 
       <div className="row wrap" style={{ gap: 12, marginTop: 14 }}>
         <Link className="btn btn-mint" to="/review" aria-disabled={due === 0}>
