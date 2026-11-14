@@ -197,3 +197,15 @@
   margin-top: 28px;
   padding: 26px 18px 18px;
 }
+
+.avatar {
+  --cc: var(--pen-blue);
+  width: 52px;
+  height: 52px;
+  display: grid;
+  place-items: center;
+  font-family: var(--f-hand);
+  font-weight: 700;
+  font-size: 30px;
+  color: var(--pen-blue);
+}

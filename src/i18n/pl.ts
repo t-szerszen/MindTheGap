@@ -44,6 +44,9 @@ export const pl = {
     calm: 'Ogranicz animacje',
     calmHint: 'zakreślacz i kartki pojawią się od razu',
     version: 'Mind the Gap · wersja 0.1',
+    account: 'Konto',
+    noName: 'Bez imienia',
+    loggedOut: 'Nie jesteś zalogowany — teoria działa, ale fiszki i postęp wymagają konta.',
   },
   more: {
     title: 'Wszystko poza czasami',

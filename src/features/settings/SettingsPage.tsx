@@ -4,6 +4,7 @@ import { Icon } from '../../components/Icon'
 import { Scribble } from '../../components/Ink'
 import { pl } from '../../i18n/pl'
 import { setPrefs, systemIsDark, usePrefs } from './prefs'
+import { AccountSection } from './AccountSection'
 import { ThemePicker } from './ThemePicker'
 
 export function SettingsPage() {
@@ -39,6 +40,8 @@ export function SettingsPage() {
             <Switch checked={calm} onChange={(v) => setPrefs({ calm: v })} labelledBy="calm-l" />
           </div>
         </section>
+
+        <AccountSection />
 
         <p className="note ink" style={{ fontSize: 13, marginTop: 28 }}>
           {t.version}
