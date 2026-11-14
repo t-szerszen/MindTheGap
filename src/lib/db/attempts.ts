@@ -8,6 +8,7 @@ import {
   setDoc,
   Timestamp,
 } from 'firebase/firestore'
+import { markActivity } from './activity'
 import { getDb } from './firebase'
 
 export type Attempt = {
@@ -62,4 +63,5 @@ export function addAttempt(
   if (!db) return
   const ref = doc(collection(db, 'users', uid, 'exerciseAttempts'))
   setDoc(ref, { ...a, answer: a.answer.slice(0, 200), at: Timestamp.fromDate(now) }).catch(() => {})
+  markActivity(uid, now)
 }

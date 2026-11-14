@@ -15,6 +15,7 @@ import {
 } from 'firebase/firestore'
 import { newCard, type CardState } from '../srs'
 import type { Direction } from '../translate'
+import { markActivity } from './activity'
 import { getDb } from './firebase'
 
 export type Word = CardState & {
@@ -123,6 +124,7 @@ export function addWord(uid: string, input: WordInput, now = new Date()) {
     ...stateFields(newCard(now)),
   }
   setDoc(ref, data).catch(() => {})
+  markActivity(uid, now)
   return ref.id
 }
 
@@ -139,6 +141,7 @@ export function updateWord(uid: string, id: string, input: WordInput) {
 }
 
 export function saveReview(uid: string, id: string, state: CardState) {
+  markActivity(uid)
   return withDb(() => updateDoc(wordDoc(uid, id), stateFields(state)))
 }
 
