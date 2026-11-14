@@ -1,4 +1,4 @@
-// ścieżki z /design (krzywe celowo); cards, more, trash i chart dorysowane w tym samym stylu
+// ścieżki z makiety (krzywe celowo); cards, more, trash i chart dorysowane w tym samym stylu
 const paths = {
   home: 'M3.8 11.6 12.1 4.3l8.1 7.4M6.3 9.8l.2 9.6h11.2l-.1-9.7M10.2 19.3v-5.2h3.7l.1 5.1',
   clock:
