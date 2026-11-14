@@ -5,6 +5,8 @@ import { AuthProvider } from './features/auth/AuthProvider'
 import { LoginPage } from './features/auth/LoginPage'
 import { RequireAuth } from './features/auth/RequireAuth'
 import { AttemptsProvider } from './features/exercises/AttemptsProvider'
+import { ExercisesPage } from './features/exercises/ExercisesPage'
+import { SessionPage } from './features/exercises/SessionPage'
 import { PrefsSync } from './features/settings/PrefsSync'
 import { LeechesPage } from './features/vocabulary/LeechesPage'
 import { ReviewPage } from './features/vocabulary/ReviewPage'
@@ -62,6 +64,8 @@ export function App() {
                     </Page>
                   }
                 />
+                <Route path="exercises" element={<ExercisesPage />} />
+                <Route path="exercises/session" element={<SessionPage />} />
                 <Route path="more" element={<MorePage />} />
                 <Route path="settings" element={<SettingsPage />} />
                 <Route path="login" element={<LoginPage />} />
