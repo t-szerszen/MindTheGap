@@ -23,6 +23,7 @@ function load(): Prefs {
 
 let current = load()
 const listeners = new Set<() => void>()
+const userListeners = new Set<(p: Prefs) => void>()
 
 function apply(p: Prefs) {
   const root = document.documentElement
@@ -39,7 +40,8 @@ function apply(p: Prefs) {
   })
 }
 
-export function setPrefs(patch: Partial<Prefs>) {
+// source = 'remote', kiedy zmiana przyszła z Firestore (wtedy nie odsyłamy jej z powrotem)
+export function setPrefs(patch: Partial<Prefs>, source: 'user' | 'remote' = 'user') {
   const next = { ...current, ...patch }
   if (next.theme === current.theme && next.calm === current.calm) return
   current = next
@@ -52,6 +54,14 @@ export function setPrefs(patch: Partial<Prefs>) {
   }
   apply(next)
   listeners.forEach((l) => l())
+  if (source === 'user') userListeners.forEach((l) => l(next))
+}
+
+export function onUserPrefsChange(l: (p: Prefs) => void) {
+  userListeners.add(l)
+  return () => {
+    userListeners.delete(l)
+  }
 }
 
 export function getPrefs() {
@@ -60,7 +70,9 @@ export function getPrefs() {
 
 function subscribe(l: () => void) {
   listeners.add(l)
-  return () => listeners.delete(l)
+  return () => {
+    listeners.delete(l)
+  }
 }
 
 export function usePrefs() {
