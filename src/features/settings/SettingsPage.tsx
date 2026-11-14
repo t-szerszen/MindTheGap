@@ -6,6 +6,7 @@ import { pl } from '../../i18n/pl'
 import { setPrefs, systemIsDark, usePrefs } from './prefs'
 import { AccountSection } from './AccountSection'
 import { ThemePicker } from './ThemePicker'
+import { UsageSection } from './UsageSection'
 
 export function SettingsPage() {
   const { calm } = usePrefs()
@@ -41,6 +42,7 @@ export function SettingsPage() {
           </div>
         </section>
 
+        <UsageSection />
         <AccountSection />
 
         <p className="note ink" style={{ fontSize: 13, marginTop: 28 }}>
