@@ -1,5 +1,12 @@
 import { describe, expect, it } from 'vitest'
-import { englishSide, findDuplicate, normalizeText, parseTags, polishSide } from './index'
+import {
+  englishSide,
+  findDuplicate,
+  normalizeText,
+  parseTags,
+  polishSide,
+  wordsToCsv,
+} from './index'
 
 const saved = [
   { term: 'na dłuższą metę', translation: 'in the long run', direction: 'pl-en' as const },
@@ -41,5 +48,25 @@ describe('findDuplicate', () => {
 describe('parseTags', () => {
   it('przecinki, małe litery, bez powtórek i pustych', () => {
     expect(parseTags('Idiom, rozprawka,, idiom ,e-mail')).toEqual(['idiom', 'rozprawka', 'e-mail'])
+  })
+})
+
+describe('wordsToCsv', () => {
+  it('nagłówek i cudzysłowy tam, gdzie trzeba', () => {
+    const csv = wordsToCsv([
+      {
+        term: 'despite',
+        translation: 'pomimo',
+        direction: 'en-pl',
+        example: 'Despite the rain, we went "out".',
+        tags: ['spójniki', 'kontrast'],
+        attempts: 3,
+        correct: 2,
+      },
+    ])
+    expect(csv.split('\n')).toEqual([
+      'english,polish,example,tags,attempts,correct',
+      'despite,pomimo,"Despite the rain, we went ""out"".","spójniki, kontrast",3,2',
+    ])
   })
 })

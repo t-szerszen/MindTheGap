@@ -35,3 +35,20 @@ export function parseTags(input: string) {
   }
   return out
 }
+
+function csvCell(v: string | number) {
+  const s = String(v)
+  return /[",\n;]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s
+}
+
+export function wordsToCsv(
+  words: (Pair & { example?: string; tags: string[]; attempts: number; correct: number })[],
+) {
+  const head = ['english', 'polish', 'example', 'tags', 'attempts', 'correct']
+  const rows = words.map((w) =>
+    [englishSide(w), polishSide(w), w.example ?? '', w.tags.join(', '), w.attempts, w.correct]
+      .map(csvCell)
+      .join(','),
+  )
+  return [head.join(','), ...rows].join('\n')
+}

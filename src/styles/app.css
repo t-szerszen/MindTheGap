@@ -812,3 +812,23 @@
   flex: none;
   font-size: 13px;
 }
+
+.sync-card {
+  margin-top: 26px;
+  padding: 14px 16px;
+}
+.sync-ico {
+  color: var(--pen-green);
+}
+.sync-kv {
+  margin-top: 10px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 4px 12px;
+}
+.sync-kv dt {
+  font-size: 16px;
+}
+.sync-kv dd {
+  font-size: 20px;
+  text-align: right;
+}
