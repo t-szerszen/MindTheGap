@@ -747,3 +747,68 @@
     align-items: start;
   }
 }
+
+/* start */
+.home-card {
+  display: block;
+  margin-top: 16px;
+  padding: 16px 16px 12px;
+  color: inherit;
+  text-decoration: none;
+}
+.home-review {
+  margin-top: 20px;
+  padding: 8px 16px 8px;
+}
+.mini-deck {
+  position: relative;
+  width: 40px;
+  height: 28px;
+  margin-right: 6px;
+}
+.mini-deck i {
+  position: absolute;
+  inset: 0;
+  box-shadow: var(--shadow-sm);
+}
+.mini-deck i:nth-child(1) {
+  background: var(--note-p);
+  rotate: 8deg;
+}
+.mini-deck i:nth-child(2) {
+  background: var(--note-b);
+  rotate: -4deg;
+}
+.mini-deck i:nth-child(3) {
+  background: var(--card);
+  border: 1.5px solid var(--ink);
+  rotate: 2deg;
+}
+.tally-row {
+  gap: 2px;
+  flex-wrap: wrap;
+}
+.recent {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 8px;
+}
+.recent-mark {
+  flex: none;
+  width: 20px;
+  color: var(--pen-blue);
+}
+.recent-mark.bad,
+.recent-mark.ok {
+  color: var(--pen-red);
+}
+.recent-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.recent-at {
+  flex: none;
+  font-size: 13px;
+}

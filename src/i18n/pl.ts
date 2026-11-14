@@ -45,6 +45,34 @@ export const pl = {
     subject: 'do języka angielskiego · matura',
     nameLabel: 'imię:',
     title: 'Na dziś',
+    continue: 'Kontynuuj ćwiczenia',
+    continueSub: 'rozpoczęta seria',
+    next: 'Dalej',
+    start: 'Zacznij ćwiczenia',
+    startSub: 'zdania z lukami, bez podpowiedzi czasu',
+    reviewTitle: 'Powtórz zapisane',
+    due: (n: number) =>
+      n
+        ? `${n} ${plural(n, 'fiszka czeka', 'fiszki czekają', 'fiszek czeka')} na powtórkę`
+        : 'Wszystko powtórzone na dziś',
+    saved: (n: number) => `${n} ${plural(n, 'słówko', 'słówka', 'słówek')} w fiszkach`,
+    example: (w: string) => `np. „${w}”`,
+    reviewLink: 'Powtórka',
+    streak: 'Seria',
+    streakDays: (n: number) =>
+      n ? `${n} ${plural(n, 'dzień', 'dni', 'dni')} z rzędu!` : 'Zacznij serię dzisiaj',
+    tallyLabel: (n: number, today: boolean) =>
+      `${n} ${plural(n, 'kreska', 'kreski', 'kresek')}: ${n} ${plural(n, 'dzień', 'dni', 'dni')} nauki z rzędu${today ? ', ostatni dzisiaj' : ''}`,
+    weekLabel: 'Ten tydzień',
+    recent: 'Ostatnio',
+    recentEmpty: 'Tu pojawią się twoje ostatnie ćwiczenia i słówka.',
+    savedWord: 'zapisano',
+    reviewed: 'powtórka',
+    loginTitle: 'Zaloguj się',
+    loginText:
+      'Fiszki, seria i postęp wymagają konta, żeby były te same na telefonie i komputerze. Teoria, ćwiczenia i tłumacz działają bez niego.',
+    goTenses: 'Czasy od podstaw',
+    goTranslator: 'Tłumacz',
   },
   settings: {
     title: 'Ustawienia',
