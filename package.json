@@ -10,7 +10,8 @@
     "typecheck": "tsc -b",
     "lint": "eslint . && prettier --check --no-error-on-unmatched-pattern src scripts worker .github README.md \"*.{js,ts,json}\"",
     "format": "prettier --write --no-error-on-unmatched-pattern src scripts worker .github README.md \"*.{js,ts,json}\"",
-    "test": "vitest run"
+    "test": "vitest run --passWithNoTests",
+    "check": "npm run typecheck && npm run lint && npm run test"
   },
   "dependencies": {
     "react": "^19.3.1",
