@@ -6,6 +6,8 @@ import { PrefsSync } from './features/settings/PrefsSync'
 import { NotFound } from './components/States'
 import { HomePage } from './features/home/HomePage'
 import { SettingsPage } from './features/settings/SettingsPage'
+import { TensePage } from './features/tenses/TensePage'
+import { TensesIndexPage } from './features/tenses/TensesIndexPage'
 import { MorePage } from './features/topics/MorePage'
 
 export function App() {
@@ -17,6 +19,8 @@ export function App() {
         <Routes>
           <Route element={<Shell />}>
             <Route index element={<HomePage />} />
+            <Route path="tenses" element={<TensesIndexPage />} />
+            <Route path="tenses/:id" element={<TensePage />} />
             <Route path="more" element={<MorePage />} />
             <Route path="settings" element={<SettingsPage />} />
             <Route path="login" element={<LoginPage />} />
