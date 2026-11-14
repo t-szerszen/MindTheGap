@@ -6,6 +6,7 @@ import { LoginPage } from './features/auth/LoginPage'
 import { RequireAuth } from './features/auth/RequireAuth'
 import { PrefsSync } from './features/settings/PrefsSync'
 import { LeechesPage } from './features/vocabulary/LeechesPage'
+import { ReviewPage } from './features/vocabulary/ReviewPage'
 import { WordsPage } from './features/vocabulary/WordsPage'
 import { WordsProvider } from './features/vocabulary/WordsProvider'
 import { NotFound } from './components/States'
@@ -45,6 +46,16 @@ export function App() {
                   <Page>
                     <RequireAuth>
                       <LeechesPage />
+                    </RequireAuth>
+                  </Page>
+                }
+              />
+              <Route
+                path="review"
+                element={
+                  <Page paper="desk">
+                    <RequireAuth>
+                      <ReviewPage />
                     </RequireAuth>
                   </Page>
                 }
