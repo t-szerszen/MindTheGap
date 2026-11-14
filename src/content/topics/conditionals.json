@@ -1,0 +1,84 @@
+{
+  "id": "conditionals",
+  "category": "grammar",
+  "title_pl": "Tryby warunkowe (0, 1, 2, 3)",
+  "summary_pl": "Jak zbudować zdanie z if i skąd wiadomo, który tryb wybrać.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "Zdanie warunkowe ma dwie części: warunek z **if** i skutek. Tryb wybierasz po tym, **jak realny** jest warunek i **kiedy** się dzieje.\n\nCzęści można zamienić miejscami. Przecinek stawiasz, gdy zdanie zaczyna się od if."
+    },
+    {
+      "type": "table",
+      "headers": ["Tryb", "Warunek (if)", "Skutek", "Kiedy?"],
+      "rows": [
+        ["0", "Present Simple", "Present Simple", "fakty i prawdy ogólne"],
+        ["1", "Present Simple", "will + V1", "realna przyszłość"],
+        ["2", "Past Simple", "would + V1", "nierealne teraz albo mało prawdopodobne"],
+        ["3", "Past Perfect", "would have + V3", "przeszłość, której nie da się zmienić"]
+      ]
+    },
+    {
+      "type": "examples",
+      "items": [
+        { "en": "If you heat ice, it melts.", "pl": "Jeśli podgrzejesz lód, topnieje." },
+        {
+          "en": "If it rains tomorrow, we'll stay at home.",
+          "pl": "Jeśli jutro będzie padać, zostaniemy w domu."
+        },
+        {
+          "en": "If I had more time, I would learn Spanish.",
+          "pl": "Gdybym miał więcej czasu, uczyłbym się hiszpańskiego."
+        },
+        {
+          "en": "If I had known about the party, I would have come.",
+          "pl": "Gdybym wiedział o imprezie, przyszedłbym."
+        }
+      ]
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "If", "role": "signal" },
+        { "text": "subject", "role": "subject" },
+        { "text": "had", "role": "aux" },
+        { "text": "V3", "role": "verb" },
+        { "text": ",", "role": "neutral" },
+        { "text": "subject", "role": "subject" },
+        { "text": "would have", "role": "aux" },
+        { "text": "V3", "role": "verb" }
+      ],
+      "example": {
+        "en": "If you had told me, I would have helped you.",
+        "pl": "Gdybyś mi powiedział, pomógłbym ci."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "W części z **if** nie stawiasz **will** ani **would**. Nie *If it will rain…*, tylko **If it rains…**."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "W drugim trybie przy *I / he / she / it* możesz użyć **were**: *If I were you, I would…* — to typowy zwrot, kiedy dajesz radę."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "kiedy?",
+          "text_pl": "Chodzi o przeszłość (której nie da się zmienić), czy o teraz / przyszłość?"
+        },
+        {
+          "step_pl": "jak realne?",
+          "text_pl": "Realne i prawdopodobne → 1. Wyobrażone albo mało prawdopodobne → 2. Przeszłość, która się nie wydarzyła → 3."
+        },
+        {
+          "step_pl": "forma",
+          "text_pl": "Dobierz parę: Present + will, Past + would, Past Perfect + would have + V3."
+        }
+      ]
+    }
+  ]
+}
