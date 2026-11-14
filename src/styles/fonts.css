@@ -1,0 +1,11 @@
+/* fonty lokalnie, żeby działały offline; latin-ext dla polskich znaków */
+@import '@fontsource/caveat/latin-500.css';
+@import '@fontsource/caveat/latin-ext-500.css';
+@import '@fontsource/caveat/latin-700.css';
+@import '@fontsource/caveat/latin-ext-700.css';
+@import '@fontsource/kalam/latin-400.css';
+@import '@fontsource/kalam/latin-ext-400.css';
+@import '@fontsource/kalam/latin-700.css';
+@import '@fontsource/kalam/latin-ext-700.css';
+@import '@fontsource/patrick-hand/latin-400.css';
+@import '@fontsource/patrick-hand/latin-ext-400.css';

@@ -1,0 +1,257 @@
+/* tokeny przepisane z /design; jasny = krem, ciemny = grafit */
+
+:root {
+  --paper: #f7f0e1;
+  --paper-2: #eee3cb;
+  --paper-3: #e4d5b6;
+  --card: #fcf8ef;
+  --desk: #d6c3a0;
+  --ink: #27262e;
+  --ink-2: #4f4d57;
+  --pencil: #6a665e;
+  --faint: #b3aa97;
+  --pen-blue: #1f4fa0;
+  --pen-red: #c42b23;
+  --pen-green: #1d7348;
+  --rule: rgba(62, 104, 168, 0.2);
+  --rule-2: rgba(62, 104, 168, 0.36);
+  --margin: #e2867b;
+
+  /* zakreślacze: kolor = rola w zdaniu */
+  --hl-y: #ffe45a;
+  --hl-p: #ffb0d3;
+  --hl-m: #a3ebc6;
+  --hl-b: #afd6ff;
+  --hl-o: #ffc47e;
+  --hl-y-e: transparent;
+  --hl-p-e: transparent;
+  --hl-m-e: transparent;
+  --hl-b-e: transparent;
+  --hl-o-e: transparent;
+
+  --note-y: #fff0a3;
+  --note-p: #ffd6e6;
+  --note-m: #d2f3e0;
+  --note-b: #d7e8ff;
+  --note-o: #ffe0bf;
+
+  --tape-p: rgba(240, 128, 170, 0.5);
+  --tape-m: rgba(92, 190, 152, 0.5);
+  --tape-y: rgba(240, 190, 60, 0.55);
+  --tape-b: rgba(100, 160, 228, 0.45);
+  --tape-stripe: rgba(255, 255, 255, 0.3);
+
+  --tab-pres: #f2d5b1;
+  --tab-past: #d4e2c0;
+  --tab-fut: #c9dcf0;
+  --cover: #2c5882;
+  --cover-ink: #f7f0e1;
+  --label: #fbf7ec;
+  --band: #b8452f;
+  --ring-1: #eceae5;
+  --ring-2: #8e8b84;
+  --star: #ffce2e;
+
+  --shadow: 0 1px 1px rgba(70, 45, 10, 0.08), 0 8px 16px -8px rgba(70, 45, 10, 0.38);
+  --shadow-sm: 0 1px 1px rgba(70, 45, 10, 0.08), 0 3px 7px -3px rgba(70, 45, 10, 0.32);
+  --grain-o: 1;
+  --speck: rgba(105, 75, 35, 0.16);
+  --speck-2: rgba(80, 55, 25, 0.1);
+  --sheet-shadow: rgba(70, 45, 10, 0.13);
+
+  --f-hand: 'Caveat', 'Segoe Print', 'Bradley Hand', cursive;
+  --f-note: 'Kalam', 'Segoe Print', 'Comic Sans MS', cursive;
+  --f-body: 'Patrick Hand', 'Segoe Print', 'Comic Sans MS', cursive;
+
+  --line: 32px;
+  --mx: 26px;
+  --s1: 4px;
+  --s2: 8px;
+  --s3: 12px;
+  --s4: 16px;
+  --s5: 24px;
+  --s6: 32px;
+  --s7: 48px;
+  /* krzywe rogi, żeby ramki wyglądały na rysowane ręką */
+  --r1: 255px 15px 225px 15px/15px 225px 15px 255px;
+  --r2: 15px 255px 15px 225px/225px 15px 255px 15px;
+  --r3: 28px 190px 22px 210px/200px 24px 210px 20px;
+
+  --ease-pen: cubic-bezier(0.65, 0.05, 0.36, 1);
+  --t-draw: 600ms;
+  --t-write: 900ms;
+  --t-page: 420ms;
+  --t-check: 450ms;
+  --t-flip: 600ms;
+
+  --torn-b-p: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 7px),
+    97% calc(100% - 2px),
+    94% calc(100% - 8px),
+    90% calc(100% - 3px),
+    86% calc(100% - 9px),
+    82% calc(100% - 2px),
+    77% calc(100% - 6px),
+    73% 100%,
+    69% calc(100% - 7px),
+    64% calc(100% - 3px),
+    60% calc(100% - 9px),
+    55% calc(100% - 2px),
+    51% calc(100% - 6px),
+    46% calc(100% - 1px),
+    42% calc(100% - 8px),
+    37% calc(100% - 3px),
+    33% calc(100% - 7px),
+    28% 100%,
+    24% calc(100% - 6px),
+    19% calc(100% - 2px),
+    15% calc(100% - 8px),
+    10% calc(100% - 3px),
+    6% calc(100% - 7px),
+    3% calc(100% - 1px),
+    0 calc(100% - 5px)
+  );
+  --torn-t-p: polygon(
+    0 6px,
+    4% 1px,
+    8% 7px,
+    12% 2px,
+    17% 8px,
+    21% 3px,
+    26% 6px,
+    30% 0,
+    35% 7px,
+    39% 2px,
+    44% 9px,
+    48% 3px,
+    53% 6px,
+    57% 1px,
+    62% 8px,
+    66% 2px,
+    71% 6px,
+    75% 0,
+    80% 7px,
+    84% 3px,
+    89% 8px,
+    93% 2px,
+    97% 6px,
+    100% 1px,
+    100% 100%,
+    0 100%
+  );
+
+  color-scheme: light;
+}
+
+/* ten sam blok dwa razy: raz dla wyboru ręcznego, raz dla systemowego */
+:root[data-theme='dark'] {
+  --paper: #1f2427;
+  --paper-2: #181c1f;
+  --paper-3: #2c3236;
+  --card: #272d31;
+  --desk: #0f1214;
+  --ink: #eee9dd;
+  --ink-2: #c4bfb3;
+  --pencil: #a39e93;
+  --faint: #5e5c57;
+  --pen-blue: #8fbcff;
+  --pen-red: #ff7d70;
+  --pen-green: #73dca8;
+  --rule: rgba(238, 233, 221, 0.075);
+  --rule-2: rgba(238, 233, 221, 0.16);
+  --margin: rgba(255, 125, 112, 0.42);
+  --hl-y: rgba(242, 212, 70, 0.32);
+  --hl-p: rgba(255, 128, 184, 0.32);
+  --hl-m: rgba(96, 222, 170, 0.3);
+  --hl-b: rgba(120, 178, 255, 0.32);
+  --hl-o: rgba(255, 166, 82, 0.32);
+  --hl-y-e: #f2d446;
+  --hl-p-e: #ff80b8;
+  --hl-m-e: #60deaa;
+  --hl-b-e: #78b2ff;
+  --hl-o-e: #ffa652;
+  --note-y: #47412a;
+  --note-p: #4a2e3b;
+  --note-m: #244238;
+  --note-b: #273a52;
+  --note-o: #4a3424;
+  --tape-p: rgba(255, 128, 184, 0.3);
+  --tape-m: rgba(96, 222, 170, 0.28);
+  --tape-y: rgba(242, 212, 70, 0.3);
+  --tape-b: rgba(120, 178, 255, 0.3);
+  --tape-stripe: rgba(255, 255, 255, 0.08);
+  --tab-pres: #4a3a2a;
+  --tab-past: #33402d;
+  --tab-fut: #2c3d4f;
+  --cover: #141719;
+  --cover-ink: #eee9dd;
+  --label: #2a3034;
+  --band: #7e3426;
+  --ring-1: #74787b;
+  --ring-2: #2a2d30;
+  --star: #f2d446;
+  --shadow: 0 1px 1px rgba(0, 0, 0, 0.35), 0 10px 18px -8px rgba(0, 0, 0, 0.75);
+  --shadow-sm: 0 1px 1px rgba(0, 0, 0, 0.35), 0 4px 9px -4px rgba(0, 0, 0, 0.65);
+  --speck: rgba(255, 250, 235, 0.06);
+  --speck-2: rgba(255, 250, 235, 0.04);
+  --sheet-shadow: rgba(0, 0, 0, 0.42);
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --paper: #1f2427;
+    --paper-2: #181c1f;
+    --paper-3: #2c3236;
+    --card: #272d31;
+    --desk: #0f1214;
+    --ink: #eee9dd;
+    --ink-2: #c4bfb3;
+    --pencil: #a39e93;
+    --faint: #5e5c57;
+    --pen-blue: #8fbcff;
+    --pen-red: #ff7d70;
+    --pen-green: #73dca8;
+    --rule: rgba(238, 233, 221, 0.075);
+    --rule-2: rgba(238, 233, 221, 0.16);
+    --margin: rgba(255, 125, 112, 0.42);
+    --hl-y: rgba(242, 212, 70, 0.32);
+    --hl-p: rgba(255, 128, 184, 0.32);
+    --hl-m: rgba(96, 222, 170, 0.3);
+    --hl-b: rgba(120, 178, 255, 0.32);
+    --hl-o: rgba(255, 166, 82, 0.32);
+    --hl-y-e: #f2d446;
+    --hl-p-e: #ff80b8;
+    --hl-m-e: #60deaa;
+    --hl-b-e: #78b2ff;
+    --hl-o-e: #ffa652;
+    --note-y: #47412a;
+    --note-p: #4a2e3b;
+    --note-m: #244238;
+    --note-b: #273a52;
+    --note-o: #4a3424;
+    --tape-p: rgba(255, 128, 184, 0.3);
+    --tape-m: rgba(96, 222, 170, 0.28);
+    --tape-y: rgba(242, 212, 70, 0.3);
+    --tape-b: rgba(120, 178, 255, 0.3);
+    --tape-stripe: rgba(255, 255, 255, 0.08);
+    --tab-pres: #4a3a2a;
+    --tab-past: #33402d;
+    --tab-fut: #2c3d4f;
+    --cover: #141719;
+    --cover-ink: #eee9dd;
+    --label: #2a3034;
+    --band: #7e3426;
+    --ring-1: #74787b;
+    --ring-2: #2a2d30;
+    --star: #f2d446;
+    --shadow: 0 1px 1px rgba(0, 0, 0, 0.35), 0 10px 18px -8px rgba(0, 0, 0, 0.75);
+    --shadow-sm: 0 1px 1px rgba(0, 0, 0, 0.35), 0 4px 9px -4px rgba(0, 0, 0, 0.65);
+    --speck: rgba(255, 250, 235, 0.06);
+    --speck-2: rgba(255, 250, 235, 0.04);
+    --sheet-shadow: rgba(0, 0, 0, 0.42);
+    color-scheme: dark;
+  }
+}
