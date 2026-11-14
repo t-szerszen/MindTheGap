@@ -43,5 +43,5 @@ if (errors.length) {
   process.exit(1)
 }
 console.log(
-  `Treści OK: ${tenses.length} czasów, ${topics.length} tematów, ${phraseSets.length} zestawów zwrotów, ${exercises.length} ćwiczeń.`,
+  `Treści OK — czasy: ${tenses.length}, tematy: ${topics.length}, zestawy zwrotów: ${phraseSets.length}, ćwiczenia: ${exercises.length}`,
 )

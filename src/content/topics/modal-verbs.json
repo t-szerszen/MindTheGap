@@ -1,0 +1,99 @@
+{
+  "id": "modal-verbs",
+  "category": "modals",
+  "title_pl": "Czasowniki modalne — podstawy",
+  "summary_pl": "can, could, must, have to, should, may, might: co znaczą i czym się różnią.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "Czasowniki modalne nie dostają końcówek (**she can**, nie *she cans*) i nie potrzebują do / does w pytaniach (**Can you…?**).\n\nPo nich czasownik stoi w formie podstawowej, bez *to*: **must go**, nie *must to go*. Wyjątek to *ought to*."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "modal", "role": "aux" },
+        { "text": "V1", "role": "verb" }
+      ],
+      "example": { "en": "You should see a doctor.", "pl": "Powinieneś iść do lekarza." }
+    },
+    {
+      "type": "table",
+      "headers": ["Modal", "Znaczenie", "Przykład"],
+      "rows": [
+        ["can / can't", "umiejętność, możliwość, pozwolenie", "I can swim. Can I open the window?"],
+        [
+          "could",
+          "umiejętność w przeszłości, uprzejma prośba",
+          "I could read when I was four. Could you help me?"
+        ],
+        [
+          "must",
+          "silny nakaz (zwykle od mówiącego), pewność",
+          "I must study harder. She must be tired."
+        ],
+        [
+          "have to",
+          "obowiązek z zewnątrz: przepisy, okoliczności",
+          "We have to wear a uniform at school."
+        ],
+        ["mustn't", "zakaz", "You mustn't use your phone during the exam."],
+        [
+          "don't have to",
+          "brak obowiązku: nie musisz, ale możesz",
+          "You don't have to come if you're busy."
+        ],
+        ["should / shouldn't", "rada, opinia", "You should get more sleep."],
+        ["may / might", "możliwość: może się zdarzyć", "It might rain later."]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**mustn't ≠ don't have to.** *You mustn't tell her* = nie wolno ci jej mówić. *You don't have to tell her* = nie musisz jej mówić (ale możesz). To częsta pułapka w zadaniach."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "obowiązek czy zakaz?",
+          "text_pl": "Najpierw ustal, czy zdanie mówi, że coś TRZEBA zrobić, czy że NIE WOLNO."
+        },
+        {
+          "step_pl": "kto tego wymaga?",
+          "text_pl": "Twoje własne przekonanie → must. Przepisy, szkoła, sytuacja → have to."
+        },
+        {
+          "step_pl": "przeczenie",
+          "text_pl": "Nie wolno → mustn't. Nie trzeba (ale można) → don't have to."
+        }
+      ]
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "You don't have to bring anything — we've got everything.",
+          "pl": "Nie musisz nic przynosić — mamy wszystko."
+        },
+        {
+          "en": "Students mustn't leave the room during the test.",
+          "pl": "Uczniom nie wolno wychodzić z sali podczas testu."
+        },
+        {
+          "en": "She must be at home — her light is on.",
+          "pl": "Musi być w domu — pali się u niej światło."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "W przeszłości obowiązek wyrażasz przez **had to**: *I had to get up at five.* Formy *musted* nie ma."
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "W transformacjach często zamieniasz: *It isn't necessary for you to…* = **You don't have to…**, *I'm sure he is tired* = **He must be tired**."
+    }
+  ]
+}
