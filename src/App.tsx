@@ -3,6 +3,7 @@ import { Shell } from './components/Shell'
 import { AuthProvider } from './features/auth/AuthProvider'
 import { LoginPage } from './features/auth/LoginPage'
 import { PrefsSync } from './features/settings/PrefsSync'
+import { WordsProvider } from './features/vocabulary/WordsProvider'
 import { NotFound } from './components/States'
 import { HomePage } from './features/home/HomePage'
 import { SettingsPage } from './features/settings/SettingsPage'
@@ -15,19 +16,21 @@ export function App() {
   return (
     <AuthProvider>
       <PrefsSync />
-      <HashRouter>
-        <Routes>
-          <Route element={<Shell />}>
-            <Route index element={<HomePage />} />
-            <Route path="tenses" element={<TensesIndexPage />} />
-            <Route path="tenses/:id" element={<TensePage />} />
-            <Route path="more" element={<MorePage />} />
-            <Route path="settings" element={<SettingsPage />} />
-            <Route path="login" element={<LoginPage />} />
-            <Route path="*" element={<NotFound />} />
-          </Route>
-        </Routes>
-      </HashRouter>
+      <WordsProvider>
+        <HashRouter>
+          <Routes>
+            <Route element={<Shell />}>
+              <Route index element={<HomePage />} />
+              <Route path="tenses" element={<TensesIndexPage />} />
+              <Route path="tenses/:id" element={<TensePage />} />
+              <Route path="more" element={<MorePage />} />
+              <Route path="settings" element={<SettingsPage />} />
+              <Route path="login" element={<LoginPage />} />
+              <Route path="*" element={<NotFound />} />
+            </Route>
+          </Routes>
+        </HashRouter>
+      </WordsProvider>
     </AuthProvider>
   )
 }
