@@ -74,6 +74,11 @@ function wordDoc(uid: string, id: string) {
   return doc(getDb()!, 'users', uid, 'words', id)
 }
 
+// bez skonfigurowanego Firebase zapisy są po prostu pomijane, zamiast wywalać ekran
+function withDb<T>(fn: () => Promise<T>) {
+  return getDb() ? fn().catch(() => {}) : Promise.resolve()
+}
+
 function stateFields(s: CardState) {
   return {
     box: s.box,
@@ -105,7 +110,9 @@ export function watchWords(
 
 // zapis offline: promise kończy się dopiero po odpowiedzi serwera, więc nie czekamy na nią w UI
 export function addWord(uid: string, input: WordInput, now = new Date()) {
-  const ref = doc(collection(getDb()!, 'users', uid, 'words'))
+  const db = getDb()
+  if (!db) return undefined
+  const ref = doc(collection(db, 'users', uid, 'words'))
   const data = {
     term: input.term.trim(),
     translation: input.translation.trim(),
@@ -120,19 +127,21 @@ export function addWord(uid: string, input: WordInput, now = new Date()) {
 }
 
 export function updateWord(uid: string, id: string, input: WordInput) {
-  return updateDoc(wordDoc(uid, id), {
-    term: input.term.trim(),
-    translation: input.translation.trim(),
-    direction: input.direction,
-    tags: input.tags,
-    example: input.example?.trim() ? input.example.trim() : deleteField(),
-  }).catch(() => {})
+  return withDb(() =>
+    updateDoc(wordDoc(uid, id), {
+      term: input.term.trim(),
+      translation: input.translation.trim(),
+      direction: input.direction,
+      tags: input.tags,
+      example: input.example?.trim() ? input.example.trim() : deleteField(),
+    }),
+  )
 }
 
 export function saveReview(uid: string, id: string, state: CardState) {
-  return updateDoc(wordDoc(uid, id), stateFields(state)).catch(() => {})
+  return withDb(() => updateDoc(wordDoc(uid, id), stateFields(state)))
 }
 
 export function deleteWord(uid: string, id: string) {
-  return deleteDoc(wordDoc(uid, id)).catch(() => {})
+  return withDb(() => deleteDoc(wordDoc(uid, id)))
 }
