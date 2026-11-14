@@ -34,8 +34,7 @@ export function TensesIndexPage() {
                       <span className="hand index-name" lang="en">
                         {x.nameEn}
                       </span>
-                      <span className="index-dots" aria-hidden="true" />
-                      <span className="note ink index-one">{x.oneLiner_pl}</span>
+                      <span className="note ink">{x.oneLiner_pl}</span>
                     </Link>
                   </li>
                 ))}

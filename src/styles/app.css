@@ -309,8 +309,7 @@
 }
 .index-row {
   display: flex;
-  align-items: baseline;
-  gap: 8px;
+  flex-direction: column;
   min-height: 44px;
   padding: 6px 0;
   text-decoration: none;
@@ -318,16 +317,7 @@
 .index-name {
   font-size: 22px;
   font-weight: 700;
-  white-space: nowrap;
-}
-.index-dots {
-  flex: 1;
-  min-width: 12px;
-  border-bottom: 2px dotted var(--faint);
-}
-.index-one {
-  text-align: right;
-  max-width: 55%;
+  line-height: 1.1;
 }
 @media (min-width: 760px) {
   .tense-wrap {
