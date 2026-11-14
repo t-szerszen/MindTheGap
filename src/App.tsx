@@ -19,6 +19,8 @@ import { SettingsPage } from './features/settings/SettingsPage'
 import { TensePage } from './features/tenses/TensePage'
 import { TensesIndexPage } from './features/tenses/TensesIndexPage'
 import { MorePage } from './features/topics/MorePage'
+import { PhraseSetPage } from './features/topics/PhraseSetPage'
+import { TopicPage } from './features/topics/TopicPage'
 import { TranslatorPage } from './features/translator/TranslatorPage'
 
 export function App() {
@@ -78,6 +80,8 @@ export function App() {
                   }
                 />
                 <Route path="more" element={<MorePage />} />
+                <Route path="topics/:id" element={<TopicPage />} />
+                <Route path="phrases/:id" element={<PhraseSetPage />} />
                 <Route path="settings" element={<SettingsPage />} />
                 <Route path="login" element={<LoginPage />} />
                 <Route path="*" element={<NotFound />} />
