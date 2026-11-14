@@ -29,9 +29,13 @@ Przed commitem odpalam `npm run check` (typy, lint, testy, walidacja treści). T
 
 1. Konto DeepL API Free i klucz API.
 2. W folderze `worker`: `npm install`, `npx wrangler login`.
-3. `npx wrangler secret put DEEPL_API_KEY` i wklejam klucz.
-4. `npx wrangler secret put ALLOWED_ORIGIN` i wpisuję `https://<login>.github.io` (kilka adresów po przecinku, np. z `http://localhost:5173` do testów).
+3. `npx wrangler secret put DEEPL_API_KEY`. To jest nazwa sekretu, sam klucz wklejam dopiero, kiedy wrangler o niego zapyta.
+4. `npx wrangler secret put ALLOWED_ORIGIN` i na pytanie wpisuję `https://<login>.github.io` (kilka adresów po przecinku, np. z `http://localhost:5173` do testów).
 5. `npx wrangler deploy`. Adres workera idzie do `VITE_TRANSLATE_API_URL`.
+
+Wranglera odpalam tylko w folderze `worker`. W głównym folderze `wrangler deploy` próbuje wrzucić całą apkę na Cloudflare i dopisuje swoje rzeczy do `vite.config.ts`.
+
+Klucz DeepL nigdy nie trafia do zmiennych `VITE_*`, bo wszystko z `VITE_` ląduje w publicznym bundlu.
 
 Lokalnie worker czyta te dwie wartości z `worker/.dev.vars`, a startuje go `npm run dev` w folderze `worker`.
 
