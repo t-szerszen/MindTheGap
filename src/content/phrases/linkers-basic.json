@@ -1,0 +1,117 @@
+{
+  "id": "linkers-basic",
+  "category": "linkers",
+  "title_pl": "Spójniki i łączniki do rozprawki",
+  "items": [
+    {
+      "en": "however",
+      "pl": "jednak, jednakże",
+      "meaning_pl": "kontrast; zwykle na początku zdania, po nim przecinek",
+      "example": {
+        "en": "The plan was good. However, it was too expensive.",
+        "pl": "Plan był dobry. Był jednak za drogi."
+      },
+      "register": "neutral",
+      "tags": ["kontrast"]
+    },
+    {
+      "en": "although",
+      "pl": "chociaż",
+      "meaning_pl": "kontrast w jednym zdaniu; po nim pełne zdanie (podmiot + czasownik)",
+      "example": {
+        "en": "Although it was raining, we went for a walk.",
+        "pl": "Chociaż padało, poszliśmy na spacer."
+      },
+      "register": "neutral",
+      "tags": ["kontrast"]
+    },
+    {
+      "en": "despite",
+      "pl": "pomimo",
+      "meaning_pl": "po nim rzeczownik albo forma -ing, nie całe zdanie",
+      "example": {
+        "en": "Despite the rain, we went for a walk.",
+        "pl": "Pomimo deszczu poszliśmy na spacer."
+      },
+      "register": "neutral",
+      "tags": ["kontrast"]
+    },
+    {
+      "en": "on the other hand",
+      "pl": "z drugiej strony",
+      "meaning_pl": "druga strona argumentu; często po on the one hand",
+      "example": {
+        "en": "Living in a city is exciting. On the other hand, it can be very expensive.",
+        "pl": "Życie w mieście jest ekscytujące. Z drugiej strony może być bardzo drogie."
+      },
+      "register": "neutral",
+      "tags": ["kontrast"]
+    },
+    {
+      "en": "moreover",
+      "pl": "ponadto, co więcej",
+      "meaning_pl": "dokładasz kolejny, mocniejszy argument",
+      "example": {
+        "en": "The flat is close to school. Moreover, the rent is low.",
+        "pl": "Mieszkanie jest blisko szkoły. Co więcej, czynsz jest niski."
+      },
+      "register": "formal",
+      "tags": ["dodawanie"]
+    },
+    {
+      "en": "in addition",
+      "pl": "dodatkowo, w dodatku",
+      "meaning_pl": "dodajesz następną informację",
+      "example": {
+        "en": "In addition, students can use the library for free.",
+        "pl": "Dodatkowo uczniowie mogą bezpłatnie korzystać z biblioteki."
+      },
+      "register": "formal",
+      "tags": ["dodawanie"]
+    },
+    {
+      "en": "therefore",
+      "pl": "dlatego, zatem",
+      "meaning_pl": "skutek tego, co było w poprzednim zdaniu",
+      "example": {
+        "en": "The tickets sold out quickly. Therefore, many fans were disappointed.",
+        "pl": "Bilety szybko się wyprzedały. Dlatego wielu fanów było rozczarowanych."
+      },
+      "register": "formal",
+      "tags": ["skutek"]
+    },
+    {
+      "en": "as a result",
+      "pl": "w rezultacie",
+      "meaning_pl": "skutek",
+      "example": {
+        "en": "He didn't revise. As a result, he failed the test.",
+        "pl": "Nie powtórzył materiału. W rezultacie oblał test."
+      },
+      "register": "neutral",
+      "tags": ["skutek"]
+    },
+    {
+      "en": "due to",
+      "pl": "z powodu",
+      "meaning_pl": "przyczyna; po nim rzeczownik",
+      "example": {
+        "en": "The match was cancelled due to bad weather.",
+        "pl": "Mecz odwołano z powodu złej pogody."
+      },
+      "register": "formal",
+      "tags": ["przyczyna"]
+    },
+    {
+      "en": "to sum up",
+      "pl": "podsumowując",
+      "meaning_pl": "na początek zakończenia rozprawki",
+      "example": {
+        "en": "To sum up, I believe that school uniforms do more good than harm.",
+        "pl": "Podsumowując, uważam, że mundurki szkolne przynoszą więcej korzyści niż szkód."
+      },
+      "register": "neutral",
+      "tags": ["podsumowanie"]
+    }
+  ]
+}
