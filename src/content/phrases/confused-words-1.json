@@ -1,0 +1,348 @@
+{
+  "id": "confused-words-1",
+  "category": "confused-words",
+  "title_pl": "Mylone słowa (1)",
+  "items": [
+    {
+      "en": "affect sb/sth",
+      "pl": "wpływać na kogoś/coś",
+      "meaning_pl": "Czasownik. Łączy się bezpośrednio z dopełnieniem: affect your health, bez on. Gdy potrzebujesz rzeczownika (wpływ, skutek), bierzesz effect (por. effect). Ściąga: Affect = Action (czasownik), Effect = End result (rzeczownik)",
+      "example": {
+        "en": "Lack of sleep can seriously affect your concentration during exams.",
+        "pl": "Brak snu może poważnie wpłynąć na twoją koncentrację podczas egzaminów."
+      },
+      "register": "neutral",
+      "tags": ["czasownik", "affect/effect", "zdrowie"]
+    },
+    {
+      "en": "an effect on sb/sth (have an effect on)",
+      "pl": "wpływ, skutek, efekt",
+      "meaning_pl": "Rzeczownik. Po nim zwykle on: have a huge effect on sth. To skutek działania, a samo działanie (wpływać) to czasownik affect (por. affect). Effect jako czasownik istnieje, ale jest formalny i znaczy co innego (effect change = przeprowadzić zmianę), więc nie wstawiaj go zamiast affect",
+      "example": {
+        "en": "Social media can have a negative effect on teenagers' self-esteem.",
+        "pl": "Media społecznościowe mogą mieć negatywny wpływ na samoocenę nastolatków."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "affect/effect", "media"]
+    },
+    {
+      "en": "lie – lay – lain (lie down)",
+      "pl": "leżeć; lie down – położyć się",
+      "meaning_pl": "Nie ma dopełnienia: sam leżysz, niczego nie kładziesz. Pułapka: druga forma to lay, czyli wygląda tak samo jak lay w znaczeniu kłaść coś (por. lay). Forma -ing: lying. Uwaga: lie w znaczeniu kłamać jest regularne: lie – lied – lied",
+      "example": {
+        "en": "After the race, he lay on the grass for ten minutes.",
+        "pl": "Po biegu leżał na trawie przez dziesięć minut."
+      },
+      "register": "neutral",
+      "tags": ["czasownik nieregularny", "lie/lay", "sport"]
+    },
+    {
+      "en": "lay sth – laid – laid",
+      "pl": "kłaść, położyć coś",
+      "meaning_pl": "Zawsze ma dopełnienie: kładziesz coś. Formy laid – laid (nie layed). Gdy sam się kładziesz albo leżysz, potrzebujesz lie (por. lie). Stałe połączenia: lay the table (nakryć do stołu), lay eggs (znosić jajka)",
+      "example": {
+        "en": "She laid her books on the desk and sat down.",
+        "pl": "Położyła książki na biurku i usiadła."
+      },
+      "register": "neutral",
+      "tags": ["czasownik nieregularny", "lie/lay", "dom"]
+    },
+    {
+      "en": "rise – rose – risen",
+      "pl": "rosnąć, wzrastać, podnosić się",
+      "meaning_pl": "Bez dopełnienia: coś rośnie samo (ceny, temperatura, słońce). Gdy ktoś podnosi coś innego, bierzesz raise (por. raise). Rzeczownik a rise in sth to wzrost; w brytyjskim angielskim a pay rise to podwyżka",
+      "example": {
+        "en": "Food prices have risen sharply over the last year.",
+        "pl": "Ceny żywności gwałtownie wzrosły w ciągu ostatniego roku."
+      },
+      "register": "neutral",
+      "tags": ["czasownik nieregularny", "rise/raise", "zakupy"]
+    },
+    {
+      "en": "raise sth – raised – raised",
+      "pl": "podnosić coś, zwiększać; zbierać (pieniądze)",
+      "meaning_pl": "Zawsze z dopełnieniem: ktoś podnosi coś (raise your hand, raise prices). Czasownik regularny. Gdy coś rośnie samo, używasz rise (por. rise). Częste połączenia: raise money (zbierać pieniądze), raise children (wychowywać dzieci), raise a question (poruszyć kwestię)",
+      "example": {
+        "en": "Our class raised over £500 for the local hospital.",
+        "pl": "Nasza klasa zebrała ponad 500 funtów dla miejscowego szpitala."
+      },
+      "register": "neutral",
+      "tags": ["czasownik", "rise/raise", "pomoc"]
+    },
+    {
+      "en": "borrow sth (from sb)",
+      "pl": "pożyczyć (od kogoś)",
+      "meaning_pl": "Ty bierzesz rzecz od kogoś. Po polsku w obie strony mówimy pożyczyć, po angielsku nie: gdy dajesz komuś, używasz lend (por. lend). Błąd: Can you borrow me your pen? Dobrze: Can I borrow your pen?",
+      "example": {
+        "en": "Can I borrow your charger? Mine is at home.",
+        "pl": "Mogę pożyczyć twoją ładowarkę? Moja jest w domu."
+      },
+      "register": "neutral",
+      "tags": ["czasownik", "borrow/lend", "codzienność"]
+    },
+    {
+      "en": "lend sb sth / lend sth to sb – lent – lent",
+      "pl": "pożyczyć komuś",
+      "meaning_pl": "Ty dajesz rzecz komuś na jakiś czas. Dwa szyki: lend me your pen albo lend your pen to me. Czasownik nieregularny: lend – lent – lent. Gdy to ty bierzesz od kogoś, używasz borrow (por. borrow)",
+      "example": {
+        "en": "Could you lend me ten pounds until Friday?",
+        "pl": "Możesz mi pożyczyć dziesięć funtów do piątku?"
+      },
+      "register": "neutral",
+      "tags": ["czasownik nieregularny", "borrow/lend", "pieniądze"]
+    },
+    {
+      "en": "say sth (to sb)",
+      "pl": "powiedzieć coś (komuś)",
+      "meaning_pl": "Skupia się na samych słowach. Jeśli dodajesz osobę, potrzebujesz to: say to me, nigdy say me. Stałe połączenia: say hello, say goodbye, say sorry, say yes/no. Gdy osoba stoi zaraz po czasowniku, bierzesz tell (por. tell)",
+      "example": {
+        "en": "She didn't say anything to me about the party.",
+        "pl": "Nic mi nie powiedziała o imprezie."
+      },
+      "register": "neutral",
+      "tags": ["czasownik nieregularny", "say/tell", "mowa zależna"]
+    },
+    {
+      "en": "tell sb sth / tell sb (that) / tell sb to do sth",
+      "pl": "powiedzieć komuś, opowiedzieć; kazać",
+      "meaning_pl": "Osoba stoi od razu po czasowniku, bez to: tell me, tell your parents. Bez osoby tylko w stałych połączeniach: tell the truth, tell a lie, tell a story, tell a joke. Tell sb to do sth znaczy kazać komuś coś zrobić. Gdy nie mówisz, do kogo, bierzesz say (por. say)",
+      "example": {
+        "en": "My mum told me to call her when I got to the hostel.",
+        "pl": "Mama kazała mi do niej zadzwonić, kiedy dotrę do hostelu."
+      },
+      "register": "neutral",
+      "tags": ["czasownik nieregularny", "say/tell", "mowa zależna"]
+    },
+    {
+      "en": "speak (to sb) – spoke – spoken",
+      "pl": "mówić, przemawiać",
+      "meaning_pl": "Bardziej oficjalne niż talk: przemówienie, rozmowa w urzędzie, telefon w ważnej sprawie (Could I speak to the manager, please?). O językach zawsze speak: speak English, nie talk English. Gdy chodzi o zwykłą pogawędkę, naturalniejsze jest talk (por. talk)",
+      "example": {
+        "en": "She speaks three languages fluently, including Japanese.",
+        "pl": "Płynnie mówi trzema językami, w tym po japońsku."
+      },
+      "register": "neutral",
+      "tags": ["czasownik nieregularny", "speak/talk", "języki"]
+    },
+    {
+      "en": "talk (to/with sb) (about sth)",
+      "pl": "rozmawiać, gadać",
+      "meaning_pl": "Rozmowa w dwie strony, zwykle swobodna: talk to a friend, talk about the weekend. Czasownik regularny. Nie mówimy talk English, o językach jest speak (por. speak)",
+      "example": {
+        "en": "We talked about our plans for the summer holidays for hours.",
+        "pl": "Godzinami rozmawialiśmy o planach na wakacje."
+      },
+      "register": "neutral",
+      "tags": ["czasownik", "speak/talk", "przyjaciele"]
+    },
+    {
+      "en": "remember sth / remember to do sth / remember doing sth",
+      "pl": "pamiętać, przypomnieć sobie",
+      "meaning_pl": "Ty sam masz coś w głowie. Remember to do = nie zapomnieć czegoś zrobić (najpierw pamiętasz, potem robisz). Remember doing = pamiętać, że się coś zrobiło (najpierw zrobiłeś, teraz to wspominasz). Gdy ktoś inny sprawia, że pamiętasz, używasz remind (por. remind)",
+      "example": {
+        "en": "Remember to bring your ID card to the exam.",
+        "pl": "Pamiętaj, żeby zabrać dowód osobisty na egzamin."
+      },
+      "register": "neutral",
+      "tags": ["czasownik", "remember/remind", "szkoła"]
+    },
+    {
+      "en": "remind sb to do sth / remind sb of sb/sth",
+      "pl": "przypominać komuś; kojarzyć się z czymś",
+      "meaning_pl": "Ktoś albo coś sprawia, że inna osoba pamięta, więc po remind zawsze stoi osoba. Remind sb to do sth = przypomnieć komuś, żeby coś zrobił; remind sb of sb/sth = przypominać kogoś, kojarzyć się (You remind me of my brother). Błąd: Remember me to call her. Dobrze: Remind me to call her. Por. remember",
+      "example": {
+        "en": "Can you remind me to buy a birthday present for Kate?",
+        "pl": "Przypomnisz mi, żebym kupił prezent urodzinowy dla Kate?"
+      },
+      "register": "neutral",
+      "tags": ["czasownik", "remember/remind", "codzienność"]
+    },
+    {
+      "en": "rob sb / rob a place (of sth)",
+      "pl": "okraść kogoś, obrabować (bank, sklep)",
+      "meaning_pl": "Dopełnieniem jest osoba albo miejsce, a nie rzecz: rob a bank, rob a tourist. Rzecz możesz dodać przez of (rob sb of sth), ale to brzmi formalnie. Gdy mówisz o samej rzeczy, bierzesz steal (por. steal). Rzeczowniki: robber (rabuś), robbery (napad)",
+      "example": {
+        "en": "Two men robbed a jewellery shop in the city centre last night.",
+        "pl": "Wczoraj w nocy dwóch mężczyzn obrabowało sklep jubilerski w centrum miasta."
+      },
+      "register": "neutral",
+      "tags": ["czasownik", "rob/steal", "przestępczość"]
+    },
+    {
+      "en": "steal sth (from sb/sth) – stole – stolen",
+      "pl": "ukraść coś",
+      "meaning_pl": "Dopełnieniem jest rzecz, a osoba dochodzi przez from: steal a phone from sb. Strona bierna też dotyczy rzeczy: My bike was stolen, nie I was stolen. O osobie mówisz I was robbed albo I had my bike stolen. Por. rob",
+      "example": {
+        "en": "Someone stole my wallet while I was on the bus.",
+        "pl": "Ktoś ukradł mi portfel, kiedy jechałem autobusem."
+      },
+      "register": "neutral",
+      "tags": ["czasownik nieregularny", "rob/steal", "przestępczość"]
+    },
+    {
+      "en": "win sth – won – won",
+      "pl": "wygrać, zdobyć (nagrodę, mecz)",
+      "meaning_pl": "Wygrywasz zawody, mecz, nagrodę, wybory: win a match, win a prize. Przeciwnika nie wygrywasz, tylko pokonujesz: beat sb (We beat them 3-1). Win money tylko w konkursie albo na loterii. Pieniądze za pracę to earn, a doświadczenie czy pewność siebie to gain (por. earn, gain)",
+      "example": {
+        "en": "Our school team won the regional football tournament.",
+        "pl": "Nasza szkolna drużyna wygrała regionalny turniej piłkarski."
+      },
+      "register": "neutral",
+      "tags": ["czasownik nieregularny", "win/earn/gain", "sport"]
+    },
+    {
+      "en": "earn sth",
+      "pl": "zarabiać; zasłużyć na coś",
+      "meaning_pl": "Dostajesz coś w zamian za pracę albo wysiłek: earn money, earn a living (zarabiać na życie), earn £10 an hour. Też w przenośni: earn sb's respect (zasłużyć na czyjś szacunek). Pieniądze z loterii to win, a nie earn (por. win, gain)",
+      "example": {
+        "en": "She earns £10 an hour working in a café at weekends.",
+        "pl": "W weekendy pracuje w kawiarni i zarabia 10 funtów za godzinę."
+      },
+      "register": "neutral",
+      "tags": ["czasownik", "win/earn/gain", "praca"]
+    },
+    {
+      "en": "gain sth",
+      "pl": "zyskać, zdobyć (stopniowo)",
+      "meaning_pl": "Dostajesz coś stopniowo, często przy okazji: gain experience (zdobyć doświadczenie), gain confidence (nabrać pewności siebie), gain weight (przytyć). Nie chodzi o pensję (earn) ani o zwycięstwo w zawodach (win), por. win, earn",
+      "example": {
+        "en": "I want to gain some work experience before I go to university.",
+        "pl": "Chcę zdobyć trochę doświadczenia zawodowego, zanim pójdę na studia."
+      },
+      "register": "neutral",
+      "tags": ["czasownik", "win/earn/gain", "praca"]
+    },
+    {
+      "en": "fun (have fun / it was fun)",
+      "pl": "zabawa; fajnie",
+      "meaning_pl": "Najczęściej rzeczownik niepoliczalny, mówi, że coś jest przyjemne: It was fun = było fajnie, have fun = dobrze się bawić. Nie znaczy, że coś jest śmieszne, to funny (por. funny). W pracy pisemnej unikaj very fun, pisz great fun albo a lot of fun",
+      "example": {
+        "en": "We went kayaking at the weekend and it was great fun.",
+        "pl": "W weekend pływaliśmy kajakiem i było super."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "fun/funny", "czas wolny"]
+    },
+    {
+      "en": "funny",
+      "pl": "śmieszny, zabawny; dziwny",
+      "meaning_pl": "Coś wywołuje śmiech: a funny film, a funny story. Drugie znaczenie to dziwny: a funny smell, it's funny that… Jeśli coś było przyjemne, a nie śmieszne, mówisz fun (por. fun): The party was fun, nie The party was funny",
+      "example": {
+        "en": "The film was so funny that we couldn't stop laughing.",
+        "pl": "Film był tak śmieszny, że nie mogliśmy przestać się śmiać."
+      },
+      "register": "neutral",
+      "tags": ["przymiotnik", "fun/funny", "kultura"]
+    },
+    {
+      "en": "economic",
+      "pl": "gospodarczy, ekonomiczny (dotyczący gospodarki)",
+      "meaning_pl": "Dotyczy gospodarki i finansów kraju: economic growth (wzrost gospodarczy), an economic crisis, economic policy. Nie znaczy oszczędny, to economical (por. economical). Ekonomia jako nauka to economics",
+      "example": {
+        "en": "The country is going through a serious economic crisis.",
+        "pl": "Kraj przechodzi poważny kryzys gospodarczy."
+      },
+      "register": "neutral",
+      "tags": ["przymiotnik", "economic/economical", "społeczeństwo"]
+    },
+    {
+      "en": "economical",
+      "pl": "oszczędny, ekonomiczny (tani w użyciu)",
+      "meaning_pl": "Coś nie zużywa dużo pieniędzy, paliwa ani energii: an economical car. Po polsku oba znaczenia to ekonomiczny, po angielsku nie: gdy chodzi o gospodarkę, bierzesz economic (por. economic)",
+      "example": {
+        "en": "A small car is more economical than an SUV because it uses less fuel.",
+        "pl": "Mały samochód jest bardziej ekonomiczny niż SUV, bo spala mniej paliwa."
+      },
+      "register": "neutral",
+      "tags": ["przymiotnik", "economic/economical", "zakupy"]
+    },
+    {
+      "en": "historic",
+      "pl": "historyczny (przełomowy); zabytkowy",
+      "meaning_pl": "Coś jest tak ważne, że przejdzie do historii: a historic moment, a historic victory, a historic decision. Też o starych, cennych miejscach: a historic building, the historic town centre. Gdy chodzi po prostu o przeszłość albo historię jako przedmiot, bierzesz historical (por. historical)",
+      "example": {
+        "en": "The first moon landing in 1969 was a historic moment.",
+        "pl": "Pierwsze lądowanie na Księżycu w 1969 roku było historyczną chwilą."
+      },
+      "register": "neutral",
+      "tags": ["przymiotnik", "historic/historical", "nauka"]
+    },
+    {
+      "en": "historical",
+      "pl": "historyczny (dotyczący przeszłości)",
+      "meaning_pl": "Związane z przeszłością albo z historią jako dziedziną: a historical novel, a historical film, historical documents, historical figures (postacie historyczne). Nie mówi nic o tym, czy coś było przełomowe, to znaczenie ma historic (por. historic)",
+      "example": {
+        "en": "I love historical novels, especially ones set in ancient Rome.",
+        "pl": "Uwielbiam powieści historyczne, zwłaszcza te, których akcja toczy się w starożytnym Rzymie."
+      },
+      "register": "neutral",
+      "tags": ["przymiotnik", "historic/historical", "kultura"]
+    },
+    {
+      "en": "sensible",
+      "pl": "rozsądny",
+      "meaning_pl": "Fałszywy przyjaciel: nie znaczy wrażliwy, tylko rozsądny, praktyczny. A sensible decision, sensible advice; sensible shoes to wygodne, praktyczne buty. Wrażliwy to sensitive (por. sensitive)",
+      "example": {
+        "en": "It would be sensible to book the tickets early.",
+        "pl": "Rozsądnie byłoby zarezerwować bilety wcześniej."
+      },
+      "register": "neutral",
+      "tags": ["przymiotnik", "sensible/sensitive", "charakter"]
+    },
+    {
+      "en": "sensitive (to sth)",
+      "pl": "wrażliwy, delikatny; drażliwy (temat)",
+      "meaning_pl": "Ktoś łatwo się przejmuje albo coś łatwo reaguje: a sensitive person, sensitive skin, sensitive to light. Też o temacie, który trzeba poruszać ostrożnie: a sensitive issue (drażliwa sprawa). Rozsądny to sensible (por. sensible)",
+      "example": {
+        "en": "He is very sensitive and gets upset when people criticise him.",
+        "pl": "Jest bardzo wrażliwy i przejmuje się, kiedy ktoś go krytykuje."
+      },
+      "register": "neutral",
+      "tags": ["przymiotnik", "sensible/sensitive", "charakter"]
+    },
+    {
+      "en": "lose sth – lost – lost",
+      "pl": "zgubić, stracić; przegrać",
+      "meaning_pl": "Czasownik, jedno o, na końcu dźwięczne z (/luːz/). Lose your keys (zgubić), lose a match (przegrać), lose weight (schudnąć). Często mylony w pisowni z przymiotnikiem loose (por. loose)",
+      "example": {
+        "en": "If we lose this match, we'll be out of the tournament.",
+        "pl": "Jeśli przegramy ten mecz, odpadniemy z turnieju."
+      },
+      "register": "neutral",
+      "tags": ["czasownik nieregularny", "lose/loose", "sport"]
+    },
+    {
+      "en": "loose",
+      "pl": "luźny, poluzowany",
+      "meaning_pl": "Przymiotnik, dwa o, na końcu bezdźwięczne s (/luːs/). Loose clothes, a loose tooth; przeciwieństwo to tight. Poluzować to loosen. Zgubić albo przegrać to lose (por. lose)",
+      "example": {
+        "en": "These jeans are too loose – I need a smaller size.",
+        "pl": "Te dżinsy są za luźne – potrzebuję mniejszego rozmiaru."
+      },
+      "register": "neutral",
+      "tags": ["przymiotnik", "lose/loose", "ubrania"]
+    },
+    {
+      "en": "advice (on/about sth)",
+      "pl": "rada, porady",
+      "meaning_pl": "Rzeczownik niepoliczalny: some advice, a piece of advice, nigdy an advice ani advices. Kończy się na -ce i wymawiasz s (/ədˈvaɪs/). Połączenia: give sb advice, ask for advice, take sb's advice (posłuchać czyjejś rady). Czasownik radzić to advise (por. advise)",
+      "example": {
+        "en": "Can you give me some advice on how to prepare for the speaking exam?",
+        "pl": "Możesz mi doradzić, jak przygotować się do egzaminu ustnego?"
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "advice/advise", "szkoła"]
+    },
+    {
+      "en": "advise sb to do sth / advise sb against doing sth",
+      "pl": "radzić, doradzać; odradzać",
+      "meaning_pl": "Czasownik, kończy się na -se i wymawiasz z (/ədˈvaɪz/). Advise sb to do sth = poradzić komuś, żeby coś zrobił; advise sb against doing sth = odradzić komuś coś. Rzeczownik rada to advice (por. advice)",
+      "example": {
+        "en": "The doctor advised me to drink more water and get more sleep.",
+        "pl": "Lekarz poradził mi, żebym pił więcej wody i więcej spał."
+      },
+      "register": "neutral",
+      "tags": ["czasownik", "advice/advise", "zdrowie"]
+    }
+  ]
+}

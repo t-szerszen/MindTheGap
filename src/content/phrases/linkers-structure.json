@@ -1,0 +1,194 @@
+{
+  "id": "linkers-structure",
+  "category": "linkers",
+  "title_pl": "Łączniki: kolejność, przykłady i podsumowanie",
+  "items": [
+    {
+      "en": "to begin with",
+      "pl": "na początek, po pierwsze; początkowo",
+      "meaning_pl": "Otwiera listę argumentów. Drugie znaczenie: na początku, zanim coś się zmieniło (To begin with, I hated my new school). Po nim przecinek. W mowie często to start with.",
+      "example": {
+        "en": "To begin with, a part-time job teaches you how to manage your money.",
+        "pl": "Po pierwsze, praca dorywcza uczy, jak gospodarować pieniędzmi."
+      },
+      "register": "neutral",
+      "tags": ["kolejność", "rozprawka"]
+    },
+    {
+      "en": "then",
+      "pl": "potem, następnie",
+      "meaning_pl": "Kolejny krok w historii albo instrukcji. Po Then zwykle bez przecinka. To przysłówek, a nie spójnik, więc w formalnym tekście nie łączy dwóch zdań samym przecinkiem: daj and then albo kropkę. Nie myl z than (niż).",
+      "example": {
+        "en": "We visited the castle in the morning. Then we had lunch in the old town.",
+        "pl": "Rano zwiedziliśmy zamek. Potem zjedliśmy obiad na starym mieście."
+      },
+      "register": "neutral",
+      "tags": ["kolejność", "opowiadanie", "pułapka"]
+    },
+    {
+      "en": "after that",
+      "pl": "potem, po tym",
+      "meaning_pl": "Następny etap tego, co się wydarzyło, np. w e-mailu albo wpisie na blogu. Przecinek po nim można dać albo nie. Samo After na początku zdania, bez niczego po nim, to błąd: pisz After that albo Afterwards.",
+      "example": {
+        "en": "After that, we took a bus to the beach and spent the afternoon there.",
+        "pl": "Potem pojechaliśmy autobusem na plażę i spędziliśmy tam popołudnie."
+      },
+      "register": "neutral",
+      "tags": ["kolejność", "opowiadanie"]
+    },
+    {
+      "en": "subsequently",
+      "pl": "następnie, później",
+      "meaning_pl": "Formalne 'później' w raporcie, artykule czy liście formalnym. Zwykle w środku zdania, bez przecinków (was subsequently closed). Pułapka: consequently to 'w konsekwencji' (skutek), a subsequently mówi tylko o kolejności w czasie.",
+      "example": {
+        "en": "The museum was damaged in a fire and was subsequently closed for two years.",
+        "pl": "Muzeum zostało uszkodzone w pożarze, a następnie zamknięte na dwa lata."
+      },
+      "register": "formal",
+      "tags": ["kolejność", "pułapka"]
+    },
+    {
+      "en": "for example",
+      "pl": "na przykład",
+      "meaning_pl": "Podajesz przykład. Na początku zdania z przecinkiem, w środku zdania między dwoma przecinkami (Some sports, for example tennis, are quite expensive). Skrót e.g. zostaw do notatek, w rozprawce pisz całe słowa.",
+      "example": {
+        "en": "Many teenagers earn extra money. For example, they babysit or walk their neighbours' dogs.",
+        "pl": "Wielu nastolatków dorabia. Na przykład opiekują się dziećmi albo wyprowadzają psy sąsiadów."
+      },
+      "register": "neutral",
+      "tags": ["przykłady"]
+    },
+    {
+      "en": "for instance",
+      "pl": "na przykład",
+      "meaning_pl": "To samo co for example, przydaje się, żeby się nie powtarzać. Interpunkcja taka sama: przecinek po nim na początku zdania, dwa przecinki w środku. Bez przedimka: nie 'for an instance'.",
+      "example": {
+        "en": "Some jobs can easily be done from home. Graphic designers, for instance, often work remotely.",
+        "pl": "Niektóre zawody łatwo wykonywać z domu. Na przykład graficy często pracują zdalnie."
+      },
+      "register": "neutral",
+      "tags": ["przykłady"]
+    },
+    {
+      "en": "such as + noun / -ing",
+      "pl": "taki jak, na przykład",
+      "meaning_pl": "Wymienia przykłady w środku zdania. Po such as tylko rzeczownik albo forma -ing, nigdy całe zdanie z podmiotem i czasownikiem. Po such as bez przecinka. Nie zastąpisz nim For example na początku zdania. W mowie często like (sports like tennis), w rozprawce lepiej such as.",
+      "example": {
+        "en": "Outdoor activities such as hiking and cycling are very popular in my region.",
+        "pl": "Zajęcia na świeżym powietrzu, takie jak piesze wędrówki i jazda na rowerze, są w moim regionie bardzo popularne."
+      },
+      "register": "neutral",
+      "tags": ["przykłady", "pułapka"]
+    },
+    {
+      "en": "namely",
+      "pl": "mianowicie, a konkretnie",
+      "meaning_pl": "Nie podaje przykładu, tylko dokładnie nazywa to, o czym mówisz, i to wszystkie elementy. Przed namely przecinek. Częściej w piśmie. Jeśli wymieniasz tylko część, użyj for example albo such as.",
+      "example": {
+        "en": "Our school needs two things, namely a bigger gym and a proper canteen.",
+        "pl": "Nasza szkoła potrzebuje dwóch rzeczy, a mianowicie większej sali gimnastycznej i porządnej stołówki."
+      },
+      "register": "neutral",
+      "tags": ["przykłady", "pułapka"]
+    },
+    {
+      "en": "in particular",
+      "pl": "w szczególności, zwłaszcza",
+      "meaning_pl": "Wyróżnia jedną rzecz z większej grupy. Może stać na początku zdania (z przecinkiem) albo zaraz po rzeczowniku (teenagers in particular). Tego używaj, gdy chcesz zacząć zdanie od 'Szczególnie'. Nie 'in particularly'.",
+      "example": {
+        "en": "Air pollution is a serious problem in big cities. In particular, it affects children and older people.",
+        "pl": "Zanieczyszczenie powietrza to poważny problem w dużych miastach. Szczególnie dotyka ono dzieci i osoby starsze."
+      },
+      "register": "neutral",
+      "tags": ["wyróżnianie"]
+    },
+    {
+      "en": "in fact",
+      "pl": "w rzeczywistości, tak naprawdę; a nawet",
+      "meaning_pl": "Prostuje to, co ludzie myślą (= tak naprawdę), albo dokłada mocniejszy szczegół (I like it. In fact, I love it). Na początku zdania z przecinkiem. Podobnie actually, ale actually to nie 'aktualnie'.",
+      "example": {
+        "en": "Many people think that learning online is easy. In fact, it requires a lot of self-discipline.",
+        "pl": "Wiele osób uważa, że nauka online jest łatwa. W rzeczywistości wymaga dużo samodyscypliny."
+      },
+      "register": "neutral",
+      "tags": ["wzmocnienie"]
+    },
+    {
+      "en": "indeed",
+      "pl": "rzeczywiście, istotnie; co więcej",
+      "meaning_pl": "Potwierdza i wzmacnia poprzednie zdanie. Na początku zdania z przecinkiem, to styl rozprawki i artykułu. W brytyjskiej mowie wzmacnia też very: Thank you very much indeed.",
+      "example": {
+        "en": "Regular exercise improves concentration. Indeed, many students find it easier to focus after a short run.",
+        "pl": "Regularny ruch poprawia koncentrację. Rzeczywiście, wielu uczniom łatwiej się skupić po krótkim biegu."
+      },
+      "register": "formal",
+      "tags": ["wzmocnienie", "rozprawka"]
+    },
+    {
+      "en": "above all",
+      "pl": "przede wszystkim, nade wszystko",
+      "meaning_pl": "Wskazuje najważniejszy punkt, często na końcu listy. W środku zdania między przecinkami, na początku zdania z przecinkiem. Pułapka: first of all to pierwszy punkt w kolejności, a above all to najważniejszy ze wszystkich.",
+      "example": {
+        "en": "A good teacher should be patient, fair and, above all, passionate about their subject.",
+        "pl": "Dobry nauczyciel powinien być cierpliwy, sprawiedliwy i przede wszystkim pasjonować się swoim przedmiotem."
+      },
+      "register": "neutral",
+      "tags": ["wzmocnienie", "pułapka"]
+    },
+    {
+      "en": "in conclusion",
+      "pl": "podsumowując, na zakończenie",
+      "meaning_pl": "Otwiera ostatni akapit rozprawki albo listu formalnego, po nim przecinek. Pułapka: in the end to 'w końcu, ostatecznie' (o tym, jak coś się skończyło), a at the end to 'na końcu' czegoś. Żadne z nich nie zaczyna zakończenia.",
+      "example": {
+        "en": "In conclusion, I believe that the advantages of studying abroad outweigh the disadvantages.",
+        "pl": "Podsumowując, uważam, że zalety studiowania za granicą przeważają nad wadami."
+      },
+      "register": "formal",
+      "tags": ["podsumowanie", "rozprawka", "pułapka"]
+    },
+    {
+      "en": "all in all",
+      "pl": "w sumie, ogólnie rzecz biorąc",
+      "meaning_pl": "Ważysz plusy i minusy i wydajesz ogólną ocenę. Po nim przecinek. Lżejsze niż in conclusion, pasuje do recenzji, wpisu na blogu czy e-maila.",
+      "example": {
+        "en": "The weather wasn't great and the hotel was a bit noisy. All in all, though, we had a fantastic time.",
+        "pl": "Pogoda nie dopisała, a hotel był trochę głośny. Ale w sumie bawiliśmy się świetnie."
+      },
+      "register": "neutral",
+      "tags": ["podsumowanie", "recenzja"]
+    },
+    {
+      "en": "on the whole",
+      "pl": "ogólnie, w większości",
+      "meaning_pl": "Mówisz, co jest prawdą przeważnie, choć zdarzają się wyjątki. Na początku zdania z przecinkiem. Zawsze on the whole, nie 'in the whole'.",
+      "example": {
+        "en": "On the whole, students at my school are happy with the new timetable.",
+        "pl": "Ogólnie rzecz biorąc, uczniowie w mojej szkole są zadowoleni z nowego planu lekcji."
+      },
+      "register": "neutral",
+      "tags": ["podsumowanie"]
+    },
+    {
+      "en": "overall",
+      "pl": "ogólnie, w sumie",
+      "meaning_pl": "Ogólna ocena po wzięciu wszystkiego pod uwagę, częsta na końcu recenzji i artykułu. Na początku zdania z przecinkiem. Przed rzeczownikiem to przymiotnik: całkowity, ogólny (the overall cost).",
+      "example": {
+        "en": "Overall, the new sports centre has been a success.",
+        "pl": "W sumie nowe centrum sportowe okazało się sukcesem."
+      },
+      "register": "neutral",
+      "tags": ["podsumowanie", "recenzja"]
+    },
+    {
+      "en": "in short",
+      "pl": "krótko mówiąc, jednym słowem",
+      "meaning_pl": "Streszcza w kilku słowach to, co właśnie powiedziałeś. Po nim przecinek. Może zamknąć jeden akapit, nie tylko całą pracę. Podobnie in brief.",
+      "example": {
+        "en": "The flat is small, dark and far from the city centre. In short, it isn't worth the money.",
+        "pl": "Mieszkanie jest małe, ciemne i daleko od centrum. Krótko mówiąc, nie jest warte tych pieniędzy."
+      },
+      "register": "neutral",
+      "tags": ["podsumowanie"]
+    }
+  ]
+}

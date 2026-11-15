@@ -1,0 +1,227 @@
+{
+  "id": "linkers-cause-result",
+  "category": "linkers",
+  "title_pl": "Łączniki: przyczyna, skutek i cel",
+  "items": [
+    {
+      "en": "because of sth",
+      "pl": "z powodu, przez",
+      "meaning_pl": "przyczyna; po nim rzeczownik, zaimek albo -ing, nigdy całe zdanie (wtedy samo because). Na początku zdania przecinek po całej frazie, w środku bez przecinka",
+      "example": {
+        "en": "The school trip was postponed because of the heavy snow.",
+        "pl": "Wycieczkę szkolną przełożono z powodu intensywnych opadów śniegu."
+      },
+      "register": "neutral",
+      "tags": ["przyczyna", "+ rzeczownik"]
+    },
+    {
+      "en": "owing to sth",
+      "pl": "z powodu, wskutek",
+      "meaning_pl": "to samo co because of, tylko formalniej; + rzeczownik. Nie stawiaj go po be: the delay was due to the snow, nie owing to. Na początku zdania przecinek po frazie",
+      "example": {
+        "en": "Owing to a lack of funding, the youth club had to close.",
+        "pl": "Z powodu braku funduszy klub młodzieżowy musiał zostać zamknięty."
+      },
+      "register": "formal",
+      "tags": ["przyczyna", "+ rzeczownik", "pułapka"]
+    },
+    {
+      "en": "on account of sth",
+      "pl": "ze względu na, z powodu",
+      "meaning_pl": "formalne z powodu; + rzeczownik. Nie myl z take sth into account (brać coś pod uwagę). Przecinek tylko wtedy, gdy fraza otwiera zdanie",
+      "example": {
+        "en": "She retired early on account of poor health.",
+        "pl": "Przeszła na wcześniejszą emeryturę ze względu na zły stan zdrowia."
+      },
+      "register": "formal",
+      "tags": ["przyczyna", "+ rzeczownik", "praca"]
+    },
+    {
+      "en": "thanks to sth/sb",
+      "pl": "dzięki",
+      "meaning_pl": "przyczyna dobrego skutku; + rzeczownik albo osoba. Przy złym skutku brzmi ironicznie, więc wtedy bezpieczniej because of. Na początku zdania przecinek po frazie",
+      "example": {
+        "en": "Thanks to the new cycle lanes, more students now get to school by bike.",
+        "pl": "Dzięki nowym ścieżkom rowerowym więcej uczniów dojeżdża teraz do szkoły rowerem."
+      },
+      "register": "neutral",
+      "tags": ["przyczyna", "+ rzeczownik", "miasto"]
+    },
+    {
+      "en": "as a result of sth",
+      "pl": "w wyniku, na skutek",
+      "meaning_pl": "wprowadza przyczynę, + rzeczownik. Uwaga: samo As a result, otwiera zdanie ze skutkiem, a dopiero z of podaje przyczynę. Na początku zdania przecinek po frazie",
+      "example": {
+        "en": "As a result of the floods, hundreds of families lost their homes.",
+        "pl": "W wyniku powodzi setki rodzin straciły domy."
+      },
+      "register": "neutral",
+      "tags": ["przyczyna", "+ rzeczownik", "pułapka"]
+    },
+    {
+      "en": "due to the fact that + clause",
+      "pl": "ze względu na to, że",
+      "meaning_pl": "due to łączy się z rzeczownikiem, więc żeby dać po nim całe zdanie, dokładasz the fact that. Brzmi ciężko, w rozprawce wystarczy raz. W środku zdania bez przecinka",
+      "example": {
+        "en": "The concert was moved indoors due to the fact that heavy rain was forecast.",
+        "pl": "Koncert przeniesiono pod dach ze względu na to, że zapowiadano ulewny deszcz."
+      },
+      "register": "formal",
+      "tags": ["przyczyna", "+ zdanie"]
+    },
+    {
+      "en": "since + clause",
+      "pl": "ponieważ, skoro",
+      "meaning_pl": "przyczyna znana albo oczywista (jak skoro); po nim pełne zdanie. Zwykle na początku, a po części z since przecinek. Pułapka: since to też od (czas) przy present perfect",
+      "example": {
+        "en": "Since it was the last day of term, the teacher let us leave early.",
+        "pl": "Ponieważ był to ostatni dzień semestru, nauczycielka pozwoliła nam wyjść wcześniej."
+      },
+      "register": "neutral",
+      "tags": ["przyczyna", "+ zdanie", "pułapka"]
+    },
+    {
+      "en": "as + clause",
+      "pl": "ponieważ, jako że",
+      "meaning_pl": "jak since: powód, który odbiorca już zna; + pełne zdanie, zwykle na początku, potem przecinek. As ma dużo znaczeń (jako, gdy, tak jak), więc gdy powód jest nową informacją, lepiej because",
+      "example": {
+        "en": "As I had no money left, I stayed at home on Saturday.",
+        "pl": "Ponieważ nie zostały mi już żadne pieniądze, w sobotę zostałem w domu."
+      },
+      "register": "neutral",
+      "tags": ["przyczyna", "+ zdanie"]
+    },
+    {
+      "en": "the reason why ... is that ...",
+      "pl": "powodem, dla którego..., jest to, że...",
+      "meaning_pl": "podajesz główny powód, dobre w rozprawce. Po is pisz that; the reason is because w formalnym tekście uchodzi za błąd. Rzeczownik: the reason for sth, nie of. Po angielsku bez przecinków, choć po polsku są",
+      "example": {
+        "en": "The main reason why teenagers spend so much time online is that they want to stay in touch with their friends.",
+        "pl": "Głównym powodem, dla którego nastolatki spędzają tyle czasu w internecie, jest to, że chcą być w kontakcie ze znajomymi."
+      },
+      "register": "neutral",
+      "tags": ["przyczyna", "rozprawka", "pułapka"]
+    },
+    {
+      "en": "consequently",
+      "pl": "w konsekwencji, w związku z tym",
+      "meaning_pl": "skutek tego, co było wcześniej, formalnie. Zwykle na początku zdania z przecinkiem albo po średniku: ...; consequently, ... Nie myl z subsequently (następnie, później)",
+      "example": {
+        "en": "Public transport in our town is cheap and reliable. Consequently, fewer people drive to work.",
+        "pl": "Komunikacja miejska w naszym mieście jest tania i niezawodna. W związku z tym mniej osób jeździ do pracy samochodem."
+      },
+      "register": "formal",
+      "tags": ["skutek", "pułapka"]
+    },
+    {
+      "en": "thus / thus + -ing",
+      "pl": "tak więc, w ten sposób",
+      "meaning_pl": "bardzo formalny skutek. Dwa układy: Thus, + zdanie albo przecinek, thus + -ing (skutek tego, co ktoś właśnie zrobił). W mowie brzmi sztywno",
+      "example": {
+        "en": "Many schools have banned phones during lessons, thus reducing distractions.",
+        "pl": "Wiele szkół zakazało telefonów na lekcjach, ograniczając w ten sposób rozpraszanie uwagi."
+      },
+      "register": "formal",
+      "tags": ["skutek", "+ -ing", "rozprawka"]
+    },
+    {
+      "en": "hence / hence + noun",
+      "pl": "stąd, dlatego",
+      "meaning_pl": "formalny skutek; często po nim sam rzeczownik, bez czasownika: ..., hence the delay. Działa jak polskie stąd ta nazwa. Przed hence przecinek albo średnik",
+      "example": {
+        "en": "Our school has no canteen, hence the long queues at the shop next door every lunchtime.",
+        "pl": "W naszej szkole nie ma stołówki, stąd długie kolejki w sklepie obok na każdej długiej przerwie."
+      },
+      "register": "formal",
+      "tags": ["skutek", "+ rzeczownik", "szkoła"]
+    },
+    {
+      "en": "..., so + clause",
+      "pl": "więc, dlatego",
+      "meaning_pl": "skutek w obrębie jednego zdania; przecinek przed so. W rozprawce nie zaczynaj zdania od So, tylko od Therefore albo As a result. Nie myl z so that (cel)",
+      "example": {
+        "en": "The last bus had already left, so we took a taxi home.",
+        "pl": "Ostatni autobus już odjechał, więc wróciliśmy do domu taksówką."
+      },
+      "register": "neutral",
+      "tags": ["skutek", "+ zdanie"]
+    },
+    {
+      "en": "for this reason",
+      "pl": "z tego powodu",
+      "meaning_pl": "odsyła do powodu z poprzedniego zdania; na początku zdania, po nim przecinek. Gdy powodów jest kilka: for these reasons",
+      "example": {
+        "en": "Many young people cannot afford to rent a flat. For this reason, they stay with their parents longer than previous generations did.",
+        "pl": "Wielu młodych ludzi nie stać na wynajęcie mieszkania. Z tego powodu mieszkają z rodzicami dłużej niż poprzednie pokolenia."
+      },
+      "register": "neutral",
+      "tags": ["skutek", "rozprawka"]
+    },
+    {
+      "en": "that is why / that's why + clause",
+      "pl": "dlatego (właśnie)",
+      "meaning_pl": "najpierw powód, potem That's why + skutek. Pułapka: polskie dlatego, że to because (powód), a nie that's why. Po why zwykły szyk i bez przecinka. W wypracowaniu bez skrótu: That is why",
+      "example": {
+        "en": "I've always wanted to work abroad. That's why I'm learning two foreign languages.",
+        "pl": "Zawsze chciałem pracować za granicą. Dlatego uczę się dwóch języków obcych."
+      },
+      "register": "neutral",
+      "tags": ["skutek", "+ zdanie", "pułapka"]
+    },
+    {
+      "en": "so + adj/adv + that / such (a) + adj + noun + that",
+      "pl": "tak..., że / taki..., że",
+      "meaning_pl": "skutek czegoś bardzo mocnego: so przed samym przymiotnikiem lub przysłówkiem, such (a) przed przymiotnikiem z rzeczownikiem. Przed that nie ma przecinka, choć po polsku przed że jest",
+      "example": {
+        "en": "The exam was so difficult that nobody finished it on time.",
+        "pl": "Egzamin był tak trudny, że nikt nie skończył go na czas."
+      },
+      "register": "neutral",
+      "tags": ["skutek", "+ zdanie", "pułapka"]
+    },
+    {
+      "en": "in order to do sth",
+      "pl": "aby, żeby, w celu",
+      "meaning_pl": "cel, + bezokolicznik, podmiot ten sam co w zdaniu głównym. Przeczenie: in order not to. Błąd: for learning zamiast to learn, gdy mówisz o celu. Na końcu zdania bez przecinka",
+      "example": {
+        "en": "She took a part-time job in order to save money for university.",
+        "pl": "Podjęła pracę na pół etatu, żeby odłożyć pieniądze na studia."
+      },
+      "register": "neutral",
+      "tags": ["cel", "+ bezokolicznik", "pułapka"]
+    },
+    {
+      "en": "so as to do sth",
+      "pl": "aby, żeby",
+      "meaning_pl": "jak in order to, trochę formalniej; + bezokolicznik. Najczęściej w przeczeniu: so as not to, bo samo not to brzmi gorzej. Bez przecinka przed nim",
+      "example": {
+        "en": "We left home early so as not to miss the first train.",
+        "pl": "Wyszliśmy z domu wcześnie, żeby nie spóźnić się na pierwszy pociąg."
+      },
+      "register": "formal",
+      "tags": ["cel", "+ bezokolicznik"]
+    },
+    {
+      "en": "so that + clause",
+      "pl": "żeby, aby",
+      "meaning_pl": "cel, ale po nim całe zdanie, zwykle z can/could/will/would. Przydaje się, gdy zmienia się podmiot (żebyś ty mógł). Zwykle bez przecinka; samo , so to skutek, nie cel",
+      "example": {
+        "en": "I'll send you my notes so that you can revise for the test.",
+        "pl": "Wyślę ci swoje notatki, żebyś mógł powtórzyć materiał do sprawdzianu."
+      },
+      "register": "neutral",
+      "tags": ["cel", "+ zdanie", "pułapka"]
+    },
+    {
+      "en": "with the aim of doing sth",
+      "pl": "w celu, z zamiarem",
+      "meaning_pl": "formalne w celu; po of zawsze -ing, nie bezokolicznik. Pasuje do rozprawki i artykułu o akcjach i projektach. Przecinek tylko, gdy fraza otwiera zdanie",
+      "example": {
+        "en": "The campaign was launched with the aim of reducing plastic waste in schools.",
+        "pl": "Kampanię rozpoczęto w celu ograniczenia ilości plastikowych odpadów w szkołach."
+      },
+      "register": "formal",
+      "tags": ["cel", "+ -ing", "ekologia"]
+    }
+  ]
+}

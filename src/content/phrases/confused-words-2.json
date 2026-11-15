@@ -1,0 +1,337 @@
+{
+  "id": "confused-words-2",
+  "category": "confused-words",
+  "title_pl": "Mylone słowa (2)",
+  "items": [
+    {
+      "en": "travel",
+      "pl": "podróżowanie, podróże; podróżować",
+      "meaning_pl": "Podróżowanie ogólnie, jako czynność. Jako rzeczownik jest niepoliczalny, więc nie ma „a travel”. O jednym konkretnym wyjeździe mówisz trip albo journey. Najczęściej to po prostu czasownik: travel abroad, travel by train.",
+      "example": {
+        "en": "Air travel has become much cheaper, so many students travel abroad every summer.",
+        "pl": "Podróże samolotem bardzo potaniały, więc wielu uczniów co roku latem wyjeżdża za granicę."
+      },
+      "register": "neutral",
+      "tags": ["travel/trip/journey", "podróże", "niepoliczalne"]
+    },
+    {
+      "en": "go on a trip",
+      "pl": "pojechać na wycieczkę, wyjazd",
+      "meaning_pl": "Trip to cały wyjazd: jedziesz gdzieś, jesteś tam przez chwilę i wracasz. Zwykle krótki i w jakimś celu: a school trip, a business trip, a day trip. Liczy się pobyt, a nie sama droga.",
+      "example": {
+        "en": "Last spring our class went on a school trip to the Science Museum in London.",
+        "pl": "Zeszłej wiosny nasza klasa pojechała na wycieczkę do Science Museum w Londynie."
+      },
+      "register": "neutral",
+      "tags": ["travel/trip/journey", "podróże"]
+    },
+    {
+      "en": "journey",
+      "pl": "podróż, droga, przejazd (z A do B)",
+      "meaning_pl": "Sama droga z jednego miejsca do drugiego, często długa: a long train journey. Po przyjeździe ktoś zapyta: Did you have a good journey? Po brytyjsku też codzienny dojazd: my journey to school.",
+      "example": {
+        "en": "The train journey to the mountains took eight hours, so we read and played cards.",
+        "pl": "Podróż pociągiem w góry trwała osiem godzin, więc czytaliśmy i graliśmy w karty."
+      },
+      "register": "neutral",
+      "tags": ["travel/trip/journey", "podróże"]
+    },
+    {
+      "en": "look at sb/sth",
+      "pl": "patrzeć, spojrzeć (na)",
+      "meaning_pl": "Celowo kierujesz wzrok na coś, zwykle na chwilę. Przed rzeczą albo osobą, na którą patrzysz, stawiasz at: look at the board. Bez at, z przymiotnikiem, look znaczy „wyglądać”: You look tired.",
+      "example": {
+        "en": "Look at this photo — that's me on my first day at school.",
+        "pl": "Spójrz na to zdjęcie — to ja w pierwszym dniu szkoły."
+      },
+      "register": "neutral",
+      "tags": ["look/see/watch", "zmysły", "czasownik"]
+    },
+    {
+      "en": "see sb/sth",
+      "pl": "widzieć, zobaczyć",
+      "meaning_pl": "Obraz po prostu trafia do oczu, nawet jeśli nie próbujesz: to zdolność, nie decyzja. W tym znaczeniu bez formy -ing, za to często z can: I can see the sea. Mówisz też see a film, gdy idziesz do kina.",
+      "example": {
+        "en": "From my bedroom window I can see the whole park.",
+        "pl": "Z okna mojego pokoju widzę cały park."
+      },
+      "register": "neutral",
+      "tags": ["look/see/watch", "zmysły", "czasownik"]
+    },
+    {
+      "en": "watch sb/sth",
+      "pl": "oglądać, obserwować",
+      "meaning_pl": "Uważnie patrzysz przez dłuższy czas na coś, co się rusza albo zmienia: watch TV, watch a match. Look to krótkie spojrzenie, watch to śledzenie wzrokiem. Telewizję się watch, nie „look”.",
+      "example": {
+        "en": "We watched the match on a big screen in the main square.",
+        "pl": "Oglądaliśmy mecz na dużym ekranie na rynku."
+      },
+      "register": "neutral",
+      "tags": ["look/see/watch", "zmysły", "czasownik"]
+    },
+    {
+      "en": "a job",
+      "pl": "praca (posada, etat)",
+      "meaning_pl": "Konkretna posada, za którą dostajesz pieniądze. Rzeczownik policzalny: a job, two jobs. Get / find / lose a job, a part-time job. „Dostałem pracę” to I got a job.",
+      "example": {
+        "en": "My brother got a part-time job in a café to save money for university.",
+        "pl": "Mój brat dostał pracę na pół etatu w kawiarni, żeby odłożyć pieniądze na studia."
+      },
+      "register": "neutral",
+      "tags": ["job/work", "praca", "policzalne"]
+    },
+    {
+      "en": "work",
+      "pl": "praca (jako czynność), robota; miejsce pracy",
+      "meaning_pl": "Praca jako zajęcie albo miejsce. W tym znaczeniu niepoliczalna, więc nie „a work”: I've got a lot of work, I'm at work, go to work (bez the). Policzalne a work to dzieło: a work of art.",
+      "example": {
+        "en": "I can't talk now, I'm at work — I'll call you back after six.",
+        "pl": "Nie mogę teraz rozmawiać, jestem w pracy — oddzwonię po szóstej."
+      },
+      "register": "neutral",
+      "tags": ["job/work", "praca", "niepoliczalne"]
+    },
+    {
+      "en": "possibility (of sth / that…)",
+      "pl": "możliwość (że coś się stanie)",
+      "meaning_pl": "Szansa, że coś może się wydarzyć albo być prawdą. Po nim zwykle of + rzeczownik / -ing albo that + zdanie: a possibility of rain. To nie jest okazja, którą ktoś ci daje — wtedy opportunity.",
+      "example": {
+        "en": "There's a possibility that the concert will be cancelled because of the storm.",
+        "pl": "Istnieje możliwość, że koncert zostanie odwołany z powodu burzy."
+      },
+      "register": "neutral",
+      "tags": ["possibility/opportunity", "rzeczownik", "pułapka"]
+    },
+    {
+      "en": "have the opportunity to do sth",
+      "pl": "mieć okazję / możliwość coś zrobić",
+      "meaning_pl": "Opportunity to sytuacja, która pozwala ci coś zrobić, zwykle coś dobrego. Polskie „miałem możliwość wyjechać” to I had the opportunity to go, nie „possibility”. Chance pasuje w obu znaczeniach i brzmi swobodniej.",
+      "example": {
+        "en": "Thanks to the exchange programme, I had the opportunity to live with a family in Dublin.",
+        "pl": "Dzięki wymianie miałem możliwość zamieszkać u rodziny w Dublinie."
+      },
+      "register": "neutral",
+      "tags": ["possibility/opportunity", "rzeczownik", "pułapka"]
+    },
+    {
+      "en": "control sth",
+      "pl": "panować nad czymś, mieć pod kontrolą, kierować",
+      "meaning_pl": "Mieć władzę nad czymś albo nad tym panować: control your emotions, control a company. Nie znaczy „sprawdzić”, jak polskie „skontrolować”. Wyjątki to stałe nazwy: passport control, quality control.",
+      "example": {
+        "en": "Try to control your emotions during the debate — shouting won't help.",
+        "pl": "Postaraj się panować nad emocjami podczas debaty — krzyk nic nie da."
+      },
+      "register": "neutral",
+      "tags": ["control/check", "czasownik", "pułapka"]
+    },
+    {
+      "en": "check sth",
+      "pl": "sprawdzić, skontrolować",
+      "meaning_pl": "Upewniasz się, że coś jest poprawne, bezpieczne albo prawdziwe: check your answers, check the timetable. Tak tłumaczysz „sprawdzić” i „skontrolować”. Dokładne, oficjalne sprawdzanie (np. przez urzędnika) to inspect.",
+      "example": {
+        "en": "Always check your answers before you hand in the test.",
+        "pl": "Zawsze sprawdzaj odpowiedzi, zanim oddasz test."
+      },
+      "register": "neutral",
+      "tags": ["control/check", "czasownik"]
+    },
+    {
+      "en": "hear sb/sth",
+      "pl": "słyszeć, usłyszeć",
+      "meaning_pl": "Dźwięk do ciebie dociera, czy chcesz, czy nie — tak jak see dla oczu. W tym znaczeniu bez formy -ing, często z can: I can hear music. Bez przyimka: hear a noise.",
+      "example": {
+        "en": "Can you hear that noise? I think someone is in the garden.",
+        "pl": "Słyszysz ten hałas? Chyba ktoś jest w ogrodzie."
+      },
+      "register": "neutral",
+      "tags": ["hear/listen", "zmysły", "czasownik"]
+    },
+    {
+      "en": "listen to sb/sth",
+      "pl": "słuchać",
+      "meaning_pl": "Celowo skupiasz uwagę na dźwięku — jak look albo watch dla oczu. Przed dopełnieniem zawsze to: listen to music, listen to the teacher. Można słuchać i nic nie usłyszeć: I listened, but I couldn't hear anything.",
+      "example": {
+        "en": "I listen to podcasts in English on my way to school.",
+        "pl": "Słucham podcastów po angielsku w drodze do szkoły."
+      },
+      "register": "neutral",
+      "tags": ["hear/listen", "zmysły", "czasownik"]
+    },
+    {
+      "en": "bring sb/sth",
+      "pl": "przynieść, przywieźć, przyprowadzić",
+      "meaning_pl": "Ruch w stronę miejsca, gdzie jest (albo będzie) mówiący lub słuchacz: „tutaj, do nas”. Take to ruch w drugą stronę: „stąd tam”. Fetch (zwłaszcza BrE) to pójść po coś i z tym wrócić.",
+      "example": {
+        "en": "Can you bring your laptop to the meeting tomorrow? Mine isn't working.",
+        "pl": "Możesz przynieść laptopa na jutrzejsze spotkanie? Mój nie działa."
+      },
+      "register": "neutral",
+      "tags": ["bring/take", "czasownik", "kierunek"]
+    },
+    {
+      "en": "take sb/sth (to a place)",
+      "pl": "zabrać, zanieść, zawieźć, zaprowadzić",
+      "meaning_pl": "Ruch od mówiącego w inne miejsce: „stąd tam”. Take the dog to the vet, take an umbrella with you. Polskie „wziąć ze sobą” to take sth with you. Myślisz „tam” — wybierz take.",
+      "example": {
+        "en": "My dad takes me to school every morning on his way to work.",
+        "pl": "Tata codziennie rano zawozi mnie do szkoły w drodze do pracy."
+      },
+      "register": "neutral",
+      "tags": ["bring/take", "czasownik", "kierunek"]
+    },
+    {
+      "en": "among",
+      "pl": "wśród, pośród",
+      "meaning_pl": "W środku grupy albo tłumu, gdy nie wyróżniasz osobnych elementów: among friends, popular among teenagers. Po nim liczba mnoga albo rzeczownik zbiorowy.",
+      "example": {
+        "en": "This app is very popular among teenagers in Poland.",
+        "pl": "Ta aplikacja jest bardzo popularna wśród nastolatków w Polsce."
+      },
+      "register": "neutral",
+      "tags": ["among/between", "przyimek"]
+    },
+    {
+      "en": "between A and B",
+      "pl": "między (A a B)",
+      "meaning_pl": "Między wyraźnie oddzielnymi osobami lub rzeczami, zwykle dwiema. Działa też dla więcej niż dwóch, jeśli każdą wymieniasz osobno. Wzór: between… and…, nie „or”. Mówi się between you and me, nie „and I”.",
+      "example": {
+        "en": "Choosing between a gap year and university wasn't easy for me.",
+        "pl": "Wybór między rokiem przerwy a studiami nie był dla mnie łatwy."
+      },
+      "register": "neutral",
+      "tags": ["among/between", "przyimek"]
+    },
+    {
+      "en": "be / live alone",
+      "pl": "sam, w pojedynkę",
+      "meaning_pl": "Opisuje fakt: nikogo przy tobie nie ma. Bez emocji — można być alone i czuć się świetnie. Stoi po czasowniku, nie przed rzeczownikiem: She lives alone, nie „an alone woman”.",
+      "example": {
+        "en": "My grandma has lived alone since my grandpa died, but she enjoys her independence.",
+        "pl": "Babcia mieszka sama, odkąd zmarł dziadek, ale cieszy się swoją niezależnością."
+      },
+      "register": "neutral",
+      "tags": ["alone/lonely", "przymiotnik", "uczucia"]
+    },
+    {
+      "en": "feel lonely",
+      "pl": "czuć się samotnym",
+      "meaning_pl": "Opisuje uczucie: jest ci smutno, bo brakuje ci ludzi. Można czuć się lonely nawet w tłumie. Może stać przed rzeczownikiem: a lonely old man. Sam (fakt) = alone, sam i smutno = lonely.",
+      "example": {
+        "en": "When I moved to a new school, I felt lonely for the first few weeks.",
+        "pl": "Kiedy przeszedłem do nowej szkoły, przez pierwsze tygodnie czułem się samotny."
+      },
+      "register": "neutral",
+      "tags": ["alone/lonely", "przymiotnik", "uczucia"]
+    },
+    {
+      "en": "especially",
+      "pl": "zwłaszcza, szczególnie",
+      "meaning_pl": "Wyróżniasz jedną rzecz spośród innych. Stawiasz je przed tym, co wyróżniasz: especially in winter, especially when… Polskie „Zwłaszcza lubię…” to I especially like…, a nie „Especially I like…”.",
+      "example": {
+        "en": "Many teenagers don't get enough sleep, especially before exams.",
+        "pl": "Wielu nastolatków za mało śpi, zwłaszcza przed egzaminami."
+      },
+      "register": "neutral",
+      "tags": ["especially/specially", "przysłówek"]
+    },
+    {
+      "en": "specially (designed / made)",
+      "pl": "specjalnie (w jakimś celu, dla kogoś)",
+      "meaning_pl": "Coś zrobiono w jednym konkretnym celu albo dla konkretnej osoby: specially designed for children. W wypracowaniu nie używaj go w znaczeniu „zwłaszcza” — to tylko especially. Uwaga: „zrobił to specjalnie” (celowo) to on purpose.",
+      "example": {
+        "en": "This course was specially designed for students preparing for their final exams.",
+        "pl": "Ten kurs został specjalnie przygotowany dla uczniów przed maturą."
+      },
+      "register": "neutral",
+      "tags": ["especially/specially", "przysłówek", "pułapka"]
+    },
+    {
+      "en": "during + noun",
+      "pl": "podczas, w czasie (czegoś)",
+      "meaning_pl": "Odpowiada na pytanie „kiedy?”: w trakcie jakiegoś wydarzenia lub okresu. Po nim rzeczownik: during the lesson, during the holidays. Nie mówisz „during two hours” — długość podajesz przez for.",
+      "example": {
+        "en": "Please switch off your phones during the exam.",
+        "pl": "Proszę wyłączyć telefony podczas egzaminu."
+      },
+      "register": "neutral",
+      "tags": ["during/for", "przyimek", "czas"]
+    },
+    {
+      "en": "for + period of time",
+      "pl": "przez (jakiś czas)",
+      "meaning_pl": "Odpowiada na pytanie „jak długo?”: for two hours, for a week, for ages. Polskie „przez dwa tygodnie” to for two weeks, nie „during”. Częste z present perfect: I've lived here for ten years.",
+      "example": {
+        "en": "We stayed in Scotland for two weeks during the summer holidays.",
+        "pl": "W wakacje byliśmy w Szkocji przez dwa tygodnie."
+      },
+      "register": "neutral",
+      "tags": ["during/for", "przyimek", "czas"]
+    },
+    {
+      "en": "until (till)",
+      "pl": "do (jakiegoś momentu), aż do",
+      "meaning_pl": "Coś trwa bez przerwy aż do tego momentu i wtedy się kończy: wait until six. Pytanie kontrolne: „do kiedy to trwa?”. Till jest swobodniejsze. Not until = dopiero: The shop doesn't open until ten.",
+      "example": {
+        "en": "The library is open until 8 p.m., so we can study there after school.",
+        "pl": "Biblioteka jest otwarta do 20, więc możemy się tam uczyć po lekcjach."
+      },
+      "register": "neutral",
+      "tags": ["until/by", "przyimek", "czas"]
+    },
+    {
+      "en": "by + time (deadline)",
+      "pl": "do (najpóźniej), przed",
+      "meaning_pl": "Termin: coś ma się stać najpóźniej w tym momencie, może wcześniej. Pytanie kontrolne: „na kiedy ma być gotowe?”. Polskie „do piątku” bywa i until, i by: trwa (until) czy ma być zrobione (by)? Częste z future perfect.",
+      "example": {
+        "en": "You have to hand in your essays by Friday.",
+        "pl": "Musicie oddać wypracowania najpóźniej w piątek."
+      },
+      "register": "neutral",
+      "tags": ["until/by", "przyimek", "czas", "pułapka"]
+    },
+    {
+      "en": "customer",
+      "pl": "klient (sklepu, restauracji, firmy)",
+      "meaning_pl": "Ktoś, kto kupuje towary albo usługi w sklepie, restauracji czy u operatora: regular customers, customer service. Najczęstszy odpowiednik polskiego „klient” w handlu.",
+      "example": {
+        "en": "The shop gives regular customers a ten per cent discount.",
+        "pl": "Sklep daje stałym klientom dziesięć procent zniżki."
+      },
+      "register": "neutral",
+      "tags": ["customer/client", "zakupy", "praca"]
+    },
+    {
+      "en": "client",
+      "pl": "klient (prawnika, agencji, firmy usługowej)",
+      "meaning_pl": "Ktoś, kto płaci za fachową usługę lub poradę: klient prawnika, architekta, agencji reklamowej. Zwykle to relacja na dłużej, nie jednorazowy zakup. Gość hotelowy to guest, a pacjent lekarza to patient.",
+      "example": {
+        "en": "My mum is a lawyer, so she spends most of the day meeting clients.",
+        "pl": "Moja mama jest prawniczką, więc większość dnia spędza na spotkaniach z klientami."
+      },
+      "register": "neutral",
+      "tags": ["customer/client", "praca"]
+    },
+    {
+      "en": "salary",
+      "pl": "pensja (stała, miesięczna)",
+      "meaning_pl": "Stała kwota ustalona na rok i wypłacana co miesiąc, zwykle w pracy biurowej albo specjalistycznej: a salary of £30,000 a year, earn a good salary. Wypłata liczona za godziny lub tygodnie to wages.",
+      "example": {
+        "en": "Teachers in many countries complain that their salaries are too low.",
+        "pl": "Nauczyciele w wielu krajach skarżą się, że ich pensje są za niskie."
+      },
+      "register": "neutral",
+      "tags": ["salary/wages", "praca", "pieniądze"]
+    },
+    {
+      "en": "wages / a wage",
+      "pl": "wypłata, zarobki (za godzinę lub tydzień)",
+      "meaning_pl": "Pieniądze liczone za godzinę, dzień albo tydzień, zwykle w pracy fizycznej lub dorywczej: w sklepie, fabryce, kawiarni. Często w liczbie mnogiej: my wages. The minimum wage = płaca minimalna.",
+      "example": {
+        "en": "Students who work in cafés often earn just the minimum wage.",
+        "pl": "Uczniowie, którzy pracują w kawiarniach, często zarabiają tylko płacę minimalną."
+      },
+      "register": "neutral",
+      "tags": ["salary/wages", "praca", "pieniądze"]
+    }
+  ]
+}
