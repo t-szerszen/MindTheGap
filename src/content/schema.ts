@@ -139,6 +139,27 @@ export const blockSchema = z.discriminatedUnion('type', [
   }),
   z.strictObject({ type: z.literal('formula'), parts: partsSchema, example: exSchema.optional() }),
   z.strictObject({ type: z.literal('steps'), items: z.array(stepSchema).min(1) }),
+  z.strictObject({
+    type: z.literal('timeline'),
+    now: pos.default(0.5),
+    marks: z.array(timelineMarkSchema).min(1),
+    caption_pl: txt.optional(),
+  }),
+  // dwie (czasem trzy) kolumny obok siebie: to samo w dwóch strukturach i różnica znaczenia
+  z.strictObject({
+    type: z.literal('comparison'),
+    columns: z
+      .array(
+        z.strictObject({
+          title: txt,
+          md_pl: txt,
+          examples: z.array(exSchema).optional(),
+        }),
+      )
+      .min(2)
+      .max(3),
+    takeaway_pl: txt.optional(),
+  }),
 ])
 
 export const topicSchema = z.strictObject({

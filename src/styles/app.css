@@ -680,6 +680,53 @@
 .callout {
   padding: 22px 16px 14px;
 }
+.tl-block {
+  margin: 0;
+  max-width: 440px;
+}
+.tl-block figcaption {
+  font-size: 15px;
+  margin-top: 2px;
+}
+/* porównanie: na telefonie kolumny jedna pod drugą, przedzielone kreską; szerzej obok siebie */
+.cmp-cols {
+  display: grid;
+  gap: 14px;
+}
+.cmp-col + .cmp-col {
+  border-top: 1.5px dashed var(--faint);
+  padding-top: 12px;
+}
+.cmp-title {
+  margin-bottom: 2px;
+  background: linear-gradient(transparent 60%, var(--hl-b) 60%);
+  display: inline;
+}
+.cmp-col:nth-child(2) .cmp-title {
+  background: linear-gradient(transparent 60%, var(--hl-p) 60%);
+}
+.cmp-col:nth-child(3) .cmp-title {
+  background: linear-gradient(transparent 60%, var(--hl-m) 60%);
+}
+.cmp-take {
+  margin-top: 12px;
+  font-family: var(--f-note);
+  color: var(--pen-blue);
+}
+@media (min-width: 560px) {
+  .cmp-cols.n2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .cmp-cols.n3 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .cmp-col + .cmp-col {
+    border-top: 0;
+    padding-top: 0;
+    border-left: 1.5px dashed var(--faint);
+    padding-left: 14px;
+  }
+}
 .callout-matura {
   padding: 14px 14px 12px;
 }
