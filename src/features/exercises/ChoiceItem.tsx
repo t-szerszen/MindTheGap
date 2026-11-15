@@ -1,6 +1,7 @@
 import type { ChoiceExercise } from '../../content/schema'
 import { pl } from '../../i18n/pl'
 import { splitBlanks } from '../../lib/exercises/gap'
+import { optionOrder } from '../../lib/exercises/order'
 import { letters } from './itemInput'
 import { CheckRow, Explain, StepsNote, Task, type ItemProps } from './ItemParts'
 
@@ -56,7 +57,8 @@ export function ChoiceItem({
               <li key={i} className="opt-gap">
                 <div className="row wrap opt-row" role="radiogroup" aria-label={t.gapN(i + 1)}>
                   {multi && <span className="hand opt-n">{i + 1}.</span>}
-                  {g.options.map((o, j) => {
+                  {optionOrder(key(i), g.options.length).map((j, pos) => {
+                    const o = g.options[j]!
                     const picked = chosen(i) === j
                     const right = !!r && j === g.answer
                     const missed = !!r && picked && !r.ok
@@ -71,7 +73,7 @@ export function ChoiceItem({
                         onClick={() => set(key(i), String(j))}
                         lang="en"
                       >
-                        <b>{letters[j]}</b> {o}
+                        <b>{letters[pos]}</b> {o}
                       </button>
                     )
                   })}
