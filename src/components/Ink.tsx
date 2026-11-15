@@ -51,7 +51,7 @@ const markPaths = {
 
 export function Mark({ ok, label }: { ok: boolean; label: string }) {
   return (
-    <svg className="mark" viewBox="0 0 44 44" role="img" aria-label={label}>
+    <svg className={ok ? 'mark ok' : 'mark'} viewBox="0 0 44 44" role="img" aria-label={label}>
       <path d={ok ? markPaths.tick : markPaths.cross} />
     </svg>
   )

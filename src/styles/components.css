@@ -209,6 +209,9 @@ body {
 .note.ink {
   color: var(--ink-2);
 }
+.note.green {
+  color: var(--pen-green);
+}
 .eyebrow {
   font-family: var(--f-note);
   font-size: 13px;
@@ -758,6 +761,9 @@ body {
 .link-pen.red {
   color: var(--pen-red);
 }
+.link-pen.green {
+  color: var(--pen-green);
+}
 .link-pen[disabled] {
   opacity: 0.45;
   cursor: default;
@@ -943,7 +949,7 @@ body {
 }
 .gap-in.ok {
   border-bottom-style: solid;
-  border-bottom-color: var(--pen-red);
+  border-bottom-color: var(--pen-green);
 }
 .gap-in.bad {
   border-bottom-style: solid;
@@ -1429,6 +1435,10 @@ body {
   stroke-dasharray: 90;
   animation: mark-draw var(--t-check) var(--ease-pen) both;
 }
+/* czerwony tylko dla błędów, dobra odpowiedź na zielono */
+.mark.ok path {
+  stroke: var(--pen-green);
+}
 @keyframes mark-draw {
   from {
     stroke-dashoffset: 90;
@@ -1456,6 +1466,12 @@ body {
   border: 2px solid var(--pen-red);
   border-right: 0;
   border-radius: 10px 0 0 10px/40px 0 0 40px;
+}
+.mnote.ok {
+  color: var(--pen-green);
+}
+.mnote.ok::before {
+  border-color: var(--pen-green);
 }
 .mnote .hl {
   font-family: var(--f-body);
