@@ -9,11 +9,13 @@ export function WordRow({
   word,
   uid,
   now,
+  fresh,
   onEdit,
 }: {
   word: Word
   uid: string
   now: Date
+  fresh?: boolean
   onEdit: (w: Word) => void
 }) {
   const [confirm, setConfirm] = useState(false)
@@ -23,6 +25,7 @@ export function WordRow({
       <div className="grow">
         <p className="h-s" lang="en">
           {englishSide(word)}
+          {fresh && <span className="note word-fresh">{t.justAdded}</span>}
         </p>
         <p className="small muted">{polishSide(word)}</p>
         {word.example && (
@@ -31,6 +34,7 @@ export function WordRow({
           </p>
         )}
         <WordStats word={word} now={now} />
+        {word.source && <p className="note ink word-source">{t.sources[word.source]}</p>}
         {word.tags.length > 0 && (
           <div className="row wrap" style={{ gap: 6, marginTop: 4 }}>
             {word.tags.map((tag) => (
