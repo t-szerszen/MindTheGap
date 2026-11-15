@@ -1,0 +1,754 @@
+{
+  "id": "reported-speech",
+  "category": "grammar",
+  "title_pl": "Mowa zależna",
+  "summary_pl": "Jak opowiedzieć, co ktoś powiedział, o co pytał i o co prosił, i jakie wzory mają czasowniki typu suggest, deny, accuse.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "Mowa zależna (*reported speech*) to opowiadanie, co ktoś powiedział, bez cytowania jego słów. Cały mechanizm sprowadza się do jednego: **zmienia się punkt widzenia**. Mówiący mówił ze swojego „ja, tu, teraz”, a ty relacjonujesz ze swojego.\n\nDlatego przesuwają się trzy rzeczy:\n\n- **osoby**: jego *I* to dla ciebie *he* albo *she*, jego *you* to często *I* albo *we*;\n- **czas czasownika**: jego „teraz” jest dla ciebie przeszłością, więc forma cofa się o krok (*backshift*);\n- **słowa o czasie i miejscu**: jego *tomorrow* czy *here* trzeba przeliczyć na twój dzień i twoje miejsce.\n\nPo polsku czasu nie cofamy (*Powiedziała, że jest zmęczona*). Właśnie dlatego to najczęstsze źródło błędów."
+    },
+    {
+      "type": "timeline",
+      "now": 0.8,
+      "marks": [
+        {
+          "kind": "point",
+          "from": 0.25,
+          "label": "\"I'm tired.\""
+        },
+        {
+          "kind": "arrow-to-now",
+          "from": 0.25,
+          "label": "you report it"
+        }
+      ],
+      "caption_pl": "Ona mówiła o swoim „teraz”. Ty opowiadasz później, więc jej teraźniejszość jest już przeszłością: She said she was tired."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "czasownik relacjonujący",
+          "text_pl": "Sprawdź, w jakim czasie jest czasownik, którym relacjonujesz: said, told, asked (przeszłość) czy says, has told, will tell (teraźniejszość albo przyszłość)."
+        },
+        {
+          "step_pl": "rodzaj wypowiedzi",
+          "text_pl": "Zdanie oznajmujące → said / told sb (that). Pytanie → asked + słowo pytające albo if / whether. Polecenie lub prośba → told / asked sb (not) to V1."
+        },
+        {
+          "step_pl": "osoby",
+          "text_pl": "Zamień zaimki i dzierżawcze z punktu widzenia mówiącego na swój: I → she, my → her, you → me."
+        },
+        {
+          "step_pl": "forma czasownika",
+          "text_pl": "Jeśli czasownik relacjonujący jest w przeszłości, cofnij czas o krok: is → was, has done → had done, will → would. Po says albo przy czymś, co wciąż jest prawdą, nie musisz."
+        },
+        {
+          "step_pl": "słowa o czasie i miejscu",
+          "text_pl": "Przelicz tomorrow, yesterday, here, this, jeśli twój dzień albo twoje miejsce są inne niż mówiącego."
+        }
+      ]
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "Subject",
+          "role": "subject"
+        },
+        {
+          "text": "said",
+          "role": "signal"
+        },
+        {
+          "text": "(that)",
+          "role": "particle"
+        },
+        {
+          "text": "subject",
+          "role": "subject"
+        },
+        {
+          "text": "V (backshift)",
+          "role": "verb"
+        }
+      ],
+      "example": {
+        "en": "\"I'm tired.\" → She said (that) she was tired.",
+        "pl": "„Jestem zmęczona.” → Powiedziała, że jest zmęczona."
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "Subject",
+          "role": "subject"
+        },
+        {
+          "text": "told",
+          "role": "signal"
+        },
+        {
+          "text": "sb",
+          "role": "object"
+        },
+        {
+          "text": "(that)",
+          "role": "particle"
+        },
+        {
+          "text": "subject",
+          "role": "subject"
+        },
+        {
+          "text": "V (backshift)",
+          "role": "verb"
+        }
+      ],
+      "example": {
+        "en": "\"I've lost my keys.\" → Kuba told me (that) he had lost his keys.",
+        "pl": "„Zgubiłem klucze.” → Kuba powiedział mi, że zgubił klucze."
+      }
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "say",
+          "md_pl": "Mówisz, **co** ktoś powiedział. Osoby nie musi być, a jeśli jest, to z **to**: *said (to me) that…*",
+          "examples": [
+            {
+              "en": "He said (that) he was hungry.",
+              "pl": "Powiedział, że jest głodny."
+            },
+            {
+              "en": "She said to me that she was leaving.",
+              "pl": "Powiedziała mi, że wyjeżdża."
+            }
+          ]
+        },
+        {
+          "title": "tell",
+          "md_pl": "Mówisz, **komu**. Osoba stoi zaraz po *tell*, bez *to*: *told me that…* Bez osoby tylko w zwrotach: *tell the truth, tell a lie, tell a story*.",
+          "examples": [
+            {
+              "en": "He told me (that) he was hungry.",
+              "pl": "Powiedział mi, że jest głodny."
+            },
+            {
+              "en": "She told us to wait outside.",
+              "pl": "Kazała nam poczekać na zewnątrz."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Osoba zaraz po czasowniku, bez *to* → **tell**. Bez osoby albo z *to* + osoba → **say**. Nigdy *said me* ani *told that* bez osoby."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Backshift, czyli cofanie czasu.** Po *said*, *told*, *asked* to, co dla mówiącego było teraźniejszością, dla ciebie jest przeszłością. Każdy czas zwykle cofa się więc o jeden krok w stronę przeszłości: jego teraźniejszość to twoja przeszłość, a jego przeszłość to coś jeszcze wcześniej, czyli Past Perfect. Past Perfect jest już najdalej, więc zostaje bez zmian."
+    },
+    {
+      "type": "table",
+      "headers": ["W oryginale", "W relacji (po said / told)", "Przykład"],
+      "rows": [
+        ["Present Simple", "Past Simple", "\"I live in Gdańsk.\" → She said she lived in Gdańsk."],
+        ["Present Continuous", "Past Continuous", "\"I'm working.\" → He said he was working."],
+        ["Present Perfect", "Past Perfect", "\"I've finished.\" → She said she had finished."],
+        [
+          "Present Perfect Continuous",
+          "Past Perfect Continuous",
+          "\"I've been waiting for an hour.\" → He said he had been waiting for an hour."
+        ],
+        [
+          "Past Simple",
+          "Past Perfect (albo zostaje Past Simple)",
+          "\"I saw the film.\" → He said he had seen the film."
+        ],
+        [
+          "Past Continuous",
+          "zwykle zostaje (Past Perfect Continuous możliwy)",
+          "\"I was sleeping.\" → She said she was sleeping / had been sleeping."
+        ],
+        ["Past Perfect (Continuous)", "bez zmiany", "\"I had left.\" → He said he had left."],
+        [
+          "am / is / are going to",
+          "was / were going to",
+          "\"I'm going to move.\" → He said he was going to move."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Past Simple często zostaje, kiedy kolejność jest jasna albo podajesz konkretną datę: *She said she was born in 2008* (*had been born* brzmiałoby sztucznie). Bez daty Past Perfect wyraźnie pokazuje, że coś stało się przed samą wypowiedzią, więc w zadaniach to zwykle bezpieczny wybór."
+    },
+    {
+      "type": "table",
+      "headers": ["W oryginale", "W relacji", "Przykład"],
+      "rows": [
+        ["will", "would", "\"I'll call you.\" → He said he would call me."],
+        ["can", "could", "\"I can swim.\" → She said she could swim."],
+        ["may (możliwość)", "might", "\"I may be late.\" → He said he might be late."],
+        ["may (pozwolenie)", "could", "\"May I come in?\" → He asked if he could come in."],
+        [
+          "must (obowiązek)",
+          "had to albo must",
+          "\"You must wear a helmet.\" → He said we had to wear a helmet."
+        ],
+        ["must (wniosek: na pewno)", "must", "\"She must be tired.\" → He said she must be tired."],
+        [
+          "shall (Shall I…?)",
+          "should",
+          "\"Shall I open the window?\" → She asked if she should open the window."
+        ],
+        [
+          "would, could, should, might, ought to",
+          "bez zmiany",
+          "\"You should rest.\" → The doctor said I should rest."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**must** ma dwa znaczenia i każde zachowuje się inaczej. Obowiązek możesz cofnąć do **had to** albo zostawić *must*. Wniosek (*she must be tired* = na pewno jest zmęczona) zawsze zostaje *must*. Zakaz *mustn't* też zwykle zostaje: *He said we mustn't be late.* Nie zamieniaj go na *didn't have to*, bo to znaczy „nie musieliśmy”, a nie „nie wolno nam było”. Jeśli chcesz przeszłość, użyj *weren't allowed to*: *He said we weren't allowed to be late.*\n\nPo *would*, *could*, *might*, *should*, *must* czasownik stoi bez *to*: *could leave*, *might be*, nie *could to leave*. Wyjątki to *had to* i *ought to*, bo tam *to* należy do samej formy."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "said / told / asked",
+          "md_pl": "Czasownik relacjonujący w przeszłości. **Cofasz** czas o krok, bo sytuacja mogła się zmienić.",
+          "examples": [
+            {
+              "en": "\"I'm ill.\" → Last week Ola said she was ill.",
+              "pl": "W zeszłym tygodniu Ola powiedziała, że jest chora."
+            }
+          ]
+        },
+        {
+          "title": "says / has told / will tell",
+          "md_pl": "Czasownik relacjonujący w teraźniejszości albo przyszłości. Relacjonujesz z tego samego „teraz”, więc **nie** cofasz.",
+          "examples": [
+            {
+              "en": "\"I'm ill.\" → Ola says she is ill.",
+              "pl": "Ola mówi, że jest chora."
+            },
+            {
+              "en": "The forecast says it will rain.",
+              "pl": "Według prognozy będzie padać."
+            }
+          ]
+        },
+        {
+          "title": "wciąż prawda",
+          "md_pl": "To, co ktoś powiedział, nadal jest aktualne albo jest faktem ogólnym. **Możesz** zostawić czas, oba warianty są poprawne.",
+          "examples": [
+            {
+              "en": "He told me he lives in Kraków.",
+              "pl": "Powiedział mi, że mieszka w Krakowie (i nadal tam mieszka)."
+            },
+            {
+              "en": "Our teacher said that water boils at 100°C.",
+              "pl": "Nauczyciel powiedział, że woda wrze w temperaturze 100°C."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Najpierw patrzysz na czasownik relacjonujący. Przeszłość → cofasz, chyba że to wciąż prawda. Teraźniejszość albo przyszłość → czasu nie cofasz (osoby i tak zmieniasz)."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Słowa o czasie i miejscu.** *Tomorrow*, *yesterday*, *here* czy *this* nie oznaczają stałego dnia ani miejsca. Wskazują na dzień i miejsce **mówiącego**. Kiedy relacjonujesz innego dnia albo gdzie indziej, musisz je przeliczyć.\n\nPrzykład: Kasia w poniedziałek mówi *I'll call you tomorrow*. Jej *tomorrow* to wtorek. Jeśli opowiadasz o tym w piątek, *tomorrow* znaczyłoby sobotę, więc mówisz **the next day**: *She said she would call me the next day.*"
+    },
+    {
+      "type": "table",
+      "headers": ["W oryginale", "W relacji", "Logika"],
+      "rows": [
+        ["now", "then / at that time", "jego „teraz” to dla ciebie „wtedy”"],
+        ["today", "that day", "tamten dzień, nie dzisiejszy"],
+        ["tonight", "that night", "wieczór tamtego dnia"],
+        ["tomorrow", "the next day / the following day", "dzień po wypowiedzi"],
+        ["yesterday", "the day before / the previous day", "dzień przed wypowiedzią"],
+        ["next week", "the following week / the week after", "tydzień po wypowiedzi"],
+        ["last week", "the week before / the previous week", "tydzień przed wypowiedzią"],
+        [
+          "two days ago",
+          "two days before / two days earlier",
+          "liczysz od wypowiedzi, nie od dziś"
+        ],
+        ["here", "there", "miejsce mówiącego, nie twoje"],
+        [
+          "this / these",
+          "that / those, często po prostu the",
+          "w wyrażeniach czasu: this week → that week; przy rzeczach często the: this dress → the dress"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Zmieniasz tylko wtedy, gdy perspektywa naprawdę jest inna. Jeśli rano ktoś powiedział *I'll come tomorrow*, a ty relacjonujesz tego samego dnia, *tomorrow* zostaje: *She said this morning that she would come tomorrow.* Tak samo *here*, jeśli nadal jesteś w tym samym miejscu."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "wypowiedź",
+          "text_pl": "W piątek Ola mówi: \"I'm meeting my friends here tomorrow.\" W poniedziałek opowiadasz o tym w innym mieście."
+        },
+        {
+          "step_pl": "czasownik",
+          "text_pl": "Relacjonujesz po said, czyli w przeszłości → cofasz czas."
+        },
+        {
+          "step_pl": "osoby",
+          "text_pl": "I → she, my → her."
+        },
+        {
+          "step_pl": "forma czasownika",
+          "text_pl": "am meeting → was meeting."
+        },
+        {
+          "step_pl": "słowa o czasie i miejscu",
+          "text_pl": "here → there (jesteś gdzie indziej), tomorrow → the next day (jej jutro to sobota, a nie twój wtorek)."
+        },
+        {
+          "step_pl": "wynik",
+          "text_pl": "Ola said she was meeting her friends there the next day."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Pytania.** Pytanie w mowie zależnej przestaje być pytaniem: relacjonujesz, **o co** ktoś pytał. Dlatego:\n\n- szyk wraca do zwykłego: najpierw podmiot, potem czasownik;\n- znikają *do / does / did*;\n- na końcu nie ma znaku zapytania.\n\nCzas cofasz tak samo jak w zdaniach oznajmujących."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "Subject",
+          "role": "subject"
+        },
+        {
+          "text": "asked",
+          "role": "signal"
+        },
+        {
+          "text": "(sb)",
+          "role": "object"
+        },
+        {
+          "text": "Wh-word",
+          "role": "neutral"
+        },
+        {
+          "text": "subject",
+          "role": "subject"
+        },
+        {
+          "text": "V (backshift)",
+          "role": "verb"
+        }
+      ],
+      "example": {
+        "en": "\"Where do you live?\" → She asked me where I lived.",
+        "pl": "„Gdzie mieszkasz?” → Zapytała mnie, gdzie mieszkam."
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "Subject",
+          "role": "subject"
+        },
+        {
+          "text": "asked",
+          "role": "signal"
+        },
+        {
+          "text": "(sb)",
+          "role": "object"
+        },
+        {
+          "text": "if / whether",
+          "role": "particle"
+        },
+        {
+          "text": "subject",
+          "role": "subject"
+        },
+        {
+          "text": "V (backshift)",
+          "role": "verb"
+        }
+      ],
+      "example": {
+        "en": "\"Are you hungry?\" → He asked if I was hungry.",
+        "pl": "„Jesteś głodny?” → Zapytał, czy jestem głodny."
+      }
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "\"What time does the film start?\" → Tom asked what time the film started.",
+          "pl": "„O której zaczyna się film?” → Tom zapytał, o której zaczyna się film."
+        },
+        {
+          "en": "\"Have you ever been to Rome?\" → She asked me whether I had ever been to Rome.",
+          "pl": "„Byłeś kiedyś w Rzymie?” → Zapytała mnie, czy byłem kiedyś w Rzymie."
+        },
+        {
+          "en": "\"Who broke the window?\" → The teacher asked who had broken the window.",
+          "pl": "„Kto zbił szybę?” → Nauczyciel zapytał, kto zbił szybę."
+        },
+        {
+          "en": "\"Can you help me?\" → My neighbour asked if I could help her.",
+          "pl": "„Możesz mi pomóc?” → Sąsiadka zapytała, czy mogę jej pomóc."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**Polskie „czy” to if / whether.** Gdy pytanie nie ma słowa pytającego (odpowiedź tak/nie), dodajesz *if* albo *whether*. *Whether* jest trochę bardziej formalne i tylko ono stoi tuż przed *or not*: *whether or not*.\n\nNie *She asked me where did I live* ani *where do I live*. Dobrze: **She asked me where I lived.** Z *be* też podmiot idzie przed czasownik: \"Where is the station?\" → *He asked where the station was*, nie *where was the station*.\n\nPytanie o podmiot (*Who called? What happened?*) ma zwykły szyk już w oryginale, więc zmieniasz tylko czas: *Who called?* → *She asked who had called.*"
+    },
+    {
+      "type": "text",
+      "md_pl": "**Polecenia i prośby.** W relacji robisz z nich bezokolicznik: **told / asked + komu + (not) to + V1**. *Tell* to polecenie, *ask* to prośba. Czasu tu nie cofasz, bo bezokolicznik nie ma czasu. Przeczenie *not* stoi przed *to*: *not to touch*."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "Subject",
+          "role": "subject"
+        },
+        {
+          "text": "told / asked",
+          "role": "signal"
+        },
+        {
+          "text": "sb",
+          "role": "object"
+        },
+        {
+          "text": "(not)",
+          "role": "particle"
+        },
+        {
+          "text": "to",
+          "role": "particle"
+        },
+        {
+          "text": "V1",
+          "role": "verb"
+        }
+      ],
+      "example": {
+        "en": "\"Don't touch the screen!\" → She told me not to touch the screen.",
+        "pl": "„Nie dotykaj ekranu!” → Kazała mi nie dotykać ekranu."
+      }
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "\"Please close the door.\" → He asked me to close the door.",
+          "pl": "„Zamknij, proszę, drzwi.” → Poprosił mnie, żebym zamknął drzwi."
+        },
+        {
+          "en": "\"Sit down, everyone!\" → The teacher told everyone to sit down.",
+          "pl": "„Wszyscy siadać!” → Nauczycielka kazała wszystkim usiąść."
+        },
+        {
+          "en": "\"Please don't play your music so loud.\" → My neighbour asked me not to play my music so loud.",
+          "pl": "„Proszę, nie puszczaj tak głośno muzyki.” → Sąsiad poprosił mnie, żebym nie puszczał tak głośno muzyki."
+        }
+      ]
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "ask sb to + V1",
+          "md_pl": "**Prośba.** Ktoś chce, żebyś coś **zrobił**.",
+          "examples": [
+            {
+              "en": "She asked me to send her the notes.",
+              "pl": "Poprosiła mnie, żebym wysłał jej notatki."
+            }
+          ]
+        },
+        {
+          "title": "ask (sb) if + zdanie",
+          "md_pl": "**Pytanie.** Ktoś chce coś **wiedzieć**.",
+          "examples": [
+            {
+              "en": "She asked me if I had sent her the notes.",
+              "pl": "Zapytała mnie, czy wysłałem jej notatki."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Po polsku „poprosić” i „zapytać” to dwa słowa, po angielsku jedno *ask*. O znaczeniu decyduje to, co stoi po nim: *to + V1* albo *if / whether + zdanie*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Czasowniki relacjonujące.** W wypracowaniu i w zadaniach z arkusza samo *said* rzadko wystarcza. Czasownik relacjonujący mówi, **co ktoś zrobił swoimi słowami**: przeprosił, odmówił, zaprzeczył, oskarżył. Wtedy nie powtarzasz całej wypowiedzi, tylko nazywasz intencję i stawiasz wzór, którego ten czasownik wymaga.\n\nKolejność myślenia: co ten człowiek robi? → który czasownik to nazywa? → jaki ma wzór? Wzoru uczysz się razem ze słowem, bo zwykle nie wynika z polskiego (wyjątki, gdzie polski przyimek pomaga, są niżej). Wzory układają się w kilka grup:\n\n- **to + V1**: offer, refuse, promise, threaten, agree;\n- **kogo + (not) to + V1**: tell, ask, advise, warn, remind;\n- **-ing**: suggest, admit, deny;\n- **przyimek + -ing**: insist on, apologise for, object to;\n- **kogo + przyimek + -ing**: accuse sb of, blame sb for, warn sb against."
+    },
+    {
+      "type": "table",
+      "headers": ["Czasownik", "Wzór", "Przykład"],
+      "rows": [
+        [
+          "suggest (zaproponować)",
+          "-ing / (that) sb (should) V1",
+          "\"Let's go home.\" → He suggested going home. / He suggested (that) we (should) go home."
+        ],
+        [
+          "admit (przyznać się)",
+          "(to) -ing / (that) + zdanie",
+          "\"I lied.\" → She admitted (to) lying. / She admitted (that) she had lied."
+        ],
+        [
+          "deny (zaprzeczyć)",
+          "-ing / (that) + zdanie",
+          "\"I didn't steal the bike.\" → He denied stealing / having stolen the bike."
+        ],
+        [
+          "insist (upierać się)",
+          "on -ing / (that) sb (should) V1 (żądanie) / (that) + zdanie z cofnięciem (upieranie się, że coś jest prawdą)",
+          "\"I'll pay!\" → She insisted on paying. / \"You must stay for dinner!\" → She insisted that we (should) stay for dinner. / \"I'm right!\" → He insisted that he was right."
+        ],
+        [
+          "advise (radzić)",
+          "sb to V1 / -ing (bez osoby)",
+          "\"You should rest.\" → The doctor advised me to rest."
+        ],
+        [
+          "warn (ostrzec)",
+          "sb (not) to V1 / sb against -ing",
+          "\"Don't go there.\" → He warned us not to go there. / He warned us against going there."
+        ],
+        ["accuse (oskarżyć)", "sb of -ing", "\"You cheated!\" → They accused him of cheating."],
+        [
+          "blame (winić, obwiniać)",
+          "sb for sth / -ing",
+          "\"It's your fault we're late.\" → She blamed me for the delay."
+        ],
+        [
+          "apologise, AmE apologize (przeprosić)",
+          "(to sb) for -ing",
+          "\"I'm sorry I'm late.\" → He apologised for being late."
+        ],
+        [
+          "object (sprzeciwić się)",
+          "to -ing",
+          "\"I don't want to work on Sundays.\" → She objected to working on Sundays."
+        ],
+        [
+          "offer (zaproponować pomoc)",
+          "to V1",
+          "\"Shall I carry your bag?\" → He offered to carry my bag."
+        ],
+        ["refuse (odmówić)", "to V1", "\"I won't answer.\" → She refused to answer."],
+        [
+          "promise (obiecać)",
+          "to V1 / (sb) (that) + zdanie",
+          "\"I'll call you.\" → He promised to call me. / He promised (me) that he would call."
+        ],
+        [
+          "remind (przypomnieć)",
+          "sb to V1",
+          "\"Don't forget to buy milk.\" → Mum reminded me to buy milk."
+        ],
+        [
+          "threaten (grozić)",
+          "to V1",
+          "\"I'll call the police!\" → He threatened to call the police."
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**having + V3.** Po *deny*, *admit*, *accuse sb of*, *blame sb for* i *apologise for* możesz zamiast zwykłego -ing dać *having* + V3. Ta forma podkreśla, że czynność była wcześniej niż samo zaprzeczanie czy oskarżanie. Zwykłe -ing też jest poprawne, bo te czasowniki i tak patrzą wstecz, więc obie wersje znaczą to samo. W zadaniu z limitem wyrazów bierzesz tę, która się mieści.\n\nCoś innego to *object to having to* + V1. Tu *having* nie łączy się z V3, to zwykłe -ing od *have to* („musieć”)."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "\"I didn't steal the bike.\" → He denied having stolen the bike.",
+          "pl": "„Nie ukradłem roweru.” → Zaprzeczył, że ukradł rower."
+        },
+        {
+          "en": "They accused him of having cheated in the test.",
+          "pl": "Oskarżyli go, że ściągał na sprawdzianie."
+        },
+        {
+          "en": "\"It's not fair that I have to work on Sundays.\" → She objected to having to work on Sundays.",
+          "pl": "„To niesprawiedliwe, że muszę pracować w niedziele.” → Sprzeciwiła się temu, że musi pracować w niedziele."
+        }
+      ]
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "suggest + -ing",
+          "md_pl": "Najprostszy wzór. Nie mówisz, kto ma to zrobić, zwykle chodzi o wszystkich razem.",
+          "examples": [
+            {
+              "en": "\"Let's order a pizza.\" → Ola suggested ordering a pizza.",
+              "pl": "Ola zaproponowała, żebyśmy zamówili pizzę."
+            }
+          ]
+        },
+        {
+          "title": "suggest (that) + osoba + (should) V1",
+          "md_pl": "Gdy mówisz, **kto** ma coś zrobić. Czasownik w formie podstawowej (bez -s i bez cofania) albo *should* + V1. *Should* + V1 jest typowo brytyjskie, sama forma podstawowa działa w obu odmianach.",
+          "examples": [
+            {
+              "en": "\"Why don't you ask your teacher?\" → She suggested (that) I (should) ask my teacher.",
+              "pl": "Zaproponowała, żebym zapytał nauczyciela."
+            }
+          ]
+        },
+        {
+          "title": "nie: suggest sb to",
+          "md_pl": "Kalka z polskiego „zaproponował mi, żebym…”. Nie ma *suggested me to ask* ani *suggested to ask*. Jeśli chcesz dodać osobę, to przez *to me* i zdanie z *that*: *She suggested to me that I (should) ask my teacher.*"
+        }
+      ],
+      "takeaway_pl": "Po *suggest* nigdy nie stoi *to* + V1. Albo -ing, albo rzeczownik (*suggested a break*), albo *that* + zdanie."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "deny + -ing",
+          "md_pl": "**Zaprzeczyć.** Mówisz, że czegoś **nie zrobiłeś** albo że coś nie jest prawdą. Patrzysz wstecz.",
+          "examples": [
+            {
+              "en": "\"I didn't break it.\" → He denied breaking it.",
+              "pl": "Zaprzeczył, że to zepsuł."
+            }
+          ]
+        },
+        {
+          "title": "refuse + to V1",
+          "md_pl": "**Odmówić.** Mówisz, że czegoś **nie zrobisz**. Patrzysz w przód.",
+          "examples": [
+            {
+              "en": "\"I won't answer that question.\" → She refused to answer the question.",
+              "pl": "Odmówiła odpowiedzi na to pytanie."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Nie *denied to answer*, nie *refused answering*. I bez *not*: *denied breaking* już znaczy „zaprzeczył, że zepsuł”."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "accuse sb of -ing",
+          "md_pl": "**Oskarżyć.** Zarzucasz komuś, że zrobił coś złego.",
+          "examples": [
+            {
+              "en": "\"You read my diary!\" → Ania accused her brother of reading her diary.",
+              "pl": "Ania oskarżyła brata, że przeczytał jej pamiętnik."
+            }
+          ]
+        },
+        {
+          "title": "blame sb for sth",
+          "md_pl": "**Winić, obwiniać.** Uważasz, że ktoś odpowiada za coś złego, co się stało. Odwrotnie: *blame sth on sb*.",
+          "examples": [
+            {
+              "en": "She blamed me for the delay.",
+              "pl": "Winiła mnie za opóźnienie."
+            },
+            {
+              "en": "She blamed the delay on me.",
+              "pl": "Zrzuciła winę za opóźnienie na mnie."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Polski przyimek podpowiada: oskarżyć **o** = accuse **of**, winić **za** = blame **for**."
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "**Jak to sprawdzają.** W wymaganiach CKE są wprost mowa zależna (zdania, pytania, polecenia) i czasowniki relacjonujące z -ing (*accuse of*, *deny having*, *object to having*). W zadaniu 9 z 2026 była transformacja ze słowem **ACCUSED**: z zarzutu w cudzysłowie robisz *accused sb of -ing*. Wzory czasownikowe (-ing czy *to* + V1) były w zadaniu 9 w każdym roku 2023–2026.\n\nZa co dostajesz 0:\n\n- zły przyimek albo jego brak (*accused him for*, *apologised being*);\n- *to* + V1 zamiast -ing albo odwrotnie (*denied to take*, *refused taking*);\n- brak osoby przed *to* + V1 po *tell*, *advise*, *remind* (*advised to rest* ✗, dobrze: *advised me to rest* albo *advised resting*) albo osoba tam, gdzie jej być nie może (*offered me to help*, *suggested me to go*);\n- szyk pytania w pytaniu zależnym (*asked where did I live*);\n- przekroczony limit wyrazów albo zmienione słowo klucz. Skrót liczy się jako jeden wyraz.\n\nGdyby w zadaniu 7 (wybór A–D) trafiła się luka na czasownik relacjonujący (w latach 2023–2026 jej nie było), wszystkie cztery opcje byłyby z tej samej klasy, bo tak CKE buduje każdą lukę. Rozstrzyga to, co stoi **po** luce: *to*, -ing, osoba, przyimek."
+    },
+    {
+      "type": "table",
+      "headers": ["Błąd", "Poprawnie", "Dlaczego"],
+      "rows": [
+        [
+          "She said me that…",
+          "She told me that… / She said to me that…",
+          "say nie bierze osoby bez to"
+        ],
+        [
+          "He told that he was busy.",
+          "He told me that he was busy. / He said that he was busy.",
+          "tell zawsze potrzebuje osoby"
+        ],
+        [
+          "Yesterday he said he is tired.",
+          "Yesterday he said he was tired.",
+          "po polsku czas zostaje, po angielsku po said się cofa"
+        ],
+        [
+          "She asked me where do I live.",
+          "She asked me where I lived.",
+          "w pytaniu zależnym szyk zdania oznajmującego, bez do / did"
+        ],
+        [
+          "He asked me do I like jazz.",
+          "He asked me if I liked jazz.",
+          "polskie „czy” to if / whether"
+        ],
+        ["She told me don't worry.", "She told me not to worry.", "polecenie → (not) to + V1"],
+        [
+          "He suggested me to go.",
+          "He suggested going. / He suggested (that) I (should) go.",
+          "po suggest nie ma to + V1"
+        ],
+        [
+          "She explained me the rule.",
+          "She explained the rule to me.",
+          "wyjaśnić coś komuś = explain sth to sb"
+        ],
+        [
+          "They accused him for cheating.",
+          "They accused him of cheating.",
+          "oskarżyć o = accuse of"
+        ],
+        ["He denied to take the money.", "He denied taking the money.", "deny + -ing"],
+        [
+          "Last week I asked if she will come to the party.",
+          "Last week I asked if she would come to the party.",
+          "impreza już minęła, więc will po asked cofa się do would"
+        ],
+        [
+          "He offered me to help.",
+          "He offered to help me.",
+          "offer + to + V1, osoba dopiero po drugim czasowniku"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Ten sam szyk masz w grzecznych pytaniach pośrednich, które przydają się w liście formalnym: *Could you tell me when the course starts?*, *I was wondering if you could help me.* Tu czasu nie cofasz, bo pytasz teraz: *when the course starts*. *Was wondering* i *could* to formy grzecznościowe, nie cofanie."
+    }
+  ]
+}

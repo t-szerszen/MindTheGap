@@ -1,0 +1,1019 @@
+[
+  {
+    "id": "rs-objected-room",
+    "type": "key-word-transformation",
+    "source": "\"It isn't fair that I have to share a room with my little brother,\" Szymon complained to his parents.",
+    "keyWord": "OBJECTED",
+    "target": "Szymon ___ a room with his little brother.",
+    "maxWords": 5,
+    "correct": ["objected to having to share", "objected to sharing"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "It isn't fair that… to protest. Szymon nie tylko informuje, tylko sprzeciwia się temu, co musi robić."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "object to + -ing. to jest tu przyimkiem (jak w look forward to), więc po nim stoi -ing, a nie V1."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie objected to share ani objected sharing. have to share → having to share: -ing dostaje have, a share zostaje po swoim to."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "objected to having to share (dokładnie 5 wyrazów) albo krócej objected to sharing."
+      }
+    ],
+    "tags": ["reported-speech"],
+    "difficulty": 3
+  },
+  {
+    "id": "rs-denied-photo",
+    "type": "key-word-transformation",
+    "source": "\"I didn't post that photo of you online,\" Kacper told his sister.",
+    "keyWord": "DENIED",
+    "target": "Kacper ___ that photo of his sister online.",
+    "maxWords": 5,
+    "correct": [
+      "denied posting",
+      "denied having posted",
+      "denied that he had posted",
+      "denied he had posted",
+      "denied that he posted",
+      "denied he posted"
+    ],
+    "accepted": ["denied he'd posted", "denied that he'd posted"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Kacper mówi, że czegoś NIE zrobił. To zaprzeczenie (deny), a nie odmowa (refuse)."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "deny + -ing albo deny (that) + zdanie z czasem cofniętym."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie denied to post. I nie dodajesz not: denied posting już znaczy „zaprzeczył, że wrzucił”."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "denied posting / denied having posted / denied (that) he had posted."
+      }
+    ],
+    "tags": ["reported-speech"],
+    "difficulty": 2
+  },
+  {
+    "id": "rs-suggested-train",
+    "type": "key-word-transformation",
+    "source": "\"Why don't we go by train instead of driving?\" my sister said to me.",
+    "keyWord": "SUGGESTED",
+    "target": "My sister ___ by train instead of driving.",
+    "maxWords": 5,
+    "correct": [
+      "suggested going",
+      "suggested travelling",
+      "suggested that we go",
+      "suggested we go",
+      "suggested that we should go",
+      "suggested we should go",
+      "suggested that we travel",
+      "suggested we travel",
+      "suggested that we should travel",
+      "suggested we should travel"
+    ],
+    "accepted": [
+      "suggested that we went",
+      "suggested we went",
+      "suggested that we travelled",
+      "suggested we travelled"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Why don't we…? to nie pytanie o powód, tylko propozycja: „Może pojedziemy…?”."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "suggest + -ing albo suggest (that) + osoba + (should) + V1."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie suggested us to go ani suggested to go. Po suggest nigdy nie ma to + V1."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "suggested going albo suggested (that) we (should) go."
+      }
+    ],
+    "tags": ["reported-speech"],
+    "difficulty": 3
+  },
+  {
+    "id": "rs-warned-lake",
+    "type": "key-word-transformation",
+    "source": "\"Don't swim in the lake after dark,\" the lifeguard told us.",
+    "keyWord": "WARNED",
+    "target": "The lifeguard ___ in the lake after dark.",
+    "maxWords": 5,
+    "correct": ["warned us not to swim", "warned us against swimming", "warned against swimming"],
+    "accepted": [
+      "warned us about swimming",
+      "warned us we shouldn't swim",
+      "warned that we shouldn't swim"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Don't swim… to zakaz, a ratownik mówi go, bo jest niebezpiecznie. To ostrzeżenie."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "warn + kogo + not to + V1 albo warn (kogo) against + -ing."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "not stoi przed to: not to swim. Nie warned us don't swim."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "warned us not to swim (5 wyrazów) albo warned us against swimming."
+      }
+    ],
+    "tags": ["reported-speech"],
+    "difficulty": 2
+  },
+  {
+    "id": "rs-apologised-rude",
+    "type": "key-word-transformation",
+    "source": "\"I'm sorry I was rude to you yesterday,\" Jakub said to me.",
+    "keyWord": "APOLOGISED",
+    "target": "Jakub ___ rude to me the day before.",
+    "maxWords": 5,
+    "correct": ["apologised for being", "apologised for having been"],
+    "accepted": [
+      "apologised that he had been",
+      "apologised that he'd been",
+      "apologised to me for being"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I'm sorry I… to przeprosiny za coś, co już się stało."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "apologise (to sb) for + -ing. Po przyimku for czasownik zawsze z -ing."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie apologised to be ani apologised for be. yesterday z jego wypowiedzi to w relacji the day before i to już stoi w zdaniu."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "apologised for being (albo for having been)."
+      }
+    ],
+    "tags": ["reported-speech"],
+    "difficulty": 3
+  },
+  {
+    "id": "rs-insisted-tickets",
+    "type": "key-word-transformation",
+    "source": "\"I'm paying for everyone's tickets, and that's final,\" said Grandpa.",
+    "keyWord": "INSISTED",
+    "target": "Grandpa ___ for everyone's tickets.",
+    "maxWords": 5,
+    "correct": [
+      "insisted on paying",
+      "insisted that he would pay",
+      "insisted he would pay",
+      "insisted that he was paying",
+      "insisted he was paying"
+    ],
+    "accepted": ["insisted he'd pay", "insisted that he'd pay", "insisted he would be paying"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "and that's final = „i koniec dyskusji”. Dziadka nie da się przekonać, czyli się upiera."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "insist on + -ing albo insist (that) + zdanie."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie insisted to pay. insist nie łączy się z to + V1, a po on zawsze stoi -ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "insisted on paying (albo insisted (that) he would pay)."
+      }
+    ],
+    "tags": ["reported-speech"],
+    "difficulty": 2
+  },
+  {
+    "id": "rs-where-jacket",
+    "type": "key-word-transformation",
+    "source": "\"Where did you buy that jacket?\" Marta asked me.",
+    "keyWord": "WHERE",
+    "target": "Marta asked me ___ that jacket.",
+    "maxWords": 5,
+    "correct": ["where I had bought", "where I bought"],
+    "accepted": ["where I'd bought"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Marta zadała pytanie wcześniej (asked), a ty je relacjonujesz."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "asked + where + podmiot + czasownik. Szyk jak w zdaniu oznajmującym, bez did."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie where did I buy. did znika, a przeszłość pokazuje sam czasownik."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "did you buy → I had bought. Zostawienie I bought też uchodzi, bo wiadomo, że zakup był wcześniej."
+      }
+    ],
+    "tags": ["reported-speech"],
+    "difficulty": 2
+  },
+  {
+    "id": "rs-if-concert",
+    "type": "key-word-transformation",
+    "source": "\"Are you coming to the concert on Saturday?\" Kuba asked Ola.",
+    "keyWord": "IF",
+    "target": "Kuba asked Ola ___ to the concert on Saturday, but she had other plans.",
+    "maxWords": 5,
+    "correct": ["if she was coming"],
+    "accepted": ["if she would come", "if she was going", "if she would be coming"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Are you coming…? to pytanie tak/nie, bez słowa pytającego."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "asked + if (albo whether) + podmiot + czasownik w szyku oznajmującym."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie if was she coming i nie if she is coming: Kuba pytał w przeszłości, więc czas się cofa. you zmienia się na she, bo chodzi o Olę."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "are you coming → if she was coming."
+      }
+    ],
+    "tags": ["reported-speech"],
+    "difficulty": 2
+  },
+  {
+    "id": "rs-blamed-tickets",
+    "type": "key-word-transformation",
+    "source": "\"It's your fault – you forgot to book the tickets!\" Zosia said to Bartek.",
+    "keyWord": "BLAMED",
+    "target": "Zosia ___ to book the tickets.",
+    "maxWords": 5,
+    "correct": [
+      "blamed Bartek for forgetting",
+      "blamed him for forgetting",
+      "blamed Bartek for having forgotten",
+      "blamed him for having forgotten"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "It's your fault = „to twoja wina”. Zosia wini Bartka."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "blame + kogo + for + -ing."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie blamed him to forget ani blamed him of forgetting (of jest przy accuse). forget + -ing = forgetting, z podwójnym t."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "blamed Bartek (albo him) for forgetting. Wersja for having forgotten też mieści się w 5 wyrazach."
+      }
+    ],
+    "tags": ["reported-speech"],
+    "difficulty": 3
+  },
+  {
+    "id": "rs-had-to-site",
+    "type": "key-word-transformation",
+    "source": "\"You must wear a helmet at all times on the building site,\" the manager told the new workers.",
+    "keyWord": "HAD",
+    "target": "The manager told the new workers ___ wear a helmet at all times on the site.",
+    "maxWords": 5,
+    "correct": ["that they had to", "they had to"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "You must… to obowiązek narzucony przez kierownika, a ty relacjonujesz go po told."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "must (obowiązek) → had to. Zmienia się też osoba: you → they, bo chodzi o nowych pracowników."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Samo must też byłoby poprawne, ale słowo klucz to HAD. Nie they had wear: w znaczeniu „musieć” po had stoi to."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "(that) they had to."
+      }
+    ],
+    "tags": ["reported-speech"],
+    "difficulty": 2
+  },
+  {
+    "id": "rs-might-late",
+    "type": "key-word-transformation",
+    "source": "\"I may be a bit late for dinner,\" said Tomek.",
+    "keyWord": "MIGHT",
+    "target": "Tomek said that ___ a bit late for dinner.",
+    "maxWords": 5,
+    "correct": ["he might be"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "may = „może”, czyli tylko możliwość, nie pewność."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "may (możliwość) → might po czasowniku relacjonującym w przeszłości; I → he."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po might czasownik bez to: he might be, nie he might to be."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "he might be."
+      }
+    ],
+    "tags": ["reported-speech"],
+    "difficulty": 1
+  },
+  {
+    "id": "rs-says-standing",
+    "type": "gap-fill",
+    "sentence": "Ania has just texted me. She says she ___ (stand) outside the cinema right now, so we'd better hurry.",
+    "correct": ["is standing"],
+    "accepted": ["'s standing"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "She says: czasownik relacjonujący jest w teraźniejszości, a do tego right now."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Po says, has said, will tell czas się nie cofa. Zostaje taki jak w SMS-ie Ani: I'm standing outside."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie she was standing. Backshift robisz tylko wtedy, gdy czasownik relacjonujący jest w przeszłości (said, told, explained…)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "right now → czynność w tej chwili → is standing."
+      }
+    ],
+    "tags": ["reported-speech", "present-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "rs-accused-pretending",
+    "type": "gap-fill",
+    "sentence": "The referee accused the striker ___ (pretend) to be hurt and showed him a yellow card.",
+    "correct": ["of pretending", "of having pretended"],
+    "maxWords": 3,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Sędzia zarzuca piłkarzowi, że coś zrobił. To oskarżenie."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "accuse + kogo + of + -ing. Osoba już jest (the striker), brakuje przyimka i formy czasownika."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "W nawiasie jest tylko pretend, ale wolno dodać wyrazy, a tu brakuje przyimka. Samo pretending to za mało. Nie for pretending i nie to pretend."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "of pretending (albo of having pretended)."
+      }
+    ],
+    "tags": ["reported-speech"],
+    "difficulty": 2
+  },
+  {
+    "id": "rs-dad-back",
+    "type": "gap-fill",
+    "sentence": "On Monday Dad said that he ___ (will / be) back the next day, but in the end he didn't come home until Thursday.",
+    "correct": ["would be"],
+    "accepted": ["'d be"],
+    "maxWords": 2,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "said w przeszłości i the next day: tata mówił w poniedziałek o wtorku, a ty opowiadasz o tym później."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "will cofa się do would. Jego tomorrow zmienia się na the next day i to już stoi w zdaniu."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie will be: z twojej perspektywy ten wtorek dawno minął."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "would be."
+      }
+    ],
+    "tags": ["reported-speech"],
+    "difficulty": 2
+  },
+  {
+    "id": "rs-threatened-cancel",
+    "type": "gap-fill",
+    "sentence": "Our coach ___ (threaten / cancel) the trip to the tournament if we didn't stop arguing.",
+    "correct": ["threatened to cancel"],
+    "maxWords": 3,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "if we didn't stop…: trener mówi, co zrobi, jeśli nie przestaniecie. To groźba."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "threaten + to + V1: grozisz, że sam coś zrobisz."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie threatened cancelling ani threatened us to cancel."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "threatened to cancel."
+      }
+    ],
+    "tags": ["reported-speech"],
+    "difficulty": 1
+  },
+  {
+    "id": "rs-asked-carrying",
+    "type": "gap-fill",
+    "sentence": "When we got to the border, the officer ___ (ask / we / carry) any fruit or meat in the car.",
+    "correct": ["asked if we were carrying", "asked whether we were carrying"],
+    "accepted": ["asked if we carried", "asked whether we carried"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Celnik zadał pytanie tak/nie (Are you carrying…?), a ty opowiadasz o tym w przeszłości."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "asked + if / whether + podmiot + czasownik w szyku zdania oznajmującego."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie asked were we carrying. I pilnuj limitu: asked us if we were carrying to już 6 wyrazów."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "are carrying → were carrying: asked if we were carrying. carried też uchodzi, ale brzmi jak pytanie o zwyczaj, a celnik pytał o tę konkretną chwilę."
+      }
+    ],
+    "tags": ["reported-speech"],
+    "difficulty": 3
+  },
+  {
+    "id": "rs-offered-drive",
+    "type": "gap-fill",
+    "sentence": "When my car broke down, my neighbour ___ (offer / drive) me to work for the rest of the week.",
+    "correct": ["offered to drive"],
+    "maxWords": 3,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Sąsiad sam zgłasza, że pomoże (Shall I drive you?). To propozycja pomocy."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "offer + to + V1. Osoba (me) stoi po drive, nie po offer."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie offered me to drive i nie offered driving."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "offered to drive."
+      }
+    ],
+    "tags": ["reported-speech"],
+    "difficulty": 1
+  },
+  {
+    "id": "rs-reminded-feed",
+    "type": "gap-fill",
+    "sentence": "Before she left for the weekend, Mum ___ (remind / me / feed) the cat twice a day.",
+    "correct": ["reminded me to feed"],
+    "accepted": ["reminded me about feeding"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Mama mówi „Nie zapomnij…” (Don't forget to…). To przypomnienie."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "remind + kogo + to + V1."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie reminded me feeding. remind sb of to najczęściej „kojarzyć się, przywodzić na myśl” (You remind me of my aunt), więc tu nie pasuje."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "reminded me to feed."
+      }
+    ],
+    "tags": ["reported-speech"],
+    "difficulty": 1
+  },
+  {
+    "id": "rs-could-leave",
+    "type": "gap-fill",
+    "sentence": "When we checked out last Sunday, the receptionist told us that we ___ (can / leave) our bags at the hotel until the evening.",
+    "correct": ["could leave"],
+    "maxWords": 2,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "told w przeszłości, a sytuacja z zeszłej niedzieli już minęła."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "can cofa się do could."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie can leave: tamta zgoda dotyczyła tamtego dnia. I bez to: could leave, nie could to leave."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "could leave."
+      }
+    ],
+    "tags": ["reported-speech"],
+    "difficulty": 2
+  },
+  {
+    "id": "rs-told-not-feed",
+    "type": "gap-fill",
+    "sentence": "At the zoo, the keeper ___ (tell / us / not / feed) the monkeys because human food made them ill.",
+    "correct": ["told us not to feed"],
+    "accepted": ["told us we shouldn't feed"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Opiekun wydał polecenie: Don't feed the monkeys!"
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "tell + kogo + not + to + V1. Bezokolicznik nie ma czasu, więc nic tu nie cofasz."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie told us don't feed i nie told us not feeding. not stoi przed to."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "told us not to feed."
+      }
+    ],
+    "tags": ["reported-speech"],
+    "difficulty": 1
+  },
+  {
+    "id": "rs-guide-tour",
+    "type": "choice",
+    "text": "At the start of the tour, our guide ___ us that photos were not allowed inside the castle. Then she ___ that it had been rebuilt after the war and ___ us to stay together.",
+    "gaps": [
+      {
+        "options": ["said", "explained", "told", "spoke"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce od razu stoi osoba (us), a potem that + zdanie."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "tell + kogo + (that). say i explain potrzebują to przed osobą: said to us, explained to us."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "explained us to kalka z polskiego „wyjaśniła nam”. spoke nie wprowadza zdania z that."
+          }
+        ]
+      },
+      {
+        "options": ["said", "told", "asked", "spoke"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce nie ma osoby, od razu that."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "say (that) + zdanie. tell bez osoby nie działa."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "told that bez osoby to błąd. asked nie pasuje, bo to informacja, a nie pytanie."
+          }
+        ]
+      },
+      {
+        "options": ["suggested", "insisted", "said", "asked"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce: us + to + V1, czyli prośba do konkretnych osób."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "ask + kogo + to + V1 to prośba (tell + kogo + to + V1 to polecenie)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "suggest, insist i say nie łączą się z osobą + to + V1."
+          }
+        ]
+      }
+    ],
+    "tags": ["reported-speech"],
+    "difficulty": 1
+  },
+  {
+    "id": "rs-interview-why",
+    "type": "choice",
+    "text": "At the job interview, the manager asked me ___ to work for their company.",
+    "gaps": [
+      {
+        "options": ["why did I want", "why I wanted", "why do I want", "why had I wanted"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "asked me: relacjonujesz pytanie, a nie zadajesz własnego. Na końcu nie ma znaku zapytania."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "W pytaniu zależnym szyk jest jak w zdaniu oznajmującym: why + podmiot + czasownik."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "why did I want, why do I want i why had I wanted mają szyk pytania (czasownik posiłkowy przed podmiotem)."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Why do you want…? → why I wanted."
+          }
+        ]
+      }
+    ],
+    "tags": ["reported-speech"],
+    "difficulty": 1
+  },
+  {
+    "id": "rs-man-phoned",
+    "type": "choice",
+    "text": "When I got home, my sister told me that a man ___ while I was out. He had asked ___ Dad was at home and said he ___ call again the next day.",
+    "gaps": [
+      {
+        "options": ["has phoned", "phones", "had phoned", "is phoning"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Siostra mówi w przeszłości (told), a telefon był jeszcze wcześniej (while I was out)."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Coś wcześniejszego niż przeszły punkt odniesienia → had + V3."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Siostra powiedziała: A man phoned while you were out. Po told Past Simple cofa się do had phoned (phoned też by uszło, ale nie ma go w opcjach). has phoned nie łączy się z zakończonym while I was out, a phones i is phoning to teraźniejszość."
+          }
+        ]
+      },
+      {
+        "options": ["what", "that", "does", "if"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Mężczyzna pytał: Is your dad at home? Na to odpowiada się tak albo nie."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Pytanie tak/nie w mowie zależnej → asked + if / whether + zdanie."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "that nie wprowadza pytań, does to szyk pytania, a what pytałoby o coś, czego w zdaniu nie brakuje."
+          }
+        ]
+      },
+      {
+        "options": ["would", "will", "shall", "is going to"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "said w przeszłości i the next day."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "will cofa się do would."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "will i is going to to czas z jego wypowiedzi, niecofnięty. shall nie pasuje ani znaczeniem, ani formą."
+          }
+        ]
+      }
+    ],
+    "tags": ["reported-speech", "past-perfect"],
+    "difficulty": 3
+  },
+  {
+    "id": "rs-suggested-break",
+    "type": "choice",
+    "text": "We were all exhausted, so Kuba suggested ___ a short break before the last chapter.",
+    "gaps": [
+      {
+        "options": ["to take", "us to take", "taking", "take"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Kuba proponuje coś całej grupie."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "suggest + -ing (albo suggest that we (should) take)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "to take i us to take to kalka z „zaproponował, żebyśmy…”. Po suggest nie ma to + V1, a gołe V1 tylko po (that) + osoba: suggested (that) we take."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "suggested taking."
+          }
+        ]
+      }
+    ],
+    "tags": ["reported-speech"],
+    "difficulty": 2
+  },
+  {
+    "id": "rs-singer-scandal",
+    "type": "choice",
+    "text": "At first the singer ___ to answer any questions about the scandal. A week later, however, he publicly ___ having anything to do with it.",
+    "gaps": [
+      {
+        "options": ["refused", "denied", "rejected", "avoided"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce stoi to + V1, a sens: nie chciał odpowiadać, czyli czegoś nie zrobi."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "refuse + to + V1 = odmówić."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "deny i avoid łączą się z -ing, a reject nie ma wzoru z to + V1."
+          }
+        ]
+      },
+      {
+        "options": ["refused", "objected", "rejected", "denied"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce -ing (having…), a sens: mówi, że nie ma z tym nic wspólnego. To zaprzeczenie."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "deny + -ing = zaprzeczyć."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "refuse wymaga to + V1, object potrzebuje to przed -ing (objected to having), a reject nie łączy się z -ing."
+          }
+        ]
+      }
+    ],
+    "tags": ["reported-speech"],
+    "difficulty": 3
+  },
+  {
+    "id": "rs-admitted-vase",
+    "type": "choice",
+    "text": "After a long silence, Piotr finally admitted ___ his grandmother's favourite vase while playing football in the living room.",
+    "gaps": [
+      {
+        "options": ["to break", "for breaking", "break", "breaking"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Piotr przyznaje się, że coś zrobił."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "admit + -ing (albo admit to + -ing, albo admit that + zdanie)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "to w admit to jest przyimkiem, więc po nim też -ing: admitted to breaking, nigdy admitted to break. for tu nie pasuje."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "admitted breaking."
+          }
+        ]
+      }
+    ],
+    "tags": ["reported-speech"],
+    "difficulty": 2
+  },
+  {
+    "id": "rs-promised-seaside",
+    "type": "choice",
+    "text": "Dad ___ to take us to the seaside if we passed all our end-of-year exams.",
+    "gaps": [
+      {
+        "options": ["suggested", "insisted", "promised", "denied"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce to + V1, a sens: tata zobowiązuje się, że coś zrobi pod warunkiem."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "promise + to + V1 = obiecać."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "suggest i deny łączą się z -ing, insist z on + -ing. Żaden z nich nie bierze to + V1."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "promised to take."
+          }
+        ]
+      }
+    ],
+    "tags": ["reported-speech"],
+    "difficulty": 1
+  },
+  {
+    "id": "rs-zakopane-call",
+    "type": "choice",
+    "text": "On Monday Kasia called me from Zakopane and said, \"It's snowing here, and I'll call you again tomorrow.\" On Friday I told my mum that Kasia had said it was snowing ___ and had promised to call me again ___.",
+    "gaps": [
+      {
+        "options": ["here", "over here", "there", "this"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Kasia mówiła z Zakopanego, a ty relacjonujesz w domu."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "here to miejsce mówiącego. Gdy relacjonujesz z innego miejsca → there."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "here i over here wskazywałyby miejsce, w którym jesteś teraz ty (dom), a this samo nie wskazuje miejsca."
+          }
+        ]
+      },
+      {
+        "options": ["tomorrow", "yesterday", "the day before", "the next day"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Kasia mówiła w poniedziałek, ty opowiadasz w piątek."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Jej tomorrow to wtorek, czyli dzień po wypowiedzi → the next day (albo the following day)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "tomorrow znaczyłoby sobotę, a yesterday i the day before wskazują dzień przed, a nie po."
+          }
+        ]
+      }
+    ],
+    "tags": ["reported-speech"],
+    "difficulty": 2
+  },
+  {
+    "id": "rs-advised-salt",
+    "type": "choice",
+    "text": "The doctor advised my dad ___ less salt and more fresh vegetables.",
+    "gaps": [
+      {
+        "options": ["to eat", "eating", "eat", "that he eats"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Lekarz daje radę konkretnej osobie: my dad stoi zaraz po advised."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "advise + kogo + to + V1. Bez osoby: advise + -ing (advised eating less salt)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Z osobą nie ma -ing ani gołego V1. that he eats nie działa, bo rada wymagałaby should: that he should eat."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "advised my dad to eat."
+          }
+        ]
+      }
+    ],
+    "tags": ["reported-speech"],
+    "difficulty": 1
+  },
+  {
+    "id": "rs-brain-energy",
+    "type": "choice",
+    "text": "In yesterday's biology lesson, our teacher told us that the human brain ___ about a fifth of the body's energy.",
+    "gaps": [
+      {
+        "options": ["is using", "uses", "has used", "will use"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "To fakt naukowy, prawdziwy zawsze, a nie tylko w chwili lekcji."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Gdy to, co ktoś powiedział, wciąż jest prawdą, czasu nie musisz cofać. Zostaje czas z oryginału: The brain uses…"
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "is using pasuje do czegoś chwilowego, has used i will use zmieniają sens. Cofnięte used też byłoby poprawne, ale nie ma go w opcjach."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "uses."
+          }
+        ]
+      }
+    ],
+    "tags": ["reported-speech", "present-simple"],
+    "difficulty": 3
+  }
+]
