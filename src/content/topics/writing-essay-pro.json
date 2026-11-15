@@ -1,0 +1,333 @@
+{
+  "id": "writing-essay-pro",
+  "category": "writing",
+  "title_pl": "Rozprawka na maks: zakres i styl",
+  "summary_pl": "Co daje 3 pkt za zakres: precyzyjne słowa, różne struktury i jednolity styl. Jak ulepszyć zwykłe zdanie, które struktury są bezpieczne i ile ich użyć, żeby nie stracić na poprawności.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "Za **zakres środków językowych** dostajesz 0–3 pkt. Egzaminator nie liczy tu błędów, tylko patrzy, **jak różnorodny i precyzyjny** jest twój angielski. Na 3 pkt potrzebujesz szerokiego zakresu: **licznych** fragmentów, które są naturalne, precyzyjne i mają różnorodną frazeologię, na poziomie **B2 lub wyżej**.\n\nPrecyzja to według zasad CKE słownictwo typowe dla tematu, unikanie *nice*, *great*, *interesting*, typowe kolokacje i struktury dobrane do sytuacji. Czyli zakres to dwie rzeczy naraz: **słowa** (co mówisz) i **struktury** (jak budujesz zdanie)."
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "**Trzy zasady zakresu, które łatwo przeoczyć**\n\n- poziom dostajesz tylko wtedy, gdy spełniasz **wszystkie** jego warunki: bogate słownictwo przy samych prostych zdaniach to 2, nie 3\n- struktura z drobnym błędem (np. literówką) **liczy się do zakresu**, jeśli jest użyta stosownie i zrozumiale, ale sam błąd idzie do poprawności\n- za rażące albo liczne uchybienia w **stosowności lub jednolitości stylu** egzaminator może odjąć 1 pkt; niestosowny to np. język jak w rozmowie albo zbyt metaforyczny, niejednolity to mieszanie stylów bez powodu"
+    },
+    {
+      "type": "text",
+      "md_pl": "**Jak ulepszyć zwykłe zdanie**\n\nNie dopisujesz trudnych słów na siłę. Zamieniasz to, co ogólne, na to, co konkretne, a potem łączysz dwie proste myśli jedną strukturą. Przykład krok po kroku, od zdania pospolitego do zdania, które pracuje na 3."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "zdanie wyjściowe",
+          "text_pl": "Smartphones are bad for teenagers because they use them a lot. Poprawne, ale ogólne: bad i a lot pasują do każdego tematu, więc nic nie mówią."
+        },
+        {
+          "step_pl": "co dokładnie?",
+          "text_pl": "Zapytaj, na czym polega to „złe”. Tu: nastolatki krócej śpią i gorzej się koncentrują. Konkret zawsze bierze się z pytania „czyli co?”."
+        },
+        {
+          "step_pl": "precyzyjne słowo i kolokacja",
+          "text_pl": "Zamiast bad for: have a detrimental effect on. Zamiast a lot: konkretna informacja, np. late at night. Smartphones used late at night have a detrimental effect on teenagers' sleep."
+        },
+        {
+          "step_pl": "struktura, która łączy myśli",
+          "text_pl": "Dwie myśli (więcej telefonu, mniej snu) łączy the more…, the less…, a skutek dokłada which. The more time teenagers spend on their phones at night, the less they sleep, which has a detrimental effect on their concentration at school."
+        },
+        {
+          "step_pl": "kontrola",
+          "text_pl": "Przeczytaj gotowe zdanie jeszcze raz pod kątem formy: przecinek między częściami the more…, the less…, przecinek przed which, -s w has. Jeśli czegoś nie jesteś pewny, wracasz do prostszej wersji."
+        }
+      ]
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "The more time teenagers spend on their phones at night, the less they sleep, which has a detrimental effect on their concentration at school.",
+          "pl": "Im więcej czasu nastolatki spędzają wieczorem z telefonem, tym mniej śpią, a to szkodzi ich koncentracji w szkole."
+        }
+      ]
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Pospolicie",
+          "md_pl": "Ogólne przymiotniki, *a lot of*, *good*, *bad*, zdania zbudowane tak samo.",
+          "examples": [
+            {
+              "en": "Travelling by train is good for the environment.",
+              "pl": "Podróżowanie pociągiem jest dobre dla środowiska."
+            },
+            {
+              "en": "A lot of young people do volunteering in the summer and it is a nice experience.",
+              "pl": "Dużo młodych ludzi robi wolontariat latem i to jest fajne doświadczenie."
+            },
+            {
+              "en": "Online studies are bad because you do not meet people.",
+              "pl": "Studia online są złe, bo nie spotykasz ludzi."
+            }
+          ]
+        },
+        {
+          "title": "Precyzyjnie",
+          "md_pl": "To samo, ale z konkretem, kolokacją i inną budową zdania.",
+          "examples": [
+            {
+              "en": "Travelling by train produces much lower emissions per passenger than flying, which makes it a greener option.",
+              "pl": "Podróż pociągiem daje dużo mniej emisji na pasażera niż lot samolotem, więc jest bardziej ekologiczna."
+            },
+            {
+              "en": "Many young people choose to spend part of their summer volunteering, which allows them to gain valuable experience.",
+              "pl": "Wielu młodych ludzi postanawia spędzić część wakacji na wolontariacie, dzięki czemu zdobywa cenne doświadczenie."
+            },
+            {
+              "en": "Studying exclusively online deprives students of everyday contact with their peers.",
+              "pl": "Studia wyłącznie online pozbawiają studentów codziennego kontaktu z rówieśnikami."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Precyzja nie znaczy „trudniej”. Znaczy: słowo, które pasuje **do tego tematu**, i zdanie, które mówi, **dlaczego**."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Struktury, które pokazują zakres**\n\nWszystkie mieszczą się w gramatyce dla poziomu rozszerzonego (edycja 2024), więc nie wychodzisz poza wymagania. Każda robi coś konkretnego w argumentacji: przytacza cudzy pogląd, podkreśla, stawia warunek albo łączy przyczynę ze skutkiem. Dlatego wyglądają naturalnie, a nie jak wstawka na pokaz."
+    },
+    {
+      "type": "table",
+      "headers": ["Struktura", "Przykład", "Po polsku", "Na co uważać"],
+      "rows": [
+        [
+          "be said / be believed + to",
+          "Young people are often said to spend too much time online.",
+          "Często mówi się, że młodzi ludzie spędzają za dużo czasu w sieci.",
+          "Strona bierna relacjonująca, dobra do przytoczenia cudzego poglądu. Po said / believed bezokolicznik, a o przeszłości to have + III forma (is believed to have caused). W rozprawce z opinią po niej musi przyjść twoje stanowisko."
+        ],
+        [
+          "What … is (that)…",
+          "What worries me most is that many students skip breakfast.",
+          "Najbardziej martwi mnie to, że wielu uczniów nie je śniadania.",
+          "Zdanie podmiotowe z what przesuwa akcent na to, co ważne. Po części z what czasownik zwykle w liczbie pojedynczej: What worries me is…"
+        ],
+        [
+          "It is only when … that…",
+          "It is only when students start working that they understand the value of money.",
+          "Dopiero kiedy uczniowie zaczynają pracować, rozumieją wartość pieniądza.",
+          "To polskie „dopiero kiedy”. Po that zwykły szyk zdania, bez inwersji."
+        ],
+        [
+          "not only … but also (w środku zdania)",
+          "Cycling not only saves money but also keeps people fit.",
+          "Jazda na rowerze nie tylko oszczędza pieniądze, ale też pomaga utrzymać formę.",
+          "Gdy not only stoi po podmiocie, szyk się nie zmienia. Po obu częściach ta sama forma: saves… keeps…"
+        ],
+        [
+          "II okres warunkowy",
+          "If more people travelled by train, the roads would be far less congested.",
+          "Gdyby więcej osób jeździło pociągiem, drogi byłyby dużo mniej zakorkowane.",
+          "Po if czas przeszły, w drugiej części would. Would nie stoi w części z if."
+        ],
+        [
+          "III okres warunkowy",
+          "If the town had consulted local residents, the new car park would not have caused so much anger.",
+          "Gdyby miasto zapytało mieszkańców o zdanie, nowy parking nie wywołałby takiej złości.",
+          "Po if had + III forma, w drugiej części would have + III forma. Dobry do przykładu z przeszłości, który ma coś udowodnić."
+        ],
+        [
+          "provided that / as long as",
+          "A part-time job can be beneficial, provided that it does not interfere with schoolwork.",
+          "Praca dorywcza może być korzystna, pod warunkiem że nie koliduje z nauką.",
+          "Mówisz o przyszłości, a po provided that stoi czas teraźniejszy, jak po if. Dobre do zakończenia z warunkiem."
+        ],
+        [
+          "…, which (o całym zdaniu)",
+          "Many teenagers sleep fewer than seven hours a night, which affects their performance at school.",
+          "Wielu nastolatków śpi mniej niż siedem godzin na dobę, co wpływa na ich wyniki w szkole.",
+          "Przecinek przed which. Polskie „co” odnoszące się do całego zdania to which, nie what."
+        ],
+        [
+          "Having + III forma",
+          "Having spent a month abroad, many volunteers feel far more independent.",
+          "Po miesiącu spędzonym za granicą wielu wolontariuszy czuje się dużo bardziej samodzielnie.",
+          "Podmiot zdania głównego musi być tym, kto wykonał czynność z imiesłowu: to wolontariusze spędzili miesiąc za granicą. Inaczej zdanie mówi coś innego, niż chcesz."
+        ],
+        [
+          "the + stopień wyższy, the + stopień wyższy",
+          "The more time teenagers spend online, the less they sleep.",
+          "Im więcej czasu nastolatki spędzają w sieci, tym mniej śpią.",
+          "Przecinek między częściami. Rzeczownik idzie zaraz po more: the more time teenagers spend, a nie the more teenagers spend time."
+        ],
+        [
+          "It is + przymiotnik + for + osoba + to",
+          "It is increasingly difficult for young people to afford their own flat.",
+          "Młodym ludziom coraz trudniej pozwolić sobie na własne mieszkanie.",
+          "Nie piszesz It is difficult that young people afford…: po przymiotniku for + kto i to + bezokolicznik."
+        ],
+        [
+          "strona bierna z czasownikiem modalnym",
+          "Students should be encouraged to cycle to school.",
+          "Należy zachęcać uczniów, żeby dojeżdżali do szkoły rowerem.",
+          "should / must / could + be + III forma. Przydaje się, gdy wykonawca jest ogólny albo oczywisty (szkoła, władze)."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**Poza listą z 2024 r.** Na liście gramatyki dla poziomu rozszerzonego nie ma już inwersji (poza *Little did…*), form emfatycznych ani mieszanych okresów warunkowych. Czyli np. *Not only does it…* na początku zdania, *Had it not been for…*, *Had I known…*, *It was my brother who…*.\n\nNikt ich od ciebie nie wymaga, a zakres zbudujesz strukturami z tabeli. Jeśli i tak chcesz ich użyć, to tylko wtedy, gdy jesteś pewny formy. Błąd w szyku to błąd językowy, a niezrozumiałe zdanie może być też usterką spójności. Poprawnie użyta nadal liczy się do zakresu."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Ile tego użyć?**\n\nZakres i poprawność to dwa osobne kryteria, po 0–3 pkt każde. Ambitna struktura z drobnym błędem nadal liczy się do zakresu, jeśli jest zrozumiała, ale ten sam błąd zabiera z poprawności. Błędy liczy się w stosunku do długości tekstu, a w 200–250 wyrazach kilka wpadek w trudnych zdaniach szybko zamienia „nieliczne” w „liczne”.\n\nTo rada, nie zapis CKE: w całej rozprawce wystarczy **4–6 wyraźnych struktur**, mniej więcej jedna–dwie na akapit, w różnych typach (warunek, which, imiesłów, strona bierna…). Resztę zakresu robi **słownictwo**: precyzyjne kolokacje w każdym zdaniu są bezpieczniejsze niż kolejna skomplikowana konstrukcja."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Na pokaz",
+          "md_pl": "Wszystko naraz w jednym zdaniu i prawie każda część z błędem: *Not only it is* bez inwersji, zbędne *the*, *are being harmful* zamiast *are harmful*, *harmful for* zamiast *harmful to*, a wciśnięte *having been used constantly* plącze zdanie. Zakres nie uratuje poprawności, a czytelnik gubi sens.",
+          "examples": [
+            {
+              "en": "Not only it is undeniable that the smartphones are having a detrimental effect, but also having been used constantly, they are being harmful for the teenagers' concentration.",
+              "pl": "Nie tylko jest niezaprzeczalne, że smartfony mają szkodliwy wpływ, ale też używane bez przerwy szkodzą koncentracji nastolatków."
+            }
+          ]
+        },
+        {
+          "title": "Wyważone",
+          "md_pl": "Dwie krótsze myśli, precyzyjne słowa, jedna struktura (zdanie z *who*). Wszystko poprawne.",
+          "examples": [
+            {
+              "en": "Smartphones undoubtedly affect teenagers' concentration. Students who check their phones while doing homework often need far more time to finish it.",
+              "pl": "Smartfony bez wątpienia wpływają na koncentrację nastolatków. Uczniowie, którzy w trakcie odrabiania lekcji zerkają na telefon, często potrzebują dużo więcej czasu, żeby skończyć."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Struktura, której nie jesteś pewny, to zakład: wygrasz trochę zakresu, a możesz przegrać poprawność i spójność. **Poprawne i precyzyjne bije ambitne i błędne.**"
+    },
+    {
+      "type": "text",
+      "md_pl": "**Pułapki stylu**\n\nRozprawka ma styl formalny. Za styl nie ma osobnego punktu, ale wpadki w stylu uderzają w zakres. Każdy wiersz tabeli to: jak to brzmi w rozmowie → co pisać w rozprawce → dlaczego."
+    },
+    {
+      "type": "table",
+      "headers": ["Potocznie", "W rozprawce", "Dlaczego"],
+      "rows": [
+        [
+          "don't, it's, can't",
+          "do not, it is, cannot",
+          "Formy skrócone to cecha mowy i luźnych tekstów. Cannot piszesz razem."
+        ],
+        [
+          "kids, guys",
+          "children, young people, teenagers",
+          "Kids i guys to słowa z rozmowy. Teenagers albo young people są też precyzyjniejsze."
+        ],
+        [
+          "a lot of, lots of",
+          "many, a large number of, a great deal of, considerable",
+          "Many i a large number of z policzalnymi, a great deal of z niepoliczalnymi. A lot of nie jest błędem, ale powtarzane w kółko obniża zakres."
+        ],
+        [
+          "stuff, things",
+          "konkretny rzeczownik: equipment, belongings, issues",
+          "Stuff jest potoczne, a things nic nie mówi. Nazwij, o co chodzi."
+        ],
+        [
+          "get better, get worse",
+          "improve, deteriorate",
+          "Jedno precyzyjne słowo zamiast get + przymiotnik. Deteriorate jest formalne i pasuje do rozprawki."
+        ],
+        [
+          "find out",
+          "discover, learn",
+          "Find out jest neutralne, ale w tekście formalnym jednowyrazowy czasownik brzmi lepiej."
+        ],
+        ["cut down on", "reduce", "Reduce jest krótsze i formalne: reduce the amount of sugar."],
+        [
+          "put up with",
+          "tolerate",
+          "Put up with jest potoczne. Tolerate mówi to samo w stylu rozprawki."
+        ],
+        [
+          "go up, go down",
+          "rise, increase, fall, decrease",
+          "W tekstach o zmianach (ceny, liczby) to standardowe czasowniki."
+        ],
+        [
+          "big, huge",
+          "considerable, substantial, major",
+          "Huge jest emocjonalne. A considerable amount of time, a major problem."
+        ],
+        [
+          "really, very (ciągle)",
+          "extremely, highly, particularly",
+          "Highly łączy się tylko z niektórymi przymiotnikami: highly effective, highly unlikely. Nie każde very da się na nie zamienić."
+        ],
+        [
+          "things like sport and music",
+          "such as sport and music",
+          "Like w znaczeniu „na przykład” jest luźniejsze, w tekście formalnym lepiej such as. Po such as rzeczowniki, nie całe zdanie."
+        ],
+        [
+          "So, … na początku zdania",
+          "Therefore, … / As a result, …",
+          "Samo So na początku zdania brzmi potocznie. W środku zdania, po przecinku, so jest w porządku."
+        ],
+        [
+          "I think… (pięć razy)",
+          "In my view, I am convinced that, it seems to me that",
+          "I think nie jest błędem, ale ciągle to samo wyrażenie to pospolity zakres."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "**Phrasal verbs nie są zakazane.** Wiele z nich jest neutralnych i normalnych w tekście formalnym: *carry out research*, *set up a charity*, *take up a sport*. Zamieniasz tylko wtedy, gdy istnieje jednowyrazowy odpowiednik, który pasuje do zdania (*put up with* → *tolerate*).\n\n**Za formalnie też źle.** *Thus* i *hence* są w porządku, ale to słowa formalne, więc jedno–dwa na tekst. Słowa jak *henceforth* albo *heretofore* brzmią archaicznie, a kwiecisty, metaforyczny język CKE podaje jako przykład niestosownego stylu. Cel to tekst rzeczowy, nie napuszony."
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "**Jednolitość stylu.** Jedno *kids* w środku formalnego tekstu to mieszanie stylów. Pojedyncza wpadka to jeszcze nie „liczne uchybienia”, ale za rażące albo liczne uchybienia możesz stracić punkt za zakres, nawet jeśli słownictwo jest bogate."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Przed oddaniem**\n\nOstatnie kilka minut na zakres i styl. Czytasz tekst kilka razy, za każdym razem pod jednym kątem, bo szukanie wszystkiego naraz zwykle kończy się tym, że nie widzisz nic."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "ogólniki",
+          "text_pl": "Zakreśl nice, good, bad, interesting, a lot of, things. Każde zamień na słowo typowe dla tematu albo dopisz konkret."
+        },
+        {
+          "step_pl": "powtórzenia",
+          "text_pl": "To samo słowo trzy razy w akapicie? Daj synonim albo zaimek. Wyjątek: słowo kluczowe z tematu (np. train) zostaw takie, jakie jest, nie szukaj na siłę zamienników."
+        },
+        {
+          "step_pl": "struktury",
+          "text_pl": "Policz wyraźne struktury: około 4–6, w różnych typach, rozłożone po akapitach. Każdą przeczytaj osobno: szyk, czas, przecinki. Niepewna? Zamień na prostszą wersję."
+        },
+        {
+          "step_pl": "imiesłowy",
+          "text_pl": "Przy każdym Having… albo -ing na początku zdania sprawdź, czy podmiot zdania głównego naprawdę wykonał tę czynność."
+        },
+        {
+          "step_pl": "styl",
+          "text_pl": "Szukaj apostrofów: każdy don't, it's, can't rozpisz na pełną formę (apostrof w dzierżawczym 's zostaje). Do tego bez kids, stuff, wykrzykników i So na początku zdania."
+        },
+        {
+          "step_pl": "łączniki",
+          "text_pl": "Gdy however, nevertheless albo consequently zaczynają nowe zdanie, przed nimi kropka albo średnik, a po nich przecinek. Przed whereas i which is why w środku zdania zwykle przecinek. Po despite i owing to rzeczownik albo -ing, nie całe zdanie."
+        }
+      ]
+    }
+  ]
+}
