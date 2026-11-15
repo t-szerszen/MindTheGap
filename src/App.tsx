@@ -22,6 +22,8 @@ import { MorePage } from './features/topics/MorePage'
 import { PhraseSetPage } from './features/topics/PhraseSetPage'
 import { TopicPage } from './features/topics/TopicPage'
 import { TranslatorPage } from './features/translator/TranslatorPage'
+import { WritingListPage } from './features/writing/WritingListPage'
+import { WritingPage } from './features/writing/WritingPage'
 
 export function App() {
   // HashRouter, bo GitHub Pages nie ma fallbacku na index.html
@@ -68,6 +70,8 @@ export function App() {
                   }
                 />
                 <Route path="exercises" element={<ExercisesPage />} />
+                <Route path="writing" element={<WritingListPage />} />
+                <Route path="writing/:id" element={<WritingPage />} />
                 <Route path="exercises/session" element={<SessionPage />} />
                 <Route
                   path="exercises/progress"

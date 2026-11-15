@@ -29,7 +29,14 @@ const sections: Section[] = [
     tab: 'tb-pres',
     also: ['review', 'leeches'],
   },
-  { id: 'exercises', to: '/exercises', label: pl.nav.exercises, icon: 'pencil', tab: 'tb-m' },
+  {
+    id: 'exercises',
+    to: '/exercises',
+    label: pl.nav.exercises,
+    icon: 'pencil',
+    tab: 'tb-m',
+    also: ['writing', 'reading', 'exam'],
+  },
   {
     id: 'more',
     to: '/more',

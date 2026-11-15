@@ -2,7 +2,9 @@ import { useMemo, useState } from 'react'
 import { Link, useNavigate } from 'react-router'
 import { Button, Progress, TagButton } from '../../components/Controls'
 import { Icon } from '../../components/Icon'
-import { Sticky } from '../../components/Paper'
+import { Card, Sticky, type Tilt } from '../../components/Paper'
+import type { Exercise } from '../../content/schema'
+import type { IconName } from '../../components/Icon'
 import { pl } from '../../i18n/pl'
 import { getTenses, useExercises, useTopics } from '../../lib/content'
 import { filterExercises, type SessionMode } from '../../lib/exercises/session'
@@ -11,6 +13,15 @@ import { loadSession, sessionProgress } from './savedSession'
 import { useAttempts } from './useAttempts'
 
 const counts = [5, 8, 12]
+const typeOrder: Exercise['type'][] = [
+  'gap-fill',
+  'choice',
+  'word-formation',
+  'key-word-transformation',
+]
+// TODO: czytanie i arkusz próbny dochodzą w tej samej fazie
+const modeCards: { id: 'writing' | 'reading' | 'exam'; to: string; icon: IconName; tilt: Tilt }[] =
+  [{ id: 'writing', to: '/writing', icon: 'pencil', tilt: -1 }]
 
 export function ExercisesPage() {
   const t = pl.exercises
@@ -21,6 +32,7 @@ export function ExercisesPage() {
   const [tags, setTags] = useState<string[]>([])
   const [level, setLevel] = useState<0 | 1 | 2 | 3>(0)
   const [count, setCount] = useState(8)
+  const [types, setTypes] = useState<Exercise['type'][]>([])
   const [saved] = useState(loadSession)
 
   const exercises = useExercises()
@@ -34,7 +46,8 @@ export function ExercisesPage() {
     () => topics.filter((x) => exercises.some((e) => e.tags.includes(x.id))),
     [exercises, topics],
   )
-  const matching = filterExercises(exercises, tags, level || undefined).length
+  const matching = filterExercises(exercises, tags, level || undefined, types).length
+  const presentTypes = typeOrder.filter((ty) => exercises.some((e) => e.type === ty))
   const progress = saved && sessionProgress(saved)
 
   function toggle(tag: string) {
@@ -45,6 +58,7 @@ export function ExercisesPage() {
     const q = new URLSearchParams()
     if (tags.length) q.set('tags', tags.join(','))
     if (level) q.set('level', String(level))
+    if (types.length) q.set('types', types.join(','))
     q.set('mode', mode)
     q.set('n', String(count))
     navigate(`/exercises/session?${q}`)
@@ -55,6 +69,25 @@ export function ExercisesPage() {
       <div className="measure stack">
         <p className="eyebrow">{t.eyebrow}</p>
         <h1 className="h-l">{t.title}</h1>
+
+        <section className="tsec" aria-labelledby="exam-h">
+          <h2 id="exam-h" className="h-s">
+            {t.examLike}
+          </h2>
+          <div className="mode-cards">
+            {modeCards.map((c) => (
+              <Card key={c.to} as={Link} to={c.to} tilt={c.tilt} className="mode-card">
+                <Icon name={c.icon} size="l" />
+                <span>
+                  <span className="h-s" style={{ display: 'block' }}>
+                    {t.cards[c.id].title}
+                  </span>
+                  <span className="small muted">{t.cards[c.id].sub}</span>
+                </span>
+              </Card>
+            ))}
+          </div>
+        </section>
 
         {progress && progress.done < progress.total && (
           <Sticky
@@ -149,6 +182,31 @@ export function ExercisesPage() {
             </>
           )}
         </section>
+
+        {presentTypes.length > 1 && (
+          <section className="tsec" aria-labelledby="types-h">
+            <h2 id="types-h" className="h-s">
+              {t.types}
+            </h2>
+            <div className="row wrap" style={{ gap: 6, marginTop: 8 }}>
+              <TagButton pressed={!types.length} color="y" onClick={() => setTypes([])}>
+                {t.all}
+              </TagButton>
+              {presentTypes.map((ty) => (
+                <TagButton
+                  key={ty}
+                  pressed={types.includes(ty)}
+                  color="p"
+                  onClick={() =>
+                    setTypes(types.includes(ty) ? types.filter((x) => x !== ty) : [...types, ty])
+                  }
+                >
+                  {t.typeNames[ty]}
+                </TagButton>
+              ))}
+            </div>
+          </section>
+        )}
 
         <section className="tsec" aria-labelledby="level-h">
           <h2 id="level-h" className="h-s">
