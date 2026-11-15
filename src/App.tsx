@@ -22,6 +22,12 @@ import { MorePage } from './features/topics/MorePage'
 import { PhraseSetPage } from './features/topics/PhraseSetPage'
 import { TopicPage } from './features/topics/TopicPage'
 import { TranslatorPage } from './features/translator/TranslatorPage'
+import { ExamPage } from './features/exam/ExamPage'
+import { ExamRunPage } from './features/exam/ExamRunPage'
+import { ReadingListPage } from './features/reading/ReadingListPage'
+import { ReadingPage } from './features/reading/ReadingPage'
+import { WritingListPage } from './features/writing/WritingListPage'
+import { WritingPage } from './features/writing/WritingPage'
 
 export function App() {
   // HashRouter, bo GitHub Pages nie ma fallbacku na index.html
@@ -68,6 +74,12 @@ export function App() {
                   }
                 />
                 <Route path="exercises" element={<ExercisesPage />} />
+                <Route path="writing" element={<WritingListPage />} />
+                <Route path="writing/:id" element={<WritingPage />} />
+                <Route path="reading" element={<ReadingListPage />} />
+                <Route path="reading/:id" element={<ReadingPage />} />
+                <Route path="exam" element={<ExamPage />} />
+                <Route path="exam/run" element={<ExamRunPage />} />
                 <Route path="exercises/session" element={<SessionPage />} />
                 <Route
                   path="exercises/progress"

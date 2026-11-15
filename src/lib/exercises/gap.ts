@@ -17,3 +17,15 @@ export function splitGap(sentence: string): GapParts | null {
     after: sentence.slice(first.index + first[0].length).trimStart(),
   }
 }
+
+// tekst z lukami bez nawiasu (cloze, słowotwórstwo, transformacje): każde ___ to kolejna luka
+const BLANK = /_{3,}/g
+
+export function countBlanks(text: string) {
+  return [...text.matchAll(BLANK)].length
+}
+
+// "a ___ b ___ c" -> ["a ", " b ", " c"]: tekst między lukami, luk jest o jedną mniej
+export function splitBlanks(text: string) {
+  return text.split(BLANK)
+}

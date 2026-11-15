@@ -4,7 +4,7 @@ import { SearchField } from '../../components/Controls'
 import { Icon } from '../../components/Icon'
 import { Card, Sticky, TornSheet } from '../../components/Paper'
 import { pl } from '../../i18n/pl'
-import { getPhraseSets, getTopics } from '../../lib/content'
+import { usePhraseSets, useTopics } from '../../lib/content'
 import { normalizeText } from '../../lib/vocab'
 import { shelves } from './hub'
 
@@ -42,8 +42,8 @@ function ShelfPaper({ i, children }: { i: number; children: ReactNode }) {
 export function MorePage() {
   const t = pl.more
   const [q, setQ] = useState('')
-  const topics = getTopics()
-  const sets = getPhraseSets()
+  const topics = useTopics()
+  const sets = usePhraseSets()
   const nq = normalizeText(q)
 
   const entriesFor = (shelfId: string): Entry[] => {

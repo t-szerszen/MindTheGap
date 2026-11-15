@@ -1,45 +1,39 @@
-import { useId, useState } from 'react'
-import { Button } from '../../components/Controls'
-import { Mark } from '../../components/Ink'
+import { useId } from 'react'
 import type { GapFillExercise } from '../../content/schema'
 import { pl } from '../../i18n/pl'
+import { countWords } from '../../lib/answers/words'
 import { getTense } from '../../lib/content'
-import { checkAnswer } from '../../lib/exercises/check'
 import { splitGap } from '../../lib/exercises/gap'
-
-export type ItemProps = {
-  n: number
-  value: string
-  checked: boolean
-  onChange: (v: string) => void
-  onCheck: () => void
-}
+import { answerInput } from './itemInput'
+import { CheckRow, Explain, StepsNote, Task, type ItemProps } from './ItemParts'
 
 export function GapFillItem({
   ex,
   n,
-  value,
-  checked,
-  onChange,
+  get,
+  set,
+  results,
   onCheck,
 }: ItemProps & { ex: GapFillExercise }) {
   const t = pl.exercises
   const id = useId()
-  const [showSteps, setShowSteps] = useState(false)
   const parts = splitGap(ex.sentence)
   if (!parts) return null
-  const ok = checked && checkAnswer(ex, value)
-  const wrong = checked && !ok
+  const value = get(ex.id)
+  const r = results?.[0]
+  const ok = !!r?.ok
+  const wrong = !!r && !r.ok
   const tense = ex.tags.map(getTense).find(Boolean)
   // pole rośnie razem z odpowiedzią, Caveat jest wąski
   const width = `${Math.max(5, value.length * 0.5 + 1.4)}em`
 
   return (
-    <li className={`ex${checked ? ' is-checked' : ''}`}>
+    <li className={`ex${r ? ' is-checked' : ''}`}>
       <span className="ex-num" aria-hidden="true">
         {n}.
       </span>
       <div className="ex-main">
+        {ex.maxWords && <Task text={t.task.words(ex.maxWords)} />}
         <p className="ex-sent" lang="en">
           {parts.before && <span>{parts.before} </span>}
           <label className="sr" htmlFor={id} lang="pl">
@@ -50,56 +44,34 @@ export function GapFillItem({
             className={`gap-in${ok ? ' ok' : wrong ? ' bad' : ''}`}
             style={{ width }}
             value={value}
-            onChange={(e) => onChange(e.target.value)}
+            onChange={(e) => set(ex.id, e.target.value)}
             onKeyDown={(e) => {
               if (e.key === 'Enter' && value.trim()) {
                 e.preventDefault()
-                onCheck()
+                onCheck?.()
               }
             }}
-            autoComplete="off"
-            autoCapitalize="off"
-            autoCorrect="off"
-            spellCheck={false}
-            enterKeyHint="done"
             placeholder="…"
+            {...answerInput}
           />
           {wrong && <span className="fix">{ex.correct[0]}</span>}{' '}
           <span className="ex-base">({parts.base})</span>{' '}
           {parts.after && <span>{parts.after}</span>}
         </p>
-        {checked && <Mark ok={ok} label={ok ? t.good : t.bad} />}
-        {!checked && (
-          <div className="row" style={{ justifyContent: 'flex-end', marginTop: 2 }}>
-            <Button size="sm" variant="primary" onClick={onCheck} disabled={!value.trim()}>
-              {t.check}
-            </Button>
-          </div>
+        {ex.maxWords && !r && value.trim() && (
+          <p className={`note ink ex-count${countWords(value) > ex.maxWords ? ' over' : ''}`}>
+            {t.wordCount(countWords(value), ex.maxWords)}
+          </p>
         )}
+        {wrong && r.reason && r.reason !== 'wrong' && (
+          <p className="note red">{t.miss[r.reason]}</p>
+        )}
+        <CheckRow results={results} canCheck={!!value.trim()} onCheck={onCheck} />
       </div>
-
-      {checked && (wrong || showSteps) && (
-        <div className="mnote ex-note" aria-live="polite">
-          <span className="mhead">{tense ? t.why(tense.nameEn) : t.whyGeneric}</span>
-          {ex.steps.map((s, j) => (
-            <span key={j} className={`mstep d${j + 1}`}>
-              <b>{j + 1}</b>
-              <span>
-                <span className="mlabel">{s.label_pl}: </span>
-                {s.text_pl}
-              </span>
-            </span>
-          ))}
-        </div>
-      )}
-      {ok && (
-        <button
-          type="button"
-          className="link-pen ex-steps-toggle"
-          onClick={() => setShowSteps(!showSteps)}
-        >
-          {showSteps ? t.hideSteps : t.showSteps}
-        </button>
+      {r && (
+        <Explain ok={ok}>
+          <StepsNote head={tense ? t.why(tense.nameEn) : t.whyGeneric} steps={ex.steps} />
+        </Explain>
       )}
     </li>
   )

@@ -1,3 +1,5 @@
+import { toBritish } from './variants'
+
 // sprawdzanie odpowiedzi w lukach: wielkość liter, apostrofy i skróty nie mają znaczenia
 
 const CONTRACTIONS: [RegExp, string][] = [
@@ -13,16 +15,22 @@ const CONTRACTIONS: [RegExp, string][] = [
 ]
 // 's i 'd zostają jak są: to może być is/has albo had/would, więc takie warianty idą do "accepted"
 
-export function normalizeAnswer(input: string) {
+// bez wyrównywania pisowni: tego używa walidator, żeby amerykańskie warianty w "accepted" nie były duplikatami
+export function normalizeBasic(input: string) {
   let s = input
     .toLowerCase()
     .replace(/[’‘`´ʼ]/g, "'")
+    .replace(/[‐‑–—]/g, '-')
     .replace(/\s+/g, ' ')
     .trim()
     .replace(/[.!?,;:]+$/, '')
     .trim()
   for (const [re, full] of CONTRACTIONS) s = s.replace(re, full)
   return s.replace(/\s+/g, ' ').trim()
+}
+
+export function normalizeAnswer(input: string) {
+  return toBritish(normalizeBasic(input))
 }
 
 export function isCorrect(input: string, answers: string[]) {

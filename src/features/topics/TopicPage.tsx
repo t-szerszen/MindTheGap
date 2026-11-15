@@ -3,15 +3,16 @@ import { Icon } from '../../components/Icon'
 import { Scribble } from '../../components/Ink'
 import { NotFound } from '../../components/States'
 import { pl } from '../../i18n/pl'
-import { getExercises, getTopic } from '../../lib/content'
+import { useExercises, useTopics } from '../../lib/content'
 import { BlockView } from './BlockView'
 
 export function TopicPage() {
   const { id = '' } = useParams()
-  const topic = getTopic(id)
+  const topic = useTopics().find((t) => t.id === id)
+  const exercises = useExercises()
   if (!topic) return <NotFound />
   const t = pl.topics
-  const practice = getExercises().filter((e) => e.tags.includes(topic.id)).length
+  const practice = exercises.filter((e) => e.tags.includes(topic.id)).length
 
   return (
     <article className="sheet ruled page-in">
