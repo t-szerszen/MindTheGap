@@ -56,6 +56,8 @@ export function SyncSection() {
     try {
       await flushWrites()
       setFlushed(true)
+    } catch {
+      // firestore odrzuca czekanie, jak w międzyczasie się wyloguję; status i tak pokaże błąd z listenera
     } finally {
       setFlushing(false)
     }
