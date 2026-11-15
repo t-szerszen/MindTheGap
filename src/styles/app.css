@@ -815,7 +815,6 @@
   font-family: var(--f-hand);
   font-weight: 700;
   font-size: 20px;
-  white-space: nowrap;
 }
 .callout {
   padding: 22px 16px 14px;
