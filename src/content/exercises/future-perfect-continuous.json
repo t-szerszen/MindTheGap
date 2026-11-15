@@ -1,0 +1,526 @@
+[
+  {
+    "id": "fupc-charity-stream-midnight",
+    "type": "gap-fill",
+    "sentence": "Kuba started his charity stream at eight this morning and wants to keep going until breakfast. By midnight, he ___ (stream) for sixteen hours non-stop!",
+    "correct": ["will have been streaming"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "By midnight — punkt w przyszłości. for sixteen hours — okres, który do niego prowadzi."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Stajesz o północy i patrzysz wstecz: stream trwa od ósmej rano i wtedy wciąż będzie trwał (keep going until breakfast). Liczysz, jak długo → Future Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will be streaming powiedziałoby tylko, że o północy będzie w trakcie, i zgubiłoby szesnaście godzin. will have streamed brzmi jak policzony wynik i przy czynności, która dalej trwa, jest mniej naturalne."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + have been + V-ing → will have been streaming."
+      }
+    ],
+    "tags": ["future-perfect-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "fupc-grandpa-limping-eighty",
+    "type": "gap-fill",
+    "sentence": "Grandpa's hip operation has been put off until the spring, so by the time he turns eighty in January, he ___ (limp) around with a walking stick for a whole year.",
+    "correct": ["will have been limping"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "by the time he turns eighty in January — moment w przyszłości. for a whole year — okres, który do niego prowadzi."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Dziadek kuleje już teraz i w styczniu dalej będzie kuleć, bo operacja jest dopiero wiosną. Stajesz w styczniu i liczysz wstecz cały rok → Future Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po by the time stoi turns (Present Simple), bez will. will be limping powiedziałoby tylko, że w styczniu będzie w trakcie, i zgubiłoby cały rok."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + have been + V-ing (limp → limping) → will have been limping."
+      }
+    ],
+    "tags": ["future-perfect-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "fupc-extension-no-roof",
+    "type": "gap-fill",
+    "sentence": "Our neighbours started building an extension in March. By Christmas, they ___ (build) it for nine months, and it still won't have a roof!",
+    "correct": ["will have been building"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "By Christmas i for nine months, a started… in March pokazuje, że budowa już trwa."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "W święta budowa dalej będzie trwać (it still won't have a roof). Liczysz, ile czasu minie od marca do Bożego Narodzenia → Future Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will have built znaczyłoby, że dobudówka będzie gotowa, a bez dachu na pewno nie jest. Liczy się czas trwania, nie wynik."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + have been + V-ing → will have been building."
+      }
+    ],
+    "tags": ["future-perfect-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "fupc-split-coach-twenty-hours",
+    "type": "gap-fill",
+    "sentence": "Poor Ola! Her coach to Split left Gdańsk at six this morning, and by the time it reaches the Croatian border, she ___ (travel) for almost twenty hours — and she'll still have five hours to go.",
+    "correct": ["will have been travelling"],
+    "accepted": ["will have been traveling"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "by the time it reaches the Croatian border — moment w przyszłości. for almost twenty hours — okres."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Podróż trwa od szóstej rano i na granicy wcale się nie skończy (still have five hours to go). Z tego punktu liczysz wstecz, ile Ola będzie już w drodze → Future Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po by the time stoi reaches (Present Simple), bez will. by the time kusi Future Perfect, ale nie liczysz tu wyniku, tylko czas trwania czynności, która dalej trwa. coach to po brytyjsku autokar. Pisownia: brytyjskie travelling, amerykańskie traveling."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + have been + V-ing → will have been travelling."
+      }
+    ],
+    "tags": ["future-perfect-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "fupc-film-not-running-long",
+    "type": "gap-fill",
+    "sentence": "Don't panic if your bus is late. The film starts at eight, so even if you get there at quarter past, it ___ (not / run) for long, and I'll tell you what you've missed.",
+    "correct": ["will not have been running"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "even if you get there at quarter past — moment w przyszłości. for long — okres liczony do tej chwili."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Film zacznie się o ósmej i kiedy dotrzesz, dalej będzie leciał. Z tej chwili patrzysz wstecz: minie najwyżej kwadrans. Przeczenie podkreśla, że minie mało czasu → Future Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will not be running for long znaczyłoby, że film zaraz się skończy, a przecież dopiero się zaczął. W części z if jest Present Simple (get), a will idzie do drugiej części. not stoi zaraz po will."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + not + have been + V-ing (run → running) → will not have been running (skrót: won't have been running)."
+      }
+    ],
+    "tags": ["future-perfect-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "fupc-how-long-driving-calais",
+    "type": "gap-fill",
+    "sentence": "You've been at the wheel since Berlin and won't let anyone else drive. How long ___ (you / drive) by the time we reach the ferry at Calais?",
+    "correct": ["will you have been driving"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "How long…? i by the time we reach the ferry — pytasz, ile czasu minie do momentu w przyszłości. You've been at the wheel since Berlin — jazda już trwa."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Jazda trwa od Berlina i potrwa aż do promu, bo nikt cię nie zmieni. Pytasz o jej długość liczoną do tego punktu → Future Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "How long will you be driving? pytałoby tylko, ile potrwa jazda, bez punktu „do kiedy”, więc nie pasuje do by the time. W pytaniu przed podmiot idzie tylko will."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "How long + will + you + have been + V-ing → will you have been driving."
+      }
+    ],
+    "tags": ["future-perfect-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "fupc-wedding-guests-drinking",
+    "type": "gap-fill",
+    "sentence": "The reception starts at six, but we still don't know what time dinner will be served. ___ (the guests / drink) for long by the time they sit down to eat? If so, we'd better put out some snacks.",
+    "correct": ["Will the guests have been drinking"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "by the time they sit down to eat — moment w przyszłości. for long — okres, a przyjęcie zaczyna się o szóstej."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Z chwili, gdy goście siądą do kolacji, patrzysz wstecz: będą pić od szóstej. Pytasz, czy to będzie długo, bo martwisz się skutkiem (będą już wstawieni) → Future Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Will the guests be drinking…? zapytałoby tylko, czy będą w trakcie, i nie pasuje do by the time. Po by the time stoi sit (Present Simple). what time dinner will be served to pytanie zależne, a nie zdanie czasowe, więc will tam zostaje. W pytaniu przed podmiot idzie tylko will."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Will + the guests + have been + V-ing → Will the guests have been drinking."
+      }
+    ],
+    "tags": ["future-perfect-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "fupc-boyfriend-parents-barbecue",
+    "type": "gap-fill",
+    "sentence": "Isn't it a bit early to meet his parents? When you go to their barbecue on Sunday, you ___ (not / go out) with him for long — barely six weeks.",
+    "correct": ["will not have been going out"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "When you go to their barbecue on Sunday — moment w przyszłości. for long — barely six weeks — okres."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Związek trwa i będzie trwał dalej, ale do niedzieli minie tylko sześć tygodni. Liczysz czas trwania do tamtego dnia → Future Perfect Continuous w przeczeniu."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po when stoi go (Present Simple), nie will go. go out with to tu „chodzić z kimś” — związek, który trwa, więc liczysz go formą ciągłą. not stoi zaraz po will."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + not + have been + V-ing (go out → going out) → will not have been going out."
+      }
+    ],
+    "tags": ["future-perfect-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "fupc-residents-protest-park",
+    "type": "gap-fill",
+    "sentence": "Residents set up a protest camp outside the town hall in May to save the park from developers. By the end of the year, they ___ (protest) there for over seven months, and they say they won't leave until the plan is dropped.",
+    "correct": ["will have been protesting"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "By the end of the year + for over seven months. set up… in May — protest już trwa."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pod koniec roku mieszkańcy dalej będą protestować (won't leave until…). Liczysz, ile czasu minie od maja do tego punktu → Future Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "By the end of the year kusi Future Perfect, ale przy czynności, która dalej trwa, forma prosta (will have protested) brzmi jak policzony wynik i jest mniej naturalna. Po until stoi is dropped (Present Simple), nie will be dropped."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + have been + V-ing → will have been protesting."
+      }
+    ],
+    "tags": ["future-perfect-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "fupc-summer-camp-application",
+    "type": "gap-fill",
+    "sentence": "I am writing to apply for the position of assistant at your summer camp. By the end of this school year, I ___ (volunteer) at a local youth club for three years, so I am used to working with children.",
+    "correct": ["will have been volunteering", "will have volunteered"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "By the end of this school year + for three years — liczysz staż do punktu w przyszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Wolontariat trwa teraz i będzie trwał do końca roku szkolnego. Liczysz, jak długo → Future Perfect Continuous. volunteer działa tu jak work: przy for poprawny jest też Future Perfect (will have volunteered), a różnica znaczenia jest niewielka."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will be volunteering (Future Continuous) odpada, bo nie liczy trzech lat. To list formalny, więc pełne formy: I will, nie I'll."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + have been + V-ing → will have been volunteering; albo will + have + V3 → will have volunteered."
+      }
+    ],
+    "tags": ["future-perfect-continuous", "future-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "fupc-cousins-project-meeting",
+    "type": "gap-fill",
+    "sentence": "Can we move Friday's project meeting to next week? By then, I ___ (look after) my three little cousins on my own for five days, and my aunt won't be back until Sunday — I'll be a total wreck.",
+    "correct": ["will have been looking after"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "By then (= w piątek) + for five days. I'll be a total wreck — przewidywany skutek."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "W piątek opieka nad kuzynami dalej będzie trwać (my aunt won't be back until Sunday). Z tego punktu liczysz wstecz pięć dni i to tłumaczy, czemu będziesz wykończony → Future Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "won't be back i I'll be wokół luki to Future Simple, ale same nic nie liczą — robi to dopiero for five days przy by then. look after to „opiekować się”: -ing dostaje look, a after zostaje na końcu."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + have been + V-ing → will have been looking after."
+      }
+    ],
+    "tags": ["future-perfect-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "fupc-search-party-by-now",
+    "type": "gap-fill",
+    "sentence": "The search party set off at six this morning, and it's now well after seven in the evening. They ___ (search) the forest for over thirteen hours by now, so they must be exhausted.",
+    "correct": ["will have been searching", "have been searching"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "by now (= do teraz) + for over thirteen hours. it's now — punktem odniesienia jest teraz, a nie przyszłość."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Poszukiwania trwają od szóstej rano aż do teraz, a mówiący nie jest z ekipą, tylko się domyśla (must be exhausted). will have been + V-ing to tu przypuszczenie o czymś, co trwa do teraz — will nie mówi o przyszłości, tylko znaczy „pewnie”."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Poprawne jest też zwykłe have been searching (Present Perfect Continuous) — wtedy podajesz to jak fakt. Odpada natomiast are searching, bo for + okres liczony do teraz wymaga have been."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + have been + V-ing → will have been searching; jako fakt: have + been + V-ing → have been searching."
+      }
+    ],
+    "tags": ["future-perfect-continuous", "present-perfect-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "fupc-uncle-sailing-five-weeks",
+    "type": "gap-fill",
+    "sentence": "My uncle set off from Gdynia on his solo sailing trip last Sunday. This time next month, he ___ (sail) for about five weeks, and he won't be back home until Christmas.",
+    "correct": ["will have been sailing"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "This time next month zwykle prowadzi do Future Continuous, ale obok stoi for about five weeks — okres."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Za miesiąc o tej porze wujek dalej będzie w rejsie (won't be back until Christmas), a ty liczysz wstecz, ile już będzie płynąć od zeszłej niedzieli → Future Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will be sailing powiedziałoby tylko, że za miesiąc będzie w trakcie, i zgubiłoby for about five weeks. will have sailed brzmi jak policzony wynik i przy rejsie, który trwa dalej, jest mniej naturalne."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + have been + V-ing → will have been sailing."
+      }
+    ],
+    "tags": ["future-perfect-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "fupc-band-tour-concerts",
+    "type": "gap-fill",
+    "sentence": "By the end of their European tour in December, the band ___ (give) forty-two concerts in eighteen countries.",
+    "correct": ["will have given"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "By the end of their European tour — punkt w przyszłości. Ale najważniejsze jest forty-two concerts — liczba."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "W grudniu spojrzysz wstecz na gotowy wynik: tyle koncertów będzie już za zespołem → Future Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Forma ciągła (will have been giving) liczy czas, a nie sztuki, więc nie łączy się z liczbą. Z okresem byłoby inaczej: By December, they'll have been touring for six months."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + have + V3 (give – gave – given) → will have given."
+      }
+    ],
+    "tags": ["future-perfect", "future-perfect-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "fupc-best-friends-twelve-years",
+    "type": "gap-fill",
+    "sentence": "By the time we finish secondary school, Wiktor and I ___ (be) best friends for twelve years — we met on our very first day at primary school.",
+    "correct": ["will have been"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "By the time we finish secondary school + for twelve years — wygląda na Future Perfect Continuous."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Liczysz czas do punktu w przyszłości, ale be best friends to stan, a nie czynność. Stan liczysz formą prostą → Future Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will have been wygląda jak początek formy ciągłej, ale tu been to po prostu V3 od be i nic po nim nie dopisujesz. Czasowniki stanu (be, know, have = mieć) nie biorą -ing, więc will have been being to błąd."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + have + V3 (be – was / were – been) → will have been."
+      }
+    ],
+    "tags": ["future-perfect", "future-perfect-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "fupc-library-computers-replaced",
+    "type": "gap-fill",
+    "sentence": "Our school library is closed over the summer holidays. By the time we're back in September, the old computers ___ (replace) with brand-new laptops, so we won't have to bring our own any more.",
+    "correct": ["will have been replaced"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "By the time we're back in September — moment w przyszłości. Nie ma okresu (for…), za to jest gotowy skutek: nowe laptopy."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Wymiana skończy się przed wrześniem. Z tego punktu patrzysz wstecz na gotowy wynik → Future Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Komputery same niczego nie robią, ktoś je wymienia, więc strona bierna: will have been + V3. Nie myl z will have been + V-ing (will have been replacing) — to strona czynna formy ciągłej. Po by the time stoi we're back (Present Simple), bez will."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + have been + V3 (replace – replaced – replaced) → will have been replaced."
+      }
+    ],
+    "tags": ["future-perfect", "future-perfect-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "fupc-hostel-dinner-garden",
+    "type": "gap-fill",
+    "sentence": "When you get to the hostel tonight, the others ___ (probably / have) dinner out in the garden, so just follow the noise and grab a plate.",
+    "correct": ["will probably be having"],
+    "accepted": ["are probably going to be having"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "When you get to the hostel tonight — chwila w przyszłości. Nie ma for ani żadnego okresu."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Kiedy dotrzesz, kolacja będzie w trakcie (grab a plate — jeszcze jedzą). Nie liczysz, jak długo, tylko mówisz, co będzie się wtedy działo → Future Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Bez okresu Future Perfect Continuous nie ma czego liczyć. have to tu „jeść”, czyli czynność, więc -ing jest w porządku. probably stoi po will, przed be."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + probably + be + V-ing → will probably be having."
+      }
+    ],
+    "tags": ["future-continuous", "future-perfect-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "fupc-players-warm-up-final",
+    "type": "gap-fill",
+    "sentence": "Get to the stadium early! In two hours' time, the players ___ (warm up) for the final, and you'll be able to watch them from the front row.",
+    "correct": ["will be warming up"],
+    "accepted": ["are going to be warming up"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "In two hours' time — chwila w przyszłości. for the final wygląda jak okres, ale znaczy „przed finałem”."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Za dwie godziny rozgrzewka będzie w trakcie i będzie można ją oglądać. Nic nie liczysz wstecz → Future Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Sprawdź, co stoi po for: okres (for twenty minutes) liczy czas, a for w innym znaczeniu (for the final, wait for the bus) niczego nie mierzy. Dlatego will have been warming up odpada."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + be + V-ing → will be warming up (-ing dostaje warm, a up zostaje na końcu)."
+      }
+    ],
+    "tags": ["future-continuous", "future-perfect-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "fupc-workmen-digging-street",
+    "type": "gap-fill",
+    "sentence": "Workmen ___ (dig up) our street since the beginning of September, and by the time they finish, they'll have been at it for half a year!",
+    "correct": ["have been digging up"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "since the beginning of September — od punktu startowego do teraz. Druga część zdania (by the time they finish) ma własny punkt w przyszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Kopanie trwa od września do teraz i dalej trwa. W luce liczysz do TERAZ → Present Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "they'll have been at it (be at it = robić to bez przerwy) kusi, żeby wpisać will have been digging up, ale tam liczysz do końca robót, a w luce — do teraz. Każda część zdania ma swój punkt odniesienia. To twoja ulica, więc wiesz to na pewno i will w znaczeniu „pewnie” też nie pasuje."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "workmen → have + been + V-ing (dig → digging, up zostaje na końcu) → have been digging up."
+      }
+    ],
+    "tags": ["present-perfect-continuous", "future-perfect-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "fupc-brother-guitar-chords",
+    "type": "gap-fill",
+    "sentence": "My little brother ___ (practise) the same three chords on his guitar since breakfast, and his first gig isn't until next Saturday!",
+    "correct": ["has been practising"],
+    "accepted": ["has been practicing"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "since breakfast — od punktu startowego do teraz. next Saturday to tylko termin koncertu."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Ćwiczy od śniadania i ćwiczy dalej. Liczysz do teraz, a nie do soboty → Present Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "next Saturday kusi formą z will, ale Future Perfect Continuous potrzebuje punktu w przyszłości, do którego liczysz (by Saturday… for a week). Pisownia: brytyjski czasownik to practise, amerykański practice — w brytyjskim practice to rzeczownik."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "he → has + been + V-ing → has been practising."
+      }
+    ],
+    "tags": ["present-perfect-continuous", "future-perfect-continuous"],
+    "difficulty": 2
+  }
+]
