@@ -1,6 +1,9 @@
 // pośrednik do DeepL: przeglądarka nie może wołać DeepL bezpośrednio (CORS), a klucz nie może trafić do aplikacji
+// + przypomnienia push (push.ts)
 
-export interface Env {
+import { markActive, sendReminders, subscribe, unsubscribe, type PushEnv } from './push'
+
+export interface Env extends Partial<PushEnv> {
   DEEPL_API_KEY: string
   // jeden adres albo kilka po przecinku, np. https://login.github.io,http://localhost:5173
   ALLOWED_ORIGIN: string
@@ -103,6 +106,31 @@ export default {
     const { pathname } = new URL(req.url)
     if (pathname === '/translate' && req.method === 'POST') return translate(req, env, origin)
     if (pathname === '/usage' && req.method === 'GET') return usage(env, origin)
+    if (pathname.startsWith('/push/') && req.method === 'POST') {
+      const pushEnv = pushReady(env)
+      const reply = (body: unknown, status: number) => json(body, status, origin)
+      if (!pushEnv) return reply({ error: 'push_not_configured' }, 503)
+      if (pathname === '/push/subscribe') return subscribe(req, pushEnv, reply)
+      if (pathname === '/push/unsubscribe') return unsubscribe(req, pushEnv, reply)
+      if (pathname === '/push/active') return markActive(req, pushEnv, reply)
+    }
     return json({ error: 'not_found' }, 404, origin)
   },
+
+  // cron co godzinę (wrangler.toml), godzinę i datę liczę po polskiemu w push.ts
+  async scheduled(
+    controller: { scheduledTime: number },
+    env: Env,
+    ctx: { waitUntil(p: Promise<unknown>): void },
+  ) {
+    const pushEnv = pushReady(env)
+    if (pushEnv) ctx.waitUntil(sendReminders(pushEnv, controller.scheduledTime))
+  },
+}
+
+// tłumacz ma działać dalej, nawet jak push nie jest jeszcze skonfigurowany
+function pushReady(env: Env): PushEnv | null {
+  const { PUSH, VAPID_PUBLIC_KEY, VAPID_PRIVATE_KEY, VAPID_SUBJECT } = env
+  if (!PUSH || !VAPID_PUBLIC_KEY || !VAPID_PRIVATE_KEY || !VAPID_SUBJECT) return null
+  return { PUSH, VAPID_PUBLIC_KEY, VAPID_PRIVATE_KEY, VAPID_SUBJECT }
 }
