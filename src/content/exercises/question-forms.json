@@ -1,0 +1,584 @@
+[
+  {
+    "id": "qf-phone-screen-happened",
+    "type": "gap-fill",
+    "sentence": "What ___ (happen) to your phone? The screen is completely smashed!",
+    "correct": ["happened", "has happened"],
+    "accepted": ["'s happened"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Coś stało się z telefonem, ale nie wiesz co. What zastępuje podmiot: Something happened to your phone."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Pytanie o podmiot ma szyk zdania oznajmującego. Nie ma osobnego podmiotu do przestawienia, więc nie ma też operatora."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "W zwykłym pytaniu nie mówisz What did happen…? ani What did it happen…? did dokładasz tylko wtedy, gdy po nim stoi podmiot (What did you do?)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "happened. Zbity ekran widać teraz, więc pasuje też has happened (What's happened…?)."
+      }
+    ],
+    "tags": ["question-forms"],
+    "difficulty": 1
+  },
+  {
+    "id": "qf-concert-recognised-spotted",
+    "type": "choice",
+    "text": "A: You'll never guess what happened at the concert last night. Someone in the crowd recognised me! B: Really? Who ___? A: A girl from my old primary school. And later I spotted someone famous right by the stage. B: No way! Who ___?",
+    "gaps": [
+      {
+        "options": ["recognised you", "did you recognise", "you recognised", "did you recognised"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Someone recognised me: ktoś (podmiot) rozpoznał mnie. B pyta właśnie o tego kogoś."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Who zastępuje podmiot, więc szyk zostaje jak w zdaniu: Who + recognised + you. Bez did."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "did you recognise pyta odwrotnie: kogo TY rozpoznałeś. you recognised to pytanie o dopełnienie bez operatora, a po did nie stawiasz V2."
+          }
+        ]
+      },
+      {
+        "options": ["did you spot", "spotted you", "you spotted", "did you spotted"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "I spotted someone: tym razem to JA (podmiot) zauważyłem kogoś (dopełnienie)."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Pytanie o dopełnienie: Who + operator did + podmiot you + V1 spot."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "spotted you znaczyłoby: kto zauważył ciebie. Czas przeszły niesie did, więc did you spotted to błąd."
+          }
+        ]
+      }
+    ],
+    "tags": ["question-forms", "past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "qf-kwt-flight-lisbon-sit",
+    "type": "key-word-transformation",
+    "source": "Which passenger was sitting next to you on the flight to Lisbon?",
+    "keyWord": "SIT",
+    "target": "Who ___ next to on the flight to Lisbon?",
+    "correct": ["did you sit"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "W zdaniu wyjściowym pasażer jest podmiotem. W docelowym po next to nie ma nikogo, więc szukana osoba musi stać przy next to jako dopełnienie."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Podmiotem jesteś teraz ty, a Who to dopełnienie: obok kogo siedziałeś? Potrzebny operator: did + you + V1."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Who sat next to… nie pasuje, bo po next to zabrakłoby you. Przyimek zostaje na końcu, jak w Who are you waiting for?"
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "did you sit (3 wyrazy). SIT zostaje bez zmian, więc were you sitting odpada."
+      }
+    ],
+    "tags": ["question-forms"],
+    "difficulty": 2
+  },
+  {
+    "id": "qf-kwt-medicine-made",
+    "type": "key-word-transformation",
+    "source": "Why did you decide to study medicine?",
+    "keyWord": "MADE",
+    "target": "What ___ to study medicine?",
+    "correct": ["made you decide", "made you choose"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Why…? pyta o powód. W zdaniu docelowym pytasz, CO cię do tego skłoniło."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "What jest podmiotem: Something made you decide → What made you decide? Pytanie o podmiot, więc bez did."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie dokładaj did (What did make you…) i nie stawiaj to po osobie: make + ktoś + V1, nie made you to decide."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "made you decide (3 wyrazy)."
+      }
+    ],
+    "tags": ["question-forms"],
+    "difficulty": 2
+  },
+  {
+    "id": "qf-pharmacy-plasters",
+    "type": "choice",
+    "text": "Excuse me, I'm not from around here. Could you tell me ___? I need to buy some plasters.",
+    "gaps": [
+      {
+        "options": [
+          "where the nearest pharmacy is",
+          "where is the nearest pharmacy",
+          "where the nearest pharmacy it is",
+          "where is it the nearest pharmacy"
+        ],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Could you tell me… to grzeczny wstęp. Pytaniem jest już on, więc dalsza część to zwykły kawałek zdania."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "słowo pytające + podmiot + czasownik: where + the nearest pharmacy + is."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "where is the nearest pharmacy to szyk pytania bezpośredniego. it w pozostałych opcjach to zbędny drugi podmiot."
+          }
+        ]
+      }
+    ],
+    "tags": ["question-forms"],
+    "difficulty": 1
+  },
+  {
+    "id": "qf-car-park-remember",
+    "type": "gap-fill",
+    "sentence": "Dad, do you remember ___ (where / we / park / the car)? We've been walking round this car park for twenty minutes!",
+    "correct": ["where we parked the car"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "do you remember… to wstęp i to on robi pytanie. Dalsza część mówi tylko, o co chodzi."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Bezpośrednio: Where did we park the car? W pytaniu pośrednim szyk zdania: where + we + czasownik, a did znika."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Czas przeszły przechodzi z did na czasownik: park → parked. where we parked the car (5 wyrazów)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie: where did we park the car (did tylko w pytaniu bezpośrednim) ani where we park the car (zgubiony czas przeszły)."
+      }
+    ],
+    "tags": ["question-forms", "past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "qf-kwt-pool-sundays",
+    "type": "key-word-transformation",
+    "source": "When does the pool close on Sundays?",
+    "keyWord": "KNOW",
+    "target": "Do you ___ on Sundays?",
+    "correct": ["know when the pool closes"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Do you już stoi na początku zdania docelowego. To wstęp, który robi pytanie: Do you know…?"
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Po wstępie szyk zdania: when + the pool + czasownik."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "does znika, a -s wraca do czasownika: the pool closes. Nie: know when does the pool close ani know when the pool close."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "know when the pool closes (5 wyrazów)."
+      }
+    ],
+    "tags": ["question-forms", "present-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "qf-kwt-kuba-bookshop-wonder",
+    "type": "key-word-transformation",
+    "source": "Did Kuba get the summer job at the bookshop? I'd love to know.",
+    "keyWord": "WONDER",
+    "target": "I ___ the summer job at the bookshop.",
+    "correct": [
+      "wonder if Kuba got",
+      "wonder whether Kuba got",
+      "wonder if Kuba has got",
+      "wonder whether Kuba has got"
+    ],
+    "accepted": [
+      "wonder if Kuba's got",
+      "wonder whether Kuba's got",
+      "wonder if Kuba has gotten",
+      "wonder whether Kuba has gotten"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Did Kuba get…? to pytanie tak/nie, bez słowa pytającego. Po polsku: ciekawe, czy…"
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "I wonder + if / whether + podmiot + czasownik. Zdanie kończy się kropką, bo I wonder nie jest pytaniem."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "did znika, a czas przeszły przechodzi na czasownik: get → got. Nie: wonder did Kuba get ani wonder if did Kuba get."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "wonder if Kuba got (4 wyrazy), z whether tak samo. Wiadomość jest wciąż świeża, więc w brytyjskim pasuje też wonder if Kuba has got."
+      }
+    ],
+    "tags": ["question-forms", "past-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "qf-berlin-trip-list",
+    "type": "choice",
+    "text": "I'm on the list for the school trip to Berlin, ___? I handed in the form and the money on Monday.",
+    "gaps": [
+      {
+        "options": ["aren't I", "am not I", "isn't it", "don't I"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "I'm = I am. Zdanie twierdzące, więc tag będzie przeczący, z operatorem be."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Formy amn't I w standardowym angielskim nie ma. Przy I am tag brzmi aren't I? (bardzo formalnie: am I not?)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "am not I to zły szyk, isn't it to polskie „prawda?” doklejane do wszystkiego, a don't I bierze operator, którego w zdaniu nie ma."
+          }
+        ]
+      }
+    ],
+    "tags": ["question-forms"],
+    "difficulty": 2
+  },
+  {
+    "id": "qf-revise-park-lets",
+    "type": "gap-fill",
+    "sentence": "It's far too hot to revise indoors. Let's take our notes to the park, ___ (we)?",
+    "correct": ["shall we"],
+    "maxWords": 2,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Let's… to propozycja dla nas obu, a nie stwierdzenie faktu."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Let's nie ma operatora, z którego dałoby się zrobić tag. Po Let's tag jest zawsze ten sam: shall we?"
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie: don't we ani aren't we. Tu nie ma do ani be, które mógłbyś powtórzyć."
+      }
+    ],
+    "tags": ["question-forms"],
+    "difficulty": 1
+  },
+  {
+    "id": "qf-mum-car-scratch",
+    "type": "choice",
+    "text": "Don't tell Mum about the scratch on her car, ___? I'll pay for the repair myself.",
+    "gaps": [
+      {
+        "options": ["will you", "won't you", "do you", "don't you"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Zdanie to prośba w trybie rozkazującym. Nie ma w nim podmiotu ani operatora."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Po poleceniu tag to will you? Przy poleceniu przeczącym (Don't…) zostaje samo will you?"
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "do you i don't you biorą się z don't, ale don't to tu część rozkazu, a nie operator. won't you pasuje do zaproszeń bez przeczenia: Have some more cake, won't you?"
+          }
+        ]
+      }
+    ],
+    "tags": ["question-forms"],
+    "difficulty": 2
+  },
+  {
+    "id": "qf-party-sneaked-out",
+    "type": "choice",
+    "text": "Nobody noticed that we'd sneaked out of the party before midnight, ___?",
+    "gaps": [
+      {
+        "options": ["did they", "didn't they", "hadn't we", "did it"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Nobody to podmiot i jednocześnie przeczenie: nikt nie zauważył. Zdanie jest przeczące, choć nie ma w nim not."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Przeczące zdanie → twierdzący tag. noticed to Past Simple, więc operator did. nobody, somebody, everybody w tagu zamieniasz na they."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "didn't they to drugie przeczenie. hadn't we bierze operator z drugiej części zdania, a tag robisz od zdania głównego (Nobody noticed). it pasuje do nothing, nie do nobody."
+          }
+        ]
+      }
+    ],
+    "tags": ["question-forms"],
+    "difficulty": 3
+  },
+  {
+    "id": "qf-sister-first-year",
+    "type": "gap-fill",
+    "sentence": "Your sister's already finished her first year at university, ___ (she)?",
+    "correct": ["hasn't she", "has she not"],
+    "maxWords": 3,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "sister's może znaczyć sister is albo sister has. Patrz, co stoi dalej: finished to V3, a already pasuje do has."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "'s + V3 = has. Zdanie twierdzące → tag przeczący z tym samym operatorem: hasn't + she."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "isn't she pasowałoby tylko do 's + przymiotnik albo -ing (She's tired, isn't she?). doesn't she bierze do, a operator już jest."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "hasn't she (2 wyrazy). Bardzo formalnie: has she not."
+      }
+    ],
+    "tags": ["question-forms", "present-perfect"],
+    "difficulty": 3
+  },
+  {
+    "id": "qf-brother-flat-wroclaw",
+    "type": "gap-fill",
+    "sentence": "A: Has your brother found a flat in Wrocław yet? B: No, ___ (he). He's still sleeping on a friend's sofa.",
+    "correct": ["he has not"],
+    "maxWords": 3,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Pytanie zaczyna się od operatora Has. Krótka odpowiedź powtarza ten sam operator."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "No + zaimek + operator + not. Zwykle ze skrótem: No, he hasn't. Pełne he has not też jest poprawne, tylko brzmi mocniej."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie: No, he didn't ani No, he doesn't. Operator musi być ten sam co w pytaniu."
+      }
+    ],
+    "tags": ["question-forms"],
+    "difficulty": 1
+  },
+  {
+    "id": "qf-milk-croissant",
+    "type": "choice",
+    "text": "A: Is there any milk left? B: No, ___. Kuba used the last of it this morning. A: Oh well, I don't really feel like cereal anyway. B: ___. Let's grab a croissant on the way to school.",
+    "gaps": [
+      {
+        "options": ["there isn't", "it isn't", "isn't there", "there aren't"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Pytanie zaczyna się od Is there…? Krótka odpowiedź powtarza tę samą parę: there + operator."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "No + there + isn't. milk jest niepoliczalne, więc is, nie are."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "it isn't zmienia podmiot, a isn't there to szyk pytania, nie odpowiedzi."
+          }
+        ]
+      },
+      {
+        "options": ["Neither do I", "So do I", "Neither don't I", "So don't I"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "A mówi zdanie przeczące (I don't feel like…), a B się z nim zgadza: ja też nie."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Zgoda ze zdaniem przeczącym → Neither / Nor + operator + podmiot. Operator z don't feel to do."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Neither już jest przeczeniem, więc operator po nim jest twierdzący: nie Neither don't I. So do I pasuje tylko do zdania twierdzącego."
+          }
+        ]
+      }
+    ],
+    "tags": ["question-forms"],
+    "difficulty": 2
+  },
+  {
+    "id": "qf-music-festival-never",
+    "type": "gap-fill",
+    "sentence": "A: I've never been to a big music festival. B: ___ (neither / I) — why don't we go to one together this summer?",
+    "correct": ["Neither have I"],
+    "maxWords": 3,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "never robi ze zdania A przeczenie, choć nie ma w nim not. B się zgadza: ja też nie byłem."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Neither + operator + podmiot. Operator bierzesz z I've never been = I have → have."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie: Neither haven't I (podwójne przeczenie), Neither do I (zły operator) ani So have I (to zgoda ze zdaniem twierdzącym)."
+      }
+    ],
+    "tags": ["question-forms"],
+    "difficulty": 2
+  },
+  {
+    "id": "qf-kwt-film-nor",
+    "type": "key-word-transformation",
+    "source": "My dad didn't enjoy the film, and my mum didn't enjoy it either.",
+    "keyWord": "NOR",
+    "target": "My dad didn't enjoy the film, ___.",
+    "correct": ["nor did my mum", "and nor did my mum"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "didn't … either = też nie. Dwie osoby, to samo zdanie przeczące."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Nor (= neither) + operator + podmiot, z szykiem jak w pytaniu. Operator z didn't enjoy to did."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po nor operator jest twierdzący: nie nor didn't my mum. Szyk też musi być odwrócony: nie nor my mum did."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "nor did my mum (4 wyrazy) albo and nor did my mum (5)."
+      }
+    ],
+    "tags": ["question-forms"],
+    "difficulty": 3
+  },
+  {
+    "id": "qf-brother-chess-dad",
+    "type": "gap-fill",
+    "sentence": "My younger brother is crazy about chess, and so ___ (my dad) — they play every evening after dinner.",
+    "correct": ["is my dad"],
+    "maxWords": 3,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Tata robi to samo, co mówi zdanie twierdzące: on też."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "so + operator + podmiot. W pierwszej części stoi is (is crazy about), więc operatorem jest is."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie: so does my dad (w zdaniu nie ma do) ani so my dad is (szyk musi być odwrócony)."
+      }
+    ],
+    "tags": ["question-forms"],
+    "difficulty": 1
+  },
+  {
+    "id": "qf-kwt-maths-teacher-recognise",
+    "type": "key-word-transformation",
+    "source": "Your old maths teacher hasn't changed a bit. I can't believe you failed to recognise him!",
+    "keyWord": "DIDN'T",
+    "target": "Your old maths teacher hasn't changed a bit. ___ him?",
+    "correct": ["Didn't you recognise", "How come you didn't recognise"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I can't believe… = jestem zdziwiony. Myślałem, że go poznasz, a nie poznałeś."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Zdziwienie wyraża pytanie przeczące: operator ze skrótem n't + podmiot + V1. failed to recognise = didn't recognise."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Skrót DIDN'T musi stać przed you. Did you not recognise też jest poprawne, ale nie zawiera słowa klucza w podanej formie."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Didn't you recognise (3 wyrazy). Pasuje też How come you didn't recognise. Why didn't you recognise pyta o powód, a nie wyraża zdziwienia."
+      }
+    ],
+    "tags": ["question-forms"],
+    "difficulty": 2
+  },
+  {
+    "id": "qf-match-behind-goal",
+    "type": "choice",
+    "text": "A: Weren't you at the match on Saturday? I'm sure I saw you behind the goal. B: ___ — I was ill in bed all weekend. It must have been someone else.",
+    "gaps": [
+      {
+        "options": ["No, I wasn't", "Yes, I wasn't", "Yes, I was", "No, I was"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Weren't you…? to pytanie przeczące: A myśli, że byłeś, i jest zdziwiony. B leżał chory, więc go tam nie było."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Odpowiadasz na fakt, a nie na formę pytania. Nie byłem → No, I wasn't. Byłem → Yes, I was."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Yes idzie tylko z twierdzeniem, a No tylko z przeczeniem, więc Yes, I wasn't i No, I was nie istnieją. Yes, I was przeczy temu, że B był chory."
+          }
+        ]
+      }
+    ],
+    "tags": ["question-forms"],
+    "difficulty": 3
+  }
+]
