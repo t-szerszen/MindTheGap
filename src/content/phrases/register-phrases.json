@@ -1,0 +1,359 @@
+{
+  "id": "register-phrases",
+  "category": "register",
+  "title_pl": "Rejestr: zwroty i konstrukcje",
+  "items": [
+    {
+      "en": "cannot / do not / it is (full forms)",
+      "pl": "pełne formy zamiast skrótów",
+      "meaning_pl": "zamiast skrótów „can't, don't, it's”: w liście formalnym i rozprawce piszesz pełne formy, bo skróty to zapis mowy. Can't zamienia się w jedno słowo cannot, a pozostałe w dwa: do not, it is, I am. W e-mailu do kolegi skróty są jak najbardziej w porządku.",
+      "example": {
+        "en": "Unfortunately, I cannot attend the meeting, as I do not finish school until five.",
+        "pl": "Niestety nie mogę przyjść na spotkanie, ponieważ kończę lekcje dopiero o piątej."
+      },
+      "register": "formal",
+      "tags": ["can't", "skróty", "list formalny"]
+    },
+    {
+      "en": "improve (sth)",
+      "pl": "poprawić (się), ulepszyć",
+      "meaning_pl": "zamiast potocznego „get better / make better”: jedno precyzyjne słowo zamiast czasownika frazowego. Improve działa w obie strony: bez dopełnienia znaczy „poprawić się” (my English has improved), z dopełnieniem „poprawić coś” (improve your English).",
+      "example": {
+        "en": "Public transport in our town has improved a lot since the new bus lines were introduced.",
+        "pl": "Komunikacja miejska w naszym mieście bardzo się poprawiła, odkąd wprowadzono nowe linie autobusowe."
+      },
+      "register": "neutral",
+      "tags": ["get better", "rozprawka"]
+    },
+    {
+      "en": "address an issue / a problem",
+      "pl": "zająć się problemem",
+      "meaning_pl": "zamiast potocznego „do something about it”: address to tu nie „adresować”, tylko „zająć się sprawą, zacząć ją rozwiązywać”. Problem nazywasz rzeczownikiem, więc zdanie brzmi rzeczowo. Podobnie działa tackle a problem.",
+      "example": {
+        "en": "I believe the local council should address the problem of litter in the park as soon as possible.",
+        "pl": "Uważam, że rada miasta powinna jak najszybciej zająć się problemem śmieci w parku."
+      },
+      "register": "formal",
+      "tags": ["do something about", "list do redakcji"]
+    },
+    {
+      "en": "extremely / highly (+ adjective)",
+      "pl": "niezwykle, bardzo",
+      "meaning_pl": "zamiast potocznego „really / super”: really jest w porządku w mowie, ale w tekście formalnym extremely brzmi poważniej, a super to już czysty luz. Highly łączy się tylko z niektórymi przymiotnikami (highly effective, highly likely, highly recommended), więc gdy nie masz pewności, wybierz extremely.",
+      "example": {
+        "en": "The volunteers were extremely helpful, and the course was highly effective.",
+        "pl": "Wolontariusze byli niezwykle pomocni, a kurs okazał się bardzo skuteczny."
+      },
+      "register": "neutral",
+      "tags": ["really", "super", "wzmocnienie"]
+    },
+    {
+      "en": "a considerable number of (+ plural noun)",
+      "pl": "znaczna liczba, sporo",
+      "meaning_pl": "zamiast potocznego „a lot of”: chodzi o rzeczowniki policzalne (students, complaints). Słowo number podpowiada, że da się to policzyć. Przy niepoliczalnych mówisz a considerable amount of (time, money). Czasownik po a number of stoi w liczbie mnogiej: a considerable number of students have…",
+      "example": {
+        "en": "A considerable number of students have complained about the new timetable.",
+        "pl": "Spora liczba uczniów skarżyła się na nowy plan lekcji."
+      },
+      "register": "formal",
+      "tags": ["a lot of", "ilość", "rozprawka"]
+    },
+    {
+      "en": "a growing number of (+ plural noun)",
+      "pl": "coraz więcej",
+      "meaning_pl": "zamiast potocznego „more and more people”: growing (rosnąca) liczba sama pokazuje zmianę w czasie, więc nie musisz powtarzać more. Czasownik w liczbie mnogiej: a growing number of teenagers are…, bo liczysz nastolatków, a nie liczbę.",
+      "example": {
+        "en": "A growing number of teenagers are choosing to study abroad.",
+        "pl": "Coraz więcej nastolatków decyduje się na studia za granicą."
+      },
+      "register": "neutral",
+      "tags": ["more and more", "artykuł", "rozprawka"]
+    },
+    {
+      "en": "increasingly (+ adjective)",
+      "pl": "coraz bardziej",
+      "meaning_pl": "zamiast „more and more (+ przymiotnik)”: jedno słowo zamiast powtórzenia. Increasingly popular = coraz popularniejszy. Pasuje, gdy coś się zmienia stopniowo, a more and more przy przymiotniku łatwo w rozprawce nadużyć.",
+      "example": {
+        "en": "Online shopping has become increasingly popular among older people.",
+        "pl": "Zakupy przez internet stają się coraz popularniejsze wśród starszych osób."
+      },
+      "register": "neutral",
+      "tags": ["more and more", "zmiana"]
+    },
+    {
+      "en": "in recent years",
+      "pl": "w ostatnich latach",
+      "meaning_pl": "zamiast potocznego „lately / these days”: określasz okres jasno (kilka ostatnich lat aż do teraz). Bo ten okres trwa do teraz, zwykle idzie z present perfect: In recent years, prices have risen.",
+      "example": {
+        "en": "In recent years, many small shops in the city centre have closed down.",
+        "pl": "W ostatnich latach wiele małych sklepów w centrum miasta zostało zamkniętych."
+      },
+      "register": "neutral",
+      "tags": ["lately", "present perfect", "artykuł"]
+    },
+    {
+      "en": "currently",
+      "pl": "obecnie, aktualnie",
+      "meaning_pl": "zamiast potocznego „right now”: right now jest potoczne i często znaczy po prostu „w tej chwili”, a currently brzmi rzeczowo i opisuje stan w obecnym okresie. Stawiasz je zwykle przed czasownikiem głównym albo po is/are: is currently working on, currently offers.",
+      "example": {
+        "en": "Our school currently offers only two foreign languages.",
+        "pl": "Nasza szkoła oferuje obecnie tylko dwa języki obce."
+      },
+      "register": "neutral",
+      "tags": ["right now", "list formalny"]
+    },
+    {
+      "en": "There is no doubt that …",
+      "pl": "Nie ma wątpliwości, że…",
+      "meaning_pl": "zamiast potocznego „I'm 100% sure that”: zamiast mówić o swojej pewności, stwierdzasz fakt bezosobowo (there is). Używaj go do rzeczy, które da się uzasadnić, a nie do własnej opinii, bo inaczej wyjdzie przesada.",
+      "example": {
+        "en": "There is no doubt that regular exercise is good for both body and mind.",
+        "pl": "Nie ma wątpliwości, że regularny ruch dobrze wpływa i na ciało, i na umysł."
+      },
+      "register": "formal",
+      "tags": ["I'm sure", "rozprawka", "bezosobowo"]
+    },
+    {
+      "en": "It is worth noting that …",
+      "pl": "Warto zauważyć, że…",
+      "meaning_pl": "zamiast potocznego „Oh, and…” / „And another thing…”: nie zmieniasz tematu, tylko dodajesz coś ważnego. It is worth noting that dodaje ważną informację do tego samego wątku. Konstrukcja: it is worth + -ing, więc noting albo mentioning, nie „to note”.",
+      "example": {
+        "en": "It is worth noting that the museum is free for students on Sundays.",
+        "pl": "Warto zauważyć, że w niedziele muzeum jest dla uczniów bezpłatne."
+      },
+      "register": "formal",
+      "tags": ["by the way", "worth + -ing", "artykuł"]
+    },
+    {
+      "en": "sb/sth is said / thought to (do sth)",
+      "pl": "podobno, uważa się, że ktoś/coś…",
+      "meaning_pl": "zamiast potocznego „people say that sth does”: strona bierna z podmiotem osobowym. Ludzi, którzy mówią, wyrzucasz ze zdania, a na początek idzie to, o czym piszesz. Po said/thought stoi to + bezokolicznik: is thought to cause. Gdy mowa o przeszłości, dajesz to have + III forma: is said to have lived.",
+      "example": {
+        "en": "Too much screen time is thought to affect children's sleep.",
+        "pl": "Uważa się, że zbyt dużo czasu przed ekranem wpływa na sen dzieci."
+      },
+      "register": "formal",
+      "tags": ["people say", "strona bierna", "rozprawka"]
+    },
+    {
+      "en": "a variety of (+ plural noun)",
+      "pl": "różne, wiele rodzajów",
+      "meaning_pl": "zamiast potocznego „all sorts of / loads of different”: variety od razu mówi, że chodzi o różnorodność, a nie tylko o ilość. Po of rzeczownik w liczbie mnogiej, często z wide: a wide variety of activities.",
+      "example": {
+        "en": "The summer camp offers a wide variety of sports and outdoor activities.",
+        "pl": "Obóz letni oferuje wiele różnych sportów i zajęć na świeżym powietrzu."
+      },
+      "register": "neutral",
+      "tags": ["all sorts of", "ogłoszenie"]
+    },
+    {
+      "en": "approximately (+ number)",
+      "pl": "około, mniej więcej",
+      "meaning_pl": "zamiast potocznego „about / around”: przy liczbach, kwotach i czasie approximately brzmi oficjalnie. About i around są neutralne i też są poprawne, ale w raporcie, ogłoszeniu albo skardze approximately pasuje lepiej.",
+      "example": {
+        "en": "The journey took approximately three hours longer than stated on your website.",
+        "pl": "Podróż trwała około trzech godzin dłużej, niż podano na państwa stronie."
+      },
+      "register": "formal",
+      "tags": ["about", "liczby", "reklamacja"]
+    },
+    {
+      "en": "the (vast) majority of (+ plural noun)",
+      "pl": "większość, zdecydowana większość",
+      "meaning_pl": "zamiast „most people / almost everyone”: most jest neutralne i poprawne, ale the majority of brzmi jak wniosek z obserwacji albo badania. Vast wzmacnia: zdecydowana większość. Przy policzalnych czasownik zwykle w liczbie mnogiej: the majority of students use…",
+      "example": {
+        "en": "The vast majority of students in my class use their phones to study.",
+        "pl": "Zdecydowana większość uczniów w mojej klasie uczy się z pomocą telefonu."
+      },
+      "register": "formal",
+      "tags": ["most", "almost everyone", "artykuł"]
+    },
+    {
+      "en": "regarding / concerning sth",
+      "pl": "w sprawie, dotyczący",
+      "meaning_pl": "zamiast potocznego „about” w środku zdania: a question about the trip w liście staje się a question regarding the trip. Oba słowa wyglądają jak -ing, ale działają tu jak przyimek, więc po nich od razu rzeczownik. Na początku listu lepiej sprawdza się With reference to.",
+      "example": {
+        "en": "I would like to ask a few questions regarding the accommodation.",
+        "pl": "Chciałbym zadać kilka pytań dotyczących zakwaterowania."
+      },
+      "register": "formal",
+      "tags": ["about", "list formalny"]
+    },
+    {
+      "en": "rather / somewhat (+ adjective)",
+      "pl": "dość, raczej, nieco",
+      "meaning_pl": "zamiast potocznego „kind of / pretty”: kind of expensive i pretty expensive to mowa potoczna. Rather jest neutralne i przy negatywnych słowach często brzmi jak delikatna krytyka (rather disappointing). Somewhat jest bardziej formalne i znaczy „w pewnym stopniu”.",
+      "example": {
+        "en": "The film was rather long, and the ending was somewhat disappointing.",
+        "pl": "Film był dość długi, a zakończenie nieco rozczarowujące."
+      },
+      "register": "neutral",
+      "tags": ["kind of", "pretty", "recenzja"]
+    },
+    {
+      "en": "young people / teenagers",
+      "pl": "młodzi ludzie, nastolatkowie",
+      "meaning_pl": "zamiast potocznego „teens”: teens to skrót z rozmów i nagłówków. W rozprawce i artykule piszesz teenagers albo ogólniej young people, gdy chodzi też o osoby po dwudziestce.",
+      "example": {
+        "en": "Many young people find it difficult to choose a career at the age of eighteen.",
+        "pl": "Wielu młodym ludziom trudno jest wybrać zawód w wieku osiemnastu lat."
+      },
+      "register": "neutral",
+      "tags": ["teens", "rozprawka"]
+    },
+    {
+      "en": "It is essential to (do sth) / that …",
+      "pl": "Koniecznie trzeba, niezbędne jest…",
+      "meaning_pl": "zamiast potocznego „you've got to / you have to”: you w rozprawce zwraca się wprost do czytelnika, jakbyś go pouczał. It is essential to mówi o konieczności bezosobowo. Mocniej niż important, bo essential znaczy „niezbędny”.",
+      "example": {
+        "en": "It is essential to check the weather forecast before going hiking in the mountains.",
+        "pl": "Przed wyjściem w góry koniecznie trzeba sprawdzić prognozę pogody."
+      },
+      "register": "formal",
+      "tags": ["you have to", "bezosobowo", "rozprawka"]
+    },
+    {
+      "en": "sth can / should be done",
+      "pl": "coś można / należy zrobić",
+      "meaning_pl": "zamiast potocznego „you can do it”: zamiast ogólnego you robisz ze sprawy podmiot i dajesz stronę bierną: modal + be + III forma. Tickets can be bought online zamiast You can buy tickets online. Nie trzeba mówić, kto ma to zrobić.",
+      "example": {
+        "en": "Old clothes can be donated to charity instead of being thrown away.",
+        "pl": "Stare ubrania można oddać na cele charytatywne, zamiast je wyrzucać."
+      },
+      "register": "neutral",
+      "tags": ["you can", "strona bierna", "bezosobowo"]
+    },
+    {
+      "en": "There are several reasons why …",
+      "pl": "Jest kilka powodów, dla których…",
+      "meaning_pl": "zamiast potocznego „there's loads of reasons”: loads of to mowa potoczna, a there's z liczbą mnogą słychać w rozmowie, ale w tekście pisanym przy reasons stoi there are. Dobre zdanie na wstęp akapitu, po którym wymieniasz powody.",
+      "example": {
+        "en": "There are several reasons why I would recommend this course to other students.",
+        "pl": "Jest kilka powodów, dla których poleciłbym ten kurs innym uczniom."
+      },
+      "register": "neutral",
+      "tags": ["loads of", "there are", "rozprawka"]
+    },
+    {
+      "en": "several (+ plural noun)",
+      "pl": "kilka, parę",
+      "meaning_pl": "zamiast potocznego „a couple of / a bunch of”: a bunch of people to luźna mowa, a a couple of dosłownie znaczy „dwa, parę”. Several to „kilka”, zwykle więcej niż dwa, i pasuje do każdego tekstu.",
+      "example": {
+        "en": "I have contacted your customer service several times, but nobody has replied.",
+        "pl": "Kilka razy kontaktowałem się z państwa działem obsługi klienta, ale nikt nie odpowiedział."
+      },
+      "register": "neutral",
+      "tags": ["a couple of", "a bunch of", "reklamacja"]
+    },
+    {
+      "en": "As far as sth is concerned, …",
+      "pl": "Jeśli chodzi o…",
+      "meaning_pl": "zamiast potocznego „Talking about…”: wprowadzasz nowy punkt, np. kolejną część rozprawki albo kolejną sprawę w liście. Pamiętaj o końcówce: as far as X is concerned, bez is concerned zdanie jest niepełne. Krótsza neutralna wersja to When it comes to sth.",
+      "example": {
+        "en": "As far as accommodation is concerned, students will stay with host families.",
+        "pl": "Jeśli chodzi o zakwaterowanie, uczniowie zamieszkają u rodzin goszczących."
+      },
+      "register": "formal",
+      "tags": ["talking about", "nowy akapit"]
+    },
+    {
+      "en": "a lack of sth",
+      "pl": "brak czegoś",
+      "meaning_pl": "zamiast „not having enough”: rzeczownik zamiast całej frazy z czasownikiem. Many students don't get enough sleep zamienia się w A lack of sleep is a problem for many students. Tekst formalny lubi takie rzeczowniki, bo zdanie staje się krótsze i rzeczowe.",
+      "example": {
+        "en": "A lack of sleep can seriously affect students' concentration.",
+        "pl": "Brak snu może poważnie wpływać na koncentrację uczniów."
+      },
+      "register": "neutral",
+      "tags": ["not enough", "rzeczownik", "rozprawka"]
+    },
+    {
+      "en": "an increase / a rise in sth",
+      "pl": "wzrost czegoś",
+      "meaning_pl": "zamiast „sth has gone up”: zmiana jako rzeczownik, a nie czasownik. Pułapka: wzrost czego to in, nie of: an increase in prices. Of pojawia się przy liczbie, o ile coś wzrosło: an increase of 10%.",
+      "example": {
+        "en": "There has been a sharp rise in the number of people working from home.",
+        "pl": "Nastąpił gwałtowny wzrost liczby osób pracujących z domu."
+      },
+      "register": "neutral",
+      "tags": ["go up", "rzeczownik", "artykuł"]
+    },
+    {
+      "en": "It is hardly surprising that … / Not surprisingly, …",
+      "pl": "Nic dziwnego, że…",
+      "meaning_pl": "zamiast potocznego „No wonder…”: no wonder brzmi jak komentarz w rozmowie. Hardly znaczy „prawie wcale”, więc hardly surprising = „wcale nie zaskakujące”. Not surprisingly stawiasz na początku zdania z przecinkiem.",
+      "example": {
+        "en": "It is hardly surprising that so many young people feel stressed before exams.",
+        "pl": "Nic dziwnego, że tak wielu młodych ludzi stresuje się przed egzaminami."
+      },
+      "register": "formal",
+      "tags": ["no wonder", "rozprawka"]
+    },
+    {
+      "en": "to a large extent / largely",
+      "pl": "w dużej mierze",
+      "meaning_pl": "zamiast potocznego „pretty much / mostly”: pretty much to mowa potoczna. To a large extent ostrożnie mówi, że coś jest w większości prawdą, ale nie w całości. Largely to krótsza wersja, stawiana przed tym, co określa: largely due to.",
+      "example": {
+        "en": "The success of the festival was largely due to the hard work of local volunteers.",
+        "pl": "Sukces festiwalu był w dużej mierze zasługą ciężkiej pracy miejscowych wolontariuszy."
+      },
+      "register": "neutral",
+      "tags": ["pretty much", "ostrożnie"]
+    },
+    {
+      "en": "fail to do sth",
+      "pl": "nie zrobić czegoś (choć powinno się)",
+      "meaning_pl": "zamiast „didn't do / didn't manage to”: fail to do sth mówi nie tylko, że czegoś nie zrobiono, ale że należało to zrobić. Dlatego pasuje do skarg i krytyki. Po fail stoi to + bezokolicznik: The company failed to reply.",
+      "example": {
+        "en": "Despite my two emails, the company failed to explain why my order had been cancelled.",
+        "pl": "Mimo dwóch moich e-maili firma nie wyjaśniła, dlaczego anulowano moje zamówienie."
+      },
+      "register": "formal",
+      "tags": ["didn't", "reklamacja"]
+    },
+    {
+      "en": "be likely to do sth",
+      "pl": "prawdopodobnie coś zrobić",
+      "meaning_pl": "zamiast „will probably”: tu przewidywanie zapisujesz konstrukcją z przymiotnikiem: sth is likely to + bezokolicznik. Odwrotność to be unlikely to. Pozwala ostrożnie przewidywać bez I think i bez pewności will.",
+      "example": {
+        "en": "Without a cycle lane, more people are likely to keep using their cars.",
+        "pl": "Bez ścieżki rowerowej więcej osób prawdopodobnie nadal będzie jeździć samochodem."
+      },
+      "register": "neutral",
+      "tags": ["probably", "przewidywanie"]
+    },
+    {
+      "en": "lead to sth / result in sth",
+      "pl": "prowadzić do czegoś, skutkować czymś",
+      "meaning_pl": "zamiast „make sth happen”: nazywasz skutek rzeczownikiem po przyimku. Pułapka: to w lead to i in w result in to przyimki, więc dalej rzeczownik albo -ing: lead to problems, result in losing.",
+      "example": {
+        "en": "Spending too much time online can lead to problems with concentration.",
+        "pl": "Spędzanie zbyt dużo czasu w sieci może prowadzić do problemów z koncentracją."
+      },
+      "register": "neutral",
+      "tags": ["make sth happen", "skutek", "rozprawka"]
+    },
+    {
+      "en": "be aware of sth / that …",
+      "pl": "być świadomym czegoś, zdawać sobie sprawę",
+      "meaning_pl": "zamiast „know about”: aware mówi, że ktoś zdaje sobie sprawę z problemu albo zagrożenia, a nie tylko „zna” temat. Po aware dajesz of + rzeczownik albo that + zdanie.",
+      "example": {
+        "en": "Many teenagers are not fully aware of the risks of sharing personal data online.",
+        "pl": "Wielu nastolatków nie do końca zdaje sobie sprawę z zagrożeń związanych z udostępnianiem danych w sieci."
+      },
+      "register": "neutral",
+      "tags": ["know about", "rozprawka"]
+    },
+    {
+      "en": "It is often the case that …",
+      "pl": "Często zdarza się, że…",
+      "meaning_pl": "zamiast potocznego „a lot of the time”: zamiast mówić, jak często coś bywa, opisujesz to jako ogólną prawidłowość. Dobre do podawania typowej sytuacji, którą potem rozwijasz przykładem.",
+      "example": {
+        "en": "It is often the case that students who work part-time manage their time better.",
+        "pl": "Często zdarza się, że uczniowie pracujący dorywczo lepiej organizują sobie czas."
+      },
+      "register": "formal",
+      "tags": ["a lot of the time", "rozprawka"]
+    }
+  ]
+}

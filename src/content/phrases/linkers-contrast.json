@@ -1,0 +1,227 @@
+{
+  "id": "linkers-contrast",
+  "category": "linkers",
+  "title_pl": "Łączniki: przeciwieństwo i ustępstwo",
+  "items": [
+    {
+      "en": "nevertheless",
+      "pl": "mimo to, niemniej jednak",
+      "meaning_pl": "Ustępstwo: coś jest prawdą mimo tego, co padło wcześniej. Łączy dwa osobne zdania, po nim pełne zdanie. Zwykle na początku zdania z przecinkiem albo po średniku: …; nevertheless, … Samym przecinkiem nie połączysz z nim dwóch zdań.",
+      "example": {
+        "en": "The exam was extremely difficult. Nevertheless, most students passed it.",
+        "pl": "Egzamin był niezwykle trudny. Mimo to większość uczniów go zdała."
+      },
+      "register": "formal",
+      "tags": ["ustępstwo", "osobne zdanie", "rozprawka"]
+    },
+    {
+      "en": "nonetheless",
+      "pl": "niemniej jednak, mimo to",
+      "meaning_pl": "To samo co nevertheless, też formalne. Po nim pełne zdanie. Stoi na początku zdania z przecinkiem albo na końcu zdania. Pisane łącznie, jednym słowem.",
+      "example": {
+        "en": "The museum is quite small. Nonetheless, it attracts thousands of tourists every year.",
+        "pl": "Muzeum jest dość małe. Niemniej jednak co roku przyciąga tysiące turystów."
+      },
+      "register": "formal",
+      "tags": ["ustępstwo", "osobne zdanie", "rozprawka"]
+    },
+    {
+      "en": "even so",
+      "pl": "mimo to, a jednak",
+      "meaning_pl": "Ustępstwo między dwoma osobnymi zdaniami. Na początku zdania, po nim przecinek i pełne zdanie. To nie spójnik jak even though: nie łączy dwóch części w jednym zdaniu.",
+      "example": {
+        "en": "The hotel was quite expensive. Even so, we decided to stay there for a week.",
+        "pl": "Hotel był dość drogi. Mimo to postanowiliśmy zostać w nim przez tydzień."
+      },
+      "register": "neutral",
+      "tags": ["ustępstwo", "osobne zdanie"]
+    },
+    {
+      "en": "whereas + clause",
+      "pl": "podczas gdy, natomiast",
+      "meaning_pl": "Kontrast dwóch różnych faktów: porównujesz A i B. Po nim pełne zdanie. W środku zdania zwykle przecinek przed whereas; może też zaczynać zdanie: Whereas A, B. Typowe dla tekstów pisanych.",
+      "example": {
+        "en": "My brother enjoys team sports, whereas I prefer swimming on my own.",
+        "pl": "Mój brat lubi sporty drużynowe, natomiast ja wolę pływać sam."
+      },
+      "register": "formal",
+      "tags": ["kontrast", "+ zdanie"]
+    },
+    {
+      "en": "while + clause",
+      "pl": "podczas gdy; choć",
+      "meaning_pl": "Po nim pełne zdanie. Znaczy kontrast (jak whereas) albo ustępstwo (jak although), zwłaszcza na początku zdania – wtedy po części z while przecinek. While ma też znaczenie czasowe (podczas gdy coś trwało), więc sens wynika z kontekstu. Brytyjski, bardziej formalny wariant: whilst.",
+      "example": {
+        "en": "While I understand your point of view, I can't agree with you.",
+        "pl": "Choć rozumiem twój punkt widzenia, nie mogę się z tobą zgodzić."
+      },
+      "register": "neutral",
+      "tags": ["kontrast", "ustępstwo", "+ zdanie"]
+    },
+    {
+      "en": "even though + clause",
+      "pl": "mimo że, chociaż",
+      "meaning_pl": "Mocniejsze although, podkreśla zaskoczenie. Po nim pełne zdanie, a to, co mówi, jest faktem. Na początku zdania przecinek po części z even though. Nie istnieje forma even although.",
+      "example": {
+        "en": "Even though he had revised for weeks, he felt nervous before the exam.",
+        "pl": "Mimo że uczył się od tygodni, denerwował się przed egzaminem."
+      },
+      "register": "neutral",
+      "tags": ["ustępstwo", "+ zdanie"]
+    },
+    {
+      "en": "even if + clause",
+      "pl": "nawet jeśli, nawet gdyby",
+      "meaning_pl": "Ustępstwo z warunkiem: nie wiadomo, czy to się stanie (albo sytuacja jest wymyślona), a skutek i tak będzie ten sam. Po nim pełne zdanie; o przyszłości mówisz czasem teraźniejszym, bez will. Pułapka: even though = to fakt, even if = może się zdarzyć. Na początku zdania przecinek.",
+      "example": {
+        "en": "Even if it rains tomorrow, the school trip won't be cancelled.",
+        "pl": "Nawet jeśli jutro będzie padać, wycieczka szkolna nie zostanie odwołana."
+      },
+      "register": "neutral",
+      "tags": ["ustępstwo", "warunek", "+ zdanie"]
+    },
+    {
+      "en": "though (at the end of a sentence)",
+      "pl": "ale, jednak (na końcu zdania)",
+      "meaning_pl": "Na końcu zdania znaczy to samo co however, ale brzmi luźno: rozmowa, mail do kolegi, wpis na blogu. Przed nim przecinek. Although tak nie działa, nie stoi na końcu. Jako spójnik (Though it was late, …) though znaczy to samo co although.",
+      "example": {
+        "en": "The flat is tiny. I really like it, though.",
+        "pl": "Mieszkanie jest malutkie. Ale i tak bardzo mi się podoba."
+      },
+      "register": "informal",
+      "tags": ["kontrast", "mowa"]
+    },
+    {
+      "en": "in spite of sth / doing sth",
+      "pl": "pomimo, mimo",
+      "meaning_pl": "To samo co despite, tylko zawsze z of (a despite nigdy z of). Po nim rzeczownik, zaimek albo forma -ing, nie pełne zdanie. Zdanie dopiero przez in spite of the fact that. Na początku zdania przecinek po całej frazie.",
+      "example": {
+        "en": "In spite of feeling ill, she took part in the competition.",
+        "pl": "Mimo że źle się czuła, wzięła udział w zawodach."
+      },
+      "register": "neutral",
+      "tags": ["ustępstwo", "+ rzeczownik", "+ -ing"]
+    },
+    {
+      "en": "despite the fact that + clause",
+      "pl": "pomimo że, pomimo tego, że",
+      "meaning_pl": "Sposób, żeby po despite postawić pełne zdanie: despite the fact that + podmiot + czasownik. Tak samo in spite of the fact that. Błąd: despite of. Na początku zdania przecinek po części z despite.",
+      "example": {
+        "en": "Despite the fact that the tickets were expensive, they sold out within an hour.",
+        "pl": "Pomimo że bilety były drogie, wyprzedały się w ciągu godziny."
+      },
+      "register": "neutral",
+      "tags": ["ustępstwo", "+ zdanie"]
+    },
+    {
+      "en": "on the contrary",
+      "pl": "wręcz przeciwnie",
+      "meaning_pl": "Zaprzeczasz temu, co padło wcześniej: prawda jest odwrotna. Zwykle po zdaniu przeczącym. Na początku zdania, po nim przecinek. Pułapka: to nie jest on the other hand, które pokazuje drugą stronę tego samego tematu.",
+      "example": {
+        "en": "The new rules haven't made life easier for students. On the contrary, they have caused a lot of stress.",
+        "pl": "Nowe przepisy nie ułatwiły uczniom życia. Wręcz przeciwnie, wywołały mnóstwo stresu."
+      },
+      "register": "neutral",
+      "tags": ["kontrast", "osobne zdanie"]
+    },
+    {
+      "en": "by contrast / in contrast (to sth)",
+      "pl": "natomiast, dla porównania; w przeciwieństwie do",
+      "meaning_pl": "Porównujesz dwie różne rzeczy, osoby albo miejsca. By contrast / In contrast na początku zdania, po nim przecinek i pełne zdanie. In contrast to (albo with) + rzeczownik: In contrast to her sister, …",
+      "example": {
+        "en": "In northern Poland the summer was cold and wet. By contrast, the south had weeks of sunshine.",
+        "pl": "Na północy Polski lato było zimne i deszczowe. Natomiast na południu przez wiele tygodni świeciło słońce."
+      },
+      "register": "formal",
+      "tags": ["kontrast", "osobne zdanie", "+ rzeczownik"]
+    },
+    {
+      "en": "unlike sb/sth",
+      "pl": "w przeciwieństwie do",
+      "meaning_pl": "Przyimek: po nim rzeczownik albo zaimek (unlike me, unlike my brother), nie pełne zdanie. Porównuj podobne rzeczy, np. osobę z osobą. Na początku zdania przecinek po całej frazie.",
+      "example": {
+        "en": "Unlike most of my friends, I'm not on social media.",
+        "pl": "W przeciwieństwie do większości moich znajomych nie korzystam z mediów społecznościowych."
+      },
+      "register": "neutral",
+      "tags": ["kontrast", "+ rzeczownik"]
+    },
+    {
+      "en": "however + adjective/adverb + clause",
+      "pl": "jakkolwiek, choćby nie wiem jak",
+      "meaning_pl": "Inne znaczenie niż However, z przecinkiem: tu to „bez względu na to, jak bardzo”. Po however od razu przymiotnik albo przysłówek, potem podmiot i czasownik: However hard I try, … Przecinek dopiero po całej tej części, nie po however.",
+      "example": {
+        "en": "However hard I try, I can't remember all the irregular verbs.",
+        "pl": "Choćbym nie wiem jak się starał, nie mogę zapamiętać wszystkich czasowników nieregularnych."
+      },
+      "register": "neutral",
+      "tags": ["ustępstwo", "+ zdanie"]
+    },
+    {
+      "en": "regardless of sth",
+      "pl": "bez względu na, niezależnie od",
+      "meaning_pl": "Coś nie ma wpływu na sytuację. Po nim rzeczownik albo whether/what/how + zdanie: regardless of whether you like it. Forma irregardless uchodzi za błąd.",
+      "example": {
+        "en": "The library is free for everyone, regardless of age.",
+        "pl": "Biblioteka jest bezpłatna dla wszystkich, bez względu na wiek."
+      },
+      "register": "neutral",
+      "tags": ["ustępstwo", "+ rzeczownik"]
+    },
+    {
+      "en": "yet + clause",
+      "pl": "a jednak, ale",
+      "meaning_pl": "Spójnik jak but, ale mocniej podkreśla zaskoczenie. Po nim pełne zdanie, przed nim zwykle przecinek. Może też zaczynać zdanie: Yet … Nie myl z yet = jeszcze (Have you finished yet?).",
+      "example": {
+        "en": "The task looked easy, yet nobody in our class managed to solve it.",
+        "pl": "Zadanie wyglądało na łatwe, a jednak nikomu w naszej klasie nie udało się go rozwiązać."
+      },
+      "register": "neutral",
+      "tags": ["kontrast", "+ zdanie"]
+    },
+    {
+      "en": "much as + clause",
+      "pl": "choć bardzo, chociaż bardzo",
+      "meaning_pl": "Ustępstwo z odcieniem „naprawdę bym chciał, ale…”. Po nim pełne zdanie, najczęściej z like, love, want, would like, admire. Na początku zdania, po tej części przecinek. Brzmi formalnie, pasuje do listu formalnego.",
+      "example": {
+        "en": "Much as I would like to attend the meeting, I am afraid I will be abroad at that time.",
+        "pl": "Choć bardzo chciałbym wziąć udział w spotkaniu, obawiam się, że będę wtedy za granicą."
+      },
+      "register": "formal",
+      "tags": ["ustępstwo", "+ zdanie", "list formalny"]
+    },
+    {
+      "en": "admittedly",
+      "pl": "co prawda, trzeba przyznać",
+      "meaning_pl": "Przyznajesz rację drugiej stronie, zanim podasz swój mocniejszy argument (zwykle potem but albo however). Na początku zdania, po nim przecinek. Dobre w rozprawce przy kontrargumencie.",
+      "example": {
+        "en": "Admittedly, studying abroad is expensive, but it is a great investment in your future.",
+        "pl": "Co prawda studia za granicą są drogie, ale to świetna inwestycja w przyszłość."
+      },
+      "register": "neutral",
+      "tags": ["ustępstwo", "rozprawka"]
+    },
+    {
+      "en": "having said that / that said",
+      "pl": "mimo to, z drugiej strony",
+      "meaning_pl": "Osłabiasz to, co przed chwilą powiedziałeś, dodając coś przeciwnego. Na początku zdania, po nim przecinek i pełne zdanie. That said to krótsza wersja. Częste w mowie i artykułach.",
+      "example": {
+        "en": "I love living in the city. Having said that, I'd like to move to the countryside one day.",
+        "pl": "Uwielbiam mieszkać w mieście. Mimo to chciałbym kiedyś przeprowadzić się na wieś."
+      },
+      "register": "neutral",
+      "tags": ["ustępstwo", "osobne zdanie", "artykuł"]
+    },
+    {
+      "en": "all the same",
+      "pl": "mimo to, i tak",
+      "meaning_pl": "Ustępstwo w luźnej mowie: mimo tego, co padło, i tak… Zwykle na końcu zdania. Też Thanks all the same – dzięki mimo wszystko, gdy ktoś chciał, ale nie mógł pomóc. W rozprawce lepiej nevertheless.",
+      "example": {
+        "en": "The film got terrible reviews, but we enjoyed it all the same.",
+        "pl": "Film dostał fatalne recenzje, ale i tak nam się podobał."
+      },
+      "register": "informal",
+      "tags": ["ustępstwo", "mowa"]
+    }
+  ]
+}

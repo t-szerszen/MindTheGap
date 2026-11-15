@@ -1,0 +1,169 @@
+{
+  "id": "phrasal-verbs",
+  "category": "phrasal-verbs",
+  "title_pl": "Phrasal verbs",
+  "summary_pl": "Czasownik + partykuła: jak to działa, gdzie wstawić dopełnienie i kiedy lepiej wybrać formalny odpowiednik.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "**Phrasal verb** to czasownik plus jedna albo dwie krótkie partykuły (*up, out, off, on, down, in, back, over…*). Razem tworzą jedno znaczenie, które często ma mało wspólnego z samym czasownikiem.\n\n*give* to dać, ale **give up** to poddać się albo rzucić nałóg. Dlatego phrasal verba trzeba traktować jak osobne słówko, a nie jak „czasownik + coś tam”."
+    },
+    {
+      "type": "table",
+      "headers": ["Jak bardzo da się zgadnąć", "Przykład", "Znaczenie"],
+      "rows": [
+        ["dosłownie: czasownik + kierunek", "turn back, look round", "zawrócić, rozejrzeć się"],
+        ["częściowo: partykuła coś podpowiada", "run out of, go up", "skończyć się, rosnąć"],
+        [
+          "wcale: znaczenie idiomatyczne",
+          "put up with, take after",
+          "znosić, być podobnym do kogoś"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "## Co wnosi partykuła\n\nPrzy części czasowników partykuła ma swoje typowe znaczenie. To **tendencje**, nie reguły: pomagają zapamiętać i czasem zgadnąć, ale nie zastąpią nauki konkretnych połączeń."
+    },
+    {
+      "type": "table",
+      "headers": ["Partykuła", "Częste znaczenie", "Przykłady z zestawów"],
+      "rows": [
+        [
+          "up",
+          "wzrost, więcej; czasem zrobienie czegoś do końca",
+          "go up (ceny), turn up (głośność), put up (cenę); eat up (zjeść do końca)"
+        ],
+        [
+          "down",
+          "spadek, mniej; zapisanie",
+          "go down, come down (ceny), turn down (głośność), cut down on, write down, note down"
+        ],
+        [
+          "out",
+          "na zewnątrz; koniec zapasu; wyjście na jaw",
+          "go out, run out of, come out (prawda), find out"
+        ],
+        [
+          "off",
+          "oddalenie, start; wyłączenie",
+          "set off, take off (samolot), turn off, go off (alarm: zadzwonić)"
+        ],
+        [
+          "on",
+          "dalej, kontynuacja; włączenie, założenie",
+          "go on, get on with, turn on, put on (ubranie)"
+        ],
+        ["back", "powrót, oddanie", "give back, get back, take back, bring back"]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "Ta sama partykuła potrafi znaczyć coś zupełnie innego. **turn up** to podgłośnić, ale też *zjawić się*. **make up** to zmyślić, pogodzić się albo stanowić część całości. Partykuła daje trop, a o znaczeniu rozstrzyga całe zdanie."
+    },
+    {
+      "type": "text",
+      "md_pl": "## Rozdzielne i nierozdzielne\n\nNajwięcej błędów jest przy pozycji dopełnienia. Są trzy typy:\n\n- **bez dopełnienia:** *Our car broke down. We set off at six.* Nic nie wstawiasz.\n- **rozdzielne:** rzeczownik może stać po partykule albo między czasownikiem a partykułą (*turn off the light / turn the light off*). **Zaimek (it, them, her…) zawsze idzie do środka:** *turn it off*, nigdy *turn off it*.\n- **nierozdzielne:** dopełnienie zawsze po całości, też zaimek: *look after her*, nie *look her after*.\n\nPrzy długim dopełnieniu zwykle stawia się je po partykule, bo tak łatwiej to przeczytać: *She turned down an offer from a big company in London.*"
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "rozdzielny: turn sth down",
+          "md_pl": "Rzeczownik w dwóch miejscach, zaimek tylko w środku.",
+          "examples": [
+            {
+              "en": "They offered her the job, but she turned it down.",
+              "pl": "Zaproponowali jej tę pracę, ale odmówiła."
+            }
+          ]
+        },
+        {
+          "title": "nierozdzielny: look after sb",
+          "md_pl": "Partykuła trzyma się czasownika, dopełnienie zawsze za nią.",
+          "examples": [
+            {
+              "en": "My grandma looks after us when our parents are away.",
+              "pl": "Babcia opiekuje się nami, kiedy rodziców nie ma."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "W słowniku zapis **turn sth down** (sth w środku) oznacza czasownik rozdzielny. W aplikacji każdy phrasal ma tag *rozdzielny* albo *nierozdzielny*, a te bez dopełnienia dodatkowo *bez dopełnienia*."
+    },
+    {
+      "type": "text",
+      "md_pl": "## Trzy części\n\nCzęść phrasal verbs ma czasownik, partykułę i jeszcze przyimek: **look forward to, put up with, get on with, come up with, cut down on, keep up with, run out of, make up for**. Te z listy są nierozdzielne, dopełnienie idzie na sam koniec: *I can't put up with it any longer.*\n\nPułapka przy **look forward to**: *to* jest tu przyimkiem, więc po nim rzeczownik albo forma *-ing*, nie bezokolicznik. *I look forward to hearing from you*, nie *to hear*."
+    },
+    {
+      "type": "text",
+      "md_pl": "## Rejestr\n\nWiele phrasal verbs brzmi swobodnie, a w liście formalnym albo rozprawce zwykle lepiej pasuje jednowyrazowy odpowiednik, często pochodzenia łacińskiego. Nie wszystkie są potoczne: *carry out research*, *bring about change* czy *I look forward to hearing from you* pasują też do tekstu formalnego."
+    },
+    {
+      "type": "table",
+      "headers": ["Phrasal verb", "Formalniej", "Po polsku"],
+      "rows": [
+        ["put off", "postpone", "przełożyć"],
+        ["find out", "discover, learn", "dowiedzieć się, odkryć"],
+        ["look into", "investigate", "zbadać"],
+        ["turn down", "reject, decline", "odrzucić"],
+        ["put up with", "tolerate", "znosić, tolerować"],
+        ["cut down on", "reduce", "ograniczyć"],
+        ["set up", "establish", "założyć"],
+        ["go up", "increase, rise", "rosnąć"]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "**Zadanie 7 (wybór A–D).** W arkuszach 2023–2026 phrasal verbs były w 2 z 24 luk (*be made up of*, *come across*). Dystraktory to ten sam czasownik z inną partykułą (*come up / about / round*) albo istniejący phrasal o złym znaczeniu (*put up with*). Wszystkie opcje wyglądają znajomo, więc rozstrzyga znaczenie całego zdania i to, co stoi po luce."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "sens zdania",
+          "text_pl": "Przeczytaj całe zdanie i powiedz po polsku, co tam powinno być (np. „natknąłem się na”). Dopiero potem patrz na opcje."
+        },
+        {
+          "step_pl": "co stoi po luce",
+          "text_pl": "Dopełnienie, of, with, to + -ing? Czasownik bez dopełnienia odpada, jeśli po luce jest rzeczownik, a trzyczłonowy wymaga swojego przyimka."
+        },
+        {
+          "step_pl": "odrzuć resztę",
+          "text_pl": "Przy każdej opcji zapytaj, co ona naprawdę znaczy. Znajomo wyglądający phrasal o innym znaczeniu to typowy dystraktor."
+        },
+        {
+          "step_pl": "zaimek",
+          "text_pl": "Jeśli w zdaniu jest it albo them, sprawdź, czy stoi w dobrym miejscu: w środku przy rozdzielnych, po całości przy nierozdzielnych."
+        }
+      ]
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "While I was tidying my room, I came across some old letters from my grandmother.",
+          "pl": "Kiedy sprzątałem pokój, natknąłem się na stare listy od babci."
+        },
+        {
+          "en": "The team is made up of six students from different countries.",
+          "pl": "Zespół składa się z sześciu uczniów z różnych krajów."
+        },
+        {
+          "en": "We ran out of milk, so I had my coffee black.",
+          "pl": "Skończyło nam się mleko, więc wypiłem czarną kawę."
+        },
+        {
+          "en": "The concert has been put off until next month.",
+          "pl": "Koncert przełożono na przyszły miesiąc."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "## Gdzie są phrasal verbs w aplikacji\n\nW zakładce ze zwrotami, kategoria **Phrasal verbs**, jest 14 zestawów:\n\n- po jednym na 13 najczęstszych czasowników: **get, take, put, set, turn, come, go, look, bring, make, give, run, break** (po 18 znaczeń, jeden phrasal z dwoma znaczeniami to dwie pozycje)\n- **Phrasal verbs tematycznie**: 30 częstych phrasali z innymi czasownikami (*carry out, fill in, cut down on, split up…*), pogrupowanych tematami\n\nUcz się po jednym czasowniku naraz i od razu zwracaj uwagę na tag rozdzielny/nierozdzielny. Ćwiczenia A–D do tego tematu sprawdzają phrasale właśnie z tych zestawów."
+    }
+  ]
+}

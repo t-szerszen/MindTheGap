@@ -1,0 +1,282 @@
+{
+  "id": "idioms-time",
+  "category": "idioms",
+  "title_pl": "Idiomy: czas i pośpiech",
+  "items": [
+    {
+      "en": "be pressed for time",
+      "pl": "mieć mało czasu, być w niedoczasie",
+      "meaning_pl": "brakuje ci czasu; dosł. czas cię 'przyciska'. W luźnym BrE też be pushed for time",
+      "example": {
+        "en": "I'm a bit pressed for time this morning, so can we talk after school?",
+        "pl": "Rano mam trochę mało czasu, więc możemy pogadać po lekcjach?"
+      },
+      "register": "neutral",
+      "tags": ["pośpiech", "brak czasu"]
+    },
+    {
+      "en": "(work) against the clock",
+      "pl": "pracować pod presją czasu, w wyścigu z czasem",
+      "meaning_pl": "robisz coś najszybciej, jak się da, bo termin jest blisko. Podobnie: a race against time",
+      "example": {
+        "en": "The volunteers were working against the clock to finish the shelter before winter.",
+        "pl": "Wolontariusze pracowali pod presją czasu, żeby skończyć schronisko przed zimą."
+      },
+      "register": "neutral",
+      "tags": ["pośpiech", "termin"]
+    },
+    {
+      "en": "get a move on",
+      "pl": "pospieszyć się, ruszyć się",
+      "meaning_pl": "ponaglenie: pospiesz się. Tylko w luźnej rozmowie, nie w formalnym tekście",
+      "example": {
+        "en": "Get a move on or we'll miss the bus!",
+        "pl": "Rusz się, bo spóźnimy się na autobus!"
+      },
+      "register": "informal",
+      "tags": ["pośpiech", "ponaglanie"]
+    },
+    {
+      "en": "cut it fine",
+      "pl": "zostawić sobie czas na styk",
+      "meaning_pl": "planujesz tak, że czasu starcza ledwo, ledwo; często: you're cutting it a bit fine. Zwrot brytyjski, w AmE cut it close",
+      "example": {
+        "en": "Leaving home at 8.50 for a nine o'clock exam is cutting it a bit fine.",
+        "pl": "Wyjście z domu o 8.50 na egzamin o dziewiątej to trochę na styk."
+      },
+      "register": "informal",
+      "tags": ["pośpiech", "BrE"]
+    },
+    {
+      "en": "more haste, less speed",
+      "pl": "co nagle, to po diable; spiesz się powoli",
+      "meaning_pl": "przysłowie: jak robisz coś za szybko, robisz błędy i w sumie tracisz więcej czasu. Haste = pośpiech",
+      "example": {
+        "en": "Check your answers before you hand in the test. More haste, less speed.",
+        "pl": "Sprawdź odpowiedzi, zanim oddasz test. Co nagle, to po diable."
+      },
+      "register": "neutral",
+      "tags": ["pośpiech", "przysłowie", "BrE"]
+    },
+    {
+      "en": "jump the gun",
+      "pl": "zrobić coś przedwcześnie, pospieszyć się",
+      "meaning_pl": "działasz za wcześnie, zanim przyjdzie właściwy moment. Z lekkoatletyki: zawodnik rusza przed strzałem pistoletu startowego",
+      "example": {
+        "en": "The newspaper jumped the gun and announced the results before all the votes had been counted.",
+        "pl": "Gazeta się pospieszyła i ogłosiła wyniki, zanim policzono wszystkie głosy."
+      },
+      "register": "informal",
+      "tags": ["pośpiech", "za wcześnie"]
+    },
+    {
+      "en": "in no time (at all)",
+      "pl": "w mig, błyskawicznie",
+      "meaning_pl": "bardzo szybko, szybciej, niż się spodziewasz; dosł. 'w zerowym czasie'",
+      "example": {
+        "en": "With a good app, you'll learn the basics of Spanish in no time.",
+        "pl": "Z dobrą aplikacją opanujesz podstawy hiszpańskiego w mig."
+      },
+      "register": "neutral",
+      "tags": ["szybko"]
+    },
+    {
+      "en": "time flies (when you're having fun)",
+      "pl": "czas szybko leci",
+      "meaning_pl": "dziwisz się, jak szybko minął czas. Echo łacińskiego tempus fugit (czas ucieka)",
+      "example": {
+        "en": "I can't believe we've been at this school for three years. Time flies!",
+        "pl": "Nie wierzę, że jesteśmy w tej szkole już trzy lata. Ale ten czas leci!"
+      },
+      "register": "neutral",
+      "tags": ["szybko", "upływ czasu"]
+    },
+    {
+      "en": "at a snail's pace",
+      "pl": "w żółwim tempie",
+      "meaning_pl": "bardzo wolno. Pułapka: po polsku zwykle żółw, po angielsku ślimak (snail). Pace = tempo",
+      "example": {
+        "en": "The traffic was moving at a snail's pace, so I was late for my first lesson.",
+        "pl": "Samochody jechały w żółwim tempie, więc spóźniłem się na pierwszą lekcję."
+      },
+      "register": "neutral",
+      "tags": ["wolno"]
+    },
+    {
+      "en": "(just) in the nick of time",
+      "pl": "w ostatniej chwili, w ostatnim momencie",
+      "meaning_pl": "zdążyłeś, ale dosłownie na sekundy przed czasem; zwykle z dobrym zakończeniem",
+      "example": {
+        "en": "We got to the station just in the nick of time. The doors closed right behind us.",
+        "pl": "Dotarliśmy na dworzec w ostatniej chwili. Drzwi zamknęły się tuż za nami."
+      },
+      "register": "informal",
+      "tags": ["ostatnia chwila"]
+    },
+    {
+      "en": "at the eleventh hour",
+      "pl": "w ostatniej chwili",
+      "meaning_pl": "tuż przed terminem, często o decyzjach i umowach; też przymiotnik: an eleventh-hour deal. Z biblijnej przypowieści o robotnikach w winnicy: dzień pracy miał 12 godzin, więc najęci o jedenastej przyszli prawie na koniec",
+      "example": {
+        "en": "The strike was called off at the eleventh hour, so the trains are running as usual.",
+        "pl": "Strajk odwołano w ostatniej chwili, więc pociągi kursują normalnie."
+      },
+      "register": "neutral",
+      "tags": ["ostatnia chwila"]
+    },
+    {
+      "en": "at short notice",
+      "pl": "z krótkim wyprzedzeniem, w ostatniej chwili",
+      "meaning_pl": "ktoś dowiaduje się o czymś na krótko przed. W BrE przyimek at, w AmE on short notice. Przydaje się w liście, gdy przepraszasz za zmianę planów",
+      "example": {
+        "en": "I'm sorry to cancel our meeting at such short notice.",
+        "pl": "Przepraszam, że odwołuję nasze spotkanie z tak krótkim wyprzedzeniem."
+      },
+      "register": "neutral",
+      "tags": ["ostatnia chwila", "list", "BrE"]
+    },
+    {
+      "en": "on the dot",
+      "pl": "punktualnie, co do minuty",
+      "meaning_pl": "dokładnie o podanej godzinie; stawiasz po godzinie: at seven on the dot",
+      "example": {
+        "en": "The film starts at seven on the dot, so don't be late.",
+        "pl": "Film zaczyna się punktualnie o siódmej, więc się nie spóźnij."
+      },
+      "register": "informal",
+      "tags": ["punktualność"]
+    },
+    {
+      "en": "round the clock",
+      "pl": "przez całą dobę, bez przerwy",
+      "meaning_pl": "dzień i noc; łatwo zapamiętać: wskazówki obchodzą całą tarczę. Też przymiotnik: round-the-clock care. W AmE around the clock",
+      "example": {
+        "en": "Doctors and nurses worked round the clock during the pandemic.",
+        "pl": "Lekarze i pielęgniarki pracowali przez całą dobę w czasie pandemii."
+      },
+      "register": "neutral",
+      "tags": ["pora dnia", "BrE"]
+    },
+    {
+      "en": "at the crack of dawn",
+      "pl": "skoro świt, o świcie",
+      "meaning_pl": "bardzo wcześnie rano, zwykle z podkreśleniem, że to męcząco wcześnie",
+      "example": {
+        "en": "We set off at the crack of dawn to avoid the traffic on the motorway.",
+        "pl": "Wyruszyliśmy skoro świt, żeby uniknąć korków na autostradzie."
+      },
+      "register": "informal",
+      "tags": ["pora dnia"]
+    },
+    {
+      "en": "in/until the small hours",
+      "pl": "nad ranem, w środku nocy",
+      "meaning_pl": "godziny tuż po północy, mniej więcej 1-4; łatwo zapamiętać: na zegarze to małe liczby",
+      "example": {
+        "en": "I stayed up revising until the small hours and felt terrible the next day.",
+        "pl": "Powtarzałem materiał do wczesnych godzin porannych i następnego dnia czułem się okropnie."
+      },
+      "register": "neutral",
+      "tags": ["pora dnia", "BrE"]
+    },
+    {
+      "en": "it's high time sb did sth",
+      "pl": "najwyższy czas, żeby ktoś coś zrobił",
+      "meaning_pl": "coś powinno się stać już dawno. Pułapka gramatyczna: po it's high time + osoba idzie past simple (did), choć chodzi o teraz. Tak samo it's about time",
+      "example": {
+        "en": "It's high time the council did something about the traffic in our town.",
+        "pl": "Najwyższy czas, żeby władze miasta zrobiły coś z korkami."
+      },
+      "register": "neutral",
+      "tags": ["czekanie", "gramatyka"]
+    },
+    {
+      "en": "take your time",
+      "pl": "nie spiesz się, rób to spokojnie",
+      "meaning_pl": "masz tyle czasu, ile potrzebujesz. Uwaga na ironię: You took your time! = długo ci to zajęło",
+      "example": {
+        "en": "Take your time with the essay. It isn't due until Friday.",
+        "pl": "Nie spiesz się z wypracowaniem. Termin jest dopiero w piątek."
+      },
+      "register": "neutral",
+      "tags": ["wolno", "spokój"]
+    },
+    {
+      "en": "bide your time",
+      "pl": "czekać na odpowiedni moment",
+      "meaning_pl": "cierpliwie czekasz na dobrą okazję, zamiast działać od razu. Bide prawie nie występuje poza tym zwrotem; czas przeszły: bided",
+      "example": {
+        "en": "She bided her time and asked her parents about the trip when they were in a good mood.",
+        "pl": "Poczekała na odpowiedni moment i zapytała rodziców o wyjazd, kiedy mieli dobry humor."
+      },
+      "register": "neutral",
+      "tags": ["czekanie"]
+    },
+    {
+      "en": "make up for lost time",
+      "pl": "nadrabiać stracony czas",
+      "meaning_pl": "robisz czegoś dużo teraz, bo wcześniej nie mogłeś. Make up for sth = wynagrodzić, zrekompensować",
+      "example": {
+        "en": "After two months with a broken leg, he's training every day to make up for lost time.",
+        "pl": "Po dwóch miesiącach ze złamaną nogą trenuje codziennie, żeby nadrobić stracony czas."
+      },
+      "register": "neutral",
+      "tags": ["nadrabianie"]
+    },
+    {
+      "en": "kill time",
+      "pl": "zabijać czas",
+      "meaning_pl": "robisz cokolwiek, żeby przeczekać, aż coś się zacznie; tak samo jak po polsku",
+      "example": {
+        "en": "Our flight was delayed, so we killed time by walking around the shops at the airport.",
+        "pl": "Nasz lot był opóźniony, więc zabijaliśmy czas, chodząc po sklepach na lotnisku."
+      },
+      "register": "neutral",
+      "tags": ["czekanie", "podróże"]
+    },
+    {
+      "en": "lose track of time",
+      "pl": "stracić poczucie czasu",
+      "meaning_pl": "tak cię coś wciąga, że nie wiesz, która godzina; track = ślad, trop. Odwrotnie: keep track of time",
+      "example": {
+        "en": "The book was so gripping that I completely lost track of time and missed dinner.",
+        "pl": "Książka była tak wciągająca, że całkiem straciłem poczucie czasu i przegapiłem kolację."
+      },
+      "register": "neutral",
+      "tags": ["upływ czasu"]
+    },
+    {
+      "en": "once in a blue moon",
+      "pl": "od wielkiego dzwonu, raz na ruski rok",
+      "meaning_pl": "bardzo rzadko; w luźnej rozmowie o zwyczajach i spotkaniach",
+      "example": {
+        "en": "My brother lives in Scotland, so we only see him once in a blue moon.",
+        "pl": "Mój brat mieszka w Szkocji, więc widujemy go od wielkiego dzwonu."
+      },
+      "register": "informal",
+      "tags": ["częstotliwość", "rzadko"]
+    },
+    {
+      "en": "it's only a matter of time (before ...)",
+      "pl": "to tylko kwestia czasu",
+      "meaning_pl": "coś na pewno się stanie, nie wiadomo tylko kiedy. Po before zdanie w present simple, choć mówimy o przyszłości",
+      "example": {
+        "en": "If we don't protect the forest, it's only a matter of time before these animals disappear.",
+        "pl": "Jeśli nie ochronimy lasu, zniknięcie tych zwierząt to tylko kwestia czasu."
+      },
+      "register": "neutral",
+      "tags": ["przyszłość", "pewność"]
+    },
+    {
+      "en": "(only) time will tell",
+      "pl": "czas pokaże",
+      "meaning_pl": "dziś nie da się tego ocenić, odpowie dopiero przyszłość; pasuje do zakończenia tekstu z niepewną prognozą",
+      "example": {
+        "en": "Nobody knows if the new rules will reduce pollution. Only time will tell.",
+        "pl": "Nikt nie wie, czy nowe przepisy zmniejszą zanieczyszczenie. Czas pokaże."
+      },
+      "register": "neutral",
+      "tags": ["przyszłość", "niepewność"]
+    }
+  ]
+}

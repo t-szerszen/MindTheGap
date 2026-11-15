@@ -1,0 +1,326 @@
+{
+  "id": "register-opinions",
+  "category": "register",
+  "title_pl": "Rejestr: opinie i argumenty",
+  "items": [
+    {
+      "en": "In my view, …",
+      "pl": "Moim zdaniem…",
+      "meaning_pl": "zamiast potocznego „I think”: znaczy to samo, ale brzmi jak przemyślane stanowisko, a nie luźna myśl. W rozprawce unikaj też „For me, …” na początku zdania.",
+      "example": {
+        "en": "In my view, schools should place more emphasis on practical skills.",
+        "pl": "Moim zdaniem szkoły powinny kłaść większy nacisk na umiejętności praktyczne."
+      },
+      "register": "formal",
+      "tags": ["I think", "opinia"]
+    },
+    {
+      "en": "It seems to me that …",
+      "pl": "Wydaje mi się, że…",
+      "meaning_pl": "zamiast potocznego „I reckon”: I reckon to brytyjska mowa potoczna. It seems to me that to ostrożna, grzeczna opinia, dobra wtedy, kiedy nie chcesz brzmieć zbyt kategorycznie.",
+      "example": {
+        "en": "It seems to me that young people spend too little time outdoors.",
+        "pl": "Wydaje mi się, że młodzi ludzie spędzają za mało czasu na świeżym powietrzu."
+      },
+      "register": "neutral",
+      "tags": ["I reckon", "opinia", "ostrożność"]
+    },
+    {
+      "en": "I firmly believe that …",
+      "pl": "Głęboko wierzę, że…; jestem przekonany, że…",
+      "meaning_pl": "zamiast potocznego „I really think”: firmly (mocno) wzmacnia believe i tak wyrażasz silne przekonanie. To stała para: firmly believe, a nie „firmly think”.",
+      "example": {
+        "en": "I firmly believe that every student should learn at least one foreign language.",
+        "pl": "Głęboko wierzę, że każdy uczeń powinien uczyć się co najmniej jednego języka obcego."
+      },
+      "register": "formal",
+      "tags": ["I really think", "opinia", "pewność"]
+    },
+    {
+      "en": "I would argue that …",
+      "pl": "Twierdzę, że…; uważam, że…",
+      "meaning_pl": "zamiast potocznego „I'd say”: argue to tu nie „kłócić się”, tylko „przekonywać, dowodzić”. Would łagodzi ton, ale zapowiada, że zaraz podasz uzasadnienie. Świetne przy odpowiadaniu na cudzy argument.",
+      "example": {
+        "en": "Although some claim that homework is pointless, I would argue that it teaches students self-discipline.",
+        "pl": "Choć niektórzy twierdzą, że prace domowe nie mają sensu, ja uważam, że uczą samodyscypliny."
+      },
+      "register": "formal",
+      "tags": ["I'd say", "opinia", "kontrargument"]
+    },
+    {
+      "en": "I disagree with the view that …",
+      "pl": "Nie zgadzam się z poglądem, że…",
+      "meaning_pl": "zamiast potocznego „I don't agree”: nazywasz konkretny pogląd, z którym się nie zgadzasz, więc brzmi rzeczowo, a nie jak atak na osobę. Pamiętaj: disagree with sth.",
+      "example": {
+        "en": "I disagree with the view that social media has made people more isolated.",
+        "pl": "Nie zgadzam się z poglądem, że media społecznościowe sprawiły, że ludzie są bardziej osamotnieni."
+      },
+      "register": "formal",
+      "tags": ["I don't agree", "niezgoda"]
+    },
+    {
+      "en": "I fully agree that … / with sth",
+      "pl": "W pełni się zgadzam, że… / z czymś",
+      "meaning_pl": "zamiast potocznego „I totally agree”: totally to mowa potoczna, fully albo entirely brzmią spokojnie i oficjalnie. Agree to czasownik, więc nigdy „I am agree”.",
+      "example": {
+        "en": "I fully agree that public transport in large cities should be free for students.",
+        "pl": "W pełni się zgadzam, że komunikacja miejska w dużych miastach powinna być darmowa dla uczniów."
+      },
+      "register": "formal",
+      "tags": ["I totally agree", "zgoda"]
+    },
+    {
+      "en": "I agree to some extent",
+      "pl": "Do pewnego stopnia się zgadzam",
+      "meaning_pl": "zamiast potocznego „I kind of agree”: kind of i sort of to luźne wypełniacze. To some extent (albo to a certain extent) mówi precyzyjnie, że zgadzasz się tylko częściowo. Zwykle dalej pada however i druga strona.",
+      "example": {
+        "en": "I agree to some extent with this view. However, online lessons cannot fully replace contact with a teacher.",
+        "pl": "Do pewnego stopnia zgadzam się z tym poglądem. Lekcje online nie mogą jednak w pełni zastąpić kontaktu z nauczycielem."
+      },
+      "register": "formal",
+      "tags": ["I kind of agree", "zgoda częściowa"]
+    },
+    {
+      "en": "I am not entirely convinced that …",
+      "pl": "Nie do końca wierzę, że…; mam wątpliwości, czy…",
+      "meaning_pl": "zamiast potocznego „I'm not sure”: grzecznie pokazujesz dystans do czyjegoś argumentu. Entirely łagodzi wypowiedź, więc nie brzmisz agresywnie, choć w praktyce się nie zgadzasz.",
+      "example": {
+        "en": "I am not entirely convinced that banning mobile phones in schools would improve students' results.",
+        "pl": "Nie do końca wierzę, że zakaz telefonów w szkołach poprawiłby wyniki uczniów."
+      },
+      "register": "formal",
+      "tags": ["I'm not sure", "wątpliwość"]
+    },
+    {
+      "en": "have (serious) reservations about sth",
+      "pl": "mieć (poważne) zastrzeżenia co do czegoś",
+      "meaning_pl": "zamiast potocznego „I don't think it's a good idea”: reservations to tu nie rezerwacje, tylko wątpliwości, zastrzeżenia. Po about stoi rzeczownik albo forma -ing.",
+      "example": {
+        "en": "I have serious reservations about introducing school uniforms in secondary schools.",
+        "pl": "Mam poważne zastrzeżenia co do wprowadzenia mundurków w szkołach średnich."
+      },
+      "register": "formal",
+      "tags": ["I don't think it's a good idea", "wątpliwość"]
+    },
+    {
+      "en": "be opposed to sth / doing sth",
+      "pl": "być przeciwnym czemuś, sprzeciwiać się czemuś",
+      "meaning_pl": "zamiast potocznego „I'm against it”: be opposed to brzmi oficjalnie. Pułapka: to jest tu przyimkiem, więc dalej rzeczownik albo -ing (opposed to building), nie bezokolicznik.",
+      "example": {
+        "en": "Many local residents are opposed to building a new motorway near the forest.",
+        "pl": "Wielu mieszkańców sprzeciwia się budowie nowej autostrady w pobliżu lasu."
+      },
+      "register": "formal",
+      "tags": ["I'm against it", "niezgoda"]
+    },
+    {
+      "en": "be in favour of sth / doing sth",
+      "pl": "być za czymś, popierać coś",
+      "meaning_pl": "zamiast potocznego „I'm all for it”: in favour of to oficjalny sposób, żeby powiedzieć, że popierasz pomysł. Po of rzeczownik albo -ing. Brytyjska pisownia: favour.",
+      "example": {
+        "en": "I am strongly in favour of introducing more physical education lessons.",
+        "pl": "Zdecydowanie popieram wprowadzenie większej liczby lekcji wychowania fizycznego."
+      },
+      "register": "formal",
+      "tags": ["I'm all for it", "zgoda"]
+    },
+    {
+      "en": "It is widely believed that …",
+      "pl": "Powszechnie uważa się, że…",
+      "meaning_pl": "zamiast potocznego „lots of people think”: konstrukcja bezosobowa (it + strona bierna). Nie mówisz, kto dokładnie tak myśli, więc brzmisz obiektywnie. Typowy początek akapitu w rozprawce.",
+      "example": {
+        "en": "It is widely believed that reading books improves concentration.",
+        "pl": "Powszechnie uważa się, że czytanie książek poprawia koncentrację."
+      },
+      "register": "formal",
+      "tags": ["lots of people think", "uogólnienie"]
+    },
+    {
+      "en": "It is often argued that …",
+      "pl": "Często twierdzi się, że…",
+      "meaning_pl": "zamiast potocznego „people say”: przedstawiasz cudzy argument, zanim się do niego odniesiesz. Dobre otwarcie akapitu z kontrargumentem.",
+      "example": {
+        "en": "It is often argued that online friendships are less valuable than real ones.",
+        "pl": "Często twierdzi się, że przyjaźnie w sieci są mniej wartościowe niż te prawdziwe."
+      },
+      "register": "formal",
+      "tags": ["people say", "kontrargument"]
+    },
+    {
+      "en": "It is generally accepted that …",
+      "pl": "Przyjmuje się, że…; ogólnie wiadomo, że…",
+      "meaning_pl": "zamiast potocznego „everybody knows”: everybody knows brzmi jak przesada i może zirytować czytelnika. It is generally accepted mówi, że większość ludzi to uznaje, bez przesadzania.",
+      "example": {
+        "en": "It is generally accepted that regular exercise reduces stress.",
+        "pl": "Przyjmuje się, że regularny ruch zmniejsza stres."
+      },
+      "register": "formal",
+      "tags": ["everybody knows", "uogólnienie"]
+    },
+    {
+      "en": "There is evidence to suggest that …",
+      "pl": "Istnieją dowody na to, że…; wiele wskazuje na to, że…",
+      "meaning_pl": "zamiast potocznego „there's proof that”: proof to niezbity dowód, którego w rozprawce zwykle nie masz. Evidence (niepoliczalne, bez -s) + suggest to ostrożne, naukowe sformułowanie.",
+      "example": {
+        "en": "There is evidence to suggest that spending too much time on screens can affect sleep quality.",
+        "pl": "Istnieją dowody na to, że zbyt dużo czasu przed ekranem może pogarszać jakość snu."
+      },
+      "register": "formal",
+      "tags": ["there's proof that", "dowody"]
+    },
+    {
+      "en": "It is evident that …",
+      "pl": "Widać wyraźnie, że…; jest oczywiste, że…",
+      "meaning_pl": "zamiast potocznego „it's obvious that”: evident znaczy „widoczne z faktów”, które właśnie podałeś, i brzmi rzeczowo. It's obvious bywa potoczne i trochę lekceważące wobec czytelnika. Nie myl z rzeczownikiem evidence (dowody).",
+      "example": {
+        "en": "Judging by the traffic jams every morning, it is evident that the city needs better public transport.",
+        "pl": "Sądząc po porannych korkach, widać wyraźnie, że miasto potrzebuje lepszej komunikacji miejskiej."
+      },
+      "register": "formal",
+      "tags": ["it's obvious that", "pewność"]
+    },
+    {
+      "en": "undoubtedly",
+      "pl": "niewątpliwie, bez wątpienia",
+      "meaning_pl": "zamiast potocznego „for sure”: for sure to mowa potoczna. Undoubtedly stawiasz zwykle po is albo przed czasownikiem głównym, czasem na początku zdania. Wzmacnia twierdzenie, którego jesteś pewny.",
+      "example": {
+        "en": "Learning to cook is undoubtedly one of the most useful skills a teenager can acquire.",
+        "pl": "Nauka gotowania to niewątpliwie jedna z najbardziej przydatnych umiejętności, jakie może zdobyć nastolatek."
+      },
+      "register": "formal",
+      "tags": ["for sure", "pewność"]
+    },
+    {
+      "en": "It cannot be denied that …",
+      "pl": "Nie da się zaprzeczyć, że…",
+      "meaning_pl": "zamiast potocznego „you can't deny that”: zamieniasz you (zwracanie się do czytelnika) na stronę bierną, więc brzmi bezosobowo. Często tak przyznajesz rację drugiej stronie przed własnym argumentem.",
+      "example": {
+        "en": "It cannot be denied that the internet has made information more accessible.",
+        "pl": "Nie da się zaprzeczyć, że internet sprawił, że informacje są łatwiej dostępne."
+      },
+      "register": "formal",
+      "tags": ["you can't deny that", "pewność"]
+    },
+    {
+      "en": "arguably",
+      "pl": "można uznać, że…; można twierdzić, że…",
+      "meaning_pl": "zamiast potocznego „you could say”: arguably znaczy „można by uznać, że” i pozwala ostrożnie podać mocną tezę. Pułapka: nie znaczy „kontrowersyjnie” ani „kłótliwie”. Typowo: X is arguably the most…",
+      "example": {
+        "en": "Climate change is arguably the greatest challenge facing our generation.",
+        "pl": "Zmiany klimatu można uznać za największe wyzwanie, przed którym stoi nasze pokolenie."
+      },
+      "register": "formal",
+      "tags": ["you could say", "ostrożność"]
+    },
+    {
+      "en": "It is highly unlikely that …",
+      "pl": "Jest bardzo mało prawdopodobne, że…",
+      "meaning_pl": "zamiast potocznego „there's no way that”: no way to emocjonalna mowa potoczna. Highly znaczy tu „bardzo” i typowo łączy się z likely/unlikely. Brzmi ostrożnie, bo w rozprawce rzadko masz stuprocentową pewność.",
+      "example": {
+        "en": "It is highly unlikely that a ban on fast food alone would solve the problem of obesity.",
+        "pl": "Jest bardzo mało prawdopodobne, że sam zakaz fast foodów rozwiązałby problem otyłości."
+      },
+      "register": "formal",
+      "tags": ["there's no way", "ostrożność"]
+    },
+    {
+      "en": "There is some merit in this argument",
+      "pl": "Jest w tym argumencie trochę racji",
+      "meaning_pl": "zamiast potocznego „fair enough”: przyznajesz drugiej stronie częściową rację, zanim przejdziesz do swojego zdania. Merit to zaleta, wartość. Dalej zwykle however.",
+      "example": {
+        "en": "There is some merit in this argument. However, it ignores the cost of such a project.",
+        "pl": "Jest w tym argumencie trochę racji. Pomija on jednak koszty takiego projektu."
+      },
+      "register": "formal",
+      "tags": ["fair enough", "kontrargument"]
+    },
+    {
+      "en": "sth does not stand up to scrutiny",
+      "pl": "coś nie wytrzymuje krytyki",
+      "meaning_pl": "zamiast potocznego „that's rubbish”: rubbish obraża rozmówcę, a ta fraza mówi to samo grzecznie: po dokładnym sprawdzeniu argument się nie broni. Scrutiny to dokładne badanie, analiza.",
+      "example": {
+        "en": "The claim that young people no longer read at all does not stand up to scrutiny.",
+        "pl": "Twierdzenie, że młodzi ludzie w ogóle już nie czytają, nie wytrzymuje krytyki."
+      },
+      "register": "formal",
+      "tags": ["that's rubbish", "niezgoda", "kontrargument"]
+    },
+    {
+      "en": "make / raise a valid point",
+      "pl": "słusznie zauważać, mieć słuszny argument",
+      "meaning_pl": "zamiast potocznego „that's a good point”: valid znaczy „słuszny, logicznie uzasadniony”. Kolokacja to make albo raise a valid point. Dobre, kiedy przyznajesz rację drugiej stronie.",
+      "example": {
+        "en": "Supporters of the reform make a valid point when they say that classes are too large.",
+        "pl": "Zwolennicy reformy słusznie zauważają, że klasy są zbyt liczne."
+      },
+      "register": "formal",
+      "tags": ["a good point", "zgoda częściowa"]
+    },
+    {
+      "en": "beneficial / advantageous (to sb/sth)",
+      "pl": "korzystny, pożyteczny (dla kogoś/czegoś)",
+      "meaning_pl": "zamiast potocznego „good for”: beneficial znaczy „mający dobry wpływ” (na zdrowie, rozwój), advantageous to „dający przewagę, korzystny w danej sytuacji”. Po beneficial stoi to albo for.",
+      "example": {
+        "en": "Volunteering can be highly beneficial to teenagers, as it teaches them responsibility.",
+        "pl": "Wolontariat może być bardzo korzystny dla nastolatków, ponieważ uczy ich odpowiedzialności."
+      },
+      "register": "formal",
+      "tags": ["good for", "ocena"]
+    },
+    {
+      "en": "a serious issue / a major concern",
+      "pl": "poważny problem; poważny powód do niepokoju",
+      "meaning_pl": "zamiast potocznego „a big problem”: big problem brzmi w rozprawce dziecinnie. A serious issue to poważny problem do rozwiązania, a major concern podkreśla, że coś budzi niepokój. Przydaje się też a growing concern.",
+      "example": {
+        "en": "Air pollution in Polish cities has become a major concern, especially in winter.",
+        "pl": "Zanieczyszczenie powietrza w polskich miastach stało się poważnym powodem do niepokoju, zwłaszcza zimą."
+      },
+      "register": "formal",
+      "tags": ["a big problem", "ocena"]
+    },
+    {
+      "en": "be of paramount importance",
+      "pl": "mieć najwyższe znaczenie",
+      "meaning_pl": "zamiast potocznego „super important”: super important to mowa potoczna. Of paramount importance znaczy „ważniejsze niż cokolwiek innego”. Konstrukcja to be + of + rzeczownik importance. Podobnie of the utmost importance.",
+      "example": {
+        "en": "When choosing a university, the quality of teaching is of paramount importance.",
+        "pl": "Przy wyborze uczelni jakość nauczania ma najwyższe znaczenie."
+      },
+      "register": "formal",
+      "tags": ["super important", "ocena"]
+    },
+    {
+      "en": "far preferable to sth",
+      "pl": "o wiele lepszy niż coś",
+      "meaning_pl": "zamiast potocznego „way better than”: way jako wzmocnienie to mowa potoczna. Preferable już znaczy „lepszy, bardziej pożądany”, więc nie dodajesz more i łączysz go z to, nie z than. Wzmacniasz go słowem far.",
+      "example": {
+        "en": "Investing in prevention is far preferable to paying for treatment later.",
+        "pl": "Inwestowanie w profilaktykę jest o wiele lepsze niż późniejsze płacenie za leczenie."
+      },
+      "register": "formal",
+      "tags": ["way better than", "porównanie"]
+    },
+    {
+      "en": "Measures should be taken to …",
+      "pl": "Należy podjąć działania, aby…",
+      "meaning_pl": "zamiast potocznego „something should be done”: measures to konkretne środki, działania. Kolokacja to take measures (nie make ani do). Strona bierna pozwala nie mówić, kto ma działać. Podobnie steps should be taken to.",
+      "example": {
+        "en": "Urgent measures should be taken to reduce the amount of plastic waste.",
+        "pl": "Należy pilnie podjąć działania, aby zmniejszyć ilość odpadów plastikowych."
+      },
+      "register": "formal",
+      "tags": ["something should be done", "rozwiązanie"]
+    },
+    {
+      "en": "It remains unclear whether …",
+      "pl": "Wciąż nie jest jasne, czy…",
+      "meaning_pl": "zamiast potocznego „nobody really knows if”: remain unclear znaczy „wciąż pozostaje niejasne”. W stylu formalnym whether zamiast if. Uczciwie zaznaczasz, że czegoś jeszcze nie da się rozstrzygnąć.",
+      "example": {
+        "en": "It remains unclear whether online learning is as effective as traditional lessons.",
+        "pl": "Wciąż nie jest jasne, czy nauka online jest tak skuteczna jak tradycyjne lekcje."
+      },
+      "register": "formal",
+      "tags": ["nobody really knows if", "ostrożność"]
+    }
+  ]
+}

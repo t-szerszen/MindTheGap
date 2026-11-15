@@ -1,0 +1,510 @@
+[
+  {
+    "id": "cfw-lend",
+    "type": "choice",
+    "text": "Could you ___ me your calculator for the maths test?",
+    "gaps": [
+      {
+        "options": ["borrow", "lend", "owe", "keep"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "kierunek",
+            "text_pl": "Kalkulator ma przejść od ciebie do mnie: ty go dajesz."
+          },
+          {
+            "label_pl": "wzorzec",
+            "text_pl": "Po luce stoi osoba (me) i rzecz: lend sb sth = pożyczyć komuś."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "borrow = pożyczyć od kogoś, czyli brać. Wtedy byłoby „Could I borrow your calculator?”."
+          }
+        ]
+      }
+    ],
+    "tags": ["confused-words"],
+    "difficulty": 1
+  },
+  {
+    "id": "cfw-told",
+    "type": "choice",
+    "text": "Our teacher ___ us that the test had been moved to Friday.",
+    "gaps": [
+      {
+        "options": ["told", "said", "spoke", "talked"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "wzorzec",
+            "text_pl": "Zaraz po luce stoi osoba (us) bez to, a potem that."
+          },
+          {
+            "label_pl": "wybór",
+            "text_pl": "tell sb that… → told us that. said wymagałoby „said to us that…” albo „said that…”."
+          },
+          {
+            "label_pl": "reszta",
+            "text_pl": "speak i talk to rozmawianie, nie przekazanie informacji ze zdaniem that."
+          }
+        ]
+      }
+    ],
+    "tags": ["confused-words"],
+    "difficulty": 1
+  },
+  {
+    "id": "cfw-reminds",
+    "type": "choice",
+    "text": "This song always ___ me of the summer we spent in Croatia.",
+    "gaps": [
+      {
+        "options": ["remembers", "recalls", "memorises", "reminds"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "wzorzec",
+            "text_pl": "Po luce: osoba (me) + of + coś. To wzorzec remind sb of sth = kojarzyć się komuś z czymś."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "remember i recall to „ja pamiętam”: podmiotem jest człowiek, a nie piosenka, i nie ma po nich osoby + of."
+          }
+        ]
+      }
+    ],
+    "tags": ["confused-words"],
+    "difficulty": 2
+  },
+  {
+    "id": "cfw-robbed",
+    "type": "choice",
+    "text": "A man ___ my grandmother in the street and ran off with her handbag.",
+    "gaps": [
+      {
+        "options": ["stole", "burgled", "robbed", "lent"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "dopełnienie",
+            "text_pl": "Po luce stoi ofiara (my grandmother), a nie ukradziona rzecz."
+          },
+          {
+            "label_pl": "wybór",
+            "text_pl": "rob sb = okraść kogoś. steal sth = ukraść coś, więc byłoby „stole her handbag”."
+          },
+          {
+            "label_pl": "reszta",
+            "text_pl": "burgle dotyczy włamania do budynku, nie napadu na ulicy."
+          }
+        ]
+      }
+    ],
+    "tags": ["confused-words"],
+    "difficulty": 2
+  },
+  {
+    "id": "cfw-earns",
+    "type": "choice",
+    "text": "My brother ___ about £10 an hour working in a café.",
+    "gaps": [
+      {
+        "options": ["wins", "earns", "gains", "deserves"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "kontekst",
+            "text_pl": "£10 an hour + working: pieniądze za pracę."
+          },
+          {
+            "label_pl": "wybór",
+            "text_pl": "earn = zarabiać. win to wygrać (nagrodę, mecz), gain to zyskać stopniowo (doświadczenie, wagę), a nie pensję za godzinę."
+          }
+        ]
+      }
+    ],
+    "tags": ["confused-words"],
+    "difficulty": 1
+  },
+  {
+    "id": "cfw-affect",
+    "type": "choice",
+    "text": "Lack of sleep can seriously ___ your concentration.",
+    "gaps": [
+      {
+        "options": ["affect", "effect", "infect", "reflect"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "część mowy",
+            "text_pl": "Przed luką can + seriously, po niej dopełnienie: potrzebny czasownik."
+          },
+          {
+            "label_pl": "wybór",
+            "text_pl": "affect sth = wpływać na coś. effect to zwykle rzeczownik (have an effect on)."
+          },
+          {
+            "label_pl": "reszta",
+            "text_pl": "infect = zarazić, reflect = odbijać, odzwierciedlać — nie pasują znaczeniem."
+          }
+        ]
+      }
+    ],
+    "tags": ["confused-words"],
+    "difficulty": 2
+  },
+  {
+    "id": "cfw-risen",
+    "type": "choice",
+    "text": "Prices have ___ by almost 20 per cent over the last two years.",
+    "gaps": [
+      {
+        "options": ["raised", "arisen", "lifted", "risen"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "dopełnienie",
+            "text_pl": "Po luce nie ma dopełnienia: ceny same rosną, nikt ich „nie podnosi” w tym zdaniu."
+          },
+          {
+            "label_pl": "wybór",
+            "text_pl": "Bez dopełnienia → rise – rose – risen. raise sth wymaga dopełnienia (raise prices)."
+          },
+          {
+            "label_pl": "reszta",
+            "text_pl": "arise = pojawić się (problem), lift = podnieść ręką coś ciężkiego."
+          }
+        ]
+      }
+    ],
+    "tags": ["confused-words"],
+    "difficulty": 2
+  },
+  {
+    "id": "cfw-sensible",
+    "type": "choice",
+    "text": "It would be ___ to book the tickets early, because the concert usually sells out.",
+    "gaps": [
+      {
+        "options": ["sensitive", "sensational", "sensible", "sensory"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "kontekst",
+            "text_pl": "Bilety szybko się kończą, więc wcześniejsza rezerwacja to rozsądny pomysł."
+          },
+          {
+            "label_pl": "wybór",
+            "text_pl": "sensible = rozsądny. sensitive wygląda podobnie, ale znaczy wrażliwy, a sensational to rewelacyjny, sensacyjny."
+          }
+        ]
+      }
+    ],
+    "tags": ["confused-words"],
+    "difficulty": 2
+  },
+  {
+    "id": "cfw-journey",
+    "type": "choice",
+    "text": "The ___ from London to Edinburgh takes about four and a half hours by train.",
+    "gaps": [
+      {
+        "options": ["travel", "journey", "travels", "tourism"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "kontekst",
+            "text_pl": "Przejazd z punktu A do punktu B, który trwa określony czas."
+          },
+          {
+            "label_pl": "wybór",
+            "text_pl": "journey = podróż, przejazd z A do B (policzalne: the journey)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "travel to podróżowanie ogólnie, zwykle bez the; travels to podróże po świecie, nie jeden przejazd."
+          }
+        ]
+      }
+    ],
+    "tags": ["confused-words"],
+    "difficulty": 2
+  },
+  {
+    "id": "cfw-job",
+    "type": "choice",
+    "text": "After graduating, my cousin got a ___ in a bank in Warsaw.",
+    "gaps": [
+      {
+        "options": ["job", "work", "labour", "profession"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "przedimek",
+            "text_pl": "Przed luką stoi a, więc potrzebny rzeczownik policzalny."
+          },
+          {
+            "label_pl": "wybór",
+            "text_pl": "a job = posada, etat. work w znaczeniu „praca” jest niepoliczalne (find work, nie a work)."
+          },
+          {
+            "label_pl": "reszta",
+            "text_pl": "profession to zawód (np. prawnik), nie stanowisko w konkretnym banku."
+          }
+        ]
+      }
+    ],
+    "tags": ["confused-words"],
+    "difficulty": 1
+  },
+  {
+    "id": "cfw-opportunity",
+    "type": "choice",
+    "text": "Studying abroad gave me the ___ to improve my English and meet people from all over the world.",
+    "gaps": [
+      {
+        "options": ["possibility", "event", "accident", "opportunity"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "wzorzec",
+            "text_pl": "Po luce to + bezokolicznik, a sens: dostałem szansę coś zrobić."
+          },
+          {
+            "label_pl": "wybór",
+            "text_pl": "the opportunity to do sth = okazja, sposobność. possibility to możliwość, że coś się stanie (possibility of / that)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "event to wydarzenie, nie szansa na zrobienie czegoś. Okazja jako szansa to opportunity."
+          }
+        ]
+      }
+    ],
+    "tags": ["confused-words"],
+    "difficulty": 2
+  },
+  {
+    "id": "cfw-during",
+    "type": "choice",
+    "text": "My phone rang twice ___ the lesson, and the teacher was furious.",
+    "gaps": [
+      {
+        "options": ["for", "while", "during", "since"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "co po luce",
+            "text_pl": "Po luce stoi rzeczownik (the lesson), a nie długość czasu ani zdanie."
+          },
+          {
+            "label_pl": "wybór",
+            "text_pl": "during + rzeczownik = w trakcie czegoś. for + okres (for an hour), while + zdanie (while we were having the lesson)."
+          }
+        ]
+      }
+    ],
+    "tags": ["confused-words"],
+    "difficulty": 1
+  },
+  {
+    "id": "cfw-by",
+    "type": "choice",
+    "text": "You have to hand in your essay ___ Friday at the latest.",
+    "gaps": [
+      {
+        "options": ["until", "by", "since", "till"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "kontekst",
+            "text_pl": "at the latest = najpóźniej: termin, do którego coś ma być zrobione."
+          },
+          {
+            "label_pl": "wybór",
+            "text_pl": "by + czas = najpóźniej do. until/till mówi, że coś TRWA do jakiegoś momentu (wait until Friday)."
+          }
+        ]
+      }
+    ],
+    "tags": ["confused-words"],
+    "difficulty": 2
+  },
+  {
+    "id": "cfw-between",
+    "type": "choice",
+    "text": "The village lies ___ two hills, so it is often foggy in the morning.",
+    "gaps": [
+      {
+        "options": ["between", "among", "amongst", "within"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "liczba",
+            "text_pl": "Po luce: two hills — dwie konkretne rzeczy."
+          },
+          {
+            "label_pl": "wybór",
+            "text_pl": "between A and B / between two… = między. among = wśród, pośród większej grupy, której nie wyliczamy osobno."
+          }
+        ]
+      }
+    ],
+    "tags": ["confused-words"],
+    "difficulty": 1
+  },
+  {
+    "id": "cfw-actual",
+    "type": "choice",
+    "text": "The ___ cost of the trip turned out to be much higher than the price in the brochure.",
+    "gaps": [
+      {
+        "options": ["topical", "recent", "modern", "actual"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "kontekst",
+            "text_pl": "Porównanie: cena z broszury kontra to, ile wycieczka kosztowała naprawdę."
+          },
+          {
+            "label_pl": "wybór",
+            "text_pl": "actual = faktyczny, rzeczywisty. Nie „aktualny” — to byłoby current."
+          }
+        ]
+      }
+    ],
+    "tags": ["confused-words"],
+    "difficulty": 2
+  },
+  {
+    "id": "cfw-eventually",
+    "type": "choice",
+    "text": "We got lost twice, but we ___ found the hotel just before midnight.",
+    "gaps": [
+      {
+        "options": ["possibly", "alternatively", "eventually", "currently"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "kontekst",
+            "text_pl": "Dwa razy się zgubili, a potem jednak dotarli: koniec po długich kłopotach."
+          },
+          {
+            "label_pl": "wybór",
+            "text_pl": "eventually = w końcu, ostatecznie."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Nie „ewentualnie” — to possibly albo alternatively, i żadne nie pasuje do historii, która już się wydarzyła."
+          }
+        ]
+      }
+    ],
+    "tags": ["confused-words"],
+    "difficulty": 2
+  },
+  {
+    "id": "cfw-sympathetic",
+    "type": "choice",
+    "text": "When I told her about my problems at school, she was very ___ and listened to me for hours.",
+    "gaps": [
+      {
+        "options": ["pathetic", "sympathetic", "apathetic", "synthetic"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "kontekst",
+            "text_pl": "Słuchała godzinami o moich problemach: okazała zrozumienie i współczucie."
+          },
+          {
+            "label_pl": "wybór",
+            "text_pl": "sympathetic = współczujący, wyrozumiały. Nie „sympatyczny” (to nice, friendly)."
+          },
+          {
+            "label_pl": "reszta",
+            "text_pl": "pathetic = żałosny, apathetic = obojętny — oba przeczą temu, że słuchała godzinami."
+          }
+        ]
+      }
+    ],
+    "tags": ["confused-words"],
+    "difficulty": 2
+  },
+  {
+    "id": "cfw-realise",
+    "type": "choice",
+    "text": "I didn't ___ how late it was until my mum called me.",
+    "gaps": [
+      {
+        "options": ["realise", "recognise", "remind", "achieve"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "kontekst",
+            "text_pl": "Dopiero telefon mamy sprawił, że dotarło do mnie, która jest godzina."
+          },
+          {
+            "label_pl": "wybór",
+            "text_pl": "realise = uświadomić sobie. recognise = rozpoznać (twarz, głos) — tu nikogo nie rozpoznaję."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "realise nie znaczy „realizować” (plan to carry out)."
+          }
+        ]
+      }
+    ],
+    "tags": ["confused-words"],
+    "difficulty": 3
+  },
+  {
+    "id": "cfw-pension",
+    "type": "choice",
+    "text": "My grandfather retired last year and now lives on a small ___.",
+    "gaps": [
+      {
+        "options": ["salary", "wage", "pensioner", "pension"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "kontekst",
+            "text_pl": "retired = przeszedł na emeryturę, więc nie dostaje już pieniędzy za pracę."
+          },
+          {
+            "label_pl": "wybór",
+            "text_pl": "pension = emerytura. Polska „pensja” to salary albo wage, czyli wynagrodzenie za pracę."
+          },
+          {
+            "label_pl": "reszta",
+            "text_pl": "pensioner to emeryt, czyli osoba, a nie pieniądze."
+          }
+        ]
+      }
+    ],
+    "tags": ["confused-words"],
+    "difficulty": 1
+  },
+  {
+    "id": "cfw-receipt",
+    "type": "choice",
+    "text": "If you want to return the jacket, you'll need the ___.",
+    "gaps": [
+      {
+        "options": ["recipe", "prescription", "receipt", "reception"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "kontekst",
+            "text_pl": "Zwrot kurtki w sklepie: potrzebny dowód zakupu."
+          },
+          {
+            "label_pl": "wybór",
+            "text_pl": "receipt = paragon. recipe to przepis kulinarny, prescription to recepta od lekarza."
+          }
+        ]
+      }
+    ],
+    "tags": ["confused-words"],
+    "difficulty": 1
+  }
+]

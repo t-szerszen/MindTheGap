@@ -1,0 +1,462 @@
+[
+  {
+    "id": "col-decision",
+    "type": "choice",
+    "text": "After weeks of thinking about it, she finally ___ a decision to study medicine.",
+    "gaps": [
+      {
+        "options": ["made", "did", "got", "put"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "kolokacja",
+            "text_pl": "make a decision = podjąć decyzję. Decyzja to efekt, coś powstaje, więc make."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "did, got, put nie łączą się z decision. Polskie „podjąć” nic tu nie podpowiada."
+          }
+        ]
+      }
+    ],
+    "tags": ["collocations"],
+    "difficulty": 1
+  },
+  {
+    "id": "col-homework",
+    "type": "choice",
+    "text": "I can't go out tonight because I still have to ___ my homework.",
+    "gaps": [
+      {
+        "options": ["do", "make", "perform", "practise"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "kolokacja",
+            "text_pl": "do your homework = odrabiać lekcje. Praca domowa to zadanie do wykonania, a przy zadaniach i pracy jest do."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "make homework to kalka z „robić”. Perform i practise znaczą coś innego i z homework się nie łączą."
+          }
+        ]
+      }
+    ],
+    "tags": ["collocations"],
+    "difficulty": 1
+  },
+  {
+    "id": "col-photo",
+    "type": "choice",
+    "text": "Excuse me, could you ___ a photo of us in front of the castle?",
+    "gaps": [
+      {
+        "options": ["take", "make", "do", "catch"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "kolokacja",
+            "text_pl": "take a photo = zrobić zdjęcie. To trzeba zapamiętać, bo logika make (coś powstaje) tu nie działa."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "make a photo to kalka z polskiego. Do i catch z photo się nie łączą."
+          }
+        ]
+      }
+    ],
+    "tags": ["collocations"],
+    "difficulty": 1
+  },
+  {
+    "id": "col-take-part",
+    "type": "choice",
+    "text": "Over two hundred students ___ part in the charity run last Sunday.",
+    "gaps": [
+      {
+        "options": ["took", "made", "got", "did"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "kolokacja",
+            "text_pl": "take part in sth = brać udział w czymś. Stałe połączenie, zawsze z take."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "made, got, did z part in nie tworzą wyrażenia."
+          }
+        ]
+      }
+    ],
+    "tags": ["collocations"],
+    "difficulty": 1
+  },
+  {
+    "id": "col-heavy-rain",
+    "type": "choice",
+    "text": "The match was cancelled because of ___ rain.",
+    "gaps": [
+      {
+        "options": ["heavy", "strong", "thick", "big"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "kolokacja",
+            "text_pl": "heavy rain = ulewny deszcz. Po angielsku deszcz jest „ciężki”, a nie „mocny”."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "strong rain to kalka z „mocny deszcz”. Strong pasuje do wiatru (strong winds), nie do deszczu."
+          }
+        ]
+      }
+    ],
+    "tags": ["collocations"],
+    "difficulty": 2
+  },
+  {
+    "id": "col-commit-crime",
+    "type": "choice",
+    "text": "People who ___ a crime should be ready to face the consequences.",
+    "gaps": [
+      {
+        "options": ["commit", "make", "perform", "cause"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "kolokacja",
+            "text_pl": "commit a crime = popełnić przestępstwo. Commit w tym znaczeniu łączy się ze złymi czynami: crime, offence."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "make a crime to kalka z „zrobić”. Perform to występować albo wykonywać zadanie, cause to powodować, a nie popełniać."
+          }
+        ]
+      }
+    ],
+    "tags": ["collocations"],
+    "difficulty": 2
+  },
+  {
+    "id": "col-pose-threat",
+    "type": "choice",
+    "text": "Plastic waste ___ a serious threat to marine life.",
+    "gaps": [
+      {
+        "options": ["poses", "puts", "makes", "gives"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "kolokacja",
+            "text_pl": "pose a threat to sth = stanowić zagrożenie dla czegoś. Typowe w rozprawkach o środowisku."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "puts, makes, gives z threat w tym znaczeniu się nie łączą."
+          }
+        ]
+      }
+    ],
+    "tags": ["collocations"],
+    "difficulty": 2
+  },
+  {
+    "id": "col-raise-awareness",
+    "type": "choice",
+    "text": "The campaign aims to ___ awareness of the dangers of air pollution.",
+    "gaps": [
+      {
+        "options": ["raise", "lift", "rise", "pull"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "kolokacja",
+            "text_pl": "raise awareness of sth = zwiększać świadomość czegoś. Raise to podnieść coś (ma dopełnienie)."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "lift to głównie podnieść coś fizycznie, a rise nie bierze dopełnienia: coś samo rośnie (prices rise), nie można „rise awareness”."
+          }
+        ]
+      }
+    ],
+    "tags": ["collocations"],
+    "difficulty": 2
+  },
+  {
+    "id": "col-earn-living",
+    "type": "choice",
+    "text": "It is hard to ___ a living as a musician.",
+    "gaps": [
+      {
+        "options": ["earn", "win", "reach", "take"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "kolokacja",
+            "text_pl": "earn a living = zarabiać na życie. Earn to zarabiać pracą."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "win to wygrywać (nagrodę, mecz), reach to osiągać (cel, miejsce). Z living żadne z nich się nie łączy."
+          }
+        ]
+      }
+    ],
+    "tags": ["collocations"],
+    "difficulty": 1
+  },
+  {
+    "id": "col-gain-experience",
+    "type": "choice",
+    "text": "Working in a café over the summer helped me ___ valuable work experience.",
+    "gaps": [
+      {
+        "options": ["gain", "win", "reach", "collect"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "kolokacja",
+            "text_pl": "gain experience = zdobyć doświadczenie. Gain to zyskiwać coś stopniowo, z czasem."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "collect experience to kalka z „zbierać doświadczenie”. Win i reach z experience się nie łączą."
+          }
+        ]
+      }
+    ],
+    "tags": ["collocations"],
+    "difficulty": 2
+  },
+  {
+    "id": "col-hand-in-notice",
+    "type": "choice",
+    "text": "Unhappy with her salary, she decided to hand in her ___.",
+    "gaps": [
+      {
+        "options": ["notice", "warning", "message", "note"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "kolokacja",
+            "text_pl": "hand in your notice = złożyć wypowiedzenie (z pracy). Notice to tu zawiadomienie o odejściu."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "warning, message, note pasują znaczeniowo do „informacji”, ale hand in your… z nimi nie znaczy odejścia z pracy."
+          }
+        ]
+      }
+    ],
+    "tags": ["collocations"],
+    "difficulty": 3
+  },
+  {
+    "id": "col-balanced-diet",
+    "type": "choice",
+    "text": "Doctors say a ___ diet should include plenty of fresh fruit and vegetables.",
+    "gaps": [
+      {
+        "options": ["balanced", "equal", "even", "fair"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "kolokacja",
+            "text_pl": "a balanced diet = zbilansowana dieta, czyli wszystkiego w dobrych proporcjach."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "equal, even, fair znaczą coś podobnego (równy, sprawiedliwy), ale z diet się nie łączą."
+          }
+        ]
+      }
+    ],
+    "tags": ["collocations"],
+    "difficulty": 1
+  },
+  {
+    "id": "col-sedentary-lifestyle",
+    "type": "choice",
+    "text": "Spending hours in front of a screen every day can lead to a ___ lifestyle.",
+    "gaps": [
+      {
+        "options": ["sedentary", "seated", "sitting", "still"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "kolokacja",
+            "text_pl": "a sedentary lifestyle = siedzący tryb życia. Słowo z wyższego poziomu, dobre do wypracowania o zdrowiu."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "seated i sitting opisują, że ktoś akurat siedzi, still to nieruchomy. Z lifestyle łączy się tylko sedentary."
+          }
+        ]
+      }
+    ],
+    "tags": ["collocations"],
+    "difficulty": 3
+  },
+  {
+    "id": "col-catch-cold",
+    "type": "choice",
+    "text": "Wear a hat when you go out, or you will ___ a cold.",
+    "gaps": [
+      {
+        "options": ["catch", "hold", "pick", "grab"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "kolokacja",
+            "text_pl": "catch a cold = przeziębić się. Przeziębienie się „łapie”."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "grab to też „łapać”, ale tylko rękami. Hold i pick z cold się nie łączą (pick up a cold wymagałoby up)."
+          }
+        ]
+      }
+    ],
+    "tags": ["collocations"],
+    "difficulty": 2
+  },
+  {
+    "id": "col-full-recovery",
+    "type": "choice",
+    "text": "After the operation, doctors expect him to make a ___ recovery.",
+    "gaps": [
+      {
+        "options": ["full", "whole", "entire", "all"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "kolokacja",
+            "text_pl": "make a full recovery = całkowicie wrócić do zdrowia."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "whole i entire to „cały”, ale mówi się o całej rzeczy (the whole day), nie o stopniu wyzdrowienia. All tu gramatycznie nie pasuje."
+          }
+        ]
+      }
+    ],
+    "tags": ["collocations"],
+    "difficulty": 2
+  },
+  {
+    "id": "col-break-record",
+    "type": "choice",
+    "text": "She ___ the national record for the 400 metres last year.",
+    "gaps": [
+      {
+        "options": ["broke", "cracked", "tore", "split"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "kolokacja",
+            "text_pl": "break a record = pobić rekord. Rekord się „łamie”."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "cracked, tore, split też opisują niszczenie czegoś, ale z record się nie łączą."
+          }
+        ]
+      }
+    ],
+    "tags": ["collocations"],
+    "difficulty": 1
+  },
+  {
+    "id": "col-score-goal",
+    "type": "choice",
+    "text": "Our best player ___ two goals in the second half.",
+    "gaps": [
+      {
+        "options": ["scored", "shot", "hit", "made"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "kolokacja",
+            "text_pl": "score a goal = strzelić gola. Score to zdobyć punkt, gola."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "shot to kalka z „strzelić”. Shoot znaczy oddać strzał, ale gola się score, a nie shoot."
+          }
+        ]
+      }
+    ],
+    "tags": ["collocations"],
+    "difficulty": 2
+  },
+  {
+    "id": "col-book-flight",
+    "type": "choice",
+    "text": "It is usually cheaper to ___ your flight well in advance.",
+    "gaps": [
+      {
+        "options": ["book", "order", "sign", "write"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "kolokacja",
+            "text_pl": "book a flight = zarezerwować lot. Book in advance = zarezerwować z wyprzedzeniem."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "order to zamawiać towar albo jedzenie, sign to podpisać. Z flight w tym znaczeniu łączy się book."
+          }
+        ]
+      }
+    ],
+    "tags": ["collocations"],
+    "difficulty": 1
+  },
+  {
+    "id": "col-impose-ban",
+    "type": "choice",
+    "text": "Last year the government ___ a ban on single-use plastic bags.",
+    "gaps": [
+      {
+        "options": ["imposed", "laid", "set", "made"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "kolokacja",
+            "text_pl": "impose a ban on sth = wprowadzić zakaz czegoś. Impose to narzucić coś odgórnie (ban, fine, tax)."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "laid, set, made z ban w tym znaczeniu się nie łączą; standardowo jest impose."
+          }
+        ]
+      }
+    ],
+    "tags": ["collocations"],
+    "difficulty": 3
+  },
+  {
+    "id": "col-do-research",
+    "type": "choice",
+    "text": "Scientists have ___ a lot of research into the effects of sleep on memory.",
+    "gaps": [
+      {
+        "options": ["done", "made", "taken", "given"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "kolokacja",
+            "text_pl": "do research into sth = prowadzić badania nad czymś. Badania to praca, a przy pracy jest do."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "made research to kalka z „robić badania”. Taken i given z research się nie łączą."
+          }
+        ]
+      }
+    ],
+    "tags": ["collocations"],
+    "difficulty": 2
+  }
+]

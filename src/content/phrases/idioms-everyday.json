@@ -1,0 +1,282 @@
+{
+  "id": "idioms-everyday",
+  "category": "idioms",
+  "title_pl": "Idiomy: codzienne sytuacje",
+  "items": [
+    {
+      "en": "break the ice",
+      "pl": "przełamać lody",
+      "meaning_pl": "rozluźnić atmosferę między ludźmi, którzy się nie znają. Tak samo jak po polsku: 'lód' to sztywność na początku. Gra na rozkręcenie grupy to an icebreaker",
+      "example": {
+        "en": "Our new teacher started the first lesson with a quick game to break the ice.",
+        "pl": "Nasza nowa nauczycielka zaczęła pierwszą lekcję od krótkiej gry, żeby przełamać lody."
+      },
+      "register": "neutral",
+      "tags": ["rozmowa", "nowi ludzie"]
+    },
+    {
+      "en": "beat about the bush",
+      "pl": "owijać w bawełnę",
+      "meaning_pl": "krążysz wokół tematu i nie mówisz wprost, o co chodzi. Najczęściej w ponagleniu: stop / don't beat about the bush. Wersja brytyjska, w AmE beat around the bush",
+      "example": {
+        "en": "Stop beating about the bush and tell me what happened to my bike.",
+        "pl": "Przestań owijać w bawełnę i powiedz mi, co się stało z moim rowerem."
+      },
+      "register": "informal",
+      "tags": ["rozmowa", "BrE"]
+    },
+    {
+      "en": "get the wrong end of the stick",
+      "pl": "źle coś zrozumieć, opacznie zrozumieć",
+      "meaning_pl": "zrozumieć sytuację albo czyjeś słowa zupełnie na odwrót. Często: I think you've got the wrong end of the stick. Zwrot brytyjski",
+      "example": {
+        "en": "I think you've got the wrong end of the stick – I wasn't criticising you, I was just asking.",
+        "pl": "Chyba źle mnie zrozumiałeś – nie krytykowałem cię, tylko pytałem."
+      },
+      "register": "informal",
+      "tags": ["rozmowa", "nieporozumienie", "BrE"]
+    },
+    {
+      "en": "speak of the devil / talk of the devil",
+      "pl": "o wilku mowa",
+      "meaning_pl": "mówisz to, kiedy nagle pojawia się osoba, o której właśnie rozmawialiście. Żartobliwe, nie obraźliwe. Po polsku wilk, po angielsku diabeł",
+      "example": {
+        "en": "Have you seen Kasia today? Oh, speak of the devil – here she comes!",
+        "pl": "Widziałeś dziś Kasię? O, o wilku mowa – właśnie idzie!"
+      },
+      "register": "informal",
+      "tags": ["rozmowa", "spotkanie"]
+    },
+    {
+      "en": "in a nutshell / to put it in a nutshell",
+      "pl": "w skrócie, w dwóch słowach",
+      "meaning_pl": "streszczasz coś jak najkrócej. Skojarzenie: cała historia mieści się w łupince orzecha (nutshell). W rozprawce bezpieczniej neutralne to sum up",
+      "example": {
+        "en": "In a nutshell, the trip was a disaster: it rained every day and we lost our luggage.",
+        "pl": "W skrócie: wycieczka była katastrofą – codziennie padało, a do tego zgubiliśmy bagaż."
+      },
+      "register": "neutral",
+      "tags": ["rozmowa", "streszczanie"]
+    },
+    {
+      "en": "it's (all) Greek to me",
+      "pl": "to dla mnie czarna magia",
+      "meaning_pl": "zupełnie czegoś nie rozumiesz. Pułapka: po polsku mówimy czasem 'to dla mnie chińszczyzna', ale po angielsku jest Greek, nie Chinese",
+      "example": {
+        "en": "My brother tried to explain how the app works, but it was all Greek to me.",
+        "pl": "Brat próbował mi wytłumaczyć, jak działa ta aplikacja, ale to była dla mnie czarna magia."
+      },
+      "register": "informal",
+      "tags": ["rozmowa", "niezrozumienie", "pułapka"]
+    },
+    {
+      "en": "(sth) rings a bell",
+      "pl": "coś mi to mówi, brzmi znajomo",
+      "meaning_pl": "masz wrażenie, że już o tym słyszałeś, ale nie pamiętasz szczegółów. Pytanie: Does the name ... ring a bell? Przeczenie: it doesn't ring a bell",
+      "example": {
+        "en": "The title rings a bell – I think we read an extract from it at school.",
+        "pl": "Ten tytuł coś mi mówi – chyba czytaliśmy jego fragment w szkole."
+      },
+      "register": "informal",
+      "tags": ["rozmowa", "pamięć"]
+    },
+    {
+      "en": "keep sb posted",
+      "pl": "informować kogoś na bieżąco, dać komuś znać",
+      "meaning_pl": "obiecujesz, że będziesz przekazywać nowe wiadomości, jak tylko coś się zmieni. Typowe w luźnym e-mailu: I'll keep you posted. W formalnym liście: I will keep you informed",
+      "example": {
+        "en": "I'm still waiting for my exam results, but I'll keep you posted.",
+        "pl": "Wciąż czekam na wyniki egzaminu, ale będę cię informować na bieżąco."
+      },
+      "register": "informal",
+      "tags": ["kontakt", "e-mail"]
+    },
+    {
+      "en": "drop sb a line",
+      "pl": "napisać do kogoś parę słów, odezwać się",
+      "meaning_pl": "napisać krótką wiadomość, e-mail albo list. Line to tu linijka tekstu, czyli 'skrobnij mi kilka linijek'. Dobre zakończenie luźnego e-maila: Drop me a line soon!",
+      "example": {
+        "en": "Drop me a line when you get to London so I know everything's OK.",
+        "pl": "Napisz do mnie, jak dotrzesz do Londynu, żebym wiedział, że wszystko w porządku."
+      },
+      "register": "informal",
+      "tags": ["kontakt", "e-mail"]
+    },
+    {
+      "en": "spill the beans",
+      "pl": "wygadać się, zdradzić sekret",
+      "meaning_pl": "zdradzasz komuś tajemnicę. Podobnie let the cat out of the bag, ale to częściej o wygadaniu się niechcący",
+      "example": {
+        "en": "We were planning a surprise party for Mum, but my little brother spilled the beans.",
+        "pl": "Planowaliśmy imprezę-niespodziankę dla mamy, ale mój młodszy brat się wygadał."
+      },
+      "register": "informal",
+      "tags": ["sekrety"]
+    },
+    {
+      "en": "hear sth on/through the grapevine",
+      "pl": "usłyszeć coś pocztą pantoflową",
+      "meaning_pl": "dowiadujesz się czegoś nieoficjalnie, bo ktoś usłyszał od kogoś innego. Skojarzenie: grapevine to winorośl, plotka biegnie od osoby do osoby jak pędy",
+      "example": {
+        "en": "I heard on the grapevine that our maths teacher is leaving at the end of the year.",
+        "pl": "Pocztą pantoflową słyszałem, że nasz matematyk odchodzi pod koniec roku."
+      },
+      "register": "informal",
+      "tags": ["informacje", "plotki"]
+    },
+    {
+      "en": "(straight) from the horse's mouth",
+      "pl": "z pierwszej ręki, u samego źródła",
+      "meaning_pl": "wiadomość mówi ci bezpośrednio osoba, której ona dotyczy albo która najlepiej wie. Przeciwieństwo hear sth on the grapevine",
+      "example": {
+        "en": "I know the trip is cancelled – I heard it straight from the horse's mouth. The head teacher told us herself.",
+        "pl": "Wiem, że wycieczka jest odwołana – mam to z pierwszej ręki. Dyrektorka sama nam powiedziała."
+      },
+      "register": "informal",
+      "tags": ["informacje", "pewność"]
+    },
+    {
+      "en": "take sth with a pinch of salt",
+      "pl": "podchodzić do czegoś z rezerwą",
+      "meaning_pl": "nie wierzysz w coś w stu procentach, bo źródło może przesadzać. Wersja brytyjska, w AmE with a grain of salt. Pasuje też do tekstów o mediach i internecie",
+      "example": {
+        "en": "Take online reviews with a pinch of salt – some of them are written by the company itself.",
+        "pl": "Do opinii w internecie podchodź z rezerwą – niektóre pisze sama firma."
+      },
+      "register": "neutral",
+      "tags": ["informacje", "media", "BrE"]
+    },
+    {
+      "en": "make yourself at home",
+      "pl": "czuj się jak u siebie (w domu)",
+      "meaning_pl": "uprzejmy zwrot do gościa: rozgość się, nie krępuj się. Nie myl z feel at home, czyli 'czuć się swobodnie gdzieś'",
+      "example": {
+        "en": "Come in and make yourself at home – I'll put the kettle on.",
+        "pl": "Wejdź i czuj się jak u siebie – nastawię wodę na herbatę."
+      },
+      "register": "neutral",
+      "tags": ["dom", "goście"]
+    },
+    {
+      "en": "sleep like a log",
+      "pl": "spać jak suseł, spać jak zabity",
+      "meaning_pl": "spać bardzo mocno i długo. Skojarzenie: log to kłoda, która leży i się nie rusza",
+      "example": {
+        "en": "After the hike I slept like a log for ten hours.",
+        "pl": "Po wędrówce spałem jak suseł przez dziesięć godzin."
+      },
+      "register": "informal",
+      "tags": ["sen", "dom"]
+    },
+    {
+      "en": "grab a bite (to eat)",
+      "pl": "przekąsić coś na szybko",
+      "meaning_pl": "zjeść coś małego w biegu. Bite to tu kęs, nie gryzienie. Często też have a bite to eat",
+      "example": {
+        "en": "We've got twenty minutes before the film starts – let's grab a bite to eat.",
+        "pl": "Mamy dwadzieścia minut do początku filmu – chodźmy coś szybko przekąsić."
+      },
+      "register": "informal",
+      "tags": ["jedzenie", "czas wolny"]
+    },
+    {
+      "en": "sth is not my cup of tea",
+      "pl": "to nie moja bajka, to nie w moim guście",
+      "meaning_pl": "grzeczny sposób, żeby powiedzieć, że czegoś nie lubisz. Prawie zawsze w przeczeniu, często z really: It's not really my cup of tea. Przydaje się na maturze ustnej",
+      "example": {
+        "en": "Horror films aren't really my cup of tea – I prefer comedies.",
+        "pl": "Horrory to nie do końca moja bajka – wolę komedie."
+      },
+      "register": "informal",
+      "tags": ["upodobania", "matura ustna"]
+    },
+    {
+      "en": "come rain or shine",
+      "pl": "bez względu na pogodę, bez względu na wszystko",
+      "meaning_pl": "robisz coś zawsze, niezależnie od pogody, a w przenośni niezależnie od okoliczności. Zwykle na końcu zdania, po przecinku",
+      "example": {
+        "en": "My grandad walks his dog every morning, come rain or shine.",
+        "pl": "Mój dziadek co rano wyprowadza psa, bez względu na pogodę."
+      },
+      "register": "neutral",
+      "tags": ["pogoda", "nawyki"]
+    },
+    {
+      "en": "a storm in a teacup",
+      "pl": "burza w szklance wody",
+      "meaning_pl": "dużo zdenerwowania i hałasu o drobiazg. Pułapka: po polsku szklanka wody, po angielsku filiżanka do herbaty. Wersja brytyjska, w AmE a tempest in a teapot",
+      "example": {
+        "en": "The argument about the school uniform was just a storm in a teacup – a week later everyone had forgotten about it.",
+        "pl": "Kłótnia o mundurki szkolne była tylko burzą w szklance wody – tydzień później wszyscy o niej zapomnieli."
+      },
+      "register": "neutral",
+      "tags": ["pogoda", "konflikt", "BrE", "pułapka"]
+    },
+    {
+      "en": "have a whale of a time",
+      "pl": "świetnie się bawić",
+      "meaning_pl": "bawić się naprawdę doskonale. Skojarzenie: zabawa wielka jak wieloryb (whale). Pasuje do luźnego e-maila z wakacji",
+      "example": {
+        "en": "We had a whale of a time at the festival – the music was amazing.",
+        "pl": "Świetnie się bawiliśmy na festiwalu – muzyka była niesamowita."
+      },
+      "register": "informal",
+      "tags": ["czas wolny", "imprezy", "e-mail"]
+    },
+    {
+      "en": "the more the merrier",
+      "pl": "im więcej, tym weselej",
+      "meaning_pl": "zapraszasz kolejne osoby, bo w większym gronie jest fajniej. Merry to 'wesoły' (jak w Merry Christmas). Ta sama konstrukcja co the sooner the better: the + stopień wyższy, the + stopień wyższy",
+      "example": {
+        "en": "Can I bring my cousin to the barbecue? – Of course, the more the merrier!",
+        "pl": "Mogę przyprowadzić kuzyna na grilla? – Jasne, im nas więcej, tym weselej!"
+      },
+      "register": "informal",
+      "tags": ["imprezy", "zaproszenia"]
+    },
+    {
+      "en": "off the beaten track",
+      "pl": "z dala od utartych szlaków, na uboczu",
+      "meaning_pl": "miejsce, gdzie rzadko docierają turyści. Beaten track to udeptana ścieżka, którą chodzą wszyscy. Zwykle brzmi pozytywnie. Wersja brytyjska, w AmE off the beaten path",
+      "example": {
+        "en": "We wanted to avoid the crowds, so we stayed in a small village off the beaten track.",
+        "pl": "Chcieliśmy uniknąć tłumów, więc zatrzymaliśmy się w małej wiosce z dala od turystycznych szlaków."
+      },
+      "register": "neutral",
+      "tags": ["podróże", "miejsce", "BrE"]
+    },
+    {
+      "en": "in the middle of nowhere",
+      "pl": "na końcu świata, gdzie diabeł mówi dobranoc",
+      "meaning_pl": "bardzo daleko od miast i ludzi. Często z narzekaniem, bo nic tam nie ma. Kiedy brzmi to jako zaleta, lepiej off the beaten track",
+      "example": {
+        "en": "Our car broke down in the middle of nowhere and there was no phone signal.",
+        "pl": "Samochód zepsuł nam się gdzieś na końcu świata i nie było zasięgu."
+      },
+      "register": "informal",
+      "tags": ["podróże", "miejsce"]
+    },
+    {
+      "en": "a stone's throw (from sth)",
+      "pl": "rzut beretem (od czegoś), dwa kroki",
+      "meaning_pl": "bardzo blisko; tak blisko, że można dorzucić kamieniem. Typowo: be just/only a stone's throw from sth",
+      "example": {
+        "en": "Our hotel was just a stone's throw from the beach.",
+        "pl": "Nasz hotel był dosłownie rzut beretem od plaży."
+      },
+      "register": "neutral",
+      "tags": ["podróże", "miejsce", "odległość"]
+    },
+    {
+      "en": "be glued to sth",
+      "pl": "nie odrywać się od czegoś",
+      "meaning_pl": "patrzysz w coś bez przerwy, z pełną uwagą, jakbyś był przyklejony (glue = klej). Najczęściej: be glued to the TV / the screen / your phone",
+      "example": {
+        "en": "My little sister is glued to her phone from the moment she wakes up.",
+        "pl": "Moja młodsza siostra od samego rana nie odrywa się od telefonu."
+      },
+      "register": "informal",
+      "tags": ["technologia", "czas wolny"]
+    }
+  ]
+}

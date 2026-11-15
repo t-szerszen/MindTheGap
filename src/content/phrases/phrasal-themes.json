@@ -1,0 +1,337 @@
+{
+  "id": "phrasal-themes",
+  "category": "phrasal-verbs",
+  "title_pl": "Phrasal verbs tematycznie",
+  "items": [
+    {
+      "en": "fall out (with sb) (over / about sth)",
+      "pl": "pokłócić się (z kimś) (o coś)",
+      "meaning_pl": "Nie krótka sprzeczka, tylko kłótnia, po której przestajecie się do siebie odzywać. Bez dopełnienia: osoba idzie po with, powód po over albo about: fall out with my sister over money. Typowe dla BrE",
+      "example": {
+        "en": "Tom and I fell out over a stupid comment on social media, and we didn't speak for months.",
+        "pl": "Pokłóciliśmy się z Tomem o głupi komentarz w mediach społecznościowych i nie odzywaliśmy się do siebie przez kilka miesięcy."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "relacje"]
+    },
+    {
+      "en": "split up (with sb)",
+      "pl": "rozstać się, zerwać (z kimś)",
+      "meaning_pl": "Koniec związku albo małżeństwa, o zespole muzycznym też: The band split up. Bez dopełnienia: They split up, a z osobą po with: She split up with her boyfriend. To samo co break up (with sb). Formy: split, split, split (bez -ed)",
+      "example": {
+        "en": "My parents split up when I was ten, but they still get on well.",
+        "pl": "Moi rodzice rozstali się, kiedy miałem dziesięć lat, ale nadal dobrze się dogadują."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "relacje"]
+    },
+    {
+      "en": "ask sb out (for dinner / to the cinema)",
+      "pl": "zaprosić kogoś na randkę",
+      "meaning_pl": "Out, bo zapraszasz kogoś, żeby razem gdzieś wyjść. Osoba stoi w środku: ask her out, ask Ola out. Dokąd: for dinner, for a coffee, to the cinema",
+      "example": {
+        "en": "He finally asked her out, and they went to the cinema on Saturday.",
+        "pl": "W końcu zaprosił ją na randkę i w sobotę poszli do kina."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "relacje"]
+    },
+    {
+      "en": "let sb down",
+      "pl": "zawieść kogoś",
+      "meaning_pl": "Ktoś na tobie polegał, a ty nie zrobiłeś tego, czego się spodziewał albo co obiecałeś. Osoba zwykle w środku, zaimek zawsze: let him down (nie: let down him). Częste: feel let down = czuć się zawiedzionym",
+      "example": {
+        "en": "I promised to help Ola with her project, so I can't let her down now.",
+        "pl": "Obiecałem pomóc Oli przy projekcie, więc nie mogę jej teraz zawieść."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "relacje"]
+    },
+    {
+      "en": "show off / show sth off",
+      "pl": "popisywać się; pochwalić się czymś",
+      "meaning_pl": "Bez dopełnienia: popisywać się, żeby inni cię podziwiali, brzmi negatywnie. Z dopełnieniem: pokazać coś z dumą, show off your new bike, show it off (zaimek w środku). Rzeczownik: a show-off = ktoś, kto lubi się popisywać",
+      "example": {
+        "en": "Stop showing off. Nobody cares how much your new trainers cost.",
+        "pl": "Przestań się popisywać. Nikogo nie obchodzi, ile kosztowały twoje nowe buty."
+      },
+      "register": "informal",
+      "tags": ["rozdzielny", "relacje"]
+    },
+    {
+      "en": "settle down",
+      "pl": "ustatkować się; uspokoić się",
+      "meaning_pl": "Dwa znaczenia. Ustatkować się: stałe miejsce, związek, spokojniejsze życie (settle down and start a family). Uspokoić się i skupić: The class settled down when the teacher came in. Można też settle sb down = uspokoić kogoś",
+      "example": {
+        "en": "My brother travelled around Asia for two years before he settled down in Kraków.",
+        "pl": "Mój brat przez dwa lata podróżował po Azji, zanim ustatkował się w Krakowie."
+      },
+      "register": "neutral",
+      "tags": ["bez dopełnienia", "relacje"]
+    },
+    {
+      "en": "carry sth out / carry out sth (a survey, research, a plan)",
+      "pl": "przeprowadzić, wykonać (badanie, eksperyment, plan)",
+      "meaning_pl": "Typowe dopełnienia: a survey, research, an experiment, a test, a plan, orders. Bardzo częste w stronie biernej: The research was carried out by... Zaimek w środku: carry it out. Pasuje do raportu i rozprawki",
+      "example": {
+        "en": "Our class carried out a survey to find out how much time teenagers spend online.",
+        "pl": "Nasza klasa przeprowadziła ankietę, żeby sprawdzić, ile czasu nastolatki spędzają w internecie."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "strona bierna", "praca i nauka"]
+    },
+    {
+      "en": "figure sb/sth out / figure out sth",
+      "pl": "rozgryźć, wykombinować, zrozumieć",
+      "meaning_pl": "Dochodzisz do czegoś sam, po namyśle. Często z pytaniem: figure out how / why / what. Zaimek w środku: figure it out. Z osobą: I can't figure him out = nie rozumiem go, nie wiem, o co mu chodzi. W BrE w tym samym znaczeniu bardzo często work sth out",
+      "example": {
+        "en": "It took me ages to figure out how to use the new school app.",
+        "pl": "Strasznie długo nie mogłem rozgryźć, jak obsługiwać nową szkolną aplikację."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "praca i nauka"]
+    },
+    {
+      "en": "point sth out / point out sth / point out that...",
+      "pl": "zwrócić uwagę na coś, wskazać",
+      "meaning_pl": "Mówisz komuś o czymś, czego mógł nie zauważyć. Bardzo często z that, przydatne w rozprawce: As many experts point out, ... Komu: point sth out to sb (nie: point sb sth). Zaimek w środku: point it out, ale z that się nie rozdziela: point out (to sb) that...",
+      "example": {
+        "en": "My teacher pointed out that my essay had no clear conclusion.",
+        "pl": "Nauczycielka zwróciła mi uwagę, że moja rozprawka nie ma wyraźnego zakończenia."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "praca i nauka", "pisanie"]
+    },
+    {
+      "en": "work sth out / work out sth (calculate, solve)",
+      "pl": "obliczyć, wyliczyć; rozwiązać, wymyślić",
+      "meaning_pl": "Dochodzisz do wyniku krok po kroku: work out the answer, work out how much it costs, work out a plan. Zaimek w środku: work it out. Bez dopełnienia work out to co innego: ćwiczyć albo dobrze się ułożyć (It all worked out in the end = wszystko się w końcu ułożyło)",
+      "example": {
+        "en": "We worked out that the school trip would cost about £200 per person.",
+        "pl": "Wyliczyliśmy, że wycieczka szkolna będzie kosztować około 200 funtów na osobę."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "praca i nauka"]
+    },
+    {
+      "en": "fill sth in / fill in sth (a form, the gaps)",
+      "pl": "wypełnić (formularz); uzupełnić (luki)",
+      "meaning_pl": "In, bo wpisujesz coś do pustych miejsc. BrE fill in a form, w AmE częściej fill out. Zaimek w środku: fill it in. To samo w poleceniach: Fill in the gaps. Z osobą: fill sb in (on sth) = wprowadzić kogoś w temat, opowiedzieć, co go ominęło",
+      "example": {
+        "en": "To join the club, you have to fill in an online form and pay a small fee.",
+        "pl": "Żeby zapisać się do klubu, musisz wypełnić formularz online i wnieść niewielką opłatę."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "praca i nauka"]
+    },
+    {
+      "en": "hand sth in / hand in sth (homework, an essay)",
+      "pl": "oddać, złożyć (pracę, zadanie, dokument)",
+      "meaning_pl": "Dajesz coś osobie, która to sprawdza albo przyjmuje: nauczycielowi, w sekretariacie, na policji. Zaimek w środku: hand it in. Hand in your notice = złożyć wypowiedzenie. Nie myl z hand sth out = rozdawać",
+      "example": {
+        "en": "We have to hand in our English essays by Friday.",
+        "pl": "Musimy oddać wypracowania z angielskiego do piątku."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "praca i nauka"]
+    },
+    {
+      "en": "keep up with sb/sth",
+      "pl": "nadążać za kimś/czymś; być na bieżąco",
+      "meaning_pl": "Utrzymujesz to samo tempo albo poziom co ktoś/coś: keep up with the class. Z newsami i modą: keep up with the news = być na bieżąco. Dwie partykuły, nierozdzielny, osoba na końcu: keep up with him. Bez with: Slow down, I can't keep up! Nie myl z catch up (with sb) = dogonić kogoś, kto jest przed tobą, albo nadrobić zaległości",
+      "example": {
+        "en": "The maths teacher explains things so fast that half the class can't keep up with him.",
+        "pl": "Nauczyciel matematyki tłumaczy tak szybko, że połowa klasy za nim nie nadąża."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "praca i nauka"]
+    },
+    {
+      "en": "check in (at a hotel / at the airport)",
+      "pl": "zameldować się (w hotelu); odprawić się (na lotnisku)",
+      "meaning_pl": "Zgłaszasz się na miejscu, że jesteś: check in at the hotel (albo check into a hotel), check in at the airport, check in online. Z bagażem: check in your luggage = nadać bagaż. Rzeczownik: check-in (the check-in desk). W hotelu odwrotność to check out",
+      "example": {
+        "en": "We checked in at the hotel late at night because our flight was delayed.",
+        "pl": "Zameldowaliśmy się w hotelu późno w nocy, bo nasz lot był opóźniony."
+      },
+      "register": "neutral",
+      "tags": ["bez dopełnienia", "podróże"]
+    },
+    {
+      "en": "check out (of a hotel) / check sth out",
+      "pl": "wymeldować się (z hotelu); sprawdzić, obejrzeć coś",
+      "meaning_pl": "Bez dopełnienia: oddajesz klucz, płacisz i opuszczasz hotel: check out of the hotel by 11 am. Z dopełnieniem: zobaczyć coś ciekawego albo sprawdzić: check out this website, check it out. To drugie jest luźne, pasuje do e-maila do kolegi, nie do formalnego listu",
+      "example": {
+        "en": "We have to check out by 11 am, so let's have breakfast early.",
+        "pl": "Musimy się wymeldować do 11:00, więc zjedzmy wcześnie śniadanie."
+      },
+      "register": "neutral",
+      "tags": ["bez dopełnienia", "podróże"]
+    },
+    {
+      "en": "drop sb/sth off / drop off sb/sth",
+      "pl": "podrzucić, wysadzić kogoś (samochodem); zostawić coś gdzieś",
+      "meaning_pl": "Wieziesz kogoś i zostawiasz po drodze: drop me off at the station. Zaimek w środku: drop her off. Odwrotność: pick sb up (odebrać). Bez dopełnienia drop off znaczy co innego: przysnąć (I dropped off in front of the TV)",
+      "example": {
+        "en": "Could you drop me off at the bus station on your way to work?",
+        "pl": "Możesz mnie podrzucić na dworzec autobusowy w drodze do pracy?"
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "podróże", "transport"]
+    },
+    {
+      "en": "pick sb/sth up / pick up sb/sth",
+      "pl": "odebrać kogoś (samochodem); podnieść; złapać (język, nawyk)",
+      "meaning_pl": "Najpierw dosłownie: podnieść coś z ziemi. Potem 'zgarnąć' kogoś po drodze: pick me up at six, pick the kids up from school. Zaimek w środku: pick him up. Pick up a language = nauczyć się języka mimochodem, bez kursu. Odwrotność w transporcie: drop sb off",
+      "example": {
+        "en": "My dad will pick us up from the airport, so we don't need a taxi.",
+        "pl": "Tata odbierze nas z lotniska, więc nie potrzebujemy taksówki."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "podróże", "transport"]
+    },
+    {
+      "en": "see sb off (at the station / at the airport)",
+      "pl": "odprowadzić kogoś (na dworzec, lotnisko) i pożegnać",
+      "meaning_pl": "Idziesz z kimś tam, skąd wyjeżdża, żeby się pożegnać. Osoba w środku: see her off, see my cousin off. Nie myl z see sb out = odprowadzić gościa do drzwi",
+      "example": {
+        "en": "The whole family came to the station to see me off when I left to study in Spain.",
+        "pl": "Cała rodzina przyszła na dworzec, żeby mnie odprowadzić, kiedy wyjeżdżałem na studia do Hiszpanii."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "podróże"]
+    },
+    {
+      "en": "hold sb/sth up / hold up sb/sth (delay) / be held up",
+      "pl": "zatrzymać, opóźnić (kogoś/coś)",
+      "meaning_pl": "Coś sprawia, że się spóźniasz albo coś się przesuwa. Bardzo często w stronie biernej: We were held up in traffic. Zaimek w środku: Sorry, I don't want to hold you up. Rzeczownik: a hold-up = opóźnienie, ale też napad z bronią (hold up a bank = napaść na bank)",
+      "example": {
+        "en": "Sorry I'm late. We were held up by an accident on the motorway.",
+        "pl": "Przepraszam za spóźnienie. Przez wypadek na autostradzie utknęliśmy w korku."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "strona bierna", "podróże"]
+    },
+    {
+      "en": "wake up / wake sb up",
+      "pl": "budzić się; budzić kogoś",
+      "meaning_pl": "Wake up = przestać spać, otworzyć oczy. Wstanie z łóżka to get up, więc da się obudzić o siódmej, a wstać o dziewiątej. Z osobą: wake me up at six, zaimek w środku: wake her up. Formy: wake, woke, woken",
+      "example": {
+        "en": "I woke up at seven, but I didn't get up until nine because it was Sunday.",
+        "pl": "Obudziłem się o siódmej, ale wstałem dopiero o dziewiątej, bo była niedziela."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "codzienność"]
+    },
+    {
+      "en": "throw sth away / throw away sth",
+      "pl": "wyrzucić (do śmieci)",
+      "meaning_pl": "Away, bo pozbywasz się rzeczy na dobre, odsuwasz ją od siebie. Zaimek w środku: throw it away. Podobnie: throw sth out. Przenośnie: throw away a chance = zmarnować szansę",
+      "example": {
+        "en": "Instead of throwing away old clothes, you can give them to charity.",
+        "pl": "Zamiast wyrzucać stare ubrania, możesz oddać je na cele charytatywne."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "codzienność", "środowisko"]
+    },
+    {
+      "en": "try sth on / try on sth (clothes, shoes)",
+      "pl": "przymierzyć (ubranie, buty)",
+      "meaning_pl": "On, bo ubranie ląduje na tobie, tak jak w put on. Zaimek w środku: try it on, try them on (o butach, spodniach, dżinsach). Nie myl z try sth out = wypróbować (sprzęt, pomysł)",
+      "example": {
+        "en": "Can I try these jeans on? Where are the changing rooms?",
+        "pl": "Czy mogę przymierzyć te dżinsy? Gdzie są przymierzalnie?"
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "codzienność", "zakupy"]
+    },
+    {
+      "en": "wash up (BrE)",
+      "pl": "zmywać (naczynia)",
+      "meaning_pl": "Pułapka: w BrE wash up = pozmywać naczynia po posiłku, a w AmE = umyć ręce i twarz. Rzeczownik w BrE: the washing-up, czyli do the washing-up = pozmywać. Można też z dopełnieniem: wash up the plates",
+      "example": {
+        "en": "If you cook dinner, I'll wash up afterwards.",
+        "pl": "Jeśli ty ugotujesz obiad, ja potem pozmywam."
+      },
+      "register": "neutral",
+      "tags": ["bez dopełnienia", "codzienność", "dom"]
+    },
+    {
+      "en": "sort sth out / sort out sth",
+      "pl": "załatwić, rozwiązać (problem); uporządkować",
+      "meaning_pl": "Dwa kierunki: rozwiązać problem (sort out a problem) albo zrobić porządek (sort out your desk, your notes). Bardzo częste w BrE, zwłaszcza w mowie. Zaimek w środku: sort it out. Sort yourself out = ogarnąć się",
+      "example": {
+        "en": "There was a problem with my phone bill, but I called the company and sorted it out.",
+        "pl": "Był problem z rachunkiem za telefon, ale zadzwoniłem do firmy i to załatwiłem."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "codzienność"]
+    },
+    {
+      "en": "end up (doing sth / in a place / with sth)",
+      "pl": "skończyć, wylądować (gdzieś, robiąc coś)",
+      "meaning_pl": "Jak coś się w końcu potoczyło, często inaczej, niż planowałeś. Po end up: forma -ing (end up paying more), miejsce (end up in hospital), przymiotnik albo with + rzeczownik. Nigdy end up to do. Bez dopełnienia, nierozdzielny",
+      "example": {
+        "en": "We wanted to go to the beach, but it rained, so we ended up watching films all day.",
+        "pl": "Chcieliśmy iść na plażę, ale padało, więc skończyło się na tym, że cały dzień oglądaliśmy filmy."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "codzienność", "opowiadanie"]
+    },
+    {
+      "en": "work out (exercise)",
+      "pl": "ćwiczyć, trenować (np. na siłowni)",
+      "meaning_pl": "Bez dopełnienia: regularne ćwiczenia dla formy, często na siłowni: work out at the gym three times a week. Rzeczownik: a workout = trening. Z dopełnieniem (work sth out) znaczy co innego: obliczyć, rozgryźć",
+      "example": {
+        "en": "Since I started working out twice a week, I've been sleeping much better.",
+        "pl": "Odkąd zacząłem ćwiczyć dwa razy w tygodniu, śpię dużo lepiej."
+      },
+      "register": "neutral",
+      "tags": ["bez dopełnienia", "zdrowie", "sport"]
+    },
+    {
+      "en": "cut down on sth",
+      "pl": "ograniczyć coś (jeść, pić, robić czegoś mniej)",
+      "meaning_pl": "Down = mniej, ale nie do zera: cut down on sugar, coffee, screen time. Dwie partykuły, nierozdzielny, rzecz po on: cut down on it. Bez on też: I'm trying to cut down. Całkiem rzucić to give sth up albo cut sth out",
+      "example": {
+        "en": "My doctor told me to cut down on sugar and drink more water.",
+        "pl": "Lekarz kazał mi ograniczyć cukier i pić więcej wody."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "zdrowie", "jedzenie"]
+    },
+    {
+      "en": "pass out",
+      "pl": "zemdleć, stracić przytomność",
+      "meaning_pl": "Nagła utrata przytomności, np. z gorąca, bólu albo głodu. Bez dopełnienia, nierozdzielny. Synonim: faint. Nie myl z pass away = umrzeć (delikatne słowo) ani z pass sth out = rozdawać",
+      "example": {
+        "en": "It was so hot during the concert that a girl in front of me passed out.",
+        "pl": "Na koncercie było tak gorąco, że dziewczyna przede mną zemdlała."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "zdrowie"]
+    },
+    {
+      "en": "wear off (a drug, pain, a feeling)",
+      "pl": "przestać działać, minąć (o leku, bólu, uczuciu)",
+      "meaning_pl": "Wear to też 'ścierać się', a off = odchodzi. Działanie stopniowo się ściera i znika. Podmiotem jest lek, znieczulenie, ból albo uczucie: the painkillers wore off, the excitement wore off. Bez dopełnienia, nierozdzielny. Formy: wear, wore, worn",
+      "example": {
+        "en": "When the anaesthetic wore off, my tooth started to hurt again.",
+        "pl": "Kiedy znieczulenie przestało działać, ząb znowu zaczął mnie boleć."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "zdrowie"]
+    },
+    {
+      "en": "burn out / be burnt out",
+      "pl": "wypalić się, być u kresu sił",
+      "meaning_pl": "Tak długo pracujesz albo uczysz się pod presją, że nie masz już siły ani motywacji, jak świeca, która się dopaliła. Bez dopełnienia: If you never take breaks, you'll burn out. Jako przymiotnik: feel burnt out (też burned out). Rzeczownik: burnout = wypalenie",
+      "example": {
+        "en": "Many students burn out before their exams because they study until late every night.",
+        "pl": "Wielu uczniów wypala się przed egzaminami, bo co wieczór uczy się do późna."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "zdrowie", "stres"]
+    }
+  ]
+}

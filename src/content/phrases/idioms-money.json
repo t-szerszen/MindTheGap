@@ -1,0 +1,282 @@
+{
+  "id": "idioms-money",
+  "category": "idioms",
+  "title_pl": "Idiomy: pieniądze i zakupy",
+  "items": [
+    {
+      "en": "cost an arm and a leg",
+      "pl": "kosztować majątek, kosztować krocie",
+      "meaning_pl": "coś jest strasznie drogie; obrazowo: płacisz ręką i nogą. Podobnie cost a fortune, a w potocznym brytyjskim też cost a bomb",
+      "example": {
+        "en": "I'd love to go to the festival, but the tickets cost an arm and a leg.",
+        "pl": "Chętnie pojechałbym na festiwal, ale bilety kosztują majątek."
+      },
+      "register": "informal",
+      "tags": ["drogo", "zakupy"]
+    },
+    {
+      "en": "pay through the nose (for sth)",
+      "pl": "zapłacić jak za zboże, słono przepłacić",
+      "meaning_pl": "zapłacić dużo więcej, niż coś jest warte; słychać w tym złość, że cię naciągnęli. Po idiomie przyimek for",
+      "example": {
+        "en": "If you buy a drink at the airport, you pay through the nose for it.",
+        "pl": "Jak kupisz napój na lotnisku, płacisz za niego jak za zboże."
+      },
+      "register": "informal",
+      "tags": ["drogo", "zakupy"]
+    },
+    {
+      "en": "sth won't break the bank",
+      "pl": "coś cię nie zrujnuje, stać cię na to",
+      "meaning_pl": "prawie zawsze z przeczeniem: coś nie jest drogie. Pułapka: polskie rozbić bank to wielka wygrana albo sukces, a angielskie break the bank mówi o tym, że coś kosztuje za dużo. W hazardzie oznaczało wygranie wszystkich pieniędzy kasyna",
+      "example": {
+        "en": "A weekend in the mountains doesn't have to break the bank if you stay in a hostel.",
+        "pl": "Weekend w górach nie musi cię zrujnować, jeśli śpisz w hostelu."
+      },
+      "register": "informal",
+      "tags": ["drogo", "pułapka"]
+    },
+    {
+      "en": "It's daylight robbery!",
+      "pl": "to zdzierstwo, rozbój w biały dzień",
+      "meaning_pl": "mówisz tak, gdy cena jest bezczelnie wysoka; to okrzyk oburzenia, nie prawdziwy napad. Brytyjskie; po amerykańsku highway robbery",
+      "example": {
+        "en": "Eight pounds for a sandwich? That's daylight robbery!",
+        "pl": "Osiem funtów za kanapkę? To zdzierstwo!"
+      },
+      "register": "informal",
+      "tags": ["drogo", "BrE"]
+    },
+    {
+      "en": "be a steal",
+      "pl": "być okazją, kosztować prawie nic",
+      "meaning_pl": "coś jest tak tanie, jakbyś to ukradł; tu steal to rzeczownik, najczęściej it's a steal albo at that price, it's a steal",
+      "example": {
+        "en": "I got these trainers for twenty pounds in the sale. They were a steal!",
+        "pl": "Kupiłem te buty sportowe za dwadzieścia funtów na wyprzedaży. Prawdziwa okazja!"
+      },
+      "register": "informal",
+      "tags": ["tanio", "zakupy"]
+    },
+    {
+      "en": "dirt cheap",
+      "pl": "tani jak barszcz",
+      "meaning_pl": "bardzo tani; dirt to brud, ziemia, czyli coś bez wartości. Działa też jako przysłówek: buy sth dirt cheap",
+      "example": {
+        "en": "In summer, fruit is dirt cheap at the local market.",
+        "pl": "Latem owoce na lokalnym targu są tanie jak barszcz."
+      },
+      "register": "informal",
+      "tags": ["tanio", "zakupy"]
+    },
+    {
+      "en": "worth every penny",
+      "pl": "wart każdego grosza",
+      "meaning_pl": "coś było drogie, ale się opłaciło; dobre do e-maila albo recenzji, gdy coś polecasz",
+      "example": {
+        "en": "The driving lessons were expensive, but they were worth every penny because I passed my test first time.",
+        "pl": "Lekcje jazdy były drogie, ale warte każdego grosza, bo zdałem egzamin za pierwszym razem."
+      },
+      "register": "neutral",
+      "tags": ["opinia", "recenzja"]
+    },
+    {
+      "en": "get your money's worth",
+      "pl": "dostać coś wartego swoich pieniędzy, wykorzystać to, za co się zapłaciło",
+      "meaning_pl": "za swoje pieniądze dostajesz tyle, ile powinieneś, albo korzystasz z czegoś do oporu, żeby się opłaciło. Uwaga na apostrof: money's worth",
+      "example": {
+        "en": "We stayed at the water park until it closed to get our money's worth.",
+        "pl": "Siedzieliśmy w aquaparku do zamknięcia, żeby bilety się opłaciły."
+      },
+      "register": "neutral",
+      "tags": ["wartość", "zakupy"]
+    },
+    {
+      "en": "shop till you drop",
+      "pl": "robić zakupy do upadłego",
+      "meaning_pl": "chodzić po sklepach bardzo długo, aż padasz ze zmęczenia; łatwo zapamiętać, bo shop i drop się rymują. Till to potoczne until",
+      "example": {
+        "en": "On the first day of the sales, my sister and I shopped till we dropped.",
+        "pl": "Pierwszego dnia wyprzedaży razem z siostrą robiłyśmy zakupy do upadłego."
+      },
+      "register": "informal",
+      "tags": ["zakupy"]
+    },
+    {
+      "en": "on the house",
+      "pl": "na koszt firmy",
+      "meaning_pl": "za darmo, bo płaci lokal (restauracja, kawiarnia, bar), a nie klient; house to tu lokal, firma",
+      "example": {
+        "en": "The waiter apologised for the delay and said our desserts were on the house.",
+        "pl": "Kelner przeprosił za opóźnienie i powiedział, że desery są na koszt firmy."
+      },
+      "register": "neutral",
+      "tags": ["płacenie", "restauracja"]
+    },
+    {
+      "en": "go Dutch (with sb)",
+      "pl": "płacić każdy za siebie",
+      "meaning_pl": "każdy płaci swoją część rachunku, np. na randce albo na wyjściu ze znajomymi. Dutch zawsze wielką literą, bo to przymiotnik od narodowości",
+      "example": {
+        "en": "On our first date, we decided to go Dutch.",
+        "pl": "Na pierwszej randce ustaliliśmy, że każdy płaci za siebie."
+      },
+      "register": "informal",
+      "tags": ["płacenie", "restauracja"]
+    },
+    {
+      "en": "foot the bill (for sth)",
+      "pl": "pokryć koszty, zapłacić rachunek",
+      "meaning_pl": "zapłacić za coś, zwykle drogiego, często wtedy, gdy wcale się tego nie chce. Foot to tu czasownik; pasuje do tekstów o państwie i podatkach",
+      "example": {
+        "en": "Why should taxpayers foot the bill for a stadium that is used twice a year?",
+        "pl": "Dlaczego podatnicy mają pokrywać koszty stadionu, z którego korzysta się dwa razy w roku?"
+      },
+      "register": "neutral",
+      "tags": ["płacenie", "rozprawka"]
+    },
+    {
+      "en": "make ends meet",
+      "pl": "wiązać koniec z końcem",
+      "meaning_pl": "mieć ledwo tyle pieniędzy, żeby starczyło na podstawowe rzeczy; zawsze ends w liczbie mnogiej. Polski idiom ma ten sam obraz dwóch końców, które trzeba połączyć",
+      "example": {
+        "en": "Many students have to work part-time to make ends meet.",
+        "pl": "Wielu studentów musi pracować na pół etatu, żeby związać koniec z końcem."
+      },
+      "register": "neutral",
+      "tags": ["bieda", "rozprawka"]
+    },
+    {
+      "en": "tighten your belt",
+      "pl": "zaciskać pasa",
+      "meaning_pl": "ograniczać wydatki, bo jest mniej pieniędzy; zaimek zmienia się z osobą: we tightened our belts. Rzeczownik: belt-tightening",
+      "example": {
+        "en": "When my mum lost her job, the whole family had to tighten their belts.",
+        "pl": "Kiedy mama straciła pracę, cała rodzina musiała zacisnąć pasa."
+      },
+      "register": "neutral",
+      "tags": ["oszczędzanie", "rodzina"]
+    },
+    {
+      "en": "live (from) hand to mouth",
+      "pl": "żyć z dnia na dzień, bez żadnych oszczędności",
+      "meaning_pl": "wszystko, co zarobisz, od razu idzie na jedzenie i rachunki, nic nie zostaje na zapas; obraz: co wpadnie do ręki, od razu trafia do ust",
+      "example": {
+        "en": "With such low wages, many families live from hand to mouth.",
+        "pl": "Przy tak niskich pensjach wiele rodzin żyje od pierwszego do pierwszego."
+      },
+      "register": "neutral",
+      "tags": ["bieda", "rozprawka"]
+    },
+    {
+      "en": "be strapped for cash",
+      "pl": "mieć krucho z kasą, być spłukanym",
+      "meaning_pl": "mieć chwilowo za mało pieniędzy; często z a bit: I'm a bit strapped for cash",
+      "example": {
+        "en": "I can't come to the concert because I'm a bit strapped for cash this month.",
+        "pl": "Nie mogę pójść na koncert, bo w tym miesiącu mam krucho z kasą."
+      },
+      "register": "informal",
+      "tags": ["brak pieniędzy"]
+    },
+    {
+      "en": "be in the red / be in the black",
+      "pl": "być na minusie / być na plusie",
+      "meaning_pl": "in the red: masz debet na koncie albo firma traci pieniądze; in the black: jesteś na plusie, firma zarabia. Z księgowości: długi i straty zapisywano na czerwono",
+      "example": {
+        "en": "After buying my new laptop, I was in the red for weeks.",
+        "pl": "Po kupnie nowego laptopa całymi tygodniami byłem na minusie."
+      },
+      "register": "neutral",
+      "tags": ["bank", "finanse"]
+    },
+    {
+      "en": "be rolling in it",
+      "pl": "mieć forsy jak lodu",
+      "meaning_pl": "być bardzo bogatym, dosłownie tarzać się w pieniądzach; prawie zawsze w formie -ing. Wersja: be rolling in money",
+      "example": {
+        "en": "Her parents must be rolling in it. They've got a house with a pool and three cars.",
+        "pl": "Jej rodzice muszą mieć forsy jak lodu. Mają dom z basenem i trzy samochody."
+      },
+      "register": "informal",
+      "tags": ["bogactwo"]
+    },
+    {
+      "en": "have money to burn",
+      "pl": "mieć pieniądze na zbytki, nie musieć liczyć się z pieniędzmi",
+      "meaning_pl": "mieć więcej pieniędzy, niż trzeba, więc można je wydawać na byle co; często z przeczeniem: I don't have money to burn, czyli nie stać mnie na zbytki",
+      "example": {
+        "en": "I don't have money to burn, so I always compare prices online before I buy anything.",
+        "pl": "Nie mam pieniędzy do wyrzucenia, więc zanim coś kupię, zawsze porównuję ceny w internecie."
+      },
+      "register": "informal",
+      "tags": ["bogactwo", "zakupy"]
+    },
+    {
+      "en": "money doesn't grow on trees",
+      "pl": "pieniądze nie rosną na drzewach",
+      "meaning_pl": "przypomnienie, że pieniądze trzeba zarobić, więc nie wydaje się ich bez końca; typowy tekst rodziców. Po polsku to samo powiedzenie",
+      "example": {
+        "en": "I asked my dad for a new phone, but he just said, 'Money doesn't grow on trees.'",
+        "pl": "Poprosiłem tatę o nowy telefon, a on tylko powiedział: „Pieniądze nie rosną na drzewach”."
+      },
+      "register": "informal",
+      "tags": ["powiedzenie", "rodzina"]
+    },
+    {
+      "en": "save (sth) for a rainy day",
+      "pl": "odkładać na czarną godzinę",
+      "meaning_pl": "oszczędzać na trudny czas w przyszłości, np. utratę pracy albo nagłą awarię; po angielsku deszczowy dzień, po polsku czarna godzina",
+      "example": {
+        "en": "My grandma taught me to save a little money every month for a rainy day.",
+        "pl": "Babcia nauczyła mnie co miesiąc odkładać trochę pieniędzy na czarną godzinę."
+      },
+      "register": "neutral",
+      "tags": ["oszczędzanie"]
+    },
+    {
+      "en": "on a shoestring",
+      "pl": "za grosze, przy bardzo małym budżecie",
+      "meaning_pl": "robisz coś, mając bardzo mało pieniędzy; dosłownie na sznurowadle. Często też a shoestring budget",
+      "example": {
+        "en": "They made the film on a shoestring, with their friends as actors.",
+        "pl": "Nakręcili film za grosze, a aktorami byli ich znajomi."
+      },
+      "register": "informal",
+      "tags": ["mały budżet", "kultura"]
+    },
+    {
+      "en": "make a killing",
+      "pl": "zbić fortunę, obłowić się",
+      "meaning_pl": "szybko zarobić dużo pieniędzy, np. na sprzedaży albo inwestycji; nie ma nic wspólnego z zabijaniem",
+      "example": {
+        "en": "He made a killing selling his old comics to collectors online.",
+        "pl": "Obłowił się, sprzedając kolekcjonerom w internecie swoje stare komiksy."
+      },
+      "register": "informal",
+      "tags": ["zarabianie", "pułapka"]
+    },
+    {
+      "en": "money burns a hole in your pocket",
+      "pl": "pieniądze się kogoś nie trzymają",
+      "meaning_pl": "ktoś musi wydać pieniądze, gdy tylko je dostanie, jakby parzyły w kieszeni; zaimek zmienia się z osobą: in his pocket, in my brother's pocket",
+      "example": {
+        "en": "Money burns a hole in my brother's pocket. He spends his wages the day he gets paid.",
+        "pl": "Mojego brata pieniądze się nie trzymają. Wydaje wypłatę w dniu, w którym ją dostaje."
+      },
+      "register": "informal",
+      "tags": ["wydawanie"]
+    },
+    {
+      "en": "throw money at sth",
+      "pl": "pompować pieniądze w coś (bez pomysłu)",
+      "meaning_pl": "próbować rozwiązać problem samym wydawaniem pieniędzy, bez przemyślenia; brzmi krytycznie. Przydaje się w rozprawce: throwing money at the problem won't solve it",
+      "example": {
+        "en": "Simply throwing money at schools won't help unless teachers are better trained.",
+        "pl": "Samo pompowanie pieniędzy w szkoły nic nie da, jeśli nauczyciele nie będą lepiej przygotowani."
+      },
+      "register": "neutral",
+      "tags": ["rozprawka", "krytyka"]
+    }
+  ]
+}

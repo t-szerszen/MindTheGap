@@ -1,0 +1,249 @@
+{
+  "id": "collocations-shopping",
+  "category": "collocations",
+  "title_pl": "Kolokacje: zakupy i usługi",
+  "items": [
+    {
+      "en": "do the shopping",
+      "pl": "robić zakupy (codzienne)",
+      "meaning_pl": "polskie robić zakupy to do the shopping (jedzenie, rzeczy do domu), nie make shopping; go shopping to iść na zakupy, zwykle dla przyjemności, np. po ubrania",
+      "example": {
+        "en": "My dad usually does the shopping on Saturday mornings, when the supermarket is quiet.",
+        "pl": "Tata zwykle robi zakupy w sobotę rano, kiedy w supermarkecie jest pusto."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "sklep", "pułapka"]
+    },
+    {
+      "en": "spend money on sth",
+      "pl": "wydawać pieniądze na coś",
+      "meaning_pl": "po spend przyimek on, nie for; tak samo spend time on sth; marnować pieniądze na coś to waste money on sth",
+      "example": {
+        "en": "Teenagers often spend a lot of money on clothes they wear only once or twice.",
+        "pl": "Nastolatki często wydają dużo pieniędzy na ubrania, które noszą tylko raz czy dwa razy."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "pieniądze", "pułapka"]
+    },
+    {
+      "en": "go on a shopping spree",
+      "pl": "zaszaleć na zakupach",
+      "meaning_pl": "spree to krótki czas, w którym robisz czegoś dużo naraz; shopping spree to szał zakupów, zwykle wydajesz więcej, niż planowałeś",
+      "example": {
+        "en": "After getting her first salary, she went on a shopping spree and spent almost everything.",
+        "pl": "Po pierwszej wypłacie zaszalała na zakupach i wydała prawie wszystko."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "konsumpcjonizm"]
+    },
+    {
+      "en": "make a purchase",
+      "pl": "dokonać zakupu",
+      "meaning_pl": "oficjalny odpowiednik buy sth; purchase bywa też czasownikiem (purchase a ticket), ale w luźnej rozmowie wystarczy buy",
+      "example": {
+        "en": "Before making a purchase online, always read other customers' reviews.",
+        "pl": "Zanim dokonasz zakupu w internecie, zawsze przeczytaj opinie innych klientów."
+      },
+      "register": "formal",
+      "tags": ["verb+noun", "sklep"]
+    },
+    {
+      "en": "place an order (for sth)",
+      "pl": "złożyć zamówienie (na coś)",
+      "meaning_pl": "najczęstsze połączenie z order w znaczeniu zamówienia; po for to, co zamawiasz; odwrotność: cancel an order",
+      "example": {
+        "en": "I placed an order for a new laptop on Monday, but it still hasn't arrived.",
+        "pl": "W poniedziałek złożyłem zamówienie na nowego laptopa, ale wciąż nie dotarł."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "zakupy online"]
+    },
+    {
+      "en": "get a discount (on sth)",
+      "pl": "dostać zniżkę, rabat (na coś)",
+      "meaning_pl": "zniżka na produkt to discount on sth; zniżka dla grupy to discount for students albo krótko student discount; sklep może give albo offer a discount",
+      "example": {
+        "en": "If you show your student card, you can get a 10% discount on all books.",
+        "pl": "Jeśli pokażesz legitymację, dostaniesz 10% zniżki na wszystkie książki."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "ceny"]
+    },
+    {
+      "en": "pay in instalments",
+      "pl": "płacić w ratach",
+      "meaning_pl": "w ratach to in instalments (pisownia brytyjska; amerykańska: installments); dla porównania gotówką to in cash, a kartą to by card",
+      "example": {
+        "en": "We couldn't afford the new sofa straight away, so we paid for it in monthly instalments.",
+        "pl": "Nie było nas stać na nową kanapę od razu, więc zapłaciliśmy za nią w miesięcznych ratach."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "płatności"]
+    },
+    {
+      "en": "make a complaint (about sth)",
+      "pl": "złożyć reklamację, złożyć skargę",
+      "meaning_pl": "complaint łączy się z make, nie z do; pułapka: reklamacja to complaint, a reklama to advertisement; bardzo oficjalnie: lodge a complaint",
+      "example": {
+        "en": "I'd like to make a complaint about the jacket I bought here last week.",
+        "pl": "Chciałbym złożyć reklamację w sprawie kurtki, którą kupiłem tu w zeszłym tygodniu."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "reklamacje", "pułapka"]
+    },
+    {
+      "en": "ask for a refund",
+      "pl": "poprosić o zwrot pieniędzy",
+      "meaning_pl": "refund to zwrot pieniędzy, nie samego towaru; a full refund to zwrot całej kwoty; po ask for od razu rzeczownik",
+      "example": {
+        "en": "The headphones stopped working after two days, so I took them back and asked for a full refund.",
+        "pl": "Słuchawki przestały działać po dwóch dniach, więc je odniosłem i poprosiłem o zwrot całej kwoty."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "reklamacje"]
+    },
+    {
+      "en": "book an appointment (with sb)",
+      "pl": "umówić się na wizytę, zarezerwować termin",
+      "meaning_pl": "appointment to umówiony termin u fachowca (fryzjer, dentysta, mechanik); zamiast book można make an appointment; spotkanie ze znajomymi to nie appointment",
+      "example": {
+        "en": "I've booked an appointment at the hairdresser's for Friday afternoon.",
+        "pl": "Umówiłem się do fryzjera na piątkowe popołudnie."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "usługi"]
+    },
+    {
+      "en": "a wide range of products",
+      "pl": "szeroki wybór produktów, bogaty asortyment",
+      "meaning_pl": "asortyment to range; najczęstszy przymiotnik to wide (też huge); po range of rzeczownik w liczbie mnogiej albo niepoliczalny: a wide range of shoes, a wide range of furniture",
+      "example": {
+        "en": "The new shopping centre offers a wide range of products, from food to electronics.",
+        "pl": "Nowe centrum handlowe oferuje szeroki wybór produktów, od jedzenia po elektronikę."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "sklep"]
+    },
+    {
+      "en": "good value for money",
+      "pl": "wart swojej ceny, opłacalny",
+      "meaning_pl": "value for money to to, ile dostajesz za swoje pieniądze; coś jest good value, gdy jakość jest dobra jak na cenę, więc nie musi być tanie; przeciwieństwo: poor value for money",
+      "example": {
+        "en": "The course isn't cheap, but it's good value for money because the groups are really small.",
+        "pl": "Kurs nie jest tani, ale jest wart swojej ceny, bo grupy są naprawdę małe."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "ceny"]
+    },
+    {
+      "en": "at a reasonable price",
+      "pl": "w rozsądnej cenie, w przystępnej cenie",
+      "meaning_pl": "reasonable to rozsądny, nie przesadzony; w jakiejś cenie to at a price (przyimek at); podobnie: at an affordable price, czyli w cenie, na którą cię stać",
+      "example": {
+        "en": "The café serves good food at reasonable prices, so it's popular with students.",
+        "pl": "Kawiarnia serwuje dobre jedzenie w rozsądnych cenach, więc jest popularna wśród studentów."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "ceny"]
+    },
+    {
+      "en": "special offer",
+      "pl": "promocja, oferta specjalna",
+      "meaning_pl": "promocja w sklepie to zwykle special offer, a być w promocji to be on special offer (brytyjskie); promotion też istnieje, ale częściej znaczy awans albo reklamowanie produktu",
+      "example": {
+        "en": "These trainers are on special offer this week – they're half price.",
+        "pl": "Te buty sportowe są w tym tygodniu w promocji – są za pół ceny."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "ceny", "pułapka"]
+    },
+    {
+      "en": "faulty goods",
+      "pl": "wadliwy towar",
+      "meaning_pl": "faulty to taki, który nie działa jak powinien, bo ma wadę; goods to towary i występuje tylko w liczbie mnogiej; o jednej rzeczy: a faulty product",
+      "example": {
+        "en": "The shop refused to take back the faulty goods because I had lost the receipt.",
+        "pl": "Sklep odmówił przyjęcia wadliwego towaru, bo zgubiłem paragon."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "reklamacje"]
+    },
+    {
+      "en": "proof of purchase",
+      "pl": "dowód zakupu",
+      "meaning_pl": "proof jest tu niepoliczalny, więc bez a; zwykle chodzi o paragon (receipt); typowe zdanie z regulaminu: keep your receipt as proof of purchase",
+      "example": {
+        "en": "You can't return the item without proof of purchase, so keep your receipt.",
+        "pl": "Nie zwrócisz towaru bez dowodu zakupu, więc zachowaj paragon."
+      },
+      "register": "formal",
+      "tags": ["noun+noun", "reklamacje"]
+    },
+    {
+      "en": "customer service",
+      "pl": "obsługa klienta",
+      "meaning_pl": "customer stoi przed service jak przymiotnik, bez 's; typowe: excellent albo poor customer service; nazwa działu w sklepie bywa w liczbie mnogiej: Customer Services",
+      "example": {
+        "en": "I called customer service three times, but nobody could tell me where my parcel was.",
+        "pl": "Trzy razy dzwoniłem do obsługi klienta, ale nikt nie umiał mi powiedzieć, gdzie jest moja paczka."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "usługi"]
+    },
+    {
+      "en": "impulse buying",
+      "pl": "kupowanie pod wpływem impulsu",
+      "meaning_pl": "kupujesz coś, czego nie planowałeś, bo nagle tego zachciałeś; jedna taka rzecz to an impulse buy; dobre do rozprawki o konsumpcjonizmie",
+      "example": {
+        "en": "Shops put sweets near the checkout to encourage impulse buying.",
+        "pl": "Sklepy kładą słodycze przy kasie, żeby zachęcać do kupowania pod wpływem impulsu."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "konsumpcjonizm"]
+    },
+    {
+      "en": "the cost of living",
+      "pl": "koszty utrzymania",
+      "meaning_pl": "ile kosztuje codzienne życie: jedzenie, mieszkanie, rachunki; zwykle z the (ale: a high cost of living) i zawsze w liczbie pojedynczej; w rozprawce często the rising cost of living",
+      "example": {
+        "en": "Because of the rising cost of living, many young people can't afford to rent a flat.",
+        "pl": "Przez rosnące koszty utrzymania wielu młodych ludzi nie stać na wynajem mieszkania."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "ceny", "rozprawka"]
+    },
+    {
+      "en": "prices rise sharply",
+      "pl": "ceny gwałtownie rosną",
+      "meaning_pl": "sharply znaczy nagle i mocno; pasuje też do fall, increase, drop; rise nie ma dopełnienia (ceny rosną same), a podnieść ceny to raise prices",
+      "example": {
+        "en": "When fuel prices rose sharply, many people started cycling to work.",
+        "pl": "Kiedy ceny paliwa gwałtownie wzrosły, wiele osób zaczęło jeździć do pracy na rowerze."
+      },
+      "register": "neutral",
+      "tags": ["verb+adverb", "ceny", "pułapka"]
+    },
+    {
+      "en": "sell well",
+      "pl": "dobrze się sprzedawać",
+      "meaning_pl": "forma czynna, choć sens jest jak w biernej: the book sells well, nie is sold well; polskie się nie ma tu odpowiednika",
+      "example": {
+        "en": "Her first novel sold well, so the publisher asked her to write another one.",
+        "pl": "Jej pierwsza powieść dobrze się sprzedała, więc wydawca poprosił ją o kolejną."
+      },
+      "register": "neutral",
+      "tags": ["verb+adverb", "sklep", "pułapka"]
+    },
+    {
+      "en": "pay extra (for sth)",
+      "pl": "dopłacić (za coś)",
+      "meaning_pl": "extra działa tu jak przysłówek: płacisz więcej niż cena podstawowa; po for to, za co dopłacasz",
+      "example": {
+        "en": "If you want next-day delivery, you have to pay extra.",
+        "pl": "Jeśli chcesz dostawę na następny dzień, musisz dopłacić."
+      },
+      "register": "neutral",
+      "tags": ["verb+adverb", "płatności"]
+    }
+  ]
+}

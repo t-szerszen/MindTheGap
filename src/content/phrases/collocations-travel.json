@@ -1,0 +1,249 @@
+{
+  "id": "collocations-travel",
+  "category": "collocations",
+  "title_pl": "Kolokacje: podróże i turystyka",
+  "items": [
+    {
+      "en": "book a flight / accommodation",
+      "pl": "zarezerwować lot / nocleg",
+      "meaning_pl": "book = zarezerwować. Accommodation (nocleg, zakwaterowanie) jest po brytyjsku niepoliczalne: bez -s i bez a. Z wyprzedzeniem = in advance.",
+      "example": {
+        "en": "It's much cheaper to book flights and accommodation well in advance.",
+        "pl": "Dużo taniej jest rezerwować loty i nocleg z dużym wyprzedzeniem."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "nocleg", "pułapka"]
+    },
+    {
+      "en": "catch / miss a flight",
+      "pl": "zdążyć / nie zdążyć na samolot",
+      "meaning_pl": "catch = zdążyć na samolot, pociąg, autobus. miss = spóźnić się i odjechać bez niego. Polskie „spóźnić się na samolot” to zwykle po prostu miss the flight.",
+      "example": {
+        "en": "We missed our connecting flight because the first one was delayed.",
+        "pl": "Nie zdążyliśmy na lot przesiadkowy, bo pierwszy był opóźniony."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "transport"]
+    },
+    {
+      "en": "hire a car",
+      "pl": "wypożyczyć samochód",
+      "meaning_pl": "Po brytyjsku hire = wypożyczyć na krótko (auto, rower). Rent to zwykle dłuższy wynajem, np. mieszkania. Amerykanie mówią rent a car.",
+      "example": {
+        "en": "We hired a car at the airport and drove along the coast.",
+        "pl": "Wypożyczyliśmy samochód na lotnisku i pojechaliśmy wzdłuż wybrzeża."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "transport", "BrE"]
+    },
+    {
+      "en": "take out travel insurance",
+      "pl": "wykupić ubezpieczenie turystyczne",
+      "meaning_pl": "take out to typowy czasownik przy ubezpieczeniu i kredycie (take out a loan). Insurance zwykle bez a.",
+      "example": {
+        "en": "Always take out travel insurance before you go abroad.",
+        "pl": "Zawsze wykupuj ubezpieczenie turystyczne przed wyjazdem za granicę."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "przygotowania"]
+    },
+    {
+      "en": "go on holiday",
+      "pl": "jechać na wakacje / urlop",
+      "meaning_pl": "Po brytyjsku on holiday w liczbie pojedynczej, a be on holiday = być na urlopie. Nie „go for holiday”. Liczba mnoga the holidays to raczej okres wolnego, np. the summer holidays.",
+      "example": {
+        "en": "We usually go on holiday to Croatia in August.",
+        "pl": "Zwykle jeździmy na wakacje do Chorwacji w sierpniu."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "BrE", "pułapka"]
+    },
+    {
+      "en": "take a gap year",
+      "pl": "zrobić sobie rok przerwy (przed studiami)",
+      "meaning_pl": "gap year to rok przerwy między szkołą a studiami, często na podróże albo pracę. Czasownik take, tak jak w take a break.",
+      "example": {
+        "en": "Many students take a gap year to travel before they start university.",
+        "pl": "Wielu uczniów robi sobie rok przerwy na podróże, zanim zacznie studia."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "edukacja"]
+    },
+    {
+      "en": "broaden your horizons",
+      "pl": "poszerzać horyzonty",
+      "meaning_pl": "rozwijać się dzięki nowym doświadczeniom; mocny argument w rozprawce o podróżach. Horizons zawsze w liczbie mnogiej, zamiennie expand your horizons.",
+      "example": {
+        "en": "Travelling abroad broadens your horizons and makes you more open to other cultures.",
+        "pl": "Podróże za granicę poszerzają horyzonty i sprawiają, że stajesz się bardziej otwarty na inne kultury."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "rozprawka"]
+    },
+    {
+      "en": "reduce your carbon footprint",
+      "pl": "zmniejszyć swój ślad węglowy",
+      "meaning_pl": "carbon footprint = ilość CO2, za którą odpowiadasz, np. przez latanie. Pasuje do rozprawek o turystyce i ekologii; zamiast reduce można cut.",
+      "example": {
+        "en": "Taking the train instead of flying is an easy way to reduce your carbon footprint.",
+        "pl": "Jazda pociągiem zamiast latania to prosty sposób, żeby zmniejszyć swój ślad węglowy."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "ekologia", "rozprawka"]
+    },
+    {
+      "en": "travel light",
+      "pl": "podróżować z małym bagażem",
+      "meaning_pl": "light jest tu przysłówkiem (nie lightly): zabierasz tylko to, co naprawdę potrzebne.",
+      "example": {
+        "en": "I always travel light – just a small backpack with the essentials.",
+        "pl": "Zawsze podróżuję z małym bagażem – tylko mały plecak z najpotrzebniejszymi rzeczami."
+      },
+      "register": "neutral",
+      "tags": ["verb+adverb", "bagaż"]
+    },
+    {
+      "en": "go / travel abroad",
+      "pl": "wyjechać / podróżować za granicę",
+      "meaning_pl": "abroad to przysłówek, więc bez przyimka: go abroad, live abroad, study abroad. Błąd: „go to abroad”. Przyimek tylko w from abroad (z zagranicy).",
+      "example": {
+        "en": "More and more young Poles travel abroad on their own.",
+        "pl": "Coraz więcej młodych Polaków podróżuje za granicę na własną rękę."
+      },
+      "register": "neutral",
+      "tags": ["verb+adverb", "pułapka"]
+    },
+    {
+      "en": "travel extensively",
+      "pl": "dużo podróżować, zjeździć kawał świata",
+      "meaning_pl": "dużo i w wiele miejsc; brzmi poważniej niż travel a lot, dobre do opisu osoby albo listu. Podobnie travel widely.",
+      "example": {
+        "en": "My aunt has travelled extensively in Asia and speaks three languages.",
+        "pl": "Moja ciocia zjeździła sporą część Azji i zna trzy języki."
+      },
+      "register": "neutral",
+      "tags": ["verb+adverb", "opis osoby"]
+    },
+    {
+      "en": "a long-haul flight",
+      "pl": "lot długodystansowy",
+      "meaning_pl": "lot na dużą odległość, zwykle między kontynentami. Przeciwieństwo: a short-haul flight.",
+      "example": {
+        "en": "I can never sleep on long-haul flights, so I just watch films.",
+        "pl": "Nigdy nie mogę spać podczas długich lotów, więc po prostu oglądam filmy."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "transport"]
+    },
+    {
+      "en": "breathtaking scenery",
+      "pl": "zapierające dech krajobrazy",
+      "meaning_pl": "scenery = krajobraz, widoki; niepoliczalne, więc bez -s i bez a. Inne przymiotniki: stunning, spectacular.",
+      "example": {
+        "en": "The Tatra Mountains are famous for their breathtaking scenery.",
+        "pl": "Tatry słyną z zapierających dech krajobrazów."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "opis miejsca", "pułapka"]
+    },
+    {
+      "en": "mass tourism",
+      "pl": "turystyka masowa",
+      "meaning_pl": "tłumy turystów w tych samych miejscach. Częsty temat rozprawki: korki, drogie mieszkania, zniszczone zabytki.",
+      "example": {
+        "en": "Mass tourism has made life much harder for the people who live in Venice.",
+        "pl": "Masowa turystyka bardzo utrudniła życie mieszkańcom Wenecji."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "rozprawka"]
+    },
+    {
+      "en": "sustainable tourism",
+      "pl": "turystyka zrównoważona",
+      "meaning_pl": "turystyka, która nie niszczy przyrody i pomaga mieszkańcom, a nie tylko wielkim firmom. W rozprawce dobra przeciwwaga dla mass tourism.",
+      "example": {
+        "en": "Sustainable tourism means respecting nature and supporting local businesses.",
+        "pl": "Zrównoważona turystyka to szacunek dla przyrody i wspieranie lokalnych firm."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "ekologia", "rozprawka"]
+    },
+    {
+      "en": "(try) the local cuisine",
+      "pl": "(spróbować) lokalnej kuchni",
+      "meaning_pl": "cuisine = kuchnia jako sposób gotowania danego kraju, kitchen = pomieszczenie. Formalniej: sample the local cuisine.",
+      "example": {
+        "en": "One of the best things about travelling is trying the local cuisine.",
+        "pl": "Jedną z najlepszych rzeczy w podróżowaniu jest próbowanie lokalnej kuchni."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "jedzenie", "pułapka"]
+    },
+    {
+      "en": "the peak season",
+      "pl": "szczyt sezonu",
+      "meaning_pl": "czas, kiedy przyjeżdża najwięcej turystów i ceny są najwyższe; też the high season. Przeciwieństwo: the low season albo the off-season.",
+      "example": {
+        "en": "Hotels on the coast are fully booked during the peak season.",
+        "pl": "W szczycie sezonu hotele na wybrzeżu są całkowicie zarezerwowane."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "nocleg"]
+    },
+    {
+      "en": "a tourist attraction",
+      "pl": "atrakcja turystyczna",
+      "meaning_pl": "miejsce, które przyciąga turystów. Rzeczownik tourist działa tu jak przymiotnik i stoi przed attraction, odwrotnie niż po polsku. Zamiast rzadkiego touristic mówi się po prostu tourist.",
+      "example": {
+        "en": "The castle is the town's main tourist attraction.",
+        "pl": "Zamek to główna atrakcja turystyczna miasteczka."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "opis miejsca"]
+    },
+    {
+      "en": "a tourist trap",
+      "pl": "pułapka na turystów",
+      "meaning_pl": "miejsce nastawione na naciąganie turystów: drogo, tłoczno i słabo. Ma negatywny wydźwięk.",
+      "example": {
+        "en": "The restaurant on the main square was a real tourist trap: small portions and ridiculous prices.",
+        "pl": "Restauracja na rynku okazała się typową pułapką na turystów: małe porcje i kosmiczne ceny."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "opis miejsca"]
+    },
+    {
+      "en": "a package holiday",
+      "pl": "wczasy zorganizowane (z biurem podróży)",
+      "meaning_pl": "biuro podróży sprzedaje w jednej cenie przelot i hotel, czasem z wyżywieniem. Przeciwieństwo: podróż organizowana samemu, independent travel.",
+      "example": {
+        "en": "A package holiday is convenient, but you don't see much of the real country.",
+        "pl": "Wczasy z biurem podróży są wygodne, ale prawdziwego kraju widzisz niewiele."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "BrE"]
+    },
+    {
+      "en": "hand luggage",
+      "pl": "bagaż podręczny",
+      "meaning_pl": "luggage jest niepoliczalne: bez -s, a jedna sztuka to a piece of luggage. Amerykanie mówią carry-on.",
+      "example": {
+        "en": "You can only take one small bag as hand luggage.",
+        "pl": "Jako bagaż podręczny możesz zabrać tylko jedną małą torbę."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "bagaż", "BrE"]
+    },
+    {
+      "en": "jet lag",
+      "pl": "jet lag, zmęczenie po zmianie stref czasowych",
+      "meaning_pl": "rozregulowany organizm po locie przez kilka stref czasowych. Typowe połączenia: suffer from jet lag, get over jet lag, be jet-lagged.",
+      "example": {
+        "en": "It took me three days to get over my jet lag after flying back from New York.",
+        "pl": "Po powrocie z Nowego Jorku przez trzy dni dochodziłem do siebie po jet lagu."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "transport"]
+    }
+  ]
+}

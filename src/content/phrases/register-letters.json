@@ -1,0 +1,337 @@
+{
+  "id": "register-letters",
+  "category": "register",
+  "title_pl": "Rejestr: listy formalne",
+  "items": [
+    {
+      "en": "Dear Sir or Madam,",
+      "pl": "Szanowni Państwo",
+      "meaning_pl": "zamiast potocznego „Hi”: tak zaczynasz list, gdy nie znasz nazwiska adresata (redakcja, urząd, firma). Po zwrocie stawiasz przecinek, nie wykrzyknik jak w polskim, a treść zaczynasz od nowej linijki wielką literą. Taki początek zamykasz zwrotem Yours faithfully.",
+      "example": {
+        "en": "Dear Sir or Madam, I am writing on behalf of the students at our school.",
+        "pl": "Szanowni Państwo, piszę w imieniu uczniów naszej szkoły."
+      },
+      "register": "formal",
+      "tags": ["Hi", "powitanie", "nieznany adresat"]
+    },
+    {
+      "en": "Dear Mr Taylor, / Dear Ms Brown,",
+      "pl": "Szanowny Panie / Szanowna Pani",
+      "meaning_pl": "zamiast potocznego „Hi Tom”: gdy znasz adresata, piszesz tytuł + nazwisko, nigdy tytuł + imię (Dear Mr Tom to błąd). Ms pasuje do każdej kobiety, bez zgadywania, czy jest mężatką. W brytyjskim angielskim Mr i Ms piszesz bez kropki. Taki list kończysz Yours sincerely.",
+      "example": {
+        "en": "Dear Mr Taylor, I am writing to confirm my place on the photography course.",
+        "pl": "Szanowny Panie, piszę, aby potwierdzić swój udział w kursie fotografii."
+      },
+      "register": "formal",
+      "tags": ["Hi Tom", "powitanie", "znany adresat"]
+    },
+    {
+      "en": "I am writing to (do sth)",
+      "pl": "Piszę, aby… / Piszę w celu…",
+      "meaning_pl": "zamiast potocznego „Just a quick note to say…”: pierwsze zdanie listu formalnego od razu podaje cel. Po to idzie bezokolicznik celu: to complain, to apply, to ask. Pełna forma I am, bo w liście formalnym nie piszesz skrótów typu I'm.",
+      "example": {
+        "en": "I am writing to apply for a place on your summer volunteering programme.",
+        "pl": "Piszę, aby zgłosić się do Państwa letniego programu wolontariatu."
+      },
+      "register": "formal",
+      "tags": ["Just a quick note to say", "cel listu", "wstęp"]
+    },
+    {
+      "en": "I am writing in response to sth",
+      "pl": "Piszę w odpowiedzi na…",
+      "meaning_pl": "zamiast potocznego „I saw your ad”: tak nawiązujesz do tekstu, na który reagujesz (artykuł, ogłoszenie, list). Po in response to idzie rzeczownik, nie całe zdanie: in response to your article. Typowy początek listu do redakcji.",
+      "example": {
+        "en": "I am writing in response to the article about the closure of our local library, which appeared in your newspaper last week.",
+        "pl": "Piszę w odpowiedzi na artykuł o zamknięciu naszej miejscowej biblioteki, który ukazał się w Państwa gazecie w zeszłym tygodniu."
+      },
+      "register": "formal",
+      "tags": ["I saw your ad", "wstęp", "list do redakcji"]
+    },
+    {
+      "en": "With reference to sth, …",
+      "pl": "Nawiązując do… / W nawiązaniu do…",
+      "meaning_pl": "zamiast potocznego „About…”: odwołujesz się do konkretnego listu, rozmowy albo ogłoszenia. Zwrot stoi na początku zdania, po nim rzeczownik i przecinek, a potem właściwa sprawa. Przyimek jest stały: with reference to.",
+      "example": {
+        "en": "With reference to your email of 12 March, I would like to confirm my booking for two nights.",
+        "pl": "Nawiązując do Państwa e-maila z 12 marca, chciałbym potwierdzić rezerwację na dwie noce."
+      },
+      "register": "formal",
+      "tags": ["About…", "wstęp", "nawiązanie"]
+    },
+    {
+      "en": "I would like to (do sth)",
+      "pl": "Chciałbym / Chciałabym…",
+      "meaning_pl": "zamiast potocznego „I want to”: want w liście brzmi jak żądanie, a would like jest uprzejme i z dystansem. Po would like idzie to + bezokolicznik (I would like to ask) albo sam rzeczownik (I would like more information). Pełna forma I would, bez skrótu I'd.",
+      "example": {
+        "en": "I would like to ask whether students can get a discount on season tickets.",
+        "pl": "Chciałbym zapytać, czy uczniowie mogą dostać zniżkę na karnety sezonowe."
+      },
+      "register": "formal",
+      "tags": ["I want to", "prośba", "uprzejmość"]
+    },
+    {
+      "en": "I would be grateful if you could (do sth)",
+      "pl": "Byłbym wdzięczny / Byłabym wdzięczna, gdyby…",
+      "meaning_pl": "zamiast potocznego „Can you…?”: prośba bez pytania wprost, więc brzmi grzeczniej. Budowa jak w drugim trybie warunkowym: would be w jednej części, could w części z if. Na końcu kropka, nie znak zapytania, bo to zdanie oznajmujące.",
+      "example": {
+        "en": "I would be grateful if you could send me more information about the course fees.",
+        "pl": "Byłbym wdzięczny, gdyby mogli mi Państwo przesłać więcej informacji o opłatach za kurs."
+      },
+      "register": "formal",
+      "tags": ["Can you…?", "prośba"]
+    },
+    {
+      "en": "I would appreciate it if you could (do sth)",
+      "pl": "Byłbym zobowiązany, gdyby…",
+      "meaning_pl": "zamiast potocznego „It'd be great if you could…”: ta sama budowa co I would be grateful if, tylko z czasownikiem appreciate. Pułapka: musi być it (appreciate it if), bo appreciate zawsze potrzebuje dopełnienia. Bez it zdanie jest błędne.",
+      "example": {
+        "en": "I would appreciate it if you could reply before the end of the month, as the trip is planned for June.",
+        "pl": "Byłbym zobowiązany, gdyby odpowiedzieli Państwo przed końcem miesiąca, bo wycieczka jest zaplanowana na czerwiec."
+      },
+      "register": "formal",
+      "tags": ["It'd be great if you could…", "prośba", "pułapka"]
+    },
+    {
+      "en": "Would it be possible to (do sth)?",
+      "pl": "Czy byłoby możliwe…? / Czy jest możliwość…?",
+      "meaning_pl": "zamiast potocznego „Can I…?”: pytasz o zgodę albo możliwość bezosobowo, bez I na początku, więc brzmi to ostrożniej. Kogo to dotyczy, dodajesz przez for: Would it be possible for my class to visit…?",
+      "example": {
+        "en": "Would it be possible to change the date of our school visit to 15 May?",
+        "pl": "Czy byłoby możliwe przesunięcie terminu wizyty naszej szkoły na 15 maja?"
+      },
+      "register": "formal",
+      "tags": ["Can I…?", "prośba", "pytanie"]
+    },
+    {
+      "en": "I would like to know whether / when …",
+      "pl": "Chciałbym się dowiedzieć, czy / kiedy…",
+      "meaning_pl": "zamiast potocznego „When does it start?”: w liście formalnym pytasz pośrednio. Po when, where, whether stoi zwykły szyk zdania twierdzącego, bez do/does: when the course starts, nie when does the course start. Whether znaczy „czy” i jest bardziej formalne od if.",
+      "example": {
+        "en": "I would also like to know whether the price includes meals and transport.",
+        "pl": "Chciałbym się też dowiedzieć, czy cena obejmuje posiłki i transport."
+      },
+      "register": "formal",
+      "tags": ["When does it start?", "pytanie pośrednie", "szyk zdania"]
+    },
+    {
+      "en": "at your earliest convenience",
+      "pl": "w najbliższym dogodnym terminie",
+      "meaning_pl": "zamiast potocznego „ASAP”: uprzejmy sposób, żeby poprosić o szybką reakcję bez poganiania. Skrótów typu ASAP w liście formalnym w ogóle nie piszesz. Zwrot stawiasz zwykle na końcu zdania z prośbą.",
+      "example": {
+        "en": "Please let me know your decision at your earliest convenience.",
+        "pl": "Proszę o informację o Państwa decyzji w najbliższym dogodnym terminie."
+      },
+      "register": "formal",
+      "tags": ["ASAP", "prośba", "termin"]
+    },
+    {
+      "en": "Thank you for sth / for doing sth",
+      "pl": "Dziękuję za…",
+      "meaning_pl": "zamiast potocznego „Thanks for”: pełne Thank you zamiast skróconego Thanks. Po for idzie rzeczownik albo forma -ing: thank you for your help, thank you for inviting me. Po for nigdy nie stawiasz bezokolicznika z to.",
+      "example": {
+        "en": "Thank you for organising such an interesting workshop for our class.",
+        "pl": "Dziękuję za zorganizowanie tak ciekawych warsztatów dla naszej klasy."
+      },
+      "register": "formal",
+      "tags": ["Thanks for", "podziękowanie", "-ing"]
+    },
+    {
+      "en": "I am very grateful to you for sth",
+      "pl": "Jestem Państwu bardzo wdzięczny za…",
+      "meaning_pl": "zamiast potocznego „Thanks a lot for”: mocniejsze, bardziej osobiste podziękowanie. Dwa przyimki: grateful TO osobie, FOR rzecz (grateful to you for your advice). Osobę można pominąć: I am grateful for your support.",
+      "example": {
+        "en": "I am very grateful to you for giving me the opportunity to take part in the exchange.",
+        "pl": "Jestem Państwu bardzo wdzięczny za możliwość udziału w wymianie."
+      },
+      "register": "formal",
+      "tags": ["Thanks a lot for", "podziękowanie", "przyimek"]
+    },
+    {
+      "en": "I apologise for sth / for doing sth",
+      "pl": "Przepraszam za…",
+      "meaning_pl": "zamiast potocznego „Sorry for”: oficjalne przeprosiny. Po for rzeczownik albo -ing: I apologise for the delay, I apologise for not replying earlier. Osobę dodajesz przez to: apologise to sb for sth. W brytyjskim zwykle pisownia z -ise.",
+      "example": {
+        "en": "I apologise for not replying earlier, but I was away on a school trip.",
+        "pl": "Przepraszam, że nie odpisałem wcześniej, ale byłem na wycieczce szkolnej."
+      },
+      "register": "formal",
+      "tags": ["Sorry for", "przeprosiny", "-ing"]
+    },
+    {
+      "en": "Please accept my apologies for sth",
+      "pl": "Proszę przyjąć moje przeprosiny za…",
+      "meaning_pl": "zamiast potocznego „I'm so sorry about…”: jeszcze bardziej oficjalna wersja, oparta na rzeczowniku apologies (w liczbie mnogiej). Pasuje, gdy przepraszasz instytucję albo organizatora za kłopot, który sprawiłeś.",
+      "example": {
+        "en": "Please accept my apologies for missing the meeting on Monday.",
+        "pl": "Proszę przyjąć moje przeprosiny za nieobecność na poniedziałkowym spotkaniu."
+      },
+      "register": "formal",
+      "tags": ["I'm so sorry about", "przeprosiny"]
+    },
+    {
+      "en": "I regret to inform you that…",
+      "pl": "Z przykrością informuję, że…",
+      "meaning_pl": "zamiast potocznego „Sorry, but…”: tak przekazujesz złą wiadomość. Pułapka: regret + to = przykro mi, że muszę coś teraz powiedzieć, a regret + -ing = żałuję, że coś zrobiłem wcześniej. Tu zawsze bezokolicznik.",
+      "example": {
+        "en": "I regret to inform you that our school band has had to withdraw from the competition.",
+        "pl": "Z przykrością informuję, że nasz szkolny zespół musiał wycofać się z konkursu."
+      },
+      "register": "formal",
+      "tags": ["Sorry, but…", "zła wiadomość", "regret"]
+    },
+    {
+      "en": "I am writing to express my concern about sth",
+      "pl": "Piszę, aby wyrazić zaniepokojenie…",
+      "meaning_pl": "zamiast potocznego „I'm worried about”: zamiast mówić wprost o swoich uczuciach, używasz rzeczownika concern (zaniepokojenie). Typowy początek listu do władz miasta albo redakcji. Przyimek: concern about albo concern over.",
+      "example": {
+        "en": "I am writing to express my concern about the plan to build a shopping centre on the only green area in our district.",
+        "pl": "Piszę, aby wyrazić zaniepokojenie planem budowy centrum handlowego na jedynym terenie zielonym w naszej dzielnicy."
+      },
+      "register": "formal",
+      "tags": ["I'm worried about", "skarga", "list do władz"]
+    },
+    {
+      "en": "I wish to express my dissatisfaction with sth",
+      "pl": "Pragnę wyrazić niezadowolenie z…",
+      "meaning_pl": "zamiast potocznego „I'm not happy with”: typowy zwrot w skardze na usługę albo produkt. I wish to to bardzo formalne „pragnę”, a dissatisfaction to rzeczownik od dissatisfied. Przyimek: dissatisfaction with.",
+      "example": {
+        "en": "I wish to express my dissatisfaction with the service I received at your hotel last weekend.",
+        "pl": "Pragnę wyrazić niezadowolenie z obsługi, z jaką spotkałem się w Państwa hotelu w zeszły weekend."
+      },
+      "register": "formal",
+      "tags": ["I'm not happy with", "skarga", "usługa"]
+    },
+    {
+      "en": "I was extremely disappointed to discover that…",
+      "pl": "Byłem bardzo rozczarowany, gdy okazało się, że…",
+      "meaning_pl": "zamiast potocznego „I was gutted that…”: gutted to potoczne brytyjskie „załamany”, w skardze brzmi zbyt emocjonalnie. Formalnie opisujesz rozczarowanie spokojnie: disappointed + to + bezokolicznik (to discover, to find, to learn), a sam fakt po that.",
+      "example": {
+        "en": "I was extremely disappointed to discover that the museum was closed, although your website said it was open.",
+        "pl": "Byłem bardzo rozczarowany, gdy okazało się, że muzeum jest zamknięte, chociaż na Państwa stronie napisano, że jest otwarte."
+      },
+      "register": "formal",
+      "tags": ["I was gutted", "skarga", "rozczarowanie"]
+    },
+    {
+      "en": "I would like to request a full refund",
+      "pl": "Proszę o zwrot całej kwoty",
+      "meaning_pl": "zamiast potocznego „I want my money back”: zamiast mówić wprost o pieniądzach, używasz rzeczownika refund (zwrot pieniędzy). Czasownik request jest formalniejszy od ask for i stoi bez przyimka: request a refund. For pojawia się tylko po rzeczowniku: a request for a refund.",
+      "example": {
+        "en": "As the headphones arrived damaged, I would like to request a full refund.",
+        "pl": "Ponieważ słuchawki dotarły uszkodzone, proszę o zwrot całej kwoty."
+      },
+      "register": "formal",
+      "tags": ["I want my money back", "skarga", "zakupy"]
+    },
+    {
+      "en": "I would like to draw your attention to sth",
+      "pl": "Chciałbym zwrócić Państwa uwagę na…",
+      "meaning_pl": "zamiast potocznego „Just look at…”: wskazujesz problem bez rozkazywania adresatowi. Polskie „zwrócić uwagę” ma dwa odpowiedniki: sam zwracasz uwagę = pay attention to, a zwracasz komuś uwagę na coś = draw sb's attention to sth.",
+      "example": {
+        "en": "I would like to draw your attention to the poor condition of the cycle paths in our town.",
+        "pl": "Chciałbym zwrócić Państwa uwagę na zły stan ścieżek rowerowych w naszym mieście."
+      },
+      "register": "formal",
+      "tags": ["Just look at…", "list do władz", "problem"]
+    },
+    {
+      "en": "I would like to suggest that…",
+      "pl": "Chciałbym zaproponować, żeby…",
+      "meaning_pl": "zamiast potocznego „How about…?”: propozycję podajesz w zdaniu oznajmującym, nie w pytaniu. Pułapka: suggest that sb (should) do sth albo suggest doing sth, nigdy suggest sb to do sth.",
+      "example": {
+        "en": "I would like to suggest that the library should stay open until 8 pm during the exam period.",
+        "pl": "Chciałbym zaproponować, żeby w okresie egzaminów biblioteka była otwarta do 20:00."
+      },
+      "register": "formal",
+      "tags": ["How about…?", "propozycja", "pułapka"]
+    },
+    {
+      "en": "I hope you will take my suggestions into consideration",
+      "pl": "Mam nadzieję, że wezmą Państwo pod uwagę moje propozycje",
+      "meaning_pl": "zamiast potocznego „Think about it, OK?”: uprzejme zakończenie listu z propozycjami. Take sth into consideration = wziąć coś pod uwagę, a rzeczownik stoi w środku zwrotu. Krótsza wersja: consider my suggestions.",
+      "example": {
+        "en": "I hope you will take my suggestions into consideration when planning next year's sports day.",
+        "pl": "Mam nadzieję, że wezmą Państwo pod uwagę moje propozycje przy planowaniu przyszłorocznego dnia sportu."
+      },
+      "register": "formal",
+      "tags": ["Think about it, OK?", "propozycja", "zakończenie"]
+    },
+    {
+      "en": "I would be delighted to (do sth)",
+      "pl": "Z wielką przyjemnością…",
+      "meaning_pl": "zamiast potocznego „I'd love to”: entuzjazm bez luźnego tonu. Pasuje do przyjęcia zaproszenia albo propozycji. Delighted jest mocniejsze od pleased, po nim to + bezokolicznik.",
+      "example": {
+        "en": "I would be delighted to accept your invitation to the opening of the new art gallery.",
+        "pl": "Z wielką przyjemnością przyjmę zaproszenie na otwarcie nowej galerii sztuki."
+      },
+      "register": "formal",
+      "tags": ["I'd love to", "zaproszenie", "zgoda"]
+    },
+    {
+      "en": "I am afraid I will be unable to (do sth)",
+      "pl": "Niestety nie będę mógł…",
+      "meaning_pl": "zamiast potocznego „I can't make it”: grzeczna odmowa. I am afraid łagodzi złą wiadomość (tu znaczy „niestety”, nie „boję się”). Be unable to jest formalniejsze od can't, a make it to potoczne „dać radę przyjść”.",
+      "example": {
+        "en": "I am afraid I will be unable to attend the meeting on Friday because of my exams.",
+        "pl": "Niestety nie będę mógł przyjść na piątkowe spotkanie z powodu egzaminów."
+      },
+      "register": "formal",
+      "tags": ["I can't make it", "odmowa", "zaproszenie"]
+    },
+    {
+      "en": "Please do not hesitate to contact me",
+      "pl": "Proszę śmiało się ze mną kontaktować",
+      "meaning_pl": "zamiast potocznego „Give me a shout”: standardowe zaproszenie do kontaktu tuż przed zakończeniem listu. Dosłownie „proszę się nie wahać”, ale po polsku lepiej brzmi „proszę śmiało pisać”. Pełne do not, bez skrótu don't.",
+      "example": {
+        "en": "If you need any more information, please do not hesitate to contact me.",
+        "pl": "Jeśli potrzebują Państwo więcej informacji, proszę śmiało się ze mną kontaktować."
+      },
+      "register": "formal",
+      "tags": ["Give me a shout", "zakończenie", "kontakt"]
+    },
+    {
+      "en": "Should you have any questions, …",
+      "pl": "Gdyby mieli Państwo jakieś pytania…",
+      "meaning_pl": "zamiast potocznego „Any questions, just ask”: bardzo formalna wersja If you have any questions. Should przechodzi na początek i zastępuje if, a czasownik zostaje w formie podstawowej (Should anyone need help, nie needs). Używaj jako gotowej formułki na końcu listu.",
+      "example": {
+        "en": "Should you have any further questions, I will be happy to answer them.",
+        "pl": "Gdyby mieli Państwo jeszcze jakieś pytania, chętnie na nie odpowiem."
+      },
+      "register": "formal",
+      "tags": ["Any questions, just ask", "zakończenie", "inwersja"]
+    },
+    {
+      "en": "I look forward to hearing from you",
+      "pl": "Czekam na odpowiedź",
+      "meaning_pl": "zamiast potocznego „Write soon!”: ostatnie zdanie przed Yours faithfully albo Yours sincerely. Pułapka: to jest tu przyimkiem, więc po nim -ing albo rzeczownik (to hearing, to your reply), nie bezokolicznik. Formalnie I look forward, a I'm looking forward brzmi luźniej.",
+      "example": {
+        "en": "Thank you for considering my application. I look forward to hearing from you.",
+        "pl": "Dziękuję za rozpatrzenie mojego zgłoszenia. Czekam na odpowiedź."
+      },
+      "register": "formal",
+      "tags": ["Write soon!", "zakończenie", "-ing"]
+    },
+    {
+      "en": "Yours faithfully,",
+      "pl": "Z poważaniem",
+      "meaning_pl": "zamiast potocznego „Bye”: zakończenie listu, który zaczął się od Dear Sir or Madam (nie znasz nazwiska). Pod spodem podpisujesz się imieniem i nazwiskiem. Pułapka: faithfully pasuje tylko do Dear Sir or Madam, a do Dear Mr Taylor dajesz Yours sincerely.",
+      "example": {
+        "en": "I look forward to your reply. Yours faithfully, Anna Nowak",
+        "pl": "Czekam na odpowiedź. Z poważaniem, Anna Nowak"
+      },
+      "register": "formal",
+      "tags": ["Bye", "zakończenie", "nieznany adresat"]
+    },
+    {
+      "en": "Yours sincerely,",
+      "pl": "Z wyrazami szacunku",
+      "meaning_pl": "zamiast potocznego „Cheers”: zakończenie listu do osoby, której nazwisko podałeś na początku (Dear Ms Brown). Reguła pary: Sir or Madam → faithfully, nazwisko → sincerely. Cheers i Love zostaw dla znajomych.",
+      "example": {
+        "en": "Thank you once again for your help. Yours sincerely, Piotr Wiśniewski",
+        "pl": "Jeszcze raz dziękuję za pomoc. Z wyrazami szacunku, Piotr Wiśniewski"
+      },
+      "register": "formal",
+      "tags": ["Cheers", "zakończenie", "znany adresat"]
+    }
+  ]
+}

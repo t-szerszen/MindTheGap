@@ -1,0 +1,205 @@
+{
+  "id": "phrasal-turn",
+  "category": "phrasal-verbs",
+  "title_pl": "Phrasal verbs z turn",
+  "items": [
+    {
+      "en": "turn sth on / turn on sth (a device)",
+      "pl": "włączyć (światło, telewizor, kran)",
+      "meaning_pl": "rzeczownik może stać po on albo w środku (turn on the TV / turn the TV on), ale zaimek tylko w środku: turn it on, nigdy turn on it. Uwaga: turn on sb (bez rozdzielania) to coś zupełnie innego: nagle się na kogoś rzucić, zaatakować",
+      "example": {
+        "en": "My phone was dead, so I charged it and turned it on again.",
+        "pl": "Telefon mi padł, więc go naładowałem i znowu włączyłem."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "technologia", "dom"]
+    },
+    {
+      "en": "turn sth off / turn off sth (a device)",
+      "pl": "wyłączyć (światło, telewizor, kran)",
+      "meaning_pl": "off znaczy całkiem, do zera; down znaczy tylko mniej. Zaimek w środku: turn it off. To samo co switch off",
+      "example": {
+        "en": "Please turn off your phones before the exam starts.",
+        "pl": "Proszę wyłączyć telefony przed rozpoczęciem egzaminu."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "technologia", "szkoła"]
+    },
+    {
+      "en": "turn sth up / turn up sth (volume, heating)",
+      "pl": "podgłośnić, podkręcić (np. ogrzewanie)",
+      "meaning_pl": "up = więcej: głośniej, cieplej, mocniej. Rzeczownik po up albo w środku (turn up the music / turn the music up), zaimek tylko w środku: turn it up. Bez dopełnienia turn up znaczy coś innego: zjawić się",
+      "example": {
+        "en": "It's freezing in here. Can I turn the heating up?",
+        "pl": "Strasznie tu zimno. Mogę podkręcić ogrzewanie?"
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "dom", "technologia"]
+    },
+    {
+      "en": "turn sth down / turn down sth (volume, heating)",
+      "pl": "ściszyć, przykręcić",
+      "meaning_pl": "down = mniej, ale nie do zera (do zera to off). Zaimek w środku: turn it down. Ta sama forma znaczy też odrzucić propozycję; poznasz po dopełnieniu: radio czy oferta",
+      "example": {
+        "en": "Could you turn the TV down a bit? I'm trying to revise for my exam.",
+        "pl": "Możesz trochę ściszyć telewizor? Próbuję powtarzać do egzaminu."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "dom", "szkoła"]
+    },
+    {
+      "en": "turn sb/sth down / turn down sb/sth (refuse)",
+      "pl": "odrzucić, nie przyjąć (oferty, zaproszenia), odmówić komuś",
+      "meaning_pl": "nie przyjmujesz czegoś, co ci proponują: an offer, an invitation, a job. Zaimek w środku: turn it down, she turned him down. W rozprawce formalniej: reject albo decline",
+      "example": {
+        "en": "Tom was offered a job in a bank, but he turned it down because the salary was too low.",
+        "pl": "Tomowi zaproponowano pracę w banku, ale odmówił, bo pensja była za niska."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "praca", "decyzje"]
+    },
+    {
+      "en": "turn up (arrive)",
+      "pl": "zjawić się, pojawić się, przyjść",
+      "meaning_pl": "ktoś przychodzi, często niespodziewanie albo spóźniony. Nie ma dopełnienia, więc nie ma czego rozdzielać; miejsce dodajesz przez at albo for: turn up at the party, turn up for the lesson. Potocznie to samo: show up",
+      "example": {
+        "en": "Jake turned up an hour late and didn't even apologise.",
+        "pl": "Jake zjawił się z godzinnym spóźnieniem i nawet nie przeprosił."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "życie prywatne"]
+    },
+    {
+      "en": "turn up (be found)",
+      "pl": "znaleźć się (o zgubionej rzeczy)",
+      "meaning_pl": "zgubiona rzecz odnajduje się, zwykle przypadkiem. Podmiotem jest ta rzecz, nie ty. Bez dopełnienia. Something will turn up = coś się trafi (np. praca, okazja)",
+      "example": {
+        "en": "I lost my wallet on the bus, but luckily it turned up at the lost property office.",
+        "pl": "Zgubiłem portfel w autobusie, ale na szczęście znalazł się w biurze rzeczy znalezionych."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "życie codzienne"]
+    },
+    {
+      "en": "turn out (that) / turn out to be sth",
+      "pl": "okazać się",
+      "meaning_pl": "polskie „okazało się, że…” to it turned out (that)…, a „X okazał się kimś/jakiś” to X turned out to be sb/sth. Bez dopełnienia, nie rozdzielasz. As it turned out = jak się okazało",
+      "example": {
+        "en": "At first I thought the new teacher was strict, but she turned out to be really friendly.",
+        "pl": "Na początku myślałem, że nowa nauczycielka jest surowa, ale okazała się naprawdę sympatyczna."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "opowiadanie"]
+    },
+    {
+      "en": "turn out well/badly (end in a particular way)",
+      "pl": "potoczyć się, skończyć się (dobrze albo źle)",
+      "meaning_pl": "mówisz, jak coś się w końcu ułożyło, często inaczej, niż się bałeś. Zwykle z well, badly, all right albo w pytaniu: How did it turn out? Bez dopełnienia",
+      "example": {
+        "en": "I was really nervous before the interview, but everything turned out well in the end.",
+        "pl": "Bardzo się stresowałem przed rozmową kwalifikacyjną, ale w końcu wszystko dobrze się skończyło."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "opowiadanie"]
+    },
+    {
+      "en": "turn out (for sth) (come to an event)",
+      "pl": "przyjść, stawić się (zwykle tłumnie)",
+      "meaning_pl": "ludzie przychodzą na wydarzenie: koncert, mecz, wybory. Bez dopełnienia; cel dodajesz przez for albo to + bezokolicznik. Stąd rzeczownik turnout = frekwencja",
+      "example": {
+        "en": "Over ten thousand fans turned out for the cup final.",
+        "pl": "Na finał pucharu przyszło ponad dziesięć tysięcy kibiców."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "sport", "społeczeństwo"]
+    },
+    {
+      "en": "turn into sth (become)",
+      "pl": "zmienić się w coś, przerodzić się w coś",
+      "meaning_pl": "coś samo staje się czymś innym, często niespodziewanie. Nierozdzielny: dopełnienie zawsze po into (turn into a disaster, turn into it)",
+      "example": {
+        "en": "What started as a small disagreement quickly turned into a huge row.",
+        "pl": "To, co zaczęło się od drobnej różnicy zdań, szybko przerodziło się w wielką awanturę."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "zmiana", "relacje"]
+    },
+    {
+      "en": "turn sb/sth into sth (change)",
+      "pl": "zamienić kogoś/coś w coś, przerobić coś na coś",
+      "meaning_pl": "to ty zmieniasz coś w coś innego. Dopełnienie zawsze stoi między turn a into: turn the garage into a gym, turn it into a gym. Bez dopełnienia (turn into sth) coś zmienia się samo",
+      "example": {
+        "en": "The town council turned the old factory into a modern library.",
+        "pl": "Rada miasta zamieniła starą fabrykę w nowoczesną bibliotekę."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "zmiana", "miasto"]
+    },
+    {
+      "en": "turn round / turn around (face the other way)",
+      "pl": "odwrócić się, obrócić się",
+      "meaning_pl": "obracasz się, żeby patrzeć w drugą stronę. Brytyjczycy mówią też turn round. W tym znaczeniu bez dopełnienia",
+      "example": {
+        "en": "When I called his name, he turned round and smiled.",
+        "pl": "Kiedy zawołałem go po imieniu, odwrócił się i uśmiechnął."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "ruch"]
+    },
+    {
+      "en": "turn back (go back)",
+      "pl": "zawrócić",
+      "meaning_pl": "wracasz tą samą drogą, zanim dotrzesz do celu, np. przez pogodę. Bez dopełnienia. There's no turning back = nie ma odwrotu, decyzja już zapadła",
+      "example": {
+        "en": "The weather got so bad that the climbers had to turn back just below the summit.",
+        "pl": "Pogoda tak się popsuła, że wspinacze musieli zawrócić tuż pod szczytem."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "podróże"]
+    },
+    {
+      "en": "turn sb away / turn away sb (refuse entry)",
+      "pl": "nie wpuścić kogoś, odprawić kogoś",
+      "meaning_pl": "nie pozwalasz komuś wejść, bo brakuje miejsc albo biletów. Rzeczownik po away albo w środku, zaimek tylko w środku: turn them away. Często w stronie biernej: we were turned away",
+      "example": {
+        "en": "The stadium was full, so hundreds of fans were turned away at the gates.",
+        "pl": "Stadion był pełny, więc setek kibiców nie wpuszczono do środka."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "strona bierna", "sport"]
+    },
+    {
+      "en": "turn to sb (for sth)",
+      "pl": "zwrócić się do kogoś (o pomoc, radę)",
+      "meaning_pl": "idziesz do kogoś po wsparcie, kiedy masz problem. Nierozdzielny: osoba zawsze po to (turn to her for help). Na lekcji: turn to page 20 = otwórzcie na stronie 20",
+      "example": {
+        "en": "Whenever I have a problem, I turn to my older sister for advice.",
+        "pl": "Kiedy mam jakiś problem, zwracam się po radę do starszej siostry."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "relacje", "rodzina"]
+    },
+    {
+      "en": "turn against sb",
+      "pl": "zwrócić się przeciwko komuś",
+      "meaning_pl": "przestajesz kogoś wspierać i stajesz się wrogo nastawiony. Nierozdzielny: turn against him. Z dopełnieniem w środku znaczy co innego: turn sb against sb = nastawić kogoś przeciwko komuś",
+      "example": {
+        "en": "After the scandal, even his closest friends turned against him.",
+        "pl": "Po skandalu nawet najbliżsi przyjaciele zwrócili się przeciwko niemu."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "relacje", "media"]
+    },
+    {
+      "en": "turn sb in / turn yourself in (to the police)",
+      "pl": "wydać kogoś policji / zgłosić się na policję",
+      "meaning_pl": "oddajesz kogoś (albo siebie) w ręce policji. Dopełnienie zwykle w środku: turn him in, turn yourself in to the police. Uwaga: oddać pracę domową to w BrE hand in",
+      "example": {
+        "en": "Two days after the robbery, the man turned himself in to the police.",
+        "pl": "Dwa dni po napadzie mężczyzna sam zgłosił się na policję."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "przestępczość"]
+    }
+  ]
+}

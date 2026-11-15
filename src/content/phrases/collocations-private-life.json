@@ -1,0 +1,238 @@
+{
+  "id": "collocations-private-life",
+  "category": "collocations",
+  "title_pl": "Kolokacje: życie prywatne, rodzina, czas wolny",
+  "items": [
+    {
+      "en": "start a family",
+      "pl": "założyć rodzinę",
+      "meaning_pl": "po angielsku chodzi o pierwsze dziecko, nie o sam ślub; nie mów found a family",
+      "example": {
+        "en": "They want to travel for a few years before they start a family.",
+        "pl": "Chcą kilka lat popodróżować, zanim założą rodzinę."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "rodzina"]
+    },
+    {
+      "en": "make friends (with sb)",
+      "pl": "zaprzyjaźnić się (z kimś), poznać nowych przyjaciół",
+      "meaning_pl": "czasownik make, nie do; friends zawsze w liczbie mnogiej, nawet z jedną osobą: I made friends with Kasia",
+      "example": {
+        "en": "Joining a sports club is a great way to make friends with people who share your interests.",
+        "pl": "Zapisanie się do klubu sportowego to świetny sposób, żeby zaprzyjaźnić się z ludźmi o podobnych zainteresowaniach."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "przyjaciele"]
+    },
+    {
+      "en": "have an argument (with sb) (about sth)",
+      "pl": "pokłócić się (z kimś) (o coś)",
+      "meaning_pl": "argument to tu kłótnia; z kimś = with, o coś = about; potocznie po brytyjsku have a row",
+      "example": {
+        "en": "I had an argument with my brother about whose turn it was to wash up.",
+        "pl": "Pokłóciłem się z bratem o to, czyja kolej na zmywanie."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "konflikty"]
+    },
+    {
+      "en": "keep in touch (with sb)",
+      "pl": "utrzymywać kontakt (z kimś)",
+      "meaning_pl": "to samo: stay in touch; przeciwieństwo: lose touch (with sb), czyli stracić kontakt; typowe zakończenie listu do kolegi: Let's keep in touch!",
+      "example": {
+        "en": "We still keep in touch, even though she moved to Canada two years ago.",
+        "pl": "Wciąż jesteśmy w kontakcie, chociaż dwa lata temu przeprowadziła się do Kanady."
+      },
+      "register": "neutral",
+      "tags": ["verb+prep+noun", "przyjaciele", "list"]
+    },
+    {
+      "en": "have / throw a party (for sb)",
+      "pl": "zrobić imprezę, urządzić przyjęcie (dla kogoś)",
+      "meaning_pl": "po polsku robimy imprezę, ale po angielsku nie make a party; throw brzmi luźniej niż have; być na imprezie = at a party",
+      "example": {
+        "en": "We're throwing a surprise party for my grandma's eightieth birthday.",
+        "pl": "Urządzamy babci przyjęcie-niespodziankę na osiemdziesiąte urodziny."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "czas wolny", "uroczystości"]
+    },
+    {
+      "en": "keep / break a promise",
+      "pl": "dotrzymać / złamać obietnicy",
+      "meaning_pl": "obietnicę się make (składa), keep (dotrzymuje) albo break (łamie)",
+      "example": {
+        "en": "He said he would help me move house, but he didn't keep his promise.",
+        "pl": "Powiedział, że pomoże mi w przeprowadzce, ale nie dotrzymał obietnicy."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "relacje"]
+    },
+    {
+      "en": "fall in love (with sb)",
+      "pl": "zakochać się (w kimś)",
+      "meaning_pl": "po polsku zakochać się W kimś, ale po angielsku with sb, nie in sb; stan to be in love with sb",
+      "example": {
+        "en": "Tom fell in love with a girl he met on holiday in Spain.",
+        "pl": "Tom zakochał się w dziewczynie, którą poznał na wakacjach w Hiszpanii."
+      },
+      "register": "neutral",
+      "tags": ["verb+prep+noun", "związki"]
+    },
+    {
+      "en": "have a lot in common (with sb)",
+      "pl": "mieć (z kimś) dużo wspólnego",
+      "meaning_pl": "ilość wstawiasz przed in common: a lot / much / nothing / something in common",
+      "example": {
+        "en": "Although we are twins, my sister and I don't have much in common.",
+        "pl": "Chociaż jesteśmy bliźniaczkami, z siostrą nie mamy ze sobą wiele wspólnego."
+      },
+      "register": "neutral",
+      "tags": ["verb+prep+noun", "przyjaciele", "rodzina"]
+    },
+    {
+      "en": "lead a busy / healthy life",
+      "pl": "prowadzić intensywne / zdrowe życie",
+      "meaning_pl": "prowadzić życie = lead (formy: lead, led, led); często też lead a healthy lifestyle",
+      "example": {
+        "en": "My parents lead such busy lives that we only eat together at weekends.",
+        "pl": "Moi rodzice prowadzą tak intensywne życie, że jemy razem tylko w weekendy."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "styl życia"]
+    },
+    {
+      "en": "spend quality time with sb",
+      "pl": "spędzać z kimś wartościowy czas, poświęcać komuś czas",
+      "meaning_pl": "quality time to czas, kiedy skupiasz się na drugiej osobie, bez telefonu i pośpiechu; spędzać czas = spend time, a pass the time to raczej zabijać czas z nudów",
+      "example": {
+        "en": "Many parents work long hours and find it hard to spend quality time with their children.",
+        "pl": "Wielu rodziców pracuje do późna i trudno im znaleźć czas tylko dla dzieci."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "rodzina", "czas wolny"]
+    },
+    {
+      "en": "close friend",
+      "pl": "bliski przyjaciel",
+      "meaning_pl": "bliski = close (czytaj z [s], nie [z]), nie near; tak samo: a close relationship, close family",
+      "example": {
+        "en": "Only my closest friends know that I'm planning to study abroad.",
+        "pl": "Tylko najbliżsi przyjaciele wiedzą, że planuję studia za granicą."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "przyjaciele"]
+    },
+    {
+      "en": "extended family",
+      "pl": "dalsza rodzina",
+      "meaning_pl": "dziadkowie, ciocie, wujkowie, kuzyni; najbliższa rodzina (rodzice, rodzeństwo) to immediate family",
+      "example": {
+        "en": "At Christmas our whole extended family gets together at my grandparents' house.",
+        "pl": "W święta cała nasza rodzina, także ta dalsza, zjeżdża się do dziadków."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "rodzina"]
+    },
+    {
+      "en": "single parent",
+      "pl": "samotny rodzic",
+      "meaning_pl": "single = bez partnera (stan); lonely to samotny w sensie: czuje się sam; też a single-parent family",
+      "example": {
+        "en": "Being a single parent isn't easy, especially when you also work full-time.",
+        "pl": "Bycie samotnym rodzicem nie jest łatwe, zwłaszcza gdy pracujesz na pełen etat."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "rodzina"]
+    },
+    {
+      "en": "only child",
+      "pl": "jedynak, jedynaczka",
+      "meaning_pl": "z przedimkiem: an only child; nie single child",
+      "example": {
+        "en": "As an only child, I never had to share my room with anyone.",
+        "pl": "Jako jedynak nigdy nie musiałem z nikim dzielić pokoju."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "rodzina"]
+    },
+    {
+      "en": "spare time",
+      "pl": "wolny czas",
+      "meaning_pl": "z przyimkiem in: in my spare time; free time znaczy to samo, leisure time brzmi bardziej oficjalnie",
+      "example": {
+        "en": "In my spare time, I play the guitar and go cycling with my friends.",
+        "pl": "W wolnym czasie gram na gitarze i jeżdżę z przyjaciółmi na rowerze."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "czas wolny"]
+    },
+    {
+      "en": "special occasion",
+      "pl": "specjalna okazja, uroczystość",
+      "meaning_pl": "on special occasions = od święta; kupić coś na specjalną okazję: for a special occasion",
+      "example": {
+        "en": "We only use this tablecloth on special occasions, like birthdays or Easter.",
+        "pl": "Tego obrusu używamy tylko od święta, na przykład na urodziny albo Wielkanoc."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "uroczystości"]
+    },
+    {
+      "en": "generation gap",
+      "pl": "różnica pokoleń, przepaść pokoleniowa",
+      "meaning_pl": "różnice w poglądach i stylu życia między młodszymi a starszymi; zmniejszać ją: bridge the generation gap",
+      "example": {
+        "en": "Music is one area where the generation gap is obvious: my dad can't stand the songs I listen to.",
+        "pl": "Muzyka to dziedzina, w której różnicę pokoleń widać od razu: tata nie znosi piosenek, których słucham."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "konflikty", "rodzina"]
+    },
+    {
+      "en": "household chores",
+      "pl": "obowiązki domowe",
+      "meaning_pl": "obowiązki się do, nie make: do the chores, do the housework; housework jest niepoliczalne (bez -s) i to nie homework, czyli zadanie do szkoły",
+      "example": {
+        "en": "In our family, everyone shares the household chores, so nobody has to do everything alone.",
+        "pl": "W naszej rodzinie wszyscy dzielą się obowiązkami domowymi, więc nikt nie musi robić wszystkiego sam."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "rodzina", "dom"]
+    },
+    {
+      "en": "family ties",
+      "pl": "więzi rodzinne",
+      "meaning_pl": "tie = więź (i krawat); zwykle w liczbie mnogiej, często strong / close family ties",
+      "example": {
+        "en": "Regular family dinners help to keep family ties strong.",
+        "pl": "Regularne rodzinne obiady pomagają utrzymać silne więzi rodzinne."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "rodzina"]
+    },
+    {
+      "en": "get on well (with sb)",
+      "pl": "dobrze się (z kimś) dogadywać",
+      "meaning_pl": "brytyjskie, w USA częściej get along; po get on stoi przysłówek well, nie przymiotnik good",
+      "example": {
+        "en": "I get on really well with my stepdad, although at first it wasn't easy.",
+        "pl": "Naprawdę dobrze dogaduję się z ojczymem, choć na początku nie było łatwo."
+      },
+      "register": "neutral",
+      "tags": ["verb+adverb", "rodzina", "relacje"]
+    },
+    {
+      "en": "rely heavily on sb / sth",
+      "pl": "w dużym stopniu polegać na kimś / czymś",
+      "meaning_pl": "typowy przysłówek przy rely to heavily (mocno, w dużym stopniu); przyimek on, formalnie upon",
+      "example": {
+        "en": "Many young couples rely heavily on their parents to help with childcare.",
+        "pl": "Wiele młodych par w dużym stopniu polega na rodzicach, jeśli chodzi o pomoc przy dzieciach."
+      },
+      "register": "neutral",
+      "tags": ["verb+adverb", "rodzina"]
+    }
+  ]
+}

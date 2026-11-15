@@ -1,0 +1,125 @@
+{
+  "id": "register",
+  "category": "vocabulary",
+  "title_pl": "Rejestr: styl formalny i nieformalny",
+  "summary_pl": "Co sprawia, że tekst brzmi formalnie: pełne formy, precyzyjne czasowniki, konstrukcje bezosobowe i łączniki. Z przykładami „potocznie → formalnie”.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "**Rejestr** to sposób mówienia dopasowany do odbiorcy i sytuacji. Tę samą informację możesz przekazać koledze na czacie albo redakcji gazety. Treść jest ta sama, zmienia się dystans.\n\nStyl formalny to nie „trudniejsze słówka”. Chodzi o trzy rzeczy:\n\n- **dystans:** mniej emocji i mniej zwracania się wprost do czytelnika\n- **precyzja:** jedno konkretne słowo zamiast ogólnika albo całej frazy\n- **pełne zdania:** bez skrótów i urwanych zdań, które w mowie są naturalne\n\nNa maturze rozszerzonej rozprawka ma styl formalny, list formalny też. Artykuł jest bardziej elastyczny, ale nadal nie powinien brzmieć jak rozmowa."
+    },
+    {
+      "type": "table",
+      "headers": ["Co zmieniasz", "Potocznie", "Formalnie"],
+      "rows": [
+        ["pełne formy zamiast skrótów", "I don't think it's fair.", "I do not think it is fair."],
+        [
+          "jeden czasownik zamiast phrasal verba, jeśli taki istnieje",
+          "We need to find out why prices went up.",
+          "We need to establish why prices increased."
+        ],
+        [
+          "konstrukcja bezosobowa albo strona bierna zamiast you / people",
+          "People say that you can learn a language in a year.",
+          "It is often claimed that a language can be learnt in a year."
+        ],
+        [
+          "łączniki formalne zamiast but / so / also na początku zdania",
+          "So it's a bad idea. But some people like it.",
+          "It is therefore not a good idea. However, some people support it."
+        ],
+        [
+          "precyzyjne słowo zamiast ogólnika",
+          "There's a lot of stuff to do in the town and it's really nice.",
+          "The town offers a wide range of activities and a pleasant atmosphere."
+        ],
+        [
+          "rzeczownik zamiast całego zdania",
+          "Lots of people have started cycling, which is great.",
+          "The rise in the number of cyclists is a positive development."
+        ],
+        [
+          "spokojne wzmocnienie zamiast emocjonalnego",
+          "It's super important and way better than before.",
+          "It is extremely important and far better than before."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "To są **tendencje**, nie zakazy. Nie każdy phrasal verb jest potoczny: *carry out research* czy *point out* spokojnie pasują do rozprawki. Nie każde długie słowo jest lepsze: *commence* jest tak urzędowe, że w wypracowaniu zwykle wystarczy *begin*. Formalnie nie znaczy sztywno ani napuszenie."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "nieformalnie",
+          "md_pl": "Skróty, *you*, emocje, *so* i *but* na początku zdań, ogólniki (*stuff, a lot of, really*).",
+          "examples": [
+            {
+              "en": "Loads of people in my town don't know their neighbours. It's a shame, 'cause neighbours can really help you out. So I think we should do something about it, like a street party or something.",
+              "pl": "Masa ludzi w moim mieście nie zna swoich sąsiadów. Szkoda, bo sąsiedzi naprawdę mogą ci pomóc. Więc uważam, że powinniśmy coś z tym zrobić, na przykład imprezę na ulicy albo coś w tym stylu."
+            }
+          ]
+        },
+        {
+          "title": "formalnie",
+          "md_pl": "Pełne formy, konstrukcje bezosobowe, precyzyjne słownictwo, formalne łączniki, konkretna propozycja.",
+          "examples": [
+            {
+              "en": "A considerable number of residents in my town do not know their neighbours. This is regrettable, as neighbours can offer valuable support. I would therefore suggest that the council organise a street party to bring the community together.",
+              "pl": "Znaczna część mieszkańców mojego miasta nie zna swoich sąsiadów. To przykre, ponieważ sąsiedzi mogą być cennym wsparciem. Dlatego proponowałbym, żeby władze miasta zorganizowały festyn uliczny, który zintegruje lokalną społeczność."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Co się zmieniło: *loads of* → *a considerable number of*, *don't* → *do not*, *'cause* → *as*, *help you out* → *offer valuable support*, *So I think* → *I would therefore suggest*, *or something* → konkretna propozycja. Sens jest ten sam, zmienił się rejestr, a ogólnik zamienił się w konkretną propozycję."
+    },
+    {
+      "type": "text",
+      "md_pl": "## Co egzaminator uzna za zły styl\n\nW zasadach oceniania wypowiedzi pisemnej są dwa pojęcia:\n\n- **styl niestosowny:** np. zbyt metaforyczny albo potoczny jak w mowie;\n- **styl niejednolity:** mieszanie stylów bez powodu, np. formalny wstęp i nagle *gonna* w drugim akapicie.\n\nZa rażące albo liczne uchybienia w stylu można stracić 1 punkt w kryterium *zakres środków językowych*. Do tego skróty w stylu *thx* czy *CU* zasady oceniania (2026) liczą jako **błędy ortograficzne**, czyli tracisz też w poprawności."
+    },
+    {
+      "type": "table",
+      "headers": ["Potocznie", "Dlaczego nie pasuje", "W tekście formalnym"],
+      "rows": [
+        [
+          "thx, CU",
+          "skróty z czatu; w zasadach 2026 liczone jako błąd ortograficzny",
+          "thank you, I look forward to seeing you"
+        ],
+        [
+          "u, gr8, pls",
+          "ten sam typ zapisu co thx, czyli pisownia z czatu",
+          "you, great (a najlepiej coś precyzyjniejszego), please"
+        ],
+        [
+          "gonna, wanna, gotta",
+          "zapis wymowy, a nie słowa; to dokładnie styl potoczny jak w mowie",
+          "going to, want to, have to"
+        ],
+        [
+          "kinda, sort of, like (jako wtrącenie)",
+          "zapychacze z rozmowy",
+          "rather, somewhat albo nic"
+        ],
+        [
+          "stuff, things, a lot of",
+          "ogólniki; nie są błędem, ale obniżają precyzję",
+          "belongings / issues (zależnie od sensu), a considerable number of (policzalne) / a great deal of (niepoliczalne)"
+        ],
+        ["!!!, emotikony", "emocje zamiast argumentu", "jedno zdanie z mocniejszym przymiotnikiem"]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "**List formalny.** Otwierasz i zamykasz stałą formułą: *Dear Sir or Madam,* … *Yours faithfully,* (nie znasz nazwiska) albo *Dear Mr Taylor,* … *Yours sincerely,* (znasz nazwisko). W kluczu 2025 (jedyny list formalny w arkuszach 2023–2026) karane były *Hi*, *Hello*, *Greetings* i *Dear Mrs* bez nazwiska. Cel listu podajesz we wstępie: *I am writing to…*\n\n**Rozprawka.** Styl formalny w całym tekście: pełne formy, opinie przez *In my view* albo *It could be argued that*, zamiast *you* konstrukcje bezosobowe.\n\n**Artykuł.** Wstęp może być barwny, a pytania do czytelnika są dozwolone. Wciąż jednak *Hi!* ani *Dear Readers* nie zastąpią tytułu, a reszta tekstu ma być rzeczowa."
+    },
+    {
+      "type": "text",
+      "md_pl": "## Gdzie są zwroty formalne w aplikacji\n\nW zakładce ze zwrotami, kategoria **Rejestr**, jest 5 zestawów par „potocznie → formalnie”:\n\n- **czasowniki:** get → obtain / receive, buy → purchase, find out → discover\n- **rzeczowniki i przymiotniki:** kids → children, stuff → belongings, cheap → affordable\n- **opinie i argumenty:** I think → In my view, people say → It is often argued that\n- **listy formalne:** Hi → Dear Sir or Madam, Can you…? → I would be grateful if you could…\n- **zwroty i konstrukcje:** skróty → pełne formy, a lot of → a considerable number of\n\nW każdej pozycji na początku objaśnienia jest potoczny odpowiednik, więc zestaw działa też w drugą stronę: widzisz w swoim tekście *a lot of* i od razu wiesz, czym to zastąpić."
+    }
+  ]
+}

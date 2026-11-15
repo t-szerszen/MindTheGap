@@ -1,0 +1,249 @@
+{
+  "id": "collocations-society",
+  "category": "collocations",
+  "title_pl": "Kolokacje: państwo i społeczeństwo",
+  "items": [
+    {
+      "en": "commit a crime / an offence",
+      "pl": "popełnić przestępstwo",
+      "meaning_pl": "czasownik commit, nie do ani make; crime to też przestępczość ogólnie (niepoliczalne), offence to konkretny czyn karalny, po brytyjsku pisany przez c",
+      "example": {
+        "en": "People who commit a minor offence are often given community service instead of a prison sentence.",
+        "pl": "Osoby, które popełnią drobne przestępstwo, często dostają prace społeczne zamiast kary więzienia."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "przestępczość"]
+    },
+    {
+      "en": "break the law",
+      "pl": "łamać prawo",
+      "meaning_pl": "zawsze the law; przeciwieństwo: obey the law (przestrzegać prawa); be against the law = być niezgodnym z prawem",
+      "example": {
+        "en": "If you drive without a licence, you are breaking the law.",
+        "pl": "Jeśli jeździsz bez prawa jazdy, łamiesz prawo."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "prawo", "przestępczość"]
+    },
+    {
+      "en": "pass a law",
+      "pl": "uchwalić ustawę, uchwalić prawo",
+      "meaning_pl": "pass nie znaczy tu zdać: to parlament uchwala prawo; kiedy zaczyna ono obowiązywać, mówimy come into force",
+      "example": {
+        "en": "Parliament passed a law banning smoking in restaurants, and it came into force a year later.",
+        "pl": "Parlament uchwalił ustawę zakazującą palenia w restauracjach, a weszła ona w życie rok później."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "prawo", "polityka"]
+    },
+    {
+      "en": "be strictly enforced",
+      "pl": "być surowo egzekwowanym",
+      "meaning_pl": "enforce = pilnować, żeby prawo było przestrzegane (robi to np. policja, nie parlament); parlament prawo uchwala (pass), a państwo je egzekwuje (enforce)",
+      "example": {
+        "en": "The speed limit near schools is strictly enforced.",
+        "pl": "Ograniczenie prędkości przy szkołach jest surowo egzekwowane."
+      },
+      "register": "neutral",
+      "tags": ["verb+adverb", "prawo"]
+    },
+    {
+      "en": "impose a ban (on sth)",
+      "pl": "wprowadzić zakaz (czegoś)",
+      "meaning_pl": "ban on + rzeczownik albo -ing; przeciwieństwo: lift a ban = znieść zakaz; impose brzmi urzędowo, prościej introduce a ban",
+      "example": {
+        "en": "Several cities have imposed a ban on older diesel cars in the centre.",
+        "pl": "Kilka miast wprowadziło zakaz wjazdu starszych samochodów z silnikiem diesla do centrum."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "prawo", "polityka"]
+    },
+    {
+      "en": "the crime rate",
+      "pl": "poziom przestępczości, wskaźnik przestępczości",
+      "meaning_pl": "rate = wskaźnik, ile czegoś przypada na liczbę ludzi; tak samo the unemployment rate, the birth rate; wskaźnik rośnie (rise) albo spada (fall)",
+      "example": {
+        "en": "The crime rate in our town has fallen since more street lights were installed.",
+        "pl": "Przestępczość w naszym mieście spadła, odkąd zamontowano więcej latarni."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "przestępczość", "statystyki"]
+    },
+    {
+      "en": "vote in an election",
+      "pl": "głosować w wyborach",
+      "meaning_pl": "po polsku wybory są w l.mn., a konkretne wybory po angielsku często w l.poj.: the last election; vote for sb = głosować na kogoś; general election to w UK wybory parlamentarne, nie generalne",
+      "example": {
+        "en": "Only about half of young people voted in the last general election.",
+        "pl": "W ostatnich wyborach parlamentarnych głosowała tylko mniej więcej połowa młodych ludzi."
+      },
+      "register": "neutral",
+      "tags": ["verb+prep+noun", "wybory", "polityka"]
+    },
+    {
+      "en": "voter turnout",
+      "pl": "frekwencja wyborcza",
+      "meaning_pl": "turnout = ilu ludzi przyszło; mówimy high / low turnout; pułapka: frequency to częstotliwość, nie frekwencja",
+      "example": {
+        "en": "Voter turnout among people under 25 is usually much lower than among pensioners.",
+        "pl": "Frekwencja wśród osób poniżej 25 lat jest zwykle dużo niższa niż wśród emerytów."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "wybory", "statystyki"]
+    },
+    {
+      "en": "a heated debate",
+      "pl": "burzliwa debata, zażarta dyskusja",
+      "meaning_pl": "heated = rozgrzany emocjami; debata wybucha z jakiegoś powodu: sth sparks a heated debate (wywołuje)",
+      "example": {
+        "en": "The proposal to lower the voting age to sixteen sparked a heated debate.",
+        "pl": "Propozycja obniżenia wieku wyborczego do szesnastu lat wywołała burzliwą debatę."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "polityka", "rozprawka"]
+    },
+    {
+      "en": "a controversial issue",
+      "pl": "kontrowersyjna kwestia, sporna sprawa",
+      "meaning_pl": "issue to tu sprawa, o którą ludzie się spierają (nie wydanie gazety); dobre otwarcie rozprawki: X is a controversial issue",
+      "example": {
+        "en": "Immigration remains a controversial issue in many European countries.",
+        "pl": "Imigracja wciąż jest kontrowersyjną kwestią w wielu krajach Europy."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "rozprawka"]
+    },
+    {
+      "en": "strongly oppose sth",
+      "pl": "zdecydowanie się czemuś sprzeciwiać",
+      "meaning_pl": "oppose łączy się z dopełnieniem bez przyimka: oppose the plan; z be jest to: be strongly opposed to sth / to doing sth",
+      "example": {
+        "en": "Many residents strongly oppose the plan to close the local library.",
+        "pl": "Wielu mieszkańców zdecydowanie sprzeciwia się planowi zamknięcia miejscowej biblioteki."
+      },
+      "register": "neutral",
+      "tags": ["verb+adverb", "opinia", "rozprawka"]
+    },
+    {
+      "en": "be widely criticised (for sth)",
+      "pl": "spotkać się z powszechną krytyką (za coś)",
+      "meaning_pl": "widely = przez wielu ludzi, w wielu miejscach, nie szeroko w sensie rozmiaru; tak samo widely believed, widely accepted; pisownia brytyjska: criticised",
+      "example": {
+        "en": "The government was widely criticised for cutting funding for schools.",
+        "pl": "Rząd spotkał się z powszechną krytyką za cięcia w finansowaniu szkół."
+      },
+      "register": "neutral",
+      "tags": ["verb+adverb", "polityka", "opinia"]
+    },
+    {
+      "en": "the general public",
+      "pl": "ogół społeczeństwa, zwykli ludzie",
+      "meaning_pl": "ludzie w ogóle, w odróżnieniu od ekspertów albo polityków; zawsze z the; jedna osoba to a member of the public",
+      "example": {
+        "en": "Politicians often use language that the general public doesn't understand.",
+        "pl": "Politycy często używają języka, którego zwykli ludzie nie rozumieją."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "społeczeństwo"]
+    },
+    {
+      "en": "local authorities",
+      "pl": "władze lokalne, samorząd",
+      "meaning_pl": "władze miasta albo gminy (w Wielkiej Brytanii zwykle the council); przydaje się w liście, w którym proponujesz coś dla swojej okolicy",
+      "example": {
+        "en": "The local authorities have promised to build a new skatepark next year.",
+        "pl": "Władze lokalne obiecały, że w przyszłym roku zbudują nowy skatepark."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "urzędy", "list"]
+    },
+    {
+      "en": "tackle a problem",
+      "pl": "zmierzyć się z problemem, walczyć z problemem",
+      "meaning_pl": "tackle = zabrać się za trudną sprawę i próbować ją rozwiązać; pasuje do unemployment, poverty, crime; brzmi mocniej niż deal with",
+      "example": {
+        "en": "The government must do more to tackle youth unemployment.",
+        "pl": "Rząd musi zrobić więcej, żeby walczyć z bezrobociem wśród młodych."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "problemy społeczne", "rozprawka"]
+    },
+    {
+      "en": "take action (on / against sth)",
+      "pl": "podjąć działania (w sprawie czegoś / przeciw czemuś)",
+      "meaning_pl": "action w tym znaczeniu jest niepoliczalne: take action, bez a; podobnie take steps / take measures to do sth",
+      "example": {
+        "en": "Governments need to take action on climate change before it is too late.",
+        "pl": "Rządy muszą podjąć działania w sprawie zmian klimatu, zanim będzie za późno."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "polityka", "rozprawka"]
+    },
+    {
+      "en": "social inequality",
+      "pl": "nierówności społeczne",
+      "meaning_pl": "po polsku l.mn., po angielsku zwykle l.poj. bez a; podobnie income inequality; opisowo: the gap between rich and poor",
+      "example": {
+        "en": "Many people believe that free education is the best way to reduce social inequality.",
+        "pl": "Wiele osób uważa, że bezpłatna edukacja to najlepszy sposób na zmniejszenie nierówności społecznych."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "problemy społeczne", "rozprawka"]
+    },
+    {
+      "en": "violate / protect human rights",
+      "pl": "łamać / chronić prawa człowieka",
+      "meaning_pl": "human rights zawsze w l.mn.; violate jest oficjalne, w zwykłym tekście też abuse human rights; rzeczownik: human rights abuses / violations",
+      "example": {
+        "en": "The report accused the regime of violating human rights.",
+        "pl": "W raporcie oskarżono reżim o łamanie praw człowieka."
+      },
+      "register": "formal",
+      "tags": ["verb+noun", "prawa człowieka", "konflikty"]
+    },
+    {
+      "en": "go on strike",
+      "pl": "zastrajkować, rozpocząć strajk",
+      "meaning_pl": "go on strike = zacząć strajk, be on strike = właśnie strajkować; bez a przed strike; powód po over albo for: over low pay",
+      "example": {
+        "en": "Nurses went on strike over low pay.",
+        "pl": "Pielęgniarki zastrajkowały z powodu niskich płac."
+      },
+      "register": "neutral",
+      "tags": ["verb+prep+noun", "konflikty", "praca"]
+    },
+    {
+      "en": "raise awareness (of / about sth)",
+      "pl": "uświadamiać ludziom (coś), podnosić świadomość (czegoś)",
+      "meaning_pl": "raise = podnieść coś, zawsze z dopełnieniem; nie myl z rise, które dopełnienia nie ma (prices rise); typowe przy kampaniach społecznych",
+      "example": {
+        "en": "The campaign aims to raise awareness of the dangers of drink-driving.",
+        "pl": "Kampania ma uświadomić ludziom, jak niebezpieczna jest jazda po alkoholu."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "aktywność obywatelska", "rozprawka"]
+    },
+    {
+      "en": "raise money (for charity)",
+      "pl": "zbierać pieniądze (na cele charytatywne)",
+      "meaning_pl": "raise money = zdobyć pieniądze, np. organizując koncert albo kiermasz; for charity bez the; znowu raise, nie rise",
+      "example": {
+        "en": "We held a cake sale to raise money for charity.",
+        "pl": "Zorganizowaliśmy kiermasz ciast, żeby zebrać pieniądze na cele charytatywne."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "aktywność obywatelska", "list"]
+    },
+    {
+      "en": "do voluntary work",
+      "pl": "pracować jako wolontariusz, działać w wolontariacie",
+      "meaning_pl": "voluntary to przymiotnik (dobrowolny, bez zapłaty), volunteer to osoba albo czasownik: volunteer at a shelter; czasownik do, nie make",
+      "example": {
+        "en": "She does voluntary work at an animal shelter every Saturday.",
+        "pl": "W każdą sobotę pracuje jako wolontariuszka w schronisku dla zwierząt."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "aktywność obywatelska", "rozprawka"]
+    }
+  ]
+}

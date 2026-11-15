@@ -1,0 +1,282 @@
+{
+  "id": "idioms-decisions",
+  "category": "idioms",
+  "title_pl": "Idiomy: decyzje i ryzyko",
+  "items": [
+    {
+      "en": "sit on the fence",
+      "pl": "siedzieć okrakiem na barykadzie, nie opowiadać się po żadnej stronie",
+      "meaning_pl": "unikasz decyzji albo nie mówisz, po której stronie sporu jesteś; zwykle brzmi krytycznie. Obraz: siedzisz na płocie między dwoma polami i nie schodzisz na żadną stronę",
+      "example": {
+        "en": "Most politicians sat on the fence during the debate on the new motorway.",
+        "pl": "Większość polityków nie opowiedziała się po żadnej stronie w debacie o nowej autostradzie."
+      },
+      "register": "neutral",
+      "tags": ["niezdecydowanie", "opinia"]
+    },
+    {
+      "en": "be in two minds (about sth)",
+      "pl": "wahać się, nie móc się zdecydować",
+      "meaning_pl": "jakbyś miał w głowie dwa zdania naraz i żadne nie wygrywa. Wersja brytyjska, po amerykańsku be of two minds. Dalej about + rzeczownik, -ing albo whether",
+      "example": {
+        "en": "I'm in two minds about whether to take a gap year or go straight to university.",
+        "pl": "Waham się, czy zrobić sobie rok przerwy, czy od razu iść na studia."
+      },
+      "register": "neutral",
+      "tags": ["niezdecydowanie", "brytyjskie"]
+    },
+    {
+      "en": "sleep on it",
+      "pl": "prześpij się z tym, zastanów się do jutra",
+      "meaning_pl": "nie decydujesz od razu, tylko czekasz do następnego dnia, aż emocje opadną. Często jako rada: Why don't you sleep on it?",
+      "example": {
+        "en": "The job offer sounds great, but don't answer tonight – sleep on it.",
+        "pl": "Oferta pracy brzmi świetnie, ale nie odpowiadaj dziś wieczorem – prześpij się z tym."
+      },
+      "register": "informal",
+      "tags": ["odkładanie decyzji", "rada"]
+    },
+    {
+      "en": "be up in the air",
+      "pl": "stać pod znakiem zapytania, być nierozstrzygniętym",
+      "meaning_pl": "plany albo decyzja nie są jeszcze ustalone. Pułapka: polskie coś wisi w powietrzu znaczy, że coś zaraz się wydarzy, a up in the air to brak decyzji",
+      "example": {
+        "en": "Our school trip to London is still up in the air because the coach company hasn't confirmed the price.",
+        "pl": "Nasza wycieczka szkolna do Londynu wciąż stoi pod znakiem zapytania, bo przewoźnik nie potwierdził ceny."
+      },
+      "register": "neutral",
+      "tags": ["niepewność", "plany", "pułapka"]
+    },
+    {
+      "en": "take the plunge",
+      "pl": "odważyć się, w końcu się zdecydować",
+      "meaning_pl": "po długim wahaniu robisz coś ważnego albo ryzykownego. Obraz: długo stoisz na brzegu, aż wreszcie skaczesz do zimnej wody. Często take the plunge and + czasownik",
+      "example": {
+        "en": "After months of thinking about it, my sister took the plunge and moved to Dublin.",
+        "pl": "Po miesiącach namysłu moja siostra w końcu się odważyła i przeprowadziła się do Dublina."
+      },
+      "register": "informal",
+      "tags": ["decyzja", "odwaga"]
+    },
+    {
+      "en": "bite the bullet",
+      "pl": "zacisnąć zęby i to zrobić",
+      "meaning_pl": "zmuszasz się do czegoś nieprzyjemnego, co od dawna odkładasz, bo i tak trzeba to zrobić",
+      "example": {
+        "en": "I hate going to the dentist, but I finally bit the bullet and made an appointment.",
+        "pl": "Nie znoszę chodzić do dentysty, ale w końcu zacisnąłem zęby i umówiłem się na wizytę."
+      },
+      "register": "informal",
+      "tags": ["decyzja", "trudne sprawy"]
+    },
+    {
+      "en": "burn your bridges",
+      "pl": "palić za sobą mosty",
+      "meaning_pl": "robisz coś, po czym nie ma już powrotu, np. kłócisz się z szefem przy odejściu z pracy. Działa tak samo jak po polsku; w brytyjskim jest też burn your boats",
+      "example": {
+        "en": "Even if you hate your Saturday job, don't burn your bridges – you might need a reference from your manager.",
+        "pl": "Nawet jeśli nie znosisz swojej pracy w soboty, nie pal za sobą mostów – możesz potrzebować referencji od kierownika."
+      },
+      "register": "neutral",
+      "tags": ["decyzja", "bez odwrotu"]
+    },
+    {
+      "en": "have second thoughts (about sth)",
+      "pl": "mieć wątpliwości, zacząć się wahać",
+      "meaning_pl": "już coś postanowiłeś, ale zaczynasz się zastanawiać, czy dobrze. Zawsze liczba mnoga: thoughts",
+      "example": {
+        "en": "Tom signed up for the marathon, but now he's having second thoughts about it.",
+        "pl": "Tom zapisał się na maraton, ale teraz zaczyna mieć wątpliwości."
+      },
+      "register": "neutral",
+      "tags": ["zmiana zdania", "wątpliwości"]
+    },
+    {
+      "en": "on second thoughts",
+      "pl": "po namyśle, a jednak",
+      "meaning_pl": "zmieniasz zdanie w tej samej chwili, w trakcie mówienia. Brytyjskie on second thoughts, amerykańskie on second thought. Nie myl z have second thoughts, czyli wątpliwościami po podjętej decyzji",
+      "example": {
+        "en": "I'll have the burger, please. On second thoughts, I'll have the salad instead.",
+        "pl": "Poproszę burgera. Albo nie, po namyśle wezmę jednak sałatkę."
+      },
+      "register": "neutral",
+      "tags": ["zmiana zdania", "brytyjskie", "mówienie"]
+    },
+    {
+      "en": "get cold feet (about sth)",
+      "pl": "stchórzyć w ostatniej chwili, mieć pietra",
+      "meaning_pl": "tracisz odwagę tuż przed czymś zaplanowanym i chcesz się wycofać, np. przed ślubem albo skokiem na bungee",
+      "example": {
+        "en": "Ola wanted to do a bungee jump, but she got cold feet at the last minute.",
+        "pl": "Ola chciała skoczyć na bungee, ale w ostatniej chwili stchórzyła."
+      },
+      "register": "informal",
+      "tags": ["wycofanie się", "strach"]
+    },
+    {
+      "en": "be (caught) between a rock and a hard place",
+      "pl": "być między młotem a kowadłem",
+      "meaning_pl": "musisz wybrać jedną z dwóch złych opcji i żadna nie jest dobra. Obraz jak po polsku: z obu stron coś twardego",
+      "example": {
+        "en": "I'm between a rock and a hard place: either I miss my best friend's birthday or I miss the final match.",
+        "pl": "Jestem między młotem a kowadłem: albo opuszczę urodziny najlepszego przyjaciela, albo finałowy mecz."
+      },
+      "register": "informal",
+      "tags": ["dylemat", "wybór"]
+    },
+    {
+      "en": "the lesser of two evils",
+      "pl": "mniejsze zło",
+      "meaning_pl": "z dwóch złych opcji wybierasz tę mniej szkodliwą. Pułapka: lesser, nie smaller ani less. Typowo choose the lesser of two evils",
+      "example": {
+        "en": "Many residents saw the wind farm as the lesser of two evils – the alternative was a new coal-fired power station.",
+        "pl": "Wielu mieszkańców uważało farmę wiatrową za mniejsze zło – alternatywą była nowa elektrownia węglowa."
+      },
+      "register": "neutral",
+      "tags": ["dylemat", "wybór", "rozprawka"]
+    },
+    {
+      "en": "have your cake and eat it",
+      "pl": "zjeść ciastko i mieć ciastko",
+      "meaning_pl": "chcesz dwóch rzeczy, które się wykluczają. Zwykle w przeczeniu: you can't have your cake and eat it. W amerykańskim na końcu dochodzi too",
+      "example": {
+        "en": "You want to save money and go on holiday to Spain twice this year? You can't have your cake and eat it.",
+        "pl": "Chcesz oszczędzać i dwa razy w tym roku polecieć na wakacje do Hiszpanii? Nie da się zjeść ciastka i mieć ciastka."
+      },
+      "register": "informal",
+      "tags": ["wybór", "wykluczenie"]
+    },
+    {
+      "en": "the jury is (still) out (on sth)",
+      "pl": "sprawa nie jest przesądzona, jeszcze nie wiadomo",
+      "meaning_pl": "nikt jeszcze nie rozstrzygnął, czy coś jest dobre albo prawdziwe. Logika: ława przysięgłych (jury) wciąż obraduje poza salą i nie ogłosiła werdyktu. Różnica: up in the air mówi o planach, a jury is out o ocenie czegoś",
+      "example": {
+        "en": "The jury is still out on whether online lessons are as effective as traditional ones.",
+        "pl": "Wciąż nie wiadomo, czy lekcje online są tak skuteczne jak tradycyjne."
+      },
+      "register": "neutral",
+      "tags": ["niepewność", "opinia", "rozprawka"]
+    },
+    {
+      "en": "on the spur of the moment",
+      "pl": "pod wpływem chwili, spontanicznie",
+      "meaning_pl": "decydujesz nagle, bez planowania. Spur to ostroga, czyli coś, co nagle cię popycha. Jako przymiotnik z łącznikami: a spur-of-the-moment decision",
+      "example": {
+        "en": "We didn't plan the trip at all – we booked the tickets on the spur of the moment.",
+        "pl": "W ogóle nie planowaliśmy tej wycieczki – zarezerwowaliśmy bilety pod wpływem chwili."
+      },
+      "register": "neutral",
+      "tags": ["spontanicznie", "decyzja"]
+    },
+    {
+      "en": "play it safe",
+      "pl": "nie ryzykować, iść na pewniaka",
+      "meaning_pl": "wybierasz bezpieczne rozwiązanie, nawet jeśli tracisz przez to szansę na coś lepszego. W brytyjskim działa też play safe",
+      "example": {
+        "en": "I played it safe and chose the essay topic I knew best.",
+        "pl": "Nie ryzykowałem i wybrałem temat wypracowania, który znałem najlepiej."
+      },
+      "register": "neutral",
+      "tags": ["ostrożność", "bez ryzyka"]
+    },
+    {
+      "en": "err on the side of caution",
+      "pl": "dmuchać na zimne, woleć przesadzić z ostrożnością",
+      "meaning_pl": "gdy nie wiesz, co wybrać, bierzesz ostrożniejszą opcję. Logika: err to pomylić się, więc jeśli już masz się pomylić, to w stronę ostrożności. Brzmi dość poważnie, pasuje też do rozprawki",
+      "example": {
+        "en": "The school erred on the side of caution and cancelled the trip because of the storm warning.",
+        "pl": "Szkoła wolała dmuchać na zimne i odwołała wycieczkę z powodu ostrzeżenia przed burzą."
+      },
+      "register": "neutral",
+      "tags": ["ostrożność", "rozprawka"]
+    },
+    {
+      "en": "put all your eggs in one basket",
+      "pl": "stawiać wszystko na jedną kartę",
+      "meaning_pl": "opierasz cały plan na jednej rzeczy, więc gdy ona zawiedzie, tracisz wszystko. Logika: upuścisz koszyk i tłuką się wszystkie jajka. Zwykle w przeczeniu: don't put all your eggs in one basket",
+      "example": {
+        "en": "Apply to a few universities – don't put all your eggs in one basket.",
+        "pl": "Złóż papiery na kilka uczelni – nie stawiaj wszystkiego na jedną kartę."
+      },
+      "register": "informal",
+      "tags": ["ryzyko", "rada"]
+    },
+    {
+      "en": "hedge your bets",
+      "pl": "asekurować się, zabezpieczyć się na kilka sposobów",
+      "meaning_pl": "nie wybierasz jednej opcji, tylko zostawiasz sobie kilka, żeby nie stracić wszystkiego. Logika z zakładów: hedge to zabezpieczenie, czyli obstawiasz kilka wyników naraz. Odwrotność put all your eggs in one basket",
+      "example": {
+        "en": "The weather forecast was unclear, so we hedged our bets and packed both swimsuits and raincoats.",
+        "pl": "Prognoza pogody była niejasna, więc się zabezpieczyliśmy i spakowaliśmy i stroje kąpielowe, i kurtki przeciwdeszczowe."
+      },
+      "register": "neutral",
+      "tags": ["ryzyko", "ostrożność"]
+    },
+    {
+      "en": "play with fire",
+      "pl": "igrać z ogniem",
+      "meaning_pl": "robisz coś bardzo ryzykownego, co może się dla ciebie źle skończyć. Tak samo jak po polsku; często you're playing with fire",
+      "example": {
+        "en": "Driving that fast on icy roads is playing with fire.",
+        "pl": "Jazda z taką prędkością po oblodzonych drogach to igranie z ogniem."
+      },
+      "register": "neutral",
+      "tags": ["ryzyko", "ostrzeżenie"]
+    },
+    {
+      "en": "push your luck",
+      "pl": "kusić los, przeciągać strunę",
+      "meaning_pl": "coś ci się już udało, a ty ryzykujesz dalej i liczysz, że szczęście nie minie. Często jako ostrzeżenie: Don't push your luck!",
+      "example": {
+        "en": "You got away with not doing your homework once – don't push your luck.",
+        "pl": "Raz upiekło ci się bez zadania domowego – nie kuś losu."
+      },
+      "register": "informal",
+      "tags": ["ryzyko", "ostrzeżenie"]
+    },
+    {
+      "en": "throw caution to the wind(s)",
+      "pl": "zapomnieć o ostrożności, zaszaleć",
+      "meaning_pl": "nagle przestajesz uważać i robisz coś odważnego albo lekkomyślnego. Obraz: wyrzucasz ostrożność na wiatr, który ją porywa. Działa wind i winds",
+      "example": {
+        "en": "For once, I threw caution to the wind and spent all my savings on a trip to Iceland.",
+        "pl": "Raz w życiu zapomniałam o ostrożności i wydałam wszystkie oszczędności na wyjazd na Islandię."
+      },
+      "register": "neutral",
+      "tags": ["ryzyko", "spontanicznie"]
+    },
+    {
+      "en": "nothing ventured, nothing gained",
+      "pl": "kto nie ryzykuje, ten nie pije szampana",
+      "meaning_pl": "przysłowie: bez ryzyka nie ma szansy na zysk. Venture to tu odważyć się, zaryzykować. Mówisz to, gdy namawiasz siebie albo kogoś, żeby spróbował",
+      "example": {
+        "en": "The chances of getting the scholarship are small, but I'll apply anyway – nothing ventured, nothing gained.",
+        "pl": "Szanse na stypendium są małe, ale i tak złożę wniosek – kto nie ryzykuje, ten nie pije szampana."
+      },
+      "register": "neutral",
+      "tags": ["ryzyko", "przysłowie"]
+    },
+    {
+      "en": "a no-brainer",
+      "pl": "oczywisty wybór, sprawa oczywista",
+      "meaning_pl": "decyzja tak prosta, że nie trzeba się nad nią zastanawiać, dosłownie nie trzeba używać mózgu. Typowo: It's a no-brainer",
+      "example": {
+        "en": "Taking the train instead of driving was a no-brainer – it's faster and much cheaper.",
+        "pl": "Wybór pociągu zamiast samochodu był oczywisty – jest szybciej i dużo taniej."
+      },
+      "register": "informal",
+      "tags": ["decyzja", "łatwy wybór"]
+    },
+    {
+      "en": "the ball is in your court",
+      "pl": "teraz twój ruch",
+      "meaning_pl": "druga strona zrobiła swoje i teraz ty musisz odpowiedzieć albo podjąć decyzję. Logika z tenisa: piłka jest po twojej stronie kortu, więc to ty musisz ją odbić. Też the ball is in sb's court",
+      "example": {
+        "en": "I've sent the club my application, so the ball is in their court now.",
+        "pl": "Wysłałem do klubu zgłoszenie, więc teraz ich ruch."
+      },
+      "register": "informal",
+      "tags": ["decyzja", "kolej na kogoś"]
+    }
+  ]
+}

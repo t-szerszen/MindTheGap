@@ -1,0 +1,282 @@
+{
+  "id": "word-families-1",
+  "category": "word-families",
+  "title_pl": "Rodziny wyrazów (1)",
+  "items": [
+    {
+      "en": "employ (v) – employer, employee, employment, unemployment (n) – employed, unemployed (adj)",
+      "pl": "zatrudniać – pracodawca, pracownik, zatrudnienie, bezrobocie – zatrudniony, bezrobotny",
+      "meaning_pl": "Końcówka -er to ten, kto zatrudnia (employer), a -ee to ten, kogo zatrudniono (employee). Employment i unemployment to stan, nie osoba. Bezrobotny to unemployed.",
+      "example": {
+        "en": "Youth unemployment is one of the biggest problems in the region.",
+        "pl": "Bezrobocie wśród młodych to jeden z największych problemów w regionie."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "able, unable, disabled (adj) – ability, inability, disability (n) – enable (v)",
+      "pl": "zdolny, niezdolny, niepełnosprawny – zdolność, niezdolność, niepełnosprawność – umożliwiać",
+      "meaning_pl": "Pułapka z przedrostkami: przymiotnik to unable, ale rzeczownik to inability (nie „unability”). Disabled i disability dotyczą niepełnosprawności. En- robi czasownik: enable sb to do sth = umożliwiać.",
+      "example": {
+        "en": "His inability to concentrate was affecting his marks at school.",
+        "pl": "Jego niezdolność do skupienia się odbijała się na ocenach w szkole."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "responsible, irresponsible (adj) – responsibility (n) – responsibly, irresponsibly (adv)",
+      "pl": "odpowiedzialny, nieodpowiedzialny – odpowiedzialność – odpowiedzialnie, nieodpowiedzialnie",
+      "meaning_pl": "Przed r przeczenie to ir- (irresponsible, irregular), nie un-. Końcówka to -ible, nie -able. Responsible for sth = odpowiedzialny za coś.",
+      "example": {
+        "en": "It was irresponsible of you to leave the door unlocked.",
+        "pl": "To było nieodpowiedzialne z twojej strony, że zostawiłeś drzwi niezamknięte."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "legal, illegal (adj) – legally, illegally (adv) – legalise (v)",
+      "pl": "legalny (prawny), nielegalny – legalnie, nielegalnie – legalizować",
+      "meaning_pl": "Przed l przeczenie to il-, więc piszesz dwa l: illegal, illegally (tak samo illogical). Legal znaczy też „prawny”: legal advice = porada prawna.",
+      "example": {
+        "en": "It is illegal to drive without a licence.",
+        "pl": "Prowadzenie samochodu bez prawa jazdy jest nielegalne."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "patient, impatient (adj) – patient, patience (n) – patiently, impatiently (adv)",
+      "pl": "cierpliwy, niecierpliwy – pacjent, cierpliwość – cierpliwie, niecierpliwie",
+      "meaning_pl": "Patient to i „cierpliwy”, i „pacjent”. Cierpliwość to patience, która brzmi tak samo jak patients (pacjenci). Przed p przeczenie to im-: impatient.",
+      "example": {
+        "en": "You need a lot of patience to teach young children.",
+        "pl": "Uczenie małych dzieci wymaga dużo cierpliwości."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "economy, economics, economist (n) – economic, economical (adj) – economically (adv)",
+      "pl": "gospodarka, ekonomia, ekonomista – gospodarczy, oszczędny – gospodarczo / oszczędnie",
+      "meaning_pl": "Economic = gospodarczy (economic growth), economical = oszczędny, tani w użyciu. Economics to nauka: ma -s, ale czasownik jest w liczbie pojedynczej (economics is). Economist to osoba.",
+      "example": {
+        "en": "My brother wants to study economics at university.",
+        "pl": "Mój brat chce studiować ekonomię."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "decide (v) – decision (n) – decisive, indecisive (adj) – decisively (adv)",
+      "pl": "decydować – decyzja – zdecydowany (stanowczy), niezdecydowany – stanowczo",
+      "meaning_pl": "W rzeczowniku d zamienia się w s: decide → decision. Mówisz make a decision, nie „do”. Decisive to stanowczy (o osobie) albo decydujący (a decisive moment). Przeczenie: indecisive.",
+      "example": {
+        "en": "She is so indecisive that it takes her an hour to choose a pizza.",
+        "pl": "Jest tak niezdecydowana, że wybór pizzy zajmuje jej godzinę."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "science, scientist (n) – scientific (adj) – scientifically (adv)",
+      "pl": "nauka, naukowiec – naukowy – naukowo",
+      "meaning_pl": "Osoba to scientist. Przymiotnik to scientific, nie „sciencific”. Przysłówek ma -ally: scientifically.",
+      "example": {
+        "en": "There is no scientific evidence that this diet works.",
+        "pl": "Nie ma żadnych naukowych dowodów na to, że ta dieta działa."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "compete (v) – competition, competitor (n) – competitive (adj) – competitively (adv)",
+      "pl": "rywalizować – konkurs (rywalizacja), zawodnik (konkurent) – konkurencyjny – konkurencyjnie",
+      "meaning_pl": "Competition to konkurs albo sama rywalizacja, competitor to osoba lub firma, która rywalizuje. W pisowni e zmienia się w i: compete → competition, competitive.",
+      "example": {
+        "en": "The job market for young lawyers is very competitive.",
+        "pl": "Na rynku pracy dla młodych prawników jest ogromna konkurencja."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "create (v) – creation, creativity, creator (n) – creative (adj) – creatively (adv)",
+      "pl": "tworzyć – tworzenie (dzieło), kreatywność, twórca – kreatywny (twórczy) – kreatywnie",
+      "meaning_pl": "Trzy rzeczowniki, trzy znaczenia: creation to tworzenie albo dzieło, creativity to cecha (kreatywność), creator to osoba. Nie wstawiaj creation, gdy chodzi o kreatywność.",
+      "example": {
+        "en": "Art lessons help children develop their creativity.",
+        "pl": "Lekcje plastyki pomagają dzieciom rozwijać kreatywność."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "depend (v) – dependence, independence (n) – dependent, independent (adj) – independently (adv)",
+      "pl": "zależeć – zależność, niezależność (niepodległość) – zależny, niezależny – niezależnie (samodzielnie)",
+      "meaning_pl": "Mówisz depend on i dependent on, ale independent of (niezależny od). Independence to też niepodległość państwa. Przymiotnik piszesz z -ent: dependent, independent.",
+      "example": {
+        "en": "Poland regained its independence in 1918.",
+        "pl": "Polska odzyskała niepodległość w 1918 roku."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "succeed (v) – success (n) – successful, unsuccessful (adj) – successfully (adv)",
+      "pl": "odnieść sukces (udać się) – sukces – udany, nieudany – z powodzeniem",
+      "meaning_pl": "Czasownik to succeed (succeed in doing sth), rzeczownik to success, oba mają podwójne c. Uwaga: successive znaczy „kolejny, następujący po sobie”, a nie „udany”.",
+      "example": {
+        "en": "The school's anti-smoking campaign was so successful that it was repeated the following year.",
+        "pl": "Szkolna kampania antynikotynowa okazała się takim sukcesem, że powtórzono ją w następnym roku."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "value (n, v) – valuables (n) – valuable, invaluable, valueless (adj)",
+      "pl": "wartość / cenić – kosztowności – cenny, bezcenny, bezwartościowy",
+      "meaning_pl": "Pułapka: invaluable to „bezcenny”, czyli bardzo cenny, a nie „bez wartości”. Bez wartości to worthless albo valueless. Valuables (l.mn.) to kosztowności.",
+      "example": {
+        "en": "Her advice was invaluable when I was preparing for the exam.",
+        "pl": "Jej rady były bezcenne, kiedy przygotowywałem się do egzaminu."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "fame (n) – famous, infamous (adj)",
+      "pl": "sława – sławny, osławiony (niesławny)",
+      "meaning_pl": "Infamous nie znaczy „nieznany”! To ktoś albo coś znane z czegoś złego. Nieznany to unknown. Akcent pada na pierwszą sylabę: IN-famous.",
+      "example": {
+        "en": "The prison was infamous for its terrible conditions.",
+        "pl": "Więzienie słynęło z fatalnych warunków."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "imagine (v) – imagination (n) – imaginative, imaginary, imaginable (adj)",
+      "pl": "wyobrażać sobie – wyobraźnia – pomysłowy, wymyślony, wyobrażalny",
+      "meaning_pl": "Imaginative = z wyobraźnią, pomysłowy (o osobie, pomyśle). Imaginary = wymyślony, nieistniejący naprawdę. Imaginable = dający się wyobrazić. W imagination e z końca znika.",
+      "example": {
+        "en": "Many young children have an imaginary friend.",
+        "pl": "Wiele małych dzieci ma wymyślonego przyjaciela."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "agree, disagree (v) – agreement, disagreement (n) – agreeable (adj)",
+      "pl": "zgadzać się, nie zgadzać się – porozumienie (zgoda), różnica zdań – miły (przyjemny)",
+      "meaning_pl": "Agree to czasownik, więc I agree, nie „I am agree”. Przeczenie robi dis-: disagree, disagreement. Agreeable zwykle znaczy „miły, przyjemny” (an agreeable evening).",
+      "example": {
+        "en": "After hours of talks, the two sides finally reached an agreement.",
+        "pl": "Po wielu godzinach rozmów obie strony w końcu doszły do porozumienia."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "child, childhood (n) – childish, childlike, childless (adj)",
+      "pl": "dziecko, dzieciństwo – dziecinny, dziecięcy (niewinny), bezdzietny",
+      "meaning_pl": "-hood robi rzeczownik od okresu życia: childhood. Childish to minus: dziecinny, niedojrzały (o dorosłym). Childlike to plus: niewinny, ufny jak dziecko. -less = bez: childless.",
+      "example": {
+        "en": "Stop being so childish and say sorry to your sister.",
+        "pl": "Przestań być taki dziecinny i przeproś siostrę."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "satisfy (v) – satisfaction, dissatisfaction (n) – satisfied, dissatisfied, satisfying, satisfactory, unsatisfactory (adj)",
+      "pl": "zadowalać – zadowolenie, niezadowolenie – zadowolony, niezadowolony, satysfakcjonujący, zadowalający, niezadowalający",
+      "meaning_pl": "Satisfied czuje osoba, satisfying to coś, co daje satysfakcję, a satisfactory = wystarczająco dobry. Przeczenia są różne: dissatisfied, ale unsatisfactory.",
+      "example": {
+        "en": "Many customers were dissatisfied with the new service.",
+        "pl": "Wielu klientów było niezadowolonych z nowej usługi."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "produce (v) – product, production, producer, productivity (n) – productive, unproductive (adj)",
+      "pl": "produkować – produkt, produkcja, producent, wydajność – wydajny, nieproduktywny",
+      "meaning_pl": "Product to rzecz, production to proces, producer to osoba lub firma, productivity to wydajność. Produce jako rzeczownik (akcent na pierwszą sylabę) to płody rolne, np. local produce.",
+      "example": {
+        "en": "I'm much more productive in the morning than in the evening.",
+        "pl": "Rano jestem dużo bardziej wydajny niż wieczorem."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "courage, encouragement (n) – encourage, discourage (v) – courageous, encouraging (adj)",
+      "pl": "odwaga, zachęta – zachęcać, zniechęcać – odważny, zachęcający",
+      "meaning_pl": "En- robi z rzeczownika czasownik: encourage sb to do sth = zachęcać. Dis- odwraca znaczenie: discourage sb from doing sth = zniechęcać. W courageous e zostaje przed -ous, żeby g dalej brzmiało jak „dż”.",
+      "example": {
+        "en": "My teacher encouraged me to enter the competition.",
+        "pl": "Moja nauczycielka zachęciła mnie do wzięcia udziału w konkursie."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "strong (adj) – strength (n) – strengthen (v) – strongly (adv)",
+      "pl": "silny – siła – wzmacniać – mocno (zdecydowanie)",
+      "meaning_pl": "Schemat: przymiotnik → rzeczownik na -th → czasownik na -en. Tak samo long – length – lengthen i wide – width – widen. Uważaj na pisownię: strength.",
+      "example": {
+        "en": "Regular exercise strengthens your heart.",
+        "pl": "Regularne ćwiczenia wzmacniają serce."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "explain (v) – explanation (n) – explanatory (adj)",
+      "pl": "wyjaśniać – wyjaśnienie – objaśniający",
+      "meaning_pl": "Pułapka w pisowni: explain ma „ai”, ale w explanation i explanatory nie ma już i. Podobnie pronounce – pronunciation: w rzeczowniku znika o.",
+      "example": {
+        "en": "There must be a logical explanation for what happened.",
+        "pl": "Musi być jakieś logiczne wyjaśnienie tego, co się stało."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "pollute (v) – pollution, pollutant (n) – polluted (adj)",
+      "pl": "zanieczyszczać – zanieczyszczenie, substancja zanieczyszczająca – zanieczyszczony",
+      "meaning_pl": "Pollution to zjawisko i jest niepoliczalne (air pollution, bez a). Pollutant to konkretna szkodliwa substancja, policzalna (harmful pollutants).",
+      "example": {
+        "en": "Air pollution is a serious problem in many Polish cities in winter.",
+        "pl": "Zimą zanieczyszczenie powietrza to poważny problem w wielu polskich miastach."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "friend, friendship (n) – friendly, unfriendly (adj) – befriend (v)",
+      "pl": "przyjaciel, przyjaźń – przyjazny (życzliwy), nieprzyjazny – zaprzyjaźnić się z",
+      "meaning_pl": "Friendly kończy się na -ly, ale to przymiotnik, nie przysłówek. Gdy potrzebujesz przysłówka, mówisz in a friendly way. -ship robi rzeczownik: friendship.",
+      "example": {
+        "en": "The receptionist greeted us in a friendly way.",
+        "pl": "Recepcjonistka przywitała nas życzliwie."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "die (v) – death (n) – dead, deadly, dying (adj)",
+      "pl": "umierać – śmierć – martwy, śmiertelny, umierający",
+      "meaning_pl": "Dead to przymiotnik (he is dead = nie żyje), died to czas przeszły od die, a death to rzeczownik. Deadly mimo -ly to zwykle przymiotnik: a deadly virus.",
+      "example": {
+        "en": "The virus can be deadly for older people.",
+        "pl": "Ten wirus może być śmiertelnie groźny dla starszych osób."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    }
+  ]
+}

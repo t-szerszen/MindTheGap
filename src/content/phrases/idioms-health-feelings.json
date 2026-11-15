@@ -1,0 +1,271 @@
+{
+  "id": "idioms-health-feelings",
+  "category": "idioms",
+  "title_pl": "Idiomy: zdrowie i samopoczucie",
+  "items": [
+    {
+      "en": "be / feel under the weather",
+      "pl": "czuć się kiepsko, być lekko chorym",
+      "meaning_pl": "lekka niedyspozycja: przeziębienie, zmęczenie, ból głowy; pułapka: nie ma nic wspólnego z pogodą i nie mówi się tak o poważnej chorobie",
+      "example": {
+        "en": "I'm feeling a bit under the weather, so I'm going to stay at home tonight instead of going to the party.",
+        "pl": "Czuję się trochę kiepsko, więc dziś wieczorem zostanę w domu, zamiast iść na imprezę."
+      },
+      "register": "informal",
+      "tags": ["zdrowie", "choroba", "pułapka"]
+    },
+    {
+      "en": "(as) fit as a fiddle",
+      "pl": "zdrowy jak ryba",
+      "meaning_pl": "ktoś jest w świetnej formie i pełen sił; fiddle to skrzypce, a łatwo zapamiętać po dwóch f: fit i fiddle",
+      "example": {
+        "en": "My grandad is eighty, but he's as fit as a fiddle and still goes cycling every day.",
+        "pl": "Mój dziadek ma osiemdziesiąt lat, ale jest zdrowy jak ryba i nadal codziennie jeździ na rowerze."
+      },
+      "register": "informal",
+      "tags": ["zdrowie", "forma"]
+    },
+    {
+      "en": "be on the mend",
+      "pl": "wracać do zdrowia",
+      "meaning_pl": "ktoś zdrowieje po chorobie albo urazie; mend to naprawiać, więc ktoś jest jakby w trakcie naprawy",
+      "example": {
+        "en": "Tom broke his leg skiing, but he's on the mend now and should be back at school next week.",
+        "pl": "Tom złamał nogę na nartach, ale już wraca do zdrowia i w przyszłym tygodniu powinien być z powrotem w szkole."
+      },
+      "register": "informal",
+      "tags": ["zdrowie", "powrót do zdrowia"]
+    },
+    {
+      "en": "(as) right as rain",
+      "pl": "jak nowo narodzony, znowu całkiem zdrowy",
+      "meaning_pl": "ktoś znowu czuje się dobrze, zwykle po chorobie; często w pocieszaniu: you'll be right as rain (szybko ci przejdzie)",
+      "example": {
+        "en": "Take this medicine and get some sleep, and you'll be as right as rain by Monday.",
+        "pl": "Weź to lekarstwo i się wyśpij, a do poniedziałku będziesz jak nowo narodzony."
+      },
+      "register": "informal",
+      "tags": ["zdrowie", "powrót do zdrowia", "BrE"]
+    },
+    {
+      "en": "look / feel like death warmed up",
+      "pl": "wyglądać / czuć się jak śmierć na chorągwi",
+      "meaning_pl": "wyglądać albo czuć się fatalnie z powodu choroby lub zmęczenia; mówi się tak raczej o sobie albo żartem do bliskich, bo do obcej osoby brzmi niegrzecznie; w USA: death warmed over",
+      "example": {
+        "en": "I had a fever all night and this morning I felt like death warmed up.",
+        "pl": "Całą noc miałem gorączkę i rano czułem się jak śmierć na chorągwi."
+      },
+      "register": "informal",
+      "tags": ["zdrowie", "choroba", "BrE"]
+    },
+    {
+      "en": "give sb / get a clean bill of health",
+      "pl": "uznać kogoś za w pełni zdrowego / dostać od lekarza potwierdzenie, że jest się zdrowym",
+      "meaning_pl": "lekarz po badaniach stwierdza, że wszystko jest w porządku; dawniej bill of health to było świadectwo dla statku, że na pokładzie nie ma zaraźliwej choroby; mówi się tak też o sprawdzonym budynku czy maszynie",
+      "example": {
+        "en": "After a few tests, the doctor gave her a clean bill of health and said she could play football again.",
+        "pl": "Po kilku badaniach lekarz uznał, że jest w pełni zdrowa, i powiedział, że może znowu grać w piłkę."
+      },
+      "register": "neutral",
+      "tags": ["zdrowie", "lekarz"]
+    },
+    {
+      "en": "kick the habit",
+      "pl": "rzucić nałóg",
+      "meaning_pl": "przestać robić coś szkodliwego, do czego jest się przyzwyczajonym: palić, pić, grać; w rozprawce bezpieczniej napisać give up smoking albo quit smoking",
+      "example": {
+        "en": "My dad smoked for twenty years before he finally kicked the habit.",
+        "pl": "Mój tata palił przez dwadzieścia lat, zanim w końcu rzucił nałóg."
+      },
+      "register": "informal",
+      "tags": ["zdrowie", "nałogi"]
+    },
+    {
+      "en": "take a turn for the worse / for the better",
+      "pl": "nagle się pogorszyć / poprawić",
+      "meaning_pl": "stan chorego albo sytuacja nagle się zmienia na gorsze lub lepsze; pułapka: for the worse (stopień wyższy), nie for the worst",
+      "example": {
+        "en": "Grandma was recovering well, but last night her condition took a turn for the worse.",
+        "pl": "Babcia dobrze wracała do zdrowia, ale wczoraj w nocy jej stan nagle się pogorszył."
+      },
+      "register": "neutral",
+      "tags": ["zdrowie", "choroba", "pułapka"]
+    },
+    {
+      "en": "recharge your batteries",
+      "pl": "naładować akumulatory",
+      "meaning_pl": "odpocząć, żeby odzyskać energię; obraz jak po polsku: człowiek jak bateria, która się rozładowała",
+      "example": {
+        "en": "Before the exams, I spent a week in the mountains without my phone to recharge my batteries.",
+        "pl": "Przed egzaminami spędziłem tydzień w górach bez telefonu, żeby naładować akumulatory."
+      },
+      "register": "neutral",
+      "tags": ["samopoczucie", "odpoczynek"]
+    },
+    {
+      "en": "give sb / get a new lease of life",
+      "pl": "dać komuś / dostać drugie życie, nową energię",
+      "meaning_pl": "ktoś po chorobie, operacji albo zmianie w życiu znowu ma siły i chęci; lease to umowa najmu, jakby ktoś dostał nową umowę na życie; w BrE lease of life, w AmE lease on life",
+      "example": {
+        "en": "The hip operation gave my grandmother a new lease of life, and she has started dancing again.",
+        "pl": "Operacja biodra dała mojej babci nową energię i znowu zaczęła tańczyć."
+      },
+      "register": "neutral",
+      "tags": ["zdrowie", "samopoczucie"]
+    },
+    {
+      "en": "be over the moon",
+      "pl": "być wniebowziętym, skakać z radości",
+      "meaning_pl": "być bardzo zadowolonym z jakiejś wiadomości albo wydarzenia; typowo brytyjskie",
+      "example": {
+        "en": "Ella was over the moon when she found out she had passed her driving test.",
+        "pl": "Ella była wniebowzięta, kiedy dowiedziała się, że zdała egzamin na prawo jazdy."
+      },
+      "register": "informal",
+      "tags": ["emocje", "radość", "BrE"]
+    },
+    {
+      "en": "be on cloud nine",
+      "pl": "być w siódmym niebie",
+      "meaning_pl": "być niesamowicie szczęśliwym; pułapka: po polsku siódme niebo, a tu chmura numer dziewięć (in seventh heaven po angielsku też istnieje)",
+      "example": {
+        "en": "When he got a place at his dream university, Kuba was on cloud nine for weeks.",
+        "pl": "Kiedy dostał się na wymarzoną uczelnię, Kuba przez kilka tygodni był w siódmym niebie."
+      },
+      "register": "informal",
+      "tags": ["emocje", "radość", "pułapka"]
+    },
+    {
+      "en": "be down in the dumps",
+      "pl": "być przybitym, mieć doła",
+      "meaning_pl": "być smutnym i bez energii przez jakiś czas; to potoczne określenie nastroju, nie choroby, więc w rozprawce o zdrowiu psychicznym pisz depression albo feel low",
+      "example": {
+        "en": "She's been a bit down in the dumps since her best friend moved abroad.",
+        "pl": "Od kiedy jej najlepsza przyjaciółka wyjechała za granicę, jest trochę przybita."
+      },
+      "register": "informal",
+      "tags": ["emocje", "smutek"]
+    },
+    {
+      "en": "get out of bed on the wrong side",
+      "pl": "wstać lewą nogą",
+      "meaning_pl": "mieć zły humor od rana i przez cały dzień, często bez konkretnego powodu; w AmE: get up on the wrong side of the bed",
+      "example": {
+        "en": "What's wrong with Mark today? He must have got out of bed on the wrong side.",
+        "pl": "Co się dzisiaj dzieje z Markiem? Musiał wstać lewą nogą."
+      },
+      "register": "informal",
+      "tags": ["emocje", "zły humor", "BrE"]
+    },
+    {
+      "en": "be a bag of nerves / a bundle of nerves",
+      "pl": "być kłębkiem nerwów",
+      "meaning_pl": "być bardzo zdenerwowanym, zwykle przed czymś ważnym; bag of nerves to wersja brytyjska, bundle of nerves pasuje wszędzie",
+      "example": {
+        "en": "I was a bag of nerves before my speaking exam, but in the end it went really well.",
+        "pl": "Przed egzaminem ustnym byłem kłębkiem nerwów, ale w końcu poszło mi naprawdę dobrze."
+      },
+      "register": "informal",
+      "tags": ["emocje", "stres", "egzaminy"]
+    },
+    {
+      "en": "be on tenterhooks",
+      "pl": "siedzieć jak na szpilkach, czekać w napięciu",
+      "meaning_pl": "nerwowo czekać na wiadomość albo wynik; tenterhooks to dawne haczyki, na których naciągano sukno na ramie, więc ktoś jest napięty jak ten materiał; też keep sb on tenterhooks (trzymać kogoś w niepewności)",
+      "example": {
+        "en": "We were on tenterhooks all morning, waiting for the exam results to come out.",
+        "pl": "Całe przedpołudnie siedzieliśmy jak na szpilkach, czekając na wyniki egzaminu."
+      },
+      "register": "neutral",
+      "tags": ["emocje", "stres", "czekanie"]
+    },
+    {
+      "en": "be scared stiff (of sth)",
+      "pl": "być sparaliżowanym ze strachu, strasznie się czegoś bać",
+      "meaning_pl": "bać się tak, że aż nie można się ruszyć; stiff to sztywny; ten sam wzór ma bored stiff (śmiertelnie znudzony)",
+      "example": {
+        "en": "I'm scared stiff of spiders, so my brother always has to get them out of my room.",
+        "pl": "Strasznie boję się pająków, więc brat zawsze musi je wynosić z mojego pokoju."
+      },
+      "register": "informal",
+      "tags": ["emocje", "strach"]
+    },
+    {
+      "en": "be at the end of your tether",
+      "pl": "być u kresu wytrzymałości",
+      "meaning_pl": "nie mieć już cierpliwości ani siły, żeby coś znosić; tether to linka, na której uwiązuje się zwierzę: doszło do końca linki i dalej się nie da; w AmE: at the end of your rope",
+      "example": {
+        "en": "After three weeks of drilling from the building site next door, I'm at the end of my tether.",
+        "pl": "Po trzech tygodniach wiercenia na budowie obok jestem u kresu wytrzymałości."
+      },
+      "register": "neutral",
+      "tags": ["emocje", "stres", "BrE"]
+    },
+    {
+      "en": "be at your wits' end",
+      "pl": "nie wiedzieć już, co robić; być zupełnie bezradnym",
+      "meaning_pl": "być tak zmartwionym albo bezradnym, że kończą się pomysły; wits to rozum, pomysłowość; różnica: end of your tether to koniec cierpliwości, wits' end to koniec pomysłów; apostrof po s",
+      "example": {
+        "en": "Our dog keeps escaping from the garden and we're at our wits' end.",
+        "pl": "Nasz pies ciągle ucieka z ogrodu i już nie wiemy, co robić."
+      },
+      "register": "neutral",
+      "tags": ["emocje", "stres", "pułapka"]
+    },
+    {
+      "en": "pull yourself together",
+      "pl": "wziąć się w garść",
+      "meaning_pl": "uspokoić się i znowu nad sobą panować po panice, płaczu albo złości; zaimek zmienia się z osobą: I pulled myself together, she pulled herself together; w trybie rozkazującym do kogoś brzmi dość ostro",
+      "example": {
+        "en": "I panicked for a moment, but then I pulled myself together and finished the exam.",
+        "pl": "Przez chwilę spanikowałem, ale potem wziąłem się w garść i dokończyłem egzamin."
+      },
+      "register": "neutral",
+      "tags": ["emocje", "stres", "pułapka"]
+    },
+    {
+      "en": "let off steam",
+      "pl": "odreagować, wyładować się",
+      "meaning_pl": "pozbyć się nagromadzonych emocji albo energii, np. przez sport albo krzyk; obraz maszyny parowej, która wypuszcza parę, żeby ciśnienie jej nie rozsadziło; w AmE: blow off steam",
+      "example": {
+        "en": "After a long day at school, I go for a run to let off steam.",
+        "pl": "Po długim dniu w szkole idę pobiegać, żeby odreagować."
+      },
+      "register": "informal",
+      "tags": ["emocje", "stres", "sport"]
+    },
+    {
+      "en": "be a weight off your mind",
+      "pl": "kamień spadł (komuś) z serca",
+      "meaning_pl": "ulga, kiedy znika problem, który cię martwił; zwykle: It's / That's a weight off my mind; pułapka: po polsku serce, po angielsku mind",
+      "example": {
+        "en": "When the doctor said it was nothing serious, it was a huge weight off my mind.",
+        "pl": "Kiedy lekarz powiedział, że to nic poważnego, kamień spadł mi z serca."
+      },
+      "register": "neutral",
+      "tags": ["emocje", "ulga", "pułapka"]
+    },
+    {
+      "en": "lose sleep over sth",
+      "pl": "zamartwiać się czymś, nie spać po nocach przez coś",
+      "meaning_pl": "bardzo się czymś przejmować; najczęściej w przeczeniu, żeby kogoś uspokoić: don't lose sleep over it, I wouldn't lose sleep over it",
+      "example": {
+        "en": "It's only a practice test, so don't lose sleep over it.",
+        "pl": "To tylko próbny test, więc nie zamartwiaj się nim."
+      },
+      "register": "neutral",
+      "tags": ["emocje", "zmartwienie"]
+    },
+    {
+      "en": "be beside yourself (with sth)",
+      "pl": "odchodzić od zmysłów (z niepokoju), nie posiadać się (z radości)",
+      "meaning_pl": "przeżywać bardzo silną emocję: niepokój, złość, radość; to, jaka emocja, mówi zwykle with sth (with worry, with excitement); pułapka: to nie znaczy być nieobecnym ani obok siebie",
+      "example": {
+        "en": "When I didn't come home and my phone was off, my mum was beside herself with worry.",
+        "pl": "Kiedy nie wróciłem do domu, a telefon miałem wyłączony, mama odchodziła od zmysłów z niepokoju."
+      },
+      "register": "neutral",
+      "tags": ["emocje", "zmartwienie", "pułapka"]
+    }
+  ]
+}

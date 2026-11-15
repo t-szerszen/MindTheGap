@@ -1,0 +1,205 @@
+{
+  "id": "phrasal-run",
+  "category": "phrasal-verbs",
+  "title_pl": "Phrasal verbs z run",
+  "items": [
+    {
+      "en": "run out (of sth)",
+      "pl": "skończyć się; zabraknąć komuś czegoś",
+      "meaning_pl": "dwie konstrukcje: rzecz jako podmiot (the milk has run out – mleko się skończyło) albo osoba + of (we've run out of milk – skończyło nam się mleko). Nierozdzielny, dopełnienie przychodzi dopiero po of. Częste: run out of time / money, time is running out",
+      "example": {
+        "en": "We ran out of petrol in the middle of nowhere and had to call for help.",
+        "pl": "Skończyła nam się benzyna w szczerym polu i musieliśmy wezwać pomoc."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "podróże", "zakupy"]
+    },
+    {
+      "en": "run out (of a document, contract)",
+      "pl": "stracić ważność, wygasnąć",
+      "meaning_pl": "dokument albo umowa przestaje obowiązywać, bo minął termin. Bardziej formalny synonim: expire. Nie ma dopełnienia, więc nie ma czego rozdzielać",
+      "example": {
+        "en": "My passport runs out in March, so I need a new one before the school trip to London.",
+        "pl": "Mój paszport traci ważność w marcu, więc przed wycieczką szkolną do Londynu muszę wyrobić nowy."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "podróże", "urzędy"]
+    },
+    {
+      "en": "run into sb",
+      "pl": "wpaść na kogoś, spotkać kogoś przypadkiem",
+      "meaning_pl": "niespodziewane spotkanie kogoś znajomego. Nierozdzielny: run into him, nigdy run him into. Bardziej potoczny synonim: bump into sb",
+      "example": {
+        "en": "My mum ran into her old school friend at the supermarket yesterday.",
+        "pl": "Mama wpadła wczoraj w supermarkecie na dawną koleżankę ze szkoły."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "życie prywatne"]
+    },
+    {
+      "en": "run into sth (problems, difficulties)",
+      "pl": "napotkać (problemy, trudności)",
+      "meaning_pl": "nagle zaczynasz mieć kłopoty: run into problems / difficulties / trouble. Ten sam obraz co przy spotkaniu – wpadasz na przeszkodę, której się nie spodziewałeś. Nierozdzielny: run into them",
+      "example": {
+        "en": "Our school project ran into difficulties when two people in the group fell ill.",
+        "pl": "Nasz projekt szkolny napotkał trudności, kiedy dwie osoby z grupy zachorowały."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "problemy", "szkoła"]
+    },
+    {
+      "en": "run into sb/sth (crash)",
+      "pl": "wjechać w coś, uderzyć w coś (pojazdem)",
+      "meaning_pl": "pojazd albo kierowca uderza w coś, np. w drzewo albo inne auto. Nierozdzielny: ran into it. Pułapka: to nie to samo co run over (przejechać kogoś)",
+      "example": {
+        "en": "The driver lost control on the icy road and ran into a tree.",
+        "pl": "Kierowca stracił panowanie nad autem na oblodzonej drodze i wjechał w drzewo."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "transport", "wypadki"]
+    },
+    {
+      "en": "run into sth (an amount)",
+      "pl": "sięgać (tysięcy, milionów), iść w tysiące",
+      "meaning_pl": "kwota albo liczba dochodzi do bardzo wysokiego poziomu: run into thousands / millions. Podkreśla, że to dużo. Przydaje się w rozprawce, gdy piszesz o kosztach",
+      "example": {
+        "en": "The cost of repairing the school roof could run into thousands of pounds.",
+        "pl": "Koszt naprawy dachu szkoły może sięgnąć tysięcy funtów."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "pieniądze", "rozprawka"]
+    },
+    {
+      "en": "run sb/sth over / run over sb/sth",
+      "pl": "przejechać kogoś/coś (pojazdem)",
+      "meaning_pl": "pojazd przewraca kogoś i przejeżdża po nim. Bardzo często w stronie biernej: be / get run over. Rzeczownik może stać po over albo w środku, zaimek tylko w środku: run it over. Nie myl z run into (wjechać w coś)",
+      "example": {
+        "en": "Our neighbours' cat was run over by a car last night.",
+        "pl": "Wczoraj w nocy samochód przejechał kota naszych sąsiadów."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "transport", "wypadki"]
+    },
+    {
+      "en": "run away (from sb/sth)",
+      "pl": "uciec (od kogoś, skądś)",
+      "meaning_pl": "uciekasz, żeby się wydostać albo schować; run away from home = uciec z domu. Nierozdzielny – to, od czego uciekasz, wprowadza from: run away from them",
+      "example": {
+        "en": "When he was fifteen, he ran away from home and lived with his uncle for a month.",
+        "pl": "Kiedy miał piętnaście lat, uciekł z domu i przez miesiąc mieszkał u wujka."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "rodzina"]
+    },
+    {
+      "en": "run away from sth (a problem)",
+      "pl": "uciekać od czegoś (od problemów, trudnej sytuacji)",
+      "meaning_pl": "znaczenie przenośne: unikasz trudnej sprawy, zamiast się nią zająć. Typowe w radach: you can't run away from your problems. Przeciwieństwo: face sth (stawić czemuś czoła)",
+      "example": {
+        "en": "You can't keep running away from your problems – talk to your parents about it.",
+        "pl": "Nie możesz ciągle uciekać od problemów – porozmawiaj o tym z rodzicami."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "uczucia", "rady"]
+    },
+    {
+      "en": "run off (with sth)",
+      "pl": "uciec, zwiać (z czymś)",
+      "meaning_pl": "run off = szybko odbiec, zniknąć; run off with sth = uciec z czymś, co nie jest twoje, czyli ukraść. Nierozdzielny: ran off with it",
+      "example": {
+        "en": "A boy grabbed my phone from the café table and ran off with it.",
+        "pl": "Jakiś chłopak porwał mój telefon ze stolika w kawiarni i z nim uciekł."
+      },
+      "register": "informal",
+      "tags": ["nierozdzielny", "przestępczość"]
+    },
+    {
+      "en": "run sth off / run off sth (copies)",
+      "pl": "wydrukować, zrobić kopie (szybko)",
+      "meaning_pl": "szybko robisz kopie na drukarce albo ksero: run off twenty copies. Rozdzielny, zaimek tylko w środku: run them off. Pułapka: samo run off (albo run off with sth) znaczy uciec, a run off + kopie – wydrukować",
+      "example": {
+        "en": "Could you run off thirty copies of this worksheet before the lesson?",
+        "pl": "Możesz wydrukować trzydzieści kopii tej karty pracy przed lekcją?"
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "szkoła", "praca"]
+    },
+    {
+      "en": "run down / run sth down (a battery)",
+      "pl": "rozładować (się), wyczerpać (się)",
+      "meaning_pl": "bez dopełnienia bateria sama się rozładowuje (the battery has run down), z dopełnieniem coś ją rozładowuje (run the battery down). Zaimek tylko w środku: run it down. Uwaga na przymiotnik run-down: zaniedbany (budynek) albo wyczerpany (człowiek)",
+      "example": {
+        "en": "If you leave the GPS on, it will run your battery down very quickly.",
+        "pl": "Jeśli zostawisz włączony GPS, bardzo szybko rozładuje ci baterię."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "technologia"]
+    },
+    {
+      "en": "run sb/sth down / run down sb/sth (criticise)",
+      "pl": "krytykować kogoś, mówić o kimś źle",
+      "meaning_pl": "mówisz o kimś albo o czymś źle i niesprawiedliwie, umniejszasz jego wartość. Rozdzielny, zaimek tylko w środku: run her down. Potoczne – w rozprawce lepiej criticise",
+      "example": {
+        "en": "Why do you always run me down in front of your friends?",
+        "pl": "Dlaczego zawsze krytykujesz mnie przy swoich znajomych?"
+      },
+      "register": "informal",
+      "tags": ["rozdzielny", "relacje", "człowiek"]
+    },
+    {
+      "en": "run sth up / run up sth (a bill, debt)",
+      "pl": "nabić (rachunek), narobić (długów)",
+      "meaning_pl": "pozwalasz, żeby rachunek albo dług urósł do dużej sumy: run up a bill / debts. Rzeczownik może stać po up albo w środku, zaimek tylko w środku: run it up",
+      "example": {
+        "en": "My brother ran up a huge phone bill while he was on holiday in Turkey.",
+        "pl": "Mój brat nabił ogromny rachunek za telefon podczas wakacji w Turcji."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "pieniądze", "zakupy"]
+    },
+    {
+      "en": "run through sth",
+      "pl": "przećwiczyć, szybko przejrzeć, omówić",
+      "meaning_pl": "szybko przechodzisz przez coś od początku do końca, żeby sprawdzić albo przećwiczyć: run through the plan / your notes / a speech. Nierozdzielny: run through it. Rzeczownik: a run-through (próba)",
+      "example": {
+        "en": "Let's run through the presentation one more time before we show it to the class.",
+        "pl": "Przećwiczmy prezentację jeszcze raz, zanim pokażemy ją klasie."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "szkoła", "praca"]
+    },
+    {
+      "en": "run across sb/sth",
+      "pl": "natknąć się na kogoś/coś",
+      "meaning_pl": "przypadkiem znajdujesz coś albo spotykasz kogoś. Nierozdzielny: run across it. Częstszy synonim: come across sth. Dosłownie run across the road = przebiec przez ulicę",
+      "example": {
+        "en": "Mum ran across some old photos of her parents while she was tidying the attic.",
+        "pl": "Sprzątając strych, mama natknęła się na stare zdjęcia swoich rodziców."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "dom", "rodzina"]
+    },
+    {
+      "en": "run on sth (fuel, energy)",
+      "pl": "działać na coś, jeździć na (prąd, benzynę)",
+      "meaning_pl": "mówi, z jakiego źródła energii coś działa: run on electricity / petrol / solar power. Nierozdzielny: run on it. Przydatne w tematach o ekologii i transporcie",
+      "example": {
+        "en": "More and more buses in Polish cities run on electricity instead of diesel.",
+        "pl": "Coraz więcej autobusów w polskich miastach jeździ na prąd zamiast na olej napędowy."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "środowisko", "transport"]
+    },
+    {
+      "en": "run sth by/past sb",
+      "pl": "zapytać kogoś o zdanie w jakiejś sprawie, skonsultować coś z kimś",
+      "meaning_pl": "przedstawiasz komuś pomysł albo plan, żeby usłyszeć jego opinię. Dopełnienie zawsze w środku: run it by you, run the idea by my parents – nigdy run by you the idea",
+      "example": {
+        "en": "I've got an idea for our class trip – can I run it by you?",
+        "pl": "Mam pomysł na wycieczkę klasową – mogę zapytać, co o nim myślisz?"
+      },
+      "register": "informal",
+      "tags": ["rozdzielny", "opinie", "szkoła"]
+    }
+  ]
+}

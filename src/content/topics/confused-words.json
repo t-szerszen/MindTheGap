@@ -1,0 +1,212 @@
+{
+  "id": "confused-words",
+  "category": "vocabulary",
+  "title_pl": "Fałszywi przyjaciele i mylone słowa",
+  "summary_pl": "Skąd się biorą pomyłki typu actual/aktualny i borrow/lend, jak je rozpoznać i sprawdzić w słowniku.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "Większość pomyłek w słownictwie bierze się z dwóch mechanizmów.\n\n**1. Słowo wygląda jak polskie, ale znaczy co innego.** To są *fałszywi przyjaciele* (false friends). Mózg widzi znajomy kształt i od razu podsuwa polskie znaczenie: *actual* brzmi jak „aktualny”, a znaczy „faktyczny”.\n\n**2. Jedno polskie słowo, dwa angielskie.** Po polsku „pożyczam” zarówno od kogoś, jak i komuś. Po angielsku to dwa różne czasowniki: *borrow* (biorę) i *lend* (daję). Jeśli tłumaczysz z polskiego słowo po słowie, trafiasz w połowie przypadków."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Angielskie słowo",
+        "Co naprawdę znaczy",
+        "Polskie słowo, które przypomina",
+        "Jak to powiedzieć"
+      ],
+      "rows": [
+        ["actual", "faktyczny, rzeczywisty", "aktualny", "current, up-to-date"],
+        ["eventually", "w końcu, ostatecznie", "ewentualnie", "possibly, alternatively"],
+        ["sympathetic", "współczujący, wyrozumiały", "sympatyczny", "nice, friendly"],
+        [
+          "realise",
+          "uświadomić sobie",
+          "realizować",
+          "carry out, implement (ale: realise a dream / an ambition = spełnić marzenie)"
+        ],
+        ["lecture", "wykład", "lektura", "reading, set book"],
+        ["receipt", "paragon", "recepta", "prescription"],
+        ["pension", "emerytura, renta", "pensja", "salary"],
+        ["novel", "powieść", "nowela", "short story, novella"],
+        ["fabric", "tkanina", "fabryka", "factory"],
+        ["confident", "pewny siebie", "konfident", "informer"]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Fałszywy przyjaciel to zwykle **dwie pułapki naraz**: źle rozumiesz angielskie słowo w tekście i źle go używasz, kiedy piszesz. Dlatego ucz się każdej pary w obie strony: *pension* = emerytura, a „pensja” = *salary*."
+    },
+    {
+      "type": "text",
+      "md_pl": "Przy drugim mechanizmie (jedno polskie słowo, dwa angielskie) pomaga jedno pytanie: **w którą stronę idzie rzecz albo informacja i kto jest dopełnieniem?** Różnica prawie zawsze siedzi we wzorcu zdania, a nie w samym słowie. Poniżej pięć par, które mylą się najczęściej."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "borrow",
+          "md_pl": "**Biorę** od kogoś na chwilę. Wzorzec: *borrow sth from sb*.",
+          "examples": [
+            {
+              "en": "Can I borrow your charger for a minute?",
+              "pl": "Mogę pożyczyć twoją ładowarkę na chwilę?"
+            }
+          ]
+        },
+        {
+          "title": "lend",
+          "md_pl": "**Daję** komuś na chwilę. Wzorzec: *lend sb sth* albo *lend sth to sb*. Formy: lend – lent – lent.",
+          "examples": [
+            {
+              "en": "Can you lend me your charger for a minute?",
+              "pl": "Pożyczysz mi ładowarkę na chwilę?"
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Rzecz idzie **do mnie** → borrow. Rzecz idzie **ode mnie** → lend."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "say",
+          "md_pl": "Najważniejsze jest to, **co** ktoś mówi. Osoba, jeśli w ogóle jest, idzie po *to*: *say sth (to sb)*.",
+          "examples": [
+            {
+              "en": "He said that he was tired.",
+              "pl": "Powiedział, że jest zmęczony."
+            }
+          ]
+        },
+        {
+          "title": "tell",
+          "md_pl": "Najważniejsze jest to, **komu** mówisz. Osoba stoi zaraz po czasowniku, bez *to*: *tell sb sth*, *tell sb to do sth*.",
+          "examples": [
+            {
+              "en": "He told me that he was tired.",
+              "pl": "Powiedział mi, że jest zmęczony."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Jest osoba zaraz po czasowniku → tell. Nie ma (albo jest dopiero po *to*) → say. Stałe zwroty: *say goodbye*, ale *tell the truth*, *tell a story*, *tell a lie*."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "remember",
+          "md_pl": "Coś jest **w mojej głowie**: pamiętam albo przypominam sobie. *remember sth*, *remember to do sth*.",
+          "examples": [
+            {
+              "en": "I can't remember her name.",
+              "pl": "Nie mogę sobie przypomnieć, jak ona ma na imię."
+            }
+          ]
+        },
+        {
+          "title": "remind",
+          "md_pl": "Ktoś albo coś **wkłada mi to do głowy**: przypomina mi. *remind sb to do sth*, *remind sb of sb/sth* (kojarzyć się).",
+          "examples": [
+            {
+              "en": "Can you remind me to call Grandma tonight?",
+              "pl": "Przypomnisz mi, żebym wieczorem zadzwonił do babci?"
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Po *remind* prawie zawsze stoi osoba (remind **me**). Po *remember* osoby, której się przypomina, nie ma."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "rob",
+          "md_pl": "Dopełnieniem jest **ofiara**: osoba albo miejsce. *rob sb / a bank (of sth)*.",
+          "examples": [
+            {
+              "en": "Two men robbed a petrol station last night.",
+              "pl": "Dwóch mężczyzn obrabowało wczoraj w nocy stację benzynową."
+            }
+          ]
+        },
+        {
+          "title": "steal",
+          "md_pl": "Dopełnieniem jest **rzecz**, która znika. *steal sth (from sb)*. Formy: steal – stole – stolen.",
+          "examples": [
+            {
+              "en": "Someone stole my wallet on the bus.",
+              "pl": "Ktoś ukradł mi portfel w autobusie."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Kogo albo co okradli → rob. Co ukradli → steal."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "affect",
+          "md_pl": "**Czasownik**: wpływać na coś. Bez przyimka: *affect sb/sth*.",
+          "examples": [
+            {
+              "en": "Stress can affect your sleep.",
+              "pl": "Stres może wpływać na sen."
+            }
+          ]
+        },
+        {
+          "title": "effect",
+          "md_pl": "**Rzeczownik**: wpływ, skutek. Zwykle z *on*: *have an effect on sth*.",
+          "examples": [
+            {
+              "en": "Stress can have a bad effect on your sleep.",
+              "pl": "Stres może źle wpływać na sen."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Przed luką stoi przedimek albo przymiotnik (*a*, *the*, *a huge*) → rzeczownik effect. Przed luką stoi podmiot albo *can*, *will*, *to* → czasownik affect. (Rzadko: effect jako czasownik = wprowadzić, np. effect change.)"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "słownik jednojęzyczny",
+          "text_pl": "Sprawdź słowo w Cambridge albo Oxford Learner's i przeczytaj definicję po angielsku. Samo tłumaczenie jednym polskim słowem często ukrywa różnicę."
+        },
+        {
+          "step_pl": "wzorzec zdania",
+          "text_pl": "Zobacz, co stoi obok słowa: lend sb sth, borrow sth from sb, remind sb of sth. To wzorzec rozstrzyga, które słowo pasuje."
+        },
+        {
+          "step_pl": "przykłady",
+          "text_pl": "Przeczytaj dwa, trzy przykładowe zdania ze słownika. Jeśli twoje zdanie wygląda inaczej niż wszystkie przykłady, coś jest nie tak."
+        },
+        {
+          "step_pl": "w drugą stronę",
+          "text_pl": "Jeśli słowo wygląda jak polskie, wpisz polskie słowo w słowniku polsko-angielskim. „Aktualny” da current, a nie actual, i od razu widać pułapkę."
+        },
+        {
+          "step_pl": "zapisz parę",
+          "text_pl": "Zapisz oba słowa obok siebie, każde z krótkim zdaniem. Para zapamiętana razem myli się rzadziej niż dwa słowa uczone osobno."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "W zadaniu 7 (tekst z lukami, wybór A–D) w latach 2023–2026 cztery luki sprawdzały **znaczenie słowa**, w tym parę *recognise / realise*, a jedna przysłówek *eventually*. Opcje są wtedy z tej samej klasy i z tego samego pola znaczeniowego, więc „brzmi znajomo” nie wystarczy. Sprawdź, czy słowo pasuje znaczeniem i wzorcem do słów wokół luki."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Pełne listy z przykładami są w zestawach **Fałszywi przyjaciele** (60 słów), **Mylone słowa (1)** (m.in. affect/effect, lie/lay, rise/raise, borrow/lend, say/tell) i **Mylone słowa (2)** (m.in. journey/trip, job/work, opportunity/possibility, during/for, until/by). Najlepiej przerabiać je parami, a słowa, które ci uciekają, dodać do fiszek."
+    }
+  ]
+}

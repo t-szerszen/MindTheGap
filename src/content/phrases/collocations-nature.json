@@ -1,0 +1,249 @@
+{
+  "id": "collocations-nature",
+  "category": "collocations",
+  "title_pl": "Kolokacje: świat przyrody i środowisko",
+  "items": [
+    {
+      "en": "protect the environment",
+      "pl": "chronić środowisko",
+      "meaning_pl": "the environment = środowisko naturalne, w tym znaczeniu zawsze z the. Bez the environment to po prostu otoczenie, np. a friendly working environment. Rzeczownik: environmental protection (ochrona środowiska).",
+      "example": {
+        "en": "Everyone can help protect the environment by using less plastic and recycling their rubbish.",
+        "pl": "Każdy może pomóc chronić środowisko, używając mniej plastiku i oddając śmieci do recyklingu."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "ochrona środowiska", "pułapka"]
+    },
+    {
+      "en": "pose a threat to sth",
+      "pl": "stanowić zagrożenie dla czegoś",
+      "meaning_pl": "pose = stanowić (zagrożenie, problem, ryzyko). Brzmi poważniej niż be a threat, więc pasuje do rozprawki i artykułu. Przyimek to, nie for. Mocniej: pose a serious threat to sth.",
+      "example": {
+        "en": "Plastic waste poses a serious threat to marine life.",
+        "pl": "Plastikowe odpady stanowią poważne zagrożenie dla organizmów morskich."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "zagrożenia", "rozprawka", "pułapka"]
+    },
+    {
+      "en": "tackle / combat climate change",
+      "pl": "walczyć ze zmianami klimatu",
+      "meaning_pl": "tackle = zabrać się za trudny problem i próbować go rozwiązać; combat brzmi bardziej oficjalnie. Climate change jest niepoliczalne, bez a i zwykle bez the, choć po polsku mówimy w liczbie mnogiej: zmiany klimatu.",
+      "example": {
+        "en": "Governments must work together to tackle climate change.",
+        "pl": "Rządy muszą współpracować, żeby walczyć ze zmianami klimatu."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "noun+noun", "klimat", "pułapka"]
+    },
+    {
+      "en": "cut / reduce greenhouse gas emissions",
+      "pl": "ograniczać emisję gazów cieplarnianych",
+      "meaning_pl": "emissions zwykle w liczbie mnogiej, a po polsku emisja w pojedynczej. Cut jest krótkie i typowe dla prasy, reduce bardziej neutralne. O ile zmniejszamy: by half, by 20% (o połowę, o 20%).",
+      "example": {
+        "en": "The government has promised to cut greenhouse gas emissions by half by 2035.",
+        "pl": "Rząd obiecał zmniejszyć emisję gazów cieplarnianych o połowę do 2035 roku."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "noun+noun", "klimat"]
+    },
+    {
+      "en": "raise awareness of / about sth",
+      "pl": "zwiększać świadomość czegoś, uświadamiać ludziom coś",
+      "meaning_pl": "raise = podnieść coś (ma dopełnienie), a rise = rosnąć samo (bez dopełnienia), więc nie „rise awareness”. Typowy argument w rozprawce: kampanie i szkoły mogą raise awareness of the problem.",
+      "example": {
+        "en": "The campaign aims to raise awareness of how much plastic ends up in the sea.",
+        "pl": "Celem kampanii jest uświadomienie ludziom, ile plastiku trafia do morza."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "rozprawka", "pułapka"]
+    },
+    {
+      "en": "face extinction",
+      "pl": "być zagrożonym wyginięciem",
+      "meaning_pl": "extinction = wyginięcie gatunku, face = stać w obliczu czegoś. Podobnie: be threatened with extinction, be on the verge of extinction (na skraju wyginięcia). Gdy gatunek już wyginął: become extinct.",
+      "example": {
+        "en": "Without urgent action, many species of bees could face extinction.",
+        "pl": "Bez pilnych działań wielu gatunkom pszczół może grozić wyginięcie."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "zwierzęta"]
+    },
+    {
+      "en": "cause irreversible damage to sth",
+      "pl": "wyrządzić czemuś nieodwracalne szkody",
+      "meaning_pl": "damage w znaczeniu szkody jest niepoliczalne: bez a i bez -s (damages to odszkodowanie w sądzie). Przyimek to. Irreversible = nie da się tego cofnąć; łagodniej: serious damage.",
+      "example": {
+        "en": "Oil spills can cause irreversible damage to coastal ecosystems.",
+        "pl": "Wycieki ropy mogą wyrządzić nieodwracalne szkody ekosystemom przybrzeżnym."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "adjective+noun", "zagrożenia", "pułapka"]
+    },
+    {
+      "en": "burn fossil fuels",
+      "pl": "spalać paliwa kopalne",
+      "meaning_pl": "fossil fuels = węgiel, ropa i gaz, prawie zawsze w liczbie mnogiej. Ich spalanie to największe źródło CO2 produkowanego przez ludzi, dlatego w rozprawce zestawia się je z renewable energy.",
+      "example": {
+        "en": "Burning fossil fuels is the main cause of global warming.",
+        "pl": "Spalanie paliw kopalnych jest główną przyczyną globalnego ocieplenia."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "adjective+noun", "energia", "klimat"]
+    },
+    {
+      "en": "dispose of waste / rubbish",
+      "pl": "pozbywać się odpadów / śmieci",
+      "meaning_pl": "dispose zawsze z of, nie „dispose waste”. Brzmi oficjalniej niż get rid of. Waste i rubbish są niepoliczalne; rubbish to słowo brytyjskie, Amerykanie mówią garbage albo trash. Rzeczownik: waste disposal.",
+      "example": {
+        "en": "Some companies were fined for disposing of toxic waste illegally.",
+        "pl": "Niektóre firmy ukarano grzywną za nielegalne pozbywanie się toksycznych odpadów."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "odpady", "BrE", "pułapka"]
+    },
+    {
+      "en": "deplete natural resources",
+      "pl": "wyczerpywać zasoby naturalne",
+      "meaning_pl": "deplete = zużywać coś tak, że zaczyna tego brakować; w mowie potocznej use up. Natural resources zwykle w liczbie mnogiej. Przeciwieństwo: conserve natural resources (oszczędzać zasoby).",
+      "example": {
+        "en": "If we keep depleting natural resources at this rate, future generations will pay the price.",
+        "pl": "Jeśli dalej będziemy wyczerpywać zasoby naturalne w takim tempie, zapłacą za to przyszłe pokolenia."
+      },
+      "register": "formal",
+      "tags": ["verb+noun", "adjective+noun", "zasoby"]
+    },
+    {
+      "en": "an endangered species",
+      "pl": "zagrożony gatunek",
+      "meaning_pl": "species ma tę samą formę w liczbie pojedynczej i mnogiej: one species, two species, nie „specie”. Endangered = zagrożony wyginięciem, czyli mocniej niż samo rare (rzadki).",
+      "example": {
+        "en": "Zoos claim that they help to protect endangered species.",
+        "pl": "Ogrody zoologiczne twierdzą, że pomagają chronić zagrożone gatunki."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "zwierzęta", "pułapka"]
+    },
+    {
+      "en": "natural habitat",
+      "pl": "naturalne środowisko (zwierzęcia), siedlisko",
+      "meaning_pl": "habitat to miejsce, gdzie dany gatunek naturalnie żyje. Nie myl z the environment, czyli środowiskiem w ogóle. Typowo: destroy / protect natural habitats, see animals in their natural habitat.",
+      "example": {
+        "en": "It's better to see animals in their natural habitat than in a zoo.",
+        "pl": "Lepiej oglądać zwierzęta w ich naturalnym środowisku niż w zoo."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "zwierzęta", "pułapka"]
+    },
+    {
+      "en": "renewable energy (sources)",
+      "pl": "energia odnawialna, odnawialne źródła energii",
+      "meaning_pl": "renewable = taka, która się nie wyczerpuje: słońce, wiatr, woda. Przeciwieństwo to fossil fuels albo non-renewable energy. Energy w tym znaczeniu jest niepoliczalne. Przejść na nią: switch to renewable energy.",
+      "example": {
+        "en": "More and more households are switching to renewable energy by installing solar panels.",
+        "pl": "Coraz więcej gospodarstw domowych przechodzi na energię odnawialną, montując panele słoneczne."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "energia"]
+    },
+    {
+      "en": "single-use plastics",
+      "pl": "plastik jednorazowego użytku",
+      "meaning_pl": "single-use = do jednorazowego użycia: słomki, kubki, sztućce. Plastics w liczbie mnogiej znaczy tu przedmioty z plastiku. Typowo: ban / cut down on single-use plastics.",
+      "example": {
+        "en": "Our school canteen has stopped using single-use plastics.",
+        "pl": "Nasza stołówka szkolna przestała używać plastiku jednorazowego użytku."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "odpady"]
+    },
+    {
+      "en": "air / water pollution",
+      "pl": "zanieczyszczenie powietrza / wody",
+      "meaning_pl": "pierwszy rzeczownik mówi, co jest zanieczyszczone; podobnie noise pollution (hałas). Pollution jest niepoliczalne, nie „pollutions”. Przymiotnik łączy się z heavily: a heavily polluted river.",
+      "example": {
+        "en": "Air pollution is at its worst in winter, when many people still burn coal to heat their homes.",
+        "pl": "Zanieczyszczenie powietrza jest najgorsze zimą, kiedy wiele osób wciąż pali węglem, żeby ogrzać domy."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "zanieczyszczenie", "pułapka"]
+    },
+    {
+      "en": "heavy rain / snow",
+      "pl": "ulewny deszcz, intensywne opady śniegu",
+      "meaning_pl": "o dużych opadach mówimy heavy, nie strong. Przy czasowniku przysłówek: it rained heavily. Jeszcze mocniej: torrential rain (ulewa jak z cebra).",
+      "example": {
+        "en": "Heavy rain caused flooding in several towns in the south.",
+        "pl": "Ulewny deszcz spowodował powodzie w kilku miastach na południu."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "pogoda", "pułapka"]
+    },
+    {
+      "en": "strong winds",
+      "pl": "silny wiatr",
+      "meaning_pl": "o wietrze mówimy strong albo high, nie heavy (heavy jest dla deszczu i śniegu). W prognozach i wiadomościach zwykle liczba mnoga, a po polsku pojedyncza.",
+      "example": {
+        "en": "Strong winds brought down trees and power lines across the region.",
+        "pl": "Silny wiatr połamał drzewa i zerwał linie energetyczne w całym regionie."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "pogoda", "pułapka"]
+    },
+    {
+      "en": "extreme weather (events)",
+      "pl": "ekstremalne zjawiska pogodowe",
+      "meaning_pl": "susze, fale upałów, nawałnice. Weather jest niepoliczalne, więc nie „a bad weather”, tylko bad weather. Gdy chcesz policzyć pojedyncze zjawiska, dodajesz events.",
+      "example": {
+        "en": "Scientists link the rise in extreme weather events to climate change.",
+        "pl": "Naukowcy wiążą coraz częstsze ekstremalne zjawiska pogodowe ze zmianami klimatu."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "pogoda", "klimat", "pułapka"]
+    },
+    {
+      "en": "a natural disaster",
+      "pl": "klęska żywiołowa",
+      "meaning_pl": "powódź, trzęsienie ziemi, huragan. Typowe czasowniki: a disaster strikes (nawiedza, wydarza się nagle) i be hit by sth, np. the area was hit by floods.",
+      "example": {
+        "en": "When a natural disaster strikes, the poorest people usually suffer the most.",
+        "pl": "Kiedy dochodzi do klęski żywiołowej, najbardziej cierpią zwykle najbiedniejsi."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "klęski żywiołowe"]
+    },
+    {
+      "en": "rising sea levels",
+      "pl": "podnoszący się poziom mórz",
+      "meaning_pl": "rising = rosnący, od rise (rosnąć samo, bez dopełnienia). Sea levels często w liczbie mnogiej. To skutek ocieplenia: topnieją lodowce, a woda w morzach się rozszerza.",
+      "example": {
+        "en": "Rising sea levels are a real threat to low-lying coastal cities.",
+        "pl": "Podnoszący się poziom mórz to realne zagrożenie dla nisko położonych miast nadmorskich."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "noun+noun", "klimat"]
+    },
+    {
+      "en": "environmentally friendly",
+      "pl": "przyjazny dla środowiska, ekologiczny",
+      "meaning_pl": "przysłówek + przymiotnik; krócej i luźniej eco-friendly. Nie tłumacz „ekologiczny” odruchowo jako ecological: produkt eko to environmentally friendly, a żywność eko to organic food.",
+      "example": {
+        "en": "Cycling to school is the most environmentally friendly way to travel.",
+        "pl": "Jazda rowerem do szkoły to najbardziej ekologiczny sposób podróżowania."
+      },
+      "register": "neutral",
+      "tags": ["adverb+adjective", "ochrona środowiska", "pułapka"]
+    },
+    {
+      "en": "decline sharply",
+      "pl": "gwałtownie spadać, gwałtownie maleć",
+      "meaning_pl": "o liczbie, populacji albo poziomie czegoś. Sharply = nagle i mocno; spokojniej: decline steadily (systematycznie). Rzeczownik: a sharp decline in sth, z przyimkiem in.",
+      "example": {
+        "en": "The number of wild birds in the area has declined sharply since the new motorway was built.",
+        "pl": "Liczba dzikich ptaków w okolicy gwałtownie spadła, odkąd zbudowano nową autostradę."
+      },
+      "register": "neutral",
+      "tags": ["verb+adverb", "zwierzęta", "liczby"]
+    }
+  ]
+}
