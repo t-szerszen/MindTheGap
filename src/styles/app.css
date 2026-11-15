@@ -792,6 +792,17 @@
   color: var(--pencil);
   margin-right: 3px;
 }
+/* wstawione całe zdanie (zad. 5): zwykły tekst, litera zdania ręcznie */
+.cgap.filled {
+  display: inline;
+  font-family: var(--f-body);
+  font-size: inherit;
+  line-height: inherit;
+  text-align: left;
+}
+.cgap.filled b {
+  font-size: 20px;
+}
 .cgap.ok {
   color: var(--pen-green);
   border-color: var(--pen-green);
@@ -1617,6 +1628,8 @@
 }
 .reading-item .ex-num {
   top: -4px;
+  width: auto;
+  text-align: left;
 }
 /* z prawej miejsce na ptaszka albo krzyżyk po sprawdzeniu */
 .reading-item .ex-main {
@@ -1644,6 +1657,50 @@
   display: block;
   margin-top: 2px;
   color: var(--pencil);
+}
+.reading-block + .reading-block {
+  margin-top: 22px;
+}
+.reading-text-head {
+  gap: 4px 10px;
+  align-items: baseline;
+}
+.reading-text-title {
+  font-size: 20px;
+}
+.reading-summary {
+  margin-top: 10px;
+  line-height: 44px;
+}
+.reading-summary sup {
+  margin: 0 2px 0 4px;
+  color: var(--pen-red);
+  font-size: 15px;
+}
+/* notatka (pros / cons) wygląda jak kartka z nagłówkami */
+/* numery jak w arkuszu (6.1) są szersze */
+.reading.exam-no .reading-item {
+  padding-left: 40px;
+}
+.reading-note {
+  padding: 10px 12px 12px;
+  border: 1.5px dashed var(--ink-2);
+  border-radius: var(--r2);
+}
+.reading-note-head {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--pen-blue);
+}
+.reading-note-head:not(:first-child) {
+  margin-top: 6px;
+}
+/* długa odpowiedź (2026 bez limitu) nie może rozepchnąć strony */
+.reading .gap-in {
+  max-width: 100%;
+}
+.reading-key {
+  margin-top: 4px;
 }
 
 /* arkusz próbny */

@@ -582,11 +582,14 @@ export const pl = {
         `Wstaw w luki brakujące zdania. ${extra === 1 ? 'Jedno zdanie nie pasuje do żadnej luki.' : `${extra} zdania nie pasują do żadnej luki.`}`,
       'true-false': 'Zdecyduj, czy zdania są zgodne z treścią tekstu (P), czy nie (F).',
       match: 'Dopasuj właściwą odpowiedź do każdego zdania.',
-      gap: (max: number) =>
-        `Uzupełnij luki po angielsku informacjami z tekstu. Najwyżej ${max} ${plural(max, 'wyraz', 'wyrazy', 'wyrazów')} w luce.`,
+      gap: (max?: number) =>
+        `Uzupełnij luki po angielsku informacjami z tekstu.${max ? ` Najwyżej ${max} ${plural(max, 'wyraz', 'wyrazy', 'wyrazów')} w luce.` : ''}`,
     },
     taskN: (n: number) => `Zadanie ${n}`,
-    gapN: (n: number) => `luka ${n}`,
+    examTask: (n: number) => `Zadanie ${n}`,
+    itemRange: (from: string, to: string) => (from === to ? from : `${from}–${to}`),
+    textN: (n: number) => `Tekst ${n}`,
+    gapN: (n: number | string) => `luka ${n}`,
     tf: { true: 'P', false: 'F' },
     tfLabel: { true: 'prawda', false: 'fałsz' },
     check: 'Sprawdź wszystko',
