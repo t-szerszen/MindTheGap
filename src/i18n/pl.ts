@@ -395,8 +395,8 @@ export const pl = {
     weakNeedsLogin:
       'Słabe punkty liczę z poprzednich prób, a te zapisują się tylko po zalogowaniu.',
     weakEmpty: 'Nie ma jeszcze prób, więc na razie to zwykłe losowanie.',
-    tenses: 'Czasy',
-    topics: 'Tematy',
+    pick: 'Co ćwiczysz?',
+    groups: { tenses: 'Czasy', grammar: 'Gramatyka', vocabulary: 'Słownictwo', exam: 'Matura' },
     all: 'wszystko',
     level: 'Poziom',
     levels: { 0: 'każdy', 1: 'łatwe', 2: 'średnie', 3: 'trudne' } as Record<number, string>,

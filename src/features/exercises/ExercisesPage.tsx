@@ -5,9 +5,11 @@ import { Icon } from '../../components/Icon'
 import { Card, Sticky, type Tilt } from '../../components/Paper'
 import type { Exercise } from '../../content/schema'
 import type { IconName } from '../../components/Icon'
+import type { NoteColor } from '../../components/Paper'
 import { pl } from '../../i18n/pl'
 import { getTenses, useExercises, useTopics } from '../../lib/content'
 import { filterExercises, type SessionMode } from '../../lib/exercises/session'
+import { practiceGroup, practiceGroups, type PracticeGroup } from '../topics/hub'
 import { useAuth } from '../auth/useAuth'
 import { loadSession, sessionProgress } from './savedSession'
 import { useAttempts } from './useAttempts'
@@ -25,6 +27,13 @@ const modeCards: ModeCard[] = [
   { id: 'reading', to: '/reading', icon: 'book', tilt: 1 },
   { id: 'exam', to: '/exam', icon: 'clock', tilt: -1 },
 ]
+const groupColor: Record<PracticeGroup, NoteColor> = {
+  tenses: 'b',
+  grammar: 'm',
+  vocabulary: 'p',
+  exam: 'o',
+}
+type Chip = { id: string; label: string; en?: boolean }
 
 export function ExercisesPage() {
   const t = pl.exercises
@@ -40,15 +49,21 @@ export function ExercisesPage() {
 
   const exercises = useExercises()
   const topics = useTopics()
-  // tylko te czasy i tematy, do których są jakieś zdania
-  const tenseChips = useMemo(
-    () => getTenses().filter((x) => exercises.some((e) => e.tags.includes(x.id))),
-    [exercises],
-  )
-  const topicChips = useMemo(
-    () => topics.filter((x) => exercises.some((e) => e.tags.includes(x.id))),
-    [exercises, topics],
-  )
+  // tylko te czasy i tematy, do których są jakieś zdania; grupa tematu wynika z jego kategorii
+  const chipGroups = useMemo(() => {
+    const has = (id: string) => exercises.some((e) => e.tags.includes(id))
+    const byGroup: Record<PracticeGroup, Chip[]> = {
+      tenses: getTenses()
+        .filter((x) => has(x.id))
+        .map((x) => ({ id: x.id, label: x.nameEn, en: true })),
+      grammar: [],
+      vocabulary: [],
+      exam: [],
+    }
+    for (const x of topics)
+      if (has(x.id)) byGroup[practiceGroup(x.category)].push({ id: x.id, label: x.title_pl })
+    return practiceGroups.map((g) => ({ id: g, chips: byGroup[g] })).filter((g) => g.chips.length)
+  }, [exercises, topics])
   const matching = filterExercises(exercises, tags, level || undefined, types).length
   const presentTypes = typeOrder.filter((ty) => exercises.some((e) => e.type === ty))
   const progress = saved && sessionProgress(saved)
@@ -148,42 +163,32 @@ export function ExercisesPage() {
 
         <section className="tsec" aria-labelledby="tags-h">
           <h2 id="tags-h" className="h-s">
-            {t.tenses}
+            {t.pick}
           </h2>
           <div className="row wrap" style={{ gap: 6, marginTop: 8 }}>
             <TagButton pressed={tags.length === 0} color="y" onClick={() => setTags([])}>
               {t.all}
             </TagButton>
-            {tenseChips.map((x) => (
-              <TagButton
-                key={x.id}
-                pressed={tags.includes(x.id)}
-                color="b"
-                onClick={() => toggle(x.id)}
-              >
-                <span lang="en">{x.nameEn}</span>
-              </TagButton>
-            ))}
           </div>
-          {topicChips.length > 0 && (
-            <>
-              <h3 className="eyebrow" style={{ marginTop: 12 }}>
-                {t.topics}
+          {chipGroups.map((g) => (
+            <div key={g.id} role="group" aria-labelledby={`grp-${g.id}`}>
+              <h3 id={`grp-${g.id}`} className="eyebrow" style={{ marginTop: 12 }}>
+                {t.groups[g.id]}
               </h3>
               <div className="row wrap" style={{ gap: 6, marginTop: 6 }}>
-                {topicChips.map((x) => (
+                {g.chips.map((x) => (
                   <TagButton
                     key={x.id}
                     pressed={tags.includes(x.id)}
-                    color="m"
+                    color={groupColor[g.id]}
                     onClick={() => toggle(x.id)}
                   >
-                    {x.title_pl}
+                    {x.en ? <span lang="en">{x.label}</span> : x.label}
                   </TagButton>
                 ))}
               </div>
-            </>
-          )}
+            </div>
+          ))}
         </section>
 
         {presentTypes.length > 1 && (

@@ -853,7 +853,10 @@
 }
 .progress-list {
   gap: 14px;
-  margin-top: 18px;
+  margin-top: 10px;
+}
+.progress-group {
+  margin-top: 22px;
 }
 .progress-name {
   font-size: 21px;

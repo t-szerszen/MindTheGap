@@ -30,3 +30,13 @@ export function topicHome(category: Topic['category']): 'grammar' | 'tenses' | '
   if (category === 'tenses') return 'tenses'
   return 'more'
 }
+
+// grupy w ćwiczeniach i postępie: słownictwo i matura osobno, bo to nie gramatyka
+export type PracticeGroup = 'tenses' | 'grammar' | 'vocabulary' | 'exam'
+export const practiceGroups: PracticeGroup[] = ['tenses', 'grammar', 'vocabulary', 'exam']
+
+export function practiceGroup(category: Topic['category']): PracticeGroup {
+  const home = topicHome(category)
+  if (home !== 'more') return home
+  return category === 'exam' || category === 'writing' ? 'exam' : 'vocabulary'
+}
