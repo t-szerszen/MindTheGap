@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { Link, useNavigate } from 'react-router'
+import { Link, useNavigate, useSearchParams } from 'react-router'
 import { Button, Progress, TagButton } from '../../components/Controls'
 import { Icon } from '../../components/Icon'
 import { Card, Sticky, type Tilt } from '../../components/Paper'
@@ -40,8 +40,10 @@ export function ExercisesPage() {
   const { user } = useAuth()
   const { attempts } = useAttempts()
   const navigate = useNavigate()
+  const [params] = useSearchParams()
   const [mode, setMode] = useState<SessionMode>('random')
-  const [tags, setTags] = useState<string[]>([])
+  // ?tags=… z linku na stronie startowej, od razu zaznaczone
+  const [tags, setTags] = useState(() => params.get('tags')?.split(',').filter(Boolean) ?? [])
   const [level, setLevel] = useState<0 | 1 | 2 | 3>(0)
   const [count, setCount] = useState(8)
   const [types, setTypes] = useState<Exercise['type'][]>([])

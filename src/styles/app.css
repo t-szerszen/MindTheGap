@@ -1163,8 +1163,62 @@
 .recent {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 12px;
   margin-top: 8px;
+}
+.recent-area {
+  --area: var(--hl-y);
+  border-left: 4px solid var(--area);
+  padding-left: 10px;
+}
+.recent-area.c-b {
+  --area: var(--hl-b);
+}
+.recent-area.c-m {
+  --area: var(--hl-m);
+}
+.recent-area.c-p {
+  --area: var(--hl-p);
+}
+.recent-area.c-o {
+  --area: var(--hl-o);
+}
+.recent-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  color: inherit;
+  text-decoration: none;
+}
+.recent-head > .grow > span {
+  display: block;
+}
+.recent-head > .grow > .recent-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+}
+.recent-name {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.recent-topic {
+  font-size: 14px;
+}
+.recent-more > summary {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  cursor: pointer;
+}
+.recent-gaps {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-bottom: 6px;
 }
 .recent-mark {
   flex: none;
@@ -1176,11 +1230,6 @@
 }
 .recent-mark.bad {
   color: var(--pen-red);
-}
-.recent-text {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 /* zdanie z odpowiedzią: może się zawijać, inaczej ucięłoby właśnie poprawkę */
 .recent-sentence {
