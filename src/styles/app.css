@@ -358,6 +358,100 @@
   }
 }
 
+/* gramatyka: ta sama kartka i indeks co w czasach */
+.grammar-tabs {
+  /* przekładek jest więcej niż czasów, więc indeks się przewija; padding, żeby wysunięta karta się nie ucinała */
+  width: 54px;
+  margin-left: -8px;
+  padding-left: 8px;
+  max-height: calc(100dvh - 90px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: none;
+}
+.grammar-tabs::-webkit-scrollbar {
+  display: none;
+}
+.gr-head {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.gr-note {
+  margin-top: 2px;
+}
+.gr-body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+}
+.gr-col {
+  display: contents;
+}
+.gr-body .tsec {
+  margin-top: 6px;
+}
+.gr-cheat {
+  order: 1;
+  margin-top: 6px;
+}
+.gr-end {
+  order: 2;
+  gap: 10px;
+  margin-top: 8px;
+}
+.gr-soon {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 20px;
+  padding: 18px 16px 16px;
+}
+@media (min-width: 760px) {
+  .grammar-tabs {
+    width: 64px;
+    max-height: calc(100dvh - 150px);
+  }
+}
+@media (min-width: 1100px) {
+  .gr-head {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .gr-note {
+    max-width: 420px;
+    text-align: right;
+    font-size: 17px;
+  }
+  .gr-body {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 56px;
+    align-items: start;
+    margin-top: 14px;
+  }
+  .gr-col {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  .gr-body .tsec,
+  .gr-cheat,
+  .gr-end {
+    margin-top: 0;
+  }
+  .gr-practice {
+    align-self: flex-start;
+    width: auto;
+  }
+  .gr-scale {
+    max-width: 470px;
+  }
+}
+
 /* arkusz na dole ekranu (zapis i edycja słówka) */
 .sheet-dialog {
   width: 100%;

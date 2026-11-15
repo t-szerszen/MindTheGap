@@ -1922,7 +1922,10 @@ body {
   font-size: 15px;
   line-height: 1.35;
 }
-.cheat > span {
+.cheat-row {
+  display: contents;
+}
+.cheat-row > span {
   padding: 7px 8px;
   border-bottom: 1.5px dashed var(--rule-2);
 }

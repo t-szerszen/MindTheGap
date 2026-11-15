@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import type { FormulaPart, Role } from '../content/schema'
 import { pl } from '../i18n/pl'
+import { parseMarked } from '../lib/text/marked'
 import { legendOrder, roleClass } from './roles'
 
 const PUNCT = /^[?.!,]+$/
@@ -17,6 +18,23 @@ export function FormulaParts({ parts }: { parts: FormulaPart[] }) {
           </Fragment>
         )
       })}
+    </>
+  )
+}
+
+// tekst z notacją [k:…] (gramatyka): kawałki stoją obok siebie, plusy są już w tekście
+export function MarkedText({ text }: { text: string }) {
+  return (
+    <>
+      {parseMarked(text).map((p, i) =>
+        roleClass[p.role] ? (
+          <span key={i} className={roleClass[p.role]}>
+            {p.text}
+          </span>
+        ) : (
+          <Fragment key={i}>{p.text}</Fragment>
+        ),
+      )}
     </>
   )
 }
