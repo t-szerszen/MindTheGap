@@ -1,0 +1,415 @@
+[
+  {
+    "id": "wft-night-train",
+    "type": "word-formation",
+    "title": "Overnight to Budapest",
+    "text": "Last April my friend Zuza and I decided to take the night train from Warsaw to Budapest instead of flying. The train left ___ at ten in the evening, and the conductor showed us to a small compartment with four couchettes. The other two ___ in it were an elderly couple from Győr who had made the same journey every spring for years. The couchettes were narrow, but the sheets were clean and the staff were very ___: someone even brought us tea and a breakfast box without being asked. I was sure I would not sleep at all, but I woke up only when the train slowed down near the border. I opened the curtain and watched in ___ as the sun rose over the Danube. Next time I am definitely going by train again.",
+    "gaps": [
+      {
+        "base": "PUNCTUAL",
+        "correct": ["punctually"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po The train left stoi przysłówek, który mówi, jak pociąg odjechał. Czasownik left opisuje przysłówek, a nie przymiotnik."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Zaraz po luce jest dokładna godzina: at ten in the evening. Pociąg odjechał punktualnie, co do minuty."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "punctual + -ly → punctually, jedno l z przymiotnika plus -ly, więc razem dwa l. punctual bez -ly to 0 pkt, bo opisuje czasownik left. punctualy z jednym l też."
+          }
+        ]
+      },
+      {
+        "base": "TRAVEL",
+        "correct": ["travellers"],
+        "accepted": ["travelers"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po The other two stoi rzeczownik, a cała grupa to podmiot czasownika were. Two oznacza liczbę mnogą."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Dalej jest wyjaśnienie: an elderly couple, czyli dwoje ludzi. Ludzi, którzy podróżują, robi końcówka -er: travel → traveller."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "W brytyjskiej pisowni l się podwaja: traveller, plus -s, bo osoby są dwie. traveller bez -s to 0 pkt, tak samo travels (podróże, nie ludzie). Amerykańska pisownia ma jedno l."
+          }
+        ]
+      },
+      {
+        "base": "ATTEND",
+        "correct": ["attentive"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po were very stoi przymiotnik, który opisuje ludzi (the staff), tak jak were very nice."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Po dwukropku jest przykład: ktoś przyniósł herbatę i śniadanie, choć nikt nie prosił. Obsługa była uważna i troskliwa = attentive."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "attend + -ive, d zmienia się w t: attentive. attending i attended to formy czasownika i nie znaczą „uważny”. attendant to rzeczownik (np. flight attendant), więc po very nie pasuje."
+          }
+        ]
+      },
+      {
+        "base": "AMAZE",
+        "correct": ["amazement"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po przyimku in stoi rzeczownik. watch in ___ to stały zwrot o uczuciu, tak jak in silence albo in horror."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Słońce wschodzi nad winnicami po nocy w pociągu, więc ktoś patrzy z zachwytem i zdumieniem: in amazement."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "amaze + -ment → amazement, e zostaje przed -ment. amazing i amazed to przymiotniki, a po in potrzebny jest rzeczownik, więc to 0 pkt. amazment bez e też."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wft-bakery-career",
+    "type": "word-formation",
+    "title": "From the Bank to the Bakery",
+    "text": "My aunt Iga worked in a bank for fifteen years. She had a good salary, but she was bored and spent every weekend baking bread for the family. Two years ago she surprised everyone: she handed in her ___ and opened a small bakery. Most of her friends called the plan ___. After all, who gives up a safe job to get up at four in the morning? The first year was ___ difficult, and at one point she almost had to close. But slowly people started coming back for her rye bread, and now there is a queue outside every Saturday. She earns less than before, but she says the ___ of seeing people enjoy something she has made is worth more than any salary.",
+    "gaps": [
+      {
+        "base": "RESIGN",
+        "correct": ["resignation"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po handed in her stoi rzeczownik w liczbie pojedynczej. hand in + rzeczownik = złożyć, oddać coś."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Ciocia odeszła z banku i otworzyła piekarnię, więc złożyła wypowiedzenie: hand in your resignation = złożyć rezygnację."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "resign + -ation → resignation, g zostaje, choć go nie słychać. resignations to 0 pkt, bo składa się jedno wypowiedzenie. resignment nie istnieje."
+          }
+        ]
+      },
+      {
+        "base": "REAL",
+        "correct": ["unrealistic"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po called the plan stoi przymiotnik, który ocenia plan: call something + przymiotnik, tak jak call it crazy."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Następne zdanie to pytanie z powątpiewaniem: kto rzuca pewną pracę, żeby wstawać o czwartej? Znajomi uważali, że plan jest oderwany od rzeczywistości, więc potrzebne jest przeczenie."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "un- + real + -istic → unrealistic. realistic to 0 pkt, bo odwraca sens. unreal znaczy „nierzeczywisty, jak ze snu”, a nie „nierealny do wykonania”, więc też nie pasuje."
+          }
+        ]
+      },
+      {
+        "base": "FINANCE",
+        "correct": ["financially"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Między was a przymiotnikiem difficult stoi przysłówek, który mówi, pod jakim względem było trudno."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Ciocia prawie musiała zamknąć piekarnię, czyli brakowało pieniędzy. Pierwszy rok był trudny finansowo = financially difficult."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "finance → financial (e znika, dochodzi -ial) → financially, dwa l. financial bez -ly to 0 pkt, bo stoi przed przymiotnikiem. financialy z jednym l też."
+          }
+        ]
+      },
+      {
+        "base": "PLEASE",
+        "correct": ["pleasure"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po the, a przed of stoi rzeczownik. Dalej jest czasownik is, więc liczba pojedyncza."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Zarabia mniej, ale cieszy ją widok ludzi, którym smakuje jej chleb. Przyjemność, radość = pleasure: the pleasure of doing something."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "please → pleasure: e znika, dochodzi -ure. pleasant i pleasing to przymiotniki i po the nie pasują. pleasures to 0 pkt, bo czasownik to is. plesure bez a też."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wft-robot-maze",
+    "type": "word-formation",
+    "title": "Our Robot and the Maze",
+    "text": "In October our school robotics club entered a national contest for secondary schools. The task sounded simple, but it was actually quite ___: our robot had to find its way out of a maze on its own, without any remote control. We spent two months on the project, and our biggest ___ turned out to be the battery, which died after about four minutes. Then, on the morning of the final, the battery stopped charging completely. ___, our teacher had brought a spare one, so we could still take part. The robot got out of the maze in three minutes and ten seconds, and we finished third out of twenty-six teams. The judges said that our ___ was what impressed them most, because we had rebuilt the robot four times.",
+    "gaps": [
+      {
+        "base": "COMPLICATE",
+        "correct": ["complicated"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po was actually quite stoi przymiotnik, który opisuje zadanie (it = the task)."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "But pokazuje kontrast z sounded simple: brzmiało prosto, a było skomplikowane. Po dwukropku jest dowód: robot sam musiał znaleźć wyjście z labiryntu."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "complicate + -d → complicated, e już jest, więc dochodzi tylko d. uncomplicated to 0 pkt, bo zgadza się z simple, a nie z but. complication to rzeczownik i po quite nie pasuje."
+          }
+        ]
+      },
+      {
+        "base": "WEAK",
+        "correct": ["weakness"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po our biggest stoi rzeczownik, a dalej turned out to be the battery. Jedna bateria, więc liczba pojedyncza."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Bateria padała po czterech minutach, więc to był najsłabszy punkt robota: słaba strona = weakness."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "weak + -ness → weakness, końcówka -ness ma dwa s. weaknesses to 0 pkt, bo chodzi o jedną rzecz, baterię. weakest to przymiotnik i po biggest nie pasuje."
+          }
+        ]
+      },
+      {
+        "base": "FORTUNATE",
+        "correct": ["Fortunately"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Na początku zdania, przed przecinkiem, stoi przysłówek, który komentuje całe zdanie, tak jak Luckily,."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Nauczyciel miał zapasową baterię, więc drużyna mogła wystartować. To dobra wiadomość, czyli na szczęście = Fortunately."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "fortunate + -ly → fortunately, e zostaje przed -ly. Unfortunately to 0 pkt, bo odwraca sens: tu dzieje się coś dobrego. Fortunatly bez e też."
+          }
+        ]
+      },
+      {
+        "base": "PERSIST",
+        "correct": ["persistence"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po our stoi rzeczownik, a cała grupa to podmiot czasownika was. Liczba pojedyncza."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Drużyna cztery razy przebudowywała robota i się nie poddała. Sędziów ujęła wytrwałość = persistence."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "persist + -ence → persistence. persistance przez a to 0 pkt: pisze się -ence, tak jak w insist → insistence. persistent to przymiotnik i po our nie pasuje."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  },
+  {
+    "id": "wft-storm-forest",
+    "type": "word-formation",
+    "title": "After the Storm",
+    "text": "Last August a violent storm hit the hills above our town and knocked down thousands of trees in just one night. The ___ was so great that some forest paths stayed closed until the end of the year. In March the forest service asked local ___ to help plant new trees, and almost three hundred people from our town came along on the first Saturday. The work was ___: we spent seven hours digging in heavy rain, and by the evening I could hardly lift my arms. Still, each of us planted about forty young beeches and oaks. According to the foresters, the forest will recover ___, but only in about fifty years, so it is our grandchildren who will really enjoy it.",
+    "box": ["COMPLETE", "DESTROY", "EXHAUST", "QUICK", "RESIDE", "TOUR"],
+    "gaps": [
+      {
+        "base": "DESTROY",
+        "correct": ["destruction"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po The, a przed was stoi podmiot, czyli rzeczownik w liczbie pojedynczej."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Burza powaliła tysiące drzew w jedną noc, a ścieżki były zamknięte do końca roku. Tak wielkie były zniszczenia = destruction."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "destroy → destruction: oy znika, dochodzi -uction. destroyment albo destroyation nie istnieją i to 0 pkt. destructive to przymiotnik („niszczycielski”) i po The nie pasuje."
+          }
+        ]
+      },
+      {
+        "base": "RESIDE",
+        "correct": ["residents"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po asked local stoi rzeczownik w liczbie mnogiej: kogoś proszono o pomoc, a przyszło trzysta osób."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Do sadzenia przyszli ludzie z miasta, czyli mieszkańcy = residents. TOUR kusi (tourists), ale słowo local i people from our town pokazują, że to nie turyści."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "reside + -ent, e się zlewa: resident, plus -s. resident bez -s to 0 pkt, bo ludzi było wielu. residence to miejsce zamieszkania, a nie ludzie."
+          }
+        ]
+      },
+      {
+        "base": "EXHAUST",
+        "correct": ["exhausting"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po The work was stoi przymiotnik, który opisuje pracę, a nie człowieka."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Siedem godzin kopania w deszczu i ręce, których nie da się podnieść: praca była wyczerpująca. QUICK kusi (quick), ale siedem godzin to nie jest szybka praca."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "exhaust + -ing → exhausting, bo opisuje to, co męczy. exhausted to 0 pkt: tak czuje się człowiek, a nie praca (I was exhausted, ale the work was exhausting). Pamiętaj o h po x."
+          }
+        ]
+      },
+      {
+        "base": "COMPLETE",
+        "correct": ["completely"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po will recover stoi przysłówek, który mówi, w jakim stopniu las się odnowi."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Las odrośnie w całości, tylko za pięćdziesiąt lat: completely = całkowicie. QUICK kusi (quickly), ale but only in about fifty years mówi coś odwrotnego."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "complete + -ly → completely, e zostaje przed -ly. completly bez e to 0 pkt. complete bez -ly też, bo opisuje czasownik recover."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wft-maths-tutor",
+    "type": "word-formation",
+    "title": "Teaching Kacper",
+    "text": "Last year our school started a tutoring scheme in which final-year students help first-years who are struggling with maths. I signed up and was paired with a boy called Kacper. In our first lesson he was ___ shy and hardly looked at me. He was also ___ to ask questions, because he was afraid of looking stupid in front of an older student. So I started by asking him about his hobbies and gave him easy tasks he could solve on his own. After a few weeks his ___ grew, and soon he was putting his hand up in his maths class too. The scheme helped me as well: explaining things to someone else really improved my own ___ of the subject.",
+    "box": ["ANXIETY", "CONFIDE", "PATIENT", "TERRIBLE", "UNDERSTAND", "WILL"],
+    "gaps": [
+      {
+        "base": "TERRIBLE",
+        "correct": ["terribly"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Między was a przymiotnikiem shy stoi przysłówek, który wzmacnia przymiotnik, tak jak very shy."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Kacper prawie nie podnosił wzroku, więc był strasznie nieśmiały: terribly shy = bardzo, okropnie nieśmiały."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "terrible → terribly: e znika, a -le zmienia się w -ly. terriblely albo terribley to 0 pkt. terrible bez zmiany też, bo przed przymiotnikiem stoi przysłówek."
+          }
+        ]
+      },
+      {
+        "base": "WILL",
+        "correct": ["unwilling"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po was also stoi przymiotnik, a po luce jest to ask. Wzór: be ___ to do something."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Bał się, że wyjdzie na głupka, więc nie chciał zadawać pytań. Potrzebne jest przeczenie: unwilling = niechętny. ANXIETY kusi (anxious), ale anxious to do something znaczy „bardzo chcieć coś zrobić”, a to odwrotny sens."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "un- + will + -ing → unwilling, dwa l. willing bez un- to 0 pkt, bo przeczy zdaniu z because. unwiling z jednym l też."
+          }
+        ]
+      },
+      {
+        "base": "CONFIDE",
+        "correct": ["confidence"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po his stoi rzeczownik, a cała grupa to podmiot czasownika grew."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Po kilku tygodniach Kacper zaczął sam zgłaszać się na lekcji. Wzrosła jego pewność siebie = confidence. PATIENT (patience) i ANXIETY kuszą, ale cierpliwość albo lęk nie tłumaczą, czemu zaczął podnosić rękę."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "confide + -ence, e się zlewa: confidence. confidance przez a to 0 pkt. confident to przymiotnik i po his nie pasuje."
+          }
+        ]
+      },
+      {
+        "base": "UNDERSTAND",
+        "correct": ["understanding"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po my own, a przed of stoi rzeczownik w liczbie pojedynczej."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Tłumaczenie komuś innemu pomaga samemu lepiej coś zrozumieć. Zrozumienie przedmiotu = understanding of the subject."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "understand + -ing → understanding. misunderstanding to 0 pkt, bo znaczy „nieporozumienie” i nie da się go poprawić w tym sensie. understandings z -s też, bo chodzi o jedną rzecz."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  }
+]
