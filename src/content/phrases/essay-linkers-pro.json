@@ -1,0 +1,359 @@
+{
+  "id": "essay-linkers-pro",
+  "category": "linkers",
+  "title_pl": "Łączniki do rozprawki: poziom wyżej",
+  "items": [
+    {
+      "en": "furthermore",
+      "pl": "ponadto",
+      "meaning_pl": "zaczyna nowe zdanie: przed nim kropka (albo średnik), po nim przecinek; nie łączy dwóch zdań samym przecinkiem",
+      "example": {
+        "en": "The course is free. Furthermore, it can be completed online.",
+        "pl": "Kurs jest bezpłatny. Ponadto można go ukończyć online."
+      },
+      "register": "formal",
+      "tags": ["dodawanie"]
+    },
+    {
+      "en": "in addition to",
+      "pl": "oprócz, poza",
+      "meaning_pl": "przyimek: po nim rzeczownik albo -ing, nie całe zdanie; na początku zdania przecinek po całej frazie (in addition bez to stoi samo i łączy zdania)",
+      "example": {
+        "en": "In addition to saving money, cycling to school improves fitness.",
+        "pl": "Dojeżdżanie rowerem do szkoły nie tylko oszczędza pieniądze, ale też poprawia kondycję."
+      },
+      "register": "formal",
+      "tags": ["dodawanie"]
+    },
+    {
+      "en": "as well as",
+      "pl": "oprócz, a także",
+      "meaning_pl": "na początku zdania po nim -ing albo rzeczownik, nie bezokolicznik: as well as being cheap, nie as well as to be cheap",
+      "example": {
+        "en": "As well as being cheaper, the train is often faster than the bus.",
+        "pl": "Pociąg jest nie tylko tańszy, ale często też szybszy niż autobus."
+      },
+      "register": "neutral",
+      "tags": ["dodawanie"]
+    },
+    {
+      "en": "besides",
+      "pl": "oprócz; poza tym",
+      "meaning_pl": "dwie role: besides + rzeczownik albo -ing (oprócz) oraz Besides, na początku zdania (poza tym), które brzmi luźniej, więc w rozprawce lepiej furthermore; nie myl z beside (obok)",
+      "example": {
+        "en": "Besides being expensive, the course is very time-consuming.",
+        "pl": "Oprócz tego, że kurs jest drogi, zajmuje też bardzo dużo czasu."
+      },
+      "register": "neutral",
+      "tags": ["dodawanie"]
+    },
+    {
+      "en": "similarly",
+      "pl": "podobnie",
+      "meaning_pl": "dokładasz argument, który działa tak samo jak poprzedni; na początku zdania, po nim przecinek",
+      "example": {
+        "en": "Public transport reduces air pollution. Similarly, car-sharing cuts the number of cars on the road.",
+        "pl": "Komunikacja publiczna zmniejsza zanieczyszczenie powietrza. Podobnie wspólne przejazdy zmniejszają liczbę aut na drogach."
+      },
+      "register": "neutral",
+      "tags": ["dodawanie"]
+    },
+    {
+      "en": "nevertheless",
+      "pl": "mimo to, niemniej jednak",
+      "meaning_pl": "jak however: na początku nowego zdania z przecinkiem po nim; It is cheap, nevertheless it is slow to błąd interpunkcyjny, potrzebna kropka albo średnik",
+      "example": {
+        "en": "The tickets were expensive. Nevertheless, the concert was sold out.",
+        "pl": "Bilety były drogie. Mimo to koncert się wyprzedał."
+      },
+      "register": "formal",
+      "tags": ["kontrast"]
+    },
+    {
+      "en": "whereas",
+      "pl": "podczas gdy, natomiast",
+      "meaning_pl": "zestawia dwa fakty w jednym zdaniu; po nim pełne zdanie (podmiot + czasownik), zwykle z przecinkiem przed whereas",
+      "example": {
+        "en": "Older people tend to read printed newspapers, whereas teenagers get their news online.",
+        "pl": "Starsi ludzie częściej czytają gazety papierowe, natomiast nastolatki czerpią wiadomości z internetu."
+      },
+      "register": "formal",
+      "tags": ["kontrast"]
+    },
+    {
+      "en": "while",
+      "pl": "chociaż; podczas gdy",
+      "meaning_pl": "na początku zdania zwykle = chociaż, przecinek po części z while; w środku zestawia fakty (= podczas gdy), przecinek przed while; bez przecinka może znaczyć „w czasie gdy”; po nim pełne zdanie",
+      "example": {
+        "en": "While online courses are flexible, they require considerable self-discipline.",
+        "pl": "Choć kursy online są elastyczne, wymagają sporej samodyscypliny."
+      },
+      "register": "neutral",
+      "tags": ["kontrast"]
+    },
+    {
+      "en": "in contrast",
+      "pl": "natomiast, z kolei",
+      "meaning_pl": "samo In contrast, na początku zdania z przecinkiem; in contrast to (albo with) + rzeczownik; tak samo by contrast",
+      "example": {
+        "en": "Train tickets in Poland are relatively cheap. In contrast, rail travel in the UK can be very expensive.",
+        "pl": "Bilety kolejowe w Polsce są stosunkowo tanie. W Wielkiej Brytanii natomiast podróż koleją potrafi być bardzo droga."
+      },
+      "register": "neutral",
+      "tags": ["kontrast"]
+    },
+    {
+      "en": "unlike",
+      "pl": "w przeciwieństwie do",
+      "meaning_pl": "przyimek: po nim rzeczownik albo zaimek, nie całe zdanie; porównujesz rzeczy tego samego rodzaju (pociągi i samochody, nie pociągi i kierowców)",
+      "example": {
+        "en": "Unlike cars, trains do not get stuck in traffic jams.",
+        "pl": "W przeciwieństwie do samochodów pociągi nie stoją w korkach."
+      },
+      "register": "neutral",
+      "tags": ["kontrast"]
+    },
+    {
+      "en": "yet",
+      "pl": "a jednak, ale",
+      "meaning_pl": "jako spójnik działa jak but, ale mocniej podkreśla zaskoczenie; zwykle przecinek przed yet; nie myl z yet w pytaniach i przeczeniach (jeszcze)",
+      "example": {
+        "en": "The idea sounds simple, yet it is difficult to put into practice.",
+        "pl": "Pomysł brzmi prosto, a jednak trudno go wprowadzić w życie."
+      },
+      "register": "neutral",
+      "tags": ["kontrast"]
+    },
+    {
+      "en": "instead of",
+      "pl": "zamiast",
+      "meaning_pl": "przyimek: po nim rzeczownik albo -ing: instead of driving, nie instead of drive ani instead to drive",
+      "example": {
+        "en": "More people should walk short distances instead of driving.",
+        "pl": "Więcej osób powinno chodzić na krótkich odcinkach pieszo zamiast jeździć autem."
+      },
+      "register": "neutral",
+      "tags": ["kontrast"]
+    },
+    {
+      "en": "even if",
+      "pl": "nawet jeśli, nawet gdyby",
+      "meaning_pl": "warunek, który może być prawdziwy albo nie; even though mówi o fakcie; czasy jak po if; na początku zdania przecinek po części z even if",
+      "example": {
+        "en": "Even if the tickets were free, many people would still prefer to drive.",
+        "pl": "Nawet gdyby bilety były darmowe, wiele osób i tak wolałoby jeździć autem."
+      },
+      "register": "neutral",
+      "tags": ["ustępstwo"]
+    },
+    {
+      "en": "that said",
+      "pl": "mimo to, co nie zmienia faktu",
+      "meaning_pl": "po przyznaniu racji drugiej stronie wracasz do swojego argumentu; na początku zdania z przecinkiem; to samo co having said that",
+      "example": {
+        "en": "Online learning saves a great deal of time. That said, it cannot fully replace face-to-face contact.",
+        "pl": "Nauka online oszczędza mnóstwo czasu. Mimo to nie zastąpi w pełni kontaktu twarzą w twarz."
+      },
+      "register": "neutral",
+      "tags": ["ustępstwo"]
+    },
+    {
+      "en": "even so",
+      "pl": "mimo to, a jednak",
+      "meaning_pl": "kontrast do poprzedniego zdania, często po przyznaniu czegoś; na początku zdania z przecinkiem",
+      "example": {
+        "en": "The museum is expensive. Even so, it attracts thousands of visitors every year.",
+        "pl": "Muzeum jest drogie. Mimo to co roku przyciąga tysiące zwiedzających."
+      },
+      "register": "neutral",
+      "tags": ["ustępstwo"]
+    },
+    {
+      "en": "regardless of",
+      "pl": "bez względu na",
+      "meaning_pl": "po of rzeczownik albo zdanie z whether / what / how: regardless of their income, regardless of whether they live in a city",
+      "example": {
+        "en": "Every child should have access to sport, regardless of their family's income.",
+        "pl": "Każde dziecko powinno mieć dostęp do sportu bez względu na dochody rodziny."
+      },
+      "register": "neutral",
+      "tags": ["ustępstwo"]
+    },
+    {
+      "en": "since",
+      "pl": "ponieważ, skoro",
+      "meaning_pl": "jak because, ale częściej na początku zdania, gdy przyczyna jest znana; przecinek po części z since; uważaj, żeby nie dało się go odczytać jako „od” (czas)",
+      "example": {
+        "en": "Since most students live far from school, a later start would help them.",
+        "pl": "Skoro większość uczniów mieszka daleko od szkoły, późniejsze rozpoczęcie lekcji by im pomogło."
+      },
+      "register": "neutral",
+      "tags": ["przyczyna"]
+    },
+    {
+      "en": "given that",
+      "pl": "zważywszy, że; biorąc pod uwagę, że",
+      "meaning_pl": "given that + pełne zdanie, samo given + rzeczownik (given the cost); na początku zdania przecinek po tej części",
+      "example": {
+        "en": "Given that most teenagers own a smartphone, schools should teach them how to use it responsibly.",
+        "pl": "Zważywszy, że większość nastolatków ma smartfon, szkoły powinny uczyć, jak korzystać z niego odpowiedzialnie."
+      },
+      "register": "neutral",
+      "tags": ["przyczyna"]
+    },
+    {
+      "en": "thanks to",
+      "pl": "dzięki",
+      "meaning_pl": "przyimek: po nim rzeczownik albo -ing; zwykle o przyczynie czegoś dobrego, o złej przyczynie lepiej because of albo due to",
+      "example": {
+        "en": "Thanks to cheap rail passes, many students can explore Europe.",
+        "pl": "Dzięki tanim biletom kolejowym wielu studentów może zwiedzać Europę."
+      },
+      "register": "neutral",
+      "tags": ["przyczyna"]
+    },
+    {
+      "en": "consequently",
+      "pl": "w konsekwencji",
+      "meaning_pl": "skutek poprzedniego zdania; na początku nowego zdania z przecinkiem albo po and (and consequently); nie łączy dwóch zdań samym przecinkiem",
+      "example": {
+        "en": "Many young people cannot afford to rent a flat. Consequently, they live with their parents for longer.",
+        "pl": "Wielu młodych ludzi nie stać na wynajem mieszkania. W konsekwencji dłużej mieszkają z rodzicami."
+      },
+      "register": "formal",
+      "tags": ["skutek"]
+    },
+    {
+      "en": "thus",
+      "pl": "w ten sposób, tym samym",
+      "meaning_pl": "na początku zdania (Thus, …) albo po przecinku z -ing: …, thus reducing traffic; zdania it is cheap, thus it is popular nie łączysz samym przecinkiem",
+      "example": {
+        "en": "More people now cycle to work, thus reducing traffic in the city centre.",
+        "pl": "Coraz więcej osób jeździ do pracy rowerem, co zmniejsza ruch w centrum."
+      },
+      "register": "formal",
+      "tags": ["skutek"]
+    },
+    {
+      "en": "hence",
+      "pl": "stąd, dlatego",
+      "meaning_pl": "często po przecinku z samym rzeczownikiem, bez czasownika: …, hence the need for new rules; jedno–dwa takie słowa na tekst wystarczą",
+      "example": {
+        "en": "Many accidents happen near schools, hence the need for lower speed limits.",
+        "pl": "Wiele wypadków zdarza się w pobliżu szkół, stąd potrzeba niższych ograniczeń prędkości."
+      },
+      "register": "formal",
+      "tags": ["skutek"]
+    },
+    {
+      "en": "which is why",
+      "pl": "dlatego (właśnie)",
+      "meaning_pl": "odnosi się do całego poprzedniego zdania; przecinek przed which, po nim pełne zdanie",
+      "example": {
+        "en": "Flights are often cheaper than trains, which is why many tourists choose to fly.",
+        "pl": "Loty są często tańsze niż pociągi i dlatego wielu turystów wybiera samolot."
+      },
+      "register": "neutral",
+      "tags": ["skutek"]
+    },
+    {
+      "en": "in order to",
+      "pl": "żeby, aby",
+      "meaning_pl": "cel; po nim forma podstawowa czasownika (in order to gain); przeczenie in order not to (albo so as not to); polskie „żeby” to nie for + bezokolicznik",
+      "example": {
+        "en": "Many school leavers take a gap year in order to gain work experience.",
+        "pl": "Wielu absolwentów szkół robi sobie rok przerwy, żeby zdobyć doświadczenie zawodowe."
+      },
+      "register": "neutral",
+      "tags": ["cel"]
+    },
+    {
+      "en": "so that",
+      "pl": "żeby, tak aby",
+      "meaning_pl": "cel + pełne zdanie, zwykle z can / could / will / would; bez przecinka przed so that, a , so (z przecinkiem) to „więc”, czyli skutek",
+      "example": {
+        "en": "Lessons should start later so that students can get enough sleep.",
+        "pl": "Lekcje powinny zaczynać się później, żeby uczniowie mogli się wyspać."
+      },
+      "register": "neutral",
+      "tags": ["cel"]
+    },
+    {
+      "en": "a case in point is",
+      "pl": "dobrym przykładem jest",
+      "meaning_pl": "przykład, który dokładnie potwierdza argument; po nim rzeczownik; można też na końcu: X is a case in point",
+      "example": {
+        "en": "Small towns often lack cultural venues. A case in point is my own town, which has no cinema.",
+        "pl": "Małym miastom często brakuje miejsc kultury. Dobrym przykładem jest moje miasto, w którym nie ma kina."
+      },
+      "register": "formal",
+      "tags": ["przykład"]
+    },
+    {
+      "en": "namely",
+      "pl": "mianowicie, a konkretnie",
+      "meaning_pl": "doprecyzowuje to, co właśnie padło; przecinek przed namely, po nim rzeczownik albo wyliczenie",
+      "example": {
+        "en": "The plan has two weaknesses, namely its cost and its timing.",
+        "pl": "Plan ma dwie słabe strony, a konkretnie koszt i termin."
+      },
+      "register": "formal",
+      "tags": ["przykład"]
+    },
+    {
+      "en": "in particular",
+      "pl": "w szczególności, zwłaszcza",
+      "meaning_pl": "zawęża do jednej grupy; w środku zdania, często w przecinkach (Older people, in particular, …), albo na końcu; nie in particularly",
+      "example": {
+        "en": "Older people, in particular, would benefit from better bus connections.",
+        "pl": "Zwłaszcza starsi ludzie skorzystaliby na lepszych połączeniach autobusowych."
+      },
+      "register": "neutral",
+      "tags": ["przykład"]
+    },
+    {
+      "en": "all things considered",
+      "pl": "biorąc wszystko pod uwagę",
+      "meaning_pl": "otwiera wniosek w zakończeniu; na początku zdania z przecinkiem, po nim twoja ocena",
+      "example": {
+        "en": "All things considered, the advantages of a gap year outweigh its drawbacks.",
+        "pl": "Biorąc wszystko pod uwagę, zalety roku przerwy przeważają nad wadami."
+      },
+      "register": "neutral",
+      "tags": ["podsumowanie"]
+    },
+    {
+      "en": "overall",
+      "pl": "ogólnie rzecz biorąc",
+      "meaning_pl": "na początku zakończenia z przecinkiem (Overall, …); jako przymiotnik przed rzeczownikiem: the overall effect (ogólny efekt)",
+      "example": {
+        "en": "Overall, I believe that the new rules will make the town safer.",
+        "pl": "Ogólnie rzecz biorąc, uważam, że nowe przepisy poprawią bezpieczeństwo w mieście."
+      },
+      "register": "neutral",
+      "tags": ["podsumowanie"]
+    },
+    {
+      "en": "however (a nie but)",
+      "pl": "jednak, jednakże",
+      "meaning_pl": "however łączy dwa osobne zdania: przed nim kropka albo średnik, po nim przecinek (Cars are fast. However, they pollute the air.). Może też stać w środku zdania w przecinkach. but łączy dwie części jednego zdania przecinkiem i w rozprawce nie zaczyna akapitu. Błąd interpunkcyjny: It is cheap, however it is slow.",
+      "example": {
+        "en": "Online courses are cheap and flexible. However, many students find it hard to stay motivated.",
+        "pl": "Kursy online są tanie i elastyczne. Jednak wielu uczniom trudno utrzymać motywację."
+      },
+      "register": "neutral",
+      "tags": ["kontrast", "interpunkcja"]
+    },
+    {
+      "en": "on the other hand",
+      "pl": "z drugiej strony",
+      "meaning_pl": "wprowadza argument przeciwny do poprzedniego; na początku nowego zdania z przecinkiem po nim. Para on the one hand… on the other hand jest poprawna, ale samo on the other hand też wystarczy. Nie myl z on the contrary (wręcz przeciwnie), które zaprzecza temu, co właśnie padło.",
+      "example": {
+        "en": "Living in a big city offers many job opportunities. On the other hand, the cost of living is much higher.",
+        "pl": "Życie w dużym mieście daje wiele możliwości pracy. Z drugiej strony koszty życia są dużo wyższe."
+      },
+      "register": "neutral",
+      "tags": ["kontrast", "argumenty"]
+    }
+  ]
+}

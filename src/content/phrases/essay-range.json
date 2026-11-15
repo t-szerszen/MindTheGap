@@ -1,0 +1,447 @@
+{
+  "id": "essay-range",
+  "category": "essay-phrases",
+  "title_pl": "Słowa i zwroty za zakres",
+  "items": [
+    {
+      "en": "have a detrimental effect on",
+      "pl": "mieć szkodliwy wpływ na",
+      "meaning_pl": "precyzyjna zamiana na is bad for; effect on, nie effect for",
+      "example": {
+        "en": "Lack of sleep has a detrimental effect on students' concentration.",
+        "pl": "Brak snu szkodzi koncentracji uczniów."
+      },
+      "register": "formal",
+      "tags": ["wpływ"]
+    },
+    {
+      "en": "have a beneficial effect on",
+      "pl": "korzystnie wpływać na",
+      "meaning_pl": "przeciwieństwo detrimental effect; zamiast is good for",
+      "example": {
+        "en": "Regular exercise has a beneficial effect on mental health.",
+        "pl": "Regularny ruch korzystnie wpływa na zdrowie psychiczne."
+      },
+      "register": "formal",
+      "tags": ["wpływ"]
+    },
+    {
+      "en": "play a crucial role in",
+      "pl": "odgrywać kluczową rolę w",
+      "meaning_pl": "play a role, nie make a role; po in rzeczownik albo -ing",
+      "example": {
+        "en": "Parents play a crucial role in shaping their children's eating habits.",
+        "pl": "Rodzice odgrywają kluczową rolę w kształtowaniu nawyków żywieniowych dzieci."
+      },
+      "register": "neutral",
+      "tags": ["wpływ"]
+    },
+    {
+      "en": "contribute to",
+      "pl": "przyczyniać się do",
+      "meaning_pl": "to jest tu przyimkiem, więc po nim rzeczownik albo -ing: contribute to reducing, nie contribute to reduce",
+      "example": {
+        "en": "Cheap flights contribute to air pollution.",
+        "pl": "Tanie loty przyczyniają się do zanieczyszczenia powietrza."
+      },
+      "register": "neutral",
+      "tags": ["wpływ"]
+    },
+    {
+      "en": "a key factor in",
+      "pl": "kluczowy czynnik",
+      "meaning_pl": "nazywa przyczynę bez because; po in rzeczownik albo -ing",
+      "example": {
+        "en": "Price is a key factor in choosing a means of transport.",
+        "pl": "Cena to kluczowy czynnik przy wyborze środka transportu."
+      },
+      "register": "neutral",
+      "tags": ["przyczyna"]
+    },
+    {
+      "en": "pose a threat to",
+      "pl": "stanowić zagrożenie dla",
+      "meaning_pl": "pose a threat to = stanowić zagrożenie dla czegoś, a make threats (against somebody) to komuś grozić; threat to, nie threat for",
+      "example": {
+        "en": "Plastic waste poses a serious threat to marine life.",
+        "pl": "Plastikowe odpady stanowią poważne zagrożenie dla życia w morzach."
+      },
+      "register": "formal",
+      "tags": ["problem"]
+    },
+    {
+      "en": "a cause for concern",
+      "pl": "powód do niepokoju",
+      "meaning_pl": "cause for = powód do, a cause of to przyczyna czegoś (a cause of pollution); często też bez a: there is cause for concern",
+      "example": {
+        "en": "The number of teenagers who never read for pleasure is a cause for concern.",
+        "pl": "Liczba nastolatków, którzy nigdy nie czytają dla przyjemności, jest powodem do niepokoju."
+      },
+      "register": "neutral",
+      "tags": ["problem"]
+    },
+    {
+      "en": "raise concerns about",
+      "pl": "budzić obawy co do",
+      "meaning_pl": "podmiotem może być to, co niepokoi (the plan raised concerns = wzbudził obawy), albo ludzie, którzy je zgłaszają (parents raised concerns = zgłosili obawy)",
+      "example": {
+        "en": "The plan to close the local library has raised concerns about access to books.",
+        "pl": "Plan zamknięcia lokalnej biblioteki wzbudził obawy o dostęp do książek."
+      },
+      "register": "neutral",
+      "tags": ["problem"]
+    },
+    {
+      "en": "be at risk of",
+      "pl": "być zagrożonym czymś",
+      "meaning_pl": "po of rzeczownik albo -ing: at risk of losing, at risk of obesity",
+      "example": {
+        "en": "Children who spend hours in front of a screen are at risk of developing eyesight problems.",
+        "pl": "Dzieci, które spędzają godziny przed ekranem, są narażone na problemy ze wzrokiem."
+      },
+      "register": "neutral",
+      "tags": ["problem"]
+    },
+    {
+      "en": "be exposed to",
+      "pl": "być narażonym na",
+      "meaning_pl": "o czymś, z czym ktoś ma kontakt i co może mu zaszkodzić; po to rzeczownik",
+      "example": {
+        "en": "Young people are exposed to advertising almost everywhere.",
+        "pl": "Młodzi ludzie są narażeni na reklamy prawie wszędzie."
+      },
+      "register": "neutral",
+      "tags": ["problem"]
+    },
+    {
+      "en": "tackle a problem",
+      "pl": "zmierzyć się z problemem",
+      "meaning_pl": "aktywnie zająć się rozwiązaniem; bez przyimka: tackle the problem, nie tackle with",
+      "example": {
+        "en": "Local authorities should do more to tackle the problem of traffic congestion.",
+        "pl": "Władze lokalne powinny robić więcej, żeby uporać się z problemem korków."
+      },
+      "register": "neutral",
+      "tags": ["rozwiązanie"]
+    },
+    {
+      "en": "address an issue",
+      "pl": "zająć się kwestią",
+      "meaning_pl": "w tym znaczeniu address bez przyimka: address the issue, nie address to the issue",
+      "example": {
+        "en": "The school has finally addressed the issue of bullying.",
+        "pl": "Szkoła w końcu zajęła się problemem przemocy rówieśniczej."
+      },
+      "register": "formal",
+      "tags": ["rozwiązanie"]
+    },
+    {
+      "en": "take steps to",
+      "pl": "podjąć kroki, żeby",
+      "meaning_pl": "po to bezokolicznik: take steps to reduce; dobre w zakończeniu z radą",
+      "example": {
+        "en": "The government should take steps to make public transport more affordable.",
+        "pl": "Rząd powinien podjąć kroki, żeby komunikacja publiczna była tańsza."
+      },
+      "register": "neutral",
+      "tags": ["rozwiązanie"]
+    },
+    {
+      "en": "raise awareness of",
+      "pl": "zwiększać świadomość",
+      "meaning_pl": "raise awareness of albo about; raise, nie rise, bo raise bierze dopełnienie",
+      "example": {
+        "en": "Campaigns in schools can raise awareness of the dangers of vaping.",
+        "pl": "Kampanie w szkołach mogą zwiększyć świadomość zagrożeń związanych z e-papierosami."
+      },
+      "register": "neutral",
+      "tags": ["rozwiązanie"]
+    },
+    {
+      "en": "strike a balance between",
+      "pl": "znaleźć złoty środek między",
+      "meaning_pl": "strike a balance between A and B; dobre do zakończenia rozprawki za i przeciw",
+      "example": {
+        "en": "Students need to strike a balance between work and rest.",
+        "pl": "Uczniowie muszą znaleźć równowagę między nauką a odpoczynkiem."
+      },
+      "register": "neutral",
+      "tags": ["rozwiązanie"]
+    },
+    {
+      "en": "a viable alternative to",
+      "pl": "realna alternatywa dla",
+      "meaning_pl": "viable = taka, która naprawdę może zadziałać; zwykle alternative to",
+      "example": {
+        "en": "For many commuters, cycling is a viable alternative to driving.",
+        "pl": "Dla wielu dojeżdżających rower to realna alternatywa dla samochodu."
+      },
+      "register": "formal",
+      "tags": ["rozwiązanie"]
+    },
+    {
+      "en": "meet the needs of",
+      "pl": "zaspokajać potrzeby",
+      "meaning_pl": "meet w znaczeniu „spełniać”: meet the needs, meet the requirements; po of osoba albo grupa",
+      "example": {
+        "en": "The new sports centre does not meet the needs of disabled visitors.",
+        "pl": "Nowe centrum sportowe nie odpowiada na potrzeby osób z niepełnosprawnościami."
+      },
+      "register": "formal",
+      "tags": ["rozwiązanie"]
+    },
+    {
+      "en": "it is undeniable that",
+      "pl": "nie da się zaprzeczyć, że",
+      "meaning_pl": "do faktów, z którymi trudno dyskutować; przy spornej opinii brzmi zbyt kategorycznie",
+      "example": {
+        "en": "It is undeniable that the internet has changed the way we learn.",
+        "pl": "Nie da się zaprzeczyć, że internet zmienił sposób, w jaki się uczymy."
+      },
+      "register": "formal",
+      "tags": ["opinia"]
+    },
+    {
+      "en": "it is widely believed that",
+      "pl": "powszechnie uważa się, że",
+      "meaning_pl": "cudzy pogląd w stronie biernej; w rozprawce z opinią potem musi przyjść twoje stanowisko",
+      "example": {
+        "en": "It is widely believed that young people read less than previous generations.",
+        "pl": "Powszechnie uważa się, że młodzi ludzie czytają mniej niż poprzednie pokolenia."
+      },
+      "register": "formal",
+      "tags": ["opinia"]
+    },
+    {
+      "en": "it should be borne in mind that",
+      "pl": "należy pamiętać, że",
+      "meaning_pl": "bierna forma bear in mind; pisownia borne, nie born",
+      "example": {
+        "en": "It should be borne in mind that not every family can afford a holiday abroad.",
+        "pl": "Należy pamiętać, że nie każdą rodzinę stać na wakacje za granicą."
+      },
+      "register": "formal",
+      "tags": ["opinia"]
+    },
+    {
+      "en": "make a valid point",
+      "pl": "słusznie zauważać, mieć rację",
+      "meaning_pl": "przyznajesz rację drugiej stronie, zanim ją odeprzesz; krócej: have a point",
+      "example": {
+        "en": "Opponents of the ban make a valid point when they say that phones can be useful in lessons.",
+        "pl": "Przeciwnicy zakazu mają rację, kiedy mówią, że telefony mogą się przydać na lekcjach."
+      },
+      "register": "neutral",
+      "tags": ["opinia"]
+    },
+    {
+      "en": "to a large extent",
+      "pl": "w dużej mierze",
+      "meaning_pl": "łagodzi zbyt kategoryczne twierdzenie; extent, nie extend",
+      "example": {
+        "en": "Success at school depends to a large extent on regular work.",
+        "pl": "Sukces w szkole zależy w dużej mierze od systematycznej pracy."
+      },
+      "register": "neutral",
+      "tags": ["stopień"]
+    },
+    {
+      "en": "to some extent",
+      "pl": "do pewnego stopnia",
+      "meaning_pl": "przyznajesz komuś częściową rację; pasuje do rozprawki za i przeciw",
+      "example": {
+        "en": "I agree to some extent that school uniforms reduce peer pressure.",
+        "pl": "Do pewnego stopnia zgadzam się, że mundurki zmniejszają presję rówieśników."
+      },
+      "register": "neutral",
+      "tags": ["stopień"]
+    },
+    {
+      "en": "by no means",
+      "pl": "wcale nie, bynajmniej",
+      "meaning_pl": "stawiaj je w środku zdania (This is by no means…); na początku zdania wymagałoby inwersji",
+      "example": {
+        "en": "Online learning is by no means a perfect solution.",
+        "pl": "Nauka online wcale nie jest idealnym rozwiązaniem."
+      },
+      "register": "formal",
+      "tags": ["stopień"]
+    },
+    {
+      "en": "increasingly",
+      "pl": "coraz bardziej",
+      "meaning_pl": "przed przymiotnikiem zamiast powtarzanego more and more: increasingly popular",
+      "example": {
+        "en": "Train travel is becoming increasingly popular among young Europeans.",
+        "pl": "Podróże koleją są coraz popularniejsze wśród młodych Europejczyków."
+      },
+      "register": "neutral",
+      "tags": ["zmiana"]
+    },
+    {
+      "en": "a wide range of",
+      "pl": "szeroki wybór, wiele różnych",
+      "meaning_pl": "po of zwykle rzeczownik w liczbie mnogiej; precyzyjniejsze niż a lot of, gdy chodzi o różnorodność",
+      "example": {
+        "en": "Big cities offer a wide range of cultural activities.",
+        "pl": "Duże miasta oferują wiele różnych form aktywności kulturalnej."
+      },
+      "register": "neutral",
+      "tags": ["ilość"]
+    },
+    {
+      "en": "a lack of",
+      "pl": "brak",
+      "meaning_pl": "rzeczownik z of (a lack of time), ale czasownik lack bez of: many students lack motivation",
+      "example": {
+        "en": "A lack of free time is the main drawback of working while at school.",
+        "pl": "Brak wolnego czasu to główna wada pracy w trakcie nauki."
+      },
+      "register": "neutral",
+      "tags": ["ilość"]
+    },
+    {
+      "en": "on a daily basis",
+      "pl": "na co dzień, codziennie",
+      "meaning_pl": "formalniejsze niż every day; zwykle na końcu zdania",
+      "example": {
+        "en": "Most teenagers use social media on a daily basis.",
+        "pl": "Większość nastolatków korzysta z mediów społecznościowych codziennie."
+      },
+      "register": "neutral",
+      "tags": ["czas"]
+    },
+    {
+      "en": "be likely to",
+      "pl": "prawdopodobnie coś zrobić",
+      "meaning_pl": "przewidywanie bez kategorycznego will; po to bezokolicznik, przeczenie be unlikely to",
+      "example": {
+        "en": "A ban on cars in the city centre is likely to improve air quality.",
+        "pl": "Zakaz wjazdu samochodów do centrum prawdopodobnie poprawi jakość powietrza."
+      },
+      "register": "neutral",
+      "tags": ["przewidywanie"]
+    },
+    {
+      "en": "deprive somebody of something",
+      "pl": "pozbawiać kogoś czegoś",
+      "meaning_pl": "najpierw osoba, potem of i to, czego brakuje",
+      "example": {
+        "en": "Long working hours deprive young people of time for their hobbies.",
+        "pl": "Długie godziny pracy pozbawiają młodych ludzi czasu na hobby."
+      },
+      "register": "formal",
+      "tags": ["skutek"]
+    },
+    {
+      "en": "at the expense of",
+      "pl": "kosztem",
+      "meaning_pl": "zyskujesz jedno, tracąc drugie; po of rzeczownik albo -ing",
+      "example": {
+        "en": "Some students work long hours at the expense of their schoolwork.",
+        "pl": "Niektórzy uczniowie pracują długo kosztem nauki."
+      },
+      "register": "neutral",
+      "tags": ["skutek"]
+    },
+    {
+      "en": "reap the benefits of",
+      "pl": "czerpać korzyści z",
+      "meaning_pl": "o korzyściach, które przychodzą jako efekt wcześniejszego wysiłku",
+      "example": {
+        "en": "Students who start learning a language early reap the benefits of their effort later in life.",
+        "pl": "Uczniowie, którzy wcześnie zaczynają uczyć się języka, czerpią korzyści ze swojego wysiłku w dorosłym życiu."
+      },
+      "register": "neutral",
+      "tags": ["korzyści"]
+    },
+    {
+      "en": "take advantage of",
+      "pl": "skorzystać z, wykorzystać",
+      "meaning_pl": "o okazji: korzystnie; o osobie (take advantage of someone) znaczy też „wykorzystać kogoś”",
+      "example": {
+        "en": "Students should take advantage of free language courses offered by their school.",
+        "pl": "Uczniowie powinni korzystać z bezpłatnych kursów językowych, które oferuje szkoła."
+      },
+      "register": "neutral",
+      "tags": ["korzyści"]
+    },
+    {
+      "en": "gain experience",
+      "pl": "zdobyć doświadczenie",
+      "meaning_pl": "w tym znaczeniu experience jest niepoliczalne, bez a; an experience to przeżycie",
+      "example": {
+        "en": "Volunteering allows young people to gain experience that employers value.",
+        "pl": "Wolontariat pozwala młodym ludziom zdobyć doświadczenie, które cenią pracodawcy."
+      },
+      "register": "neutral",
+      "tags": ["korzyści"]
+    },
+    {
+      "en": "broaden somebody's horizons",
+      "pl": "poszerzać czyjeś horyzonty",
+      "meaning_pl": "horizons w liczbie mnogiej; pasuje do podróży, wymian i studiów za granicą",
+      "example": {
+        "en": "Travelling to other countries broadens young people's horizons.",
+        "pl": "Podróże do innych krajów poszerzają horyzonty młodych ludzi."
+      },
+      "register": "neutral",
+      "tags": ["korzyści"]
+    },
+    {
+      "en": "enhance",
+      "pl": "zwiększać, poprawiać",
+      "meaning_pl": "formalne; dopełnieniem jest zwykle coś, co ma wartość albo jakość: chances, skills, quality",
+      "example": {
+        "en": "A year abroad can enhance a graduate's chances of finding a good job.",
+        "pl": "Rok za granicą może zwiększyć szanse absolwenta na dobrą pracę."
+      },
+      "register": "formal",
+      "tags": ["korzyści"]
+    },
+    {
+      "en": "foster",
+      "pl": "sprzyjać, rozwijać",
+      "meaning_pl": "formalne; zwykle z rzeczownikami jak cooperation, a sense of community, independence",
+      "example": {
+        "en": "Team sports foster cooperation and a sense of responsibility.",
+        "pl": "Sporty drużynowe rozwijają umiejętność współpracy i poczucie odpowiedzialności."
+      },
+      "register": "formal",
+      "tags": ["korzyści"]
+    },
+    {
+      "en": "lead a sedentary lifestyle",
+      "pl": "prowadzić siedzący tryb życia",
+      "meaning_pl": "lead albo have, nie make; przydatne w tematach o zdrowiu i technologii",
+      "example": {
+        "en": "Many office workers lead a sedentary lifestyle.",
+        "pl": "Wielu pracowników biurowych prowadzi siedzący tryb życia."
+      },
+      "register": "neutral",
+      "tags": ["zdrowie"]
+    },
+    {
+      "en": "affordable",
+      "pl": "przystępny cenowo",
+      "meaning_pl": "precyzyjniej niż cheap, które może sugerować kiepską jakość",
+      "example": {
+        "en": "Rail travel should be affordable for students.",
+        "pl": "Podróże koleją powinny być przystępne cenowo dla studentów."
+      },
+      "register": "neutral",
+      "tags": ["precyzyjne słowa"]
+    },
+    {
+      "en": "time-consuming",
+      "pl": "czasochłonny",
+      "meaning_pl": "z łącznikiem i liczy się jako jeden wyraz; zamiast it takes a lot of time",
+      "example": {
+        "en": "Preparing healthy meals every day can be time-consuming.",
+        "pl": "Przygotowywanie zdrowych posiłków codziennie może być czasochłonne."
+      },
+      "register": "neutral",
+      "tags": ["precyzyjne słowa"]
+    }
+  ]
+}
