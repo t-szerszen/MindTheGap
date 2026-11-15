@@ -1093,29 +1093,44 @@
   margin-top: 20px;
   padding: 8px 16px 8px;
 }
+/* mała talia fiszek: dwie kartki pod spodem wystają, na wierzchu liczba */
 .mini-deck {
   position: relative;
-  width: 40px;
-  height: 28px;
-  margin-right: 6px;
+  width: 46px;
+  height: 32px;
+  margin-right: 14px;
+  flex: none;
 }
 .mini-deck i {
   position: absolute;
   inset: 0;
+  border-radius: 3px;
+  border: 1.5px solid color-mix(in srgb, var(--ink) 40%, transparent);
   box-shadow: var(--shadow-sm);
 }
 .mini-deck i:nth-child(1) {
   background: var(--note-p);
-  rotate: 8deg;
+  translate: 10px -7px;
+  rotate: 12deg;
 }
 .mini-deck i:nth-child(2) {
   background: var(--note-b);
-  rotate: -4deg;
+  translate: 5px -3px;
+  rotate: 5deg;
 }
 .mini-deck i:nth-child(3) {
+  display: grid;
+  place-items: center;
   background: var(--card);
   border: 1.5px solid var(--ink);
-  rotate: 2deg;
+  border-top: 3px solid var(--margin);
+  rotate: -4deg;
+  font-family: var(--f-hand);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 1;
+  color: var(--ink);
 }
 .tally-row {
   gap: 2px;
