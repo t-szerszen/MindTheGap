@@ -16,7 +16,7 @@ export type LimitCheck =
 // żeby podpowiedź mówiła, co poszło nie tak (brak słowa kluczowego, za dużo słów)
 export function checkLimited(
   input: string,
-  opts: { answers: string[]; maxWords: number; keyWord?: string },
+  opts: { answers: string[]; maxWords?: number; keyWord?: string },
 ): LimitCheck {
   const n = normalizeBasic(input)
   if (!n) return { ok: false, reason: 'empty' }
@@ -26,7 +26,7 @@ export function checkLimited(
     const hasKey = words.some((_, i) => key.every((k, j) => words[i + j] === k))
     if (!hasKey) return { ok: false, reason: 'key-missing' }
   }
-  if (countWords(input) > opts.maxWords) return { ok: false, reason: 'too-long' }
+  if (opts.maxWords && countWords(input) > opts.maxWords) return { ok: false, reason: 'too-long' }
   const v = normalizeAnswer(input)
   return opts.answers.some((a) => normalizeAnswer(a) === v)
     ? { ok: true }
