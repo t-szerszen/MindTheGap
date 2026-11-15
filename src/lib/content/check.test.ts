@@ -1,5 +1,12 @@
 import { describe, expect, it } from 'vitest'
-import type { Exercise, FormSet, GapFillExercise, Tense } from '../../content/schema'
+import type {
+  Exercise,
+  FormSet,
+  GapFillExercise,
+  GrammarTopic,
+  Tense,
+  Topic,
+} from '../../content/schema'
 import { checkContent } from './check'
 
 const f = { pattern: [{ text: 'x', role: 'neutral' as const }], example: { en: 'x', pl: 'x' } }
@@ -146,5 +153,67 @@ describe('checkContent: typy zadań', () => {
     const errors = checkContent({ ...base, exercises: [wf] })
     expect(errors.some((e) => e.includes('jeden wyraz'))).toBe(true)
     expect(errors.some((e) => e.includes('wyraz bazowy'))).toBe(true)
+  })
+})
+
+describe('checkContent: gramatyka', () => {
+  const topic: Topic = {
+    id: 'conditionals',
+    category: 'grammar',
+    title_pl: 'x',
+    summary_pl: 'x',
+    blocks: [{ type: 'text', md_pl: 'x' }],
+  }
+  const sub = {
+    id: 'a',
+    label: 'a',
+    name: 'a',
+    desc_pl: 'a',
+    time_pl: 'a',
+    scale: {
+      left: 'a',
+      right: 'b',
+      ticks: ['1', '2', '3', '4'] as [string, string, string, string],
+      on: [0],
+      ring: 0,
+    },
+    formula: [{ key: '+', text: '[v:V1]' }],
+    usage_pl: ['x'],
+    signals: ['if'],
+    examples: [{ en: 'x', pl: 'x' }],
+    steps: ['a', 'b', 'c'] as [string, string, string],
+  }
+  const g: GrammarTopic = {
+    id: 'cond',
+    title_pl: 'x',
+    note_pl: 'x',
+    chooseTitle_pl: 'x',
+    defaultSubtype: 'a',
+    practiceTag: 'conditionals',
+    theoryTopic: 'conditionals',
+    subtypes: [sub, { ...sub, id: 'b' }],
+  }
+
+  it('poprawny indeks bez błędów', () => {
+    const errors = checkContent({
+      ...base,
+      topics: [topic],
+      grammar: [g],
+      grammarTabs: [
+        { id: 'cond', group: 'sentences', tab: ['a', 'b'], label_pl: 'x' },
+        { id: 'wish', group: 'sentences', tab: ['a', 'b'], label_pl: 'x', topic: 'conditionals' },
+      ],
+    })
+    expect(errors).toEqual([])
+  })
+
+  it('łapie brak przekładki, zły tag i brakujący temat', () => {
+    const errors = checkContent({
+      ...base,
+      topics: [topic],
+      grammar: [{ ...g, practiceTag: 'nope', theoryTopic: 'nope' }],
+      grammarTabs: [{ id: 'x', group: 'words', tab: ['a', 'b'], label_pl: 'x', topic: 'nope' }],
+    })
+    expect(errors).toHaveLength(4)
   })
 })

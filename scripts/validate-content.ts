@@ -4,6 +4,8 @@ import { z } from 'zod'
 import {
   checklistSchema,
   exerciseFileSchema,
+  grammarTabsSchema,
+  grammarTopicSchema,
   mockSetSchema,
   phraseSetSchema,
   readingSetSchema,
@@ -16,10 +18,14 @@ import { checkContent } from '../src/lib/content/check'
 const root = join(import.meta.dirname, '..', 'src', 'content')
 const errors: string[] = []
 
-function load<T>(dir: string, schema: z.ZodType<T>): T[] {
+function load<T>(
+  dir: string,
+  schema: z.ZodType<T>,
+  pick: (file: string) => boolean = () => true,
+): T[] {
   const out: T[] = []
   if (!existsSync(join(root, dir))) return out
-  for (const file of readdirSync(join(root, dir)).filter((f) => f.endsWith('.json'))) {
+  for (const file of readdirSync(join(root, dir)).filter((f) => f.endsWith('.json') && pick(f))) {
     const rel = `${dir}/${file}`
     let data: unknown
     try {
@@ -42,11 +48,25 @@ const exercises = load('exercises', exerciseFileSchema).flat()
 const writing = load('writing/tasks', z.array(writingTaskSchema)).flat()
 const reading = load('reading', readingSetSchema)
 const mocks = load('mocks', z.array(mockSetSchema)).flat()
+const grammar = load('grammar', grammarTopicSchema, (f) => f !== 'tabs.json')
+const grammarTabs = load('grammar', grammarTabsSchema, (f) => f === 'tabs.json').flat()
 const checklist = load('writing', checklistSchema)
 if (checklist.length !== 1)
   errors.push('writing/checklist.json: musi być dokładnie jedna lista kontrolna')
 
-errors.push(...checkContent({ tenses, topics, phraseSets, exercises, writing, reading, mocks }))
+errors.push(
+  ...checkContent({
+    tenses,
+    topics,
+    phraseSets,
+    exercises,
+    writing,
+    reading,
+    mocks,
+    grammar,
+    grammarTabs,
+  }),
+)
 
 if (errors.length) {
   console.error(`Błędy w treściach (${errors.length}):\n`)
@@ -54,5 +74,5 @@ if (errors.length) {
   process.exit(1)
 }
 console.log(
-  `Treści OK — czasy: ${tenses.length}, tematy: ${topics.length}, zestawy zwrotów: ${phraseSets.length}, ćwiczenia: ${exercises.length}, wypracowania: ${writing.length}, czytanie: ${reading.length}, arkusze: ${mocks.length}`,
+  `Treści OK — czasy: ${tenses.length}, tematy: ${topics.length}, zestawy zwrotów: ${phraseSets.length}, ćwiczenia: ${exercises.length}, wypracowania: ${writing.length}, czytanie: ${reading.length}, arkusze: ${mocks.length}, gramatyka: ${grammar.length} widoki / ${grammarTabs.length} przekładek`,
 )

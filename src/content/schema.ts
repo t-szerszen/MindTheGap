@@ -1,5 +1,6 @@
 import { z } from 'zod'
 import { countBlanks, countGaps } from '../lib/exercises/gap'
+import { markedError } from '../lib/text/marked'
 
 // jedno źródło prawdy dla treści: typy w aplikacji to z.infer z tych schematów
 
@@ -484,6 +485,82 @@ export const mockSetSchema = z.strictObject({
   exercises: z.array(id).min(3),
 })
 
+// tekst w notacji [s:…] [a:…] [v:…] [k:…] [n:…], kolory jak w formułach czasów
+const marked = txt.superRefine((s, ctx) => {
+  const err = markedError(s)
+  if (err) ctx.addIssue({ code: 'custom', message: err })
+})
+const tick = z.number().int().min(0).max(3)
+
+export const grammarScaleSchema = z.strictObject({
+  left: txt,
+  right: txt,
+  ticks: z.tuple([txt, txt, txt, txt]),
+  on: z.array(tick).min(1),
+  ring: tick.nullable(),
+})
+
+export const grammarSubtypeSchema = z.strictObject({
+  id,
+  label: txt,
+  name: txt,
+  desc_pl: txt,
+  time_pl: txt,
+  scale: grammarScaleSchema,
+  // key: jeden znak (+, −, ?) rysuje się w kółku, dłuższy to etykieta wiersza, np. „warunek”
+  formula: z.array(z.strictObject({ key: txt, text: marked })).min(1),
+  usage_pl: z.array(marked).min(1),
+  signals: z.array(txt).min(1),
+  examples: z.array(z.strictObject({ en: marked, pl: txt })).min(1),
+  // sygnał → sytuacja → forma
+  steps: z.tuple([marked, marked, marked]),
+})
+
+export const grammarTopicSchema = z
+  .strictObject({
+    id,
+    title_pl: txt,
+    note_pl: txt,
+    chooseTitle_pl: txt,
+    defaultSubtype: id,
+    // tag zadań do „Ćwicz” i stary pełny temat pod linkiem „cała teoria”
+    practiceTag: id,
+    theoryTopic: id,
+    subtypes: z.array(grammarSubtypeSchema).min(2),
+    cheat: z
+      .strictObject({
+        title_pl: txt,
+        headers: z.tuple([txt, txt, txt]),
+        // pierwsza kolumna to id podtypu, wtedy wiersz się podświetla
+        rows: z.array(z.tuple([id, marked, marked])).min(2),
+      })
+      .optional(),
+  })
+  .superRefine((g, ctx) => {
+    const ids = g.subtypes.map((s) => s.id)
+    if (new Set(ids).size !== ids.length)
+      ctx.addIssue({ code: 'custom', message: 'powtórzone id podtypu' })
+    if (!ids.includes(g.defaultSubtype))
+      ctx.addIssue({ code: 'custom', message: `nie ma podtypu ${g.defaultSubtype}` })
+    for (const [ty] of g.cheat?.rows ?? [])
+      if (!ids.includes(ty))
+        ctx.addIssue({ code: 'custom', message: `ściąga: wiersz ${ty} nie jest podtypem` })
+  })
+
+// przekładki w indeksie gramatyki; bez pliku z nowym widokiem i bez topic = „wkrótce”
+export const grammarTabsSchema = z
+  .array(
+    z.strictObject({
+      id,
+      group: z.enum(['sentences', 'verbs', 'words']),
+      tab: z.tuple([txt, txt]),
+      label_pl: txt,
+      // istniejący pełny temat z src/content/topics, otwierany w zakładce Gramatyka
+      topic: id.optional(),
+    }),
+  )
+  .min(1)
+
 export type Role = z.infer<typeof roleSchema>
 export type FormulaPart = z.infer<typeof formulaPartSchema>
 export type Ex = z.infer<typeof exSchema>
@@ -510,3 +587,7 @@ export type ReadingSet = z.infer<typeof readingSetSchema>
 export type ReadingTask = ReadingSet['tasks'][number]
 export type MockSet = z.infer<typeof mockSetSchema>
 export type Exercise = z.infer<typeof exerciseSchema>
+export type GrammarScale = z.infer<typeof grammarScaleSchema>
+export type GrammarSubtype = z.infer<typeof grammarSubtypeSchema>
+export type GrammarTopic = z.infer<typeof grammarTopicSchema>
+export type GrammarTab = z.infer<typeof grammarTabsSchema>[number]

@@ -3,6 +3,8 @@ import { z } from 'zod'
 import {
   checklistSchema,
   exerciseFileSchema,
+  grammarTabsSchema,
+  grammarTopicSchema,
   mockSetSchema,
   phraseSetSchema,
   readingSetSchema,
@@ -11,6 +13,8 @@ import {
   writingTaskSchema,
   type Checklist,
   type Exercise,
+  type GrammarTab,
+  type GrammarTopic,
   type MockSet,
   type PhraseSet,
   type ReadingSet,
@@ -110,6 +114,21 @@ export const mockStore = lazy<MockSet, MockSet[]>(
   (files) => files.flat(),
 )
 
+// nowe widoki gramatyki; tabs.json to osobny plik z kolejnością przekładek
+export const grammarStore = lazy<GrammarTopic, GrammarTopic>(
+  import.meta.glob(['../../content/grammar/*.json', '!../../content/grammar/tabs.json'], {
+    import: 'default',
+  }),
+  grammarTopicSchema,
+  (files) => files,
+)
+
+export const grammarTabsStore = lazy<GrammarTab, GrammarTab[]>(
+  import.meta.glob('../../content/grammar/tabs.json', { import: 'default' }),
+  grammarTabsSchema,
+  (files) => files.flat(),
+)
+
 // hooki zawieszają komponent do pierwszego załadowania (Suspense w Shell pokazuje „ładuję”)
 export const useTopics = () => use(topicStore.load())
 export const usePhraseSets = () => use(phraseSetStore.load())
@@ -118,3 +137,5 @@ export const useWritingTasks = () => use(writingStore.load())
 export const useChecklist = () => use(checklistStore.load())[0] ?? []
 export const useReadingSets = () => use(readingStore.load())
 export const useMocks = () => use(mockStore.load())
+export const useGrammarTopics = () => use(grammarStore.load())
+export const useGrammarTabs = () => use(grammarTabsStore.load())

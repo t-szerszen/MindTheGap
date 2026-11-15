@@ -1,5 +1,7 @@
 import type {
   Exercise,
+  GrammarTab,
+  GrammarTopic,
   MockSet,
   PhraseSet,
   ReadingSet,
@@ -19,6 +21,8 @@ export type ContentSet = {
   writing?: WritingTask[]
   reading?: ReadingSet[]
   mocks?: MockSet[]
+  grammar?: GrammarTopic[]
+  grammarTabs?: GrammarTab[]
 }
 
 function dupes(ids: string[]) {
@@ -139,6 +143,22 @@ export function checkContent(c: ContentSet): string[] {
     })
     const total = list.reduce((n, e) => n + (e ? points(e) : 0), 0)
     if (total !== 14) errors.push(`${m.id}: ${total} pkt zamiast 14 jak w arkuszu`)
+  }
+
+  const grammar = c.grammar ?? []
+  const grammarTabs = c.grammarTabs ?? []
+  const tabIds = grammarTabs.map((t) => t.id)
+  for (const id of dupes(tabIds)) errors.push(`powtórzona przekładka gramatyki: ${id}`)
+  for (const id of dupes(grammar.map((g) => g.id))) errors.push(`powtórzone id gramatyki: ${id}`)
+  for (const t of grammarTabs)
+    if (t.topic && !topicIds.includes(t.topic))
+      errors.push(`przekładka ${t.id}: nie ma tematu ${t.topic}`)
+  for (const g of grammar) {
+    if (!tabIds.includes(g.id)) errors.push(`gramatyka ${g.id}: brak przekładki w tabs.json`)
+    if (!tags.has(g.practiceTag))
+      errors.push(`gramatyka ${g.id}: tag ${g.practiceTag} nie istnieje`)
+    if (!topicIds.includes(g.theoryTopic))
+      errors.push(`gramatyka ${g.id}: nie ma tematu ${g.theoryTopic}`)
   }
   return errors
 }
