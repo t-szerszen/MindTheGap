@@ -7,7 +7,7 @@ import type { Exercise } from '../../content/schema'
 import type { IconName } from '../../components/Icon'
 import type { NoteColor } from '../../components/Paper'
 import { pl } from '../../i18n/pl'
-import { getTenses, useExercises, useTopics } from '../../lib/content'
+import { getTenses, useExercises, useReadingSets, useTopics } from '../../lib/content'
 import { filterExercises, type SessionMode } from '../../lib/exercises/session'
 import { practiceGroup, practiceGroups, type PracticeGroup } from '../topics/hub'
 import { useAuth } from '../auth/useAuth'
@@ -51,6 +51,7 @@ export function ExercisesPage() {
 
   const exercises = useExercises()
   const topics = useTopics()
+  const readingCount = useReadingSets().length
   // tylko te czasy i tematy, do których są jakieś zdania; grupa tematu wynika z jego kategorii
   const chipGroups = useMemo(() => {
     const has = (id: string) => exercises.some((e) => e.tags.includes(id))
@@ -96,17 +97,33 @@ export function ExercisesPage() {
               {t.examLike}
             </h2>
             <div className="mode-cards">
-              {modeCards.map((c) => (
-                <Card key={c.to} as={Link} to={c.to} tilt={c.tilt} className="mode-card">
-                  <Icon name={c.icon} size="l" />
-                  <span>
-                    <span className="h-s" style={{ display: 'block' }}>
-                      {t.cards[c.id].title}
+              {modeCards.map((c) => {
+                const body = (sub: string) => (
+                  <>
+                    <Icon name={c.icon} size="l" />
+                    <span>
+                      <span className="h-s" style={{ display: 'block' }}>
+                        {t.cards[c.id].title}
+                      </span>
+                      <span className="small muted">{sub}</span>
                     </span>
-                    <span className="small muted">{t.cards[c.id].sub}</span>
-                  </span>
-                </Card>
-              ))}
+                  </>
+                )
+                // bez tekstów karta czytania tylko zapowiada, że coś będzie
+                if (c.id === 'reading' && !readingCount)
+                  return (
+                    <Card key={c.to} tilt={c.tilt} className="mode-card off" aria-disabled="true">
+                      {body(`${t.cards.reading.sub} · ${t.cards.soon}`)}
+                    </Card>
+                  )
+                return (
+                  <Card key={c.to} as={Link} to={c.to} tilt={c.tilt} className="mode-card">
+                    {body(
+                      c.id === 'reading' ? t.cards.readingCount(readingCount) : t.cards[c.id].sub,
+                    )}
+                  </Card>
+                )
+              })}
             </div>
           </section>
 

@@ -452,6 +452,8 @@ export const pl = {
     cards: {
       writing: { title: 'Wypracowanie', sub: 'licznik słów, stoper, samoocena i wzory' },
       reading: { title: 'Czytanie', sub: 'teksty z zadaniami jak w arkuszu' },
+      readingCount: (n: number) => `zadania 4–6 · ${n} ${plural(n, 'tekst', 'teksty', 'tekstów')}`,
+      soon: 'wkrótce',
       exam: { title: 'Arkusz próbny', sub: 'środki językowe na czas, 14 punktów' },
     },
     gapN: (n: number) => `Luka ${n}`,
@@ -608,6 +610,19 @@ export const pl = {
     check: 'Sprawdź wszystko',
     score: (good: number, total: number) => `${good} / ${total} pkt`,
     again: 'Od nowa',
+    groupTitle: {
+      'reading-4': 'Zadanie 4',
+      'reading-5': 'Zadanie 5',
+      'reading-6': 'Zadanie 6',
+      reading: 'Inne ćwiczenia',
+    },
+    groupHint: {
+      'reading-4': 'do którego akapitu pasuje zdanie (5 pkt)',
+      'reading-5': 'brakujące zdania w tekście, jedno zostaje (5 pkt)',
+      'reading-6': 'dwa teksty: wybór A–D i luki po angielsku (8 pkt)',
+      reading: 'krótkie zadania do tekstu',
+    },
+    lastScore: (good: number, total: number) => `ostatnio ${good} / ${total} pkt`,
     timer: 'zegar',
     took: (time: string) => `czas ${time}`,
     notSaved: 'Nie jesteś zalogowany — wynik nie trafi do postępu.',
