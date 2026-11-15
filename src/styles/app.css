@@ -1182,6 +1182,33 @@
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+/* zdanie z odpowiedzią: może się zawijać, inaczej ucięłoby właśnie poprawkę */
+.recent-sentence {
+  overflow-wrap: anywhere;
+}
+.recent-given {
+  font-weight: 600;
+  color: var(--pen-green);
+}
+.recent-given.bad {
+  color: var(--pen-red);
+  text-decoration: line-through;
+  text-decoration-thickness: 1.5px;
+}
+.recent-fix {
+  margin-left: 4px;
+  font-family: var(--f-note);
+  font-weight: 600;
+  color: var(--pen-green);
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
 .recent-at {
   flex: none;
   font-size: 13px;

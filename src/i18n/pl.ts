@@ -70,6 +70,8 @@ export const pl = {
     recentEmpty: 'Tu pojawią się twoje ostatnie ćwiczenia i słówka.',
     savedWord: 'zapisano',
     reviewed: 'powtórka',
+    yourAnswer: 'twoja odpowiedź:',
+    correctForm: 'poprawnie:',
     loginTitle: 'Zaloguj się',
     loginText:
       'Fiszki, seria i postęp wymagają konta, żeby były te same na telefonie i komputerze. Teoria, ćwiczenia i tłumacz działają bez niego.',
