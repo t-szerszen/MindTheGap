@@ -71,6 +71,9 @@ export function TranslatorPage() {
 
   function swap() {
     const next: Direction = direction === 'pl-en' ? 'en-pl' : 'pl-en'
+    // stare zapytanie mogłoby wrócić już po zamianie i nadpisać wynik złym kierunkiem
+    abort.current?.abort()
+    setBusy(false)
     // po zamianie wynik ląduje w polu, jak w zwykłym tłumaczu
     if (result) setText(result.text)
     setResult(null)
