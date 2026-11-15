@@ -5,308 +5,439 @@
   "group": "past",
   "aspect": "continuous",
   "tabLabel": ["Past", "Cont."],
-  "oneLiner_pl": "trwało w danym momencie przeszłości",
+  "oneLiner_pl": "coś było W TRAKCIE w danym momencie przeszłości: to tło, a nie całe wydarzenie",
   "timeline": {
     "now": 0.65,
     "marks": [
-      {
-        "kind": "span",
-        "from": 0.12,
-        "to": 0.46,
-        "label": "was doing"
-      },
-      {
-        "kind": "point",
-        "from": 0.3,
-        "label": "when…"
-      }
+      { "kind": "span", "from": 0.1, "to": 0.5, "label": "in progress" },
+      { "kind": "point", "from": 0.3, "label": "phone rang" }
     ]
   },
   "howToChoose": [
     {
       "step_pl": "sygnał",
-      "text_pl": "Widzisz while, when + przerwanie, at 8 p.m. yesterday, all evening?"
+      "text_pl": "Szukasz konkretnej chwili w przeszłości (at 8 p.m. yesterday, at midnight, this time last week) albo drugiego, krótkiego zdarzenia, które w coś wpadło (when the phone rang). Typowe słowa: while, as, when."
     },
     {
       "step_pl": "relacja w czasie",
-      "text_pl": "Czynność trwała w pewnym momencie przeszłości — często była tłem dla czegoś krótszego."
+      "text_pl": "Pytasz: co TRWAŁO w tamtej chwili? Czynność zaczęła się wcześniej i jeszcze się nie skończyła, a moment wypada w jej środku. Początek i koniec cię nie interesują."
+    },
+    {
+      "step_pl": "pułapka",
+      "text_pl": "Polska forma niedokonana („czytałem”) to nie zawsze Past Continuous. Nawyki (every day, often), czynności jedna po drugiej i cała zamknięta czynność z podaną długością (We waited for two hours) to zwykle Past Simple. Gdy for liczy czas DO innej chwili w przeszłości, bierzesz Past Perfect Continuous. Czasowniki stanu (know, believe, understand) zostają w Past Simple, nawet jeśli stan „trwał”. Ale gdy czasownik oznacza czynność, -ing jest w porządku: have = jeść albo brać (was having a shower), think = zastanawiać się (I was thinking about you)."
     },
     {
       "step_pl": "forma",
-      "text_pl": "was / were + V-ing: I was reading when she called."
+      "text_pl": "was / were + V-ing. Przeczenie: wasn't / weren't + V-ing. Pytanie: Was / Were + podmiot + V-ing? Bierna: was / were being + V3."
     }
   ],
   "forms": {
     "active": {
       "affirmative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "was / were",
-            "role": "aux"
-          },
-          {
-            "text": "V-ing",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "was / were", "role": "aux" },
+          { "text": "V-ing", "role": "verb" }
         ],
         "example": {
-          "en": "At 8 p.m. yesterday we were studying.",
-          "pl": "Wczoraj o 20 uczyliśmy się."
-        }
+          "en": "At 8 p.m. yesterday we were studying for the test.",
+          "pl": "Wczoraj o 20 uczyliśmy się do sprawdzianu."
+        },
+        "note_pl": "was / were to przeszła forma be. Mechanizm jak w Present Continuous (am / is / are + V-ing), tylko be cofasz w przeszłość. I / he / she / it → was, you / we / they → were. Pisownia -ing: write → writing, sit → sitting, lie → lying. W brytyjskim travel → travelling, w amerykańskim traveling."
       },
       "negative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "was / were",
-            "role": "aux"
-          },
-          {
-            "text": "not",
-            "role": "particle"
-          },
-          {
-            "text": "V-ing",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "was / were", "role": "aux" },
+          { "text": "not", "role": "particle" },
+          { "text": "V-ing", "role": "verb" }
         ],
         "example": {
-          "en": "I wasn't listening, sorry.",
-          "pl": "Nie słuchałem, przepraszam."
-        }
+          "en": "I wasn't listening — could you say that again?",
+          "pl": "Nie słuchałem — możesz powtórzyć?"
+        },
+        "note_pl": "not stawiasz po was / were. did nie jest potrzebne, bo was / were samo jest czasownikiem posiłkowym. Skróty: wasn't, weren't."
       },
       "question": {
         "pattern": [
-          {
-            "text": "Was / Were",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "V-ing",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Was / Were", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "V-ing", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
-        "example": {
-          "en": "Were you sleeping when I called?",
-          "pl": "Spałeś, kiedy dzwoniłem?"
-        }
+        "example": { "en": "Were you sleeping when I called?", "pl": "Spałeś, kiedy zadzwoniłem?" },
+        "note_pl": "Pytanie robisz jak w każdym zdaniu z be: was / were przed podmiot. you zawsze z were, nawet gdy pytasz jedną osobę."
       },
       "whQuestion": {
         "pattern": [
-          {
-            "text": "Wh-word",
-            "role": "neutral"
-          },
-          {
-            "text": "was / were",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "V-ing",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Wh-word", "role": "neutral" },
+          { "text": "was / were", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "V-ing", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
-        "example": {
-          "en": "What were you doing at midnight?",
-          "pl": "Co robiłeś o północy?"
-        }
+        "example": { "en": "What were you doing at midnight?", "pl": "Co robiłeś o północy?" },
+        "note_pl": "Gdy pytasz o podmiot (Who? What?), nie ma przestawienia: Who was making all that noise?"
       }
     },
     "passive": {
       "affirmative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "was / were being",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "was / were being", "role": "aux" },
+          { "text": "V3", "role": "verb" }
         ],
         "example": {
           "en": "The car was being repaired when we arrived.",
-          "pl": "Samochód był naprawiany, kiedy przyjechaliśmy."
-        }
+          "pl": "Samochód był akurat naprawiany, kiedy przyjechaliśmy."
+        },
+        "note_pl": "Bierna = was / were + being + V3. being pokazuje, że naprawa trwała. Bez being (was repaired) mówisz o całej, zakończonej naprawie, a nie o tym, co było w toku."
       },
       "negative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "was / were",
-            "role": "aux"
-          },
-          {
-            "text": "not",
-            "role": "particle"
-          },
-          {
-            "text": "being",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "was / were", "role": "aux" },
+          { "text": "not", "role": "particle" },
+          { "text": "being", "role": "aux" },
+          { "text": "V3", "role": "verb" }
         ],
         "example": {
-          "en": "The windows weren't being cleaned at that time.",
-          "pl": "Okna nie były wtedy myte."
-        }
+          "en": "Don't worry, you weren't being recorded — the camera was off.",
+          "pl": "Spokojnie, nikt cię nie nagrywał — kamera była wyłączona."
+        },
+        "note_pl": "not wchodzi między was / were a being."
       },
       "question": {
         "pattern": [
-          {
-            "text": "Was / Were",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "being",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Was / Were", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "being", "role": "aux" },
+          { "text": "V3", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
         "example": {
           "en": "Was the room being painted when you moved in?",
-          "pl": "Czy pokój był malowany, kiedy się wprowadziłeś?"
+          "pl": "Czy pokój był akurat malowany, kiedy się wprowadziłeś?"
         }
       },
       "whQuestion": {
         "pattern": [
-          {
-            "text": "Wh-word",
-            "role": "neutral"
-          },
-          {
-            "text": "was / were",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "being",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Wh-word", "role": "neutral" },
+          { "text": "was / were", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "being", "role": "aux" },
+          { "text": "V3", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
         "example": {
           "en": "Why were the students being questioned?",
           "pl": "Dlaczego uczniowie byli przesłuchiwani?"
-        }
+        },
+        "note_pl": "Gdy pytasz o podmiot, bez przestawienia: What was being built next to the school?"
       }
     }
   },
+  "modals": [
+    {
+      "modal": "must have been",
+      "pattern": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "must", "role": "aux" },
+        { "text": "have been", "role": "aux" },
+        { "text": "V-ing", "role": "verb" }
+      ],
+      "example": {
+        "en": "He didn't answer — he must have been driving.",
+        "pl": "Nie odebrał — musiał akurat prowadzić."
+      },
+      "note_pl": "To nie jest Past Continuous, tylko struktura modalna z tym samym kawałkiem be + V-ing. Po must nie postawisz was, więc przeszłość pokazuje have been. Znaczenie: jesteś pewny, co wtedy TRWAŁO."
+    },
+    {
+      "modal": "can't have been",
+      "pattern": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "can't", "role": "aux" },
+        { "text": "have been", "role": "aux" },
+        { "text": "V-ing", "role": "verb" }
+      ],
+      "example": {
+        "en": "She can't have been sleeping — I heard her talking on the phone.",
+        "pl": "Na pewno nie spała — słyszałem, jak rozmawia przez telefon."
+      },
+      "note_pl": "Pewność, że coś NIE trwało. Przeczenie od must have to can't have albo couldn't have, a nie mustn't have."
+    },
+    {
+      "modal": "might / could have been",
+      "pattern": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "might / could", "role": "aux" },
+        { "text": "have been", "role": "aux" },
+        { "text": "V-ing", "role": "verb" }
+      ],
+      "example": {
+        "en": "I'm not sure what she meant — she might have been joking.",
+        "pl": "Nie wiem, co miała na myśli — może żartowała."
+      },
+      "note_pl": "Przypuszczenie: możliwe, że coś wtedy trwało, ale nie masz pewności."
+    },
+    {
+      "modal": "should have been",
+      "pattern": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "should", "role": "aux" },
+        { "text": "have been", "role": "aux" },
+        { "text": "V-ing", "role": "verb" }
+      ],
+      "example": {
+        "en": "You should have been paying attention instead of chatting.",
+        "pl": "Powinieneś był uważać, zamiast gadać."
+      },
+      "note_pl": "Krytyka: coś powinno było wtedy trwać, a nie trwało."
+    }
+  ],
   "uses": [
     {
-      "title_pl": "Tło przerwane krótszą czynnością",
-      "explanation_pl": "Dłuższa czynność trwała, a w jej trakcie coś się wydarzyło.",
+      "title_pl": "W toku w konkretnej chwili przeszłości",
+      "explanation_pl": "Podajesz chwilę (at 8 p.m. yesterday, at midnight, this time last week) i mówisz, co wtedy TRWAŁO. Czynność zaczęła się przed tą chwilą i w tej chwili jeszcze trwała. Porównaj: At 8 p.m. we had dinner = kolacja była o 20 (wtedy się zaczęła). At 8 p.m. we were having dinner = o 20 byliśmy w trakcie.",
       "examples": [
         {
-          "en": "I was having a shower when the phone rang.",
-          "pl": "Brałem prysznic, kiedy zadzwonił telefon."
+          "en": "At midnight my neighbours were still playing loud music.",
+          "pl": "O północy sąsiedzi wciąż puszczali głośną muzykę."
+        },
+        {
+          "en": "This time last week we were flying to Lisbon.",
+          "pl": "Tydzień temu o tej porze lecieliśmy do Lizbony."
         }
       ]
     },
     {
-      "title_pl": "Dwie czynności naraz",
-      "explanation_pl": "Obie trwały w tym samym czasie.",
+      "title_pl": "Tło przerwane krótszym zdarzeniem",
+      "explanation_pl": "Dłuższa czynność już trwała (Past Continuous), gdy stało się coś krótkiego (Past Simple). Krótkie zdarzenie wpada w środek dłuższego. Tendencja: while i as zwykle stoją przy czynności w toku (while I was cycling), a when najczęściej przy krótkim zdarzeniu (when I fell off). To nie sztywna reguła: When I was cycling home, I saw an accident też jest poprawne.",
       "examples": [
         {
-          "en": "While Ola was cooking, Kuba was reading.",
-          "pl": "Gdy Ola gotowała, Kuba czytał."
+          "en": "I was having a shower when the phone rang.",
+          "pl": "Brałem prysznic, kiedy zadzwonił telefon."
+        },
+        {
+          "en": "While we were walking home, it started to rain.",
+          "pl": "Kiedy wracaliśmy do domu, zaczęło padać."
+        },
+        {
+          "en": "As I was leaving the house, I realised I had forgotten my keys.",
+          "pl": "Gdy wychodziłem z domu, zorientowałem się, że zapomniałem kluczy."
+        }
+      ]
+    },
+    {
+      "title_pl": "Kilka rzeczy naraz i tło opowiadania",
+      "explanation_pl": "Gdy dwie czynności trwały równocześnie i żadna nie przerywa drugiej, obie idą zwykle w Past Continuous, często z while. Tak samo otwiera się historię: Past Continuous maluje scenę (co się działo dookoła), a właściwa akcja, czyli to, co się stało, idzie w Past Simple.",
+      "examples": [
+        {
+          "en": "While Ola was cooking, Kuba was laying the table.",
+          "pl": "Gdy Ola gotowała, Kuba nakrywał do stołu."
+        },
+        {
+          "en": "It was getting dark and a cold wind was blowing. Suddenly, someone knocked at the door.",
+          "pl": "Robiło się ciemno i wiał zimny wiatr. Nagle ktoś zapukał do drzwi."
+        }
+      ]
+    },
+    {
+      "title_pl": "Ciągle to robił! (always + V-ing)",
+      "explanation_pl": "Zwykły nawyk z przeszłości to Past Simple albo used to. Ale always / constantly / forever + V-ing dodaje emocję: coś działo się za często i najczęściej denerwowało. Mechanizm jak w Present Continuous (He's always complaining), tylko przesunięty w przeszłość.",
+      "examples": [
+        {
+          "en": "My brother was always borrowing my things without asking.",
+          "pl": "Mój brat ciągle pożyczał moje rzeczy bez pytania."
+        },
+        {
+          "en": "Our old maths teacher was constantly checking his phone during lessons.",
+          "pl": "Nasz dawny matematyk ciągle sprawdzał telefon na lekcjach."
+        }
+      ]
+    },
+    {
+      "title_pl": "Plan z przeszłości, który często nie wyszedł",
+      "explanation_pl": "Present Continuous opisuje ustalony plan (I'm meeting Tom tonight). Cofnij to w przeszłość i masz plan, który był ustalony wtedy: I was meeting Tom at six. Często dalej jest but, bo plan się zmienił. Podobnie działa was / were going to + V1, czyli zamiar z przeszłości. To forma be going to, a nie osobny czas.",
+      "examples": [
+        {
+          "en": "I was meeting Tom at six, but he cancelled at the last minute.",
+          "pl": "Byłem umówiony z Tomkiem na szóstą, ale odwołał w ostatniej chwili."
+        },
+        {
+          "en": "We were going to take the train, but there was a strike.",
+          "pl": "Mieliśmy jechać pociągiem, ale był strajk."
+        }
+      ]
+    },
+    {
+      "title_pl": "Grzeczna prośba (I was wondering if…)",
+      "explanation_pl": "Tu Past Continuous wcale nie mówi o przeszłości. Prosisz TERAZ, ale forma przeszła i -ing robią dystans, więc brzmisz ostrożnie i uprzejmie. Dlatego I was wondering if you could… jest delikatniejsze niż Could you…? i pasuje do formalnego e-maila.",
+      "examples": [
+        {
+          "en": "I was wondering if you could send me more information about the course.",
+          "pl": "Chciałbym zapytać, czy mogliby Państwo przesłać mi więcej informacji o kursie."
+        },
+        {
+          "en": "I was hoping you could help me with my CV.",
+          "pl": "Miałem nadzieję, że mógłbyś mi pomóc z CV."
         }
       ]
     }
   ],
   "signalWords": [
     {
-      "word": "while"
+      "word": "while",
+      "note_pl": "podczas gdy — zwykle przy dłuższej czynności w toku: while I was cooking"
     },
     {
-      "word": "when"
+      "word": "when",
+      "note_pl": "kiedy — najczęściej przy krótkim zdarzeniu w Past Simple, które przerywa tło. when + Past Simple w obu częściach to zwykle jedno po drugim: When she arrived, we had dinner."
     },
     {
-      "word": "as"
+      "word": "as / just as",
+      "note_pl": "gdy, akurat gdy — jak while, częściej w opowiadaniach: Just as I was leaving, the phone rang. Uwaga: as znaczy też „ponieważ”."
     },
     {
-      "word": "at 8 p.m. yesterday"
+      "word": "at 8 p.m. yesterday / at midnight",
+      "note_pl": "konkretna chwila: co wtedy TRWAŁO? Jeśli coś się o tej godzinie zaczęło albo stało, to Past Simple: The film started at 8 p.m."
     },
     {
-      "word": "all evening"
+      "word": "this time yesterday / this time last week",
+      "note_pl": "wczoraj / tydzień temu o tej porze"
+    },
+    {
+      "word": "all evening / all night",
+      "note_pl": "przez cały wieczór — podkreślasz, że trwało. Past Simple też jest poprawny, gdy tylko stwierdzasz fakt: I studied all evening."
+    },
+    {
+      "word": "always / constantly / forever",
+      "note_pl": "+ V-ing = ciągle (i to denerwowało). Uwaga: always to też zwykły sygnał Present Simple i Past Simple, gdy mówisz o nawyku bez emocji. forever w tym znaczeniu jest potoczne."
+    },
+    {
+      "word": "I was wondering if…",
+      "note_pl": "grzeczna prośba TERAZ, nie przeszłość — dobre do formalnego e-maila"
     }
   ],
   "relatedTenses": [
     {
       "id": "past-simple",
-      "relation_pl": "Continuous to tło, które trwało. Simple to krótka czynność albo coś, co stało się potem.",
+      "relation_pl": "Past Simple pokazuje całe zdarzenie: zaczęło się i skończyło. Past Continuous pokazuje środek czynności. Pytaj: jedno po drugim? → Past Simple. Jedno w trakcie drugiego? → Past Continuous dla tła. Uwaga: Past Continuous nie mówi, czy czynność się skończyła.",
       "contrast": [
         {
-          "en": "When she arrived, we were having dinner.",
-          "pl": "Kiedy przyszła, jedliśmy (już) kolację."
+          "en": "When she arrived, we had dinner.",
+          "pl": "Kiedy przyszła, zjedliśmy kolację (dopiero po jej przyjściu)."
         },
         {
-          "en": "When she arrived, we had dinner.",
-          "pl": "Kiedy przyszła, zjedliśmy kolację (po jej przyjściu)."
+          "en": "When she arrived, we were having dinner.",
+          "pl": "Kiedy przyszła, akurat jedliśmy kolację (byliśmy w trakcie)."
+        },
+        {
+          "en": "I wrote my essay last night.",
+          "pl": "Wczoraj wieczorem napisałem rozprawkę (jest gotowa)."
+        },
+        {
+          "en": "I was writing my essay last night.",
+          "pl": "Wczoraj wieczorem pisałem rozprawkę (czy skończyłem — nie wiadomo)."
         }
+      ]
+    },
+    {
+      "id": "past-perfect",
+      "relation_pl": "Oba ustawiają czynność względem innej chwili w przeszłości. Past Continuous: czynność trwała W TEJ chwili. Past Perfect: była już skończona PRZED nią.",
+      "contrast": [
+        {
+          "en": "When I got to the platform, the train was leaving.",
+          "pl": "Kiedy dotarłem na peron, pociąg właśnie odjeżdżał (widziałem, jak rusza)."
+        },
+        {
+          "en": "When I got to the platform, the train had left.",
+          "pl": "Kiedy dotarłem na peron, pociągu już nie było."
+        },
+        {
+          "en": "When she arrived, we were having dinner.",
+          "pl": "Kiedy przyszła, byliśmy w trakcie kolacji."
+        },
+        {
+          "en": "When she arrived, we had already had dinner.",
+          "pl": "Kiedy przyszła, byliśmy już po kolacji."
+        }
+      ]
+    },
+    {
+      "id": "past-perfect-continuous",
+      "relation_pl": "Oba to czynność w toku w przeszłości. Past Continuous patrzy na to, co trwało W danej chwili. Past Perfect Continuous liczy, jak długo coś trwało DO tej chwili (for an hour, since morning), albo tłumaczy widoczny skutek czegoś, co trwało wcześniej.",
+      "contrast": [
+        {
+          "en": "When I came in, she was crying.",
+          "pl": "Kiedy wszedłem, płakała (widziałem to)."
+        },
+        {
+          "en": "When I came in, her eyes were red — she had been crying.",
+          "pl": "Kiedy wszedłem, miała czerwone oczy — wcześniej płakała."
+        },
+        {
+          "en": "We were waiting for the bus when it started to snow.",
+          "pl": "Czekaliśmy na autobus, kiedy zaczął padać śnieg (byliśmy w trakcie)."
+        },
+        {
+          "en": "We had been waiting for the bus for forty minutes when it started to snow.",
+          "pl": "Czekaliśmy na autobus już czterdzieści minut, kiedy zaczął padać śnieg (liczysz czas do tej chwili)."
+        }
+      ]
+    },
+    {
+      "id": "present-continuous",
+      "relation_pl": "Ten sam mechanizm be + V-ing, tylko be cofasz w przeszłość: am / is / are → was / were. Przechodzą też dodatkowe znaczenia: always + V-ing (irytacja) i ustalony plan (I'm meeting → I was meeting).",
+      "contrast": [
+        { "en": "Right now I'm studying for my exam.", "pl": "Teraz uczę się do egzaminu." },
+        {
+          "en": "This time yesterday I was studying for my exam.",
+          "pl": "Wczoraj o tej porze uczyłem się do egzaminu."
+        },
+        { "en": "He's always interrupting me!", "pl": "On ciągle mi przerywa!" },
+        { "en": "He was always interrupting me.", "pl": "Ciągle mi przerywał." }
       ]
     }
   ],
   "commonMistakes": [
     {
-      "wrong": "When I was arriving, they were having dinner.",
-      "right": "When I arrived, they were having dinner.",
-      "why_pl": "Krótka, zakończona czynność (przyjazd) to Past Simple, dłuższe tło — Past Continuous."
+      "wrong": "I was having a shower when the phone was ringing.",
+      "right": "I was having a shower when the phone rang.",
+      "why_pl": "Dzwonek to krótkie zdarzenie, które wpada w środek prysznica → Past Simple. Dwa razy Continuous znaczyłoby, że obie rzeczy po prostu trwały obok siebie."
+    },
+    {
+      "wrong": "I was knowing the answer, but I was too shy to say it.",
+      "right": "I knew the answer, but I was too shy to say it.",
+      "why_pl": "know to stan, a nie czynność. Stan nie ma „środka”, więc nie bierze -ing. Tak samo believe, understand, belong, seem."
+    },
+    {
+      "wrong": "When I was a child, I was walking to school every day.",
+      "right": "When I was a child, I walked to school every day.",
+      "why_pl": "Polskie „chodziłem” to tu nawyk, a nie czynność w toku. Powtarzany nawyk z przeszłości to Past Simple albo used to (I used to walk)."
+    },
+    {
+      "wrong": "Was you sleeping when I called?",
+      "right": "Were you sleeping when I called?",
+      "why_pl": "you zawsze łączy się z were, także gdy mówisz do jednej osoby. was tylko z I / he / she / it."
+    },
+    {
+      "wrong": "She was lieing on the sofa when I came in.",
+      "right": "She was lying on the sofa when I came in.",
+      "why_pl": "Końcówka ie zmienia się w y przed -ing: lie → lying, die → dying, tie → tying."
+    },
+    {
+      "wrong": "When I got to the garage, my car was repaired, so I had to wait.",
+      "right": "When I got to the garage, my car was being repaired, so I had to wait.",
+      "why_pl": "was repaired pokazuje naprawę jako całość, a nie coś w trakcie. Najczęściej czyta się to jako „auto było już naprawione”, a wtedy nie trzeba by czekać. Naprawa w toku to was being repaired: being pokazuje, że to trwało."
     }
   ],
-  "maturaTips_pl": []
+  "maturaTips_pl": [
+    "Trzy wersje jednego zdania: When she arrived, we had dinner (zjedliśmy PO jej przyjściu) / were having dinner (byliśmy W TRAKCIE) / had already had dinner (byliśmy już PO kolacji). W luce sprawdź, która kolejność pasuje do reszty tekstu.",
+    "W zdaniu z dwoma zdarzeniami najpierw ustal, które jest tłem (dłuższe, trwało), a które przerwaniem (krótkie). Tło → was / were + V-ing, przerwanie → Past Simple. Gdy czynności idą po kolei (She opened the door, looked around and went in), wszystkie są w Past Simple.",
+    "Uważaj na during i while: during + rzeczownik (during the film), while + zdanie z podmiotem i czasownikiem (while we were watching the film). Nigdy while the film. Skróty while watching the film albo while on holiday działają tylko, gdy podmiot jest ten sam co w drugiej części: I fell asleep while watching the film. Typowa transformacja: The phone rang during the film. = The phone rang while we were watching the film.",
+    "W formalnym e-mailu albo liście I was wondering if you could… brzmi uprzejmie i naturalnie. Po if szyk jak w zdaniu oznajmującym: if you could send, a nie if could you send.",
+    "Czasowniki stanu (know, believe, belong, seem, understand) zostają w Past Simple nawet obok while albo at that moment. Zanim wpiszesz -ing, zapytaj: czy ta czynność może mieć „środek”?",
+    "W mowie zależnej po said / told Present Continuous zwykle cofa się do Past Continuous: „I'm working late” → She said she was working late. Tak samo plan: „We're leaving tomorrow” → They said they were leaving the next day (tomorrow też się zmienia)."
+  ]
 }
