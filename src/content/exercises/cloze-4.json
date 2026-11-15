@@ -1,0 +1,630 @@
+[
+  {
+    "id": "cz-job-interview",
+    "type": "choice",
+    "title": "Ten minutes late",
+    "text": "Last spring I saw an advert for a summer job at the swimming pool in Quillbrook. The successful candidate would be responsible ___ checking tickets and keeping an eye on young children in the shallow pool. I set off forty minutes early, but there had been an accident on the main road and my bus hardly moved for half an hour. When I finally ___ at the reception desk, ten minutes late and out of breath, the manager, Mrs Delaney, ___ there since ten o'clock. I was sure I had ruined everything, but she just smiled and said that buses on that route were often late. Before we started, she asked me to fill in a short ___ with my contact details. The interview itself went surprisingly well. She asked about my experience with children, so I told her about the swimming lessons I used to help with at my local club. At the end, Mrs Delaney explained that I could start in June ___ I completed a first aid course in May. She said she ___ me the next day to confirm the details. She kept her promise, and two months later I was standing by the pool in a bright red T-shirt.",
+    "gaps": [
+      {
+        "options": ["of", "to", "for", "with"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką stoi przymiotnik responsible, a po niej czynność: checking tickets."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "be responsible for sth / for doing sth = odpowiadać za coś. Po przyimku czasownik dostaje -ing, i tu właśnie stoi checking."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "responsible to stawia się przed osobą, przed którą się odpowiada (responsible to the manager), a tu chodzi o obowiązki. of i with w ogóle nie łączą się z responsible."
+          }
+        ]
+      },
+      {
+        "options": ["turned out", "turned up", "turned down", "turned over"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "at the reception desk, ten minutes late and out of breath: chodzi o dotarcie na miejsce."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "turn up = zjawić się, dotrzeć gdzieś (często spóźnionym albo niespodziewanie)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "turn out to okazać się, turn down to odrzucić albo ściszyć, turn over to odwrócić (się). Żaden nie znaczy „dotrzeć”."
+          }
+        ]
+      },
+      {
+        "options": ["had been waiting", "has been waiting", "was waiting", "is waiting"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "When I finally turned up oraz since ten o'clock: czekanie zaczęło się wcześniej i trwało aż do momentu w przeszłości."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Czynność trwa do punktu w przeszłości i liczymy jej czas od since, więc past perfect continuous: had been waiting."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "has been waiting łączy since z teraźniejszością, a cała historia działa się zeszłej wiosny. was waiting i is waiting nie łączą się z since, kiedy mierzymy, jak długo coś trwało."
+          }
+        ]
+      },
+      {
+        "options": ["formula", "format", "formation", "form"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "fill in a short ___ with my contact details: coś, co wypełnia się swoimi danymi."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "form = formularz. fill in a form to stałe połączenie."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "formula to wzór (np. chemiczny albo matematyczny), fałszywy przyjaciel „formularza”. format to układ czegoś, formation to powstawanie, formacja."
+          }
+        ]
+      },
+      {
+        "options": ["unless", "provided", "whereas", "in case"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "could start in June ___ I completed a first aid course: praca zależy od kursu."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "provided (that) = pod warunkiem że. Kurs pierwszej pomocy jest warunkiem rozpoczęcia pracy."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "unless znaczy „chyba że”, czyli odwraca warunek: wyszłoby, że kurs przeszkadza w pracy. in case to „na wypadek gdyby”, whereas zestawia dwa przeciwne fakty."
+          }
+        ]
+      },
+      {
+        "options": ["will call", "has called", "would call", "is calling"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "She said ... the next day: mowa zależna po czasowniku w przeszłości (w cytacie byłoby tomorrow)."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "W cytacie było „I will call you tomorrow”. Po said will cofa się do would."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "will call zostawia czas z cytatu, a the next day pokazuje, że patrzymy z perspektywy przeszłości. has called i is calling nie cofają czasu po said; w mowie zależnej z the next day potrzebne jest would."
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "reported-speech",
+      "past-perfect-continuous",
+      "prepositions",
+      "phrasal-verbs",
+      "confused-words",
+      "linking-contrast"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "cz-online-learning",
+    "type": "choice",
+    "title": "Lessons on a screen",
+    "text": "Since 2024, all evening courses at Brindlemoor Adult College ___ online. Students in the morning groups still meet in classrooms, ___ the evening groups log in from home after work. Most learners like the change. Without a long journey across the city, online lessons ___ them at least an hour every week, and recordings mean that nobody misses a class because of a late shift. Teachers are less enthusiastic. 'With twenty small faces on a screen, I can't really ___ whether everyone is following,' says Tom Ridley, who teaches Spanish. He remembers a student who switched her camera off halfway through a lesson and told him afterwards that she had fallen asleep. 'Her classmates ___ noticed anything, because all they could see was a black square with her name on it,' he laughs. The head of the college believes that the success of an online course depends ___ the teacher far more than the technology. That is why all staff now attend workshops on keeping online groups active, and at the end of the year students will be asked what they think.",
+    "gaps": [
+      {
+        "options": ["were taught", "are taught", "have taught", "have been taught"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Since 2024: od punktu w przeszłości do dziś."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Kursów nikt nie uczy, to one są prowadzone, więc strona bierna. Do tego since, więc present perfect: have been taught."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "have taught to strona czynna, a kursy nikogo tu nie uczą. were taught i are taught nie łączą się z since w znaczeniu „od”."
+          }
+        ]
+      },
+      {
+        "options": ["whereas", "unless", "in spite of", "as if"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "W jednym zdaniu zestawione są dwie grupy: morning groups ... in classrooms i evening groups ... from home."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "whereas = podczas gdy, natomiast. Łączy dwa przeciwne fakty."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "in spite of to przyimek i nie łączy dwóch zdań. unless to warunek („chyba że”), as if to „jak gdyby”."
+          }
+        ]
+      },
+      {
+        "options": ["keep", "save", "gain", "win"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Without a long journey across the city oraz at least an hour every week: chodzi o czas, którego nie trzeba tracić na dojazd."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "save sb time = zaoszczędzić komuś czas."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "gain time to raczej „zyskać na czasie” (np. coś przeciągając) i nie stoi z osobą w ten sposób. keep i win nie tworzą tej kolokacji."
+          }
+        ]
+      },
+      {
+        "options": ["control", "revise", "check", "prove"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "whether everyone is following: trzeba sprawdzić, czy coś jest prawdą."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "check whether / if = sprawdzić, czy."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Polskie „kontrolować” podsuwa control, ale control to po angielsku panować nad czymś (control a class, control your temper). revise to powtarzać materiał, prove to udowodnić."
+          }
+        ]
+      },
+      {
+        "options": ["can't have", "must have", "should have", "needn't have"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "all they could see was a black square: koledzy nie mieli jak tego zobaczyć."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "can't have + V3 = na pewno nie, wniosek o przeszłości. Skoro widzieli tylko czarny kwadrat, na pewno nic nie zauważyli."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "must have to pewność odwrotna i przeczy czarnemu ekranowi. should have to wyrzut, needn't have to „niepotrzebnie”."
+          }
+        ]
+      },
+      {
+        "options": ["of", "from", "at", "on"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką stoi czasownik depends."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "depend on sth = zależeć od czegoś."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Polskie „zależeć od” kusi, żeby wybrać from albo of. Po angielsku depend łączy się z on (formalnie upon)."
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "passive-voice",
+      "modal-verbs",
+      "present-perfect",
+      "linking-contrast",
+      "collocations",
+      "confused-words",
+      "prepositions"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "cz-urban-garden",
+    "type": "choice",
+    "title": "From car park to garden",
+    "text": "There ___ be a car park behind the flats on Pellingford Road, though hardly anyone parked there. Five years ago a few residents decided to change that. They asked the council for permission to grow vegetables on the site, and the council promised to help. ___, nothing happened for months, so the residents started on their own. They broke up the old surface by hand and bought soil with money from a street party. When they ___ of money, a local builders' merchant gave them some old wooden boards for raised beds. Today about thirty people look after the garden. Every Saturday morning volunteers ___ the weeding and water the beds, while children from the primary school next door grow herbs in their own corner. Nothing is sold. ___, everyone who helps takes home a share of the ___. Last autumn there were so many tomatoes that the residents organised a free soup evening for the whole street.",
+    "gaps": [
+      {
+        "options": ["would", "used to", "was used to", "got used to"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "though hardly anyone parked there i Five years ago a few residents decided to change that: dawny stan, którego już nie ma."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "used to + bezokolicznik opisuje dawny stan albo zwyczaj. There used to be = kiedyś był(o)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "would opisuje powtarzane czynności z przeszłości, a nie stany, więc nie pasuje do there be. was used to i got used to to „być / przyzwyczaić się” i wymagają rzeczownika albo -ing."
+          }
+        ]
+      },
+      {
+        "options": ["However", "Although", "Despite", "Unless"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce jest przecinek i pełne zdanie o czymś przeciwnym: the council promised to help, a nothing happened."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "However, na początku zdania = jednak. Łączy dwa sprzeczne fakty z dwóch zdań."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Despite potrzebuje rzeczownika albo -ing (Despite the promise). Although wprowadza zdanie podrzędne i nie stoi sam z przecinkiem. Unless to „chyba że”."
+          }
+        ]
+      },
+      {
+        "options": ["ran over", "ran into", "ran off", "ran out"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce stoi of money."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "run out of sth = skończyć się (komuś). Pasuje, bo glebę kupowali za pieniądze z imprezy i w końcu ich zabrakło."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "run over to przejechać kogoś, run into to wpaść na kogoś, run off to uciec. Żaden nie łączy się z of money."
+          }
+        ]
+      },
+      {
+        "options": ["make", "take", "do", "have"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "the weeding: praca w ogrodzie z końcówką -ing."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "do + the + -ing to prace i obowiązki: do the weeding, do the shopping, do the washing."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "make kusi, bo po polsku „robimy” pielenie, ale z pracami tego typu jest do. take i have nie tworzą tego połączenia."
+          }
+        ]
+      },
+      {
+        "options": ["Otherwise", "Instead", "Whereas", "Unless"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Nothing is sold, a po luce: everyone who helps takes home a share. Coś dzieje się w miejsce sprzedaży."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Instead, = zamiast tego. Zastępuje to, co zaprzeczono w poprzednim zdaniu."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Otherwise znaczy „w przeciwnym razie”, a tu nie ma żadnego warunku. Whereas i Unless to spójniki, nie stoją same z przecinkiem na początku zdania."
+          }
+        ]
+      },
+      {
+        "options": ["collection", "gathering", "plant", "harvest"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "a share of the ___, a zaraz potem Last autumn there were so many tomatoes: chodzi o zebrane warzywa."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "harvest = zbiory, plony."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "collection to po polsku też „zbiór”, ale w sensie kolekcji (np. znaczków). gathering to spotkanie, plant to roślina albo zakład."
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "linking-contrast",
+      "stative-used-to",
+      "phrasal-verbs",
+      "collocations",
+      "confused-words"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "cz-media-story",
+    "type": "choice",
+    "title": "Not what it seemed",
+    "text": "On Monday, a national tabloid published a short video of the singer Mila Ravenscroft shouting at a waiter in a restaurant. The paper claimed that she had lost her temper over a cold pizza the week before and called her behaviour 'shocking'. Within hours, the story ___ the headlines on almost every news website. Many fans refused to believe it, and some accused the paper ___ chasing clicks instead of checking facts. On Wednesday, Ravenscroft's manager finally spoke to reporters. He said that the clip ___ three years earlier on the set of a TV comedy, and that the 'waiter' was in fact an actor reading from a ___. It soon became clear that a journalist had found the scene online, cut it and ___ the rest of the story himself. The paper has since removed the video, but Ravenscroft has said she will not give it any more interviews ___ it apologises on its front page.",
+    "gaps": [
+      {
+        "options": ["beat", "hit", "kicked", "struck"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "the headlines on almost every news website: historia trafia na pierwsze strony w mediach."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "hit the headlines = trafić na czołówki. To stałe wyrażenie (podobnie make the headlines)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "beat, kicked i struck to też czasowniki uderzania, ale tylko hit tworzy to wyrażenie."
+          }
+        ]
+      },
+      {
+        "options": ["for", "with", "of", "about"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką accused the paper, po luce chasing clicks."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "accuse sb of (doing) sth = oskarżyć kogoś o coś."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Polskie „o” podsuwa about. for pasuje do blame sb for sth, ale nie do accuse."
+          }
+        ]
+      },
+      {
+        "options": ["had filmed", "was filming", "has been filmed", "had been filmed"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "He said that ... three years earlier: mowa zależna i wydarzenie sprzed chwili, o której mówimy."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Klip ktoś nagrał, więc strona bierna. Nagranie było wcześniej niż wypowiedź menedżera, a three years earlier to przesunięte three years ago, więc past perfect: had been filmed."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "had filmed i was filming to strona czynna, a klip nikogo nie nagrywał. has been filmed łączy się z teraźniejszością i nie pasuje do three years earlier."
+          }
+        ]
+      },
+      {
+        "options": ["script", "scenario", "prescription", "description"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "an actor reading from a ___: tekst, który czyta aktor."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "script = scenariusz, tekst roli."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "scenario to po angielsku możliwy przebieg wydarzeń (the worst-case scenario), a nie tekst dla aktora. prescription to recepta, description to opis."
+          }
+        ]
+      },
+      {
+        "options": ["made out", "made off", "made up", "made for"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "had found the scene online, cut it and ___ the rest of the story himself: resztę historii trzeba było dopisać."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "make up = wymyślić, zmyślić (historię, wymówkę)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "make out to dostrzec albo odczytać, make off to uciec, make for to kierować się dokądś."
+          }
+        ]
+      },
+      {
+        "options": ["in case", "unless", "whereas", "so that"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "will not give it any more interviews ___ it apologises: przeprosiny to jedyny wyjątek."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "unless = chyba że, jeśli nie. Wywiadów nie będzie, jeśli gazeta nie przeprosi."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "in case to „na wypadek gdyby”, so that wyraża cel, whereas kontrast. Żaden nie wyraża warunku z wyjątkiem."
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "reported-speech",
+      "passive-voice",
+      "past-perfect",
+      "collocations",
+      "prepositions",
+      "confused-words",
+      "phrasal-verbs",
+      "linking-contrast"
+    ],
+    "difficulty": 3
+  },
+  {
+    "id": "cz-airport",
+    "type": "choice",
+    "title": "Wrong city, no suitcase",
+    "text": "Last October my brother and I were supposed to ___ the 7.15 flight from Oxmere to Lisbon. We left home at six, which was a big mistake. By the time we had ___ our suitcases and got through security, the gate was already closed. We ___ left so late, especially on a Monday morning, when the airport is usually packed. Luckily, the woman at the airline desk was very helpful. She told us we could have two seats on the afternoon flight ___ we paid a small fee for changing our tickets. We landed in Lisbon at six in the evening, tired but relieved. Our relief did not last long, though. After an hour at the baggage carousel, we found out that our suitcases ___ to Lyon by mistake. Because our bags were delayed, we were entitled ___ claim money for clothes and toiletries, so at least we could buy toothbrushes and clean T-shirts. The bags finally arrived on the third day of our five-day trip.",
+    "gaps": [
+      {
+        "options": ["reach", "catch", "hold", "ride"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "the 7.15 flight: lot o konkretnej godzinie, na który trzeba zdążyć."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "catch a flight / a train / a bus = zdążyć na lot, złapać."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "reach to dotrzeć do miejsca, nie na lot. hold i ride nie łączą się z flight w tym znaczeniu."
+          }
+        ]
+      },
+      {
+        "options": ["logged in", "signed up", "checked in", "handed out"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "By the time we had ___ our suitcases and got through security: oddanie bagażu przed kontrolą na lotnisku."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "check in bags / luggage = nadać bagaż przy odprawie."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "log in to zalogować się, sign up to zapisać się, hand out to rozdawać."
+          }
+        ]
+      },
+      {
+        "options": ["needn't have", "can't have", "mustn't have", "shouldn't have"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "which was a big mistake oraz when the airport is usually packed: ocena złej decyzji z przeszłości."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "shouldn't have + V3 = nie powinniśmy byli. To wyrzut o czymś, co już się stało."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "can't have to wniosek, że coś na pewno się nie stało, a wyszli późno naprawdę. needn't have to „niepotrzebnie”, mustn't have nie wyraża wyrzutu."
+          }
+        ]
+      },
+      {
+        "options": ["as long as", "unless", "in case", "even though"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "two seats on the afternoon flight ___ we paid a small fee: opłata jest warunkiem."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "as long as = pod warunkiem że, o ile."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "unless odwraca warunek („chyba że”), in case to „na wypadek gdyby”, even though to „mimo że” i podaje fakt, a nie warunek."
+          }
+        ]
+      },
+      {
+        "options": ["had sent", "has sent", "had been sent", "was sending"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "we found out that ... by mistake: walizki wysłano, zanim się o tym dowiedzieli."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Walizki same się nie wysłały, więc strona bierna. Wysłanie było przed found out, więc past perfect: had been sent."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Walizki nie mogą same niczego wysłać, więc strona czynna (had sent, has sent, was sending) odpada. has sent nie pasuje też do opowieści w przeszłości."
+          }
+        ]
+      },
+      {
+        "options": ["for", "of", "with", "to"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką stoi be entitled."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "be entitled to do sth = mieć prawo coś zrobić (tu: to claim)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "„Prawo do” podsuwa for albo of, ale entitled łączy się z to (entitled to compensation, entitled to do sth)."
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "modal-verbs",
+      "passive-voice",
+      "past-perfect",
+      "collocations",
+      "phrasal-verbs",
+      "linking-contrast",
+      "prepositions"
+    ],
+    "difficulty": 3
+  }
+]
