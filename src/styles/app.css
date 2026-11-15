@@ -141,15 +141,18 @@
     inset -2px 0 0 rgba(0, 0, 0, 0.22),
     2px 0 5px rgba(0, 0, 0, 0.3);
 }
-.home-gear {
+.home-controls {
   position: absolute;
-  top: calc(env(safe-area-inset-top) + 22px);
-  right: 46px;
+  top: calc(env(safe-area-inset-top) + 44px);
+  right: 40px;
+  align-items: center;
+  gap: 2px;
   color: var(--cover-ink);
 }
 .home-label {
   width: 292px;
-  max-width: calc(100% - 64px);
+  /* na telefonie miejsce po prawej zajmuje pigułka motywu i zębatka */
+  max-width: calc(100% - 108px);
   background: var(--label);
   color: var(--ink);
   border-radius: 10px;
@@ -183,8 +186,11 @@
     padding: 26px 22px 18px 40px;
     border-radius: 3px 3px 0 0;
   }
-  .home-gear {
+  .home-controls {
     display: none;
+  }
+  .home-label {
+    max-width: calc(100% - 64px);
   }
   .home-sheet {
     padding-top: 22px;
