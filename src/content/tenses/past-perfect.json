@@ -5,317 +5,471 @@
   "group": "past",
   "aspect": "perfect",
   "tabLabel": ["Past", "Perf."],
-  "oneLiner_pl": "przeszłość przed przeszłością",
+  "oneLiner_pl": "przeszłość przed przeszłością: co było już zrobione (albo nie) PRZED innym momentem w przeszłości",
   "timeline": {
     "now": 0.65,
     "marks": [
-      {
-        "kind": "point",
-        "from": 0.16,
-        "label": "1. had done"
-      },
-      {
-        "kind": "point",
-        "from": 0.44,
-        "label": "2. did"
-      }
+      { "kind": "point", "from": 0.2, "label": "1. she had left" },
+      { "kind": "point", "from": 0.46, "label": "2. I arrived" }
     ]
   },
   "howToChoose": [
     {
       "step_pl": "sygnał",
-      "text_pl": "Widzisz by the time, before, after, already i drugą czynność w Past Simple?"
+      "text_pl": "Szukasz drugiego punktu w przeszłości, do którego się odnosisz: czasownika w Past Simple, by the time, by then, albo słów already, just, never… before, It was the first time… Bez takiego punktu Past Perfect nie ma sensu. Wyjątek to nierealna przeszłość: I wish, If only i trzeci tryb warunkowy (niżej)."
     },
     {
       "step_pl": "relacja w czasie",
-      "text_pl": "Ta czynność wydarzyła się WCZEŚNIEJ niż inna czynność w przeszłości."
+      "text_pl": "Opowiadasz w przeszłości i cofasz się o krok: ta czynność była już zrobiona (albo nie) PRZED tamtym momentem. To Present Perfect przesunięty w przeszłość (zamiast „do teraz” liczysz „do wtedy”), ale też Past Simple cofnięty o krok. Dlatego, inaczej niż w Present Perfect, możesz podać, kiedy to było: she had left at six."
+    },
+    {
+      "step_pl": "pułapka",
+      "text_pl": "Nie każda wcześniejsza czynność potrzebuje Past Perfect. Gdy opowiadasz po kolei albo kolejność pokazuje after / before, wystarczy Past Simple. Przy when Past Perfect zmienia sens: When I arrived, she left (wyszła po moim przyjściu), ale she had left (wyszła wcześniej). Po polsku w obu wersjach jest „wyszła”."
     },
     {
       "step_pl": "forma",
-      "text_pl": "had + V3: The film had started."
+      "text_pl": "had + V3 dla wszystkich osób. Przeczenie: hadn't + V3. Pytanie: Had + podmiot + V3? Bierna: had been + V3. Skrót 'd: I'd left = I had left, ale I'd leave = I would leave — rozpoznasz po formie czasownika."
     }
   ],
   "forms": {
     "active": {
       "affirmative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "had",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "had", "role": "aux" },
+          { "text": "V3", "role": "verb" }
         ],
         "example": {
-          "en": "The film had started by the time we arrived.",
-          "pl": "Film zaczął się, zanim dotarliśmy."
-        }
+          "en": "By the time the police arrived, the thieves had escaped.",
+          "pl": "Zanim przyjechała policja, złodzieje zdążyli uciec."
+        },
+        "note_pl": "had jest przeszłą formą od have, więc jest jedna dla wszystkich osób — nie ma tu has. Mechanizm jak w Present Perfect: have + V3 znaczy „gotowe”, tylko have cofasz do had i „gotowe” liczysz do chwili w przeszłości, a nie do teraz. Skrót: 'd (they'd escaped). V3: regularne -ed, nieregularne z trzeciej kolumny (go – went – gone). Past Perfect od have (mieć, jeść) to had had: I'd had breakfast, so I wasn't hungry. Podwójne had jest poprawne. W brytyjskim get ma V3 got (had got), w amerykańskim zwykle gotten (had gotten)."
       },
       "negative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "had",
-            "role": "aux"
-          },
-          {
-            "text": "not",
-            "role": "particle"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "had", "role": "aux" },
+          { "text": "not", "role": "particle" },
+          { "text": "V3", "role": "verb" }
         ],
         "example": {
-          "en": "She hadn't seen the sea before that trip.",
-          "pl": "Przed tą podróżą nie widziała morza."
-        }
+          "en": "She hadn't eaten anything since breakfast, so she was starving.",
+          "pl": "Od śniadania nic nie jadła, więc umierała z głodu."
+        },
+        "note_pl": "Przeczenie robi samo had: hadn't + V3 — did tu nie występuje. Często z yet albo before: I hadn't finished yet, She hadn't seen snow before."
       },
       "question": {
         "pattern": [
-          {
-            "text": "Had",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Had", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "V3", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
         "example": {
-          "en": "Had you met him before the party?",
-          "pl": "Znałeś go przed imprezą?"
-        }
+          "en": "Had you met Marek before the wedding?",
+          "pl": "Znałeś już Marka przed weselem?"
+        },
+        "note_pl": "Had przechodzi przed podmiot, a czasownik zostaje w V3. ever i already stoją między podmiotem a V3: Had you ever…? Krótka odpowiedź: Yes, I had. / No, I hadn't."
       },
       "whQuestion": {
         "pattern": [
-          {
-            "text": "Wh-word",
-            "role": "neutral"
-          },
-          {
-            "text": "had",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Wh-word", "role": "neutral" },
+          { "text": "had", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "V3", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
         "example": {
-          "en": "Why had they left so early?",
-          "pl": "Dlaczego wyszli tak wcześnie?"
-        }
+          "en": "How long had you known each other before you got engaged?",
+          "pl": "Jak długo się znaliście, zanim się zaręczyliście?"
+        },
+        "note_pl": "How long had…? liczy czas do chwili w przeszłości, tak jak How long have…? liczy do teraz. Gdy pytasz o podmiot (Who? What?), nie ma przestawienia: Who had told her?"
       }
     },
     "passive": {
       "affirmative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "had been",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "had been", "role": "aux" },
+          { "text": "V3", "role": "verb" }
         ],
         "example": {
-          "en": "All the tickets had been sold before we got to the box office.",
-          "pl": "Wszystkie bilety zostały sprzedane, zanim dotarliśmy do kasy."
-        }
+          "en": "By the time we got to the box office, all the tickets had been sold.",
+          "pl": "Zanim dotarliśmy do kasy, bilety były już wyprzedane."
+        },
+        "note_pl": "Bierna to be + V3. Po had każdy czasownik idzie w V3, więc be zmienia się w been: had been niesie Past Perfect, a końcowe V3 daje sens bierny. Wykonawcę dodajesz przez by, gdy jest ważny."
       },
       "negative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "had",
-            "role": "aux"
-          },
-          {
-            "text": "not",
-            "role": "particle"
-          },
-          {
-            "text": "been",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "had", "role": "aux" },
+          { "text": "not", "role": "particle" },
+          { "text": "been", "role": "aux" },
+          { "text": "V3", "role": "verb" }
         ],
         "example": {
-          "en": "The room hadn't been cleaned when we arrived.",
-          "pl": "Pokój nie był posprzątany, kiedy przyjechaliśmy."
-        }
+          "en": "We didn't know our results because the tests hadn't been marked yet.",
+          "pl": "Nie znaliśmy wyników, bo sprawdziany nie zostały jeszcze ocenione."
+        },
+        "note_pl": "not stoi zaraz po had, przed been: hadn't been marked, hadn't been told."
       },
       "question": {
         "pattern": [
-          {
-            "text": "Had",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "been",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Had", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "been", "role": "aux" },
+          { "text": "V3", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
         "example": {
-          "en": "Had the decision been made before the meeting?",
-          "pl": "Czy decyzja zapadła przed spotkaniem?"
-        }
+          "en": "Had the decision already been made when you joined the team?",
+          "pl": "Czy decyzja była już podjęta, kiedy dołączyłeś do zespołu?"
+        },
+        "note_pl": "Przed podmiot idzie tylko had. already stoi przed been, a been i V3 zostają za podmiotem."
       },
       "whQuestion": {
         "pattern": [
-          {
-            "text": "Wh-word",
-            "role": "neutral"
-          },
-          {
-            "text": "had",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "been",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Wh-word", "role": "neutral" },
+          { "text": "had", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "been", "role": "aux" },
+          { "text": "V3", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
         "example": {
-          "en": "Why had the flight been cancelled?",
-          "pl": "Dlaczego lot został odwołany?"
-        }
+          "en": "How many times had the flight been delayed before they finally cancelled it?",
+          "pl": "Ile razy opóźniano ten lot, zanim w końcu go odwołano?"
+        },
+        "note_pl": "Gdy pytasz o podmiot, nie ma przestawienia: What had been stolen before the alarm went off?"
       }
     }
   },
   "uses": [
     {
-      "title_pl": "Wcześniej niż inna przeszła czynność",
-      "explanation_pl": "Opowiadasz w przeszłości i cofasz się jeszcze dalej.",
+      "title_pl": "Coś stało się wcześniej niż inny moment w przeszłości",
+      "explanation_pl": "Opowiadasz w Past Simple — to twoje „wtedy”. Gdy musisz cofnąć się do czegoś, co stało się jeszcze wcześniej, bierzesz had + V3. To sygnał dla słuchacza: „uwaga, cofamy się”. Bez niego kolejność bywa niejasna albo słuchacz zrozumie, że wszystko działo się po kolei (When I arrived, she left). Tak najczęściej tłumaczysz przyczynę albo tło: dlaczego ktoś był smutny, skąd się znaliście, co zastałeś na miejscu.",
       "examples": [
         {
-          "en": "When I got to the station, the train had already left.",
-          "pl": "Kiedy dotarłem na dworzec, pociąg już odjechał."
+          "en": "She was upset because she had lost her favourite earrings.",
+          "pl": "Była smutna, bo zgubiła swoje ulubione kolczyki."
+        },
+        {
+          "en": "I recognised him at once — we had met at a summer camp years before.",
+          "pl": "Od razu go rozpoznałem — poznaliśmy się lata wcześniej na obozie."
+        },
+        {
+          "en": "When I got back to the car, someone had scratched the door.",
+          "pl": "Kiedy wróciłem do samochodu, drzwi były porysowane (ktoś zrobił to wcześniej)."
         }
       ]
     },
     {
-      "title_pl": "Trzeci tryb warunkowy",
-      "explanation_pl": "Warunek o przeszłości, której nie da się zmienić.",
+      "title_pl": "when, after, before, by the time: kiedy Past Perfect jest potrzebny",
+      "explanation_pl": "when samo nie mówi, co było pierwsze. Gdy obie czynności są w Past Simple, when znaczy zwykle: najpierw to, co stoi przy when, a zaraz potem druga. Past Perfect w zdaniu bez when mówi coś odwrotnego: ta czynność była już skończona wcześniej. Past Perfect może też stać przy samym when. Wtedy when znaczy „gdy już” i podkreśla, że pierwsza czynność była skończona, zanim zaczęła się druga (jak after). Z after i before jest inaczej: spójnik sam pokazuje kolejność, więc Past Simple w obu częściach też jest poprawny, a Past Perfect tylko podkreśla, że pierwsza czynność była zakończona. W mowie potocznej Past Simple jest tu bardzo częsty. Przy by the time (zanim, do chwili gdy) to, co było gotowe przed tamtą chwilą, idzie zwykle w Past Perfect, bo by the time znaczy „najpóźniej wtedy było już zrobione”.",
       "examples": [
         {
-          "en": "If I had known, I would have helped you.",
-          "pl": "Gdybym wiedział, pomógłbym ci."
+          "en": "When I arrived, she left.",
+          "pl": "Kiedy przyszedłem, wyszła (dopiero po moim przyjściu)."
+        },
+        {
+          "en": "When I arrived, she had left.",
+          "pl": "Kiedy przyszedłem, już jej nie było (wyszła wcześniej)."
+        },
+        {
+          "en": "When I had finished my homework, I went out with my friends.",
+          "pl": "Kiedy już skończyłem lekcje, wyszedłem ze znajomymi."
+        },
+        {
+          "en": "After she had said goodbye to everyone, she got on the train.",
+          "pl": "Kiedy pożegnała się ze wszystkimi, wsiadła do pociągu (After she said goodbye… też jest poprawne)."
+        },
+        {
+          "en": "By the time I got to the shop, it had closed.",
+          "pl": "Zanim dotarłem do sklepu, był już zamknięty."
+        }
+      ]
+    },
+    {
+      "title_pl": "Stan i doświadczenie do chwili w przeszłości (It was the first time…)",
+      "explanation_pl": "To Present Perfect przesunięty o krok w tył: liczysz nie do teraz, ale do „wtedy”. Działają te same słowa: never… before, already, yet, for, since. Po It was the first time… (i po stopniu najwyższym: It was the best… I had ever…) idzie Past Perfect, tak jak po It's the first time… idzie Present Perfect. Przy stanach (know, have = mieć, be) z for i since zostajesz przy Past Perfect, a przy czynnościach, które trwały (wait, work, study), częściej użyjesz Past Perfect Continuous.",
+      "examples": [
+        {
+          "en": "It was the first time I had seen the sea.",
+          "pl": "Pierwszy raz w życiu widziałem morze."
+        },
+        {
+          "en": "We had known each other for years before we started going out.",
+          "pl": "Znaliśmy się od lat, zanim zaczęliśmy ze sobą chodzić."
+        },
+        {
+          "en": "She had never spoken in public before, so her hands were shaking.",
+          "pl": "Nigdy wcześniej nie przemawiała publicznie, więc trzęsły jej się ręce."
+        }
+      ]
+    },
+    {
+      "title_pl": "Ledwo…, a już… (hardly, no sooner — z inwersją)",
+      "explanation_pl": "Gdy jedno zdarzenie nastąpiło tuż po drugim, możesz to podkreślić: hardly / scarcely / barely + had + V3 … when + Past Simple albo no sooner + had + V3 … than + Past Simple. Past Perfect dostaje to, co było pierwsze. Jeśli hardly albo no sooner otwiera zdanie, robisz inwersję jak w pytaniu: had idzie przed podmiot (Hardly had I…). Bez przestawienia też można, ale wtedy zdanie zaczyna się od podmiotu, a przysłówek stoi po had: I had hardly sat down when… Pary się nie mieszają: no sooner łączy się z than, a hardly, scarcely i barely z when (rzadziej z before). To styl raczej pisany, dobry do opowiadania.",
+      "examples": [
+        {
+          "en": "Hardly had I sat down when the phone rang.",
+          "pl": "Ledwo usiadłem, zadzwonił telefon."
+        },
+        {
+          "en": "No sooner had the match started than it began to rain heavily.",
+          "pl": "Ledwo zaczął się mecz, zaczęło mocno padać."
+        },
+        {
+          "en": "We had barely left the house when we realised we'd forgotten the tickets.",
+          "pl": "Ledwo wyszliśmy z domu, zorientowaliśmy się, że zapomnieliśmy biletów."
+        }
+      ]
+    },
+    {
+      "title_pl": "Mowa zależna: cofnięcie o krok",
+      "explanation_pl": "Gdy relacjonujesz czyjeś słowa po czasowniku w przeszłości (said, told, asked, explained), czasy z oryginału zwykle przesuwasz o krok w przeszłość. Present Perfect zmienia się w Past Perfect. Past Simple może przejść w Past Perfect albo zostać — w mowie potocznej często zostaje, bo i tak wiadomo, co było wcześniej. Past Perfect z oryginału zostaje bez zmian, bo dalej cofnąć się nie da: „I had never seen it before” → He said he had never seen it before. Gdy to, co ktoś powiedział, jest nadal prawdą, cofnięcie bywa pominięte, ale na maturze cofaj — to bezpieczne. Okoliczniki przesuwają się razem z czasem: yesterday → the day before, ago → before, last week → the week before. Gdy czasownik relacjonujący jest w teraźniejszym (She says…), nic się nie cofa. Po polsku zostawiamy czas z oryginału („powiedziała, że zgubiła”), dlatego to przesunięcie łatwo przeoczyć.",
+      "examples": [
+        {
+          "en": "She said she had lost her keys.",
+          "pl": "Powiedziała, że zgubiła klucze (jej słowa: „I've lost my keys”)."
+        },
+        {
+          "en": "He told me he had seen the film the day before.",
+          "pl": "Powiedział mi, że widział ten film dzień wcześniej (jego słowa: „I saw the film yesterday”)."
+        },
+        {
+          "en": "The teacher asked if we had finished our projects.",
+          "pl": "Nauczycielka zapytała, czy skończyliśmy projekty (jej słowa: „Have you finished your projects?”)."
+        }
+      ]
+    },
+    {
+      "title_pl": "Nierealna przeszłość: I wish, If only, I'd rather, as if",
+      "explanation_pl": "Tu Past Perfect nie ustawia kolejności, tylko mówi o przeszłości, która się NIE wydarzyła (albo wydarzyła się inaczej, niż byś chciał). Mechanizm jak w I wish I knew: forma przeszła robi dystans od rzeczywistości. O teraz cofasz o krok (know → knew). O przeszłości cofasz jeszcze o krok — z Past Simple do Past Perfect. Dlatego had + V3 znaczy tu „nierealna przeszłość”, a nie „przeszłość przed przeszłością”. Po I wish / If only + had + V3 żałujesz czegoś, co już się stało albo nie stało. Porównaj: I wish I knew (szkoda, że nie wiem — teraz) i I wish I had known (szkoda, że nie wiedziałem — wtedy). Tak samo po I'd rather + ktoś inny (wolałbym, żeby ktoś wtedy coś zrobił albo nie) i po as if / as though, gdy porównujesz z czymś, co musiałoby stać się wcześniej.",
+      "examples": [
+        {
+          "en": "I wish I had listened to your advice.",
+          "pl": "Żałuję, że nie posłuchałem twojej rady."
+        },
+        { "en": "If only you had told me the truth!", "pl": "Gdybyś tylko powiedział mi prawdę!" },
+        {
+          "en": "I'd rather you hadn't invited him to the party.",
+          "pl": "Wolałbym, żebyś go nie zapraszał na imprezę."
+        },
+        { "en": "He looked as if he had seen a ghost.", "pl": "Wyglądał, jakby zobaczył ducha." }
+      ]
+    },
+    {
+      "title_pl": "Trzeci tryb warunkowy (też z inwersją i mieszany)",
+      "explanation_pl": "W trzecim trybie mówisz o warunku, który w przeszłości się nie spełnił: If + had + V3, would have + V3. would have nie wchodzi do części z if. Działa ten sam dystans co wyżej: had + V3 to tu przeszłość, której nie było. W stylu formalnym możesz opuścić if i zrobić inwersję: Had I known… = If I had known… (had przed podmiotem). Przeczenie: Had I not known…, bez skrótu (nie Hadn't I known). Gdy warunek dotyczy przeszłości, a skutek teraz, to tryb mieszany: If + had + V3, would + V1.",
+      "examples": [
+        {
+          "en": "If we had left earlier, we wouldn't have missed the beginning of the film.",
+          "pl": "Gdybyśmy wyszli wcześniej, nie przegapilibyśmy początku filmu."
+        },
+        {
+          "en": "Had I known about the strike, I would have taken a taxi.",
+          "pl": "Gdybym wiedział o strajku, wziąłbym taksówkę."
+        },
+        {
+          "en": "If I hadn't stayed up so late last night, I wouldn't be so tired now.",
+          "pl": "Gdybym wczoraj nie siedział do tak późna, nie byłbym teraz taki zmęczony."
         }
       ]
     }
   ],
   "signalWords": [
     {
-      "word": "by the time"
+      "word": "by the time",
+      "note_pl": "+ Past Simple: zanim, do chwili gdy. To, co było już gotowe, idzie zwykle w Past Perfect. Uwaga: by the time + Present Simple dotyczy przyszłości → Future Perfect (By the time you get home, I'll have left)"
     },
     {
-      "word": "before"
+      "word": "by then / by that time",
+      "note_pl": "do tamtej pory; tak samo by + data z przeszłości: by 2010, by the end of the term"
     },
     {
-      "word": "after"
+      "word": "already",
+      "note_pl": "już (wcześniej) — między had a V3: had already left. Gdy punktem odniesienia jest teraz, to Present Perfect"
     },
     {
-      "word": "already"
-    },
-    {
-      "word": "by then"
+      "word": "just",
+      "note_pl": "dopiero co (względem tamtej chwili): had just left. Względem teraz → Present Perfect: has just left"
     },
     {
       "word": "never… before",
-      "note_pl": "np. I had never flown before."
+      "note_pl": "nigdy wcześniej (do tamtej chwili): I had never flown before."
+    },
+    { "word": "yet", "note_pl": "hadn't… yet — jeszcze nie (do tamtej chwili)" },
+    {
+      "word": "before",
+      "note_pl": "wcześniej, przedtem — na końcu zdania (I had met her before) albo spójnik „zanim”, przy którym Past Perfect jest często opcjonalny. two days before = dwa dni wcześniej niż tamten moment (two days ago liczy od teraz → Past Simple)"
+    },
+    {
+      "word": "after",
+      "note_pl": "po tym, jak — kolejność widać ze spójnika, więc Past Simple też jest poprawny: After she left = After she had left"
+    },
+    {
+      "word": "when",
+      "note_pl": "sygnał Past Perfect tylko wtedy, gdy z kontekstu wynika, że druga czynność była już gotowa (When I arrived, she had left). Dwa Past Simple przy when = jedno po drugim, a when przy tle w trakcie → Past Continuous. Past Perfect przy samym when = „gdy już” (When I had finished…)"
+    },
+    {
+      "word": "It was the first time…",
+      "note_pl": "po nim Past Perfect: It was the first time I had been abroad. Uwaga: It's the first time… → Present Perfect"
+    },
+    {
+      "word": "the day before / the week before",
+      "note_pl": "dzień / tydzień wcześniej — liczysz od chwili w przeszłości, często w mowie zależnej. yesterday i ago liczą od teraz → Past Simple"
+    },
+    {
+      "word": "for / since",
+      "note_pl": "do chwili w przeszłości: had known her for years, hadn't eaten since breakfast. Przy czynności, która trwała (wait, work), częściej Past Perfect Continuous; do teraz → Present Perfect"
+    },
+    {
+      "word": "hardly / scarcely / barely … when",
+      "note_pl": "ledwo…, a już: Hardly had I sat down when the phone rang. Na początku zdania inwersja — had przed podmiotem"
+    },
+    {
+      "word": "no sooner … than",
+      "note_pl": "ledwo…, a już: No sooner had we left than it started to rain. Zawsze z than, nie z when"
     }
   ],
   "relatedTenses": [
     {
       "id": "past-simple",
-      "relation_pl": "Past Simple to kolejne wydarzenia po kolei. Past Perfect cofa się do czegoś, co stało się wcześniej.",
+      "relation_pl": "Past Simple prowadzi opowieść: kolejne kroki i twoje „wtedy”. Past Perfect bierzesz, gdy cofasz się do czegoś jeszcze wcześniejszego — zwłaszcza gdy bez tego kolejność byłaby niejasna albo inna. Gdy opowiadasz po kolei albo kolejność pokazuje after / before, wystarczy Past Simple, a w mowie potocznej jest on tu bardzo częsty. Past Perfect nie znaczy „dawno temu”: sama data z przeszłości to Past Simple (My parents moved to Kraków in 1990).",
       "contrast": [
         {
-          "en": "When I arrived, she left.",
-          "pl": "Kiedy przyjechałem, ona wyszła (po moim przyjściu)."
+          "en": "When I got home, my brother made dinner.",
+          "pl": "Kiedy wróciłem, brat zrobił obiad (dopiero wtedy)."
         },
         {
-          "en": "When I arrived, she had left.",
-          "pl": "Kiedy przyjechałem, już jej nie było (wyszła wcześniej)."
+          "en": "When I got home, my brother had made dinner.",
+          "pl": "Kiedy wróciłem, obiad był już gotowy (brat zrobił go wcześniej)."
+        },
+        {
+          "en": "I had read the book before I saw the film.",
+          "pl": "Przeczytałem książkę, zanim zobaczyłem film."
+        },
+        {
+          "en": "I read the book before I saw the film.",
+          "pl": "Przeczytałem książkę, zanim zobaczyłem film (to samo — before już pokazuje kolejność, więc Past Simple wystarcza)."
         }
       ]
     },
     {
       "id": "present-perfect",
-      "relation_pl": "Ten sam pomysł „wcześniej + skutek”, tylko punktem odniesienia jest przeszłość, a nie teraz."
+      "relation_pl": "Ten sam mechanizm have + V3 = „gotowe”, tylko punkt odniesienia przesuwa się z TERAZ na „wtedy”: have / has → had. Te same sygnały działają w obu (already, just, yet, never… before, for, since), a It's the first time zmienia się w It was the first time. Jedna ważna różnica: Present Perfect nie łączy się z konkretnym momentem (yesterday, at six, in 2010), bo patrzy z teraz. Past Perfect patrzy z „wtedy”, więc ten moment możesz podać — Past Perfect to też Past Simple cofnięty o krok. Jeśli mówisz o teraz, nie bierz Past Perfect tylko dlatego, że coś było dawno.",
+      "contrast": [
+        {
+          "en": "It's the first time I've been to a real concert.",
+          "pl": "Pierwszy raz jestem na prawdziwym koncercie (teraz)."
+        },
+        {
+          "en": "It was the first time I had been to a real concert.",
+          "pl": "To był mój pierwszy prawdziwy koncert (wtedy)."
+        },
+        {
+          "en": "She's just left — you've missed her.",
+          "pl": "Właśnie wyszła — minąłeś się z nią."
+        },
+        {
+          "en": "She had just left, so I missed her.",
+          "pl": "Akurat przed chwilą wyszła, więc się z nią minąłem."
+        },
+        {
+          "en": "She's checked out, so the room is free now.",
+          "pl": "Wymeldowała się, więc pokój jest teraz wolny (bez godziny — liczy się teraz)."
+        },
+        {
+          "en": "When I got to the hotel, I found out she had checked out at six.",
+          "pl": "Kiedy dotarłem do hotelu, dowiedziałem się, że wymeldowała się o szóstej (godzina pasuje, bo patrzysz z „wtedy”)."
+        }
+      ]
+    },
+    {
+      "id": "past-perfect-continuous",
+      "relation_pl": "Oba patrzą wstecz od chwili w przeszłości. Past Perfect mówi, co było gotowe i z jakim wynikiem (ile, czy skończone). Past Perfect Continuous — jak długo coś trwało do tamtej chwili, albo tłumaczy ślady czynności, która trwała tuż przedtem (zmęczenie, bałagan, czerwone oczy). Czasowniki stanu (know, have = mieć, be) zostają w Past Perfect nawet z for i since.",
+      "contrast": [
+        {
+          "en": "He had painted the room, so it looked brand new.",
+          "pl": "Pomalował pokój, więc wyglądał jak nowy (praca skończona)."
+        },
+        {
+          "en": "He had been painting the room, so his clothes were covered in paint.",
+          "pl": "Malował pokój, więc miał ubranie całe w farbie (ślady czynności — nie wiadomo, czy skończył)."
+        },
+        {
+          "en": "By the end of the month she had written three chapters.",
+          "pl": "Do końca miesiąca napisała trzy rozdziały (wynik, liczba)."
+        },
+        {
+          "en": "She had been writing all month, so she was exhausted.",
+          "pl": "Pisała przez cały miesiąc, więc była wykończona (czynność, która trwała)."
+        }
+      ]
+    },
+    {
+      "id": "past-continuous",
+      "relation_pl": "Oba ustawiają czynność względem chwili w przeszłości. Past Continuous: w tej chwili czynność trwała, trafiasz w jej środek. Past Perfect: była już skończona PRZED nią. Pytaj: w trakcie czy już po?",
+      "contrast": [
+        {
+          "en": "When I looked out of the window, it was snowing.",
+          "pl": "Kiedy wyjrzałem przez okno, padał śnieg (w tej chwili)."
+        },
+        {
+          "en": "When I looked out of the window, everything was white — it had snowed in the night.",
+          "pl": "Kiedy wyjrzałem przez okno, wszystko było białe — w nocy spadł śnieg."
+        }
+      ]
     }
   ],
   "commonMistakes": [
     {
       "wrong": "After he finished, he had gone home.",
       "right": "After he had finished, he went home.",
-      "why_pl": "Past Perfect dostaje czynność WCZEŚNIEJSZĄ, nie późniejszą."
+      "why_pl": "Past Perfect dostaje czynność WCZEŚNIEJSZĄ. Najpierw skończył, potem poszedł do domu, więc had + V3 idzie do finished, a went zostaje w Past Simple. After he finished, he went home też jest poprawne."
+    },
+    {
+      "wrong": "When we got to the party, most of the guests already went home.",
+      "right": "When we got to the party, most of the guests had already gone home.",
+      "why_pl": "already przy chwili w przeszłości znaczy „już wcześniej, przed nią”, więc potrzebujesz had + V3 (go – went – gone). Polskie „goście już poszli” podsuwa zwykły czas przeszły. Bez already sam Past Simple przy when znaczyłby, że goście wyszli dopiero po waszym przyjściu. W luźnej mowie, zwłaszcza amerykańskiej, bywa samo already + Past Simple, ale na maturze pisz had + V3."
+    },
+    {
+      "wrong": "Last summer I had visited my cousins in Ireland.",
+      "right": "Last summer I visited my cousins in Ireland.",
+      "why_pl": "Past Perfect nie znaczy „dawno temu”. Potrzebuje drugiego punktu w przeszłości, przed którym coś się stało. Sam zamknięty moment (last summer, in 2015) to Past Simple."
+    },
+    {
+      "wrong": "It was the first time I saw the sea.",
+      "right": "It was the first time I had seen the sea.",
+      "why_pl": "Po It was the first time… stoi Past Perfect, tak jak po It's the first time… Present Perfect. Polskie „pierwszy raz widziałem” podsuwa zwykły czas przeszły. W luźnej mowie usłyszysz czasem Past Simple, ale w zadaniach maturalnych oczekiwany jest Past Perfect."
+    },
+    {
+      "wrong": "If I would have known, I would have helped you.",
+      "right": "If I had known, I would have helped you.",
+      "why_pl": "W części z if nie ma would. Warunek o przeszłości to if + had + V3, a would have + V3 idzie tylko do skutku."
+    },
+    {
+      "wrong": "I wish I didn't say that.",
+      "right": "I wish I hadn't said that.",
+      "why_pl": "Żal o coś, co już się stało → I wish + had + V3. I wish + Past Simple mówi o teraz: I wish I knew = szkoda, że nie wiem."
+    },
+    {
+      "wrong": "She asked me if had I finished the essay.",
+      "right": "She asked me if I had finished the essay.",
+      "why_pl": "W pytaniu zależnym nie ma przestawienia: if / whether + podmiot + had + V3, szyk jak w zwykłym zdaniu. Cofnięcie zostaje: „Have you finished?” → if I had finished."
+    },
+    {
+      "wrong": "No sooner I had sat down than the phone rang.",
+      "right": "No sooner had I sat down than the phone rang.",
+      "why_pl": "Gdy no sooner albo hardly otwiera zdanie, jest inwersja: had przed podmiotem, jak w pytaniu. Pary się nie mieszają: no sooner … than, hardly … when."
     }
   ],
   "maturaTips_pl": [
-    "Z after i before kolejność jest jasna, więc Past Simple w obu częściach też bywa poprawny. Przy by the time w drugiej części zdania zwykle potrzebny jest Past Perfect."
+    "Zanim wpiszesz had + V3, znajdź w tekście drugi punkt w przeszłości (czasownik w Past Simple, by the time, by then). Jeśli go nie ma, a zdarzenia idą po kolei, wystarczy Past Simple.",
+    "Częste transformacje: I had never seen such a big crowd before. = It was the first time I had seen such a big crowd. Tak samo ze stopniem najwyższym: It was the best concert I had ever been to.",
+    "Inwersja w transformacjach: As soon as I sat down, the phone rang. = No sooner had I sat down than the phone rang. = Hardly had I sat down when the phone rang. Sprawdź parę słów (than / when) i szyk: had przed podmiotem.",
+    "Mowa zależna: po said / told / asked cofaj Present Perfect i Past Simple do Past Perfect, a okoliczniki przesuwaj: yesterday → the day before, two days ago → two days before, last week → the week before. Past Perfect zostaje Past Perfectem. Past Simple w mowie potocznej często zostaje, ale wersja z Past Perfect jest bezpiecznym wyborem.",
+    "Żal i nierealna przeszłość: I regret not going to the party. = I wish I had gone to the party. = If only I had gone to the party. A I didn't know, so I didn't help. = If I had known, I would have helped. = Had I known, I would have helped (inwersja; przeczenie: Had I not known…)."
   ]
 }
