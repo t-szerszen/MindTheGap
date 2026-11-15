@@ -1,0 +1,830 @@
+[
+  {
+    "id": "mod-grandma-since-accident",
+    "type": "gap-fill",
+    "sentence": "Since the accident in March, my grandma ___ (not / able / walk) without a stick, but she's getting stronger every week.",
+    "correct": ["has not been able to walk"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Since the accident in March — okres od zdarzenia w przeszłości aż do teraz. Druga część (she's getting stronger) też jest o teraz."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Nie mogła chodzić i nadal nie może, więc potrzebny jest Present Perfect. can nie ma imiesłowu ani bezokolicznika (nie ma *has can*), więc zastępuje je be able to: has been able to."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "grandma = she → has + not + been able to + V1 → hasn't been able to walk."
+      }
+    ],
+    "tags": ["modal-verbs", "present-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "mod-charger-room-12",
+    "type": "gap-fill",
+    "sentence": "The hostel has just called: someone found a phone charger in room 12. Ola ___ (must / leave) it there when she checked out this morning.",
+    "correct": ["must have left"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Dowód (ładowarka w pokoju, w którym spała Ola) i wniosek o czymś, co już się stało: when she checked out this morning."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Nikt nie widział, jak ją zostawiała, ale to jedyne sensowne wyjaśnienie → pewność co do przeszłości."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "must + have + V3: leave → left. have się nie zmienia (nie *must has left*). Skrót must've left też jest dobry."
+      }
+    ],
+    "tags": ["modal-verbs"],
+    "difficulty": 1
+  },
+  {
+    "id": "mod-goal-hot-dog",
+    "type": "gap-fill",
+    "sentence": "Kuba ___ (can't / see) the second goal — he was queuing for a hot dog when it went in.",
+    "correct": ["cannot have seen", "could not have seen"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Kiedy padł gol, Kuba stał w kolejce po hot doga. Wszystko to przeszłość: was queuing, went in."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Mówiący jest pewien, że Kuba gola NIE widział. Pewność „nie” to can't (albo couldn't), a nie mustn't."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "can't + have + V3: see → seen → can't have seen. Samo can't see mówiłoby o teraz."
+      }
+    ],
+    "tags": ["modal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "mod-phone-died-hike",
+    "type": "gap-fill",
+    "sentence": "My phone died halfway up the mountain, and I didn't have a paper map. I ___ (should / charge) it before we set off.",
+    "correct": ["should have charged"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "before we set off — moment w przeszłości, przed wyjściem. Telefon padł, czyli nie był naładowany."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Należało to zrobić, a tego nie zrobiłem → krytyka przeszłości (tu samokrytyka)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "should + have + V3: charge → charged. Po polsku: powinienem był naładować."
+      }
+    ],
+    "tags": ["modal-verbs"],
+    "difficulty": 1
+  },
+  {
+    "id": "mod-third-cheesecake",
+    "type": "gap-fill",
+    "sentence": "I feel awful now. I ___ (should / not / eat) that third piece of cheesecake at Zosia's party.",
+    "correct": ["should not have eaten"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I feel awful now — skutek jest teraz, a sernik zjadłem wcześniej, na imprezie."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Zjadłem, a nie powinienem był. Zdanie mówi odwrotnie niż to, co się stało, więc potrzebne jest przeczenie: shouldn't have."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "should + not + have + V3: eat → eaten. not stoi zaraz po should: shouldn't have eaten."
+      }
+    ],
+    "tags": ["modal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "mod-nowaks-match",
+    "type": "gap-fill",
+    "sentence": "Nobody's answering the door at the Nowaks', but I can hear shouting from the living room. They ___ (must / watch) the match.",
+    "correct": ["must be watching"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Nobody's answering, I can hear shouting — wszystko dzieje się teraz, w tej chwili."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "To wniosek z dowodów (krzyki z salonu), a nie obowiązek → must = na pewno."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Coś, co trwa teraz → must + be + V-ing: must be watching. Samo must watch znaczyłoby „muszą oglądać”, czyli obowiązek."
+      }
+    ],
+    "tags": ["modal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "mod-courier-headphones",
+    "type": "gap-fill",
+    "sentence": "Michał didn't hear the doorbell when the courier came. He ___ (might / listen) to music on his headphones.",
+    "correct": ["might have been listening"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "when the courier came — konkretny moment w przeszłości. Pytanie brzmi: co Michał wtedy robił?"
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Mówiący zgaduje (might = może), a słuchanie muzyki trwało w chwili, gdy kurier dzwonił."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Przeszłość → have + V3, trwanie → been + V-ing. Razem: might have been listening, dokładnie 4 wyrazy."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "might listen mówi o teraz albo o przyszłości. might have listened opisuje zakończoną czynność i nie tłumaczy, czemu w tamtej chwili nie usłyszał dzwonka."
+      }
+    ],
+    "tags": ["modal-verbs"],
+    "difficulty": 3
+  },
+  {
+    "id": "mod-thin-ice-pond",
+    "type": "gap-fill",
+    "sentence": "The ice on the pond is still very thin after the warm weekend, so you ___ (better / not / walk) on it.",
+    "correct": ["had better not walk"],
+    "accepted": ["'d better not walk"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "The ice … is still very thin — lód może się załamać. To ostrzeżenie na tę konkretną sytuację."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Pilna rada, żeby czegoś NIE robić, bo będą kłopoty → had better not."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had better + not + V1 bez to: had better not walk (skrót: you'd better not walk). not stoi po better, a choć jest had, chodzi o teraz."
+      }
+    ],
+    "tags": ["modal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "mod-scared-of-dark",
+    "type": "gap-fill",
+    "sentence": "___ (you / use / be) scared of the dark when you were little? I was terrified of it until I was about ten.",
+    "correct": ["Did you use to be"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "when you were little, until I was about ten — pytasz o stan z dawnych lat, który już minął."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Dawny stan (bać się ciemności) → used to. would tu nie pasuje, bo nie mówi o stanach."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "W pytaniu przeszłość niesie did, więc use zostaje bez -d: Did you use to be…?, nie *Did you used to*. Razem 5 wyrazów."
+      }
+    ],
+    "tags": ["modal-verbs", "past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "mod-phones-exam-room",
+    "type": "gap-fill",
+    "sentence": "All mobile phones ___ (must / switch / off) before candidates enter the exam room.",
+    "correct": ["must be switched off"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Podmiot to mobile phones. Telefony same się nie wyłączają, ktoś je wyłącza → strona bierna."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Zasada z regulaminu egzaminu → must."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "must + be + V3: must be switched off. Po modalu be stoi w formie podstawowej, nie *must are*."
+      }
+    ],
+    "tags": ["modal-verbs", "passive-voice"],
+    "difficulty": 2
+  },
+  {
+    "id": "mod-painting-alarm-code",
+    "type": "gap-fill",
+    "sentence": "The painting disappeared from the museum overnight. There's no sign of a break-in, so it ___ (must / take) by someone who knew the alarm code.",
+    "correct": ["must have been taken"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "disappeared … overnight, no sign of a break-in — obraz zniknął w nocy, a brak śladów włamania to dowód, z którego wyciągasz wniosek o przeszłości."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "by someone — obraz nie zabrał się sam, ktoś go zabrał → strona bierna."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Pewność o przeszłości (must have + V3) plus strona bierna (been + V3): must have been taken. Cztery wyrazy."
+      }
+    ],
+    "tags": ["modal-verbs", "passive-voice"],
+    "difficulty": 3
+  },
+  {
+    "id": "mod-kwt-rehearsal-forgot",
+    "type": "key-word-transformation",
+    "source": "I'm sure Marta forgot about the rehearsal — she's never this late.",
+    "keyWord": "MUST",
+    "target": "Marta ___ about the rehearsal — she's never this late.",
+    "correct": ["must have forgotten"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I'm sure + forgot = pewność co do czegoś, co już się stało."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Pewność o przeszłości → must + have + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "forget → forgot → forgotten: must have forgotten (3 wyrazy). must forgot i must have forgot to błędy."
+      }
+    ],
+    "tags": ["modal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "mod-kwt-restaurant-book",
+    "type": "key-word-transformation",
+    "source": "The restaurant was full when we got there. It was a mistake not to book a table in advance.",
+    "keyWord": "SHOULD",
+    "target": "The restaurant was full when we got there. We ___ a table in advance.",
+    "correct": ["should have booked", "should have reserved"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "It was a mistake not to… = należało to zrobić, a tego nie zrobiliśmy."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "W zdaniu wyjściowym jest not, ale w odpowiedzi przeczenia nie ma. Błędem było NIE zarezerwować, więc: powinniśmy byli zarezerwować."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "should + have + V3: should have booked."
+      }
+    ],
+    "tags": ["modal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "mod-kwt-pawel-bell",
+    "type": "key-word-transformation",
+    "source": "I'm sure Paweł wasn't at home when I rang the bell — his bike wasn't there.",
+    "keyWord": "CAN'T",
+    "target": "Paweł ___ at home when I rang the bell — his bike wasn't there.",
+    "correct": ["can't have been", "can't possibly have been"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I'm sure + wasn't = pewność, że czegoś w przeszłości NIE było."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Pewność „nie” to can't, a przeszłość dokładasz przez have + V3: can't have been."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie mustn't have been: w brytyjskim angielskim (i na maturze) mustn't to zakaz, a pewność „nie” to can't."
+      }
+    ],
+    "tags": ["modal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "mod-kwt-laptop-workshop",
+    "type": "key-word-transformation",
+    "source": "It wasn't necessary to bring my laptop to the workshop, but I did.",
+    "keyWord": "NEEDN'T",
+    "target": "I ___ my laptop to the workshop.",
+    "correct": ["needn't have brought", "needn't have taken"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "wasn't necessary + but I did — zrobiłem coś, co okazało się niepotrzebne."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Zrobione, a niepotrzebnie → needn't + have + V3."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "didn't need to bring nie zawiera słowa klucza i nie mówi jasno, że laptop przyniosłem. needn't have brought mówi to zawsze."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "bring → brought → brought: needn't have brought."
+      }
+    ],
+    "tags": ["modal-verbs"],
+    "difficulty": 3
+  },
+  {
+    "id": "mod-kwt-pilot-fog",
+    "type": "key-word-transformation",
+    "source": "Despite the thick fog, the pilot managed to land the plane safely.",
+    "keyWord": "ABLE",
+    "target": "Despite the thick fog, the pilot ___ the plane safely.",
+    "correct": ["was able to land"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "managed to + jedno konkretne zdarzenie w przeszłości: to jedno lądowanie, w tej mgle."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Jeden udany wyczyn → was / were able to. could tu nie pasuje, bo w zdaniu twierdzącym opisuje ogólną umiejętność."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "the pilot = he / she → was able to + V1: was able to land."
+      }
+    ],
+    "tags": ["modal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "mod-kwt-tickets-phone",
+    "type": "key-word-transformation",
+    "source": "It isn't necessary for you to print the tickets — you can just show them on your phone.",
+    "keyWord": "HAVE",
+    "target": "You ___ the tickets — you can just show them on your phone.",
+    "correct": ["do not have to print", "will not have to print", "have not got to print"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "It isn't necessary = nie ma potrzeby. To nie jest zakaz."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Brak obowiązku → don't have to + V1: don't have to print."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "mustn't print znaczyłoby, że drukować nie wolno. A przecież można, tylko nie trzeba."
+      }
+    ],
+    "tags": ["modal-verbs"],
+    "difficulty": 1
+  },
+  {
+    "id": "mod-kwt-park-animals",
+    "type": "key-word-transformation",
+    "source": "Visitors mustn't feed the animals in the park.",
+    "keyWord": "ALLOWED",
+    "target": "Visitors ___ the animals in the park.",
+    "correct": ["are not allowed to feed"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "mustn't = zakaz."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Ten sam zakaz bez modala: be + not + allowed to + V1."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Visitors = they → aren't allowed to feed, z to po allowed. Pełna forma are not allowed to feed ma 5 wyrazów i mieści się w limicie."
+      }
+    ],
+    "tags": ["modal-verbs"],
+    "difficulty": 1
+  },
+  {
+    "id": "mod-kwt-doctor-cough",
+    "type": "key-word-transformation",
+    "source": "It would be a good idea for you to see a doctor about that cough.",
+    "keyWord": "BETTER",
+    "target": "You ___ a doctor about that cough.",
+    "correct": [
+      "had better see",
+      "had better go and see",
+      "had better go to see",
+      "had better visit",
+      "had better consult"
+    ],
+    "accepted": [
+      "'d better see",
+      "'d better go and see",
+      "'d better go to see",
+      "'d better visit",
+      "'d better consult"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "It would be a good idea for you to… = rada dla konkretnej osoby w konkretnej sytuacji."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "had better + V1 bez to: had better see (skrót: you'd better see)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie *had better to see* ani *have better see*: had się nie zmienia, a po better nie ma to."
+      }
+    ],
+    "tags": ["modal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "mod-kwt-cinema-supermarket",
+    "type": "key-word-transformation",
+    "source": "There was a cinema here once, but now there's a supermarket in its place.",
+    "keyWord": "USED",
+    "target": "There ___ a cinema where the supermarket is now.",
+    "correct": ["used to be"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "once … but now — kiedyś tak było, teraz już nie."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Dawny stan (było tu kino) → used to + V1. would nie pasuje, bo mówi tylko o powtarzanych czynnościach."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "There + used to be: There used to be a cinema."
+      }
+    ],
+    "tags": ["modal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "mod-kwt-referee-wrong-player",
+    "type": "key-word-transformation",
+    "source": "It's possible that the referee sent off the wrong player.",
+    "keyWord": "MAY",
+    "target": "The wrong player ___ off by the referee.",
+    "correct": ["may have been sent"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "It's possible that … sent off — przypuszczenie (nie pewność) o przeszłości."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Możliwość w przeszłości → may + have + V3. W zdaniu docelowym podmiotem jest zawodnik, a sędzia stoi po by → strona bierna: been + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "may have been sent — 4 wyrazy, bo off już jest w zdaniu. Samo may be sent mówiłoby o teraz albo o przyszłości."
+      }
+    ],
+    "tags": ["modal-verbs", "passive-voice"],
+    "difficulty": 3
+  },
+  {
+    "id": "mod-kwt-calculator-kuba",
+    "type": "key-word-transformation",
+    "source": "\"Can I borrow your calculator?\" Kuba asked me.",
+    "keyWord": "COULD",
+    "target": "Kuba asked me ___ borrow my calculator.",
+    "correct": ["if he could", "whether he could"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "asked — relacjonujesz pytanie w przeszłości, więc can cofa się do could."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Pytanie tak / nie w mowie zależnej → if / whether + podmiot + czasownik, szyk jak w zdaniu oznajmującym."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie *if could he*: w pytaniu zależnym nie ma szyku pytającego. Zmienia się też osoba: I → he."
+      }
+    ],
+    "tags": ["modal-verbs", "reported-speech"],
+    "difficulty": 2
+  },
+  {
+    "id": "mod-hotel-towel",
+    "type": "choice",
+    "text": "You ___ bring your own towel — the hotel gives you one at the pool.",
+    "gaps": [
+      {
+        "options": ["mustn't", "aren't allowed to", "don't have to", "can't"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "the hotel gives you one — ręcznik dostaniesz na miejscu, więc nie ma potrzeby go brać."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "To brak obowiązku, a nie zakaz → don't have to."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "mustn't, aren't allowed to i can't to trzy sposoby na „nie wolno”. Hotel nie zabrania własnego ręcznika, po prostu nie jest ci potrzebny."
+          }
+        ]
+      }
+    ],
+    "tags": ["modal-verbs"],
+    "difficulty": 1
+  },
+  {
+    "id": "mod-fire-guests",
+    "type": "choice",
+    "text": "The fire spread very quickly, but luckily all the guests ___ get out before the roof collapsed.",
+    "gaps": [
+      {
+        "options": ["could", "were able to", "had to", "might"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "luckily + before the roof collapsed — jedno konkretne zdarzenie w przeszłości, które się udało."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Jeden sukces → were able to (albo managed to). could w zdaniu twierdzącym mówi o ogólnej umiejętności, nie o jednym wyczynie."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "had to = byli zmuszeni, co nie pasuje do luckily. might = może, a tu mowa o czymś, co na pewno się wydarzyło."
+          }
+        ]
+      }
+    ],
+    "tags": ["modal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "mod-olas-car",
+    "type": "choice",
+    "text": "That ___ be Ola's car — she sold hers last month and hasn't bought a new one yet.",
+    "gaps": [
+      {
+        "options": ["must", "mustn't", "can't", "may"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "she sold hers … hasn't bought a new one — mocny dowód, że to nie jej auto."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Pewność, że NIE → can't."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "W brytyjskim angielskim (i na maturze) mustn't to zakaz, a nie wniosek. must i may przeczą dowodom."
+          }
+        ]
+      }
+    ],
+    "tags": ["modal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "mod-lost-keys",
+    "type": "choice",
+    "title": "Lost keys",
+    "text": "Hi Zuza! I've lost my keys again. I ___ left them at the gym, because the last time I used them was to open my locker there. I'm not completely sure, though — they ___ also be in my sports bag, which I haven't unpacked yet. Mum says I ___ had a spare key cut years ago, and she's right — I just never got round to it.",
+    "gaps": [
+      {
+        "options": ["must have", "can't have", "needn't have", "should have"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "the last time I used them was to open my locker there — dowód, z którego wynika wniosek o przeszłości."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Najbardziej logiczne wyjaśnienie → must have + V3: pewnie musiałam je tam zostawić (mocny wniosek, ale nie 100%)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "can't have przeczy dowodowi, needn't have znaczy „niepotrzebnie”, a should have („powinnam była”) nie ma tu sensu."
+          }
+        ]
+      },
+      {
+        "options": ["could", "must", "can", "had better"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "I'm not completely sure, though … also — druga możliwość, bez pewności."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Możliwe teraz → could / may / might + V1. Z tych opcji pasuje tylko could."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "must przeczy słowom not completely sure. can w zdaniu twierdzącym nie służy do zgadywania o konkretnej sytuacji, tylko do ogólnej możliwości."
+          }
+        ]
+      },
+      {
+        "options": ["should have", "must have", "may have", "needn't have"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "she's right — I just never got round to it — klucza nie dorobiłam, a mama ma o to pretensje."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Należało dorobić zapasowy klucz, a tego nie zrobiono → should have + V3, czyli krytyka."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "must have (pewnie), may have (może) i needn't have (niepotrzebnie) zakładają, że klucz dorobiono, a never got round to it znaczy, że nie."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "have a key cut = dać klucz do dorobienia. W przeszłości: should have had a spare key cut."
+          }
+        ]
+      }
+    ],
+    "tags": ["modal-verbs"],
+    "difficulty": 3
+  },
+  {
+    "id": "mod-gdynia-dog",
+    "type": "choice",
+    "text": "When we lived in Gdynia, we ___ have a dog called Bursztyn, and every morning before school my brother ___ take him for a walk on the beach.",
+    "gaps": [
+      {
+        "options": ["used to", "would", "were used to", "use to"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "When we lived in Gdynia — dawny okres, który się skończył."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "have a dog to stan, a nie powtarzana czynność → tylko used to."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "would nie mówi o stanach. were used to to „byliśmy przyzwyczajeni” i po nim stoi rzeczownik albo -ing, nie V1. use to bez -d stoi tylko po did."
+          }
+        ]
+      },
+      {
+        "options": ["would", "was used to", "will", "is used to"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "every morning before school — czynność, która powtarzała się w tamtym okresie."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Dawny nawyk (czynność) → would + V1. Pasowałoby też used to, ale nie ma go wśród opcji."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "was used to i is used to znaczą „być przyzwyczajonym” i po nich stoi rzeczownik albo -ing, nie V1. will mówi o przyszłości."
+          }
+        ]
+      }
+    ],
+    "tags": ["modal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "mod-midnight-call-mum",
+    "type": "choice",
+    "text": "It's nearly midnight. You'd better ___ your mum and tell her where you are, or she'll start worrying.",
+    "gaps": [
+      {
+        "options": ["call", "to call", "calling", "called"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "You'd better = you had better, po nim stoi czasownik."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "had better + V1 bez to: you'd better call. Mimo had nie ma tu formy przeszłej (called) ani -ing."
+          }
+        ]
+      }
+    ],
+    "tags": ["modal-verbs"],
+    "difficulty": 1
+  },
+  {
+    "id": "mod-handouts-printed",
+    "type": "choice",
+    "text": "Mr Kowalski had already printed the handouts for the whole class, so I ___ them — I just picked them up from the staff room before the lesson.",
+    "gaps": [
+      {
+        "options": [
+          "needn't have printed",
+          "didn't need to print",
+          "mustn't print",
+          "shouldn't have printed"
+        ],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "I just picked them up — ja nic nie drukowałem, tylko odebrałem gotowe kartki."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Nie było potrzeby i tego nie zrobiłem → didn't need to + V1."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "needn't have printed i shouldn't have printed mówią, że drukowałem, a z kontekstu wynika, że nie. mustn't print to zakaz."
+          }
+        ]
+      }
+    ],
+    "tags": ["modal-verbs"],
+    "difficulty": 3
+  },
+  {
+    "id": "mod-museum-trip",
+    "type": "choice",
+    "title": "Museum trip",
+    "text": "Before our trip to Kraków, Ms Lis told us that we ___ bring our student ID cards, because the museum ___ refuse to let us in without them.",
+    "gaps": [
+      {
+        "options": ["must to", "had to", "has to", "should to"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "told us that — relacjonujesz polecenie z przeszłości (You must bring…)."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "must jako obowiązek w relacji → had to (może też zostać samo must). Po must i should nie stawiasz to."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "has to nie pasuje do we i nie cofa się w czasie."
+          }
+        ]
+      },
+      {
+        "options": ["may have", "might", "ought", "had better"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Pani Lis mówiła o możliwości: The museum may refuse…"
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "W relacji may → might + V1: might refuse."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Po may have potrzeba V3, a i tak mówiłoby o przeszłości. ought wymaga to, a had better to rada, której tu nikt muzeum nie daje."
+          }
+        ]
+      }
+    ],
+    "tags": ["modal-verbs", "reported-speech"],
+    "difficulty": 2
+  }
+]
