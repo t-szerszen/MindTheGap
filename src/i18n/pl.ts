@@ -408,7 +408,13 @@ export const pl = {
       'Słabe punkty liczę z poprzednich prób, a te zapisują się tylko po zalogowaniu.',
     weakEmpty: 'Nie ma jeszcze prób, więc na razie to zwykłe losowanie.',
     pick: 'Co ćwiczysz?',
-    groups: { tenses: 'Czasy', grammar: 'Gramatyka', vocabulary: 'Słownictwo', exam: 'Matura' },
+    groups: {
+      tenses: 'Czasy',
+      grammar: 'Gramatyka',
+      vocabulary: 'Słownictwo',
+      exam: 'Matura',
+      reading: 'Czytanie',
+    },
     all: 'wszystko',
     level: 'Poziom',
     levels: { 0: 'każdy', 1: 'łatwe', 2: 'średnie', 3: 'trudne' } as Record<number, string>,
@@ -587,6 +593,13 @@ export const pl = {
     },
     taskN: (n: number) => `Zadanie ${n}`,
     examTask: (n: number) => `Zadanie ${n}`,
+    // krótka nazwa w postępie i w „Ostatnio”: Czytanie · zad. 5
+    tagName: {
+      'reading-4': 'zad. 4',
+      'reading-5': 'zad. 5',
+      'reading-6': 'zad. 6',
+      reading: 'inne',
+    },
     itemRange: (from: string, to: string) => (from === to ? from : `${from}–${to}`),
     textN: (n: number) => `Tekst ${n}`,
     gapN: (n: number | string) => `luka ${n}`,

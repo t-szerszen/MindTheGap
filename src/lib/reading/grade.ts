@@ -4,6 +4,18 @@ import { checkLimited, type LimitCheck } from '../answers/words'
 // odpowiedzi do zestawu trzymam pod kluczem "t<zadanie>-<pozycja>", np. "t0-2"
 export const itemKey = (task: number, item: number) => `t${task}-${item}`
 
+// tag z typem zadania idzie do każdej próby: po nim postęp i „Ostatnio” wiedzą, że to czytanie
+export const readingTags = ['reading-4', 'reading-5', 'reading-6', 'reading'] as const
+export type ReadingTag = (typeof readingTags)[number]
+
+export function readingTag(set: Pick<ReadingSet, 'examTask'>): ReadingTag {
+  return set.examTask ? `reading-${set.examTask}` : 'reading'
+}
+
+export function attemptTags(set: Pick<ReadingSet, 'examTask' | 'tags'>) {
+  return [readingTag(set), ...(set.tags ?? [])]
+}
+
 export function itemCount(task: ReadingTask) {
   return task.kind === 'sentence-insert' ? task.answers.length : task.items.length
 }

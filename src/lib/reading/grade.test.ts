@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { ReadingSet } from '../../content/schema'
-import { gradeReading, itemKey } from './grade'
+import { attemptTags, gradeReading, itemKey } from './grade'
 
 const set: ReadingSet = {
   id: 'r1',
@@ -88,5 +88,13 @@ describe('gradeReading', () => {
     // 2026: bez limitu liczy się tylko treść
     expect(one(gap(), 'some white glue').ok).toBe(true)
     expect(one(gap(), 'glue').reason).toBe('wrong')
+  })
+
+  it('tag z numerem zadania idzie przed tagami gramatyki', () => {
+    expect(attemptTags({ examTask: 5, tags: ['relative-clauses'] })).toEqual([
+      'reading-5',
+      'relative-clauses',
+    ])
+    expect(attemptTags({})).toEqual(['reading'])
   })
 })

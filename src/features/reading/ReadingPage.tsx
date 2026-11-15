@@ -9,7 +9,13 @@ import { pl } from '../../i18n/pl'
 import { countWords } from '../../lib/answers/words'
 import { useReadingSets } from '../../lib/content'
 import { addAttempt } from '../../lib/db/attempts'
-import { gradeReading, itemCount, itemKey, type ReadingResult } from '../../lib/reading/grade'
+import {
+  attemptTags,
+  gradeReading,
+  itemCount,
+  itemKey,
+  type ReadingResult,
+} from '../../lib/reading/grade'
 import { splitBlanks } from '../../lib/exercises/gap'
 import { optionOrder } from '../../lib/exercises/order'
 import { useAuth } from '../auth/useAuth'
@@ -43,7 +49,7 @@ function Reading({ set }: { set: ReadingSet }) {
       for (const x of r)
         addAttempt(user.uid, {
           exerciseId: `${set.id}#${x.key}`,
-          tags: set.tags ?? [],
+          tags: attemptTags(set),
           correct: x.ok,
           answer: get(x.key),
         })

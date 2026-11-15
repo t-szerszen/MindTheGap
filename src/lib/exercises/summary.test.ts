@@ -7,6 +7,7 @@ const catalog: Record<string, TagInfo> = {
   'passive-voice': { area: 'grammar', name: 'Strona bierna' },
   'key-word-transformations': { area: 'exam', name: 'Zadanie 9' },
   collocations: { area: 'vocabulary', name: 'Kolokacje' },
+  'reading-5': { area: 'reading', name: 'zad. 5' },
 }
 
 const now = new Date(2026, 10, 15, 18, 0)
@@ -51,6 +52,17 @@ describe('summarizeRecent', () => {
     )
     expect(s.areas).toHaveLength(1)
     expect(s.areas[0]).toMatchObject({ area: 'exam', topic: { tag: 'key-word-transformations' } })
+  })
+
+  it('czytanie ma swój obszar, nawet z tagiem gramatycznym', () => {
+    const s = summarizeRecent(
+      [attempt(['reading-5', 'passive-voice'], true, at(0)), attempt(['reading-5'], false, at(0))],
+      [],
+      catalog,
+      now,
+    )
+    expect(s.areas).toHaveLength(1)
+    expect(s.areas[0]).toMatchObject({ area: 'reading', tasks: 2, topic: { name: 'zad. 5' } })
   })
 
   it('próba bez znanego tagu trafia do matury bez tematu', () => {

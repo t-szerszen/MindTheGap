@@ -13,6 +13,7 @@ import {
   type TagInfo,
   type WordsSummary,
 } from '../../lib/exercises/summary'
+import { readingTags } from '../../lib/reading/grade'
 import { dayKey } from '../../lib/streak'
 import { practiceGroup } from '../topics/hub'
 import { useAttempts } from '../exercises/useAttempts'
@@ -27,6 +28,7 @@ const areaColor: Record<ExerciseArea | 'words', NoteColor> = {
   grammar: 'm',
   vocabulary: 'p',
   exam: 'o',
+  reading: 'o',
   words: 'y',
 }
 
@@ -47,6 +49,7 @@ export function RecentActivity() {
     const c: Record<string, TagInfo> = {}
     for (const x of getTenses()) c[x.id] = { area: 'tenses', name: x.nameEn, en: true }
     for (const x of topics) c[x.id] = { area: practiceGroup(x.category), name: x.title_pl }
+    for (const tag of readingTags) c[tag] = { area: 'reading', name: pl.reading.tagName[tag] }
     return c
   }, [topics])
   const now = new Date()
@@ -82,7 +85,12 @@ export function RecentActivity() {
 function AreaRow({ s, now }: { s: AreaSummary<Attempt>; now: Date }) {
   const t = pl.home
   const exercises = useExercises()
-  const to = s.topic ? `/exercises?tags=${encodeURIComponent(s.topic.tag)}` : '/exercises'
+  const reading = s.area === 'reading'
+  const to = reading
+    ? '/reading'
+    : s.topic
+      ? `/exercises?tags=${encodeURIComponent(s.topic.tag)}`
+      : '/exercises'
   // próba z tekstu z lukami ma klucz luki, np. "cloze-1#3"
   const gaps = s.last.flatMap((a) => {
     const ex = exercises.find((e) => e.id === a.exerciseId.split('#')[0])
@@ -94,13 +102,16 @@ function AreaRow({ s, now }: { s: AreaSummary<Attempt>; now: Date }) {
       <Link to={to} className="recent-head">
         <span className="grow">
           <span className="recent-top">
-            <span className="hand recent-name">{pl.exercises.groups[s.area]}</span>
+            <span className="hand recent-name">
+              {pl.exercises.groups[s.area]}
+              {reading && s.topic && ` · ${s.topic.name}`}
+            </span>
             <span className="note ink recent-at">{when(s.lastAt, now)}</span>
           </span>
           <span className="small recent-stats">
             {t.recentTasks(s.tasks)} · {t.recentGood(Math.round((s.correct / s.tasks) * 100))}
           </span>
-          {s.topic && (
+          {s.topic && !reading && (
             <span className="note ink recent-topic">
               {t.recentTopic} <span lang={s.topic.en ? 'en' : undefined}>{s.topic.name}</span>
             </span>

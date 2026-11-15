@@ -1,5 +1,5 @@
-// te same grupy co w ćwiczeniach i postępie (practiceGroup w topics/hub)
-export type ExerciseArea = 'tenses' | 'grammar' | 'vocabulary' | 'exam'
+// te same grupy co w ćwiczeniach i postępie (practiceGroup w topics/hub), plus czytanie
+export type ExerciseArea = 'tenses' | 'grammar' | 'vocabulary' | 'exam' | 'reading'
 
 export type TagInfo = { area: ExerciseArea; name: string; en?: boolean }
 
@@ -35,9 +35,13 @@ export type RecentSummary<A extends AttemptIn = AttemptIn> = {
 export const RECENT_DAYS = 7
 const LAST_SHOWN = 3
 
-// zad. 9 ma też tag gramatyczny (np. passive-voice), ale ćwiczyło się maturę, więc ona wygrywa
+// zad. 9 i czytanie mają też tagi gramatyczne (np. passive-voice), ale ćwiczyło się maturę,
+// więc ona wygrywa
 function pickTag(tags: string[], catalog: Record<string, TagInfo>): string | undefined {
-  return tags.find((t) => catalog[t]?.area === 'exam') ?? tags.find((t) => catalog[t])
+  const area = (t: string) => catalog[t]?.area
+  return (
+    tags.find((t) => area(t) === 'exam' || area(t) === 'reading') ?? tags.find((t) => catalog[t])
+  )
 }
 
 const startOfDay = (d: Date) => new Date(d.getFullYear(), d.getMonth(), d.getDate())

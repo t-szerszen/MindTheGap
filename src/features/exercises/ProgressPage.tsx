@@ -6,6 +6,8 @@ import { Loading, NoteState } from '../../components/States'
 import { pl } from '../../i18n/pl'
 import { getTenses, useTopics } from '../../lib/content'
 import { tagAccuracy, tagStats } from '../../lib/exercises/session'
+import type { ExerciseArea } from '../../lib/exercises/summary'
+import { readingTags } from '../../lib/reading/grade'
 import { practiceGroup, practiceGroups } from '../topics/hub'
 import { useAttempts } from './useAttempts'
 
@@ -21,10 +23,16 @@ export function ProgressPage() {
       id: x.id,
       name: x.title_pl,
       en: false,
-      group: practiceGroup(x.category),
+      group: practiceGroup(x.category) as ExerciseArea,
+    })),
+    ...readingTags.map((id) => ({
+      id,
+      name: pl.reading.tagName[id],
+      en: false,
+      group: 'reading' as const,
     })),
   ].filter((r) => stats[r.id])
-  const sections = practiceGroups
+  const sections = [...practiceGroups, 'reading' as const]
     .map((g) => ({ id: g, rows: rows.filter((r) => r.group === g) }))
     .filter((g) => g.rows.length)
   const good = attempts.filter((a) => a.correct).length
