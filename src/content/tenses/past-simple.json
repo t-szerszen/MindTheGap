@@ -5,295 +5,374 @@
   "group": "past",
   "aspect": "simple",
   "tabLabel": ["Past", "Simple"],
-  "oneLiner_pl": "zakończone, wiemy kiedy",
+  "oneLiner_pl": "zakończone w czasie, który już minął: liczy się KIEDY, nie związek z teraz",
   "timeline": {
     "now": 0.65,
     "marks": [
-      {
-        "kind": "point",
-        "from": 0.3,
-        "label": "yesterday"
-      }
+      { "kind": "point", "from": 0.48, "label": "last Friday" },
+      { "kind": "repeat", "from": 0.05, "to": 0.3, "label": "every summer" }
     ]
   },
   "howToChoose": [
     {
       "step_pl": "sygnał",
-      "text_pl": "Widzisz yesterday, ago, last week, in 2020, when I was a child?"
+      "text_pl": "Szukasz konkretnego, zamkniętego momentu w przeszłości: yesterday, … ago, last week, in 2015, when I was a child. Albo pytania o moment: When…?, What time…?"
     },
     {
       "step_pl": "relacja w czasie",
-      "text_pl": "Czynność skończyła się w przeszłości i wiadomo (albo da się domyślić), kiedy. Nie ma związku z teraz."
+      "text_pl": "Czynność zaczęła się i skończyła w czasie, który już minął. Patrzysz na nią z tamtego momentu, a nie z perspektywy teraz — nawet jeśli jej skutek widać do dziś."
+    },
+    {
+      "step_pl": "pułapka",
+      "text_pl": "Po polsku „widziałem kiedyś” i „widziałem wczoraj” mają ten sam czas. Po angielsku, gdy nie ma konkretnego momentu, a są ever, never, so far albo okres, który jeszcze trwa (today, this week), to zwykle Present Perfect. A czynność w trakcie, tło dla czegoś innego, to Past Continuous."
     },
     {
       "step_pl": "forma",
-      "text_pl": "V2 albo -ed. Pytania i przeczenia: did + V1."
+      "text_pl": "Twierdzenie: V2 albo V1 + -ed, tak samo dla wszystkich osób. Przeczenie: didn't + V1. Pytanie: Did + podmiot + V1? Czas przeszły niesie did, więc czasownik wraca do V1."
     }
   ],
   "forms": {
     "active": {
       "affirmative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "V2 / -ed",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "V2 / -ed", "role": "verb" }
         ],
         "example": {
-          "en": "I saw Tom yesterday.",
-          "pl": "Widziałem wczoraj Toma."
-        }
+          "en": "We moved to Gdańsk two years ago.",
+          "pl": "Przeprowadziliśmy się do Gdańska dwa lata temu."
+        },
+        "note_pl": "Jedna forma dla wszystkich osób, bez -s. Regularne: V1 + -ed (work → worked). Pisownia: po -e dodajesz samo -d (live → lived), spółgłoska + y → -ied (study → studied), samogłoska + y → zwykłe -ed (play → played), a czasem ostatnia spółgłoska się podwaja (stop → stopped). Nieregularne trzeba znać (go → went, buy → bought). Tylko be ma dwie formy: was (I / he / she / it) i were (you / we / they). W brytyjskim angielskim poprawne są i learnt, i learned (tak samo dreamt / dreamed), w amerykańskim prawie zawsze -ed."
       },
       "negative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "did",
-            "role": "aux"
-          },
-          {
-            "text": "not",
-            "role": "particle"
-          },
-          {
-            "text": "V1",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "did", "role": "aux" },
+          { "text": "not", "role": "particle" },
+          { "text": "V1", "role": "verb" }
         ],
         "example": {
-          "en": "We didn't go out last night.",
-          "pl": "Nie wyszliśmy nigdzie wczoraj wieczorem."
-        }
+          "en": "We didn't go out last night — we were too tired.",
+          "pl": "Nie wyszliśmy wczoraj wieczorem — byliśmy zbyt zmęczeni."
+        },
+        "note_pl": "Czas przeszły niesie did, więc czasownik główny wraca do V1: didn't go, nie didn't went. Skrót: didn't. be nie potrzebuje did: I wasn't tired, They weren't at home."
       },
       "question": {
         "pattern": [
-          {
-            "text": "Did",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "V1",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Did", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "V1", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
         "example": {
           "en": "Did you watch the match last night?",
-          "pl": "Oglądałeś mecz wczoraj wieczorem?"
-        }
+          "pl": "Oglądałeś wczoraj wieczorem mecz?"
+        },
+        "note_pl": "Did staje przed podmiotem i przejmuje czas przeszły, a czasownik zostaje w V1: Did you go?, nie Did you went? Z be nie ma did, tylko przestawiasz was / were: Were you at home?"
       },
       "whQuestion": {
         "pattern": [
-          {
-            "text": "Wh-word",
-            "role": "neutral"
-          },
-          {
-            "text": "did",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "V1",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Wh-word", "role": "neutral" },
+          { "text": "did", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "V1", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
         "example": {
           "en": "Where did you spend your holidays?",
           "pl": "Gdzie spędziłeś wakacje?"
-        }
+        },
+        "note_pl": "Gdy pytasz o podmiot (Who? What?), nie ma did ani przestawienia, a czasownik stoi w V2: Who broke the window? What happened? Porównaj: Who did you call? — tu pytasz o dopełnienie (do kogo dzwoniłeś?), więc did wraca."
       }
     },
     "passive": {
       "affirmative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "was / were",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "was / were", "role": "aux" },
+          { "text": "V3", "role": "verb" }
         ],
         "example": {
-          "en": "The castle was built in the 14th century.",
-          "pl": "Zamek został zbudowany w XIV wieku."
-        }
+          "en": "This castle was built in the 14th century.",
+          "pl": "Ten zamek zbudowano w XIV wieku."
+        },
+        "note_pl": "Czas przeszły niesie was / were (Past Simple od be), a sens bierny daje V3. Wykonawcę dodajesz przez by, gdy jest ważny: Pan Tadeusz was written by Adam Mickiewicz."
       },
       "negative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "was / were",
-            "role": "aux"
-          },
-          {
-            "text": "not",
-            "role": "particle"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "was / were", "role": "aux" },
+          { "text": "not", "role": "particle" },
+          { "text": "V3", "role": "verb" }
         ],
         "example": {
-          "en": "The letter wasn't sent on time.",
-          "pl": "List nie został wysłany na czas."
-        }
+          "en": "We weren't told about the change of plans.",
+          "pl": "Nikt nam nie powiedział o zmianie planów."
+        },
+        "note_pl": "Przeczenie: wasn't / weren't + V3. W biernej nie ma did, bo pomocniczym jest już was / were."
       },
       "question": {
         "pattern": [
-          {
-            "text": "Was / Were",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Was / Were", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "V3", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
         "example": {
-          "en": "Were you invited to the party?",
-          "pl": "Czy zostałeś zaproszony na imprezę?"
-        }
+          "en": "Were you invited to Ola's party?",
+          "pl": "Zaprosili cię na imprezę Oli?"
+        },
+        "note_pl": "Pytanie robisz, stawiając was / were przed podmiotem."
       },
       "whQuestion": {
         "pattern": [
-          {
-            "text": "Wh-word",
-            "role": "neutral"
-          },
-          {
-            "text": "was / were",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Wh-word", "role": "neutral" },
+          { "text": "was / were", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "V3", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
         "example": {
           "en": "When was the telephone invented?",
           "pl": "Kiedy wynaleziono telefon?"
-        }
+        },
+        "note_pl": "Pytanie o podmiot idzie bez przestawienia: What was stolen? (Co zostało skradzione?)"
       }
     }
   },
   "uses": [
     {
-      "title_pl": "Zakończona czynność w określonym czasie",
-      "explanation_pl": "Wiesz, kiedy to było, i to już minęło.",
+      "title_pl": "Zakończona czynność w konkretnym momencie",
+      "explanation_pl": "Coś stało się i skończyło w czasie, który już minął, a ty mówisz kiedy (yesterday, two years ago, last summer, in 2015). Taki moment jest zamknięty i leży przed teraz. Present Perfect zawsze patrzy z perspektywy teraz, więc z podanym momentem w przeszłości go nie użyjesz — nawet jeśli skutek widać do dziś.",
       "examples": [
+        { "en": "The match started an hour ago.", "pl": "Mecz zaczął się godzinę temu." },
+        { "en": "I saw Ola at the station yesterday.", "pl": "Widziałem wczoraj Olę na dworcu." },
         {
-          "en": "We moved to Kraków two years ago.",
-          "pl": "Przeprowadziliśmy się do Krakowa dwa lata temu."
+          "en": "My sister passed her driving test in 2015.",
+          "pl": "Moja siostra zdała egzamin na prawo jazdy w 2015 roku."
         }
       ]
     },
     {
-      "title_pl": "Seria wydarzeń w opowiadaniu",
-      "explanation_pl": "Czynności po kolei, jedna za drugą.",
+      "title_pl": "Pytanie o moment i szczegóły zdarzenia",
+      "explanation_pl": "When…? i What time…? pytają o moment, a moment wyklucza Present Perfect — więc pytanie idzie w Past Simple (wyjątek to retoryczne When have I ever lied to you? = przecież nigdy cię nie okłamałem). Tak samo, gdy dopytujesz o szczegóły konkretnego zdarzenia (gdzie, jak, z kim): nowinę można podać w Present Perfect, ale szczegóły dotyczą już tamtej chwili.",
+      "examples": [
+        { "en": "When did you get your driving licence?", "pl": "Kiedy zrobiłeś prawo jazdy?" },
+        { "en": "What time did the film finish?", "pl": "O której skończył się film?" },
+        {
+          "en": "Ola has broken her leg. — Oh no! How did it happen?",
+          "pl": "Ola złamała nogę. — O nie! Jak to się stało?"
+        }
+      ]
+    },
+    {
+      "title_pl": "Kolejne kroki w opowieści",
+      "explanation_pl": "Opowiadasz wydarzenia po kolei: każde zaczyna się, gdy poprzednie już się skończyło. W wyliczance (…, … and …) kolejność w zdaniu = kolejność w czasie. Przy when / after / before kolejność pokazuje spójnik, nie szyk: We stopped talking when the teacher came in — nauczycielka weszła pierwsza. W obu przypadkach wystarcza sam Past Simple. Past Perfect bierzesz dopiero wtedy, gdy cofasz się do czegoś jeszcze wcześniejszego, a Past Continuous — gdy opisujesz tło, które trwało.",
       "examples": [
         {
           "en": "She opened the door, turned on the light and screamed.",
           "pl": "Otworzyła drzwi, zapaliła światło i krzyknęła."
+        },
+        {
+          "en": "When the teacher came in, we stopped talking.",
+          "pl": "Kiedy weszła nauczycielka, przestaliśmy rozmawiać."
+        },
+        {
+          "en": "I got up, had a quick shower and ran to the bus stop.",
+          "pl": "Wstałem, wziąłem szybki prysznic i pobiegłem na przystanek."
+        }
+      ]
+    },
+    {
+      "title_pl": "Dawne zwyczaje i stany (też used to i would)",
+      "explanation_pl": "Past Simple opisuje też coś, co powtarzało się albo trwało w zamkniętym okresie przeszłości. Sam nie mówi, czy dziś jest inaczej. Zamiast niego możesz użyć used to + V1 — pasuje i do zwyczajów, i do stanów, i dodaje wyraźnie: kiedyś tak było, teraz już nie. would + V1 pasuje tylko do czynności, które się powtarzały (would go, would play), a nie do stanów, które po prostu trwały (have w sensie „mieć”, live, know, like). would zwykle pojawia się dopiero wtedy, gdy przeszły kontekst jest już jasny (When I was a child…, dalsza część opowieści), bo samo brzmi jak tryb warunkowy. Gdy podajesz, ile razy albo jak długo (three times, for ten years), zostaje zwykły Past Simple. Przeczenie i pytanie: didn't use to, Did you use to…? — po did bez -d.",
+      "examples": [
+        {
+          "en": "When we lived in the countryside, I walked to school every day.",
+          "pl": "Kiedy mieszkaliśmy na wsi, codziennie chodziłem do szkoły pieszo."
+        },
+        {
+          "en": "I used to hate vegetables, but now I love them.",
+          "pl": "Kiedyś nie znosiłem warzyw, a teraz je uwielbiam."
+        },
+        {
+          "en": "Every Sunday my grandad would take us fishing on the lake.",
+          "pl": "W każdą niedzielę dziadek zabierał nas na ryby nad jezioro."
+        }
+      ]
+    },
+    {
+      "title_pl": "Zamknięty okres bez słowa-sygnału",
+      "explanation_pl": "Sygnału może nie być w zdaniu, a i tak wiadomo, że okres się zamknął: osoba nie żyje, coś już nie istnieje, wydarzenie się skończyło. Liczy się, czy okres trwa jeszcze w chwili mówienia. this morning powiedziane po południu to już zamknięta przeszłość, więc Past Simple. Rano, gdy poranek trwa, zwykle mówisz w Present Perfect — chyba że myślisz o konkretnej, zakończonej chwili (I got up at six this morning).",
+      "examples": [
+        {
+          "en": "Chopin wrote most of his music for the piano.",
+          "pl": "Chopin napisał większość swoich utworów na fortepian."
+        },
+        {
+          "en": "My great-grandfather worked as a miner in Silesia.",
+          "pl": "Mój pradziadek pracował jako górnik na Śląsku."
+        },
+        {
+          "en": "Did you see Kuba this morning?",
+          "pl": "Widziałeś dziś rano Kubę? (pytanie zadane po południu — poranek już minął)"
+        }
+      ]
+    },
+    {
+      "title_pl": "Forma przeszła, ale nie przeszłość",
+      "explanation_pl": "Po I wish, If only, It's (high) time + podmiot, I'd rather + ktoś inny i w zdaniu z if w drugim trybie warunkowym forma Past Simple nie mówi o przeszłości, tylko o sytuacji teraz (albo w przyszłości), która jest nierealna albo tylko pożądana — przeszła forma robi dystans od rzeczywistości. Bez podmiotu po It's time jest to + V1: It's time to go. Gdy narzekasz na czyjeś zachowanie i chcesz, żeby się zmieniło, po I wish zwykle jest would: I wish you would stop. Przy be z I / he / she / it (If she were / was…, I wish I were / was…) oba są poprawne: were brzmi bardziej formalnie, was — potocznie. W tekście formalnym wybierz were, a w radzie If I were you… pisz were zawsze.",
+      "examples": [
+        { "en": "I wish I had more free time.", "pl": "Szkoda, że nie mam więcej wolnego czasu." },
+        { "en": "It's time we went home.", "pl": "Najwyższy czas, żebyśmy poszli do domu." },
+        {
+          "en": "If I knew her number, I would call her.",
+          "pl": "Gdybym znał jej numer, zadzwoniłbym do niej."
         }
       ]
     }
   ],
   "signalWords": [
+    { "word": "yesterday", "note_pl": "wczoraj; też the day before yesterday (przedwczoraj)" },
     {
-      "word": "yesterday"
+      "word": "ago",
+      "note_pl": "„temu”: liczysz wstecz od teraz, więc moment jest konkretny. Stoi PO okresie: two days ago"
     },
     {
-      "word": "last week"
+      "word": "last night / last week / last summer",
+      "note_pl": "ostatni, już zamknięty okres. Uwaga: for the last two years (= aż do teraz) to sygnał Present Perfect"
     },
     {
-      "word": "ago"
+      "word": "in 2015",
+      "note_pl": "rok, data albo epoka z przeszłości: in 2015, on 3 May, in the 1990s"
     },
     {
-      "word": "in 2020"
+      "word": "when I was…",
+      "note_pl": "okres życia, który się skończył: when I was a child / ten / at school"
     },
     {
-      "word": "when"
+      "word": "When…? / What time…?",
+      "note_pl": "pytanie o moment w przeszłości → Past Simple, nie Present Perfect: When did you arrive? Uwaga: when jako spójnik („kiedy”) nie przesądza o czasie drugiej części zdania: When she came home, I cooked / was cooking / had already cooked dinner. Decyduje kolejność zdarzeń"
+    },
+    { "word": "the other day", "note_pl": "parę dni temu — konkretne, niedawne zdarzenie" },
+    {
+      "word": "then / after that",
+      "note_pl": "potem — kolejny krok opowieści. Uwaga: since then (od tamtej pory) to sygnał Present Perfect, a by then (do tamtej pory) — czasów perfect, np. Past Perfect"
     },
     {
-      "word": "then"
+      "word": "in those days",
+      "note_pl": "w tamtych czasach — dawne stany i zwyczaje (często z used to)"
+    },
+    {
+      "word": "just now",
+      "note_pl": "przed chwilą: I saw her just now. W brytyjskim just now znaczy też „w tej chwili” i wtedy idzie z czasem teraźniejszym (I'm a bit busy just now) — to już nie sygnał Past Simple. Samo just (właśnie) to w brytyjskim angielskim sygnał Present Perfect"
+    },
+    {
+      "word": "this morning",
+      "note_pl": "Past Simple, gdy poranek już minął (np. po południu). Rano, gdy poranek trwa, zwykle Present Perfect (I've had two coffees this morning) — ale konkretna, zakończona chwila i tak idzie w Past Simple: I got up at six this morning"
     }
   ],
   "relatedTenses": [
     {
       "id": "present-perfect",
-      "relation_pl": "Past Simple — konkretny, zamknięty moment. Present Perfect — moment nieważny, liczy się związek z teraz.",
+      "relation_pl": "Pytanie kontrolne: czy jest (w zdaniu albo w głowie mówiącego) konkretny, zamknięty moment? Jest → Past Simple. Nie ma, a liczy się skutek, doświadczenie albo okres trwający do teraz → Present Perfect. Uwaga na amerykański angielski: z just, already i yet często słychać tam Past Simple (Did you eat yet?, I just saw him). W brytyjskim jest tu Present Perfect (Have you eaten yet?, I've just seen him) i tę wersję traktuj jako domyślną — jest poprawna w obu odmianach.",
       "contrast": [
         {
-          "en": "I saw this film last weekend.",
-          "pl": "Widziałem ten film w zeszły weekend."
+          "en": "I lost my keys yesterday.",
+          "pl": "Zgubiłem wczoraj klucze (moment podany — może już się znalazły)."
+        },
+        { "en": "I've lost my keys.", "pl": "Zgubiłem klucze (i nadal ich nie mam)." },
+        {
+          "en": "She worked here for five years.",
+          "pl": "Pracowała tu przez pięć lat (już tu nie pracuje)."
         },
         {
-          "en": "I've seen this film.",
-          "pl": "Widziałem ten film (kiedyś)."
+          "en": "She has worked here for five years.",
+          "pl": "Pracuje tu od pięciu lat (i dalej pracuje)."
         }
       ]
     },
     {
       "id": "past-continuous",
-      "relation_pl": "Past Simple to krótka, zakończona czynność, Past Continuous — tło, które wtedy trwało."
+      "relation_pl": "Past Simple to całe, zakończone zdarzenie — kolejny krok opowieści. Past Continuous to czynność w trakcie, tło, które trwało, gdy stało się coś innego. Typowy układ: długie tło w Continuous, krótkie zdarzenie, które je przerywa, w Simple. Dwa Past Simple przy when znaczą, że jedno stało się po drugim.",
+      "contrast": [
+        {
+          "en": "When she came home, I cooked dinner.",
+          "pl": "Kiedy wróciła do domu, ugotowałem obiad (najpierw przyszła, potem gotowałem)."
+        },
+        {
+          "en": "When she came home, I was cooking dinner.",
+          "pl": "Kiedy wróciła do domu, gotowałem obiad (byłem w trakcie)."
+        }
+      ]
+    },
+    {
+      "id": "past-perfect",
+      "relation_pl": "Gdy opowiadasz po kolei, wystarcza Past Simple. Past Perfect bierzesz, gdy cofasz się do czegoś, co stało się WCZEŚNIEJ niż inny moment w przeszłości, i ta kolejność jest ważna. Po after i before kolejność widać już ze spójnika, więc Past Simple zwykle wystarczy: After she left, I went to bed.",
+      "contrast": [
+        {
+          "en": "When we got to the cinema, the film started.",
+          "pl": "Kiedy dotarliśmy do kina, zaczął się film (najpierw my, potem film)."
+        },
+        {
+          "en": "When we got to the cinema, the film had already started.",
+          "pl": "Kiedy dotarliśmy do kina, film już trwał (najpierw film, potem my)."
+        }
+      ]
     }
   ],
   "commonMistakes": [
     {
-      "wrong": "Did you saw her?",
-      "right": "Did you see her?",
-      "why_pl": "Po did czasownik wraca do V1."
+      "wrong": "Did you went to the party?",
+      "right": "Did you go to the party?",
+      "why_pl": "Przeszłość zaznaczasz tylko raz: did już ją niesie, więc czasownik wraca do V1. To samo w przeczeniu: didn't go, nie didn't went."
+    },
+    {
+      "wrong": "I have seen him two days ago.",
+      "right": "I saw him two days ago.",
+      "why_pl": "ago to konkretny moment liczony od teraz → Past Simple. Present Perfect nie łączy się z ago, yesterday, last week ani in 2015."
+    },
+    {
+      "wrong": "When have you arrived?",
+      "right": "When did you arrive?",
+      "why_pl": "When pyta o moment, a moment w przeszłości wyklucza Present Perfect."
+    },
+    {
+      "wrong": "I met her before two years.",
+      "right": "I met her two years ago.",
+      "why_pl": "„Dwa lata temu” liczysz od teraz → ago, zawsze PO okresie. Polskie „przed dwoma laty” podsuwa before, ale two years before znaczy „dwa lata wcześniej” niż inny moment w przeszłości (He said he had met her two years before). Nie myl też z for: for two years = przez dwa lata (jak długo?)."
+    },
+    {
+      "wrong": "Why you didn't tell me?",
+      "right": "Why didn't you tell me?",
+      "why_pl": "Po polsku wystarczy słowo pytające i zwykły szyk („Dlaczego mi nie powiedziałeś?”). Po angielsku potrzebujesz Wh-word + did + podmiot + V1. n't jest przyklejone do did, więc didn't też idzie przed podmiot. Tak samo Where did you go?, nie Where you went?"
+    },
+    {
+      "wrong": "Who did break the window?",
+      "right": "Who broke the window?",
+      "why_pl": "Pytasz o podmiot (kto zbił?), więc nie ma did ani przestawienia: Who + V2. Who did you meet? to inne pytanie — o dopełnienie (kogo spotkałeś?). Who did break…? brzmi jak mocne podkreślenie, a nie zwykłe pytanie."
+    },
+    {
+      "wrong": "When I was a child, I would have a dog.",
+      "right": "When I was a child, I had a dog.",
+      "why_pl": "would opisuje tylko powtarzane czynności. have (mieć) to stan, więc zostaje Past Simple albo used to have."
+    },
+    {
+      "wrong": "I'm used to get up early.",
+      "right": "I'm used to getting up early.",
+      "why_pl": "be used to (być przyzwyczajonym) to inna konstrukcja niż used to (kiedyś) i nie jest czasem przeszłym. Po niej idzie V-ing albo rzeczownik, a be odmieniasz normalnie (I'm / I was / I'll be used to). get used to + V-ing = przyzwyczajać się. Zwykłe used to + V1 mówi tylko o przeszłości: I used to get up early (kiedyś wstawałem wcześnie)."
+    },
+    {
+      "wrong": "The bus stoped outside the school.",
+      "right": "The bus stopped outside the school.",
+      "why_pl": "Gdy wyraz kończy się układem spółgłoska + jedna samogłoska + spółgłoska, a akcent pada na ostatnią sylabę (albo wyraz ma jedną sylabę), ostatnia spółgłoska się podwaja: stop → stopped, prefer → preferred. Ale visit → visited (akcent na początku), a w, x, y nigdy się nie podwajają: fix → fixed. W brytyjskim końcowe l po jednej samogłosce zwykle podwaja się nawet bez akcentu: travel → travelled, cancel → cancelled (w amerykańskim: traveled, canceled)."
     }
   ],
   "maturaTips_pl": [
-    "Historię (np. w wypowiedzi pisemnej) prowadzisz w Past Simple, a tło w Past Continuous."
+    "Sygnał bywa na samym końcu zdania albo w drugim zdaniu (… two years ago, … when I was at primary school). Przeczytaj wszystko, zanim wpiszesz have / has.",
+    "Cztery wersje tego samego w transformacjach: I last saw him two years ago. = The last time I saw him was two years ago. = It's two years since I last saw him. = I haven't seen him for two years.",
+    "Transformacje z used to: She doesn't play the piano any more. = She used to play the piano. W przeczeniu i pytaniu bez -d: didn't use to, Did you use to…?",
+    "Pytania o podmiot to częsta pułapka przy tłumaczeniu fragmentów zdań: „Kto ci to powiedział?” = Who told you that? — bez did.",
+    "W opowiadaniu (np. e-mail o tym, co ci się przydarzyło) akcję prowadź w Past Simple, tło w Past Continuous, a cofnięcia do wcześniejszych zdarzeń w Past Perfect."
   ]
 }
