@@ -34,6 +34,8 @@
   --note-m: #d2f3e0;
   --note-b: #d7e8ff;
   --note-o: #ffe0bf;
+  --note-l: #e8ddf5;
+  --note-k: #ebd7b8;
 
   --tape-p: rgba(240, 128, 170, 0.5);
   --tape-m: rgba(92, 190, 152, 0.5);
@@ -177,6 +179,8 @@
   --note-m: #244238;
   --note-b: #273a52;
   --note-o: #4a3424;
+  --note-l: #3a3150;
+  --note-k: #45392b;
   --tape-p: rgba(255, 128, 184, 0.3);
   --tape-m: rgba(96, 222, 170, 0.28);
   --tape-y: rgba(242, 212, 70, 0.3);
@@ -232,6 +236,8 @@
     --note-m: #244238;
     --note-b: #273a52;
     --note-o: #4a3424;
+    --note-l: #3a3150;
+    --note-k: #45392b;
     --tape-p: rgba(255, 128, 184, 0.3);
     --tape-m: rgba(96, 222, 170, 0.28);
     --tape-y: rgba(242, 212, 70, 0.3);
