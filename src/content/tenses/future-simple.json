@@ -1,0 +1,322 @@
+{
+  "id": "future-simple",
+  "order": 9,
+  "nameEn": "Future Simple (will)",
+  "group": "future",
+  "aspect": "simple",
+  "tabLabel": ["Fut.", "will"],
+  "oneLiner_pl": "decyzja teraz, opinia, obietnica",
+  "timeline": {
+    "now": 0.45,
+    "marks": [
+      {
+        "kind": "point",
+        "from": 0.76,
+        "label": "tomorrow"
+      }
+    ]
+  },
+  "howToChoose": [
+    {
+      "step_pl": "sygnał",
+      "text_pl": "Widzisz I think, probably, I'm sure, perhaps — albo decyzję podjętą w chwili mówienia?"
+    },
+    {
+      "step_pl": "relacja w czasie",
+      "text_pl": "Przyszłość jako opinia, przewidywanie bez dowodów, obietnica albo nagła decyzja."
+    },
+    {
+      "step_pl": "forma",
+      "text_pl": "will + V1: I'll call you tomorrow."
+    }
+  ],
+  "forms": {
+    "active": {
+      "affirmative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "will",
+            "role": "aux"
+          },
+          {
+            "text": "V1",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "I think it will rain tomorrow.",
+          "pl": "Myślę, że jutro będzie padać."
+        }
+      },
+      "negative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "will",
+            "role": "aux"
+          },
+          {
+            "text": "not",
+            "role": "particle"
+          },
+          {
+            "text": "V1",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "She won't tell anyone.",
+          "pl": "Ona nikomu nie powie."
+        },
+        "note_pl": "will not = won't"
+      },
+      "question": {
+        "pattern": [
+          {
+            "text": "Will",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "V1",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "Will you help me with this?",
+          "pl": "Pomożesz mi z tym?"
+        }
+      },
+      "whQuestion": {
+        "pattern": [
+          {
+            "text": "Wh-word",
+            "role": "neutral"
+          },
+          {
+            "text": "will",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "V1",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "What will you do after the exam?",
+          "pl": "Co będziesz robić po egzaminie?"
+        }
+      }
+    },
+    "passive": {
+      "affirmative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "will be",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "The results will be announced in July.",
+          "pl": "Wyniki zostaną ogłoszone w lipcu."
+        }
+      },
+      "negative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "will",
+            "role": "aux"
+          },
+          {
+            "text": "not",
+            "role": "particle"
+          },
+          {
+            "text": "be",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "The match won't be shown on TV.",
+          "pl": "Mecz nie będzie pokazywany w telewizji."
+        }
+      },
+      "question": {
+        "pattern": [
+          {
+            "text": "Will",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "be",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "Will the meeting be held online?",
+          "pl": "Czy spotkanie odbędzie się online?"
+        }
+      },
+      "whQuestion": {
+        "pattern": [
+          {
+            "text": "Wh-word",
+            "role": "neutral"
+          },
+          {
+            "text": "will",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "be",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "When will the new stadium be opened?",
+          "pl": "Kiedy zostanie otwarty nowy stadion?"
+        }
+      }
+    }
+  },
+  "uses": [
+    {
+      "title_pl": "Decyzja w chwili mówienia",
+      "explanation_pl": "Postanawiasz coś właśnie teraz, w reakcji na sytuację.",
+      "examples": [
+        {
+          "en": "The phone's ringing — I'll get it!",
+          "pl": "Telefon dzwoni — odbiorę!"
+        }
+      ]
+    },
+    {
+      "title_pl": "Przewidywanie (opinia)",
+      "explanation_pl": "Myślisz, że tak będzie, ale nie masz twardych dowodów.",
+      "examples": [
+        {
+          "en": "I'm sure you'll pass the exam.",
+          "pl": "Jestem pewien, że zdasz egzamin."
+        }
+      ]
+    },
+    {
+      "title_pl": "Obietnice i propozycje",
+      "explanation_pl": "Obiecujesz albo proponujesz pomoc.",
+      "examples": [
+        {
+          "en": "Don't worry, I'll help you.",
+          "pl": "Nie martw się, pomogę ci."
+        }
+      ]
+    }
+  ],
+  "signalWords": [
+    {
+      "word": "tomorrow"
+    },
+    {
+      "word": "next year"
+    },
+    {
+      "word": "I think"
+    },
+    {
+      "word": "probably"
+    },
+    {
+      "word": "I'm sure"
+    },
+    {
+      "word": "perhaps"
+    }
+  ],
+  "relatedTenses": [
+    {
+      "id": "be-going-to",
+      "relation_pl": "will — opinia albo decyzja teraz. be going to — dowód widoczny teraz albo wcześniejszy zamiar.",
+      "contrast": [
+        {
+          "en": "Look at those clouds! It's going to rain.",
+          "pl": "Spójrz na te chmury! Będzie padać (dowód teraz)."
+        },
+        {
+          "en": "I think it will rain tomorrow.",
+          "pl": "Myślę, że jutro będzie padać (opinia)."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I will call you when I will get home.",
+      "right": "I'll call you when I get home.",
+      "why_pl": "Po when, if, as soon as, before i after (gdy mowa o przyszłości) używamy Present Simple, nie will."
+    }
+  ],
+  "maturaTips_pl": [
+    "Pamiętaj o zdaniach czasowych: when / as soon as / until + Present Simple, choć mówimy o przyszłości."
+  ]
+}

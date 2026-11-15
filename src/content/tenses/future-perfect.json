@@ -1,0 +1,303 @@
+{
+  "id": "future-perfect",
+  "order": 12,
+  "nameEn": "Future Perfect",
+  "group": "future",
+  "aspect": "perfect",
+  "tabLabel": ["Fut.", "Perf."],
+  "oneLiner_pl": "gotowe przed jakimś momentem w przyszłości",
+  "timeline": {
+    "now": 0.45,
+    "marks": [
+      {
+        "kind": "point",
+        "from": 0.66,
+        "label": "done"
+      },
+      {
+        "kind": "point",
+        "from": 0.88,
+        "label": "by June"
+      }
+    ]
+  },
+  "howToChoose": [
+    {
+      "step_pl": "sygnał",
+      "text_pl": "Widzisz by June, by the time, by the end of, by then?"
+    },
+    {
+      "step_pl": "relacja w czasie",
+      "text_pl": "Czynność będzie ZAKOŃCZONA przed konkretnym momentem w przyszłości."
+    },
+    {
+      "step_pl": "forma",
+      "text_pl": "will have + V3: I'll have finished."
+    }
+  ],
+  "forms": {
+    "active": {
+      "affirmative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "will have",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "By June I'll have finished school.",
+          "pl": "Do czerwca skończę szkołę."
+        }
+      },
+      "negative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "will",
+            "role": "aux"
+          },
+          {
+            "text": "not",
+            "role": "particle"
+          },
+          {
+            "text": "have",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "They won't have finished the bridge by 2030.",
+          "pl": "Nie skończą mostu do 2030 roku."
+        }
+      },
+      "question": {
+        "pattern": [
+          {
+            "text": "Will",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "have",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "Will you have read the book by Friday?",
+          "pl": "Przeczytasz tę książkę do piątku?"
+        }
+      },
+      "whQuestion": {
+        "pattern": [
+          {
+            "text": "Wh-word",
+            "role": "neutral"
+          },
+          {
+            "text": "will",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "have",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "How much will you have saved by the end of the year?",
+          "pl": "Ile odłożysz do końca roku?"
+        }
+      }
+    },
+    "passive": {
+      "affirmative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "will have been",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "The new library will have been opened by September.",
+          "pl": "Nowa biblioteka zostanie otwarta do września."
+        }
+      },
+      "negative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "will",
+            "role": "aux"
+          },
+          {
+            "text": "not",
+            "role": "particle"
+          },
+          {
+            "text": "have been",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "The results won't have been published by then.",
+          "pl": "Wyniki nie zostaną do tego czasu opublikowane."
+        }
+      },
+      "question": {
+        "pattern": [
+          {
+            "text": "Will",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "have been",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "Will the house have been sold by the summer?",
+          "pl": "Czy dom zostanie sprzedany do lata?"
+        }
+      },
+      "whQuestion": {
+        "pattern": [
+          {
+            "text": "Wh-word",
+            "role": "neutral"
+          },
+          {
+            "text": "will",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "have been",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "How many trees will have been planted by 2030?",
+          "pl": "Ile drzew zostanie posadzonych do 2030 roku?"
+        }
+      }
+    }
+  },
+  "uses": [
+    {
+      "title_pl": "Gotowe przed momentem w przyszłości",
+      "explanation_pl": "Patrzysz z przyszłości wstecz: do tego czasu będzie już zrobione.",
+      "examples": [
+        {
+          "en": "By the time you get home, I'll have cooked dinner.",
+          "pl": "Zanim wrócisz do domu, ugotuję obiad."
+        }
+      ]
+    }
+  ],
+  "signalWords": [
+    {
+      "word": "by June"
+    },
+    {
+      "word": "by the time"
+    },
+    {
+      "word": "by the end of"
+    },
+    {
+      "word": "by then"
+    },
+    {
+      "word": "before"
+    }
+  ],
+  "relatedTenses": [
+    {
+      "id": "future-continuous",
+      "relation_pl": "Perfect — gotowe przed tym momentem. Continuous — w tym momencie w trakcie."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "By the time you will arrive, I'll have left.",
+      "right": "By the time you arrive, I'll have left.",
+      "why_pl": "Po by the time (gdy mowa o przyszłości) Present Simple, nie will."
+    }
+  ],
+  "maturaTips_pl": []
+}

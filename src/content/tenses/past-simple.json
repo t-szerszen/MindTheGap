@@ -1,0 +1,299 @@
+{
+  "id": "past-simple",
+  "order": 5,
+  "nameEn": "Past Simple",
+  "group": "past",
+  "aspect": "simple",
+  "tabLabel": ["Past", "Simple"],
+  "oneLiner_pl": "zakończone, wiemy kiedy",
+  "timeline": {
+    "now": 0.65,
+    "marks": [
+      {
+        "kind": "point",
+        "from": 0.3,
+        "label": "yesterday"
+      }
+    ]
+  },
+  "howToChoose": [
+    {
+      "step_pl": "sygnał",
+      "text_pl": "Widzisz yesterday, ago, last week, in 2020, when I was a child?"
+    },
+    {
+      "step_pl": "relacja w czasie",
+      "text_pl": "Czynność skończyła się w przeszłości i wiadomo (albo da się domyślić), kiedy. Nie ma związku z teraz."
+    },
+    {
+      "step_pl": "forma",
+      "text_pl": "V2 albo -ed. Pytania i przeczenia: did + V1."
+    }
+  ],
+  "forms": {
+    "active": {
+      "affirmative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "V2 / -ed",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "I saw Tom yesterday.",
+          "pl": "Widziałem wczoraj Toma."
+        }
+      },
+      "negative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "did",
+            "role": "aux"
+          },
+          {
+            "text": "not",
+            "role": "particle"
+          },
+          {
+            "text": "V1",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "We didn't go out last night.",
+          "pl": "Nie wyszliśmy nigdzie wczoraj wieczorem."
+        }
+      },
+      "question": {
+        "pattern": [
+          {
+            "text": "Did",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "V1",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "Did you watch the match last night?",
+          "pl": "Oglądałeś mecz wczoraj wieczorem?"
+        }
+      },
+      "whQuestion": {
+        "pattern": [
+          {
+            "text": "Wh-word",
+            "role": "neutral"
+          },
+          {
+            "text": "did",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "V1",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "Where did you spend your holidays?",
+          "pl": "Gdzie spędziłeś wakacje?"
+        }
+      }
+    },
+    "passive": {
+      "affirmative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "was / were",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "The castle was built in the 14th century.",
+          "pl": "Zamek został zbudowany w XIV wieku."
+        }
+      },
+      "negative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "was / were",
+            "role": "aux"
+          },
+          {
+            "text": "not",
+            "role": "particle"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "The letter wasn't sent on time.",
+          "pl": "List nie został wysłany na czas."
+        }
+      },
+      "question": {
+        "pattern": [
+          {
+            "text": "Was / Were",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "Were you invited to the party?",
+          "pl": "Czy zostałeś zaproszony na imprezę?"
+        }
+      },
+      "whQuestion": {
+        "pattern": [
+          {
+            "text": "Wh-word",
+            "role": "neutral"
+          },
+          {
+            "text": "was / were",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "When was the telephone invented?",
+          "pl": "Kiedy wynaleziono telefon?"
+        }
+      }
+    }
+  },
+  "uses": [
+    {
+      "title_pl": "Zakończona czynność w określonym czasie",
+      "explanation_pl": "Wiesz, kiedy to było, i to już minęło.",
+      "examples": [
+        {
+          "en": "We moved to Kraków two years ago.",
+          "pl": "Przeprowadziliśmy się do Krakowa dwa lata temu."
+        }
+      ]
+    },
+    {
+      "title_pl": "Seria wydarzeń w opowiadaniu",
+      "explanation_pl": "Czynności po kolei, jedna za drugą.",
+      "examples": [
+        {
+          "en": "She opened the door, turned on the light and screamed.",
+          "pl": "Otworzyła drzwi, zapaliła światło i krzyknęła."
+        }
+      ]
+    }
+  ],
+  "signalWords": [
+    {
+      "word": "yesterday"
+    },
+    {
+      "word": "last week"
+    },
+    {
+      "word": "ago"
+    },
+    {
+      "word": "in 2020"
+    },
+    {
+      "word": "when"
+    },
+    {
+      "word": "then"
+    }
+  ],
+  "relatedTenses": [
+    {
+      "id": "present-perfect",
+      "relation_pl": "Past Simple — konkretny, zamknięty moment. Present Perfect — moment nieważny, liczy się związek z teraz.",
+      "contrast": [
+        {
+          "en": "I saw this film last weekend.",
+          "pl": "Widziałem ten film w zeszły weekend."
+        },
+        {
+          "en": "I've seen this film.",
+          "pl": "Widziałem ten film (kiedyś)."
+        }
+      ]
+    },
+    {
+      "id": "past-continuous",
+      "relation_pl": "Past Simple to krótka, zakończona czynność, Past Continuous — tło, które wtedy trwało."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Did you saw her?",
+      "right": "Did you see her?",
+      "why_pl": "Po did czasownik wraca do V1."
+    }
+  ],
+  "maturaTips_pl": [
+    "Historię (np. w wypowiedzi pisemnej) prowadzisz w Past Simple, a tło w Past Continuous."
+  ]
+}

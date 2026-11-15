@@ -1,0 +1,6 @@
+name = "mind-the-gap-translate"
+main = "src/index.ts"
+compatibility_date = "2026-11-01"
+
+# DEEPL_API_KEY i ALLOWED_ORIGIN ustawiam przez `wrangler secret put`,
+# lokalnie w worker/.dev.vars (nie idzie do repo)

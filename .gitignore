@@ -13,5 +13,5 @@ coverage
 .notes/
 
 worker/node_modules
-worker/.wrangler
-worker/.dev.vars
+.wrangler
+.dev.vars

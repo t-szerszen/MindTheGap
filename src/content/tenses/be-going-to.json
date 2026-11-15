@@ -1,0 +1,327 @@
+{
+  "id": "be-going-to",
+  "order": 10,
+  "nameEn": "be going to",
+  "group": "future",
+  "aspect": "simple",
+  "tabLabel": ["going", "to"],
+  "oneLiner_pl": "zamiar albo dowód widoczny teraz",
+  "timeline": {
+    "now": 0.45,
+    "marks": [
+      {
+        "kind": "point",
+        "from": 0.45,
+        "label": "evidence / plan"
+      },
+      {
+        "kind": "point",
+        "from": 0.8,
+        "label": "it happens"
+      }
+    ]
+  },
+  "howToChoose": [
+    {
+      "step_pl": "sygnał",
+      "text_pl": "Widzisz dowód TERAZ (Look!, Look at those clouds!) albo plan, o którym ktoś już zdecydował?"
+    },
+    {
+      "step_pl": "relacja w czasie",
+      "text_pl": "Teraźniejszość prowadzi do przyszłości: zamiar już istnieje albo skutek widać gołym okiem."
+    },
+    {
+      "step_pl": "forma",
+      "text_pl": "am / is / are going to + V1: It's going to rain."
+    }
+  ],
+  "forms": {
+    "active": {
+      "affirmative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "am / is / are going to",
+            "role": "aux"
+          },
+          {
+            "text": "V1",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "I'm going to learn to drive.",
+          "pl": "Zamierzam nauczyć się prowadzić samochód."
+        }
+      },
+      "negative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "am / is / are",
+            "role": "aux"
+          },
+          {
+            "text": "not",
+            "role": "particle"
+          },
+          {
+            "text": "going to",
+            "role": "aux"
+          },
+          {
+            "text": "V1",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "We aren't going to buy a new car.",
+          "pl": "Nie zamierzamy kupować nowego samochodu."
+        }
+      },
+      "question": {
+        "pattern": [
+          {
+            "text": "Am / Is / Are",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "going to",
+            "role": "aux"
+          },
+          {
+            "text": "V1",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "Are you going to take the extended exam?",
+          "pl": "Zamierzasz zdawać rozszerzenie?"
+        }
+      },
+      "whQuestion": {
+        "pattern": [
+          {
+            "text": "Wh-word",
+            "role": "neutral"
+          },
+          {
+            "text": "am / is / are",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "going to",
+            "role": "aux"
+          },
+          {
+            "text": "V1",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "What are you going to study?",
+          "pl": "Co zamierzasz studiować?"
+        }
+      }
+    },
+    "passive": {
+      "affirmative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "am / is / are going to be",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "The old cinema is going to be turned into a shopping centre.",
+          "pl": "Stare kino zostanie przerobione na centrum handlowe."
+        }
+      },
+      "negative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "am / is / are",
+            "role": "aux"
+          },
+          {
+            "text": "not",
+            "role": "particle"
+          },
+          {
+            "text": "going to be",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "The road isn't going to be finished before winter.",
+          "pl": "Droga nie zostanie skończona przed zimą."
+        }
+      },
+      "question": {
+        "pattern": [
+          {
+            "text": "Am / Is / Are",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "going to be",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "Is the concert going to be recorded?",
+          "pl": "Czy koncert będzie nagrywany?"
+        }
+      },
+      "whQuestion": {
+        "pattern": [
+          {
+            "text": "Wh-word",
+            "role": "neutral"
+          },
+          {
+            "text": "am / is / are",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "going to be",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "Where is the new school going to be built?",
+          "pl": "Gdzie zostanie zbudowana nowa szkoła?"
+        }
+      }
+    }
+  },
+  "uses": [
+    {
+      "title_pl": "Zamiar (decyzja podjęta wcześniej)",
+      "explanation_pl": "Postanowiłeś to już wcześniej, teraz tylko o tym mówisz.",
+      "examples": [
+        {
+          "en": "I've decided — I'm going to apply to a university in Wrocław.",
+          "pl": "Zdecydowałem — złożę papiery na uczelnię we Wrocławiu."
+        }
+      ]
+    },
+    {
+      "title_pl": "Przewidywanie na podstawie dowodu",
+      "explanation_pl": "Widzisz coś teraz i wiesz, co się zaraz stanie.",
+      "examples": [
+        {
+          "en": "Look at those clouds! It's going to rain.",
+          "pl": "Spójrz na te chmury! Będzie padać."
+        }
+      ]
+    }
+  ],
+  "signalWords": [
+    {
+      "word": "Look!"
+    },
+    {
+      "word": "I've decided"
+    },
+    {
+      "word": "tonight"
+    },
+    {
+      "word": "next week"
+    },
+    {
+      "word": "soon"
+    }
+  ],
+  "relatedTenses": [
+    {
+      "id": "future-simple",
+      "relation_pl": "be going to — zamiar albo dowód. will — opinia albo decyzja w chwili mówienia."
+    },
+    {
+      "id": "present-continuous",
+      "relation_pl": "Present Continuous — gdy plan jest już umówiony (z kimś, na konkretny termin).",
+      "contrast": [
+        {
+          "en": "I'm going to see a dentist about my tooth.",
+          "pl": "Zamierzam pójść z tym zębem do dentysty."
+        },
+        {
+          "en": "I'm seeing the dentist at four tomorrow.",
+          "pl": "Jutro o czwartej mam wizytę u dentysty."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Look! The glass will fall!",
+      "right": "Look! The glass is going to fall!",
+      "why_pl": "Widać dowód teraz (szklanka na krawędzi) → be going to, nie will."
+    }
+  ],
+  "maturaTips_pl": []
+}

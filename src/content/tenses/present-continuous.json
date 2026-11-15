@@ -1,0 +1,332 @@
+{
+  "id": "present-continuous",
+  "order": 2,
+  "nameEn": "Present Continuous",
+  "group": "present",
+  "aspect": "continuous",
+  "tabLabel": ["Pres.", "Cont."],
+  "oneLiner_pl": "dzieje się teraz albo tymczasowo",
+  "timeline": {
+    "now": 0.65,
+    "marks": [
+      {
+        "kind": "span",
+        "from": 0.5,
+        "to": 0.8,
+        "label": "around now"
+      }
+    ]
+  },
+  "howToChoose": [
+    {
+      "step_pl": "sygnał",
+      "text_pl": "Widzisz now, at the moment, Look!, Listen!, this week, these days?"
+    },
+    {
+      "step_pl": "relacja w czasie",
+      "text_pl": "Czynność trwa w tej chwili albo tymczasowo — zaczęła się i jeszcze się nie skończyła."
+    },
+    {
+      "step_pl": "forma",
+      "text_pl": "am / is / are + V-ing: It is raining."
+    }
+  ],
+  "forms": {
+    "active": {
+      "affirmative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "am / is / are",
+            "role": "aux"
+          },
+          {
+            "text": "V-ing",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "Look! It's snowing.",
+          "pl": "Patrz! Pada śnieg."
+        }
+      },
+      "negative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "am / is / are",
+            "role": "aux"
+          },
+          {
+            "text": "not",
+            "role": "particle"
+          },
+          {
+            "text": "V-ing",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "I'm not watching TV — you can turn it off.",
+          "pl": "Nie oglądam telewizji — możesz ją wyłączyć."
+        }
+      },
+      "question": {
+        "pattern": [
+          {
+            "text": "Am / Is / Are",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "V-ing",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "Are you listening to me?",
+          "pl": "Słuchasz mnie?"
+        }
+      },
+      "whQuestion": {
+        "pattern": [
+          {
+            "text": "Wh-word",
+            "role": "neutral"
+          },
+          {
+            "text": "am / is / are",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "V-ing",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "What are you doing tonight?",
+          "pl": "Co robisz dziś wieczorem?"
+        }
+      }
+    },
+    "passive": {
+      "affirmative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "am / is / are being",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "The road is being repaired.",
+          "pl": "Droga jest (właśnie) remontowana."
+        }
+      },
+      "negative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "am / is / are",
+            "role": "aux"
+          },
+          {
+            "text": "not",
+            "role": "particle"
+          },
+          {
+            "text": "being",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "The museum isn't being renovated at the moment.",
+          "pl": "Muzeum nie jest teraz remontowane."
+        }
+      },
+      "question": {
+        "pattern": [
+          {
+            "text": "Am / Is / Are",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "being",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "Is the room being cleaned now?",
+          "pl": "Czy pokój jest teraz sprzątany?"
+        }
+      },
+      "whQuestion": {
+        "pattern": [
+          {
+            "text": "Wh-word",
+            "role": "neutral"
+          },
+          {
+            "text": "am / is / are",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "being",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "Why are the trees being cut down?",
+          "pl": "Dlaczego te drzewa są wycinane?"
+        }
+      }
+    }
+  },
+  "uses": [
+    {
+      "title_pl": "Teraz, w trakcie",
+      "explanation_pl": "Czynność trwa w chwili mówienia.",
+      "examples": [
+        {
+          "en": "Be quiet — the baby is sleeping.",
+          "pl": "Cicho — dziecko śpi."
+        }
+      ]
+    },
+    {
+      "title_pl": "Sytuacja tymczasowa",
+      "explanation_pl": "Coś trwa przez jakiś czas, ale nie na stałe.",
+      "examples": [
+        {
+          "en": "I'm staying with my aunt this week.",
+          "pl": "W tym tygodniu mieszkam u cioci."
+        }
+      ]
+    },
+    {
+      "title_pl": "Umówione plany",
+      "explanation_pl": "Plan jest już ustalony z kimś i na konkretny termin.",
+      "examples": [
+        {
+          "en": "We're meeting Ola tonight.",
+          "pl": "Spotykamy się z Olą dziś wieczorem."
+        }
+      ]
+    }
+  ],
+  "signalWords": [
+    {
+      "word": "now"
+    },
+    {
+      "word": "right now"
+    },
+    {
+      "word": "at the moment"
+    },
+    {
+      "word": "currently"
+    },
+    {
+      "word": "Look!"
+    },
+    {
+      "word": "Listen!"
+    },
+    {
+      "word": "this week"
+    },
+    {
+      "word": "these days"
+    },
+    {
+      "word": "tonight",
+      "note_pl": "przy umówionych planach"
+    }
+  ],
+  "relatedTenses": [
+    {
+      "id": "present-simple",
+      "relation_pl": "Continuous — teraz albo tymczasowo. Simple — stale albo regularnie.",
+      "contrast": [
+        {
+          "en": "I'm taking the bus this week.",
+          "pl": "W tym tygodniu jeżdżę autobusem."
+        },
+        {
+          "en": "I usually walk to school.",
+          "pl": "Zwykle chodzę do szkoły pieszo."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I am knowing the answer.",
+      "right": "I know the answer.",
+      "why_pl": "know to czasownik stanu — nie ma formy ciągłej."
+    }
+  ],
+  "maturaTips_pl": [
+    "Czasowniki stanu (know, like, want, believe, belong) prawie zawsze zostają w Simple, nawet przy now."
+  ]
+}

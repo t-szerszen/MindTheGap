@@ -1,0 +1,319 @@
+{
+  "id": "present-simple",
+  "order": 1,
+  "nameEn": "Present Simple",
+  "group": "present",
+  "aspect": "simple",
+  "tabLabel": ["Pres.", "Simple"],
+  "oneLiner_pl": "stałe, powtarzalne i zawsze prawdziwe",
+  "timeline": {
+    "now": 0.65,
+    "marks": [
+      {
+        "kind": "repeat",
+        "from": 0.08,
+        "to": 0.94,
+        "label": "every day"
+      }
+    ]
+  },
+  "howToChoose": [
+    {
+      "step_pl": "sygnał",
+      "text_pl": "Widzisz always, usually, often, every day, on Mondays — albo zdanie jest faktem, który zawsze jest prawdziwy?"
+    },
+    {
+      "step_pl": "relacja w czasie",
+      "text_pl": "Czynność powtarza się regularnie albo jest stała — nie dzieje się tylko w tej chwili."
+    },
+    {
+      "step_pl": "forma",
+      "text_pl": "V1, a przy he / she / it dodajesz -s. Pytania i przeczenia z do / does."
+    }
+  ],
+  "forms": {
+    "active": {
+      "affirmative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "V1 (+ -s)",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "She usually gets up at six.",
+          "pl": "Ona zwykle wstaje o szóstej."
+        },
+        "note_pl": "he / she / it → -s albo -es: works, watches, goes."
+      },
+      "negative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "do / does",
+            "role": "aux"
+          },
+          {
+            "text": "not",
+            "role": "particle"
+          },
+          {
+            "text": "V1",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "He doesn't eat meat.",
+          "pl": "On nie je mięsa."
+        },
+        "note_pl": "Po does czasownik wraca do V1 — -s jest już w does."
+      },
+      "question": {
+        "pattern": [
+          {
+            "text": "Do / Does",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "V1",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "Does she speak Spanish?",
+          "pl": "Czy ona mówi po hiszpańsku?"
+        }
+      },
+      "whQuestion": {
+        "pattern": [
+          {
+            "text": "Wh-word",
+            "role": "neutral"
+          },
+          {
+            "text": "do / does",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "V1",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "Where do you live?",
+          "pl": "Gdzie mieszkasz?"
+        }
+      }
+    },
+    "passive": {
+      "affirmative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "am / is / are",
+            "role": "aux"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "English is spoken all over the world.",
+          "pl": "Po angielsku mówi się na całym świecie."
+        }
+      },
+      "negative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "am / is / are",
+            "role": "aux"
+          },
+          {
+            "text": "not",
+            "role": "particle"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "Cars aren't produced in this factory any more.",
+          "pl": "W tej fabryce nie produkuje się już samochodów."
+        }
+      },
+      "question": {
+        "pattern": [
+          {
+            "text": "Am / Is / Are",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "Is breakfast included in the price?",
+          "pl": "Czy śniadanie jest wliczone w cenę?"
+        }
+      },
+      "whQuestion": {
+        "pattern": [
+          {
+            "text": "Wh-word",
+            "role": "neutral"
+          },
+          {
+            "text": "am / is / are",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "V3",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "How is paper made?",
+          "pl": "Jak robi się papier?"
+        }
+      }
+    }
+  },
+  "uses": [
+    {
+      "title_pl": "Nawyki i rutyna",
+      "explanation_pl": "Rzeczy, które robisz regularnie. Słowa-sygnały mówią, jak często.",
+      "examples": [
+        {
+          "en": "I go to the gym twice a week.",
+          "pl": "Chodzę na siłownię dwa razy w tygodniu."
+        }
+      ]
+    },
+    {
+      "title_pl": "Fakty i prawdy ogólne",
+      "explanation_pl": "To, co jest prawdą zawsze, niezależnie od chwili mówienia.",
+      "examples": [
+        {
+          "en": "Water boils at 100 degrees Celsius.",
+          "pl": "Woda wrze w temperaturze 100 stopni Celsjusza."
+        }
+      ]
+    },
+    {
+      "title_pl": "Rozkłady jazdy i programy",
+      "explanation_pl": "Ustalony, oficjalny plan — nawet jeśli dotyczy przyszłości.",
+      "examples": [
+        {
+          "en": "The train leaves at 6.15 tomorrow.",
+          "pl": "Pociąg odjeżdża jutro o 6.15."
+        }
+      ]
+    }
+  ],
+  "signalWords": [
+    {
+      "word": "always"
+    },
+    {
+      "word": "usually"
+    },
+    {
+      "word": "often"
+    },
+    {
+      "word": "sometimes"
+    },
+    {
+      "word": "never"
+    },
+    {
+      "word": "every day"
+    },
+    {
+      "word": "on Mondays"
+    },
+    {
+      "word": "once a week"
+    }
+  ],
+  "relatedTenses": [
+    {
+      "id": "present-continuous",
+      "relation_pl": "Simple — stale albo regularnie. Continuous — teraz albo tymczasowo.",
+      "contrast": [
+        {
+          "en": "I usually walk to school.",
+          "pl": "Zwykle chodzę do szkoły pieszo."
+        },
+        {
+          "en": "I'm taking the bus this week.",
+          "pl": "W tym tygodniu jeżdżę autobusem."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "She work in a bank.",
+      "right": "She works in a bank.",
+      "why_pl": "he / she / it → końcówka -s."
+    },
+    {
+      "wrong": "Does he plays tennis?",
+      "right": "Does he play tennis?",
+      "why_pl": "-s jest już w does, czasownik zostaje w V1."
+    }
+  ],
+  "maturaTips_pl": [
+    "W lukach z he / she / it pilnuj końcówki -s — to najprostszy punkt do stracenia."
+  ]
+}

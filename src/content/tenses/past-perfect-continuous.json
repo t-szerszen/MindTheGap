@@ -1,0 +1,210 @@
+{
+  "id": "past-perfect-continuous",
+  "order": 8,
+  "nameEn": "Past Perfect Continuous",
+  "group": "past",
+  "aspect": "perfect-continuous",
+  "tabLabel": ["Past", "Perf. C."],
+  "oneLiner_pl": "trwało aż do jakiegoś momentu w przeszłości",
+  "timeline": {
+    "now": 0.65,
+    "marks": [
+      {
+        "kind": "span",
+        "from": 0.08,
+        "to": 0.4,
+        "label": "had been doing"
+      },
+      {
+        "kind": "point",
+        "from": 0.4,
+        "label": "then"
+      }
+    ]
+  },
+  "howToChoose": [
+    {
+      "step_pl": "sygnał",
+      "text_pl": "Widzisz for, since albo how long w opowieści o przeszłości i drugą czynność w Past Simple?"
+    },
+    {
+      "step_pl": "relacja w czasie",
+      "text_pl": "Czynność trwała przez jakiś czas aż do innego momentu w przeszłości. Liczy się, jak długo."
+    },
+    {
+      "step_pl": "forma",
+      "text_pl": "had been + V-ing: We had been walking for hours."
+    }
+  ],
+  "forms": {
+    "active": {
+      "affirmative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "had been",
+            "role": "aux"
+          },
+          {
+            "text": "V-ing",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "She had been working there for ten years when the company closed.",
+          "pl": "Pracowała tam od dziesięciu lat, kiedy firmę zamknięto."
+        }
+      },
+      "negative": {
+        "pattern": [
+          {
+            "text": "Subject",
+            "role": "subject"
+          },
+          {
+            "text": "had",
+            "role": "aux"
+          },
+          {
+            "text": "not",
+            "role": "particle"
+          },
+          {
+            "text": "been",
+            "role": "aux"
+          },
+          {
+            "text": "V-ing",
+            "role": "verb"
+          }
+        ],
+        "example": {
+          "en": "I hadn't been sleeping well, so I was tired.",
+          "pl": "Nie spałem dobrze, więc byłem zmęczony."
+        }
+      },
+      "question": {
+        "pattern": [
+          {
+            "text": "Had",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "been",
+            "role": "aux"
+          },
+          {
+            "text": "V-ing",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "Had you been waiting long when the bus came?",
+          "pl": "Długo czekałeś, zanim przyjechał autobus?"
+        }
+      },
+      "whQuestion": {
+        "pattern": [
+          {
+            "text": "Wh-word",
+            "role": "neutral"
+          },
+          {
+            "text": "had",
+            "role": "aux"
+          },
+          {
+            "text": "subject",
+            "role": "subject"
+          },
+          {
+            "text": "been",
+            "role": "aux"
+          },
+          {
+            "text": "V-ing",
+            "role": "verb"
+          },
+          {
+            "text": "?",
+            "role": "neutral"
+          }
+        ],
+        "example": {
+          "en": "How long had they been dating before they got married?",
+          "pl": "Jak długo się spotykali, zanim wzięli ślub?"
+        }
+      }
+    },
+    "passive": null,
+    "passiveNote_pl": "Strona bierna (had been being + V3) jest tak rzadka, że jej nie używamy. Wystarczy Past Perfect w stronie biernej: had been + V3."
+  },
+  "uses": [
+    {
+      "title_pl": "Trwało aż do momentu w przeszłości",
+      "explanation_pl": "Długa czynność doprowadziła do innej chwili w przeszłości.",
+      "examples": [
+        {
+          "en": "We had been walking for three hours when it started to rain.",
+          "pl": "Szliśmy już od trzech godzin, kiedy zaczęło padać."
+        }
+      ]
+    },
+    {
+      "title_pl": "Widoczny skutek w przeszłości",
+      "explanation_pl": "Wtedy było widać ślady wcześniejszej czynności.",
+      "examples": [
+        {
+          "en": "Her eyes were red because she had been crying.",
+          "pl": "Miała czerwone oczy, bo płakała."
+        }
+      ]
+    }
+  ],
+  "signalWords": [
+    {
+      "word": "for"
+    },
+    {
+      "word": "since"
+    },
+    {
+      "word": "how long"
+    },
+    {
+      "word": "all day"
+    },
+    {
+      "word": "when"
+    }
+  ],
+  "relatedTenses": [
+    {
+      "id": "past-perfect",
+      "relation_pl": "Past Perfect — co było gotowe wcześniej. Continuous — jak długo coś trwało do tamtej chwili."
+    },
+    {
+      "id": "present-perfect-continuous",
+      "relation_pl": "Ten sam czas trwania, tylko liczony do momentu w przeszłości, a nie do teraz."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I had been knowing her for years.",
+      "right": "I had known her for years.",
+      "why_pl": "know to czasownik stanu, więc bez formy ciągłej."
+    }
+  ],
+  "maturaTips_pl": []
+}
