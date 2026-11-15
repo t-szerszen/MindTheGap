@@ -103,7 +103,7 @@ function Run({
     <div className="sheet ruled page-in session exam">
       <div className="measure stack session-in">
         <header className="stack" style={{ gap: 2 }}>
-          <Link className="link-pen back" to="/exam">
+          <Link className="link-pen back-link" to="/exam">
             <Icon name="back" size="s" />
             {t.back}
           </Link>

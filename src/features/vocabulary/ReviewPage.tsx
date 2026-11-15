@@ -8,6 +8,7 @@ import { Loading, NoteState } from '../../components/States'
 import { pl } from '../../i18n/pl'
 import { saveReview } from '../../lib/db/words'
 import { dueCards, leeches, nextDue, review } from '../../lib/srs'
+import { DRAG_START_PX, swipeAnswer, swipeProgress } from '../../lib/swipe'
 import { englishSide, polishSide } from '../../lib/vocab'
 import { useAuth } from '../auth/useAuth'
 import { useWords } from './useWords'
@@ -15,7 +16,6 @@ import { WordStats } from './WordStats'
 
 type Dir = 'pl-en' | 'en-pl'
 const DIR_KEY = 'mtg-review-dir'
-const SWIPE_PX = 90
 
 function savedDir(): Dir {
   try {
@@ -45,7 +45,8 @@ export function ReviewPage() {
   const [known, setKnown] = useState(0)
   const [again, setAgain] = useState(0)
   const [dx, setDx] = useState(0)
-  const drag = useRef<{ x: number; moved: boolean } | null>(null)
+  const [width, setWidth] = useState(1)
+  const drag = useRef<{ x: number; id: number; moved: boolean } | null>(null)
   const t = pl.review
 
   const byId = useMemo(() => new Map(words.map((w) => [w.id, w])), [words])
@@ -90,20 +91,37 @@ export function ReviewPage() {
     return () => window.removeEventListener('keydown', onKey)
   })
 
-  function onDown(e: PointerEvent) {
-    drag.current = { x: e.clientX, moved: false }
+  function onDown(e: PointerEvent<HTMLButtonElement>) {
+    if (e.button !== 0) return
+    drag.current = { x: e.clientX, id: e.pointerId, moved: false }
+    setWidth(e.currentTarget.offsetWidth)
   }
-  function onMove(e: PointerEvent) {
-    if (!drag.current || !flipped) return
-    const d = e.clientX - drag.current.x
-    if (Math.abs(d) > 8) drag.current.moved = true
-    setDx(d)
+  function onMove(e: PointerEvent<HTMLButtonElement>) {
+    const d = drag.current
+    if (!d || d.id !== e.pointerId || !flipped) return
+    const delta = e.clientX - d.x
+    if (!d.moved) {
+      if (Math.abs(delta) < DRAG_START_PX) return
+      d.moved = true
+      // palec może zjechać poza kartę, a ruch dalej ma się liczyć
+      e.currentTarget.setPointerCapture(e.pointerId)
+    }
+    setDx(delta)
   }
-  function onUp() {
+  function onUp(e: PointerEvent<HTMLButtonElement>) {
+    const d = drag.current
+    if (!d || d.id !== e.pointerId) return
     // flagę „moved” czyta jeszcze onClick, więc czyścimy ją dopiero po nim
     setTimeout(() => (drag.current = null))
-    if (flipped && Math.abs(dx) > SWIPE_PX) answer(dx > 0)
-    else setDx(0)
+    if (!d.moved) return
+    const knew = swipeAnswer(e.clientX - d.x, width)
+    if (knew === null) setDx(0)
+    else answer(knew)
+  }
+  function onCancel() {
+    // przeglądarka zabrała gest (np. przewijanie w pionie)
+    drag.current = null
+    setDx(0)
   }
 
   if (!user) return null
@@ -165,7 +183,7 @@ export function ReviewPage() {
                 <button
                   key={card.id + dir}
                   type="button"
-                  className={`flip${flipped ? ' on' : ''}`}
+                  className={`flip${flipped ? ' on' : ''}${dx ? ' dragging' : ''}`}
                   aria-label={flipped ? t.flipBack : t.flipFront}
                   onClick={() => {
                     if (!drag.current?.moved) setFlipped(!flipped)
@@ -173,11 +191,20 @@ export function ReviewPage() {
                   onPointerDown={onDown}
                   onPointerMove={onMove}
                   onPointerUp={onUp}
-                  onPointerCancel={() => setDx(0)}
+                  onPointerCancel={onCancel}
                   style={{
-                    transform: dx ? `translateX(${dx}px) rotate(${dx / 30}deg)` : undefined,
+                    transform: dx ? `translateX(${dx}px) rotate(${dx / 25}deg)` : undefined,
                   }}
                 >
+                  {dx !== 0 && (
+                    <span
+                      aria-hidden="true"
+                      className={`swipe-stamp ${dx > 0 ? 'knew' : 'didnt'}`}
+                      style={{ opacity: Math.abs(swipeProgress(dx, width)) }}
+                    >
+                      {dx > 0 ? t.knew : t.didnt}
+                    </span>
+                  )}
                   <span className="flip-in">
                     <span className="face index-card review-face">
                       <span className="row" style={{ justifyContent: 'space-between', height: 32 }}>
