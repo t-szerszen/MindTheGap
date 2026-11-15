@@ -1,11 +1,11 @@
 import { Suspense } from 'react'
 import { Link, Outlet, useLocation } from 'react-router'
 import { pl } from '../i18n/pl'
-import { setPrefs, systemIsDark, usePrefs } from '../features/settings/prefs'
 import { Icon, type IconName } from './Icon'
 import { Hl } from './Ink'
 import { Grain } from './Paper'
 import { Loading } from './States'
+import { ThemePill } from './ThemePill'
 
 type Section = {
   id: string
@@ -56,8 +56,6 @@ function currentSection(pathname: string) {
 export function Shell() {
   const { pathname } = useLocation()
   const active = currentSection(pathname)
-  const { theme } = usePrefs()
-  const dark = theme === 'dark' || (theme === 'system' && systemIsDark())
 
   return (
     <div className="app desk">
@@ -79,14 +77,7 @@ export function Shell() {
           ))}
         </nav>
         <div className="row" style={{ gap: 4, paddingBottom: 4 }}>
-          <button
-            type="button"
-            className="ibtn"
-            aria-label={pl.theme.switchTo(dark ? pl.theme.dark : pl.theme.light)}
-            onClick={() => setPrefs({ theme: dark ? 'light' : 'dark' })}
-          >
-            <Icon name={dark ? 'sun' : 'moon'} />
-          </button>
+          <ThemePill />
           <Link className="ibtn" to="/settings" aria-label={pl.nav.settings}>
             <Icon name="gear" />
           </Link>

@@ -38,7 +38,8 @@ export const pl = {
     light: 'Jasny',
     dark: 'Ciemny',
     system: 'Systemowy',
-    switchTo: (name: string) => `Przełącz motyw, teraz: ${name}`,
+    toLight: 'Motyw ciemny — przełącz na jasny',
+    toDark: 'Motyw jasny — przełącz na ciemny',
   },
   home: {
     notebook: 'Zeszyt',
