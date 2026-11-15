@@ -1,7 +1,7 @@
 import { Link } from 'react-router'
 import { pl } from '../../i18n/pl'
 
-// tylko na telefonie: tam czasy i zagadnienia dzielą jedną przekładkę na dole
+// czasy i zagadnienia dzielą jedną przekładkę „Gramatyka”
 export function GrammarSubnav({ current }: { current: 'tenses' | 'grammar' }) {
   const t = pl.grammar.subnav
   return (
