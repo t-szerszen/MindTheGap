@@ -398,6 +398,14 @@
 .grammar-tabs::-webkit-scrollbar {
   display: none;
 }
+.gr-subnav {
+  margin-bottom: 16px;
+}
+@media (min-width: 760px) {
+  .gr-subnav {
+    display: none;
+  }
+}
 .gr-head {
   display: flex;
   flex-direction: column;

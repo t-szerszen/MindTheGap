@@ -2,6 +2,7 @@ import { Link } from 'react-router'
 import { Scribble } from '../../components/Ink'
 import { pl } from '../../i18n/pl'
 import { getTenses } from '../../lib/content'
+import { GrammarSubnav } from '../grammar/GrammarSubnav'
 import { TenseTabs } from './TenseTabs'
 
 const groups = ['present', 'past', 'future'] as const
@@ -13,6 +14,7 @@ export function TensesIndexPage() {
   return (
     <div className="tense-wrap">
       <div className="sheet ruled page-in tense-sheet">
+        <GrammarSubnav current="tenses" />
         <p className="eyebrow">{t.title}</p>
         <h1 className="h-l">{t.indexTitle}</h1>
         <Scribble width={170} />

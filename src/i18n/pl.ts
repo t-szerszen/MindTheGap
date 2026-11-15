@@ -226,6 +226,7 @@ export const pl = {
   grammar: {
     title: 'Gramatyka',
     indexTitle: 'Spis zagadnień',
+    subnav: { label: 'Gramatyka — dział', tenses: 'Czasy', grammar: 'Zagadnienia' },
     eyebrow: (group: string, n: number, total: number) => `Gramatyka › ${group} · ${n} / ${total}`,
     groups: { sentences: 'zdania', verbs: 'czasowniki', words: 'słowa' },
     soonTab: (label: string) => `${label} — wkrótce`,

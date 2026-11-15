@@ -10,6 +10,7 @@ import { Timeline } from '../../components/Timeline'
 import { pl } from '../../i18n/pl'
 import { getTense, getTenses, useExercises } from '../../lib/content'
 import { signalPhrases } from '../../lib/text/signals'
+import { GrammarSubnav } from '../grammar/GrammarSubnav'
 import { ExampleLine } from './ExampleLine'
 import { FormsSection } from './FormsSection'
 import { TenseTabs } from './TenseTabs'
@@ -29,6 +30,7 @@ export function TensePage() {
   return (
     <div className="tense-wrap">
       <article className="sheet ruled page-in tense-sheet">
+        <GrammarSubnav current="tenses" />
         <header className="stack" style={{ gap: 2 }}>
           <p className="eyebrow">{t.eyebrow(index + 1, all.length, t.groups[tense.group])}</p>
           <h1 className="h-xl tense-title" lang="en">

@@ -9,6 +9,7 @@ import type { GrammarTab, GrammarTopic, Topic } from '../../content/schema'
 import { pl } from '../../i18n/pl'
 import { useExercises, useGrammarTabs, useGrammarTopics, useTopics } from '../../lib/content'
 import { BlockView } from '../topics/BlockView'
+import { GrammarSubnav } from './GrammarSubnav'
 import { GrammarTabs } from './GrammarTabs'
 import { SubtypeView } from './SubtypeView'
 
@@ -33,6 +34,7 @@ export function GrammarPage() {
   return (
     <div className="tense-wrap">
       <article className="sheet ruled page-in tense-sheet">
+        <GrammarSubnav current="grammar" />
         <header className="gr-head">
           <div className="stack" style={{ gap: 2 }}>
             <p className="eyebrow">{head.eyebrow}</p>
