@@ -1,0 +1,462 @@
+[
+  {
+    "id": "phv-give-up",
+    "type": "choice",
+    "text": "My grandfather ___ smoking when he was fifty and has felt much better ever since.",
+    "gaps": [
+      {
+        "options": ["gave in", "gave off", "gave up", "gave out"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "give up sth = rzucić nałóg, przestać coś robić. Po luce jest smoking, czyli nałóg, który dziadek rzucił."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "give in to ustąpić, ulec. give off to wydzielać (zapach, ciepło). give out to rozdawać albo odmówić posłuszeństwa. Żadne nie pasuje do smoking."
+          }
+        ]
+      }
+    ],
+    "tags": ["phrasal-verbs"],
+    "difficulty": 1
+  },
+  {
+    "id": "phv-look-forward",
+    "type": "choice",
+    "text": "I'm really ___ to seeing you at the weekend.",
+    "gaps": [
+      {
+        "options": ["looking after", "looking forward", "looking up", "looking out"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "look forward to sth / doing sth = nie móc się czegoś doczekać. Po luce jest to + -ing, a to właśnie wzór tego czasownika."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "look after to opiekować się, look up to sprawdzić coś albo poprawiać się, look out to uważać. Żaden nie łączy się z to seeing."
+          }
+        ]
+      }
+    ],
+    "tags": ["phrasal-verbs"],
+    "difficulty": 1
+  },
+  {
+    "id": "phv-put-up-with",
+    "type": "choice",
+    "text": "I don't know how she ___ with all that noise from the flat upstairs.",
+    "gaps": [
+      {
+        "options": ["puts off", "puts down", "puts on", "puts up"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "put up with sth = znosić, tolerować coś. Hałas od sąsiadów to coś, co się znosi, a po luce stoi with."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "put off, put down i put on nie łączą się z with. Każdy z nich znaczy coś innego: przełożyć, odłożyć, założyć."
+          }
+        ]
+      }
+    ],
+    "tags": ["phrasal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "phv-run-out",
+    "type": "choice",
+    "text": "We'll have to stop at the next petrol station because we're running ___ of fuel.",
+    "gaps": [
+      {
+        "options": ["out", "off", "away", "down"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "run out of sth = zabraknąć czegoś. Kończy się paliwo, więc trzeba zatankować. Po luce jest of."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "run off i run away to uciec. run down to rozładować się, ale nie łączy się z of fuel."
+          }
+        ]
+      }
+    ],
+    "tags": ["phrasal-verbs"],
+    "difficulty": 1
+  },
+  {
+    "id": "phv-turn-down",
+    "type": "choice",
+    "text": "She was offered a job in London, but she turned it ___ because she did not want to leave her family.",
+    "gaps": [
+      {
+        "options": ["up", "off", "out", "down"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "turn sth down = odrzucić (ofertę, zaproszenie). Nie chciała zostawić rodziny, więc odmówiła. Zaimek it stoi w środku, bo to czasownik rozdzielny."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "turn it up to podgłośnić, a turn it off i turn it out to wyłączyć (turn out w tym znaczeniu mówi się o świetle). Żadne nie znaczy „odmówić”."
+          }
+        ]
+      }
+    ],
+    "tags": ["phrasal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "phv-come-across",
+    "type": "choice",
+    "text": "While I was clearing out the attic, I ___ some old photos of my parents' wedding.",
+    "gaps": [
+      {
+        "options": ["came across", "came up", "came round", "came about"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "come across sth = natknąć się na coś przypadkiem. Zdjęcia znalazły się przy sprzątaniu, nikt ich nie szukał."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "come up (pojawić się), come round (wpaść do kogoś, ocknąć się) i come about (wydarzyć się) nie biorą tu dopełnienia, a po luce jest some old photos."
+          }
+        ]
+      }
+    ],
+    "tags": ["phrasal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "phv-made-up-of",
+    "type": "choice",
+    "text": "The school council is made ___ of five teachers and three students.",
+    "gaps": [
+      {
+        "options": ["out", "for", "up", "off"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "be made up of sth = składać się z czegoś. Rada składa się z nauczycieli i uczniów."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "Zostaje tylko up. made for to „stworzony dla”, a made off to uciekł. Żadne nie łączy się z of i liczbą osób."
+          }
+        ]
+      }
+    ],
+    "tags": ["phrasal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "phv-take-after",
+    "type": "choice",
+    "text": "Tom really ___ his father: they have the same sense of humour and even the same laugh.",
+    "gaps": [
+      {
+        "options": ["takes to", "takes after", "takes on", "takes in"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "take after sb = być podobnym do kogoś z rodziny. Po dwukropku jest wyjaśnienie: to samo poczucie humoru i śmiech."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "take to to szybko kogoś polubić, take on to zatrudnić albo wziąć na siebie, take in to przyswoić albo nabrać. Nie mówią nic o podobieństwie."
+          }
+        ]
+      }
+    ],
+    "tags": ["phrasal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "phv-set-off",
+    "type": "choice",
+    "text": "If we want to avoid the morning traffic, we should set ___ before six.",
+    "gaps": [
+      {
+        "options": ["up", "in", "back", "off"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "set off = wyruszyć w drogę. Chodzi o to, kiedy wyjechać, żeby ominąć korki."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "set up to założyć albo rozstawić coś. set in to zacząć się na dobre (o pogodzie). set back to opóźnić."
+          }
+        ]
+      }
+    ],
+    "tags": ["phrasal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "phv-break-down",
+    "type": "choice",
+    "text": "Our car ___ on the motorway, so we had to wait two hours for help.",
+    "gaps": [
+      {
+        "options": ["broke down", "broke up", "broke out", "broke off"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "break down = zepsuć się (o samochodzie, maszynie). Trzeba było czekać na pomoc, czyli auto stanęło."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "break up to rozstać się albo skończyć zajęcia, break out to wybuchnąć (wojna, pożar), break off to odłamać albo zerwać rozmowy."
+          }
+        ]
+      }
+    ],
+    "tags": ["phrasal-verbs"],
+    "difficulty": 1
+  },
+  {
+    "id": "phv-get-over",
+    "type": "choice",
+    "text": "It took Jake almost a year to ___ his ex-girlfriend.",
+    "gaps": [
+      {
+        "options": ["get on", "get across", "get over", "get through"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "get over sb/sth = dojść do siebie po czymś, przeboleć kogoś. Po rozstaniu trzeba czasu, żeby się pozbierać."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "get on to radzić sobie albo wsiadać, get across to przekazać myśl, get through to przebrnąć przez coś albo dodzwonić się. Z ex-girlfriend nie dają sensu."
+          }
+        ]
+      }
+    ],
+    "tags": ["phrasal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "phv-bring-up",
+    "type": "choice",
+    "text": "She was brought ___ by her grandparents because her parents worked abroad and couldn't look after her.",
+    "gaps": [
+      {
+        "options": ["in", "up", "out", "round"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "bring sb up = wychować kogoś. Rodzice byli za granicą, więc wychowali ją dziadkowie. Tu w stronie biernej: was brought up."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "bring in to wprowadzić (przepis) albo przynosić dochód, bring out to wydać (produkt), bring round to przekonać albo ocucić."
+          }
+        ]
+      }
+    ],
+    "tags": ["phrasal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "phv-turn-out",
+    "type": "choice",
+    "text": "Everyone expected the test to be really difficult, but it turned ___ to be quite easy.",
+    "gaps": [
+      {
+        "options": ["out", "up", "over", "into"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "turn out to be sth = okazać się czymś. Oczekiwania były inne niż to, jak było naprawdę, stąd but."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "turn up to zjawić się, turn over to przewrócić, turn into to zmienić się w coś i nie łączy się z to be."
+          }
+        ]
+      }
+    ],
+    "tags": ["phrasal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "phv-look-after",
+    "type": "choice",
+    "text": "Could you ___ my cat while I'm on holiday?",
+    "gaps": [
+      {
+        "options": ["look for", "look into", "look up to", "look after"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "look after sb/sth = opiekować się kimś/czymś. Kot zostaje w domu, ktoś musi się nim zająć."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "look for to szukać, look into to zbadać sprawę, look up to to podziwiać kogoś. Nie pasują do prośby przed wyjazdem."
+          }
+        ]
+      }
+    ],
+    "tags": ["phrasal-verbs"],
+    "difficulty": 1
+  },
+  {
+    "id": "phv-come-up-with",
+    "type": "choice",
+    "text": "We need to ___ a better idea before the meeting on Friday.",
+    "gaps": [
+      {
+        "options": ["come down with", "come up with", "come round to", "get away with"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "come up with sth = wymyślić coś, wpaść na pomysł. Pomysłu jeszcze nie ma, trzeba go wymyślić."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "come down with to złapać chorobę, come round to to przekonać się do czegoś (już istniejącego), get away with to uniknąć kary."
+          }
+        ]
+      }
+    ],
+    "tags": ["phrasal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "phv-cut-down-on",
+    "type": "choice",
+    "text": "My doctor told me to ___ sugar and drink more water.",
+    "gaps": [
+      {
+        "options": ["put up with", "keep up with", "cut down on", "run out of"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "cut down on sth = ograniczyć coś. Lekarz każe jeść mniej cukru, a w drugiej części zdania pić więcej wody."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "put up with to znosić, keep up with to nadążać, run out of to zabraknąć czegoś. Żadna z tych rad nie pasuje do lekarza."
+          }
+        ]
+      }
+    ],
+    "tags": ["phrasal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "phv-fill-in",
+    "type": "choice",
+    "text": "Please fill ___ this form and give it to the receptionist.",
+    "gaps": [
+      {
+        "options": ["in", "up", "on", "off"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "fill in sth = wypełnić (formularz). W brytyjskim angielskim to najczęstsza forma przy formularzach."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "fill up to napełnić do pełna (np. bak), fill on i fill off nie istnieją jako phrasal verbs."
+          }
+        ]
+      }
+    ],
+    "tags": ["phrasal-verbs"],
+    "difficulty": 1
+  },
+  {
+    "id": "phv-put-off",
+    "type": "choice",
+    "text": "The match has been ___ off until next week because of the storm.",
+    "gaps": [
+      {
+        "options": ["set", "put", "taken", "turned"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "put sth off = przełożyć coś na później. Mecz odbędzie się, ale dopiero w przyszłym tygodniu, stąd until next week."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "set off to wyruszyć albo uruchomić alarm, take off to zdjąć albo wystartować, turn off to wyłączyć. Żadne nie znaczy „przełożyć”."
+          }
+        ]
+      }
+    ],
+    "tags": ["phrasal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "phv-take-up",
+    "type": "choice",
+    "text": "I've recently ___ up yoga, and now I go to classes twice a week.",
+    "gaps": [
+      {
+        "options": ["given", "made", "brought", "taken"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "take up sth = zacząć coś uprawiać (hobby, sport). Ćwiczy teraz dwa razy w tygodniu, czyli niedawno zaczął."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "given up to rzucić, a to przeczy dalszej części zdania. made up to zmyślić, brought up to poruszyć temat albo wychować."
+          }
+        ]
+      }
+    ],
+    "tags": ["phrasal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "phv-get-on",
+    "type": "choice",
+    "text": "I ___ well with my sister now, but we used to argue all the time.",
+    "gaps": [
+      {
+        "options": ["get by", "get through", "get on", "get over"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "get on well with sb = dogadywać się z kimś. Kontrast z but: kiedyś kłótnie, teraz dobre relacje."
+          },
+          {
+            "label_pl": "dlaczego nie inne",
+            "text_pl": "get by to dawać sobie radę (np. z pieniędzmi), get through to przebrnąć, get over to przeboleć. Żaden nie tworzy wzoru well with sb."
+          }
+        ]
+      }
+    ],
+    "tags": ["phrasal-verbs"],
+    "difficulty": 2
+  }
+]
