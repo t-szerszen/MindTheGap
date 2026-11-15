@@ -1039,6 +1039,12 @@ body {
 .tb-o {
   --tb: var(--note-o);
 }
+.tb-l {
+  --tb: var(--note-l);
+}
+.tb-k {
+  --tb: var(--note-k);
+}
 .tb-pres {
   --tb: var(--tab-pres);
 }
@@ -1073,6 +1079,25 @@ body {
 .ttab[aria-current='page'] {
   height: 58px;
   font-size: 23px;
+}
+/* 7 przekładek: tight węższe, compact jeszcze bez ikon */
+.toptabs.tight .ttab {
+  padding: 2px 12px 0;
+  gap: 6px;
+  font-size: 20px;
+}
+.toptabs.tight .ttab[aria-current='page'] {
+  font-size: 22px;
+}
+.toptabs.compact .ttab {
+  padding: 2px 13px 0;
+  font-size: 19px;
+}
+.toptabs.compact .ttab .ico {
+  display: none;
+}
+.toptabs.compact .ttab[aria-current='page'] {
+  font-size: 21px;
 }
 /* indeks czasów na brzegu kartki */
 .itabs {
@@ -1123,6 +1148,17 @@ body {
 }
 .itab.gb {
   margin-top: 10px;
+}
+.itab.soon {
+  background: var(--paper);
+  box-shadow: none;
+  outline: 1.5px dashed var(--faint);
+  outline-offset: -2px;
+  color: var(--ink-2);
+}
+.itab.soon[aria-current='page'],
+.itab.soon[aria-pressed='true'] {
+  outline: 2px solid var(--ink);
 }
 
 /* części strony czasu */
@@ -1687,6 +1723,206 @@ body {
 .grow {
   flex: 1;
   min-width: 0;
+}
+
+/* przełącznik motywu: słońce | księżyc, aktywne obrysowane kółkiem */
+.theme-pill {
+  display: inline-flex;
+  align-items: center;
+  height: 44px;
+  padding: 0 2px;
+  border: 0;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+}
+.theme-pill.vert {
+  flex-direction: column;
+  height: auto;
+  width: 44px;
+  padding: 2px 0;
+}
+.theme-pill > span {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+}
+.theme-pill > span:not(.on) .ico {
+  opacity: 0.5;
+}
+.theme-pill > span.on::after {
+  content: '';
+  position: absolute;
+  inset: 2px;
+  border: 2px solid var(--pen-red);
+  border-radius: 50% 44% 54% 46%/52% 48% 50% 46%;
+  rotate: -8deg;
+  pointer-events: none;
+}
+.cover .theme-pill > span.on::after {
+  border-color: var(--cover-ink);
+}
+
+/* Czasy | Zagadnienia na telefonie */
+.subnav {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 4px;
+  padding: 4px;
+}
+.subnav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  border-radius: var(--r2);
+  font-family: var(--f-hand);
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 1;
+  color: var(--ink-2);
+  text-decoration: none;
+}
+.subnav a[aria-current='page'] {
+  background: var(--hl-b);
+  color: var(--ink);
+  box-shadow: inset 0 -1.5px 0 var(--hl-b-e);
+}
+
+/* podtypy w temacie gramatyki */
+.subtabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: flex-end;
+  padding: 0 2px;
+  border-bottom: 2px solid var(--ink);
+}
+.subtab {
+  min-width: 44px;
+  min-height: 44px;
+  padding: 4px 12px 2px;
+  border: 0;
+  border-radius: 12px 10px 0 0/10px 12px 0 0;
+  background: var(--paper-2);
+  color: var(--ink-2);
+  font-family: var(--f-hand);
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 1;
+  cursor: pointer;
+}
+.subtab[aria-pressed='true'] {
+  background: var(--tb, var(--note-y));
+  color: var(--ink);
+  min-height: 50px;
+  font-size: 23px;
+}
+
+/* etykieta wiersza wzoru, np. „warunek” */
+.fkey {
+  flex: none;
+  width: 62px;
+  margin-top: 6px;
+  font-family: var(--f-note);
+  font-size: 13px;
+  line-height: 1.2;
+  color: var(--ink-2);
+}
+
+/* skala w SVG (tryby, modalne) */
+.scale {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+.scale .ax {
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+.scale .tk {
+  fill: none;
+  stroke: var(--ink-2);
+  stroke-width: 1.6;
+  stroke-linecap: round;
+}
+.scale .dot {
+  fill: var(--card);
+  stroke: var(--faint);
+  stroke-width: 1.8;
+}
+.scale .dot.on {
+  fill: var(--pen-blue);
+  stroke: var(--pen-blue);
+}
+.scale .ring {
+  fill: none;
+  stroke: var(--pen-red);
+  stroke-width: 2.2;
+  stroke-linecap: round;
+  stroke-dasharray: 140;
+  animation: ring-draw 0.8s var(--ease-pen) both 0.3s;
+}
+.scale text {
+  font-family: var(--f-note);
+  font-size: 12.5px;
+  fill: var(--ink-2);
+}
+.scale .lb.on {
+  fill: var(--pen-blue);
+  font-weight: 700;
+}
+.scale .endl {
+  font-family: var(--f-hand);
+  font-weight: 700;
+  font-size: 16px;
+  fill: var(--pencil);
+}
+.scale .mid {
+  text-anchor: middle;
+}
+.scale .end {
+  text-anchor: end;
+}
+@keyframes ring-draw {
+  from {
+    stroke-dashoffset: 140;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* ściąga: typ | część 1 | część 2 */
+.cheat {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) minmax(0, 1fr);
+  font-size: 15px;
+  line-height: 1.35;
+}
+.cheat > span {
+  padding: 7px 8px;
+  border-bottom: 1.5px dashed var(--rule-2);
+}
+.cheat .hd {
+  font-family: var(--f-note);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--pencil);
+}
+.cheat .on {
+  background: var(--note-y);
+}
+.cheat .ty {
+  font-family: var(--f-hand);
+  font-weight: 700;
+  font-size: 19px;
 }
 
 /* mniej ruchu: systemowo albo przełącznikiem w ustawieniach */
