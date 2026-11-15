@@ -1,0 +1,249 @@
+{
+  "id": "r6-private-life",
+  "type": "reading-set",
+  "examTask": 6,
+  "title": "Between generations",
+  "theme": "private-life",
+  "texts": [
+    {
+      "title": "The spare key",
+      "genre": "novel",
+      "paragraphs": [
+        {
+          "text": "My grandmother had never been the kind of person you hugged. When Mum told me I would be spending the summer with her in Whitby while she and Dad 'sorted a few things out', I knew exactly what that meant, and so, I suspected, did Gran. She met me at the station with a nod, took the heavier of my two bags without asking and walked ahead of me up the hill, as though she were late for something."
+        },
+        {
+          "text": "For the first week we hardly spoke. She did the crossword at the kitchen table each morning while I lay upstairs with my headphones on, pretending to be asleep. At dinner she asked about school, and I gave her the answers I gave everyone. I was sure she found me as tiresome as I found her house, with its ticking clocks and its smell of polish. Years later, Mum told me that Gran had phoned her every evening that week to ask what I liked to eat."
+        },
+        {
+          "text": "The change, when it came, was over something small. On the eighth morning I came down to find a key on the table next to my cereal bowl, tied to a piece of red wool. 'For the back door,' Gran said, without looking up from her crossword. 'You don't need to tell me where you're going. Just be back before it's dark, or I'll have the coastguard out.' I laughed, because I thought she was joking, and then stopped, because I wasn't sure."
+        },
+        {
+          "text": "That afternoon I walked along the cliffs for three hours. When I got back, there was a second cup on the table and a chair pulled out opposite hers. She pushed the newspaper across to me. 'Seven down,' she said. 'I've been stuck on it since breakfast.' I don't remember the clue, only that I got it, and that she wrote my answer in without checking whether it fitted. It didn't, as it turned out. She left it there anyway."
+        }
+      ]
+    },
+    {
+      "title": "Lessons in both directions",
+      "genre": "article",
+      "paragraphs": [
+        {
+          "text": "Every Tuesday after school, the café at the Brackenford community centre fills with an unusual mix of customers. At one table, a fifteen-year-old is showing a retired engineer how to send photos to his grandchildren in Canada. At the next, an eighty-year-old woman is teaching two teenage boys how to sew a button back on. The scheme, called Swap Hour, began two years ago with six volunteers. It now has more than forty."
+        },
+        {
+          "text": "Its founder, Ruth Okonjo, a former primary school teacher, got the idea after watching her own mother struggle with a video call. 'She was embarrassed to keep asking us for help,' Okonjo says. 'But she was the one who taught me to cook, to change a tyre, to fill in a tax form. It seemed wrong that help only ever went one way.' The rule at Swap Hour is simple: everyone who comes must both teach something and learn something."
+        },
+        {
+          "text": "The teenagers were harder to recruit than the pensioners. Many came at first only because the hours counted towards a school award, and Okonjo admits she expected most of them to drop out once they had enough. Instead, nearly all have stayed. Sixteen-year-old Callum Price, who learned to make bread from a former baker, says the attraction is partly that nobody at Swap Hour treats him like a child. 'At home I'm the one who can't be trusted with the oven,' he says. 'Here I'm the expert on phones.'"
+        },
+        {
+          "text": "For older members, the benefit is often less about technology than about company. Several live alone, and a number say Tuesday is the only day of the week on which they have a proper conversation. Okonjo is careful not to overstate what the scheme can do. 'We're not replacing anyone's family,' she says. 'But some of these friendships now carry on outside the café, and that wasn't something we planned.'"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "kind": "mc",
+      "text": 1,
+      "items": [
+        {
+          "question": "What does the narrator suggest in the first paragraph?",
+          "options": [
+            {
+              "text": "The trip to Whitby had been planned as a family holiday.",
+              "wrong_pl": "Rodzice zostają w domu, a narrator jedzie sam: „while she and Dad 'sorted a few things out'”. To nie są wspólne wakacje."
+            },
+            {
+              "text": "Gran had no idea why the narrator had come to stay.",
+              "wrong_pl": "Narrator podejrzewa coś odwrotnego: „I knew exactly what that meant, and so, I suspected, did Gran”. Babcia też wiedziała."
+            },
+            {
+              "text": "The narrator's parents were having problems that they described only vaguely."
+            },
+            {
+              "text": "Gran was in a hurry because she had an appointment to get to.",
+              "wrong_pl": "Porównanie odczytane dosłownie. „As though she were late for something” znaczy „jakby się spieszyła”, a nie że naprawdę była gdzieś umówiona."
+            }
+          ],
+          "answer": 2,
+          "why_pl": "Mama mówi tylko, że z tatą muszą „sort a few things out”, w cudzysłowie, a narrator dodaje „I knew exactly what that meant”. To ogólnikowe określenie poważniejszych kłopotów, czyli rodzice opisali problemy bardzo mgliście."
+        },
+        {
+          "question": "What do we learn about the first week of the narrator's stay?",
+          "options": [
+            {
+              "text": "The narrator and Gran had long talks over dinner.",
+              "wrong_pl": "„For the first week we hardly spoke”, a przy kolacji narrator dawał babci „the answers I gave everyone”, czyli zdawkowe odpowiedzi."
+            },
+            {
+              "text": "Gran complained to the narrator's mother that the narrator was tiresome.",
+              "wrong_pl": "Przekonanie narratora podane jako fakt: „I was sure she found me as tiresome…”. Babcia dzwoniła do mamy w zupełnie innej sprawie: „to ask what I liked to eat”."
+            },
+            {
+              "text": "The narrator found out about Gran's phone calls before the summer ended.",
+              "wrong_pl": "Zła kolejność. Narrator dowiedział się o telefonach dopiero „Years later”, od mamy."
+            },
+            {
+              "text": "Gran cared more about the narrator than she showed."
+            }
+          ],
+          "answer": 3,
+          "why_pl": "Na zewnątrz babcia była chłodna, ale „Gran had phoned her every evening that week to ask what I liked to eat”. Codziennie dopytywała, czym sprawić wnukowi przyjemność, czyli bardziej się przejmowała, niż pokazywała."
+        },
+        {
+          "question": "When Gran mentions the coastguard, she",
+          "options": [
+            {
+              "text": "tells the narrator that she once had to call the coastguard.",
+              "wrong_pl": "Dosłowne czytanie. „Or I'll have the coastguard out” to żartobliwa groźba na przyszłość („bo inaczej wezwę straż przybrzeżną”), a nie opowieść o czymś, co już się stało."
+            },
+            {
+              "text": "gives the narrator freedom while showing that she would worry."
+            },
+            {
+              "text": "insists on knowing where the narrator is going.",
+              "wrong_pl": "Odwrotnie: „You don't need to tell me where you're going”."
+            },
+            {
+              "text": "makes the narrator certain that she is only joking.",
+              "wrong_pl": "Narrator najpierw się śmieje, a potem przestaje, „because I wasn't sure”. Pewności nie ma."
+            }
+          ],
+          "answer": 1,
+          "why_pl": "Babcia daje klucz i mówi „You don't need to tell me where you're going”, czyli daje swobodę. Jednocześnie stawia warunek „be back before it's dark”, a groźba ze strażą przybrzeżną pokazuje, że będzie się martwić."
+        },
+        {
+          "question": "What happens at the end of the extract?",
+          "options": [
+            {
+              "text": "Gran checks that the narrator's answer fits before writing it in.",
+              "wrong_pl": "W tekście dokładnie odwrotnie: „she wrote my answer in without checking whether it fitted”."
+            },
+            {
+              "text": "Gran explains that she has been stuck on the clue for several days.",
+              "wrong_pl": "Pułapka czasu: „I've been stuck on it since breakfast”, czyli od rana, a nie od kilku dni."
+            },
+            {
+              "text": "Gran keeps the narrator's answer even though it does not fit."
+            },
+            {
+              "text": "The narrator still remembers the clue they solved together.",
+              "wrong_pl": "„I don't remember the clue”. Narrator pamięta tylko, że znalazł odpowiedź."
+            }
+          ],
+          "answer": 2,
+          "why_pl": "„It didn't, as it turned out. She left it there anyway.” Odpowiedź nie pasowała do krzyżówki, a babcia i tak jej nie wymazała. Ważniejsze było, że rozwiązują razem."
+        }
+      ]
+    },
+    {
+      "kind": "gap",
+      "text": 2,
+      "maxWords": 6,
+      "layout": "sentences",
+      "items": [
+        {
+          "sentence": "Since Swap Hour began, the number of volunteers has risen ___ .",
+          "correct": ["from six to more than forty"],
+          "accepted": [
+            "from six to over forty",
+            "from 6 to more than 40",
+            "from 6 to over 40",
+            "from six to more than 40",
+            "from six to over 40",
+            "to more than forty",
+            "to over forty",
+            "to more than 40",
+            "to over 40",
+            "from six volunteers to over forty",
+            "from 6 volunteers to over 40",
+            "to over forty volunteers",
+            "to more than forty volunteers",
+            "to over 40 volunteers",
+            "to more than 40 volunteers",
+            "from six to over 40 people"
+          ],
+          "why_pl": "„began two years ago with six volunteers. It now has more than forty.” Po „risen” pasuje „from… to…” albo samo „to…”. Trzeba zachować „more than / over”: „to forty” albo „from six to forty” zmienia liczbę i dostaje 0. „A lot” albo „a great deal” jest za ogólne."
+        },
+        {
+          "sentence": "Okonjo started the scheme because she believed that help between generations should ___ .",
+          "correct": ["go both ways"],
+          "accepted": [
+            "go in both directions",
+            "work both ways",
+            "flow both ways",
+            "flow in both directions",
+            "go two ways",
+            "go in two directions",
+            "be two-way",
+            "be mutual",
+            "be reciprocal",
+            "not only go one way",
+            "not go only one way",
+            "not just go one way",
+            "not go just one way",
+            "not only ever go one way",
+            "not always go one way",
+            "work in both directions",
+            "flow two ways",
+            "be a two-way street",
+            "not go one way only",
+            "not only go in one direction",
+            "not go in one direction only",
+            "go both directions"
+          ],
+          "why_pl": "„It seemed wrong that help only ever went one way.” Skoro źle, że pomoc idzie tylko w jedną stronę, to powinna iść w obie. Po „should” musi być bezokolicznik bez „to”: „went both ways” albo „going both ways” dostaje 0. „Go one way” bez przeczenia to odwrotny sens."
+        },
+        {
+          "sentence": "Okonjo thought that most teenagers would leave the scheme as soon as they ___ .",
+          "correct": ["had enough hours"],
+          "accepted": [
+            "had got enough hours",
+            "got enough hours",
+            "had collected enough hours",
+            "collected enough hours",
+            "had earned enough hours",
+            "earned enough hours",
+            "had done enough hours",
+            "did enough hours",
+            "had enough hours for the award",
+            "got enough hours for the award",
+            "had enough hours for their award",
+            "had enough hours for an award",
+            "got enough hours for their award",
+            "had completed enough hours",
+            "had the hours they needed",
+            "had the required hours",
+            "had gained enough hours",
+            "had accumulated enough hours",
+            "had enough hours towards the award",
+            "had enough hours towards their award"
+          ],
+          "why_pl": "„she expected most of them to drop out once they had enough” (godzin do szkolnej nagrody). Trzeba dopisać „hours”, bo samo „had enough” to idiom „mieć dość”, a tekst nie mówi, że byli znudzeni. Czas przeszły (had/got), bo zdanie jest w mowie zależnej po „thought”: „have enough hours” dostaje 0."
+        },
+        {
+          "sentence": "One reason Callum enjoys Swap Hour is that the people there do not ___ .",
+          "correct": ["treat him like a child"],
+          "accepted": [
+            "treat him as a child",
+            "treat him like a kid",
+            "treat him as a kid",
+            "see him as a child",
+            "regard him as a child",
+            "think of him as a child",
+            "treat him like a little child",
+            "treat him like a little kid",
+            "treat him like a small child",
+            "treat him like a little boy",
+            "consider him a child",
+            "view him as a child",
+            "see him as a kid",
+            "regard him as a kid"
+          ],
+          "why_pl": "„nobody at Swap Hour treats him like a child”. Po „do not” trzeba bezokolicznika bez -s: „treats him like a child” dostaje 0. Musi być „him”, a nie „me” z cytatu. „Trust him with the oven” nie pasuje, bo o piekarniku mówi w kontekście domu."
+        }
+      ]
+    }
+  ]
+}
