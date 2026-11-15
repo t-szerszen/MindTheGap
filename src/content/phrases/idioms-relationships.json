@@ -1,0 +1,271 @@
+{
+  "id": "idioms-relationships",
+  "category": "idioms",
+  "title_pl": "Idiomy: relacje i komunikacja",
+  "items": [
+    {
+      "en": "get on like a house on fire",
+      "pl": "świetnie się dogadywać, od razu złapać wspólny język",
+      "meaning_pl": "bardzo szybko się polubić i świetnie się rozumieć; like a house on fire znaczy szybko i z rozmachem, jak ogień, który ogarnia cały dom. Wersja brytyjska z get on, w USA get along",
+      "example": {
+        "en": "My brother and our exchange student from Spain got on like a house on fire.",
+        "pl": "Mój brat i nasz gość z Hiszpanii, który przyjechał na wymianę, od razu świetnie się dogadali."
+      },
+      "register": "informal",
+      "tags": ["przyjaźń", "dobre relacje", "UK"]
+    },
+    {
+      "en": "hit it off (with sb)",
+      "pl": "przypaść sobie do gustu, od razu złapać kontakt",
+      "meaning_pl": "polubić się od pierwszego spotkania; it zawsze stoi w środku: hit it off, nigdy hit off. Hit jest nieregularne: hit – hit – hit, więc w przeszłości też hit it off",
+      "example": {
+        "en": "Kate and Sam met at a friend's birthday party and hit it off straight away.",
+        "pl": "Kate i Sam poznali się na urodzinach znajomego i od razu przypadli sobie do gustu."
+      },
+      "register": "informal",
+      "tags": ["przyjaźń", "poznawanie ludzi", "pułapka"]
+    },
+    {
+      "en": "be on the same wavelength (as sb)",
+      "pl": "nadawać na tych samych falach",
+      "meaning_pl": "myśleć podobnie i rozumieć się bez długiego tłumaczenia; obraz jak w polskim: dwa radia nastawione na tę samą falę",
+      "example": {
+        "en": "My best friend and I are on the same wavelength – we often laugh at exactly the same things.",
+        "pl": "Z moją najlepszą przyjaciółką nadajemy na tych samych falach – często śmiejemy się dokładnie z tych samych rzeczy."
+      },
+      "register": "informal",
+      "tags": ["przyjaźń", "dobre relacje"]
+    },
+    {
+      "en": "see eye to eye (with sb) (on sth)",
+      "pl": "zgadzać się z kimś, mieć takie samo zdanie",
+      "meaning_pl": "mieć z kimś zgodne poglądy; prawie zawsze w przeczeniu: we don't see eye to eye on…, czyli mamy inne zdanie w jakiejś sprawie",
+      "example": {
+        "en": "My parents and I don't see eye to eye on how much time I can spend online.",
+        "pl": "Nie zgadzam się z rodzicami co do tego, ile czasu mogę spędzać w internecie."
+      },
+      "register": "neutral",
+      "tags": ["zgoda", "konflikt", "rodzina"]
+    },
+    {
+      "en": "go back a long way",
+      "pl": "znać się od dawna, znać się kopę lat",
+      "meaning_pl": "znać się od bardzo wielu lat; podmiotem są zwykle dwie osoby albo we: Jack and I go back a long way",
+      "example": {
+        "en": "Jack and I go back a long way – we were in the same class at primary school.",
+        "pl": "Z Jackiem znamy się od lat – chodziliśmy do jednej klasy w podstawówce."
+      },
+      "register": "informal",
+      "tags": ["przyjaźń"]
+    },
+    {
+      "en": "a fair-weather friend",
+      "pl": "przyjaciel tylko na dobre czasy",
+      "meaning_pl": "ktoś, kto jest przy tobie, kiedy wszystko idzie dobrze, ale znika, gdy masz kłopoty; fair weather = ładna pogoda. Brzmi krytycznie",
+      "example": {
+        "en": "When Mark broke his leg and couldn't go out, he found out that many of his friends were just fair-weather friends.",
+        "pl": "Kiedy Mark złamał nogę i nie mógł wychodzić z domu, przekonał się, że wielu jego znajomych to przyjaciele tylko na dobre czasy."
+      },
+      "register": "neutral",
+      "tags": ["przyjaźń", "negatywne"]
+    },
+    {
+      "en": "through thick and thin",
+      "pl": "na dobre i na złe",
+      "meaning_pl": "w dobrych i w trudnych chwilach, bez względu na wszystko; zwykle z stand by sb, stick together albo support sb",
+      "example": {
+        "en": "My grandparents have stood by each other through thick and thin for fifty years.",
+        "pl": "Moi dziadkowie od pięćdziesięciu lat wspierają się na dobre i na złe."
+      },
+      "register": "neutral",
+      "tags": ["przyjaźń", "rodzina", "lojalność"]
+    },
+    {
+      "en": "give sb the cold shoulder",
+      "pl": "traktować kogoś chłodno, ignorować kogoś",
+      "meaning_pl": "celowo kogoś ignorować albo być wobec niego oziębłym, zwykle dlatego, że jesteś na niego zły; get the cold shoulder = zostać tak potraktowanym",
+      "example": {
+        "en": "Ever since Tom forgot her birthday, Emma has been giving him the cold shoulder.",
+        "pl": "Odkąd Tom zapomniał o jej urodzinach, Emma traktuje go bardzo chłodno."
+      },
+      "register": "informal",
+      "tags": ["konflikt", "zachowanie"]
+    },
+    {
+      "en": "stab sb in the back",
+      "pl": "wbić komuś nóż w plecy",
+      "meaning_pl": "zdradzić kogoś, kto ci ufał; ten sam obraz co w polskim. Rzeczownik: a stab in the back, a o takiej osobie mówi się a backstabber",
+      "example": {
+        "en": "Ben stabbed Adam in the back: he promised to keep the secret and then told the whole class.",
+        "pl": "Ben wbił Adamowi nóż w plecy: obiecał dochować tajemnicy, a potem powiedział o niej całej klasie."
+      },
+      "register": "informal",
+      "tags": ["zdrada", "konflikt"]
+    },
+    {
+      "en": "bury the hatchet",
+      "pl": "zakopać topór wojenny",
+      "meaning_pl": "pogodzić się po długim konflikcie i zostawić stare kłótnie za sobą; hatchet to toporek. Wyrażenie pochodzi ze zwyczaju rdzennych mieszkańców Ameryki Północnej, którzy zakopywali topory na znak pokoju, stąd też polski odpowiednik",
+      "example": {
+        "en": "After months of not speaking to each other, the two brothers finally decided to bury the hatchet.",
+        "pl": "Po miesiącach milczenia obaj bracia w końcu postanowili zakopać topór wojenny."
+      },
+      "register": "informal",
+      "tags": ["zgoda", "konflikt"]
+    },
+    {
+      "en": "clear the air",
+      "pl": "oczyścić atmosferę",
+      "meaning_pl": "szczerze porozmawiać, żeby wyjaśnić nieporozumienia i pozbyć się napięcia; jak burza, po której powietrze robi się świeże",
+      "example": {
+        "en": "After the argument, we sat down and had an honest talk to clear the air.",
+        "pl": "Po kłótni usiedliśmy i szczerze porozmawialiśmy, żeby oczyścić atmosferę."
+      },
+      "register": "neutral",
+      "tags": ["zgoda", "rozmowa"]
+    },
+    {
+      "en": "fall / be head over heels in love (with sb)",
+      "pl": "zakochać się po uszy, być zakochanym po uszy",
+      "meaning_pl": "zakochać się całkowicie i bez pamięci; dosłownie head over heels to koziołkując, do góry nogami, czyli miłość przewraca cały twój świat",
+      "example": {
+        "en": "They met on holiday in Greece and fell head over heels in love.",
+        "pl": "Poznali się na wakacjach w Grecji i zakochali się w sobie po uszy."
+      },
+      "register": "informal",
+      "tags": ["miłość"]
+    },
+    {
+      "en": "tie the knot",
+      "pl": "pobrać się, stanąć na ślubnym kobiercu",
+      "meaning_pl": "wziąć ślub; potoczne, częste w rozmowie i w nagłówkach. Łatwo zapamiętać, bo po polsku też mówi się o węźle małżeńskim",
+      "example": {
+        "en": "My cousin and her boyfriend are tying the knot next summer.",
+        "pl": "Moja kuzynka i jej chłopak biorą ślub przyszłego lata."
+      },
+      "register": "informal",
+      "tags": ["miłość", "ślub", "rodzina"]
+    },
+    {
+      "en": "be on the rocks",
+      "pl": "przechodzić poważny kryzys, sypać się",
+      "meaning_pl": "o związku, małżeństwie albo firmie: mieć duże problemy i być blisko rozpadu; jak statek, który wpadł na skały. Pułapka: a drink on the rocks to napój z lodem",
+      "example": {
+        "en": "Their marriage was on the rocks, so they decided to see a counsellor.",
+        "pl": "Ich małżeństwo przechodziło poważny kryzys, więc postanowili pójść do terapeuty."
+      },
+      "register": "informal",
+      "tags": ["miłość", "kryzys", "pułapka"]
+    },
+    {
+      "en": "break the ice",
+      "pl": "przełamać lody",
+      "meaning_pl": "rozluźnić atmosferę między ludźmi, którzy się nie znają albo czują się niezręcznie; an icebreaker to gra, żart albo pytanie, które to robi",
+      "example": {
+        "en": "On the first day of the language course, the teacher used a funny game to break the ice.",
+        "pl": "Pierwszego dnia kursu językowego nauczycielka wykorzystała zabawną grę, żeby przełamać lody."
+      },
+      "register": "neutral",
+      "tags": ["poznawanie ludzi", "rozmowa"]
+    },
+    {
+      "en": "beat about the bush",
+      "pl": "owijać w bawełnę",
+      "meaning_pl": "mówić naokoło i unikać sedna sprawy; często w poleceniu: Stop beating about the bush! To wersja brytyjska, w USA beat around the bush",
+      "example": {
+        "en": "Stop beating about the bush and tell me what really happened at the party.",
+        "pl": "Przestań owijać w bawełnę i powiedz mi, co naprawdę stało się na imprezie."
+      },
+      "register": "informal",
+      "tags": ["komunikacja", "rozmowa", "UK"]
+    },
+    {
+      "en": "get the wrong end of the stick",
+      "pl": "źle coś zrozumieć, opacznie coś zrozumieć",
+      "meaning_pl": "błędnie zrozumieć sytuację albo czyjeś słowa; typowo brytyjskie. Mówi się też get hold of the wrong end of the stick",
+      "example": {
+        "en": "I think you've got the wrong end of the stick – Mia isn't angry with you, she's just tired.",
+        "pl": "Chyba źle to zrozumiałeś – Mia nie jest na ciebie zła, jest po prostu zmęczona."
+      },
+      "register": "informal",
+      "tags": ["komunikacja", "nieporozumienie", "UK"]
+    },
+    {
+      "en": "get your wires crossed",
+      "pl": "źle się zrozumieć, coś się komuś pomieszało",
+      "meaning_pl": "nie zrozumieć się nawzajem, np. co do miejsca albo godziny spotkania; zwykle o dwóch osobach: we got our wires crossed. Wyobraź sobie skrzyżowane kable telefoniczne: dzwonisz do jednej osoby, a łączysz się z kimś innym",
+      "example": {
+        "en": "Tom and Ella got their wires crossed: he was waiting outside the cinema, while she was waiting in the café.",
+        "pl": "Tom i Ella źle się zrozumieli: on czekał przed kinem, a ona w kawiarni."
+      },
+      "register": "informal",
+      "tags": ["komunikacja", "nieporozumienie"]
+    },
+    {
+      "en": "not get a word in edgeways",
+      "pl": "nie móc dojść do słowa",
+      "meaning_pl": "nie mieć szansy nic powiedzieć, bo ktoś mówi bez przerwy; prawie zawsze z can't albo couldn't. Edgeways (brytyjskie, w USA edgewise) to bokiem: nie da się wcisnąć ani słowa",
+      "example": {
+        "en": "My aunt talks so much at family dinners that nobody else can get a word in edgeways.",
+        "pl": "Na rodzinnych obiadach ciocia mówi tyle, że nikt inny nie może dojść do słowa."
+      },
+      "register": "informal",
+      "tags": ["komunikacja", "rozmowa", "UK"]
+    },
+    {
+      "en": "read between the lines",
+      "pl": "czytać między wierszami",
+      "meaning_pl": "odczytać ukryty sens, którego ktoś nie powiedział ani nie napisał wprost; działa tak samo jak po polsku",
+      "example": {
+        "en": "Mia's message said she was fine, but if you read between the lines, she was clearly upset.",
+        "pl": "Mia napisała, że wszystko u niej w porządku, ale między wierszami dało się wyczytać, że coś ją gryzie."
+      },
+      "register": "neutral",
+      "tags": ["komunikacja", "rozumienie"]
+    },
+    {
+      "en": "spill the beans",
+      "pl": "wygadać się, zdradzić sekret",
+      "meaning_pl": "zdradzić tajemnicę albo niespodziankę, często za wcześnie; po spill zawsze the beans, nie zmienia się na inne słowo",
+      "example": {
+        "en": "We were planning a surprise party for Dad, but my little brother spilled the beans.",
+        "pl": "Planowaliśmy przyjęcie-niespodziankę dla taty, ale mój młodszy brat się wygadał."
+      },
+      "register": "informal",
+      "tags": ["komunikacja", "sekrety"]
+    },
+    {
+      "en": "hear sth on / through the grapevine",
+      "pl": "usłyszeć coś pocztą pantoflową",
+      "meaning_pl": "dowiedzieć się czegoś nieoficjalnie, od kogoś, kto słyszał to od kogoś innego; grapevine to winorośl, która rozrasta się we wszystkie strony, tak jak plotka",
+      "example": {
+        "en": "We heard through the grapevine that our maths teacher is leaving the school.",
+        "pl": "Pocztą pantoflową dowiedzieliśmy się, że nasza matematyczka odchodzi ze szkoły."
+      },
+      "register": "informal",
+      "tags": ["komunikacja", "plotki"]
+    },
+    {
+      "en": "not mince your words",
+      "pl": "nie przebierać w słowach, mówić prosto z mostu",
+      "meaning_pl": "mówić bardzo bezpośrednio, nawet jeśli to kogoś urazi; zawsze w przeczeniu: she didn't mince her words. Mince = siekać, czyli nie rozdrabniasz słów, żeby były łagodniejsze",
+      "example": {
+        "en": "The coach didn't mince his words after the match: 'That was our worst game this season.'",
+        "pl": "Trener po meczu nie przebierał w słowach: „To był nasz najgorszy mecz w tym sezonie”."
+      },
+      "register": "neutral",
+      "tags": ["komunikacja", "szczerość", "pułapka"]
+    },
+    {
+      "en": "give sb a piece of your mind",
+      "pl": "powiedzieć komuś do słuchu, nagadać komuś",
+      "meaning_pl": "ostro i ze złością powiedzieć komuś, co o nim albo o jego zachowaniu myślisz; zaimek się zmienia: a piece of my / his / her mind",
+      "example": {
+        "en": "When the neighbours played loud music at 3 a.m., my dad went next door and gave them a piece of his mind.",
+        "pl": "Kiedy sąsiedzi o trzeciej w nocy puścili głośną muzykę, tata poszedł do nich i powiedział im do słuchu."
+      },
+      "register": "informal",
+      "tags": ["komunikacja", "złość", "konflikt"]
+    }
+  ]
+}

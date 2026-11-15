@@ -1,0 +1,205 @@
+{
+  "id": "phrasal-look",
+  "category": "phrasal-verbs",
+  "title_pl": "Phrasal verbs z look",
+  "items": [
+    {
+      "en": "look sth up / look up sth (information)",
+      "pl": "sprawdzić, wyszukać coś (w słowniku, w internecie)",
+      "meaning_pl": "Szukasz konkretnej informacji: słowa w słowniku, godziny w rozkładzie, faktu w internecie. Rzeczownik w środku albo po up: look the word up / look up the word. Zaimek tylko w środku: look it up (nie: look up it). Pułapka: look for = szukać czegoś zgubionego, look up = sprawdzić informację",
+      "example": {
+        "en": "If you don't know a word in the text, don't look it up straight away – try to guess it from the context first.",
+        "pl": "Jeśli nie znasz słowa w tekście, nie sprawdzaj go od razu – najpierw spróbuj zgadnąć je z kontekstu."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "nauka", "szkoła"]
+    },
+    {
+      "en": "look sb up (visit)",
+      "pl": "odwiedzić kogoś, odezwać się do kogoś (będąc w okolicy)",
+      "meaning_pl": "Kontaktujesz się z kimś, kogo dawno nie widziałeś, bo akurat jesteś w jego mieście. Osoba stoi w środku: look me up, look your cousin up. Ten sam czasownik co look sth up, sens rozpoznajesz po tym, że dopełnieniem jest osoba",
+      "example": {
+        "en": "Look me up if you're ever in Edinburgh – I'll show you around.",
+        "pl": "Odezwij się, jeśli kiedyś będziesz w Edynburgu – oprowadzę cię po mieście."
+      },
+      "register": "informal",
+      "tags": ["rozdzielny", "relacje", "podróże"]
+    },
+    {
+      "en": "look up (improve)",
+      "pl": "poprawiać się, iść ku lepszemu (o sytuacji)",
+      "meaning_pl": "Sytuacja zaczyna się poprawiać. Bez dopełnienia, najczęściej w czasie ciągłym: things are looking up. Podmiotem jest sytuacja (things, business), nie osoba",
+      "example": {
+        "en": "I failed two tests in September, but things are looking up – the last one went really well.",
+        "pl": "We wrześniu oblałem dwa sprawdziany, ale idzie ku lepszemu – ostatni poszedł mi naprawdę dobrze."
+      },
+      "register": "informal",
+      "tags": ["nierozdzielny", "bez dopełnienia", "szkoła"]
+    },
+    {
+      "en": "look up to sb",
+      "pl": "podziwiać kogoś, wzorować się na kimś",
+      "meaning_pl": "Szanujesz kogoś i traktujesz go jak wzór, jakbyś patrzył na niego w górę. Trzyczęściowy i nierozdzielny: look up to her (nie: look her up to). Przeciwieństwo: look down on sb",
+      "example": {
+        "en": "I've always looked up to my older brother – he was the first in our family to go to university.",
+        "pl": "Zawsze podziwiałem starszego brata – był pierwszą osobą w rodzinie, która poszła na studia."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "relacje", "rodzina"]
+    },
+    {
+      "en": "look down on sb/sth",
+      "pl": "patrzeć na kogoś z góry",
+      "meaning_pl": "Uważasz, że ktoś jest gorszy od ciebie, np. bo jest biedniejszy albo ma inne wykształcenie. Nierozdzielny: look down on them (nie: look them down on). Ma negatywny wydźwięk, przeciwieństwo look up to sb",
+      "example": {
+        "en": "Some people look down on students who choose vocational schools, which is completely unfair.",
+        "pl": "Niektórzy patrzą z góry na uczniów, którzy wybierają szkoły zawodowe, co jest kompletnie niesprawiedliwe."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "relacje", "społeczeństwo"]
+    },
+    {
+      "en": "look after sb/sth",
+      "pl": "opiekować się kimś/czymś, dbać o coś",
+      "meaning_pl": "Dbasz, żeby ktoś był bezpieczny albo coś było w dobrym stanie: look after a baby, look after your health. Nierozdzielny: look after him (nie: look him after). Znaczy prawie to samo co take care of sb/sth",
+      "example": {
+        "en": "While my parents are away, I have to look after my little sister and our dog.",
+        "pl": "Kiedy rodziców nie ma, muszę opiekować się młodszą siostrą i naszym psem."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "rodzina", "dom"]
+    },
+    {
+      "en": "look for sb/sth",
+      "pl": "szukać kogoś/czegoś",
+      "meaning_pl": "Próbujesz znaleźć coś zgubionego albo potrzebnego: look for your keys, look for a job. Nierozdzielny: look for it (nie: look it for). Pułapka: look for to proces (szukać), find to wynik (znaleźć): I looked for my phone, but I didn't find it",
+      "example": {
+        "en": "My cousin has been looking for a part-time job for weeks, but nobody has called her back.",
+        "pl": "Kuzynka od tygodni szuka pracy na pół etatu, ale nikt do niej nie oddzwonił."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "praca", "codzienność"]
+    },
+    {
+      "en": "look forward to sth / look forward to doing sth",
+      "pl": "nie móc się czegoś doczekać, cieszyć się na coś",
+      "meaning_pl": "Czekasz na coś z radością. To w tym zwrocie jest przyimkiem, a nie częścią bezokolicznika, więc po nim rzeczownik albo -ing: look forward to meeting you (nie: to meet). Nierozdzielny: look forward to it. I'm looking forward to... jest neutralne, I look forward to... brzmi formalnie i kończy list: I look forward to hearing from you",
+      "example": {
+        "en": "I'm really looking forward to visiting London on the school trip next month.",
+        "pl": "Nie mogę się doczekać zwiedzania Londynu na wycieczce szkolnej w przyszłym miesiącu."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "list", "plany"]
+    },
+    {
+      "en": "look into sth",
+      "pl": "zbadać coś, przyjrzeć się czemuś (sprawie)",
+      "meaning_pl": "Dokładnie sprawdzasz sprawę albo problem, żeby poznać fakty: the police are looking into the accident. Nierozdzielny: look into it (nie: look it into). Typowe w odpowiedzi na skargę: we will look into the matter",
+      "example": {
+        "en": "The head teacher promised to look into our complaint about the food in the canteen.",
+        "pl": "Dyrektor obiecał przyjrzeć się naszej skardze na jedzenie w stołówce."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "szkoła", "skarga"]
+    },
+    {
+      "en": "Look out!",
+      "pl": "Uważaj!",
+      "meaning_pl": "Okrzyk ostrzegawczy, kiedy komuś grozi niebezpieczeństwo, zwykle w trybie rozkazującym. Bez dopełnienia. Znaczy to samo co Watch out!",
+      "example": {
+        "en": "Look out! That car isn't going to stop!",
+        "pl": "Uważaj! Ten samochód się nie zatrzyma!"
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "bezpieczeństwo"]
+    },
+    {
+      "en": "look out for sb/sth",
+      "pl": "wypatrywać kogoś/czegoś, uważać na coś",
+      "meaning_pl": "Uważnie obserwujesz, żeby kogoś zauważyć albo czegoś uniknąć: look out for me at the station, look out for pickpockets. Nierozdzielny: look out for them (nie: look them out for). Bez for: Look out! = Uważaj!",
+      "example": {
+        "en": "Look out for pickpockets on the underground – they often work in crowded carriages.",
+        "pl": "Uważaj na kieszonkowców w metrze – często działają w zatłoczonych wagonach."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "podróże", "bezpieczeństwo"]
+    },
+    {
+      "en": "look round / look around (sth)",
+      "pl": "rozejrzeć się, obejrzeć (miejsce)",
+      "meaning_pl": "Chodzisz po jakimś miejscu i oglądasz, co tam jest: look round the museum, look round a flat. Round to wersja typowo brytyjska, around pasuje wszędzie. Miejsce stoi zawsze po round: look round the town (nie: look the town round)",
+      "example": {
+        "en": "We had a couple of free hours in Kraków, so we looked round the Old Town.",
+        "pl": "Mieliśmy kilka wolnych godzin w Krakowie, więc pozwiedzaliśmy Stare Miasto."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "podróże", "zwiedzanie"]
+    },
+    {
+      "en": "look through sth",
+      "pl": "przejrzeć coś, przeglądać coś",
+      "meaning_pl": "Szybko czytasz albo przeglądasz coś, często szukając czegoś konkretnego: look through your notes, look through old photos. Nierozdzielny: look through it (nie: look it through). Szybciej i mniej dokładnie niż read",
+      "example": {
+        "en": "I looked through my notes on the bus just before the test.",
+        "pl": "Przejrzałem notatki w autobusie tuż przed sprawdzianem."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "nauka", "szkoła"]
+    },
+    {
+      "en": "look sth over / look over sth",
+      "pl": "przejrzeć, sprawdzić coś",
+      "meaning_pl": "Szybko sprawdzasz coś, czy jest w porządku i nie ma błędów: look over a contract, look over my essay. Rozdzielny: look my essay over / look over my essay, zaimek stawiamy w środku: look it over. Różnica z look through: tu chodzi o sprawdzenie, a nie o szukanie czegoś",
+      "example": {
+        "en": "Could you look over my essay before I hand it in?",
+        "pl": "Mógłbyś przejrzeć moją rozprawkę, zanim ją oddam?"
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "szkoła", "pisanie"]
+    },
+    {
+      "en": "look back (on sth)",
+      "pl": "wspominać coś, patrzeć wstecz",
+      "meaning_pl": "Myślisz o czymś, co było w przeszłości: look back on your school days. Nierozdzielny: look back on it (nie: look it back on). Na początku zdania Looking back, ... znaczy z perspektywy czasu – przydaje się w rozprawce i w opowiadaniu",
+      "example": {
+        "en": "When I look back on my primary school years, I mostly remember the school trips.",
+        "pl": "Kiedy wspominam lata w podstawówce, pamiętam głównie wycieczki szkolne."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "wspomnienia", "szkoła"]
+    },
+    {
+      "en": "look on (watch)",
+      "pl": "przyglądać się (bezczynnie)",
+      "meaning_pl": "Patrzysz, jak coś się dzieje, ale w tym nie uczestniczysz i nie reagujesz. Bez dopełnienia: a crowd looked on. Stąd rzeczownik onlooker = gap, przypadkowy widz",
+      "example": {
+        "en": "Two boys started a fight in the corridor while the other students just looked on.",
+        "pl": "Dwóch chłopaków wdało się w bójkę na korytarzu, a reszta uczniów tylko się przyglądała."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "społeczeństwo"]
+    },
+    {
+      "en": "look on sb/sth as sth",
+      "pl": "uważać kogoś/coś za coś, traktować kogoś jak",
+      "meaning_pl": "Masz o kimś albo o czymś określone zdanie: I look on her as a sister. Osoba albo rzecz stoi po on, a po as to, za co ją uważasz. Nierozdzielny: look on him as a friend (nie: look him on as). Bliskie see sb as; wersja look upon brzmi bardziej formalnie",
+      "example": {
+        "en": "Many older people look on social media as a waste of time.",
+        "pl": "Wiele starszych osób uważa media społecznościowe za stratę czasu."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "opinia", "media"]
+    },
+    {
+      "en": "look ahead (to sth)",
+      "pl": "myśleć o przyszłości, patrzeć w przyszłość",
+      "meaning_pl": "Myślisz o tym, co będzie, i planujesz. Bez dopełnienia albo z to: look ahead to next year. Przeciwieństwo look back",
+      "example": {
+        "en": "It's only November, but it's worth looking ahead and planning your revision for the exams in May.",
+        "pl": "Jest dopiero listopad, ale warto pomyśleć o przyszłości i zaplanować powtórki przed majowymi egzaminami."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "plany"]
+    }
+  ]
+}

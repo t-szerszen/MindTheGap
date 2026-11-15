@@ -1,0 +1,471 @@
+[
+  {
+    "id": "pas-phone-in-lake",
+    "type": "gap-fill",
+    "sentence": "I ___ (drop) my phone in the lake yesterday, and now it won't even turn on.",
+    "correct": ["dropped"],
+    "steps": [
+      { "label_pl": "sygnał", "text_pl": "yesterday — konkretny, zamknięty moment w przeszłości." },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Telefon wpadł do wody wczoraj i to zdarzenie się skończyło. Skutek widać teraz (nie działa), ale yesterday odcina zdarzenie od teraz, więc nie Present Perfect."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "drop to jedna sylaba zakończona układem spółgłoska + samogłoska + spółgłoska, więc p się podwaja: dropped, nie droped. W dłuższych słowach zwykle tylko przy akcencie na końcu (prefer → preferred, ale visit → visited); wyjątek to brytyjskie l: travelled."
+      }
+    ],
+    "tags": ["past-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "pas-open-air-concert",
+    "type": "gap-fill",
+    "sentence": "___ (you / go) to the open-air concert last Saturday? I didn't see you there.",
+    "correct": ["Did you go"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "last Saturday — zamknięty dzień w przeszłości. Drugie zdanie (I didn't see you) też jest w Past Simple."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz o jedno zdarzenie, które już się odbyło, w podanym czasie."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Did + podmiot + V1. Czas przeszły niesie did, więc go zostaje w V1: Did you go?, nie Did you went?"
+      }
+    ],
+    "tags": ["past-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "pas-noisy-neighbours",
+    "type": "gap-fill",
+    "sentence": "I ___ (not / sleep) well last night because the neighbours were having a loud party.",
+    "correct": ["did not sleep"],
+    "steps": [
+      { "label_pl": "sygnał", "text_pl": "last night — zeszła noc, czas już zamknięty." },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Kiepski sen to główne zdarzenie z tamtej nocy, już zakończone. Impreza za ścianą to tło, dlatego stoi w Past Continuous (were having)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "did not (didn't) + V1 → did not sleep. Nie didn't slept, bo przeszłość jest już w did."
+      }
+    ],
+    "tags": ["past-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "pas-royal-castle",
+    "type": "gap-fill",
+    "sentence": "The Royal Castle in Warsaw ___ (destroy) during the Second World War and rebuilt in the 1970s and 1980s.",
+    "correct": ["was destroyed"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "during the Second World War — zamknięty okres w historii. Dalej (rebuilt in the 1970s…) idzie kolejny krok tej samej historii."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Zdarzenie zakończone w podanym czasie → Past Simple. Zamek sam się nie zniszczył, ktoś go zniszczył, więc strona bierna."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "was / were + V3. Zamek to jedna rzecz → was destroyed."
+      }
+    ],
+    "tags": ["past-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "pas-fog-mountain-top",
+    "type": "gap-fill",
+    "sentence": "We set off before sunrise and climbed for almost six hours, but in the end we ___ (not / make) it to the top because thick fog came down.",
+    "correct": ["did not make"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "set off, climbed + in the end — opowieść krok po kroku, a in the end mówi, jak się to wszystko skończyło."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Wyruszyliśmy → wspinaliśmy się prawie sześć godzin → ostatecznie nie weszliśmy na szczyt. Każde zdarzenie jest zakończone i dzieje się po poprzednim, więc luka to kolejny krok tej historii → Past Simple, tylko w przeczeniu."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "make jest nieregularny, więc kusi didn't made. Ale czas przeszły niesie już did, a czasownik wraca do V1. make it to the top = dać radę dotrzeć na szczyt."
+      },
+      { "label_pl": "forma", "text_pl": "did not (didn't) + V1 → did not make." }
+    ],
+    "tags": ["past-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "pas-violin-when",
+    "type": "gap-fill",
+    "sentence": "When ___ (you / start) learning the violin? You play really well!",
+    "correct": ["did you start"],
+    "steps": [
+      { "label_pl": "sygnał", "text_pl": "When…? — pytasz o moment w przeszłości." },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Start nauki to jeden punkt w zamkniętej przeszłości. To, że rozmówca gra dobrze teraz, nie zmienia tego, że pytasz o tamten punkt."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "When have you started…? jest błędne: When pyta o moment, a moment wyklucza Present Perfect. Gdybyś pytał „jak długo?”, byłoby How long have you been learning…?"
+      },
+      { "label_pl": "forma", "text_pl": "When + did + podmiot + V1 → When did you start…?" }
+    ],
+    "tags": ["past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "pas-penicillin-discovered",
+    "type": "gap-fill",
+    "sentence": "When ___ (penicillin / discover), and who was the scientist behind it?",
+    "correct": ["was penicillin discovered"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "When…? + who was… — pytanie o moment z historii."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Odkrycie to jedno zakończone zdarzenie (Alexander Fleming, 1928). Penicylina nie odkryła się sama, ktoś ją odkrył, więc strona bierna."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "W biernej nie ma did: When did penicillin discovered? to błąd. Pomocniczym jest was i to ono idzie przed podmiot."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "When + was + podmiot + V3 → When was penicillin discovered?"
+      }
+    ],
+    "tags": ["past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "pas-seaside-summers",
+    "type": "gap-fill",
+    "sentence": "When I was little, my family ___ (travel) to the seaside every summer.",
+    "correct": ["travelled", "used to travel", "would travel"],
+    "accepted": ["traveled"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "When I was little + every summer — czynność powtarzana w okresie, który się skończył."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Dawny zwyczaj, którego już nie ma → Past Simple. used to travel i would travel też są dobre, bo to powtarzana czynność, a nie stan."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Pisownia: w brytyjskim angielskim l się podwaja (travelled). Amerykańskie traveled też jest poprawne, ale domyślna jest wersja brytyjska."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "V1 + -ed, w brytyjskim z podwojonym l → travelled (albo used to / would + V1)."
+      }
+    ],
+    "tags": ["past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "pas-bakery-how-long-ago",
+    "type": "gap-fill",
+    "sentence": "I've only just noticed that the bakery on the corner isn't there any more. How long ago ___ (it / close)?",
+    "correct": ["did it close"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "How long ago…? — ago liczy wstecz od teraz do jednego punktu w przeszłości (np. dwa miesiące temu)."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz, kiedy piekarnia przestała działać, czyli o jeden zakończony moment → Past Simple. To, że skutek widać teraz (piekarni nie ma), nie zmienia tego, że pytasz o moment."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Pierwsze zdanie stoi w Present Perfect (I've only just noticed) i kusi, żeby iść za nim. Ale ago nie łączy się z Present Perfect: How long ago has it closed? to błąd. O okres aż do teraz pyta się inaczej: How long has it been closed?"
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "How long ago + did + podmiot + V1 → How long ago did it close?"
+      }
+    ],
+    "tags": ["past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "pas-basketball-not-chosen",
+    "type": "gap-fill",
+    "sentence": "I ___ (not / choose) for the school basketball team last year, even though I went to every single training session.",
+    "correct": ["was not chosen"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "last year — zamknięty okres w przeszłości. Druga część (even though I went…) też stoi w Past Simple."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Wybór składu to jedno zakończone zdarzenie z zeszłego roku → Past Simple. Wybierał trener, a ja byłem tym, kogo nie wybrano, więc strona bierna."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po polsku mówisz „nie wybrali mnie”, więc kusi didn't choose. Ale I didn't choose znaczy, że to ja kogoś nie wybrałem. W biernej przeczenie robi was not, a nie did: didn't was chosen i was not chose to błędy."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "was not (wasn't) + V3: choose – chose – chosen → was not chosen."
+      }
+    ],
+    "tags": ["past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "pas-who-ate-cake",
+    "type": "gap-fill",
+    "sentence": "Who ___ (eat) the last piece of cake last night? I was saving it for breakfast!",
+    "correct": ["ate"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "last night — zamknięty moment. I was saving it — tło w przeszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Zjedzenie ciasta to jedno zakończone zdarzenie z wczorajszego wieczoru → Past Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Who pyta o podmiot (kto zjadł?), więc w zwykłym pytaniu nie ma did ani przestawienia: Who ate…?, nie Who did eat…?"
+      },
+      { "label_pl": "forma", "text_pl": "eat – ate – eaten (nieregularny) → ate." }
+    ],
+    "tags": ["past-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "pas-dad-long-hair",
+    "type": "gap-fill",
+    "sentence": "My dad ___ (have) long hair when he was at university, but now he's almost bald.",
+    "correct": ["had", "used to have"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "when he was at university + but now — okres, który się skończył, w kontraście z teraz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Długie włosy to stan, który wtedy trwał, a teraz nie jest już prawdą → Past Simple albo used to."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "would have tu nie pasuje: would opisuje tylko powtarzane czynności (would go, would play), a have w sensie „mieć” to stan. has had też nie, bo stan się skończył."
+      },
+      { "label_pl": "forma", "text_pl": "have → had (albo used to + V1 → used to have)." }
+    ],
+    "tags": ["past-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "pas-fire-alarm",
+    "type": "gap-fill",
+    "sentence": "When the fire alarm went off, everyone ___ (leave) the building immediately.",
+    "correct": ["left"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "When + went off + immediately — najpierw alarm, zaraz potem reakcja."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Dwa zakończone zdarzenia po kolei: alarm → wyjście. Jedno następuje po drugim, więc oba w Past Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "were leaving znaczyłoby, że wszyscy już wychodzili, kiedy rozległ się alarm, a immediately mówi, że wyszli PO nim. had left — że wyszli jeszcze przed alarmem."
+      },
+      { "label_pl": "forma", "text_pl": "leave – left – left (nieregularny) → left." }
+    ],
+    "tags": ["past-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "pas-revising-at-eight",
+    "type": "gap-fill",
+    "sentence": "At eight o'clock yesterday evening, my sister and I ___ (still / revise) for the chemistry test.",
+    "correct": ["were still revising"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "At eight o'clock yesterday evening + still — jeden punkt w czasie i czynność, która wtedy trwała."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "O 20:00 nauka była w trakcie: zaczęła się wcześniej i jeszcze się nie skończyła → Past Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "yesterday kusi, żeby wpisać Past Simple, ale revised to całe zakończone zdarzenie. Tu chodzi o to, co działo się w tamtym momencie."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "my sister and I = we → were + still + V-ing. revise traci -e: were still revising."
+      }
+    ],
+    "tags": ["past-continuous", "past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "pas-cycling-dog",
+    "type": "gap-fill",
+    "sentence": "I ___ (cycle) home from school when a dog suddenly ran out into the road.",
+    "correct": ["was cycling"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "when + suddenly ran out — nagłe zdarzenie w Past Simple wpada w coś, co trwało."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Jazda rowerem to tło w trakcie, wybiegnięcie psa — krótkie zdarzenie na tym tle → Past Continuous w luce."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "cycled znaczyłoby, że cała jazda nastąpiła dopiero wtedy, gdy wybiegł pies — bez sensu. Dwa Past Simple przy when to dwa zdarzenia po kolei."
+      },
+      { "label_pl": "forma", "text_pl": "was + V-ing. cycle traci -e → was cycling." }
+    ],
+    "tags": ["past-continuous", "past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "pas-projector-presentation",
+    "type": "gap-fill",
+    "sentence": "The projector stopped working while I ___ (give) my presentation, so I had to finish it without any slides.",
+    "correct": ["was giving"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "while + stopped working — krótkie zdarzenie wpada w czynność, która wtedy trwała."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Prezentacja była w trakcie: zaczęła się przed awarią, a skończyła po niej (so I had to finish it). Rzutnik padł w jej środku, więc prezentacja to tło → Past Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "gave oznaczałoby całą, zamkniętą prezentację, a druga część zdania mówi, że w chwili awarii jeszcze trwała. Po while zwykle stoi właśnie ta dłuższa, trwająca czynność."
+      },
+      { "label_pl": "forma", "text_pl": "was + V-ing. give traci -e → was giving." }
+    ],
+    "tags": ["past-continuous", "past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "pas-library-so-far",
+    "type": "gap-fill",
+    "sentence": "The new city library opened two weeks ago, and over a thousand people ___ (visit) it so far.",
+    "correct": ["have visited"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "so far — jak dotąd, czyli liczysz od otwarcia aż do teraz. two weeks ago dotyczy tylko otwarcia."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Okres liczenia się nie zamknął: ludzie dalej przychodzą, a liczba jest stanem na teraz → Present Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Pierwsza część słusznie stoi w Past Simple (opened two weeks ago — konkretny moment), ale ten sygnał nie przechodzi na lukę. visited zamknęłoby liczenie w przeszłości, a so far liczy aż do teraz."
+      },
+      { "label_pl": "forma", "text_pl": "people = liczba mnoga → have + V3 → have visited." }
+    ],
+    "tags": ["present-perfect", "past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "pas-known-marta",
+    "type": "gap-fill",
+    "sentence": "I ___ (know) Marta since we started primary school together, so she's like a sister to me.",
+    "correct": ["have known"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "since + we started — punkt startowy w przeszłości, a znajomość trwa dalej (she's like a sister)."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Stan trwa od przeszłości do teraz → Present Perfect. started stoi w Past Simple, bo to konkretny, zakończony moment startu."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po polsku „znam ją od…” jest w teraźniejszym, a knew odcięłoby znajomość od teraz. know to czasownik stanu, więc bez -ing (nie have been knowing)."
+      },
+      { "label_pl": "forma", "text_pl": "have + V3: know – knew – known → have known." }
+    ],
+    "tags": ["present-perfect", "past-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "pas-overslept-this-week",
+    "type": "gap-fill",
+    "sentence": "I ___ (oversleep) twice this week, and it's only Wednesday — I really need a new alarm clock.",
+    "correct": ["have overslept"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "this week + and it's only Wednesday — tydzień jeszcze trwa."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Liczysz, ile razy coś się zdarzyło w okresie, który się nie skończył (do końca tygodnia może dojść kolejny raz) → Present Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Każde zaspanie już minęło, więc kusi overslept. Ale Past Simple pasowałby dopiero do zamkniętego okresu (last week I overslept twice) albo do konkretnego dnia (I overslept on Monday). Samo this week nie przesądza, decyduje to, czy tydzień jeszcze trwa."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "have + V3: oversleep – overslept – overslept → have overslept. twice liczy razy, więc forma prosta, nie Continuous."
+      }
+    ],
+    "tags": ["present-perfect", "past-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "pas-classmate-ten-years",
+    "type": "gap-fill",
+    "sentence": "At the reunion I didn't recognise my old classmate at first, because I ___ (not / see) him for over ten years.",
+    "correct": ["had not seen"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "didn't recognise (moment w przeszłości) + for over ten years — okres, który trwał aż do tamtego momentu."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Niewidzenie się trwało do chwili spotkania, czyli do punktu w przeszłości. To jak Present Perfect przesunięty w przeszłość → Past Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "didn't see opisywałoby zamknięty okres gdzieś w przeszłości, a tu okres kończy się dokładnie na zjeździe. haven't seen odnosiłoby się do teraz."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had not + V3: see – saw – seen → had not seen (hadn't seen)."
+      }
+    ],
+    "tags": ["past-perfect", "past-simple"],
+    "difficulty": 3
+  }
+]

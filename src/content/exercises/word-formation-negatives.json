@@ -1,0 +1,623 @@
+[
+  {
+    "id": "wf-neg-fog",
+    "type": "word-formation",
+    "text": "The fog was so thick that it was almost ___ to see the car in front of us.",
+    "gaps": [
+      {
+        "base": "POSSIBLE",
+        "correct": ["impossible"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Wzór it was + przymiotnik + to + czasownik, jak w it was hard to see. Po was i almost potrzebny jest przymiotnik."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Mgła była bardzo gęsta, więc auta przed nami prawie nie było widać. Zdanie wymaga przeczenia: impossible, niemożliwe. possible odwróciłoby sens."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Przeczenie in- przed p, b i m zmienia się w im-, bo tak łatwiej to wymówić: possible → impossible. Nie każde słowo na p bierze im- (jest też unpopular), więc takie pary trzeba po prostu znać."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "unpossible to błąd i daje 0 pkt. We współczesnym angielskim jest tylko impossible."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 1
+  },
+  {
+    "id": "wf-neg-no-licence",
+    "type": "word-formation",
+    "text": "Driving without a valid licence is ___, so if the police stop you, you can expect a heavy fine.",
+    "gaps": [
+      {
+        "base": "LEGAL",
+        "correct": ["illegal"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Podmiotem jest driving without a valid licence, a po is potrzebny przymiotnik, który ocenia tę czynność."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Za jazdę bez prawa jazdy dostaje się wysoki mandat, więc to coś zakazanego: illegal, nielegalne."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Przed l przeczenie in- zmienia się w il-: il + legal = illegal, z podwójnym l. Tak samo logical → illogical."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "ilegal (jedno l) i unlegal to 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 1
+  },
+  {
+    "id": "wf-neg-cheap-hostel",
+    "type": "word-formation",
+    "text": "Although the hostel was very cheap, the beds were surprisingly ___, and we slept really well.",
+    "gaps": [
+      {
+        "base": "COMFORT",
+        "correct": ["comfortable"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po were surprisingly stoi przymiotnik opisujący łóżka. surprisingly to przysłówek, który go tylko wzmacnia."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Although zapowiada kontrast z cheap: tanio, a jednak wygodnie. Potwierdza to koniec zdania, bo dobrze się spało. Czyli łóżka były wygodne: comfortable."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "comfort + -able = comfortable. Końcówka to -able, nie -ible."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "uncomfortable kusi przez cheap, ale kłóci się z we slept really well. comfortably to przysłówek i po were nie pasuje."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-neg-hotel-shifts",
+    "type": "word-formation",
+    "text": "My aunt works ___ hours at the hotel: one week she starts at six in the morning, and the next she works nights.",
+    "gaps": [
+      {
+        "base": "REGULAR",
+        "correct": ["irregular"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Luka stoi przed rzeczownikiem hours. Słowo, które mówi, jakie są te godziny, to przymiotnik."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Raz zaczyna o szóstej rano, raz pracuje w nocy, więc jej godziny ciągle się zmieniają. Potrzebne przeczenie: irregular, nieregularne."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Przed r przeczenie in- zmienia się w ir-: ir + regular = irregular, z podwójnym r. Tak samo responsible → irresponsible."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "unregular i iregular (jedno r) to 0 pkt. irregularly to przysłówek i przed rzeczownikiem nie pasuje."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 1
+  },
+  {
+    "id": "wf-neg-copied-essay",
+    "type": "word-formation",
+    "text": "Copying a friend's essay and handing it in as your own work is ___, and most teachers spot it quickly anyway.",
+    "gaps": [
+      {
+        "base": "HONEST",
+        "correct": ["dishonest"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Podmiotem jest cała czynność (copying … and handing it in), a po is potrzebny przymiotnik, który ją ocenia."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Oddanie cudzej pracy jako swojej to oszukiwanie. Zdanie wymaga przeczenia: dishonest, nieuczciwy."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "honest tworzy przeczenie z dis-: dis + honest = dishonest, bez zmian w pisowni. Rzeczownik od niego to dishonesty."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "unhonest to 0 pkt, bo honest łączy się z dis-, nie z un-."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 1
+  },
+  {
+    "id": "wf-neg-theatre-seats",
+    "type": "word-formation",
+    "text": "Book your tickets as soon as possible, because there is only a ___ number of seats in the theatre.",
+    "gaps": [
+      {
+        "base": "LIMIT",
+        "correct": ["limited"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Luka stoi między a i rzeczownikiem number, więc to przymiotnik (a small number, a large number)."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Rada, żeby kupić bilety jak najszybciej, i słowo only pokazują, że miejsc jest mało. Ich liczba jest ograniczona: limited."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "limit + -ed = limited. Bez podwajania t, bo akcent pada na pierwszą sylabę (LI-mit), jak w visit → visited."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "unlimited (nieograniczona) odwraca sens: przy nieograniczonej liczbie miejsc nie trzeba by się spieszyć."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 1
+  },
+  {
+    "id": "wf-neg-village-cinema",
+    "type": "word-formation",
+    "text": "The only ___ of living in such a small village is that the nearest cinema is forty kilometres away.",
+    "gaps": [
+      {
+        "base": "ADVANTAGE",
+        "correct": ["disadvantage"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po the only, a przed of stoi rzeczownik, jak w the only problem of …"
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Kino czterdzieści kilometrów dalej to minus mieszkania na wsi, nie plus. Potrzebne przeczenie: disadvantage, wada."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "dis + advantage = disadvantage, bez żadnych zmian w pisowni."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Jest the only … is, więc chodzi o jedną wadę. disadvantages to 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 1
+  },
+  {
+    "id": "wf-neg-meeting-place",
+    "type": "word-formation",
+    "text": "I'm sorry, there must have been a ___: I thought we were meeting at the cinema, not at the café.",
+    "gaps": [
+      {
+        "base": "UNDERSTAND",
+        "correct": ["misunderstanding"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po a potrzebny jest rzeczownik policzalny w liczbie pojedynczej, jak w there must have been a mistake."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Mówiący pomylił miejsce spotkania, czyli ktoś coś źle zrozumiał. To nieporozumienie: misunderstanding. understanding (zrozumienie) odwróciłoby sens."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Prefiks mis- znaczy „źle, błędnie”: misunderstand to źle zrozumieć. Rzeczownik robimy przez -ing: misunderstanding."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "misunderstandings po a to 0 pkt. misunderstood to forma czasownika i po a nie pasuje."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-neg-berlin-trip",
+    "type": "word-formation",
+    "text": "Our class can't organise the trip to Berlin without the ___ of the head teacher, so we're meeting her on Monday.",
+    "gaps": [
+      {
+        "base": "APPROVE",
+        "correct": ["approval"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po the, a przed of stoi rzeczownik, jak w without the help of …"
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Klasa nie może zorganizować wycieczki bez zgody dyrektorki, dlatego idzie do niej w poniedziałek. Zgoda na coś to approval."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "approve traci końcowe e i dostaje -al: approval. Tak samo propose → proposal, remove → removal."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "disapproval (dezaprobata) kusi, bo w zdaniu są już can't i without. Ale can't … without the disapproval znaczyłoby, że potrzebują jej sprzeciwu, a to bez sensu. approvement to błąd (we współczesnym angielskim się tego nie używa) i daje 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-neg-iceland-trip",
+    "type": "word-formation",
+    "text": "Our trip to Iceland was ___: I'll remember the northern lights for the rest of my life.",
+    "gaps": [
+      {
+        "base": "FORGET",
+        "correct": ["unforgettable"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po was stoi przymiotnik, który opisuje wycieczkę."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Zorzę polarną będzie pamiętać do końca życia, czyli tej wycieczki nie da się zapomnieć: unforgettable, niezapomniana. Tu przeczenie un- daje sens bardzo pozytywny."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Trzy części: un- + forget + -able. forget ma akcent na końcu (for-GET) i kończy się spółgłoską po krótkiej samogłosce, więc t się podwaja: forgettable."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "unforgetable (jedno t) to 0 pkt. forgettable znaczy „łatwy do zapomnienia”, czyli coś odwrotnego."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  },
+  {
+    "id": "wf-neg-phone-ticket",
+    "type": "word-formation",
+    "text": "Printing your ticket is ___ because the code on your phone is enough to get on the train.",
+    "gaps": [
+      {
+        "base": "NECESSARY",
+        "correct": ["unnecessary"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Podmiotem jest printing your ticket, a po is stoi przymiotnik, który ocenia tę czynność."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Kod w telefonie wystarczy, żeby wsiąść do pociągu, więc drukowanie nie jest potrzebne: unnecessary, zbędne."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "un + necessary = unnecessary. Na styku spotykają się dwa n i oba zostają. W samym necessary jest jedno c i dwa s."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "unecessary (jedno n) i unneccessary (dwa c) to 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-neg-dark-clouds",
+    "type": "word-formation",
+    "text": "Despite the dark clouds, the forecast says it isn't very ___ to rain this afternoon.",
+    "gaps": [
+      {
+        "base": "LIKE",
+        "correct": ["likely"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po isn't very stoi przymiotnik, a po nim to rain. Wzór be likely to + czasownik znaczy, że coś prawdopodobnie się stanie."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Despite zapowiada kontrast: chmury sugerują deszcz, a prognoza mówi, że raczej nie będzie padać. Przeczenie już jest w isn't, więc w luce zostaje forma bez przeczenia: likely."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "like + -ly = likely. Tu -ly nie robi przysłówka, tylko przymiotnik („prawdopodobny”)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "unlikely daje podwójne przeczenie: it isn't very unlikely znaczy, że deszcz jest całkiem możliwy, i wtedy despite traci sens. To 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  },
+  {
+    "id": "wf-neg-tom-games",
+    "type": "word-formation",
+    "text": "Although Tom is twenty-five, he is still quite ___ and behaves like a little child whenever he loses a game.",
+    "gaps": [
+      {
+        "base": "MATURE",
+        "correct": ["immature"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po is still quite stoi przymiotnik opisujący Toma, jak w he is quite tall. quite to przysłówek stopnia i mówi tylko, jak bardzo."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Although zapowiada kontrast: ma 25 lat, a zachowuje się jak małe dziecko. Czyli jest niedojrzały: immature."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Przed m przeczenie in- zmienia się w im-: im + mature = immature, z podwójnym m."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "imature (jedno m) i unmature to 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-neg-free-phone",
+    "type": "word-formation",
+    "text": "The advert was ___ because the 'free' phone actually cost thirty pounds a month for two years.",
+    "gaps": [
+      {
+        "base": "LEAD",
+        "correct": ["misleading"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po was stoi przymiotnik, który opisuje reklamę."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Telefon „za darmo” kosztował 30 funtów miesięcznie, więc reklama dawała fałszywy obraz. Wprowadzająca w błąd to misleading. mis- znaczy „źle, błędnie”."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "mis + lead + -ing = misleading. Przymiotnik na -ing opisuje to, co wywołuje efekt (reklama wprowadza w błąd), jak boring albo confusing."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "misled opisuje ludzi, których wprowadzono w błąd (customers were misled). The advert was misled znaczyłoby, że to reklamę ktoś oszukał, więc to 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  },
+  {
+    "id": "wf-neg-uncle-doctor",
+    "type": "word-formation",
+    "text": "The doctor told my uncle that he was seriously ___ and had to cut down on sweets and fast food.",
+    "gaps": [
+      {
+        "base": "WEIGHT",
+        "correct": ["overweight"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po he was seriously stoi przymiotnik opisujący wujka. seriously to przysłówek, który go tylko wzmacnia."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Lekarz każe mu jeść mniej słodyczy i fast foodu, więc wujek waży za dużo: overweight. over- znaczy „za dużo”, under- „za mało”."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "over + weight = overweight. To słowo od razu jest przymiotnikiem, nie dodaje się żadnej końcówki."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "underweight (z niedowagą) odwraca sens: komuś z niedowagą lekarz nie kazałby ograniczać jedzenia. overweighted tu nie pasuje i daje 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-neg-strike",
+    "type": "word-formation",
+    "text": "After weeks of difficult talks, the union and the company finally reached an ___, and the strike ended.",
+    "gaps": [
+      {
+        "base": "AGREE",
+        "correct": ["agreement"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po an potrzebny jest rzeczownik w liczbie pojedynczej. reach an agreement to stałe połączenie."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Strajk się skończył, więc obie strony się dogadały. To porozumienie: agreement."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "agree + -ment = agreement. Podwójne e z agree zostaje."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "disagreement kusi przez difficult talks, ale nie pasuje do końca strajku. Do tego przed disagreement byłoby a, nie an. agreements po an to 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-neg-nurses-salaries",
+    "type": "word-formation",
+    "text": "Many nurses feel ___ because their salaries are low compared with how hard they work.",
+    "gaps": [
+      {
+        "base": "PAY",
+        "correct": ["underpaid"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po feel stoi przymiotnik, jak w feel tired. Tu będzie to przymiotnik zrobiony z trzeciej formy czasownika (paid)."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Pielęgniarki dostają pensję, tylko za niską w stosunku do pracy. Czyli są za mało opłacane: underpaid. under- znaczy „za mało”."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "pay ma nieregularną formę paid, więc under + paid = underpaid."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "underpayed to 0 pkt. unpaid znaczy „nieopłacany w ogóle” (np. unpaid work), a one pensję dostają. overpaid odwraca sens."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-neg-rich-poor",
+    "type": "word-formation",
+    "text": "According to the report, ___ between the richest and the poorest families has grown: the rich are getting richer, and the poor are getting poorer.",
+    "gaps": [
+      {
+        "base": "EQUAL",
+        "correct": ["inequality"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Luka to podmiot zdania (przed between … has grown) i nie ma przed nią przedimka. Potrzebny rzeczownik w liczbie pojedynczej, bo czasownik to has."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Bogaci się bogacą, a biedni biednieją, więc różnica między nimi rośnie. To nierówność: inequality. equality (równość) nie pasuje do drugiej części zdania."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Rzeczownik od equal to equality (-ity). Przeczenie rzeczownika robi się przez in-: inequality, choć przymiotnik ma un-: unequal."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "unequality to błąd (we współczesnym angielskim się tego nie używa) i daje 0 pkt. inequalities nie pasuje do has, więc też 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  },
+  {
+    "id": "wf-neg-lost-final",
+    "type": "word-formation",
+    "text": "Our team lost the final mainly because most of the players were young and ___.",
+    "gaps": [
+      {
+        "base": "EXPERIENCE",
+        "correct": ["inexperienced"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po young and stoi drugi przymiotnik, który razem z young opisuje zawodników."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Drużyna przegrała, bo zawodnicy byli młodzi i nie mieli doświadczenia: inexperienced, niedoświadczeni. experienced odwróciłoby sens."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Dwa afiksy: in- (przeczenie) + experience + -d (przymiotnik na -ed). experience kończy się na e, więc dochodzi samo d."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "inexperience to rzeczownik (brak doświadczenia), a po young and musi być przymiotnik, więc to 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  },
+  {
+    "id": "wf-neg-hotel-rooms",
+    "type": "word-formation",
+    "text": "All the rooms in this hotel are for ___ only, so if you want a cigarette, you'll have to go outside.",
+    "gaps": [
+      {
+        "base": "SMOKE",
+        "correct": ["non-smokers"],
+        "accepted": ["nonsmokers"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po for stoi rzeczownik: dla kogo są pokoje. Nie ma przedimka i chodzi o ludzi ogólnie, więc liczba mnoga."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Żeby zapalić, trzeba wyjść na zewnątrz, więc pokoje są dla niepalących: non-smokers."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "smoke kończy się na e, więc osoba to smoke + -r = smoker. Potem non- z łącznikiem i -s na liczbę mnogą: non-smokers. W amerykańskim też bez łącznika."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "non-smoker bez -s to 0 pkt, bo w liczbie pojedynczej potrzebny byłby przedimek (a non-smoker). non-smoking to przymiotnik (a non-smoking room, the hotel is non-smoking). Po for pytamy, dla kogo są pokoje, więc potrzebny jest rzeczownik oznaczający ludzi: non-smokers. smokers odwraca sens."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  }
+]

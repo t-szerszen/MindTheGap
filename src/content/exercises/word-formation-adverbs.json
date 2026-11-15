@@ -1,0 +1,623 @@
+[
+  {
+    "id": "wf-adv-grandparents",
+    "type": "word-formation",
+    "text": "My grandparents have been ___ married for over fifty years, and they still hold hands when they go for a walk.",
+    "gaps": [
+      {
+        "base": "HAPPY",
+        "correct": ["happily"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Luka stoi przed married, które działa tu jak przymiotnik (są małżeństwem). Słowo, które określa przymiotnik albo imiesłów, to przysłówek."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Po pięćdziesięciu latach nadal trzymają się za ręce, więc to udane małżeństwo. happily married to stałe połączenie: są szczęśliwym małżeństwem. unhappily odwróciłoby sens reszty zdania."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "happy kończy się spółgłoską + y, więc przed -ly y zmienia się w i: happy → happily. Tak samo easy → easily, angry → angrily."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "happyly to 0 pkt. Wystarczy jedna zła litera."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 1
+  },
+  {
+    "id": "wf-adv-loud-party",
+    "type": "word-formation",
+    "text": "The music at the party was so loud that I could ___ hear what my friends were saying.",
+    "gaps": [
+      {
+        "base": "HARD",
+        "correct": ["hardly"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Między could a czasownikiem hear może stać tylko przysłówek, tak jak w could easily hear albo could only hear."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Muzyka była za głośna, więc ledwo słyszałem znajomych. ledwo, prawie wcale = hardly."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "hard + -ly → hardly. To nie jest „ciężko” w innej formie, tylko osobne słowo o innym znaczeniu."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "hard samo jest już przysłówkiem (work hard = ciężko pracować) i stoi po czasowniku, nie przed nim. hardly ma w sobie przeczenie, więc nie dodaje się not: I could hardly hear, a nie I couldn't hardly hear."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adv-nurse-plaster",
+    "type": "word-formation",
+    "text": "The nurse ___ removed the plaster from the little boy's knee so that it wouldn't hurt.",
+    "gaps": [
+      {
+        "base": "GENTLE",
+        "correct": ["gently"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Między podmiotem (The nurse) a czasownikiem (removed) stoi słowo, które mówi, jak zdjęła plaster. Czasownik określa przysłówek."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "so that it wouldn't hurt: chodziło o to, żeby nie bolało, czyli delikatnie = gently."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Przymiotniki na spółgłoskę + -le gubią końcowe e i dostają samo -y: gentle → gently. Tak samo simple → simply, terrible → terribly."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "gentlely i gentlly to 0 pkt. Nie dokleja się całego -ly, tylko -le zamienia się na -ly."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 1
+  },
+  {
+    "id": "wf-adv-festival-tickets",
+    "type": "word-formation",
+    "text": "I wanted to buy tickets for the festival, but ___, they had all sold out within an hour.",
+    "gaps": [
+      {
+        "base": "FORTUNE",
+        "correct": ["unfortunately"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Luka stoi między but a przecinkiem, przed pełnym zdaniem they had all sold out. To miejsce na przysłówek, który komentuje całe zdanie, jak luckily albo sadly."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Chciałem kupić bilety, a się wyprzedały, czyli zła wiadomość. but też zapowiada coś, co psuje plan. Tu przeczenie jest potrzebne: niestety = unfortunately."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "fortune (rzeczownik) → fortunate (przymiotnik, zamiast -e końcówka -ate) → fortunately → z przedrostkiem un-: unfortunately. Końcowe e z fortunate zostaje przed -ly."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "fortunately (na szczęście) odwraca sens zdania i daje 0 pkt. Tak samo unfortunatly bez e."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adv-hotel-august",
+    "type": "word-formation",
+    "text": "The hotel was ___ booked for the whole of August, so we had to look for a campsite instead.",
+    "gaps": [
+      {
+        "base": "FULL",
+        "correct": ["fully"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Luka stoi między was a booked. booked to imiesłów (zarezerwowany), a słowo przed nim mówi, w jakim stopniu. To robota przysłówka."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Musieliśmy szukać kempingu, więc wolnych pokoi nie było wcale. fully booked = całkowicie zarezerwowany, bez wolnych miejsc."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "full kończy się na -ll, więc dochodzi samo -y: full → fully. Tak samo dull → dully."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "fullly (trzy l) i fuly (jedno l) to 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 1
+  },
+  {
+    "id": "wf-adv-debating",
+    "type": "word-formation",
+    "text": "___, the shy boy who never says a word in lessons won the school debating competition.",
+    "gaps": [
+      {
+        "base": "SURPRISE",
+        "correct": ["Surprisingly"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Luka na początku zdania, przed przecinkiem. Tam stoi przysłówek, który komentuje całe wydarzenie."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Nieśmiały chłopak, który nigdy się nie odzywa, wygrał konkurs debat. Nikt się tego nie spodziewał, czyli ku zaskoczeniu wszystkich = surprisingly. unsurprisingly znaczy „nic dziwnego” i kłóci się z resztą zdania."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "surprise → surprising (e znika przed -ing) → surprisingly. Bierzemy formę na -ing, bo zaskakujący jest sam fakt (a surprising result). Forma na -ed opisuje człowieka, który czuje zaskoczenie (I was surprised)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Samo surprising albo surprised to 0 pkt. To przymiotniki, a w tym miejscu potrzebny jest przysłówek."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adv-driving-test",
+    "type": "word-formation",
+    "text": "Ola kept looking ___ at the clock while she was waiting for her driving test to start.",
+    "gaps": [
+      {
+        "base": "ANXIETY",
+        "correct": ["anxiously"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Luka stoi po looking, a przed at the clock, i mówi, jak Ola patrzyła na zegar. Czasownik określa przysłówek."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Czeka na egzamin na prawo jazdy i co chwilę zerka na zegar, czyli się denerwuje: z niepokojem, nerwowo = anxiously. anxiety to niepokój."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "anxiety (rzeczownik) → anxious (przymiotnik, -ety zamienia się w -ous) → anxiously (+ -ly)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Samo anxious to 0 pkt. Przymiotnik stoi po look tylko wtedy, gdy look znaczy wyglądać (She looked anxious = wyglądała na zdenerwowaną). Tu jest look at, czyli patrzeć, a sposób patrzenia określa przysłówek."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adv-sports-centre",
+    "type": "word-formation",
+    "text": "___, the new sports centre will open in March, but the council hasn't officially confirmed the date yet.",
+    "gaps": [
+      {
+        "base": "APPEAR",
+        "correct": ["Apparently"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Początek zdania, przecinek, a dalej pełne zdanie. To miejsce na przysłówek, który komentuje całą informację."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Data nie jest jeszcze potwierdzona, więc mówiący powtarza coś, co słyszał: podobno, najwyraźniej = apparently."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "appear → apparent (przymiotnik: ea zmienia się w a, dochodzi -ent) → apparently. Pisownia zmienia się już w przymiotniku."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "appearently i apparantly to 0 pkt. appearance to rzeczownik z tej samej rodziny i nie pasuje do miejsca w zdaniu."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  },
+  {
+    "id": "wf-adv-moving-house",
+    "type": "word-formation",
+    "text": "I am ___ grateful to all of you for helping me move house last weekend.",
+    "gaps": [
+      {
+        "base": "TRUE",
+        "correct": ["truly"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Luka stoi przed przymiotnikiem grateful i mówi, jak bardzo. Przymiotnik określa przysłówek, tak jak w really grateful albo very grateful."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "To podziękowanie, więc bez przeczenia. truly grateful = naprawdę, szczerze wdzięczny."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Zwykle końcowe e zostaje przed -ly (complete → completely). true to wyjątek: e znika, true → truly."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "truely to najczęstszy błąd w tym słowie i daje 0 pkt. Tak samo działa due → duly i whole → wholly."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adv-weather-valley",
+    "type": "word-formation",
+    "text": "The weather ___ improved during the afternoon, and by six o'clock the sun was shining over the whole valley.",
+    "gaps": [
+      {
+        "base": "GRADUAL",
+        "correct": ["gradually"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Luka stoi między podmiotem (The weather) a czasownikiem improved. Czasownik określa przysłówek."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "during the afternoon i by six o'clock pokazują, że poprawa szła krok po kroku przez kilka godzin: stopniowo = gradually."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "gradual kończy się na -al, a do tego dochodzi -ly. Stąd dwa l: gradual + ly → gradually."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "gradualy (jedno l) to 0 pkt. graduation czy graduate też dają 0, bo to inne słowa (ukończenie szkoły, absolwent)."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 1
+  },
+  {
+    "id": "wf-adv-tired-lately",
+    "type": "word-formation",
+    "text": "I've been feeling really tired ___, so I've decided to go to bed before eleven every night.",
+    "gaps": [
+      {
+        "base": "LATE",
+        "correct": ["lately"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "I've been feeling really tired to już pełne zdanie. Na końcu zostaje miejsce tylko na okolicznik, czyli przysłówek, tutaj czasu."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Chodzi o to, jak się czuję od jakiegoś czasu aż do teraz: ostatnio = lately (to samo co recently). Pasuje do I've been feeling, które łączy przeszłość z teraźniejszością."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "late + -ly → lately. Końcowe e zostaje."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "late jako przysłówek znaczy późno (I went to bed late) i tu nie ma sensu: nie jestem zmęczony późno, tylko ostatnio. To dwa różne słowa, jak hard i hardly."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adv-match-pizza",
+    "type": "word-formation",
+    "text": "We watched the match at Kuba's house and ___ we all went out for a pizza to celebrate the win.",
+    "gaps": [
+      {
+        "base": "AFTER",
+        "correct": ["afterwards"],
+        "accepted": ["afterward", "thereafter"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po and zaczyna się nowe zdanie (we all went out). Słowo przed nim mówi, kiedy to się stało, więc to przysłówek czasu."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Najpierw mecz, potem pizza. potem, później = afterwards."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "after + -wards → afterwards. Końcówka -wards mówi o kierunku albo kolejności, jak w backwards czy upwards. Po brytyjsku z s na końcu, amerykańskie afterward też jest dobrze."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "afterword (przez o) to rzeczownik: posłowie w książce. Jedna litera zmienia słowo i daje 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adv-deleted-photos",
+    "type": "word-formation",
+    "text": "I ___ deleted all the photos from our school trip when I was trying to free up some space on my phone.",
+    "gaps": [
+      {
+        "base": "ACCIDENT",
+        "correct": ["accidentally"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Luka stoi między I a czasownikiem deleted i mówi, jak to się stało. Czasownik określa przysłówek."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Chciałem tylko zwolnić miejsce, a usunąłem zdjęcia, czyli niechcący, przez przypadek = accidentally."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "accident (rzeczownik) → accidental (przymiotnik, + -al) → accidentally (+ -ly, więc dwa l)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "accidently, bez al, to częsty błąd i 0 pkt. Wymawia się podobnie, ale w piśmie musi zostać cała droga: accident → accidental → accidentally."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adv-camping-lake",
+    "type": "word-formation",
+    "text": "___, the weather will be better at the weekend, as we're planning to go camping by the lake.",
+    "gaps": [
+      {
+        "base": "HOPE",
+        "correct": ["Hopefully"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Początek zdania, przecinek, a dalej pełne zdanie. To miejsce na przysłówek, który je komentuje."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Mówiący chce ładnej pogody, bo jedzie pod namiot, ale pewności nie ma: miejmy nadzieję = hopefully. hopelessly (beznadziejnie) nie ma tu sensu."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "hope + -ful → hopeful (jedno l), potem + -ly → hopefully (dwa l)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "hopefuly i hopefull to 0 pkt. Końcówka -ful ma zawsze jedno l, podwójne pojawia się dopiero po dodaniu -ly."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 1
+  },
+  {
+    "id": "wf-adv-singer-apology",
+    "type": "word-formation",
+    "text": "The singer ___ apologised to her fans on social media for cancelling the concert at the last minute.",
+    "gaps": [
+      {
+        "base": "PUBLIC",
+        "correct": ["publicly"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Luka stoi między podmiotem (The singer) a czasownikiem apologised. Czasownik określa przysłówek."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Przeprosiła w mediach społecznościowych, czyli tak, że wszyscy to widzieli: publicznie = publicly."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "public + -ly → publicly. To wyjątek: prawie wszystkie inne przymiotniki na -ic dostają -ally (basic → basically), a public tylko -ly."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "publically wygląda logicznie, ale to błąd ortograficzny i daje 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  },
+  {
+    "id": "wf-adv-post-office-queue",
+    "type": "word-formation",
+    "text": "Although the queue at the post office was very long, everyone waited ___ and nobody complained.",
+    "gaps": [
+      {
+        "base": "PATIENT",
+        "correct": ["patiently"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po czasowniku waited luka mówi, jak czekali. Czasownik określa przysłówek."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "nobody complained: nikt nie narzekał, czyli czekali cierpliwie. Although pokazuje kontrast: kolejka długa, a mimo to spokój. Potrzebne patiently, bez przeczenia."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "patient (cierpliwy) + -ly → patiently."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "impatiently (niecierpliwie) niby pasuje do długiej kolejki, ale kłóci się z nobody complained i daje 0 pkt. patience to rzeczownik, więc też 0."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adv-summer-job",
+    "type": "word-formation",
+    "text": "___, the job involves answering customers' emails and helping them over the phone, so it isn't very difficult.",
+    "gaps": [
+      {
+        "base": "BASIC",
+        "correct": ["Basically"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Luka na początku zdania, przed przecinkiem. Tam stoi przysłówek, który komentuje całe zdanie, jak Honestly albo Actually."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Mówiący w skrócie mówi, na czym polega praca: w zasadzie, w gruncie rzeczy = basically."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Przymiotniki na -ic dostają -ally, a nie samo -ly: basic → basically. Tak samo dramatic → dramatically, automatic → automatically."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "basicly to 0 pkt, chociaż tak się to wymawia."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adv-red-light",
+    "type": "word-formation",
+    "text": "He was driving so ___ that he didn't notice the red light and almost hit a cyclist.",
+    "gaps": [
+      {
+        "base": "CARE",
+        "correct": ["carelessly"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "W układzie so ___ that luka określa czasownik was driving, czyli mówi, jak jechał. Czasownik określa przysłówek, więc nie przymiotnik careless."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Nie zauważył czerwonego światła i prawie potrącił rowerzystę, czyli jechał nieuważnie. Potrzebna końcówka -less (bez): careless = nieuważny."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "care + -less → careless, potem + -ly → carelessly. Dwa s z -less zostają."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "carefully (ostrożnie) to odwrotny sens i 0 pkt. Przy każdej luce sprawdź, czy zdanie chce pozytywnej, czy negatywnej wersji słowa."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adv-birthday-party",
+    "type": "word-formation",
+    "text": "I'll ___ come to your birthday party on Saturday — I wouldn't miss it for anything!",
+    "gaps": [
+      {
+        "base": "DEFINITE",
+        "correct": ["definitely"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Luka stoi między 'll (will) a czasownikiem come. W tym miejscu stoi przysłówek, jak w will probably come albo will never come."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "I wouldn't miss it for anything: mówiący jest pewny, że przyjdzie. na pewno, zdecydowanie = definitely."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "definite + -ly → definitely. Końcowe e zostaje, jak w complete → completely."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "definately (przez a) to jeden z najczęstszych błędów w angielskim i daje 0 pkt. Słowo pochodzi od definite (określony), stąd -ite-. indefinitely znaczy „na czas nieokreślony” i tu nie ma sensu."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adv-diets-tested",
+    "type": "word-formation",
+    "text": "Many diets that are popular on the internet have never been ___ tested, so nobody knows if they really work.",
+    "gaps": [
+      {
+        "base": "SCIENCE",
+        "correct": ["scientifically"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Luka stoi między have never been a imiesłowem tested. Słowo przed imiesłowem mówi, w jaki sposób coś sprawdzono, czyli przysłówek."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Nie wiadomo, czy te diety działają, bo nikt nie sprawdził ich w badaniach: naukowo = scientifically."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "science (rzeczownik) → scientific (przymiotnik, -ce zmienia się w -tific) → scientifically (po -ic dochodzi -ally)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "scientificly i scientifical to 0 pkt. scientist (naukowiec) jest z tej samej rodziny, ale to rzeczownik i nie pasuje do miejsca w zdaniu."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  }
+]

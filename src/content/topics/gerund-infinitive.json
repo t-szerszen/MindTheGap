@@ -1,0 +1,643 @@
+{
+  "id": "gerund-infinitive",
+  "category": "grammar",
+  "title_pl": "Bezokolicznik czy -ing",
+  "summary_pl": "Co decyduje, czy po słowie stoi to + V1, samo V1 czy V-ing, i kiedy wybór formy zmienia znaczenie zdania.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "Kiedy w zdaniu spotykają się dwa czasowniki, drugi nie dostaje zwykłej formy z czasem. Staje w jednej z trzech form:\n\n- **V-ing**: I enjoy *cooking*.\n- **to + V1**: I decided *to cook*.\n- **V1 bez to**: Mum made me *cook*.\n\nFormy nie wybierasz na wyczucie. Decyduje ==to, co stoi przed luką==: czasownik (czasem z osobą po nim), przyimek albo przymiotnik, a przy kilku czasownikach także sens zdania. To jest sygnał, tak jak *yesterday* przy czasach.\n\nPo polsku po czasowniku zwykle stoi bezokolicznik (*lubię gotować*, *postanowiłem pojechać*), więc polski prawie nic tu nie podpowiada. Dlatego uczysz się sygnałów."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "co stoi przed luką?",
+          "text_pl": "Przyimek (in, of, about, without, instead of, też to w look forward to) → V-ing. Modal (też had better i would rather, ale ought to z to), make albo let → V1 bez to. Przymiotnik bez przyimka (easy, hard, glad, surprised) → zwykle to + V1, ale busy i worth biorą -ing."
+        },
+        {
+          "step_pl": "jaki to czasownik?",
+          "text_pl": "Jeśli przed luką jest czasownik, sprawdź jego grupę: bierze -ing (enjoy, avoid), bierze to (decide, manage) albo najpierw osobę, a potem to (want sb to, tell sb to)."
+        },
+        {
+          "step_pl": "czy zmienia znaczenie?",
+          "text_pl": "remember, forget, regret, stop, go on: pytasz, czy czynność już była albo trwa (-ing), czy dopiero ma nastąpić (to). try i mean: pytasz o sens. try to = staram się, try -ing = sprawdzam sposób; mean to = zamierzam, mean -ing = oznacza, wiąże się z czymś."
+        },
+        {
+          "step_pl": "forma",
+          "text_pl": "Czynność wcześniejsza niż główny czasownik → having V3 albo to have V3. Ktoś robi coś podmiotowi → being V3 albo to be V3. Przeczenie: not tuż przed formą (not doing, not to do)."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Skąd ta różnica?** Jest ogólna tendencja, która pomaga zapamiętać grupy:\n\n- **to + V1** często patrzy ==do przodu==: zamiar, decyzja, plan, obietnica. *to* pochodzi od przyimka kierunku (coś jak „ku”). *I decided to go*: najpierw decyzja, potem wyjście.\n- **V-ing** mówi o czynności jak o ==rzeczy albo fakcie==: coś, co się dzieje albo już było. *I enjoy swimming*: lubisz pływanie, które znasz.\n\nTo tendencja, nie reguła. *avoid*, *consider* i *suggest* dotyczą przyszłości, a mimo to biorą -ing. Te czasowniki po prostu trzeba znać."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "enjoy / avoid / mind / keep", "role": "signal" },
+        { "text": "V-ing", "role": "verb" }
+      ],
+      "example": {
+        "en": "I don't mind waiting — I've brought a book.",
+        "pl": "Nie przeszkadza mi czekanie, wziąłem ze sobą książkę."
+      }
+    },
+    {
+      "type": "table",
+      "headers": ["Czasownik + V-ing", "Znaczenie", "Przykład"],
+      "rows": [
+        ["enjoy", "lubić, cieszyć się czymś", "We really enjoyed travelling around Sicily."],
+        ["avoid", "unikać", "Try to avoid eating just before bed."],
+        ["mind", "mieć coś przeciwko", "Do you mind waiting a few minutes?"],
+        ["consider", "rozważać", "Have you considered studying abroad?"],
+        ["suggest", "proponować", "Ola suggested going to the cinema."],
+        ["admit", "przyznać (się)", "He admitted breaking the window."],
+        ["deny", "zaprzeczać", "She denied taking the money."],
+        ["keep (on)", "ciągle coś robić, nie przestawać", "My laptop keeps switching off."],
+        ["finish", "skończyć", "Have you finished packing?"],
+        ["practise", "ćwiczyć", "I practise speaking with my cousin from Leeds."],
+        ["imagine", "wyobrażać sobie", "I can't imagine living without the internet."],
+        ["miss", "tęsknić za czymś", "I miss going to the beach every day."],
+        ["risk", "ryzykować", "Don't risk losing your place on the course."],
+        [
+          "can't help",
+          "nie móc się powstrzymać",
+          "I couldn't help laughing. (też: couldn't help but laugh)"
+        ],
+        ["can't stand", "nie znosić", "I can't stand waiting in queues."],
+        ["give up", "rzucić coś, przestać", "My dad gave up smoking ten years ago."],
+        [
+          "spend / waste + czas",
+          "spędzać / tracić czas na czymś",
+          "I spent the whole weekend revising for my exams."
+        ],
+        [
+          "have difficulty / trouble (in)",
+          "mieć trudność, kłopot z czymś",
+          "I had trouble finding a parking space."
+        ],
+        ["be busy", "być zajętym czymś", "She's busy packing for the trip."]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Po phrasal verbs zwykle stoi -ing: *give up smoking*, *carry on talking*, *put off doing homework*, *end up paying*. Wyjątki, które warto znać: *turn out to be*, *set out to do*, *go on to do*."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "decide / manage / refuse / afford", "role": "signal" },
+        { "text": "to", "role": "particle" },
+        { "text": "V1", "role": "verb" }
+      ],
+      "example": {
+        "en": "We couldn't afford to stay in a hotel, so we went camping.",
+        "pl": "Nie było nas stać na hotel, więc pojechaliśmy pod namiot."
+      }
+    },
+    {
+      "type": "table",
+      "headers": ["Czasownik + to V1", "Znaczenie", "Przykład"],
+      "rows": [
+        ["decide", "postanowić", "I've decided to take a gap year."],
+        ["manage", "zdołać, dać radę", "Did you manage to get tickets?"],
+        ["refuse", "odmówić", "He refused to answer my question."],
+        [
+          "afford",
+          "móc sobie pozwolić (zwykle z can / could)",
+          "We can't afford to buy a new car."
+        ],
+        ["offer", "zaproponować, że się coś zrobi", "Kuba offered to help me move."],
+        ["promise", "obiecać", "She promised to call me back."],
+        ["agree", "zgodzić się (coś zrobić)", "My parents agreed to lend me the money."],
+        ["seem", "wydawać się", "He seems to know everyone here."],
+        ["tend", "mieć skłonność, zwykle tak bywa", "Prices tend to go up in summer."],
+        [
+          "hope / plan / expect",
+          "mieć nadzieję / planować / spodziewać się",
+          "We hope to see you soon."
+        ],
+        ["learn", "nauczyć się", "I learnt to swim when I was six."],
+        ["pretend", "udawać", "He pretended to be asleep."],
+        [
+          "fail",
+          "nie zdołać, nie zrobić",
+          "Many students fail to read the instructions carefully."
+        ],
+        [
+          "would like / would love",
+          "chciałbym / bardzo chciałbym",
+          "I'd love to come to your party."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**suggest** to pułapka. *He suggested to go* ✗, *He suggested me to go* ✗. Dobrze: **He suggested going** albo **He suggested (that) we (should) go**."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Czasownik + osoba + to V1.** Gdy ktoś chce, prosi, każe albo pozwala komuś coś zrobić, najpierw stoi ==osoba==, a potem to + V1: *want, would like, ask, tell, allow, encourage, persuade, advise, remind, warn, expect, invite, force, teach*.\n\nPo polsku mówisz „chcę, **żebyś** przyszedł”. Po angielsku nie ma tu *that*: **I want you to come**, nie *I want that you come*."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "want / ask / tell / encourage", "role": "signal" },
+        { "text": "sb", "role": "object" },
+        { "text": "to", "role": "particle" },
+        { "text": "V1", "role": "verb" }
+      ],
+      "example": {
+        "en": "My teacher encouraged me to enter the competition.",
+        "pl": "Nauczycielka zachęciła mnie do wzięcia udziału w konkursie."
+      }
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "Mum asked me to take the rubbish out.",
+          "pl": "Mama poprosiła mnie, żebym wyniósł śmieci."
+        },
+        {
+          "en": "The doctor told him not to eat so much salt.",
+          "pl": "Lekarz powiedział mu, żeby nie jadł tyle soli."
+        },
+        {
+          "en": "I'd like you to meet my cousin.",
+          "pl": "Chciałbym, żebyś poznał mojego kuzyna."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "*allow* i *advise* bez osoby biorą -ing: **They don't allow smoking here.** **We advise booking early.** Z osobą wraca to: **They don't allow us to smoke here.**"
+    },
+    {
+      "type": "text",
+      "md_pl": "**make i let.** *make* (zmusić, kazać) i *let* (pozwolić) łączą się z osobą i ==samym V1, bez to==: *They made us wait.* *Let me explain.* *help* może być z to albo bez: *Can you help me (to) carry this?*\n\nPo czasownikach zmysłów (*see, hear, watch, notice, feel*) + osoba też stoi samo V1, gdy widzisz całą czynność od początku do końca: *I saw him leave.* Gdy widzisz tylko kawałek w trakcie, dajesz -ing: *I heard her singing in the shower.*"
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "make / let", "role": "signal" },
+        { "text": "sb", "role": "object" },
+        { "text": "V1", "role": "verb" }
+      ],
+      "example": {
+        "en": "My parents let me stay up late on Fridays.",
+        "pl": "Rodzice pozwalają mi siedzieć do późna w piątki."
+      }
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "strona czynna",
+          "md_pl": "**make / let + osoba + V1**, bez to.",
+          "examples": [
+            {
+              "en": "The coach made us run ten laps.",
+              "pl": "Trener kazał nam przebiec dziesięć okrążeń."
+            },
+            {
+              "en": "Our teacher let us leave early.",
+              "pl": "Nauczyciel pozwolił nam wyjść wcześniej."
+            }
+          ]
+        },
+        {
+          "title": "strona bierna",
+          "md_pl": "**be made + to V1**. *let + osoba + V1* nie ma strony biernej, więc zamiast niego: **be allowed + to V1**.",
+          "examples": [
+            {
+              "en": "We were made to run ten laps.",
+              "pl": "Kazano nam przebiec dziesięć okrążeń."
+            },
+            {
+              "en": "We were allowed to leave early.",
+              "pl": "Pozwolono nam wyjść wcześniej."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "W stronie biernej po *made* wraca to. Tak samo przy zmysłach: *He was seen to leave the building.*"
+    },
+    {
+      "type": "text",
+      "md_pl": "**Czasowniki, które zmieniają znaczenie.** *remember, forget, regret, stop, go on, try, mean* biorą obie formy, ale to dwa różne zdania. Przy *remember, forget, regret, stop, go on* klucz to ==kolejność w czasie==. Porównujesz moment głównego czasownika (pamiętam, zatrzymałem się) z czynnością, która stoi po nim:\n\n- czynność **już była** albo naprawdę się dzieje → **V-ing**\n- czynność jest **dopiero celem**, ma nastąpić później → **to + V1**\n\n*try* i *mean* działają inaczej: tu liczy się sens, nie czas (niżej)."
+    },
+    {
+      "type": "timeline",
+      "now": 0.5,
+      "marks": [
+        { "kind": "point", "from": 0.18, "label": "remember locking" },
+        { "kind": "point", "from": 0.82, "label": "remember to lock" }
+      ],
+      "caption_pl": "TERAZ to chwila, w której pamiętasz. remember locking: drzwi zamknąłeś wcześniej i masz to w pamięci. remember to lock: zamknięcie jest dopiero przed tobą."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "remember / forget + V-ing",
+          "md_pl": "Pamiętasz (albo nie zapomnisz) czegoś, co ==już się stało==. To wspomnienie.",
+          "examples": [
+            {
+              "en": "I remember locking the door — I'm sure of it.",
+              "pl": "Pamiętam, że zamknąłem drzwi, jestem tego pewny."
+            },
+            {
+              "en": "I'll never forget meeting my favourite writer.",
+              "pl": "Nigdy nie zapomnę spotkania z moją ulubioną pisarką."
+            }
+          ]
+        },
+        {
+          "title": "remember / forget + to V1",
+          "md_pl": "Pamiętasz (albo zapominasz) o czymś, co ==dopiero masz zrobić==. Typowe w prośbach i przypomnieniach.",
+          "examples": [
+            {
+              "en": "Remember to lock the door when you leave.",
+              "pl": "Pamiętaj, żeby zamknąć drzwi, kiedy będziesz wychodzić."
+            },
+            {
+              "en": "I forgot to send the email, so I'll do it now.",
+              "pl": "Zapomniałem wysłać maila, więc zrobię to teraz."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "*forget + V-ing* spotkasz głównie w zdaniach z *never*: *I'll never forget…*. Na co dzień częściej mówisz *forget to do*."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "stop + V-ing",
+          "md_pl": "Przestajesz robić coś, co ==trwało==. Ta czynność się kończy.",
+          "examples": [
+            { "en": "Stop talking and listen to me!", "pl": "Przestań gadać i posłuchaj mnie!" },
+            {
+              "en": "My grandad stopped driving when he turned eighty.",
+              "pl": "Dziadek przestał jeździć samochodem, kiedy skończył osiemdziesiąt lat."
+            }
+          ]
+        },
+        {
+          "title": "stop + to V1",
+          "md_pl": "Przerywasz coś innego, ==żeby== zrobić nową rzecz. To bezokolicznik celu.",
+          "examples": [
+            { "en": "We stopped to buy some water.", "pl": "Zatrzymaliśmy się, żeby kupić wodę." },
+            {
+              "en": "Halfway up the hill she stopped to take a photo.",
+              "pl": "W połowie podejścia zatrzymała się, żeby zrobić zdjęcie."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Przetłumacz w głowie: „przestać” → -ing, „zatrzymać się, żeby” → to."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "try + to V1",
+          "md_pl": "Starasz się, wkładasz wysiłek, bo czynność jest trudna. Może się nie udać.",
+          "examples": [
+            {
+              "en": "I tried to open the window, but it was stuck.",
+              "pl": "Próbowałem otworzyć okno, ale się zacięło."
+            },
+            {
+              "en": "Try to stay calm during the exam.",
+              "pl": "Postaraj się zachować spokój na egzaminie."
+            }
+          ]
+        },
+        {
+          "title": "try + V-ing",
+          "md_pl": "Robisz coś ==na próbę==, jak eksperyment: zobaczę, czy to pomoże. Samo zrobienie jest łatwe.",
+          "examples": [
+            {
+              "en": "If you can't sleep, try drinking some warm milk.",
+              "pl": "Jak nie możesz zasnąć, spróbuj wypić ciepłe mleko."
+            },
+            {
+              "en": "Have you tried turning it off and on again?",
+              "pl": "Próbowałeś to wyłączyć i włączyć jeszcze raz?"
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Pytanie kontrolne: chodzi o wysiłek (to) czy o sprawdzenie sposobu (V-ing)?"
+    },
+    {
+      "type": "table",
+      "headers": ["Czasownik", "+ V-ing", "+ to V1"],
+      "rows": [
+        [
+          "regret",
+          "żałuję czegoś, co już zrobiłem: I regret saying that.",
+          "z przykrością informuję (formalnie, z say, tell, inform): We regret to inform you that the flight has been cancelled."
+        ],
+        [
+          "go on",
+          "dalej robić to samo: She went on talking for an hour.",
+          "potem przejść do czegoś nowego: After school she went on to study law."
+        ],
+        [
+          "mean",
+          "oznaczać, wiązać się z czymś: A new job would mean moving to Kraków.",
+          "zamierzać, mieć zamiar: Sorry, I didn't mean to wake you."
+        ],
+        [
+          "need",
+          "o rzeczach, znaczenie bierne (głównie BrE): The car needs washing. = The car needs to be washed.",
+          "musieć, potrzebować: I need to wash the car."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "*like, love, hate, prefer, start, begin, continue* biorą obie formy prawie bez różnicy: *I love swimming* = *I love to swim*. Ale **would like / would love / would prefer** zawsze z to: **I'd like to go**, nie *I'd like going*.\n\nW brytyjskim angielskim *like doing* to zwykle przyjemność, a *like to do* to zwyczaj albo wybór, bo tak rozsądnie: *I like to book train tickets early* (nie dlatego, że to frajda). Po *start / begin* z czasownikami stanu (*understand, realise, know*) dajesz to: *I began to understand the problem.*\n\nPrzy porównaniu dwóch czynności: **I prefer walking to cycling**. A dwóch -ing obok siebie się unika: *It's starting to rain* brzmi dobrze, *It's starting raining* już nie."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Przyimek + V-ing.** Po ==przyimku== czasownik stoi w formie -ing. Przyimek łączy się z rzeczownikiem, a -ing to „rzeczownikowa” forma czasownika. Po polsku często jest tu bezokolicznik albo zdanie (*zamiast iść*, *dziękuję, że pomogłeś*), więc łatwo o błąd.\n\n- przymiotnik + przyimek: *interested in, good at, tired of, keen on, capable of, responsible for*\n- czasownik + przyimek: *insist on, succeed in, apologise for, think of / about, be involved in, specialise in, accuse sb of, thank sb for, prevent sb from*\n- sam przyimek: *before, after, without, instead of, by, despite, apart from*\n\nWyjątki: *but* i *except* po *do nothing / do everything* biorą samo V1: *He did nothing but complain.* Tak samo *can't help but*: *I couldn't help but laugh.* (częściej w AmE, w BrE raczej *couldn't help laughing*). A **be about to + V1** to stały zwrot: *The film is about to start.*\n\nPisownia: BrE *apologise, specialise, practise* (czasownik), *travelling*, a AmE *apologize, specialize, practice, traveling*. W kluczach CKE przechodzi też pisownia amerykańska, ale literówka to 0 pkt."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "interested in / instead of / without", "role": "signal" },
+        { "text": "V-ing", "role": "verb" }
+      ],
+      "example": {
+        "en": "Instead of complaining, let's try to fix it.",
+        "pl": "Zamiast narzekać, spróbujmy to naprawić."
+      }
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "I'm thinking of applying for a summer job.",
+          "pl": "Myślę o tym, żeby zgłosić się do pracy na wakacje."
+        },
+        {
+          "en": "Thank you for helping me with the move.",
+          "pl": "Dziękuję, że pomogłeś mi w przeprowadzce."
+        },
+        { "en": "He left without saying goodbye.", "pl": "Wyszedł bez pożegnania." },
+        {
+          "en": "You can improve your listening by watching films in English.",
+          "pl": "Możesz poprawić rozumienie ze słuchu, oglądając filmy po angielsku."
+        }
+      ]
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "to + V1",
+          "md_pl": "*to* należy do czasownika. Rzeczownik w tym miejscu nie pasuje: *I'd like to the holidays* ✗.",
+          "examples": [
+            { "en": "I'd like to see you soon.", "pl": "Chciałbym się z tobą wkrótce zobaczyć." }
+          ]
+        },
+        {
+          "title": "to (przyimek) + V-ing",
+          "md_pl": "*to* jest przyimkiem, bo po nim może stać rzeczownik: *I'm looking forward to* **the holidays** ✓. Wtedy czasownik → V-ing. Tak działa: *look forward to, be / get used to, object to, when it comes to, in addition to*.",
+          "examples": [
+            {
+              "en": "I'm looking forward to seeing you.",
+              "pl": "Nie mogę się doczekać, aż się zobaczymy."
+            },
+            {
+              "en": "When it comes to cooking, my brother is hopeless.",
+              "pl": "Jeśli chodzi o gotowanie, mój brat jest beznadziejny."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Test: wstaw w miejsce czasownika rzeczownik (*the holidays*, *it*). Pasuje → *to* jest zwykle przyimkiem i dajesz V-ing. Test zawodzi przy *agree*: *agree to the plan* ✓, a mimo to *agree to help* (to + V1). Dlatego zwroty z przyimkiem *to* najlepiej znać z listy wyżej, a *agree* zapamiętać z tabeli to + V1."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "used to + V1",
+          "md_pl": "Dawny nawyk albo stan, którego ==już nie ma==. Nie ma formy teraźniejszej.",
+          "examples": [
+            {
+              "en": "I used to play the piano, but I gave up.",
+              "pl": "Kiedyś grałem na pianinie, ale przestałem."
+            }
+          ]
+        },
+        {
+          "title": "be / get used to + V-ing",
+          "md_pl": "Być przyzwyczajonym (*be*) albo przyzwyczajać się (*get*). *to* jest tu przyimkiem.",
+          "examples": [
+            {
+              "en": "I'm used to getting up at six.",
+              "pl": "Jestem przyzwyczajony do wstawania o szóstej."
+            },
+            {
+              "en": "You'll soon get used to living here.",
+              "pl": "Szybko przyzwyczaisz się do mieszkania tutaj."
+            }
+          ]
+        },
+        {
+          "title": "be used to + V1",
+          "md_pl": "Strona bierna od *use*: coś ==służy do== jakiegoś celu. To samo znaczy *be used for + V-ing*.",
+          "examples": [
+            { "en": "This knife is used to cut bread.", "pl": "Ten nóż służy do krojenia chleba." },
+            {
+              "en": "This knife is used for cutting bread.",
+              "pl": "Ten nóż służy do krojenia chleba."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Najpierw sprawdź, czy przed *used* stoi *be* albo *get*. Nie ma → dawny nawyk. Jest → przyzwyczajenie (V-ing) albo bierna od *use*, czyli cel (to + V1)."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Bezokolicznik celu** odpowiada na pytanie *po co?*. Po polsku mówisz „żeby”, po angielsku wystarczy **to + V1**: *I went to the post office to send a parcel.* Formalniej: **in order to**, **so as to**.\n\nPrzy przeczeniu celu bezpieczniej użyć **so as not to** albo **in order not to**: *I left early so as not to miss the bus.*\n\nGdy cel dotyczy innej osoby albo potrzebujesz modala, dajesz **so that + zdanie**: *I left a note so that Mum wouldn't worry.* (Zostawiłem kartkę, żeby mama się nie martwiła.)\n\n**for + V-ing** nie mówi, po co ktoś coś robi, tylko ==do czego służy rzecz==: *a knife for cutting bread*. Dlatego *I came here for learning English* ✗, a dobrze: **I came here to learn English**. Samo *for* + rzeczownik jest w porządku: *I went out for a coffee.*"
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "verb", "role": "neutral" },
+        { "text": "(in order / so as)", "role": "signal" },
+        { "text": "to", "role": "particle" },
+        { "text": "V1", "role": "verb" }
+      ],
+      "example": {
+        "en": "I'm saving money to buy a new laptop.",
+        "pl": "Odkładam pieniądze, żeby kupić nowy laptop."
+      }
+    },
+    {
+      "type": "text",
+      "md_pl": "**Przymiotnik + to V1.** Po wielu przymiotnikach stoi to + V1: *easy, hard, difficult, important, possible, nice, glad, surprised, sorry*. Wyjątki: po *busy* i *worth* stoi -ing (*I'm busy revising*, *It's worth trying*). Typowe układy:\n\n- **It's + przymiotnik + (for sb) + to V1**: *It's important to sleep well.* *It's hard for me to say no.*\n- **find it + przymiotnik + to V1**: *I find it hard to concentrate.* ==it jest obowiązkowe==, bo zapowiada to, co stoi dalej.\n- **osoba + przymiotnik + to V1**: *I was surprised to see her there.*\n- **too / enough (+ for sb) + to V1**: *He's too young to drive.* *The soup was too hot for me to eat.* *She's old enough to vote.* Na końcu nie dodajesz *it* (*too hot to eat it* ✗), a przyimek zostaje: *This sofa is too uncomfortable to sit on.*\n- **the first / the last / the only + to V1**: *She was the first to arrive.*"
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "find", "role": "neutral" },
+        { "text": "it", "role": "object" },
+        { "text": "hard / easy / difficult", "role": "signal" },
+        { "text": "to", "role": "particle" },
+        { "text": "V1", "role": "verb" }
+      ],
+      "example": {
+        "en": "I find it hard to concentrate in a noisy room.",
+        "pl": "Trudno mi się skupić w hałaśliwym pokoju."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Na początku zdania czynność jako podmiot to zwykle -ing: **Getting up early is hard for me.** *To get up early is hard* też jest poprawne, ale brzmi książkowo. Najczęściej mówi się: **It's hard (for me) to get up early.**\n\nZ *it* i *there* są też stałe wyrażenia z -ing: **It's worth visiting the old town** (warto), **It's no use arguing with him** (nie ma sensu), **There's no point (in) waiting** (nie ma po co).\n\nPrzy *worth* podmiotem może być sama rzecz: **The old town is worth visiting** (bez *it* na końcu: *is worth visiting it* ✗). Po *worth* może też stać rzeczownik: *It's worth the money.*"
+    },
+    {
+      "type": "table",
+      "headers": ["Konstrukcja", "Znaczenie", "Przykład"],
+      "rows": [
+        [
+          "be supposed to + V1",
+          "mieć coś zrobić, podobno",
+          "You're supposed to wear a helmet here."
+        ],
+        ["be about to + V1", "zaraz coś zrobić", "Hurry up, the film is about to start."],
+        [
+          "be likely / unlikely to + V1",
+          "prawdopodobnie (nie)",
+          "It's likely to rain this afternoon."
+        ],
+        [
+          "be able to + V1",
+          "móc, umieć (też being able to)",
+          "I love being able to work from anywhere."
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Formy z have i be.** Gerund i bezokolicznik mają też formy złożone:\n\n- z ==have==, gdy czynność jest **wcześniejsza** niż główny czasownik;\n- z ==be==, gdy znaczenie jest **bierne**, czyli ktoś robi coś podmiotowi."
+    },
+    {
+      "type": "table",
+      "headers": ["Forma", "Kiedy?", "Przykład"],
+      "rows": [
+        ["to have + V3", "wcześniej niż seem, claim, be glad itp.", "She seems to have left."],
+        ["having + V3", "wcześniej, tam gdzie wymagane -ing", "He denied having taken the money."],
+        ["being + V3", "bierna, tam gdzie wymagane -ing", "I hate being told what to do."],
+        [
+          "to be + V3",
+          "bierna, tam gdzie wymagane to",
+          "The essay needs to be finished by Friday."
+        ],
+        [
+          "to have been + V3",
+          "bierna i wcześniejsza",
+          "The castle is believed to have been built in the 13th century."
+        ]
+      ]
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "seem / claim", "role": "signal" },
+        { "text": "to", "role": "particle" },
+        { "text": "have", "role": "aux" },
+        { "text": "V3", "role": "verb" }
+      ],
+      "example": {
+        "en": "My cousin claims to have seen a wolf in the forest.",
+        "pl": "Mój kuzyn twierdzi, że widział wilka w lesie."
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "avoid / hate / without", "role": "signal" },
+        { "text": "being", "role": "aux" },
+        { "text": "V3", "role": "verb" }
+      ],
+      "example": {
+        "en": "She hates being photographed.",
+        "pl": "Nie znosi, kiedy ktoś robi jej zdjęcia."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Po *remember, regret, admit, deny* zwykłe -ing wystarczy, choć czynność była wcześniej: *He denied taking the money* = *He denied having taken the money*. Te czasowniki same pokazują, że coś już się stało.\n\nPrzed -ing może stać osoba: *Do you mind me opening the window?* (potocznie) albo *my opening* (formalnie). A **not** stawiasz tuż przed formą: *I regret not studying harder* (żałuję, że nie uczyłem się pilniej) to coś innego niż *I don't regret studying* (nie żałuję, że się uczyłem)."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Typowe błędy Polaków.** Większość bierze się z tłumaczenia słowo w słowo z polskiego, gdzie prawie wszędzie jest bezokolicznik albo „żeby”."
+    },
+    {
+      "type": "table",
+      "headers": ["Źle", "Dobrze", "Dlaczego"],
+      "rows": [
+        [
+          "I'm looking forward to see you.",
+          "I'm looking forward to seeing you.",
+          "to jest tu przyimkiem → V-ing"
+        ],
+        ["I want that you come.", "I want you to come.", "want + osoba + to, bez that"],
+        ["Let me to explain.", "Let me explain.", "po let i make bez to"],
+        [
+          "He suggested me to go.",
+          "He suggested going. / He suggested (that) I go.",
+          "suggest nie łączy się z osobą + to"
+        ],
+        [
+          "I came here for learning English.",
+          "I came here to learn English.",
+          "cel to to + V1, nie for + -ing"
+        ],
+        ["I find hard to concentrate.", "I find it hard to concentrate.", "po find brakuje it"],
+        ["Thank you for help me.", "Thank you for helping me.", "po przyimku → -ing"],
+        ["It's worth to see.", "It's worth seeing.", "worth łączy się z -ing"],
+        ["I'm busy to study.", "I'm busy studying.", "busy łączy się z -ing"],
+        [
+          "I'm used to get up early.",
+          "I'm used to getting up early.",
+          "be used to = przyzwyczajenie, to jest przyimkiem"
+        ],
+        ["Stop to talk! (= przestańcie)", "Stop talking!", "przestać = stop + -ing"],
+        [
+          "They don't allow to smoke here.",
+          "They don't allow smoking here.",
+          "allow bez osoby bierze -ing"
+        ],
+        ["I'd like going to the cinema.", "I'd like to go to the cinema.", "would like zawsze z to"]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "Wzorce czasownikowe były w zad. 9 ==w każdym roku od 2023 do 2026== i to najczęstszy obszar tego zadania: *manage to*, *stop -ing*, *find it + przymiotnik + to*, *be likely to*, *be involved in -ing*, *accuse sb of -ing*. Wracają też w lukach otwartych (*specialise in -ing*, *be used to + -ing* kontra *be used to + V1* w znaczeniu celu).\n\n- **Gramatykalizacja** (wyrazy w nawiasie): sam dopisujesz brakujące *it*, *to*, przyimek albo osobę. Skrót (*didn't*, *'ve*) liczy się jako jeden wyraz. W 2024 przy limicie 4 forma ze skrótem przeszła, a ta sama bez skrótu (5 wyrazów) dostała 0.\n- **Transformacje** (słowo klucz, maks. 5 wyrazów ==razem ze słowem kluczem==; formy słowa klucza nie zmieniasz, więc przy STOPPED nie napiszesz *stop*): w 2026 było *accuse sb of -ing*. Pary, które warto mieć w głowie: *not … any more* → **stop + V-ing** (STOPPED), *X is hard for me* → **find it hard to** (IT), *find it hard to* → **have difficulty (in) + V-ing** (DIFFICULTY), *will probably* → **be likely to** (LIKELY), *managed to* → **succeeded in + V-ing** (SUCCEEDED), *It took me two hours to…* → **spent two hours + V-ing** (SPENT), *it isn't strange for me now* → **be used to + V-ing** (USED), *so … that … couldn't* → **too + przymiotnik + to** (TOO), *let* → **be allowed to** (ALLOWED).\n- **Druga warstwa** daje 0 tak samo jak pierwsza: dobra konstrukcja w złym czasie, zgubiony przyimek albo przedimek.\n- W zad. 7 (2023–2026) nie było luki na sam wybór to / -ing. Wzorce wchodziły tam przez przyimki zależne (*capable of*). Jeśli trafi się luka na formę czasownika, opcje to zwykle ten sam czasownik w innej formie (*to do / doing / do / to doing*), a rozstrzyga to, co stoi przed luką."
+    }
+  ]
+}

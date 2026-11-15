@@ -5,159 +5,165 @@
   "group": "future",
   "aspect": "perfect-continuous",
   "tabLabel": ["Fut.", "Perf. C."],
-  "oneLiner_pl": "jak długo coś będzie już trwało w danym momencie przyszłości",
+  "oneLiner_pl": "jak długo coś będzie już trwało w danym punkcie PRZYSZŁOŚCI: stajesz w tym punkcie i liczysz czas wstecz",
   "timeline": {
-    "now": 0.45,
+    "now": 0.65,
     "marks": [
-      {
-        "kind": "span",
-        "from": 0.3,
-        "to": 0.84,
-        "label": "will have been doing"
-      },
-      {
-        "kind": "point",
-        "from": 0.84,
-        "label": "by then"
-      }
+      { "kind": "span", "from": 0.25, "to": 0.9, "label": "for ten years" },
+      { "kind": "point", "from": 0.9, "label": "by June" }
     ]
   },
   "howToChoose": [
     {
       "step_pl": "sygnał",
-      "text_pl": "Widzisz by + moment w przyszłości i for + okres?"
+      "text_pl": "Szukasz dwóch rzeczy naraz: punktu w przyszłości (by June, by the time you arrive, by then, next year, this time next week) i okresu, który do niego prowadzi (for ten years, for three hours, all day). Zamiast for bywa pytanie How long…?"
     },
     {
       "step_pl": "relacja w czasie",
-      "text_pl": "W konkretnym momencie przyszłości czynność będzie trwała już od jakiegoś czasu. Liczy się, jak długo."
+      "text_pl": "Stajesz w tym punkcie przyszłości i patrzysz wstecz. Czynność zaczęła się wcześniej (często trwa już teraz) i w tym punkcie wciąż trwa albo dopiero co się kończy. Liczysz, jak długo. To Present Perfect Continuous przesunięty w przyszłość: liczysz nie „do teraz”, tylko „do wtedy”."
+    },
+    {
+      "step_pl": "pułapka",
+      "text_pl": "Wynik, liczba albo gotowa całość (three essays, the whole house) → Future Perfect: will have written. Samo „będę w trakcie” w danej chwili, bez liczenia czasu (this time tomorrow, at eight) → Future Continuous: will be working. Czasowniki stanu (know, be, have = mieć, own) → Future Perfect: will have known. A po by the time i when nie ma will: by the time you arrive, nie by the time you will arrive."
     },
     {
       "step_pl": "forma",
-      "text_pl": "will have been + V-ing."
+      "text_pl": "will have been + V-ing, tak samo dla wszystkich osób. Przeczenie: won't have been + V-ing. Pytanie: Will + podmiot + have been + V-ing? Skrót: I'll have been. Strony biernej praktycznie się nie używa."
     }
   ],
   "forms": {
     "active": {
       "affirmative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "will have been",
-            "role": "aux"
-          },
-          {
-            "text": "V-ing",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "will have been", "role": "aux" },
+          { "text": "V-ing", "role": "verb" }
         ],
         "example": {
-          "en": "By June, I'll have been learning English for ten years.",
-          "pl": "W czerwcu minie dziesięć lat, odkąd uczę się angielskiego."
-        }
+          "en": "By the end of the month, we'll have been living in Gdańsk for exactly a year.",
+          "pl": "Pod koniec miesiąca minie dokładnie rok, odkąd mieszkamy w Gdańsku."
+        },
+        "note_pl": "Trzy kawałki w jednym. will przenosi punkt odniesienia w przyszłość. have + V3 to część Perfect: z tego punktu patrzysz wstecz. be + V-ing to część Continuous: czynność trwa. V3 od be to been, więc razem wychodzi will have been + V-ing. Po will zawsze stoi bezokolicznik bez to, dlatego have, nigdy has — forma jest jedna dla wszystkich osób. Skrót: I'll have been, she'll have been. Pisownia -ing jak zawsze: write → writing, run → running, a w brytyjskim travel → travelling (w amerykańskim traveling)."
       },
       "negative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "will",
-            "role": "aux"
-          },
-          {
-            "text": "not",
-            "role": "particle"
-          },
-          {
-            "text": "have been",
-            "role": "aux"
-          },
-          {
-            "text": "V-ing",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "will", "role": "aux" },
+          { "text": "not", "role": "particle" },
+          { "text": "have been", "role": "aux" },
+          { "text": "V-ing", "role": "verb" }
         ],
         "example": {
-          "en": "By Christmas, we won't have been living here for a year.",
-          "pl": "Do świąt nie minie rok, odkąd tu mieszkamy."
-        }
+          "en": "When the season starts, our new coach won't have been working with the team for even a month.",
+          "pl": "Kiedy ruszy sezon, nie minie nawet miesiąc, odkąd nowy trener pracuje z drużyną."
+        },
+        "note_pl": "not stawiasz zaraz po will, czyli po pierwszym czasowniku posiłkowym, jak w każdym czasie: will not have been, skrót won't have been. W przeczeniu ten czas często podkreśla, że minie MAŁO czasu: for long, for even a month."
       },
       "question": {
         "pattern": [
-          {
-            "text": "Will",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "have been",
-            "role": "aux"
-          },
-          {
-            "text": "V-ing",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Will", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "have been", "role": "aux" },
+          { "text": "V-ing", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
         "example": {
-          "en": "Will you have been studying for three hours by then?",
-          "pl": "Czy do tego czasu będziesz się uczyć już trzy godziny?"
-        }
+          "en": "Will you have been living in Kraków for a year by the time the course ends?",
+          "pl": "Czy do końca kursu minie rok, odkąd mieszkasz w Krakowie?"
+        },
+        "note_pl": "Przed podmiot idzie tylko will, a have been + V-ing zostaje za podmiotem. Krótka odpowiedź: Yes, I will. / No, I won't. Pytania tak / nie w tym czasie są rzadkie — częściej pytasz How long…?"
       },
       "whQuestion": {
         "pattern": [
-          {
-            "text": "Wh-word",
-            "role": "neutral"
-          },
-          {
-            "text": "will",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "have been",
-            "role": "aux"
-          },
-          {
-            "text": "V-ing",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Wh-word", "role": "neutral" },
+          { "text": "will", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "have been", "role": "aux" },
+          { "text": "V-ing", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
         "example": {
-          "en": "How long will you have been working here by next summer?",
-          "pl": "Jak długo będziesz tu pracować do przyszłego lata?"
-        }
+          "en": "How long will they have been rehearsing by the time the play opens?",
+          "pl": "Jak długo będą trwały próby do premiery?"
+        },
+        "note_pl": "Najczęściej pytasz How long…? i dokładasz punkt w przyszłości: by the time…, by then, by June. Po by the time stoi Present Simple (the play opens), bo w zdaniu czasowym nie ma will."
       }
     },
     "passive": null,
-    "passiveNote_pl": "Strona bierna tego czasu w praktyce nie występuje."
+    "passiveNote_pl": "Teoretycznie to will have been being + V3, ale prawie nikt tak nie mówi ani nie pisze: cztery czasowniki posiłkowe pod rząd (will have been being), w tym dwa razy be, brzmią bardzo ciężko. Gdy liczy się czas trwania, przerób zdanie na stronę czynną: By May, they will have been building the stadium for three years. Gdy liczy się wynik, weź stronę bierną Future Perfect: The stadium will have been built by May. Uważaj, bo łatwo to pomylić: will have been + V3 (will have been built) to bierna Future Perfect, a will have been + V-ing (will have been building) to strona czynna tego czasu. Często pasuje też under construction albo under repair: By May, the stadium will have been under construction for three years."
   },
   "uses": [
     {
-      "title_pl": "Jak długo — patrząc z przyszłości",
-      "explanation_pl": "Liczysz czas trwania aż do momentu w przyszłości.",
+      "title_pl": "Jak długo — licząc do punktu w przyszłości",
+      "explanation_pl": "Wybierasz punkt w przyszłości (by June, next September, by the time we land) i liczysz, jak długo czynność będzie wtedy trwała: for ten years, for three hours. Czynność zwykle trwa już teraz, a w tym punkcie wciąż będzie trwać albo dopiero co się skończy. Prawie zawsze potrzebujesz okresu, bo to jego długość jest treścią zdania. Po polsku nie ma osobnej formy, więc mówimy „w czerwcu minie dziesięć lat, odkąd…” albo „będę się uczyć już dziesięć lat”.",
       "examples": [
         {
-          "en": "In September, my parents will have been living in this house for twenty years.",
-          "pl": "We wrześniu minie dwadzieścia lat, odkąd rodzice mieszkają w tym domu."
+          "en": "By June, I will have been learning English for ten years.",
+          "pl": "W czerwcu minie dziesięć lat, odkąd uczę się angielskiego."
+        },
+        {
+          "en": "Next September, my parents will have been running their bakery for twenty-five years.",
+          "pl": "We wrześniu minie dwadzieścia pięć lat, odkąd rodzice prowadzą piekarnię."
+        },
+        {
+          "en": "By the time we land, we'll have been flying for almost thirteen hours.",
+          "pl": "Kiedy wylądujemy, będziemy w powietrzu już prawie trzynaście godzin."
+        }
+      ]
+    },
+    {
+      "title_pl": "Dwie części zdania: by the time / when + Present Simple",
+      "explanation_pl": "Punkt w przyszłości często podajesz całym zdaniem: by the time you get here, when the film starts, by the time she retires. W takim zdaniu czasowym nie ma will, tylko zwykle Present Simple, bo przyszłość pokazuje już druga część. will have been + V-ing idzie do zdania głównego. A gdy czas trwania liczysz w samym zdaniu czasowym, wchodzi tam Present Perfect Continuous: Once you've been living here for a few months, you'll feel at home (nie once you'll have been living). Po polsku w obu częściach stoi czas przyszły („kiedy dotrzesz, będę czekać”), dlatego tak łatwo wstawić will także po by the time.",
+      "examples": [
+        {
+          "en": "By the time you get here, I'll have been waiting for over an hour.",
+          "pl": "Zanim tu dotrzesz, będę czekać już ponad godzinę."
+        },
+        {
+          "en": "When Grandma retires next spring, she'll have been working at the post office for forty years.",
+          "pl": "Kiedy babcia przejdzie wiosną na emeryturę, minie czterdzieści lat, odkąd pracuje na poczcie."
+        }
+      ]
+    },
+    {
+      "title_pl": "Przyczyna tego, jak będzie w przyszłości",
+      "explanation_pl": "Przewidujesz, jak ktoś będzie się czuł albo jak coś będzie wyglądać, i tłumaczysz to czynnością, która do tej chwili będzie trwała. To ten sam mechanizm co I'm tired — I've been working all day, tylko przesunięty w przyszłość. Często zamiast for stoi all day, all night albo all afternoon.",
+      "examples": [
+        {
+          "en": "Kuba will be exhausted when he gets home — he'll have been training all afternoon.",
+          "pl": "Kuba będzie wykończony, kiedy wróci do domu — będzie miał za sobą całe popołudnie treningu."
+        },
+        {
+          "en": "We'll be in no state to go out on Sunday evening — by then, we'll have been hiking in the rain all weekend.",
+          "pl": "W niedzielę wieczorem nie będziemy w stanie nigdzie wyjść — do tego czasu będziemy mieli za sobą cały weekend wędrówki w deszczu."
+        }
+      ]
+    },
+    {
+      "title_pl": "Przypuszczenie o teraz: by now",
+      "explanation_pl": "will nie zawsze mówi o przyszłości. Bywa też przypuszczeniem: „pewnie tak jest”, jak w That'll be the postman (to pewnie listonosz). Wtedy will have been + V-ing to domysł, że coś trwa (albo trwało) aż do teraz, a typowy sygnał to by now. Gdy wiesz to na pewno, wystarczy Present Perfect Continuous: They've been driving for hours.",
+      "examples": [
+        {
+          "en": "It's almost midnight — the guests will have been dancing for four hours by now.",
+          "pl": "Jest prawie północ — goście tańczą pewnie już od czterech godzin."
+        },
+        {
+          "en": "Don't ring Kasia now. She'll have been revising all day, and she'll want some peace.",
+          "pl": "Nie dzwoń teraz do Kasi. Pewnie cały dzień się uczyła i chce mieć spokój."
+        }
+      ]
+    },
+    {
+      "title_pl": "Rzadko w rozmowie, przydatny w pisaniu",
+      "explanation_pl": "W codziennej rozmowie ten czas słychać rzadko: zwykle mówi się prościej, np. In June it'll be ten years since I started learning English. Za to w liście formalnym, rozprawce albo artykule dobrze podkreśla staż, doświadczenie albo skalę zjawiska i przy okazji pokazuje zakres struktur. W formalnym tekście pisz pełne formy: I will have been, nie I'll have been.",
+      "examples": [
+        {
+          "en": "By the end of the decade, scientists will have been measuring this glacier for over a hundred years.",
+          "pl": "Pod koniec dekady minie ponad sto lat, odkąd naukowcy mierzą ten lodowiec."
+        },
+        {
+          "en": "Next year, our school will have been running exchange trips to Germany for thirty years.",
+          "pl": "W przyszłym roku minie trzydzieści lat, odkąd nasza szkoła organizuje wymiany z Niemcami."
         }
       ]
     }
@@ -165,25 +171,154 @@
   "signalWords": [
     {
       "word": "by … for",
-      "note_pl": "np. by June … for ten years"
+      "note_pl": "najmocniejszy sygnał, ale tylko razem: by + punkt w przyszłości (by June, by Christmas) i for + okres (for ten years). by mówi „do kiedy”, for — „jak długo”. Samo by bez okresu częściej prowadzi do Future Perfect: By June I'll have finished. Punkt bywa też bez by: next September, next year, in May, when she retires — ważne, że for liczy czas aż do niego."
     },
     {
-      "word": "by then"
+      "word": "by the time",
+      "note_pl": "zanim, do chwili gdy — a po nim Present Simple, bez will: by the time you get here. Gdy w drugiej części jest okres → ten czas. Gdy wynik (finished, three essays) → Future Perfect. Gdy po by the time stoi Past Simple (by the time she arrived), punkt leży w przeszłości → had been + V-ing: By the time the plane took off, we had been sitting on the runway for two hours."
     },
     {
-      "word": "by the end of"
+      "word": "by then / by that time",
+      "note_pl": "do tego czasu — punkt podany wcześniej w tekście. To też sygnał Future Perfect, więc decyduje, czy liczysz czas (for…), czy wynik."
+    },
+    {
+      "word": "by the end of",
+      "note_pl": "by the end of the year / the month / the course. Z for → ten czas. Bez for zwykle Future Perfect: By the end of the year, I'll have saved enough."
+    },
+    {
+      "word": "for",
+      "note_pl": "+ okres: for ten years, for three hours — to on liczy czas, ale tylko wtedy, gdy okres kończy się w punkcie w przyszłości. for, które mówi tylko, ile coś potrwa od startu (I'll be staying there for two weeks), to nie ten czas. Gdy liczysz do teraz, ten sam for daje Present Perfect Continuous. A for w innym znaczeniu (wait for, look for, train for the final) niczego nie liczy."
+    },
+    {
+      "word": "How long…?",
+      "note_pl": "z punktem w przyszłości: How long will you have been working here by June? Bez punktu „do kiedy” pytasz po prostu, ile coś potrwa: How long will you be away? (Future Simple)"
+    },
+    {
+      "word": "this time next week / this time next year",
+      "note_pl": "+ for: This time next year, I'll have been studying in Kraków for a month. Bez for → Future Continuous: This time next year, I'll be studying in Kraków."
+    },
+    {
+      "word": "all day / all night / all afternoon / all weekend",
+      "note_pl": "przy chwili w przyszłości tłumaczy zmęczenie albo stan: You'll be tired — you'll have been working all day. Uwaga: all day tomorrow bez punktu, od którego patrzysz wstecz, to Future Continuous: I'll be working all day tomorrow."
+    },
+    {
+      "word": "by now",
+      "note_pl": "przypuszczenie o teraz, a nie przyszłość: They'll have been driving for hours by now (pewnie jadą już od kilku godzin). Gdy wiesz na pewno → Present Perfect Continuous: They've been driving for hours."
     }
   ],
   "relatedTenses": [
     {
       "id": "future-perfect",
-      "relation_pl": "Future Perfect — co będzie gotowe. Continuous — jak długo coś będzie trwało."
+      "relation_pl": "Oba stają w punkcie przyszłości i patrzą wstecz. Future Perfect mówi o wyniku: co będzie gotowe, ile zrobisz (liczba, całość). Continuous mówi o samej czynności i o tym, jak długo będzie trwała — nie wiadomo, czy się skończy. Pytaj: ile albo co gotowe? → will have + V3. Jak długo? → will have been + V-ing. Czasowniki stanu (know, be, have = mieć) zostają w Future Perfect: will have known. Przy live, work i study z for poprawne są oba czasy, a różnica jest niewielka.",
+      "contrast": [
+        {
+          "en": "By Friday, I'll have written three essays.",
+          "pl": "Do piątku napiszę trzy wypracowania (wynik, liczba)."
+        },
+        {
+          "en": "By Friday, I'll have been writing essays for a week.",
+          "pl": "W piątek minie tydzień, odkąd piszę wypracowania (czas trwania)."
+        },
+        {
+          "en": "When you get back, I'll have cleaned the whole flat.",
+          "pl": "Kiedy wrócisz, całe mieszkanie będzie posprzątane (gotowe)."
+        },
+        {
+          "en": "When you get back, I'll have been cleaning for three hours, so I'll need a break.",
+          "pl": "Kiedy wrócisz, będę sprzątać już trzy godziny, więc będę potrzebować przerwy (czas trwania, zmęczenie)."
+        }
+      ]
+    },
+    {
+      "id": "future-continuous",
+      "relation_pl": "Future Continuous pokazuje, co będzie W TRAKCIE w danej chwili przyszłości (this time tomorrow, at eight), i nie liczy czasu. Future Perfect Continuous liczy, jak długo coś będzie trwało DO tej chwili. Jest for + okres przy punkcie w przyszłości → will have been + V-ing. Samo „będę w trakcie” → will be + V-ing. this time next week pasuje do obu, więc decyduje, czy w zdaniu jest okres. Uwaga: samo for nie wystarczy. Sprawdź, czy okres KOŃCZY SIĘ w tym punkcie i liczysz go wstecz. Gdy for mówi tylko, jak długo coś potrwa od startu w przyszłości, to nie ten czas: In July I'll be staying with my aunt for two weeks.",
+      "contrast": [
+        {
+          "en": "This time tomorrow, I'll be sitting on a plane.",
+          "pl": "Jutro o tej porze będę siedzieć w samolocie (w trakcie)."
+        },
+        {
+          "en": "This time tomorrow, I'll have been sitting on a plane for six hours.",
+          "pl": "Jutro o tej porze będę siedzieć w samolocie już sześć godzin (liczysz czas do tej chwili)."
+        },
+        {
+          "en": "I'll be working all day tomorrow, so I can't help you move.",
+          "pl": "Jutro cały dzień będę w pracy, więc nie pomogę ci w przeprowadzce (w trakcie przez cały dzień)."
+        },
+        {
+          "en": "When I get home tomorrow, I'll have been working for twelve hours.",
+          "pl": "Kiedy jutro wrócę do domu, będę mieć za sobą dwanaście godzin pracy (liczysz do powrotu)."
+        },
+        {
+          "en": "Next summer I'll be working at a hotel in Sopot for two months.",
+          "pl": "Przyszłego lata przez dwa miesiące będę pracować w hotelu w Sopocie (liczysz w przód od startu)."
+        },
+        {
+          "en": "By the end of August, I'll have been working at the hotel for two months.",
+          "pl": "Pod koniec sierpnia będę pracować w hotelu już dwa miesiące (liczysz wstecz od końca sierpnia)."
+        }
+      ]
     },
     {
       "id": "present-perfect-continuous",
-      "relation_pl": "Ten sam czas trwania, tylko liczony do momentu w przyszłości, a nie do teraz."
+      "relation_pl": "Ten sam mechanizm (have been + V-ing liczy czas trwania), tylko inny punkt odniesienia. Present Perfect Continuous liczy do TERAZ, Future Perfect Continuous — do punktu w przyszłości. Pytaj: do kiedy liczę? Do teraz → have / has been. Do „wtedy” w przyszłości → will have been. Tak samo Past Perfect Continuous (had been) liczy do chwili w przeszłości. Uwaga: słowa o przyszłości w innej części zdania (until Thursday, next week) nie zmieniają czasu, jeśli liczysz do teraz: I've been training for weeks, and the race is next Sunday.",
+      "contrast": [
+        {
+          "en": "I've been learning English for nine years.",
+          "pl": "Uczę się angielskiego od dziewięciu lat (liczysz do teraz)."
+        },
+        {
+          "en": "By June, I'll have been learning English for ten years.",
+          "pl": "W czerwcu minie dziesięć lat, odkąd uczę się angielskiego (liczysz do czerwca)."
+        },
+        {
+          "en": "She's been waiting for half an hour.",
+          "pl": "Czeka od pół godziny (do teraz)."
+        },
+        {
+          "en": "By the time the train comes, she'll have been waiting for an hour.",
+          "pl": "Zanim przyjedzie pociąg, będzie czekać już godzinę (do chwili w przyszłości)."
+        }
+      ]
     }
   ],
-  "commonMistakes": [],
-  "maturaTips_pl": []
+  "commonMistakes": [
+    {
+      "wrong": "By June, I will be learning English for ten years.",
+      "right": "By June, I will have been learning English for ten years.",
+      "why_pl": "Polskie „w czerwcu będę się uczyć już dziesięć lat” kusi, żeby wziąć will be + V-ing. Ale for liczy czas wstecz od czerwca, a do liczenia wstecz potrzebna jest część Perfect: have been. Future Continuous mówi tylko, co będzie w trakcie."
+    },
+    {
+      "wrong": "By the time you will get here, I'll have been waiting for an hour.",
+      "right": "By the time you get here, I'll have been waiting for an hour.",
+      "why_pl": "Po by the time, when, before, until i as soon as stoi Present Simple, nawet gdy chodzi o przyszłość. will jest tylko w zdaniu głównym. Po polsku w obu częściach jest czas przyszły, stąd błąd."
+    },
+    {
+      "wrong": "Next May, I will have been knowing Ola for ten years.",
+      "right": "Next May, I will have known Ola for ten years.",
+      "why_pl": "know to stan, a nie czynność, więc nie bierze -ing także w czasach perfect. Tak samo be, have (= mieć), own, like, belong. Wtedy bierzesz Future Perfect."
+    },
+    {
+      "wrong": "By the end of the day, I'll have been writing four essays.",
+      "right": "By the end of the day, I'll have written four essays.",
+      "why_pl": "Liczba (four essays) to wynik, a wynik pokazuje Future Perfect. Forma ciągła liczy czas, a nie sztuki: I'll have been writing essays for six hours."
+    },
+    {
+      "wrong": "Next month, she will has been working here for a year.",
+      "right": "Next month, she will have been working here for a year.",
+      "why_pl": "Po will zawsze stoi bezokolicznik bez to, więc have, nigdy has — także przy he / she / it."
+    },
+    {
+      "wrong": "How long you will have been living here by June?",
+      "right": "How long will you have been living here by June?",
+      "why_pl": "W pytaniu tylko will idzie przed podmiot, a have been + V-ing zostaje za nim. Po polsku szyk się nie zmienia („Jak długo będziesz tu mieszkać…?”), dlatego kusi zwykły szyk."
+    }
+  ],
+  "maturaTips_pl": [
+    "W luce szukaj dwóch rzeczy naraz: punktu w przyszłości (by June, by the time…, next year) i okresu (for ten years, for hours, all day). Są oba i okres kończy się w tym punkcie → will have been + V-ing. Jest punkt, ale liczy się wynik (three essays, the whole book) → will have + V3. Jest tylko chwila „w trakcie” (this time tomorrow, at eight) → will be + V-ing.",
+    "Po by the time, when, until i as soon as nie wpisuj will, nawet jeśli mowa o przyszłości: By the time you get here… will pojawia się tylko w drugiej części zdania. Gdy luka stoi w zdaniu czasowym, odpowiedź to zwykle Present Simple, Present Perfect albo Present Perfect Continuous (once you've been working here for a while).",
+    "Transformacja: In June it'll be ten years since I started learning English. = By June, I'll have been learning English for ten years. since + Past Simple zamieniasz na for + okres, a punkt w przyszłości podajesz z by.",
+    "Zanim wpiszesz will have been + V-ing, sprawdź czasownik. know, be, have (= mieć), own i belong nie biorą -ing: By May, we'll have known each other for five years.",
+    "W liście formalnym albo rozprawce jedno zdanie z tym czasem dobrze pokazuje zakres struktur, np. By the time the course starts, I will have been studying Spanish for four years. W luźnym e-mailu do kolegi brzmi ciężko, więc tam wystarczy prostsze I've been learning Spanish for three years."
+  ]
 }

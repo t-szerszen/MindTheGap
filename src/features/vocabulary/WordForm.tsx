@@ -32,6 +32,7 @@ export function WordForm({
       direction: initial.direction,
       example,
       tags: parseTags(tags),
+      source: initial.source,
     })
   }
 

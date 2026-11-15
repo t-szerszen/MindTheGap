@@ -1,0 +1,282 @@
+{
+  "id": "idioms-work-study",
+  "category": "idioms",
+  "title_pl": "Idiomy: praca i nauka",
+  "items": [
+    {
+      "en": "pass (sth) with flying colours",
+      "pl": "zdać śpiewająco",
+      "meaning_pl": "Zdać bardzo dobrze, z wysokim wynikiem. Colours to tu flagi okrętu: statek wracał z bitwy z powiewającymi flagami, kiedy wygrał. Pisownia brytyjska: colours.",
+      "example": {
+        "en": "Kasia worked hard all year and passed her final exams with flying colours.",
+        "pl": "Kasia ciężko pracowała cały rok i zdała egzaminy końcowe śpiewająco."
+      },
+      "register": "neutral",
+      "tags": ["nauka", "egzaminy", "sukces"]
+    },
+    {
+      "en": "burn the midnight oil",
+      "pl": "siedzieć po nocach, zarywać noce",
+      "meaning_pl": "Uczyć się albo pracować do późna w nocy. Logika: dawniej w nocy czytało się przy lampie naftowej, więc kto „palił olej o północy”, ten jeszcze nie spał.",
+      "example": {
+        "en": "I'll have to burn the midnight oil if I want to finish this essay by Monday.",
+        "pl": "Będę musiał siedzieć po nocach, jeśli chcę skończyć ten esej do poniedziałku."
+      },
+      "register": "neutral",
+      "tags": ["nauka", "ciężka praca"]
+    },
+    {
+      "en": "learn / know sth by heart",
+      "pl": "nauczyć się / znać coś na pamięć",
+      "meaning_pl": "learn by heart to proces (uczysz się), know by heart to stan (już umiesz). Zawsze by heart, bez my ani the.",
+      "example": {
+        "en": "We had to learn the whole poem by heart for our Polish lesson.",
+        "pl": "Musieliśmy nauczyć się na pamięć całego wiersza na polski."
+      },
+      "register": "neutral",
+      "tags": ["nauka", "pamięć"]
+    },
+    {
+      "en": "know sth inside out",
+      "pl": "znać coś od podszewki",
+      "meaning_pl": "Znać coś bardzo dokładnie, w każdym szczególe. Pułapka: samo inside out znaczy też „na lewą stronę” (wear your jumper inside out). Po amerykańsku know sth inside and out.",
+      "example": {
+        "en": "My cousin teaches maths, so she knows the matura exam inside out.",
+        "pl": "Moja kuzynka uczy matematyki, więc zna maturę od podszewki."
+      },
+      "register": "neutral",
+      "tags": ["nauka", "wiedza", "pułapka"]
+    },
+    {
+      "en": "get the hang of sth",
+      "pl": "załapać, o co chodzi; nabrać wprawy",
+      "meaning_pl": "Nauczyć się czegoś, co na początku wydaje się trudne. Po of rzeczownik albo forma -ing: get the hang of driving.",
+      "example": {
+        "en": "Driving seemed impossible at first, but after a few lessons I got the hang of it.",
+        "pl": "Na początku prowadzenie auta wydawało się niemożliwe, ale po kilku lekcjach załapałem, o co chodzi."
+      },
+      "register": "informal",
+      "tags": ["nauka", "umiejętności"]
+    },
+    {
+      "en": "make the grade",
+      "pl": "dać radę, spełnić wymagania",
+      "meaning_pl": "Osiągnąć wymagany poziom. Często w przeczeniu: not everyone makes the grade. Pułapka: to nie „dostać ocenę” – ocena to get a mark.",
+      "example": {
+        "en": "The course is very demanding, and not every student makes the grade.",
+        "pl": "Kurs jest bardzo wymagający i nie każdy student daje radę."
+      },
+      "register": "neutral",
+      "tags": ["nauka", "sukces", "pułapka"]
+    },
+    {
+      "en": "play truant",
+      "pl": "wagarować, iść na wagary",
+      "meaning_pl": "Brytyjskie. Truant to uczeń, który wagaruje. Potocznie Brytyjczycy mówią też bunk off school albo skive off school.",
+      "example": {
+        "en": "He played truant twice last month, so his parents were called into school.",
+        "pl": "W zeszłym miesiącu dwa razy był na wagarach, więc wezwano jego rodziców do szkoły."
+      },
+      "register": "neutral",
+      "tags": ["szkoła", "zachowanie"]
+    },
+    {
+      "en": "a/the teacher's pet",
+      "pl": "pupilek nauczyciela",
+      "meaning_pl": "Uczeń, którego nauczyciel faworyzuje, przez co reszta klasy go nie lubi. Pet to tu ulubieniec. Brzmi złośliwie.",
+      "example": {
+        "en": "She isn't the teacher's pet – she just works harder than the rest of us.",
+        "pl": "Ona nie jest pupilką nauczyciela – po prostu pracuje więcej niż reszta z nas."
+      },
+      "register": "informal",
+      "tags": ["szkoła", "ludzie"]
+    },
+    {
+      "en": "do your homework (on sth)",
+      "pl": "dobrze się przygotować, zrobić rozeznanie",
+      "meaning_pl": "Znaczenie przenośne: zanim coś zrobisz (rozmowa, decyzja), zbierasz informacje. Dosłownie to odrabianie lekcji. Zawsze do, nie make.",
+      "example": {
+        "en": "Before the job interview, do your homework and find out as much as you can about the company.",
+        "pl": "Przed rozmową o pracę zrób rozeznanie i dowiedz się jak najwięcej o firmie."
+      },
+      "register": "informal",
+      "tags": ["praca", "przygotowanie", "pułapka"]
+    },
+    {
+      "en": "learn the ropes / show sb the ropes",
+      "pl": "wdrożyć się / wdrożyć kogoś",
+      "meaning_pl": "Nauczyć się, jak coś działa w nowej pracy czy szkole. Pochodzi z żeglarstwa: nowy marynarz musiał poznać, do czego służy każda lina na statku. Show sb the ropes = wprowadzić nowego.",
+      "example": {
+        "en": "It took me a few weeks to learn the ropes at my new job.",
+        "pl": "Wdrożenie się w nowej pracy zajęło mi kilka tygodni."
+      },
+      "register": "informal",
+      "tags": ["praca", "nowa praca"]
+    },
+    {
+      "en": "know your stuff",
+      "pl": "znać się na rzeczy",
+      "meaning_pl": "Dużo wiedzieć o swojej dziedzinie albo pracy. Stuff to tu „to, czym się zajmujesz”. Zaimek się zmienia: she knows her stuff.",
+      "example": {
+        "en": "Our new chemistry teacher really knows her stuff.",
+        "pl": "Nasza nowa nauczycielka chemii naprawdę zna się na rzeczy."
+      },
+      "register": "informal",
+      "tags": ["praca", "wiedza"]
+    },
+    {
+      "en": "be snowed under (with sth)",
+      "pl": "być zawalonym robotą",
+      "meaning_pl": "Mieć tyle pracy, że trudno sobie z nią poradzić – jak zasypany śniegiem. Zawsze w stronie biernej: I'm snowed under with work.",
+      "example": {
+        "en": "I'd love to come, but I'm snowed under with work this week.",
+        "pl": "Chętnie bym przyszedł, ale w tym tygodniu jestem zawalony robotą."
+      },
+      "register": "informal",
+      "tags": ["praca", "nadmiar pracy"]
+    },
+    {
+      "en": "have a lot on your plate",
+      "pl": "mieć dużo na głowie",
+      "meaning_pl": "Mieć dużo obowiązków albo problemów naraz. Dosłownie „dużo na talerzu”. Zaimek się zmienia: she has a lot on her plate.",
+      "example": {
+        "en": "With exams, a part-time job and football training, Ola has a lot on her plate.",
+        "pl": "Z egzaminami, pracą dorywczą i treningami piłki Ola ma mnóstwo na głowie."
+      },
+      "register": "informal",
+      "tags": ["praca", "nadmiar pracy"]
+    },
+    {
+      "en": "work flat out",
+      "pl": "pracować na pełnych obrotach",
+      "meaning_pl": "Pracować tak szybko i ciężko, jak się da. Flat out znaczy tu „na maksa” i nie ma nic wspólnego z flat (mieszkanie).",
+      "example": {
+        "en": "The whole team worked flat out to finish the project before the deadline.",
+        "pl": "Cały zespół pracował na pełnych obrotach, żeby skończyć projekt przed terminem."
+      },
+      "register": "informal",
+      "tags": ["praca", "ciężka praca"]
+    },
+    {
+      "en": "pull your weight",
+      "pl": "robić swoje, przykładać się",
+      "meaning_pl": "Robić swoją część pracy w grupie, tyle samo co inni. Najczęściej w krytyce i w przeczeniu: he doesn't pull his weight.",
+      "example": {
+        "en": "If you don't pull your weight, the rest of the group will have to do your part of the presentation.",
+        "pl": "Jeśli nie będziesz się przykładać, reszta grupy będzie musiała zrobić twoją część prezentacji."
+      },
+      "register": "neutral",
+      "tags": ["praca", "praca w grupie"]
+    },
+    {
+      "en": "go the extra mile",
+      "pl": "dać z siebie więcej, niż trzeba",
+      "meaning_pl": "Zrobić więcej, niż się od ciebie wymaga – jakbyś przeszedł o milę dalej, niż musisz. Zawsze pozytywne, pasuje do listu motywacyjnego i opinii.",
+      "example": {
+        "en": "Our English teacher always goes the extra mile – she even stays after school to help us before the matura.",
+        "pl": "Nasza anglistka zawsze daje z siebie więcej, niż musi – zostaje nawet po lekcjach, żeby pomóc nam przed maturą."
+      },
+      "register": "neutral",
+      "tags": ["praca", "zaangażowanie"]
+    },
+    {
+      "en": "cut corners",
+      "pl": "iść na skróty, robić coś po łebkach",
+      "meaning_pl": "Robić coś najszybciej albo najtaniej kosztem jakości. Logika: ścinasz róg, zamiast iść całą drogą. Zawsze negatywne.",
+      "example": {
+        "en": "The builders cut corners to save money, and now the roof leaks.",
+        "pl": "Budowlańcy poszli na skróty, żeby zaoszczędzić, i teraz dach przecieka."
+      },
+      "register": "neutral",
+      "tags": ["praca", "jakość"]
+    },
+    {
+      "en": "call it a day",
+      "pl": "skończyć na dziś",
+      "meaning_pl": "Przestać coś robić, zwykle pracę na dany dzień. Może też znaczyć zakończenie czegoś na dobre, np. kariery.",
+      "example": {
+        "en": "We've been revising for six hours – let's call it a day.",
+        "pl": "Powtarzamy od sześciu godzin – kończmy na dziś."
+      },
+      "register": "informal",
+      "tags": ["praca", "nauka", "odpoczynek"]
+    },
+    {
+      "en": "talk shop",
+      "pl": "rozmawiać o pracy",
+      "meaning_pl": "Gadać o sprawach zawodowych poza pracą, zwykle ku znudzeniu innych. Shop to tu miejsce pracy, nie sklep. Bez the: talk shop.",
+      "example": {
+        "en": "Whenever my parents meet their colleagues, they end up talking shop all evening.",
+        "pl": "Kiedy rodzice spotykają się ze znajomymi z pracy, zawsze kończy się na tym, że cały wieczór rozmawiają o pracy."
+      },
+      "register": "informal",
+      "tags": ["praca", "rozmowa"]
+    },
+    {
+      "en": "hold the fort",
+      "pl": "przejąć obowiązki (na chwilę), pilnować wszystkiego",
+      "meaning_pl": "Zająć się czymś pod nieobecność osoby, która zwykle za to odpowiada. Logika: żołnierz broni fortu, kiedy reszta wyszła. Po amerykańsku hold down the fort.",
+      "example": {
+        "en": "My manager is on holiday, so I'm holding the fort this week.",
+        "pl": "Moja kierowniczka jest na urlopie, więc w tym tygodniu to ja wszystkiego pilnuję."
+      },
+      "register": "informal",
+      "tags": ["praca", "zastępstwo"]
+    },
+    {
+      "en": "fill sb's shoes",
+      "pl": "godnie kogoś zastąpić",
+      "meaning_pl": "Przejąć czyjeś stanowisko i radzić sobie równie dobrze jak poprzednik. Typowo: it won't be easy / it'll be hard to fill sb's shoes.",
+      "example": {
+        "en": "Mrs Nowak was a brilliant head teacher, and it won't be easy to fill her shoes.",
+        "pl": "Pani Nowak była świetną dyrektorką i niełatwo będzie ją godnie zastąpić."
+      },
+      "register": "neutral",
+      "tags": ["praca", "zastępstwo"]
+    },
+    {
+      "en": "get the sack / give sb the sack",
+      "pl": "wylecieć z pracy / wylać kogoś",
+      "meaning_pl": "Brytyjskie, potoczne. Get the sack = zostać zwolnionym, give sb the sack = zwolnić kogoś. Czasownik: be sacked. Neutralnie: lose your job, formalnie: be dismissed.",
+      "example": {
+        "en": "He got the sack for being late every day.",
+        "pl": "Wyleciał z pracy za codzienne spóźnienia."
+      },
+      "register": "informal",
+      "tags": ["praca", "zwolnienie"]
+    },
+    {
+      "en": "the rat race",
+      "pl": "wyścig szczurów",
+      "meaning_pl": "Ciągła walka o pieniądze i pozycję w pracy – tak samo jak po polsku. Zawsze z the. Typowo: escape / get out of the rat race.",
+      "example": {
+        "en": "After ten years at a bank in London, she left the rat race and opened a small café by the sea.",
+        "pl": "Po dziesięciu latach w londyńskim banku rzuciła wyścig szczurów i otworzyła małą kawiarnię nad morzem."
+      },
+      "register": "informal",
+      "tags": ["praca", "kariera", "styl życia"]
+    },
+    {
+      "en": "red tape",
+      "pl": "biurokracja, papierologia",
+      "meaning_pl": "Niepotrzebne przepisy i formalności, które wszystko spowalniają. Dawniej urzędowe dokumenty wiązano czerwoną taśmą. Rzeczownik niepoliczalny: a lot of red tape. Pasuje do rozprawki.",
+      "example": {
+        "en": "Starting a business in some countries involves a lot of red tape.",
+        "pl": "Założenie firmy w niektórych krajach wiąże się z mnóstwem papierologii."
+      },
+      "register": "neutral",
+      "tags": ["praca", "biurokracja", "rozprawka"]
+    },
+    {
+      "en": "be your own boss",
+      "pl": "pracować na swoim, być swoim szefem",
+      "meaning_pl": "Pracować na własny rachunek – nikt ci nie wydaje poleceń. Zaimek się zmienia: she wants to be her own boss.",
+      "example": {
+        "en": "I'd like to be my own boss one day, so I'm planning to study business.",
+        "pl": "Kiedyś chciałbym pracować na swoim, więc planuję studiować zarządzanie."
+      },
+      "register": "neutral",
+      "tags": ["praca", "kariera"]
+    }
+  ]
+}

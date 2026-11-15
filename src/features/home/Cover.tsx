@@ -1,6 +1,7 @@
 import { Link } from 'react-router'
 import { Icon } from '../../components/Icon'
 import { Hl } from '../../components/Ink'
+import { ThemePill } from '../../components/ThemePill'
 import { pl } from '../../i18n/pl'
 
 // okładka zeszytu z naklejką, jak w projekcie
@@ -8,9 +9,12 @@ export function Cover({ name }: { name?: string }) {
   return (
     <header className="cover home-cover">
       <span className="home-band" aria-hidden="true" />
-      <Link className="ibtn home-gear" to="/settings" aria-label={pl.nav.settings}>
-        <Icon name="gear" />
-      </Link>
+      <div className="stack home-controls">
+        <ThemePill vertical />
+        <Link className="ibtn" to="/settings" aria-label={pl.nav.settings}>
+          <Icon name="gear" />
+        </Link>
+      </div>
       <div className="home-label r-1">
         <div className="home-label-in">
           <p className="eyebrow" style={{ letterSpacing: '.32em' }}>

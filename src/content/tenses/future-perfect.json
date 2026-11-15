@@ -5,299 +5,449 @@
   "group": "future",
   "aspect": "perfect",
   "tabLabel": ["Fut.", "Perf."],
-  "oneLiner_pl": "gotowe przed jakimś momentem w przyszłości",
+  "oneLiner_pl": "stajesz w momencie w przyszłości i patrzysz wstecz: do tego czasu coś będzie już gotowe",
   "timeline": {
-    "now": 0.45,
+    "now": 0.65,
     "marks": [
-      {
-        "kind": "point",
-        "from": 0.66,
-        "label": "done"
-      },
-      {
-        "kind": "point",
-        "from": 0.88,
-        "label": "by June"
-      }
+      { "kind": "point", "from": 0.8, "label": "finished" },
+      { "kind": "point", "from": 0.94, "label": "by June" }
     ]
   },
   "howToChoose": [
     {
       "step_pl": "sygnał",
-      "text_pl": "Widzisz by June, by the time, by the end of, by then?"
+      "text_pl": "Szukasz terminu w przyszłości z by: by Friday, by the end of June, by then, by this time next year albo by the time + zdanie (by the time you get home). Czasem moment wynika z kontekstu, bez by: The concert starts at eight and our bus doesn't get in till half past, so we'll have missed the first few songs (o wpół do dziewiątej, gdy dojedziemy, początek będzie już za nami). Pomaga też already (będzie już po) i How many…? z terminem."
     },
     {
       "step_pl": "relacja w czasie",
-      "text_pl": "Czynność będzie ZAKOŃCZONA przed konkretnym momentem w przyszłości."
+      "text_pl": "Stajesz myślami w tym przyszłym momencie i patrzysz wstecz: czynność będzie już zakończona — zrobiona wcześniej albo najpóźniej wtedy. To ten sam pomysł co Present Perfect, tylko punktem odniesienia nie jest teraz, ale moment w przyszłości. Stąd budowa: will (przyszłość) + have + V3 („będę to miał za sobą”)."
+    },
+    {
+      "step_pl": "pułapka",
+      "text_pl": "this time tomorrow i at + godzina bez by zwykle pytają, co będzie wtedy w trakcie → Future Continuous (This time tomorrow I'll be sitting my exam). Ale jeśli mówisz, co w tej chwili będzie już za tobą, zostaje Future Perfect: This time tomorrow I'll have finished my last exam. Rozstrzyga sens: w środku czy już po. Gdy mówisz po prostu, kiedy coś się stanie (I'll finish it on Friday), wystarczy Future Simple. A w samym zdaniu po by the time, when, before, until, as soon as nie ma will: by the time you arrive. Jeśli „zrobione wcześniej” trafia do takiego zdania, Future Perfect zamienia się w Present Perfect: I'll call you when I've finished."
     },
     {
       "step_pl": "forma",
-      "text_pl": "will have + V3: I'll have finished."
+      "text_pl": "will have + V3 dla wszystkich osób (she will have, nie she will has). Przeczenie: won't have + V3. Pytanie: Will + podmiot + have + V3? Skrót: I'll have, she'll have. Bierna: will have been + V3."
     }
   ],
   "forms": {
     "active": {
       "affirmative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "will have",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "will have", "role": "aux" },
+          { "text": "V3", "role": "verb" }
         ],
         "example": {
-          "en": "By June I'll have finished school.",
-          "pl": "Do czerwca skończę szkołę."
-        }
+          "en": "By the end of June I'll have finished my exams.",
+          "pl": "Do końca czerwca skończę egzaminy."
+        },
+        "note_pl": "will jest takie samo dla każdej osoby, więc po nim zawsze have, nigdy has: she will have finished, nie she will has. will przenosi cię do momentu w przyszłości, a have + V3 mówi, że czynność będzie wtedy już za tobą — to ten sam kawałek co w Present Perfect, tylko punkt odniesienia leży w przyszłości. V3: regularne -ed (finished), nieregularne z tabeli (write → written). Po polsku mówisz zwykle czasem przyszłym („skończę”), więc o wyborze decyduje termin (by June), a nie polski czasownik. W amerykańskim V3 od get to zwykle gotten (will have gotten), w brytyjskim — got."
       },
       "negative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "will",
-            "role": "aux"
-          },
-          {
-            "text": "not",
-            "role": "particle"
-          },
-          {
-            "text": "have",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "will", "role": "aux" },
+          { "text": "not", "role": "particle" },
+          { "text": "have", "role": "aux" },
+          { "text": "V3", "role": "verb" }
         ],
         "example": {
-          "en": "They won't have finished the bridge by 2030.",
-          "pl": "Nie skończą mostu do 2030 roku."
-        }
+          "en": "The builders won't have finished the roof by the end of the month.",
+          "pl": "Budowlańcy nie skończą dachu do końca miesiąca."
+        },
+        "note_pl": "not stoi po will, a przed have: won't have finished. Znaczy: w tym momencie czynność wciąż nie będzie skończona. Porównaj z not … until: I won't finish until eight = skończę dopiero o ósmej (Future Simple). Future Perfect z until też się zdarza (won't have finished until eight), ale rzadziej."
       },
       "question": {
         "pattern": [
-          {
-            "text": "Will",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "have",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Will", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "have", "role": "aux" },
+          { "text": "V3", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
         "example": {
-          "en": "Will you have read the book by Friday?",
-          "pl": "Przeczytasz tę książkę do piątku?"
-        }
+          "en": "Will you have heard back from the university by the end of July?",
+          "pl": "Dostaniesz odpowiedź z uczelni do końca lipca?"
+        },
+        "note_pl": "Przed podmiot idzie tylko will, a have + V3 zostają za nim: Will you have heard…?, nie Will have you heard…? Krótka odpowiedź: Yes, I will. / No, I won't. (bywa też Yes, I will have.)"
       },
       "whQuestion": {
         "pattern": [
-          {
-            "text": "Wh-word",
-            "role": "neutral"
-          },
-          {
-            "text": "will",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "have",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Wh-word", "role": "neutral" },
+          { "text": "will", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "have", "role": "aux" },
+          { "text": "V3", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
         "example": {
-          "en": "How much will you have saved by the end of the year?",
-          "pl": "Ile odłożysz do końca roku?"
-        }
+          "en": "How many books will you have read by the end of the holidays?",
+          "pl": "Ile książek przeczytasz do końca wakacji?"
+        },
+        "note_pl": "How many…? / How much…? z terminem to typowe pytanie o wynik. Pytanie o podmiot idzie bez przestawienia: What will have changed by 2050? (Co się zmieni do 2050 roku?)"
       }
     },
     "passive": {
       "affirmative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "will have been",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "will have been", "role": "aux" },
+          { "text": "V3", "role": "verb" }
         ],
         "example": {
-          "en": "The new library will have been opened by September.",
-          "pl": "Nowa biblioteka zostanie otwarta do września."
-        }
+          "en": "By the end of next year, a thousand new trees will have been planted in our town.",
+          "pl": "Do końca przyszłego roku w naszym mieście zostanie posadzonych tysiąc nowych drzew."
+        },
+        "note_pl": "Bierna = will have been + V3. will have been niesie Future Perfect (been to V3 od be), a końcowe V3 daje sens bierny: podmiot nic nie robi, to z nim coś zostanie zrobione do danego momentu. Wykonawcę dodajesz przez by tylko wtedy, gdy jest ważny. Nie myl go z terminem: by the council (przez radę miasta), ale by June (do czerwca)."
       },
       "negative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "will",
-            "role": "aux"
-          },
-          {
-            "text": "not",
-            "role": "particle"
-          },
-          {
-            "text": "have been",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "will", "role": "aux" },
+          { "text": "not", "role": "particle" },
+          { "text": "have been", "role": "aux" },
+          { "text": "V3", "role": "verb" }
         ],
         "example": {
           "en": "The results won't have been published by then.",
-          "pl": "Wyniki nie zostaną do tego czasu opublikowane."
-        }
+          "pl": "Do tego czasu wyniki nie zostaną opublikowane."
+        },
+        "note_pl": "not stoi zaraz po will: won't have been published. have been + V3 zostaje bez zmian."
       },
       "question": {
         "pattern": [
-          {
-            "text": "Will",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "have been",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Will", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "have been", "role": "aux" },
+          { "text": "V3", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
         "example": {
-          "en": "Will the house have been sold by the summer?",
-          "pl": "Czy dom zostanie sprzedany do lata?"
-        }
+          "en": "Will the new stadium have been built by the time the season starts?",
+          "pl": "Czy nowy stadion zostanie zbudowany, zanim zacznie się sezon?"
+        },
+        "note_pl": "Przed podmiot idzie tylko will. have been + V3 zostają za podmiotem."
       },
       "whQuestion": {
         "pattern": [
-          {
-            "text": "Wh-word",
-            "role": "neutral"
-          },
-          {
-            "text": "will",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "have been",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Wh-word", "role": "neutral" },
+          { "text": "will", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "have been", "role": "aux" },
+          { "text": "V3", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
         "example": {
-          "en": "How many trees will have been planted by 2030?",
-          "pl": "Ile drzew zostanie posadzonych do 2030 roku?"
-        }
+          "en": "How many times will this street have been dug up by the end of the year?",
+          "pl": "Ile razy do końca roku rozkopią tę ulicę?"
+        },
+        "note_pl": "Gdy pytasz o podmiot, nie ma przestawienia: How many trees will have been planted by 2030? (Ile drzew zostanie posadzonych do 2030 roku?)"
       }
     }
   },
+  "modals": [
+    {
+      "modal": "should have",
+      "pattern": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "should", "role": "aux" },
+        { "text": "have", "role": "aux" },
+        { "text": "V3", "role": "verb" }
+      ],
+      "example": {
+        "en": "If the trains are on time, we should have arrived in Gdańsk by six.",
+        "pl": "Jeśli pociągi będą punktualne, przed szóstą powinniśmy być już w Gdańsku."
+      },
+      "note_pl": "To nie osobny czas, tylko konstrukcja modalna: zamiast will stoi should, a kawałek have + V3 i termin z by zostają. Znaczy „powinno być gotowe do…” — tak przewidujesz, jeśli wszystko pójdzie zgodnie z planem. Bez terminu w przyszłości should have + V3 to zwykle krytyka przeszłości (You should have told me) — rozstrzyga kontekst."
+    },
+    {
+      "modal": "may / might have",
+      "pattern": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "may / might", "role": "aux" },
+        { "text": "have", "role": "aux" },
+        { "text": "V3", "role": "verb" }
+      ],
+      "example": {
+        "en": "I might have finished by the time you get here, but I can't promise anything.",
+        "pl": "Może skończę, zanim tu dotrzesz, ale niczego nie obiecuję."
+      },
+      "note_pl": "Konstrukcja modalna: may albo might zamiast will robi z pewności przypuszczenie — możliwe, że do terminu będzie gotowe, ale nie musi. Bez terminu w przyszłości might have + V3 zwykle mówi o przeszłości (He might have missed the bus)."
+    }
+  ],
   "uses": [
     {
-      "title_pl": "Gotowe przed momentem w przyszłości",
-      "explanation_pl": "Patrzysz z przyszłości wstecz: do tego czasu będzie już zrobione.",
+      "title_pl": "Gotowe przed terminem w przyszłości (by + termin)",
+      "explanation_pl": "Wybierasz moment w przyszłości (by Friday, by the end of June, by 2030, by then), stajesz w nim i patrzysz wstecz: czynność będzie już zakończona. by znaczy tu „najpóźniej do” — coś może się stać dużo wcześniej, ważne, że w tym momencie będzie gotowe. Po polsku mówisz to zwykłym czasem przyszłym („skończę do czerwca”), dlatego patrz na termin, a nie na polski czasownik. Future Simple z by też bywa poprawny, gdy po prostu obiecujesz albo planujesz (I'll send it by Friday). Future Perfect wybierasz, gdy stajesz w tym momencie i opisujesz, co będzie już za tobą albo ile będzie gotowe (By then I'll have…, by Friday I'll have written three chapters).",
       "examples": [
         {
-          "en": "By the time you get home, I'll have cooked dinner.",
-          "pl": "Zanim wrócisz do domu, ugotuję obiad."
+          "en": "By 2030 I'll have finished my studies and found a job.",
+          "pl": "Do 2030 roku skończę studia i znajdę pracę."
+        },
+        {
+          "en": "By this time next year, we'll have left school and started university.",
+          "pl": "Za rok o tej porze będziemy już po szkole i na studiach."
+        },
+        {
+          "en": "I'm back at ten. — Fine, by then I'll have tidied the kitchen.",
+          "pl": "Wracam o dziesiątej. — Dobra, do tego czasu posprzątam kuchnię."
+        }
+      ]
+    },
+    {
+      "title_pl": "By the time / before + Present Simple",
+      "explanation_pl": "by the time + zdanie wyznacza moment zdarzeniem, a nie datą: by the time you get home = zanim wrócisz (najpóźniej wtedy). W tym zdaniu jest Present Simple, bo po spójnikach czasu (when, before, after, until, as soon as, by the time) nie ma will — przyszłość widać już z drugiej części. Future Perfect stoi w zdaniu głównym. before działa podobnie, ale słabiej: kolejność i tak wynika ze spójnika, więc często wystarczy Future Simple (I'll call you before I leave). Future Perfect z before podkreśla, że coś będzie już zamknięte.",
+      "examples": [
+        {
+          "en": "By the time the guests arrive, I'll already have set the table.",
+          "pl": "Zanim przyjdą goście, stół będzie już nakryty."
+        },
+        {
+          "en": "I'll have left before you wake up, so let's say goodbye now.",
+          "pl": "Wyjdę, zanim się obudzisz, więc pożegnajmy się teraz."
+        },
+        {
+          "en": "By the time the film comes out in cinemas, most of my friends will have read the book.",
+          "pl": "Zanim film wejdzie do kin, większość moich znajomych przeczyta już książkę."
+        }
+      ]
+    },
+    {
+      "title_pl": "Ile do tego czasu (liczba, wynik)",
+      "explanation_pl": "Gdy liczysz, ile czegoś będzie zrobione do momentu w przyszłości (ile stron, ile kilometrów, ile meczów), też patrzysz z tego momentu wstecz → Future Perfect. To jak Present Perfect z liczbą (I've read three books this month), tylko licznik zatrzymuje się nie teraz, ale w przyszłości. Z liczbą sztuk (stron, meczów, kilometrów) nie bierzesz Future Perfect Continuous: to wynik, a nie czas trwania. Liczba z for (for ten years) to co innego, bo mówi, jak długo.",
+      "examples": [
+        {
+          "en": "By the end of the season, she'll have played in over thirty matches.",
+          "pl": "Do końca sezonu zagra w ponad trzydziestu meczach."
+        },
+        {
+          "en": "How many pages will you have written by Friday?",
+          "pl": "Ile stron napiszesz do piątku?"
+        },
+        {
+          "en": "If I keep this up, I'll have run 500 kilometres by Christmas.",
+          "pl": "Jeśli utrzymam to tempo, do świąt przebiegnę 500 kilometrów."
+        }
+      ]
+    },
+    {
+      "title_pl": "Stan, który będzie trwał do momentu w przyszłości (for)",
+      "explanation_pl": "Gdy chcesz powiedzieć, jak długo coś będzie trwało w danym momencie w przyszłości, dodajesz for + okres i znowu patrzysz z tego momentu wstecz. Po polsku mówimy wtedy zwykle „minie dziesięć lat, odkąd…”. Przy czasownikach stanu (have = mieć, know, be) to jedyna opcja, bo nie biorą -ing. Przy czynnościach (learn, work, wait) częściej usłyszysz Future Perfect Continuous: By June I'll have been learning English for ten years.",
+      "examples": [
+        {
+          "en": "In May my parents will have been married for twenty-five years.",
+          "pl": "W maju minie dwadzieścia pięć lat, odkąd moi rodzice są małżeństwem."
+        },
+        {
+          "en": "In September my grandparents' bakery will have been open for fifty years.",
+          "pl": "We wrześniu minie pięćdziesiąt lat od otwarcia piekarni moich dziadków."
+        }
+      ]
+    },
+    {
+      "title_pl": "Przypuszczenie: pewnie już się stało",
+      "explanation_pl": "will have + V3 nie zawsze mówi o przyszłości. Z by now albo bez żadnego terminu znaczy „pewnie już…”: przypuszczasz, że coś się stało, choć tego nie widzisz. Jesteś prawie pewny, podobnie jak przy must have + V3. will znaczy tu „zakładam”, a nie „w przyszłości”.",
+      "examples": [
+        {
+          "en": "It's half past ten, so Ola will have landed in London by now.",
+          "pl": "Jest wpół do jedenastej, więc Ola na pewno już wylądowała w Londynie."
+        },
+        {
+          "en": "Don't ring Grandpa now — he'll have gone to bed.",
+          "pl": "Nie dzwoń teraz do dziadka — pewnie już się położył."
+        },
+        {
+          "en": "You'll have heard the news, I suppose.",
+          "pl": "Pewnie już słyszałeś nowinę."
         }
       ]
     }
   ],
   "signalWords": [
     {
-      "word": "by June"
+      "word": "by then",
+      "note_pl": "do tego czasu — odsyła do momentu, który już padł w rozmowie (I'm back at ten. — By then I'll have tidied up). Uwaga: by then + sytuacja w toku albo stan daje inne czasy: by then I'll be living in Wrocław (Future Continuous), by then we'll be on holiday (Future Simple)"
     },
     {
-      "word": "by the time"
+      "word": "by the time",
+      "note_pl": "zanim / do czasu, gdy + zdanie w Present Simple: by the time you get home, nie you will get. Future Perfect idzie do drugiej części. Ten sam spójnik z przeszłością (by the time we arrived) daje Past Perfect"
     },
     {
-      "word": "by the end of"
+      "word": "by the end of",
+      "note_pl": "do końca: by the end of June, by the end of the year, by the end of the course"
     },
     {
-      "word": "by then"
+      "word": "by Friday / by June / by 2030",
+      "note_pl": "by + termin = najpóźniej do. Nie myl z until (aż do), które mówi, jak długo coś trwa: I'll stay until Friday. Z by + termin Future Simple też bywa poprawny, gdy obiecujesz albo planujesz (I'll send it by Friday)"
     },
     {
-      "word": "before"
+      "word": "by this time next year",
+      "note_pl": "z by → Future Perfect (będzie już po). Bez by (this time next year) pytasz zwykle, co będzie w trakcie → Future Continuous: This time next year I'll be studying in Poznań. Gdy mówisz, co wtedy będzie już za tobą, Future Perfect pasuje i bez by: This time next year I'll have left school"
+    },
+    {
+      "word": "by now",
+      "note_pl": "„pewnie już” — przypuszczenie o teraz, a nie o przyszłości: She'll have landed by now. Uwaga: by now łączy się też z Present Perfect: By now you've probably heard the news"
+    },
+    {
+      "word": "before",
+      "note_pl": "przed + moment albo zdanie w Present Simple: before you wake up, before the end of the month. Słabszy sygnał niż by: kolejność widać już ze spójnika, więc często wystarczy Future Simple (I'll call you before I leave)"
+    },
+    {
+      "word": "already",
+      "note_pl": "już — podkreśla, że w danym momencie będzie po wszystkim. Stoi po will albo po have: I'll already have left / I'll have already left"
+    },
+    {
+      "word": "for",
+      "note_pl": "+ okres liczony do momentu w przyszłości: By the end of the year our dog will have been with us for ten years. Bez takiego momentu for nie wskazuje na Future Perfect (I'll stay for a week — Future Simple). Przy czynnościach z for częściej Future Perfect Continuous"
     }
   ],
   "relatedTenses": [
     {
       "id": "future-continuous",
-      "relation_pl": "Perfect — gotowe przed tym momentem. Continuous — w tym momencie w trakcie."
+      "relation_pl": "Pytanie kontrolne: czy w danym momencie czynność będzie już skończona, czy dopiero w trakcie? Skończona (by eight, by then) → Future Perfect. W trakcie (at eight, this time tomorrow) → Future Continuous. W zdaniu różni się często jedno słowo — by albo at — a obraz jest zupełnie inny: po albo w środku.",
+      "contrast": [
+        {
+          "en": "At nine I'll be packing my suitcase.",
+          "pl": "O dziewiątej będę się pakować (w trakcie)."
+        },
+        {
+          "en": "By nine I'll have packed my suitcase.",
+          "pl": "Do dziewiątej spakuję walizkę (o dziewiątej będzie gotowa)."
+        },
+        {
+          "en": "When you arrive, we'll be having dinner.",
+          "pl": "Kiedy przyjedziesz, będziemy w trakcie kolacji."
+        },
+        {
+          "en": "When you arrive, we'll have had dinner.",
+          "pl": "Kiedy przyjedziesz, będziemy już po kolacji."
+        }
+      ]
+    },
+    {
+      "id": "future-simple",
+      "relation_pl": "Future Simple mówi po prostu, że coś się stanie albo kiedy: I'll finish it on Friday — w piątek. Future Perfect patrzy z momentu w przyszłości wstecz: w piątek będzie już gotowe. Przy when zmienia się kolejność zdarzeń: When you get home, I'll cook dinner (najpierw wrócisz, potem gotuję), ale When you get home, I'll have cooked dinner (obiad będzie gotowy, zanim wrócisz). Z by + termin Future Simple też bywa poprawny, gdy obiecujesz albo planujesz (I'll send it by Friday). Gdy jednak opisujesz, co w tym momencie będzie już za tobą — zwłaszcza po by the time + zdanie — bierzesz Future Perfect.",
+      "contrast": [
+        {
+          "en": "When you get home, I'll cook dinner.",
+          "pl": "Kiedy wrócisz do domu, ugotuję obiad (najpierw ty, potem obiad)."
+        },
+        {
+          "en": "When you get home, I'll have cooked dinner.",
+          "pl": "Kiedy wrócisz do domu, obiad będzie już ugotowany (najpierw obiad, potem ty)."
+        },
+        {
+          "en": "I'll finish the project on Friday.",
+          "pl": "Skończę projekt w piątek (wtedy)."
+        },
+        {
+          "en": "I'll have finished the project by Friday.",
+          "pl": "Skończę projekt do piątku (najpóźniej w piątek będzie gotowy)."
+        }
+      ]
+    },
+    {
+      "id": "future-perfect-continuous",
+      "relation_pl": "Oba patrzą z momentu w przyszłości wstecz. Future Perfect liczy wynik: co będzie gotowe i ile (liczba, How many…?). Future Perfect Continuous liczy czas trwania czynności, która w tym momencie wciąż trwa albo dopiero się kończy (for six hours, How long…?). Czasowniki stanu (have = mieć, know, be) nie biorą -ing, więc nawet z for zostają w Future Perfect.",
+      "contrast": [
+        {
+          "en": "By June I'll have learnt over two thousand new words.",
+          "pl": "Do czerwca nauczę się ponad dwóch tysięcy nowych słów (wynik)."
+        },
+        {
+          "en": "By June I'll have been learning English for ten years.",
+          "pl": "W czerwcu minie dziesięć lat, odkąd uczę się angielskiego (czas trwania)."
+        },
+        {
+          "en": "How many pages will you have read by midnight?",
+          "pl": "Ile stron przeczytasz do północy? (wynik)"
+        },
+        {
+          "en": "How long will you have been reading by midnight?",
+          "pl": "Jak długo będziesz już czytać o północy? (czas trwania)"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect",
+      "relation_pl": "To ten sam pomysł — coś wcześniej, a liczy się stan „już za mną” — tylko z innym punktem odniesienia: w Present Perfect jest nim teraz, w Future Perfect moment w przyszłości. Ważna pułapka: w zdaniu po when, after, as soon as, once, until i by the time nie ma will, więc tam Future Perfect zamienia się w Present Perfect: I'll call you when I've finished, nie when I'll have finished.",
+      "contrast": [
+        {
+          "en": "I've written three chapters so far.",
+          "pl": "Jak dotąd napisałem trzy rozdziały (do teraz)."
+        },
+        {
+          "en": "By the end of May I'll have written all ten chapters.",
+          "pl": "Do końca maja napiszę wszystkie dziesięć rozdziałów (do momentu w przyszłości)."
+        },
+        {
+          "en": "I'll lend you the book when I've read it.",
+          "pl": "Pożyczę ci książkę, kiedy ją przeczytam (po when — Present Perfect)."
+        }
+      ]
+    },
+    {
+      "id": "past-perfect",
+      "relation_pl": "Ten sam pomysł, inny punkt odniesienia: w Past Perfect patrzysz wstecz z momentu w przeszłości, w Future Perfect — z momentu w przyszłości. Czas w zdaniu z by the time pokazuje, który to punkt: arrived (przeszłość) → had + V3, arrives (przyszłość, Present Simple bez will) → will have + V3.",
+      "contrast": [
+        {
+          "en": "By the time Ola arrived, the match had finished.",
+          "pl": "Zanim Ola dotarła, mecz już się skończył (punkt w przeszłości)."
+        },
+        {
+          "en": "By the time Ola arrives, the match will have finished.",
+          "pl": "Zanim Ola dotrze, mecz już się skończy (punkt w przyszłości)."
+        }
+      ]
     }
   ],
   "commonMistakes": [
     {
-      "wrong": "By the time you will arrive, I'll have left.",
-      "right": "By the time you arrive, I'll have left.",
-      "why_pl": "Po by the time (gdy mowa o przyszłości) Present Simple, nie will."
+      "wrong": "By the time you will arrive, we'll have left.",
+      "right": "By the time you arrive, we'll have left.",
+      "why_pl": "Po by the time (i innych spójnikach czasu: when, before, after, until, as soon as) przyszłość wyrażasz Present Simple. will pojawia się tylko w zdaniu głównym."
+    },
+    {
+      "wrong": "I'll have finished the project until Friday.",
+      "right": "I'll have finished the project by Friday.",
+      "why_pl": "Polskie „do piątku” ma dwa odpowiedniki. by = najpóźniej do (termin, czynność się kończy). until = aż do (coś trwa do tego momentu): I'll be in Kraków until Friday. Future Perfect łączy się z by."
+    },
+    {
+      "wrong": "She will has finished by then.",
+      "right": "She will have finished by then.",
+      "why_pl": "Po will zawsze forma podstawowa, więc have, nigdy has — tak samo jak she will go, nie she will goes."
+    },
+    {
+      "wrong": "I'll call you when I'll have finished.",
+      "right": "I'll call you when I've finished.",
+      "why_pl": "W zdaniu z when (as soon as, after, once, until) nie ma will. „Gdy już skończę” to Present Perfect (when I've finished) albo Present Simple (when I finish)."
+    },
+    {
+      "wrong": "By the time you come back, I will clean the whole flat.",
+      "right": "By the time you come back, I will have cleaned the whole flat.",
+      "why_pl": "Polskie „posprzątam” to czas przyszły dokonany i kusi zwykłe will. Ale by the time ustawia punkt w przyszłości, a ty mówisz, co będzie wtedy już zrobione → will have + V3."
+    },
+    {
+      "wrong": "By the end of June our teacher will have been knowing us for three years.",
+      "right": "By the end of June our teacher will have known us for three years.",
+      "why_pl": "know to czasownik stanu i nie bierze -ing, więc nawet z for zostaje Future Perfect, a nie Continuous."
+    },
+    {
+      "wrong": "By the end of the year I'll have been reading twenty books.",
+      "right": "By the end of the year I'll have read twenty books.",
+      "why_pl": "Liczba (twenty books) to wynik, a wynik pokazuje Future Perfect. Continuous mówi, jak długo coś trwa, i nie łączy się z tym, ile sztuk jest gotowych."
     }
   ],
-  "maturaTips_pl": []
+  "maturaTips_pl": [
+    "Zanim wpiszesz will have + V3, znajdź punkt w przyszłości: by + termin, by then, by the time + zdanie. Jeśli luka stoi w zdaniu po by the time, when, before albo once, to tam nie ma will: by the time you arrive, a „gdy już skończę” to when I've finished.",
+    "Rozróżnij by i at: by eight → will have done (już po), at eight → will be doing, gdy coś będzie wtedy w trakcie, albo will + V1, gdy coś się po prostu wtedy stanie (I'll call you at eight). To jedno słowo często rozstrzyga o punkcie.",
+    "Typowa parafraza: The guests arrive at eight. I'll finish cooking before that. = By the time the guests arrive, I'll have finished cooking.",
+    "Transformacja z for: It will be twenty-five years in May since my parents got married. = In May my parents will have been married for twenty-five years. Po since — Past Simple (got married), bo to moment startu.",
+    "Pozycja przysłówków: She'll probably have left by then, ale She probably won't have left by then (probably stoi po will, ale przed won't). Częsta transformacja: It's likely that she will have left by then. = She'll probably have left by then. = She is likely to have left by then.",
+    "Mowa zależna: „I'll have finished the project by Friday” → She said she would have finished the project by Friday. To nie okres warunkowy, tylko Future Perfect cofnięty w przeszłość (will → would).",
+    "W wypracowaniu o planach albo o przyszłości (szkoły, miasta, technologii) jedno zdanie w Future Perfect pokazuje zakres struktur: By the time I'm thirty, I'll have… albo In twenty years' time, most people will have switched to electric cars.",
+    "Pilnuj V3 nieregularnych, bo tu najłatwiej o błąd: will have gone (nie went), will have written, will have had — dwa have obok siebie to nie błąd."
+  ]
 }

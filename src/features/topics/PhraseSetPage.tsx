@@ -7,7 +7,7 @@ import { Card, type Tilt } from '../../components/Paper'
 import { NotFound } from '../../components/States'
 import type { PhraseItem, PhraseSet } from '../../content/schema'
 import { pl } from '../../i18n/pl'
-import { getPhraseSet } from '../../lib/content'
+import { usePhraseSets } from '../../lib/content'
 import type { WordInput } from '../../lib/db/words'
 import { findDuplicate, normalizeText } from '../../lib/vocab'
 import { useAuth } from '../auth/useAuth'
@@ -24,12 +24,13 @@ function draftFrom(set: PhraseSet, item: PhraseItem): WordInput {
     direction: 'en-pl',
     example: item.example.en,
     tags: [pl.topics.setTag[set.category], ...(item.tags ?? [])],
+    source: 'topic',
   }
 }
 
 export function PhraseSetPage() {
   const { id = '' } = useParams()
-  const set = getPhraseSet(id)
+  const set = usePhraseSets().find((s) => s.id === id)
   const { user } = useAuth()
   const { words } = useWords()
   const [q, setQ] = useState('')

@@ -1,0 +1,524 @@
+{
+  "id": "useful-structures",
+  "category": "grammar",
+  "title_pl": "Przydatne konstrukcje: so/such, too/enough, used to, be likely to i inne",
+  "summary_pl": "Gotowe ramy zdań, które wracają w transformacjach: so i such … that, too i enough, there is czy it is, make, let i have sb do, prefer i would rather, trzy różne used to, a do tego be supposed to, be likely to, be bound to, be about to, be due to i it takes.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "Te konstrukcje to ==gotowe ramy==. Każda ma stałe miejsce na przymiotnik, rzeczownik albo czasownik i każda wymaga ==konkretnej formy== za sobą: *to* + V1, samo V1 albo -ing. Dlatego tak łatwo z nich robić transformacje: to samo znaczenie da się powiedzieć dwiema ramami, a ty masz przełożyć jedną na drugą.\n\nKolejność myślenia jest zawsze ta sama:\n\n- **Sygnał.** Co w zdaniu źródłowym niesie znaczenie? *probably*, *so … that*, *spent two hours*, *didn't let*.\n- **Znaczenie.** Co dokładnie mówi to zdanie? Pewność, przyczynę i skutek, przyzwyczajenie, plan?\n- **Forma.** Która rama ze słowem kluczem mówi to samo i co musi stać po niej?"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "sygnał",
+          "text_pl": "Podkreśl w zdaniu źródłowym słowo, które zniknie w zdaniu docelowym. To ono mówi, jakiej ramy szukasz: probably → likely, didn't let → not allowed, spent → it took."
+        },
+        {
+          "step_pl": "znaczenie",
+          "text_pl": "Powiedz sobie po polsku, co zdanie znaczy. „Pewnie będzie padać”, „Kazali nam wyjść”, „Jestem przyzwyczajona”. To odsiewa ramy o podobnym brzmieniu, ale innym sensie."
+        },
+        {
+          "step_pl": "forma po ramie",
+          "text_pl": "Sprawdź, co stoi po ramie: to + V1 (be likely to, be allowed to), samo V1 (make sb, let sb, would rather) czy -ing (be used to, prefer … to)."
+        },
+        {
+          "step_pl": "czas i liczba",
+          "text_pl": "Odmień be do podmiotu i czasu zdania docelowego: is, are, was, were. Policz wyrazy razem ze słowem kluczem."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**so i such … that.** Obie ramy mówią: ==coś było tak bardzo jakieś, że aż wywołało skutek==. Skutek stoi po *that* (które w mowie często znika). Różnica jest tylko w tym, co stoi po *so* albo *such*:\n\n- *so* + sam przymiotnik albo przysłówek: *so tired*, *so quickly*,\n- *so* + *much / many / few / little* + rzeczownik: *so many people*, *so much traffic*,\n- *such* + rzeczownik (zwykle z przymiotnikiem): *such a long queue*, *such nice people*, *such awful weather*.\n\nPrzy *such* liczy się rzeczownik. Policzalny w lp dostaje *a/an*: *such a good idea*. Liczba mnoga i niepoliczalne są bez przedimka: *such good ideas*, *such good advice*."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "such",
+          "role": "signal"
+        },
+        {
+          "text": "a / an",
+          "role": "particle"
+        },
+        {
+          "text": "przymiotnik",
+          "role": "neutral"
+        },
+        {
+          "text": "rzeczownik",
+          "role": "neutral"
+        },
+        {
+          "text": "that",
+          "role": "signal"
+        },
+        {
+          "text": "skutek",
+          "role": "neutral"
+        }
+      ],
+      "example": {
+        "en": "It was such a long queue that we gave up and went home.",
+        "pl": "Kolejka była tak długa, że się poddaliśmy i poszliśmy do domu."
+      }
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "The exam was so difficult that nobody finished on time.",
+          "pl": "Egzamin był tak trudny, że nikt nie skończył na czas."
+        },
+        {
+          "en": "It was such a difficult exam that nobody finished on time.",
+          "pl": "To był tak trudny egzamin, że nikt nie skończył na czas."
+        },
+        {
+          "en": "There were so many people at the festival that we lost each other twice.",
+          "pl": "Na festiwalu było tyle ludzi, że dwa razy się zgubiliśmy."
+        },
+        {
+          "en": "We had such awful weather in Zakopane that we spent most of the time indoors.",
+          "pl": "W Zakopanem mieliśmy tak okropną pogodę, że większość czasu siedzieliśmy w środku."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "*weather*, *advice*, *information*, *news*, *homework* są niepoliczalne, więc ==bez a==: *such lovely weather* ✓, *such a lovely weather* ✗. A *so* nie stoi przed niepoliczalnym ani mnogim rzeczownikiem z przymiotnikiem: *so lovely weather* ✗."
+    },
+    {
+      "type": "text",
+      "md_pl": "**too … to i (not) … enough to.** Obie ramy mówią o ==granicy==. *too* = ponad granicę, więc coś jest niemożliwe. *enough* = do granicy, więc coś jest możliwe (a z *not*: niemożliwe).\n\n- *too* + przymiotnik + (*for* + osoba) + *to* V1: *too cold for us to swim*,\n- przymiotnik + *enough* + (*for* + osoba) + *to* V1: *old enough to vote*,\n- *enough* + rzeczownik + *to* V1: *enough money to buy a car*.\n\nPrzy zamianie *too ↔ not enough* bierzesz ==przymiotnik o przeciwnym znaczeniu==: *too young* = *not old enough*, *too short* = *not tall enough*."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "too",
+          "role": "signal"
+        },
+        {
+          "text": "przymiotnik",
+          "role": "neutral"
+        },
+        {
+          "text": "(for sb)",
+          "role": "object"
+        },
+        {
+          "text": "to V1",
+          "role": "verb"
+        }
+      ],
+      "example": {
+        "en": "The film was too scary for my little brother to watch.",
+        "pl": "Film był za straszny, żeby mój młodszy brat mógł go oglądać."
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "not",
+          "role": "particle"
+        },
+        {
+          "text": "przymiotnik",
+          "role": "neutral"
+        },
+        {
+          "text": "enough",
+          "role": "signal"
+        },
+        {
+          "text": "to V1",
+          "role": "verb"
+        }
+      ],
+      "example": {
+        "en": "I'm not fit enough to run a marathon yet.",
+        "pl": "Nie mam jeszcze takiej kondycji, żeby przebiec maraton."
+      }
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "so … that",
+          "md_pl": "Pełne zdanie skutku z ==własnym podmiotem==. Jeśli coś jest niemożliwe, piszesz to wprost: *couldn't*.",
+          "examples": [
+            {
+              "en": "The box was so heavy that I couldn't lift it.",
+              "pl": "Pudło było tak ciężkie, że nie mogłem go podnieść."
+            }
+          ]
+        },
+        {
+          "title": "too … to",
+          "md_pl": "Niemożliwość ==jest już w too==, więc bez *not*. Osoba idzie do *for sb*, a dopełnienia, które jest podmiotem zdania, nie powtarzasz.",
+          "examples": [
+            {
+              "en": "The box was too heavy for me to lift.",
+              "pl": "Pudło było dla mnie za ciężkie, żebym je podniósł."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "*too heavy for me to lift* ✓, *too heavy for me to lift it* lepiej nie, bo *it* to pudło, czyli podmiot zdania (na maturze zawsze pomijaj). Przy *so … that* zaimek musi zostać: *that I couldn't lift it*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**there is czy it is?** Polski mówi w obu przypadkach „jest”, angielski nie.\n\n- *there is / there are* ==wprowadza coś nowego==: mówisz, że coś istnieje albo gdzieś się znajduje. *There's a bakery near the station.* Liczba zależy od rzeczownika po: *there is a problem*, *there are two problems*, *there was a lot of snow*.\n- *it is* ==wskazuje na coś już znanego== albo jest pustym podmiotem przy pogodzie, czasie, odległości i ocenie: *It's cold.* *It's ten o'clock.* *It's two kilometres to the lake.* *It's hard to say.*\n\nTest: czy możesz zapytać „co to jest?” i wskazać rzecz? To *it*. Czy mówisz, że coś w ogóle jest? To *there*."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "There's a new climbing wall at the sports centre. It's open until ten.",
+          "pl": "W centrum sportowym jest nowa ścianka wspinaczkowa. Jest czynna do dziesiątej."
+        },
+        {
+          "en": "There were hardly any people on the beach because it was so windy.",
+          "pl": "Na plaży prawie nie było ludzi, bo tak mocno wiało."
+        },
+        {
+          "en": "There's no point in arguing with him. It's a waste of time.",
+          "pl": "Nie ma sensu się z nim kłócić. To strata czasu."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**make, let, allow, force, have sb do.** Wszystkie mówią, ==kto o czym decyduje==: ktoś kogoś zmusza, ktoś komuś pozwala albo ktoś coś zleca. Pułapka siedzi w formie po osobie. *make*, *let* i *have* biorą ==samo V1==, a *allow*, *force*, *get* biorą *to* + V1.\n\nW stronie biernej *make* odzyskuje *to*: *We were made to wait.* A *let* + bezokolicznik nie ma strony biernej. Zamiast niego bierzesz *be allowed to*."
+    },
+    {
+      "type": "table",
+      "headers": ["Strona czynna", "Znaczenie", "Strona bierna"],
+      "rows": [
+        ["make sb do", "kazać, zmusić", "be made to do"],
+        ["let sb do", "pozwolić", "brak, zamiast tego be allowed to do"],
+        ["allow sb to do", "pozwolić (bardziej oficjalnie)", "be allowed to do"],
+        ["force sb to do", "zmusić (siłą, okolicznościami)", "be forced to do"],
+        [
+          "have sb do",
+          "zlecić komuś, żeby coś zrobił",
+          "pokrewna forma: have sth done (zrobić coś u kogoś)"
+        ],
+        ["get sb to do", "namówić, załatwić, żeby ktoś coś zrobił", "rzadko w stronie biernej"]
+      ]
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "Our PE teacher made us run five laps in the rain.",
+          "pl": "Wuefista kazał nam przebiec pięć okrążeń w deszczu."
+        },
+        {
+          "en": "We were made to run five laps in the rain.",
+          "pl": "Kazano nam przebiec pięć okrążeń w deszczu."
+        },
+        {
+          "en": "My parents let me go to the festival on my own.",
+          "pl": "Rodzice pozwolili mi pojechać na festiwal samemu."
+        },
+        {
+          "en": "The storm forced the pilot to land in Katowice.",
+          "pl": "Burza zmusiła pilota do lądowania w Katowicach."
+        },
+        {
+          "en": "I'll have the mechanic check the brakes before our trip.",
+          "pl": "Przed wyjazdem poproszę mechanika, żeby sprawdził hamulce."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "*made us to run* ✗, *let me to go* ✗, *allowed me go* ✗. Zapamiętaj trójkę bez *to* w stronie czynnej: ==make, let, have==. Wszystko inne z tej rodziny bierze *to* (tylko *help* może być z *to* albo bez)."
+    },
+    {
+      "type": "text",
+      "md_pl": "**prefer i would rather.** Obie ramy mówią, że coś wolisz. Różnią się formą, a czasem tym, czy mówisz ogólnie, czy o jednej sytuacji.\n\n- *prefer* + -ing albo *to* V1 to ogólne upodobanie: *I prefer cycling.* *I prefer to cycle.*\n- *prefer X to Y* porównuje dwie rzeczy. *to* jest tu przyimkiem, więc po obu stronach stoi rzeczownik albo -ing: *I prefer cycling to driving.*\n- *would prefer* zwykle bierze *to* V1 i dotyczy konkretnej sytuacji: *I'd prefer to stay in tonight.* Druga opcja idzie wtedy po *rather than*: *rather than go out*.\n- *would rather* + ==samo V1==, a druga opcja po *than*, też samo V1: *I'd rather stay in than go out.*"
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "prefer",
+          "md_pl": "*prefer* + -ing / *to* V1. Porównanie: *prefer* -ing ==to== -ing.",
+          "examples": [
+            {
+              "en": "I prefer reading the book to watching the film.",
+              "pl": "Wolę czytać książkę niż oglądać film."
+            },
+            {
+              "en": "I'd prefer to take the train rather than drive.",
+              "pl": "Wolałbym pojechać pociągiem niż samochodem."
+            }
+          ]
+        },
+        {
+          "title": "would rather",
+          "md_pl": "*would rather* + V1 bez *to*. Porównanie: V1 ==than== V1.",
+          "examples": [
+            {
+              "en": "I'd rather read the book than watch the film.",
+              "pl": "Wolałbym przeczytać książkę niż obejrzeć film."
+            },
+            {
+              "en": "I'd rather not talk about it.",
+              "pl": "Wolałbym o tym nie rozmawiać."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Po *prefer* + -ing albo rzeczownik drugą rzecz łączysz przez *to*, po *prefer to* V1 przez *rather than*, po *would rather* przez *than*. Uważaj na *I'd rather to stay* ✗ i *I prefer stay* ✗. Gdy po *would rather* pojawia się inna osoba, wchodzi czas przeszły: *I'd rather you didn't tell her* (więcej w dziale o trybie łączącym)."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Trzy różne used to.** Wyglądają prawie tak samo, ale znaczą co innego. Rozstrzyga ==to, co stoi przed i po==.\n\n- *used to* + V1: ==kiedyś tak było, teraz już nie==. Tylko o przeszłości. Przeczenie i pytanie mają *use* bez *d*: *didn't use to*, *Did you use to…?*\n- *be used to* + -ing albo rzeczownik: ==jestem przyzwyczajony==. To stan i może być w każdym czasie.\n- *get used to* + -ing albo rzeczownik: ==przyzwyczajam się==. To proces, który trwa albo się kończy.\n\nW *be / get used to* słowo *to* jest przyimkiem, tak jak w *look forward to*. Dlatego po nim stoi -ing, a nie V1."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "used to + V1",
+          "md_pl": "Dawny zwyczaj albo stan, który ==się skończył==.",
+          "examples": [
+            {
+              "en": "I used to hate broccoli, but now I quite like it.",
+              "pl": "Kiedyś nie znosiłem brokułów, ale teraz nawet je lubię."
+            }
+          ]
+        },
+        {
+          "title": "be used to + -ing",
+          "md_pl": "Coś jest dla ciebie ==normalne==, nie przeszkadza ci.",
+          "examples": [
+            {
+              "en": "Nurses are used to working at night.",
+              "pl": "Pielęgniarki są przyzwyczajone do pracy w nocy."
+            }
+          ]
+        },
+        {
+          "title": "get used to + -ing",
+          "md_pl": "Coś ==staje się== normalne, potrzebujesz na to czasu.",
+          "examples": [
+            {
+              "en": "It took me a month to get used to driving on the left.",
+              "pl": "Miesiąc zajęło mi przyzwyczajenie się do jazdy po lewej stronie."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Pytanie kontrolne: czy chodzi o przeszłość, która minęła? Wtedy *used to* + V1. Czy o przyzwyczajenie? Wtedy *be* (stan) albo *get* (proces) + *used to* + -ing."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "O powtarzanych czynnościach z przeszłości można też powiedzieć *would*: *Every summer we would go to the lake.* Ale ==tylko o czynnościach==, nie o stanach. *I used to have long hair* ✓, *I would have long hair* ✗."
+    },
+    {
+      "type": "text",
+      "md_pl": "**be + przymiotnik/imiesłów + to V1.** Ta rodzina mówi o tym, ==czego się spodziewamy== i jak bardzo jesteśmy tego pewni. Rama jest zawsze ta sama: odmienione *be*, słowo, potem *to* + V1. Odmieniasz tylko *be*, reszta zostaje."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "podmiot",
+          "role": "subject"
+        },
+        {
+          "text": "be",
+          "role": "aux"
+        },
+        {
+          "text": "likely / bound / about / due / supposed",
+          "role": "signal"
+        },
+        {
+          "text": "to",
+          "role": "particle"
+        },
+        {
+          "text": "V1",
+          "role": "verb"
+        }
+      ],
+      "example": {
+        "en": "The match is likely to be cancelled because of the storm.",
+        "pl": "Mecz prawdopodobnie zostanie odwołany z powodu burzy."
+      }
+    },
+    {
+      "type": "table",
+      "headers": ["Rama", "Znaczenie", "Przykład", "Typowa zamiana"],
+      "rows": [
+        [
+          "be likely to",
+          "prawdopodobnie",
+          "It's likely to rain later.",
+          "It will probably rain later."
+        ],
+        [
+          "be unlikely to",
+          "raczej nie, mało prawdopodobne",
+          "He's unlikely to come.",
+          "He probably won't come."
+        ],
+        [
+          "be bound to",
+          "na pewno (mówiący jest przekonany)",
+          "You're bound to pass.",
+          "I'm sure you'll pass."
+        ],
+        [
+          "be about to",
+          "zaraz, za chwilę",
+          "The bus is about to leave.",
+          "The bus will leave in a moment."
+        ],
+        [
+          "be due to",
+          "ma nastąpić według planu",
+          "The plane is due to land at six.",
+          "The plane is scheduled to land at six."
+        ],
+        [
+          "be supposed to",
+          "mieć coś zrobić (zasady, plan, oczekiwania); też „podobno”",
+          "You're supposed to wear a helmet.",
+          "The rules say you must wear a helmet."
+        ]
+      ]
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "Tickets for the final are bound to sell out in minutes.",
+          "pl": "Bilety na finał na pewno rozejdą się w kilka minut."
+        },
+        {
+          "en": "I was about to call you when you knocked on the door.",
+          "pl": "Właśnie miałem do ciebie dzwonić, kiedy zapukałeś."
+        },
+        {
+          "en": "The new library is due to open in September.",
+          "pl": "Nowa biblioteka ma zostać otwarta we wrześniu."
+        },
+        {
+          "en": "We were supposed to meet at seven, but Kuba didn't turn up.",
+          "pl": "Mieliśmy się spotkać o siódmej, ale Kuba się nie pojawił."
+        },
+        {
+          "en": "This restaurant is supposed to be the best in town.",
+          "pl": "Ta restauracja podobno jest najlepsza w mieście."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "*be about to* znaczy „za chwilę”, więc ==nie łączy się z konkretną porą== w przyszłości: *The train is about to leave tomorrow* ✗. A *due to* + rzeczownik to zupełnie co innego: przyimek „z powodu” (*due to the strike*). Rozstrzyga to, co stoi po: V1 czy rzeczownik."
+    },
+    {
+      "type": "text",
+      "md_pl": "**it takes (sb) time to.** Ta rama mówi, ==ile czasu coś wymaga==. Podmiotem jest puste *it*, osoba stoi zaraz po *take*, a czynność idzie na koniec jako *to* + V1. Czas odmieniasz w *take*: *takes*, *took*, *will take*, *has taken*.\n\nTo samo powiesz przez *spend* + czas + -ing, i to jest klasyczna para do transformacji: *I spent an hour doing it* = *It took me an hour to do it*."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "It",
+          "role": "subject"
+        },
+        {
+          "text": "took",
+          "role": "verb"
+        },
+        {
+          "text": "me",
+          "role": "object"
+        },
+        {
+          "text": "two hours",
+          "role": "neutral"
+        },
+        {
+          "text": "to V1",
+          "role": "verb"
+        }
+      ],
+      "example": {
+        "en": "It took me two hours to get through the traffic.",
+        "pl": "Przebicie się przez korki zajęło mi dwie godziny."
+      }
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "How long does it take to get from here to the airport?",
+          "pl": "Ile czasu zajmuje dojazd stąd na lotnisko?"
+        },
+        {
+          "en": "It will take the builders at least a year to finish the stadium.",
+          "pl": "Budowlańcom skończenie stadionu zajmie co najmniej rok."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": ["Błąd", "Poprawnie", "Dlaczego"],
+      "rows": [
+        [
+          "It was so a good film that…",
+          "It was such a good film that…",
+          "przed rzeczownikiem stoi such, nie so"
+        ],
+        [
+          "She isn't enough old to drive.",
+          "She isn't old enough to drive.",
+          "enough stoi po przymiotniku"
+        ],
+        [
+          "The coach made us to train harder.",
+          "The coach made us train harder.",
+          "make + osoba + samo V1"
+        ],
+        ["We weren't let to leave.", "We weren't allowed to leave.", "let nie ma strony biernej"],
+        [
+          "I'm used to get up early.",
+          "I'm used to getting up early.",
+          "to w be used to jest przyimkiem, więc -ing"
+        ],
+        ["I'd rather to walk.", "I'd rather walk.", "would rather + samo V1"],
+        [
+          "I prefer tea than coffee.",
+          "I prefer tea to coffee.",
+          "prefer X to Y; than tylko w would rather … than albo prefer to V1 … rather than"
+        ],
+        [
+          "It took two hours me to do it.",
+          "It took me two hours to do it.",
+          "osoba stoi po take (albo jako for sb przed to: It took two hours for me to do it)"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "**Jak to sprawdzają.** W zadaniu 9 z lat 2023–2026 wzorce czasownikowe (wśród nich *be likely to*) były w ==6 z 16 pozycji==, a *would rather* + czas przeszły pojawiło się raz. Typowe pary do przećwiczenia:\n\n- *probably* → **be likely to**, *probably won't* → **be unlikely to**,\n- *so … that* ↔ **such (a) … that**, *so … that … couldn't* → **too … to**,\n- *too young to* → **not old enough to**,\n- *spent two hours -ing* → **it took (me) two hours to**,\n- *didn't let us* → **weren't allowed to**, *made us do* → **were made to do**,\n- *prefer to … rather than* → **would rather … than**, *like X more than Y* → **prefer X to Y**,\n- *nothing new for her* → **be used to -ing**, *I'm sure you will* → **be bound to**.\n\nKażda z tych ram ma stałą formę po sobie. Dobra rama ze złą formą (*is used to live*, *made us to wait*) daje 0 pkt."
+    }
+  ]
+}

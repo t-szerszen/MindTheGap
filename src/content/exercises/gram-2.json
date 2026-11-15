@@ -1,0 +1,677 @@
+[
+  {
+    "id": "g2-printer-third-time",
+    "type": "gap-fill",
+    "sentence": "This is the third time this week that the printer in the school library ___ (break / down), so we've had to print our projects at home.",
+    "correct": ["has broken down"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "This is the third time … that: liczymy, ile razy coś się stało do teraz, a tydzień jeszcze trwa."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Po this is the first/second/third time stoi present perfect: has + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "break – broke – broken, więc has broken down. Printer to jedna rzecz, stąd has, nie have."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "broke down odpada, bo ta konstrukcja nie łączy się z past simple w zdaniu o teraźniejszości. 3 wyrazy, mieści się w limicie."
+      }
+    ],
+    "tags": ["present-perfect", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "g2-wiktor-calculator",
+    "type": "gap-fill",
+    "sentence": "I ___ (not / see / Wiktor) at school yesterday, so I couldn't give him back his calculator.",
+    "correct": ["did not see Wiktor"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "yesterday to zamknięty czas w przeszłości."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Przeczenie w past simple: did not + forma podstawowa."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po did zostaje see, nie saw: did not see Wiktor (didn't see Wiktor też jest dobrze)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "have not seen nie łączy się z yesterday, więc to byłoby 0 pkt. Tu 4 wyrazy, czyli równo limit."
+      }
+    ],
+    "tags": ["past-simple", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "g2-captain-hat-trick",
+    "type": "gap-fill",
+    "sentence": "By the time the referee blew the final whistle, our captain ___ (score / three / goals), and the fans were chanting his name.",
+    "correct": ["had scored three goals"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "By the time + przeszłość: trzy gole padły, zanim sędzia zakończył mecz. To czynność wcześniejsza od innej przeszłej."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Coś było już zrobione przed momentem w przeszłości: had + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "score to czasownik regularny: had scored three goals, goals w liczbie mnogiej."
+      },
+      {
+        "label_pl": "liczenie",
+        "text_pl": "had scored three goals to 4 wyrazy, więc nie ma już miejsca na already. scored three goals nie pokazuje, że gole padły przed gwizdkiem."
+      }
+    ],
+    "tags": ["past-perfect", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "g2-zuzia-biology-revising",
+    "type": "gap-fill",
+    "sentence": "Zuzia is exhausted because she ___ (revise / for) her biology exam since seven this morning.",
+    "correct": ["has been revising for"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "since seven this morning: czynność zaczęła się rano i trwa do teraz, a skutek widać (is exhausted)."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Długa czynność od jakiegoś momentu do teraz: has been + -ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "revise traci e przed -ing: revising. Po revise stoi for: revise for an exam."
+      },
+      {
+        "label_pl": "liczenie",
+        "text_pl": "has been revising for to 4 wyrazy. Samo is revising nie łączy się z since."
+      }
+    ],
+    "tags": ["present-perfect-continuous", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "g2-dad-roof-ladder",
+    "type": "gap-fill",
+    "sentence": "Dad ___ (fix / roof) of the garden shed when a sudden gust of wind blew his ladder over.",
+    "correct": ["was fixing the roof"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "when + krótkie zdarzenie (wiatr przewrócił drabinę) przerywa coś, co już trwało."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Tło przerwane zdarzeniem: was/were + -ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Dad to he, więc was fixing. Przed roof potrzebny przedimek the, bo dalej stoi of the garden shed."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "fixed the roof when… znaczyłoby, że naprawił dach po tym podmuchu. 4 wyrazy, równo limit."
+      }
+    ],
+    "tags": ["past-continuous", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "g2-fence-back-from-trip",
+    "type": "gap-fill",
+    "sentence": "I know the fence looks awful, but don't worry — by the time you get back from your trip, I ___ (paint / it).",
+    "correct": ["will have painted it"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "by the time you get back: malowanie ma być skończone przed powrotem, który jest w przyszłości."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Coś będzie gotowe przed punktem w przyszłości: will have + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "paint to czasownik regularny: painted. it zostaje na końcu: will have painted it."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will paint it nie mówi, że praca będzie już zrobiona przed powrotem. 4 wyrazy, równo limit."
+      }
+    ],
+    "tags": ["future-perfect", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "g2-kamil-bike-repaired",
+    "type": "gap-fill",
+    "sentence": "Kamil usually cycles to school, but this week he ___ (take / bus) because his bike is in for repairs.",
+    "correct": ["is taking the bus"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "usually opisuje zwyczaj, a but this week mówi o sytuacji tymczasowej, innej niż zwykle."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Coś chwilowego, co trwa w tym okresie: am/is/are + -ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "take traci e: taking. Mówimy take the bus, z przedimkiem."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "takes the bus pasuje do zwyczaju, a tu zwyczaj jest akurat inny. 4 wyrazy, równo limit."
+      }
+    ],
+    "tags": ["present-continuous", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "g2-porto-last-summer",
+    "type": "gap-fill",
+    "sentence": "We ___ (go / Porto) last summer, and we're already planning another trip there next year.",
+    "correct": ["went to Porto"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "last summer wskazuje zamknięty okres w przeszłości."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Z last summer używamy past simple, nawet jeśli wyjazd wciąż jest ważny dla nas teraz."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "go – went – gone: went. Jedziemy dokądś, więc go to + miejsce."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "have been to Porto odpada przez last summer. Bez to (went Porto) to błąd przyimka i też 0 pkt. 3 wyrazy."
+      }
+    ],
+    "tags": ["past-simple", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "g2-dentist-chair-tomorrow",
+    "type": "gap-fill",
+    "sentence": "Please don't ring me at ten tomorrow morning — I ___ (sit / in) the dentist's chair then.",
+    "correct": ["will be sitting in"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "at ten tomorrow morning … then: konkretny moment w przyszłości, w którym coś będzie w trakcie."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Czynność trwająca w danym momencie przyszłości: will be + -ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "sit podwaja t: sitting. sit in the chair, bo siedzi się w fotelu."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will sit znaczy usiądę, a nie że będę w trakcie. 4 wyrazy, równo limit."
+      }
+    ],
+    "tags": ["future-continuous", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "g2-paw-prints-sofa",
+    "type": "gap-fill",
+    "sentence": "There are muddy paw prints all over the sofa. The dog ___ (must / come / in) through the back door.",
+    "correct": ["must have come in"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Ślady łap to dowód. Wnioskujemy, co się stało wcześniej."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Pewność co do przeszłości: must have + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "come – came – come, więc trzecia forma to come, nie came."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "must come in to nakaz albo coś o teraz. must have came to błąd formy. 4 wyrazy, równo limit."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "g2-igor-spain",
+    "type": "gap-fill",
+    "sentence": "It ___ (can't / be) Igor you saw in town yesterday — he's been in Spain with his parents all week.",
+    "correct": ["cannot have been", "could not have been"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Igor jest w Hiszpanii, więc jesteśmy pewni, że to nie on. yesterday przenosi to w przeszłość."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Pewność, że coś nie było prawdą: can't have + V3. Wolno zmienić formę, więc couldn't have też pasuje."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "be – was – been: can't have been albo couldn't have been."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "can't be mówi o teraz, a tu chodzi o wczoraj. cannot pisze się razem i liczy jako jeden wyraz."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "g2-play-friday-traffic",
+    "type": "gap-fill",
+    "sentence": "We missed the first ten minutes of the play. We ___ (should / leave / earlier) — the traffic in the city centre is terrible on Fridays.",
+    "correct": ["should have left earlier"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Spóźnili się i żałują. To krytyka czegoś, co już się stało."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Krytyka przeszłości: should have + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "leave – left – left: should have left earlier."
+      },
+      {
+        "label_pl": "liczenie",
+        "text_pl": "4 wyrazy. should leave earlier to rada na przyszłość, a tu żałujemy czegoś, co już się stało."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "g2-ania-surprise-party",
+    "type": "gap-fill",
+    "sentence": "Ania ___ (should / not / tell) Kasia about the surprise party — now the whole plan is ruined.",
+    "correct": ["should not have told"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Ania powiedziała i to był błąd (plan is ruined)."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Krytyka czegoś, co się zrobiło: should not have + V3. Przeczenie stoi przy should, tak jak w nawiasie."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "tell – told – told: should not have told (shouldn't have told też)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Odwrócona logika: zrobiła coś, więc should NOT have. should have told znaczyłoby, że nie powiedziała. 4 wyrazy."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "g2-umbrellas-for-nothing",
+    "type": "gap-fill",
+    "sentence": "We ___ (need / not / take) umbrellas — it didn't rain all day, and we carried them around for nothing.",
+    "correct": ["need not have taken"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "carried them around for nothing: parasole wzięli, ale okazało się, że niepotrzebnie."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Zrobiliśmy coś zbędnego: needn't have + V3. didn't need to mówi raczej, że nie było potrzeby, bez informacji, czy to zrobiono."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "take – took – taken: need not have taken (needn't have taken)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "did not need to take odpada, bo not stoi przed need, a w nawiasie jest odwrotnie. need not have taken to 4 wyrazy, ze skrótem needn't 3."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "g2-taxi-never-turned-up",
+    "type": "gap-fill",
+    "sentence": "Our taxi never turned up last night. The driver ___ (might / not / find) our street — it isn't on most sat navs yet.",
+    "correct": ["might not have found"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "last night i never turned up: zgadujemy, dlaczego coś się nie stało w przeszłości."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Przypuszczenie o przeszłości: might (not) have + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "find – found – found: might not have found."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "might not find to przypuszczenie o przyszłości, a sprawa dotyczy wczorajszego wieczoru. 4 wyrazy, równo limit."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "g2-vegetarian-dinner",
+    "type": "gap-fill",
+    "sentence": "You ___ (could / tell / me) you were a vegetarian! I'd have made something else for dinner.",
+    "correct": ["could have told me"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Gość nie powiedział, a gospodarz ma lekki żal. I'd have made pokazuje, że mówimy o przeszłości."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Wyrzut, że ktoś miał możliwość i z niej nie skorzystał: could have + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "tell – told – told, me zostaje po czasowniku: could have told me."
+      },
+      {
+        "label_pl": "liczenie",
+        "text_pl": "4 wyrazy. could tell me to prośba albo umiejętność, a tu sytuacja jest już zamknięta."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "g2-application-form-friday",
+    "type": "gap-fill",
+    "sentence": "This application form ___ (should / send) by Friday, but nobody remembered to post it, and now it's too late.",
+    "correct": ["should have been sent"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "nobody remembered … now it's too late: coś było obowiązkiem w przeszłości i się nie stało."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Formularz nie wysyła się sam, więc strona bierna. Krytyka przeszłości w stronie biernej: should have been + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "send – sent – sent: should have been sent."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "should have sent brzmiałoby, jakby formularz sam miał coś wysłać. 4 wyrazy, równo limit."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "g2-coach-blamed-defeat",
+    "type": "gap-fill",
+    "sentence": "After the match, the coach ___ (blame / Kuba) the defeat, which wasn't fair at all.",
+    "correct": ["blamed Kuba for"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "After the match: zdarzenie zamknięte w przeszłości, więc past simple."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Obwiniać kogoś o coś: blame somebody for something."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "blamed Kuba for, a po luce stoi już the defeat."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Druga konstrukcja to blame something on somebody, ale tu osoba stoi pierwsza, więc tylko for. blamed Kuba of to błąd. 3 wyrazy."
+      }
+    ],
+    "tags": ["prepositions", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "g2-ewa-kept-waiting",
+    "type": "gap-fill",
+    "sentence": "When she finally turned up, Ewa ___ (apologise / keep) us waiting for so long.",
+    "correct": ["apologised for keeping"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "When she finally turned up: zdarzenie w przeszłości, więc past simple."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Przepraszać za coś: apologise for + -ing. Po przyimku czasownik ma końcówkę -ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "apologised for keeping. Amerykańskie apologized też przejdzie."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "apologised to keep albo apologised for keep to błąd. keep somebody waiting to stałe połączenie. 3 wyrazy."
+      }
+    ],
+    "tags": ["prepositions", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "g2-fake-news-lesson",
+    "type": "gap-fill",
+    "sentence": "In yesterday's English lesson, we ___ (discuss / problem) of fake news on social media, and then we wrote short essays about it.",
+    "correct": ["discussed the problem"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "yesterday's lesson i and then we wrote: dwie zakończone czynności po kolei, więc past simple."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "discuss łączy się z dopełnieniem bez przyimka: discuss something."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "discussed the problem. the, bo chodzi o konkretny problem dopowiedziany przez of fake news."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "discussed about to kalka z polskiego (dyskutować o) i błąd. Bez the też jest błąd. 3 wyrazy."
+      }
+    ],
+    "tags": ["prepositions", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "g2-snow-flights-warsaw",
+    "type": "gap-fill",
+    "sentence": "The heavy snow ___ (result / cancel) of all flights from Warsaw yesterday.",
+    "correct": ["resulted in the cancellation"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "yesterday, więc past simple: resulted."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Skutek: result in something. Po luce stoi of all flights, więc potrzebny jest rzeczownik, nie czasownik."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "cancel → cancellation (podwójne l, również w amerykańskim). Z of po nim potrzebny przedimek: the cancellation of."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "result from znaczy wynikać z, czyli odwrotny kierunek. 4 wyrazy, równo limit."
+      }
+    ],
+    "tags": ["prepositions", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "g2-grandad-sailor-stories",
+    "type": "gap-fill",
+    "sentence": "My grandad ___ (fond / tell) stories about his years as a sailor, and he can go on for hours.",
+    "correct": ["is fond of telling"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "he can go on for hours: mówimy o tym, jaki dziadek jest teraz, więc czas teraźniejszy."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "fond to przymiotnik, więc potrzebny jest be: be fond of something / -ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "is fond of telling. Po of czasownik ma -ing."
+      },
+      {
+        "label_pl": "liczenie",
+        "text_pl": "Łatwo zgubić is albo of, a bez nich forma jest błędna. 4 wyrazy, więc nie ma miejsca na dodatkowe really czy very."
+      }
+    ],
+    "tags": ["prepositions", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "g2-hay-fever-spring",
+    "type": "gap-fill",
+    "sentence": "Millions of people across Europe ___ (suffer / hay fever) every spring, when the trees start to flower.",
+    "correct": ["suffer from hay fever"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "every spring: coś, co powtarza się co roku, więc present simple."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Cierpieć na chorobę: suffer from + nazwa choroby."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Millions of people to liczba mnoga, więc suffer bez -s. Przed hay fever bez przedimka, jak przy nazwach wielu chorób."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "suffer on (kalka z „cierpieć na”) albo suffer of to błąd. 4 wyrazy, równo limit."
+      }
+    ],
+    "tags": ["prepositions", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "g2-marta-driving-test",
+    "type": "gap-fill",
+    "sentence": "Everyone ___ (congratulate / Marta / pass) her driving test at the first attempt.",
+    "correct": ["congratulated Marta on passing"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Gratulacje padły po zdanym egzaminie, czyli to zakończone zdarzenie w przeszłości."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Gratulować komuś czegoś: congratulate somebody on something / -ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "congratulated Marta on passing. Po on czasownik ma -ing."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po congratulate stoi on, nie of ani with. 4 wyrazy, równo limit."
+      }
+    ],
+    "tags": ["prepositions", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "g2-summit-sunset",
+    "type": "gap-fill",
+    "sentence": "After six hours of climbing, we finally ___ (reach / summit) just before sunset.",
+    "correct": ["reached the summit"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "After six hours of climbing … finally: opis zakończonej wycieczki, past simple."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "reach łączy się z dopełnieniem bez przyimka: reach a place."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "reached the summit, z the, bo chodzi o szczyt tej konkretnej góry."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "reached to the summit to błąd (inaczej niż get to). 3 wyrazy."
+      }
+    ],
+    "tags": ["prepositions", "key-word-transformations"],
+    "difficulty": 1
+  }
+]

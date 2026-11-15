@@ -1,0 +1,675 @@
+[
+  {
+    "id": "kv-grandma-first-ball",
+    "type": "key-word-transformation",
+    "source": "My grandmother says she can still picture herself dancing at her first ball in 1965.",
+    "keyWord": "REMEMBERS",
+    "target": "My grandmother says she still ___ at her first ball in 1965.",
+    "maxWords": 5,
+    "correct": [
+      "remembers dancing",
+      "remembers having danced",
+      "remembers that she danced",
+      "remembers she danced"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "can still picture herself dancing: babcia widzi w głowie coś, co już się wydarzyło. To wspomnienie, a nie zadanie do zrobienia."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "remember + V-ing = pamiętać, że się coś robiło. remember + to V1 = pamiętać, żeby coś dopiero zrobić."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "remembers to dance znaczyłoby, że babcia nie zapomina tańczyć. Zdanie z that też jest dobre: remembers (that) she danced."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kv-mum-letter-post",
+    "type": "key-word-transformation",
+    "source": "Mum asked me to post her letter on my way to school, but it completely slipped my mind.",
+    "keyWord": "FORGOT",
+    "target": "On my way to school, I completely ___ Mum's letter.",
+    "maxWords": 5,
+    "correct": ["forgot to post"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "it slipped my mind = wyleciało mi z głowy. Listu nikt nie wysłał, czyli czynność się nie odbyła."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "forget + to V1 = zapomnieć coś zrobić. forget + V-ing to zapomnieć o czymś, co już się zrobiło, a tu nic się nie stało."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "forgot posting znaczyłoby, że wysłałeś list i o tym zapomniałeś. To odwrotny sens."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "kv-kasia-igor-secret",
+    "type": "key-word-transformation",
+    "source": "I wish I hadn't told Kasia about Igor's plans to move abroad — now everyone knows.",
+    "keyWord": "REGRET",
+    "target": "I ___ Kasia about Igor's plans to move abroad — now everyone knows.",
+    "maxWords": 5,
+    "correct": ["regret telling", "regret having told", "regret that I told", "regret I told"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I wish I hadn't told = żałuję czegoś, co już zrobiłem. Czynność jest w przeszłości."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "regret + V-ing (albo having V3) = żałować, że się coś zrobiło. Można też dać całe zdanie: regret (that) I told."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "regret to tell to formalne „z przykrością informuję” i mówi o tym, co dopiero mówisz. Tu nie pasuje."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kv-summer-course-application",
+    "type": "key-word-transformation",
+    "source": "We are sorry to tell you that your application for the summer course has been unsuccessful.",
+    "keyWord": "REGRET",
+    "target": "We ___ you that your application for the summer course has been unsuccessful.",
+    "maxWords": 5,
+    "correct": [
+      "regret to inform",
+      "regret to tell",
+      "regret to have to inform",
+      "regret to have to tell"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "We are sorry to tell you to oficjalna zła wiadomość, którą przekazujesz właśnie teraz. Nie żałujesz niczego, co już było."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "regret + to V1 = z przykrością coś komunikować. W listach prawie zawsze idzie z inform, tell albo say."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "regret informing znaczyłoby, że żałujesz, że już kogoś poinformowałeś. Uwaga też na brak przyimka: inform you that, bez about."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "kv-speech-sip-water",
+    "type": "key-word-transformation",
+    "source": "Halfway through her speech, the head teacher paused so that she could drink some water.",
+    "keyWord": "STOPPED",
+    "target": "Halfway through her speech, the head teacher ___ some water.",
+    "maxWords": 5,
+    "correct": [
+      "stopped to drink",
+      "stopped in order to drink",
+      "stopped so as to drink",
+      "stopped speaking to drink",
+      "stopped talking to drink",
+      "stopped to have"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "paused so that she could drink: przerwała przemowę po to, żeby się napić. Picie jest celem przerwy."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "stop + to V1 = zatrzymać się, przerwać coś po to, żeby zrobić coś innego. to V1 to tu cel, jak w in order to."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "stopped drinking some water znaczyłoby, że przestała pić wodę. Odwrotny sens, 0 pkt."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "kv-router-off-on",
+    "type": "key-word-transformation",
+    "source": "Turning the router off and on again might solve the problem — why don't you see if it works?",
+    "keyWord": "TRY",
+    "target": "Why don't you ___ off and on again? It might solve the problem.",
+    "maxWords": 5,
+    "correct": [
+      "try turning the router",
+      "try turning your router",
+      "try switching the router",
+      "try switching your router"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "see if it works: wyłączenie routera nie jest trudne. Chodzi o sprawdzenie, czy ten sposób pomoże."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "try + V-ing = spróbować czegoś na próbę, jako sposobu. try + to V1 = starać się zrobić coś trudnego."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "W zdaniu docelowym nie ma słowa router, więc musi się znaleźć w luce. try turning it byłoby niejasne. Policz: try turning the router to 4 wyrazy."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "kv-film-stay-awake",
+    "type": "key-word-transformation",
+    "source": "I did my best to stay awake during the film, but I fell asleep halfway through.",
+    "keyWord": "TRIED",
+    "target": "I ___ awake during the film, but I fell asleep halfway through.",
+    "maxWords": 5,
+    "correct": [
+      "tried to stay",
+      "tried hard to stay",
+      "tried my best to stay",
+      "tried my hardest to stay"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "did my best + fell asleep: starałeś się, ale się nie udało. To wysiłek, a nie test jakiegoś sposobu."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "try + to V1 = starać się, próbować coś zrobić, gdy to trudne. try + V-ing = sprawdzić, czy coś pomoże."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "tried my best to stay to 5 wyrazów, więc się mieści. Wystarczy też krótkie tried to stay."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kv-ola-essay-midnight",
+    "type": "key-word-transformation",
+    "source": "It took ages, but in the end Ola succeeded in finishing her essay before midnight.",
+    "keyWord": "MANAGED",
+    "target": "It took ages, but in the end Ola ___ her essay before midnight.",
+    "maxWords": 5,
+    "correct": ["managed to finish"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "succeed in + V-ing i manage + to V1 znaczą to samo: udało się coś zrobić, choć było trudno. Różni je tylko wzorzec."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "managed jest już w czasie przeszłym, więc po nim stoi to + forma podstawowa: to finish."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "managed finishing i managed in finishing to błędy. Przyimek in należy do succeed, nie do manage."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "kv-parents-camping",
+    "type": "key-word-transformation",
+    "source": "After a long discussion, we managed to convince our parents to let us go camping on our own.",
+    "keyWord": "SUCCEEDED",
+    "target": "After a long discussion, we ___ our parents to let us go camping on our own.",
+    "maxWords": 5,
+    "correct": ["succeeded in convincing", "succeeded in persuading"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "manage to V1 zamieniasz na succeed in + V-ing. Znaczenie zostaje: udało nam się przekonać rodziców."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po przyimku in czasownik zawsze dostaje -ing: in convincing."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "succeeded to convince to typowy błąd z kalki „udało się przekonać”. Przy succeed nie ma to + V1."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kv-conference-meet",
+    "type": "key-word-transformation",
+    "source": "I can't wait to meet you in person at the conference next month.",
+    "keyWord": "LOOKING",
+    "target": "I am really ___ you in person at the conference next month.",
+    "maxWords": 5,
+    "correct": ["looking forward to meeting", "looking forward to seeing"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "can't wait to = bardzo się na coś cieszę. Spokojniejsza wersja to look forward to: cieszyć się na coś, co dopiero będzie."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "W look forward to słowo to jest przyimkiem, a po przyimku stoi -ing: to meeting."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "looking forward to meet to najczęstszy błąd. Sprawdzian: przyimek to przyjmuje rzeczownik (looking forward to the conference), więc czasownik też musi być w formie -ing."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "kv-edinburgh-left-side",
+    "type": "key-word-transformation",
+    "source": "When I moved to Edinburgh, driving on the left felt strange, but after a few weeks it no longer bothered me.",
+    "keyWord": "GOT",
+    "target": "When I moved to Edinburgh, driving on the left felt strange, but after a few weeks I ___ it.",
+    "maxWords": 5,
+    "correct": ["got used to", "had got used to", "got accustomed to", "had got accustomed to"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "felt strange → after a few weeks it no longer bothered me: najpierw było dziwnie, potem stało się normalne. To proces przyzwyczajania się."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "get used to = przyzwyczaić się (proces). be used to = być przyzwyczajonym (stan). Słowo GOT wymusza wersję z get."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "to w tym zwrocie jest przyimkiem, więc po nim stoi rzeczownik albo -ing. Tu dopełnieniem jest it, czyli jazda po lewej. Nie gub to: got used it to błąd."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kv-dublin-guide-accent",
+    "type": "key-word-transformation",
+    "source": "During our trip to Dublin, understanding the tour guide's strong accent was difficult for most of us.",
+    "keyWord": "FOUND",
+    "target": "During our trip to Dublin, most of us ___ the tour guide's strong accent.",
+    "maxWords": 5,
+    "correct": ["found it difficult to understand", "found it hard to understand"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "coś jest trudne dla kogoś → ktoś find it + przymiotnik + to V1. it to „pusty” podmiot, który zapowiada to understand."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Wycieczka była w przeszłości, więc found. Po przymiotniku stoi to + forma podstawowa: difficult to understand."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "found it difficult to understand to dokładnie 5 wyrazów. Bez it zdanie jest błędne: found difficult to understand."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "kv-tomek-arguing",
+    "type": "key-word-transformation",
+    "source": "It's useless to argue with Tomek — he won't change his mind.",
+    "keyWord": "POINT",
+    "target": "There is ___ with Tomek — he won't change his mind.",
+    "maxWords": 5,
+    "correct": [
+      "no point arguing",
+      "no point in arguing",
+      "not any point arguing",
+      "not any point in arguing"
+    ],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "It's useless to = nie ma sensu. Po angielsku: there is no point (in) + V-ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "in jest przyimkiem, więc po nim -ing. Nawet gdy in pominiesz, forma zostaje ta sama: no point arguing."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "no point to argue to błąd z kalki „nie ma sensu się kłócić”."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kv-new-laptop-repair",
+    "type": "key-word-transformation",
+    "source": "A new laptop is too expensive for me at the moment, so I'll have to repair my old one.",
+    "keyWord": "AFFORD",
+    "target": "I ___ a new laptop at the moment, so I'll have to repair my old one.",
+    "maxWords": 5,
+    "correct": [
+      "cannot afford",
+      "cannot afford to buy",
+      "cannot afford to get",
+      "am not able to afford"
+    ],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "too expensive for me = nie stać mnie. Po angielsku can't afford + rzeczownik albo can't afford + to V1."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "afford zwykle idzie z can/could albo be able to. Mowa o teraz, więc cannot (can't)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "cannot afford buying to błąd: afford bierze to + V1."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "kv-essay-too-short",
+    "type": "key-word-transformation",
+    "source": "Our teacher forced us to rewrite the whole essay because it was far too short.",
+    "keyWord": "MADE",
+    "target": "Our teacher ___ the whole essay because it was far too short.",
+    "maxWords": 5,
+    "correct": ["made us rewrite"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "force sb to do = zmusić kogoś. To samo znaczy make sb do."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po make + osoba stoi V1 bez to: made us rewrite."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "made us to rewrite to błąd. to wraca dopiero w stronie biernej: we were made to rewrite."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "kv-brother-car-park",
+    "type": "key-word-transformation",
+    "source": "My older brother allowed me to drive his car around the empty car park.",
+    "keyWord": "LET",
+    "target": "My older brother ___ his car around the empty car park.",
+    "maxWords": 5,
+    "correct": ["let me drive"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "allow sb to do = pozwolić komuś. Krótsza wersja to let sb do."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "let ma te same trzy formy: let, let, let. W przeszłości nie dodajesz -ed."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po let + osoba stoi V1 bez to. let me to drive i letted to błędy."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "kv-walk-or-bus",
+    "type": "key-word-transformation",
+    "source": "Generally, I'd rather walk to school than take the bus.",
+    "keyWord": "WALKING",
+    "target": "Generally, I prefer ___ the bus.",
+    "maxWords": 5,
+    "correct": ["walking to school to taking"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Generally: mowa o ogólnym upodobaniu, a nie o jednej sytuacji. Wtedy pasuje prefer + V-ing."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "prefer A to B, a przy czynnościach prefer doing A to doing B. to między dwiema czynnościami jest przyimkiem, więc po nim też -ing: to taking."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "walking to school to taking to 5 wyrazów. Wersja z rather than taking ma 6, więc się nie zmieści."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "to take the bus po prefer walking to błąd. Obie czynności muszą mieć tę samą formę -ing."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "kv-passport-ferry",
+    "type": "key-word-transformation",
+    "source": "Luckily, I didn't forget to take my passport, so I could get on the ferry to Sweden.",
+    "keyWord": "REMEMBERED",
+    "target": "Luckily, I ___ my passport, so I could get on the ferry to Sweden.",
+    "maxWords": 5,
+    "correct": ["remembered to take", "remembered"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "didn't forget to = remembered to. Przeczenie znika, bo remember już znaczy „nie zapomnieć”."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Najpierw pamiętasz, potem bierzesz paszport, więc to + V1: remembered to take. Można też krótko: remembered my passport."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "remembered taking znaczyłoby, że przypominasz sobie, jak go brałeś. To inna myśl."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations"],
+    "difficulty": 2,
+    "accepted": ["remembered to bring"]
+  },
+  {
+    "id": "kv-rysy-sunrise",
+    "type": "key-word-transformation",
+    "source": "I'll always remember watching the sunrise from the top of Rysy.",
+    "keyWord": "FORGET",
+    "target": "I'll never ___ the sunrise from the top of Rysy.",
+    "maxWords": 5,
+    "correct": ["forget watching"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "always remember = never forget. Zmieniasz czasownik na przeciwny, a przeczenie już jest w zdaniu (never)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Wschód słońca już widziałeś, to wspomnienie. forget + V-ing = zapomnieć o czymś, co się przeżyło."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "forget to watch znaczyłoby, że nigdy nie zapomnisz go oglądać, jakby to był obowiązek."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations"],
+    "difficulty": 2,
+    "accepted": ["forget seeing"]
+  },
+  {
+    "id": "kv-primary-school-photos",
+    "type": "key-word-transformation",
+    "source": "Whenever I look at old photos from primary school, I feel nostalgic.",
+    "keyWord": "MAKES",
+    "target": "Looking at old photos from primary school always ___ nostalgic.",
+    "maxWords": 5,
+    "correct": ["makes me feel", "makes me"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Podmiotem jest teraz czynność (Looking at old photos), która coś ze mną robi: make sb do albo make sb + przymiotnik."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Podmiot to jedna czynność, więc makes z -s. Po make + osoba stoi V1 bez to: makes me feel."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "makes me to feel i makes me feeling to błędy."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kv-rescuers-climber",
+    "type": "key-word-transformation",
+    "source": "The rescuers searched all afternoon, but they couldn't find the missing climber before dark.",
+    "keyWord": "SUCCEED",
+    "target": "The rescuers searched all afternoon, but they didn't ___ the missing climber before dark.",
+    "maxWords": 5,
+    "correct": ["succeed in finding"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "couldn't find po długim szukaniu = nie udało im się znaleźć. didn't succeed in + V-ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po didn't stoi forma podstawowa: succeed, a nie succeeded. Słowo klucz jest już w tej formie."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "succeed to find i succeed find to błędy. Po in zawsze -ing: in finding."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "kv-tower-stairs-view",
+    "type": "key-word-transformation",
+    "source": "The view from the top was amazing, so climbing all those stairs wasn't a waste of time.",
+    "keyWord": "WORTH",
+    "target": "The view from the top was amazing, so it ___ all those stairs.",
+    "maxWords": 5,
+    "correct": ["was worth climbing", "was worth climbing up"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "wasn't a waste of time = opłacało się. Po angielsku it is worth + V-ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "worth nie jest czasownikiem, więc potrzebne jest be. Mowa o przeszłości: it was worth climbing."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "it was worth to climb to błąd. Nie mieszaj też dwóch wersji: worth it stoi samo na końcu zdania (It was worth it), więc was worth it climbing odpada."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "kv-tomasz-energy-drinks",
+    "type": "key-word-transformation",
+    "source": "Tomasz's doctor told him that he had to give up drinking energy drinks.",
+    "keyWord": "STOP",
+    "target": "Tomasz's doctor told him to ___ energy drinks.",
+    "maxWords": 5,
+    "correct": ["stop drinking"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "give up doing = rzucić, przestać coś robić. To samo znaczy stop doing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "told him to + V1, więc stop zostaje w formie podstawowej. Po stop czynność, którą się kończy, ma -ing: stop drinking."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "stop to drink znaczyłoby, że ma się zatrzymać, żeby się napić. Odwrotny sens."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "kv-exhausted-stay-in",
+    "type": "key-word-transformation",
+    "source": "I'd rather not go out tonight — I'm exhausted.",
+    "keyWord": "PREFER",
+    "target": "I ___ out tonight — I'm exhausted.",
+    "maxWords": 5,
+    "correct": ["would prefer not to go"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "would rather + V1 i would prefer + to V1 znaczą to samo: wolałbym. Różni je tylko to."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Przeczenie stoi tuż przed to: would prefer not to go."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "would prefer not to go to dokładnie 5 wyrazów. Samo prefer not to go znaczy „generalnie wolę nie wychodzić”, a tu chodzi o jeden wieczór, więc potrzebne jest would."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "would prefer not going i would prefer not go to błędy."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "kv-ola-native-speakers",
+    "type": "key-word-transformation",
+    "source": "Ola spent three years in London, so chatting with native speakers is no problem for her.",
+    "keyWord": "EASY",
+    "target": "Ola spent three years in London, so she finds ___ with native speakers.",
+    "maxWords": 5,
+    "correct": ["it easy to chat"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "coś nie jest dla kogoś problemem = ktoś find it easy to V1."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "it zapowiada czynność, która przychodzi później: it easy to chat. Po przymiotniku to + V1."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "finds easy to chat bez it to błąd. finds chatting easy też jest poprawne, ale tu się nie ułoży, bo po luce zostaje with native speakers."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations"],
+    "difficulty": 2,
+    "accepted": ["it easy to talk"]
+  }
+]

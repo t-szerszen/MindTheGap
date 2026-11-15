@@ -1,0 +1,517 @@
+[
+  {
+    "id": "prp-club-just-signed",
+    "type": "gap-fill",
+    "sentence": "Big news for the fans: the club ___ (just / sign) a new goalkeeper, and he's only nineteen.",
+    "correct": ["has just signed"],
+    "accepted": ["have just signed"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "just (właśnie) i Big news — świeża wiadomość."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Kontrakt już podpisano, ale to nowina ważna teraz, a moment nie pada → Present Perfect."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "the club = it → has + just + V3 → has just signed. just stoi między has a V3. W brytyjskim przy club, team albo government często słychać też have (the club have just signed), bo myślisz o ludziach, którzy to robią."
+      }
+    ],
+    "tags": ["present-perfect"],
+    "difficulty": 1
+  },
+  {
+    "id": "prp-tickets-already-booked",
+    "type": "gap-fill",
+    "sentence": "Don't worry about the concert tickets — I ___ (already / book) them online, so we only need to show the QR code at the door.",
+    "correct": ["have already booked"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "already (już) i Don't worry — liczy się, że sprawa jest załatwiona."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Rezerwacja była wcześniej, ale ważny jest skutek teraz: bilety są, nie ma się czym martwić → Present Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "W amerykańskim angielskim usłyszysz też I already booked them (Past Simple). W brytyjskim jest Present Perfect i to jest bezpieczna wersja domyślna."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "have + already + V3 → have already booked (already między have a V3)."
+      }
+    ],
+    "tags": ["present-perfect"],
+    "difficulty": 1
+  },
+  {
+    "id": "prp-grandma-never-mobile",
+    "type": "gap-fill",
+    "sentence": "My grandma ___ (never / own) a mobile phone — she says she's perfectly happy with her landline.",
+    "correct": ["has never owned"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "never i she says — babcia żyje, a mowa o całym jej życiu aż do teraz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Doświadczenie od zawsze do dziś (i dalej nie ma komórki) → Present Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "never już przeczy, więc czasownik zostaje twierdzący: has never owned, nie hasn't never owned."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "has + never + V3 → has never owned."
+      }
+    ],
+    "tags": ["present-perfect"],
+    "difficulty": 1
+  },
+  {
+    "id": "prp-sofa-not-delivered",
+    "type": "gap-fill",
+    "sentence": "Our new sofa ___ (not / deliver) yet, so we're sitting on cushions on the living-room floor.",
+    "correct": ["has not been delivered"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "yet na końcu przeczenia, a obok skutek teraz: siedzimy na podłodze."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Dostawa miała być, ale do tej chwili jej nie było → Present Perfect. Kanapa sama się nie dostarcza, ktoś ją przywozi, więc strona bierna."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "has + not + been + V3 → has not been delivered (hasn't been delivered)."
+      }
+    ],
+    "tags": ["present-perfect"],
+    "difficulty": 1
+  },
+  {
+    "id": "prp-kuba-hairdresser-been",
+    "type": "gap-fill",
+    "sentence": "Kuba ___ (be) to the hairdresser's — look how short his hair is now!",
+    "correct": ["has been"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "look how short his hair is now — skutek widać teraz, a moment wizyty nie pada."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Kuba poszedł do fryzjera i już wrócił (stoi przed nami) → Present Perfect: has been to."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "has gone to znaczyłoby, że dalej siedzi u fryzjera, a przecież go widzimy. Polskie „był” podsuwa was, ale be to + miejsce w znaczeniu „pójść i wrócić” działa tylko w czasach perfect, więc Kuba was to the hairdresser's jest błędne."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Kuba = he → has + V3 od be → has been."
+      }
+    ],
+    "tags": ["present-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "prp-third-time-asked",
+    "type": "gap-fill",
+    "sentence": "This is the third time you ___ (ask) me the same question today — are you even listening?",
+    "correct": ["have asked"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "This is the third time… — liczysz, który to już raz, a today jeszcze trwa."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Liczysz pytania od rana aż do teraz: dwa były wcześniej, to jest trzecie → Present Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po polsku „pytasz mnie już trzeci raz” brzmi w teraźniejszym, więc kusi you ask albo you're asking. Ale This is the third time każe policzyć wszystkie pytania od rana do tej chwili, razem z tym ostatnim, a takie liczenie do teraz robi Present Perfect."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "you + have + V3 → have asked."
+      }
+    ],
+    "tags": ["present-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "prp-parents-married-how-long",
+    "type": "gap-fill",
+    "sentence": "Your parents still look so happy together — how long ___ (they / be) married?",
+    "correct": ["have they been"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "how long…? i still look so happy together — są razem do dziś."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz o okres od ślubu aż do teraz → Present Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po polsku „Jak długo są małżeństwem?” brzmi w teraźniejszym, ale How long are they married? nie liczy po angielsku czasu do teraz. How long were they married? pasowałoby tylko, gdyby małżeństwo już się skończyło."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "have + they + V3 od be → have they been."
+      }
+    ],
+    "tags": ["present-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "prp-winner-already-announced",
+    "type": "gap-fill",
+    "sentence": "Wait — ___ (the winner / already / announce)? I thought the results weren't coming out until Friday!",
+    "correct": ["has the winner already been announced"],
+    "accepted": ["has the winner been announced already"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "already w pytaniu i Wait — zdziwienie, że coś stało się szybciej, niż myślałeś."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Ogłoszenie (jeśli już było) liczy się teraz, a moment nie pada → Present Perfect. Zwycięzcę ogłaszają organizatorzy, więc strona bierna."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "weren't coming out until Friday to dawny plan, a nie moment ogłoszenia, więc nie zmienia czasu w pytaniu. Po amerykańsku usłyszysz też Was the winner already announced?, po brytyjsku — Present Perfect."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Has + podmiot + already + been + V3 → has the winner already been announced? already może też stanąć na końcu."
+      }
+    ],
+    "tags": ["present-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "prp-ever-lost-passport",
+    "type": "gap-fill",
+    "sentence": "___ (you / ever / lose) your passport abroad? It happened to me last summer in Rome, and it was a nightmare.",
+    "correct": ["Have you ever lost"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "ever w pytaniu — kiedykolwiek w życiu."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz o doświadczenie od zawsze do teraz, bez konkretnego momentu → Present Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "last summer i happened należą do drugiego zdania: tam opowiadasz konkretną historię, więc Past Simple. Ogólne pytanie o doświadczenie zostaje w Present Perfect."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Have + you + ever + V3 (lose – lost – lost) → Have you ever lost."
+      }
+    ],
+    "tags": ["present-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "prp-novel-two-hundred-pages",
+    "type": "gap-fill",
+    "sentence": "I ___ (read) two hundred pages of this crime novel, and I still have no idea who the killer is.",
+    "correct": ["have read"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "two hundred pages — podajesz wynik, liczbę."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Czytanie zaczęło się wcześniej i jeszcze trwa, ale mówisz, ile już masz za sobą → Present Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "I've been reading opisuje samą czynność i to, jak długo trwa, więc nie łączy się z liczbą stron. Past Simple też nie pasuje: nie ma zamkniętego momentu, a książka nie jest skończona."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "have + V3 (read – read – read, wymawiane [red]) → have read."
+      }
+    ],
+    "tags": ["present-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "prp-cv-still-not-replied",
+    "type": "gap-fill",
+    "sentence": "I sent my CV to that company three weeks ago, and they ___ (still / not / reply).",
+    "correct": ["still have not replied"],
+    "accepted": ["have still not replied"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "still + not — coś wciąż się nie wydarzyło, a ty czekasz aż do teraz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Od wysłania CV do teraz nie ma odpowiedzi → Present Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "three weeks ago dotyczy wysłania CV (dlatego sent), a nie odpowiedzi. Brak odpowiedzi trwa do teraz, więc ago go nie dotyczy."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "still + have + not + V3 → still have not replied (still haven't replied). still stoi przed haven't. W bardziej formalnym stylu też: have still not replied."
+      }
+    ],
+    "tags": ["present-perfect"],
+    "difficulty": 3
+  },
+  {
+    "id": "prp-teacher-emails-this-morning",
+    "type": "gap-fill",
+    "sentence": "Mr Nowak ___ (send) us four emails about the trip this morning, and we're only halfway through the second lesson!",
+    "correct": ["has sent"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "this morning, ale we're only halfway through the second lesson — jest środek przedpołudnia, poranek wciąż trwa."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Liczysz maile od początku poranka do teraz, a poranek się nie skończył → Present Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "this morning kusi Past Simple, ale tak jest dopiero po południu, gdy poranek już minął. W amerykańskim angielskim usłyszysz tu też Past Simple, w brytyjskim — Present Perfect."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Mr Nowak = he → has + V3 (send – sent – sent) → has sent."
+      }
+    ],
+    "tags": ["present-perfect"],
+    "difficulty": 3
+  },
+  {
+    "id": "prp-uncle-since-last-christmas",
+    "type": "gap-fill",
+    "sentence": "We ___ (not / hear) from Uncle Marek since last Christmas — I hope he's all right.",
+    "correct": ["have not heard"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "since last Christmas — od punktu w przeszłości aż do teraz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Cisza zaczęła się w zeszłe święta i trwa do dziś → Present Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "last kusi Past Simple, ale last Christmas stoi po since, więc jest tylko punktem startu, a nie zamkniętym momentem samej czynności."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "have + not + V3 (hear – heard – heard) → have not heard (haven't heard)."
+      }
+    ],
+    "tags": ["present-perfect"],
+    "difficulty": 3
+  },
+  {
+    "id": "prp-cat-since-i-was-seven",
+    "type": "gap-fill",
+    "sentence": "We've had our cat, Pixel, since I ___ (be) seven, and she still sleeps on my bed every night.",
+    "correct": ["was"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "since stoi przed całym zdaniem: since I ___ seven podaje punkt startowy."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Punkt startu to chwila, która już minęła: miałeś siedem lat i to się skończyło → Past Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Present Perfect jest w części głównej (We've had), bo kot jest z wami do teraz. Zdanie po since nazywa tylko moment początku, więc have been tu nie pasuje."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "be → was (I)."
+      }
+    ],
+    "tags": ["past-simple", "present-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "prp-no-breakfast-this-morning",
+    "type": "gap-fill",
+    "sentence": "I ___ (not / have) time for breakfast this morning, so I'm absolutely starving — and it's nearly two o'clock!",
+    "correct": ["did not have"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "this morning i it's nearly two o'clock — mówisz po południu."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Poranek już się skończył, więc to zamknięty okres w przeszłości → Past Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Skutek widać teraz (I'm starving), co kusi haven't had. Ale o drugiej po południu this morning to już zamknięty czas, a z nim Present Perfect się nie łączy. Rano byłoby I haven't had time for breakfast this morning."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "did + not + V1 → did not have (didn't have)."
+      }
+    ],
+    "tags": ["past-simple", "present-perfect"],
+    "difficulty": 3
+  },
+  {
+    "id": "prp-frog-found-last-spring",
+    "type": "gap-fill",
+    "sentence": "Scientists have discovered a new species of frog in the Peruvian rainforest. It ___ (find) by a team of local students during an expedition last spring.",
+    "correct": ["was found"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "last spring — konkretny, zamknięty moment."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pierwsze zdanie to nowina (Present Perfect), a drugie podaje szczegół: kiedy to się stało → Past Simple. Żabę ktoś znalazł, więc strona bierna."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "have discovered w pierwszym zdaniu kusi, żeby ciągnąć Present Perfect, ale z last spring has been found jest błędem."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "was + V3 (find – found – found) → was found."
+      }
+    ],
+    "tags": ["past-simple", "present-perfect"],
+    "difficulty": 1
+  },
+  {
+    "id": "prp-grandad-miner-how-long",
+    "type": "gap-fill",
+    "sentence": "A: My grandad spent most of his working life as a miner in Silesia. B: Really? How long ___ (he / work) underground?",
+    "correct": ["did he work"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "How long…? kusi Present Perfect, ale spent i most of his working life mówią, że to zamknięta historia."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Praca w kopalni się skończyła, dziadek już nie jest górnikiem. Pytasz o zamknięty okres w przeszłości → Past Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "How long has he worked? znaczyłoby, że dalej pracuje pod ziemią. How long + Present Perfect liczy czas tylko wtedy, gdy okres trwa do teraz."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "did + he + V1 → did he work."
+      }
+    ],
+    "tags": ["past-simple", "present-perfect"],
+    "difficulty": 3
+  },
+  {
+    "id": "prp-music-lessons-how-long",
+    "type": "gap-fill",
+    "sentence": "How long ___ (your music lessons / usually / last)? I'm thinking of signing up too.",
+    "correct": ["do your music lessons usually last"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "How long…? i usually — pytasz, ile coś zwykle trwa."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Lekcje się powtarzają, a ty pytasz o ich stałą długość, a nie o czas od początku do teraz → Present Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "How long kojarzy się z Present Perfect, ale tylko wtedy, gdy liczysz okres od przeszłości do teraz (How long have you played the violin?). Tu chodzi o długość jednej, typowej lekcji."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "lessons = they → do + podmiot + usually + V1 → do your music lessons usually last."
+      }
+    ],
+    "tags": ["present-simple", "present-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "prp-bathroom-renovating-two-months",
+    "type": "gap-fill",
+    "sentence": "My parents ___ (renovate) the bathroom for two months now, and we still have to go to Grandma's every time we want a shower.",
+    "correct": ["have been renovating"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "for two months now i we still have to go to Grandma's — remont trwa od dwóch miesięcy aż do teraz i jeszcze się nie skończył."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Czynność zaczęła się w przeszłości, trwa do teraz, a wyniku (gotowej łazienki) jeszcze nie ma. Liczy się sam remont i to, jak długo trwa → Present Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "have renovated mówiłoby, że łazienka jest gotowa, a przecież dalej nie da się w niej wziąć prysznica. Present Perfect pokazuje wynik, a tu go jeszcze nie ma. Polskie „remontują od dwóch miesięcy” podsuwa are renovating, ale Present Continuous nie liczy czasu od początku do teraz."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "parents = they → have + been + V-ing → have been renovating."
+      }
+    ],
+    "tags": ["present-perfect-continuous", "present-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "prp-first-time-flown-alone",
+    "type": "gap-fill",
+    "sentence": "I was really nervous on the plane because it was the first time I ___ (fly) anywhere on my own.",
+    "correct": ["had flown"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "it was the first time — pierwszy raz, ale w przeszłości (was)."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Liczysz loty do tamtej chwili w przeszłości, a nie do teraz: cały układ przesuwa się o krok wstecz → Past Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "It's the first time łączy się z Present Perfect (it's the first time I've flown). Przy was punktem odniesienia jest tamten lot, a nie teraz, więc Present Perfect odpada."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had + V3 (fly – flew – flown) → had flown."
+      }
+    ],
+    "tags": ["past-perfect", "present-perfect"],
+    "difficulty": 3
+  }
+]

@@ -1,0 +1,236 @@
+[
+  {
+    "id": "prompt-article-01",
+    "type": "writing-task",
+    "form": "article",
+    "theme": "person",
+    "prompt_pl": "Portal internetowy dla młodzieży prowadzi cykl tekstów o pokonywaniu własnych słabości. Napisz artykuł, w którym opiszesz sytuację, w której udało ci się pokonać tremę albo nieśmiałość, i zaproponujesz, jak szkoła mogłaby pomagać uczniom budować pewność siebie.",
+    "elements_pl": [
+      "opisać sytuację, w której udało ci się pokonać tremę albo nieśmiałość",
+      "zaproponować, jak szkoła mogłaby pomagać uczniom budować pewność siebie"
+    ],
+    "planHint_pl": "Daj tytuł i zacznij od krótkiej sceny albo pytania do czytelnika, a nie od suchej tezy jak w rozprawce. Opowiedz konkretną historię w czasach przeszłych (wystąpienie, rozmowa, konkurs) i to, co wtedy czułeś, a potem rozwiń dwa, trzy pomysły, np. krótkie prezentacje w małych grupach albo szkolny klub dyskusyjny. Pułapka: zakończenie typu „mam nadzieję, że artykuł się podobał”; lepiej wrócić do swojej historii albo zostawić czytelnika z radą.",
+    "models": []
+  },
+  {
+    "id": "prompt-article-02",
+    "type": "writing-task",
+    "form": "article",
+    "theme": "home",
+    "prompt_pl": "Magazyn dla nastolatków zbiera historie czytelników, którzy musieli zmienić miejsce zamieszkania. Napisz artykuł, w którym opiszesz swoją przeprowadzkę albo przeprowadzkę kogoś z twoich bliskich i jej skutki oraz doradzisz nastolatkom, jak odnaleźć się w nowym miejscu zamieszkania.",
+    "elements_pl": [
+      "opisać swoją przeprowadzkę albo przeprowadzkę kogoś z twoich bliskich i jej skutki",
+      "doradzić nastolatkom, jak odnaleźć się w nowym miejscu zamieszkania"
+    ],
+    "planHint_pl": "Bez tytułu tracisz jeden z czterech elementów formy, a schematyczny wstęp dostaje najwyżej 1 z 2 punktów, więc zacznij od obrazu, np. pokoju, w którym zostały już tylko kartony. Opis przeprowadzki niech ma szczegóły (pakowanie, pierwszy dzień w nowej szkole) i skutki (tęsknota za starymi znajomymi, nowe przyjaźnie, inny rytm dnia), a rady wynikają z tej historii: zajęcia, na które można się zapisać, poznawanie okolicy, kontakt z dawnymi przyjaciółmi. Pułapka: sama lista rad bez wyjaśnienia, dlaczego działają.",
+    "models": []
+  },
+  {
+    "id": "prompt-article-03",
+    "type": "writing-task",
+    "form": "article",
+    "theme": "education",
+    "prompt_pl": "Gazetka szkolna szykuje numer o tym, jak uczymy się poza lekcjami. Napisz artykuł, w którym opiszesz umiejętność zdobytą samodzielnie poza szkołą i to, jak wyglądała twoja nauka, oraz wyjaśnisz, czego szkoła mogłaby się nauczyć od takiego sposobu nauki.",
+    "elements_pl": [
+      "opisać umiejętność zdobytą samodzielnie poza szkołą i to, jak wyglądała twoja nauka",
+      "wyjaśnić, czego szkoła mogłaby się nauczyć od takiego sposobu nauki"
+    ],
+    "planHint_pl": "Wybierz jedną konkretną umiejętność (gra na gitarze, montaż filmów, język poznany dzięki serialom) i opisz proces: skąd pomysł, z czego się uczyłeś, co było najtrudniejsze. W drugiej części pokaż, co działało u ciebie, a w szkole zdarza się rzadko: własne tempo, wybór tematu, nauka przez praktykę. Pułapka: atak na szkołę i nauczycieli, bo artykuł ma być rzeczowy, a krytyka konstruktywna.",
+    "models": []
+  },
+  {
+    "id": "prompt-article-04",
+    "type": "writing-task",
+    "form": "article",
+    "theme": "work",
+    "prompt_pl": "Portal dla młodzieży publikuje teksty o pierwszych kontaktach z pracą zawodową. Napisz artykuł, w którym zrelacjonujesz dzień spędzony w miejscu pracy, np. na praktykach albo podczas dnia otwartego w firmie, i uzasadnisz, dlaczego warto poznać realia pracy jeszcze w czasie nauki w szkole.",
+    "elements_pl": [
+      "zrelacjonować dzień spędzony w miejscu pracy, np. na praktykach albo podczas dnia otwartego w firmie",
+      "uzasadnić, dlaczego warto poznać realia pracy jeszcze w czasie nauki w szkole"
+    ],
+    "planHint_pl": "Relacja ma być w czasach przeszłych i mieć konkrety: gdzie byłeś, co robiłeś, co cię zaskoczyło; szkolne praktyki to po brytyjsku zwykle work experience. W drugiej części podaj rozwinięte argumenty, np. łatwiejszy wybór kierunku studiów, pierwsze kontakty zawodowe, sprawdzenie, czy wyobrażenia o zawodzie pasują do rzeczywistości. Pułapka: opis wymarzonej pracy zamiast relacji z dnia, który naprawdę się odbył.",
+    "models": []
+  },
+  {
+    "id": "prompt-article-05",
+    "type": "writing-task",
+    "form": "article",
+    "theme": "private-life",
+    "prompt_pl": "Lokalna gazeta przygotowuje dodatek świąteczny i prosi młodych czytelników o teksty o rodzinnych zwyczajach. Napisz artykuł, w którym opiszesz tradycję albo uroczystość ważną dla twojej rodziny i wyjaśnisz, dlaczego warto pielęgnować rodzinne tradycje, mimo że wszyscy żyjemy w biegu.",
+    "elements_pl": [
+      "opisać tradycję albo uroczystość, która jest ważna dla twojej rodziny",
+      "wyjaśnić, dlaczego warto pielęgnować rodzinne tradycje, mimo że wszyscy żyjemy w biegu"
+    ],
+    "planHint_pl": "Opisz jedną tradycję ze szczegółami (kto, kiedy, co się je, co się robi), a polskie nazwy, np. Wigilia czy opłatek, od razu objaśnij po angielsku. Argumenty w drugiej części: poczucie przynależności, kontakt pokoleń, chwila oderwania od telefonów i pracy. Pułapka: przewodnik po polskich świętach w ogóle zamiast tekstu o twojej rodzinie.",
+    "models": []
+  },
+  {
+    "id": "prompt-article-06",
+    "type": "writing-task",
+    "form": "article",
+    "theme": "food",
+    "prompt_pl": "Portal o gotowaniu dla początkujących ogłosił konkurs na artykuł czytelnika. Napisz artykuł, w którym opiszesz danie, które umiesz przygotować, i sytuację, w której kogoś nim poczęstowałeś/poczęstowałaś, oraz uzasadnisz, dlaczego każdy nastolatek powinien umieć ugotować kilka prostych posiłków.",
+    "elements_pl": [
+      "opisać danie, które umiesz przygotować, i sytuację, w której kogoś nim poczęstowałeś/poczęstowałaś",
+      "uzasadnić, dlaczego każdy nastolatek powinien umieć ugotować kilka prostych posiłków"
+    ],
+    "planHint_pl": "Tytuł może być zabawny, a wstęp może zacząć się od kuchennej wpadki albo zapachu z dzieciństwa. Opisz samo danie (co to jest, z jakich składników powstaje, jak smakuje), ale bez przepisu krok po kroku, a potem historię: od kogo się uczyłeś, co poszło nie tak, jak zareagowali goście. Argumenty w drugiej części: samodzielność na studiach, oszczędność, zdrowsze jedzenie niż fast food.",
+    "models": []
+  },
+  {
+    "id": "prompt-article-07",
+    "type": "writing-task",
+    "form": "article",
+    "theme": "food",
+    "prompt_pl": "Magazyn dla młodzieży przygotowuje numer o tym, jak media społecznościowe zmieniają nasze nawyki. Napisz artykuł, w którym opiszesz modny przepis albo trend kulinarny z mediów społecznościowych, który wypróbowałeś/wypróbowałaś, i ocenisz, czy media społecznościowe dobrze wpływają na to, jak jedzą młodzi ludzie.",
+    "elements_pl": [
+      "opisać modny przepis albo trend kulinarny z mediów społecznościowych, który wypróbowałeś/wypróbowałaś",
+      "ocenić, czy media społecznościowe dobrze wpływają na nawyki żywieniowe młodych ludzi"
+    ],
+    "planHint_pl": "Pierwsza część to relacja: co to był za trend, jak ci poszło i czy efekt przypominał filmik. W ocenie możesz pokazać obie strony (inspiracja do gotowania i zdrowe przepisy kontra diety cud i presja wyglądu), ale na końcu podaj swój wniosek. Pułapka: ocena mediów społecznościowych w ogóle, bez związku z jedzeniem.",
+    "models": []
+  },
+  {
+    "id": "prompt-article-08",
+    "type": "writing-task",
+    "form": "article",
+    "theme": "shopping",
+    "prompt_pl": "Portal o finansach dla młodzieży prosi czytelników o historie zakupów, których żałują. Napisz artykuł, w którym opiszesz swój zakup zrobiony pod wpływem promocji albo reklamy, który okazał się błędem, oraz przedstawisz sposoby na rozsądne robienie zakupów.",
+    "elements_pl": [
+      "opisać swój zakup zrobiony pod wpływem promocji albo reklamy, który okazał się błędem",
+      "przedstawić sposoby na rozsądne robienie zakupów"
+    ],
+    "planHint_pl": "Lekki, trochę autoironiczny ton pasuje do artykułu, byle bez potocznych skrótów. Opisz konkretną rzecz i okazję (np. wyprzedaż albo licznik czasu na stronie sklepu) oraz to, dlaczego zakup okazał się błędem, a potem podaj sposoby, które z tego wynikają, np. odczekanie doby przed zakupem albo lista rzeczy, których naprawdę potrzebujesz. Pułapka: tekst o reklamie z udziałem znanych osób, a chodzi o twoje decyzje jako kupującego.",
+    "models": []
+  },
+  {
+    "id": "prompt-article-09",
+    "type": "writing-task",
+    "form": "article",
+    "theme": "travel",
+    "prompt_pl": "Portal dla młodych podróżników zbiera historie o pierwszych wyjazdach bez rodziców. Napisz artykuł, w którym zrelacjonujesz swoją pierwszą podróż bez rodziców lub opiekunów i doradzisz rówieśnikom, jak przygotować się do takiego wyjazdu, żeby był bezpieczny.",
+    "elements_pl": [
+      "zrelacjonować swoją pierwszą podróż bez rodziców lub opiekunów",
+      "doradzić rówieśnikom, jak przygotować się do takiego wyjazdu, żeby był bezpieczny"
+    ],
+    "planHint_pl": "Relacja w czasach przeszłych: dokąd i z kim pojechałeś, co było ekscytujące, a co trudne, np. pierwsza samodzielna przesiadka albo kłopot z noclegiem. Rady niech wynikają z twoich doświadczeń i dotyczą bezpieczeństwa: kopia dokumentów, ładowarka i zapas pieniędzy, plan podróży zostawiony komuś bliskiemu, numer alarmowy 112. Pułapka: przewodnik po atrakcjach miejsca zamiast tekstu o pierwszym samodzielnym wyjeździe.",
+    "models": []
+  },
+  {
+    "id": "prompt-article-10",
+    "type": "writing-task",
+    "form": "article",
+    "theme": "travel",
+    "prompt_pl": "Międzynarodowy portal dla młodych podróżników szuka tekstów o miejscach, których nie ma w przewodnikach. Napisz artykuł, w którym opiszesz mało znane miejsce w twoim regionie, które warto odwiedzić, i uzasadnisz, dlaczego warto podróżować po własnym kraju, a nie tylko wyjeżdżać za granicę.",
+    "elements_pl": [
+      "opisać mało znane miejsce w twoim regionie, które warto odwiedzić",
+      "uzasadnić, dlaczego warto podróżować po własnym kraju, a nie tylko wyjeżdżać za granicę"
+    ],
+    "planHint_pl": "Opis ma zachęcać: co tam zobaczysz, kiedy najlepiej przyjechać, jak dojechać, a polską nazwę miejsca objaśnij po angielsku, np. a small lake near Olsztyn. Argumenty: niższe koszty, mniej czasu w drodze, poznawanie historii własnego regionu, wsparcie lokalnych firm. Pułapka: opis Krakowa czy Zakopanego, bo temat mówi o miejscu mało znanym.",
+    "models": []
+  },
+  {
+    "id": "prompt-article-11",
+    "type": "writing-task",
+    "form": "article",
+    "theme": "culture",
+    "prompt_pl": "Lokalny portal kulturalny prowadzi cykl o sztuce w przestrzeni miasta. Napisz artykuł, w którym opiszesz dzieło sztuki w przestrzeni publicznej twojej miejscowości, np. mural, pomnik albo rzeźbę, i to, jak odbierają je mieszkańcy, oraz ocenisz, czy miasta powinny wydawać pieniądze na sztukę w przestrzeni publicznej, i uzasadnisz swoje zdanie.",
+    "elements_pl": [
+      "opisać dzieło sztuki w przestrzeni publicznej twojej miejscowości i to, jak odbierają je mieszkańcy",
+      "ocenić, czy miasta powinny wydawać pieniądze na sztukę w przestrzeni publicznej, i uzasadnić swoje zdanie"
+    ],
+    "planHint_pl": "Opis ma pozwolić czytelnikowi zobaczyć to dzieło: gdzie jest, co przedstawia, jakie budzi emocje, a do tego różne reakcje mieszkańców, bo polecenie też o nie pyta. W drugiej części zajmij jasne stanowisko i rozwiń argumenty, np. ładniejsza okolica, turyści i sztuka dostępna dla wszystkich za darmo albo, jeśli jesteś przeciw, pilniejsze wydatki miasta. Pułapka: recenzja wystawy w muzeum, a chodzi o sztukę na ulicy, którą widzi każdy przechodzień.",
+    "models": []
+  },
+  {
+    "id": "prompt-article-12",
+    "type": "writing-task",
+    "form": "article",
+    "theme": "culture",
+    "prompt_pl": "Międzynarodowy magazyn dla młodzieży publikuje teksty o zwyczajach z różnych krajów. Napisz artykuł, w którym opiszesz polski zwyczaj, który może zaskoczyć obcokrajowca, i wyjaśnisz, dlaczego warto poznawać tradycje innych narodów.",
+    "elements_pl": [
+      "opisać polski zwyczaj, który może zaskoczyć obcokrajowca",
+      "wyjaśnić, dlaczego warto poznawać tradycje innych narodów"
+    ],
+    "planHint_pl": "Wybierz jeden zwyczaj (np. lany poniedziałek, imieniny albo zdejmowanie butów, gdy idzie się do kogoś w gości) i opisz go tak, żeby czytelnik z innego kraju wszystko zrozumiał, a każdą polską nazwę wyjaśnij po angielsku. W drugiej części pokaż korzyści: mniej stereotypów, łatwiejsze podróże i przyjaźnie, lepsze rozumienie własnej kultury. Pułapka: lista pięciu zwyczajów po jednym zdaniu, bo jeden opisany dokładnie wypada dużo lepiej.",
+    "models": []
+  },
+  {
+    "id": "prompt-article-13",
+    "type": "writing-task",
+    "form": "article",
+    "theme": "sport",
+    "prompt_pl": "Portal sportowy dla młodzieży prowadzi cykl o sportowcach, którzy inspirują nie tylko wynikami. Napisz artykuł, w którym przedstawisz sportowca, który jest dla ciebie wzorem nie tylko z powodu osiągnięć sportowych, i wyjaśnisz, dlaczego znani sportowcy powinni angażować się w sprawy społeczne.",
+    "elements_pl": [
+      "przedstawić sportowca, który jest dla ciebie wzorem nie tylko z powodu osiągnięć sportowych",
+      "wyjaśnić, dlaczego znani sportowcy powinni angażować się w sprawy społeczne"
+    ],
+    "planHint_pl": "Wybierz osobę, o której wiesz coś pewnego, i skup się na postawie, a nie na liście medali: jak radzi sobie z porażką, jak traktuje rywali i kibiców, co robi poza sportem. W drugiej części pokaż, że sportowców słuchają tysiące młodych ludzi, więc mogą zwrócić uwagę na ważne sprawy, np. zdrowie psychiczne, sport dla dzieci z biedniejszych rodzin albo walkę z rasizmem. Pułapka: sucha biografia z datami i wynikami zamiast odpowiedzi na pytanie, dlaczego ta osoba jest dla ciebie wzorem.",
+    "models": []
+  },
+  {
+    "id": "prompt-article-14",
+    "type": "writing-task",
+    "form": "article",
+    "theme": "sport",
+    "prompt_pl": "Gazetka szkolna przygotowuje numer o ciemnych stronach współczesnego sportu. Napisz artykuł, w którym przedstawisz problem współczesnego sportu, który uważasz za najpoważniejszy, i jego skutki oraz zaproponujesz, jak można by go ograniczyć.",
+    "elements_pl": [
+      "przedstawić problem współczesnego sportu, który uważasz za najpoważniejszy, i jego skutki",
+      "zaproponować, jak można by ten problem ograniczyć"
+    ],
+    "planHint_pl": "Wybierz jeden problem, np. doping, hejt wobec sportowców w internecie albo ogromną presję na młodych zawodników, i pokaż jego skutki na przykładach, ale bez szczegółów prawdziwych afer, których nie jesteś pewien. Propozycje niech wynikają z opisu problemu: kontrole i kary, psycholog w klubie, lepsza edukacja trenerów i rodziców. Pułapka: lista kilku problemów po jednym zdaniu, choć pierwszy element dotyczy jednego, najpoważniejszego.",
+    "models": []
+  },
+  {
+    "id": "prompt-article-15",
+    "type": "writing-task",
+    "form": "article",
+    "theme": "health",
+    "prompt_pl": "Portal dla maturzystów zbiera porady od uczniów dla uczniów. Napisz artykuł, w którym opiszesz, jak stres przed ważnym egzaminem albo wydarzeniem wpłynął na ciebie lub twoich znajomych, i zaproponujesz sposoby radzenia sobie ze stresem, które sprawdzają się u nastolatków.",
+    "elements_pl": [
+      "opisać, jak stres przed ważnym egzaminem albo wydarzeniem wpłynął na ciebie lub twoich znajomych",
+      "zaproponować sposoby radzenia sobie ze stresem, które sprawdzają się u nastolatków"
+    ],
+    "planHint_pl": "Zacznij od czegoś, co zna każdy maturzysta, np. nieprzespanej nocy przed egzaminem, i opisz objawy oraz skutki konkretnie, w czasach przeszłych. Sposoby rozwijaj: nie tylko „ruszaj się”, ale też dlaczego i jak (krótki spacer między blokami nauki, stała pora snu, rozmowa z kimś zaufanym). Pułapka: rady medyczne, których nie jesteś pewien, więc trzymaj się tego, co sprawdziłeś sam albo widziałeś u innych.",
+    "models": []
+  },
+  {
+    "id": "prompt-article-16",
+    "type": "writing-task",
+    "form": "article",
+    "theme": "science",
+    "prompt_pl": "Gazetka szkolna przygotowuje numer na festiwal nauki. Napisz artykuł, w którym przedstawisz naukowca, którego odkrycie lub wynalazek zmienił życie ludzi, i zaproponujesz, jak zachęcić młodych ludzi do zainteresowania się naukami ścisłymi.",
+    "elements_pl": [
+      "przedstawić naukowca, którego odkrycie lub wynalazek zmienił życie ludzi",
+      "zaproponować, jak zachęcić młodych ludzi do zainteresowania się naukami ścisłymi"
+    ],
+    "planHint_pl": "Wybierz osobę, o której wiesz coś pewnego, np. Marię Skłodowską-Curie, i pokaż nie tylko samo odkrycie, ale też to, jak zmieniło ono życie zwykłych ludzi. Propozycje: doświadczenia zamiast samej teorii, spotkania z naukowcami, konkursy i koła naukowe. Pułapka: daty i liczby, których nie jesteś pewien, bo liczy się trafny przykład, a nie encyklopedia.",
+    "models": []
+  },
+  {
+    "id": "prompt-article-17",
+    "type": "writing-task",
+    "form": "article",
+    "theme": "nature",
+    "prompt_pl": "Lokalna gazeta przygotowuje dodatek o pogodzie w regionie. Napisz artykuł, w którym opiszesz gwałtowne zjawisko pogodowe, które dotknęło twoją okolicę, i jego skutki oraz przedstawisz, jak mieszkańcy mogą się przygotować na podobne sytuacje.",
+    "elements_pl": [
+      "opisać gwałtowne zjawisko pogodowe, które dotknęło twoją okolicę, i jego skutki",
+      "przedstawić, jak mieszkańcy mogą się przygotować na podobne sytuacje"
+    ],
+    "planHint_pl": "Wstęp może zacząć się od dźwięku albo obrazu, np. wiatru, który przewrócił drzewo przed szkołą. Opis w czasach przeszłych z konkretnymi skutkami (brak prądu, zalane piwnice, zamknięte drogi), potem rady: alerty w telefonie, zapas wody i latarka, pomoc starszym sąsiadom, a przy każdej napisz, dlaczego działa albo co zmieniłaby tamtego dnia. Pułapka: wykład o globalnym ociepleniu zamiast opisu tego, co działo się w twojej okolicy.",
+    "models": []
+  },
+  {
+    "id": "prompt-article-18",
+    "type": "writing-task",
+    "form": "article",
+    "theme": "society",
+    "prompt_pl": "Portal dla młodzieży przygotowuje cykl o mądrym korzystaniu z informacji w internecie. Napisz artykuł, w którym opiszesz sytuację, gdy ty albo ktoś z twoich bliskich uwierzył w fałszywą wiadomość z internetu, i zaproponujesz, jak młodzi ludzie mogą odróżniać prawdziwe informacje od fałszywych.",
+    "elements_pl": [
+      "opisać sytuację, w której ty albo ktoś z twoich bliskich uwierzył w fałszywą wiadomość z internetu",
+      "zaproponować, jak młodzi ludzie mogą odróżniać prawdziwe informacje od fałszywych"
+    ],
+    "planHint_pl": "Opowiedz krótką historię: jaka to była wiadomość, dlaczego wyglądała wiarygodnie i jak wyszło na jaw, że to nieprawda. Sposoby podaj z uzasadnieniem: sprawdzenie źródła i daty, szukanie tej samej informacji w kilku miejscach, ostrożność wobec nagłówków, które mają wywołać złość albo strach. Pułapka: wstęp jak z rozprawki („In this article I will discuss…”), a wstęp artykułu ma zaciekawić.",
+    "models": []
+  }
+]

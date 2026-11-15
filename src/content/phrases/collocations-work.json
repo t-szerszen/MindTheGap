@@ -1,0 +1,249 @@
+{
+  "id": "collocations-work",
+  "category": "collocations",
+  "title_pl": "Kolokacje: praca",
+  "items": [
+    {
+      "en": "apply for a job / a position",
+      "pl": "ubiegać się o pracę / stanowisko",
+      "meaning_pl": "Ubiegasz się O coś = apply for (job, position, scholarship). Do firmy albo uczelni: apply to (apply to a company). Kandydat to applicant, a podanie to application.",
+      "example": {
+        "en": "Over two hundred people applied for the position of assistant manager.",
+        "pl": "Ponad dwieście osób ubiegało się o stanowisko zastępcy kierownika."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "szukanie pracy", "przyimek"]
+    },
+    {
+      "en": "earn a living",
+      "pl": "zarabiać na życie",
+      "meaning_pl": "earn = zarabiać pracą, nie win (wygrać, np. na loterii). Zawód dodajesz przez as: earn a living as a musician. To samo znaczy make a living.",
+      "example": {
+        "en": "It's hard to earn a living as a musician, so many artists also teach.",
+        "pl": "Trudno zarabiać na życie jako muzyk, więc wielu artystów także uczy."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "pieniądze", "pułapka"]
+    },
+    {
+      "en": "gain work experience",
+      "pl": "zdobyć doświadczenie zawodowe",
+      "meaning_pl": "gain / get experience, nie „take experience”. Experience jako doświadczenie jest niepoliczalne: bez a i bez -s. An experience to przeżycie. W Wielkiej Brytanii do work experience to też krótka praktyka ucznia w firmie.",
+      "example": {
+        "en": "Volunteering is a good way to gain work experience before you go to university.",
+        "pl": "Wolontariat to dobry sposób na zdobycie doświadczenia zawodowego przed studiami."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "kariera", "pułapka"]
+    },
+    {
+      "en": "meet / miss a deadline",
+      "pl": "dotrzymać terminu / nie zdążyć w terminie",
+      "meaning_pl": "deadline = ostateczny termin. meet = zdążyć na czas, miss = przegapić termin. Polskie „dotrzymać” kusi, żeby dać keep, ale z deadline łączy się meet (keep pasuje do promise). Napięty termin = a tight deadline.",
+      "example": {
+        "en": "We had to stay late at school to meet the deadline for the project.",
+        "pl": "Musieliśmy zostać dłużej w szkole, żeby zdążyć z projektem w terminie."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "organizacja", "pułapka"]
+    },
+    {
+      "en": "run your own business",
+      "pl": "prowadzić własną firmę",
+      "meaning_pl": "run = prowadzić, zarządzać (firmą, sklepem, hotelem). Założyć firmę = start / set up a business. W tym znaczeniu business jest policzalne: a business = jedna firma.",
+      "example": {
+        "en": "My aunt runs her own business, so she decides when she works.",
+        "pl": "Moja ciocia prowadzi własną firmę, więc sama decyduje, kiedy pracuje."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "firma"]
+    },
+    {
+      "en": "get a pay rise",
+      "pl": "dostać podwyżkę",
+      "meaning_pl": "Po brytyjsku pay rise, po amerykańsku raise. Poprosić o podwyżkę = ask (your boss) for a pay rise. Samo pay to wynagrodzenie, niepoliczalne.",
+      "example": {
+        "en": "She got a pay rise after only six months in the job.",
+        "pl": "Dostała podwyżkę już po sześciu miesiącach pracy."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "pieniądze", "BrE"]
+    },
+    {
+      "en": "hand in your notice",
+      "pl": "złożyć wypowiedzenie",
+      "meaning_pl": "Pracownik sam odchodzi z pracy. To samo znaczy resign (from your job). Gdy to szef zwalnia: be sacked / be fired (potocznie) albo be dismissed (formalnie).",
+      "example": {
+        "en": "He handed in his notice because he had found a better job.",
+        "pl": "Złożył wypowiedzenie, bo znalazł lepszą pracę."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "zmiana pracy", "BrE"]
+    },
+    {
+      "en": "accept / turn down a job offer",
+      "pl": "przyjąć / odrzucić ofertę pracy",
+      "meaning_pl": "job offer to propozycja pracy dla ciebie od konkretnego pracodawcy. Ogłoszenie w internecie to job advert, a wolny etat to vacancy. turn down = odrzucić, rozdzielny: turn it down. Formalniej: decline.",
+      "example": {
+        "en": "She turned down a job offer in London because she didn't want to move.",
+        "pl": "Odrzuciła ofertę pracy w Londynie, bo nie chciała się przeprowadzać."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "szukanie pracy", "pułapka"]
+    },
+    {
+      "en": "work long hours",
+      "pl": "pracować po wiele godzin, mieć długi dzień pracy",
+      "meaning_pl": "Utarte połączenie: long hours, bez the. Godziny pracy w ogóle to working hours (np. od 9 do 17). Często w tekstach o stresie i zmęczeniu.",
+      "example": {
+        "en": "Nurses often work long hours, including nights and weekends.",
+        "pl": "Pielęgniarki często pracują po wiele godzin, także w nocy i w weekendy."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "czas pracy"]
+    },
+    {
+      "en": "work / do overtime",
+      "pl": "pracować w nadgodzinach, robić nadgodziny",
+      "meaning_pl": "overtime = nadgodziny, niepoliczalne (bez -s). W work overtime to przysłówek, w do overtime rzeczownik. Dodatek za nadgodziny = overtime pay.",
+      "example": {
+        "en": "During the busy season, factory workers have to work overtime.",
+        "pl": "W szczycie sezonu pracownicy fabryki muszą pracować w nadgodzinach."
+      },
+      "register": "neutral",
+      "tags": ["verb+adverb", "czas pracy"]
+    },
+    {
+      "en": "work closely with sb",
+      "pl": "ściśle z kimś współpracować",
+      "meaning_pl": "closely to przysłówek od close: blisko, ściśle. Po work potrzebny jest przysłówek, więc nie „work close with”. Częste w ogłoszeniach o pracy.",
+      "example": {
+        "en": "In this job, you will work closely with our marketing team.",
+        "pl": "W tej pracy będziesz ściśle współpracować z naszym działem marketingu."
+      },
+      "register": "neutral",
+      "tags": ["verb+adverb", "zespół"]
+    },
+    {
+      "en": "work remotely / work from home",
+      "pl": "pracować zdalnie / z domu",
+      "meaning_pl": "remotely = zdalnie (przysłówek od remote). Praca zdalna jako rzeczownik: remote work albo remote working. Z domu = from home, bez the.",
+      "example": {
+        "en": "Since the pandemic, many office workers have been able to work remotely twice a week.",
+        "pl": "Od pandemii wielu pracowników biurowych może pracować zdalnie dwa razy w tygodniu."
+      },
+      "register": "neutral",
+      "tags": ["verb+adverb", "czas pracy", "technologia"]
+    },
+    {
+      "en": "a part-time / full-time job",
+      "pl": "praca na część etatu / na pełny etat",
+      "meaning_pl": "Polskie „na pół etatu” to po prostu part-time. Przed rzeczownikiem: a part-time job, a po czasowniku jako przysłówek: work part-time. Dorywcza praca ucznia to zwykle też a part-time job.",
+      "example": {
+        "en": "Many students have a part-time job to pay for their own phones and clothes.",
+        "pl": "Wielu uczniów pracuje dorywczo, żeby samemu płacić za telefony i ubrania."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "czas pracy"]
+    },
+    {
+      "en": "a well-paid / badly paid job",
+      "pl": "dobrze / słabo płatna praca",
+      "meaning_pl": "Przed paid stoi przysłówek (well, badly, poorly, highly), a nie przymiotnik, więc nie „good paid job”.",
+      "example": {
+        "en": "Many young people dream of a well-paid job, but money isn't everything.",
+        "pl": "Wielu młodych ludzi marzy o dobrze płatnej pracy, ale pieniądze to nie wszystko."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "pieniądze", "pułapka"]
+    },
+    {
+      "en": "a demanding job",
+      "pl": "wymagająca praca",
+      "meaning_pl": "demanding = wymagający dużo wysiłku, czasu albo nerwów (od demand = żądać). Możesz zawęzić: physically / mentally demanding. Nie „requiring job”.",
+      "example": {
+        "en": "Being a firefighter is a demanding job, both physically and mentally.",
+        "pl": "Praca strażaka jest wymagająca zarówno fizycznie, jak i psychicznie."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "warunki pracy"]
+    },
+    {
+      "en": "a heavy workload",
+      "pl": "duże obciążenie pracą, nawał pracy",
+      "meaning_pl": "workload = ilość pracy do zrobienia. Duża to heavy, mała to light. Pasuje też do szkoły: a heavy workload before exams.",
+      "example": {
+        "en": "With such a heavy workload, she hardly has time for lunch.",
+        "pl": "Przy takim nawale pracy ledwo ma czas na lunch."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "warunki pracy", "stres"]
+    },
+    {
+      "en": "the minimum wage",
+      "pl": "płaca minimalna",
+      "meaning_pl": "wage to zarobek liczony zwykle za godzinę albo tydzień, częściej w pracy fizycznej. salary to stała roczna pensja wypłacana co miesiąc, typowa dla pracy biurowej. Płaca minimalna to więc the minimum wage.",
+      "example": {
+        "en": "Many people who earn the minimum wage struggle to pay their rent.",
+        "pl": "Wiele osób, które zarabiają płacę minimalną, ma problem z opłaceniem czynszu."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "pieniądze", "pułapka"]
+    },
+    {
+      "en": "job satisfaction",
+      "pl": "satysfakcja z pracy",
+      "meaning_pl": "W noun+noun pierwszy rzeczownik opisuje drugi, odwrotnie niż po polsku: job satisfaction = satysfakcja z pracy. Nie „satisfaction of job”. Niepoliczalne, bez a.",
+      "example": {
+        "en": "For many people, job satisfaction is more important than a high salary.",
+        "pl": "Dla wielu osób satysfakcja z pracy jest ważniejsza niż wysoka pensja."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "warunki pracy", "rozprawka"]
+    },
+    {
+      "en": "job security",
+      "pl": "pewność zatrudnienia, stabilność pracy",
+      "meaning_pl": "Poczucie, że nie stracisz pracy. Security to tu stabilność, nie ochrona (jak w security guard). Daje ją np. a permanent contract, czyli umowa na czas nieokreślony.",
+      "example": {
+        "en": "Jobs in the public sector are not always well paid, but they offer job security.",
+        "pl": "Praca w sektorze publicznym nie zawsze jest dobrze płatna, ale daje pewność zatrudnienia."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "warunki pracy"]
+    },
+    {
+      "en": "career prospects",
+      "pl": "perspektywy zawodowe",
+      "meaning_pl": "prospects w tym znaczeniu zawsze z -s: szanse na awans i lepszą pracę w przyszłości. Polskie „perspektywy” to tu prospects, nie perspectives (perspective = punkt widzenia). Mówimy good / poor prospects.",
+      "example": {
+        "en": "Speaking a second foreign language can improve your career prospects.",
+        "pl": "Znajomość drugiego języka obcego może poprawić twoje perspektywy zawodowe."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "kariera", "false friend"]
+    },
+    {
+      "en": "work-life balance",
+      "pl": "równowaga między pracą a życiem prywatnym",
+      "meaning_pl": "Zwykle z a good / healthy / better: have / achieve a good work-life balance. Pisane z łącznikiem. Częsty temat rozprawki o pracy zdalnej i nadgodzinach.",
+      "example": {
+        "en": "Working from home helped my dad achieve a better work-life balance.",
+        "pl": "Praca z domu pomogła mojemu tacie osiągnąć lepszą równowagę między pracą a życiem prywatnym."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "warunki pracy", "rozprawka"]
+    },
+    {
+      "en": "working conditions",
+      "pl": "warunki pracy",
+      "meaning_pl": "Zawsze w liczbie mnogiej. working znaczy tu „związany z pracą”, tak samo jak w working hours. Typowo: good / poor working conditions, improve working conditions.",
+      "example": {
+        "en": "The workers went on strike to demand better working conditions.",
+        "pl": "Pracownicy rozpoczęli strajk, żeby domagać się lepszych warunków pracy."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "warunki pracy"]
+    }
+  ]
+}

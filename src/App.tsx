@@ -14,6 +14,7 @@ import { ReviewPage } from './features/vocabulary/ReviewPage'
 import { WordsPage } from './features/vocabulary/WordsPage'
 import { WordsProvider } from './features/vocabulary/WordsProvider'
 import { NotFound } from './components/States'
+import { GrammarPage } from './features/grammar/GrammarPage'
 import { HomePage } from './features/home/HomePage'
 import { SettingsPage } from './features/settings/SettingsPage'
 import { TensePage } from './features/tenses/TensePage'
@@ -22,6 +23,12 @@ import { MorePage } from './features/topics/MorePage'
 import { PhraseSetPage } from './features/topics/PhraseSetPage'
 import { TopicPage } from './features/topics/TopicPage'
 import { TranslatorPage } from './features/translator/TranslatorPage'
+import { ExamPage } from './features/exam/ExamPage'
+import { ExamRunPage } from './features/exam/ExamRunPage'
+import { ReadingListPage } from './features/reading/ReadingListPage'
+import { ReadingPage } from './features/reading/ReadingPage'
+import { WritingListPage } from './features/writing/WritingListPage'
+import { WritingPage } from './features/writing/WritingPage'
 
 export function App() {
   // HashRouter, bo GitHub Pages nie ma fallbacku na index.html
@@ -36,6 +43,8 @@ export function App() {
                 <Route index element={<HomePage />} />
                 <Route path="tenses" element={<TensesIndexPage />} />
                 <Route path="tenses/:id" element={<TensePage />} />
+                <Route path="grammar" element={<GrammarPage />} />
+                <Route path="grammar/:id" element={<GrammarPage />} />
                 <Route path="translator" element={<TranslatorPage />} />
                 <Route
                   path="words"
@@ -68,6 +77,12 @@ export function App() {
                   }
                 />
                 <Route path="exercises" element={<ExercisesPage />} />
+                <Route path="writing" element={<WritingListPage />} />
+                <Route path="writing/:id" element={<WritingPage />} />
+                <Route path="reading" element={<ReadingListPage />} />
+                <Route path="reading/:id" element={<ReadingPage />} />
+                <Route path="exam" element={<ExamPage />} />
+                <Route path="exam/run" element={<ExamRunPage />} />
                 <Route path="exercises/session" element={<SessionPage />} />
                 <Route
                   path="exercises/progress"

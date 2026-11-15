@@ -1,0 +1,326 @@
+{
+  "id": "register-nouns-adjectives",
+  "category": "register",
+  "title_pl": "Rejestr: rzeczowniki i przymiotniki",
+  "items": [
+    {
+      "en": "children",
+      "pl": "dzieci",
+      "meaning_pl": "zamiast potocznego „kids”: kids to luz z rozmowy albo wiadomości, w rozprawce, artykule czy liście formalnym piszesz children. Uwaga na formę: child to jedno dziecko, children to liczba mnoga bez -s.",
+      "example": {
+        "en": "Many parents believe that children spend too much time in front of screens.",
+        "pl": "Wielu rodziców uważa, że dzieci spędzają zbyt dużo czasu przed ekranami."
+      },
+      "register": "neutral",
+      "tags": ["kids", "rzeczownik", "rodzina"]
+    },
+    {
+      "en": "(personal) belongings",
+      "pl": "rzeczy osobiste, dobytek",
+      "meaning_pl": "zamiast potocznego „stuff”: stuff znaczy wszystko i nic. Gdy chodzi o czyjeś rzeczy, piszesz belongings, zawsze w liczbie mnogiej. Gdy o rzeczy ogólnie, np. na liście albo w sklepie, lepsze jest items.",
+      "example": {
+        "en": "Passengers are asked not to leave their belongings unattended.",
+        "pl": "Pasażerów prosi się, by nie zostawiali swoich rzeczy bez opieki."
+      },
+      "register": "formal",
+      "tags": ["stuff", "rzeczownik", "podróże"]
+    },
+    {
+      "en": "position / post",
+      "pl": "stanowisko, posada",
+      "meaning_pl": "zamiast potocznego „job”: job jest w porządku w rozmowie, ale w ogłoszeniu i liście motywacyjnym mówi się o konkretnym stanowisku: apply for the position of… Post znaczy to samo i często pojawia się w brytyjskich ogłoszeniach.",
+      "example": {
+        "en": "Applicants for the position should have at least two years of experience.",
+        "pl": "Kandydaci na to stanowisko powinni mieć co najmniej dwa lata doświadczenia."
+      },
+      "register": "formal",
+      "tags": ["job", "rzeczownik", "praca"]
+    },
+    {
+      "en": "concern (about/over sth)",
+      "pl": "obawa, niepokój",
+      "meaning_pl": "zamiast potocznego „worry”: concern to poważna, uzasadniona obawa, więc pasuje do rozprawki i artykułu. Typowe połączenia: a cause for concern, growing concern.",
+      "example": {
+        "en": "There is growing concern about the impact of social media on teenagers.",
+        "pl": "Rośnie niepokój z powodu wpływu mediów społecznościowych na nastolatków."
+      },
+      "register": "formal",
+      "tags": ["worry", "rzeczownik", "społeczeństwo"]
+    },
+    {
+      "en": "opportunity (to do sth)",
+      "pl": "okazja, możliwość",
+      "meaning_pl": "zamiast potocznego „chance”: chance znaczy też „prawdopodobieństwo” (a chance of rain), a opportunity tylko „okazja, żeby coś zrobić”, więc jest precyzyjniejsze. Wzór: an opportunity to do sth albo an opportunity for sth.",
+      "example": {
+        "en": "Studying abroad gives young people an opportunity to become more independent.",
+        "pl": "Studia za granicą dają młodym ludziom okazję, by stać się bardziej samodzielnymi."
+      },
+      "register": "formal",
+      "tags": ["chance", "rzeczownik", "edukacja"]
+    },
+    {
+      "en": "accommodation",
+      "pl": "zakwaterowanie, nocleg",
+      "meaning_pl": "zamiast potocznego „a place to stay”: accommodation to oficjalne słowo na nocleg albo mieszkanie. W brytyjskim angielskim jest niepoliczalne: bez a i bez -s (accommodations to wersja amerykańska).",
+      "example": {
+        "en": "The price of the trip includes accommodation and breakfast.",
+        "pl": "Cena wycieczki obejmuje zakwaterowanie i śniadanie."
+      },
+      "register": "formal",
+      "tags": ["a place to stay", "rzeczownik", "podróże", "niepoliczalne"]
+    },
+    {
+      "en": "information",
+      "pl": "informacje",
+      "meaning_pl": "zamiast potocznego „info”: skróty typu info zostaw do wiadomości do znajomych. Pułapka: information jest niepoliczalne, więc nie ma informations ani an information. Jedna informacja to a piece of information.",
+      "example": {
+        "en": "Further information about the course is available on the school website.",
+        "pl": "Więcej informacji o kursie można znaleźć na stronie szkoły."
+      },
+      "register": "neutral",
+      "tags": ["info", "rzeczownik", "niepoliczalne"]
+    },
+    {
+      "en": "advantage (of sth)",
+      "pl": "zaleta, korzyść",
+      "meaning_pl": "zamiast potocznego „a plus”: it's a plus brzmi jak z rozmowy, a advantage to standard w rozprawce za i przeciw. Wzór: one advantage of sth is that…, the main advantage of sth.",
+      "example": {
+        "en": "One advantage of living in the countryside is the lack of noise and pollution.",
+        "pl": "Jedną z zalet mieszkania na wsi jest brak hałasu i zanieczyszczeń."
+      },
+      "register": "formal",
+      "tags": ["a plus", "rzeczownik", "rozprawka"]
+    },
+    {
+      "en": "drawback (of/to sth)",
+      "pl": "wada, minus",
+      "meaning_pl": "zamiast potocznego „a minus”: drawback to konkretna wada czegoś, co poza tym jest dobre. Wzór: the main drawback of sth is…, one drawback to sth is…",
+      "example": {
+        "en": "The main drawback of online learning is the lack of contact with other students.",
+        "pl": "Główną wadą nauki zdalnej jest brak kontaktu z innymi uczniami."
+      },
+      "register": "formal",
+      "tags": ["a minus", "rzeczownik", "rozprawka"]
+    },
+    {
+      "en": "inconvenience",
+      "pl": "niedogodność, utrudnienie",
+      "meaning_pl": "zamiast potocznego „hassle”: hassle to „zawracanie głowy”, a inconvenience to rzeczowe słowo na kłopot, który ktoś musi znosić. Typowo: cause inconvenience to sb.",
+      "example": {
+        "en": "The roadworks have caused considerable inconvenience to local residents.",
+        "pl": "Roboty drogowe spowodowały spore utrudnienia dla okolicznych mieszkańców."
+      },
+      "register": "formal",
+      "tags": ["hassle", "rzeczownik", "skargi"]
+    },
+    {
+      "en": "funds",
+      "pl": "fundusze, środki finansowe",
+      "meaning_pl": "zamiast potocznego „cash”: cash w znaczeniu „kasa, pieniądze” jest luźne, a funds to pieniądze przeznaczone na konkretny cel. Prawie zawsze w liczbie mnogiej: raise funds, a lack of funds.",
+      "example": {
+        "en": "The school is trying to raise funds for a new library.",
+        "pl": "Szkoła stara się zebrać fundusze na nową bibliotekę."
+      },
+      "register": "formal",
+      "tags": ["cash", "rzeczownik", "pieniądze"]
+    },
+    {
+      "en": "a great deal of (+ uncountable noun)",
+      "pl": "dużo, wiele",
+      "meaning_pl": "zamiast potocznego „a lot of”: a great deal of łączy się tylko z rzeczownikami niepoliczalnymi (time, money, attention). Przy policzalnych piszesz a large number of.",
+      "example": {
+        "en": "Learning a language requires a great deal of time and patience.",
+        "pl": "Nauka języka wymaga dużo czasu i cierpliwości."
+      },
+      "register": "formal",
+      "tags": ["a lot of", "lots of", "ilość", "niepoliczalne"]
+    },
+    {
+      "en": "numerous (+ plural noun)",
+      "pl": "liczne, wiele",
+      "meaning_pl": "zamiast potocznego „loads of”: numerous to przymiotnik, więc stoi bez of: numerous problems, nie numerous of problems. Pasuje tylko do rzeczowników policzalnych w liczbie mnogiej.",
+      "example": {
+        "en": "The new law has been criticised on numerous occasions.",
+        "pl": "Nowa ustawa była wielokrotnie krytykowana."
+      },
+      "register": "formal",
+      "tags": ["loads of", "przymiotnik", "ilość"]
+    },
+    {
+      "en": "substantial / considerable",
+      "pl": "znaczny, pokaźny",
+      "meaning_pl": "zamiast potocznego „big”: przy kwotach, ilościach i zmianach big brzmi dziecinnie. Substantial i considerable znaczą „duży i istotny”. Typowo: a substantial amount, a considerable increase.",
+      "example": {
+        "en": "The government has spent a substantial amount of money on public transport.",
+        "pl": "Rząd wydał znaczną sumę pieniędzy na transport publiczny."
+      },
+      "register": "formal",
+      "tags": ["big", "przymiotnik", "ilość"]
+    },
+    {
+      "en": "inexpensive / affordable",
+      "pl": "niedrogi, przystępny cenowo",
+      "meaning_pl": "zamiast potocznego „cheap”: cheap często sugeruje kiepską jakość (cheap shoes to tandeta). Inexpensive mówi tylko, że coś nie kosztuje dużo, a affordable, że ludzi na to stać (affordable housing).",
+      "example": {
+        "en": "The city needs more affordable housing for young families.",
+        "pl": "Miasto potrzebuje więcej mieszkań w przystępnych cenach dla młodych rodzin."
+      },
+      "register": "formal",
+      "tags": ["cheap", "przymiotnik", "zakupy"]
+    },
+    {
+      "en": "costly",
+      "pl": "kosztowny",
+      "meaning_pl": "zamiast potocznego „pricey”: costly to „drogi” w tekście formalnym, często też w przenośni o czymś, co ma przykre skutki (a costly mistake).",
+      "example": {
+        "en": "Repairing the old building would be too costly for the town council.",
+        "pl": "Remont starego budynku byłby zbyt kosztowny dla rady miasta."
+      },
+      "register": "formal",
+      "tags": ["pricey", "przymiotnik", "pieniądze"]
+    },
+    {
+      "en": "sufficient",
+      "pl": "wystarczający",
+      "meaning_pl": "zamiast potocznego „enough”: sufficient stoi przed rzeczownikiem (sufficient time) albo po be (the time was sufficient). Uwaga: enough może stać po przymiotniku (big enough), a sufficient nie, wtedy piszesz sufficiently large.",
+      "example": {
+        "en": "Not all students have sufficient time to prepare for the exam.",
+        "pl": "Nie wszyscy uczniowie mają wystarczająco dużo czasu, żeby przygotować się do egzaminu."
+      },
+      "register": "formal",
+      "tags": ["enough", "przymiotnik", "szkoła"]
+    },
+    {
+      "en": "pleasant",
+      "pl": "przyjemny, miły",
+      "meaning_pl": "zamiast potocznego „nice”: nice jest tak ogólne, że prawie nic nie mówi. Pleasant opisuje miejsce, pogodę, atmosferę albo doświadczenie (a pleasant atmosphere, a pleasant stay).",
+      "example": {
+        "en": "The hotel staff created a pleasant atmosphere for all the guests.",
+        "pl": "Personel hotelu stworzył przyjemną atmosferę dla wszystkich gości."
+      },
+      "register": "neutral",
+      "tags": ["nice", "przymiotnik", "opis"]
+    },
+    {
+      "en": "considerate (of sb to do sth)",
+      "pl": "taktowny, uprzejmy, liczący się z innymi",
+      "meaning_pl": "zamiast potocznego „nice”: chodzi o nice w sensie It was nice of you. Considerate znaczy, że ktoś pomyślał o potrzebach innych. Konstrukcja zostaje ta sama: It was very considerate of you to…",
+      "example": {
+        "en": "It was very considerate of you to inform us about the change in advance.",
+        "pl": "To bardzo uprzejme z Pana strony, że z wyprzedzeniem poinformował nas Pan o zmianie."
+      },
+      "register": "formal",
+      "tags": ["nice", "przymiotnik", "charakter"]
+    },
+    {
+      "en": "intelligent",
+      "pl": "inteligentny, bystry",
+      "meaning_pl": "zamiast potocznego „smart”: smart w znaczeniu „bystry” jest typowe dla luźnej mowy i amerykańskiego. W brytyjskim smart często znaczy „elegancki” (smart clothes), więc w tekście formalnym intelligent nie budzi wątpliwości.",
+      "example": {
+        "en": "Dolphins are considered to be highly intelligent animals.",
+        "pl": "Delfiny uważa się za bardzo inteligentne zwierzęta."
+      },
+      "register": "neutral",
+      "tags": ["smart", "przymiotnik", "charakter"]
+    },
+    {
+      "en": "excellent / outstanding",
+      "pl": "doskonały, znakomity",
+      "meaning_pl": "zamiast potocznego „awesome”: awesome (albo great) to język rozmów, w tekście formalnym piszesz excellent. Outstanding jest jeszcze mocniejsze: wybitny, wyróżniający się na tle innych.",
+      "example": {
+        "en": "The museum offers excellent facilities for school groups.",
+        "pl": "Muzeum oferuje doskonałe zaplecze dla grup szkolnych."
+      },
+      "register": "formal",
+      "tags": ["awesome", "great", "przymiotnik", "ocena"]
+    },
+    {
+      "en": "poor (quality, results, diet)",
+      "pl": "słaby, kiepski, złej jakości",
+      "meaning_pl": "zamiast potocznego „bad”: przy jakości i wynikach piszesz poor quality, poor results, poor diet. Uwaga: poor przed słowem o człowieku często znaczy „biedny”, więc najbezpieczniej łączyć je z rzeczami.",
+      "example": {
+        "en": "Poor diet is one of the main causes of health problems among teenagers.",
+        "pl": "Złe odżywianie to jedna z głównych przyczyn problemów zdrowotnych wśród nastolatków."
+      },
+      "register": "formal",
+      "tags": ["bad", "przymiotnik", "jakość", "zdrowie"]
+    },
+    {
+      "en": "detrimental / harmful (to sth)",
+      "pl": "szkodliwy",
+      "meaning_pl": "zamiast potocznego „bad for”: harmful jest neutralne, a detrimental bardzo formalne, idealne do rozprawki. Wzór: be detrimental to sth albo have a detrimental effect on sth.",
+      "example": {
+        "en": "Spending too much time online can be detrimental to young people's concentration.",
+        "pl": "Spędzanie zbyt dużo czasu w sieci może szkodzić koncentracji młodych ludzi."
+      },
+      "register": "formal",
+      "tags": ["bad for", "przymiotnik", "zdrowie", "technologia"]
+    },
+    {
+      "en": "elderly",
+      "pl": "starszy, w podeszłym wieku",
+      "meaning_pl": "zamiast potocznego „old”: mówiąc o ludziach, old people może brzmieć niegrzecznie, a elderly jest uprzejme. Mówi się elderly people albo the elderly (osoby starsze jako grupa).",
+      "example": {
+        "en": "Many elderly people feel lonely, especially in big cities.",
+        "pl": "Wiele starszych osób czuje się samotnie, zwłaszcza w dużych miastach."
+      },
+      "register": "formal",
+      "tags": ["old", "przymiotnik", "społeczeństwo"]
+    },
+    {
+      "en": "unusual",
+      "pl": "nietypowy, niezwykły",
+      "meaning_pl": "zamiast potocznego „weird”: weird brzmi jak „dziwaczny” i od razu ocenia, a unusual tylko stwierdza, że coś odbiega od normy. Może być nawet pochwałą (an unusual idea).",
+      "example": {
+        "en": "It is not unusual for teenagers to change their plans for the future several times.",
+        "pl": "To nic niezwykłego, że nastolatki kilka razy zmieniają plany na przyszłość."
+      },
+      "register": "neutral",
+      "tags": ["weird", "przymiotnik", "opis"]
+    },
+    {
+      "en": "straightforward",
+      "pl": "prosty, nieskomplikowany",
+      "meaning_pl": "zamiast potocznego „easy”: straightforward znaczy „bez komplikacji, jasny krok po kroku” (a straightforward process). O człowieku znaczy co innego: szczery, bezpośredni.",
+      "example": {
+        "en": "Registering for the course is a straightforward process.",
+        "pl": "Zapisanie się na kurs to prosta procedura."
+      },
+      "register": "formal",
+      "tags": ["easy", "przymiotnik", "opis"]
+    },
+    {
+      "en": "demanding / challenging",
+      "pl": "wymagający, trudny",
+      "meaning_pl": "zamiast potocznego „hard”: demanding to coś, co wymaga dużo czasu i wysiłku (a demanding job), challenging to trudne, ale rozwijające (a challenging task). Oba brzmią poważniej niż hard.",
+      "example": {
+        "en": "Working as a nurse is physically and emotionally demanding.",
+        "pl": "Praca pielęgniarki jest wymagająca fizycznie i emocjonalnie."
+      },
+      "register": "formal",
+      "tags": ["hard", "przymiotnik", "praca"]
+    },
+    {
+      "en": "considerably (+ comparative)",
+      "pl": "znacznie, wyraźnie",
+      "meaning_pl": "zamiast potocznego „a lot”: chodzi o a lot przed stopniem wyższym (a lot better, a lot cheaper). Considerably działa tak samo, ale brzmi rzeczowo i pasuje do opisu zmian. Podobnie: significantly.",
+      "example": {
+        "en": "Travelling by train is considerably cheaper than flying.",
+        "pl": "Podróżowanie pociągiem jest znacznie tańsze niż latanie samolotem."
+      },
+      "register": "formal",
+      "tags": ["a lot", "przysłówek", "porównanie"]
+    },
+    {
+      "en": "slightly (+ adjective / comparative)",
+      "pl": "nieco, trochę",
+      "meaning_pl": "zamiast potocznego „a bit”: a bit expensive, a bit better to mowa potoczna, w tekście formalnym piszesz slightly. To odwrotność considerably: slightly higher znaczy „trochę wyższy”.",
+      "example": {
+        "en": "Tickets are slightly more expensive at weekends.",
+        "pl": "W weekendy bilety są nieco droższe."
+      },
+      "register": "formal",
+      "tags": ["a bit", "przysłówek", "porównanie"]
+    }
+  ]
+}

@@ -5,298 +5,330 @@
   "group": "present",
   "aspect": "simple",
   "tabLabel": ["Pres.", "Simple"],
-  "oneLiner_pl": "stałe, powtarzalne i zawsze prawdziwe",
+  "oneLiner_pl": "stałe, powtarzalne i zawsze prawdziwe — a nie to, co dzieje się akurat teraz",
   "timeline": {
     "now": 0.65,
-    "marks": [
-      {
-        "kind": "repeat",
-        "from": 0.08,
-        "to": 0.94,
-        "label": "every day"
-      }
-    ]
+    "marks": [{ "kind": "repeat", "from": 0.06, "to": 0.94, "label": "every day" }]
   },
   "howToChoose": [
     {
       "step_pl": "sygnał",
-      "text_pl": "Widzisz always, usually, often, every day, on Mondays — albo zdanie jest faktem, który zawsze jest prawdziwy?"
+      "text_pl": "Szukasz słów, które mówią „jak często”: always, usually, often, sometimes, never, every day, on Mondays, twice a week. Jeśli takiego słowa nie ma, patrzysz na sens: fakt, stały stan albo rozkład jazdy."
     },
     {
       "step_pl": "relacja w czasie",
-      "text_pl": "Czynność powtarza się regularnie albo jest stała — nie dzieje się tylko w tej chwili."
+      "text_pl": "Nie patrzysz na jedną chwilę, tylko na to, jak jest w ogóle: czynność się powtarza, stan jest stały albo coś jest zawsze prawdą. Chwila mówienia to tylko jeden z wielu takich momentów."
+    },
+    {
+      "step_pl": "pułapka",
+      "text_pl": "now, at the moment, Look! albo coś tymczasowego (this week) → Present Continuous, chyba że czasownik opisuje stan (know, need, seem). for / since albo How long…? w znaczeniu „od kiedy, od jak dawna” → Present Perfect (przy czynnościach często Present Perfect Continuous: I've been learning English for six years), mimo że po polsku mówisz w teraźniejszym. A po when, as soon as, until i if o przyszłości zostaje Present Simple, nie will."
     },
     {
       "step_pl": "forma",
-      "text_pl": "V1, a przy he / she / it dodajesz -s. Pytania i przeczenia z do / does."
+      "text_pl": "V1, a przy he / she / it V1 + -s. Przeczenie: don't / doesn't + V1. Pytanie: Do / Does + podmiot + V1? Be radzi sobie sam: Is she ready?, She isn't ready."
     }
   ],
   "forms": {
     "active": {
       "affirmative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "V1 (+ -s)",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "V1 (+ -s)", "role": "verb" }
         ],
-        "example": {
-          "en": "She usually gets up at six.",
-          "pl": "Ona zwykle wstaje o szóstej."
-        },
-        "note_pl": "he / she / it → -s albo -es: works, watches, goes."
+        "example": { "en": "She usually gets up at six.", "pl": "Ona zwykle wstaje o szóstej." },
+        "note_pl": "W twierdzeniu nie ma żadnego posiłkowego, jest sam czasownik. Przy he / she / it dokładasz -s: works, plays. Po -s, -sh, -ch, -x dajesz -es (misses, watches, fixes), tak samo goes i does. Spółgłoska + y → -ies (study → studies), ale samogłoska + y → samo -s (play → plays). have → has."
       },
       "negative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "do / does",
-            "role": "aux"
-          },
-          {
-            "text": "not",
-            "role": "particle"
-          },
-          {
-            "text": "V1",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "do / does", "role": "aux" },
+          { "text": "not", "role": "particle" },
+          { "text": "V1", "role": "verb" }
         ],
-        "example": {
-          "en": "He doesn't eat meat.",
-          "pl": "On nie je mięsa."
-        },
-        "note_pl": "Po does czasownik wraca do V1 — -s jest już w does."
+        "example": { "en": "He doesn't eat meat.", "pl": "On nie je mięsa." },
+        "note_pl": "W twierdzeniu nie ma posiłkowego, więc not nie ma się do czego przyczepić. Dlatego pożyczasz do / does. Does przejmuje -s, a czasownik wraca do V1: doesn't eat, nie doesn't eats. Be robi przeczenie sam: I'm not, she isn't."
       },
       "question": {
         "pattern": [
-          {
-            "text": "Do / Does",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "V1",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Do / Does", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "V1", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
-        "example": {
-          "en": "Does she speak Spanish?",
-          "pl": "Czy ona mówi po hiszpańsku?"
-        }
+        "example": { "en": "Does she speak Spanish?", "pl": "Czy ona mówi po hiszpańsku?" },
+        "note_pl": "To samo pożyczone do / does idzie przed podmiot. -s siedzi już w does, więc czasownik zostaje w V1: Does she speak?, nie Does she speaks? Z be nie ma do: Is she ready?"
       },
       "whQuestion": {
         "pattern": [
-          {
-            "text": "Wh-word",
-            "role": "neutral"
-          },
-          {
-            "text": "do / does",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "V1",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Wh-word", "role": "neutral" },
+          { "text": "do / does", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "V1", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
-        "example": {
-          "en": "Where do you live?",
-          "pl": "Gdzie mieszkasz?"
-        }
+        "example": { "en": "What time does the film start?", "pl": "O której zaczyna się film?" },
+        "note_pl": "Gdy pytasz o podmiot (Who? What?), do znika i nie ma przestawienia: Who lives here? What happens next? Czasownik ma -s, bo who / what traktujesz jak he / she / it."
       }
     },
     "passive": {
       "affirmative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "am / is / are",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "am / is / are", "role": "aux" },
+          { "text": "V3", "role": "verb" }
         ],
         "example": {
           "en": "English is spoken all over the world.",
           "pl": "Po angielsku mówi się na całym świecie."
-        }
+        },
+        "note_pl": "Bierna = be w Present Simple (am / is / are) + V3. Czas pokazuje tylko be, V3 się nie zmienia. Wykonawcę dodajesz przez by, tylko gdy jest ważny."
       },
       "negative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "am / is / are",
-            "role": "aux"
-          },
-          {
-            "text": "not",
-            "role": "particle"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "am / is / are", "role": "aux" },
+          { "text": "not", "role": "particle" },
+          { "text": "V3", "role": "verb" }
         ],
         "example": {
-          "en": "Cars aren't produced in this factory any more.",
-          "pl": "W tej fabryce nie produkuje się już samochodów."
-        }
+          "en": "Credit cards aren't accepted in this shop.",
+          "pl": "W tym sklepie nie przyjmuje się kart kredytowych."
+        },
+        "note_pl": "Przeczenie robi samo be: isn't / aren't + V3. Do się tu nie pojawia, bo be samo tworzy przeczenie i pytanie (Don't be late! to tryb rozkazujący, a nie Present Simple)."
       },
       "question": {
         "pattern": [
-          {
-            "text": "Am / Is / Are",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Am / Is / Are", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "V3", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
         "example": {
-          "en": "Is breakfast included in the price?",
-          "pl": "Czy śniadanie jest wliczone w cenę?"
-        }
+          "en": "Is the swimming pool cleaned every day?",
+          "pl": "Czy basen jest czyszczony codziennie?"
+        },
+        "note_pl": "Is / Are idzie przed podmiot, V3 zostaje za nim."
       },
       "whQuestion": {
         "pattern": [
-          {
-            "text": "Wh-word",
-            "role": "neutral"
-          },
-          {
-            "text": "am / is / are",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Wh-word", "role": "neutral" },
+          { "text": "am / is / are", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "V3", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
-        "example": {
-          "en": "How is paper made?",
-          "pl": "Jak robi się papier?"
-        }
+        "example": { "en": "How is paper made?", "pl": "Jak robi się papier?" },
+        "note_pl": "Przyimek często ląduje na samym końcu: What is this button used for?"
       }
     }
   },
   "uses": [
     {
       "title_pl": "Nawyki i rutyna",
-      "explanation_pl": "Rzeczy, które robisz regularnie. Słowa-sygnały mówią, jak często.",
+      "explanation_pl": "Mówisz o czymś, co się powtarza. Nie ma znaczenia, czy robisz to akurat teraz — możesz w tej chwili spać, a i tak „chodzisz na siłownię dwa razy w tygodniu”. Słowa częstotliwości odpowiadają na pytanie „jak często?”. Stoją przed czasownikiem głównym, ale po be: She is never late.",
+      "examples": [
+        { "en": "I go to the gym twice a week.", "pl": "Chodzę na siłownię dwa razy w tygodniu." },
+        {
+          "en": "My dad hardly ever watches TV — he prefers podcasts.",
+          "pl": "Mój tata prawie nigdy nie ogląda telewizji — woli podcasty."
+        },
+        { "en": "She is never late for her lessons.", "pl": "Ona nigdy nie spóźnia się na lekcje." }
+      ]
+    },
+    {
+      "title_pl": "Stałe stany i prawdy ogólne",
+      "explanation_pl": "Opisujesz, jak jest na stałe: gdzie ktoś mieszka, czym się zajmuje, jak działa świat. Prawda ogólna nie ma swojego momentu na osi czasu — jest prawdziwa wczoraj, dziś i jutro — dlatego wystarcza najprostsza forma. Jeśli sytuacja jest tylko chwilowa, przechodzisz na Continuous.",
       "examples": [
         {
-          "en": "I go to the gym twice a week.",
-          "pl": "Chodzę na siłownię dwa razy w tygodniu."
+          "en": "My aunt lives in Gdynia and works as a nurse.",
+          "pl": "Moja ciocia mieszka w Gdyni i pracuje jako pielęgniarka."
+        },
+        {
+          "en": "Water boils at 100 degrees Celsius at sea level.",
+          "pl": "Na poziomie morza woda wrze w temperaturze 100 stopni Celsjusza."
+        },
+        {
+          "en": "The Vistula flows into the Baltic Sea.",
+          "pl": "Wisła wpada do Morza Bałtyckiego."
         }
       ]
     },
     {
-      "title_pl": "Fakty i prawdy ogólne",
-      "explanation_pl": "To, co jest prawdą zawsze, niezależnie od chwili mówienia.",
+      "title_pl": "Czasowniki stanu (bez -ing)",
+      "explanation_pl": "know, believe, understand, like, love, hate, prefer, want, need, seem, belong, own, mean opisują stan, a nie czynność. Stan nie ma fazy „w trakcie”, więc nie pokazujesz go jak czegoś, co właśnie się dzieje. Dlatego nawet o tej chwili mówisz w Present Simple: I know, nie I'm knowing. Uwaga na czasowniki z dwoma znaczeniami: think = „uważam” to stan, ale think about = „zastanawiam się” to czynność. Tak samo have = „posiadam” (stan) i have lunch (czynność), see = „rozumiem” (I see what you mean) i I'm seeing the dentist tomorrow (umówiona wizyta), taste / smell = „smakuje / pachnie” (The soup tastes great) i I'm tasting the soup (próbuję). He's rude = taki jest, a He's being rude = tak się teraz zachowuje. W potocznym angielskim usłyszysz czasem I'm loving it, ale w zadaniach zostań przy Simple.",
       "examples": [
         {
-          "en": "Water boils at 100 degrees Celsius.",
-          "pl": "Woda wrze w temperaturze 100 stopni Celsjusza."
+          "en": "I don't understand this question — can you help me?",
+          "pl": "Nie rozumiem tego pytania — pomożesz mi?"
+        },
+        { "en": "This jacket belongs to my brother.", "pl": "Ta kurtka należy do mojego brata." },
+        {
+          "en": "I think you're right, but I need more time to decide.",
+          "pl": "Myślę, że masz rację, ale potrzebuję więcej czasu na decyzję."
         }
       ]
     },
     {
-      "title_pl": "Rozkłady jazdy i programy",
-      "explanation_pl": "Ustalony, oficjalny plan — nawet jeśli dotyczy przyszłości.",
+      "title_pl": "Rozkłady jazdy i programy (o przyszłości)",
+      "explanation_pl": "Gdy przyszłe zdarzenie wynika z rozkładu, planu lekcji albo programu, traktujesz je jak stały fakt: tak jest zapisane i nie zależy od twojej decyzji. Dlatego nie potrzebujesz will. Najczęściej z leave, arrive, start, begin, open, close, finish. Twoje prywatne plany to już Present Continuous albo be going to.",
       "examples": [
         {
-          "en": "The train leaves at 6.15 tomorrow.",
-          "pl": "Pociąg odjeżdża jutro o 6.15."
+          "en": "The train leaves at 7.15 tomorrow morning.",
+          "pl": "Pociąg odjeżdża jutro o 7.15 rano."
+        },
+        {
+          "en": "The exam starts at nine, so don't be late.",
+          "pl": "Egzamin zaczyna się o dziewiątej, więc się nie spóźnij."
+        },
+        { "en": "What time does your flight land?", "pl": "O której ląduje twój samolot?" }
+      ]
+    },
+    {
+      "title_pl": "Zdania czasowe o przyszłości (when, as soon as, until)",
+      "explanation_pl": "Po when, as soon as, until, before, after i po if (warunek) mówisz o przyszłości, ale bez will. Przyszłość wyraża już zdanie główne (will, be going to, polecenie), więc zdanie czasowe zostaje w Present Simple — choć po polsku powiesz w przyszłym („zadzwonię, jak dojadę”). Tak samo po unless, once i by the time (Unless you hurry, you'll miss the bus). Ale gdy when albo if zaczyna pytanie (When will you…?) albo pytanie zależne (I don't know when / if she'll come), to nie jest zdanie czasowe i will zostaje.",
+      "examples": [
+        {
+          "en": "I'll call you as soon as I get to the station.",
+          "pl": "Zadzwonię, jak tylko dotrę na dworzec."
+        },
+        {
+          "en": "We won't start until everyone arrives.",
+          "pl": "Nie zaczniemy, dopóki wszyscy nie przyjdą."
+        },
+        {
+          "en": "If it rains tomorrow, we'll stay at home.",
+          "pl": "Jeśli jutro będzie padać, zostaniemy w domu."
+        }
+      ]
+    },
+    {
+      "title_pl": "have i have got (posiadanie)",
+      "explanation_pl": "„Mam” to po angielsku have albo have got. Have got wygląda jak Present Perfect od get, ale znaczy po prostu „mam”. Have jest w nim posiłkowym, więc pytanie i przeczenie robisz przez have, bez do: Have you got…?, I haven't got… Samo have to zwykły czasownik, więc potrzebuje do: Do you have…?, I don't have… W brytyjskim angielskim działają obie wersje (have got brzmi bardziej potocznie). W amerykańskim w pytaniach i przeczeniach zwykle mówi się Do you have…? / I don't have…, a V3 od get to tam zwykle gotten: I've got = „mam”, ale I've gotten = „dostałem”. Have got występuje tylko w czasie teraźniejszym i tylko w znaczeniu „mieć” (rzeczy, rodzina, choroby; osobno jest have got to = „muszę”: I've got to go): w przeszłości mówisz had, a czynności (have breakfast, have a shower) idą zawsze z samym have.",
+      "examples": [
+        { "en": "I've got two older brothers.", "pl": "Mam dwóch starszych braci." },
+        { "en": "Have you got a spare charger?", "pl": "Masz zapasową ładowarkę?" },
+        {
+          "en": "What time do you usually have breakfast?",
+          "pl": "O której zwykle jesz śniadanie?"
         }
       ]
     }
   ],
   "signalWords": [
     {
-      "word": "always"
+      "word": "always",
+      "note_pl": "zawsze; przed czasownikiem, po be. Z Continuous (She's always losing her keys) znaczy „ciągle” i brzmi jak narzekanie"
+    },
+    { "word": "usually", "note_pl": "zwykle; może też stać na początku zdania" },
+    { "word": "often", "note_pl": "często" },
+    { "word": "sometimes", "note_pl": "czasami; może stać na początku albo na końcu zdania" },
+    { "word": "rarely / seldom", "note_pl": "rzadko; seldom brzmi bardziej formalnie" },
+    { "word": "hardly ever", "note_pl": "prawie nigdy" },
+    {
+      "word": "never",
+      "note_pl": "nigdy — jako nawyk. Uwaga: przy doświadczeniu do teraz (I've never been to Rome) to sygnał Present Perfect"
     },
     {
-      "word": "usually"
+      "word": "every day / every week",
+      "note_pl": "every + okres = regularność. every day piszesz osobno; everyday razem to przymiotnik: everyday life = codzienne życie"
     },
     {
-      "word": "often"
+      "word": "on Mondays / at weekends",
+      "note_pl": "liczba mnoga = co tydzień. at weekends jest brytyjskie, w amerykańskim angielskim mówi się on weekends"
     },
     {
-      "word": "sometimes"
+      "word": "once a week / twice a week",
+      "note_pl": "raz / dwa razy w tygodniu — odpowiedź na How often…?"
     },
+    { "word": "How often…?", "note_pl": "pytanie o częstotliwość: How often do you…?" },
+    { "word": "as a rule", "note_pl": "z reguły" },
     {
-      "word": "never"
-    },
-    {
-      "word": "every day"
-    },
-    {
-      "word": "on Mondays"
-    },
-    {
-      "word": "once a week"
+      "word": "when / as soon as / until",
+      "note_pl": "w zdaniu czasowym o przyszłości: Present Simple, nie will. Uwaga: when pojawia się też przy Past Simple i Past Continuous (When I got home…)"
     }
   ],
   "relatedTenses": [
     {
       "id": "present-continuous",
-      "relation_pl": "Simple — stale albo regularnie. Continuous — teraz albo tymczasowo.",
+      "relation_pl": "Pytasz: to jest stałe i regularne, czy akurat trwa (teraz albo przez krótki czas)? Stałe i regularne → Present Simple. Trwa w tej chwili albo tymczasowo → Present Continuous. Czasowniki stanu zostają w Simple nawet „teraz”. O przyszłości: rozkład albo program → Simple, twoje ustalenie z kimś → Continuous.",
       "contrast": [
+        { "en": "I usually walk to school.", "pl": "Zwykle chodzę do szkoły pieszo (nawyk)." },
         {
-          "en": "I usually walk to school.",
-          "pl": "Zwykle chodzę do szkoły pieszo."
+          "en": "I'm taking the bus this week because my bike is broken.",
+          "pl": "W tym tygodniu jeżdżę autobusem, bo mam zepsuty rower (tymczasowo)."
+        },
+        { "en": "She works in a bank.", "pl": "Pracuje w banku (stała praca)." },
+        {
+          "en": "She's working in a café for the summer.",
+          "pl": "Na wakacje pracuje w kawiarni (tymczasowo)."
+        },
+        { "en": "I think you're right.", "pl": "Myślę, że masz rację (opinia, czyli stan)." },
+        {
+          "en": "I'm thinking about my answer.",
+          "pl": "Zastanawiam się nad odpowiedzią (czynność, która trwa teraz)."
         },
         {
-          "en": "I'm taking the bus this week.",
-          "pl": "W tym tygodniu jeżdżę autobusem."
+          "en": "The film starts at eight.",
+          "pl": "Film zaczyna się o ósmej (tak jest w programie kina)."
+        },
+        {
+          "en": "We're meeting outside the cinema at 7.30.",
+          "pl": "Spotykamy się przed kinem o 7.30 (umówiliśmy się)."
+        }
+      ]
+    },
+    {
+      "id": "present-perfect",
+      "relation_pl": "Po polsku „znam ją od lat” albo „mieszkam tu od 2015” jest w czasie teraźniejszym. Gdy for, since albo How long…? liczą czas od przeszłości do teraz („od jak dawna?”), potrzebujesz Present Perfect. Ale for i How long w sensie „ile to trwa” zostają w Simple: I usually sleep for seven hours, How long does the journey take?",
+      "contrast": [
+        { "en": "I live in Poznań.", "pl": "Mieszkam w Poznaniu (po prostu fakt)." },
+        {
+          "en": "I've lived in Poznań since 2015.",
+          "pl": "Mieszkam w Poznaniu od 2015 roku (od kiedy → Present Perfect)."
+        },
+        {
+          "en": "How long does it take you to get to school?",
+          "pl": "Ile zajmuje ci droga do szkoły? (ile to trwa → Present Simple)"
+        },
+        {
+          "en": "How long have you lived here?",
+          "pl": "Od jak dawna tu mieszkasz? (od kiedy do teraz → Present Perfect)"
+        }
+      ]
+    },
+    {
+      "id": "future-simple",
+      "relation_pl": "O przyszłości w zdaniu głównym mówisz z will, ale w zdaniu czasowym (when, as soon as, until, before, after) i po if — Present Simple. Will zostaje w pytaniu (When will…?) i po I don't know when / if. Oferta albo decyzja podjęta w chwili mówienia to will, a nie Present Simple.",
+      "contrast": [
+        {
+          "en": "When will the results be published?",
+          "pl": "Kiedy opublikują wyniki? (pytanie — will zostaje)"
+        },
+        {
+          "en": "I'll let you know when the results are published.",
+          "pl": "Dam ci znać, kiedy opublikują wyniki (zdanie czasowe — Present Simple)."
+        },
+        {
+          "en": "I help my dad in the garden on Saturdays.",
+          "pl": "W soboty pomagam tacie w ogrodzie (nawyk)."
+        },
+        {
+          "en": "Wait, I'll help you with that bag.",
+          "pl": "Czekaj, pomogę ci z tą torbą (oferta w chwili mówienia)."
+        }
+      ]
+    },
+    {
+      "id": "past-simple",
+      "relation_pl": "Ten sam nawyk może być teraz albo kiedyś. Jeśli w zdaniu jest zakończony okres (when I was a child, last year, in 2015), nawet every summer czy always idą w Past Simple (albo used to). Present Simple tylko wtedy, gdy nawyk trwa nadal.",
+      "contrast": [
+        {
+          "en": "We go to the seaside every summer.",
+          "pl": "Co roku latem jeździmy nad morze (dalej tak jest)."
+        },
+        {
+          "en": "We went to the seaside every summer when I was a child.",
+          "pl": "Kiedy byłem dzieckiem, co roku latem jeździliśmy nad morze (już się skończyło)."
         }
       ]
     }
@@ -305,15 +337,44 @@
     {
       "wrong": "She work in a bank.",
       "right": "She works in a bank.",
-      "why_pl": "he / she / it → końcówka -s."
+      "why_pl": "he / she / it — a także my mum, the shop, everyone — dostaje -s. To jedyna końcówka osoby w całym Present Simple (poza be), więc łatwo ją zgubić, zwłaszcza po długim podmiocie: My best friend from primary school lives in Gdańsk."
     },
     {
       "wrong": "Does he plays tennis?",
       "right": "Does he play tennis?",
-      "why_pl": "-s jest już w does, czasownik zostaje w V1."
+      "why_pl": "-s przeszło do does, więc czasownik wraca do V1. To samo w przeczeniu: He doesn't play tennis."
+    },
+    {
+      "wrong": "I am agree with you.",
+      "right": "I agree with you.",
+      "why_pl": "agree to zwykły czasownik („zgadzam się”), a nie przymiotnik. Am / is / are stawiasz przed przymiotnikiem, rzeczownikiem albo miejscem (I'm ready, I'm a student, I'm at home), przed V-ing (Continuous) albo przed V3 (strona bierna), ale nigdy przed samym V1."
+    },
+    {
+      "wrong": "I'm knowing the answer.",
+      "right": "I know the answer.",
+      "why_pl": "know opisuje stan, a stan nie „trwa w trakcie” jak czynność. Czasowniki stanu (know, like, want, need, believe) zostają w Present Simple, nawet gdy mówisz o tej chwili."
+    },
+    {
+      "wrong": "I'll call you when I will get home.",
+      "right": "I'll call you when I get home.",
+      "why_pl": "Przyszłość jest już w zdaniu głównym (I'll call). W zdaniu czasowym po when, as soon as, until, before, after nie powtarzasz will — zostaje Present Simple."
+    },
+    {
+      "wrong": "I go always to school by bus.",
+      "right": "I always go to school by bus.",
+      "why_pl": "Przysłówki częstotliwości stoją przed czasownikiem głównym (always go), ale po be (I'm always late) i po pierwszym posiłkowym (I don't usually go)."
+    },
+    {
+      "wrong": "Do you have got a pen?",
+      "right": "Have you got a pen?",
+      "why_pl": "Nie mieszaj dwóch wersji. Have got robi pytanie przez have (Have you got…?), samo have — przez do (Do you have a pen?). Obie są poprawne."
     }
   ],
   "maturaTips_pl": [
-    "W lukach z he / she / it pilnuj końcówki -s — to najprostszy punkt do stracenia."
+    "Zanim wpiszesz formę, znajdź podmiot. Everyone, nobody, my best friend, the shop to trzecia osoba liczby pojedynczej → -s (Everyone knows). Przy family albo team brytyjski angielski dopuszcza też liczbę mnogą (My family live in Gdańsk), amerykański woli pojedynczą (My family lives in Gdańsk).",
+    "Częsta pułapka w lukach: when, as soon as, until, before, after albo if w zdaniu o przyszłości → Present Simple (as soon as she arrives). Gdy chcesz podkreślić, że coś musi się najpierw skończyć, możesz też dać Present Perfect (when I've finished). Ale w pytaniu When will she arrive? i po I don't know when… will zostaje.",
+    "now albo Look! w zdaniu nie oznacza automatycznie Continuous. Sprawdź czasownik: know, understand, seem, belong, need, prefer zostają w Simple. think i have mają też znaczenie czynności (I'm thinking about it, I'm having lunch) — wtedy Continuous jest w porządku.",
+    "every summer, always albo usually to jeszcze nie gwarancja Present Simple. Jeśli w zdaniu jest zakończony okres (when I was little, in primary school), nawyk idzie w Past Simple albo used to.",
+    "W rozprawce i artykule zestaw Simple z Continuous, żeby pokazać zakres struktur: Most teenagers spend hours online, but more and more of them are now taking digital detox breaks."
   ]
 }

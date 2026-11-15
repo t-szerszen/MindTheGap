@@ -1,0 +1,84 @@
+[
+  {
+    "criterion": "task",
+    "max": 5,
+    "items": [
+      {
+        "text_pl": "Wstęp ma jasną tezę, która zapowiada rozwinięcie: przy „za i przeciw” obie strony, przy opinii twoje stanowisko (nie tylko to, co myślą inni).",
+        "forms": ["essay"]
+      },
+      {
+        "text_pl": "Artykuł ma tytuł, a wstęp przyciąga uwagę (pytanie, krótka historia, zaskakujący fakt) i od razu prowadzi do tematu.",
+        "forms": ["article"]
+      },
+      {
+        "text_pl": "We wstępie jest cel listu, a zwroty na początku i na końcu pasują do adresata.",
+        "forms": ["formal-letter"]
+      },
+      {
+        "text_pl": "Pierwszy element tematu jest rozwinięty: argument, wyjaśnienie i przykład, a nie sama lista."
+      },
+      { "text_pl": "Drugi element tematu tak samo: rozwinięty, ze szczegółami albo przykładem." },
+      {
+        "text_pl": "Zakończenie pasuje do tezy i do treści i nie powtarza wstępu prawie tymi samymi słowami."
+      },
+      { "text_pl": "Żaden fragment nie odbiega od tematu." },
+      {
+        "text_pl": "Widać plan: wstęp, rozwinięcie i zakończenie w sensownych proporcjach, a akapity zaczynają się tam, gdzie zmienia się myśl."
+      },
+      {
+        "text_pl": "Tekst ma 180–280 wyrazów (polecenie mówi 200–250; poniżej 160 liczy się tylko zgodność z poleceniem)."
+      }
+    ]
+  },
+  {
+    "criterion": "coherence",
+    "max": 2,
+    "items": [
+      {
+        "text_pl": "Akapity i zdania łączą się ze sobą: używasz łączników (however, what is more, as a result) tam, gdzie zmienia się kierunek myśli."
+      },
+      { "text_pl": "Nie skaczesz bez powodu między czasami." },
+      {
+        "text_pl": "Słowa this, it, they zawsze odnoszą się do czegoś, co już padło wcześniej."
+      },
+      {
+        "text_pl": "Każdy argument ma sens bez dopowiadania sobie brakującego kroku w rozumowaniu."
+      }
+    ]
+  },
+  {
+    "criterion": "range",
+    "max": 3,
+    "items": [
+      {
+        "text_pl": "Zamiast nice, good, bad, interesting używasz słów typowych dla tematu."
+      },
+      {
+        "text_pl": "Są naturalne kolokacje i zwroty na poziomie B2 lub wyżej, np. have a significant impact on, pose a threat to."
+      },
+      {
+        "text_pl": "Są różne struktury tam, gdzie pasują: zdania warunkowe, strona bierna, zdania względne, imiesłowy, inwersja."
+      },
+      {
+        "text_pl": "Styl jest jednolity: formalny w rozprawce i liście, bez potocznych wtrąceń."
+      }
+    ]
+  },
+  {
+    "criterion": "accuracy",
+    "max": 3,
+    "items": [
+      {
+        "text_pl": "Sprawdzone formy czasowników: -s w 3. osobie, czasy, nieregularne V2 i V3."
+      },
+      {
+        "text_pl": "Sprawdzone przedimki i przyimki (a / the, depend on, interested in)."
+      },
+      {
+        "text_pl": "Sprawdzona pisownia i interpunkcja, bez skrótów typu thx albo u."
+      },
+      { "text_pl": "W tekście nie ma polskich słów." }
+    ]
+  }
+]

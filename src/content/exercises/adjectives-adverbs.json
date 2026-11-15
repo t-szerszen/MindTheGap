@@ -1,0 +1,768 @@
+[
+  {
+    "id": "adj-phone-thinner",
+    "type": "gap-fill",
+    "sentence": "The new model is much ___ (thin) than my old phone, so it fits easily into any pocket.",
+    "correct": ["thinner"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "much … than my old phone — porównujesz dwa telefony, a much mówi, że różnica jest duża. Potrzebny stopień wyższy."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "thin ma jedną sylabę i kończy się na jedną samogłoskę + jedną spółgłoskę (i + n). Wtedy podwajasz ostatnią literę: thinner."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie: thiner ani more thin. Jednosylabowe przymiotniki dostają -er."
+      }
+    ],
+    "tags": ["adjectives-adverbs"],
+    "difficulty": 1
+  },
+  {
+    "id": "adj-concert-worst",
+    "type": "gap-fill",
+    "sentence": "That was by far ___ (bad) concert I've ever been to — the sound was awful and the band came on an hour late.",
+    "correct": ["the worst"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "by far i I've ever been to — porównujesz ten koncert ze wszystkimi, na których byłeś. To stopień najwyższy."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "bad jest nieregularny: bad → worse → worst. Przed stopniem najwyższym stoi the: the worst."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie: the baddest ani the most bad. by far stoi przed the, więc the musisz dopisać sam."
+      }
+    ],
+    "tags": ["adjectives-adverbs"],
+    "difficulty": 1
+  },
+  {
+    "id": "adj-bike-more-careful",
+    "type": "gap-fill",
+    "sentence": "After your accident last month, you'll have to be a lot ___ (careful) when you ride your bike to school.",
+    "correct": ["more careful"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "a lot + porównanie z tym, jak jeździłeś przed wypadkiem. Drugiej strony porównania nie trzeba mówić, więc nie ma than, ale to nadal stopień wyższy."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "careful ma dwie sylaby i nie kończy się na -y, więc stopniujesz przez more: more careful."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po be stoi przymiotnik (be careful), więc nie more carefully. Nie: carefuller."
+      }
+    ],
+    "tags": ["adjectives-adverbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "adj-reading-test-easier",
+    "type": "gap-fill",
+    "sentence": "The second half of the reading test was only slightly ___ (easy) than the first, so most of us still didn't finish in time.",
+    "correct": ["easier"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "slightly … than — „nieco bardziej”. slightly, a bit, much i far stoją przed stopniem wyższym."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "easy ma dwie sylaby i kończy się na -y: y zmienia się w i, potem -er → easier."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie: more easy ani easyer. Dwusylabowe na -y biorą -ier, tak jak happier i busier."
+      }
+    ],
+    "tags": ["adjectives-adverbs"],
+    "difficulty": 1
+  },
+  {
+    "id": "adj-cafe-shift-exhausted",
+    "type": "gap-fill",
+    "sentence": "After a ten-hour shift at the café, Maja was too ___ (exhaust) to go out with her friends.",
+    "correct": ["exhausted"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Mówisz, jak Maja się czuje po zmianie. Ona odczuwa zmęczenie, a nie je wywołuje."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Ten, kto czuje → -ed: exhausted (wykończona). too + przymiotnik + to V1 = za bardzo, żeby coś zrobić."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "exhausting opisuje to, co męczy: an exhausting shift. Maja was exhausting znaczyłoby, że to ona wykańcza innych."
+      }
+    ],
+    "tags": ["adjectives-adverbs"],
+    "difficulty": 1
+  },
+  {
+    "id": "adj-film-frightening",
+    "type": "gap-fill",
+    "sentence": "The film was so ___ (frighten) that my little brother spent half of it hiding behind the sofa.",
+    "correct": ["frightening"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Podmiotem jest the film. Film nie czuje strachu, tylko wywołuje go u brata."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "To, co wywołuje uczucie → -ing: frightening (przerażający, straszny)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "frightened mówi, jak ktoś się czuje: my brother was frightened. The film was frightened znaczyłoby, że to film się bał."
+      }
+    ],
+    "tags": ["adjectives-adverbs"],
+    "difficulty": 1
+  },
+  {
+    "id": "adj-spanish-well",
+    "type": "gap-fill",
+    "sentence": "Ola speaks Spanish really ___ (good) because she spent a year at a school in Valencia.",
+    "correct": ["well"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Luka mówi, jak Ola mówi, czyli opisuje czasownik speaks. Do czasownika potrzebujesz przysłówka."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "good to przymiotnik, a jego przysłówek jest nieregularny: good → well."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "speaks Spanish really good usłyszysz w potocznym amerykańskim, ale na maturze to błąd. Zwróć też uwagę na szyk: przysłówek stoi po dopełnieniu (speaks Spanish well), nie między speaks a Spanish."
+      }
+    ],
+    "tags": ["adjectives-adverbs"],
+    "difficulty": 1
+  },
+  {
+    "id": "adj-office-further",
+    "type": "gap-fill",
+    "sentence": "For ___ (far) information about the summer course, please contact the school office.",
+    "correct": ["further"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "information nie ma tu nic wspólnego z odległością. Chodzi o informacje dodatkowe, ponad to, co już jest w ogłoszeniu."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "far ma dwa stopnie wyższe: farther i further. O odległości mówisz jednym albo drugim, ale w znaczeniu „dodatkowy, dalszy” pasuje tylko further."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie: farer ani more far. far stopniuje się nieregularnie."
+      }
+    ],
+    "tags": ["adjectives-adverbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "adj-scrolling-later",
+    "type": "gap-fill",
+    "sentence": "I really should stop scrolling at night. ___ (late / I / go) to bed, the more tired I feel the next morning.",
+    "correct": ["The later I go"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Druga część zaczyna się od the more tired: im…, tym… Pierwsza część musi mieć ten sam układ."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "the + stopień wyższy + podmiot + czasownik, przecinek, i drugi raz the + stopień wyższy: The later I go to bed, the more tired I feel."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "late → later (kończy się na -e, więc dodajesz tylko -r). go zostaje w Present Simple, bo to ogólna prawidłowość, a nie jedna noc."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie: The more late I go ani Later I go bez the. Polskie „im” i „tym” nie przypominają the, dlatego łatwo je zgubić."
+      }
+    ],
+    "tags": ["adjectives-adverbs"],
+    "difficulty": 3
+  },
+  {
+    "id": "adj-regional-final-happiest",
+    "type": "gap-fill",
+    "sentence": "The day our team won the regional final was ___ (one / happy / day) of my life.",
+    "correct": ["one of the happiest days"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "of my life — porównujesz ten dzień ze wszystkimi dniami w życiu. To stopień najwyższy."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "one of the + stopień najwyższy + rzeczownik w liczbie mnogiej: jeden z najszczęśliwszych dni, czyli jeden z wielu."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "happy → happiest (y zmienia się w i, potem -est), day → days. Razem 5 wyrazów, czyli dokładnie limit."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie: one of the happiest day. Po one of zawsze stoi liczba mnoga, bo wybierasz jeden z wielu."
+      }
+    ],
+    "tags": ["adjectives-adverbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "adj-train-cheaper-driving",
+    "type": "gap-fill",
+    "sentence": "Taking the train to Wrocław is ___ (far / cheap / drive) there, especially if you book your ticket early.",
+    "correct": ["far cheaper than driving"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Porównujesz dwa sposoby podróży, a far wzmacnia różnicę: dużo tańszy."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "far + stopień wyższy + than. Po than stoi druga czynność w tej samej formie co pierwsza: Taking the train… than driving."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "cheap → cheaper (jedna sylaba, -er). drive → driving: e odpada przed -ing."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie: far more cheap, very cheaper ani than drive."
+      }
+    ],
+    "tags": ["adjectives-adverbs", "gerund-infinitive"],
+    "difficulty": 2
+  },
+  {
+    "id": "adj-bus-as-fast",
+    "type": "gap-fill",
+    "sentence": "Kuba ran ___ (fast / he / can), but the bus pulled away just before he reached the stop.",
+    "correct": ["as fast as he could"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Kuba biegł najszybciej, jak umiał. Po polsku „najszybciej, jak”, po angielsku as … as + podmiot + can / could."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "fast to przymiotnik i przysłówek naraz (ran fast), bez -ly. Między as i as stoi forma podstawowa, bez -er."
+      },
+      {
+        "label_pl": "czas",
+        "text_pl": "ran i pulled away to przeszłość, więc can przechodzi w could: as fast as he could."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie: as faster as, as fast as he can (zły czas) ani fastly (takiego słowa nie ma)."
+      }
+    ],
+    "tags": ["adjectives-adverbs"],
+    "difficulty": 3
+  },
+  {
+    "id": "adj-birthday-gifts-order",
+    "type": "choice",
+    "text": "For her eighteenth birthday, Ania got a ___ from her grandparents, and her parents gave her a pair of ___ for the mountain trip she was planning.",
+    "gaps": [
+      {
+        "options": [
+          "beautiful old Swiss watch",
+          "Swiss beautiful old watch",
+          "old beautiful Swiss watch",
+          "beautiful Swiss old watch"
+        ],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "kolejność",
+            "text_pl": "Opinia stoi najdalej od rzeczownika, bo to twoje zdanie, a nie fakt: beautiful na początku."
+          },
+          {
+            "label_pl": "reszta",
+            "text_pl": "Potem fakty, coraz bardziej stałe: wiek (old), pochodzenie (Swiss), a na końcu rzeczownik."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Po polsku szyk jest luźniejszy i „stary piękny zegarek” też ujdzie. Po angielsku zła kolejność od razu brzmi obco."
+          }
+        ]
+      },
+      {
+        "options": [
+          "lovely new leather walking boots",
+          "new lovely leather walking boots",
+          "lovely walking new leather boots",
+          "leather lovely new walking boots"
+        ],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "cel",
+            "text_pl": "walking mówi, do czego służą buty. To prawie część nazwy (walking boots = buty trekkingowe), więc stoi tuż przy rzeczowniku."
+          },
+          {
+            "label_pl": "reszta",
+            "text_pl": "Przed nim materiał (leather), wcześniej wiek (new), a na samym początku opinia (lovely)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Nie rozdzielaj walking i boots. Jeśli odsuniesz przymiotnik celu od rzeczownika, znika znaczenie „buty do chodzenia”."
+          }
+        ]
+      }
+    ],
+    "tags": ["adjectives-adverbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "adj-climb-steep-amazing",
+    "type": "choice",
+    "text": "The path to the top was ___ steep, and we had to stop for a rest every few minutes. But when we finally got there, the view was ___ amazing.",
+    "gaps": [
+      {
+        "options": ["very", "absolutely", "completely", "utterly"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "steep (stromy) to zwykły przymiotnik stopniowalny: ścieżka może być trochę, bardzo albo strasznie stroma."
+          },
+          {
+            "label_pl": "wybór",
+            "text_pl": "Przy takich przymiotnikach stoi very (albo extremely, really)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "absolutely, completely i utterly znaczą „całkowicie”. Pasują do słów, które już są skrajne albo absolutne (absolutely amazing, completely full), a nie do steep."
+          }
+        ]
+      },
+      {
+        "options": ["absolutely", "very", "fairly", "slightly"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "amazing już znaczy „niesamowity”, czyli koniec skali. Nie da się być trochę niesamowitym."
+          },
+          {
+            "label_pl": "wybór",
+            "text_pl": "Skrajne przymiotniki wzmacniasz przez absolutely (albo really)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "very, fairly i slightly mierzą stopień cechy, a amazing nie ma stopni. very amazing to typowy błąd."
+          }
+        ]
+      }
+    ],
+    "tags": ["adjectives-adverbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "adj-hostel-fairly-quite",
+    "type": "choice",
+    "text": "The hostel was ___ good — nothing special, but clean and close to the beach. Getting a bed there in August, though, is ___ impossible unless you book months in advance.",
+    "gaps": [
+      {
+        "options": ["fairly", "absolutely", "extremely", "by far"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "nothing special, but clean… — hostel był w porządku, ale bez zachwytu. Potrzebujesz słowa, które osłabia good."
+          },
+          {
+            "label_pl": "wybór",
+            "text_pl": "fairly good = całkiem niezły, w sam raz. W brytyjskim tak samo zadziałałoby quite good."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "extremely good kłóci się z nothing special. absolutely nie łączy się ze zwykłym good, a by far wzmacnia stopień najwyższy (by far the best)."
+          }
+        ]
+      },
+      {
+        "options": ["quite", "very", "fairly", "a bit"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "impossible to przymiotnik absolutny: coś jest możliwe albo nie. Nie ma stopni."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "quite przy zwykłym przymiotniku osłabia (quite good = dość dobry), ale przy absolutnym albo skrajnym znaczy „całkowicie”: quite impossible = zupełnie niemożliwe."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "very, fairly i a bit mierzą stopień, więc z impossible się nie łączą."
+          }
+        ]
+      }
+    ],
+    "tags": ["adjectives-adverbs"],
+    "difficulty": 3
+  },
+  {
+    "id": "adj-flat-much-bigger",
+    "type": "choice",
+    "text": "Our new flat is ___ bigger than the old one, so my sister and I finally have a room each.",
+    "gaps": [
+      {
+        "options": ["much", "very", "more", "most"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "bigger than — stopień wyższy. Luka mówi, jak duża jest różnica."
+          },
+          {
+            "label_pl": "wybór",
+            "text_pl": "Stopień wyższy wzmacniasz przez much, far, a lot (dużo) albo osłabiasz przez a bit, slightly (trochę)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "very stoi tylko przy zwykłym przymiotniku (very big). more bigger to podwójny stopień wyższy, a most to stopień najwyższy."
+          }
+        ]
+      }
+    ],
+    "tags": ["adjectives-adverbs"],
+    "difficulty": 1
+  },
+  {
+    "id": "adj-cousin-german-perfectly",
+    "type": "choice",
+    "text": "My cousin ___, even though she has never lived in a German-speaking country.",
+    "gaps": [
+      {
+        "options": [
+          "speaks German perfectly",
+          "speaks perfectly German",
+          "speaks German perfect",
+          "perfect speaks German"
+        ],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "szyk",
+            "text_pl": "Czasownik i jego dopełnienie (speaks German) trzymają się razem. Przysłówek sposobu stoi za dopełnieniem."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Opisujesz, jak kuzynka mówi, więc potrzebny przysłówek perfectly, a nie przymiotnik perfect."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Po polsku „mówi perfekcyjnie po niemiecku”. Ten szyk przeniesiony na angielski daje błąd speaks perfectly German. Poprawne byłoby też speaks perfect German (przymiotnik przy rzeczowniku German), ale tej opcji nie ma."
+          }
+        ]
+      }
+    ],
+    "tags": ["adjectives-adverbs"],
+    "difficulty": 1
+  },
+  {
+    "id": "adj-exams-lately-hard-hardly",
+    "type": "choice",
+    "text": "I've been feeling really tired ___. I've been working ___ for my exams, and now I can ___ keep my eyes open in lessons.",
+    "gaps": [
+      {
+        "options": ["lately", "late", "later", "latest"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "I've been feeling — od jakiegoś czasu aż do teraz. Potrzebujesz słowa „ostatnio”."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "lately = ostatnio, w ostatnim czasie. late = późno."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "later to „później”, a latest to „najnowszy, najpóźniejszy”. Żadne nie opisuje okresu, który trwa do teraz."
+          }
+        ]
+      },
+      {
+        "options": ["hard", "hardly", "heavily", "hardest"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "working ___ for my exams — jak pracuję? Opisujesz czasownik, więc przysłówek."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Przysłówek od hard to też hard: work hard = ciężko pracować."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "hardly znaczy „prawie wcale” i stoi przed głównym czasownikiem (I've hardly been working), więc tu nie pasuje ani znaczeniem, ani miejscem."
+          }
+        ]
+      },
+      {
+        "options": ["hardly", "hard", "nearly", "near"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Zmęczenie i dużo nauki, więc na lekcjach oczy same się zamykają. Potrzebujesz słowa „ledwo”."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "can hardly + V1 = ledwo mogę, prawie nie mogę. hardly stoi po pierwszym posiłkowym, przed głównym czasownikiem."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "nearly to „prawie, o mało co”, a near to „blisko”. hard nie pasuje, bo nie chodzi o wysiłek."
+          }
+        ]
+      }
+    ],
+    "tags": ["adjectives-adverbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "adj-sauce-tasted",
+    "type": "choice",
+    "text": "Before serving dinner, Dad tasted the sauce ___ and added a pinch of salt. In the end, it tasted ___, and everyone asked for more.",
+    "gaps": [
+      {
+        "options": ["carefully", "careful", "care", "caring"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Dad tasted the sauce — tata coś robi: próbuje sosu. Po taste stoi dopełnienie, więc to zwykły czasownik czynności."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Czynność opisujesz przysłówkiem: carefully (uważnie)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "careful to przymiotnik, care to rzeczownik albo czasownik, a caring znaczy „troskliwy”."
+          }
+        ]
+      },
+      {
+        "options": ["delicious", "deliciously", "deliciousness", "delicacy"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "it tasted — tu sos nic nie robi. taste znaczy „smakować jakoś” i łączy podmiot z jego cechą."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Po czasownikach łączących (be, look, sound, smell, taste, feel, seem) stoi przymiotnik, bo opisuje podmiot: it tasted delicious."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Po polsku mówisz „smakował pysznie”, z przysłówkiem. Po angielsku tasted deliciously to błąd."
+          }
+        ]
+      }
+    ],
+    "tags": ["adjectives-adverbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "adj-mark-taller-than",
+    "type": "key-word-transformation",
+    "source": "Nobody in our class is as tall as Mark.",
+    "keyWord": "THAN",
+    "target": "Mark is ___ else in our class.",
+    "correct": [
+      "taller than anyone",
+      "taller than anybody",
+      "taller than everyone",
+      "taller than everybody"
+    ],
+    "steps": [
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Nobody is as tall as Mark = nikt nie dorównuje Markowi wzrostem. Czyli Mark jest wyższy od każdego innego."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Odwracasz zdanie: Mark + stopień wyższy + than + anyone else (albo everyone else)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "tall → taller. else stoi już po luce, więc wpisujesz taller than anyone."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie: more tall ani taller then. then (potem) i than (niż) różnią się jedną literą."
+      }
+    ],
+    "tags": ["adjectives-adverbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "adj-office-tower-tallest",
+    "type": "key-word-transformation",
+    "source": "No other building in the city is as tall as the new office tower.",
+    "keyWord": "TALLEST",
+    "target": "The new office tower is ___ building in the city.",
+    "correct": ["the tallest"],
+    "steps": [
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Żaden inny budynek nie jest tak wysoki, czyli wieżowiec wygrywa z całą grupą. To stopień najwyższy."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "the + stopień najwyższy + rzeczownik + in + miejsce: the tallest building in the city."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Bez the forma jest niepełna: is tallest building to błąd. Przy mieście, kraju czy klasie po stopniu najwyższym stoi in, nie of."
+      }
+    ],
+    "tags": ["adjectives-adverbs"],
+    "difficulty": 1
+  },
+  {
+    "id": "adj-tickets-the-longer",
+    "type": "key-word-transformation",
+    "source": "If we wait any longer, the tickets will get more expensive.",
+    "keyWord": "MORE",
+    "target": "The longer we wait, ___ will get.",
+    "correct": ["the more expensive the tickets"],
+    "steps": [
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Im dłużej czekamy, tym drożej. Jedna zmiana idzie w parze z drugą."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "The longer we wait już stoi. Druga część ma ten sam układ: the + stopień wyższy + podmiot + czasownik."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "expensive ma trzy sylaby → the more expensive. Potem podmiot the tickets, a will get stoi już po luce. Razem 5 wyrazów."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie: more expensive the tickets bez the ani the tickets the more expensive. Szyk jest stały: najpierw the + stopień wyższy, potem podmiot."
+      }
+    ],
+    "tags": ["adjectives-adverbs"],
+    "difficulty": 3
+  },
+  {
+    "id": "adj-festival-by-far",
+    "type": "key-word-transformation",
+    "source": "None of the other films I saw at the festival was nearly as good as this one.",
+    "keyWord": "FAR",
+    "target": "This was ___ film I saw at the festival.",
+    "correct": ["by far the best", "far and away the best"],
+    "steps": [
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Żaden inny film nie był nawet blisko tak dobry. Czyli ten był najlepszy z dużą przewagą."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "by far + the + stopień najwyższy = zdecydowanie najlepszy. To samo znaczy idiom far and away the best."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "good → better → best. by far stoi przed the: by far the best."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie: the by far best ani far better. far + stopień wyższy porównuje dwie rzeczy, a tu film wygrywa z całym festiwalem."
+      }
+    ],
+    "tags": ["adjectives-adverbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "adj-sister-old-enough",
+    "type": "key-word-transformation",
+    "source": "My little sister is too young to stay at home on her own.",
+    "keyWord": "ENOUGH",
+    "target": "My little sister isn't ___ at home on her own.",
+    "correct": ["old enough to stay"],
+    "steps": [
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "too young = za młoda. To samo, ale od drugiej strony: nie dość duża, nie dość stara."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "przymiotnik + enough + to V1. enough stoi PO przymiotniku."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Przeciwieństwo young to old, a not jest już w isn't: old enough to stay."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po polsku „wystarczająco duża”, dlatego kusi enough old. To błąd. Przed rzeczownikiem jest odwrotnie: enough money, enough time."
+      }
+    ],
+    "tags": ["adjectives-adverbs"],
+    "difficulty": 2,
+    "accepted": ["big enough to stay"]
+  },
+  {
+    "id": "adj-piano-nearly-as-well",
+    "type": "key-word-transformation",
+    "source": "Ola plays the piano much better than her brother.",
+    "keyWord": "NEARLY",
+    "target": "Ola's brother doesn't play the piano ___ she does.",
+    "correct": ["nearly as well as", "nearly so well as"],
+    "steps": [
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "much better = dużo lepiej. Odwracasz porównanie: brat gra dużo gorzej, czyli nawet w przybliżeniu nie tak dobrze."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "not nearly as … as = dużo mniej niż. not jest już w doesn't, nearly stoi przed pierwszym as."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "better to stopień wyższy od well (przysłówek, bo opisuje play). Między as i as stoi forma podstawowa: as well as."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie: nearly as good as (play potrzebuje przysłówka) ani nearly as better as (między as i as nie ma stopnia wyższego)."
+      }
+    ],
+    "tags": ["adjectives-adverbs"],
+    "difficulty": 3
+  }
+]

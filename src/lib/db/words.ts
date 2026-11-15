@@ -18,6 +18,9 @@ import type { Direction } from '../translate'
 import { markActivity } from './activity'
 import { getDb } from './firebase'
 
+// skąd przyszła fiszka; stare dokumenty nie mają tego pola
+export type WordSource = 'translator' | 'topic' | 'own'
+
 export type Word = CardState & {
   id: string
   term: string
@@ -25,6 +28,7 @@ export type Word = CardState & {
   direction: Direction
   example?: string
   tags: string[]
+  source?: WordSource
   createdAt: Date
 }
 
@@ -34,7 +38,10 @@ export type WordInput = {
   direction: Direction
   example?: string
   tags: string[]
+  source?: WordSource
 }
+
+const sources: WordSource[] = ['translator', 'topic', 'own']
 
 const toDate = (v: unknown) => (v instanceof Timestamp ? v.toDate() : new Date(0))
 const num = (v: unknown, fallback = 0) => (typeof v === 'number' ? v : fallback)
@@ -55,6 +62,7 @@ const converter: FirestoreDataConverter<Word> = {
       direction: d.direction === 'en-pl' ? 'en-pl' : 'pl-en',
       example: typeof d.example === 'string' && d.example ? d.example : undefined,
       tags: Array.isArray(d.tags) ? d.tags.filter((t: unknown) => typeof t === 'string') : [],
+      source: sources.includes(d.source) ? d.source : undefined,
       createdAt: toDate(d.createdAt),
       box: num(d.box, 1),
       dueAt: toDate(d.dueAt),
@@ -125,6 +133,7 @@ export function addWord(uid: string, input: WordInput, now = new Date()) {
     tags: input.tags,
     createdAt: Timestamp.fromDate(now),
     ...(input.example?.trim() ? { example: input.example.trim() } : {}),
+    ...(input.source ? { source: input.source } : {}),
     ...stateFields(newCard(now)),
   }
   setDoc(ref, data).catch(() => {})

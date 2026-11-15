@@ -1,49 +1,65 @@
+import { use } from 'react'
 import { z } from 'zod'
 import {
+  checklistSchema,
   exerciseFileSchema,
+  grammarTabsSchema,
+  grammarTopicSchema,
+  mockSetSchema,
   phraseSetSchema,
+  readingSetSchema,
   tenseSchema,
   topicSchema,
+  writingTaskSchema,
+  type Checklist,
   type Exercise,
+  type GrammarTab,
+  type GrammarTopic,
+  type MockSet,
   type PhraseSet,
+  type ReadingSet,
   type Tense,
   type Topic,
+  type WritingTask,
 } from '../../content/schema'
 
-// jedyne miejsce, które dotyka plików z treścią; komponenty biorą dane stąd
+// jedyne miejsce, które dotyka plików z treścią; komponenty biorą dane stąd.
+// Czasy są małe i potrzebne prawie wszędzie, więc idą od razu. Reszta (tematy, zestawy, ćwiczenia)
+// ładuje się dopiero na stronie, która jej potrzebuje: każdy rodzaj to osobny kawałek bundla.
 const tenseFiles = import.meta.glob('../../content/tenses/*.json', {
   eager: true,
   import: 'default',
 })
-const topicFiles = import.meta.glob('../../content/topics/*.json', {
-  eager: true,
-  import: 'default',
-})
-const phraseFiles = import.meta.glob('../../content/phrases/*.json', {
-  eager: true,
-  import: 'default',
-})
-const exerciseFiles = import.meta.glob('../../content/exercises/*.json', {
-  eager: true,
-  import: 'default',
-})
 
-function parseAll<T>(files: Record<string, unknown>, schema: z.ZodType<T>): T[] {
-  return Object.entries(files).map(([path, data]) => {
-    const r = schema.safeParse(data)
-    // walidator w CI łapie to wcześniej, tu tylko na wszelki wypadek
-    if (!r.success) throw new Error(`${path}\n${z.prettifyError(r.error)}`)
-    return r.data
-  })
+function parse<T>(path: string, data: unknown, schema: z.ZodType<T>): T {
+  const r = schema.safeParse(data)
+  // walidator w CI łapie to wcześniej, tu tylko na wszelki wypadek
+  if (!r.success) throw new Error(`${path}\n${z.prettifyError(r.error)}`)
+  return r.data
+}
+
+type Loader = Record<string, () => Promise<unknown>>
+
+function lazy<T, F>(files: Loader, schema: z.ZodType<F>, finish: (parsed: F[]) => T[]) {
+  let promise: Promise<T[]> | undefined
+  let value: T[] | undefined
+  return {
+    load() {
+      promise ??= Promise.all(
+        Object.entries(files).map(async ([path, load]) => parse(path, await load(), schema)),
+      ).then((parsed) => (value = finish(parsed)))
+      return promise
+    },
+    peek: () => value,
+  }
 }
 
 let tenses: Tense[] | undefined
-let topics: Topic[] | undefined
-let phraseSets: PhraseSet[] | undefined
-let exercises: Exercise[] | undefined
 
 export function getTenses() {
-  tenses ??= parseAll(tenseFiles, tenseSchema).sort((a, b) => a.order - b.order)
+  tenses ??= Object.entries(tenseFiles)
+    .map(([path, data]) => parse(path, data, tenseSchema))
+    .sort((a, b) => a.order - b.order)
   return tenses
 }
 
@@ -51,33 +67,75 @@ export function getTense(id: string) {
   return getTenses().find((t) => t.id === id)
 }
 
-export function getTopics() {
-  topics ??= parseAll(topicFiles, topicSchema).sort((a, b) =>
-    a.title_pl.localeCompare(b.title_pl, 'pl'),
-  )
-  return topics
-}
+const byTitle = <T extends { title_pl: string }>(list: T[]) =>
+  list.sort((a, b) => a.title_pl.localeCompare(b.title_pl, 'pl'))
+const byEnglishTitle = (list: ReadingSet[]) =>
+  list.sort((a, b) => a.title.localeCompare(b.title, 'en'))
 
-export function getTopic(id: string) {
-  return getTopics().find((t) => t.id === id)
-}
+export const topicStore = lazy<Topic, Topic>(
+  import.meta.glob('../../content/topics/*.json', { import: 'default' }),
+  topicSchema,
+  byTitle,
+)
 
-export function getPhraseSets() {
-  phraseSets ??= parseAll(phraseFiles, phraseSetSchema).sort((a, b) =>
-    a.title_pl.localeCompare(b.title_pl, 'pl'),
-  )
-  return phraseSets
-}
+export const phraseSetStore = lazy<PhraseSet, PhraseSet>(
+  import.meta.glob('../../content/phrases/*.json', { import: 'default' }),
+  phraseSetSchema,
+  byTitle,
+)
 
-export function getPhraseSet(id: string) {
-  return getPhraseSets().find((p) => p.id === id)
-}
+export const exerciseStore = lazy<Exercise, Exercise[]>(
+  import.meta.glob('../../content/exercises/*.json', { import: 'default' }),
+  exerciseFileSchema,
+  (files) => files.flat(),
+)
 
-export function getExercises() {
-  exercises ??= parseAll(exerciseFiles, exerciseFileSchema).flat()
-  return exercises
-}
+export const writingStore = lazy<WritingTask, WritingTask[]>(
+  import.meta.glob('../../content/writing/tasks/*.json', { import: 'default' }),
+  z.array(writingTaskSchema),
+  (files) => files.flat(),
+)
 
-export function getExercise(id: string) {
-  return getExercises().find((e) => e.id === id)
-}
+export const checklistStore = lazy<Checklist, Checklist>(
+  import.meta.glob('../../content/writing/checklist.json', { import: 'default' }),
+  checklistSchema,
+  (files) => files,
+)
+
+export const readingStore = lazy<ReadingSet, ReadingSet>(
+  import.meta.glob('../../content/reading/*.json', { import: 'default' }),
+  readingSetSchema,
+  byEnglishTitle,
+)
+
+export const mockStore = lazy<MockSet, MockSet[]>(
+  import.meta.glob('../../content/mocks/*.json', { import: 'default' }),
+  z.array(mockSetSchema),
+  (files) => files.flat(),
+)
+
+// nowe widoki gramatyki; tabs.json to osobny plik z kolejnością przekładek
+export const grammarStore = lazy<GrammarTopic, GrammarTopic>(
+  import.meta.glob(['../../content/grammar/*.json', '!../../content/grammar/tabs.json'], {
+    import: 'default',
+  }),
+  grammarTopicSchema,
+  (files) => files,
+)
+
+export const grammarTabsStore = lazy<GrammarTab, GrammarTab[]>(
+  import.meta.glob('../../content/grammar/tabs.json', { import: 'default' }),
+  grammarTabsSchema,
+  (files) => files.flat(),
+)
+
+// hooki zawieszają komponent do pierwszego załadowania (Suspense w Shell pokazuje „ładuję”)
+export const useTopics = () => use(topicStore.load())
+export const usePhraseSets = () => use(phraseSetStore.load())
+export const useExercises = () => use(exerciseStore.load())
+export const useWritingTasks = () => use(writingStore.load())
+export const useChecklist = () => use(checklistStore.load())[0] ?? []
+export const useReadingSets = () => use(readingStore.load())
+export const useMocks = () => use(mockStore.load())
+export const useGrammarTopics = () => use(grammarStore.load())
+export const useGrammarTabs = () => use(grammarTabsStore.load())

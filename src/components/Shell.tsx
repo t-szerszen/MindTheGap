@@ -1,9 +1,13 @@
+import { Suspense, useEffect, useState } from 'react'
 import { Link, Outlet, useLocation } from 'react-router'
+import { topicHome } from '../features/topics/hub'
 import { pl } from '../i18n/pl'
-import { setPrefs, systemIsDark, usePrefs } from '../features/settings/prefs'
+import { topicStore } from '../lib/content'
 import { Icon, type IconName } from './Icon'
 import { Hl } from './Ink'
 import { Grain } from './Paper'
+import { Loading } from './States'
+import { ThemePill } from './ThemePill'
 
 type Section = {
   id: string
@@ -15,40 +19,87 @@ type Section = {
   also?: string[]
 }
 
-const sections: Section[] = [
-  { id: 'home', to: '/', label: pl.nav.home, icon: 'home', tab: 'tb-y' },
+const home: Section = { id: 'home', to: '/', label: pl.nav.home, icon: 'home', tab: 'tb-y' }
+const translator: Section = {
+  id: 'translator',
+  to: '/translator',
+  label: pl.nav.translator,
+  icon: 'talk',
+  tab: 'tb-p',
+}
+const words: Section = {
+  id: 'words',
+  to: '/words',
+  label: pl.nav.words,
+  icon: 'cards',
+  tab: 'tb-k',
+  also: ['review', 'leeches'],
+}
+const exercises: Section = {
+  id: 'exercises',
+  to: '/exercises',
+  label: pl.nav.exercises,
+  icon: 'pencil',
+  tab: 'tb-m',
+  also: ['writing', 'reading', 'exam'],
+}
+const more: Section = {
+  id: 'more',
+  to: '/more',
+  label: pl.nav.more,
+  icon: 'dots',
+  tab: 'tb-o',
+  also: ['topics', 'phrases'],
+}
+
+const topSections: Section[] = [
+  home,
   { id: 'tenses', to: '/tenses', label: pl.nav.tenses, icon: 'clock', tab: 'tb-b' },
-  { id: 'translator', to: '/translator', label: pl.nav.translator, icon: 'talk', tab: 'tb-p' },
-  {
-    id: 'words',
-    to: '/words',
-    label: pl.nav.words,
-    icon: 'cards',
-    tab: 'tb-pres',
-    also: ['review', 'leeches'],
-  },
-  { id: 'exercises', to: '/exercises', label: pl.nav.exercises, icon: 'pencil', tab: 'tb-m' },
-  {
-    id: 'more',
-    to: '/more',
-    label: pl.nav.more,
-    icon: 'more',
-    tab: 'tb-o',
-    also: ['topics', 'phrases', 'settings'],
-  },
+  { id: 'grammar', to: '/grammar', label: pl.nav.grammar, icon: 'book', tab: 'tb-l' },
+  translator,
+  words,
+  exercises,
+  more,
 ]
 
-function currentSection(pathname: string) {
-  const first = pathname.split('/')[1] ?? ''
+// na telefonie jest miejsce na 6, więc czasy siedzą w gramatyce (podział na górze strony)
+const phoneSections: Section[] = [
+  home,
+  {
+    id: 'grammar',
+    to: '/grammar',
+    label: pl.nav.grammar,
+    icon: 'book',
+    tab: 'tb-b',
+    also: ['tenses'],
+  },
+  translator,
+  words,
+  exercises,
+  more,
+]
+
+function currentSection(list: Section[], pathname: string) {
+  const [, first = '', id] = pathname.split('/')
   if (first === '') return 'home'
-  return sections.find((s) => s.to === `/${first}` || s.also?.includes(first))?.id
+  if (first === 'topics' && id) {
+    const topic = topicStore.peek()?.find((t) => t.id === id)
+    const home = topic && topicHome(topic.category)
+    if (home && home !== 'more') return list.some((s) => s.id === home) ? home : 'grammar'
+  }
+  return list.find((s) => s.to === `/${first}` || s.also?.includes(first))?.id
 }
 
 export function Shell() {
   const { pathname } = useLocation()
-  const active = currentSection(pathname)
-  const { theme } = usePrefs()
-  const dark = theme === 'dark' || (theme === 'system' && systemIsDark())
+  const onTopic = pathname.startsWith('/topics/')
+  // po odświeżeniu na temacie treść jeszcze się ładuje, a od niej zależy podświetlona przekładka
+  const [, setTopicsReady] = useState(false)
+  useEffect(() => {
+    if (onTopic && !topicStore.peek()) void topicStore.load().then(() => setTopicsReady(true))
+  }, [onTopic])
+  const activeTop = currentSection(topSections, pathname)
+  const activePhone = currentSection(phoneSections, pathname)
 
   return (
     <div className="app desk">
@@ -56,13 +107,13 @@ export function Shell() {
         <p className="logo h-m" lang="en">
           Mind the <Hl>Gap</Hl>
         </p>
-        <nav className="toptabs" aria-label={pl.nav.label}>
-          {sections.map((s) => (
+        <nav className="toptabs tight" aria-label={pl.nav.label}>
+          {topSections.map((s) => (
             <Link
               key={s.id}
               to={s.to}
               className={`ttab ${s.tab}`}
-              aria-current={active === s.id ? 'page' : undefined}
+              aria-current={activeTop === s.id ? 'page' : undefined}
             >
               <Icon name={s.icon} size="s" />
               {s.label}
@@ -70,14 +121,7 @@ export function Shell() {
           ))}
         </nav>
         <div className="row" style={{ gap: 4, paddingBottom: 4 }}>
-          <button
-            type="button"
-            className="ibtn"
-            aria-label={pl.theme.switchTo(dark ? pl.theme.dark : pl.theme.light)}
-            onClick={() => setPrefs({ theme: dark ? 'light' : 'dark' })}
-          >
-            <Icon name={dark ? 'sun' : 'moon'} />
-          </button>
+          <ThemePill />
           <Link className="ibtn" to="/settings" aria-label={pl.nav.settings}>
             <Icon name="gear" />
           </Link>
@@ -85,16 +129,19 @@ export function Shell() {
       </header>
 
       <main className="viewport" key={pathname}>
-        <Outlet />
+        {/* treści poza czasami ładują się leniwie, pierwsza wizyta na stronie chwilę czeka */}
+        <Suspense fallback={<Loading />}>
+          <Outlet />
+        </Suspense>
       </main>
 
       <nav className="tabbar" aria-label={pl.nav.label}>
-        {sections.map((s) => (
+        {phoneSections.map((s) => (
           <Link
             key={s.id}
             to={s.to}
             className={`tab ${s.tab}`}
-            aria-current={active === s.id ? 'page' : undefined}
+            aria-current={activePhone === s.id ? 'page' : undefined}
           >
             <Icon name={s.icon} />
             <span>{s.label}</span>

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { blockSchema, gapFillSchema, timelineMarkSchema } from './schema'
+import { blockSchema, gapFillSchema, grammarTopicSchema, timelineMarkSchema } from './schema'
 
 const gap = {
   id: 'pp-1',
@@ -66,5 +66,65 @@ describe('blockSchema', () => {
 
   it('nieznany typ bloku nie przechodzi', () => {
     expect(blockSchema.safeParse({ type: 'video', url: 'x' }).success).toBe(false)
+  })
+})
+
+describe('grammarTopicSchema', () => {
+  const sub = (id: string) => ({
+    id,
+    label: id,
+    name: 'First conditional',
+    desc_pl: 'realna sytuacja',
+    time_pl: 'przyszłość',
+    scale: { left: 'realne', right: 'nierealne', ticks: ['a', 'b', 'c', 'd'], on: [1], ring: 1 },
+    formula: [{ key: 'warunek', text: '[k:If] + [v:Present Simple]' }],
+    usage_pl: ['ostrzeżenia — [k:unless]'],
+    signals: ['if'],
+    examples: [{ en: '[k:If] it [v:rains], we [a:will] [v:stay].', pl: 'Jeśli będzie padać…' }],
+    steps: ['a', 'b', '[k:If] + [v:Present Simple]'],
+  })
+  const topic = {
+    id: 'conditionals',
+    title_pl: 'Tryby warunkowe',
+    note_pl: 'x',
+    chooseTitle_pl: 'Jak wybrać tryb?',
+    defaultSubtype: '1',
+    practiceTag: 'conditionals',
+    theoryTopic: 'conditionals',
+    subtypes: [sub('0'), sub('1')],
+    cheat: {
+      title_pl: 'Ściąga',
+      headers: ['typ', 'warunek', 'skutek'],
+      rows: [
+        ['0', '[k:If] + Present S.', 'Present S.'],
+        ['1', '[k:If] + Present S.', '[a:will] + [v:V1]'],
+      ],
+    },
+  }
+
+  it('przepuszcza poprawny temat', () => {
+    expect(grammarTopicSchema.safeParse(topic).success).toBe(true)
+  })
+
+  it('odrzuca złą notację, brakujący podtyp i obcy wiersz ściągi', () => {
+    const bad = { ...sub('1'), usage_pl: ['[x:if]'] }
+    expect(grammarTopicSchema.safeParse({ ...topic, subtypes: [sub('0'), bad] }).success).toBe(
+      false,
+    )
+    expect(grammarTopicSchema.safeParse({ ...topic, defaultSubtype: '3' }).success).toBe(false)
+    const rows = [...topic.cheat.rows, ['mix', 'a', 'b']]
+    expect(
+      grammarTopicSchema.safeParse({ ...topic, cheat: { ...topic.cheat, rows } }).success,
+    ).toBe(false)
+  })
+
+  it('skala ma cztery punkty, a pierścień tylko na jednym z nich', () => {
+    const s = sub('1')
+    const three = { ...s, scale: { ...s.scale, ticks: ['a', 'b', 'c'] } }
+    const ring = { ...s, scale: { ...s.scale, ring: 4 } }
+    for (const x of [three, ring])
+      expect(grammarTopicSchema.safeParse({ ...topic, subtypes: [sub('0'), x] }).success).toBe(
+        false,
+      )
   })
 })

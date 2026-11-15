@@ -7,13 +7,36 @@ export type Shelf = {
   sets: PhraseSet['category'][]
 }
 
+// gramatyka i czasy mają swoje przekładki, tu zostaje słownictwo, pisanie i matura
 export const shelves: Shelf[] = [
-  { id: 'grammar', topics: ['grammar'], sets: [] },
-  { id: 'modals', topics: ['modals'], sets: [] },
   { id: 'idioms', topics: [], sets: ['idioms'] },
+  { id: 'phrasal', topics: ['phrasal-verbs'], sets: ['phrasal-verbs'] },
   { id: 'linkers', topics: [], sets: ['linkers'] },
-  { id: 'prepositions', topics: ['prepositions'], sets: [] },
-  { id: 'essay', topics: ['essay'], sets: ['essay-phrases'] },
-  { id: 'phrasal', topics: ['phrasal-verbs'], sets: [] },
-  { id: 'other', topics: ['other'], sets: ['collocations'] },
+  {
+    id: 'writing',
+    topics: ['writing'],
+    sets: ['essay-phrases', 'article-phrases', 'letter-phrases'],
+  },
+  { id: 'vocabulary', topics: ['vocabulary'], sets: ['collocations', 'word-families', 'register'] },
+  { id: 'words', topics: [], sets: ['false-friends', 'confused-words'] },
+  { id: 'exam', topics: ['exam'], sets: [] },
+  { id: 'other', topics: ['other'], sets: [] },
 ]
+
+// gdzie „mieszka” temat: od tego zależy podświetlona przekładka i link wstecz
+export function topicHome(category: Topic['category']): 'grammar' | 'tenses' | 'more' {
+  if (category === 'grammar' || category === 'modals' || category === 'prepositions')
+    return 'grammar'
+  if (category === 'tenses') return 'tenses'
+  return 'more'
+}
+
+// grupy w ćwiczeniach i postępie: słownictwo i matura osobno, bo to nie gramatyka
+export type PracticeGroup = 'tenses' | 'grammar' | 'vocabulary' | 'exam'
+export const practiceGroups: PracticeGroup[] = ['tenses', 'grammar', 'vocabulary', 'exam']
+
+export function practiceGroup(category: Topic['category']): PracticeGroup {
+  const home = topicHome(category)
+  if (home !== 'more') return home
+  return category === 'exam' || category === 'writing' ? 'exam' : 'vocabulary'
+}

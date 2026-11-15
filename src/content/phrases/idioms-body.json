@@ -1,0 +1,282 @@
+{
+  "id": "idioms-body",
+  "category": "idioms",
+  "title_pl": "Idiomy: części ciała",
+  "items": [
+    {
+      "en": "keep an eye on sb/sth",
+      "pl": "mieć oko na kogoś/coś, pilnować",
+      "meaning_pl": "pilnować czegoś albo obserwować, czy nic się nie zmienia. Nie myl z keep an eye out for sth, czyli wypatrywać czegoś.",
+      "example": {
+        "en": "Could you keep an eye on my bag while I buy a ticket?",
+        "pl": "Możesz popilnować mojej torby, kiedy kupię bilet?"
+      },
+      "register": "neutral",
+      "tags": ["oko", "pilnowanie"]
+    },
+    {
+      "en": "turn a blind eye (to sth)",
+      "pl": "przymykać oko (na coś)",
+      "meaning_pl": "udawać, że nie widzisz czegoś złego, np. łamania zasad. Po polsku oko się przymyka, a po angielsku dosłownie zwraca się w tę stronę ślepe oko.",
+      "example": {
+        "en": "Some teachers turn a blind eye to students copying homework.",
+        "pl": "Niektórzy nauczyciele przymykają oko na to, że uczniowie odpisują prace domowe."
+      },
+      "register": "neutral",
+      "tags": ["oko", "zasady", "rozprawka"]
+    },
+    {
+      "en": "catch sb's eye",
+      "pl": "przyciągnąć czyjś wzrok, zwrócić czyjąś uwagę",
+      "meaning_pl": "dwa użycia: coś przyciąga twój wzrok (a dress caught my eye) albo próbujesz, żeby ktoś cię zauważył (catch the waiter's eye). Stąd przymiotnik eye-catching = przyciągający wzrok.",
+      "example": {
+        "en": "I tried to catch the waiter's eye, but he was too busy.",
+        "pl": "Próbowałem zwrócić na siebie uwagę kelnera, ale był zbyt zajęty."
+      },
+      "register": "neutral",
+      "tags": ["oko", "uwaga"]
+    },
+    {
+      "en": "raise (a few) eyebrows",
+      "pl": "wywołać zdziwienie albo dezaprobatę",
+      "meaning_pl": "coś zaskakuje ludzi albo budzi ich sprzeciw; brwi unosisz właśnie wtedy, gdy się dziwisz. Czasownik to raise (ktoś/coś unosi), nie rise. Częste w artykułach i wiadomościach.",
+      "example": {
+        "en": "The decision to close the school library raised a few eyebrows among parents.",
+        "pl": "Decyzja o zamknięciu szkolnej biblioteki wywołała zdziwienie wśród rodziców."
+      },
+      "register": "neutral",
+      "tags": ["brwi", "zaskoczenie", "artykuł"]
+    },
+    {
+      "en": "be all ears",
+      "pl": "zamieniać się w słuch",
+      "meaning_pl": "jesteś gotowy słuchać z dużym zainteresowaniem; zwykle w formie I'm all ears, kiedy ktoś zapowiada nowinę.",
+      "example": {
+        "en": "'I've got some news about the school trip.' 'Go on, I'm all ears!'",
+        "pl": "– Mam wieści o wycieczce szkolnej. – No mów, zamieniam się w słuch!"
+      },
+      "register": "informal",
+      "tags": ["ucho", "rozmowa"]
+    },
+    {
+      "en": "off the top of your head",
+      "pl": "tak z głowy, z pamięci, bez sprawdzania",
+      "meaning_pl": "mówisz coś od razu, bez sprawdzania i dłuższego namysłu. Często z can't: z pamięci nie powiem, muszę sprawdzić.",
+      "example": {
+        "en": "I can't tell you the exact date off the top of my head, but I can check.",
+        "pl": "Nie podam ci dokładnej daty z pamięci, ale mogę sprawdzić."
+      },
+      "register": "informal",
+      "tags": ["głowa", "pamięć"]
+    },
+    {
+      "en": "bury your head in the sand",
+      "pl": "chować głowę w piasek",
+      "meaning_pl": "ignorować problem w nadziei, że sam zniknie. Obraz ten sam co po polsku, tylko po angielsku głowę się zakopuje (bury).",
+      "example": {
+        "en": "We can't keep burying our heads in the sand about climate change.",
+        "pl": "Nie możemy dalej chować głowy w piasek, jeśli chodzi o zmiany klimatu."
+      },
+      "register": "neutral",
+      "tags": ["głowa", "problemy", "rozprawka"]
+    },
+    {
+      "en": "can't make head nor tail of sth",
+      "pl": "nie móc się w czymś połapać, nic z czegoś nie rozumieć",
+      "meaning_pl": "zupełnie czegoś nie rozumieć: tekstu, instrukcji, sytuacji. Prawie zawsze z can't albo couldn't. Spotkasz też wersję head or tail.",
+      "example": {
+        "en": "I read the instructions three times, but I couldn't make head nor tail of them.",
+        "pl": "Przeczytałem instrukcję trzy razy, ale nic z niej nie zrozumiałem."
+      },
+      "register": "informal",
+      "tags": ["głowa", "rozumienie", "BrE"]
+    },
+    {
+      "en": "rack your brains",
+      "pl": "łamać sobie głowę",
+      "meaning_pl": "bardzo się wysilać, żeby coś sobie przypomnieć albo wymyślić. Po polsku łamiemy głowę, po angielsku męczymy mózg. Spotkasz też wersję rack your brain.",
+      "example": {
+        "en": "I racked my brains, but I couldn't remember where I'd left my keys.",
+        "pl": "Łamałem sobie głowę, ale nie mogłem sobie przypomnieć, gdzie zostawiłem klucze."
+      },
+      "register": "informal",
+      "tags": ["mózg", "myślenie", "pułapka"]
+    },
+    {
+      "en": "be on the tip of your tongue",
+      "pl": "mieć coś na końcu języka",
+      "meaning_pl": "prawie pamiętasz słowo albo nazwę, ale nie możesz go wydobyć. Uwaga na konstrukcję: po angielsku podmiotem jest to słowo (it's on the tip of my tongue), a nie ja „mam”.",
+      "example": {
+        "en": "His name is on the tip of my tongue, but I just can't remember it.",
+        "pl": "Mam jego nazwisko na końcu języka, ale nie mogę go sobie przypomnieć."
+      },
+      "register": "neutral",
+      "tags": ["język", "pamięć", "pułapka"]
+    },
+    {
+      "en": "tongue-in-cheek",
+      "pl": "z przymrużeniem oka, żartobliwy",
+      "meaning_pl": "powiedziane albo napisane żartem, z ironią, nie na serio. Po polsku przymrużamy oko, po angielsku wypychamy językiem policzek. Przed rzeczownikiem z łącznikami: a tongue-in-cheek review.",
+      "example": {
+        "en": "The article gives tongue-in-cheek advice on how to survive a family holiday.",
+        "pl": "Artykuł z przymrużeniem oka radzi, jak przetrwać rodzinne wakacje."
+      },
+      "register": "neutral",
+      "tags": ["język", "humor", "recenzja", "pułapka"]
+    },
+    {
+      "en": "by word of mouth",
+      "pl": "z ust do ust, dzięki poleceniom",
+      "meaning_pl": "informacja rozchodzi się, bo ludzie opowiadają ją sobie nawzajem, a nie przez reklamę czy media. Jako przymiotnik z łącznikami: word-of-mouth recommendations.",
+      "example": {
+        "en": "The café has never advertised; it became popular by word of mouth.",
+        "pl": "Kawiarnia nigdy się nie reklamowała; zrobiła się popularna dzięki poczcie pantoflowej."
+      },
+      "register": "neutral",
+      "tags": ["usta", "informacja", "media"]
+    },
+    {
+      "en": "keep a straight face",
+      "pl": "zachować powagę, nie roześmiać się",
+      "meaning_pl": "powstrzymać śmiech i mieć poważną minę, chociaż coś jest śmieszne. Straight face to twarz bez uśmiechu.",
+      "example": {
+        "en": "He was wearing such a silly hat that I could hardly keep a straight face.",
+        "pl": "Miał na głowie tak głupią czapkę, że ledwo mogłem zachować powagę."
+      },
+      "register": "neutral",
+      "tags": ["twarz", "humor"]
+    },
+    {
+      "en": "lose face",
+      "pl": "stracić twarz",
+      "meaning_pl": "stracić szacunek innych, ośmieszyć się publicznie. Bez przedimka i zaimka: lose face, nie lose the face ani lose his face. Przeciwieństwo: save face, czyli ratować twarz.",
+      "example": {
+        "en": "The minister refused to admit his mistake because he didn't want to lose face.",
+        "pl": "Minister nie chciał przyznać się do błędu, bo nie chciał stracić twarzy."
+      },
+      "register": "neutral",
+      "tags": ["twarz", "reputacja", "pułapka"]
+    },
+    {
+      "en": "stick your neck out",
+      "pl": "wychylić się, narazić się",
+      "meaning_pl": "zaryzykować krytykę, mówiąc albo robiąc coś, czego inni się boją. Dosłownie wystawiasz szyję, więc łatwo oberwać. Czas przeszły: stuck.",
+      "example": {
+        "en": "Nobody else wanted to criticise the plan, but Kasia stuck her neck out and said what she thought.",
+        "pl": "Nikt inny nie chciał krytykować planu, ale Kasia się wychyliła i powiedziała, co myśli."
+      },
+      "register": "informal",
+      "tags": ["szyja", "ryzyko"]
+    },
+    {
+      "en": "be neck and neck",
+      "pl": "iść łeb w łeb",
+      "meaning_pl": "dwie strony mają prawie taki sam wynik: w wyścigu, meczu, wyborach. Obraz z wyścigów konnych: konie biegną szyja w szyję, a po polsku łeb w łeb.",
+      "example": {
+        "en": "According to the latest polls, the two candidates are neck and neck.",
+        "pl": "Według najnowszych sondaży obaj kandydaci idą łeb w łeb."
+      },
+      "register": "neutral",
+      "tags": ["szyja", "rywalizacja", "sport", "pułapka"]
+    },
+    {
+      "en": "pull sb's leg",
+      "pl": "nabierać kogoś, robić sobie z kogoś żarty",
+      "meaning_pl": "żartem wmawiać komuś coś nieprawdziwego, bez złych intencji. Często jako pytanie: Are you pulling my leg? = Żartujesz sobie?",
+      "example": {
+        "en": "'I've won a trip to Japan!' 'Really? Are you pulling my leg?'",
+        "pl": "– Wygrałem wycieczkę do Japonii! – Serio? Nabierasz mnie?"
+      },
+      "register": "informal",
+      "tags": ["noga", "żart"]
+    },
+    {
+      "en": "put your foot in it",
+      "pl": "palnąć gafę",
+      "meaning_pl": "niechcący powiedzieć coś niezręcznego albo kogoś urazić. To wersja brytyjska; Amerykanie mówią put your foot in your mouth.",
+      "example": {
+        "en": "I really put my foot in it when I asked her about her ex-boyfriend.",
+        "pl": "Ale palnąłem gafę, kiedy zapytałem ją o byłego chłopaka."
+      },
+      "register": "informal",
+      "tags": ["stopa", "gafa", "BrE"]
+    },
+    {
+      "en": "shoot yourself in the foot",
+      "pl": "strzelić sobie w kolano",
+      "meaning_pl": "zaszkodzić samemu sobie własną głupią decyzją. Po polsku strzelamy w kolano, po angielsku w stopę.",
+      "example": {
+        "en": "If you skip the mock exams, you'll only be shooting yourself in the foot.",
+        "pl": "Jeśli opuścisz próbne matury, tylko strzelisz sobie w kolano."
+      },
+      "register": "informal",
+      "tags": ["stopa", "błąd", "pułapka"]
+    },
+    {
+      "en": "know sth like the back of your hand",
+      "pl": "znać coś jak własną kieszeń",
+      "meaning_pl": "znać coś bardzo dobrze, najczęściej miejsce. Po polsku kieszeń, po angielsku wierzch dłoni, czyli coś, na co patrzysz codziennie.",
+      "example": {
+        "en": "I grew up here, so I know this area like the back of my hand.",
+        "pl": "Wychowałem się tutaj, więc znam tę okolicę jak własną kieszeń."
+      },
+      "register": "informal",
+      "tags": ["ręka", "miejsce", "pułapka"]
+    },
+    {
+      "en": "go hand in hand (with sth)",
+      "pl": "iść w parze (z czymś)",
+      "meaning_pl": "dwie rzeczy są ściśle ze sobą związane i występują razem. Dwie konstrukcje: A and B go hand in hand albo A goes hand in hand with B. Dobre do rozprawki.",
+      "example": {
+        "en": "Freedom goes hand in hand with responsibility.",
+        "pl": "Wolność idzie w parze z odpowiedzialnością."
+      },
+      "register": "neutral",
+      "tags": ["ręka", "związek", "rozprawka"]
+    },
+    {
+      "en": "not lift a finger (to do sth)",
+      "pl": "nie kiwnąć palcem",
+      "meaning_pl": "nic nie zrobić, żeby pomóc. Zawsze z przeczeniem: not, never, didn't. Po angielsku palca się nie podnosi, zamiast nim kiwać.",
+      "example": {
+        "en": "My brother never lifts a finger to help with the housework.",
+        "pl": "Mój brat nigdy nie kiwnie palcem, żeby pomóc w domu."
+      },
+      "register": "informal",
+      "tags": ["palec", "lenistwo", "dom"]
+    },
+    {
+      "en": "keep your fingers crossed (for sb)",
+      "pl": "trzymać (za kogoś) kciuki",
+      "meaning_pl": "mieć nadzieję, że coś się uda, i życzyć komuś szczęścia. Anglicy krzyżują palce (wskazujący i środkowy), a nie trzymają kciuków, więc nie tłumacz dosłownie. Krótko: Fingers crossed!",
+      "example": {
+        "en": "My exam results come out tomorrow, so keep your fingers crossed for me!",
+        "pl": "Jutro są wyniki moich egzaminów, więc trzymaj za mnie kciuki!"
+      },
+      "register": "informal",
+      "tags": ["palec", "życzenia", "pułapka"]
+    },
+    {
+      "en": "have green fingers",
+      "pl": "mieć rękę do roślin",
+      "meaning_pl": "umieć dbać o rośliny tak, że dobrze rosną. To wersja brytyjska; w USA mówi się have a green thumb.",
+      "example": {
+        "en": "My gran has green fingers: everything in her garden grows beautifully.",
+        "pl": "Moja babcia ma rękę do roślin: w jej ogrodzie wszystko pięknie rośnie."
+      },
+      "register": "informal",
+      "tags": ["palec", "ogród", "BrE"]
+    },
+    {
+      "en": "a bone of contention",
+      "pl": "kość niezgody",
+      "meaning_pl": "temat, o który ludzie ciągle się spierają. Ten sam obraz co po polsku: dwa psy i jedna kość. Contention = spór.",
+      "example": {
+        "en": "The new parking rules have become a bone of contention between residents and the council.",
+        "pl": "Nowe zasady parkowania stały się kością niezgody między mieszkańcami a władzami miasta."
+      },
+      "register": "neutral",
+      "tags": ["kość", "konflikt", "artykuł"]
+    }
+  ]
+}

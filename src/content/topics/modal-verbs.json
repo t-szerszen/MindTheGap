@@ -1,12 +1,12 @@
 {
   "id": "modal-verbs",
   "category": "modals",
-  "title_pl": "Czasowniki modalne — podstawy",
-  "summary_pl": "can, could, must, have to, should, may, might: co znaczą i czym się różnią.",
+  "title_pl": "Czasowniki modalne",
+  "summary_pl": "Umiejętność, pozwolenie, obowiązek, rada i przypuszczenia: jak poznać, który modal pasuje, i jak mówić nimi o przeszłości.",
   "blocks": [
     {
       "type": "text",
-      "md_pl": "Czasowniki modalne nie dostają końcówek (**she can**, nie *she cans*) i nie potrzebują do / does w pytaniach (**Can you…?**).\n\nPo nich czasownik stoi w formie podstawowej, bez *to*: **must go**, nie *must to go*. Wyjątek to *ought to*."
+      "md_pl": "**Modal nie mówi, co się dzieje, tylko jak mówiący na to patrzy:** czy to umiejętność, obowiązek, rada, czy przypuszczenie. To samo *must* raz znaczy „muszę”, a raz „na pewno”. Dlatego zawsze zaczynasz od pytania: **co to zdanie ma wyrazić?**\n\nTrzy zasady formy, które działają przy każdym modalu:\n- po modalu stoi **V1 bez to**: *must go*, nie *must to go* (wyjątek: *ought to*)\n- modal nie dostaje -s i nie potrzebuje *do*: *she can*, *Can she…?*, *she can't*\n- modal nie ma innych form: nie ma *to can*, *canning*, *musted* ani *will can*. Inne czasy robisz zamiennikami: **had to**, **will be able to**, **have been allowed to**"
     },
     {
       "type": "formula",
@@ -15,57 +15,392 @@
         { "text": "modal", "role": "aux" },
         { "text": "V1", "role": "verb" }
       ],
-      "example": { "en": "You should see a doctor.", "pl": "Powinieneś iść do lekarza." }
+      "example": { "en": "You should take a break.", "pl": "Powinieneś zrobić sobie przerwę." }
+    },
+    {
+      "type": "text",
+      "md_pl": "**Kiedy? W przypuszczeniach czas pokazuje to, co stoi po modalu.** Sam *must / may / might / can't* go nie pokazuje:"
     },
     {
       "type": "table",
-      "headers": ["Modal", "Znaczenie", "Przykład"],
+      "headers": ["Po modalu", "Kiedy?", "Przykład"],
       "rows": [
-        ["can / can't", "umiejętność, możliwość, pozwolenie", "I can swim. Can I open the window?"],
+        ["V1", "teraz, ogólnie albo w przyszłości", "She must be tired. — Musi być zmęczona."],
+        ["be + V-ing", "trwa w tej chwili", "She must be sleeping. — Na pewno śpi."],
         [
-          "could",
-          "umiejętność w przeszłości, uprzejma prośba",
-          "I could read when I was four. Could you help me?"
+          "have + V3",
+          "wcześniej, zwykle w przeszłości",
+          "She must have overslept. — Musiała zaspać."
         ],
         [
-          "must",
-          "silny nakaz (zwykle od mówiącego), pewność",
-          "I must study harder. She must be tired."
-        ],
-        [
-          "have to",
-          "obowiązek z zewnątrz: przepisy, okoliczności",
-          "We have to wear a uniform at school."
-        ],
-        ["mustn't", "zakaz", "You mustn't use your phone during the exam."],
-        [
-          "don't have to",
-          "brak obowiązku: nie musisz, ale możesz",
-          "You don't have to come if you're busy."
-        ],
-        ["should / shouldn't", "rada, opinia", "You should get more sleep."],
-        ["may / might", "możliwość: może się zdarzyć", "It might rain later."]
+          "have been + V-ing",
+          "trwało w przeszłości",
+          "She must have been working late. — Musiała pracować do późna."
+        ]
       ]
     },
     {
+      "type": "text",
+      "md_pl": "Są wyjątki, gdzie przeszłość siedzi w samym modalu: *could* = umiałem (*I could swim when I was seven*), *would* = dawny nawyk (*Grandma would make pierogi*). Przeszły obowiązek to osobna forma: **had to**."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "must / might / can't", "role": "aux" },
+        { "text": "be", "role": "aux" },
+        { "text": "V-ing", "role": "verb" }
+      ],
+      "example": {
+        "en": "Kasia isn't answering. She might be driving.",
+        "pl": "Kasia nie odbiera. Może prowadzi."
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "must / should / might", "role": "aux" },
+        { "text": "have", "role": "aux" },
+        { "text": "V3", "role": "verb" }
+      ],
+      "example": { "en": "He must have missed the bus.", "pl": "Musiał spóźnić się na autobus." }
+    },
+    {
       "type": "callout",
-      "variant": "warning",
-      "md_pl": "**mustn't ≠ don't have to.** *You mustn't tell her* = nie wolno ci jej mówić. *You don't have to tell her* = nie musisz jej mówić (ale możesz). To częsta pułapka w zadaniach."
+      "variant": "tip",
+      "md_pl": "**have po modalu nigdy nie zmienia się w has.** *She must have left*, nie *she must has left*. To nie Present Perfect, tylko bezokolicznik: have + V3 przesuwa to, o czym mówisz, w przeszłość."
     },
     {
       "type": "steps",
       "items": [
         {
-          "step_pl": "obowiązek czy zakaz?",
-          "text_pl": "Najpierw ustal, czy zdanie mówi, że coś TRZEBA zrobić, czy że NIE WOLNO."
+          "step_pl": "funkcja",
+          "text_pl": "Ustal, co zdanie ma wyrazić: umiejętność, pozwolenie, obowiązek, zakaz, radę czy przypuszczenie. Pomagają sygnały: I'm sure… → pewność, It would be a good idea… → rada, It isn't necessary… → brak obowiązku."
         },
         {
-          "step_pl": "kto tego wymaga?",
-          "text_pl": "Twoje własne przekonanie → must. Przepisy, szkoła, sytuacja → have to."
+          "step_pl": "kiedy?",
+          "text_pl": "Teraz albo ogólnie → modal + V1. Trwa w tej chwili → modal + be + V-ing. Przeszłość w przypuszczeniach i krytyce → modal + have + V3. Przeszły obowiązek albo jeden sukces → had to, was able to. Ogólna umiejętność kiedyś → could / couldn't + V1."
+        },
+        {
+          "step_pl": "siła",
+          "text_pl": "Na ile mówiący jest pewien? Prawie na pewno tak → must. Możliwe → may / might / could. Prawie na pewno nie → can't."
         },
         {
           "step_pl": "przeczenie",
-          "text_pl": "Nie wolno → mustn't. Nie trzeba (ale można) → don't have to."
+          "text_pl": "Sprawdź, czego dotyczy „nie”: zakaz (mustn't), brak obowiązku (don't have to, needn't) czy pewność, że nie (can't)."
+        },
+        {
+          "step_pl": "forma",
+          "text_pl": "Po modalu i po had better V1 bez to. have to, be able to, ought to i need to mają w sobie to, a po nim V1: have to go, ought to go."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**1. Umiejętność: can, could, be able to**\n\n**can** — umiem teraz albo w ogóle. **could** — umiałem kiedyś, przez dłuższy czas. **be able to** znaczy to samo, ale ma wszystkie formy, więc wchodzi tam, gdzie *can* nie da rady: *will be able to*, *have been able to*, *might be able to*, *being able to*.\n\nO przyszłości *can* wystarczy, gdy już teraz wiesz, że dasz radę (*I can help you tomorrow*). **will be able to** jest wtedy, gdy umiejętność albo możliwość dopiero się pojawi (*Once you've passed your test, you'll be able to…*)."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "I can read music, but I can't sing at all.",
+          "pl": "Umiem czytać nuty, ale w ogóle nie umiem śpiewać."
+        },
+        {
+          "en": "When I was seven, I could already swim.",
+          "pl": "Kiedy miałem siedem lat, już umiałem pływać."
+        },
+        {
+          "en": "Once you've passed your driving test, you'll be able to borrow Dad's car.",
+          "pl": "Jak zdasz egzamin na prawo jazdy, będziesz mógł pożyczać auto taty."
+        },
+        {
+          "en": "I haven't been able to sleep properly since we moved.",
+          "pl": "Odkąd się przeprowadziliśmy, nie mogę porządnie spać."
+        }
+      ]
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "could",
+          "md_pl": "**Ogólna umiejętność** w przeszłości: coś, co umiałeś przez jakiś czas.",
+          "examples": [
+            {
+              "en": "My grandad could speak three languages.",
+              "pl": "Mój dziadek umiał mówić w trzech językach."
+            }
+          ]
+        },
+        {
+          "title": "was / were able to · managed to",
+          "md_pl": "**Jedna konkretna sytuacja**, w której coś się udało, często mimo trudności. Tu *could* w zdaniu twierdzącym brzmi źle.",
+          "examples": [
+            {
+              "en": "The road was blocked, but we were able to find another way.",
+              "pl": "Droga była zablokowana, ale udało nam się znaleźć inną trasę."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Po polsku w obu przypadkach często powiesz „mógł” albo „potrafił”, więc pytaj: **umiejętność ogólnie (umiał) czy jeden sukces (udało się)?** W przeczeniu **couldn't** pasuje zawsze: *I couldn't open the door.* Przy czasownikach zmysłów i myślenia (*see, hear, understand, remember*) *could* pasuje też do jednej sytuacji: *From the top we could see the sea.*"
+    },
+    {
+      "type": "text",
+      "md_pl": "**2. Pozwolenie: can, could, may, be allowed to**\n\nProsisz o pozwolenie: **Can I…?** (zwykle), **Could I…?** (grzeczniej), **May I…?** (najbardziej formalnie). *Could* w pytaniu nie jest czasem przeszłym, tylko uprzejmością.\n\nPozwolenie z zewnątrz, przepisy i inne czasy → **be allowed to**: *We weren't allowed to use calculators. Will I be allowed to bring a friend?*\n\nO jednej konkretnej sytuacji w przeszłości bezpieczniej mówić **was / were allowed to** (*Yesterday we were allowed to go home early*). *could* zostaw na ogólne pozwolenie (*As a child I could stay up late at weekends*)."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "Could I leave ten minutes early today? I've got a dentist's appointment.",
+          "pl": "Czy mógłbym dziś wyjść dziesięć minut wcześniej? Mam wizytę u dentysty."
+        },
+        {
+          "en": "May I ask you a few questions about your experience?",
+          "pl": "Czy mogę zadać panu kilka pytań o pana doświadczenie?"
+        },
+        {
+          "en": "At my old school we weren't allowed to use our phones, even during breaks.",
+          "pl": "W mojej starej szkole nie wolno nam było używać telefonów, nawet na przerwach."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "Na *Could I…?* odpowiadasz **Yes, of course you can**, a nie *Yes, you could*. Odpowiedź daje pozwolenie teraz, więc wraca *can*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**3. Obowiązek i konieczność: must, have to**\n\n**must** — obowiązek, który czuje albo nakłada mówiący (*I must call Gran tonight*), a także pisane regulaminy i instrukcje (*Passengers must wear seat belts*).\n\n**have to** — obowiązek z zewnątrz: przepisy, szkoła, okoliczności (*I have to wear a uniform*). W wielu zdaniach pasuje jedno i drugie, różnica jest delikatna.\n\n**Mechanizm, który liczy się na maturze:** *must* ma tylko jedną formę. Mówi o teraz albo o przyszłości (*We must leave early tomorrow*), ale nie ma przeszłości ani form z *will* czy *have*. Te budujesz z *have to*: **had to**, **will have to**, **have had to**. W pytaniach częściej słyszysz **Do I have to…?** niż *Must I…?*"
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "had to", "role": "aux" },
+        { "text": "V1", "role": "verb" }
+      ],
+      "example": {
+        "en": "I had to get up at five to catch the train.",
+        "pl": "Musiałem wstać o piątej, żeby zdążyć na pociąg."
+      }
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "I must remember to send Ola the photos.",
+          "pl": "Muszę pamiętać, żeby wysłać Oli zdjęcia."
+        },
+        {
+          "en": "In Poland you have to be eighteen to vote.",
+          "pl": "W Polsce trzeba mieć osiemnaście lat, żeby głosować."
+        },
+        {
+          "en": "We'll have to leave at six if we want to avoid the traffic.",
+          "pl": "Będziemy musieli wyjechać o szóstej, jeśli chcemy uniknąć korków."
+        },
+        { "en": "Did you have to pay for the course?", "pl": "Musiałeś zapłacić za ten kurs?" }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "*have got to* (*I've got to go*) to potoczny odpowiednik *have to*, częsty zwłaszcza w brytyjskim. Znaczy to samo, ale używasz go w teraźniejszości. O przeszłości mówisz *had to*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**4. Zakaz i brak obowiązku: tu „nie” zmienia wszystko**\n\nPo polsku „nie musisz” to po prostu „musisz” z „nie”, więc kusi, żeby powiedzieć *mustn't*. Ale po angielsku *must* i *have to* w przeczeniu **rozjeżdżają się**:"
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "mustn't · can't · not allowed to",
+          "md_pl": "**Zakaz:** nie wolno, nie rób tego. W regulaminach i umowach zobaczysz też formalne *may not* i *shall not*.",
+          "examples": [
+            { "en": "You mustn't touch the paintings.", "pl": "Nie wolno dotykać obrazów." },
+            {
+              "en": "You can't park here — it's for residents only.",
+              "pl": "Nie możesz tu parkować — to miejsce tylko dla mieszkańców."
+            }
+          ]
+        },
+        {
+          "title": "don't have to · don't need to",
+          "md_pl": "**Brak obowiązku:** nie musisz, ale możesz, jeśli chcesz.",
+          "examples": [
+            {
+              "en": "You don't have to come, but it'd be nice if you did.",
+              "pl": "Nie musisz przychodzić, ale byłoby miło, gdybyś przyszedł."
+            }
+          ]
+        },
+        {
+          "title": "needn't",
+          "md_pl": "**To samo co don't have to**, tylko krócej i bardziej po brytyjsku. Często tak mówi ktoś, kto sam zwalnia cię z obowiązku.",
+          "examples": [
+            {
+              "en": "You needn't wait for me — I'll get a taxi.",
+              "pl": "Nie musisz na mnie czekać — wezmę taksówkę."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Sprawdź, co mówi zdanie: **zakaz** → mustn't, **nie ma potrzeby** → don't have to / needn't. *You mustn't tell her* = nie wolno ci jej mówić. *You don't have to tell her* = nie musisz, decyzja należy do ciebie."
+    },
+    {
+      "type": "text",
+      "md_pl": "**5. need: zwykły czasownik albo modal**\n\nNajczęściej **need to** zachowuje się jak zwykły czasownik: ma -s, bierze *do* w pytaniach i przeczeniach i ma wszystkie czasy: *She needs to rest. Do I need to bring anything? We didn't need to hurry.*\n\nW przeczeniu *need* może też być modalem: **needn't + V1**, bez -s i bez *to*: *She needn't worry.* Mieszanie tych dwóch wersji to błąd: nie *she needn't to worry* i nie *she doesn't need worry*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**6. Rada i propozycja: should, ought to, had better, shall**\n\n**should** i **ought to** znaczą to samo: „powinieneś”. *ought to* jest rzadszy i trochę bardziej formalny, a przeczenie to *ought not to*.\n\n**had better** to rada na konkretną sytuację z ostrzeżeniem w tle: zrób to, bo inaczej będą kłopoty. Choć ma w sobie *had*, mówi o teraz i o przyszłości. Po nim stoi **V1 bez to**, a przeczenie to **had better not**."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "had better / 'd better", "role": "aux" },
+        { "text": "(not)", "role": "particle" },
+        { "text": "V1", "role": "verb" }
+      ],
+      "example": {
+        "en": "You'd better not tell Mum about the broken vase.",
+        "pl": "Lepiej nie mów mamie o zbitym wazonie."
+      }
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "should / ought to",
+          "md_pl": "Ogólna rada albo opinia, co jest dobre lub właściwe. Bez groźby w tle.",
+          "examples": [
+            {
+              "en": "You should read more in English — it really helps.",
+              "pl": "Powinieneś więcej czytać po angielsku — to naprawdę pomaga."
+            }
+          ]
+        },
+        {
+          "title": "had better",
+          "md_pl": "Rada pilna, na teraz, z ukrytym „bo inaczej…”.",
+          "examples": [
+            {
+              "en": "We'd better hurry, or we'll miss the last bus.",
+              "pl": "Lepiej się pospieszmy, bo nie zdążymy na ostatni autobus."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Najczęstszy błąd to *to* po better: nie *you'd better to go*, tylko **you'd better go**. Skrót *'d* to tu zawsze *had*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Propozycja: Shall I…? / Shall we…?** Pytasz, czy coś zrobić dla kogoś albo razem. Po *shall* też stoi V1 bez to. W amerykańskim angielskim *shall* jest rzadkie, częściej usłyszysz *Should I…?*. Po *Let's…* dopowiadasz *shall we?*: *Let's take a break, shall we?*"
+    },
+    {
+      "type": "examples",
+      "items": [
+        { "en": "Shall I make us some tea?", "pl": "Zrobić nam herbaty?" },
+        {
+          "en": "Shall we get a taxi? It's pouring.",
+          "pl": "Może weźmiemy taksówkę? Leje jak z cebra."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**7. Przypuszczenia o teraz: must, may, might, could, can't**\n\nTu modal nie mówi o obowiązku, tylko o tym, **na ile jesteś pewien**. Mechanizm jest zawsze ten sam: masz dowód (pali się światło, ktoś nie odbiera) i wyciągasz z niego wniosek."
+    },
+    {
+      "type": "table",
+      "headers": ["Na ile pewny?", "Teraz", "Przeszłość"],
+      "rows": [
+        ["prawie na pewno tak", "must be / must be doing", "must have done / must have been doing"],
+        [
+          "możliwe, że tak",
+          "may / might / could be (doing)",
+          "may / might / could have done (have been doing)"
+        ],
+        [
+          "możliwe, że nie",
+          "may not / might not be (doing)",
+          "may not / might not have done (have been doing)"
+        ],
+        [
+          "prawie na pewno nie",
+          "can't / couldn't be (doing)",
+          "can't / couldn't have done (have been doing)"
+        ]
+      ]
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "Her light is on, so she must be at home.",
+          "pl": "Pali się u niej światło, więc na pewno jest w domu."
+        },
+        {
+          "en": "Your phone could be in the car — have you checked?",
+          "pl": "Twój telefon może być w samochodzie — sprawdzałeś?"
+        },
+        {
+          "en": "He may not know about the change of plan.",
+          "pl": "Możliwe, że on nie wie o zmianie planów."
+        },
+        {
+          "en": "You can't be hungry — you've just had a huge pizza!",
+          "pl": "Niemożliwe, żebyś był głodny — przecież właśnie zjadłeś ogromną pizzę!"
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**Przeczenie od „na pewno” to can't, nie mustn't.** W brytyjskim angielskim *mustn't* znaczy tylko „nie wolno”, więc *He mustn't be at home* nie znaczy „na pewno go nie ma”. Dobrze: **He can't be at home.** W amerykańskim spotkasz *He must not be home* (bez skrótu) w znaczeniu „na pewno go nie ma”, ale na maturze pisz **can't**."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**could i couldn't nie są parą jak may i may not.** *He could be at home* = możliwe, że jest. *He couldn't be at home* = niemożliwe, żeby był. „Możliwe, że nie” wyrażasz przez **may not / might not**: *He might not be at home.*"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "*can* w zdaniu twierdzącym nie służy do zgadywania, co jest teraz: nie *She can be at work now*, tylko **She may / might / could be at work now**. *can* zostaw na ogólną możliwość: *Zakopane can be really cold in May.*"
+    },
+    {
+      "type": "text",
+      "md_pl": "**8. Przypuszczenia o przeszłości: modal + have + V3**\n\nTa sama skala pewności, tylko po modalu dokładasz **have + V3**. Dowód widzisz teraz, ale wniosek dotyczy czegoś, co już się stało."
+    },
+    {
+      "type": "timeline",
+      "now": 0.75,
+      "marks": [{ "kind": "point", "from": 0.35, "label": "to się stało" }],
+      "caption_pl": "Dowód jest teraz (mokra ulica), wniosek dotyczy wcześniejszego zdarzenia: It must have rained in the night."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "dowód",
+          "text_pl": "Rano wysłałem Oli wiadomość. Ola była cały dzień na wycieczce, a telefon zostawiła w domu na stole."
+        },
+        {
+          "step_pl": "wniosek",
+          "text_pl": "Na pewno nie widziała wiadomości → pewność, że NIE → can't."
+        },
+        { "step_pl": "kiedy?", "text_pl": "Chodzi o przeszłość → have + V3." },
+        {
+          "step_pl": "forma",
+          "text_pl": "She can't have seen my message. — Na pewno nie widziała mojej wiadomości."
         }
       ]
     },
@@ -73,27 +408,316 @@
       "type": "examples",
       "items": [
         {
-          "en": "You don't have to bring anything — we've got everything.",
-          "pl": "Nie musisz nic przynosić — mamy wszystko."
+          "en": "Tomek looks exhausted. He must have been up all night revising.",
+          "pl": "Tomek wygląda na wykończonego. Musiał siedzieć całą noc nad powtórką."
         },
         {
-          "en": "Students mustn't leave the room during the test.",
-          "pl": "Uczniom nie wolno wychodzić z sali podczas testu."
+          "en": "I can't find my wallet. I might have left it in the shop.",
+          "pl": "Nie mogę znaleźć portfela. Może zostawiłem go w sklepie."
         },
         {
-          "en": "She must be at home — her light is on.",
-          "pl": "Musi być w domu — pali się u niej światło."
+          "en": "Kamil came home covered in mud. He might have been playing football in the rain.",
+          "pl": "Kamil wrócił cały w błocie. Może grał w piłkę w deszczu."
+        },
+        {
+          "en": "She can't have been at the party — she was in Berlin that weekend.",
+          "pl": "Nie mogła być na imprezie — w ten weekend była w Berlinie."
+        },
+        {
+          "en": "They may not have heard the news yet.",
+          "pl": "Możliwe, że jeszcze nie słyszeli tej wiadomości."
+        }
+      ]
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "had to + V1",
+          "md_pl": "**Obowiązek** w przeszłości: był zmuszony, nie miał wyboru.",
+          "examples": [
+            {
+              "en": "He had to leave early because his mum was ill.",
+              "pl": "Musiał wyjść wcześniej, bo jego mama była chora."
+            }
+          ]
+        },
+        {
+          "title": "must have + V3",
+          "md_pl": "**Wniosek:** na pewno tak było, choć tego nie widziałeś.",
+          "examples": [
+            {
+              "en": "He must have left early — his coat isn't here.",
+              "pl": "Musiał wyjść wcześniej — nie ma tu jego kurtki."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Po polsku oba zdania to „musiał wyjść”. Zapytaj: **był zmuszony** (had to) czy **zgaduję z dowodów** (must have)?"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "**could have + V3** ma dwa znaczenia: „możliwe, że tak było” (*He could have taken the wrong bus*) i „mogło się stać, ale się nie stało” (*You could have hurt yourself!* — Mogłeś zrobić sobie krzywdę!). To drugie często brzmi jak wyrzut: *You could have told me!*"
+    },
+    {
+      "type": "text",
+      "md_pl": "**9. Krytyka i żal: should have, ought to have**\n\n**should have + V3** = należało to zrobić, a tego nie zrobiono. **shouldn't have + V3** = zrobiono, a nie należało. Polski dobrze to oddaje: „powinieneś był”. *ought to have + V3* znaczy to samo, tylko jest rzadsze.\n\n**Mechanizm:** w krytyce zdanie z *should have* mówi **odwrotnie niż to, co się stało**. Nie zarezerwowaliśmy → *We should have booked.* Powiedziałem → *I shouldn't have said it.*\n\nDrugie znaczenie to oczekiwanie: coś według planu już powinno się stać. *The parcel should have arrived by now.* — Paczka powinna już dojść. Tu nie wiadomo, czy doszła, więc to nie musi być odwrotność faktów."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "You should have told me you were ill. I'd have brought you some soup.",
+          "pl": "Powinieneś był mi powiedzieć, że jesteś chory. Przyniósłbym ci zupę."
+        },
+        {
+          "en": "I shouldn't have stayed up so late before the test.",
+          "pl": "Nie powinienem był siedzieć tak długo w nocy przed sprawdzianem."
+        },
+        {
+          "en": "We ought to have checked the opening hours.",
+          "pl": "Powinniśmy byli sprawdzić godziny otwarcia."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "Nie piszesz *should of* (to tylko brzmi jak *should've*) ani *should had*. Zawsze **should have + V3**."
+    },
+    {
+      "type": "text",
+      "md_pl": "**10. needn't have czy didn't need to?**\n\nObie formy mówią, że coś nie było potrzebne. Różnica jest w tym, **czy to zrobiłeś**."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "needn't have + V3",
+          "md_pl": "**Zrobiłeś to, a niepotrzebnie.** Wysiłek poszedł na marne.",
+          "examples": [
+            {
+              "en": "I needn't have taken an umbrella — it didn't rain at all.",
+              "pl": "Niepotrzebnie wziąłem parasol — w ogóle nie padało."
+            }
+          ]
+        },
+        {
+          "title": "didn't need to / didn't have to + V1",
+          "md_pl": "**Nie było takiej potrzeby.** Zwykle znaczy, że tego nie zrobiłeś, resztę mówi kontekst.",
+          "examples": [
+            {
+              "en": "I didn't need to take an umbrella — Ola had one.",
+              "pl": "Nie musiałem brać parasola — Ola miała swój."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "**needn't have + V3 zawsze mówi, że rzecz została zrobiona.** Jeśli z kontekstu wynika, że jej nie zrobiłeś, zostaje didn't need to."
+    },
+    {
+      "type": "text",
+      "md_pl": "**11. Dawne nawyki: used to i would**\n\nOba mówią o tym, co powtarzało się kiedyś, a teraz już nie. **used to** pasuje też do **stanów** (mieć, być, mieszkać, lubić). **would** pasuje tylko do powtarzanych czynności i zwykle wtedy, gdy już wiadomo, o jaki okres chodzi.\n\nForma: *used to + V1*, ale w pytaniu i przeczeniu **did … use to** (bez -d): *Did you use to…? I didn't use to…*. Więcej o przeszłości jest w notatce o Past Simple.\n\n*used to* nie mówi, jak długo coś trwało w sumie ani ile razy w sumie się zdarzyło: *I lived in Kraków for five years*, nie *I used to live in Kraków for five years*. Częstotliwość jest w porządku: *I used to swim twice a week.*"
+    },
+    {
+      "type": "timeline",
+      "now": 0.8,
+      "marks": [{ "kind": "repeat", "from": 0.1, "to": 0.5, "label": "kiedyś regularnie" }],
+      "caption_pl": "Powtarzało się w okresie, który już minął: Every Sunday Grandma would make pierogi."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "used to",
+          "md_pl": "Czynności **i stany**.",
+          "examples": [
+            { "en": "I used to have a cat.", "pl": "Kiedyś miałem kota." },
+            {
+              "en": "We used to go skiing every winter.",
+              "pl": "Kiedyś co zimę jeździliśmy na narty."
+            }
+          ]
+        },
+        {
+          "title": "would",
+          "md_pl": "Tylko **powtarzane czynności**, nie stany.",
+          "examples": [
+            {
+              "en": "Every Sunday Grandma would make pierogi for the whole family.",
+              "pl": "W każdą niedzielę babcia robiła pierogi dla całej rodziny."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "*I would have a cat* jako dawny stan to błąd. Nie myl też tego z **be used to + -ing** (być przyzwyczajonym): *I'm used to getting up early.*"
+    },
+    {
+      "type": "text",
+      "md_pl": "**12. Modal w stronie biernej**\n\nStronę bierną robisz zawsze tak samo: **be + V3**. Po modalu *be* stoi w formie podstawowej. O przeszłości mówisz przez **have been + V3**.\n\nPo *need* sens bierny daje też -ing: *The car needs washing* = *The car needs to be washed.*"
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "must / can / should", "role": "aux" },
+        { "text": "be", "role": "aux" },
+        { "text": "V3", "role": "verb" }
+      ],
+      "example": {
+        "en": "All forms must be signed by a parent.",
+        "pl": "Wszystkie formularze muszą być podpisane przez rodzica."
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "must / might / should", "role": "aux" },
+        { "text": "have been", "role": "aux" },
+        { "text": "V3", "role": "verb" }
+      ],
+      "example": {
+        "en": "The match might have been cancelled because of the storm.",
+        "pl": "Mecz mógł zostać odwołany z powodu burzy."
+      }
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "This problem can't be solved in one day.",
+          "pl": "Tego problemu nie da się rozwiązać w jeden dzień."
+        },
+        {
+          "en": "The tickets should have been sent last week.",
+          "pl": "Bilety powinny były zostać wysłane w zeszłym tygodniu."
         }
       ]
     },
     {
       "type": "text",
-      "md_pl": "W przeszłości obowiązek wyrażasz przez **had to**: *I had to get up at five.* Formy *musted* nie ma."
+      "md_pl": "**13. Modale w mowie zależnej**\n\nGdy czasownik wprowadzający jest w przeszłości (*said, told, asked*), część modali cofa się o krok, tak jak czasy. Modale, które już wyglądają na przeszłe, i formy z *have + V3* zostają bez zmian."
+    },
+    {
+      "type": "table",
+      "headers": ["Ktoś powiedział", "Relacjonujesz", "Przykład"],
+      "rows": [
+        ["can", "could", "\"I can help.\" → She said she could help."],
+        ["will", "would", "\"I'll text you.\" → He said he would text me."],
+        [
+          "may (możliwość)",
+          "might (czasem zostaje may)",
+          "\"It may rain.\" → They said it might rain."
+        ],
+        ["may (pozwolenie)", "could", "\"May I join you?\" → He asked if he could join us."],
+        [
+          "shall (Shall I…?)",
+          "should",
+          "\"Shall I bring some snacks?\" → Ola asked if she should bring some snacks."
+        ],
+        [
+          "must (obowiązek)",
+          "had to albo must",
+          "\"You must be home by ten.\" → Dad said I had to be home by ten."
+        ],
+        ["have to", "had to", "\"I have to go.\" → She said she had to go."],
+        [
+          "mustn't (zakaz)",
+          "zwykle zostaje mustn't",
+          "\"You mustn't tell anyone.\" → She said I mustn't tell anyone."
+        ],
+        [
+          "needn't",
+          "needn't albo didn't have to",
+          "\"You needn't come.\" → She said I didn't have to come."
+        ],
+        [
+          "must (wniosek)",
+          "must",
+          "\"He must be stuck in traffic.\" → She said he must be stuck in traffic."
+        ],
+        [
+          "could, would, should, might, ought to",
+          "bez zmian",
+          "\"You should apply.\" → My teacher said I should apply."
+        ],
+        [
+          "modal + have + V3",
+          "bez zmian",
+          "\"He must have forgotten.\" → She said he must have forgotten."
+        ]
+      ]
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "\"Can we sit at the back?\" → The students asked if they could sit at the back.",
+          "pl": "„Możemy usiąść z tyłu?” → Uczniowie zapytali, czy mogą usiąść z tyłu."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "W pytaniu zależnym szyk jest jak w zdaniu oznajmującym: *They asked if they could sit…*, nie *if could they sit*."
     },
     {
       "type": "callout",
       "variant": "matura",
-      "md_pl": "W transformacjach często zamieniasz: *It isn't necessary for you to…* = **You don't have to…**, *I'm sure he is tired* = **He must be tired**."
+      "md_pl": "**Jak to sprawdzają.** Modal + have + V3 był w części językowej w trzech z czterech arkuszy 2023–2026: dwa razy krytyka (*should have*), raz wniosek (*must have*). Typowe pary w transformacjach:\n- *I'm sure she forgot.* → She **must have forgotten**. (MUST)\n- *It was a mistake not to book.* → We **should have booked**. (SHOULD)\n- *I'm sure he wasn't at home.* → He **can't have been** at home. (CAN'T)\n- *Perhaps he missed the train.* → He **might have missed** the train. (MIGHT)\n- *It wasn't necessary, but I did it.* → I **needn't have done** it. (NEEDN'T)\n- *It isn't necessary to…* → You **don't have to / needn't**… (HAVE / NEEDN'T)\n- *I managed to…* → I **was able to**… (ABLE)\n\nPułapki: odwrócona logika (*It was a mistake to tell her* → *I shouldn't have told her*), czas (dobra konstrukcja w złym czasie to 0 pkt) i limit wyrazów. Skrót liczy się jako jeden wyraz, więc *must've forgotten* to dwa wyrazy, a *shouldn't have told* trzy. Słowa klucza nie wolno odmieniać."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Typowe błędy Polaków**\n\nWiększość bierze się z tłumaczenia słowo w słowo: polskie „musiał”, „mógł” i „nie musisz” mają po angielsku po kilka różnych odpowiedników."
+    },
+    {
+      "type": "table",
+      "headers": ["Źle", "Dobrze", "Dlaczego"],
+      "rows": [
+        ["She must to study more.", "She must study more.", "Po modalu V1 bez to."],
+        ["He cans play the guitar.", "He can play the guitar.", "Modal nie dostaje -s."],
+        ["I musted go home.", "I had to go home.", "must nie ma przeszłości, zastępuje ją had to."],
+        [
+          "Will you can come?",
+          "Will you be able to come?",
+          "Dwa modale obok siebie się nie łączą. Zamiast will can → will be able to (albo po prostu Can you come?)."
+        ],
+        [
+          "You mustn't pay — it's free.",
+          "You don't have to pay — it's free.",
+          "„Nie musisz” to brak obowiązku, a mustn't to zakaz."
+        ],
+        [
+          "He mustn't be at home — the lights are off.",
+          "He can't be at home — the lights are off.",
+          "Pewność, że nie, to can't (w brytyjskim mustn't = zakaz)."
+        ],
+        [
+          "She must has forgotten.",
+          "She must have forgotten.",
+          "Po modalu zawsze have, nigdy has."
+        ],
+        ["You should have tell me.", "You should have told me.", "Po have zawsze V3."],
+        [
+          "I could pass the test yesterday.",
+          "I was able to pass the test yesterday.",
+          "Jeden konkretny sukces w przeszłości → was able to albo managed to."
+        ],
+        ["You'd better to hurry.", "You'd better hurry.", "Po had better V1 bez to."],
+        [
+          "I would live in Gdańsk as a child.",
+          "I used to live in Gdańsk as a child.",
+          "Stan (mieszkać) → used to albo Past Simple, nie would."
+        ],
+        [
+          "She can be at work now.",
+          "She might be at work now.",
+          "Konkretne przypuszczenie o teraz → may / might / could."
+        ]
+      ]
     }
   ]
 }

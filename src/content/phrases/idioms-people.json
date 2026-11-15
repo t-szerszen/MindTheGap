@@ -1,0 +1,282 @@
+{
+  "id": "idioms-people",
+  "category": "idioms",
+  "title_pl": "Idiomy: ludzie, charakter i emocje",
+  "items": [
+    {
+      "en": "a couch potato",
+      "pl": "kanapowiec, kanapowy leń",
+      "meaning_pl": "ktoś, kto godzinami siedzi przed telewizorem albo ekranem i prawie się nie rusza; obrazowo: leży na kanapie bez ruchu jak ziemniak",
+      "example": {
+        "en": "Since he got a games console, my brother has turned into a real couch potato.",
+        "pl": "Odkąd dostał konsolę, mój brat zamienił się w prawdziwego kanapowca."
+      },
+      "register": "informal",
+      "tags": ["styl życia", "negatywne"]
+    },
+    {
+      "en": "a night owl",
+      "pl": "nocny marek",
+      "meaning_pl": "ktoś, kto lubi chodzić późno spać i najlepiej działa wieczorem; sowa jest aktywna nocą; przeciwieństwo to an early bird (ranny ptaszek)",
+      "example": {
+        "en": "I'm a night owl, so I usually do my homework after ten in the evening.",
+        "pl": "Jestem nocnym markiem, więc zwykle odrabiam lekcje po dziesiątej wieczorem."
+      },
+      "register": "informal",
+      "tags": ["styl życia", "nawyki"]
+    },
+    {
+      "en": "a party animal",
+      "pl": "imprezowicz, imprezowiczka",
+      "meaning_pl": "ktoś, kto uwielbia imprezy i chodzi na nie, kiedy tylko może; mówi się tak i o chłopaku, i o dziewczynie",
+      "example": {
+        "en": "Kate was a real party animal at university, but now she prefers quiet evenings at home.",
+        "pl": "Na studiach Kate była prawdziwą imprezowiczką, ale teraz woli spokojne wieczory w domu."
+      },
+      "register": "informal",
+      "tags": ["styl życia", "czas wolny"]
+    },
+    {
+      "en": "a lone wolf",
+      "pl": "samotnik, samotny wilk",
+      "meaning_pl": "ktoś, kto woli działać i spędzać czas sam niż w grupie; często w kontekście pracy, nauki albo sportu",
+      "example": {
+        "en": "Tom is a bit of a lone wolf – he always prefers to work on projects by himself.",
+        "pl": "Tom jest trochę samotnikiem – zawsze woli pracować nad projektami sam."
+      },
+      "register": "neutral",
+      "tags": ["charakter", "praca"]
+    },
+    {
+      "en": "a wet blanket",
+      "pl": "ponurak, ktoś, kto psuje innym zabawę",
+      "meaning_pl": "osoba, która marudzeniem albo brakiem entuzjazmu gasi dobry nastrój; obrazowo: mokrym kocem gasi się ogień; brzmi niemiło",
+      "example": {
+        "en": "Don't be such a wet blanket – come to the concert with us!",
+        "pl": "Nie bądź takim ponurakiem – chodź z nami na koncert!"
+      },
+      "register": "informal",
+      "tags": ["charakter", "negatywne"]
+    },
+    {
+      "en": "a know-all (UK) / a know-it-all",
+      "pl": "mądrala, przemądrzalec",
+      "meaning_pl": "ktoś, kto zachowuje się, jakby wszystko wiedział najlepiej, i tym irytuje innych; know-all to wersja brytyjska, know-it-all amerykańska, obie są zrozumiałe",
+      "example": {
+        "en": "Nobody wanted to work with him because he was such a know-all.",
+        "pl": "Nikt nie chciał z nim pracować, bo był strasznym przemądrzalcem."
+      },
+      "register": "informal",
+      "tags": ["charakter", "negatywne", "szkoła"]
+    },
+    {
+      "en": "a stick-in-the-mud",
+      "pl": "sztywniak, ktoś niechętny nowościom",
+      "meaning_pl": "ktoś, kto nie lubi zmian i nie chce próbować niczego nowego; obrazowo: kij wbity w błoto, który ani drgnie",
+      "example": {
+        "en": "My grandad is no stick-in-the-mud – at 75 he started learning to play the guitar.",
+        "pl": "Mój dziadek wcale nie jest sztywniakiem – w wieku 75 lat zaczął się uczyć grać na gitarze."
+      },
+      "register": "informal",
+      "tags": ["charakter", "negatywne"]
+    },
+    {
+      "en": "a dark horse",
+      "pl": "ktoś, kto skrywa swoje talenty; czarny koń (w rywalizacji)",
+      "meaning_pl": "w brytyjskim angielskim to osoba, która mało o sobie mówi, a potem zaskakuje ukrytym talentem; w konkursie albo wyborach to ktoś, kto niespodziewanie wygrywa; pochodzi z wyścigów konnych: nieznany koń, na którego nikt nie stawiał",
+      "example": {
+        "en": "You're a dark horse! I had no idea you could sing so well.",
+        "pl": "Ale mnie zaskoczyłeś! Nie miałam pojęcia, że tak dobrze śpiewasz."
+      },
+      "register": "neutral",
+      "tags": ["charakter", "zaskoczenie"]
+    },
+    {
+      "en": "the black sheep (of the family)",
+      "pl": "czarna owca (w rodzinie)",
+      "meaning_pl": "osoba, która odstaje od reszty rodziny albo grupy i według nich przynosi im wstyd; działa tak samo jak po polsku",
+      "example": {
+        "en": "My uncle was the black sheep of the family because he dropped out of school and moved abroad.",
+        "pl": "Mój wujek był czarną owcą w rodzinie, bo rzucił szkołę i wyjechał za granicę."
+      },
+      "register": "neutral",
+      "tags": ["rodzina", "negatywne"]
+    },
+    {
+      "en": "a chip off the old block",
+      "pl": "wykapany ojciec, wykapana matka",
+      "meaning_pl": "dziecko, które charakterem albo zachowaniem bardzo przypomina rodzica; chip to odłupany kawałek drewna z tego samego kloca, czyli z tego samego materiału; zwykle mówione z sympatią",
+      "example": {
+        "en": "Jack plays the piano just like his dad – he's a real chip off the old block.",
+        "pl": "Jack gra na pianinie zupełnie jak jego tata – wykapany ojciec."
+      },
+      "register": "informal",
+      "tags": ["rodzina", "podobieństwo"]
+    },
+    {
+      "en": "be the salt of the earth",
+      "pl": "być porządnym, uczciwym człowiekiem; sól ziemi",
+      "meaning_pl": "o zwykłych, szczerych i dobrych ludziach, na których zawsze można liczyć; pochodzi z Biblii (Kazanie na górze), stąd też polskie sól ziemi",
+      "example": {
+        "en": "Our neighbours are the salt of the earth – they'd help anyone in trouble.",
+        "pl": "Nasi sąsiedzi to porządni, dobrzy ludzie – pomogliby każdemu w potrzebie."
+      },
+      "register": "neutral",
+      "tags": ["charakter", "pozytywne"]
+    },
+    {
+      "en": "a free spirit",
+      "pl": "wolny duch, niezależna dusza",
+      "meaning_pl": "ktoś, kto żyje po swojemu i nie przejmuje się zasadami ani oczekiwaniami innych; zwykle mówione z podziwem",
+      "example": {
+        "en": "My aunt has always been a free spirit – she quit her office job to travel around South America.",
+        "pl": "Moja ciocia zawsze była wolnym duchem – rzuciła pracę w biurze, żeby podróżować po Ameryce Południowej."
+      },
+      "register": "neutral",
+      "tags": ["charakter", "pozytywne", "podróże"]
+    },
+    {
+      "en": "a creature of habit",
+      "pl": "człowiek przyzwyczajeń",
+      "meaning_pl": "ktoś, kto lubi robić te same rzeczy w ten sam sposób i o tej samej porze; często mówi się tak o sobie: I'm a creature of habit",
+      "example": {
+        "en": "I'm a creature of habit – I have the same breakfast every morning and always sit in the same seat in class.",
+        "pl": "Jestem człowiekiem przyzwyczajeń – co rano jem to samo śniadanie i zawsze siadam na tym samym miejscu w klasie."
+      },
+      "register": "neutral",
+      "tags": ["nawyki", "styl życia"]
+    },
+    {
+      "en": "a people person",
+      "pl": "ktoś, kto świetnie dogaduje się z ludźmi",
+      "meaning_pl": "osoba, która lubi ludzi, łatwo nawiązuje kontakty i dobrze sobie radzi w pracy z innymi; często pada w rozmowach o tym, jaki zawód komuś pasuje",
+      "example": {
+        "en": "She's a real people person, so working in a hotel suits her perfectly.",
+        "pl": "Ona naprawdę świetnie dogaduje się z ludźmi, więc praca w hotelu idealnie do niej pasuje."
+      },
+      "register": "informal",
+      "tags": ["charakter", "pozytywne", "praca"]
+    },
+    {
+      "en": "a loose cannon",
+      "pl": "osoba nieobliczalna",
+      "meaning_pl": "ktoś, kogo nie da się kontrolować i kto mówi albo robi rzeczy szkodzące własnej grupie; obrazowo: niezabezpieczone działo, które toczy się po pokładzie statku; częste w tekstach o polityce i sporcie",
+      "example": {
+        "en": "The coach dropped him from the team because he had become a loose cannon.",
+        "pl": "Trener odsunął go od drużyny, bo zrobił się nieobliczalny."
+      },
+      "register": "neutral",
+      "tags": ["charakter", "negatywne", "sport"]
+    },
+    {
+      "en": "have a heart of gold",
+      "pl": "mieć złote serce",
+      "meaning_pl": "być bardzo dobrym i życzliwym, chętnie pomagać innym; działa tak samo jak po polsku; często w zdaniu z ale, gdy ktoś z zewnątrz wygląda groźnie albo surowo",
+      "example": {
+        "en": "Mr Smith may seem strict, but he has a heart of gold and always helps students who are struggling.",
+        "pl": "Pan Smith może się wydawać surowy, ale ma złote serce i zawsze pomaga uczniom, którzy mają trudności."
+      },
+      "register": "neutral",
+      "tags": ["charakter", "pozytywne", "szkoła"]
+    },
+    {
+      "en": "down-to-earth",
+      "pl": "twardo stąpający po ziemi, bezpretensjonalny",
+      "meaning_pl": "o kimś praktycznym i rozsądnym, kto nie gwiazdorzy, choć mógłby; bardzo częste w opisach znanych osób: she's famous but really down-to-earth",
+      "example": {
+        "en": "Despite being a world champion, she is very down-to-earth and always happy to chat with her fans.",
+        "pl": "Choć jest mistrzynią świata, zupełnie nie gwiazdorzy i zawsze chętnie rozmawia z fanami."
+      },
+      "register": "neutral",
+      "tags": ["charakter", "pozytywne", "opis osoby"]
+    },
+    {
+      "en": "be set in your ways",
+      "pl": "być przywiązanym do swoich przyzwyczajeń",
+      "meaning_pl": "o kimś (często starszym), kto od lat robi wszystko tak samo i nie chce niczego zmieniać; set znaczy tu zastygły, utrwalony",
+      "example": {
+        "en": "My grandparents are quite set in their ways, so it took them ages to start using a smartphone.",
+        "pl": "Moi dziadkowie są dość przywiązani do swoich przyzwyczajeń, więc długo trwało, zanim zaczęli używać smartfona."
+      },
+      "register": "neutral",
+      "tags": ["charakter", "nawyki"]
+    },
+    {
+      "en": "be full of yourself",
+      "pl": "być zadufanym w sobie",
+      "meaning_pl": "mieć o sobie za wysokie mniemanie i ciągle mówić o sobie i swoich sukcesach; zaimek zmienia się z osobą: full of himself, full of herself",
+      "example": {
+        "en": "Since he got into the national team, he's been really full of himself.",
+        "pl": "Odkąd dostał się do reprezentacji, jest strasznie zadufany w sobie."
+      },
+      "register": "informal",
+      "tags": ["charakter", "negatywne"]
+    },
+    {
+      "en": "get too big for your boots",
+      "pl": "zadzierać nosa; woda sodowa uderzyła komuś do głowy",
+      "meaning_pl": "zachowywać się, jakby było się ważniejszym niż w rzeczywistości, zwykle po jakimś sukcesie; idiom brytyjski; obrazowo: ktoś tak urósł we własnych oczach, że nie mieści się w butach",
+      "example": {
+        "en": "After winning one talent show, he got too big for his boots and stopped talking to his old friends.",
+        "pl": "Po wygraniu jednego talent show woda sodowa uderzyła mu do głowy i przestał rozmawiać ze starymi znajomymi."
+      },
+      "register": "informal",
+      "tags": ["charakter", "negatywne", "brytyjskie"]
+    },
+    {
+      "en": "have a chip on your shoulder (about sth)",
+      "pl": "mieć kompleksy, mieć żal do świata",
+      "meaning_pl": "czuć się gorszym albo niesprawiedliwie potraktowanym i przez to być ciągle drażliwym i obrażonym; chip to tu nie czip, tylko odłupany kawałek drewna",
+      "example": {
+        "en": "He's had a chip on his shoulder ever since he wasn't chosen for the school team.",
+        "pl": "Odkąd nie dostał się do szkolnej drużyny, ma żal do całego świata."
+      },
+      "register": "informal",
+      "tags": ["charakter", "emocje", "negatywne"]
+    },
+    {
+      "en": "(as) cool as a cucumber",
+      "pl": "zupełnie spokojny, opanowany",
+      "meaning_pl": "całkowicie spokojny, nawet w stresującej sytuacji, np. na egzaminie albo w finale; cool znaczy tu opanowany, a nie fajny; łatwo zapamiętać przez aliterację cool – cucumber",
+      "example": {
+        "en": "Everyone else was nervous before the exam, but Ania was as cool as a cucumber.",
+        "pl": "Wszyscy inni denerwowali się przed egzaminem, ale Ania zachowała stoicki spokój."
+      },
+      "register": "informal",
+      "tags": ["emocje", "spokój"]
+    },
+    {
+      "en": "have a short fuse",
+      "pl": "być wybuchowym, łatwo wpadać w złość",
+      "meaning_pl": "szybko i łatwo się denerwować; fuse to lont, a im krótszy lont, tym szybciej następuje wybuch; to cecha charakteru, a nie jedna sytuacja",
+      "example": {
+        "en": "Be careful what you say to him – he has a very short fuse.",
+        "pl": "Uważaj, co do niego mówisz – on bardzo łatwo wybucha."
+      },
+      "register": "informal",
+      "tags": ["emocje", "złość", "charakter"]
+    },
+    {
+      "en": "fly off the handle",
+      "pl": "wpaść w szał, wybuchnąć złością",
+      "meaning_pl": "nagle i gwałtownie się wściec; to jednorazowa reakcja w konkretnej sytuacji, a have a short fuse opisuje, jaki ktoś jest na co dzień",
+      "example": {
+        "en": "My mum flew off the handle when she saw the mess in the kitchen.",
+        "pl": "Mama wpadła w szał, kiedy zobaczyła bałagan w kuchni."
+      },
+      "register": "informal",
+      "tags": ["emocje", "złość"]
+    },
+    {
+      "en": "wear your heart on your sleeve",
+      "pl": "nie ukrywać swoich uczuć",
+      "meaning_pl": "otwarcie pokazywać, co się czuje, zamiast to ukrywać; zaimek zmienia się z osobą: she wears her heart on her sleeve",
+      "example": {
+        "en": "Kasia wears her heart on her sleeve – you can always tell when something is bothering her.",
+        "pl": "Kasia nie ukrywa swoich uczuć – zawsze widać, kiedy coś ją gryzie."
+      },
+      "register": "neutral",
+      "tags": ["emocje", "charakter"]
+    }
+  ]
+}

@@ -5,328 +5,465 @@
   "group": "present",
   "aspect": "continuous",
   "tabLabel": ["Pres.", "Cont."],
-  "oneLiner_pl": "dzieje się teraz albo tymczasowo",
+  "oneLiner_pl": "czynność w trakcie: dzieje się teraz albo „na razie” i jeszcze się nie skończyła",
   "timeline": {
     "now": 0.65,
     "marks": [
-      {
-        "kind": "span",
-        "from": 0.5,
-        "to": 0.8,
-        "label": "around now"
-      }
+      { "kind": "span", "from": 0.5, "to": 0.8, "label": "in progress" },
+      { "kind": "point", "from": 0.9, "label": "arranged plan" }
     ]
   },
   "howToChoose": [
     {
       "step_pl": "sygnał",
-      "text_pl": "Widzisz now, at the moment, Look!, Listen!, this week, these days?"
+      "text_pl": "Szukasz: now, right now, at the moment, currently, these days albo Look! / Listen! na początku zdania. Często wystarczy zdanie obok, które pokazuje „teraz”, np. Be quiet! albo Can I call you back? Przy przyszłości: konkretny termin i plan już ustalony (umówiony, zarezerwowany, bilet kupiony)."
     },
     {
       "step_pl": "relacja w czasie",
-      "text_pl": "Czynność trwa w tej chwili albo tymczasowo — zaczęła się i jeszcze się nie skończyła."
+      "text_pl": "Czynność już się zaczęła i jeszcze się nie skończyła. Patrzysz na nią od środka: trwa w chwili mówienia albo w okresie wokół teraz, ale nie na stałe. Przy przyszłości to samo myślenie: czynność będzie później, ale ustalenie (umówienie, rezerwacja) już się stało i „trwa” teraz."
+    },
+    {
+      "step_pl": "pułapka",
+      "text_pl": "Czasowniki stanu (know, like, want, believe, understand) zostają w Present Simple nawet przy now. Coś stałego albo regularnego (usually, every day) to też Present Simple. A gdy since, for + okres albo How long liczą czas od przeszłości do teraz → Present Perfect Continuous (przy czasownikach stanu Present Perfect: I've known her for years)."
     },
     {
       "step_pl": "forma",
-      "text_pl": "am / is / are + V-ing: It is raining."
+      "text_pl": "am / is / are + V-ing. Przeczenie: am not / isn't / aren't + V-ing. Pytanie: Am / Is / Are + podmiot + V-ing?"
     }
   ],
   "forms": {
     "active": {
       "affirmative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "am / is / are",
-            "role": "aux"
-          },
-          {
-            "text": "V-ing",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "am / is / are", "role": "aux" },
+          { "text": "V-ing", "role": "verb" }
         ],
-        "example": {
-          "en": "Look! It's snowing.",
-          "pl": "Patrz! Pada śnieg."
-        }
+        "example": { "en": "Look! It's snowing.", "pl": "Patrz! Pada śnieg." },
+        "note_pl": "Dosłownie „jestem w trakcie robienia”: am / is / are mówi, kto i że chodzi o teraz, a -ing pokazuje czynność w toku. I → am, he / she / it → is, you / we / they → are. Pisownia: make → making (nieme -e znika), lie → lying (-ie → -y). Jedna samogłoska + jedna spółgłoska na końcu i akcent na ostatniej sylabie → podwajasz spółgłoskę: run → running, begin → beginning. Bez akcentu na końcu nie: visit → visiting, listen → listening. w, x, y nigdy się nie podwajają: fix → fixing. W brytyjskim angielskim -l po jednej samogłosce podwaja się nawet bez akcentu: travel → travelling (w amerykańskim traveling), ale feel → feeling."
       },
       "negative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "am / is / are",
-            "role": "aux"
-          },
-          {
-            "text": "not",
-            "role": "particle"
-          },
-          {
-            "text": "V-ing",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "am / is / are", "role": "aux" },
+          { "text": "not", "role": "particle" },
+          { "text": "V-ing", "role": "verb" }
         ],
         "example": {
           "en": "I'm not watching TV — you can turn it off.",
           "pl": "Nie oglądam telewizji — możesz ją wyłączyć."
-        }
+        },
+        "note_pl": "not stoi zaraz po am / is / are, jak w każdym zdaniu z be. Skróty: isn't, aren't, a dla I tylko I'm not. Równie poprawne są she's not, they're not."
       },
       "question": {
         "pattern": [
-          {
-            "text": "Am / Is / Are",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "V-ing",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Am / Is / Are", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "V-ing", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
-        "example": {
-          "en": "Are you listening to me?",
-          "pl": "Słuchasz mnie?"
-        }
+        "example": { "en": "Are you listening to me?", "pl": "Słuchasz mnie?" },
+        "note_pl": "Nie dodajesz do / does: be samo tworzy pytanie, wystarczy zamienić je miejscami z podmiotem (You are… → Are you…?)."
       },
       "whQuestion": {
         "pattern": [
-          {
-            "text": "Wh-word",
-            "role": "neutral"
-          },
-          {
-            "text": "am / is / are",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "V-ing",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Wh-word", "role": "neutral" },
+          { "text": "am / is / are", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "V-ing", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
-        "example": {
-          "en": "What are you doing tonight?",
-          "pl": "Co robisz dziś wieczorem?"
-        }
+        "example": { "en": "Why is she crying?", "pl": "Dlaczego ona płacze?" },
+        "note_pl": "Gdy pytasz o podmiot (Who? What?), nie ma przestawienia, a czasownik jest w liczbie pojedynczej: Who is making that noise?"
       }
     },
     "passive": {
       "affirmative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "am / is / are being",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "am / is / are being", "role": "aux" },
+          { "text": "V3", "role": "verb" }
         ],
         "example": {
-          "en": "The road is being repaired.",
-          "pl": "Droga jest (właśnie) remontowana."
-        }
+          "en": "The road is being repaired at the moment.",
+          "pl": "Droga jest teraz w remoncie."
+        },
+        "note_pl": "Bierna = am / is / are + being + V3. being to -ing od be: pokazuje, że ktoś właśnie coś z tym robi. Bez being zmienia się sens: The road is repaired = droga jest już naprawiona (stan po naprawie)."
       },
       "negative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "am / is / are",
-            "role": "aux"
-          },
-          {
-            "text": "not",
-            "role": "particle"
-          },
-          {
-            "text": "being",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "am / is / are", "role": "aux" },
+          { "text": "not", "role": "particle" },
+          { "text": "being", "role": "aux" },
+          { "text": "V3", "role": "verb" }
         ],
         "example": {
           "en": "The museum isn't being renovated at the moment.",
           "pl": "Muzeum nie jest teraz remontowane."
-        }
+        },
+        "note_pl": "not stoi po am / is / are, przed being."
       },
       "question": {
         "pattern": [
-          {
-            "text": "Am / Is / Are",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "being",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Am / Is / Are", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "being", "role": "aux" },
+          { "text": "V3", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
         "example": {
-          "en": "Is the room being cleaned now?",
+          "en": "Is the room being cleaned right now?",
           "pl": "Czy pokój jest teraz sprzątany?"
-        }
+        },
+        "note_pl": "Na początek idzie am / is / are, a being zostaje za podmiotem."
       },
       "whQuestion": {
         "pattern": [
-          {
-            "text": "Wh-word",
-            "role": "neutral"
-          },
-          {
-            "text": "am / is / are",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "being",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Wh-word", "role": "neutral" },
+          { "text": "am / is / are", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "being", "role": "aux" },
+          { "text": "V3", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
         "example": {
-          "en": "Why are the trees being cut down?",
-          "pl": "Dlaczego te drzewa są wycinane?"
+          "en": "Why are the trees in the park being cut down?",
+          "pl": "Dlaczego drzewa w parku są wycinane?"
         }
       }
     }
   },
+  "modals": [
+    {
+      "modal": "must be",
+      "pattern": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "must", "role": "aux" },
+        { "text": "be", "role": "aux" },
+        { "text": "V-ing", "role": "verb" }
+      ],
+      "example": {
+        "en": "Kasia isn't answering — she must be driving.",
+        "pl": "Kasia nie odbiera — na pewno prowadzi."
+      },
+      "note_pl": "To nie jest Present Continuous, tylko struktura modalna: must + ten sam kawałek be + V-ing. Prawie pewny wniosek o tym, co dzieje się teraz. Bez -ing (She must drive) znaczyłoby „musi prowadzić” — obowiązek."
+    },
+    {
+      "modal": "can't be",
+      "pattern": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "can't", "role": "aux" },
+        { "text": "be", "role": "aux" },
+        { "text": "V-ing", "role": "verb" }
+      ],
+      "example": {
+        "en": "He can't be sleeping — I can hear him playing the guitar.",
+        "pl": "Niemożliwe, żeby spał — słyszę, jak gra na gitarze."
+      },
+      "note_pl": "Struktura modalna, nie sam czas. Pewność, że coś się teraz NIE dzieje. W brytyjskim angielskim przeczeniem od must be jest can't be, nie mustn't be. W amerykańskim spotkasz w tym znaczeniu także must not be."
+    },
+    {
+      "modal": "might / may / could be",
+      "pattern": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "might / may / could", "role": "aux" },
+        { "text": "be", "role": "aux" },
+        { "text": "V-ing", "role": "verb" }
+      ],
+      "example": {
+        "en": "Don't ring him now — he could be having dinner with his family.",
+        "pl": "Nie dzwoń teraz do niego — może je kolację z rodziną."
+      },
+      "note_pl": "Struktura modalna: przypuszczenie, że coś może dziać się teraz, ale nie wiesz na pewno. might, may i could są tu prawie wymienne."
+    },
+    {
+      "modal": "should be",
+      "pattern": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "should", "role": "aux" },
+        { "text": "be", "role": "aux" },
+        { "text": "V-ing", "role": "verb" }
+      ],
+      "example": {
+        "en": "Your exam is tomorrow — you should be revising, not playing computer games!",
+        "pl": "Masz jutro egzamin — powinieneś teraz powtarzać materiał, a nie grać na komputerze!"
+      },
+      "note_pl": "Struktura modalna: coś powinno dziać się teraz, a się nie dzieje — uwaga albo krytyka. revise to brytyjskie „powtarzać do egzaminu”. Drugie znaczenie: przypuszczenie, że coś pewnie właśnie się dzieje albo zaraz się zacznie: Her plane should be landing about now. — Jej samolot pewnie właśnie ląduje."
+    }
+  ],
   "uses": [
     {
-      "title_pl": "Teraz, w trakcie",
-      "explanation_pl": "Czynność trwa w chwili mówienia.",
+      "title_pl": "Teraz, w trakcie mówienia",
+      "explanation_pl": "Czynność zaczęła się wcześniej i jeszcze trwa, gdy o niej mówisz. Często nie ma żadnego słowa-sygnału — wystarczy zdanie obok, które pokazuje „teraz”: Be quiet!, Can I call you back?",
       "examples": [
+        { "en": "Be quiet — the baby is sleeping.", "pl": "Cicho — dziecko śpi." },
+        { "en": "Listen! Someone is knocking at the door.", "pl": "Słuchaj! Ktoś puka do drzwi." },
         {
-          "en": "Be quiet — the baby is sleeping.",
-          "pl": "Cicho — dziecko śpi."
+          "en": "I can't talk right now — I'm doing my homework.",
+          "pl": "Nie mogę teraz rozmawiać — odrabiam lekcje."
         }
       ]
     },
     {
-      "title_pl": "Sytuacja tymczasowa",
-      "explanation_pl": "Coś trwa przez jakiś czas, ale nie na stałe.",
+      "title_pl": "Sytuacja tymczasowa, „na razie”",
+      "explanation_pl": "Czynność nie musi trwać akurat w tej sekundzie. Wystarczy, że trwa w okresie wokół teraz (this week, these days, at the moment) i ma swój koniec. Jeśli to samo jest stałe albo regularne, wracasz do Present Simple.",
       "examples": [
+        { "en": "I'm staying with my aunt this week.", "pl": "W tym tygodniu mieszkam u cioci." },
         {
-          "en": "I'm staying with my aunt this week.",
-          "pl": "W tym tygodniu mieszkam u cioci."
+          "en": "My brother is working in a café this summer.",
+          "pl": "Mój brat pracuje tego lata w kawiarni."
+        },
+        {
+          "en": "She's reading a great book about the history of Kraków.",
+          "pl": "Ostatnio czyta świetną książkę o historii Krakowa (niekoniecznie w tej chwili)."
         }
       ]
     },
     {
-      "title_pl": "Umówione plany",
-      "explanation_pl": "Plan jest już ustalony z kimś i na konkretny termin.",
+      "title_pl": "Zmiana w toku",
+      "explanation_pl": "Coś się zmienia i ta zmiana jeszcze trwa: coraz lepiej, coraz więcej, coraz drożej. Proces się nie skończył, więc Continuous. Typowe: get + stopień wyższy (getting better), more and more, rise, grow, change.",
       "examples": [
         {
-          "en": "We're meeting Ola tonight.",
-          "pl": "Spotykamy się z Olą dziś wieczorem."
+          "en": "Your English is getting better and better.",
+          "pl": "Twój angielski jest coraz lepszy."
+        },
+        {
+          "en": "More and more people are working from home.",
+          "pl": "Coraz więcej ludzi pracuje z domu."
+        },
+        {
+          "en": "The climate is changing faster than scientists expected.",
+          "pl": "Klimat zmienia się szybciej, niż spodziewali się naukowcy."
+        }
+      ]
+    },
+    {
+      "title_pl": "Umówiony plan na przyszłość",
+      "explanation_pl": "Mówisz o przyszłości, ale plan jest już „w toku”: umówiony z kimś, wpisany do kalendarza, bilety kupione. Dlatego zwykle podajesz termin (tonight, on Friday), żeby było jasne, że to nie teraz. Sam zamiar bez ustaleń to be going to, decyzja w chwili mówienia — will. Do rzeczy, których nikt nie planuje (pogoda), ta forma się nie nadaje.",
+      "examples": [
+        { "en": "We're meeting Ola at six tonight.", "pl": "Spotykamy się z Olą dziś o szóstej." },
+        { "en": "I'm flying to Dublin on Friday.", "pl": "W piątek lecę do Dublina." },
+        { "en": "What are you doing this weekend?", "pl": "Co robisz w ten weekend?" }
+      ]
+    },
+    {
+      "title_pl": "always / constantly / forever + V-ing: coś, co denerwuje",
+      "explanation_pl": "Present Simple z always to zwykły, neutralny nawyk. Continuous z always, constantly albo forever dodaje emocję: coś dzieje się tak często, że wydaje się ciągle w toku — i zwykle to irytuje. Słowo stoi między am / is / are a V-ing.",
+      "examples": [
+        {
+          "en": "You're always leaving your dirty socks on the floor!",
+          "pl": "Ciągle zostawiasz brudne skarpetki na podłodze!"
+        },
+        {
+          "en": "My neighbour is constantly complaining about the noise.",
+          "pl": "Mój sąsiad bez przerwy narzeka na hałas."
+        },
+        { "en": "He's forever losing his keys.", "pl": "Wiecznie gubi klucze." }
+      ]
+    },
+    {
+      "title_pl": "Czasowniki stanu: kiedy jednak -ing",
+      "explanation_pl": "Czasowniki stanu (know, like, want, believe, belong, understand) opisują stan, a nie czynność. Stan nie ma „środka”, więc zostaje w Simple. Kilka z nich ma jednak drugie, czynnościowe znaczenie — i wtedy -ing jest poprawne: think = zastanawiać się, have = jeść albo brać (have a shower; w amerykańskim częściej take a shower), see = spotykać się z kimś albo iść do lekarza, taste = próbować smaku, be = zachowywać się w danej chwili. Ale have = mieć, posiadać zostaje w Simple: I have a car, nie I'm having a car. see i hear jako widzieć i słyszeć to stany — gdy mówisz o tym, co widzisz albo słyszysz w tej chwili, często używasz can: I can hear a strange noise.",
+      "examples": [
+        {
+          "en": "I'm thinking about studying abroad.",
+          "pl": "Zastanawiam się nad studiami za granicą."
+        },
+        {
+          "en": "She's having a shower — can she call you back?",
+          "pl": "Ona bierze prysznic — może do ciebie oddzwonić?"
+        },
+        {
+          "en": "He's being really rude today — that's not like him.",
+          "pl": "Zachowuje się dziś bardzo niegrzecznie — to do niego niepodobne."
         }
       ]
     }
   ],
   "signalWords": [
+    { "word": "now", "note_pl": "teraz. Przy czasownikach stanu nadal Simple: I understand now." },
+    { "word": "right now", "note_pl": "w tej chwili — mocniej niż samo now" },
+    { "word": "at the moment", "note_pl": "w tej chwili albo „obecnie, na razie”" },
     {
-      "word": "now"
+      "word": "currently",
+      "note_pl": "obecnie (trochę formalne). Ze stanami zostaje Simple: We currently need more volunteers."
     },
     {
-      "word": "right now"
+      "word": "Look! / Listen!",
+      "note_pl": "na początku zdania: coś dzieje się właśnie teraz. Ale Look at those clouds! przed czymś, co dopiero się stanie → be going to."
     },
     {
-      "word": "at the moment"
+      "word": "these days",
+      "note_pl": "w tym okresie, ostatnio. Bywa też z Present Simple, gdy mówisz o czymś ogólnym: These days most people pay by card."
     },
     {
-      "word": "currently"
+      "word": "this week / this month",
+      "note_pl": "okres wokół teraz → coś tymczasowego. Gdy liczysz wynik (three tests this week), to już Present Perfect."
     },
     {
-      "word": "Look!"
+      "word": "still",
+      "note_pl": "nadal — przy czynności, która trwa dłużej, niż się spodziewasz: She's still sleeping. Ale samo still nie wybiera czasu: ze stanami i nawykami zostaje Present Simple (He still lives with his parents), a w przeczeniach często jest Present Perfect (I still haven't finished)."
     },
     {
-      "word": "Listen!"
+      "word": "always / constantly / forever",
+      "note_pl": "z -ing = coś irytującego, co dzieje się za często. always z Present Simple to neutralny nawyk: I always get up at seven."
     },
     {
-      "word": "this week"
+      "word": "more and more",
+      "note_pl": "zmiana w toku: More and more people are cycling to work."
     },
     {
-      "word": "these days"
+      "word": "tonight / tomorrow",
+      "note_pl": "przyszłość, ale tylko gdy plan jest już ustalony: I'm seeing the dentist tomorrow. Przypuszczenie albo decyzja teraz → will, sam zamiar → be going to, rozkład jazdy → Present Simple: The bus leaves at six tomorrow."
     },
     {
-      "word": "tonight",
-      "note_pl": "przy umówionych planach"
+      "word": "Be quiet! / Hurry up!",
+      "note_pl": "polecenie, a obok powód, który dzieje się teraz: Hurry up! Everyone is waiting."
     }
   ],
   "relatedTenses": [
     {
       "id": "present-simple",
-      "relation_pl": "Continuous — teraz albo tymczasowo. Simple — stale albo regularnie.",
+      "relation_pl": "Zapytaj: to trwa teraz i się skończy, czy jest stałe albo regularne? W trakcie, tymczasowo → Continuous. Stale, zwykle, co tydzień → Simple. Czasowniki stanu idą do Simple, chyba że mają czynnościowe znaczenie (think = zastanawiać się, have = jeść). Przy przyszłości: rozkład jazdy, plan lekcji, program kina → Present Simple; twój własny, umówiony plan → Present Continuous.",
       "contrast": [
+        { "en": "I live in Kraków.", "pl": "Mieszkam w Krakowie (na stałe)." },
         {
-          "en": "I'm taking the bus this week.",
-          "pl": "W tym tygodniu jeżdżę autobusem."
+          "en": "I'm living with my cousin until I find a flat.",
+          "pl": "Mieszkam u kuzyna, dopóki nie znajdę mieszkania (tymczasowo)."
+        },
+        { "en": "He usually cycles to school.", "pl": "Zwykle jeździ do szkoły rowerem (nawyk)." },
+        {
+          "en": "He's taking the bus this week because his bike is broken.",
+          "pl": "W tym tygodniu jeździ autobusem, bo zepsuł mu się rower (tymczasowo)."
+        },
+        { "en": "I think it's a good idea.", "pl": "Uważam, że to dobry pomysł (opinia — stan)." },
+        { "en": "I'm thinking about it.", "pl": "Zastanawiam się nad tym (czynność w głowie)." },
+        {
+          "en": "The train leaves at 7.15 tomorrow.",
+          "pl": "Pociąg odjeżdża jutro o 7.15 (rozkład)."
         },
         {
-          "en": "I usually walk to school.",
-          "pl": "Zwykle chodzę do szkoły pieszo."
+          "en": "I'm leaving at 7.15 tomorrow.",
+          "pl": "Wyjeżdżam jutro o 7.15 (mój plan, już ustalony)."
+        }
+      ]
+    },
+    {
+      "id": "be-going-to",
+      "relation_pl": "Oba mówią o przyszłości, która ma korzenie w teraz. be going to = zamiar (postanowiłem, ale nic jeszcze nie ustaliłem) albo przewidywanie z tego, co widzisz. Present Continuous = plan już ustalony: termin, rezerwacja, umówiona osoba. Przy planach często obie formy są poprawne. Przy rzeczach, których nikt nie planuje (pogoda), Present Continuous odpada.",
+      "contrast": [
+        {
+          "en": "I'm going to ask Ola out.",
+          "pl": "Zamierzam zaprosić Olę na randkę (zamiar — ona jeszcze nie wie)."
+        },
+        {
+          "en": "I'm taking Ola to the cinema on Saturday.",
+          "pl": "W sobotę idę z Olą do kina (umówione)."
+        },
+        {
+          "en": "Look at those clouds — it's going to rain.",
+          "pl": "Spójrz na te chmury — będzie padać (widzisz dowód)."
+        },
+        { "en": "It's raining — take an umbrella.", "pl": "Pada — weź parasol (dzieje się teraz)." }
+      ]
+    },
+    {
+      "id": "future-simple",
+      "relation_pl": "will to decyzja w chwili mówienia, propozycja, obietnica albo przypuszczenie (I think…, probably). Present Continuous to plan ustalony, zanim zacząłeś mówić. Pytanie kontrolne: czy to było już ustalone wcześniej?",
+      "contrast": [
+        {
+          "en": "I'm meeting Kuba at the station at five.",
+          "pl": "O piątej spotykam się z Kubą na dworcu (umówione wcześniej)."
+        },
+        {
+          "en": "Kuba's arriving at five? OK, I'll meet him at the station.",
+          "pl": "Kuba przyjeżdża o piątej? Dobra, wyjdę po niego na dworzec (decyzja teraz)."
+        },
+        {
+          "en": "I'm having dinner with my parents on Sunday.",
+          "pl": "W niedzielę jem obiad z rodzicami (ustalone)."
+        },
+        {
+          "en": "I'll probably have dinner with my parents on Sunday.",
+          "pl": "W niedzielę pewnie zjem obiad z rodzicami (przypuszczenie)."
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-continuous",
+      "relation_pl": "Oba opisują czynność w toku. Present Continuous patrzy tylko na teraz: co się dzieje. Present Perfect Continuous patrzy też wstecz: jak długo to już trwa. Gdy since, for + okres, How long albo all day liczą czas od przeszłości do teraz, Present Continuous odpada — nawet jeśli po polsku mówisz w czasie teraźniejszym. for w innym znaczeniu (revising for an exam, waiting for someone) nic nie zmienia. A przy planie albo tymczasowym pobycie Present Continuous jest OK: How long are you staying? I'm staying for two weeks.",
+      "contrast": [
+        {
+          "en": "I'm revising for my history exam.",
+          "pl": "Powtarzam materiał do egzaminu z historii."
+        },
+        {
+          "en": "I've been revising for my history exam since eight o'clock.",
+          "pl": "Powtarzam materiał do egzaminu z historii od ósmej."
+        },
+        { "en": "Are you waiting for someone?", "pl": "Czekasz na kogoś?" },
+        { "en": "How long have you been waiting?", "pl": "Jak długo już czekasz?" }
+      ]
+    },
+    {
+      "id": "past-continuous",
+      "relation_pl": "Ten sam pomysł (czynność w toku, widziana od środka), tylko punktem odniesienia nie jest teraz, ale moment w przeszłości.",
+      "contrast": [
+        {
+          "en": "I'm cooking dinner, so I can't talk.",
+          "pl": "Gotuję obiad, więc nie mogę rozmawiać."
+        },
+        {
+          "en": "I was cooking dinner when you called.",
+          "pl": "Gotowałem obiad, kiedy zadzwoniłeś."
         }
       ]
     }
   ],
   "commonMistakes": [
     {
+      "wrong": "Sorry, I can't talk — I cook dinner.",
+      "right": "Sorry, I can't talk — I'm cooking dinner.",
+      "why_pl": "Po polsku „gotuję” znaczy i „teraz”, i „zwykle”. Po angielsku to dwie formy: czynność w trakcie to am + V-ing, a I cook = gotuję regularnie."
+    },
+    {
       "wrong": "I am knowing the answer.",
       "right": "I know the answer.",
-      "why_pl": "know to czasownik stanu — nie ma formy ciągłej."
+      "why_pl": "know opisuje stan w głowie, nie czynność — nie ma „środka”, więc nie ma -ing. Tak samo like, want, believe, understand, belong."
+    },
+    {
+      "wrong": "I'm working here since 2022.",
+      "right": "I've been working here since 2022.",
+      "why_pl": "since (i for + okres) liczą tu czas od przeszłości do teraz. Present Continuous tego nie umie: potrzebny jest Present Perfect Continuous albo Present Perfect (przy work oba są poprawne: I've worked here since 2022) — choć po polsku mówimy „pracuję tu od 2022”."
+    },
+    {
+      "wrong": "What do you do tonight?",
+      "right": "What are you doing tonight?",
+      "why_pl": "Pytasz o plan na konkretny wieczór, więc Continuous. What do you do? to pytanie o zawód: „czym się zajmujesz?”."
+    },
+    {
+      "wrong": "Look at those clouds — it's raining soon.",
+      "right": "Look at those clouds — it's going to rain soon.",
+      "why_pl": "Present Continuous na przyszłość to plany, które ktoś ustalił. Pogody nikt nie umawia, a chmury to dowód przed oczami → be going to."
+    },
+    {
+      "wrong": "Are you having a car?",
+      "right": "Do you have a car?",
+      "why_pl": "have = mieć, posiadać to stan, więc bez -ing. -ing tylko przy have = jeść, brać, przeżywać: I'm having lunch, We're having a great time. Po brytyjsku powiesz też Have you got a car?"
+    },
+    {
+      "wrong": "We're siting in the garden.",
+      "right": "We're sitting in the garden.",
+      "why_pl": "Jedna samogłoska + jedna spółgłoska na końcu i akcent na ostatniej sylabie → podwajasz: sit → sitting, get → getting, begin → beginning. Bez akcentu na końcu nie: visit → visiting. w, x, y się nie podwajają: fix → fixing. W brytyjskim angielskim -l po jednej samogłosce podwaja się nawet bez akcentu: travel → travelling (w amerykańskim traveling)."
     }
   ],
   "maturaTips_pl": [
-    "Czasowniki stanu (know, like, want, believe, belong) prawie zawsze zostają w Simple, nawet przy now."
+    "Zanim wpiszesz am / is / are + V-ing, sprawdź czasownik. Stan (know, believe, belong, need, seem) zostaje w Present Simple nawet przy now. Wyjątki to zmiana znaczenia: think = zastanawiać się, have = jeść, see = spotykać się. I'm loving it z reklamy to luźna mowa — na maturze love i like zostają w Simple.",
+    "since, for + okres albo How long, które liczą czas od przeszłości do teraz = Present Continuous odpada. Pułapka bierze się z polskiego: „uczę się od roku” to I've been learning for a year. Ale How long are you staying? (plan) i I'm staying with my aunt for a week (na razie) są poprawne.",
+    "Przyszłość w luce: szukaj dowodu, że plan jest ustalony (umówiona godzina, bilet, rezerwacja). Jest → Present Continuous. Sam zamiar → be going to. Decyzja w chwili mówienia albo przypuszczenie → will. Rozkład jazdy, plan lekcji, godzina seansu → Present Simple.",
+    "Transformacje: He's always interrupting me. ≈ He keeps interrupting me. keep + V-ing też znaczy, że coś ciągle się powtarza i zwykle denerwuje.",
+    "W tekście z lukami jedynym sygnałem bywa zdanie obok, np. Be quiet!, Hurry up! albo Can I call you back? Taka prośba albo polecenie zwykle znaczy, że coś dzieje się właśnie teraz. Uważaj tylko na Look at those clouds! — to dowód na przyszłość, czyli be going to.",
+    "W e-mailu formalnym zaczynasz od I am writing to complain about… albo I am writing to ask about… (Continuous, bo piszesz właśnie teraz; bez skrótów). Na koniec w formalnym I look forward to hearing from you (Simple brzmi bardziej oficjalnie), w nieformalnym często I'm looking forward to seeing you."
   ]
 }

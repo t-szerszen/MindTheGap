@@ -1,0 +1,626 @@
+[
+  {
+    "id": "wf-v-river-boats",
+    "type": "word-formation",
+    "text": "Last year the council ___ the river near our town, so now bigger boats can sail right into the centre.",
+    "gaps": [
+      {
+        "base": "DEEP",
+        "correct": ["deepened"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po podmiocie (the council), a przed dopełnieniem (the river) brakuje orzeczenia, czyli czasownika. Last year to zamknięta przeszłość, więc past simple."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Teraz wpływają większe łodzie, więc rzekę pogłębiono. „Pogłębić” = deepen."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "deep + -en → deepen, tak jak short → shorten. Na past simple dochodzi -ed: deepened. n się nie podwaja, bo -en jest nieakcentowane."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Samo deepen to 0 pkt, bo nie pasuje do last year. depth to rzeczownik (głębokość), a deeply przysłówek."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 1
+  },
+  {
+    "id": "wf-v-swimming-muscles",
+    "type": "word-formation",
+    "text": "Swimming is one of the best ways to ___ your back muscles without putting too much pressure on your knees.",
+    "gaps": [
+      {
+        "base": "STRENGTH",
+        "correct": ["strengthen"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po the best ways to stoi czasownik w formie podstawowej. Po luce jest dopełnienie your back muscles."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Pływanie sprawia, że mięśnie stają się silniejsze. „Wzmocnić” = strengthen."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Do rzeczownika strength dokleja się -en: strength → strengthen. Tak samo length → lengthen. Po to bez żadnej końcówki."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "strenghten (h przed t) to 0 pkt. Po g idzie th, tak jak w strength: streng-th-en."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-v-essay-limit",
+    "type": "word-formation",
+    "text": "My essay was almost 300 words long, but the limit was 250, so I had to ___ it before handing it in.",
+    "gaps": [
+      {
+        "base": "SHORT",
+        "correct": ["shorten"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po had to stoi czasownik w formie podstawowej. Po luce jest it, czyli to, z czym coś trzeba zrobić."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Słów było za dużo, więc wypracowanie trzeba było skrócić. „Skrócić” = shorten."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "short + -en → shorten. Przeszłość widać już w had to, więc sam czasownik zostaje bez -ed."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "shortage (niedobór) był odpowiedzią w prawdziwym arkuszu, ale to rzeczownik. Po had to musi być czasownik."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 1
+  },
+  {
+    "id": "wf-v-stress-immune",
+    "type": "word-formation",
+    "text": "Long-term stress ___ the immune system, which is why people under constant pressure catch colds more easily.",
+    "gaps": [
+      {
+        "base": "WEAK",
+        "correct": ["weakens"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Long-term stress to podmiot, the immune system to dopełnienie. Między nimi brakuje orzeczenia."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Ludzie w stresie łatwiej łapią przeziębienia, więc stres sprawia, że odporność słabnie. „Osłabiać” = weaken."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "weak + -en → weaken. Zdanie mówi o ogólnej prawdzie (is, catch), więc present simple. stress to it, czyli 3. osoba lp., więc -s: weakens."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "weaken bez -s to 0 pkt. weakness (słabość) to rzeczownik, a tu potrzebne jest orzeczenie."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-v-sea-levels",
+    "type": "word-formation",
+    "text": "Rising sea levels are ___ hundreds of towns and villages along the coast.",
+    "gaps": [
+      {
+        "base": "THREAT",
+        "correct": ["threatening"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po are, a przed dopełnieniem (hundreds of towns) stoi czasownik. are + czasownik z -ing to present continuous: coś dzieje się teraz, stopniowo."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Wyższe morze jest groźne dla miast na wybrzeżu. „Zagrażać” = threaten."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "threat + -en → threaten, potem + -ing → threatening. n się nie podwaja, bo akcent jest na pierwszej sylabie (THREAT-en), tak jak listen → listening."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "are threatened to strona bierna (są zagrożone) i po niej nie byłoby miejsca na dopełnienie hundreds of towns. threatenning (dwa n) to 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-v-scooter-rules",
+    "type": "word-formation",
+    "text": "After a series of accidents involving electric scooters, the government is considering ___ the rules on where they can be ridden.",
+    "gaps": [
+      {
+        "base": "TIGHT",
+        "correct": ["tightening"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po consider czasownik ma formę -ing (consider doing sth), a po luce jest dopełnienie the rules."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Po wypadkach przepisy mają być ostrzejsze. „Zaostrzyć przepisy” = tighten the rules."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "tight + -en → tighten, potem + -ing: tightening."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "tighten bez -ing to 0 pkt, bo po consider nie stawia się bezokolicznika. tightness to rzeczownik."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  },
+  {
+    "id": "wf-v-school-app",
+    "type": "word-formation",
+    "text": "The school app is free and ___ parents to check their children's grades at any time.",
+    "gaps": [
+      {
+        "base": "ABLE",
+        "correct": ["enables"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po and stoi drugie orzeczenie do tego samego podmiotu (the school app). Po luce jest dopełnienie parents i wzór sb to do sth."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Aplikacja daje rodzicom możliwość sprawdzania ocen, czyli ją umożliwia. „Umożliwiać” = enable, dosłownie „uczynić zdolnym”."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Prefiks en- przed able → enable. Pierwsze orzeczenie to is, więc drugie też jest w present simple, a app to it, więc -s: enables."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "disables (wyłącza, uniemożliwia) odwraca sens zdania. enable bez -s to też 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-v-debating-competition",
+    "type": "word-formation",
+    "text": "My English teacher ___ me to take part in the debating competition, and in the end our team won.",
+    "gaps": [
+      {
+        "base": "COURAGE",
+        "correct": ["encouraged"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po podmiocie (My English teacher), przed me brakuje orzeczenia. Pasuje wzór czasownik + sb + to do sth."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Wzięliśmy udział i wygraliśmy, więc nauczyciel zachęcał, a nie zniechęcał. „Zachęcić” = encourage."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "en- + courage → encourage. in the end our team won to przeszłość, więc + -d: encouraged."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "discouraged odwraca sens i daje 0 pkt. Literówka incouraged też: prefiks to en-, nie in-."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-v-windows-closed",
+    "type": "word-formation",
+    "text": "Before leaving the room, please ___ that all the windows are closed and the lights are switched off.",
+    "gaps": [
+      {
+        "base": "SURE",
+        "correct": ["ensure"],
+        "accepted": ["insure", "assure"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po please stoi tryb rozkazujący, czyli czasownik w formie podstawowej. Po luce jest that + całe zdanie."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Chodzi o to, żeby dopilnować, że okna są zamknięte. „Dopilnować, zapewnić” = ensure, dosłownie „uczynić pewnym”."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "en- + sure → ensure. Bez -s i bez -d, bo to polecenie."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Samo sure to przymiotnik i nie może być orzeczeniem (musiałoby być make sure). W arkuszu CKE przy SURE uznano też insure i assure, ale pisz ensure: po brytyjsku insure to zwykle „ubezpieczyć”, a assure łączy się z osobą, assure sb that… (zapewnić kogoś, że…), więc tutaj brzmi nienaturalnie."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-v-volunteering-kenya",
+    "type": "word-formation",
+    "text": "Volunteering at a school in Kenya last summer ___ my life in ways I had never expected.",
+    "gaps": [
+      {
+        "base": "RICH",
+        "correct": ["enriched"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Podmiot to cała grupa Volunteering at a school in Kenya last summer. Po niej, przed my life, brakuje orzeczenia."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Wolontariat dał mi coś dobrego, czego się nie spodziewałem. „Wzbogacić (życie)” = enrich."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "en- + rich → enrich. last summer i had never expected wskazują przeszłość, więc -ed: enriched."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "enrich bez -ed to 0 pkt, bo wolontariat był zeszłego lata. enrichment to rzeczownik."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-v-texting-drivers",
+    "type": "word-formation",
+    "text": "Drivers who text while driving are ___ not only their own lives but also the lives of other people on the road.",
+    "gaps": [
+      {
+        "base": "DANGER",
+        "correct": ["endangering"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po are stoi czasownik z -ing (present continuous), a po luce jest dopełnienie their own lives."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "SMS-y za kierownicą narażają życie. „Narażać na niebezpieczeństwo” = endanger."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "en- + danger → endanger, potem + -ing: endangering."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "endangered znasz z endangered species (gatunki zagrożone), ale are endangered to strona bierna, a tu po luce jest dopełnienie. dangerous to przymiotnik."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-v-tax-system",
+    "type": "word-formation",
+    "text": "The government has promised to ___ the tax system, which most people find far too complicated.",
+    "gaps": [
+      {
+        "base": "SIMPLE",
+        "correct": ["simplify"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po promised to stoi czasownik w formie podstawowej, a po nim dopełnienie the tax system."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "System jest za skomplikowany, więc rząd obiecał go uprościć. „Uprościć” = simplify."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "simple traci końcowe e, zostaje simpl-, i dochodzi -ify: simplify."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "simplefy i simplyfy to 0 pkt. simply to przysłówek, a simplicity rzeczownik."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-v-cheating-exam",
+    "type": "word-formation",
+    "text": "In my opinion, nothing ___ cheating in an exam, not even the fear of failing.",
+    "gaps": [
+      {
+        "base": "JUST",
+        "correct": ["justifies"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "nothing to podmiot, cheating in an exam to dopełnienie. Między nimi brakuje orzeczenia."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Autor uważa, że oszukiwania nic nie tłumaczy. „Usprawiedliwiać” = justify (just = słuszny, sprawiedliwy)."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "just + -ify → justify. To ogólna opinia, a nie jedno wydarzenie, więc present simple. nothing łączy się z czasownikiem jak it, więc -s; y po spółgłosce zmienia się w ie: justifies."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "justifys i justify bez -s to 0 pkt. justice (sprawiedliwość) to rzeczownik."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  },
+  {
+    "id": "wf-v-computer-lab",
+    "type": "word-formation",
+    "text": "Over the summer holidays our school is going to ___ its computer lab, which still has machines from 2012.",
+    "gaps": [
+      {
+        "base": "MODERN",
+        "correct": ["modernise"],
+        "accepted": ["modernize"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po is going to stoi czasownik w formie podstawowej, a po luce dopełnienie its computer lab."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "W pracowni stoi stary sprzęt, więc szkoła chce ją unowocześnić. „Zmodernizować” = modernise."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "modern + -ise → modernise. Pisownia z -ize (modernize) też jest dobra. Po going to bez końcówek."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "modernisation to rzeczownik, a modernity to „nowoczesność”. Po going to musi być czasownik."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 1
+  },
+  {
+    "id": "wf-v-parents-phone",
+    "type": "word-formation",
+    "text": "My parents always ___ me for spending too much time on my phone, but they check theirs all the time too.",
+    "gaps": [
+      {
+        "base": "CRITIC",
+        "correct": ["criticise"],
+        "accepted": ["criticize"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "My parents to podmiot, always okolicznik, me dopełnienie. Między always a me brakuje orzeczenia."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Rodzice mają pretensje o telefon, czyli krytykują. „Krytykować” = criticise."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "critic (krytyk) + -ise → criticise. Końcowe c zostaje, choć czyta się je jak s. Zdanie mówi o czymś, co się powtarza (always, check), więc present simple, a my parents to they, więc bez -s."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "criticises to 0 pkt, bo podmiot jest w liczbie mnogiej. critisise (s zamiast c) też. criticism to rzeczownik."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-v-london-rent",
+    "type": "word-formation",
+    "text": "I didn't ___ how expensive London was until I tried to rent a room there.",
+    "gaps": [
+      {
+        "base": "REAL",
+        "correct": ["realise"],
+        "accepted": ["realize"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po didn't stoi czasownik w formie podstawowej. Po luce jest pytanie zależne how expensive London was."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Dopiero przy szukaniu pokoju dotarło do mnie, jak tam drogo. „Zdać sobie sprawę” = realise."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "real + -ise → realise (z -ize: realize). Przeszłość jest już w didn't, więc czasownik zostaje bez -d."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "realised po didn't to 0 pkt. To też false friend: realise to przede wszystkim „zdać sobie sprawę”, a „realizować plan” to carry out a plan. really i reality to inne części mowy."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-v-new-account",
+    "type": "word-formation",
+    "text": "To ___ your new account, click on the link in the email we have just sent you.",
+    "gaps": [
+      {
+        "base": "ACTIVE",
+        "correct": ["activate"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "To na początku zdania oznacza cel (żeby…). Po nim stoi czasownik w formie podstawowej, a po luce dopełnienie your new account."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Kliknięcie w link uruchamia nowe konto. „Aktywować” = activate."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "active traci końcowe e i dochodzi -ate: activ- + -ate → activate."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "act to inny czasownik (działać, grać), activity to rzeczownik, a deactivate to odwrotność (wyłączyć konto)."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 1
+  },
+  {
+    "id": "wf-v-project-deadline",
+    "type": "word-formation",
+    "text": "I ___ how long the project would take, so I had to stay up until 2 a.m. to finish it on time.",
+    "gaps": [
+      {
+        "base": "ESTIMATE",
+        "correct": ["underestimated"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po podmiocie I brakuje orzeczenia, a po luce jest dopełnienie how long the project would take. had to w drugiej części mówi, że to przeszłość."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Siedziałem do drugiej w nocy, więc projekt zajął więcej czasu, niż myślałem. Oszacować za nisko, „nie docenić” = underestimate."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "under- (za mało) + estimate → underestimate, a na past simple + -d: underestimated."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "overestimated (przecenić) to odwrotna sytuacja: wtedy zostałoby mi wolnego czasu. Samo estimated nie tłumaczy, czemu siedziałem po nocy."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  },
+  {
+    "id": "wf-v-alarm-clock",
+    "type": "word-formation",
+    "text": "I ___ this morning because my alarm didn't go off, so I missed the first lesson.",
+    "gaps": [
+      {
+        "base": "SLEEP",
+        "correct": ["overslept"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po podmiocie I brakuje orzeczenia. this morning, didn't i missed wskazują past simple."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Budzik nie zadzwonił, więc spałem za długo, czyli zaspałem. „Zaspać” = oversleep (over- = za dużo)."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "over- + sleep → oversleep. sleep jest nieregularne (sleep – slept – slept), więc oversleep też: overslept."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "oversleeped to 0 pkt. Samo slept nie mówi, że spałem za długo."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-v-castle-war",
+    "type": "word-formation",
+    "text": "The castle was almost completely destroyed during the war, but it was ___ in the 1980s and now looks just as it did three hundred years ago.",
+    "gaps": [
+      {
+        "base": "BUILD",
+        "correct": ["rebuilt"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "it was ___ to strona bierna: was + trzecia forma czasownika."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Zamek zniszczono, a dziś wygląda jak dawniej, więc postawiono go od nowa. re- = ponownie, rebuild = odbudować."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "re- + build → rebuild. build jest nieregularne (build – built – built), więc trzecia forma to rebuilt."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "rebuilded to 0 pkt. Samo built nie pasuje, bo zamek stał już 300 lat temu, więc w latach 80. nie budowano go pierwszy raz."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  }
+]

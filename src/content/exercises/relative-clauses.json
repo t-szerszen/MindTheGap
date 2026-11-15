@@ -1,0 +1,573 @@
+[
+  {
+    "id": "rel-reason-writing-job",
+    "type": "choice",
+    "text": "The reason ___ I'm writing to you is to ask whether the summer job at your café is still available.",
+    "gaps": [
+      {
+        "options": ["why", "because", "which", "what"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką stoi the reason, a po niej pełne zdanie (I'm writing to you), w którym niczego nie brakuje."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Po the reason zdanie łączy why (albo that, albo nic): the reason why… = powód, dla którego…"
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "because to spójnik przyczyny i nie łączy się z reason. which wymagałoby przyimka (the reason for which), a what nigdy nie stoi po rzeczowniku."
+          }
+        ]
+      }
+    ],
+    "tags": ["relative-clauses"],
+    "difficulty": 1
+  },
+  {
+    "id": "rel-baker-gets-up-early",
+    "type": "choice",
+    "text": "The man ___ the little bakery on our street gets up at three o'clock every morning.",
+    "gaps": [
+      {
+        "options": ["who runs", "runs", "he runs", "whose runs"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "struktura",
+            "text_pl": "Luka opisuje mężczyznę, a orzeczenie całego zdania to gets up. Po luce od razu jest czasownik, więc zaimek jest podmiotem: to on prowadzi piekarnię."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Zaimka-podmiotu nie da się pominąć. The man runs the bakery gets up… ma dwa orzeczenia bez łącznika."
+          },
+          {
+            "label_pl": "odpada",
+            "text_pl": "he runs dubluje podmiot, a whose wymaga rzeczownika zaraz po sobie (whose bread)."
+          }
+        ]
+      }
+    ],
+    "tags": ["relative-clauses"],
+    "difficulty": 1
+  },
+  {
+    "id": "rel-trainers-fall-apart",
+    "type": "choice",
+    "text": "The trainers ___ online last month have already started to fall apart.",
+    "gaps": [
+      {
+        "options": ["I ordered", "I ordered them", "what I ordered", "who I ordered"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "struktura",
+            "text_pl": "Luka mówi, o które buty chodzi. Buty są dopełnieniem (zamówiłem je), a podmiotem tego zdania jest I."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Gdy zaimek jest dopełnieniem, w zdaniu bez przecinków możesz go pominąć: the trainers (that) I ordered."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "I ordered them dubluje dopełnienie: miejsce them zajął już zaimek względny, nawet pominięty. what nie stoi po rzeczowniku, a who jest tylko dla ludzi."
+          }
+        ]
+      }
+    ],
+    "tags": ["relative-clauses"],
+    "difficulty": 1
+  },
+  {
+    "id": "rel-vistula-longest-river",
+    "type": "choice",
+    "text": "The Vistula, ___ flows through Kraków and Warsaw, is the longest river in Poland.",
+    "gaps": [
+      {
+        "options": ["which", "that", "who", "where"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przecinki wokół luki. Rzeka ma nazwę, więc wiadomo, o którą chodzi. Reszta to tylko dodatkowa informacja."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Rzecz + przecinki → which. Po luce od razu czasownik flows, więc zaimek jest podmiotem."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "that nie stoi między przecinkami. who jest dla ludzi, a po where musiałoby stać zdanie z własnym podmiotem."
+          }
+        ]
+      }
+    ],
+    "tags": ["relative-clauses"],
+    "difficulty": 1
+  },
+  {
+    "id": "rel-portugal-tiles-restaurant",
+    "type": "choice",
+    "text": "On the third day of our trip to Portugal, we visited a small town ___ is famous for its blue and white tiles. In the evening, we had dinner at a tiny restaurant ___ the owner cooks everything herself.",
+    "gaps": [
+      {
+        "options": ["which", "where", "what", "whose"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "test",
+            "text_pl": "Po luce od razu czasownik is. W tym zdaniu brakuje podmiotu: to miasto słynie z płytek."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Podmiot, rzecz, bez przecinków → which (albo that, ale tego nie ma w opcjach)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "where znaczy „w którym miejscu”. Po nim musi stać pełne zdanie z podmiotem, np. where people make tiles. a town where is famous to typowy błąd."
+          }
+        ]
+      },
+      {
+        "options": ["where", "which", "what", "whose"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "test",
+            "text_pl": "Po luce jest pełne zdanie: the owner cooks everything herself. Ma podmiot i dopełnienie. Brakuje tylko informacji „gdzie”: w tej restauracji."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "where = in which → a restaurant where the owner cooks…"
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "which bez przyimka zostawia dziurę: the owner cooks the restaurant? whose odpada, bo po nim nie może stać the (whose owner, nie whose the owner)."
+          }
+        ]
+      }
+    ],
+    "tags": ["relative-clauses"],
+    "difficulty": 2
+  },
+  {
+    "id": "rel-kuba-messages-annoyed",
+    "type": "choice",
+    "text": "Kuba didn't answer any of my messages for a whole week, ___ really annoyed me.",
+    "gaps": [
+      {
+        "options": ["which", "what", "that", "it"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Co mnie zdenerwowało? Nie jedna rzecz, tylko cała sytuacja: to, że Kuba przez tydzień nie odpisywał. Zaimek odnosi się do całego zdania przed przecinkiem."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Do całego zdania odnosi się tylko which, zawsze po przecinku. Po polsku: …, co mnie wkurzyło."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "what to kalka polskiego „co”. that nie stoi po przecinku. Z it wychodzą dwa zdania sklejone przecinkiem."
+          }
+        ]
+      }
+    ],
+    "tags": ["relative-clauses"],
+    "difficulty": 2
+  },
+  {
+    "id": "rel-uncles-moved-ireland",
+    "type": "choice",
+    "text": "My mum has four brothers, ___ moved to Ireland in the early 2000s.",
+    "gaps": [
+      {
+        "options": ["all of whom", "all of them", "all of who", "they all"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "struktura",
+            "text_pl": "Po przecinku mówisz dalej o tych samych braciach, a nie ma spójnika (and, but). Oba zdania musi połączyć zaimek względny."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Określnik + of + whom (ludzie) albo which (rzeczy): all of whom, some of whom, both of which."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "all of them i they all tworzą osobne zdanie, więc wychodzą dwa zdania sklejone przecinkiem. Po przyimku of stoi whom, nie who."
+          }
+        ]
+      }
+    ],
+    "tags": ["relative-clauses"],
+    "difficulty": 3
+  },
+  {
+    "id": "rel-only-brother-paramedic",
+    "type": "choice",
+    "text": "I've only got one brother. ___ works as a paramedic and loves his job.",
+    "gaps": [
+      {
+        "options": [
+          "My brother, who lives in Oslo,",
+          "My brother who lives in Oslo",
+          "My brother, that lives in Oslo,",
+          "My brother, lives in Oslo,"
+        ],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "I've only got one brother: wiadomo, o którego brata chodzi. Oslo nie wybiera jednego z kilku braci, tylko coś dopowiada."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Dodatkowa informacja → przecinek przed i po, a w środku who."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Bez przecinków zdanie znaczy „ten mój brat, który mieszka w Oslo”, czyli że braci jest kilku. that nie stoi między przecinkami, a bez zaimka (My brother, lives…) nie ma czym połączyć zdań."
+          }
+        ]
+      }
+    ],
+    "tags": ["relative-clauses"],
+    "difficulty": 3
+  },
+  {
+    "id": "rel-charger-under-sofa",
+    "type": "choice",
+    "text": "Is this the phone charger ___? I found it under the sofa.",
+    "gaps": [
+      {
+        "options": [
+          "you were looking for",
+          "you were looking for it",
+          "for that you were looking",
+          "what you were looking for"
+        ],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "struktura",
+            "text_pl": "look for something: ładowarka jest dopełnieniem przyimka for. Zaimek względny jest dopełnieniem, więc można go pominąć."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "W mowie przyimek zostaje na końcu, zaraz po czasowniku: looking for. Formalnie byłoby the charger for which you were looking."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "for that to błąd: po przyimku stoi tylko which albo whom. for it dubluje dopełnienie, a what nie stoi po rzeczowniku."
+          }
+        ]
+      }
+    ],
+    "tags": ["relative-clauses"],
+    "difficulty": 2
+  },
+  {
+    "id": "rel-concert-photos-website",
+    "type": "choice",
+    "text": "The photos ___ at the end-of-year concert are already on the school website.",
+    "gaps": [
+      {
+        "options": ["taken", "taking", "were taken", "which took"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Zdjęcia nie robią się same, ktoś je zrobił. Z rzeczownikiem coś się stało → znaczenie bierne."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "the photos which were taken… da się skrócić: wyrzucasz which were, zostaje V3: the photos taken at…"
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Zdanie ma już orzeczenie (are already on the website), więc were taken nie ma gdzie wejść. taking i which took znaczyłyby, że to zdjęcia coś robią."
+          }
+        ]
+      }
+    ],
+    "tags": ["relative-clauses", "passive-voice"],
+    "difficulty": 2
+  },
+  {
+    "id": "rel-driver-car-hikers",
+    "type": "gap-fill",
+    "sentence": "The police want to speak to the driver ___ (whose / car / find) abandoned in the forest by two hikers last night.",
+    "correct": ["whose car was found"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Samochód należy do kierowcy → whose (czyj). Po whose od razu rzeczownik, bez the: whose car."
+      },
+      {
+        "label_pl": "sygnał",
+        "text_pl": "by two hikers: znaleźli go turyści, a samochód jest tym, z czym coś się stało → strona bierna."
+      },
+      {
+        "label_pl": "czas",
+        "text_pl": "last night to zamknięta przeszłość → was found."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "who's car to błąd: who's znaczy who is. whose, car, was, found to dokładnie 4 wyrazy."
+      }
+    ],
+    "tags": ["relative-clauses", "passive-voice", "past-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "rel-manager-cold-soup",
+    "type": "gap-fill",
+    "sentence": "The restaurant manager, ___ (to / we / complain) about the cold soup, apologised and offered us free desserts.",
+    "correct": ["to whom we complained"],
+    "accepted": ["to whom we'd complained"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Przecinki wokół luki: dodatkowa informacja o kierowniku. Czasownik to complain to someone about something."
+      },
+      {
+        "label_pl": "szyk",
+        "text_pl": "W nawiasie to stoi przed we, więc przyimek idzie na początek zdania względnego. To wersja formalna: przyimek + zaimek."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po przyimku przy osobie stoi tylko whom: to whom we complained. Nie to who i nie to that."
+      },
+      {
+        "label_pl": "limit",
+        "text_pl": "to whom we complained to 4 wyrazy, czyli w limicie. Wersja z we'd (to whom we'd complained) też jest uznawana."
+      }
+    ],
+    "tags": ["relative-clauses"],
+    "difficulty": 3
+  },
+  {
+    "id": "rel-berlin-trip-consent",
+    "type": "gap-fill",
+    "sentence": "Anyone ___ (wish / take) part in the school trip to Berlin must hand in the consent form by Friday.",
+    "correct": ["wishing to take"],
+    "maxWords": 3,
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Orzeczeniem całego zdania jest must hand in. Luka tylko mówi, kogo to dotyczy: każdego, kto chce jechać."
+      },
+      {
+        "label_pl": "skrót",
+        "text_pl": "Pełna wersja to anyone who wishes to take part. Zaimek jest podmiotem, a czasownik czynny, więc wyrzucasz who i dajesz -ing: anyone wishing…"
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po wish stoi to + bezokolicznik: wishing to take."
+      },
+      {
+        "label_pl": "limit",
+        "text_pl": "who wishes to take ma 4 wyrazy. W limicie 3 mieści się tylko wersja skrócona."
+      }
+    ],
+    "tags": ["relative-clauses"],
+    "difficulty": 2
+  },
+  {
+    "id": "rel-ola-party-left-out",
+    "type": "gap-fill",
+    "sentence": "Ola forgot to invite Kuba to her eighteenth birthday party, ___ (make / him / feel) really left out.",
+    "correct": ["which made him feel"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Przez co Kuba poczuł się pominięty? Przez całą sytuację: to, że Ola zapomniała go zaprosić."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Komentarz do całego poprzedniego zdania to przecinek + which (po polsku „co”)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "make + osoba + bezokolicznik bez to: made him feel. Czas przeszły, bo to opowieść o tym, co się stało."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "what made him feel to kalka polskiego „co”, a that nie stoi po przecinku. and it made him feel ma 5 wyrazów. Poprawne jest też making him feel (skutek jako imiesłów)."
+      }
+    ],
+    "tags": ["relative-clauses"],
+    "difficulty": 2,
+    "accepted": ["making him feel"]
+  },
+  {
+    "id": "rel-moved-gdansk-seven",
+    "type": "gap-fill",
+    "sentence": "In 2015, ___ (I / be) only seven, my family moved to Gdańsk.",
+    "correct": ["when I was"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "In 2015 to konkretny moment. Wtrącenie między przecinkami dopowiada coś o tym roku."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Po określeniu czasu zdanie względne zaczyna się od when (= in which): in 2015, when…"
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "W zdaniu z przecinkami when nie można pominąć. Samo I was only seven zostawia dwa zdania sklejone przecinkami."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Opowieść o przeszłości → I was."
+      }
+    ],
+    "tags": ["relative-clauses"],
+    "difficulty": 1
+  },
+  {
+    "id": "rel-neighbour-son-volleyball",
+    "type": "key-word-transformation",
+    "source": "Our neighbour's son plays volleyball for the national team.",
+    "keyWord": "WHOSE",
+    "target": "We have a neighbour ___ volleyball for the national team.",
+    "correct": ["whose son plays"],
+    "steps": [
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "neighbour's son: syn należy do sąsiada. Dzierżawcze 's zamieniasz na whose."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "neighbour + whose + son + czasownik: whose son plays. Po whose od razu rzeczownik, bez the i bez his."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "who's son to błąd: who's = who is. Czas zostaje ten sam co w zdaniu wyjściowym: plays."
+      }
+    ],
+    "tags": ["relative-clauses"],
+    "difficulty": 2
+  },
+  {
+    "id": "rel-dad-factory-thirty",
+    "type": "key-word-transformation",
+    "source": "My dad worked in this factory for thirty years.",
+    "keyWord": "WHICH",
+    "target": "This is the factory ___ for thirty years.",
+    "correct": [
+      "in which my dad worked",
+      "which my dad worked in",
+      "at which my dad worked",
+      "which my dad worked at"
+    ],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "work in a factory: przyimek in należy do czasownika. Kiedy factory stoi przed zdaniem względnym, przyimek nie znika (z factory pasuje też at)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Dwie poprawne wersje: formalna in which my dad worked albo codzienna which my dad worked in."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "which my dad worked bez in to błąd. where nie zawiera słowa klucza, a in that nie istnieje."
+      },
+      {
+        "label_pl": "limit",
+        "text_pl": "Każda z tych wersji ma 5 wyrazów, czyli równo limit."
+      }
+    ],
+    "tags": ["relative-clauses"],
+    "difficulty": 3
+  },
+  {
+    "id": "rel-guide-noise-understand",
+    "type": "key-word-transformation",
+    "source": "Because of the noise, I couldn't understand the things the guide was saying.",
+    "keyWord": "WHAT",
+    "target": "Because of the noise, I couldn't understand ___ saying.",
+    "correct": ["what the guide was"],
+    "steps": [
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "the things (that) the guide was saying = to, co mówił przewodnik."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "what = the thing(s) that. Zastępuje naraz rzeczownik i zaimek, więc nic przed nim nie stoi."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "the things what to błąd: po rzeczowniku nie ma what. Słowo klucz zastępuje całe the things."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Czas zostaje: was saying, a saying jest już w zdaniu → what the guide was."
+      }
+    ],
+    "tags": ["relative-clauses"],
+    "difficulty": 2
+  },
+  {
+    "id": "rel-novel-gdynia-bestseller",
+    "type": "key-word-transformation",
+    "source": "A seventeen-year-old from Gdynia wrote the novel, and it quickly became a bestseller.",
+    "keyWord": "WRITTEN",
+    "target": "The novel, ___ seventeen-year-old from Gdynia, quickly became a bestseller.",
+    "correct": ["written by a", "which was written by a"],
+    "steps": [
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Powieść nie pisała, tylko ktoś ją napisał → znaczenie bierne: which was written by…"
+      },
+      {
+        "label_pl": "skrót",
+        "text_pl": "Zaimek jest podmiotem, więc możesz wyrzucić which was i zostawić samo V3: the novel, written by…"
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Obie wersje są poprawne: written by a albo which was written by a (5 wyrazów). Przedimek a zostaje przed seventeen-year-old."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "that was written nie pasuje, bo przecinki oznaczają dopowiedzenie, a tam nie ma that."
+      }
+    ],
+    "tags": ["relative-clauses", "passive-voice"],
+    "difficulty": 2
+  },
+  {
+    "id": "rel-village-no-signal",
+    "type": "key-word-transformation",
+    "source": "There was no phone signal in the village we stayed in.",
+    "keyWord": "WHERE",
+    "target": "The village ___ had no phone signal.",
+    "correct": ["where we stayed", "where we were staying"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "the village we stayed in to wieś, w której mieszkaliśmy. Przyimek in z zaimkiem (in which) zamieniasz na where."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "where zawiera już w sobie in, więc na końcu nic nie dopisujesz: where we stayed."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "where we stayed in to błąd: „w” pojawia się dwa razy. Zostaje albo where, albo in na końcu."
+      }
+    ],
+    "tags": ["relative-clauses"],
+    "difficulty": 1
+  }
+]

@@ -4,7 +4,7 @@ import { SearchField } from '../../components/Controls'
 import { Icon } from '../../components/Icon'
 import { Card, Sticky, TornSheet } from '../../components/Paper'
 import { pl } from '../../i18n/pl'
-import { getPhraseSets, getTopics } from '../../lib/content'
+import { usePhraseSets, useTopics } from '../../lib/content'
 import { normalizeText } from '../../lib/vocab'
 import { shelves } from './hub'
 
@@ -42,8 +42,8 @@ function ShelfPaper({ i, children }: { i: number; children: ReactNode }) {
 export function MorePage() {
   const t = pl.more
   const [q, setQ] = useState('')
-  const topics = getTopics()
-  const sets = getPhraseSets()
+  const topics = useTopics()
+  const sets = usePhraseSets()
   const nq = normalizeText(q)
 
   const entriesFor = (shelfId: string): Entry[] => {
@@ -106,6 +106,10 @@ export function MorePage() {
           <p className="eyebrow">{pl.nav.more}</p>
           <h1 className="h-l">{t.title}</h1>
           <p className="note blue">{t.subtitle}</p>
+          <Link className="link-pen" to="/grammar" style={{ alignSelf: 'flex-start' }}>
+            {t.grammarMoved}
+            <Icon name="next" size="s" />
+          </Link>
         </header>
 
         <div style={{ marginTop: 14 }}>
@@ -162,23 +166,6 @@ export function MorePage() {
             })}
           </div>
         )}
-
-        <Card
-          as={Link}
-          to="/settings"
-          tilt={1}
-          className="row"
-          style={{ marginTop: 34, textDecoration: 'none', gap: 12 }}
-        >
-          <Icon name="gear" size="l" />
-          <span className="grow">
-            <span className="h-s" style={{ display: 'block' }}>
-              {pl.settings.title}
-            </span>
-            <span className="small muted">{t.settingsHint}</span>
-          </span>
-          <Icon name="next" size="s" />
-        </Card>
       </div>
     </div>
   )

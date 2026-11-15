@@ -1,5 +1,12 @@
 import { describe, expect, it } from 'vitest'
-import type { Exercise, FormSet, Tense } from '../../content/schema'
+import type {
+  Exercise,
+  FormSet,
+  GapFillExercise,
+  GrammarTopic,
+  Tense,
+  Topic,
+} from '../../content/schema'
 import { checkContent } from './check'
 
 const f = { pattern: [{ text: 'x', role: 'neutral' as const }], example: { en: 'x', pl: 'x' } }
@@ -28,7 +35,7 @@ function tense(id: string, order: number, related: string[] = []): Tense {
   }
 }
 
-function exercise(id: string, sentence: string, tags: string[]): Exercise {
+function exercise(id: string, sentence: string, tags: string[]): GapFillExercise {
   return {
     id,
     type: 'gap-fill',
@@ -82,6 +89,17 @@ describe('checkContent', () => {
     })
     expect(errors[0]).toContain('podpowiada')
   })
+
+  it('to samo zdanie w dwóch zadaniach', () => {
+    const errors = checkContent({
+      ...base,
+      exercises: [
+        exercise('e1', 'I ___ (see) it yesterday.', ['past-simple']),
+        exercise('e2', 'I ___ (see) it yesterday!', ['past-simple']),
+      ],
+    })
+    expect(errors[0]).toContain('to samo zdanie')
+  })
 })
 
 describe('checkContent: odpowiedzi', () => {
@@ -92,5 +110,110 @@ describe('checkContent: odpowiedzi', () => {
       exercises: [{ ...e, correct: ['will close'], accepted: ["'ll close"] }],
     })
     expect(errors[0]).toContain('powtarza się')
+  })
+})
+
+const steps = [
+  { label_pl: 'a', text_pl: 'a' },
+  { label_pl: 'b', text_pl: 'b' },
+]
+
+describe('checkContent: typy zadań', () => {
+  it('transformacja: słowo klucz i limit wyrazów w kluczu', () => {
+    const kwt: Exercise = {
+      id: 'k1',
+      type: 'key-word-transformation',
+      source: 'People say he is rich.',
+      keyWord: 'SAID',
+      target: 'He ___ rich.',
+      maxWords: 5,
+      correct: ['is said to be', 'is believed to be', 'is widely said to be very'],
+      steps,
+      tags: ['past-simple'],
+      difficulty: 2,
+    }
+    const errors = checkContent({ ...base, exercises: [kwt] })
+    expect(errors).toHaveLength(2)
+    expect(errors[0]).toContain('SAID')
+    expect(errors[1]).toContain('więcej niż 5')
+  })
+
+  it('słowotwórstwo: jeden wyraz i nie sam wyraz bazowy', () => {
+    const wf: Exercise = {
+      id: 'w1',
+      type: 'word-formation',
+      text: 'It was a ___ decision and a ___ one.',
+      gaps: [
+        { base: 'WISE', correct: ['wise'], steps },
+        { base: 'CARE', correct: ['very careful'], steps },
+      ],
+      tags: ['past-simple'],
+      difficulty: 1,
+    }
+    const errors = checkContent({ ...base, exercises: [wf] })
+    expect(errors.some((e) => e.includes('jeden wyraz'))).toBe(true)
+    expect(errors.some((e) => e.includes('wyraz bazowy'))).toBe(true)
+  })
+})
+
+describe('checkContent: gramatyka', () => {
+  const topic: Topic = {
+    id: 'conditionals',
+    category: 'grammar',
+    title_pl: 'x',
+    summary_pl: 'x',
+    blocks: [{ type: 'text', md_pl: 'x' }],
+  }
+  const sub = {
+    id: 'a',
+    label: 'a',
+    name: 'a',
+    desc_pl: 'a',
+    time_pl: 'a',
+    scale: {
+      left: 'a',
+      right: 'b',
+      ticks: ['1', '2', '3', '4'] as [string, string, string, string],
+      on: [0],
+      ring: 0,
+    },
+    formula: [{ key: '+', text: '[v:V1]' }],
+    usage_pl: ['x'],
+    signals: ['if'],
+    examples: [{ en: 'x', pl: 'x' }],
+    steps: ['a', 'b', 'c'] as [string, string, string],
+  }
+  const g: GrammarTopic = {
+    id: 'cond',
+    title_pl: 'x',
+    note_pl: 'x',
+    chooseTitle_pl: 'x',
+    defaultSubtype: 'a',
+    practiceTag: 'conditionals',
+    theoryTopic: 'conditionals',
+    subtypes: [sub, { ...sub, id: 'b' }],
+  }
+
+  it('poprawny indeks bez błędów', () => {
+    const errors = checkContent({
+      ...base,
+      topics: [topic],
+      grammar: [g],
+      grammarTabs: [
+        { id: 'cond', group: 'sentences', tab: ['a', 'b'], label_pl: 'x' },
+        { id: 'wish', group: 'sentences', tab: ['a', 'b'], label_pl: 'x', topic: 'conditionals' },
+      ],
+    })
+    expect(errors).toEqual([])
+  })
+
+  it('łapie brak przekładki, zły tag i brakujący temat', () => {
+    const errors = checkContent({
+      ...base,
+      topics: [topic],
+      grammar: [{ ...g, practiceTag: 'nope', theoryTopic: 'nope' }],
+      grammarTabs: [{ id: 'x', group: 'words', tab: ['a', 'b'], label_pl: 'x', topic: 'nope' }],
+    })
+    expect(errors).toHaveLength(4)
   })
 })

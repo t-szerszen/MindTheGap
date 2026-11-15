@@ -1,0 +1,538 @@
+[
+  {
+    "id": "fuc-campfire-saturday",
+    "type": "gap-fill",
+    "sentence": "Only one more day of school! This time on Saturday we ___ (sit) round a campfire in the Bieszczady Mountains, miles away from any maths homework.",
+    "correct": ["will be sitting"],
+    "accepted": ["are going to be sitting"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "This time on Saturday — w sobotę o tej porze, czyli konkretna chwila w przyszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "W tej chwili siedzenie przy ognisku będzie już trwało i jeszcze się nie skończy → czynność w toku w przyszłości."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "sit jest jednosylabowy i kończy się na jedną samogłoskę + jedną spółgłoskę, więc t się podwaja: sitting."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "we + will be + V-ing → will be sitting."
+      }
+    ],
+    "tags": ["future-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "fuc-tram-stop-waiting",
+    "type": "gap-fill",
+    "sentence": "You won't get lost — when you get off the tram, I ___ (wait) for you at the stop, and we can walk to the restaurant together.",
+    "correct": ["will be waiting"],
+    "accepted": ["am going to be waiting"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "when you get off the tram — drugie, krótkie zdarzenie w przyszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Czekanie zacznie się wcześniej, a chwila, w której wysiądziesz, wpadnie w jego środek → will be + V-ing."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "I'll wait znaczyłoby, że zacznę czekać dopiero wtedy, gdy wysiądziesz — bez sensu. Po when zostaje Present Simple (you get off), bez will."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "I + will be + V-ing → will be waiting."
+      }
+    ],
+    "tags": ["future-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "fuc-kayaks-after-eighteenth",
+    "type": "gap-fill",
+    "sentence": "Kuba's eighteenth goes on until four in the morning, so there's no point booking the kayaks for nine on Sunday — we ___ (sleep) then.",
+    "correct": ["will be sleeping"],
+    "accepted": ["are going to be sleeping"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "for nine on Sunday… then — konkretna godzina w przyszłości. Impreza skończy się dopiero o czwartej rano."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "O dziewiątej sen będzie w toku: zacznie się po czwartej i jeszcze się nie skończy → czynność w toku w danej chwili przyszłości."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will sleep pokazałoby sen jako całe zdarzenie, a nie to, w czym będziecie akurat o dziewiątej. Po polsku „będziemy spać” pasuje do obu, więc patrz na godzinę. goes on to Present Simple, bo godziny imprezy są ustalone."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "we + will be + V-ing → will be sleeping."
+      }
+    ],
+    "tags": ["future-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "fuc-saturday-not-in-bed",
+    "type": "gap-fill",
+    "sentence": "It's eleven o'clock on a Saturday and you're still in bed! Enjoy it while you can — this time next year you ___ (not / lie) in bed this late, because you'll have extra maths classes every Saturday morning.",
+    "correct": ["will not be lying"],
+    "accepted": ["are not going to be lying"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "this time next year — za rok o tej porze, czyli w sobotę o jedenastej, ale za rok."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Mówisz, czego w tamtej chwili NIE będzie w toku: o jedenastej nie będziesz leżeć w łóżku, bo będziesz na zajęciach → przeczenie od will be + V-ing."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "lie → lying (ie zmienia się w y). not stoi zaraz po will, przed be."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "you + will not be + V-ing → will not be lying (won't be lying)."
+      }
+    ],
+    "tags": ["future-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "fuc-builders-not-drilling",
+    "type": "gap-fill",
+    "sentence": "I know the noise is awful, but in a week's time the builders ___ (not / drill) outside your window any more — the job finishes on Friday.",
+    "correct": ["will not be drilling"],
+    "accepted": ["are not going to be drilling"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "in a week's time — za tydzień, punkt w przyszłości. any more — już nie."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Teraz wiercenie trwa. Za tydzień w tej chwili już nie będzie w toku, bo robota skończy się w piątek → przeczenie od will be + V-ing."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "the job finishes on Friday to Present Simple, bo to ustalony harmonogram — nie przenoś tej formy do luki. won't drill mogłoby zabrzmieć jak odmowa albo całe zdarzenie, a tu chodzi tylko o to, co za tydzień nie będzie trwało."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "the builders + will not be + V-ing → will not be drilling."
+      }
+    ],
+    "tags": ["future-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "fuc-friday-traffic-warsaw",
+    "type": "gap-fill",
+    "sentence": "Let's not set off on Friday afternoon. At five o'clock half of Warsaw ___ (drive) out of the city for the long weekend, and we'll be stuck in traffic for hours.",
+    "correct": ["will be driving"],
+    "accepted": ["is going to be driving", "are going to be driving"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "At five o'clock (w piątek) — konkretna godzina w przyszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "O piątej wyjazd z miasta będzie w pełni: ludzie ruszą wcześniej i jeszcze nie dojadą, a ta godzina wpadnie w środek → will be + V-ing."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will drive znaczyłoby, że wszyscy ruszą dokładnie o piątej. Uwaga na we'll be stuck: tu be stuck to stan (utkniemy), a nie forma z -ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "half of Warsaw + will be + V-ing → will be driving."
+      }
+    ],
+    "tags": ["future-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "fuc-ola-still-at-cafe",
+    "type": "gap-fill",
+    "sentence": "___ (Ola / still / work) at the café when we get there at eleven, or does her shift finish earlier?",
+    "correct": ["Will Ola still be working"],
+    "accepted": ["Is Ola still going to be working"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "when we get there at eleven — chwila w przyszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz, czy praca Oli będzie jeszcze W TOKU, gdy przyjdziecie → pytanie w will be + V-ing."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Przed podmiot idzie tylko Will, a still stoi po podmiocie, przed be. does her shift finish to Present Simple, bo godziny zmiany są ustalone."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Will + Ola + still + be + V-ing → Will Ola still be working."
+      }
+    ],
+    "tags": ["future-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "fuc-bakery-way-home",
+    "type": "gap-fill",
+    "sentence": "___ (you / pass) the bakery on your way home tonight? If so, could you pick up a loaf of bread for breakfast?",
+    "correct": ["Will you be passing", "Are you passing"],
+    "accepted": ["Are you going to be passing"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "on your way home tonight, a w drugim zdaniu prośba: If so, could you…?"
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Najpierw pytasz o to, co i tak się wydarzy (będziesz tamtędy przechodzić), a dopiero potem prosisz. Will you be + V-ing? pyta tylko o plany, więc nie naciska. Present Continuous (Are you passing…?) też jest poprawny — to zwykłe pytanie o plan na dziś wieczór."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Will you pass the bakery? brzmi raczej jak prośba („przejdziesz koło piekarni?”), jakbyś kazał komuś nadłożyć drogi."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Will + you + be + V-ing → Will you be passing, albo Are + you + V-ing → Are you passing."
+      }
+    ],
+    "tags": ["future-continuous", "present-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "fuc-what-doing-next-year",
+    "type": "gap-fill",
+    "sentence": "What ___ (you / do) this time next year, do you think? Studying, working or travelling round the world?",
+    "correct": ["will you be doing"],
+    "accepted": ["are you going to be doing"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "this time next year — za rok o tej porze."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz, co w tamtej chwili będzie TRWAŁO, a możliwe odpowiedzi są z -ing (studying, working, travelling) → will be + V-ing."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "do you think pokazuje, że zgadujesz, a nie pytasz o ustalony plan, więc Present Continuous (What are you doing…?) tu nie pasuje."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "What + will + you + be + V-ing → will you be doing."
+      }
+    ],
+    "tags": ["future-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "fuc-school-ball-dancing",
+    "type": "gap-fill",
+    "sentence": "Look at this empty hall! This time tomorrow over two hundred students ___ (dance) here at the school ball, and we haven't even put up the decorations yet.",
+    "correct": ["will be dancing"],
+    "accepted": ["are going to be dancing"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "This time tomorrow — jutro o tej porze."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Jutro w tej chwili bal będzie trwał, a tańce będą w toku → will be + V-ing."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po will forma jest ta sama dla każdej osoby: students will be dancing, nie will are dancing. dance → dancing (nieme -e znika)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "students + will be + V-ing → will be dancing."
+      }
+    ],
+    "tags": ["future-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "fuc-note-early-train",
+    "type": "gap-fill",
+    "sentence": "Mum, when you read this note, I ___ (travel) to Wrocław on the early train — I didn't want to wake you. Back on Sunday!",
+    "correct": ["will be travelling"],
+    "accepted": ["will be traveling", "am going to be travelling", "am going to be traveling"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "when you read this note — chwila w przyszłości: gdy mama przeczyta kartkę."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Piszesz teraz, ale myślisz o chwili, w której mama to przeczyta: wtedy podróż będzie w toku → will be + V-ing."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po when zostaje Present Simple (when you read), bez will. W brytyjskim travel → travelling (podwójne l), w amerykańskim traveling."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "I + will be + V-ing → will be travelling."
+      }
+    ],
+    "tags": ["future-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "fuc-umbrella-pouring",
+    "type": "gap-fill",
+    "sentence": "Take an umbrella — the forecast says that by the time you finish work, it ___ (pour).",
+    "correct": ["will be pouring"],
+    "accepted": ["is going to be pouring"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "by the time you finish work — chwila w przyszłości. Zwykle by the time prowadzi do Future Perfect, ale nie tym razem."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Ulewa nie będzie wtedy „gotowa” — będzie w toku, kiedy wyjdziesz z pracy → will be + V-ing."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will have poured znaczyłoby, że deszcz już przeszedł, a wtedy parasol nie byłby potrzebny. by the time pyta, jak będzie w danej chwili: co gotowe (Perfect) albo co w toku (Continuous)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "it + will be + V-ing → will be pouring."
+      }
+    ],
+    "tags": ["future-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "fuc-friends-sunbathing-greece",
+    "type": "gap-fill",
+    "sentence": "It's so unfair! Next week, while I'm stuck at home revising for my resit, my friends ___ (sunbathe) on a beach in Greece.",
+    "correct": ["will be sunbathing"],
+    "accepted": ["are going to be sunbathing"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Next week i while I'm stuck at home — dwie rzeczy, które będą trwały w tym samym czasie w przyszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Gdy ja będę siedzieć nad książkami, oni będą w trakcie opalania → w zdaniu głównym czynność w toku, czyli will be + V-ing."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po while stoi Present (I'm stuck), bo to zdanie czasowe. W zdaniu głównym will wraca. sunbathe → sunbathing (nieme -e znika)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "my friends + will be + V-ing → will be sunbathing."
+      }
+    ],
+    "tags": ["future-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "fuc-chemistry-results-know",
+    "type": "gap-fill",
+    "sentence": "Our chemistry teacher has promised to mark the tests over the weekend, so at this time on Monday we ___ (know) our results.",
+    "correct": ["will know"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "at this time on Monday — chwila w przyszłości, typowy sygnał will be + V-ing. Ale ważniejszy jest czasownik: know."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "know to stan w głowie, a nie czynność. Stan nie ma „środka”, więc nie może być w toku → zwykłe will + V1."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will be knowing jest błędne: czasowniki stanu (know, believe, understand, own) nie biorą -ing. Future Continuous odpada mimo sygnału."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "we + will + V1 → will know."
+      }
+    ],
+    "tags": ["future-simple", "future-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "fuc-phone-screen-bring-back",
+    "type": "gap-fill",
+    "sentence": "A: Sorry, we can't fix your phone screen today — our technician isn't in until ten tomorrow. B: Oh, OK — I ___ (bring) it back when he gets in, then.",
+    "correct": ["will bring"],
+    "accepted": ["shall bring"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Oh, OK… then — B reaguje na to, co właśnie usłyszał. when he gets in — moment w przyszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Decyzja zapada teraz, w czasie rozmowy, a przyniesienie telefonu nastąpi PO przyjściu serwisanta → will + V1."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will be bringing pasowałoby, gdyby telefon był akurat w drodze w chwili jego przyjścia albo gdyby to i tak było w planie. Tu B dopiero teraz to postanawia. be going to też odpada, bo B nie planował tego wcześniej. Po when zostaje Present Simple (he gets in)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "I + will + V1 → will bring."
+      }
+    ],
+    "tags": ["future-simple", "future-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "fuc-voice-over-by-then",
+    "type": "gap-fill",
+    "sentence": "The film for the school festival has to be ready on Monday. Give me until Thursday evening — by then I ___ (record) the whole voice-over, so you can spend Friday editing.",
+    "correct": ["will have recorded"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "by then, czyli do czwartku wieczorem — do tej chwili."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "W czwartek wieczorem nagranie będzie GOTOWE, bo w piątek ty już montujesz → czynność skończona przed chwilą w przyszłości → will have + V3."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will be recording znaczyłoby, że w czwartek wieczorem będę jeszcze w trakcie, a wtedy nie dostałbyś całego nagrania na piątek. by then pyta, co będzie gotowe, a nie, co będzie trwało."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "I + will have + V3 → will have recorded."
+      }
+    ],
+    "tags": ["future-perfect", "future-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "fuc-exams-this-time-next-week",
+    "type": "gap-fill",
+    "sentence": "It's Tuesday today, and my last matura exam is next Monday morning, so this time next week I ___ (do) all my exams and I can finally get some sleep!",
+    "correct": ["will have done"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "this time next week wygląda jak typowy sygnał will be + V-ing. Ale ostatni egzamin jest w poniedziałek, a za tydzień o tej porze będzie wtorek."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "We wtorek wszystkie egzaminy będą już za tobą → czynność skończona przed tą chwilą → will have + V3."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will be doing znaczyłoby, że we wtorek będziesz jeszcze w trakcie egzaminów, a one kończą się w poniedziałek. all my exams to całość, która będzie zamknięta. do jest nieregularne: do → did → done."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "I + will have + V3 → will have done."
+      }
+    ],
+    "tags": ["future-perfect", "future-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "fuc-passport-control-queuing",
+    "type": "gap-fill",
+    "sentence": "Your flight lands at 6.40, so text me while you ___ (still / queue) at passport control — then I'll know when to drive round to the arrivals area.",
+    "correct": ["are still queuing"],
+    "accepted": ["are still queueing"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "while — zdanie czasowe o przyszłości (samolot wyląduje o 6.40, a ja przyjadę potem)."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Stanie w kolejce będzie wtedy w toku, ale po while (tak jak po when i as soon as) nie ma will. Future Continuous w zdaniu czasowym zamienia się w Present Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will still be queuing jest błędne, choć po polsku powiesz „kiedy będziesz jeszcze stać w kolejce”. Present Simple (while you still queue) też odpada: still mówi, że stanie w kolejce będzie wtedy jeszcze trwało, a czynność w toku w danej chwili to -ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "you + are + still + V-ing → are still queuing (można też queueing)."
+      }
+    ],
+    "tags": ["present-continuous", "future-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "fuc-cousin-saved-japan",
+    "type": "gap-fill",
+    "sentence": "My cousin puts aside half of his wages every month, so by this time next year he ___ (save) enough for a trip to Japan.",
+    "correct": ["will have saved"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "by this time next year — do tego czasu za rok. Samo this time next year wskazywałoby na will be + V-ing, ale by zmienia pytanie."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz nie o to, co będzie trwało, tylko co będzie gotowe: pieniądze (enough) będą już odłożone → will have + V3."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will be saving pokazywałoby tylko, że wtedy wciąż odkłada, a enough mówi o wyniku. puts aside to Present Simple, bo to jego stały nawyk."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "he + will have + V3 → will have saved."
+      }
+    ],
+    "tags": ["future-perfect", "future-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "fuc-fireworks-petrol-station",
+    "type": "gap-fill",
+    "sentence": "I'll miss the fireworks on New Year's Eve — when they start at midnight, I ___ (serve) customers at the petrol station where I work part-time.",
+    "correct": ["will be serving"],
+    "accepted": ["am going to be serving"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "when they start at midnight — krótkie zdarzenie w przyszłości: początek pokazu o północy."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Zmiana na stacji zacznie się wcześniej i będzie trwała, kiedy ruszą fajerwerki → tło w toku → will be + V-ing."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "I'll serve znaczyłoby, że zacznę obsługiwać klientów dopiero wtedy, gdy ruszą fajerwerki. Po when zostaje Present Simple (they start), bez will."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "I + will be + V-ing → will be serving."
+      }
+    ],
+    "tags": ["future-continuous"],
+    "difficulty": 1
+  }
+]

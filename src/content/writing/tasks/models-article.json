@@ -1,0 +1,382 @@
+[
+  {
+    "id": "article-model-local-culture",
+    "type": "writing-task",
+    "form": "article",
+    "theme": "culture",
+    "prompt_pl": "Portal internetowy Twojego miasta prowadzi cykl „Kultura za rogiem”. Napisz artykuł, w którym zrelacjonujesz lokalne wydarzenie kulturalne, w którym niedawno uczestniczyłeś/uczestniczyłaś, oraz zaproponujesz, jak zachęcić nastolatków do częstszego korzystania z oferty kulturalnej ich miejscowości.",
+    "elements_pl": [
+      "zrelacjonować lokalne wydarzenie kulturalne, w którym niedawno uczestniczyłeś/uczestniczyłaś",
+      "zaproponować, jak zachęcić nastolatków do częstszego korzystania z oferty kulturalnej ich miejscowości"
+    ],
+    "planHint_pl": "Tytuł. Wstęp: scenka z wydarzenia i jedno zdanie, które prowadzi do nastolatków. Akapit 2: przebieg wydarzenia z dwoma, trzema konkretnymi chwilami (Past Simple). Akapit 3: dlaczego młodych nie ma i dwa pomysły, każdy z wyjaśnieniem, jak zadziała. Zakończenie: wróć do sceny ze wstępu i zachęć czytelnika.",
+    "models": [
+      {
+        "kind": "model",
+        "title": "The Night Our Library Became a Theatre",
+        "paragraphs": [
+          "Forty plastic chairs, a library courtyard and a power cut ten minutes before the show – that is how last Saturday's performance in my town began. What followed was unforgettable, and it made me wonder why so few teenagers ever hear about events like this.",
+          "The show, a stage adaptation of a classic detective story, was put on by a local amateur group. When the lights went out, the director asked us to switch on the torches on our phones and point them at the stage. The actors had to come closer to the audience, which made the whole performance feel incredibly personal. At one point, the 'murderer' hid right behind my chair and half the audience screamed. When the power finally came back on, hardly anyone noticed.",
+          "So why were there only three teenagers in the audience? I am convinced that the problem is not a lack of interest but a lack of information. Our library still relies on paper posters, while my classmates get their news from social media. A short video posted online would reach far more of them. Also, if the theatre group invited students to help with lighting or music, the students would feel part of the show and bring their friends.",
+          "It took a power cut to show me how much is happening right on my doorstep. So, next time you are bored on a Saturday evening, why not check what your local library has to offer?"
+        ],
+        "annotations": [
+          {
+            "quote": "The Night Our Library Became a Theatre",
+            "criterion": "task",
+            "note_pl": "Tytuł to element formy artykułu. Ten obiecuje historię i budzi ciekawość: jak biblioteka może stać się teatrem?"
+          },
+          {
+            "quote": "Forty plastic chairs, a library courtyard and a power cut ten minutes before the show",
+            "criterion": "task",
+            "note_pl": "Hak-scenka: trzy konkretne obrazy zamiast ogólnika. Czytelnik od razu jest na miejscu wydarzenia."
+          },
+          {
+            "quote": "it made me wonder why so few teenagers ever hear about events like this.",
+            "criterion": "coherence",
+            "note_pl": "Ostatnie zdanie wstępu zapowiada drugi element (nastolatki), więc akapit 3 nie spada z nieba."
+          },
+          {
+            "quote": "the director asked us to switch on the torches on our phones",
+            "criterion": "task",
+            "note_pl": "Konkretny szczegół, a nie „było fajnie”. Za takie szczegóły relacja dostaje 2 punkty jako pogłębiona."
+          },
+          {
+            "quote": "which made the whole performance feel incredibly personal",
+            "criterion": "range",
+            "note_pl": "Which odnosi się do całej wcześniejszej części zdania (aktorzy musieli podejść bliżej). Make + coś + feel = sprawić, że coś wydaje się jakieś; po make bezokolicznik bez to."
+          },
+          {
+            "quote": "So why were there only three teenagers in the audience?",
+            "criterion": "coherence",
+            "note_pl": "Pytanie retoryczne jako most: zamyka relację i otwiera akapit z propozycjami."
+          },
+          {
+            "quote": "not a lack of interest but a lack of information",
+            "criterion": "range",
+            "note_pl": "Konstrukcja not X but Y: autor odrzuca oczywiste wyjaśnienie i podaje własną diagnozę. Z niej wynikają propozycje."
+          },
+          {
+            "quote": "if the theatre group invited students to help with lighting or music",
+            "criterion": "task",
+            "note_pl": "Propozycja z mechanizmem: uczniowie, którzy coś współtworzą, przyprowadzą znajomych. Sam pomysł bez tego „dlaczego” byłby wart mniej."
+          },
+          {
+            "quote": "It took a power cut to show me how much is happening",
+            "criterion": "task",
+            "note_pl": "Zakończenie wraca do haka (awaria prądu) innymi słowami, a nie powtarza wstępu."
+          },
+          {
+            "quote": "right on my doorstep",
+            "criterion": "range",
+            "note_pl": "On my doorstep = tuż pod nosem, blisko domu. Right wzmacnia: zupełnie blisko."
+          },
+          {
+            "quote": "why not check what your local library has to offer?",
+            "criterion": "task",
+            "note_pl": "Zachęta wynika z treści artykułu. To nie formułka typu „hope you enjoyed”, więc zakończenie dostaje 2."
+          }
+        ],
+        "comment_pl": "Szacunkowo 13/13: zgodność z poleceniem 5/5 (treść 10/10, forma 4/4), spójność 2/2, zakres 3/3, poprawność 3/3. Oba elementy mają osobne akapity: relacja jest pełna konkretów, a propozycje wynikają z diagnozy, dlaczego młodzi nie przychodzą. Styl jest żywy, ale nie potoczny."
+      }
+    ],
+    "tags": ["writing-article"]
+  },
+  {
+    "id": "article-model-trip-gone-wrong",
+    "type": "writing-task",
+    "form": "article",
+    "theme": "travel",
+    "prompt_pl": "Międzynarodowy magazyn internetowy dla młodzieży zbiera teksty o podróżach, które nie poszły zgodnie z planem. Napisz artykuł, w którym zrelacjonujesz podróż, podczas której coś poszło nie tak, oraz wyjaśnisz, czego takie nieprzewidziane sytuacje mogą nauczyć młodych podróżników.",
+    "elements_pl": [
+      "zrelacjonować podróż, podczas której coś poszło nie tak",
+      "wyjaśnić, czego nieprzewidziane sytuacje w podróży mogą nauczyć młodych podróżników"
+    ],
+    "planHint_pl": "Tytuł z paradoksem. Wstęp: pytanie do czytelnika i jedno zdanie kontrastu (wtedy katastrofa, dziś najlepsze wspomnienie). Akapit 2: co się stało, krok po kroku, z jednym zwrotem akcji. Akapit 3: dwie, trzy lekcje, każda z wyjaśnieniem i odwołaniem do twojej historii. Zakończenie: krótki wniosek z historii i lekcji, bez powtarzania wstępu.",
+    "models": [
+      {
+        "kind": "model",
+        "title": "Why Missing the Last Train Was Worth It",
+        "paragraphs": [
+          "Have you ever stood on a platform in a foreign country, realising the last train had already gone? Last summer, that happened to my friend and me in northern Italy. At the time, it felt like a disaster. Today, it is my favourite travel memory.",
+          "We were travelling from Verona to a small mountain village. Our first train was forty minutes late, so we missed our connection, and the next one was not until the morning. To make matters worse, my phone battery had died and we spoke no Italian. In a tiny café opposite the station, we explained our situation to the owner using gestures and a paper map. To our surprise, she phoned her cousin, who ran a guest house nearby, and an hour later we were eating home-made pasta with his family.",
+          "Experiences like this teach young travellers things that no guidebook can. When your parents are a thousand kilometres away, you have to stay calm and make decisions on your own, and that builds real confidence. Unexpected problems also force you to talk to local people. If our first train had been on time, we would never have met that family. Finally, you discover that most strangers are happy to help, even when you cannot speak their language.",
+          "Of course, nobody wants to be stranded in a strange town with a dead phone. Still, sometimes the best part of a journey is the part you never planned."
+        ],
+        "annotations": [
+          {
+            "quote": "Why Missing the Last Train Was Worth It",
+            "criterion": "task",
+            "note_pl": "Tytuł z paradoksem: spóźnienie na pociąg i „było warto” nie pasują do siebie, więc czytelnik chce wiedzieć dlaczego."
+          },
+          {
+            "quote": "Have you ever stood on a platform in a foreign country",
+            "criterion": "task",
+            "note_pl": "Hak-pytanie z obrazem. Czytelnik odpowiada sobie w głowie i od razu wchodzi w historię."
+          },
+          {
+            "quote": "At the time, it felt like a disaster.",
+            "criterion": "coherence",
+            "note_pl": "Kontrast „wtedy katastrofa, dziś ulubione wspomnienie” zapowiada oba elementy: relację i lekcję z niej."
+          },
+          {
+            "quote": "To make matters worse, my phone battery had died",
+            "criterion": "range",
+            "note_pl": "To make matters worse dokłada kłopot, a Past Perfect pokazuje, że bateria padła wcześniej, zanim autor utknął na dworcu."
+          },
+          {
+            "quote": "she phoned her cousin, who ran a guest house nearby",
+            "criterion": "accuracy",
+            "note_pl": "Zdanie względne nieokreślające: przecinek przed who, bo informacja jest dodatkowa. Interpunkcja liczy się na rozszerzeniu."
+          },
+          {
+            "quote": "Experiences like this teach young travellers things that no guidebook can.",
+            "criterion": "coherence",
+            "note_pl": "Zdanie tematyczne: przejście od jednej historii do ogólnej lekcji dla młodych podróżników, czyli do drugiego elementu."
+          },
+          {
+            "quote": "When your parents are a thousand kilometres away, you have to stay calm and make decisions on your own, and that builds real confidence.",
+            "criterion": "task",
+            "note_pl": "Lekcja z mechanizmem: dlaczego taka sytuacja uczy samodzielności. Sama nazwa lekcji (confidence) byłaby listą."
+          },
+          {
+            "quote": "If our first train had been on time, we would never have met that family",
+            "criterion": "range",
+            "note_pl": "Trzeci tryb warunkowy, a do tego lekcja jest wsparta własną historią z akapitu 2."
+          },
+          {
+            "quote": "nobody wants to be stranded in a strange town with a dead phone",
+            "criterion": "range",
+            "note_pl": "Stranded = utknąć bez możliwości dalszej drogi. Precyzyjne słowo zamiast „we had a big problem”."
+          },
+          {
+            "quote": "sometimes the best part of a journey is the part you never planned.",
+            "criterion": "task",
+            "note_pl": "Zakończenie wynika z obu elementów i nie powtarza wstępu tymi samymi słowami."
+          }
+        ],
+        "comment_pl": "Szacunkowo 13/13: zgodność z poleceniem 5/5 (treść 10/10, forma 4/4), spójność 2/2, zakres 3/3, poprawność 3/3. Relacja trzyma się czasów przeszłych i ma zwrot akcji, a lekcje w akapicie 3 są wyjaśnione i oparte na tej historii, a nie tylko nazwane. Zwróć uwagę, że historia nie jest opowiedziana we wstępie: tam jest tylko zajawka."
+      }
+    ],
+    "tags": ["writing-article"]
+  },
+  {
+    "id": "article-model-changing-nature",
+    "type": "writing-task",
+    "form": "article",
+    "theme": "nature",
+    "prompt_pl": "Ekologiczny portal dla młodzieży publikuje teksty z cyklu „Moja okolica się zmienia”. Napisz artykuł, w którym opiszesz zmianę w przyrodzie Twojej okolicy, którą zauważyłeś/zauważyłaś w ostatnich latach, oraz przedstawisz, co młodzi ludzie mogą zrobić, aby chronić przyrodę w swoim najbliższym otoczeniu.",
+    "elements_pl": [
+      "opisać zmianę w przyrodzie swojej okolicy, którą zauważyłeś/zauważyłaś w ostatnich latach",
+      "przedstawić, co młodzi ludzie mogą zrobić, aby chronić przyrodę w najbliższym otoczeniu"
+    ],
+    "planHint_pl": "Tytuł. Wstęp: wspomnienie „kiedyś tak, dziś inaczej” i zdanie, które nazywa temat. Akapit 2: co się zmieniło, od kiedy i dlaczego, z jednym świadkiem albo szczegółem. Akapit 3: dwa, trzy działania młodych w najbliższej okolicy, przynajmniej jedno z własnego doświadczenia. Zakończenie: pytanie do czytelnika, które wraca do haka.",
+    "models": [
+      {
+        "kind": "model",
+        "title": "The Pond That Went Silent",
+        "paragraphs": [
+          "As a child, I fell asleep every summer night to a noisy chorus of frogs from the pond behind our block of flats. Last June, I opened my window and heard nothing but traffic. That silence made me realise how quickly nature can change.",
+          "The pond is still there, but it is hardly recognisable. About five years ago, a car park was built next to it, and many of the reeds where the frogs used to lay their eggs were cut down. Since then, more and more rubbish has ended up in the water, and in hot summers the pond turns green. My grandfather, who has lived in the area for forty years, remembers seeing herons there every spring. I have not seen a single one since I started secondary school.",
+          "The good news is that teenagers do not have to wait for adults to solve the problem. Last autumn, my class organised a clean-up and filled twelve sacks with bottles and plastic bags from the pond. Young people can also make their voices heard. A petition sent to the local council could persuade officials to put up bins around the car park and protect what is left of the reeds.",
+          "I do not expect the frogs to return next summer, but I am sure a few determined teenagers can make a difference. Is there a place near your home that is slowly going quiet? Do not wait until it falls completely silent."
+        ],
+        "annotations": [
+          {
+            "quote": "The Pond That Went Silent",
+            "criterion": "task",
+            "note_pl": "Krótki tytuł, który zadaje zagadkę: dlaczego staw ucichł? Odpowiedź przychodzi w akapicie 2."
+          },
+          {
+            "quote": "a noisy chorus of frogs",
+            "criterion": "range",
+            "note_pl": "Chorus of frogs, nie choir: choir to chór ludzi. Jeden obraz na start wystarczy, przesadnie metaforyczny styl w całym tekście mógłby kosztować punkt za zakres."
+          },
+          {
+            "quote": "That silence made me realise how quickly nature can change",
+            "criterion": "task",
+            "note_pl": "Wstęp przechodzi od wspomnienia do tematu: czytelnik wie, że tekst będzie o zmianie w przyrodzie."
+          },
+          {
+            "quote": "a car park was built next to it",
+            "criterion": "range",
+            "note_pl": "Strona bierna, bo ważne jest, co powstało, a nie kto to zbudował."
+          },
+          {
+            "quote": "where the frogs used to lay their eggs",
+            "criterion": "range",
+            "note_pl": "Used to = kiedyś tak było, a dziś już nie. Dokładnie o tym jest ten akapit."
+          },
+          {
+            "quote": "who has lived in the area for forty years",
+            "criterion": "accuracy",
+            "note_pl": "Present Perfect z for, bo dziadek mieszka tam do dziś. Past Simple znaczyłby, że już się wyprowadził."
+          },
+          {
+            "quote": "The good news is that teenagers do not have to wait for adults to solve the problem.",
+            "criterion": "coherence",
+            "note_pl": "Zdanie przejścia: od problemu do rozwiązań, czyli do drugiego elementu tematu."
+          },
+          {
+            "quote": "my class organised a clean-up and filled twelve sacks with bottles and plastic bags from the pond",
+            "criterion": "task",
+            "note_pl": "Własny przykład z liczbą pogłębia element 2. To nie jest już tylko „we can clean the pond”."
+          },
+          {
+            "quote": "make their voices heard",
+            "criterion": "range",
+            "note_pl": "Naturalna kolokacja: zabrać głos, sprawić, żeby ktoś cię usłyszał. Dalej wyjaśnienie, jak (petycja do rady miasta)."
+          },
+          {
+            "quote": "Is there a place near your home that is slowly going quiet?",
+            "criterion": "task",
+            "note_pl": "Zakończenie zwraca się do czytelnika i wraca do motywu ciszy z tytułu. Zachęta wynika z treści."
+          }
+        ],
+        "comment_pl": "Szacunkowo 13/13: zgodność z poleceniem 5/5 (treść 10/10, forma 4/4), spójność 2/2, zakres 3/3, poprawność 3/3. Opis zmiany odpowiada na pytania: co, od kiedy i dlaczego. Działania są blisko domu, tak jak chce polecenie („najbliższe otoczenie”), a nie ogólnie o ratowaniu planety. Są tylko dwa działania, ale każde ma konkret (sprzątanie z liczbą worków, petycja z tym, co miałaby zmienić), więc to realizacja pogłębiona."
+      }
+    ],
+    "tags": ["writing-article"]
+  },
+  {
+    "id": "article-model-sport-beyond-pe",
+    "type": "writing-task",
+    "form": "article",
+    "theme": "sport",
+    "prompt_pl": "Szkolny portal internetowy przygotowuje cykl tekstów o sporcie poza lekcjami wychowania fizycznego. Napisz artykuł, w którym opiszesz swoje pierwsze miesiące z dyscypliną sportu, którą zacząłeś/zaczęłaś uprawiać poza szkołą, oraz przedstawisz, jak szkoły mogłyby zachęcić do ruchu uczniów, którzy nie lubią lekcji wychowania fizycznego.",
+    "elements_pl": [
+      "opisać swoje pierwsze miesiące z dyscypliną sportu, którą zacząłeś/zaczęłaś uprawiać poza szkołą",
+      "przedstawić, jak szkoły mogłyby zachęcić do ruchu uczniów, którzy nie lubią lekcji wychowania fizycznego"
+    ],
+    "planHint_pl": "Tytuł, który mówi do czytelnika. Wstęp: kontrast „kiedyś unikałem WF-u, dziś…” i pytanie, które zapowiada oba elementy. Akapit 2: początki w Past Simple, jeden trudny moment i jeden przełom. Akapit 3: najpierw dlaczego uczniowie nie lubią WF-u, potem dwa pomysły, które odpowiadają na tę przyczynę. Zakończenie: wniosek z twojej historii, bez „hope you enjoyed”.",
+    "models": [
+      {
+        "kind": "weaker",
+        "title": "My Sport",
+        "paragraphs": [
+          "Dear readers! Nowadays sport is very important for young people. In this article I will write about my sport and about PE lessons in schools.",
+          "Last year my friend took me to a climbing centre for her birthday. After climbing we ate pizza and a huge chocolate cake and then we watched a horror film at her house until midnight. It was the best party of the year. At first I was very afraid from heights and I didn't want to go up. But then the instructor comes and shows me where to put my feet. The walls are very high and there are a lot of colourful routes. Now I go there three times a week and I am training since one year. Climbing is very interesting because every route is different and you have to think, not just use your muscles. It give me a lot of confidence and I have new friends there.",
+          "In my opinion, schools should change PE lessons. Many students don't like them because they are boring. In my school we only play volleyball and run, and the teacher gives marks for everything. Schools should have more sports, better teachers, new equipment and more trips. They should to organise climbing too, because climbing is super cool!",
+          "To sum up, sport is very important and everybody should do it. I hope you enjoyed my article. Write your opinion in the comments!"
+        ],
+        "annotations": [
+          {
+            "quote": "Dear readers! Nowadays sport is very important for young people.",
+            "criterion": "task",
+            "note_pl": "Powitanie jak w liście, ogólnik i zapowiedź „in this article I will write about…”. Wstęp jest zgodny z tematem, ale schematyczny, więc najwyżej 1 punkt."
+          },
+          {
+            "quote": "After climbing we ate pizza and a huge chocolate cake and then we watched a horror film at her house until midnight. It was the best party of the year.",
+            "criterion": "task",
+            "note_pl": "Pizza, tort i horror są luźno związane z historią (to ta sama urodzinowa wizyta), ale nic nie mówią o pierwszych miesiącach wspinaczki ani o WF-ie. Egzaminator weźmie to w nawias kwadratowy jako fragment odbiegający od tematu: 1 zamiast 2 w ostatnim elemencie treści. Gdyby uznał to za fragment nie na temat, te wyrazy nie liczyłyby się też do limitu ani do oceny języka."
+          },
+          {
+            "quote": "afraid from heights",
+            "criterion": "accuracy",
+            "note_pl": "Afraid of, nie from: afraid of heights. Przyimek idzie za przymiotnikiem i trzeba go znać na pamięć."
+          },
+          {
+            "quote": "But then the instructor comes and shows me where to put my feet.",
+            "criterion": "coherence",
+            "note_pl": "Relacja jest w przeszłości, a tu nagle czas teraźniejszy. Nieuzasadniony przeskok czasu to usterka spójności. Powinno być: came and showed me."
+          },
+          {
+            "quote": "I am training since one year",
+            "criterion": "accuracy",
+            "note_pl": "Coś trwa od przeszłości do teraz, więc Present Perfect Continuous i for przy okresie: I have been training for a year."
+          },
+          {
+            "quote": "It give me",
+            "criterion": "accuracy",
+            "note_pl": "It to trzecia osoba, więc gives. Klasyczny błąd, który egzaminator zawsze podkreśli."
+          },
+          {
+            "quote": "Schools should have more sports, better teachers, new equipment and more trips.",
+            "criterion": "task",
+            "note_pl": "Cztery pomysły w jednym zdaniu i żaden nie jest wyjaśniony. To lista, czyli realizacja powierzchowna: element 2 najwyżej 1 punkt."
+          },
+          {
+            "quote": "should to organise",
+            "criterion": "accuracy",
+            "note_pl": "Po should forma podstawowa bez to: should organise."
+          },
+          {
+            "quote": "super cool",
+            "criterion": "range",
+            "note_pl": "Styl jak w rozmowie. Razem z very important, very high i very interesting to głównie pospolite środki, więc zakres zostaje nisko."
+          },
+          {
+            "quote": "To sum up, sport is very important and everybody should do it. I hope you enjoyed my article.",
+            "criterion": "task",
+            "note_pl": "Zakończenie powtarza wstęp prawie tymi samymi słowami i kończy się formułką z prośbą o komentarze. To schemat: najwyżej 1 punkt."
+          }
+        ],
+        "comment_pl": "Szacunkowo 8/13: zgodność z poleceniem 3/5 (treść 6/10: wstęp 1, element 1 – 2, element 2 – 1, zakończenie 1, fragment odbiegający 1; forma 4/4, bo tytuł formalnie jest, choć nic nie obiecuje), spójność 2/2 (egzaminator może zaznaczyć przeskok czasu i wtrąconą imprezę, ale 1 punkt jest dopiero przy trzech usterkach), zakres 1/3, poprawność 2/3. Treść traci 4 z 10 punktów, ale tabela C zamienia to na 2 z 13 (zgodność 3/5 zamiast 5/5). Te dwa punkty odzyskasz bez lepszego angielskiego: wstęp z hakiem, rozwinięte propozycje, zakończenie z wnioskiem i bez imprezy. Trzy pozostałe uciekają przez zakres i poprawność."
+      },
+      {
+        "kind": "stronger",
+        "title": "Afraid of Heights? So Was I",
+        "paragraphs": [
+          "Two years ago, I would pretend to have a headache to get out of PE. Today, I spend three evenings a week on a climbing wall. If someone had told me this back then, I would have laughed. So what changed, and could it happen to other students who hate PE?",
+          "It all started when a friend dragged me to a climbing centre. On my first attempt, I froze halfway up the easiest route. However, the instructor did not shout or compare me with anyone. She calmly showed me where to put my feet and told me to take my time. A month later, I finally reached the top. What surprised me most was that climbing is as much about solving puzzles as it is about strength, which is why I never get bored.",
+          "I believe schools could learn a lot from this. Many students do not hate exercise itself; they hate being judged in front of the whole class. PE teachers could reward progress instead of results, so that a student who runs a little faster than last month feels successful too. Schools could also offer a wider choice of activities, such as dance or climbing, to help a reluctant teenager find something they actually enjoy.",
+          "Not everyone will fall in love with climbing, of course. But if someone who once faked headaches to skip PE can find a sport they love, there is hope for everybody."
+        ],
+        "annotations": [
+          {
+            "quote": "Afraid of Heights? So Was I",
+            "criterion": "task",
+            "note_pl": "Tytuł mówi wprost do czytelnika i od razu pokazuje osobisty ton. Porównaj z „My Sport”, który niczego nie obiecuje."
+          },
+          {
+            "quote": "I would pretend to have a headache to get out of PE",
+            "criterion": "range",
+            "note_pl": "Would dla powtarzających się zachowań w przeszłości i phrasal verb get out of = wymigać się od czegoś."
+          },
+          {
+            "quote": "If someone had told me this back then, I would have laughed.",
+            "criterion": "range",
+            "note_pl": "Trzeci tryb warunkowy: sytuacja, która się nie wydarzyła. Podkreśla, jak duża była zmiana."
+          },
+          {
+            "quote": "So what changed, and could it happen to other students who hate PE?",
+            "criterion": "task",
+            "note_pl": "Wstęp kończy się pytaniem, które zapowiada oba elementy: co się zmieniło u mnie (1) i co z tego mają inni uczniowie (2)."
+          },
+          {
+            "quote": "I froze halfway up the easiest route",
+            "criterion": "task",
+            "note_pl": "Emocja pokazana konkretem, a nie przymiotnikiem. Słabsza wersja ma w tym miejscu „very afraid”."
+          },
+          {
+            "quote": "What surprised me most was that climbing is as much about solving puzzles as it is about strength",
+            "criterion": "range",
+            "note_pl": "Konstrukcja What… was that… wyróżnia myśl, a as much about X as it is about Y porównuje dwie rzeczy precyzyjnie."
+          },
+          {
+            "quote": "Many students do not hate exercise itself; they hate being judged in front of the whole class.",
+            "criterion": "task",
+            "note_pl": "Najpierw przyczyna, potem rozwiązania. Dzięki temu propozycje odpowiadają na konkretny problem, a nie są listą życzeń."
+          },
+          {
+            "quote": "so that a student who runs a little faster than last month feels successful too",
+            "criterion": "coherence",
+            "note_pl": "So that pokazuje cel propozycji: czytelnik widzi, jak pomysł zadziała w praktyce."
+          },
+          {
+            "quote": "a reluctant teenager",
+            "criterion": "range",
+            "note_pl": "Reluctant = niechętny, opierający się. Jedno precyzyjne słowo zamiast „a teenager who doesn't want to”."
+          },
+          {
+            "quote": "if someone who once faked headaches to skip PE can find a sport they love, there is hope for everybody",
+            "criterion": "task",
+            "note_pl": "Zakończenie wraca do wstępu (udawany ból głowy) innymi słowami i łączy oba elementy: skoro mnie się udało, innym też może."
+          }
+        ],
+        "comment_pl": "Szacunkowo 13/13: zgodność z poleceniem 5/5 (treść 10/10, forma 4/4), spójność 2/2, zakres 3/3, poprawność 3/3. Ten sam temat i ta sama historia co w słabszej wersji. Różnicę robią: tytuł i wstęp, które wciągają, relacja z konkretnymi chwilami, propozycje z wyjaśnieniem, jak zadziałają, i zakończenie, które wynika z treści, zamiast prosić o komentarze."
+      }
+    ],
+    "tags": ["writing-article"]
+  }
+]

@@ -1,0 +1,205 @@
+{
+  "id": "phrasal-set",
+  "category": "phrasal-verbs",
+  "title_pl": "Phrasal verbs z set",
+  "items": [
+    {
+      "en": "set sth up / set up sth (a company, an organisation)",
+      "pl": "założyć (firmę, organizację, fundację)",
+      "meaning_pl": "stworzyć od zera coś, co ma działać dłużej. Rzeczownik może stać po up albo w środku (set up a company / set a company up), ale zaimek tylko w środku: set it up, nigdy set up it",
+      "example": {
+        "en": "After finishing university, my cousin set up her own graphic design company.",
+        "pl": "Po studiach moja kuzynka założyła własną firmę zajmującą się grafiką."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "praca", "biznes"]
+    },
+    {
+      "en": "set sth up / set up sth (a tent, equipment)",
+      "pl": "rozstawić, przygotować do działania, skonfigurować",
+      "meaning_pl": "złożyć coś albo podłączyć tak, żeby było gotowe do użycia: namiot, stoisko, komputer, drukarkę. Zaimek w środku: set it up",
+      "example": {
+        "en": "The tent is still in the car, so let's set it up before it gets dark.",
+        "pl": "Namiot jest jeszcze w samochodzie, więc rozstawmy go, zanim się ściemni."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "podróże", "technologia"]
+    },
+    {
+      "en": "set sth up / set up sth (a meeting)",
+      "pl": "zorganizować, umówić (spotkanie, rozmowę)",
+      "meaning_pl": "załatwić, żeby coś się odbyło: a meeting, an interview, a call. Rozdzielny jak inne znaczenia set up: set it up",
+      "example": {
+        "en": "Our form teacher set up a meeting with our parents to discuss the school trip.",
+        "pl": "Nasza wychowawczyni zorganizowała spotkanie z rodzicami, żeby omówić wycieczkę klasową."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "szkoła", "praca"]
+    },
+    {
+      "en": "set sb up (trick sb)",
+      "pl": "wrobić kogoś",
+      "meaning_pl": "tak coś ukartować, żeby niewinna osoba wyglądała na winną. Osoba prawie zawsze stoi w środku: they set him up. Ten sam czasownik co założyć firmę, znaczenie podpowiada dopiero kontekst",
+      "example": {
+        "en": "He kept saying that he was innocent and that someone had set him up.",
+        "pl": "Ciągle powtarzał, że jest niewinny i że ktoś go wrobił."
+      },
+      "register": "informal",
+      "tags": ["rozdzielny", "przestępczość"]
+    },
+    {
+      "en": "set off (start a journey)",
+      "pl": "wyruszyć, wyjechać",
+      "meaning_pl": "zacząć podróż. Nie ma dopełnienia, więc nie ma czego rozdzielać; cel podróży dodajesz przez for: set off for London",
+      "example": {
+        "en": "We set off at six in the morning to avoid the traffic.",
+        "pl": "Wyruszyliśmy o szóstej rano, żeby uniknąć korków."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "podróże"]
+    },
+    {
+      "en": "set sth off / set off sth (an alarm, fireworks)",
+      "pl": "uruchomić (alarm), odpalić (fajerwerki), zdetonować (bombę)",
+      "meaning_pl": "sprawić, że coś zaczyna dzwonić albo wybucha, często niechcący. Rzeczownik po off albo w środku (set off the alarm / set the alarm off), zaimek tylko w środku: set it off",
+      "example": {
+        "en": "Someone burnt some toast in the kitchen and set the fire alarm off.",
+        "pl": "Ktoś przypalił tosty w kuchni i uruchomił alarm przeciwpożarowy."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "dom", "bezpieczeństwo"]
+    },
+    {
+      "en": "set sth off / set off sth (cause events)",
+      "pl": "wywołać, zapoczątkować (falę protestów, reakcję)",
+      "meaning_pl": "jak iskra: jedno zdarzenie uruchamia cały ciąg następnych. Długie dopełnienie stawiamy po off (set off a wave of protests), zaimek w środku: set it off",
+      "example": {
+        "en": "The government's decision to raise fuel prices set off a wave of protests.",
+        "pl": "Decyzja rządu o podniesieniu cen paliwa wywołała falę protestów."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "społeczeństwo", "polityka"]
+    },
+    {
+      "en": "set out (for / on sth)",
+      "pl": "wyruszyć (w dłuższą podróż, na wyprawę)",
+      "meaning_pl": "prawie to samo co set off, ale częściej o dłuższej, zaplanowanej wyprawie. Bez dopełnienia; cel przez for (set out for the mountains), wyprawę przez on (set out on a journey)",
+      "example": {
+        "en": "The climbers set out for the summit long before sunrise.",
+        "pl": "Wspinacze wyruszyli na szczyt długo przed wschodem słońca."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "podróże"]
+    },
+    {
+      "en": "set out to do sth",
+      "pl": "postawić sobie za cel, zamierzać coś zrobić",
+      "meaning_pl": "zacząć coś z konkretnym celem w głowie. Po out zawsze to + bezokolicznik, więc nic nie wchodzi w środek. Często w przeczeniu: I didn't set out to hurt anyone = wcale nie chciałem nikogo zranić",
+      "example": {
+        "en": "When he started his blog, he didn't set out to become famous.",
+        "pl": "Kiedy zakładał bloga, wcale nie zamierzał stać się sławny."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "cele", "media"]
+    },
+    {
+      "en": "set sth out / set out sth (arguments, rules)",
+      "pl": "przedstawić, wyłożyć (argumenty, zasady, plan)",
+      "meaning_pl": "jasno i po kolei przedstawić fakty albo warunki, zwykle na piśmie. Typowe w raportach i oficjalnych tekstach. Długie dopełnienie po out, zaimek w środku: set them out",
+      "example": {
+        "en": "In the first paragraph, the author sets out the main arguments against school uniforms.",
+        "pl": "W pierwszym akapicie autor przedstawia główne argumenty przeciwko mundurkom szkolnym."
+      },
+      "register": "formal",
+      "tags": ["rozdzielny", "pisanie", "szkoła"]
+    },
+    {
+      "en": "set sb/sth back / set back sb/sth (delay)",
+      "pl": "opóźnić, cofnąć (postęp, projekt)",
+      "meaning_pl": "sprawić, że coś idzie wolniej albo cofa się. Ile opóźnienia, dodajesz przez by: set sth back by six months. Stąd rzeczownik a setback = niepowodzenie. Zaimek w środku: set it back",
+      "example": {
+        "en": "The floods set back the construction of the new bridge by six months.",
+        "pl": "Powódź opóźniła budowę nowego mostu o pół roku."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "problemy"]
+    },
+    {
+      "en": "set sb back (+ amount of money)",
+      "pl": "kosztować kogoś (sporo)",
+      "meaning_pl": "potocznie: coś kosztowało dużo. Osoba zawsze stoi w środku: it set me back £900, nigdy set back me. Bez osoby to nie działa, wtedy po prostu cost £900",
+      "example": {
+        "en": "My new laptop set me back almost £900, so I'm a bit short of money now.",
+        "pl": "Nowy laptop kosztował mnie prawie 900 funtów, więc teraz trochę brakuje mi pieniędzy."
+      },
+      "register": "informal",
+      "tags": ["rozdzielny", "pieniądze", "zakupy"]
+    },
+    {
+      "en": "set sth aside / set aside sth (money, time)",
+      "pl": "odłożyć, zarezerwować (pieniądze, czas na coś)",
+      "meaning_pl": "zachować część pieniędzy albo czasu na konkretny cel. Rzeczownik po aside albo w środku (set aside an hour / set an hour aside), zaimek w środku: set it aside",
+      "example": {
+        "en": "I try to set aside an hour every evening for revision.",
+        "pl": "Staram się codziennie wieczorem zarezerwować godzinę na powtórki."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "pieniądze", "nauka"]
+    },
+    {
+      "en": "set sth aside / set aside sth (differences, feelings)",
+      "pl": "odłożyć na bok (różnice zdań, uczucia)",
+      "meaning_pl": "świadomie nie brać czegoś pod uwagę, bo teraz ważniejsze jest co innego. Typowo: set aside your differences / feelings / doubts. Zaimek w środku: set them aside",
+      "example": {
+        "en": "The two parties set aside their differences to deal with the crisis.",
+        "pl": "Obie partie odłożyły na bok różnice zdań, żeby poradzić sobie z kryzysem."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "relacje", "polityka"]
+    },
+    {
+      "en": "set in (winter, bad weather, panic)",
+      "pl": "zacząć się na dobre (o czymś nieprzyjemnym)",
+      "meaning_pl": "coś złego się zaczyna i wygląda na to, że zostanie na dłużej: zima, deszcz, panika, nuda. Bez dopełnienia; podmiotem jest to, co się zaczyna: panic set in",
+      "example": {
+        "en": "We need to repair the roof before winter sets in.",
+        "pl": "Musimy naprawić dach, zanim na dobre zacznie się zima."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "pogoda", "uczucia"]
+    },
+    {
+      "en": "set about sth / set about doing sth",
+      "pl": "zabrać się do czegoś",
+      "meaning_pl": "zacząć robić coś, co wymaga czasu i wysiłku. Nierozdzielny: dopełnienie zawsze po about, zaimek też (set about it, nie set it about). Po about forma -ing, nie to: set about cleaning",
+      "example": {
+        "en": "After the storm, the villagers set about repairing their damaged houses.",
+        "pl": "Po burzy mieszkańcy wsi zabrali się do naprawy zniszczonych domów."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "dom", "działanie"]
+    },
+    {
+      "en": "set sb/sth apart (from sb/sth)",
+      "pl": "wyróżniać (spośród innych)",
+      "meaning_pl": "o cesze, przez którą ktoś albo coś jest inne, zwykle lepsze. Dopełnienie stoi w środku (it sets her apart), porównanie przez from. Częsty początek zdania: What sets X apart is...",
+      "example": {
+        "en": "Her experience as a volunteer set her apart from the other candidates.",
+        "pl": "Doświadczenie w wolontariacie wyróżniło ją spośród innych kandydatów."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "praca", "opis osoby"]
+    },
+    {
+      "en": "set sth down / set down sth (in writing)",
+      "pl": "spisać, utrwalić na piśmie",
+      "meaning_pl": "zapisać coś, żeby zostało na stałe. W stronie biernej też o zasadach: the rules are set down in the contract = zasady są określone w umowie. Zaimek w środku: set it down. Brzmi oficjalnie, na co dzień powiesz write down",
+      "example": {
+        "en": "My grandfather set down his memories of the war in an old notebook.",
+        "pl": "Mój dziadek spisał swoje wspomnienia z wojny w starym zeszycie."
+      },
+      "register": "formal",
+      "tags": ["rozdzielny", "pisanie", "rodzina"]
+    }
+  ]
+}

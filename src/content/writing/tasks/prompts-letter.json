@@ -1,0 +1,236 @@
+[
+  {
+    "id": "prompt-letter-01",
+    "type": "writing-task",
+    "form": "formal-letter",
+    "theme": "person",
+    "prompt_pl": "W lokalnej gazecie ukazał się artykuł, którego autor twierdzi, że dzisiejsza młodzież jest leniwa i interesuje się tylko telefonami. Napisz list do redakcji, w którym odniesiesz się do tej opinii, podając przykłady młodych ludzi z twojego otoczenia, i zaproponujesz, co mogłoby pomóc starszemu i młodszemu pokoleniu lepiej się rozumieć.",
+    "elements_pl": [
+      "odnieść się do opinii autora artykułu, podając przykłady młodych ludzi z twojego otoczenia",
+      "zaproponować, co mogłoby pomóc starszemu i młodszemu pokoleniu lepiej się rozumieć"
+    ],
+    "planHint_pl": "W pierwszym akapicie napisz, na jaki artykuł odpowiadasz i po co piszesz, bo wstęp bez celu listu traci punkty. Przykłady niech będą konkretne (kolega, który trenuje i uczy się do matury, koleżanka opiekująca się młodszym rodzeństwem, szkolny projekt), a propozycja wykonalna, np. spotkania w bibliotece, na których dwa pokolenia opowiadają o swoich pasjach. Ton ma być stanowczy, ale uprzejmy; gdy nie znasz nazwiska adresata, pisz Dear Sir or Madam … Yours faithfully.",
+    "models": []
+  },
+  {
+    "id": "prompt-letter-02",
+    "type": "writing-task",
+    "form": "formal-letter",
+    "theme": "home",
+    "prompt_pl": "Na parterze twojego bloku otwarto bar z ogródkiem, w którym muzyka gra do późnej nocy, a mieszkańcy coraz częściej skarżą się na hałas. Napisz list do urzędu miasta, w którym opiszesz, jak ta sytuacja wpływa na codzienne życie mieszkańców, i zaproponujesz rozwiązanie, które pogodzi interesy mieszkańców i właściciela baru.",
+    "elements_pl": [
+      "opisać, jak hałas z baru wpływa na codzienne życie mieszkańców bloku",
+      "zaproponować rozwiązanie, które pogodzi interesy mieszkańców i właściciela baru"
+    ],
+    "planHint_pl": "Cel listu podaj od razu: piszesz w imieniu mieszkańców i prosisz urząd o pomoc w rozwiązaniu konfliktu. Skutki pokaż na konkretnych osobach (małe dzieci, które nie mogą zasnąć, osoby wstające wcześnie do pracy, uczniowie przed egzaminami), a rozwiązanie niech będzie kompromisem, np. muzyka ściszana po 22, ogródek zamykany wcześniej w tygodniu, wyciszenie ścian. Pułapka: atak na właściciela, bo w liście formalnym argumentujesz spokojnie i pokazujesz, że szukasz porozumienia.",
+    "models": []
+  },
+  {
+    "id": "prompt-letter-03",
+    "type": "writing-task",
+    "form": "formal-letter",
+    "theme": "education",
+    "prompt_pl": "Dyrektor twojej szkoły, pan Marek Nowak, zapowiedział, że od przyszłego roku wszyscy uczniowie będą musieli nosić mundurki. Napisz do niego list, w którym przedstawisz, jak ta zmiana wpłynęłaby na uczniów, i zaproponujesz rozwiązanie kompromisowe.",
+    "elements_pl": [
+      "przedstawić, jak obowiązkowe mundurki wpłynęłyby na uczniów",
+      "zaproponować rozwiązanie kompromisowe"
+    ],
+    "planHint_pl": "Zacznij od celu: odnosisz się do zapowiedzi dyrektora i piszesz w imieniu swoim albo całej klasy. Możesz pokazać obie strony (mniej porównywania się ubraniami, ale koszt dla rodzin i mniej miejsca na wyrażanie siebie), a kompromis opisz dokładnie, np. szkolna bluza tylko na uroczystości albo mundurki jeden dzień w tygodniu. Znasz nazwisko, więc zacznij od Dear Mr Nowak i zakończ Yours sincerely; samo Dear Mr albo Dear Mrs bez nazwiska to błąd.",
+    "models": []
+  },
+  {
+    "id": "prompt-letter-04",
+    "type": "writing-task",
+    "form": "formal-letter",
+    "theme": "education",
+    "prompt_pl": "W gazecie ukazał się artykuł, którego autor proponuje, żeby w szkołach średnich zastąpić oceny opisowymi komentarzami nauczycieli. Napisz list do redakcji, w którym przedstawisz, jak taka zmiana wpłynęłaby na motywację uczniów do nauki, i zaproponujesz, jak szkoła mogłaby lepiej informować uczniów i rodziców o postępach.",
+    "elements_pl": [
+      "przedstawić, jak zastąpienie ocen opisowymi komentarzami wpłynęłoby na motywację uczniów do nauki",
+      "zaproponować, jak szkoła mogłaby lepiej informować uczniów i rodziców o postępach w nauce"
+    ],
+    "planHint_pl": "We wstępie napisz, do którego artykułu się odnosisz i czy zgadzasz się z autorem, bo to jest cel twojego listu. Przy motywacji pokaż różnych uczniów, tych, których oceny mobilizują, i tych, których stresują, a przy drugim elemencie zaproponuj coś konkretnego, np. krótką rozmowę z wychowawcą raz na semestr albo komentarz do każdego sprawdzianu. Pułapka: zbaczanie w stronę matury i rankingów szkół.",
+    "models": []
+  },
+  {
+    "id": "prompt-letter-05",
+    "type": "writing-task",
+    "form": "formal-letter",
+    "theme": "work",
+    "prompt_pl": "Władze twojego miasta planują program płatnych staży wakacyjnych dla uczniów w lokalnych firmach i proszą mieszkańców o opinie. Napisz list do urzędu miasta, w którym wyjaśnisz, jakie korzyści taki program mógłby przynieść uczniom i lokalnym firmom, i zaproponujesz zasady, dzięki którym staże byłyby naprawdę wartościowe.",
+    "elements_pl": [
+      "wyjaśnić, jakie korzyści program staży mógłby przynieść uczniom i lokalnym firmom",
+      "zaproponować zasady, dzięki którym staże byłyby naprawdę wartościowe"
+    ],
+    "planHint_pl": "We wstępie napisz, że odpowiadasz na prośbę o opinie i popierasz pomysł, w całości albo pod pewnymi warunkami. Korzyści pokaż z dwóch stron, bo polecenie wymienia i uczniów, i firmy (doświadczenie i pieniądze kontra przyszli pracownicy i świeże pomysły), a zasady niech będą konkretne, np. opiekun stażysty, rozsądna liczba godzin, zaświadczenie na koniec. Pułapka: pominięcie firm w pierwszym elemencie.",
+    "models": []
+  },
+  {
+    "id": "prompt-letter-06",
+    "type": "writing-task",
+    "form": "formal-letter",
+    "theme": "private-life",
+    "prompt_pl": "W lokalnej gazecie ukazał się artykuł, którego autor krytykuje wysokie koszty studniówek i nazywa je zbędnym luksusem. Napisz list do redakcji, w którym wyjaśnisz, dlaczego ta uroczystość jest ważna dla uczniów kończących szkołę, i zaproponujesz, jak można ją zorganizować taniej, nie odbierając jej wyjątkowego charakteru.",
+    "elements_pl": [
+      "wyjaśnić, dlaczego studniówka jest ważna dla uczniów kończących szkołę",
+      "zaproponować, jak zorganizować studniówkę taniej, nie odbierając jej wyjątkowego charakteru"
+    ],
+    "planHint_pl": "Słowo studniówka od razu objaśnij po angielsku, np. a formal ball held about a hundred days before our school-leaving exams, bo polska nazwa bez wyjaśnienia to błąd i kłopot dla czytelnika. Ważność pokaż przez konkretne przeżycia (pożegnanie z klasą, wspólne przygotowania, polonez, który też objaśnij: the polonaise, a traditional Polish dance that opens the ball), a oszczędności przez realne pomysły: sala w szkole, wypożyczone stroje, dekoracje zrobione przez uczniów. Możesz przyznać autorowi rację w jednej sprawie, ale stanowisko listu musi być jasne.",
+    "models": []
+  },
+  {
+    "id": "prompt-letter-07",
+    "type": "writing-task",
+    "form": "formal-letter",
+    "theme": "food",
+    "prompt_pl": "Urząd twojego miasta zastanawia się, czy ustawić w kilku miejscach lodówki społeczne, w których mieszkańcy i sklepy mogą zostawiać jedzenie dla innych. Napisz list do urzędu miasta, w którym wyjaśnisz, jakie korzyści przyniosłaby taka inicjatywa, i zaproponujesz, jak zachęcić mieszkańców i lokalne sklepy do korzystania z lodówek.",
+    "elements_pl": [
+      "wyjaśnić, jakie korzyści przyniosłyby lodówki społeczne",
+      "zaproponować, jak zachęcić mieszkańców i lokalne sklepy do korzystania z lodówek społecznych"
+    ],
+    "planHint_pl": "Cel listu we wstępie: popierasz pomysł i chcesz go rozwinąć; po angielsku taka lodówka to zwykle a community fridge. Korzyści: mniej wyrzucanego jedzenia, pomoc dla osób w trudnej sytuacji bez poczucia wstydu, a propozycje: plakaty i informacje w lokalnych mediach, jasne zasady, co można zostawiać, współpraca z piekarniami i sklepami spożywczymi. Pułapka: tekst o marnowaniu jedzenia w ogóle, w którym lodówki pojawiają się tylko w jednym zdaniu.",
+    "models": []
+  },
+  {
+    "id": "prompt-letter-08",
+    "type": "writing-task",
+    "form": "formal-letter",
+    "theme": "shopping",
+    "prompt_pl": "Twoje słuchawki bezprzewodowe zepsuły się tuż po końcu gwarancji, a producent zamiast naprawy proponuje ci tylko zniżkę na nowy model. Napisz list do firmy, w którym opiszesz problem i to, jak potraktowano twoje zgłoszenie, oraz przedstawisz argumenty za tym, żeby firma oferowała klientom naprawy zamiast wymiany sprzętu na nowy.",
+    "elements_pl": [
+      "opisać problem z produktem i to, jak firma potraktowała twoje zgłoszenie",
+      "przedstawić argumenty za tym, żeby firma oferowała naprawy zamiast wymiany sprzętu na nowy"
+    ],
+    "planHint_pl": "We wstępie podaj cel: piszesz w sprawie zepsutego produktu i chcesz, żeby firma zmieniła swoją politykę. Opis ma być rzeczowy (kiedy kupiłeś, co przestało działać, jaką odpowiedź dostałeś), a argumenty wykraczają poza twoją sprawę: mniej elektrośmieci, niższe koszty dla klientów, zaufanie do marki. Pułapka: same żale i pretensje, bo list formalny wymaga spokojnego tonu i konkretnej prośby.",
+    "models": []
+  },
+  {
+    "id": "prompt-letter-09",
+    "type": "writing-task",
+    "form": "formal-letter",
+    "theme": "travel",
+    "prompt_pl": "Coraz więcej uczniów twojej szkoły dojeżdża na lekcje rowerem albo hulajnogą, ale przy ruchliwej ulicy prowadzącej do szkoły nie ma drogi rowerowej. Napisz list do urzędu miasta, w którym opiszesz, jak wygląda codzienny dojazd uczniów i jakie niebezpieczne sytuacje się zdarzają, oraz zaproponujesz zmiany, które poprawiłyby ich bezpieczeństwo.",
+    "elements_pl": [
+      "opisać, jak wygląda codzienny dojazd uczniów do szkoły i jakie niebezpieczne sytuacje się zdarzają",
+      "zaproponować zmiany, które poprawiłyby bezpieczeństwo uczniów w drodze do szkoły"
+    ],
+    "planHint_pl": "We wstępie napisz, kim jesteś, której ulicy dotyczy sprawa i o co prosisz. Opis niech ma konkrety (wąski chodnik, samochody wyprzedzające rowerzystów bardzo blisko, zimowe poranki, kiedy jest jeszcze ciemno), a propozycje odpowiadają na te problemy: wydzielony pas dla rowerów (a cycle lane), przejście z sygnalizacją, ograniczenie prędkości przy szkole, stojaki na rowery. Pułapka: tekst o zaletach jazdy na rowerze zamiast o bezpieczeństwie na tej konkretnej trasie.",
+    "models": []
+  },
+  {
+    "id": "prompt-letter-10",
+    "type": "writing-task",
+    "form": "formal-letter",
+    "theme": "culture",
+    "prompt_pl": "W ogólnopolskim tygodniku ukazał się tekst, którego autor twierdzi, że młodzi ludzie przestali czytać książki. Napisz list do redakcji, w którym przedstawisz, co i w jaki sposób czytają dziś twoi rówieśnicy, i zaproponujesz, jak biblioteki i księgarnie mogłyby przyciągnąć młodych czytelników.",
+    "elements_pl": [
+      "przedstawić, co i w jaki sposób czytają dziś młodzi ludzie z twojego otoczenia",
+      "zaproponować, jak biblioteki i księgarnie mogłyby przyciągnąć młodych czytelników"
+    ],
+    "planHint_pl": "We wstępie nawiąż do tekstu i powiedz jasno, czy zgadzasz się z autorem. Przykłady mogą pokazać, że czytanie się zmienia, a nie znika (audiobooki w drodze do szkoły, e-booki, fantastyka i komiksy, kluby książkowe w sieci), a propozycje to np. spotkania z autorami, wypożyczanie e-booków, polecenia przygotowane przez samych nastolatków. Pułapka: tekst o lekturach szkolnych, który zajmuje połowę listu.",
+    "models": []
+  },
+  {
+    "id": "prompt-letter-11",
+    "type": "writing-task",
+    "form": "formal-letter",
+    "theme": "sport",
+    "prompt_pl": "Władze twojego miasta zapowiedziały, że od przyszłego roku za korzystanie z miejskich boisk i siłowni pod chmurką trzeba będzie płacić. Napisz list do redakcji lokalnej gazety, w którym opiszesz, kto korzysta z tych miejsc i jaką rolę odgrywają w życiu mieszkańców, oraz zaproponujesz inne sposoby zdobycia pieniędzy na ich utrzymanie.",
+    "elements_pl": [
+      "opisać, kto korzysta z miejskich boisk i siłowni pod chmurką i jaką rolę odgrywają one w życiu mieszkańców",
+      "zaproponować inne sposoby zdobycia pieniędzy na utrzymanie tych obiektów"
+    ],
+    "planHint_pl": "Cel listu: chcesz pokazać czytelnikom i władzom, co o opłatach myślą mieszkańcy. Pokaż konkretne grupy (dzieci po lekcjach, amatorskie drużyny, seniorzy ćwiczący rano) i skutki opłat, np. mniej ruchu wśród osób, których nie stać na karnet, a pomysły to np. sponsor z lokalnej firmy, opłata tylko za rezerwację boiska wieczorem, turnieje charytatywne. Siłownia pod chmurką to po angielsku an outdoor gym.",
+    "models": []
+  },
+  {
+    "id": "prompt-letter-12",
+    "type": "writing-task",
+    "form": "formal-letter",
+    "theme": "health",
+    "prompt_pl": "W twojej szkole psycholog jest dostępny tylko przez kilka godzin w tygodniu, a chętnych do rozmowy jest dużo więcej. Napisz list do wydziału edukacji urzędu miasta, w którym opiszesz, z jakimi problemami zmagają się uczniowie i dlaczego potrzebują wsparcia, oraz zaproponujesz rozwiązania tej sytuacji.",
+    "elements_pl": [
+      "opisać, z jakimi problemami zmagają się uczniowie i dlaczego potrzebują wsparcia psychologa",
+      "zaproponować rozwiązania, które poprawiłyby dostęp uczniów do pomocy"
+    ],
+    "planHint_pl": "Wstęp: kim jesteś, w sprawie której szkoły piszesz i o co prosisz. Problemy opisz ogólnie i z szacunkiem (stres przed egzaminami, samotność, konflikty, presja w mediach społecznościowych), bez prawdziwych imion, a rozwiązania to np. więcej godzin psychologa, dyżury online, szkolenia dla wychowawców, uczniowie wspierający rówieśników. Pułapka: dramatyczne opisy zamiast rzeczowych argumentów.",
+    "models": []
+  },
+  {
+    "id": "prompt-letter-13",
+    "type": "writing-task",
+    "form": "formal-letter",
+    "theme": "science",
+    "prompt_pl": "W gazecie ukazał się artykuł, którego autor ostrzega, że sztuczna inteligencja wkrótce odbierze młodym ludziom pracę. Napisz list do redakcji, w którym przedstawisz przykłady zawodów, w których technologia pomaga ludziom, a nie ich zastępuje, i zaproponujesz, jak szkoła powinna przygotowywać uczniów do pracy w świecie sztucznej inteligencji.",
+    "elements_pl": [
+      "przedstawić przykłady zawodów, w których technologia pomaga ludziom, a nie ich zastępuje",
+      "zaproponować, jak szkoła powinna przygotowywać uczniów do pracy w świecie sztucznej inteligencji"
+    ],
+    "planHint_pl": "We wstępie napisz, do którego artykułu się odnosisz, i zaznacz, że chcesz pokazać inny punkt widzenia; możesz przyznać, że niektóre zadania naprawdę znikną. Przykłady rozwiń, a nie tylko wymień (lekarz, któremu program pomaga analizować zdjęcia, tłumacz poprawiający tekst przetłumaczony maszynowo), a propozycje to np. krytyczne korzystanie z AI na lekcjach i ćwiczenie umiejętności, których maszyna nie zastąpi, takich jak praca w zespole. Pułapka: przesada w drugą stronę, czyli twierdzenie, że AI na pewno nic nie zmieni.",
+    "models": []
+  },
+  {
+    "id": "prompt-letter-14",
+    "type": "writing-task",
+    "form": "formal-letter",
+    "theme": "science",
+    "prompt_pl": "Miejska biblioteka szuka pomysłów na nowe zajęcia dla seniorów. Napisz list do dyrektora biblioteki, w którym opiszesz, z jakimi trudnościami w korzystaniu z nowych technologii spotykają się starsze osoby w twoim otoczeniu, i przedstawisz swój pomysł na warsztaty prowadzone przez uczniów.",
+    "elements_pl": [
+      "opisać, z jakimi trudnościami w korzystaniu z nowych technologii spotykają się starsze osoby w twoim otoczeniu",
+      "przedstawić swój pomysł na warsztaty dla seniorów prowadzone przez uczniów"
+    ],
+    "planHint_pl": "Cel listu: odpowiadasz na ogłoszenie biblioteki i proponujesz konkretne zajęcia. Trudności pokaż na przykładach (bankowość w telefonie, umawianie wizyt u lekarza przez internet, rozpoznawanie oszukańczych wiadomości), a pomysł opisz tak, żeby dało się go od razu wdrożyć: kto prowadzi, jak często, czego dokładnie uczycie. Pułapka: pomysł, który kończy się na haśle „uczniowie pomogą seniorom”, bo bez szczegółów to tylko ogólnik.",
+    "models": []
+  },
+  {
+    "id": "prompt-letter-15",
+    "type": "writing-task",
+    "form": "formal-letter",
+    "theme": "nature",
+    "prompt_pl": "Władze twojego miasta jak co roku planują duży pokaz fajerwerków w noc sylwestrową. Napisz list do urzędu miasta, w którym przedstawisz wpływ fajerwerków na zwierzęta i mieszkańców, i zaproponujesz inny sposób wspólnego świętowania.",
+    "elements_pl": [
+      "przedstawić wpływ fajerwerków na zwierzęta i mieszkańców",
+      "zaproponować inny sposób wspólnego świętowania Nowego Roku"
+    ],
+    "planHint_pl": "We wstępie powiedz, do jakiego planu się odnosisz i o co prosisz. Skutki pokaż konkretnie (przestraszone psy uciekające z domów, ptaki zrywające się do lotu w środku nocy, małe dzieci i osoby starsze źle znoszące huk, śmieci na ulicach), a propozycje to np. pokaz świateł albo dronów, koncert na rynku, ciche fajerwerki. Pułapka: ogólnik o ochronie przyrody zamiast tekstu o sylwestrze i tym jednym pokazie.",
+    "models": []
+  },
+  {
+    "id": "prompt-letter-16",
+    "type": "writing-task",
+    "form": "formal-letter",
+    "theme": "nature",
+    "prompt_pl": "Sieć kawiarni, w której często kupujesz napoje, podaje je wyłącznie w jednorazowych kubkach, nawet klientom pijącym na miejscu. Napisz list do firmy, w którym opiszesz ten problem i jego skutki dla środowiska, oraz zaproponujesz zmiany, które firma mogłaby wprowadzić.",
+    "elements_pl": [
+      "opisać problem jednorazowych kubków w kawiarniach tej sieci i jego skutki dla środowiska",
+      "zaproponować zmiany, które firma mogłaby wprowadzić"
+    ],
+    "planHint_pl": "Wstęp: jesteś stałym klientem i piszesz, bo chcesz, żeby firma zmieniła jedną konkretną rzecz. Skutki opisz rzeczowo (góra odpadów każdego dnia, papierowe kubki z plastikową warstwą, które trudno przetworzyć), a zmiany niech będą realne: porcelana dla osób pijących na miejscu, zniżka za własny kubek, kubki wielorazowe za kaucją. Pułapka: oskarżycielski ton, bo list do firmy ma przekonać, a nie obrazić.",
+    "models": []
+  },
+  {
+    "id": "prompt-letter-17",
+    "type": "writing-task",
+    "form": "formal-letter",
+    "theme": "society",
+    "prompt_pl": "Twoje miasto co roku przeznacza część pieniędzy na projekty zgłoszone przez mieszkańców, a o tym, które zostaną zrealizowane, decyduje głosowanie. Napisz list do redakcji lokalnej gazety, w którym przedstawisz projekt, który chcesz zgłosić, i to, komu by służył, oraz wyjaśnisz, dlaczego młodzi ludzie powinni brać udział w takich głosowaniach.",
+    "elements_pl": [
+      "przedstawić projekt, który chcesz zgłosić, i to, komu by służył",
+      "wyjaśnić, dlaczego młodzi ludzie powinni brać udział w głosowaniach nad takimi projektami"
+    ],
+    "planHint_pl": "Budżet obywatelski objaśnij po angielsku, np. participatory budgeting, a scheme in which residents vote on which local projects the city should fund. Projekt musi być konkretny: co, gdzie, dla kogo i dlaczego właśnie tam, np. zadaszone stojaki na rowery przy szkole, a przy drugim elemencie pokaż, że głos młodych naprawdę coś zmienia i uczy odpowiedzialności za okolicę. Pułapka: pomysł bez szczegółów, który egzaminator uzna za ogólnik.",
+    "models": []
+  },
+  {
+    "id": "prompt-letter-18",
+    "type": "writing-task",
+    "form": "formal-letter",
+    "theme": "society",
+    "prompt_pl": "W wielu miejscach twojego miasta osoby poruszające się na wózkach mają problem z wejściem do budynków, przejściem przez ulicę czy wejściem do autobusu. Napisz list do urzędu miasta, w którym opiszesz trudności, z jakimi spotykają się osoby z niepełnosprawnościami w twojej okolicy, i zaproponujesz zmiany, które ułatwiłyby im codzienne życie.",
+    "elements_pl": [
+      "opisać trudności, z jakimi spotykają się osoby z niepełnosprawnościami w twojej okolicy",
+      "zaproponować zmiany, które ułatwiłyby im codzienne życie"
+    ],
+    "planHint_pl": "Cel listu we wstępie: zwracasz uwagę na problem i prosisz o konkretne działania. Opis oprzyj na miejscach, które znasz (schody bez podjazdu przed przychodnią, wysokie krawężniki, niedziałająca winda na dworcu), a zmiany dopasuj do tych przykładów: podjazdy, obniżone krawężniki, niskopodłogowe autobusy, sygnalizacja dźwiękowa dla osób niewidomych. Pułapka: ogólne hasła o tolerancji zamiast konkretnych miejsc i zmian.",
+    "models": []
+  }
+]

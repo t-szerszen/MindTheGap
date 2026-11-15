@@ -1,0 +1,249 @@
+{
+  "id": "collocations-home",
+  "category": "collocations",
+  "title_pl": "Kolokacje: dom i miejsce zamieszkania",
+  "items": [
+    {
+      "en": "move house",
+      "pl": "przeprowadzić się",
+      "meaning_pl": "BrE; house bez przedimka i mówimy tak też wtedy, gdy przenosimy się do mieszkania. Samo move też działa: we moved to Kraków",
+      "example": {
+        "en": "We've moved house three times because of my mum's job.",
+        "pl": "Przeprowadzaliśmy się już trzy razy z powodu pracy mamy."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "przeprowadzka", "BrE"]
+    },
+    {
+      "en": "leave home",
+      "pl": "wyprowadzić się z domu rodzinnego",
+      "meaning_pl": "bez the: leave home = na stałe wyprowadzić się od rodziców. Z the zmienia się sens: leave the house = po prostu wyjść z domu, np. do szkoły",
+      "example": {
+        "en": "Most of my friends want to leave home as soon as they start university.",
+        "pl": "Większość moich znajomych chce wyprowadzić się z domu, gdy tylko zaczną studia."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "usamodzielnienie", "pułapka"]
+    },
+    {
+      "en": "rent a flat (from sb)",
+      "pl": "wynajmować mieszkanie (od kogoś)",
+      "meaning_pl": "rent sth = płacisz za korzystanie, jesteś najemcą (tenant). Właściciel (landlord) robi odwrotnie: rent sth out (to sb), w BrE też let sth. Co miesiąc pay the rent",
+      "example": {
+        "en": "Renting a flat in the city centre is so expensive that many students live with their parents.",
+        "pl": "Wynajęcie mieszkania w centrum jest tak drogie, że wielu studentów mieszka z rodzicami."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "wynajem"]
+    },
+    {
+      "en": "share a flat (with sb)",
+      "pl": "mieszkać z kimś w jednym mieszkaniu",
+      "meaning_pl": "share = dzielić coś z kimś; osoba, z którą dzielisz mieszkanie, to flatmate (BrE). Tak samo share a room",
+      "example": {
+        "en": "During my exchange year in Leeds, I shared a flat with two other students.",
+        "pl": "Podczas rocznej wymiany w Leeds mieszkałem z dwoma innymi studentami."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "wynajem", "studia"]
+    },
+    {
+      "en": "take out a mortgage",
+      "pl": "wziąć kredyt hipoteczny",
+      "meaning_pl": "take out = formalnie coś załatwić w banku lub firmie (też take out a loan, take out insurance). Spłacić to pay off a mortgage. W mortgage nie czytamy t: /ˈmɔːɡɪdʒ/",
+      "example": {
+        "en": "My parents took out a mortgage to buy our house and will be paying it off for another fifteen years.",
+        "pl": "Moi rodzice wzięli kredyt hipoteczny na nasz dom i będą go spłacać jeszcze przez piętnaście lat."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "pieniądze", "kupno"]
+    },
+    {
+      "en": "have a (great) view of sth",
+      "pl": "mieć (świetny) widok na coś",
+      "meaning_pl": "po view przyimek of, choć po polsku jest na. A view on sth to coś innego: opinia na jakiś temat. Okna mogą też overlook sth = wychodzić na coś",
+      "example": {
+        "en": "From my bedroom window I have a great view of the mountains.",
+        "pl": "Z okna mojego pokoju mam świetny widok na góry."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "opis miejsca", "pułapka"]
+    },
+    {
+      "en": "feel at home",
+      "pl": "czuć się jak u siebie",
+      "meaning_pl": "bez the. Gościowi mówisz Make yourself at home. = Rozgość się. Przydaje się w liście do znajomego z zagranicy",
+      "example": {
+        "en": "My host family were so friendly that I felt at home from the first day.",
+        "pl": "Moja rodzina goszcząca była tak miła, że od pierwszego dnia czułem się jak u siebie."
+      },
+      "register": "neutral",
+      "tags": ["verb+phrase", "goście", "list"]
+    },
+    {
+      "en": "live independently",
+      "pl": "mieszkać samodzielnie, żyć na własny rachunek",
+      "meaning_pl": "bez pomocy rodziców czy opiekunów; independently to przysłówek od independent, opisuje, jak ktoś mieszka",
+      "example": {
+        "en": "Living independently teaches young people how to manage money and run a household.",
+        "pl": "Samodzielne mieszkanie uczy młodych ludzi, jak gospodarować pieniędzmi i prowadzić dom."
+      },
+      "register": "neutral",
+      "tags": ["verb+adverb", "usamodzielnienie", "rozprawka"]
+    },
+    {
+      "en": "a detached / semi-detached / terraced house",
+      "pl": "dom wolnostojący / bliźniak / szeregowiec",
+      "meaning_pl": "detached = odłączony, więc stoi sam; semi-detached = połowa bliźniaka, jedną ścianą połączona z drugim domem; terraced = jeden z rzędu połączonych domów (a terrace). Typowe słowa z tekstów o Wielkiej Brytanii",
+      "example": {
+        "en": "We live in a semi-detached house with a small garden at the back.",
+        "pl": "Mieszkamy w bliźniaku z małym ogródkiem z tyłu."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "typy domów", "BrE"]
+    },
+    {
+      "en": "a block of flats",
+      "pl": "blok mieszkalny",
+      "meaning_pl": "flat = mieszkanie (AmE apartment), a cały budynek z mieszkaniami to a block of flats. Bardzo wysoki blok to a tower block",
+      "example": {
+        "en": "I grew up on the tenth floor of a block of flats, so I'd love to have a garden one day.",
+        "pl": "Wychowałem się na dziesiątym piętrze bloku, więc chciałbym kiedyś mieć ogród."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "typy domów", "BrE"]
+    },
+    {
+      "en": "a housing estate",
+      "pl": "osiedle mieszkaniowe",
+      "meaning_pl": "estate to tu teren z wieloma domami zbudowanymi naraz, nie majątek. Mieszka się on an estate (przyimek on). Pośrednik nieruchomości to estate agent",
+      "example": {
+        "en": "There's a new housing estate on the edge of town with a playground and a few shops.",
+        "pl": "Na skraju miasta jest nowe osiedle z placem zabaw i kilkoma sklepami."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "okolica", "BrE"]
+    },
+    {
+      "en": "a residential area",
+      "pl": "dzielnica mieszkaniowa",
+      "meaning_pl": "residential = przeznaczony do mieszkania, bez fabryk i biurowców. Przeciwieństwa: an industrial area, a commercial area",
+      "example": {
+        "en": "The new shopping centre will be built far from residential areas, so it won't disturb residents.",
+        "pl": "Nowe centrum handlowe powstanie daleko od dzielnic mieszkaniowych, więc nie będzie przeszkadzać mieszkańcom."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "okolica", "rozprawka"]
+    },
+    {
+      "en": "a run-down area",
+      "pl": "zaniedbana okolica, zaniedbana dzielnica",
+      "meaning_pl": "run-down = w złym stanie, bo od lat nikt o to nie dba ani w to nie inwestuje. Pasuje też do budynków: a run-down building",
+      "example": {
+        "en": "The council plans to regenerate this run-down area and open a new library there.",
+        "pl": "Władze miasta planują odnowić tę zaniedbaną dzielnicę i otworzyć w niej nową bibliotekę."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "okolica", "opis miejsca"]
+    },
+    {
+      "en": "a close-knit community",
+      "pl": "zżyta społeczność",
+      "meaning_pl": "close-knit = ciasno spleciony (knit = robić na drutach), czyli ludzie dobrze się znają i sobie pomagają. Często o wsiach i małych miasteczkach, też a close-knit family",
+      "example": {
+        "en": "In my village we're a close-knit community – everybody knows everybody.",
+        "pl": "W mojej wsi jesteśmy zżytą społecznością – wszyscy się znają."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "sąsiedzi", "wieś"]
+    },
+    {
+      "en": "local amenities",
+      "pl": "udogodnienia w okolicy, lokalna infrastruktura",
+      "meaning_pl": "amenities = sklepy, szkoły, przychodnie, parki i inne miejsca, które ułatwiają życie. Prawie zawsze w liczbie mnogiej; dobre słowo do rozprawki o mieście i wsi",
+      "example": {
+        "en": "The flat is a bit small, but there are lots of local amenities, including a gym and a health centre.",
+        "pl": "Mieszkanie jest trochę małe, ale w okolicy jest dużo udogodnień, między innymi siłownia i przychodnia."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "okolica", "rozprawka"]
+    },
+    {
+      "en": "within walking distance (of sth)",
+      "pl": "niedaleko, w zasięgu spaceru (od czegoś)",
+      "meaning_pl": "da się tam dojść pieszo. Przyimek within, a miejsce dokładamy po of: within walking distance of the school. Podobnie: a five-minute walk from sth",
+      "example": {
+        "en": "Our new flat is within walking distance of my school, so I don't need to take the bus any more.",
+        "pl": "Z naszego nowego mieszkania dojdę do szkoły pieszo, więc nie muszę już jeździć autobusem."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "odległość", "opis miejsca"]
+    },
+    {
+      "en": "be conveniently located",
+      "pl": "być dogodnie położonym",
+      "meaning_pl": "conveniently = w praktycznym miejscu, np. blisko sklepów czy przystanku. Located (albo situated) brzmi oficjalniej niż is near, dlatego pasuje do ogłoszeń i listów formalnych",
+      "example": {
+        "en": "The flat is conveniently located close to the metro station and a large supermarket.",
+        "pl": "Mieszkanie jest dogodnie położone, blisko stacji metra i dużego supermarketu."
+      },
+      "register": "neutral",
+      "tags": ["adverb+adjective", "ogłoszenie", "opis miejsca"]
+    },
+    {
+      "en": "a spacious / cramped flat",
+      "pl": "przestronne / ciasne mieszkanie",
+      "meaning_pl": "spacious = dużo miejsca (od space); cramped = za mało miejsca dla ludzi i rzeczy, więc ciasno i niewygodnie. Oba pasują też do room czy kitchen",
+      "example": {
+        "en": "We moved from a cramped flat to a spacious house, and now I finally have my own room.",
+        "pl": "Przeprowadziliśmy się z ciasnego mieszkania do przestronnego domu i w końcu mam własny pokój."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "opis miejsca", "przeciwieństwa"]
+    },
+    {
+      "en": "fully furnished",
+      "pl": "w pełni umeblowany",
+      "meaning_pl": "furnished = z meblami (od furniture), przeciwieństwo: unfurnished. Typowe w ogłoszeniach o wynajmie. Uwaga: furniture jest niepoliczalne, jeden mebel to a piece of furniture",
+      "example": {
+        "en": "The flat is fully furnished, so you only need to bring your clothes and books.",
+        "pl": "Mieszkanie jest w pełni umeblowane, więc wystarczy przywieźć ubrania i książki."
+      },
+      "register": "neutral",
+      "tags": ["adverb+adjective", "ogłoszenie", "wynajem"]
+    },
+    {
+      "en": "affordable housing",
+      "pl": "tanie mieszkania, mieszkania w przystępnej cenie",
+      "meaning_pl": "housing = mieszkania ogólnie, jako sprawa społeczna; jest niepoliczalne, więc bez a i bez -s. Affordable = takie, na które kogoś stać (od afford)",
+      "example": {
+        "en": "The government should build more affordable housing so that young people don't have to rent for decades.",
+        "pl": "Rząd powinien budować więcej tanich mieszkań, żeby młodzi ludzie nie musieli wynajmować przez dziesiątki lat."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "rozprawka", "problemy społeczne"]
+    },
+    {
+      "en": "living conditions",
+      "pl": "warunki życia, warunki mieszkaniowe",
+      "meaning_pl": "zawsze w liczbie mnogiej; chodzi o to, jak dobrze albo źle ludzie mieszkają. Typowo: poor living conditions, improve living conditions",
+      "example": {
+        "en": "The new housing project has greatly improved living conditions for local families.",
+        "pl": "Nowy projekt mieszkaniowy znacznie poprawił warunki życia miejscowych rodzin."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "rozprawka", "problemy społeczne"]
+    },
+    {
+      "en": "household bills",
+      "pl": "rachunki domowe (za prąd, gaz, wodę)",
+      "meaning_pl": "bill = rachunek do zapłacenia, stąd pay the bills. Za prąd i gaz to też energy bills. Bill to nie paragon, paragon to receipt",
+      "example": {
+        "en": "Since energy prices went up, my parents have been trying to cut their household bills.",
+        "pl": "Odkąd wzrosły ceny energii, rodzice starają się zmniejszyć rachunki domowe."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "pieniądze", "pułapka"]
+    }
+  ]
+}

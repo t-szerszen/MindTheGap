@@ -1,0 +1,523 @@
+[
+  {
+    "id": "fup-series-last-episode-ending",
+    "type": "gap-fill",
+    "sentence": "The last episode of my favourite series comes out on Friday, but I've got three tests next week, so by the time I get round to watching it, someone at school ___ (tell) me how it ends.",
+    "correct": ["will have told"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "by the time I get round to watching it — „zanim w końcu zabiorę się do oglądania”, czyli moment w przyszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Ktoś zdradzi ci zakończenie, zanim obejrzysz odcinek. Stajesz w chwili oglądania i patrzysz wstecz: wtedy będzie już po wszystkim → Future Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "get round to stoi w Present Simple, bo po by the time nie ma will. Polskie „ktoś mi powie” podsuwa will tell, ale po by the time liczy się, co w tym momencie będzie już za tobą."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + have + V3 (tell – told – told) → will have told."
+      }
+    ],
+    "tags": ["future-perfect"],
+    "difficulty": 1
+  },
+  {
+    "id": "fup-exchange-student-brothers-asleep",
+    "type": "gap-fill",
+    "sentence": "Our French exchange student doesn't land until after midnight, and by then my little brothers ___ (already / fall) asleep, so they'll only meet her at breakfast.",
+    "correct": ["will already have fallen"],
+    "accepted": ["will have already fallen"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "doesn't land until after midnight i by then (do tego czasu, czyli do lądowania po północy), do tego already."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Bracia zasną, zanim samolot wyląduje. Stajesz w tej chwili i patrzysz wstecz: zaśnięcie będzie już za nimi → Future Perfect."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + already + have + V3 (fall – fell – fallen) → will already have fallen. already może też stać po have: will have already fallen."
+      }
+    ],
+    "tags": ["future-perfect"],
+    "difficulty": 1
+  },
+  {
+    "id": "fup-trainers-worn-out-sports-day",
+    "type": "gap-fill",
+    "sentence": "Szymon runs ten kilometres every day in his new trainers, so by the time sports day comes round in June, he ___ (wear) them out.",
+    "correct": ["will have worn"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "by the time sports day comes round in June — moment w przyszłości: szkolny dzień sportu w czerwcu."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Codzienne bieganie zedrze buty, zanim przyjdzie czerwiec. W tym momencie będą już zniszczone → Future Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "comes round stoi w Present Simple, bo po by the time nie ma will. wear out (zedrzeć) to phrasal verb: them stoi między wear a out, a w luce zmieniasz tylko wear."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + have + V3 (wear – wore – worn) → will have worn."
+      }
+    ],
+    "tags": ["future-perfect"],
+    "difficulty": 1
+  },
+  {
+    "id": "fup-decorators-living-room",
+    "type": "gap-fill",
+    "sentence": "Come round on Saturday afternoon — by then the decorators ___ (paint) the living room, and we can finally put the sofa back.",
+    "correct": ["will have painted"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "by then — do sobotniego popołudnia, o którym mowa na początku zdania."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "W sobotę po południu salon będzie już pomalowany i dlatego da się wstawić kanapę → Future Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Future Simple z by brzmi naturalnie przy obietnicy (I'll send it by Friday). Tu nikt nic nie obiecuje: opisujesz, jak będzie w sobotę po południu, a wtedy malowanie będzie już za nimi. decorators to po brytyjsku malarze pokojowi."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + have + V3 → will have painted."
+      }
+    ],
+    "tags": ["future-perfect"],
+    "difficulty": 1
+  },
+  {
+    "id": "fup-old-cinema-knocked-down",
+    "type": "gap-fill",
+    "sentence": "The old cinema on our street closes for good in May, and by the time I come back from my gap year, it ___ (knock down) to make way for a block of flats.",
+    "correct": ["will have been knocked down"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "by the time I come back from my gap year — moment w przyszłości: powrót po roku przerwy."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Rozbiórka skończy się, zanim wrócisz. Kino samo się nie burzy — ktoś je burzy → strona bierna Future Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will be knocked down mówiłoby tylko, że kino zostanie zburzone. Po by the time liczy się, że w chwili twojego powrotu będzie już po rozbiórce, a to pokazuje have been + V3. knock down to phrasal verb: V3 dostaje knock (knocked), a down zostaje za nim."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + have been + V3 → will have been knocked down."
+      }
+    ],
+    "tags": ["future-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "fup-old-car-sold-gdynia",
+    "type": "gap-fill",
+    "sentence": "By the time you read this message, our old car ___ (sell) to a man from Gdynia, so don't bother asking Dad if you can borrow it this weekend.",
+    "correct": ["will have been sold"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "By the time you read this message — moment w przyszłości: kiedy ktoś przeczyta wiadomość."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Sprzedaż nastąpi wcześniej. Samochód nie sprzedaje się sam — ktoś go sprzedaje, a to a man from Gdynia mówi komu → strona bierna Future Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will be sold mówiłoby o samej sprzedaży, która dopiero nastąpi. A w chwili czytania auta już nie będzie i dlatego nie warto pytać o nie taty."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + have been + V3 (sell – sold – sold) → will have been sold."
+      }
+    ],
+    "tags": ["future-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "fup-alpine-glaciers-retire",
+    "type": "gap-fill",
+    "sentence": "Scientists warn that by the time today's teenagers retire, many glaciers in the Alps ___ (disappear) completely.",
+    "correct": ["will have disappeared"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "by the time today's teenagers retire — moment za kilkadziesiąt lat."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Znikanie lodowców zakończy się przed tym momentem → Future Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "retire to Present Simple, choć chodzi o przyszłość: po by the time nie ma will."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + have + V3 → will have disappeared."
+      }
+    ],
+    "tags": ["future-perfect"],
+    "difficulty": 1
+  },
+  {
+    "id": "fup-driving-lesson-grandma-train",
+    "type": "gap-fill",
+    "sentence": "By the time Grandma's train gets in at five, I ___ (not / come back) from my driving lesson, so could you pick her up from the station?",
+    "correct": ["will not have come back"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "By the time Grandma's train gets in at five — moment w przyszłości: przyjazd pociągu."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "O piątej będziesz jeszcze na lekcji jazdy albo w drodze. Mówisz, czego w tym momencie NIE będzie za tobą → przeczenie w Future Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Polskie „nie wrócę” podsuwa won't come back, ale po by the time liczy się stan w chwili przyjazdu (jeszcze nie wróciłeś), a nie sam moment powrotu. gets in to Present Simple, bez will."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + not + have + V3 (come – came – come) → will not have come back (won't have come back). V3 od come to come, nie came."
+      }
+    ],
+    "tags": ["future-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "fup-decide-universities",
+    "type": "gap-fill",
+    "sentence": "___ (you / decide) which universities to apply to by the time the matura results come out, or will you still be keeping your options open?",
+    "correct": ["Will you have decided"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "by the time the matura results come out — moment w przyszłości: ogłoszenie wyników."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz, czy decyzja zapadnie, zanim wyjdą wyniki → pytanie w Future Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "come out stoi w Present Simple, bo po by the time nie ma will. Will you decide…? pytałoby o samą decyzję, a by the time każe stanąć w chwili wyników: czy decyzja będzie już za tobą? Druga połowa pytania (will you still be keeping…) to Future Continuous: czy wtedy wciąż będziesz w trakcie wahania."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Will + you + have + V3 → Will you have decided?"
+      }
+    ],
+    "tags": ["future-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "fup-cycling-zakopane-gdansk",
+    "type": "gap-fill",
+    "sentence": "You're cycling all the way from Zakopane to Gdańsk? How many kilometres ___ (you / cycle) by the time you reach the Baltic?",
+    "correct": ["will you have cycled"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "How many kilometres…? i by the time you reach the Baltic."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz o wynik: ile kilometrów będzie za tobą w chwili, gdy dojedziesz nad morze → Future Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Liczba to wynik, więc nie Future Perfect Continuous (will you have been cycling). reach to Present Simple, bo stoi po by the time."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "How many kilometres + will + you + have + V3 → will you have cycled."
+      }
+    ],
+    "tags": ["future-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "fup-mock-exams-syllabus",
+    "type": "gap-fill",
+    "sentence": "If we don't speed up, by the time the mock exams start in March we ___ (not / get through) even half of the syllabus.",
+    "correct": ["will not have got through"],
+    "accepted": ["will not have gotten through"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "by the time the mock exams start in March — punkt w przyszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "W marcu nie będzie przerobiona nawet połowa materiału. Mówisz o stanie w tym momencie → przeczenie w Future Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "To zdanie z if, ale luka stoi w części głównej, więc will jest tu na miejscu. Bez will są tylko don't speed up (po if) i start (po by the time)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + not + have + V3 (get – got – got) → will not have got through (won't have got through). Po amerykańsku V3 to gotten."
+      }
+    ],
+    "tags": ["future-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "fup-last-bus-when-we-get-there",
+    "type": "gap-fill",
+    "sentence": "There's no point running — the last bus goes in two minutes and the stop is a ten-minute walk away, so when we get there, it ___ (leave).",
+    "correct": ["will have left"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "the last bus goes in two minutes, a do przystanku jest dziesięć minut — autobus odjedzie, zanim dojdziecie."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Odjazd nastąpi przed waszym dojściem. Stajesz w chwili dotarcia na przystanek i patrzysz wstecz → Future Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "when samo nie wybiera czasu. will leave znaczyłoby, że autobus odjedzie dopiero wtedy, gdy dojdziecie — a zdanie mówi, że będzie już po odjeździe, i dlatego nie ma sensu biec."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + have + V3 (leave – left – left) → will have left."
+      }
+    ],
+    "tags": ["future-perfect"],
+    "difficulty": 3
+  },
+  {
+    "id": "fup-bike-ten-years",
+    "type": "gap-fill",
+    "sentence": "Next month I ___ (have) this bike for exactly ten years, and it still looks almost new.",
+    "correct": ["will have had"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Next month + for exactly ten years — liczysz okres aż do momentu w przyszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Rower masz już prawie dziesięć lat, a w przyszłym miesiącu minie równe dziesięć. Patrzysz z tamtego momentu wstecz → Future Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "have (mieć) to czasownik stanu, więc nie ma tu wersji z -ing. will have this bike for ten years znaczyłoby „będę go miał przez dziesięć lat” — od teraz w przyszłość. Dwa have obok siebie to nie błąd: pierwsze jest pomocnicze, drugie (had) to V3 od have."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + have + V3 (have – had – had) → will have had."
+      }
+    ],
+    "tags": ["future-perfect"],
+    "difficulty": 3
+  },
+  {
+    "id": "fup-film-three-hours-watching",
+    "type": "gap-fill",
+    "sentence": "Text me after ten, not at eight — the film starts at seven and it's almost three hours long, so at eight I ___ (watch) it with my phone switched off.",
+    "correct": ["will be watching"],
+    "accepted": ["am going to be watching"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "at eight — konkretna godzina w przyszłości (at, nie by), a film trwa od siódmej prawie do dziesiątej."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "O ósmej będziesz w środku seansu, czyli w trakcie oglądania → Future Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Film zaczyna się przed ósmą, więc kusi will have watched. Ale Future Perfect znaczyłby, że o ósmej będzie już po filmie, a seans skończy się dopiero koło dziesiątej."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + be + V-ing → will be watching. Pasuje też am going to be watching."
+      }
+    ],
+    "tags": ["future-continuous", "future-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "fup-speeches-sitting-hall",
+    "type": "gap-fill",
+    "sentence": "By the time the last speaker finishes, we ___ (sit) in this stuffy school hall for almost three hours — and the air conditioning doesn't even work.",
+    "correct": ["will have been sitting", "will have sat"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "By the time the last speaker finishes + for almost three hours — czas trwania aż do momentu w przyszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Siedzicie już teraz i będziecie siedzieć aż do końca ostatniego przemówienia. Liczysz, jak długo to potrwa do tej chwili → Future Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will have sat też jest poprawne. Continuous brzmi tu jednak naturalniej, bo podkreśla długie, męczące siedzenie (duszna sala, nie działa klimatyzacja). Gdyby chodziło o wynik, np. ile przemówień wysłuchacie, zostałby tylko Future Perfect. finishes po by the time to Present Simple."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + have been + V-ing → will have been sitting (t się podwaja). Albo will + have + V3 (sit – sat – sat) → will have sat."
+      }
+    ],
+    "tags": ["future-perfect-continuous", "future-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "fup-chemist-closed-parking",
+    "type": "gap-fill",
+    "sentence": "Let's not bother going to the chemist's tonight — it shuts at eight, so by the time we find a parking space, it ___ (be) closed.",
+    "correct": ["will be", "is going to be"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "by the time we find a parking space kusi Future Perfect, ale czasownik to be: be closed = być zamkniętym."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Mówisz, jaki będzie stan w chwili, gdy znajdziecie miejsce: apteka będzie zamknięta. Stan w danym momencie to zwykłe will be. Pasuje też is going to be, bo przewidujesz na podstawie tego, co wiesz teraz (zamykają o ósmej)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "be closed samo opisuje stan „po zamknięciu”, więc nie trzeba cofać się przez have + V3. will have been closed bez okresu (np. for an hour) brzmi tu jak strona bierna — jakby ktoś specjalnie zamknął aptekę — a chodzi o zwykły stan po godzinie zamknięcia. Gdyby w nawiasie było close, pasowałby Future Perfect: it will have closed."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + be → will be (it'll be closed) albo is going to be."
+      }
+    ],
+    "tags": ["future-simple", "be-going-to", "future-perfect"],
+    "difficulty": 3
+  },
+  {
+    "id": "fup-text-me-pasta",
+    "type": "gap-fill",
+    "sentence": "Text me when you're leaving the office, and I ___ (boil) the water for the pasta, so dinner's ready the moment you walk in.",
+    "correct": ["will boil"],
+    "accepted": ["shall boil"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Text me…, and I… — najpierw twój SMS, potem moja reakcja na niego."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Gotowanie wody to odpowiedź na SMS: dostaję wiadomość → wstawiam wodę. Zwykła przyszłość, bez patrzenia wstecz → Future Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "so dinner's ready the moment you walk in kusi Future Perfect („gotowe przed twoim przyjściem”). Ale luka nie ma swojego punktu „do tej chwili” (by the time…, by then): twoje przyjście opisuje osobna część zdania. Polecenie + and + will to typowy układ: Text me, and I'll…"
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + V1 → will boil (I'll boil). Z I można też shall: I shall boil."
+      }
+    ],
+    "tags": ["future-simple", "future-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "fup-practice-essays-so-far",
+    "type": "gap-fill",
+    "sentence": "By Christmas we'll have done ten practice essays for Mrs Wójcik, and so far this term we ___ (write) six.",
+    "correct": ["have written"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "so far this term — jak dotąd, czyli od początku semestru do teraz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Liczysz eseje do chwili mówienia, a nie do świąt → Present Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Pierwsza część zdania jest w Future Perfect (by Christmas), ale druga ma inny punkt odniesienia: teraz, nie Boże Narodzenie. Future Perfect liczy do momentu w przyszłości, Present Perfect — do teraz."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "have + V3 (write – wrote – written) → have written."
+      }
+    ],
+    "tags": ["present-perfect", "future-perfect"],
+    "difficulty": 3
+  },
+  {
+    "id": "fup-application-form-once",
+    "type": "gap-fill",
+    "sentence": "Once your brother ___ (fill in) the application form, tell him to hand it in to the school secretary, not to his form tutor.",
+    "correct": ["has filled in", "fills in"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Once (kiedy już, gdy tylko) — spójnik czasu, a całe zdanie dotyczy przyszłości (tell him to hand it in)."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Najpierw brat wypełnia formularz, potem go oddaje. Po spójniku czasu nie ma will, więc zamiast Future Perfect stoi Present Perfect: has filled in."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Polskie „kiedy już wypełni” kusi, żeby wpisać will fill in albo will have filled in — po once oba są błędem. Present Simple (once he fills in) też jest poprawne, bo kolejność i tak widać z once."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "has + V3 → has filled in (your brother = he, więc has); albo V1 + -s → fills in."
+      }
+    ],
+    "tags": ["present-perfect", "present-simple", "future-perfect"],
+    "difficulty": 3
+  },
+  {
+    "id": "fup-invitation-student-flat-poznan",
+    "type": "gap-fill",
+    "sentence": "Please don't send the invitation to my parents' address — I'm moving out next week, so by the time it arrives, I ___ (live) in a student flat in Poznań.",
+    "correct": ["will be living"],
+    "accepted": ["am going to be living"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "by the time it arrives kusi Future Perfect, ale czasownik to live i nie ma okresu (for…)."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Gdy zaproszenie dojdzie, będziesz już mieszkać w Poznaniu — to sytuacja w toku w tamtym momencie → Future Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will have lived bez for + okres nie ma sensu: mieszkanie w Poznaniu nie skończy się przed przyjściem listu. Future Perfect pasowałby do innego czasownika: by then I'll have moved to Poznań."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + be + V-ing → will be living. Pasuje też am going to be living."
+      }
+    ],
+    "tags": ["future-continuous", "future-perfect"],
+    "difficulty": 3
+  }
+]

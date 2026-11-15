@@ -1,0 +1,718 @@
+{
+  "id": "linking-contrast",
+  "category": "grammar",
+  "title_pl": "Łączniki: kontrast, przyczyna, skutek, cel",
+  "summary_pl": "Jak wybrać łącznik w dwóch krokach: najpierw relacja między zdaniami, potem to, co stoi po luce. although czy despite, because czy because of, so czy so that, unless czy otherwise, a do tego whenever, whatever, whether i whereas.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "Łącznik mówi, ==jak dwie informacje wiążą się ze sobą==. *The tickets were expensive* i *the concert sold out* to dwa fakty. Dopiero łącznik mówi, czy jeden przeczy drugiemu (*although*), wyjaśnia go (*because*), wynika z niego (*so*) albo stawia warunek (*unless*).\n\nŻeby wybrać dobry łącznik, odpowiadasz na dwa pytania, zawsze w tej kolejności:\n\n- **Jaka to relacja?** Kontrast, przyczyna, skutek, cel czy warunek. To wybiera ==rodzinę== słów.\n- **Co stoi po luce?** Całe zdanie z podmiotem i czasownikiem, sam rzeczownik albo -ing, czy nowe zdanie po kropce. To wybiera ==jedno słowo== z tej rodziny.\n\nNa maturze złe odpowiedzi psują zwykle jedno z dwóch: mają złą relację albo dobre znaczenie, ale złą składnię."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "relacja",
+          "text_pl": "Przeczytaj obie części bez luki. Druga zaskakuje (mimo że)? Wyjaśnia (bo)? Wynika z pierwszej (więc)? Mówi, po co (żeby)? Stawia warunek (chyba że)? Tu odrzucasz słowa o złym znaczeniu."
+        },
+        {
+          "step_pl": "co stoi po luce",
+          "text_pl": "Podmiot + czasownik w czasie (it was, she had) → spójnik: although, because, so that, unless. Rzeczownik, zaimek albo -ing → przyimek: despite, in spite of, because of, due to."
+        },
+        {
+          "step_pl": "interpunkcja",
+          "text_pl": "Kropka albo średnik przed luką i przecinek po niej → przysłówek łączący: however, nevertheless, therefore, otherwise. Taki wyraz zaczyna nowe zdanie, nie skleja dwóch w jedno."
+        },
+        {
+          "step_pl": "sprawdź po polsku",
+          "text_pl": "Przetłumacz z wybranym słowem. Mimo że, chociaż, ponieważ, żeby łączą się ze zdaniem. Pomimo i z powodu łączą się z rzeczownikiem. Jeśli wychodzi „pomimo bilety były drogie”, masz zły typ słowa."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": ["Relacja", "+ zdanie", "+ rzeczownik / -ing", "na początku nowego zdania"],
+      "rows": [
+        [
+          "kontrast: mimo że",
+          "although, even though, though",
+          "despite, in spite of",
+          "however, nevertheless, nonetheless, even so"
+        ],
+        ["zestawienie: a, podczas gdy", "whereas, while", "—", "in contrast"],
+        ["przyczyna: bo, ponieważ", "because, since, as", "because of, due to, owing to", "—"],
+        ["skutek: więc", "so", "—", "therefore, consequently, as a result"],
+        [
+          "cel: żeby",
+          "so that",
+          "for + rzeczownik: for a walk (ale z czasownikiem: to / in order to / so as to + V1)",
+          "—"
+        ],
+        ["warunek: chyba że, jeśli nie", "unless", "—", "otherwise (bo inaczej)"]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "**Test ze „że”.** Polski dobrze tu podpowiada. *Mimo że, chociaż, ponieważ, żeby* łączą się ze zdaniem, tak jak *although, because, so that*. *Pomimo* i *z powodu* łączą się z rzeczownikiem (pomimo ==deszczu==, z powodu ==korków==), tak jak *despite* i *because of*. Jeśli po polsku powiedziałbyś „mimo że”, po angielsku nie bierzesz *despite*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**although / even though / though + zdanie.** Mówisz, że coś się stało ==wbrew temu, czego można się było spodziewać==. Po polsku: *chociaż, mimo że*. Po tych słowach zawsze stoi pełne zdanie z podmiotem i czasownikiem.\n\n- *although* to wersja podstawowa, pasuje wszędzie,\n- *even though* jest mocniejsze: podkreśla, że to fakt, a mimo to…,\n- *though* jest bardziej potoczne. Może też stać na końcu zdania i znaczy wtedy „jednak”.\n\nCzęść z *although* może stać na początku albo w środku zdania. Gdy od niej zaczynasz, po całej tej części stawiasz przecinek."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Although / Even though", "role": "signal" },
+        { "text": "subject", "role": "subject" },
+        { "text": "verb", "role": "verb" },
+        { "text": ",", "role": "neutral" },
+        { "text": "main clause", "role": "neutral" }
+      ],
+      "example": {
+        "en": "Although the flat is tiny, it has a balcony with a view of the river.",
+        "pl": "Chociaż mieszkanie jest malutkie, ma balkon z widokiem na rzekę."
+      }
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "Even though Wojtek had trained for months, he didn't make the national team.",
+          "pl": "Mimo że Wojtek trenował miesiącami, nie dostał się do kadry narodowej."
+        },
+        {
+          "en": "We enjoyed the trip although the campsite was really noisy.",
+          "pl": "Wycieczka nam się podobała, chociaż na kempingu było bardzo głośno."
+        },
+        {
+          "en": "My phone is quite old. It still works perfectly, though.",
+          "pl": "Mój telefon jest dość stary. Nadal jednak działa bez zarzutu."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**despite / in spite of + rzeczownik albo -ing.** Znaczenie to samo co *although*: pomimo czegoś. Różnica jest tylko w składni. *despite* i *in spite of* to ==przyimki==, więc po nich stoi rzeczownik, zaimek albo forma -ing, a ==nie== całe zdanie. Po polsku: *pomimo, mimo* + rzeczownik (*pomimo korków*).\n\n- *despite* nigdy nie ma *of*,\n- *in spite of* zawsze ma *of*, to trzy słowa,\n- chcesz po nich mieć całe zdanie? Wstaw ==the fact that==: *despite the fact that…*"
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Despite / In spite of", "role": "signal" },
+        { "text": "noun", "role": "object" },
+        { "text": ",", "role": "neutral" },
+        { "text": "main clause", "role": "neutral" }
+      ],
+      "example": {
+        "en": "In spite of the cold, hundreds of people came to watch the parade.",
+        "pl": "Pomimo zimna setki ludzi przyszły obejrzeć paradę."
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Despite / In spite of", "role": "signal" },
+        { "text": "(not)", "role": "particle" },
+        { "text": "V-ing", "role": "verb" },
+        { "text": ",", "role": "neutral" },
+        { "text": "main clause", "role": "neutral" }
+      ],
+      "example": {
+        "en": "Despite not speaking a word of Spanish, Ola found her way around Madrid.",
+        "pl": "Mimo że Ola nie mówiła ani słowa po hiszpańsku, poradziła sobie w Madrycie."
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Despite / In spite of", "role": "signal" },
+        { "text": "the fact that", "role": "particle" },
+        { "text": "subject", "role": "subject" },
+        { "text": "verb", "role": "verb" }
+      ],
+      "example": {
+        "en": "Despite the fact that the shop was about to close, the assistant let us try everything on.",
+        "pl": "Mimo że sklep miał zaraz zostać zamknięty, sprzedawczyni pozwoliła nam wszystko przymierzyć."
+      }
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "although / even though",
+          "md_pl": "**Spójnik.** Po nim ==zdanie==: podmiot + czasownik w czasie. Po polsku *mimo że, chociaż*.",
+          "examples": [
+            {
+              "en": "Although the hall was half empty, the band played brilliantly.",
+              "pl": "Chociaż sala była w połowie pusta, zespół zagrał świetnie."
+            }
+          ]
+        },
+        {
+          "title": "despite / in spite of",
+          "md_pl": "**Przyimek.** Po nim ==rzeczownik, zaimek albo -ing==. Po polsku *pomimo* + rzeczownik.",
+          "examples": [
+            {
+              "en": "Despite the half-empty hall, the band played brilliantly.",
+              "pl": "Pomimo na wpół pustej sali zespół zagrał świetnie."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Widzisz po luce podmiot i czasownik w czasie (the hall was, she had)? To despite odpada, nawet jeśli znaczenie pasuje idealnie. Właśnie na tym łapie dystraktor w zad. 7."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Jak zamienić although na despite.** To typowa transformacja. Masz trzy drogi, a wybór zależy od podmiotów i od limitu wyrazów."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "porównaj podmioty",
+          "text_pl": "Although Kasia was ill, she went to the concert. Obie części mówią o Kasi, więc podmiot jest ten sam."
+        },
+        {
+          "step_pl": "droga 1: -ing",
+          "text_pl": "Ten sam podmiot → wystarczy -ing. Formę w czasie (was) zamieniasz na -ing (being): Despite being ill, Kasia went to the concert."
+        },
+        {
+          "step_pl": "droga 2: rzeczownik",
+          "text_pl": "Całą część zamieniasz na rzeczownik: Despite her illness, … Często trzeba tu słowotwórstwa: ill → illness, tired → tiredness."
+        },
+        {
+          "step_pl": "droga 3: the fact that",
+          "text_pl": "Działa zawsze: Despite the fact that she was ill, … Jest jednak długa, więc w transformacji z limitem pięciu wyrazów często się nie mieści."
+        },
+        {
+          "step_pl": "inne podmioty",
+          "text_pl": "Although it was snowing, the match went ahead. Tu samo -ing nie zadziała: snow potrzebuje podmiotu it, a Despite snowing ✗ go nie ma. Zostaje rzeczownik (Despite the snow) albo the fact that."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "Trzy błędy, za które w zadaniach otwartych jest 0 pkt:\n\n- *despite of the noise* ✗ → **despite the noise** albo **in spite of the noise**,\n- *in spite the noise* ✗ → **in spite of the noise**,\n- *Although it was late, but we stayed* ✗ → **Although it was late, we stayed.** Po polsku mówisz „chociaż…, to…”, ale po angielsku drugi łącznik jest zbędny. Jedno zdanie, jeden łącznik."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "even though",
+          "md_pl": "Coś ==jest faktem==, a mimo to… Po polsku *mimo że, chociaż*.",
+          "examples": [
+            {
+              "en": "Even though the jacket is expensive, I'm going to buy it.",
+              "pl": "Mimo że ta kurtka jest droga, kupię ją."
+            }
+          ]
+        },
+        {
+          "title": "even if",
+          "md_pl": "Warunek: ==nie wiadomo==, czy tak będzie, ale nawet wtedy… Po polsku *nawet jeśli, nawet gdyby*.",
+          "examples": [
+            {
+              "en": "Even if the jacket is expensive, I'm going to buy it.",
+              "pl": "Nawet jeśli ta kurtka okaże się droga, kupię ją."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "even though: wiesz, że tak jest. even if: zakładasz, że może tak być."
+    },
+    {
+      "type": "text",
+      "md_pl": "**whereas / while: dwa fakty obok siebie.** Tu nic nie zaskakuje. Zestawiasz dwie rzeczy, osoby albo grupy i mówisz, że ==się różnią==: A jest takie, a B inne. Po polsku: *podczas gdy, a*.\n\n*while* znaczy też „w czasie, gdy”: *I fell asleep while I was reading.* O tym, które znaczenie wchodzi w grę, decyduje kontekst. *whereas* ma tylko znaczenie kontrastu i brzmi trochę bardziej formalnie. Przed nim zwykle stoi przecinek."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "fact A", "role": "neutral" },
+        { "text": ", whereas / while", "role": "signal" },
+        { "text": "subject", "role": "subject" },
+        { "text": "verb", "role": "verb" }
+      ],
+      "example": {
+        "en": "Tickets for students cost 20 złoty, whereas adults pay twice as much.",
+        "pl": "Bilety dla uczniów kosztują 20 złotych, a dorośli płacą dwa razy więcej."
+      }
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "although",
+          "md_pl": "**Ustępstwo.** Druga część ==przeczy oczekiwaniom==: mimo że X, to Y.",
+          "examples": [
+            {
+              "en": "Although Kuba hates getting up early, he never misses a training session.",
+              "pl": "Chociaż Kuba nie znosi wcześnie wstawać, nigdy nie opuszcza treningu."
+            }
+          ]
+        },
+        {
+          "title": "whereas",
+          "md_pl": "**Zestawienie.** Dwie strony i ==każda jest inna==: X robi tak, a Y inaczej.",
+          "examples": [
+            {
+              "en": "Kuba is crazy about football, whereas his twin brother is into chess.",
+              "pl": "Kuba szaleje za piłką nożną, a jego brat bliźniak interesuje się szachami."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Test: jeśli po polsku pasuje „a” albo „podczas gdy”, bierz whereas. Jeśli „mimo że”, bierz although."
+    },
+    {
+      "type": "text",
+      "md_pl": "**however / nevertheless / nonetheless / even so: kontrast między zdaniami.** Znaczą „jednak, mimo to”. To nie są spójniki, tylko ==przysłówki==. Nie sklejają dwóch zdań w jedno, tylko pokazują, jak nowe zdanie łączy się z poprzednim. Dlatego mają swoją interpunkcję:\n\n- na początku nowego zdania, z przecinkiem: *The flat was perfect. However, the rent was far too high.*\n- po średniku: *The flat was perfect; however, the rent was far too high.*\n- w środku zdania, między przecinkami: *The rent, however, was far too high.*\n\nSam przecinek przed *however* nie wystarczy, żeby połączyć dwa pełne zdania. W jednym zdaniu bierzesz *but*."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Sentence 1.", "role": "neutral" },
+        { "text": "However, / Nevertheless,", "role": "signal" },
+        { "text": "subject", "role": "subject" },
+        { "text": "verb", "role": "verb" }
+      ],
+      "example": {
+        "en": "The flat was perfect. However, the rent was far too high.",
+        "pl": "Mieszkanie było idealne. Czynsz był jednak o wiele za wysoki."
+      }
+    },
+    {
+      "type": "table",
+      "headers": ["Słowo", "Znaczenie", "Styl", "Przykład"],
+      "rows": [
+        [
+          "however",
+          "jednak",
+          "neutralny, pasuje wszędzie",
+          "The test was hard. However, most of us passed."
+        ],
+        [
+          "nevertheless / nonetheless",
+          "mimo to, niemniej jednak",
+          "formalny, dobry do rozprawki",
+          "The risks are small. Nevertheless, they should not be ignored."
+        ],
+        [
+          "even so",
+          "mimo to, a jednak",
+          "neutralny",
+          "The bus was late. Even so, we made it to the cinema."
+        ],
+        [
+          "yet",
+          "a jednak, ale",
+          "spójnik jak but, stoi po przecinku",
+          "The recipe is simple, yet the cake tastes amazing."
+        ]
+      ]
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "but",
+          "md_pl": "**Spójnik.** Łączy dwie części ==w jednym zdaniu==, zwykle po przecinku.",
+          "examples": [
+            {
+              "en": "The museum is small, but it's worth visiting.",
+              "pl": "Muzeum jest małe, ale warto je odwiedzić."
+            }
+          ]
+        },
+        {
+          "title": "however",
+          "md_pl": "**Przysłówek.** Stoi ==na początku nowego zdania== (po kropce albo średniku) i ma po sobie przecinek.",
+          "examples": [
+            {
+              "en": "The museum is small. However, it's worth visiting.",
+              "pl": "Muzeum jest małe. Warto je jednak odwiedzić."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Przed luką przecinek i dalej leci to samo zdanie? but albo yet. Przed luką kropka albo średnik, a po niej przecinek? however, nevertheless, even so."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**however + przymiotnik** to zupełnie co innego: ==choćby nie wiem jak==. *However hard I try, I can't remember people's names.* = Choćbym nie wiem jak się starał, nie pamiętam imion. Tu po *however* stoi przymiotnik albo przysłówek, bez przecinka. Natomiast *However it was late, we stayed* ✗ w znaczeniu „chociaż” nie istnieje."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Przyczyna: because / since / as + zdanie.** Odpowiadasz na pytanie *dlaczego?*. Po polsku: *bo, ponieważ, skoro*.\n\n- *because* kładzie ==nacisk na powód==, często nowy dla słuchacza. Tylko nim odpowiesz na samo pytanie: *Why are you late? Because the bus broke down.*\n- *since* i *as* podają powód, który ==jest znany albo oczywisty==. Często stoją na początku zdania: *As it's your birthday, you can choose the film.*"
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "because / since / as", "role": "signal" },
+        { "text": "subject", "role": "subject" },
+        { "text": "verb", "role": "verb" }
+      ],
+      "example": {
+        "en": "Since you know the city, you can show us around.",
+        "pl": "Skoro znasz miasto, możesz nas oprowadzić."
+      }
+    },
+    {
+      "type": "text",
+      "md_pl": "**because of / due to / owing to + rzeczownik albo -ing.** Ta sama przyczyna, ale po słowie stoi rzeczownik. Po polsku: *z powodu, z uwagi na, ze względu na*.\n\n- *because of* jest neutralne,\n- *due to* i *owing to* są bardziej formalne (ogłoszenia, wiadomości, rozprawka),\n- zaraz po *be* bezpieczniej użyć *due to*: *The delay was due to fog.*\n- przed całym zdaniem: *due to the fact that…*"
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "because of / due to / owing to", "role": "signal" },
+        { "text": "noun / V-ing", "role": "object" }
+      ],
+      "example": {
+        "en": "All trains to Gdańsk are running late due to a signal failure.",
+        "pl": "Wszystkie pociągi do Gdańska mają opóźnienie z powodu awarii sygnalizacji."
+      }
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "because",
+          "md_pl": "**Spójnik** + ==zdanie==. Po polsku *bo, ponieważ*.",
+          "examples": [
+            {
+              "en": "We stayed at home because the roads were icy.",
+              "pl": "Zostaliśmy w domu, bo drogi były oblodzone."
+            }
+          ]
+        },
+        {
+          "title": "because of",
+          "md_pl": "**Przyimek** + ==rzeczownik albo -ing==. Po polsku *z powodu*.",
+          "examples": [
+            {
+              "en": "We stayed at home because of the icy roads.",
+              "pl": "Zostaliśmy w domu z powodu oblodzonych dróg."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Ten sam mechanizm co przy although i despite: znaczenie jest jedno, a o wyborze decyduje to, co stoi po luce."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "*since* i *as* mają też inne znaczenia. *since* to także „od” (*since 2020*, *since I was a child*), a *as* to „jako”, „jak” albo „gdy”. Sens poznasz po reszcie zdania: *Since she moved to Gdynia, she's been much happier* to czas (od kiedy), a *Since you're here, you can help me* to przyczyna (skoro)."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Skutek: so i jego formalni krewni.** Druga część ==wynika== z pierwszej. Po polsku: *więc, dlatego, w rezultacie*.\n\n- *so* to spójnik: łączy dwie części w jednym zdaniu, zwykle po przecinku: *The café was full, so we went somewhere else.*\n- *therefore, consequently, as a result* to przysłówki, tak jak *however*. Stoją na początku nowego zdania z przecinkiem, po średniku albo po *and*: *The café was full. As a result, we went somewhere else.*\n- *therefore* może też stać w środku zdania: *He was, therefore, the only candidate.*"
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Cause.", "role": "neutral" },
+        { "text": "Therefore, / As a result,", "role": "signal" },
+        { "text": "subject", "role": "subject" },
+        { "text": "verb", "role": "verb" }
+      ],
+      "example": {
+        "en": "Our bags were over the weight limit. As a result, we had to pay an extra 60 euros.",
+        "pl": "Nasze bagaże przekraczały limit wagi. W rezultacie musieliśmy dopłacić 60 euro."
+      }
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "so",
+          "md_pl": "==Skutek==: coś stało się w wyniku czegoś. Po polsku *więc*.",
+          "examples": [
+            {
+              "en": "I was hungry, so I made a sandwich.",
+              "pl": "Byłem głodny, więc zrobiłem sobie kanapkę."
+            }
+          ]
+        },
+        {
+          "title": "so that",
+          "md_pl": "==Cel==: po co coś robisz. Po polsku *żeby*. Zwykle z *can, could, will, would*.",
+          "examples": [
+            {
+              "en": "I made a sandwich so that I wouldn't be hungry on the train.",
+              "pl": "Zrobiłem kanapkę, żeby nie być głodnym w pociągu."
+            }
+          ]
+        },
+        {
+          "title": "so + przymiotnik + that",
+          "md_pl": "==Stopień==: tak bardzo, że aż. Po polsku *tak…, że*.",
+          "examples": [
+            {
+              "en": "I was so hungry that I ate three sandwiches.",
+              "pl": "Byłem tak głodny, że zjadłem trzy kanapki."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Między so a that stoi przymiotnik albo przysłówek? To stopień. so i that obok siebie? Prawie zawsze cel (przecinek przed so that zwykle oznacza skutek). Samo so po przecinku? Skutek."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "**as a result** a **as a result of**. Bez *of* to przysłówek skutku na początku zdania: *As a result, the school was closed.* Z *of* to przyimek przyczyny, tak jak *because of*: *The school was closed as a result of the storm.* Jedno małe *of* odwraca kierunek: przed nim stoi skutek, po nim przyczyna."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Cel: to / in order to / so as to + V1.** Mówisz, ==po co== ktoś coś robi. Po polsku *żeby, aby, w celu*. Najprostsze jest samo *to*: *I went to the chemist's to buy some plasters.* *in order to* i *so as to* znaczą to samo, ale brzmią bardziej formalnie.\n\nPrzeczenie stawiasz ==przed to==: *so as not to*, *in order not to*. Samo *not to* w znaczeniu celu zwykle się nie pojawia: *I wrote it down so as not to forget it.*"
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "verb", "role": "verb" },
+        { "text": "to / in order to / so as to", "role": "signal" },
+        { "text": "V1", "role": "verb" }
+      ],
+      "example": {
+        "en": "Ola joined a conversation club in order to practise her Spanish.",
+        "pl": "Ola zapisała się do klubu konwersacji, żeby ćwiczyć hiszpański."
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "verb", "role": "verb" },
+        { "text": "so that", "role": "signal" },
+        { "text": "subject", "role": "subject" },
+        { "text": "can / could / will / would", "role": "aux" },
+        { "text": "V1", "role": "verb" }
+      ],
+      "example": {
+        "en": "I'll send you my notes so that you can revise over the weekend.",
+        "pl": "Wyślę ci moje notatki, żebyś mógł powtórzyć materiał w weekend."
+      }
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "to / in order to + V1",
+          "md_pl": "Gdy cel dotyczy ==tej samej osoby==, która coś robi. Krótko, bez drugiego podmiotu.",
+          "examples": [
+            {
+              "en": "Kasia got up early to finish her project.",
+              "pl": "Kasia wstała wcześnie, żeby skończyć projekt."
+            }
+          ]
+        },
+        {
+          "title": "so that + zdanie",
+          "md_pl": "Gdy cel dotyczy ==kogoś innego== albo potrzebujesz modalnego (żeby móc, żeby nie…). Po *so that* stoi pełne zdanie z podmiotem.",
+          "examples": [
+            {
+              "en": "Kasia's dad drove her to school so that she wouldn't be late.",
+              "pl": "Tata Kasi zawiózł ją do szkoły, żeby się nie spóźniła."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Czas modalnego dopasowujesz do zdania głównego: teraz i przyszłość → can / will, przeszłość → could / would."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "Dwa typowe błędy przy celu:\n\n- *I came to London for improving my English* ✗ → **to improve**. *for + -ing* mówi, do czego służy rzecz (*a knife for cutting bread*), a nie po co ktoś coś robi.\n- *in order to* nie bierze -ing ani podmiotu: *in order to buying* ✗, *in order to I can buy* ✗.\n\nNie myl celu z ==zabezpieczeniem==. *in case* znaczy „na wypadek, gdyby”: robisz coś, bo coś ==może== się stać. *Take a jumper in case it gets cold.* Po *in case* nie stawiasz *will*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**unless i otherwise: warunek od drugiej strony.** *unless* znaczy ==if … not==, po polsku *chyba że, jeśli nie*. Stoi przed warunkiem: *We'll walk unless it rains.* = Pójdziemy pieszo, chyba że będzie padać.\n\n- po *unless* stoi zdanie twierdzące, bo przeczenie siedzi już w samym słowie,\n- tak jak po *if*, nie stawiasz *will*: *unless it rains*, nie *unless it will rain*.\n\n*otherwise* znaczy „w przeciwnym razie, bo inaczej”. Stoi ==przed skutkiem== i odsyła do poprzedniego zdania: *Take a map. Otherwise, you'll get lost.* Tak samo działa *or*: *Hurry up or we'll be late.*"
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "main clause", "role": "neutral" },
+        { "text": "unless", "role": "signal" },
+        { "text": "subject", "role": "subject" },
+        { "text": "present simple", "role": "verb" }
+      ],
+      "example": {
+        "en": "The match will go ahead unless the pitch is flooded.",
+        "pl": "Mecz się odbędzie, chyba że boisko będzie zalane."
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Do X.", "role": "neutral" },
+        { "text": "Otherwise,", "role": "signal" },
+        { "text": "subject", "role": "subject" },
+        { "text": "will / won't", "role": "aux" },
+        { "text": "V1", "role": "verb" }
+      ],
+      "example": {
+        "en": "Charge your phone tonight. Otherwise, you won't be able to show your boarding pass.",
+        "pl": "Naładuj telefon dziś wieczorem. Inaczej nie będziesz mógł pokazać karty pokładowej."
+      }
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "unless",
+          "md_pl": "Wprowadza ==warunek==. Stoi przed tym, co musi się wydarzyć.",
+          "examples": [
+            {
+              "en": "You won't get a seat unless you arrive early.",
+              "pl": "Nie dostaniesz miejsca, chyba że przyjdziesz wcześnie."
+            }
+          ]
+        },
+        {
+          "title": "otherwise",
+          "md_pl": "Wprowadza ==skutek==, gdy warunek się nie spełni. Stoi po informacji, co trzeba zrobić.",
+          "examples": [
+            {
+              "en": "Arrive early. Otherwise, you won't get a seat.",
+              "pl": "Przyjdź wcześnie. Inaczej nie dostaniesz miejsca."
+            }
+          ]
+        },
+        {
+          "title": "if … not",
+          "md_pl": "To samo co *unless*, tylko przeczenie stoi w zdaniu. Pasuje wszędzie tam, gdzie *unless*, i w kilku miejscach więcej.",
+          "examples": [
+            {
+              "en": "You won't get a seat if you don't arrive early.",
+              "pl": "Nie dostaniesz miejsca, jeśli nie przyjdziesz wcześnie."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "W transformacji if … not → UNLESS skreślasz not i zostawiasz czasownik w formie twierdzącej."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "*unless* nie zawsze zastąpi *if … not*. *unless* to „chyba że”, czyli ==wyjątek== od tego, co mówisz. Gdy „chyba że” po polsku brzmi bez sensu, zostaje *if … not*: **I'll be surprised if she doesn't win.** (Zdziwię się, chyba że wygra? Bez sensu.) I nigdy podwójnie: *unless you don't hurry* ✗ → **unless you hurry**."
+    },
+    {
+      "type": "text",
+      "md_pl": "**whenever, whatever, whether, whereas: cztery słowa, które łatwo pomylić.** Wyglądają podobnie, dlatego na maturze stoją razem w opcjach. Rozstrzyga to, ==czego brakuje w zdaniu po luce==, i relacja między częściami:\n\n- zdanie po luce jest pełne i chodzi o ==czas, za każdym razem== → *whenever*,\n- w zdaniu po luce ==brakuje rzeczy==, czyli dopełnienia albo podmiotu (*you want ___*, *___ happens*) → *whatever*,\n- są dwie możliwości, często z *or (not)*, albo pytanie „czy” → *whether*,\n- zdanie po luce stoi w kontraście do pierwszego → *whereas*."
+    },
+    {
+      "type": "table",
+      "headers": ["Słowo", "Znaczenie", "Przykład", "Po polsku"],
+      "rows": [
+        [
+          "whenever",
+          "zawsze gdy, za każdym razem gdy; kiedykolwiek",
+          "Whenever I hear this song, I think of last summer.",
+          "Zawsze gdy słyszę tę piosenkę, myślę o zeszłym lecie."
+        ],
+        [
+          "whatever",
+          "cokolwiek, wszystko, co; bez względu na to, co",
+          "Wear whatever you want. It's a casual party.",
+          "Ubierz się, w co chcesz, to luźna impreza."
+        ],
+        [
+          "wherever",
+          "gdziekolwiek, wszędzie, gdzie",
+          "Sit wherever you like.",
+          "Usiądź, gdzie chcesz."
+        ],
+        [
+          "whoever",
+          "ktokolwiek, ten, kto",
+          "Whoever finishes first can choose the music.",
+          "Kto skończy pierwszy, wybiera muzykę."
+        ],
+        [
+          "however + przymiotnik",
+          "choćby nie wiem jak",
+          "However late it is, call me.",
+          "Zadzwoń, choćby nie wiem jak było późno."
+        ],
+        [
+          "whether",
+          "czy; bez względu na to, czy",
+          "I don't know whether the pool is open on Sundays.",
+          "Nie wiem, czy basen jest otwarty w niedziele."
+        ],
+        [
+          "whereas",
+          "podczas gdy, a",
+          "I'm a night owl, whereas my mum gets up at five.",
+          "Ja jestem nocnym markiem, a mama wstaje o piątej."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "**whether a if.** W pytaniu zależnym często pasują oba: *I'm not sure if / whether he's coming.* Ale tylko *whether* stoi ==po przyimku== (*It depends on whether…*), ==przed to + V1== (*I can't decide whether to go*) i w znaczeniu „bez względu na to, czy”: *Whether you like it or not, the exam is in May.*"
+    },
+    {
+      "type": "text",
+      "md_pl": "**Typowe błędy Polaków.** Większość bierze się z tłumaczenia słowo w słowo i z mylenia klasy słowa: znaczenie się zgadza, ale składnia już nie."
+    },
+    {
+      "type": "table",
+      "headers": ["Źle", "Dobrze", "Dlaczego"],
+      "rows": [
+        [
+          "Despite it was late, we stayed.",
+          "Although it was late, we stayed. / Despite the late hour, we stayed.",
+          "despite to przyimek, nie łączy się ze zdaniem"
+        ],
+        [
+          "Despite of the noise, I slept well.",
+          "Despite the noise, I slept well.",
+          "despite bez of; of ma tylko in spite of"
+        ],
+        [
+          "Although it was cold, but we went swimming.",
+          "Although it was cold, we went swimming.",
+          "jeden łącznik na jedno zdanie"
+        ],
+        [
+          "Because of it was icy, we stayed in.",
+          "Because it was icy, we stayed in. / Because of the ice, we stayed in.",
+          "because + zdanie, because of + rzeczownik"
+        ],
+        [
+          "The tickets were cheap, however the seats were awful.",
+          "The tickets were cheap. However, the seats were awful.",
+          "however zaczyna nowe zdanie; w jednym zdaniu but"
+        ],
+        [
+          "I went to Malta for improving my English.",
+          "I went to Malta to improve my English.",
+          "cel to to + V1, nie for + -ing"
+        ],
+        [
+          "Unless you don't hurry, you'll be late.",
+          "Unless you hurry, you'll be late.",
+          "unless ma przeczenie w sobie"
+        ],
+        [
+          "Take a jacket in case it will rain.",
+          "Take a jacket in case it rains.",
+          "po in case, tak jak po if, bez will"
+        ],
+        [
+          "Even if he's rich, he lives in a tiny flat.",
+          "Even though he's rich, he lives in a tiny flat.",
+          "wiadomo, że jest bogaty, więc even though; even if to „nawet gdyby”"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "**Jak to sprawdzają na maturze.**\n\n- **Zad. 7 (wybór A–D):** łącznik był w każdym roku od 2023 do 2026, razem 5 luk: *unless, therefore, though, whenever, although*. Złe opcje mają ==złą relację== (przyczyna zamiast skutku, *if* zamiast *unless*, zestawienie zamiast ustępstwa) albo ==złą klasę słowa==. *despite* / *in spite of* przed pełnym zdaniem był dystraktorem we wszystkich czterech latach. Do tego podobne z wyglądu *whether / whatever / whereas*.\n- **Strategia:** najpierw relacja, potem ==słowo po luce==. Podmiot + czasownik → spójnik. Rzeczownik albo -ing → przyimek. Kropka albo średnik przed luką → *however, therefore*.\n- **Luki otwarte (zad. 3 i 6):** gdy przed luką stoi *because of*, odpowiedź musi być rzeczownikiem albo -ing, a nie zdaniem. Inaczej 0 pkt.\n- **Zad. 9:** transformacji z łącznikiem w arkuszach 2023–2026 nie było, ale para *although* → **DESPITE / SPITE** to klasyk i dobrze sprawdza, czy widzisz różnicę klas. Licz wyrazy: *in spite of the* to już cztery.\n- **Wypracowanie:** łącznik o złej relacji (*therefore* tam, gdzie jest kontrast) psuje logikę tekstu. *however* po samym przecinku między dwoma pełnymi zdaniami to błąd."
+    }
+  ]
+}

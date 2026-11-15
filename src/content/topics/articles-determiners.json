@@ -1,0 +1,583 @@
+{
+  "id": "articles-determiners",
+  "category": "grammar",
+  "title_pl": "Przedimki i określniki ilości",
+  "summary_pl": "Kiedy a/an, kiedy the, a kiedy nic, i jak dobrać some, any, much, many, few, little, each, every, all, both, either, neither, none, too much i enough.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "Po polsku przedimków nie ma, więc nie masz tu żadnego wyczucia. A angielski rzeczownik prawie nigdy nie stoi sam. Przed nim jest ==przedimek== (*a/an*, *the*) albo inny ==określnik== (*my*, *this*, *some*, *every*, *no*…). Czasem miejsce zostaje puste i to też jest wybór: ==przedimek zerowy==, w notatkach Ø.\n\nSkąd to się wzięło:\n\n- **a/an** to dawne *one*, „jeden”. Dlatego stoi tylko przed rzeczownikiem policzalnym w liczbie pojedynczej i znaczy „jeden, jakiś, jeden z wielu”.\n- **the** ma ten sam początek co *that*, „ten”. Znaczy „ten, o którym obaj wiemy”. Może stać przed każdym rzeczownikiem: w lp, w lm i niepoliczalnym.\n- **Ø** zostaje, gdy nie pasuje ani „jeden”, ani „ten”: mówisz ogólnie o wielu rzeczach albo o czymś niepoliczalnym.\n\nJeśli pamiętasz, że *a* = „jeden”, a *the* = „ten”, większość reguł układa się sama."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "policzalny czy nie?",
+          "text_pl": "Czy da się to policzyć (one chair, two chairs)? Rzeczowniki niepoliczalne (water, music, advice, information) zwykle nie biorą a/an i nie mają liczby mnogiej (wyjątki to stałe zwroty typu a good knowledge of)."
+        },
+        {
+          "step_pl": "czy słuchacz wie, o który chodzi?",
+          "text_pl": "Tak, bo już o nim była mowa, jest jedyny, doprecyzowujesz go (the girl in the red coat) albo wynika z sytuacji (Close the door) → the."
+        },
+        {
+          "step_pl": "jeśli nie wie",
+          "text_pl": "Policzalny w lp → a/an. W lm albo niepoliczalny → Ø, ewentualnie some, gdy chodzi o pewną ilość."
+        },
+        {
+          "step_pl": "ogólnie o wszystkich?",
+          "text_pl": "Mówisz o ludziach, rzeczach albo zjawiskach w ogóle → Ø i liczba mnoga albo rzeczownik niepoliczalny: Cats sleep a lot. Sugar is bad for your teeth."
+        },
+        {
+          "step_pl": "stałe wyrażenie?",
+          "text_pl": "Na koniec sprawdź, czy to nie utarte połączenie: go to school, by bus, have lunch, play the piano. Logika tych wyrażeń jest niżej."
+        }
+      ]
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "a / an", "role": "particle" },
+        { "text": "(przymiotnik)", "role": "neutral" },
+        { "text": "rzeczownik policzalny w lp", "role": "object" }
+      ],
+      "example": {
+        "en": "There's a new bakery opposite our school.",
+        "pl": "Naprzeciwko naszej szkoły jest nowa piekarnia."
+      }
+    },
+    {
+      "type": "text",
+      "md_pl": "**Kiedy a/an.** Pytasz siebie: czy to „jeden, jakiś, jeden z wielu”?\n\n- **pierwsza wzmianka**: słuchacz jeszcze nie wie, o który chodzi. *I've found a great café.*\n- **zawód**: *She's a nurse. He's an engineer.* Po polsku „jest pielęgniarką”, bez niczego, i to jeden z najczęstszych błędów.\n- **jeden z wielu**: *Kraków is a beautiful city.* (jedno z wielu pięknych miast)\n- **„na” przy częstotliwości i cenie**: *twice a week*, *50 km an hour*, *£3 a kilo*.\n- **wykrzyknienia i such**: *What a view!* *It was such a long day.*\n\n**a czy an?** Decyduje ==pierwszy dźwięk== następnego słowa, nie litera. Samogłoska w wymowie → *an*, spółgłoska → *a*. Liczy się słowo tuż po przedimku, więc przy przymiotniku patrzysz na przymiotnik: *an old piano*, *a huge apple*."
+    },
+    {
+      "type": "table",
+      "headers": ["a + spółgłoska w wymowie", "an + samogłoska w wymowie"],
+      "rows": [
+        ["a university (wymowa: ju-)", "an umbrella"],
+        ["a European city (wymowa: ju-)", "an hour (h nieme)"],
+        ["a one-way ticket (wymowa: ł-)", "an honest answer (h nieme)"],
+        ["a horse (h słychać)", "an X-ray (wymowa: eks-)"],
+        ["a useful tip (wymowa: ju-)", "an old piano (liczy się old, nie piano)"]
+      ]
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "the", "role": "particle" },
+        { "text": "rzeczownik (lp, lm albo niepoliczalny)", "role": "object" },
+        { "text": "(doprecyzowanie: that… / in… / of…)", "role": "signal" }
+      ],
+      "example": {
+        "en": "The jacket that I ordered online is too small.",
+        "pl": "Kurtka, którą zamówiłam w internecie, jest za mała."
+      }
+    },
+    {
+      "type": "table",
+      "headers": ["Skąd słuchacz wie, o który chodzi", "Przykład", "Po polsku"],
+      "rows": [
+        [
+          "już o tym była mowa (druga wzmianka)",
+          "I ordered a pizza and a salad. The pizza was cold.",
+          "Zamówiłem pizzę i sałatkę. Pizza była zimna."
+        ],
+        [
+          "jest jedyne w swoim rodzaju: the sun, the world, the internet, the government",
+          "Can you imagine life without the internet?",
+          "Wyobrażasz sobie życie bez internetu?"
+        ],
+        ["wynika z sytuacji", "Could you close the window, please?", "Możesz zamknąć okno?"],
+        [
+          "doprecyzowanie po rzeczowniku",
+          "The girl in the red coat is my cousin.",
+          "Dziewczyna w czerwonym płaszczu to moja kuzynka."
+        ],
+        [
+          "stopień najwyższy, first, last, only, same: taki jest tylko jeden",
+          "It was the best day of my life.",
+          "To był najlepszy dzień w moim życiu."
+        ],
+        [
+          "instrumenty muzyczne",
+          "My dad plays the guitar in a band.",
+          "Tata gra na gitarze w zespole."
+        ],
+        [
+          "the + przymiotnik = cała grupa ludzi (czasownik w lm)",
+          "The elderly often feel lonely.",
+          "Starsi ludzie często czują się samotni."
+        ]
+      ]
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "a / an",
+          "md_pl": "**Pierwsza wzmianka** albo „jeden z wielu”. Słuchacz nie wie, o który chodzi, i nie musi wiedzieć.",
+          "examples": [
+            {
+              "en": "We stayed in a small hotel near the beach.",
+              "pl": "Mieszkaliśmy w małym hotelu przy plaży."
+            },
+            { "en": "Can I borrow a pen?", "pl": "Pożyczysz mi długopis? (jakikolwiek)" }
+          ]
+        },
+        {
+          "title": "the",
+          "md_pl": "**Wiadomo który**: już był w rozmowie albo w tej sytuacji jest tylko jeden.",
+          "examples": [
+            { "en": "The hotel had a pool on the roof.", "pl": "Hotel miał basen na dachu." },
+            {
+              "en": "Can I borrow the pen on your desk?",
+              "pl": "Pożyczysz mi ten długopis z twojego biurka?"
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Ta sama rzecz zwykle zaczyna od *a*, a potem przechodzi na *the*. Gdy coś pojawia się w tekście po raz pierwszy (*There is…*, *I've got…*, *I saw…*), prawie zawsze stoi *a/an*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Ø: ogólnie o wszystkich.** Gdy mówisz o czymś w ogóle, a nie o konkretnych egzemplarzach, przedimka nie ma. Rzeczownik stoi wtedy w ==liczbie mnogiej== albo jest ==niepoliczalny==:\n\n- *Dogs need a lot of exercise.* (psy w ogóle)\n- *Money doesn't make people happy.*\n- *I love Italian food.*\n\nPo polsku mówisz tak samo („Pieniądze szczęścia nie dają”). Mimo to wielu uczniów dodaje *the*, bo „przecież chodzi o konkretną rzecz”. A *the* właśnie zawęża: *the money* to konkretne pieniądze, np. te, które ci pożyczyłem."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Ø: w ogóle",
+          "md_pl": "Wszystkie egzemplarze, całe zjawisko. Lm albo niepoliczalny bez przedimka.",
+          "examples": [
+            {
+              "en": "I've never been very interested in history.",
+              "pl": "Nigdy nie interesowała mnie specjalnie historia."
+            },
+            {
+              "en": "Children learn languages faster than adults.",
+              "pl": "Dzieci uczą się języków szybciej niż dorośli."
+            }
+          ]
+        },
+        {
+          "title": "the: te konkretne",
+          "md_pl": "Zawężasz do konkretnej grupy albo konkretnej rzeczy, zwykle przez *of…*, *in…*, *that…*.",
+          "examples": [
+            {
+              "en": "The history of our town is really fascinating.",
+              "pl": "Historia naszego miasta jest naprawdę fascynująca."
+            },
+            {
+              "en": "The children next door speak three languages.",
+              "pl": "Dzieci sąsiadów mówią w trzech językach."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Zadaj pytanie: **które dokładnie?** Jeśli odpowiedź brzmi „wszystkie, w ogóle”, przedimka nie ma. Jeśli coś w zdaniu zawęża (*of our town*, *next door*), wraca *the*."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "W tekstach popularnonaukowych zobaczysz też *the* + lp o całym gatunku albo wynalazku: *The tiger is an endangered species.* *Who invented the telephone?* Sam, gdy piszesz ogólnie, bezpieczniej użyj lm bez przedimka: *Tigers are endangered.*"
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**Niepoliczalne po angielsku, choć po polsku da się je policzyć:** *advice, information, news, furniture, luggage, equipment, homework, research, progress, accommodation*, a także *work* w znaczeniu „praca, robota” (etat to *a job*). Nie biorą *a/an*, nie mają liczby mnogiej, a czasownik stoi w lp: *The news is good.* *Your advice was really helpful.* Gdy chcesz policzyć: *a piece of advice*, *two pieces of furniture*, *a piece of news*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Instytucje: funkcja czy budynek?** Przy *school, university, college, hospital, prison, church, court* i przy *bed* liczy się, po co tam jesteś.\n\n- Jesteś tam ==w roli, do której to miejsce służy==: uczysz się, leczysz się, odsiadujesz wyrok, modlisz się, śpisz → **Ø**: *go to school*, *be in hospital*, *go to prison*, *go to church*, *go to bed*.\n- Chodzi o ==budynek== albo jesteś tam w innej roli (odwiedzasz kogoś, coś naprawiasz, zwiedzasz) → **the** albo *a*: *Mum went to the hospital to visit Grandad.* *The school is next to a park.*\n\nTak samo bez przedimka: *at home*, *go home*, *go to work*, *be at work*. Ale miejsca rozrywki i sklepy mają *the*: *go to the cinema*, *go to the theatre*, *go to the gym*, *go to the shops*."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "school, hospital, prison (Ø)",
+          "md_pl": "**Funkcja**: jesteś uczniem, pacjentem, więźniem.",
+          "examples": [
+            {
+              "en": "My little brother starts school in September.",
+              "pl": "Mój młodszy brat idzie do szkoły we wrześniu."
+            },
+            {
+              "en": "Grandad has been in hospital since Monday.",
+              "pl": "Dziadek leży w szpitalu od poniedziałku."
+            }
+          ]
+        },
+        {
+          "title": "the school, the hospital, the prison",
+          "md_pl": "**Budynek**: przychodzisz z innego powodu albo mówisz o konkretnym miejscu.",
+          "examples": [
+            {
+              "en": "Mum went to the hospital to visit him.",
+              "pl": "Mama pojechała do szpitala, żeby go odwiedzić."
+            },
+            {
+              "en": "The prison in our town was built in the 19th century.",
+              "pl": "Więzienie w naszym mieście zbudowano w XIX wieku."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "W brytyjskim angielskim pacjent jest *in hospital*, Amerykanie mówią *in the hospital*. Podobnie *go to university* to wersja brytyjska, w USA mówi się *go to college*. Przy *school*, *prison*, *church* i *bed* obie odmiany się zgadzają."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Nazwy geograficzne.** Mechanizm jest ten sam co wyżej. Samo imię własne (*Poland*, *Everest*) wskazuje jedną rzecz, więc nie potrzebuje ani „jednego”, ani „tego”.\n\nPrzy państwach *the* pojawia się, gdy w nazwie siedzi ==rzeczownik pospolity== (*the United Kingdom*, czyli „to zjednoczone królestwo”, *the Czech Republic*). Druga sytuacja: nazwa jest w ==liczbie mnogiej== i obejmuje całą grupę (*the Alps* = te wszystkie góry razem, *the Netherlands*). Rzeki, morza i oceany zawsze mają *the*, a słowo *river* albo *sea* jest w nazwie albo się go domyślasz: *the (River) Vistula*, *the Baltic (Sea)*.\n\nUlice, parki, dworce i lotniska zwykle są bez przedimka, choć mają w nazwie *Street*, *Park* czy *Station*: *Oxford Street*, *Victoria Station*. Tak samo pojedyncza góra i jezioro, gdy *Mount* albo *Lake* stoi przed imieniem: *Mount Everest*, *Lake Geneva*. Te grupy trzeba po prostu znać."
+    },
+    {
+      "type": "table",
+      "headers": ["Co", "Przedimek", "Przykłady"],
+      "rows": [
+        ["większość państw, miasta, kontynenty", "Ø", "Poland, Kraków, Europe, Asia"],
+        [
+          "państwa z Republic, Kingdom, States w nazwie",
+          "the",
+          "the UK, the USA, the Czech Republic"
+        ],
+        ["nazwy w liczbie mnogiej", "the", "the Netherlands, the Philippines, the Canaries"],
+        [
+          "rzeki, morza, oceany, kanały",
+          "the",
+          "the Vistula, the Thames, the Baltic (Sea), the Atlantic, the English Channel"
+        ],
+        ["pasma górskie i pustynie", "the", "the Tatras, the Alps, the Sahara"],
+        ["pojedyncze góry, jeziora, wyspy", "Ø", "Mount Everest, Snowdon, Lake Geneva, Sicily"],
+        [
+          "ulice, parki, dworce, lotniska",
+          "Ø",
+          "Oxford Street, Central Park, Victoria Station, Heathrow"
+        ]
+      ]
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "play the + instrument",
+          "md_pl": "Po polsku **grać na** czymś. Instrument dostaje *the*.",
+          "examples": [
+            {
+              "en": "Zosia plays the piano and the guitar.",
+              "pl": "Zosia gra na pianinie i na gitarze."
+            },
+            {
+              "en": "I'd love to learn to play the drums.",
+              "pl": "Chciałbym nauczyć się grać na perkusji."
+            }
+          ]
+        },
+        {
+          "title": "play + sport albo gra (Ø)",
+          "md_pl": "Po polsku **grać w** coś. Sport i gry to nazwy czynności, niepoliczalne, więc bez przedimka.",
+          "examples": [
+            {
+              "en": "We play volleyball every Thursday.",
+              "pl": "Gramy w siatkówkę w każdy czwartek."
+            },
+            { "en": "Do you fancy a game of chess?", "pl": "Masz ochotę na partię szachów?" }
+          ]
+        }
+      ],
+      "takeaway_pl": "Ściąga z polskiego: „grać **na**” → *the*, „grać **w**” → nic. Wyjątek: gra jako rzecz, którą da się policzyć (*play a board game*, *play computer games*). W amerykańskim (i często w muzyce rozrywkowej) usłyszysz też *play guitar* bez *the*, ale w wypracowaniu bezpieczniej z *the*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Stałe wyrażenia bez przedimka.** Nie mówisz w nich o konkretnym przedmiocie, tylko o ==czynności albo sposobie==, więc nie ma ani „jednego”, ani „tego”:\n\n- **posiłki**: *have breakfast / lunch / dinner*, *What's for dinner?* Ale z przymiotnikiem albo o konkretnym posiłku przedimek wraca: *We had a quick lunch.* *The dinner at your place was amazing.*\n- **transport po by**: *by bus, by train, by car, by bike, by plane*. Ale: *on foot*, *on the bus*, *in the car*, *take the train*, *take a taxi*.\n- **czas**: *at night, on Monday, in May, at Christmas, last week, next year*. Ale: *in the morning*, *in the evening*. *last week* to zeszły tydzień, a *the last week* to ostatnie siedem dni albo ostatni tydzień czegoś: *the last week of the holidays*.\n- **media**: *watch TV*, *on TV*, ale *listen to the radio*, *go to the cinema*."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "I usually have breakfast at home and go to school by bike.",
+          "pl": "Zwykle jem śniadanie w domu i jeżdżę do szkoły rowerem."
+        },
+        {
+          "en": "We had a really big breakfast at the hotel, so we skipped lunch.",
+          "pl": "Zjedliśmy w hotelu naprawdę duże śniadanie, więc nie jedliśmy już lunchu."
+        },
+        {
+          "en": "We went to the cinema on Friday, and on Saturday we just watched TV at home.",
+          "pl": "W piątek poszliśmy do kina, a w sobotę po prostu oglądaliśmy telewizję w domu."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Określniki ilości.** Tu pytanie z pierwszego kroku wraca z całą siłą: ==policzalny czy niepoliczalny?== Wiele słów działa tylko z jedną z tych grup. Druga rzecz to ==wydźwięk zdania==: czy ilość jest na plus (wystarczy), czy na minus (za mało, za dużo)."
+    },
+    {
+      "type": "table",
+      "headers": ["Z policzalnymi w lm", "Z niepoliczalnymi", "Z obiema grupami"],
+      "rows": [
+        ["many", "much", "a lot of / lots of"],
+        ["few / a few", "little / a little", "some / any / no"],
+        ["too many", "too much", "enough"],
+        ["a number of", "a great deal of", "all / most"]
+      ]
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "some",
+          "md_pl": "Pewna ilość, „trochę, kilka”. Zdania twierdzące, a w pytaniach wtedy, gdy coś **proponujesz** albo **o coś prosisz**.",
+          "examples": [
+            { "en": "I need some fresh air.", "pl": "Muszę zaczerpnąć świeżego powietrza." },
+            { "en": "Would you like some tea?", "pl": "Napijesz się herbaty?" }
+          ]
+        },
+        {
+          "title": "any",
+          "md_pl": "Przeczenia i zwykłe pytania. W zdaniu twierdzącym *any* znaczy „obojętnie który, jakikolwiek”.",
+          "examples": [
+            { "en": "We haven't got any milk.", "pl": "Nie mamy mleka." },
+            {
+              "en": "You can take any bus from here — they all go to the station.",
+              "pl": "Możesz wsiąść stąd do dowolnego autobusu – wszystkie jadą na dworzec."
+            }
+          ]
+        },
+        {
+          "title": "no / none",
+          "md_pl": "*no* = *not any* i stoi przed rzeczownikiem. *none* stoi bez rzeczownika albo przed *of*. Czasownik jest wtedy twierdzący.",
+          "examples": [
+            { "en": "There's no milk left.", "pl": "Nie ma już mleka." },
+            {
+              "en": "How many tickets are left? — None.",
+              "pl": "Ile zostało biletów? — Ani jeden."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Jedno przeczenie na zdanie: *There isn't any milk* albo *There's no milk*, nigdy *There isn't no milk*. Po polsku „nie ma żadnego” to podwójne przeczenie i jest dobrze. Po angielsku to błąd."
+    },
+    {
+      "type": "text",
+      "md_pl": "**much, many, a lot of.** *many* idzie z lm, *much* z niepoliczalnymi. W zdaniach twierdzących *much* brzmi sztywno, więc mówisz *a lot of*: *We spent a lot of money.* (nie *We spent much money*). W przeczeniach i pytaniach *much* jest zupełnie naturalne: *We didn't spend much.* *How much time have we got?*\n\n*many* w zdaniach twierdzących jest w porządku, zwłaszcza w tekstach: *Many students work part-time.* Po *too*, *so*, *as* i *how* oba słowa pasują do każdego typu zdania: *too much noise*, *so many people*."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "few / little",
+          "md_pl": "==Mało, za mało==, prawie nic. Zdanie jest na minus.",
+          "examples": [
+            {
+              "en": "Few people bought tickets, so the concert was cancelled.",
+              "pl": "Mało kto kupił bilety, więc koncert odwołano."
+            },
+            {
+              "en": "We had little time to prepare, so the presentation was a mess.",
+              "pl": "Mieliśmy mało czasu na przygotowanie, więc prezentacja wyszła fatalnie."
+            }
+          ]
+        },
+        {
+          "title": "a few / a little",
+          "md_pl": "==Kilka, trochę==, i to wystarczy. Zdanie jest na plus.",
+          "examples": [
+            {
+              "en": "I've got a few friends in Gdańsk, so I won't be lonely there.",
+              "pl": "Mam kilku znajomych w Gdańsku, więc nie będę tam sam."
+            },
+            {
+              "en": "Add a little salt and it'll taste much better.",
+              "pl": "Dodaj trochę soli, a będzie dużo smaczniejsze."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Łatwo zapamiętać: *a* to dawne „jeden”, więc dokłada coś **na plus**, jest choć trochę. Bez *a* zostaje sam brak. Stąd *only a few* (tylko kilka, ale są) i *very few* (bardzo mało). *few / a few* + lm, *little / a little* + niepoliczalne."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "each / every", "role": "signal" },
+        { "text": "rzeczownik w lp", "role": "object" },
+        { "text": "czasownik w lp (has, is, V + s)", "role": "verb" }
+      ],
+      "example": {
+        "en": "Every room in the hostel has its own bathroom.",
+        "pl": "Każdy pokój w hostelu ma własną łazienkę."
+      }
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "every",
+          "md_pl": "Wszystkie razem, bez wyjątku, zwykle trzy i więcej. Nie łączy się z *of*: mówisz *every one of*.",
+          "examples": [
+            {
+              "en": "Every seat in the stadium was taken.",
+              "pl": "Każde miejsce na stadionie było zajęte."
+            },
+            {
+              "en": "We go swimming every two weeks.",
+              "pl": "Chodzimy na basen co dwa tygodnie."
+            }
+          ]
+        },
+        {
+          "title": "each",
+          "md_pl": "Każdy z osobna, po kolei. Działa też przy dwóch rzeczach i może stać przed *of* albo zupełnie sam.",
+          "examples": [
+            {
+              "en": "She was wearing a ring on each hand.",
+              "pl": "Miała pierścionek na każdej dłoni."
+            },
+            { "en": "The tickets cost £20 each.", "pl": "Bilety kosztują po 20 funtów." }
+          ]
+        }
+      ],
+      "takeaway_pl": "Przy dwóch rzeczach tylko *each* (*on each side of the road*). Przed *of* też tylko *each*: *each of us* ✓, *every of us* ✗, *every one of us* ✓."
+    },
+    {
+      "type": "text",
+      "md_pl": "**all** idzie z lm albo z niepoliczalnym: *All students must wear a uniform.* *She spent all (of) the money.* *all of us*. Pułapka z czasem: **all day** to „przez cały dzień”, a **every day** to „codziennie”. Podobnie *all week*, *all night*, *all the time* (cały czas)."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "both",
+          "md_pl": "Oba, obie, oboje: dwie rzeczy razem. Czasownik w lm.",
+          "examples": [
+            {
+              "en": "Both my parents work in Warsaw.",
+              "pl": "Oboje moi rodzice pracują w Warszawie."
+            },
+            {
+              "en": "She speaks both German and French.",
+              "pl": "Mówi i po niemiecku, i po francusku."
+            }
+          ]
+        },
+        {
+          "title": "either",
+          "md_pl": "Którykolwiek z dwóch, obojętnie który. Rzeczownik w lp. *either … or* = albo … albo.",
+          "examples": [
+            { "en": "You can sit on either side.", "pl": "Możesz usiąść po dowolnej stronie." },
+            {
+              "en": "You can pay either by card or in cash.",
+              "pl": "Możesz zapłacić albo kartą, albo gotówką."
+            }
+          ]
+        },
+        {
+          "title": "neither",
+          "md_pl": "Ani jeden, ani drugi. Rzeczownik w lp, a czasownik twierdzący, bo przeczenie już jest w *neither*.",
+          "examples": [
+            {
+              "en": "Neither answer is correct.",
+              "pl": "Żadna z dwóch odpowiedzi nie jest dobra."
+            },
+            {
+              "en": "Neither Tomek nor Ola has a car.",
+              "pl": "Ani Tomek, ani Ola nie mają samochodu."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Wszystkie trzy dotyczą ==dwóch== rzeczy. Przy trzech i więcej masz *all*, *any*, *none*. Po *neither of* + lm czasownik w lp jest staranny, w luźnym języku spotkasz też lm (*Neither of them is / are ready*). Po *neither … nor* czasownik zgadza się z bliższym podmiotem."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "most / some / none / each / both", "role": "signal" },
+        { "text": "of", "role": "particle" },
+        { "text": "the / my / these", "role": "particle" },
+        { "text": "rzeczownik", "role": "object" }
+      ],
+      "example": {
+        "en": "Most of my friends have already got a driving licence.",
+        "pl": "Większość moich znajomych ma już prawo jazdy."
+      }
+    },
+    {
+      "type": "text",
+      "md_pl": "Po *of* musi stać konkretny zbiór: *the*, *my*, *these*, *them*, *us*. Ogólnie mówisz bez *of* i bez *the*: *most students* (większość uczniów w ogóle), ale *most of the students in my class*. *the most of* w znaczeniu „większość” to typowy błąd. *the most* to stopień najwyższy: *the most expensive*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**too i enough.** Oba mówią o granicy. *too* = ponad granicę, za dużo. *enough* = do granicy, wystarczająco.\n\n- *too* + przymiotnik albo przysłówek: *too expensive*, *too fast*.\n- *too much* + niepoliczalny, *too many* + lm: *too much sugar*, *too many people*. Nigdy *too much expensive* (ale *much too expensive* ✓).\n- *enough* ==przed rzeczownikiem==: *enough money*, *enough chairs*.\n- *enough* ==po przymiotniku albo przysłówku==: *old enough*, *fast enough*. Nigdy *enough old*.\n- Za oboma może stać *for* + osoba i *to* + V1: *It's too cold for us to swim.*"
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "too", "role": "signal" },
+        { "text": "przymiotnik", "role": "neutral" },
+        { "text": "(for sb)", "role": "object" },
+        { "text": "to V1", "role": "verb" }
+      ],
+      "example": {
+        "en": "This box is too heavy for me to carry.",
+        "pl": "To pudło jest dla mnie za ciężkie, żebym je zaniósł."
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "not", "role": "particle" },
+        { "text": "przymiotnik", "role": "neutral" },
+        { "text": "enough", "role": "signal" },
+        { "text": "to V1", "role": "verb" }
+      ],
+      "example": {
+        "en": "He isn't tall enough to reach the top shelf.",
+        "pl": "Jest za niski, żeby dosięgnąć najwyższej półki."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "*too … to* i *not … enough to* to dwa sposoby na to samo zdanie. Przy zamianie bierzesz ==przymiotnik o przeciwnym znaczeniu==: *too young to vote* = *not old enough to vote*, *too slow to win* = *not fast enough to win*. Gdy dopełnieniem jest podmiot zdania, nie powtarzasz go na końcu: *This box is too heavy to carry* ✓, *…to carry it* ✗. Inne dopełnienie zostaje: *too tired to do my homework* ✓."
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "**Jak to sprawdzają.** Przedimki i określniki rzadko są głównym celem luki, ale w latach 2023–2026 były ==pułapką w każdym arkuszu== (zadanie 8, zadanie 9 i luki otwarte). Dobra konstrukcja ze zgubionym przedimkiem dostaje 0 pkt.\n\n- **Zadanie 9 (wyrazy w nawiasie):** w 5 pozycjach drugą warstwą był przedimek, określnik albo liczba: *any* przed *doubts* (lm), *an umbrella*, *an easier solution*, *the problem* i *idea* w lp, żeby zgadzała się z *it*. Brakujące *a/an/the* dopisujesz sam i ono też zjada limit wyrazów.\n- **Zadanie 8 (słowotwórstwo):** zła liczba dawała 0, np. *preferences* po *a* albo *actions* w zwrocie *take action*.\n- **Zadanie 7 (wybór):** jeśli trafi się luka na określnik, wszystkie opcje będą z jednej klasy (*few / a few / little / a little*). Rozstrzyga rzeczownik po luce (policzalny czy nie) i wydźwięk zdania.\n- **Transformacje:** pary z tego działu, które warto przećwiczyć: *not … any* → **no**, *too young to* → **not old enough to**, *not one of them* → **none of them**, *A doesn't … and B doesn't either* → **neither A nor B**, *it doesn't matter which (z dwóch)* → **either**."
+    },
+    {
+      "type": "table",
+      "headers": ["Źle", "Dobrze", "Dlaczego"],
+      "rows": [
+        ["She's teacher.", "She's a teacher.", "zawód w lp prawie zawsze z a/an"],
+        ["The life is beautiful.", "Life is beautiful.", "życie w ogóle → Ø"],
+        [
+          "I like the dogs.",
+          "I like dogs.",
+          "psy w ogóle → lm bez the (the dogs = te konkretne psy)"
+        ],
+        [
+          "We live in the Poland.",
+          "We live in Poland.",
+          "nazwa państwa bez Republic, Kingdom ani lm → Ø"
+        ],
+        ["We swam in Baltic.", "We swam in the Baltic.", "morza i rzeki → the"],
+        ["I go to the bed at eleven.", "I go to bed at eleven.", "łóżko jako spanie → Ø"],
+        ["I came by the train.", "I came by train.", "by + środek transportu → Ø"],
+        ["He plays the football.", "He plays football.", "sport → Ø, instrument → the"],
+        [
+          "Can you give me an advice?",
+          "Can you give me some advice?",
+          "advice jest niepoliczalne (jedna rada: a piece of advice)"
+        ],
+        ["The news are bad.", "The news is bad.", "news to lp mimo końcówki -s"],
+        ["The most of my friends…", "Most of my friends…", "most = większość, bez the"],
+        ["Every students has…", "Every student has…", "every i each + lp"],
+        ["Neither of them didn't come.", "Neither of them came.", "neither już przeczy"],
+        ["There were too much people.", "There were too many people.", "people to lm → many"],
+        ["He isn't enough old.", "He isn't old enough.", "enough stoi po przymiotniku"],
+        [
+          "I was there the last summer.",
+          "I was there last summer.",
+          "last / next + okres czasu bez the"
+        ]
+      ]
+    }
+  ]
+}

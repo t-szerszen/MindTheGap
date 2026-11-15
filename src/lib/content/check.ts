@@ -1,11 +1,28 @@
-import type { Exercise, PhraseSet, Tense, Topic } from '../../content/schema'
-import { normalizeAnswer } from '../answers'
+import type {
+  Exercise,
+  GrammarTab,
+  GrammarTopic,
+  MockSet,
+  PhraseSet,
+  ReadingSet,
+  Tense,
+  Topic,
+  WritingTask,
+} from '../../content/schema'
+import { normalizeBasic } from '../answers'
+import { countWords } from '../answers/words'
+import { points } from '../exercises/check'
 
 export type ContentSet = {
   tenses: Tense[]
   topics: Topic[]
   phraseSets: PhraseSet[]
   exercises: Exercise[]
+  writing?: WritingTask[]
+  reading?: ReadingSet[]
+  mocks?: MockSet[]
+  grammar?: GrammarTopic[]
+  grammarTabs?: GrammarTab[]
 }
 
 function dupes(ids: string[]) {
@@ -46,16 +63,137 @@ export function checkContent(c: ContentSet): string[] {
       .trim()
       .toLowerCase(),
   )
+  const seen = new Map<string, string>()
   for (const e of c.exercises) {
     for (const tag of e.tags) {
       if (!tags.has(tag)) errors.push(`${e.id}: tag ${tag} nie jest ani czasem, ani tematem`)
     }
-    const s = e.sentence.toLowerCase()
-    const hint = tenseNames.find((n) => s.includes(n))
-    if (hint) errors.push(`${e.id}: zdanie podpowiada czas („${hint}”)`)
-    // skróty sprawdzarka rozwija sama, więc "'ll close" obok "will close" to zbędny duplikat
-    for (const a of dupes([...e.correct, ...(e.accepted ?? [])].map(normalizeAnswer)))
-      errors.push(`${e.id}: odpowiedź „${a}” powtarza się po rozwinięciu skrótów`)
+    const text = exerciseText(e)
+    const low = text.toLowerCase()
+    const hint = tenseNames.find((n) => low.includes(n)) ?? GRAMMAR_TERMS.exec(low)?.[0]
+    if (hint) errors.push(`${e.id}: zdanie podpowiada strukturę („${hint}”)`)
+
+    // to samo zdanie w dwóch zadaniach to ten sam punkt dwa razy
+    const norm = low
+      .replace(/[^a-z ]+/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim()
+    const twin = seen.get(norm)
+    if (twin) errors.push(`${e.id}: to samo zdanie co w ${twin}`)
+    else seen.set(norm, e.id)
+
+    for (const [label, answers] of answerSets(e)) {
+      // skróty sprawdzarka rozwija sama, więc "'ll close" obok "will close" to zbędny duplikat
+      for (const a of dupes(answers.map(normalizeBasic)))
+        errors.push(`${e.id}${label}: odpowiedź „${a}” powtarza się po rozwinięciu skrótów`)
+      for (const a of answers) {
+        if (/_{3,}/.test(a)) errors.push(`${e.id}${label}: w odpowiedzi zostało ___`)
+        const limit =
+          e.type === 'gap-fill'
+            ? e.maxWords
+            : e.type === 'key-word-transformation'
+              ? e.maxWords
+              : undefined
+        if (limit && countWords(a) > limit)
+          errors.push(`${e.id}${label}: „${a}” ma więcej niż ${limit} wyrazów`)
+        if (e.type === 'key-word-transformation' && !hasWord(a, e.keyWord))
+          errors.push(
+            `${e.id}: „${a}” nie zawiera słowa klucza ${e.keyWord} w niezmienionej formie`,
+          )
+        if (e.type === 'word-formation' && /\s/.test(a.trim()))
+          errors.push(`${e.id}${label}: słowotwórstwo to jeden wyraz, a „${a}” ma kilka`)
+      }
+    }
+    if (e.type === 'key-word-transformation' && hasWord(e.target, e.keyWord))
+      errors.push(`${e.id}: słowo klucz jest już w zdaniu docelowym`)
+    if (e.type === 'word-formation')
+      e.gaps.forEach((g, i) => {
+        if (g.correct.some((a) => normalizeBasic(a) === normalizeBasic(g.base)))
+          errors.push(`${e.id}#${i + 1}: odpowiedź to sam wyraz bazowy ${g.base}`)
+      })
+  }
+  const writing = c.writing ?? []
+  const reading = c.reading ?? []
+  const mocks = c.mocks ?? []
+  const allIds = [
+    ...c.exercises.map((e) => e.id),
+    ...writing.map((w) => w.id),
+    ...reading.map((r) => r.id),
+    ...mocks.map((m) => m.id),
+  ]
+  for (const id of dupes(allIds)) errors.push(`id ${id} jest użyte w dwóch miejscach`)
+  for (const x of [...writing, ...reading])
+    for (const tag of x.tags ?? [])
+      if (!tags.has(tag)) errors.push(`${x.id}: tag ${tag} nie jest ani czasem, ani tematem`)
+
+  // wzory liczę jak CKE: bez tytułu, skrót i wyraz z łącznikiem to jeden wyraz
+  for (const w of writing)
+    w.models.forEach((m, i) => {
+      const n = countWords(m.paragraphs.join(' '))
+      if (n < 200 || n > 250)
+        errors.push(`${w.id}: wzór ${i + 1} ma ${n} wyrazów, a powinien 200-250`)
+    })
+
+  // arkusz próbny ma wyglądać jak część z zadaniami 7-9: razem 14 punktów
+  const byId = new Map(c.exercises.map((e) => [e.id, e]))
+  for (const m of mocks) {
+    const list = m.exercises.map((id) => byId.get(id))
+    m.exercises.forEach((id, i) => {
+      if (!list[i]) errors.push(`${m.id}: nie ma ćwiczenia ${id}`)
+    })
+    const total = list.reduce((n, e) => n + (e ? points(e) : 0), 0)
+    if (total !== 14) errors.push(`${m.id}: ${total} pkt zamiast 14 jak w arkuszu`)
+  }
+
+  const grammar = c.grammar ?? []
+  const grammarTabs = c.grammarTabs ?? []
+  const tabIds = grammarTabs.map((t) => t.id)
+  for (const id of dupes(tabIds)) errors.push(`powtórzona przekładka gramatyki: ${id}`)
+  for (const id of dupes(grammar.map((g) => g.id))) errors.push(`powtórzone id gramatyki: ${id}`)
+  for (const t of grammarTabs)
+    if (t.topic && !topicIds.includes(t.topic))
+      errors.push(`przekładka ${t.id}: nie ma tematu ${t.topic}`)
+  for (const g of grammar) {
+    if (!tabIds.includes(g.id)) errors.push(`gramatyka ${g.id}: brak przekładki w tabs.json`)
+    if (!tags.has(g.practiceTag))
+      errors.push(`gramatyka ${g.id}: tag ${g.practiceTag} nie istnieje`)
+    if (!topicIds.includes(g.theoryTopic))
+      errors.push(`gramatyka ${g.id}: nie ma tematu ${g.theoryTopic}`)
   }
   return errors
+}
+
+// nazwy struktur, które w zdaniu zadania byłyby podpowiedzią
+const GRAMMAR_TERMS =
+  /\b(passive voice|reported speech|(zero|first|second|third|mixed) conditional|gerund|bare infinitive|inversion|past participle|present participle|modal verb|relative clause|causative)\b/
+
+function exerciseText(e: Exercise) {
+  switch (e.type) {
+    case 'gap-fill':
+      return e.sentence
+    case 'key-word-transformation':
+      return `${e.source} ${e.target}`
+    case 'choice':
+    case 'word-formation':
+      return e.text
+  }
+}
+
+// odpowiedzi pogrupowane po lukach: [etykieta luki, lista poprawnych i akceptowanych]
+function answerSets(e: Exercise): [string, string[]][] {
+  switch (e.type) {
+    case 'gap-fill':
+    case 'key-word-transformation':
+      return [['', [...e.correct, ...(e.accepted ?? [])]]]
+    case 'word-formation':
+      return e.gaps.map((g, i) => [`#${i + 1}`, [...g.correct, ...(g.accepted ?? [])]])
+    case 'choice':
+      return []
+  }
+}
+
+function hasWord(text: string, word: string) {
+  const words = normalizeBasic(text).split(/[^a-z']+/)
+  const key = normalizeBasic(word).split(' ')
+  return words.some((_, i) => key.every((k, j) => words[i + j] === k))
 }

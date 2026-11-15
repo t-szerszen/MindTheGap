@@ -15,6 +15,17 @@ export default defineConfig(({ mode }) => {
           codeSplitting: {
             groups: [
               { name: 'firebase', test: /node_modules[\\/](@?firebase)/, priority: 2 },
+              // treści: każdy rodzaj to jeden plik, ładowany dopiero na stronie, która go potrzebuje
+              {
+                name: 'content-exercises',
+                test: /src[\\/]content[\\/]exercises[\\/]/,
+                priority: 3,
+              },
+              { name: 'content-topics', test: /src[\\/]content[\\/]topics[\\/]/, priority: 3 },
+              { name: 'content-phrases', test: /src[\\/]content[\\/]phrases[\\/]/, priority: 3 },
+              { name: 'content-writing', test: /src[\\/]content[\\/]writing[\\/]/, priority: 3 },
+              { name: 'content-reading', test: /src[\\/]content[\\/]reading[\\/]/, priority: 3 },
+              { name: 'content-mocks', test: /src[\\/]content[\\/]mocks[\\/]/, priority: 3 },
               { name: 'vendor', test: /node_modules/, priority: 1 },
             ],
           },

@@ -1,0 +1,611 @@
+{
+  "id": "question-forms",
+  "category": "grammar",
+  "title_pl": "Pytania, question tags i So do I",
+  "summary_pl": "Jeden mechanizm na cały temat: operator przed podmiotem. Z niego biorą się pytania, pytania o podmiot i dopełnienie, pytania pośrednie, przeczące, krótkie odpowiedzi, question tags i dopowiedzenia So do I / Neither can I.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "**Jak angielski robi pytanie**\n\nPo polsku pytanie robisz intonacją albo słówkiem *czy*, a szyk zostaje ten sam: *Ola ma czas.* → *(Czy) Ola ma czas?* Po angielsku tak się nie da. Pytanie robi **szyk**: przed podmiot wychodzi ==operator==, czyli pierwszy czasownik posiłkowy w zdaniu (albo samo *be*).\n\n*Ola is busy.* → *Is Ola busy?*\n\nTen sam operator obsługuje cały ten temat: pytania, krótkie odpowiedzi (*Yes, she is*), question tags (*…, isn't she?*), dopowiedzenia (*So am I*, *Neither am I*) i pytania przeczące (*Isn't she…?*). Jak nauczysz się go znajdować, reszta to już tylko wariacje.\n\nSkróty: V1 = forma podstawowa (go), V2 = forma Past Simple (went), V3 = trzecia forma (gone)."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "be",
+          "text_pl": "Jest am, is, are, was albo were? To on jest operatorem: You were tired. → Were you tired?"
+        },
+        {
+          "step_pl": "posiłkowy albo modal",
+          "text_pl": "Jest have / has / had przed V3, will, can, could, should, must, would? Operatorem jest pierwszy z nich: She has been waiting. → Has she been waiting?"
+        },
+        {
+          "step_pl": "nic nie ma",
+          "text_pl": "Jest sam czasownik główny (She plays, They left)? Wstawiasz do / does / did. Końcówka -s i czas przeszły przechodzą na operator, a czasownik wraca do V1: Does she play? Did they leave?"
+        },
+        {
+          "step_pl": "pułapka",
+          "text_pl": "have w znaczeniu „mieć”: Have you got a pen? (z got) albo Do you have a pen? (bez got, więc do). used to też bierze did: Did you use to live here?"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": ["Zdanie", "Operator", "Pytanie", "Krótka odpowiedź", "Question tag"],
+      "rows": [
+        [
+          "She's working late. (Pracuje dziś do późna.)",
+          "is",
+          "Is she working late?",
+          "Yes, she is.",
+          "She's working late, isn't she?"
+        ],
+        [
+          "They've finished. (Skończyli.)",
+          "have",
+          "Have they finished?",
+          "Yes, they have.",
+          "They've finished, haven't they?"
+        ],
+        [
+          "You can drive. (Umiesz prowadzić.)",
+          "can",
+          "Can you drive?",
+          "Yes, I can.",
+          "You can drive, can't you?"
+        ],
+        [
+          "He plays the drums. (Gra na perkusji.)",
+          "does",
+          "Does he play the drums?",
+          "Yes, he does.",
+          "He plays the drums, doesn't he?"
+        ],
+        [
+          "We missed the bus. (Spóźniliśmy się na autobus.)",
+          "did",
+          "Did we miss the bus?",
+          "Yes, we did.",
+          "We missed the bus, didn't we?"
+        ]
+      ]
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Operator", "role": "aux" },
+        { "text": "subject", "role": "subject" },
+        { "text": "V1 / V-ing / V3", "role": "verb" },
+        { "text": "…?", "role": "neutral" }
+      ],
+      "example": {
+        "en": "Did you watch the match last night?",
+        "pl": "Oglądałeś wczoraj mecz?"
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Wh-word", "role": "neutral" },
+        { "text": "operator", "role": "aux" },
+        { "text": "subject", "role": "subject" },
+        { "text": "V1 / V-ing / V3", "role": "verb" },
+        { "text": "…?", "role": "neutral" }
+      ],
+      "example": {
+        "en": "What time does your train leave?",
+        "pl": "O której odjeżdża twój pociąg?"
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**Czas i -s niesie operator, nie czasownik.** Gdy wstawiasz *do / does / did*, czasownik główny wraca do V1:\n\n- nie *Did you saw the film?*, tylko **Did you see the film?**\n- nie *Does she likes jazz?*, tylko **Does she like jazz?**\n\nI odwrotnie: bez operatora nie ma pytania. *Where you live?* to polski szyk z intonacją. Dobrze: **Where do you live?**"
+    },
+    {
+      "type": "text",
+      "md_pl": "**Pytanie o podmiot i pytanie o dopełnienie**\n\nSłowo pytające (*who, what, which, how many*) zastępuje kawałek zdania, którego nie znasz. Liczy się, **który** kawałek. Weź zdanie *Kasia invited Tomek.* (Kasia zaprosiła Tomka.)\n\n- Nie wiesz, **kto zaprosił** → brakuje podmiotu. *Who* staje na miejscu podmiotu, a ono i tak jest na początku. Nie ma czego przestawiać, więc **nie ma operatora**: ==Who invited Tomek?==\n- Nie wiesz, **kogo zaprosiła** → brakuje dopełnienia. *Who* idzie na początek, ale podmiot (*Kasia*) zostaje, więc robisz zwykłe pytanie z operatorem: ==Who did Kasia invite?==\n\nW pytaniu o podmiot czasownik ma taką formę jak w zdaniu oznajmującym: z -s, w V2, z *will* czy *has*. Domyślnie stoi w liczbie pojedynczej, nawet gdy spodziewasz się kilku osób: *Who wants more pizza?* Wyjątek: *be* z rzeczownikiem w liczbie mnogiej, np. *Who are your best friends?*"
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Who / What", "role": "subject" },
+        { "text": "V1 + s / V2 / has V3 / will V1", "role": "verb" },
+        { "text": "object", "role": "object" },
+        { "text": "?", "role": "neutral" }
+      ],
+      "example": {
+        "en": "Who invited Tomek?",
+        "pl": "Kto zaprosił Tomka?"
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Who / What", "role": "object" },
+        { "text": "operator", "role": "aux" },
+        { "text": "subject", "role": "subject" },
+        { "text": "V1", "role": "verb" },
+        { "text": "?", "role": "neutral" }
+      ],
+      "example": {
+        "en": "Who did Kasia invite?",
+        "pl": "Kogo zaprosiła Kasia?"
+      }
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Who saw you?",
+          "md_pl": "Pytasz o **podmiot**: ktoś cię widział, nie wiesz kto. Szyk zdania oznajmującego, bez *did*, czasownik w V2.",
+          "examples": [
+            {
+              "en": "Who saw you leave the party?",
+              "pl": "Kto widział, jak wychodziłeś z imprezy?"
+            }
+          ]
+        },
+        {
+          "title": "Who did you see?",
+          "md_pl": "Pytasz o **dopełnienie**: to ty kogoś widziałeś. Operator *did* + podmiot *you* + V1.",
+          "examples": [
+            {
+              "en": "Who did you see at the party?",
+              "pl": "Kogo widziałeś na imprezie?"
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Odpowiedz sobie w myślach pełnym zdaniem. Jeśli szukana osoba stoi **przed** czasownikiem (*Ola saw me*), pytasz o podmiot i nie dodajesz operatora. Jeśli stoi **po** czasowniku (*I saw Ola*), operator jest potrzebny. Po polsku różnicę robi końcówka (*kto* / *kogo*), po angielsku szyk."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "What happened at school today?",
+          "pl": "Co się dziś działo w szkole?"
+        },
+        {
+          "en": "Which team won the league last year?",
+          "pl": "Która drużyna wygrała ligę w zeszłym roku?"
+        },
+        {
+          "en": "How many people have signed up for the trip?",
+          "pl": "Ile osób zapisało się na wycieczkę?"
+        },
+        {
+          "en": "Who's going to drive us to the airport?",
+          "pl": "Kto nas zawiezie na lotnisko?"
+        },
+        {
+          "en": "What made you change your mind?",
+          "pl": "Co sprawiło, że zmieniłeś zdanie?"
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "**Przyimek zostaje na końcu.** Po polsku przyimek idzie przed słowo pytające (*Na kogo czekasz? O czym mówisz?*). W angielskim pytanie zaczyna się od *who / what*, a przyimek zostaje tam, gdzie stał w zdaniu:\n\n- *Who are you waiting for?* — Na kogo czekasz?\n- *What are you talking about?* — O czym mówisz?\n- *Who did you go to the cinema with?* — Z kim poszedłeś do kina?\n\nForma *With whom…?* istnieje, ale jest bardzo formalna i w rozmowie brzmi sztywno."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Pytania pośrednie**\n\nCzasem pytasz grzeczniej albo ostrożniej i zaczynasz od wstępu: *Could you tell me…?*, *Do you know…?*, *Can you remember…?*, *I wonder…*, *I'd like to know…*. Wtedy ==pytaniem jest już sam wstęp==, a dalsza część staje się zwykłym kawałkiem zdania.\n\nMa więc szyk zdania oznajmującego: **słowo pytające + podmiot + czasownik**. Operator *do / does / did* znika, a czas i końcówka -s wracają na czasownik. Gdy w pytaniu nie ma słowa pytającego (odpowiedź tak/nie), dodajesz *if* albo *whether* (= czy)."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "pytanie",
+          "text_pl": "Zacznij od pytania bezpośredniego: Where does Ola live?"
+        },
+        {
+          "step_pl": "wstęp",
+          "text_pl": "Dodaj wstęp: Do you know… To on jest teraz pytaniem."
+        },
+        {
+          "step_pl": "słowo pytające",
+          "text_pl": "Słowo pytające zostaje: where. Przy pytaniu tak/nie (Does Ola live here?) wstawiasz if albo whether."
+        },
+        {
+          "step_pl": "szyk",
+          "text_pl": "Podmiot przed czasownik. does znika, a -s wraca do czasownika: where Ola lives."
+        },
+        {
+          "step_pl": "znak",
+          "text_pl": "Znak zapytania tylko wtedy, gdy wstęp jest pytaniem: Do you know where Ola lives? Po I wonder… i I'd like to know… stawiasz kropkę."
+        }
+      ]
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Could you tell me / Do you know", "role": "signal" },
+        { "text": "Wh-word", "role": "neutral" },
+        { "text": "subject", "role": "subject" },
+        { "text": "verb", "role": "verb" },
+        { "text": "…?", "role": "neutral" }
+      ],
+      "example": {
+        "en": "Could you tell me where the toilets are?",
+        "pl": "Czy mógłby mi pan powiedzieć, gdzie są toalety?"
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "I wonder / I'd like to know", "role": "signal" },
+        { "text": "if / whether", "role": "particle" },
+        { "text": "subject", "role": "subject" },
+        { "text": "verb", "role": "verb" },
+        { "text": "…", "role": "neutral" }
+      ],
+      "example": {
+        "en": "I'd like to know whether the price includes insurance.",
+        "pl": "Chciałbym wiedzieć, czy cena obejmuje ubezpieczenie."
+      }
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Pytanie bezpośrednie",
+          "md_pl": "Operator przed podmiotem. Neutralne, poprawne wszędzie.",
+          "examples": [
+            {
+              "en": "Where's the nearest cash machine?",
+              "pl": "Gdzie jest najbliższy bankomat?"
+            },
+            {
+              "en": "What time does the film start?",
+              "pl": "O której zaczyna się film?"
+            },
+            {
+              "en": "Did Ola pass her driving test?",
+              "pl": "Czy Ola zdała egzamin na prawo jazdy?"
+            }
+          ]
+        },
+        {
+          "title": "Pytanie pośrednie",
+          "md_pl": "Wstęp robi pytanie, reszta ma szyk zdania. Brzmi uprzejmiej: do obcych, w urzędzie, w liście formalnym.",
+          "examples": [
+            {
+              "en": "Could you tell me where the nearest cash machine is?",
+              "pl": "Czy może mi pan powiedzieć, gdzie jest najbliższy bankomat?"
+            },
+            {
+              "en": "Do you know what time the film starts?",
+              "pl": "Wiesz, o której zaczyna się film?"
+            },
+            {
+              "en": "I wonder if Ola passed her driving test.",
+              "pl": "Ciekawe, czy Ola zdała egzamin na prawo jazdy."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Pytanie o podmiot (*Who won?*) już ma szyk zdania, więc w pytaniu pośrednim się nie zmienia: *Do you know who won?*"
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**Do you think…? to co innego.** Przy *do you think*, *do you believe* i *do you suppose* słowo pytające idzie na sam początek, bo pytasz o czyjąś opinię: ==Where do you think he's gone?== (Jak myślisz, gdzie poszedł?), nie *Do you think where he's gone?* Reszta i tak ma szyk zdania: *he's gone*.\n\n**To nie mowa zależna.** Po *Do you know…* czy *Could you tell me…* nie cofasz czasu: *Do you know where she lives?* Cofanie czasu (*She asked me where I lived*) należy do mowy zależnej i ma osobny temat."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Pytania przeczące**\n\nPytanie przeczące (*Isn't it…? Don't you…? Haven't you…?*) nie jest neutralne. Mówiący już coś zakłada i daje to poznać:\n\n- **zdziwienie**: myślał, że tak jest, a wygląda na to, że nie. *Didn't you hear the alarm?* = myślałem, że słyszałeś.\n- **oczekiwanie, że się zgodzisz**: *Isn't that your cousin over there?* = to chyba twój kuzyn.\n- **propozycja albo zaproszenie**: *Why don't we ask Mr Nowak?* (Może zapytamy pana Nowaka?), *Won't you stay for dinner?* (Nie zostaniesz na kolacji?)\n\nForma: operator ze skrótem *n't* idzie przed podmiot. Pełne *not* stoi dopiero **po** podmiocie i brzmi formalnie: *Don't you agree?* / *Do you not agree?*"
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Don't / Isn't / Haven't…", "role": "aux" },
+        { "text": "subject", "role": "subject" },
+        { "text": "V1 / V-ing / V3", "role": "verb" },
+        { "text": "…?", "role": "neutral" }
+      ],
+      "example": {
+        "en": "Haven't you finished your essay yet?",
+        "pl": "Jeszcze nie skończyłeś wypracowania?"
+      }
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Did you hear…?",
+          "md_pl": "Zwykłe pytanie. **Nie wiesz** i pytasz.",
+          "examples": [
+            {
+              "en": "Did you hear the thunder last night?",
+              "pl": "Słyszałeś wczoraj w nocy grzmoty?"
+            }
+          ]
+        },
+        {
+          "title": "Didn't you hear…?",
+          "md_pl": "Zakładałeś, że słyszał, i jesteś **zdziwiony**, że chyba nie.",
+          "examples": [
+            {
+              "en": "Didn't you hear the thunder last night? It was so loud!",
+              "pl": "Nie słyszałeś wczoraj grzmotów? Było tak głośno!"
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Przeczenie w pytaniu nie zmienia faktów, o które pytasz. Pokazuje tylko, czego mówiący się spodziewał."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**Odpowiadasz na fakt, a nie na formę pytania.** *Yes* zawsze idzie z twierdzeniem, *No* z przeczeniem, bez względu na to, czy pytanie było przeczące:\n\n- *Didn't you get my message?* — **No, I didn't.** (nie dostałem)\n- *Didn't you get my message?* — **Yes, I did.** (dostałem)\n\nForm *Yes, I didn't* i *No, I did* nie ma. To samo przy question tags: *You don't eat meat, do you?* — *No, I don't.* (nie jem)"
+    },
+    {
+      "type": "text",
+      "md_pl": "**Krótkie odpowiedzi**\n\nNa pytanie tak/nie samo *Yes* brzmi sucho. Zwykle dodajesz **zaimek + ten sam operator** i pomijasz resztę zdania:\n\n- *Are you ready?* — *Yes, I am.* / *No, I'm not.*\n- *Does your brother drive?* — *Yes, he does.* / *No, he doesn't.*\n- *Have you finished?* — *Yes, I have.* / *No, I haven't.*\n- *Is there a lift?* — *Yes, there is.* / *No, there isn't.*\n\nW twierdzącej krótkiej odpowiedzi **nie skracasz**: *Yes, I am*, nie *Yes, I'm*; *Yes, she has*, nie *Yes, she's*. Skrót przy przeczeniu jest normalny: *No, she hasn't.* Nie odpowiadasz też czasownikiem głównym: na *Do you like it?* mówisz *Yes, I do*, a nie *Yes, I like*."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "Can you swim? — Yes, I can.",
+          "pl": "Umiesz pływać? — Tak, umiem."
+        },
+        {
+          "en": "Did you lock the door? — No, I didn't.",
+          "pl": "Zamknąłeś drzwi? — Nie, nie zamknąłem."
+        },
+        {
+          "en": "Will Ola be there? — Yes, she will.",
+          "pl": "Ola tam będzie? — Tak, będzie."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Question tags**\n\nQuestion tag to krótkie pytanko na końcu zdania, po polsku *prawda?*, *nie?*, *co?*. W polskim jedno pasuje do wszystkiego. Angielski buduje tag ze zdania, do którego go doklejasz:\n\n- **operator** ten sam co w zdaniu, a gdy go nie ma, *do / does / did*;\n- **odwrotna biegunowość**: zdanie twierdzące → tag przeczący, zdanie przeczące → tag twierdzący;\n- podmiot jako **zaimek**: *your mum* → *she*, *the film* → *it*.\n\nIntonacja zmienia sens. Gdy głos na tagu opada, jesteś pewien i czekasz na potwierdzenie. Gdy rośnie, naprawdę nie wiesz i pytasz."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Zdanie twierdzące", "role": "neutral" },
+        { "text": ",", "role": "neutral" },
+        { "text": "operator + n't", "role": "aux" },
+        { "text": "pronoun", "role": "subject" },
+        { "text": "?", "role": "neutral" }
+      ],
+      "example": {
+        "en": "You've met my cousin, haven't you?",
+        "pl": "Znasz mojego kuzyna, prawda?"
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Zdanie przeczące", "role": "neutral" },
+        { "text": ",", "role": "neutral" },
+        { "text": "operator", "role": "aux" },
+        { "text": "pronoun", "role": "subject" },
+        { "text": "?", "role": "neutral" }
+      ],
+      "example": {
+        "en": "Kasia isn't coming tonight, is she?",
+        "pl": "Kasia dziś nie przyjdzie, prawda?"
+      }
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "operator",
+          "text_pl": "Znajdź operator zdania głównego: She's been to Paris → has. Gdy go nie ma, bierzesz do / does / did: She lives in Gdańsk → does."
+        },
+        {
+          "step_pl": "biegunowość",
+          "text_pl": "Twierdzące → tag z n't, przeczące → tag bez not. Przeczeniem są też never, hardly, no, nobody i nothing: He never calls, does he?"
+        },
+        {
+          "step_pl": "zaimek",
+          "text_pl": "Podmiot zamieniasz na zaimek. nobody, somebody, everybody (i -one) → they. nothing, everything, this, that → it."
+        },
+        {
+          "step_pl": "'s i 'd",
+          "text_pl": "'s + V3 = has (She's left, hasn't she?), 's + przymiotnik albo -ing = is (She's late, isn't she?). 'd + V3 = had (You'd met him before, hadn't you?), 'd + V1 = would (You'd like a lift, wouldn't you?)."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": ["Przypadek", "Przykład", "Dlaczego tak"],
+      "rows": [
+        [
+          "I am",
+          "I'm right, aren't I? (Mam rację, prawda?)",
+          "formy amn't w standardowym angielskim nie ma; am I not? jest bardzo formalne"
+        ],
+        [
+          "Let's",
+          "Let's order pizza, shall we? (Zamówmy pizzę, co?)",
+          "propozycja dla nas (ja + ty albo wy), tag jest zawsze ten sam"
+        ],
+        [
+          "polecenie",
+          "Close the window, will you? (Zamknij okno, dobrze?)",
+          "tryb rozkazujący nie ma operatora, więc will you; grzeczniej could you / would you"
+        ],
+        [
+          "polecenie przeczące",
+          "Don't be late, will you? (Nie spóźnij się, dobrze?)",
+          "też will you, bo don't to tu część rozkazu, a nie operator"
+        ],
+        [
+          "zaproszenie",
+          "Have some more cake, won't you? (Weź jeszcze ciasta.)",
+          "won't you przy zachęcaniu i częstowaniu"
+        ],
+        [
+          "there is / are",
+          "There's a bus at ten, isn't there? (Jest autobus o dziesiątej, prawda?)",
+          "there zostaje w tagu jak podmiot"
+        ],
+        [
+          "everyone, nobody",
+          "Nobody called, did they? (Nikt nie dzwonił, prawda?)",
+          "zaimek they; nobody to przeczenie, więc tag twierdzący"
+        ],
+        [
+          "nothing, that",
+          "Nothing happened, did it? (Nic się nie stało, prawda?)",
+          "zaimek it; nothing to przeczenie, więc tag twierdzący"
+        ],
+        [
+          "used to",
+          "You used to live here, didn't you? (Mieszkałeś tu kiedyś, prawda?)",
+          "used to nie ma własnego operatora, bierze did"
+        ],
+        [
+          "have got / have",
+          "You've got a bike, haven't you? / You have a bike, don't you? (Masz rower, prawda?)",
+          "z got operatorem jest have; samo have (mieć) bierze do"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**So do I / Neither can I**\n\nGdy ktoś coś mówi, a ty chcesz dodać *ja też* albo *ja też nie*, nie powtarzasz całego zdania. Bierzesz **operator** z jego zdania i stawiasz go **przed podmiotem**, jak w pytaniu:\n\n- zgoda ze zdaniem twierdzącym: **So + operator + podmiot** → *I love sushi. — So do I.* (Ja też.)\n- zgoda ze zdaniem przeczącym: **Neither / Nor + operator + podmiot** → *I can't swim. — Neither can I.* (Ja też nie.)\n\n*Neither* i *nor* już są przeczeniem, więc operator po nich jest **twierdzący**: *Neither can I*, nie *Neither can't I*. To samo działa w jednym zdaniu o dwóch osobach: *Kuba plays the guitar, and so does his sister.*\n\nW luźnej rozmowie usłyszysz też *Me too* i *Me neither*. Zamiast *Neither do I* możesz powiedzieć *I don't either*."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "So", "role": "signal" },
+        { "text": "operator", "role": "aux" },
+        { "text": "subject", "role": "subject" }
+      ],
+      "example": {
+        "en": "Kuba plays the guitar, and so does his sister.",
+        "pl": "Kuba gra na gitarze i jego siostra też."
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Neither / Nor", "role": "signal" },
+        { "text": "operator", "role": "aux" },
+        { "text": "subject", "role": "subject" }
+      ],
+      "example": {
+        "en": "I haven't seen the new Bond film. — Neither have I.",
+        "pl": "Nie widziałem nowego Bonda. — Ja też nie."
+      }
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "So + operator",
+          "md_pl": "Reakcja na zdanie **twierdzące**: ja też.",
+          "examples": [
+            {
+              "en": "I'm exhausted. — So am I.",
+              "pl": "Jestem wykończony. — Ja też."
+            },
+            {
+              "en": "I went to bed at two. — So did I.",
+              "pl": "Poszedłem spać o drugiej. — Ja też."
+            }
+          ]
+        },
+        {
+          "title": "Neither / Nor + operator",
+          "md_pl": "Reakcja na zdanie **przeczące** (z *not*, *never*, *no*…): ja też nie.",
+          "examples": [
+            {
+              "en": "I didn't understand a word. — Neither did I.",
+              "pl": "Nie zrozumiałem ani słowa. — Ja też nie."
+            },
+            {
+              "en": "I've never flown before. — Nor have I.",
+              "pl": "Nigdy wcześniej nie leciałem samolotem. — Ja też nie."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Operator bierzesz ze zdania rozmówcy i dopasowujesz do **swojego** podmiotu: *She's tired. — So am I.* (is → am), *Tom plays chess. — So do I.* (does → do)."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "**Gdy się nie zgadzasz**, też wystarczy operator, ale bez przestawiania szyku i z odwrotną biegunowością:\n\n- *I love horror films. — Oh, I don't.* (A ja nie.)\n- *I can't swim. — Really? I can.* (Serio? A ja umiem.)"
+    },
+    {
+      "type": "table",
+      "headers": ["Źle", "Dobrze", "Dlaczego"],
+      "rows": [
+        [
+          "Where you live?",
+          "Where do you live?",
+          "po polsku pytanie robi intonacja, po angielsku operator przed podmiotem"
+        ],
+        [
+          "Did you saw the match?",
+          "Did you see the match?",
+          "czas przeszły już jest w did, czasownik wraca do V1"
+        ],
+        ["Who did tell you?", "Who told you?", "who to podmiot, więc bez operatora"],
+        [
+          "Who you met there?",
+          "Who did you meet there?",
+          "who to dopełnienie, podmiotem jest you, więc potrzebny operator"
+        ],
+        [
+          "Can you tell me where is the station?",
+          "Can you tell me where the station is?",
+          "w pytaniu pośrednim szyk zdania oznajmującego"
+        ],
+        [
+          "I wonder does she know.",
+          "I wonder if she knows.",
+          "pytanie tak/nie → if / whether, does znika, -s wraca do czasownika"
+        ],
+        [
+          "Do you think where he is?",
+          "Where do you think he is?",
+          "przy do you think słowo pytające idzie na początek"
+        ],
+        [
+          "You're coming tomorrow, isn't it?",
+          "You're coming tomorrow, aren't you?",
+          "tag robisz z operatora i podmiotu zdania, a nie z polskiego „prawda?”"
+        ],
+        ["Yes, I'm.", "Yes, I am.", "w twierdzącej krótkiej odpowiedzi bez skrótu"],
+        [
+          "Do you like it? — Yes, I like.",
+          "Yes, I do.",
+          "krótka odpowiedź to zaimek + operator, bez czasownika głównego"
+        ],
+        [
+          "I don't like it. — So do I.",
+          "Neither do I.",
+          "zgoda ze zdaniem przeczącym to neither / nor"
+        ],
+        ["Neither don't I.", "Neither do I.", "neither już jest przeczeniem"],
+        [
+          "Didn't you see her? — Yes, I didn't.",
+          "No, I didn't.",
+          "yes idzie tylko z twierdzeniem, no z przeczeniem"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "**Szybka kontrola, zanim oddasz odpowiedź**\n\n- Pytanie bezpośrednie: czy przed podmiotem stoi operator? Jeśli to *do / does / did*, czy po nim jest V1?\n- *Who / What* na początku: pytasz o podmiot (bez operatora) czy o dopełnienie (z operatorem)?\n- Jest wstęp (*Do you know…*, *I wonder…*)? Reszta ma szyk zdania, bez *do / does / did*.\n- Tag, krótka odpowiedź, *So / Neither*: operator wzięty z tego zdania, a nie domyślne *do* albo *is*?"
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "**Jak to wygląda na maturze**\n\n- Lista wymagań rozszerzenia wymienia wprost: pytania (także o podmiot, typu *Who made you…?*), pytania pośrednie, question tags i dopowiedzenia *So do I / Neither (Nor) do I*.\n- W arkuszach 2023–2026 pytania nie były osobnym celem luki w zadaniach 7–9. Gdy jednak luka wypada w pytaniu, operator i szyk dokładasz sam, a czas musi się zgadzać z kontekstem. Dobra konstrukcja w złym czasie to 0 pkt.\n- Pytania dobrze się przekształcają, więc warto znać pary do transformacji: pytanie bezpośrednie → pośrednie (*Where is…?* → *Could you tell me where … is?*), *Why did you decide…?* → *What made you decide…?*, *too* / *either* → *so* / *neither* z operatorem.\n- W wypracowaniu: pytanie do czytelnika to dobry wstęp do artykułu (*Have you ever wondered why…?*), a w liście formalnym pytanie pośrednie brzmi uprzejmie (*I would be grateful if you could tell me whether…*). Błąd szyku w pytaniu to zwykły błąd językowy i może obniżyć ocenę za poprawność."
+    }
+  ]
+}

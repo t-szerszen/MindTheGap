@@ -1,40 +1,213 @@
 {
   "id": "conditionals",
   "category": "grammar",
-  "title_pl": "Tryby warunkowe (0, 1, 2, 3)",
-  "summary_pl": "Jak zbudować zdanie z if i skąd wiadomo, który tryb wybrać.",
+  "title_pl": "Tryby warunkowe, wish i would rather",
+  "summary_pl": "Skąd wiadomo, który tryb wybrać, czemu forma przeszła znaczy „nierealne” i jak działają unless, in case, wish, would rather, had better, it's time oraz as if.",
   "blocks": [
     {
       "type": "text",
-      "md_pl": "Zdanie warunkowe ma dwie części: warunek z **if** i skutek. Tryb wybierasz po tym, **jak realny** jest warunek i **kiedy** się dzieje.\n\nCzęści można zamienić miejscami. Przecinek stawiasz, gdy zdanie zaczyna się od if."
+      "md_pl": "Zdanie warunkowe ma dwie części: **warunek** z *if* i **skutek**. Możesz je zamienić miejscami. Gdy zdanie zaczyna się od *if*, po warunku stawiasz przecinek: *If you're tired, we'll go home.* Gdy skutek idzie pierwszy, przecinka zwykle nie ma: *We'll go home if you're tired.*\n\nTryb wybierasz, odpowiadając na dwa pytania:\n\n- **Czy to realne?** Może się naprawdę zdarzyć (albo zdarza się zawsze), czy tylko to sobie wyobrażasz?\n- **Kiedy?** Chodzi o teraz albo przyszłość, czy o przeszłość, której już nie zmienisz?\n\nSkróty we wzorach: V1 = forma podstawowa (go), V2 = forma Past Simple (went), V3 = trzecia forma (gone)."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Najważniejszy mechanizm: forma przeszła = dystans od rzeczywistości**\n\nPo polsku nierealność robi cząstka *-by*, w obu częściach zdania: *gdybym miał, kupiłbym*. W angielskim w części z *if* nie ma żadnego odpowiednika *-by*. Zamiast niego ==cofasz czasownik o jeden krok w przeszłość==. Taka forma nie znaczy wtedy „to było wczoraj”, tylko „to nie jest prawda albo tylko to sobie wyobrażam”.\n\n- *If I have time…* — realne, teraz albo w przyszłości.\n- *If I had time…* — nierealne teraz. Mówisz *had*, a chodzi o dziś.\n- *If I had had time…* — nierealne w przeszłości. Przeszłość jest już „przeszła”, więc żeby pokazać dystans, cofasz jeszcze raz: Past Perfect.\n\nDopiero część ze skutkiem dostaje *would* — tam stoi angielskie *-by*. Ten sam cofnięty czasownik zobaczysz po *wish*, *if only*, *would rather* + ktoś, *It's time* i *as if*."
     },
     {
       "type": "table",
-      "headers": ["Tryb", "Warunek (if)", "Skutek", "Kiedy?"],
+      "headers": ["Tryb", "Kiedy go używasz", "Warunek (if)", "Skutek", "Przykład"],
       "rows": [
-        ["0", "Present Simple", "Present Simple", "fakty i prawdy ogólne"],
-        ["1", "Present Simple", "will + V1", "realna przyszłość"],
-        ["2", "Past Simple", "would + V1", "nierealne teraz albo mało prawdopodobne"],
-        ["3", "Past Perfect", "would have + V3", "przeszłość, której nie da się zmienić"]
+        [
+          "0",
+          "zawsze tak jest: fakty, jak coś działa, nawyki",
+          "Present Simple",
+          "Present Simple",
+          "If you mix blue and yellow, you get green."
+        ],
+        [
+          "1",
+          "realne: może się zdarzyć teraz lub w przyszłości",
+          "Present Simple (też Present Perfect)",
+          "will / can / might + V1 albo tryb rozkazujący",
+          "If you're tired, we'll go home."
+        ],
+        [
+          "2",
+          "nierealne teraz albo mało prawdopodobne w przyszłości",
+          "Past Simple (be → were)",
+          "would / could / might + V1",
+          "If I spoke Spanish, I'd look for a summer job in Spain."
+        ],
+        [
+          "3",
+          "nierealne w przeszłości: stało się inaczej",
+          "Past Perfect (had + V3)",
+          "would / could / might + have + V3",
+          "If I had known, I would have come."
+        ]
       ]
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "sygnał",
+          "text_pl": "Przeczytaj całe zdanie. Forma, która już stoi w zdaniu (will, would, would have), i okoliczniki czasu (tomorrow, now, yesterday, last year) zdradzają tryb."
+        },
+        {
+          "step_pl": "realne czy nie?",
+          "text_pl": "Może się naprawdę zdarzyć → tryb 0 albo 1. Przeczy faktom albo jest bardzo mało prawdopodobne → tryb 2 albo 3."
+        },
+        {
+          "step_pl": "kiedy?",
+          "text_pl": "Teraz albo przyszłość → 1 lub 2. Przeszłość, której nie zmienisz → 3. Przeszłość, której nie znasz (może tak było) → zwykły czas przeszły, bez cofania: If you missed the lesson, borrow my notes."
+        },
+        {
+          "step_pl": "forma",
+          "text_pl": "Dobierz parę: Present Simple + will, Past Simple + would, Past Perfect + would have + V3. Do części z if nie wstawiasz would."
+        },
+        {
+          "step_pl": "pułapka",
+          "text_pl": "Polskie „gdybym wiedział” może znaczyć teraz (if I knew) albo przeszłość (if I had known). Decyduje kontekst, a nie polskie słowo."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Tryb 0: tak jest zawsze**\n\nMówisz o faktach, prawach przyrody, o tym, jak coś działa (np. urządzenie), i o nawykach. *If* znaczy tu prawie to samo co *when* albo *whenever* (zawsze, gdy). Nic nie jest jednorazowe ani wyobrażone, więc w obu częściach stoi Present Simple.\n\nGdy w skutku jest polecenie (*If the alarm goes off, leave the building*), stoi tam tryb rozkazujący, nie Present Simple."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "If", "role": "signal" },
+        { "text": "subject", "role": "subject" },
+        { "text": "V1 / V1 + s", "role": "verb" },
+        { "text": ",", "role": "neutral" },
+        { "text": "subject", "role": "subject" },
+        { "text": "V1 / V1 + s", "role": "verb" }
+      ],
+      "example": { "en": "If you heat ice, it melts.", "pl": "Jeśli podgrzejesz lód, topnieje." }
     },
     {
       "type": "examples",
       "items": [
-        { "en": "If you heat ice, it melts.", "pl": "Jeśli podgrzejesz lód, topnieje." },
         {
-          "en": "If it rains tomorrow, we'll stay at home.",
-          "pl": "Jeśli jutro będzie padać, zostaniemy w domu."
+          "en": "If I drink coffee after six, I can't fall asleep.",
+          "pl": "Jak wypiję kawę po szóstej, nie mogę zasnąć."
         },
         {
-          "en": "If I had more time, I would learn Spanish.",
-          "pl": "Gdybym miał więcej czasu, uczyłbym się hiszpańskiego."
-        },
-        {
-          "en": "If I had known about the party, I would have come.",
-          "pl": "Gdybym wiedział o imprezie, przyszedłbym."
+          "en": "If you press this button, the screen turns off.",
+          "pl": "Jak wciśniesz ten przycisk, ekran się wyłącza."
         }
       ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Tryb 1: realna przyszłość**\n\nWarunek może się naprawdę spełnić. Choć myślisz o przyszłości, w części z *if* stoi **Present Simple**. Tak angielski działa w zdaniach z *if, unless, when, as soon as, before, until*: przyszłość pokazuje część ze skutkiem, a zdanie z *if / when* zostaje w czasie teraźniejszym.\n\nGdy czynność ma się skończyć **przed** skutkiem, stoi tam Present Perfect: *I'll call you as soon as I've finished.* / *If I've finished my essay by eight, I'll join you.*\n\nW skutku najczęściej *will*, ale pasują też *can, may, might, should, be going to* albo tryb rozkazujący: *If you see Ola, tell her to call me.*"
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "If", "role": "signal" },
+        { "text": "subject", "role": "subject" },
+        { "text": "V1 / V1 + s", "role": "verb" },
+        { "text": ",", "role": "neutral" },
+        { "text": "subject", "role": "subject" },
+        { "text": "will", "role": "aux" },
+        { "text": "V1", "role": "verb" }
+      ],
+      "example": {
+        "en": "If you leave now, you'll catch the 8.15 train.",
+        "pl": "Jeśli wyjdziesz teraz, zdążysz na pociąg o 8.15."
+      }
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "If it's sunny on Saturday, we're going to have a barbecue.",
+          "pl": "Jeśli w sobotę będzie słonecznie, robimy grilla."
+        },
+        {
+          "en": "If I don't pass the test, I can retake it in June.",
+          "pl": "Jeśli nie zdam testu, mogę go poprawić w czerwcu."
+        },
+        {
+          "en": "You'll feel much better if you get some sleep.",
+          "pl": "Poczujesz się dużo lepiej, jeśli się wyśpisz."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "W części z *if* nie stawiasz *will*, kiedy warunek dotyczy przyszłości. Po polsku mówisz „jeśli **będzie** padać”, a po angielsku **If it rains**, nie *If it will rain*. To samo po *unless, as long as, provided, in case, when, as soon as*.\n\nWyjątek, który zobaczysz w tekstach: *will / won't* = chęć albo odmowa (*If he won't listen, we'll do it ourselves* = jeśli nie chce słuchać). W zwykłym warunku o przyszłości zawsze Present Simple."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Tryb 2: nierealne teraz albo mało prawdopodobne**\n\nOpisujesz coś, co przeczy faktom (*nie mam samochodu*), albo przyszłość, w którą słabo wierzysz (*wygrana na loterii*). W warunku stoi **Past Simple**, choć mówisz o dziś — to właśnie dystans od rzeczywistości. W skutku *would* + V1 (polskie *-by*), *could* + V1 (mógłbym, umiałbym) albo *might* + V1 (może by).\n\nPrzy *be* w warunku standardowo stoi **were** dla każdej osoby: *If I were…, If she were…* W luźnej mowie słychać też *was* (*If she was…*), ale w wypracowaniu bezpieczniej pisać *were*. Radę dajesz zwrotem **If I were you, I'd…** — tak go zapamiętaj."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "If", "role": "signal" },
+        { "text": "subject", "role": "subject" },
+        { "text": "V2", "role": "verb" },
+        { "text": ",", "role": "neutral" },
+        { "text": "subject", "role": "subject" },
+        { "text": "would", "role": "aux" },
+        { "text": "V1", "role": "verb" }
+      ],
+      "example": {
+        "en": "If I had a car, I would drive you home.",
+        "pl": "Gdybym miał samochód, odwiózłbym cię do domu."
+      }
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "If I lived by the sea, I'd go surfing every weekend.",
+          "pl": "Gdybym mieszkał nad morzem, w każdy weekend surfowałbym."
+        },
+        {
+          "en": "If I were you, I'd talk to your form teacher about it.",
+          "pl": "Na twoim miejscu porozmawiałbym o tym z wychowawcą."
+        },
+        {
+          "en": "If she didn't have to work on Saturdays, she could join our team.",
+          "pl": "Gdyby nie musiała pracować w soboty, mogłaby dołączyć do naszej drużyny."
+        }
+      ]
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "If I win… (1)",
+          "md_pl": "Mówiący uważa, że to **realne**. Patrzy na przyszłość, która naprawdę może się zdarzyć.",
+          "examples": [
+            {
+              "en": "If I win the competition, I'll buy a new laptop.",
+              "pl": "Jeśli wygram konkurs, kupię nowego laptopa."
+            }
+          ]
+        },
+        {
+          "title": "If I won… (2)",
+          "md_pl": "Ta sama przyszłość, ale mówiący w nią **słabo wierzy** albo tylko marzy.",
+          "examples": [
+            {
+              "en": "If I won the lottery, I'd travel round the world.",
+              "pl": "Gdybym wygrał na loterii, objechałbym świat."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Tryb nie zależy od samego zdarzenia, tylko od tego, **jak realne wydaje się mówiącemu**. W zadaniu szukaj wskazówki w drugiej części zdania: *will* → tryb 1, *would* → tryb 2."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Tryb 3: przeszłość, która mogła potoczyć się inaczej**\n\nCoś się już stało albo nie stało, a ty wyobrażasz sobie odwrotną wersję. Przeszłość jest już „przeszła”, więc żeby pokazać dystans, cofasz czasownik jeszcze o krok: **Past Perfect** (*had* + V3). W skutku *would have* + V3 (polskie *-by* o przeszłości), *could have* + V3 albo *might have* + V3."
     },
     {
       "type": "formula",
@@ -45,39 +218,464 @@
         { "text": "V3", "role": "verb" },
         { "text": ",", "role": "neutral" },
         { "text": "subject", "role": "subject" },
-        { "text": "would have", "role": "aux" },
+        { "text": "would", "role": "aux" },
+        { "text": "have", "role": "aux" },
         { "text": "V3", "role": "verb" }
       ],
       "example": {
-        "en": "If you had told me, I would have helped you.",
-        "pl": "Gdybyś mi powiedział, pomógłbym ci."
+        "en": "If we had left earlier, we wouldn't have missed the train.",
+        "pl": "Gdybyśmy wyszli wcześniej, nie spóźnilibyśmy się na pociąg."
       }
-    },
-    {
-      "type": "callout",
-      "variant": "warning",
-      "md_pl": "W części z **if** nie stawiasz **will** ani **would**. Nie *If it will rain…*, tylko **If it rains…**."
-    },
-    {
-      "type": "callout",
-      "variant": "tip",
-      "md_pl": "W drugim trybie przy *I / he / she / it* możesz użyć **were**: *If I were you, I would…* — to typowy zwrot, kiedy dajesz radę."
     },
     {
       "type": "steps",
       "items": [
         {
-          "step_pl": "kiedy?",
-          "text_pl": "Chodzi o przeszłość (której nie da się zmienić), czy o teraz / przyszłość?"
+          "step_pl": "fakt",
+          "text_pl": "Zapisz, co naprawdę się stało: We didn't book a table, so we had to wait an hour."
         },
         {
-          "step_pl": "jak realne?",
-          "text_pl": "Realne i prawdopodobne → 1. Wyobrażone albo mało prawdopodobne → 2. Przeszłość, która się nie wydarzyła → 3."
+          "step_pl": "odwróć",
+          "text_pl": "Odwróć obie części: nie zarezerwowaliśmy → zarezerwowalibyśmy, musieliśmy czekać → nie musielibyśmy. Twierdzenie zmienia się w przeczenie i odwrotnie."
         },
         {
           "step_pl": "forma",
-          "text_pl": "Dobierz parę: Present + will, Past + would, Past Perfect + would have + V3."
+          "text_pl": "Warunek: had + V3 → If we had booked a table. Skutek: would (not) have + V3 → we wouldn't have had to wait an hour."
+        },
+        {
+          "step_pl": "sprawdź",
+          "text_pl": "Czy oba zdarzenia są w przeszłości? Jeśli tak, to tryb 3. Jeśli skutek dotyczy teraz (więc dziś jestem zmęczony), to tryb mieszany (poza zakresem 2027, tylko do rozumienia tekstów)."
         }
+      ]
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "If she hadn't broken her leg, she could have run the marathon.",
+          "pl": "Gdyby nie złamała nogi, mogłaby przebiec maraton."
+        },
+        {
+          "en": "I might have passed the test if I had revised a bit more.",
+          "pl": "Może zdałbym ten test, gdybym trochę więcej się pouczył."
+        },
+        {
+          "en": "If they'd invited me, I'd have gone.",
+          "pl": "Gdyby mnie zaprosili, poszedłbym."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "**'d to had czy would?** Patrz na to, co stoi dalej.\n\n- *'d* + V3 = **had**: *If they'd invited me…* = *If they had invited me…*\n- *'d* + V1 albo *'d have* + V3 = **would**: *I'd go*, *I'd have gone*.\n\nW jednym zdaniu mogą być oba: *If they'd invited me, I'd have gone.* Najczęściej myli się para: *If I'd had more time, I'd have finished.* — pierwsze *'d* = had (had had), drugie = would. Dwa stałe zwroty: *'d better* = **had** better, *'d rather* = **would** rather.\n\nPełna forma (had, would) jest zawsze poprawna gramatycznie, ale przy limicie wyrazów pamiętaj: skrót to jeden wyraz (*wouldn't*, *I'd*), pełna forma to dwa (*would not*, *I would*). Policz, zanim wpiszesz."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**would nie idzie do części z if.** Po polsku *-by* stoi w obu częściach (*gdybym wiedział, powiedziałbym*), więc kusi *If I would know*. Po angielsku *would* jest tylko w skutku: **If I knew, I would tell you.** Tak samo o przeszłości: **If I had known**, nie *If I would have known*.\n\nDwa wyjątki, które są poprawne i przydają się w liście formalnym: *If you would like more information, …* (would like = chcieć) oraz uprzejma prośba *I would be grateful if you could / would send me…*. Tu *would* nie jest polskim *-by*, tylko grzecznością."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "**Tryby mieszane — poza wymaganiami matury 2027.** CKE usunęło je z listy struktur, więc ich znajomość nie jest potrzebna do rozwiązania zadań 7–9. Możesz je spotkać w tekście do czytania. Łączą warunek z przeszłości ze skutkiem teraz: *If I had taken that job in London, I would live there now.* (Gdybym wtedy przyjął tę pracę w Londynie, mieszkałbym tam teraz.)"
+    },
+    {
+      "type": "text",
+      "md_pl": "**Unless, in case, even if i reszta**\n\nTe spójniki (oprócz *otherwise*, o nim niżej) zachowują się jak *if*: przy przyszłości stoi po nich Present Simple, nie *will*. Różnią się **logiką** — i właśnie logikę sprawdza zadanie 7, bo opcje często pasują gramatycznie, a sens ma tylko jedna."
+    },
+    {
+      "type": "table",
+      "headers": ["Słowo", "Znaczenie", "Przykład"],
+      "rows": [
+        ["unless", "jeśli nie, chyba że (= if … not)", "We'll miss the start unless we hurry."],
+        [
+          "provided / providing (that)",
+          "pod warunkiem że, tylko wtedy",
+          "You can borrow the car provided you fill it up afterwards."
+        ],
+        [
+          "as long as",
+          "pod warunkiem że, byle",
+          "I don't mind where we eat as long as it isn't too expensive."
+        ],
+        [
+          "on condition that",
+          "pod warunkiem że (formalne)",
+          "Students may bring phones to school on condition that they keep them switched off during lessons."
+        ],
+        [
+          "even if",
+          "nawet jeśli (skutek i tak nastąpi)",
+          "Even if you apologise, she won't forgive you."
+        ],
+        [
+          "in case",
+          "na wypadek gdyby (robisz coś zawczasu)",
+          "Take some cash in case the card machine doesn't work."
+        ],
+        [
+          "supposing (that)",
+          "a gdyby tak, załóżmy że (zwykle na początku pytania)",
+          "Supposing you missed the last bus, how would you get home?"
+        ],
+        [
+          "otherwise",
+          "w przeciwnym razie (zaczyna drugą część zdania)",
+          "Write it down, otherwise you'll forget it."
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**unless = if … not**\n\nPrzeczenie siedzi już w *unless*, więc czasownik po nim jest zwykle twierdzący: *unless you hurry* (= *if you don't hurry*). *Unless you don't hurry* to błąd: wychodzi podwójne przeczenie i odwrotny sens. Po polsku najbliżej: „chyba że” albo „jeśli nie”.\n\n*Unless* znaczy „z wyjątkiem sytuacji, gdy”, więc nie zastąpi każdego *if … not*. Kiedy skutek jest reakcją właśnie na to, że coś się nie stanie, zostaje *if … not*: *I'll be surprised if she doesn't come* (nie: *unless she comes*)."
+    },
+    {
+      "type": "text",
+      "md_pl": "**provided / providing (that), as long as, on condition that** = tylko jeśli. To mocniejszy warunek niż zwykłe *if*: bez niego nie ma zgody. *That* po *provided / providing* możesz pominąć. *On condition that* brzmi najbardziej formalnie, pasuje do regulaminów i listów."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "when",
+          "md_pl": "To się **na pewno** stanie, pytanie tylko kiedy.",
+          "examples": [
+            {
+              "en": "I'll call you when I get home.",
+              "pl": "Zadzwonię do ciebie, jak wrócę do domu."
+            }
+          ]
+        },
+        {
+          "title": "if",
+          "md_pl": "To się **może** stanie, a może nie.",
+          "examples": [
+            {
+              "en": "I'll call you if I get the job.",
+              "pl": "Zadzwonię do ciebie, jak dostanę tę pracę."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Polskie „jak” znaczy i *if*, i *when*. Zapytaj, czy to na pewno się stanie. Tylko w prawdach ogólnych (tryb 0) *if* i *when* znaczą prawie to samo."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "if",
+          "md_pl": "Robisz coś **dopiero wtedy**, gdy warunek się spełni.",
+          "examples": [
+            {
+              "en": "I'll call you if the train is late.",
+              "pl": "Zadzwonię, jeśli pociąg się spóźni (spóźni się → dzwonię)."
+            }
+          ]
+        },
+        {
+          "title": "in case",
+          "md_pl": "Robisz coś **zawczasu, na wszelki wypadek** — niezależnie od tego, czy to się stanie.",
+          "examples": [
+            {
+              "en": "I'll take a book in case the train is late.",
+              "pl": "Wezmę książkę, na wypadek gdyby pociąg się spóźnił (biorę ją tak czy inaczej)."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Test: czy czynność dzieje się **przed** warunkiem, żeby się zabezpieczyć? To *in case*. Po *in case* też nie ma *will*. O przeszłości: *I took a book in case the train was late.* A *in case of* + rzeczownik to formalne „w razie”: *In case of fire, use the stairs.* W amerykańskim angielskim *in case* bywa też używane jak zwykłe *if*. Na maturze trzymaj się tego rozróżnienia."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "even if",
+          "md_pl": "Warunek: **może** się zdarzy, a może nie. Skutek i tak nastąpi.",
+          "examples": [
+            {
+              "en": "Even if it rains, the match will go ahead.",
+              "pl": "Nawet jeśli będzie padać, mecz się odbędzie."
+            }
+          ]
+        },
+        {
+          "title": "even though",
+          "md_pl": "Fakt: to **jest** prawda, a mimo to… Znaczy to samo co *although*.",
+          "examples": [
+            {
+              "en": "Even though it's raining, the match is going ahead.",
+              "pl": "Choć pada, mecz się odbywa."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "*Even if* = nawet jeśli (nie wiadomo, czy tak będzie). *Even though* = mimo że (wiadomo, że tak jest)."
+    },
+    {
+      "type": "text",
+      "md_pl": "**otherwise = w przeciwnym razie.** To nie spójnik jak *if*, tylko słowo na początku drugiej części zdania (po przecinku, średniku albo kropce). Samo niesie znaczenie „jeśli nie”, więc po nim od razu skutek: *Write it down, otherwise you'll forget it.* = *If you don't write it down, you'll forget it.* Działa też o przeszłości: *Luckily the bus was late, otherwise we would have missed it.*"
+    },
+    {
+      "type": "text",
+      "md_pl": "**wish i if only: chcę, żeby było inaczej**\n\nPo *wish* stoi ta sama cofnięta forma co po *if* w trybach 2 i 3. *If only* znaczy to samo, tylko mocniej, jak westchnienie: „gdybyż tylko…”. Życzenie mówi zawsze **odwrotność faktu**: nie mam → *I wish I had*, poszedłem → *I wish I hadn't gone*.\n\n**wish bez cofania.** *wish* + *to* + V1 to formalne „chcieć”: *I wish to make a complaint.* *wish* + ktoś + rzeczownik to „życzyć”: *I wish you luck.* O czymś realnym w przyszłości mówisz *hope*: *I hope you pass.*"
+    },
+    {
+      "type": "table",
+      "headers": ["Chcesz zmienić…", "Forma", "Przykład"],
+      "rows": [
+        [
+          "teraźniejszość (stan, fakt)",
+          "wish + Past Simple (be → were)",
+          "I wish I had more free time. (nie mam)"
+        ],
+        ["umiejętność teraz", "wish + could + V1", "I wish I could drive. (nie umiem)"],
+        ["przeszłość (żal)", "wish + Past Perfect", "I wish I hadn't eaten so much. (zjadłem)"],
+        [
+          "czyjeś zachowanie, które cię denerwuje",
+          "wish + ktoś + would + V1",
+          "I wish you would stop interrupting me."
+        ]
+      ]
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "wish", "role": "signal" },
+        { "text": "subject", "role": "subject" },
+        { "text": "had", "role": "aux" },
+        { "text": "V3", "role": "verb" }
+      ],
+      "example": {
+        "en": "I wish I had gone to the concert with you.",
+        "pl": "Żałuję, że nie poszedłem z wami na koncert."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**wish + would** to skarga albo czekanie na zmianę. Dotyczy **kogoś innego** albo czegoś, co ma się zmienić: *I wish you would stop interrupting me*, *I wish it would stop raining*. O sobie zwykle nie mówisz *I wish I would…*, tylko *I wish I could…* albo *I wish I didn't…*. Do zwykłego stanu też nie bierzesz *would*: *I wish I had a dog*, nie *I wish I would have a dog*."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "fakt",
+          "text_pl": "Ustal, co jest prawdą. „Szkoda, że nie umiem pływać” → nie umiem, teraz."
+        },
+        {
+          "step_pl": "odwróć",
+          "text_pl": "Życzenie mówi odwrotność faktu, więc polskie „nie” znika: nie umiem → I could swim."
+        },
+        {
+          "step_pl": "czas",
+          "text_pl": "Fakt o teraz → Past Simple albo could. Fakt z przeszłości → Past Perfect."
+        },
+        {
+          "step_pl": "gotowe",
+          "text_pl": "I wish I could swim. „Żałuję, że nie poszedłem” → I wish I had gone. „Żałuję, że poszedłem” → I wish I hadn't gone."
+        }
+      ]
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "If only I hadn't left my phone on the bus!",
+          "pl": "Gdybym tylko nie zostawił telefonu w autobusie!"
+        },
+        {
+          "en": "I wish our school had a swimming pool.",
+          "pl": "Szkoda, że w naszej szkole nie ma basenu."
+        },
+        {
+          "en": "I wish you'd told me earlier.",
+          "pl": "Szkoda, że nie powiedziałeś mi wcześniej. ('d = had)"
+        },
+        {
+          "en": "I wish my brother would ask before he borrows my things.",
+          "pl": "Chciałbym, żeby brat pytał, zanim pożyczy moje rzeczy."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**would rather: wolałbym**\n\nDwa układy, zależnie od tego, kto ma coś zrobić:\n\n- **ten sam podmiot** → *would rather* + V1 bez *to*: *I'd rather stay at home tonight.* Przeczenie: *I'd rather not go.* Z porównaniem: *I'd rather walk than take the bus.*\n- **ktoś inny** → *would rather* + osoba + **Past Simple**: *I'd rather you didn't tell anyone.* Forma przeszła znów znaczy „to tylko moje życzenie”, a mówisz o teraz albo o przyszłości.\n\nGdy coś już się stało i wolałbyś, żeby było inaczej: *would rather* + osoba + Past Perfect: *I'd rather you hadn't invited him.*"
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "would rather",
+          "md_pl": "Co wolisz: *I'd rather* + V1 albo *I'd rather you* + Past Simple.",
+          "examples": [
+            {
+              "en": "I'd rather you came a bit earlier.",
+              "pl": "Wolałbym, żebyś przyszedł trochę wcześniej."
+            }
+          ]
+        },
+        {
+          "title": "would prefer",
+          "md_pl": "To samo znaczenie, inna budowa: *I'd prefer to* + V1 albo *I'd prefer you to* + V1. Z porównaniem: *I'd prefer to walk rather than take the bus.* Brytyjski wariant: *I'd prefer it if you didn't…*. Ogólnie, nie tylko teraz: *I prefer walking to cycling.*",
+          "examples": [
+            {
+              "en": "I'd prefer you to come a bit earlier.",
+              "pl": "Wolałbym, żebyś przyszedł trochę wcześniej."
+            }
+          ]
+        },
+        {
+          "title": "had better",
+          "md_pl": "Rada albo ostrzeżenie w konkretnej sytuacji (lepiej, żebyś…), mocniejsze niż *should*: *You'd better* + V1, bez *to*. Przeczenie: *You'd better not* + V1. Mimo *had* mówisz o teraz albo przyszłości: *You'd better not be late tomorrow.* Samo *You better…* to luźna mowa, w piśmie zostaw *'d*.",
+          "examples": [
+            {
+              "en": "You'd better leave now or you'll be late.",
+              "pl": "Lepiej już wyjdź, bo się spóźnisz."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "W transformacjach to klasyczna para: *I'd prefer you not to…* = *I'd rather you didn't…*. Uwaga na *'d*: w *I'd rather* to **would**, w *You'd better* to **had**."
+    },
+    {
+      "type": "text",
+      "md_pl": "**It's (high / about) time: już najwyższy czas**\n\n*It's time* + osoba + **Past Simple**: *It's time we went home.* Czynności jeszcze nie ma, a powinna już być. To znów dystans od rzeczywistości, więc forma przeszła, choć mówisz o teraz. *High time* i *about time* dodają nacisk i często pretensję: *It's high time you found a job.*\n\nBez pretensji możesz powiedzieć z bezokolicznikiem: *It's time to go.* albo z osobą: *It's time for us to go.* Forma *It's time we went* dodaje odcień „już powinniśmy, trochę za późno”. W transformacjach to para: *It's time for you to…* = *It's time you* + V2."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "It's (high) time", "role": "signal" },
+        { "text": "subject", "role": "subject" },
+        { "text": "V2", "role": "verb" }
+      ],
+      "example": {
+        "en": "It's high time we booked our summer holiday.",
+        "pl": "Najwyższy czas, żebyśmy zarezerwowali wakacje."
+      }
+    },
+    {
+      "type": "text",
+      "md_pl": "**as if / as though: jakby**\n\nObie formy znaczą to samo: porównujesz coś do sytuacji, która może być prawdą albo nie.\n\n- Gdy to możliwe albo prawdopodobne, stoi zwykły czas.\n- Gdy chcesz podkreślić, że to nieprawda, cofasz czasownik jak po *if*: o teraz → Past Simple.\n- Gdy porównanie dotyczy czegoś wcześniejszego → Past Perfect.\n\nW luźnej mowie zamiast *as if* słychać *like* (*It looks like it's going to rain*). W wypracowaniu pisz *as if*."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "It looks as if it's going to rain.",
+          "pl": "Wygląda na to, że będzie padać. (całkiem możliwe)"
+        },
+        {
+          "en": "He talks as if he knew everything.",
+          "pl": "Mówi tak, jakby wszystko wiedział. (a nie wie)"
+        },
+        {
+          "en": "She looked as if she had seen a ghost.",
+          "pl": "Wyglądała, jakby zobaczyła ducha."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "**were tylko przy nierealnym.** W zwykłym warunku o przeszłości, kiedy po prostu nie wiesz, jak było, zostaje *was*: *If he was at home yesterday, he must have heard the news.*"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "**Dla chętnych, do wypracowania: inwersja zamiast if.** Na maturze 2027 nie jest wymagana (CKE usunęło ją z listy struktur w 2024), więc jej znajomość nie jest potrzebna do rozwiązania zadań 7–9. W liście formalnym może jednak dobrze zabrzmieć, jeśli użyjesz jej bezbłędnie. Usuwasz *if* i stawiasz posiłkowy przed podmiotem:\n\n- *Should you need any further information, please contact me.* (= If you should need…)\n- *Had I known about the problem, I would have reacted earlier.* (= If I had known…)"
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "**Jak to sprawdzają.** Tryby warunkowe i nierealne były w części językowej w 3 z 4 ostatnich arkuszy (2023, 2025, 2026).\n\n- **Zadanie 9:** drugi tryb dwa razy i *would rather* + Past Simple raz. W 2026 była transformacja *I'd prefer you to…* → *I'd rather you* + Past Simple (RATHER).\n- **Zadanie 7:** w 2026 jedna luka sprawdzała trzeci tryb. Co roku jest też luka na łącznik, a jedną z odpowiedzi był już *unless*. Dystraktory to np. ten sam czasownik w innej formie (*knew / had known / would have known*) albo łącznik o odwrotnej logice (*if* zamiast *unless*).\n- **Za co jest 0 pkt:** *will* albo *would* w części z *if*, *would have* przy *tomorrow*, przekroczony limit wyrazów. Skrót (*wouldn't*, *I'd*) liczy się jako jeden wyraz.\n\nPary do ćwiczenia w transformacjach: *because* o przeszłości → tryb 3 (WOULDN'T), *I regret…* → *I wish I had…* (WISH), *I don't know, so I can't…* → *If I knew…* (KNEW), *I'd prefer you not to…* → *I'd rather you didn't…* (RATHER), *You really should… now* → *It's (high) time you* + V2 (TIME)."
+    },
+    {
+      "type": "table",
+      "headers": ["Źle", "Dobrze", "Dlaczego"],
+      "rows": [
+        [
+          "If it will rain, we'll stay in.",
+          "If it rains, we'll stay in.",
+          "Przy przyszłości po if stoi Present Simple, will tylko w skutku."
+        ],
+        [
+          "If I would know, I would tell you.",
+          "If I knew, I would tell you.",
+          "Polskie -by jest w obu częściach, angielskie would tylko w skutku."
+        ],
+        [
+          "If I would have known, I would have come.",
+          "If I had known, I would have come.",
+          "Warunek o przeszłości to Past Perfect, bez would."
+        ],
+        [
+          "If I knew about it yesterday, I would have helped.",
+          "If I had known about it yesterday, I would have helped.",
+          "yesterday = przeszłość, więc warunek cofasz aż do Past Perfect."
+        ],
+        [
+          "Unless you don't hurry, you'll be late.",
+          "Unless you hurry, you'll be late.",
+          "unless ma już przeczenie w sobie."
+        ],
+        [
+          "I'll write down your number if I lose my phone.",
+          "I'll write down your number in case I lose my phone.",
+          "Numer zapisujesz zawczasu, na wszelki wypadek, więc in case."
+        ],
+        [
+          "Even though it rains tomorrow, we'll go.",
+          "Even if it rains tomorrow, we'll go.",
+          "Deszcz jutro to możliwość, nie fakt."
+        ],
+        [
+          "I wish I have more time.",
+          "I wish I had more time.",
+          "Życzenie o teraz to forma przeszła."
+        ],
+        [
+          "I wish I didn't go to that party.",
+          "I wish I hadn't gone to that party.",
+          "Żal o przeszłość to Past Perfect."
+        ],
+        [
+          "I wish I would be taller.",
+          "I wish I were taller.",
+          "would po wish to czekanie na czyjąś zmianę. Stan o sobie to Past Simple (were / was)."
+        ],
+        [
+          "I wish you pass the exam.",
+          "I hope you pass the exam. / I wish you luck in the exam.",
+          "Realną przyszłość opisujesz z hope. wish + zdanie to tylko coś nierealnego."
+        ],
+        [
+          "I'd rather to stay at home.",
+          "I'd rather stay at home.",
+          "Po would rather bezokolicznik bez to."
+        ],
+        [
+          "I'd prefer to walk than take the bus.",
+          "I'd prefer to walk rather than take the bus.",
+          "Przy prefer + to porównanie robisz przez rather than."
+        ],
+        ["You'd better to go.", "You'd better go.", "Po had better bezokolicznik bez to."],
+        [
+          "You hadn't better tell her.",
+          "You'd better not tell her.",
+          "Przeczenie stawiasz po better: 'd better not."
+        ],
+        [
+          "I'd rather you to stay.",
+          "I'd rather you stayed.",
+          "Inna osoba → Past Simple. Konstrukcja z to jest przy prefer: I'd prefer you to stay."
+        ],
+        [
+          "It's time we go home.",
+          "It's time we went home.",
+          "Po It's time + osoba stoi Past Simple."
+        ]
       ]
     }
   ]

@@ -1,0 +1,205 @@
+{
+  "id": "phrasal-take",
+  "category": "phrasal-verbs",
+  "title_pl": "Phrasal verbs z take",
+  "items": [
+    {
+      "en": "take off (of a plane)",
+      "pl": "wystartować (o samolocie)",
+      "meaning_pl": "samolot odrywa się od ziemi; przeciwieństwo to land. Nie ma dopełnienia, więc nie ma czego rozdzielać",
+      "example": {
+        "en": "Our plane took off two hours late because of the fog.",
+        "pl": "Nasz samolot wystartował z dwugodzinnym opóźnieniem z powodu mgły."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "podróże"]
+    },
+    {
+      "en": "take sth off / take off sth (clothes)",
+      "pl": "zdjąć (ubranie, buty)",
+      "meaning_pl": "rzeczownik może stać po off albo w środku (take off your shoes / take your shoes off), ale zaimek tylko w środku: take them off, nigdy take off them. Przeciwieństwo: put sth on",
+      "example": {
+        "en": "Please take your shoes off before you come in.",
+        "pl": "Zdejmij, proszę, buty, zanim wejdziesz."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "ubrania", "dom"]
+    },
+    {
+      "en": "take off (become successful)",
+      "pl": "chwycić, nabrać rozpędu (o karierze, pomyśle)",
+      "meaning_pl": "coś nagle zaczyna odnosić sukces albo zdobywa popularność, jakby startowało jak samolot. Też bez dopełnienia: her career took off",
+      "example": {
+        "en": "Her career as a singer took off after she appeared on a TV talent show.",
+        "pl": "Jej kariera wokalna nabrała rozpędu po występie w telewizyjnym talent show."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "sukces", "kultura"]
+    },
+    {
+      "en": "take time off / take a day off (work)",
+      "pl": "wziąć wolne (z pracy)",
+      "meaning_pl": "okres wolnego (a day, a week, some time) stawiamy między take a off: take a week off work. Po off może dojść work albo school",
+      "example": {
+        "en": "I'm taking a few days off work to help my parents move house.",
+        "pl": "Biorę kilka dni wolnego, żeby pomóc rodzicom w przeprowadzce."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "praca"]
+    },
+    {
+      "en": "take sth up / take up sth (a hobby)",
+      "pl": "zacząć coś uprawiać (hobby, sport)",
+      "meaning_pl": "zaczynasz nową regularną aktywność: take up yoga, take up the guitar. Zaimek tylko w środku: take it up. Przeciwieństwo: give sth up (rzucić)",
+      "example": {
+        "en": "My dad took up cycling when he retired, and now he rides every day.",
+        "pl": "Tata zaczął jeździć na rowerze, kiedy przeszedł na emeryturę, i teraz jeździ codziennie."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "hobby", "sport"]
+    },
+    {
+      "en": "take up sth (time, space)",
+      "pl": "zajmować (czas, miejsce)",
+      "meaning_pl": "coś zużywa czas albo przestrzeń: take up time / space / room. W tym znaczeniu dopełnienie stawiamy po up",
+      "example": {
+        "en": "Homework takes up most of my evenings, so I hardly ever go out during the week.",
+        "pl": "Prace domowe zajmują mi większość wieczorów, więc w tygodniu prawie nigdzie nie wychodzę."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "czas wolny", "dom"]
+    },
+    {
+      "en": "take after sb",
+      "pl": "być podobnym do kogoś (z rodziny)",
+      "meaning_pl": "podobieństwo do starszego krewnego, np. rodzica, z wyglądu albo charakteru. Nierozdzielny: take after him. Nie używamy go w czasach ciągłych",
+      "example": {
+        "en": "My sister takes after our mum – they're both stubborn and very funny.",
+        "pl": "Moja siostra jest podobna do mamy – obie są uparte i bardzo zabawne."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "rodzina", "charakter"]
+    },
+    {
+      "en": "take sth back / take back sth (to a shop)",
+      "pl": "oddać, zwrócić (np. do sklepu)",
+      "meaning_pl": "zanosisz rzecz tam, skąd ją masz: take it back to the shop. Zaimek tylko w środku. Sklep też może coś take back, czyli przyjąć zwrot",
+      "example": {
+        "en": "The jacket was too small, so we took it back to the shop and got a refund.",
+        "pl": "Kurtka była za mała, więc oddaliśmy ją do sklepu i dostaliśmy zwrot pieniędzy."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "zakupy"]
+    },
+    {
+      "en": "take sth back / take back sth (words)",
+      "pl": "odwołać (swoje słowa)",
+      "meaning_pl": "przyznajesz, że to, co powiedziałeś, było niesłuszne: I take it back / I take back what I said. Zaimek tylko w środku",
+      "example": {
+        "en": "Okay, I take it back – your plan isn't stupid at all.",
+        "pl": "Dobra, odwołuję to – twój plan wcale nie jest głupi."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "rozmowa", "przeprosiny"]
+    },
+    {
+      "en": "take sth in / take in sth (understand)",
+      "pl": "przyswoić, ogarnąć (informacje)",
+      "meaning_pl": "zrozumieć i zapamiętać, zwykle gdy informacji jest dużo albo są zaskakujące: it was a lot to take in. Zaimek tylko w środku: take it all in",
+      "example": {
+        "en": "The teacher explained it so fast that half the class couldn't take it all in.",
+        "pl": "Nauczyciel tłumaczył tak szybko, że połowa klasy nie była w stanie wszystkiego przyswoić."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "nauka"]
+    },
+    {
+      "en": "be taken in (by sb/sth)",
+      "pl": "dać się nabrać (komuś, na coś)",
+      "meaning_pl": "take sb in = nabrać kogoś, ale prawie zawsze w stronie biernej: be taken in by an advert. Pułapka: take sb in znaczy też przygarnąć kogoś pod swój dach",
+      "example": {
+        "en": "Lots of people were taken in by the fake advert and lost their money.",
+        "pl": "Wiele osób dało się nabrać na fałszywą reklamę i straciło pieniądze."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "strona bierna", "zakupy", "media"]
+    },
+    {
+      "en": "take sb on / take on sb (employ)",
+      "pl": "zatrudnić, przyjąć do pracy",
+      "meaning_pl": "firma przyjmuje nowych pracowników: take on staff. Zaimek tylko w środku: take him on",
+      "example": {
+        "en": "The hotel takes on extra staff every summer, so it's a good place for a holiday job.",
+        "pl": "Hotel co lato zatrudnia dodatkowych pracowników, więc to dobre miejsce na wakacyjną pracę."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "praca"]
+    },
+    {
+      "en": "take sth on / take on sth (work, responsibility)",
+      "pl": "wziąć na siebie, podjąć się (zadania)",
+      "meaning_pl": "zgadzasz się na dodatkową pracę albo odpowiedzialność; take on too much = wziąć za dużo na głowę. Zaimek tylko w środku: take it on",
+      "example": {
+        "en": "Don't take on too much in your final year – you need time to revise for your exams.",
+        "pl": "Nie bierz na siebie za dużo w ostatniej klasie – potrzebujesz czasu na powtórki przed egzaminami."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "praca", "szkoła"]
+    },
+    {
+      "en": "take sth over / take over sth",
+      "pl": "przejąć (firmę, kontrolę, obowiązki)",
+      "meaning_pl": "zaczynasz kontrolować coś, co wcześniej należało do kogoś innego: take over a company. Zaimek tylko w środku: take it over. Take over from sb = zastąpić kogoś. Rzeczownik: a takeover (przejęcie)",
+      "example": {
+        "en": "A huge supermarket chain took over the local shop, and now prices are higher.",
+        "pl": "Lokalny sklep przejęła wielka sieć supermarketów i teraz ceny są wyższe."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "praca", "biznes"]
+    },
+    {
+      "en": "take out sth / take sth out (a loan, insurance)",
+      "pl": "zaciągnąć (kredyt), wykupić (ubezpieczenie)",
+      "meaning_pl": "oficjalnie załatwiasz usługę finansową: take out a loan / a mortgage / insurance. Rzeczownik zwykle po out, zaimek w środku: take it out",
+      "example": {
+        "en": "Before travelling abroad, it's a good idea to take out travel insurance.",
+        "pl": "Przed wyjazdem za granicę warto wykupić ubezpieczenie turystyczne."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "pieniądze", "podróże"]
+    },
+    {
+      "en": "take sb out (for dinner, to the cinema)",
+      "pl": "zabrać kogoś (np. na kolację, do kina)",
+      "meaning_pl": "zapraszasz kogoś do wyjścia i zwykle za niego płacisz: take sb out for dinner. Osoba stoi między take a out",
+      "example": {
+        "en": "For Mum's birthday we're taking her out for dinner at a nice Italian restaurant.",
+        "pl": "Na urodziny mamy zabieramy ją na kolację do fajnej włoskiej restauracji."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "życie prywatne", "jedzenie"]
+    },
+    {
+      "en": "take it out on sb",
+      "pl": "wyżywać się na kimś",
+      "meaning_pl": "jesteś zły albo zestresowany z innego powodu i odbijasz to sobie na kimś, kto nic nie zrobił. It zawsze stoi między take a out, po on osoba",
+      "example": {
+        "en": "I know you're stressed about the exam, but don't take it out on me.",
+        "pl": "Wiem, że stresujesz się egzaminem, ale nie wyżywaj się na mnie."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "emocje", "relacje"]
+    },
+    {
+      "en": "take to sb/sth",
+      "pl": "polubić kogoś/coś (szybko)",
+      "meaning_pl": "zaczynasz kogoś albo coś lubić, zwykle od razu: the class took to her. Nierozdzielny: to zawsze stoi tuż przed osobą albo rzeczą",
+      "example": {
+        "en": "At first the new teacher seemed strict, but the whole class soon took to her.",
+        "pl": "Na początku nowa nauczycielka wydawała się surowa, ale cała klasa szybko ją polubiła."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "relacje", "szkoła"]
+    }
+  ]
+}

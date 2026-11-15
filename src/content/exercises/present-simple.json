@@ -1,0 +1,524 @@
+[
+  {
+    "id": "prs-bad-loser-cries",
+    "type": "gap-fill",
+    "sentence": "My little brother is such a bad loser — he ___ (cry) every time he loses a board game.",
+    "correct": ["cries"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "every time he loses — za każdym razem, czyli coś, co się powtarza."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "To jego stała reakcja, nawyk, a nie jedna sytuacja teraz → Present Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "he → -s, a cry kończy się na spółgłoskę + y, więc y zmienia się w -ies."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "cry + -s → cries."
+      }
+    ],
+    "tags": ["present-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "prs-run-hardly-ever-misses",
+    "type": "gap-fill",
+    "sentence": "Ania ___ (hardly ever / miss) her morning run, even when it's freezing outside.",
+    "correct": ["hardly ever misses"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "hardly ever (prawie nigdy) i even when it's freezing — mowa o tym, jak zwykle jest."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Poranne bieganie to jej regularny nawyk, a nie jedna sytuacja → Present Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Przysłówek stoi przed czasownikiem głównym. miss kończy się na -ss, więc dostaje -es."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "hardly ever + misses → hardly ever misses."
+      }
+    ],
+    "tags": ["present-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "prs-not-understand-slowly",
+    "type": "gap-fill",
+    "sentence": "Could you speak a bit more slowly? I ___ (not / understand) what you're saying.",
+    "correct": ["don't understand"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Chodzi o tę chwilę (what you're saying), ale czasownik to understand."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "understand to stan w głowie, a nie czynność w trakcie. Stan nie ma fazy „w trakcie”, więc nawet teraz → Present Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Continuous w drugiej części zdania (you're saying) kusi, żeby napisać I'm not understanding. W standardowym angielskim understand jako stan nie bierze jednak -ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "I + don't + V1 → don't understand."
+      }
+    ],
+    "tags": ["present-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "prs-kasia-seems-nervous",
+    "type": "gap-fill",
+    "sentence": "Look at Kasia — she ___ (seem) really nervous about her speech.",
+    "correct": ["seems"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Look at… zwykle prowadzi do Continuous, ale tu ważniejszy jest czasownik: seem."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "seem (wydawać się) opisuje stan, a nie czynność, więc mimo „teraz” zostaje Present Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "she is seeming jest błędne — czasowniki stanu normalnie nie biorą -ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "she → seem + -s → seems."
+      }
+    ],
+    "tags": ["present-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "prs-museum-fridays",
+    "type": "gap-fill",
+    "sentence": "On Fridays the museum ___ (not / close) until eight, so we'll have plenty of time to look around after school.",
+    "correct": ["doesn't close"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "On Fridays — liczba mnoga, czyli każdy piątek."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Godziny otwarcia to stały rozkład, który obowiązuje co tydzień → Present Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "we'll have mówi o przyszłości, więc kusi won't close. Ale godziny otwarcia to stały rozkład, a nie przewidywanie ani decyzja, dlatego Present Simple."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "the museum = it → does + not + V1 → doesn't close (nie doesn't closes)."
+      }
+    ],
+    "tags": ["present-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "prs-how-often-brother-train",
+    "type": "gap-fill",
+    "sentence": "How often ___ (your brother / train) with the team during the season?",
+    "correct": ["does your brother train"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "How often…? — pytanie o częstotliwość."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz o regularne treningi w sezonie, a nie o jedną chwilę → Present Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "W twierdzeniu nie ma posiłkowego, więc pytanie pożycza does. -s przechodzi do does, a train zostaje w V1."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "does + your brother + V1 → does your brother train."
+      }
+    ],
+    "tags": ["present-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "prs-who-looks-after-dog",
+    "type": "gap-fill",
+    "sentence": "Who usually ___ (look after) your dog when you go on holiday?",
+    "correct": ["looks after"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "usually i when you go on holiday — za każdym razem, gdy wyjeżdżasz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz o stały układ, który się powtarza → Present Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Who jest tu podmiotem (kto się opiekuje?), więc nie ma do ani przestawienia. Who traktujesz jak he / she, dlatego -s."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "look + -s + after → looks after."
+      }
+    ],
+    "tags": ["present-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "prs-bins-emptied-tuesday",
+    "type": "gap-fill",
+    "sentence": "In our street the bins ___ (empty) every Tuesday, so we put them out on Monday evening.",
+    "correct": ["are emptied"],
+    "accepted": ["get emptied"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "every Tuesday — co tydzień, regularnie."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Stały, powtarzalny układ → Present Simple. Kosze nie opróżniają się same, ktoś to robi → strona bierna."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "empty kończy się na spółgłoskę + y, więc w V3 jest -ied: emptied."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "the bins = they → are + V3 → are emptied."
+      }
+    ],
+    "tags": ["present-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "prs-breakfast-included",
+    "type": "gap-fill",
+    "sentence": "Excuse me, ___ (breakfast / include) in the price, or do we have to pay extra for it?",
+    "correct": ["is breakfast included"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "in the price — pytasz o cenę, czyli o stałą zasadę: co ta cena obejmuje."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz, jak jest w ogóle (cena obejmuje śniadanie albo nie) → Present Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Śniadanie samo niczego nie wlicza — ktoś je wlicza, więc strona bierna. W pytaniu is idzie przed podmiot."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "is + breakfast + V3 → is breakfast included."
+      }
+    ],
+    "tags": ["present-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "prs-ring-as-soon-as-know",
+    "type": "gap-fill",
+    "sentence": "I'll ring you as soon as I ___ (know) my exam results.",
+    "correct": ["know"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "as soon as po zdaniu z will (I'll ring) — zdanie czasowe o przyszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Przyszłość wyraża już zdanie główne, więc w zdaniu po as soon as nie powtarzasz will → Present Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po polsku „jak tylko będę znał” jest w czasie przyszłym, stąd kusi will know."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "I + V1 → know."
+      }
+    ],
+    "tags": ["present-simple", "future-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "prs-flight-takes-off-lisbon",
+    "type": "gap-fill",
+    "sentence": "According to our tickets, the flight to Lisbon ___ (take off) at 6.05 tomorrow morning and lands at 9.10 local time.",
+    "correct": ["takes off"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "According to our tickets i dokładne godziny — to rozkład lotów, który ustaliła linia lotnicza."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Lot jest jutro, ale jego godzina nie zależy od nas ani od przewidywań, tylko od rozkładu. Rozkład → Present Simple, nawet o jednym, konkretnym locie w przyszłości."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "tomorrow kusi will take off. Ale druga część zdania ma już lands, a oba czasowniki czytasz z tego samego rozkładu, więc nie mieszasz will z Present Simple. Continuous (is taking off) pasuje raczej do naszych własnych planów niż do rozkładu."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "the flight = it → take + -s + off → takes off."
+      }
+    ],
+    "tags": ["present-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "prs-photosynthesis-energy-used",
+    "type": "gap-fill",
+    "sentence": "During photosynthesis, energy from sunlight ___ (use) to turn carbon dioxide and water into sugar and oxygen.",
+    "correct": ["is used"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "During photosynthesis — opis procesu z biologii, który zawsze przebiega tak samo."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "To prawda ogólna, a nie jedno zdarzenie → Present Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Energia sama niczego nie używa, to roślina jej używa. Podmiot zdania nie wykonuje czynności → strona bierna, a nie energy uses."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "energy = it → is + V3 (use – used – used) → is used."
+      }
+    ],
+    "tags": ["present-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "prs-who-doesnt-agree-kuba",
+    "type": "gap-fill",
+    "sentence": "Right, who ___ (not / agree) with Kuba's idea? Put your hand up and tell us why.",
+    "correct": ["does not agree"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Put your hand up — nauczyciel pyta o tę chwilę, ale czasownik to agree."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "agree (zgadzać się) to stan, czyli zdanie, które ktoś ma, a nie czynność w trakcie. Stan nawet teraz → Present Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "who jest tu podmiotem (kto się nie zgadza?), więc nie ma przestawienia szyku, ale przeczenie i tak potrzebuje does. who traktujesz jak he / she → doesn't, nie don't, a agree zostaje w V1."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "who + does + not + V1 → does not agree (doesn't agree)."
+      }
+    ],
+    "tags": ["present-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "prs-canteen-usually-packed",
+    "type": "gap-fill",
+    "sentence": "The school canteen ___ (usually / be) packed at half past twelve, so we try to get there a bit earlier.",
+    "correct": ["is usually"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "usually i so we try to get there earlier — tak jest prawie codziennie."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Powtarzająca się sytuacja, a nie jedna chwila → Present Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Przy be przysłówek częstotliwości stoi po czasowniku: is usually packed. Przy innych czasownikach stoi przed nimi (usually goes), stąd kusi usually is."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "the canteen = it → is + usually → is usually."
+      }
+    ],
+    "tags": ["present-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "prs-dad-train-garage",
+    "type": "gap-fill",
+    "sentence": "My dad usually drives to work, but his car is at the garage, so at the moment he ___ (take) the train.",
+    "correct": ["is taking"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "at the moment i powód: samochód jest w warsztacie, czyli sytuacja chwilowa."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Jazda pociągiem to tymczasowa zmiana, która trwa teraz → Present Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "usually dotyczy tylko jazdy samochodem (to nawyk, więc drives). Pociąg nie jest jego stałym zwyczajem, dlatego Present Simple tu nie pasuje."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "he → is + V-ing → is taking."
+      }
+    ],
+    "tags": ["present-continuous", "present-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "prs-thinking-essay",
+    "type": "gap-fill",
+    "sentence": "Hang on, don't interrupt me — I ___ (think) about how to start my essay.",
+    "correct": ["am thinking"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "don't interrupt me — coś dzieje się w tej chwili."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "think about = zastanawiać się, czyli czynność w trakcie → Present Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "think bywa czasownikiem stanu, ale tylko jako „uważam” (I think you're right). Jako „zastanawiam się” to czynność, więc Present Simple tu nie pasuje."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "I + am + V-ing → am thinking."
+      }
+    ],
+    "tags": ["present-continuous", "present-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "prs-laptop-how-long-had",
+    "type": "gap-fill",
+    "sentence": "The battery in your laptop only lasts about twenty minutes — how long ___ (you / have) it?",
+    "correct": ["have you had"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "how long…? i laptop dalej jest twój — pytasz o czas od zakupu aż do teraz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Posiadanie zaczęło się w przeszłości i trwa do dziś → Present Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po polsku „Jak długo go masz?” jest w teraźniejszym, ale Present Simple nie liczy czasu do teraz: how long do you have it? brzmiałoby raczej jak pytanie, na jak długo go masz (np. wypożyczonego). have = mieć to stan, więc bez -ing (nie have you been having)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "have + you + V3 (have – had – had) → have you had."
+      }
+    ],
+    "tags": ["present-perfect", "present-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "prs-first-time-sushi",
+    "type": "gap-fill",
+    "sentence": "Mmm, this is delicious! Believe it or not, it's the first time I ___ (eat) sushi.",
+    "correct": ["have eaten"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "it's the first time… — pierwszy raz w życiu."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Liczysz doświadczenia od zawsze aż do teraz: do tej pory zero razy, teraz pierwszy. Po it's / this is the first time → Present Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po polsku „pierwszy raz jem sushi” jest w teraźniejszym, stąd kusi I eat albo I'm eating. I eat to nawyk, a I'm eating opisuje tylko samą chwilę jedzenia. it's the first time liczy, ile razy coś się zdarzyło od zawsze do teraz, a takie liczenie do teraz to Present Perfect."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "have + V3 (eat – ate – eaten) → have eaten."
+      }
+    ],
+    "tags": ["present-perfect", "present-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "prs-sorry-didnt-realise-phone",
+    "type": "gap-fill",
+    "sentence": "Oh, sorry, I ___ (not / realise) you were still on the phone — I'll come back in a minute.",
+    "correct": ["did not realise", "had not realised"],
+    "accepted": ["did not realize", "had not realized"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Oh, sorry… — przepraszasz, bo właśnie się zorientowałeś. you were still on the phone też stoi w przeszłym."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Nie zdawałeś sobie z tego sprawy do chwili, gdy zobaczyłeś, że ktoś rozmawia. Teraz już wiesz, więc ten stan się skończył → Past Simple (didn't realise). Jeśli chcesz podkreślić, że trwał aż do tamtej chwili, możesz też użyć Past Perfect (hadn't realised). Oba są OK."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Rozmowa trwa teraz, więc kusi I don't realise. Ale Present Simple znaczyłby, że dalej sobie z tego nie zdajesz sprawy, a przecież właśnie to zauważyłeś."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "did + not + V1 → did not realise; albo had + not + V3 → had not realised (po amerykańsku realize / realized)."
+      }
+    ],
+    "tags": ["past-simple", "past-perfect", "present-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "prs-earthquake-when-will-hit",
+    "type": "gap-fill",
+    "sentence": "Scientists still can't predict when the next big earthquake ___ (hit) Japan.",
+    "correct": ["will hit", "is going to hit"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "can't predict when… — nie wiadomo, kiedy to się stanie."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Trzęsienie będzie w przyszłości, a część po when to ukryte pytanie: When will it hit? → will (albo is going to)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po when w zdaniach czasowych nie ma will (I'll call you when I get home). Ale tu when znaczy „kiedy?” (czego nie umieją przewidzieć?), a nie „wtedy, gdy”. To nie jest zdanie czasowe, więc Present Simple (hits) byłby błędem."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + V1 → will hit; albo the earthquake = it → is + going to + V1 → is going to hit."
+      }
+    ],
+    "tags": ["future-simple", "be-going-to", "present-simple"],
+    "difficulty": 3
+  }
+]

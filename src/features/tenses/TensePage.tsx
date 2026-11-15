@@ -1,16 +1,18 @@
+import { Suspense } from 'react'
 import { Link, useParams } from 'react-router'
 import { FormulaParts } from '../../components/Formula'
+import { HowToChoose } from '../../components/HowToChoose'
 import { Doodle, Scribble } from '../../components/Ink'
 import { Icon } from '../../components/Icon'
 import { Card, Sticky, type Tilt } from '../../components/Paper'
 import { NotFound } from '../../components/States'
 import { Timeline } from '../../components/Timeline'
 import { pl } from '../../i18n/pl'
-import { getExercises, getTense, getTenses } from '../../lib/content'
+import { getTense, getTenses, useExercises } from '../../lib/content'
 import { signalPhrases } from '../../lib/text/signals'
+import { GrammarSubnav } from '../grammar/GrammarSubnav'
 import { ExampleLine } from './ExampleLine'
 import { FormsSection } from './FormsSection'
-import { HowToChoose } from './HowToChoose'
 import { TenseTabs } from './TenseTabs'
 
 const tilts: Tilt[] = [-1, 1, 0, -2, 2]
@@ -24,11 +26,11 @@ export function TensePage() {
   const t = pl.tenses
   const index = all.indexOf(tense)
   const signals = signalPhrases(tense.signalWords.map((s) => s.word))
-  const practiceCount = getExercises().filter((e) => e.tags.includes(tense.id)).length
 
   return (
     <div className="tense-wrap">
       <article className="sheet ruled page-in tense-sheet">
+        <GrammarSubnav current="tenses" />
         <header className="stack" style={{ gap: 2 }}>
           <p className="eyebrow">{t.eyebrow(index + 1, all.length, t.groups[tense.group])}</p>
           <h1 className="h-xl tense-title" lang="en">
@@ -92,7 +94,12 @@ export function TensePage() {
             </dl>
           </section>
 
-          <HowToChoose key={tense.id} steps={tense.howToChoose} />
+          <HowToChoose
+            key={tense.id}
+            title={t.choose}
+            hint={t.chooseHint}
+            steps={tense.howToChoose.map((s) => ({ key: s.step_pl, text: s.text_pl }))}
+          />
 
           {tense.modals && (
             <section className="tsec" aria-labelledby="modal-h">
@@ -201,11 +208,19 @@ export function TensePage() {
             {t.practice}
           </Link>
           <p className="note ink" style={{ textAlign: 'center' }}>
-            {t.practiceCount(practiceCount)}
+            <Suspense fallback={null}>
+              <PracticeCount tag={tense.id} />
+            </Suspense>
           </p>
         </div>
       </article>
       <TenseTabs tenses={all} current={tense.id} />
     </div>
   )
+}
+
+// liczba zdań do ćwiczeń dociąga się osobno, żeby notatka nie czekała na cały bank
+function PracticeCount({ tag }: { tag: string }) {
+  const n = useExercises().filter((e) => e.tags.includes(tag)).length
+  return <>{pl.tenses.practiceCount(n)}</>
 }

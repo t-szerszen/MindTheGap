@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import {
+  buildOwnCard,
   englishSide,
   findDuplicate,
   normalizeText,
@@ -68,5 +69,35 @@ describe('wordsToCsv', () => {
       'english,polish,example,tags,attempts,correct',
       'despite,pomimo,"Despite the rain, we went ""out"".","spójniki, kontrast",3,2',
     ])
+  })
+})
+
+describe('buildOwnCard', () => {
+  it('bez angielskiego albo polskiego nie ma fiszki', () => {
+    expect(buildOwnCard({ en: '  ', pl: 'przełamać lody', example: '', tag: 'idiom' })).toBeNull()
+    expect(buildOwnCard({ en: 'break the ice', pl: '', example: '', tag: 'idiom' })).toBeNull()
+  })
+
+  it('przycina spacje, etykieta małymi literami, pusty przykład znika', () => {
+    expect(
+      buildOwnCard({ en: ' break  the ice ', pl: 'przełamać lody ', example: ' ', tag: ' Idiom' }),
+    ).toEqual({
+      term: 'break the ice',
+      translation: 'przełamać lody',
+      direction: 'en-pl',
+      tags: ['idiom'],
+      source: 'own',
+    })
+  })
+
+  it('zostawia przykład i pozwala na brak etykiety', () => {
+    const card = buildOwnCard({
+      en: 'break the ice',
+      pl: 'przełamać lody',
+      example: 'A joke can break the ice.',
+      tag: '',
+    })
+    expect(card?.example).toBe('A joke can break the ice.')
+    expect(card?.tags).toEqual([])
   })
 })

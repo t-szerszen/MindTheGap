@@ -1,0 +1,1050 @@
+[
+  {
+    "id": "tov-ferry-hel",
+    "type": "gap-fill",
+    "sentence": "The ferry to Hel ___ (depart) at 9.15 every morning in July and August, so be at the harbour by nine.",
+    "correct": ["departs"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "every morning in July and August — stały rozkład, a nie jednorazowy plan."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Prom pływa tak co rano przez całe wakacje. To zapis w rozkładzie, który nie zależy od nas → Present Simple."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "the ferry = it → V1 + -s: departs."
+      }
+    ],
+    "tags": ["present-simple", "tenses-overview"],
+    "difficulty": 1
+  },
+  {
+    "id": "tov-fire-neighbours",
+    "type": "gap-fill",
+    "sentence": "By the time the fire engines arrived, the neighbours ___ (put out) most of the flames with garden hoses.",
+    "correct": ["had put out"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "By the time + Past Simple (arrived) — punkt w przeszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Sąsiedzi ugasili ogień, zanim przyjechała straż. Coś było gotowe przed innym momentem w przeszłości → Past Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "put out the flames przy by the time nie może być w Past Simple: wtedy gaszenie wypadałoby razem z przyjazdem albo po nim."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had + V3. put – put – put → had put out."
+      }
+    ],
+    "tags": ["past-perfect", "tenses-overview"],
+    "difficulty": 2
+  },
+  {
+    "id": "tov-dentist-ringing",
+    "type": "gap-fill",
+    "sentence": "I ___ (ring) the dentist's all morning, but nobody answers.",
+    "correct": ["have been ringing"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "all morning + nobody answers (teraz) — czynność ciągnie się do teraz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Dzwonię od rana raz po raz i jeszcze nie skończyłem. Liczy się sama czynność i to, jak długo trwa → Present Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie ma tu wyniku ani liczby telefonów, więc have rung nie pasuje. am ringing all morning to błąd: all morning liczy czas do teraz."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "have + been + V-ing → have been ringing."
+      }
+    ],
+    "tags": ["present-perfect-continuous", "tenses-overview"],
+    "difficulty": 2
+  },
+  {
+    "id": "tov-chemistry-notes",
+    "type": "choice",
+    "text": "A: I missed the chemistry lesson and I've got no idea what we covered. B: Don't worry, I ___ you a photo of my notes tonight.",
+    "gaps": [
+      {
+        "options": ["will send", "am sending", "send", "have sent"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Don't worry + reakcja na to, co B właśnie usłyszał."
+          },
+          {
+            "label_pl": "relacja w czasie",
+            "text_pl": "B decyduje w chwili mówienia i proponuje pomoc. Nic nie było wcześniej ustalone → will + V1."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "am sending oznaczałoby plan ustalony wcześniej, a B dopiero teraz dowiaduje się o problemie. Samo send to nawyk albo rozkład, a nie propozycja. have sent mówi o czymś już zrobionym."
+          }
+        ]
+      }
+    ],
+    "tags": ["future-simple", "tenses-overview"],
+    "difficulty": 2
+  },
+  {
+    "id": "tov-teacher-formula",
+    "type": "gap-fill",
+    "sentence": "While the teacher ___ (write) the formula on the board, someone's phone started playing a loud ringtone.",
+    "correct": ["was writing"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "While + krótkie zdarzenie w Past Simple (started)."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pisanie już trwało, a dzwonek wpadł w jego środek. Tło przerwane krótszym zdarzeniem → Past Continuous."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "the teacher = he / she → was + V-ing: was writing."
+      }
+    ],
+    "tags": ["past-continuous", "tenses-overview"],
+    "difficulty": 1
+  },
+  {
+    "id": "tov-boxes-fall",
+    "type": "gap-fill",
+    "sentence": "Watch out! That pile of boxes ___ (fall) over!",
+    "correct": ["is going to fall"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Watch out! — ostrzeżenie przed czymś, co już widać."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Stos się chwieje teraz i zaraz runie. Przewidujesz z dowodu przed oczami → be going to."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will to przewidywanie z głowy, z opinii. Tu skutek wynika z tego, co widać w tej chwili."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "pile = it → is + going to + V1: is going to fall."
+      }
+    ],
+    "tags": ["be-going-to", "tenses-overview"],
+    "difficulty": 2
+  },
+  {
+    "id": "tov-marta-luggage",
+    "type": "gap-fill",
+    "sentence": "Phone Marta after ten — her flight lands at nine, so by then she ___ (collect) her luggage.",
+    "correct": ["will have collected"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "by then = do dziesiątej, termin w przyszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Stajesz w punkcie o dziesiątej i patrzysz wstecz: bagaż będzie już odebrany. Gotowe przed terminem w przyszłości → Future Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "lands at nine to rozkład lotu (Present Simple), ale luka nie mówi o rozkładzie, tylko o tym, co będzie gotowe do dziesiątej. will collect podaje samo zdarzenie, bez „już po”."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + have + V3 → will have collected."
+      }
+    ],
+    "tags": ["future-perfect", "tenses-overview"],
+    "difficulty": 3
+  },
+  {
+    "id": "tov-grandad-shipyard",
+    "type": "choice",
+    "text": "My grandad ___ in the Gdańsk shipyard for forty years; he retired in 2010 and now spends his days fishing.",
+    "gaps": [
+      {
+        "options": ["worked", "has worked", "has been working", "was working"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "retired in 2010 + now spends his days fishing — praca się skończyła."
+          },
+          {
+            "label_pl": "relacja w czasie",
+            "text_pl": "Czterdzieści lat pracy to zamknięty okres. for nie wybiera czasu sam: liczy się, że okres skończył się w przeszłości → Past Simple."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "has worked i has been working znaczyłyby, że pracuje do dziś, a dziś łowi ryby. was working opisuje tło w jednej chwili, a nie cały zamknięty okres."
+          }
+        ]
+      }
+    ],
+    "tags": ["past-simple", "tenses-overview"],
+    "difficulty": 3
+  },
+  {
+    "id": "tov-team-goals",
+    "type": "gap-fill",
+    "sentence": "Our team ___ (score) only two goals so far this season, so the coach is under a lot of pressure.",
+    "correct": ["has scored"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "so far this season — okres, który jeszcze trwa."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Liczysz gole od początku sezonu do teraz, a skutek (presja na trenera) jest teraz → Present Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Liczba (two goals) to wynik, więc nie has been scoring. Past Simple nie pasuje, bo sezon się nie skończył."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "our team = it → has + V3: has scored."
+      }
+    ],
+    "tags": ["present-perfect", "tenses-overview"],
+    "difficulty": 2,
+    "accepted": ["have scored"]
+  },
+  {
+    "id": "tov-campsite-sleeping",
+    "type": "gap-fill",
+    "sentence": "When we set off up the mountain at five tomorrow morning, most of the campsite ___ (still / sleep).",
+    "correct": ["will still be sleeping"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "at five tomorrow morning + still — konkretna chwila w przyszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Sen zacznie się wcześniej i o piątej jeszcze będzie trwał. Chwila wypada w środku czynności → Future Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "W części z When jest Present Simple (set off), bo to zdanie czasowe. will stoi w zdaniu głównym. will still sleep nie pokazuje, że sen jest w toku."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + still + be + V-ing → will still be sleeping."
+      }
+    ],
+    "tags": ["future-continuous", "tenses-overview"],
+    "difficulty": 3
+  },
+  {
+    "id": "tov-players-mud",
+    "type": "gap-fill",
+    "sentence": "The players were soaked and covered in mud because they ___ (train) in the rain for two hours.",
+    "correct": ["had been training"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "were soaked and covered in mud + for two hours — ślad w przeszłości i okres przed nim."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Najpierw dwie godziny treningu, potem widać skutek. Liczysz czas do chwili w przeszłości i wyjaśniasz stan → Past Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "have been training liczyłoby do teraz, a całe zdanie jest w przeszłości (were). were training nie liczy czasu do tamtej chwili."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had + been + V-ing → had been training."
+      }
+    ],
+    "tags": ["past-perfect-continuous", "tenses-overview"],
+    "difficulty": 2
+  },
+  {
+    "id": "tov-kasia-aunt",
+    "type": "gap-fill",
+    "sentence": "Kasia ___ (stay) with her aunt in Poznań this month while her flat is being renovated.",
+    "correct": ["is staying"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "this month + while her flat is being renovated — sytuacja na razie."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Kasia nie mieszka u ciotki na stałe, tylko na czas remontu. Coś tymczasowego wokół teraz → Present Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "stays brzmiałoby jak stały zwyczaj. this month nie liczy czasu od przeszłości, więc nie has been staying."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Kasia = she → is + V-ing: is staying."
+      }
+    ],
+    "tags": ["present-continuous", "tenses-overview"],
+    "difficulty": 2,
+    "accepted": ["has been staying"]
+  },
+  {
+    "id": "tov-nowak-thirty-years",
+    "type": "gap-fill",
+    "sentence": "By the end of this school year, Mr Nowak ___ (teach) at our school for exactly thirty years.",
+    "correct": ["will have been teaching", "will have taught"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "By the end of this school year (punkt w przyszłości) + for exactly thirty years (okres do niego)."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Stajesz pod koniec roku szkolnego i liczysz wstecz, jak długo uczy. Okres prowadzi do punktu w przyszłości → Future Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "teach to czynność, która trwa latami jak live czy work, więc z for poprawne jest też will have taught. Samo will teach albo will be teaching nie liczy czasu do punktu."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + have + been + V-ing → will have been teaching."
+      }
+    ],
+    "tags": ["future-perfect-continuous", "tenses-overview"],
+    "difficulty": 3
+  },
+  {
+    "id": "tov-ania-primary",
+    "type": "gap-fill",
+    "sentence": "I ___ (know) Ania since we were at primary school, and we still talk every day.",
+    "correct": ["have known"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "since we were at primary school + still — stan od przeszłości do teraz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Znajomość zaczęła się w podstawówce i trwa do dziś → Present Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "know to czasownik stanu, więc nie have been knowing. Po polsku „znam” jest w teraźniejszym, ale know since to błąd."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "have + V3. know – knew – known → have known."
+      }
+    ],
+    "tags": ["present-perfect", "tenses-overview"],
+    "difficulty": 2
+  },
+  {
+    "id": "tov-results-text",
+    "type": "gap-fill",
+    "sentence": "Stop worrying! As soon as the results are online, I ___ (text) you, I promise.",
+    "correct": ["will text"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I promise — obietnica."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Obiecujesz coś w chwili mówienia → will + V1 w zdaniu głównym."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "W części z As soon as stoi Present Simple (are online), bo to zdanie czasowe. will idzie tylko do drugiej części."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + V1 → will text."
+      }
+    ],
+    "tags": ["future-simple", "tenses-overview"],
+    "difficulty": 2
+  },
+  {
+    "id": "tov-rehearsal-until",
+    "type": "gap-fill",
+    "sentence": "We can't start the rehearsal until everyone ___ (arrive), so grab a coffee.",
+    "correct": ["arrives", "has arrived"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "until — zdanie czasowe o przyszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Przyjście wszystkich jest jeszcze przed nami, ale po until nie ma will. Przyszłość niesie zdanie główne (can't start) → Present Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will arrive po until to błąd. Present Perfect (has arrived) też jest poprawny: podkreśla, że wszyscy muszą być już na miejscu."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "everyone = he / she → arrives."
+      }
+    ],
+    "tags": ["present-simple", "tenses-overview"],
+    "difficulty": 3
+  },
+  {
+    "id": "tov-abroad-first",
+    "type": "gap-fill",
+    "sentence": "When ___ (you / first / go) abroad without your parents?",
+    "correct": ["did you first go"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "When…? — pytanie o moment."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz, kiedy to się stało, czyli o zamknięty punkt w przeszłości → Past Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Present Perfect nie łączy się z pytaniem When…?, bo to pytanie właśnie o moment."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "When + did + podmiot + V1 → did you first go."
+      }
+    ],
+    "tags": ["past-simple", "tenses-overview"],
+    "difficulty": 2
+  },
+  {
+    "id": "tov-gosia-dinner",
+    "type": "choice",
+    "text": "When Gosia arrived, we ___ dinner, so she grabbed a plate and joined us halfway through the main course.",
+    "gaps": [
+      {
+        "options": ["were having", "had", "had had", "have had"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "joined us halfway through the main course — przyszła w środku jedzenia."
+          },
+          {
+            "label_pl": "relacja w czasie",
+            "text_pl": "Kolacja już trwała, a jej przyjście wpadło w środek → Past Continuous."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "had (Past Simple) znaczyłoby, że kolacja zaczęła się dopiero po jej przyjściu, a had had, że była już skończona. have had nie pasuje do opowieści w przeszłości."
+          }
+        ]
+      }
+    ],
+    "tags": ["past-continuous", "tenses-overview"],
+    "difficulty": 3
+  },
+  {
+    "id": "tov-platform-train",
+    "type": "choice",
+    "text": "By the time I found the right platform, the train to Kraków ___ , so I had to wait two hours for the next one.",
+    "gaps": [
+      {
+        "options": ["had left", "has left", "leaves", "left"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "By the time + Past Simple (found) — punkt w przeszłości."
+          },
+          {
+            "label_pl": "relacja w czasie",
+            "text_pl": "Pociąg odjechał, zanim znalazłem peron. Coś stało się przed innym momentem w przeszłości → Past Perfect."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "left przy by the time nie pokazuje, że odjazd był wcześniej. leaves to rozkład albo teraźniejszość, nie pasuje do opowieści o przeszłości. has left patrzy z teraz."
+          }
+        ]
+      }
+    ],
+    "tags": ["past-perfect", "tenses-overview"],
+    "difficulty": 3
+  },
+  {
+    "id": "tov-garage-gym",
+    "type": "choice",
+    "text": "A: Why are you clearing out the garage? B: I ___ it into a small gym — I've already ordered the equipment.",
+    "gaps": [
+      {
+        "options": ["am going to turn", "will turn", "turn", "have turned"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "I've already ordered the equipment — decyzja zapadła wcześniej."
+          },
+          {
+            "label_pl": "relacja w czasie",
+            "text_pl": "Zamiar już jest w głowie i widać przygotowania (sprzątanie, zamówiony sprzęt) → be going to."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "will to decyzja w chwili mówienia, a ta zapadła dawno. have turned znaczyłoby, że siłownia już gotowa, a garaż dopiero jest sprzątany."
+          }
+        ]
+      }
+    ],
+    "tags": ["be-going-to", "tenses-overview"],
+    "difficulty": 2
+  },
+  {
+    "id": "tov-driving-signal",
+    "type": "gap-fill",
+    "sentence": "Can I call you back? I ___ (drive) and the signal keeps cutting out.",
+    "correct": ["am driving"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Can I call you back? — chodzi o tę chwilę."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Prowadzę w trakcie rozmowy → Present Continuous."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "am + V-ing → am driving."
+      }
+    ],
+    "tags": ["present-continuous", "tenses-overview"],
+    "difficulty": 1
+  },
+  {
+    "id": "tov-szymon-delivery",
+    "type": "gap-fill",
+    "sentence": "Szymon ___ (wait) for over an hour when the delivery driver finally rang the bell.",
+    "correct": ["had been waiting"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "for over an hour + when … rang (Past Simple)."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Czekanie trwało ponad godzinę aż do chwili dzwonka. Liczysz czas do momentu w przeszłości → Past Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "was waiting nie liczy, jak długo. has been waiting liczyłoby do teraz, a dzwonek był w przeszłości."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had + been + V-ing → had been waiting."
+      }
+    ],
+    "tags": ["past-perfect-continuous", "tenses-overview"],
+    "difficulty": 2,
+    "accepted": ["had waited"]
+  },
+  {
+    "id": "tov-wroclaw-six-years",
+    "type": "gap-fill",
+    "sentence": "We ___ (live) in Wrocław for six years when I was little, and then we moved to Gdańsk.",
+    "correct": ["lived"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "when I was little + and then we moved — zamknięty okres i kolejny krok opowieści."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Sześć lat we Wrocławiu skończyło się w przeszłości. for nie wymaga Present Perfect, gdy okres się zamknął → Past Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "have lived znaczyłoby, że mieszkamy tam do dziś. Past Perfect nie jest potrzebny, bo opowiadasz po kolei (and then)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "live → lived (regularny)."
+      }
+    ],
+    "tags": ["past-simple", "tenses-overview"],
+    "difficulty": 3
+  },
+  {
+    "id": "tov-atlantic-flight",
+    "type": "choice",
+    "text": "This time next week we ___ over the Atlantic on our way to New York.",
+    "gaps": [
+      {
+        "options": ["will be flying", "will fly", "will have flown", "fly"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "This time next week — konkretna chwila w przyszłości."
+          },
+          {
+            "label_pl": "relacja w czasie",
+            "text_pl": "Lot zacznie się wcześniej i w tej chwili będzie w toku → Future Continuous."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "will fly mówi tylko, że lot się odbędzie. will have flown znaczyłoby, że będziemy już po locie, a jesteśmy w drodze (on our way)."
+          }
+        ]
+      }
+    ],
+    "tags": ["future-continuous", "tenses-overview"],
+    "difficulty": 2
+  },
+  {
+    "id": "tov-sister-drums",
+    "type": "gap-fill",
+    "sentence": "Lately my little sister ___ (practise) the drums in her room every evening, and the neighbours have started to complain.",
+    "correct": ["has been practising"],
+    "accepted": ["has been practicing"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Lately — ostatnio, od jakiegoś czasu do teraz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Ćwiczenia powtarzają się od pewnego czasu i trwają nadal. Liczy się sama czynność → Present Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "practises brzmiałoby jak stały zwyczaj, a lately łączy ten okres z teraz. Nie ma tu wyniku ani liczby."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "has + been + V-ing → has been practising."
+      }
+    ],
+    "tags": ["present-perfect-continuous", "tenses-overview"],
+    "difficulty": 2
+  },
+  {
+    "id": "tov-dishes-gym",
+    "type": "choice",
+    "text": "Don't worry about the dishes — by the time you get back from the gym, I ___ them all.",
+    "gaps": [
+      {
+        "options": ["will have washed", "will be washing", "wash", "have washed"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "by the time you get back — termin w przyszłości."
+          },
+          {
+            "label_pl": "relacja w czasie",
+            "text_pl": "Gdy wrócisz, naczynia będą już umyte. Gotowe przed terminem → Future Perfect."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "will be washing znaczyłoby, że w chwili twojego powrotu wciąż zmywam. wash i have washed nie przenoszą punktu w przyszłość."
+          }
+        ]
+      }
+    ],
+    "tags": ["future-perfect", "tenses-overview"],
+    "difficulty": 2
+  },
+  {
+    "id": "tov-soup-salty",
+    "type": "gap-fill",
+    "sentence": "This soup ___ (taste) a bit too salty — did you add a stock cube?",
+    "correct": ["tastes"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "opis zupy teraz — ale taste znaczy tu „smakuje (jakoś)”."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "To stan, a nie czynność: zupa ma taki smak. Czasowniki stanu zostają w Present Simple, nawet gdy mówisz o teraz."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "is tasting pasuje tylko do czynności „próbuje”: The chef is tasting the soup."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "this soup = it → tastes."
+      }
+    ],
+    "tags": ["present-simple", "tenses-overview"],
+    "difficulty": 2
+  },
+  {
+    "id": "tov-sunday-instead",
+    "type": "gap-fill",
+    "sentence": "A: The tickets for Saturday are sold out. B: What a shame. In that case, we ___ (go) on Sunday instead.",
+    "correct": ["will go"],
+    "accepted": ["shall go"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "In that case — reakcja na nową informację."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "B zmienia plan w chwili mówienia, bo dopiero się dowiedział → will + V1."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "are going (Present Continuous) i are going to go wymagałyby planu ustalonego wcześniej."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + V1 → will go."
+      }
+    ],
+    "tags": ["future-simple", "tenses-overview"],
+    "difficulty": 2
+  },
+  {
+    "id": "tov-history-chapters",
+    "type": "choice",
+    "text": "I ___ three chapters of my history project this weekend, so I can finally relax.",
+    "gaps": [
+      {
+        "options": ["have written", "have been writing", "was writing", "had been writing"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "three chapters + this weekend + so I can finally relax (teraz)."
+          },
+          {
+            "label_pl": "relacja w czasie",
+            "text_pl": "Weekend jeszcze trwa, a liczy się wynik: trzy gotowe rozdziały i skutek teraz → Present Perfect."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "have been writing skupia się na czynności, a nie na policzonym wyniku. was writing i had been writing nie łączą się z teraz (can relax)."
+          }
+        ]
+      }
+    ],
+    "tags": ["present-perfect", "tenses-overview"],
+    "difficulty": 3
+  },
+  {
+    "id": "tov-brother-theory-test",
+    "type": "gap-fill",
+    "sentence": "My brother ___ (revise) for his driving theory test since breakfast, and he still won't come out of his room.",
+    "correct": ["has been revising"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "since breakfast + still won't come out (teraz) — od śniadania do teraz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Nauka zaczęła się rano i wciąż trwa. Liczy się czynność i jak długo → Present Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po polsku „uczy się od śniadania” jest w teraźniejszym, ale is revising since to błąd. Nie ma wyniku ani liczby, więc nie has revised."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "has + been + V-ing → has been revising."
+      }
+    ],
+    "tags": ["present-perfect-continuous", "tenses-overview"],
+    "difficulty": 2
+  },
+  {
+    "id": "tov-dog-walkers",
+    "type": "gap-fill",
+    "sentence": "It was a cold, foggy morning. A few dog walkers ___ (stroll) along the beach when the sound of a ship's horn broke the silence.",
+    "correct": ["were strolling"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "opis poranka (It was…) + when … broke (Past Simple)."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Spacer to tło sceny. Trwał, gdy nagle odezwał się statek → Past Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "strolled pokazałoby kolejny krok akcji, a tu to tło, w które wpada dźwięk syreny."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "dog walkers = they → were + V-ing: were strolling."
+      }
+    ],
+    "tags": ["past-continuous", "tenses-overview"],
+    "difficulty": 2
+  },
+  {
+    "id": "tov-coach-zakopane",
+    "type": "choice",
+    "text": "By the time the coach reaches Zakopane, we ___ for nine hours, so nobody will feel like hiking that evening.",
+    "gaps": [
+      {
+        "options": [
+          "will have been travelling",
+          "will be travelling",
+          "will travel",
+          "have been travelling"
+        ],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "By the time the coach reaches (punkt w przyszłości) + for nine hours (okres do niego)."
+          },
+          {
+            "label_pl": "relacja w czasie",
+            "text_pl": "Stajesz w Zakopanem i liczysz wstecz, jak długo trwała podróż. To też przyczyna zmęczenia → Future Perfect Continuous."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "will be travelling nie liczy czasu do punktu. have been travelling liczyłoby do teraz, a autokar dopiero dojedzie."
+          }
+        ]
+      }
+    ],
+    "tags": ["future-perfect-continuous", "tenses-overview"],
+    "difficulty": 3
+  },
+  {
+    "id": "tov-grandma-smartphone",
+    "type": "gap-fill",
+    "sentence": "Grandma was nervous when we gave her a smartphone last Christmas because she ___ (never / use) one before.",
+    "correct": ["had never used"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "never … before + gave (Past Simple) — doświadczenie do chwili w przeszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Do zeszłych świąt babcia nie miała do czynienia ze smartfonem. Liczysz doświadczenie do tamtej chwili → Past Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "has never used liczyłoby do teraz, a dziś już go używa. Present Perfect przesunięty w przeszłość to właśnie Past Perfect."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had + never + V3 → had never used."
+      }
+    ],
+    "tags": ["past-perfect", "tenses-overview"],
+    "difficulty": 3
+  },
+  {
+    "id": "tov-mozart-works",
+    "type": "gap-fill",
+    "sentence": "Mozart ___ (write) more than 600 works in his short life.",
+    "correct": ["wrote"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "his short life — życie Mozarta jest zamkniętym okresem."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Mozart nie żyje, więc nie ma związku z teraz: wszystko, co napisał, jest w zamkniętej przeszłości → Past Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "has written pasuje do autora, który żyje i może napisać więcej."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "write – wrote – written → wrote."
+      }
+    ],
+    "tags": ["past-simple", "tenses-overview"],
+    "difficulty": 3
+  },
+  {
+    "id": "tov-teenagers-meat",
+    "type": "gap-fill",
+    "sentence": "More and more teenagers ___ (give up) meat these days.",
+    "correct": ["are giving up"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "More and more + these days — zmiana, która trwa teraz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "To proces w toku w okresie wokół teraz → Present Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "give up w Present Simple brzmiałoby jak stała prawda, a tu chodzi o zmianę."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "teenagers = they → are + V-ing: are giving up."
+      }
+    ],
+    "tags": ["present-continuous", "tenses-overview"],
+    "difficulty": 2
+  },
+  {
+    "id": "tov-election-night",
+    "type": "gap-fill",
+    "sentence": "Don't worry about waking us up when you get back at midnight — we ___ (still / watch) the election results on TV.",
+    "correct": ["will still be watching"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "when you get back at midnight + still — chwila w przyszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Oglądanie zacznie się wcześniej i o północy wciąż będzie trwało → Future Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "W części z when jest Present Simple (get back), bo to zdanie czasowe. will still watch nie pokazuje, że czynność będzie w toku."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + still + be + V-ing → will still be watching."
+      }
+    ],
+    "tags": ["future-continuous", "tenses-overview"],
+    "difficulty": 3
+  },
+  {
+    "id": "tov-kuba-birthday",
+    "type": "gap-fill",
+    "sentence": "I wonder if Kuba ___ (remember) my birthday this year — he forgot it last year.",
+    "correct": ["will remember", "is going to remember"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I wonder if — pytanie zależne o przyszłość."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Nie podajesz warunku ani momentu, tylko pytasz o samą przyszłość. Dlatego will zostaje, choć stoi po if."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po if w zdaniu warunkowym nie byłoby will, ale tu if znaczy „czy”. is going to remember też jest poprawne."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + V1 → will remember."
+      }
+    ],
+    "tags": ["future-simple", "tenses-overview"],
+    "difficulty": 3
+  },
+  {
+    "id": "tov-call-last-night",
+    "type": "gap-fill",
+    "sentence": "Sorry, I ___ (call) you last night, but my phone died before I could dial your number.",
+    "correct": ["was going to call"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "last night + but my phone died — plan, który nie wyszedł."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Wczoraj miałem zamiar zadzwonić, ale coś przeszkodziło. Zamiar z przeszłości → was / were going to."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "called przeczyłoby zdaniu (telefon padł, więc nie zadzwoniłem). was calling opisywałoby rozmowę w toku."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "was + going to + V1 → was going to call."
+      }
+    ],
+    "tags": ["be-going-to", "tenses-overview"],
+    "difficulty": 3
+  },
+  {
+    "id": "tov-brother-secondary",
+    "type": "gap-fill",
+    "sentence": "By the time I finish my degree, my little brother ___ (start) secondary school.",
+    "correct": ["will have started"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "By the time I finish — termin w przyszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Gdy skończę studia, brat będzie już po rozpoczęciu liceum. Gotowe przed terminem → Future Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "W części z By the time jest Present Simple (finish), a will stoi w zdaniu głównym."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + have + V3 → will have started."
+      }
+    ],
+    "tags": ["future-perfect", "tenses-overview"],
+    "difficulty": 2
+  },
+  {
+    "id": "tov-mum-shop",
+    "type": "choice",
+    "text": "Mum was exhausted when she got home because she ___ in the shop since six in the morning.",
+    "gaps": [
+      {
+        "options": ["had been working", "has been working", "was working", "worked"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "was exhausted + since six in the morning — stan w przeszłości i okres przed nim."
+          },
+          {
+            "label_pl": "relacja w czasie",
+            "text_pl": "Praca trwała od szóstej aż do chwili powrotu i wyjaśnia zmęczenie → Past Perfect Continuous."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "since wymaga perfect. has been working liczyłoby do teraz, a was working i worked nie łączą się z since."
+          }
+        ]
+      }
+    ],
+    "tags": ["past-perfect-continuous", "tenses-overview"],
+    "difficulty": 2
+  }
+]

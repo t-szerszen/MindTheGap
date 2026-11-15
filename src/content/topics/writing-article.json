@@ -1,0 +1,289 @@
+{
+  "id": "writing-article",
+  "category": "writing",
+  "title_pl": "Artykuł publicystyczny",
+  "summary_pl": "Tytuł, wstęp z hakiem, dwa elementy rozwinięte w głąb i zakończenie, które nie jest formułką.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "Artykuł piszesz **do czytelników** gazety, portalu albo bloga. W rozprawce przekonujesz argumentami. W artykule najpierw musisz sprawić, żeby ktoś w ogóle zaczął czytać, a potem doczytał do końca. Z tego biorą się wszystkie cechy tej formy: tytuł, wstęp, który przyciąga uwagę, pytania do czytelnika i osobisty ton.\n\nNa maturze artykuł to zwykle **relacja albo opis** (element 1) plus **twoje stanowisko albo pomysł** (element 2). Polecenie mówi 200–250 wyrazów, a element formy „długość” zaliczasz przy 180–280. Poniżej 160 wyrazów sprawdzana jest tylko zgodność z poleceniem."
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "W latach 2023–2026 artykuł był drugim tematem trzy razy na cztery, dwa razy o sporcie. Pierwszym tematem zawsze była rozprawka. To obserwacja z arkuszy, nie reguła: w 2025 r. zamiast artykułu był list formalny."
+    },
+    {
+      "type": "table",
+      "headers": ["Część", "Co w niej jest", "Ile wyrazów (mniej więcej)"],
+      "rows": [
+        ["Tytuł", "kilka słów, które ciekawią i mówią, o czym będzie tekst", "3–8"],
+        [
+          "Wstęp",
+          "hak (pytanie, scenka, zaskakujący fakt, cytat) i zdanie, które prowadzi do tematu",
+          "30–45"
+        ],
+        ["Akapit 2", "element 1: zwykle relacja albo opis, z konkretami", "65–85"],
+        ["Akapit 3", "element 2: stanowisko albo propozycja, dwa pomysły z uzasadnieniem", "65–85"],
+        ["Zakończenie", "powrót do haka, wniosek, zachęta, która wynika z treści", "25–40"]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "**Tytuł to element formy artykułu.** Bez niego masz 0 za „elementy typowe dla formy”. Sam brak tytułu jeszcze nie zabiera punktu (w tabeli C forma 4 i 3 dają to samo), ale wystarczy druga usterka formy, np. tekst ponad 280 wyrazów, i zgodność z poleceniem spada o punkt. *Dear Readers* ani *Hi everyone!* nie są tytułem."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Tytuł.** Najłatwiej go wymyślić, kiedy masz już szkic i wiesz, o czym jest tekst. Wpisz go nad tekstem od razu przy przepisywaniu na czysto, bo o tytule najłatwiej zapomnieć, a brudnopis nie jest oceniany. Dobry tytuł zadaje pytanie, obiecuje historię albo gra kontrastem:"
+    },
+    {
+      "type": "examples",
+      "items": [
+        { "en": "Afraid of Heights? So Was I", "pl": "Boisz się wysokości? Ja też się bałem." },
+        {
+          "en": "The Day Our Train Never Came",
+          "pl": "Dzień, w którym nie przyjechał nasz pociąg"
+        },
+        { "en": "Why Getting Lost Is Worth It", "pl": "Dlaczego warto się zgubić" },
+        { "en": "The Pond That Went Silent", "pl": "Staw, który ucichł" }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Tytuł nie musi być zdaniem. Unikaj etykiet typu *My Article* albo *Sport*: tytuł niby jest, ale niczego nie obiecuje, a to twój pierwszy hak."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Wstęp z hakiem.** Za wstęp artykułu są 2 punkty, jeśli jest zgodny z tematem i **ciekawy, zachęcający do czytania**. Wstęp zgodny z tematem, ale schematyczny albo taki jak w rozprawce, dostaje 1. Tyle samo dostaje wstęp ciekawy, ale odbiegający od tematu. Masz cztery sprawdzone haki:"
+    },
+    {
+      "type": "table",
+      "headers": ["Hak", "Jak działa", "Uważaj na"],
+      "rows": [
+        [
+          "Pytanie",
+          "czytelnik odpowiada sobie w głowie i już jest w tekście",
+          "pytanie musi dotyczyć tematu, a nie np. tego, czy lubisz wakacje"
+        ],
+        [
+          "Scenka, anegdota",
+          "krótka chwila z życia: miejsce, moment, jeden szczegół",
+          "2–3 zdania; reszta historii idzie do akapitu 2"
+        ],
+        [
+          "Zaskakujący fakt",
+          "coś, czego czytelnik się nie spodziewa",
+          "lepiej fakt z twojego otoczenia niż wymyślona statystyka „87% nastolatków…”"
+        ],
+        [
+          "Cytat",
+          "czyjeś słowa otwierają temat",
+          "bezpieczniej przysłowie albo słowa kogoś z twojego życia niż przekręcony cytat sławnej osoby"
+        ]
+      ]
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "Have you ever wondered why so few teenagers go to the theatre, even when tickets are free?",
+          "pl": "Czy zastanawiałeś się kiedyś, dlaczego tak mało nastolatków chodzi do teatru, nawet kiedy bilety są za darmo?"
+        },
+        {
+          "en": "It was midnight, our last train had just left, and my phone was dead.",
+          "pl": "Była północ, nasz ostatni pociąg właśnie odjechał, a mój telefon był rozładowany."
+        },
+        {
+          "en": "My town has two museums, but not a single cinema.",
+          "pl": "W moim mieście są dwa muzea, ale ani jednego kina."
+        },
+        {
+          "en": "'Travel broadens the mind,' says the old proverb. After my last trip, I would add: especially when everything goes wrong.",
+          "pl": "„Podróże kształcą” – mówi stare przysłowie. Po mojej ostatniej podróży dodałbym: zwłaszcza wtedy, gdy wszystko idzie nie tak."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "Nie opowiadaj całego elementu 1 już we wstępie. Fragment we wstępie liczy się **albo** jako wstęp, **albo** jako realizacja elementu, nigdy jako jedno i drugie. Wstęp ma tylko zaciekawić."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Wstęp jak w rozprawce",
+          "md_pl": "Bezosobowo, ogólnik i zapowiedź wad i zalet. W rozprawce to dobry start, w artykule to schemat z innej formy: **najwyżej 1 pkt**.",
+          "examples": [
+            {
+              "en": "Nowadays, many people travel abroad. Travelling has both advantages and disadvantages, which I will discuss in this article.",
+              "pl": "Obecnie wiele osób podróżuje za granicę. Podróże mają zarówno zalety, jak i wady, które omówię w tym artykule."
+            }
+          ]
+        },
+        {
+          "title": "Wstęp jak w artykule",
+          "md_pl": "Konkretna sytuacja, czytelnik w środku wydarzeń, a ostatnie zdanie prowadzi do tematu: **2 pkt**.",
+          "examples": [
+            {
+              "en": "Have you ever watched the last train of the day leave without you? It happened to me in Italy last summer, and it turned out to be the best part of the trip.",
+              "pl": "Czy kiedyś patrzyłeś, jak ostatni pociąg tego dnia odjeżdża bez ciebie? Mnie spotkało to zeszłego lata we Włoszech i okazało się najlepszą częścią wyjazdu."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Ten sam temat, inna funkcja wstępu. Rozprawka ma **tezę**, artykuł ma **wciągnąć**. Tezy w artykule nie potrzebujesz, ale czytelnik po wstępie musi wiedzieć, o czym będzie tekst."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Ton i zaangażowanie.** Artykuł może być żywszy niż rozprawka. Piszesz w pierwszej osobie, mówisz, co przeżyłeś, zwracasz się do czytelnika przez *you*. Nadal jest to jednak tekst do gazety, a nie wiadomość do kolegi.\n\n- mów od siebie: *I still remember…*, *To my surprise…*, *I am convinced that…*\n- pokazuj emocje konkretem, nie przymiotnikiem: zamiast *it was very scary* napisz, co się działo (*I froze halfway up the wall*)\n- bez slangu, emotek i *guys*; skróty typu *thx* to według zasad oceniania z 2026 r. błąd ortograficzny\n- pojedynczych form skróconych (*isn't*, *don't*) możesz użyć, ale pełne formy są zawsze bezpieczne"
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "Za rażąco albo często niestosowny styl, czyli potoczny jak w rozmowie albo przesadnie metaforyczny, egzaminator może odjąć **1 pkt za zakres**. Jeden obraz na wstęp wystarczy, cały tekst pisany „poetycko” to już za dużo."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Pytania retoryczne i czytelnik.** Pytanie retoryczne nie czeka na odpowiedź, tylko popycha tekst dalej. Najlepiej działa w dwóch miejscach: **na początku akapitu** jako przejście (*So why…?*) i **na końcu tekstu** jako myśl, którą czytelnik zabiera ze sobą. Jedno albo dwa pytania na cały tekst wystarczą. Pięć z rzędu brzmi jak przesłuchanie."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "So why were there only three teenagers in the audience?",
+          "pl": "Dlaczego więc na widowni było tylko troje nastolatków?"
+        },
+        {
+          "en": "Isn't it time we gave our local parks the attention they deserve?",
+          "pl": "Czy nie czas, żebyśmy poświęcili naszym parkom uwagę, na jaką zasługują?"
+        },
+        {
+          "en": "If you're anything like me, you check your phone before you even get out of bed.",
+          "pl": "Jeśli jesteś choć trochę taki jak ja, sprawdzasz telefon, zanim w ogóle wstaniesz z łóżka."
+        },
+        {
+          "en": "Imagine how you would feel if your favourite park disappeared overnight.",
+          "pl": "Wyobraź sobie, jak byś się czuł, gdyby twój ulubiony park zniknął z dnia na dzień."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Po *It's (high) time* + osoba (*we*, *you*, *they*) i w pytaniu *Isn't it time we…?* stoi **Past Simple**, choć chodzi o teraz: *It's high time we **stopped**…*. Bez osoby jest zwykłe *to*: *It's time to act.* Forma przeszła oznacza tu, tak jak po *I wish*, coś nierzeczywistego: tego jeszcze nie ma, a powinno być."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Oba elementy w głąb.** Za każdy element są 0–2 punkty. Dwa dostajesz za realizację **wieloaspektową albo pogłębioną**, czyli z przykładami, szczegółami i wyjaśnieniem. Sama lista pomysłów (*more sports, better teachers, new equipment*) to 1, a jeden pomysł rzucony bez rozwinięcia to nawet 0. Lepiej dwa pomysły rozwinięte niż pięć wymienionych. Każdy akapit możesz zbudować tak:"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "zdanie tematyczne",
+          "text_pl": "Pierwsze zdanie mówi, o którym elemencie teraz piszesz: Experiences like this teach young travellers things that no guidebook can. (Takie doświadczenia uczą młodych podróżników rzeczy, których nie nauczy żaden przewodnik.)"
+        },
+        {
+          "step_pl": "konkret",
+          "text_pl": "Przy relacji: gdzie, kiedy, co się stało i jeden wyrazisty szczegół. Przy opinii: jeden pomysł albo argument."
+        },
+        {
+          "step_pl": "jak to działa",
+          "text_pl": "Wyjaśnij, dlaczego to pomaga albo co z tego wynika (so that…, which means that…)."
+        },
+        {
+          "step_pl": "przykład albo skutek",
+          "text_pl": "Pokaż to na przykładzie z życia albo na skutku: If our first train had been on time, we would never have met that family. (Gdyby nasz pierwszy pociąg przyjechał punktualnie, nigdy nie poznalibyśmy tej rodziny.)"
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**Pilnuj czasu z polecenia.** Jeśli masz opisać wydarzenie, w którym *brałeś udział*, piszesz o przeszłości. W kluczu z 2024 r. relacja z zawodów, które dopiero miały się odbyć, dostawała najwyżej 1 pkt za ten element. W 2026 r., przy innym poleceniu, opis planowanych zawodów uznano, więc decyduje dokładne brzmienie polecenia. Podkreśl też każde słowo, które zawęża temat (*lokalne*, *niedawno*, *nastolatków*). Pominięcie takiego słowa zwykle kończy się na 1 pkt za element albo uznaniem tekstu za niezgodny z tematem."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Zakończenie.** Dwa punkty są za zakończenie zgodne z tematem i treścią. Wolno wrócić do myśli ze wstępu, ale innymi słowami. Działają trzy sposoby:\n\n- **powrót do haka**: wracasz do sceny albo pytania ze wstępu i pokazujesz, co się zmieniło\n- **wniosek**: jedno zdanie, które wynika z obu elementów\n- **zachęta z treści**: co czytelnik może zrobić, np. *why not check what your local library has to offer?*"
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "*I hope you enjoyed my article* albo *Leave a comment below* to zakończenie schematyczne: **najwyżej 1 pkt**. Tyle samo dostaje powtórzenie wstępu prawie tymi samymi słowami."
+    },
+    {
+      "type": "table",
+      "headers": ["Typowy błąd", "Co tracisz", "Jak naprawić"],
+      "rows": [
+        [
+          "brak tytułu albo Dear Readers zamiast niego",
+          "0 za element formy „elementy typowe dla formy”",
+          "wpisz tytuł nad tekstem, zanim przepiszesz resztę na czysto"
+        ],
+        [
+          "rozprawka zamiast artykułu: There are many advantages and disadvantages…",
+          "wstęp typowy dla innej formy: najwyżej 1 pkt",
+          "zacznij od pytania, scenki albo faktu"
+        ],
+        [
+          "wstęp listowy albo zapowiedź: Dear readers! In this article I will write about…",
+          "wstęp najwyżej 1 pkt",
+          "od razu do rzeczy, bez powitań"
+        ],
+        [
+          "cała historia opowiedziana już we wstępie",
+          "fragment liczy się albo jako wstęp, albo jako element, nie jako oba",
+          "we wstępie tylko zajawka"
+        ],
+        [
+          "element tylko wymieniony albo lista pomysłów",
+          "element najwyżej 1 pkt",
+          "dwa pomysły, każdy z wyjaśnieniem i przykładem"
+        ],
+        [
+          "zakończenie I hope you enjoyed… / Write in the comments!",
+          "zakończenie najwyżej 1 pkt",
+          "wróć do haka i daj wniosek"
+        ],
+        [
+          "styl jak w rozmowie: guys, super cool, thx, emotki",
+          "możesz stracić 1 pkt za zakres; thx to błąd ortograficzny",
+          "żywo, ale rzeczowo"
+        ],
+        [
+          "relacja z wydarzenia, które dopiero będzie, choć polecenie mówi o przeszłości",
+          "element najwyżej 1 pkt (tak oceniano w 2024 r.)",
+          "sprawdź w poleceniu, w jakim czasie masz pisać"
+        ]
+      ]
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "podkreśl",
+          "text_pl": "W poleceniu zaznacz oba elementy i każde słowo, które zawęża temat."
+        },
+        {
+          "step_pl": "wybierz hak",
+          "text_pl": "Pytanie, scenka, fakt albo cytat. Najlepiej taki, który łączy się z elementem 1."
+        },
+        {
+          "step_pl": "po dwa konkrety",
+          "text_pl": "Do każdego elementu zapisz dwa konkrety: szczegół, przykład albo skutek."
+        },
+        {
+          "step_pl": "zakończenie",
+          "text_pl": "Zdecyduj od razu, do czego z haka wrócisz na końcu."
+        },
+        {
+          "step_pl": "tytuł i liczenie",
+          "text_pl": "Po szkicu wymyśl tytuł i wpisz go nad tekstem w czystopisie. Policz wyrazy i celuj w 200–250. Poniżej 180 albo powyżej 280 tracisz element formy „długość”, a poniżej 160 oceniana jest tylko zgodność z poleceniem."
+        }
+      ]
+    }
+  ]
+}

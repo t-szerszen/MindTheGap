@@ -1,0 +1,238 @@
+{
+  "id": "collocations-education",
+  "category": "collocations",
+  "title_pl": "Kolokacje: edukacja",
+  "items": [
+    {
+      "en": "take / sit an exam",
+      "pl": "zdawać egzamin, podchodzić do egzaminu",
+      "meaning_pl": "Pułapka: polskie „zdawać” (pisać egzamin) to take albo brytyjskie sit. Pass znaczy już „zdać”, czyli z wynikiem pozytywnym. „I'm passing my exam tomorrow” to błąd.",
+      "example": {
+        "en": "Next May I'll be sitting my matura exams, so I've already started revising.",
+        "pl": "W maju przyszłego roku będę zdawać maturę, więc już zacząłem powtarzać materiał."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "egzaminy", "pułapka", "BrE"]
+    },
+    {
+      "en": "pass / fail an exam",
+      "pl": "zdać / oblać egzamin",
+      "meaning_pl": "pass = zdać, fail = nie zdać, oblać. Po oblanym egzaminie możesz go resit (BrE) albo retake, czyli poprawiać. Zdać śpiewająco = pass with flying colours.",
+      "example": {
+        "en": "He failed the maths exam in May, so he has to resit it in August.",
+        "pl": "W maju oblał egzamin z matematyki, więc w sierpniu musi go poprawiać."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "egzaminy"]
+    },
+    {
+      "en": "revise for an exam",
+      "pl": "powtarzać materiał do egzaminu",
+      "meaning_pl": "revise (BrE) = powtarzać przed sprawdzianem, a revision = powtórka. Uwaga: revise znaczy też „poprawić, zmienić”, np. revise a plan. W AmE mówi się raczej review albo study for.",
+      "example": {
+        "en": "I've been revising for the mock exams every evening this week.",
+        "pl": "Przez cały ten tydzień co wieczór powtarzam materiał do próbnych egzaminów."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "egzaminy", "BrE"]
+    },
+    {
+      "en": "make progress (in / with sth)",
+      "pl": "robić postępy (w czymś)",
+      "meaning_pl": "Czasownik make, nie do. Progress jest niepoliczalne: nie „a progress” ani „progresses”. Często z przymiotnikiem: make good / rapid / steady progress.",
+      "example": {
+        "en": "I've made a lot of progress in English since I started watching films without subtitles.",
+        "pl": "Zrobiłem duże postępy w angielskim, odkąd zacząłem oglądać filmy bez napisów."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "nauka", "pułapka"]
+    },
+    {
+      "en": "attend classes / lectures",
+      "pl": "chodzić na zajęcia / wykłady, uczęszczać na zajęcia",
+      "meaning_pl": "attend łączy się bezpośrednio z rzeczownikiem, bez to. Attend to sth znaczy coś innego: zająć się czymś. W luźnej rozmowie częściej go to classes.",
+      "example": {
+        "en": "Students who regularly attend classes usually get better results.",
+        "pl": "Uczniowie, którzy regularnie chodzą na zajęcia, zwykle osiągają lepsze wyniki."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "szkoła", "studia", "pułapka"]
+    },
+    {
+      "en": "get good marks (in sth)",
+      "pl": "dostawać dobre oceny (z czegoś)",
+      "meaning_pl": "mark = ocena, stopień (BrE), w AmE grade. Ocena z przedmiotu: a mark in maths, za konkretną pracę: a mark for an essay. Full marks = maksymalna liczba punktów.",
+      "example": {
+        "en": "If you want to get good marks in English, you need to read a lot.",
+        "pl": "Jeśli chcesz dostawać dobre oceny z angielskiego, musisz dużo czytać."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "szkoła", "BrE"]
+    },
+    {
+      "en": "meet / miss a deadline",
+      "pl": "dotrzymać terminu / nie dotrzymać terminu (nie zdążyć na czas)",
+      "meaning_pl": "deadline = ostateczny termin oddania czegoś. meet = zmieścić się w terminie, miss = nie zdążyć. Przesunąć termin = extend the deadline.",
+      "example": {
+        "en": "I stayed up late to meet the deadline for my history project.",
+        "pl": "Siedziałem do późna, żeby zdążyć w terminie z projektem z historii."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "szkoła", "studia"]
+    },
+    {
+      "en": "do a degree (in sth)",
+      "pl": "studiować (jakiś kierunek)",
+      "meaning_pl": "do a degree in law = studiować prawo (BrE). Get a degree = zdobyć dyplom. Ukończyć studia = graduate (from university). W BrE graduate mówi się raczej o studiach, a szkołę średnią się leave albo finish.",
+      "example": {
+        "en": "My sister is doing a degree in psychology in Kraków.",
+        "pl": "Moja siostra studiuje psychologię w Krakowie."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "studia", "BrE"]
+    },
+    {
+      "en": "acquire / gain knowledge",
+      "pl": "zdobywać wiedzę",
+      "meaning_pl": "Dobre do rozprawki. Acquire brzmi bardziej oficjalnie niż gain. Knowledge jest niepoliczalne, bez -s. Wyjątek: a good knowledge of sth = dobra znajomość czegoś.",
+      "example": {
+        "en": "Students should not only acquire knowledge but also learn how to use it in practice.",
+        "pl": "Uczniowie powinni nie tylko zdobywać wiedzę, ale też uczyć się wykorzystywać ją w praktyce."
+      },
+      "register": "formal",
+      "tags": ["verb+noun", "nauka", "rozprawka"]
+    },
+    {
+      "en": "develop / improve your skills",
+      "pl": "rozwijać / poprawiać swoje umiejętności",
+      "meaning_pl": "skills = konkretne umiejętności, zwykle w liczbie mnogiej. Typowe rodzaje: communication skills, social skills, problem-solving skills.",
+      "example": {
+        "en": "Group projects help students develop their communication skills.",
+        "pl": "Projekty grupowe pomagają uczniom rozwijać umiejętności komunikacyjne."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "nauka", "rozprawka"]
+    },
+    {
+      "en": "do well / badly (in an exam)",
+      "pl": "dobrze / źle wypaść (na egzaminie)",
+      "meaning_pl": "Po do stoi przysłówek well, nie przymiotnik good. Do good znaczy coś innego: robić dobre uczynki. W BrE in an exam, w AmE raczej on a test. Też: do well at school.",
+      "example": {
+        "en": "She did really well in her final exams and got into medical school.",
+        "pl": "Świetnie poszły jej egzaminy końcowe i dostała się na medycynę."
+      },
+      "register": "neutral",
+      "tags": ["verb+adverb", "egzaminy", "pułapka"]
+    },
+    {
+      "en": "fail miserably",
+      "pl": "ponieść sromotną porażkę, polec z kretesem",
+      "meaning_pl": "miserably wzmacnia fail: nie tylko się nie udało, ale wyszło fatalnie. Pasuje do egzaminu, planu, próby, dobrze brzmi w opowiadaniu.",
+      "example": {
+        "en": "I tried to learn all the irregular verbs in one night and failed miserably.",
+        "pl": "Próbowałem nauczyć się wszystkich czasowników nieregularnych w jedną noc i poległem na całej linii."
+      },
+      "register": "neutral",
+      "tags": ["verb+adverb", "nauka", "opowiadanie"]
+    },
+    {
+      "en": "state school / private school",
+      "pl": "szkoła publiczna (państwowa) / szkoła prywatna",
+      "meaning_pl": "Pułapka: w Anglii public school to elitarna, płatna szkoła prywatna, np. Eton. Szkoła publiczna po brytyjsku to state school. W AmE public school znaczy właśnie szkołę państwową.",
+      "example": {
+        "en": "Most teenagers in Poland go to state schools, which are free.",
+        "pl": "Większość nastolatków w Polsce chodzi do szkół publicznych, które są bezpłatne."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "szkoła", "pułapka", "BrE"]
+    },
+    {
+      "en": "compulsory education / a compulsory subject",
+      "pl": "obowiązek szkolny / przedmiot obowiązkowy",
+      "meaning_pl": "compulsory = obowiązkowy, wymagany przepisami. Przeciwieństwo: optional. Obligatory znaczy to samo, ale brzmi formalniej i o przedmiotach szkolnych mówi się raczej compulsory.",
+      "example": {
+        "en": "In Poland, maths is a compulsory subject in the matura exam.",
+        "pl": "W Polsce matematyka jest przedmiotem obowiązkowym na maturze."
+      },
+      "register": "neutral",
+      "tags": ["adj+noun", "szkoła", "system edukacji"]
+    },
+    {
+      "en": "higher education",
+      "pl": "szkolnictwo wyższe, studia",
+      "meaning_pl": "Wszystko po szkole średniej: uczelnie i studia. Nie „high education”. Zwykle bez przedimka: go into higher education. Niższe szczeble: primary education, secondary education.",
+      "example": {
+        "en": "More and more young people are going into higher education, but not all of them find good jobs afterwards.",
+        "pl": "Coraz więcej młodych ludzi idzie na studia, ale nie wszyscy znajdują potem dobrą pracę."
+      },
+      "register": "neutral",
+      "tags": ["adj+noun", "studia", "system edukacji"]
+    },
+    {
+      "en": "extracurricular activities",
+      "pl": "zajęcia pozalekcyjne",
+      "meaning_pl": "curriculum = program nauczania, extra = poza nim. Kółka, sport, wolontariat, szkolny teatr. Po brytyjsku pisze się też z łącznikiem: extra-curricular.",
+      "example": {
+        "en": "Extracurricular activities such as the debating club help students build confidence.",
+        "pl": "Zajęcia pozalekcyjne, takie jak klub debat, pomagają uczniom nabrać pewności siebie."
+      },
+      "register": "neutral",
+      "tags": ["adj+noun", "szkoła"]
+    },
+    {
+      "en": "tuition fees",
+      "pl": "czesne, opłaty za naukę",
+      "meaning_pl": "tuition = nauczanie, fees = opłaty. Czesne za studia albo za szkołę prywatną, zwykle w liczbie mnogiej. Typowo pay tuition fees.",
+      "example": {
+        "en": "In England, students have to pay tuition fees, while in Poland full-time courses at public universities are free.",
+        "pl": "W Anglii studenci muszą płacić czesne, a w Polsce studia stacjonarne na uczelniach publicznych są bezpłatne."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "studia", "pieniądze", "BrE"]
+    },
+    {
+      "en": "private tuition",
+      "pl": "korepetycje",
+      "meaning_pl": "Niepoliczalne, bez -s i bez a. Można też powiedzieć private lessons, a korepetytor to a tutor. Nie myl z tuition fees, czyli czesnym.",
+      "example": {
+        "en": "Lots of parents pay for private tuition before the matura exam.",
+        "pl": "Wielu rodziców płaci za korepetycje przed maturą."
+      },
+      "register": "neutral",
+      "tags": ["adj+noun", "nauka", "BrE"]
+    },
+    {
+      "en": "distance learning",
+      "pl": "nauczanie zdalne, nauka na odległość",
+      "meaning_pl": "Nauka bez chodzenia do szkoły czy na uczelnię, dziś zwykle przez internet. Bliskie: online learning, remote learning. Przeciwieństwo: face-to-face classes.",
+      "example": {
+        "en": "During the pandemic, schools switched to distance learning almost overnight.",
+        "pl": "W czasie pandemii szkoły niemal z dnia na dzień przeszły na nauczanie zdalne."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "szkoła", "technologia"]
+    },
+    {
+      "en": "a heavy workload",
+      "pl": "duże obciążenie pracą, nawał nauki",
+      "meaning_pl": "workload = ilość pracy do zrobienia, pisane razem. Duża to heavy, mała to light. Pasuje do rozprawki o stresie uczniów.",
+      "example": {
+        "en": "Many students complain about a heavy workload in their final year.",
+        "pl": "Wielu uczniów narzeka na nawał nauki w ostatniej klasie."
+      },
+      "register": "neutral",
+      "tags": ["adj+noun", "szkoła", "stres"]
+    },
+    {
+      "en": "a steep learning curve",
+      "pl": "dużo nowego do opanowania w krótkim czasie",
+      "meaning_pl": "Pułapka: steep (stromy) nie znaczy tu, że idzie łatwo i szybko w górę, tylko że trzeba się szybko dużo nauczyć i na początku jest trudno. Mówi się o nowej szkole, studiach, pracy.",
+      "example": {
+        "en": "The first months at university were a steep learning curve for me, as I had to organise my own time.",
+        "pl": "Pierwsze miesiące studiów to była dla mnie szybka i trudna nauka, bo musiałem sam organizować sobie czas."
+      },
+      "register": "neutral",
+      "tags": ["adj+noun", "studia", "pułapka"]
+    }
+  ]
+}

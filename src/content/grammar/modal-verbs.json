@@ -1,0 +1,208 @@
+{
+  "id": "modal-verbs",
+  "title_pl": "Czasowniki modalne",
+  "note_pl": "must, should, can, might… — co znaczą i czym się różnią",
+  "chooseTitle_pl": "Jak wybrać czasownik?",
+  "defaultSubtype": "obl",
+  "practiceTag": "modal-verbs",
+  "theoryTopic": "modal-verbs",
+  "subtypes": [
+    {
+      "id": "obl",
+      "label": "obowiązek",
+      "name": "Obowiązek i zakaz",
+      "desc_pl": "must, have to, should, mustn't, don't have to",
+      "time_pl": "teraz / ogólnie",
+      "scale": {
+        "left": "zakaz",
+        "right": "obowiązek",
+        "ticks": ["mustn't", "don't have to", "should", "must / have to"],
+        "on": [0, 1, 2, 3],
+        "ring": null
+      },
+      "formula": [
+        {
+          "key": "+",
+          "text": "[s:Subject] + [a:must / have to] + [v:V1]"
+        },
+        {
+          "key": "−",
+          "text": "[s:Subject] + [a:must][n:n't] + [v:V1] (nie wolno)"
+        },
+        {
+          "key": "−",
+          "text": "[s:Subject] + [a:do][n:n't] [a:have to] + [v:V1] (nie trzeba)"
+        }
+      ],
+      "usage_pl": [
+        "[k:must] — zwykle obowiązek od mówiącego, zasady pisane",
+        "[k:have to] — zwykle obowiązek z zewnątrz (szkoła, prawo)",
+        "[k:mustn't] = nie wolno · [k:don't have to] = nie trzeba",
+        "w przeszłości → [k:had to], bo must nie ma formy przeszłej"
+      ],
+      "signals": ["must", "have to", "mustn't", "don't have to", "should", "ought to"],
+      "examples": [
+        {
+          "en": "You [a:must] [v:wear] a seatbelt.",
+          "pl": "Musisz zapiąć pasy."
+        },
+        {
+          "en": "You [a:must][n:n't] [v:use] phones during the exam.",
+          "pl": "Na egzaminie nie wolno używać telefonów."
+        },
+        {
+          "en": "You [a:do][n:n't] [a:have to] [v:come] — it's optional.",
+          "pl": "Nie musisz przychodzić — to nieobowiązkowe."
+        }
+      ],
+      "steps": [
+        "Zakaz, brak obowiązku, rada czy obowiązek?",
+        "[k:mustn't] i [k:don't have to] to nie to samo — najczęstsza pułapka na maturze.",
+        "[a:must] / [a:should] + [v:V1] bez „to” (z „to”: [a:have to], [a:ought to])."
+      ]
+    },
+    {
+      "id": "prob",
+      "label": "pewność",
+      "name": "Prawdopodobieństwo",
+      "desc_pl": "jak bardzo jesteś pewny?",
+      "time_pl": "teraz i przeszłość",
+      "scale": {
+        "left": "na pewno nie",
+        "right": "na pewno",
+        "ticks": ["can't", "might / could", "should", "must"],
+        "on": [0, 1, 2, 3],
+        "ring": null
+      },
+      "formula": [
+        {
+          "key": "teraz",
+          "text": "[s:Subject] + [a:must / might / can't] + [v:V1]"
+        },
+        {
+          "key": "przeszłość",
+          "text": "[s:Subject] + [a:must / might / can't] + [a:have] + [v:V3]"
+        }
+      ],
+      "usage_pl": [
+        "wnioskowanie o teraz — [k:must] (na pewno), [k:can't] (na pewno nie)",
+        "o przeszłości: modal + [a:have] + [v:V3]",
+        "przeczenie pewności to [k:can't], nie [k:mustn't]"
+      ],
+      "signals": ["must", "might", "may", "could", "can't", "must have"],
+      "examples": [
+        {
+          "en": "She [a:must] [v:be] tired — she's been working all day.",
+          "pl": "Musi być zmęczona — cały dzień pracuje."
+        },
+        {
+          "en": "He [a:can][n:'t] [a:have] [v:seen] us.",
+          "pl": "Na pewno nas nie widział."
+        },
+        {
+          "en": "It [a:might] [v:rain] later.",
+          "pl": "Później może padać."
+        }
+      ],
+      "steps": [
+        "Zgadujesz albo wnioskujesz? Jak bardzo jesteś pewny?",
+        "Teraz → modal + V1; przeszłość → modal + have + V3.",
+        "[a:must] / [a:might] / [a:can't] + [a:have] + [v:V3] → must have forgotten."
+      ]
+    },
+    {
+      "id": "abil",
+      "label": "umiejętność",
+      "name": "Umiejętność",
+      "desc_pl": "can, could, be able to",
+      "time_pl": "przeszłość · teraz · przyszłość",
+      "scale": {
+        "left": "przeszłość",
+        "right": "przyszłość",
+        "ticks": ["could", "was able to", "can", "will be able to"],
+        "on": [0, 1, 2, 3],
+        "ring": null
+      },
+      "formula": [
+        {
+          "key": "teraz",
+          "text": "[s:Subject] + [a:can] + [v:V1]"
+        },
+        {
+          "key": "przeszłość",
+          "text": "[s:Subject] + [a:could / was able to] + [v:V1]"
+        },
+        {
+          "key": "przyszłość",
+          "text": "[s:Subject] + [a:will be able to] + [v:V1]"
+        }
+      ],
+      "usage_pl": [
+        "[k:could] — ogólna umiejętność w przeszłości",
+        "[k:was able to] / [k:managed to] — udało się w konkretnej sytuacji",
+        "w przeczeniu [k:couldn't] pasuje też do konkretnej sytuacji: I couldn't find a taxi."
+      ],
+      "signals": ["can", "could", "be able to", "managed to"],
+      "examples": [
+        {
+          "en": "I [a:could] [v:swim] when I was five.",
+          "pl": "Umiałem pływać, kiedy miałem pięć lat."
+        },
+        {
+          "en": "Luckily, we [a:were able to] [v:find] a taxi.",
+          "pl": "Na szczęście udało nam się znaleźć taksówkę."
+        }
+      ],
+      "steps": [
+        "Ogólna umiejętność czy jedna konkretna sytuacja?",
+        "Konkretny sukces w przeszłości → was able to / managed to.",
+        "[a:can] / [a:could] + [v:V1]; w innych czasach [a:be able to]."
+      ]
+    },
+    {
+      "id": "req",
+      "label": "prośby",
+      "name": "Prośby i pozwolenie",
+      "desc_pl": "od luźnego do formalnego",
+      "time_pl": "rozmowa i e-mail",
+      "scale": {
+        "left": "luźno",
+        "right": "formalnie",
+        "ticks": ["Can I…?", "Could I…?", "May I…?", "Would you mind…?"],
+        "on": [0, 1, 2, 3],
+        "ring": null
+      },
+      "formula": [
+        {
+          "key": "?",
+          "text": "[a:Can / Could / May] + [s:I] + [v:V1]?"
+        },
+        {
+          "key": "?",
+          "text": "[a:Would] [s:you] [v:mind] + [v:V-ing]?"
+        }
+      ],
+      "usage_pl": [
+        "prośba o pozwolenie — [k:Can I…?] (luźno), [k:May I…?] (formalnie)",
+        "prośba do kogoś — [k:Could you…?], [k:Would you mind…?]",
+        "na [k:Would you mind…?] zgoda to „No, not at all” — pytasz, czy komuś to przeszkadza"
+      ],
+      "signals": ["Can I", "Could you", "May I", "Would you mind"],
+      "examples": [
+        {
+          "en": "[a:Could] you [v:open] the window, please?",
+          "pl": "Czy mógłbyś otworzyć okno?"
+        },
+        {
+          "en": "[a:Would] you [v:mind] [v:waiting] a moment?",
+          "pl": "Czy mógłbyś chwilę poczekać?"
+        }
+      ],
+      "steps": [
+        "Do kogo mówisz — kolega czy egzaminator, e-mail formalny?",
+        "Im bardziej formalnie, tym dalej w prawo na skali.",
+        "[a:Would] you [v:mind] + [v:V-ing]? → Would you mind closing the door?"
+      ]
+    }
+  ]
+}

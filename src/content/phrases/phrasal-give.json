@@ -1,0 +1,205 @@
+{
+  "id": "phrasal-give",
+  "category": "phrasal-verbs",
+  "title_pl": "Phrasal verbs z give",
+  "items": [
+    {
+      "en": "give up (stop trying)",
+      "pl": "poddać się, dać sobie spokój",
+      "meaning_pl": "przestajesz próbować, bo coś jest za trudne. Tu nie ma dopełnienia, więc nie ma czego rozdzielać. Typowe: I give up, tell me the answer. Nie myl z give in: give up = przestajesz próbować, give in = przestajesz się komuś opierać",
+      "example": {
+        "en": "The last question was so hard that I nearly gave up, but in the end I solved it.",
+        "pl": "Ostatnie zadanie było tak trudne, że prawie się poddałem, ale w końcu je rozwiązałem."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "szkoła"]
+    },
+    {
+      "en": "give sth up / give up sth (a habit)",
+      "pl": "rzucić (nałóg), przestać coś robić",
+      "meaning_pl": "przestajesz coś regularnie robić albo jeść: give up smoking, give up sugar. Czynność to forma -ing po up: give up eating meat, nigdy *give up to eat. Rzeczownik przed albo po up, ale zaimek tylko w środku: give it up, nigdy *give up it",
+      "example": {
+        "en": "My grandad gave up smoking after forty years, and now he feels much better.",
+        "pl": "Dziadek rzucił palenie po czterdziestu latach i teraz czuje się dużo lepiej."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "zdrowie", "nawyki"]
+    },
+    {
+      "en": "give sth up / give up sth (a job, a plan)",
+      "pl": "zrezygnować z czegoś",
+      "meaning_pl": "świadomie rezygnujesz z czegoś, co masz albo planujesz: give up a job, give up a place at university, give up the idea of studying abroad. Zaimek w środku: give it up. Przeciwieństwo dla hobby: take sth up",
+      "example": {
+        "en": "She gave up a well-paid job in Warsaw to open a small café in her home town.",
+        "pl": "Zrezygnowała z dobrze płatnej pracy w Warszawie, żeby otworzyć małą kawiarnię w rodzinnym mieście."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "praca", "plany"]
+    },
+    {
+      "en": "give up your seat (to sb)",
+      "pl": "ustąpić (komuś) miejsca",
+      "meaning_pl": "oddajesz komuś swoje miejsce, np. w autobusie. Up oznacza tu, że coś oddajesz. Osoba po to: give up your seat to an elderly man. Zaimek w środku: give it up",
+      "example": {
+        "en": "A teenage boy gave up his seat to an elderly woman on the crowded tram.",
+        "pl": "Nastolatek ustąpił miejsca starszej pani w zatłoczonym tramwaju."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "transport", "zachowanie"]
+    },
+    {
+      "en": "give up your (free) time (to do sth)",
+      "pl": "poświęcić swój (wolny) czas (na coś)",
+      "meaning_pl": "oddajesz swój czas innym, zamiast wykorzystać go dla siebie. Bardzo przydatne w tekstach o wolontariacie. Cel po to + bezokolicznik: give up your time to help",
+      "example": {
+        "en": "My mum gives up two evenings a week to help at the local food bank.",
+        "pl": "Mama poświęca dwa wieczory w tygodniu na pomoc w lokalnym banku żywności."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "wolontariat", "społeczeństwo"]
+    },
+    {
+      "en": "give up on sb/sth",
+      "pl": "stracić wiarę w kogoś/coś, spisać kogoś na straty",
+      "meaning_pl": "przestajesz wierzyć, że ktoś się zmieni albo że coś się uda. Phrasal verb z trzech części jest nierozdzielny: dopełnienie zawsze na końcu, po on: give up on him, give up on your dreams",
+      "example": {
+        "en": "Everyone had given up on Tomek, but he worked hard and passed all his exams.",
+        "pl": "Wszyscy postawili już na Tomku krzyżyk, ale ciężko pracował i zdał wszystkie egzaminy."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "relacje", "szkoła"]
+    },
+    {
+      "en": "give yourself up (to the police)",
+      "pl": "oddać się w ręce policji, poddać się",
+      "meaning_pl": "przestępca sam zgłasza się na policję. Zaimek zwrotny (myself, himself) zawsze stoi w środku: he gave himself up. Z inną osobą: give sb up to the police = wydać kogoś policji",
+      "example": {
+        "en": "After two days on the run, the thief gave himself up to the police.",
+        "pl": "Po dwóch dniach ucieczki złodziej sam oddał się w ręce policji."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "przestępczość"]
+    },
+    {
+      "en": "give sth back / give back sth (to sb)",
+      "pl": "oddać, zwrócić coś (komuś)",
+      "meaning_pl": "zwracasz coś, co pożyczyłeś albo zabrałeś. Zaimek tylko w środku: give it back, nigdy *give back it. Z osobą: give me my phone back albo give it back to me",
+      "example": {
+        "en": "I lent Ola my calculator last week and she still hasn't given it back.",
+        "pl": "Pożyczyłem Oli kalkulator w zeszłym tygodniu, a ona wciąż mi go nie oddała."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "szkoła", "codzienność"]
+    },
+    {
+      "en": "give something back (to the community)",
+      "pl": "odwdzięczyć się (społeczności), zrobić coś dla innych",
+      "meaning_pl": "robisz coś dobrego dla ludzi albo miejsca, któremu coś zawdzięczasz. Zwykle z samym something w środku: give something back. Można też bez dopełnienia: give back to the community",
+      "example": {
+        "en": "Many famous footballers give something back by setting up charities in the towns where they grew up.",
+        "pl": "Wielu znanych piłkarzy odwdzięcza się, zakładając fundacje w miastach, w których dorastali."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "społeczeństwo", "wolontariat"]
+    },
+    {
+      "en": "give sth away / give away sth (for free)",
+      "pl": "oddać, rozdać coś (za darmo)",
+      "meaning_pl": "pozbywasz się czegoś, nie biorąc pieniędzy: give away old clothes. Zaimek w środku: give them away. Od tego rzeczownik a giveaway, czyli darmowy gratis albo konkurs z nagrodą",
+      "example": {
+        "en": "When we moved house, we gave away most of my old toys to a children's home.",
+        "pl": "Kiedy się przeprowadzaliśmy, oddaliśmy większość moich starych zabawek do domu dziecka."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "dom", "zakupy"]
+    },
+    {
+      "en": "give sth/sb away (reveal)",
+      "pl": "zdradzić (sekret), wydać kogoś",
+      "meaning_pl": "ujawniasz coś, co miało zostać tajemnicą, często niechcący: give away a secret, give away the ending. Z osobą: coś pokazuje, że ktoś kłamie albo coś ukrywa. Zaimek w środku: it gave him away. W BrE idiom: give the game away (wygadać się)",
+      "example": {
+        "en": "Kuba said he hadn't eaten the cake, but the chocolate on his face gave him away.",
+        "pl": "Kuba twierdził, że nie zjadł ciasta, ale zdradziła go czekolada na twarzy."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "sekrety", "relacje"]
+    },
+    {
+      "en": "give away a goal / a penalty (sport)",
+      "pl": "stracić gola przez błąd, sprokurować rzut karny",
+      "meaning_pl": "przez głupi błąd dajesz przewagę rywalom. Ten sam ruch co 'oddać za darmo', tylko w meczu. Formalniej: concede a goal. Zaimek w środku: give it away",
+      "example": {
+        "en": "Our defender gave away a penalty in the last minute, and we lost 2-1.",
+        "pl": "Nasz obrońca sprokurował rzut karny w ostatniej minucie i przegraliśmy 2:1."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "sport"]
+    },
+    {
+      "en": "give in (to sb/sth)",
+      "pl": "ustąpić, ulec (komuś/czemuś)",
+      "meaning_pl": "po kłótni albo naciskach przestajesz się opierać i zgadzasz się: give in to pressure, give in to temptation. Bez dopełnienia bezpośredniego: osoba albo rzecz zawsze po to, nie między give a in",
+      "example": {
+        "en": "After a week of arguing, my parents finally gave in and let me go to the festival.",
+        "pl": "Po tygodniu kłótni rodzice w końcu ustąpili i pozwolili mi pojechać na festiwal."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "rodzina", "emocje"]
+    },
+    {
+      "en": "give sth in / give in sth (BrE: work)",
+      "pl": "oddać (pracę, wypracowanie), złożyć",
+      "meaning_pl": "brytyjski odpowiednik hand in: oddajesz pracę nauczycielowi do sprawdzenia. Hand in jest częstsze. Pułapka: z dopełnieniem (give your essay in) to oddać pracę, bez dopełnienia (give in) to ulec. Zaimek w środku: give it in",
+      "example": {
+        "en": "We have to give our history essays in by Friday.",
+        "pl": "Musimy oddać wypracowania z historii do piątku."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "szkoła"]
+    },
+    {
+      "en": "give sth out / give out sth (distribute)",
+      "pl": "rozdać, rozdawać (wielu osobom)",
+      "meaning_pl": "dajesz coś po kolei wielu ludziom: give out leaflets, give out the test papers. To samo co hand out. Różnica z give away: out = rozdajesz wielu osobom, away = pozbywasz się czegoś za darmo. Zaimek w środku: give them out",
+      "example": {
+        "en": "Volunteers were giving out leaflets about recycling outside the station.",
+        "pl": "Wolontariusze rozdawali ulotki o recyklingu przed dworcem."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "szkoła", "środowisko"]
+    },
+    {
+      "en": "give out sth (information, personal details)",
+      "pl": "podawać, ujawniać (informacje, dane)",
+      "meaning_pl": "przekazujesz informacje innym osobom: give out personal details, give out your address. Typowe w tekstach o bezpieczeństwie w sieci. Rzeczownik zwykle po out, zaimek w środku: give it out",
+      "example": {
+        "en": "Never give out your password or home address to people you meet online.",
+        "pl": "Nigdy nie podawaj hasła ani adresu domowego osobom poznanym w internecie."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "technologia", "bezpieczeństwo"]
+    },
+    {
+      "en": "give out (stop working)",
+      "pl": "odmówić posłuszeństwa, wysiąść; skończyć się (o zapasach)",
+      "meaning_pl": "coś przestaje działać ze zmęczenia albo starości (my legs gave out, the engine gave out) albo coś się kończy (supplies gave out). Bez dopełnienia, więc nie da się rozdzielić. Przy zapasach częściej mówi się run out",
+      "example": {
+        "en": "Halfway through the marathon, my legs gave out and I had to walk the rest.",
+        "pl": "W połowie maratonu nogi odmówiły mi posłuszeństwa i resztę musiałem przejść."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "sport", "zdrowie"]
+    },
+    {
+      "en": "give off sth (smell, heat, gas)",
+      "pl": "wydzielać, wydawać (zapach, ciepło, gaz)",
+      "meaning_pl": "coś samo z siebie wypuszcza zapach, ciepło, światło albo gaz: give off a smell, give off heat. Rzeczownik prawie zawsze stoi po off. Zaimek szedłby w środek (give it off), ale rzadko jest potrzebny",
+      "example": {
+        "en": "Burning coal gives off gases that pollute the air we breathe.",
+        "pl": "Spalanie węgla wydziela gazy, które zanieczyszczają powietrze, którym oddychamy."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "środowisko", "nauka"]
+    }
+  ]
+}

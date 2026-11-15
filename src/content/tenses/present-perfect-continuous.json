@@ -5,202 +5,426 @@
   "group": "present",
   "aspect": "perfect-continuous",
   "tabLabel": ["Pres.", "Perf. C."],
-  "oneLiner_pl": "trwa od… do teraz — liczy się, jak długo",
+  "oneLiner_pl": "czynność ciągnie się od przeszłości do TERAZ (albo przed chwilą ustała i widać ślady): liczy się sama czynność i jak długo trwa",
   "timeline": {
     "now": 0.65,
     "marks": [
-      {
-        "kind": "span",
-        "from": 0.28,
-        "to": 0.65,
-        "label": "for… / since…"
-      }
+      { "kind": "point", "from": 0.2, "label": "since 9 a.m." },
+      { "kind": "span", "from": 0.2, "to": 0.65, "label": "for two hours" }
     ]
   },
   "howToChoose": [
     {
       "step_pl": "sygnał",
-      "text_pl": "Widzisz for, since, all day, How long…? albo widać ślady czynności (zmęczenie, mokre włosy)?"
+      "text_pl": "Szukasz: for + okres, since + punkt startowy, How long…?, all day, all morning, lately, recently. Albo widzisz ślady czynności teraz: ktoś jest zmęczony, zdyszany, ma mokre włosy albo farbę na rękach."
     },
     {
       "step_pl": "relacja w czasie",
-      "text_pl": "Czynność zaczęła się w przeszłości i trwa do teraz (albo przed chwilą się skończyła i widać skutek). Liczy się czas trwania."
+      "text_pl": "Czynność zaczęła się w przeszłości i trwa do teraz — albo przed chwilą się skończyła, a teraz widać jej skutek. Interesuje cię sama czynność i to, jak długo trwa, a nie to, co z niej wyszło."
+    },
+    {
+      "step_pl": "pułapka",
+      "text_pl": "Policzone rzeczy albo razy, gotowa całość (three essays, ten pages, twice, the whole book) → Present Perfect. Sama długość (for three hours) nie przeszkadza. Czasowniki stanu (know, be, have = mieć, like, belong) też zostają w Present Perfect: I've known her for years. Po polsku „czekam od godziny” jest w teraźniejszym, ale I'm waiting for an hour to błąd. Okres już zamknięty (yesterday, last summer) → Past Simple, nawet z for. A gdy liczysz czas do chwili w przeszłości (when she arrived) → Past Perfect Continuous."
     },
     {
       "step_pl": "forma",
-      "text_pl": "have / has been + V-ing: She has been working all day."
+      "text_pl": "have / has + been + V-ing. Przeczenie: haven't / hasn't been + V-ing. Pytanie: Have / Has + podmiot + been + V-ing?"
     }
   ],
   "forms": {
     "active": {
       "affirmative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "have / has been",
-            "role": "aux"
-          },
-          {
-            "text": "V-ing",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "have / has been", "role": "aux" },
+          { "text": "V-ing", "role": "verb" }
         ],
         "example": {
           "en": "I have been learning English for eight years.",
           "pl": "Uczę się angielskiego od ośmiu lat."
-        }
+        },
+        "note_pl": "Dwa kawałki w jednym. have / has + V3 to część Perfect: łączy przeszłość z teraz. be + V-ing to część Continuous: czynność w toku. Trzecia forma be to been, więc razem wychodzi have been + V-ing. he / she / it → has, reszta → have, a been się nie zmienia. Pisownia -ing jak w Present Continuous: write → writing, run → running. Po brytyjsku travel → travelling, po amerykańsku traveling."
       },
       "negative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "have / has",
-            "role": "aux"
-          },
-          {
-            "text": "not",
-            "role": "particle"
-          },
-          {
-            "text": "been",
-            "role": "aux"
-          },
-          {
-            "text": "V-ing",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "have / has", "role": "aux" },
+          { "text": "not", "role": "particle" },
+          { "text": "been", "role": "aux" },
+          { "text": "V-ing", "role": "verb" }
         ],
         "example": {
-          "en": "She hasn't been sleeping well lately.",
-          "pl": "Ona ostatnio źle śpi."
-        }
+          "en": "I haven't been sleeping well lately.",
+          "pl": "Ostatnio źle sypiam."
+        },
+        "note_pl": "not stawiasz po pierwszym posiłkowym, czyli po have / has, a przed been. Skróty: haven't, hasn't. Takie przeczenie często mówi, że coś ostatnio nie idzie tak, jak powinno — stąd lately i recently."
       },
       "question": {
         "pattern": [
-          {
-            "text": "Have / Has",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "been",
-            "role": "aux"
-          },
-          {
-            "text": "V-ing",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Have / Has", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "been", "role": "aux" },
+          { "text": "V-ing", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
         "example": {
-          "en": "Have you been crying?",
-          "pl": "Płakałeś?"
-        }
+          "en": "Have you been crying? Your eyes are all red.",
+          "pl": "Płakałaś? Masz całe czerwone oczy."
+        },
+        "note_pl": "Na początek idzie tylko have / has, been zostaje za podmiotem: Have you been…? Takie pytanie zadajesz często wtedy, gdy widzisz ślady czynności. Krótka odpowiedź: Yes, I have. / No, I haven't. Na końcu zdania have się nie skraca, więc nie Yes, I've."
       },
       "whQuestion": {
         "pattern": [
-          {
-            "text": "Wh-word",
-            "role": "neutral"
-          },
-          {
-            "text": "have / has",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "been",
-            "role": "aux"
-          },
-          {
-            "text": "V-ing",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Wh-word", "role": "neutral" },
+          { "text": "have / has", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "been", "role": "aux" },
+          { "text": "V-ing", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
         "example": {
-          "en": "How long have you been waiting?",
-          "pl": "Jak długo czekasz?"
-        }
+          "en": "What have you been doing? You're covered in mud!",
+          "pl": "Co ty robiłeś? Jesteś cały w błocie!"
+        },
+        "note_pl": "How long have you been…? pyta o czas od początku do teraz. What have you been doing? pyta o czynność, która wypełniała ostatni czas — często wtedy, gdy widzisz jej ślady albo dawno kogoś nie widziałeś. Gdy pytasz o podmiot (Who? What?), nie ma przestawienia: Who has been using my laptop?"
       }
     },
     "passive": null,
-    "passiveNote_pl": "Strona bierna (has been being + V3) praktycznie nie występuje. Zamiast niej użyj Present Perfect w stronie biernej: The road has been repaired."
+    "passiveNote_pl": "Forma teoretycznie istnieje: have / has been being + V3 (The road has been being repaired for months). Dwa razy be pod rząd brzmi jednak ciężko i prawie nikt tego nie używa. Gdy liczy się wynik, bierzesz Present Perfect w stronie biernej: The road has been repaired. Gdy liczy się, jak długo to trwa, przerabiasz zdanie na stronę czynną: They have been repairing the road for months. Często pasuje też under repair albo under construction: The bridge has been under repair since May."
   },
+  "modals": [
+    {
+      "modal": "must have been",
+      "pattern": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "must", "role": "aux" },
+        { "text": "have been", "role": "aux" },
+        { "text": "V-ing", "role": "verb" }
+      ],
+      "example": {
+        "en": "You look exhausted — you must have been working all night.",
+        "pl": "Wyglądasz na wykończonego — na pewno pracowałeś całą noc."
+      },
+      "note_pl": "To nie jest Present Perfect Continuous, tylko struktura modalna: must + ten sam kawałek have been + V-ing. Wnioskujesz z dowodów, że coś trwało — często długo. Po must nie postawisz has, więc zostaje have, nawet przy he / she. Inaczej niż sam czas, ta struktura może dotyczyć też zamkniętej przeszłości: He must have been driving too fast when he crashed."
+    },
+    {
+      "modal": "can't have been",
+      "pattern": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "can't", "role": "aux" },
+        { "text": "have been", "role": "aux" },
+        { "text": "V-ing", "role": "verb" }
+      ],
+      "example": {
+        "en": "She can't have been revising all afternoon — her books are still in her bag.",
+        "pl": "Niemożliwe, żeby powtarzała materiał całe popołudnie — książki ma wciąż w plecaku."
+      },
+      "note_pl": "Struktura modalna: pewność, że coś NIE trwało. W brytyjskim przeczeniem od must have jest can't have albo couldn't have, a nie mustn't have. W amerykańskim usłyszysz też must not have been (She must not have been studying). revise to brytyjskie „powtarzać do egzaminu”, po amerykańsku study albo review."
+    },
+    {
+      "modal": "might / could have been",
+      "pattern": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "might / could", "role": "aux" },
+        { "text": "have been", "role": "aux" },
+        { "text": "V-ing", "role": "verb" }
+      ],
+      "example": {
+        "en": "Check your phone — your parents might have been trying to call you.",
+        "pl": "Sprawdź telefon — może rodzice próbowali się do ciebie dodzwonić."
+      },
+      "note_pl": "Struktura modalna: przypuszczenie, że coś mogło trwać, ale nie masz pewności. might i could są tu prawie wymienne."
+    }
+  ],
   "uses": [
     {
-      "title_pl": "Trwa od… do teraz",
-      "explanation_pl": "Czynność zaczęła się w przeszłości i dalej trwa.",
+      "title_pl": "Trwa od… do teraz (for / since / How long)",
+      "explanation_pl": "Czynność zaczęła się w przeszłości i dalej trwa. for + okres (for two hours, for ages), since + punkt startowy (since 9 a.m., since Monday, since I was ten). How long…? pyta o cały ten odcinek. Polski nie ma osobnej formy na „od przeszłości do teraz”, więc mówisz w teraźniejszym („czekam od godziny”). Angielski ma — i to jest właśnie ta forma.",
       "examples": [
         {
-          "en": "It has been raining all day.",
-          "pl": "Pada (już) cały dzień."
+          "en": "We've been sitting in this traffic jam for forty minutes.",
+          "pl": "Stoimy w tym korku od czterdziestu minut."
+        },
+        {
+          "en": "Ola has been dancing since she was six.",
+          "pl": "Ola tańczy od szóstego roku życia."
+        },
+        { "en": "How long have you been waiting?", "pl": "Jak długo już czekasz?" }
+      ]
+    },
+    {
+      "title_pl": "Ostatnio: lately / recently",
+      "explanation_pl": "lately i recently obejmują okres od niedawna do teraz. Mówisz o czymś, co ostatnio trwa albo ciągle się powtarza — często z troską albo z pretensją. W przeczeniu: coś ostatnio nie działa tak, jak powinno.",
+      "examples": [
+        {
+          "en": "My brother has been spending far too much time on his phone lately.",
+          "pl": "Mój brat ostatnio o wiele za dużo siedzi w telefonie."
+        },
+        {
+          "en": "Have you been going to the gym recently? You look really fit.",
+          "pl": "Chodzisz ostatnio na siłownię? Jesteś w świetnej formie."
+        },
+        {
+          "en": "I've been thinking a lot about my future lately.",
+          "pl": "Ostatnio dużo myślę o swojej przyszłości."
         }
       ]
     },
     {
-      "title_pl": "Widoczny skutek trwającej czynności",
-      "explanation_pl": "Czynność przed chwilą trwała i widać jej ślady.",
+      "title_pl": "Widoczne ślady czynności, która trwała przed chwilą",
+      "explanation_pl": "Czynność mogła się już skończyć, ale teraz widać jej ślady: zmęczenie, zadyszkę, mokre ubranie, czerwone oczy. Nie mówisz, że coś jest gotowe, tylko tłumaczysz, skąd wziął się ten stan. Dlatego tak często pada pytanie Have you been…?",
       "examples": [
         {
-          "en": "You're out of breath. Have you been running?",
-          "pl": "Brakuje ci tchu. Biegałeś?"
+          "en": "You're out of breath — have you been running?",
+          "pl": "Brakuje ci tchu — biegałeś?"
+        },
+        {
+          "en": "My eyes hurt because I've been reading in bad light.",
+          "pl": "Bolą mnie oczy, bo czytałem przy słabym świetle."
+        },
+        { "en": "The grass is wet — it's been raining.", "pl": "Trawa jest mokra — padało." }
+      ]
+    },
+    {
+      "title_pl": "Czynność, a nie wynik",
+      "explanation_pl": "Ten sam okres opiszesz na dwa sposoby. Continuous mówi o samej czynności: co robiłeś i jak długo — nie wiadomo, czy skończyłeś. Present Perfect mówi o wyniku: ile zrobiłeś, co jest gotowe. Gdy liczysz zrobione rzeczy (three essays, 20 pages, the whole book), Continuous odpada. Długość po for (for three hours) mu nie przeszkadza.",
+      "examples": [
+        {
+          "en": "I've been writing my essay all afternoon.",
+          "pl": "Piszę rozprawkę całe popołudnie (może jeszcze nie skończyłem)."
+        },
+        {
+          "en": "I've written three essays this week.",
+          "pl": "W tym tygodniu napisałem trzy rozprawki (wynik, liczba)."
+        },
+        {
+          "en": "She has been reading that novel for weeks, but she's only on chapter four.",
+          "pl": "Czyta tę powieść od tygodni, a jest dopiero na czwartym rozdziale."
+        }
+      ]
+    },
+    {
+      "title_pl": "live, work, study, teach: oba czasy prawie tak samo",
+      "explanation_pl": "Niektóre czasowniki same w sobie opisują coś długiego: live, work, study, teach. Z for i since możesz wtedy użyć Present Perfect Continuous albo Present Perfect, a różnica jest niewielka. Continuous trochę mocniej podkreśla, że to trwa, i często pasuje do sytuacji tymczasowych. Simple brzmi bardziej jak stały fakt. Z always (od zawsze, przez całe życie) bierzesz Present Perfect: I've always lived in this town, a nie I've always been living.",
+      "examples": [
+        {
+          "en": "We've lived in Gdynia since 2015.",
+          "pl": "Mieszkamy w Gdyni od 2015 roku (stały fakt)."
+        },
+        {
+          "en": "I've been living with my cousin for the last few weeks.",
+          "pl": "Od kilku tygodni mieszkam u kuzyna (na razie)."
+        },
+        {
+          "en": "My mum has been working at the same hospital for twenty years.",
+          "pl": "Mama pracuje w tym samym szpitalu od dwudziestu lat (has worked też jest dobrze)."
+        }
+      ]
+    },
+    {
+      "title_pl": "Czasowniki stanu zostają w Present Perfect",
+      "explanation_pl": "know, be, have (= mieć), like, believe, understand, belong, own opisują stan, a nie czynność. Stan nie ma „środka”, więc nie bierze -ing — także z for i since. Zostaje have / has + V3. Wyjątki są prawie te same co w Present Continuous: gdy czasownik oznacza czynność (have = jeść, brać, przeżywać; think = zastanawiać się), -ing jest w porządku. Uwaga na want i mean (= zamierzać): w tej formie brzmią naturalnie, gdy coś od dawna chcesz albo zamierzasz zrobić: I've been meaning to call you for weeks.",
+      "examples": [
+        { "en": "I've known Ola since primary school.", "pl": "Znam Olę od podstawówki." },
+        { "en": "How long have you had that cough?", "pl": "Od jak dawna masz ten kaszel?" },
+        {
+          "en": "We've been having problems with our internet connection all week.",
+          "pl": "Cały tydzień mamy problemy z internetem."
+        },
+        {
+          "en": "I've been wanting to ask you something for ages.",
+          "pl": "Od dawna chcę cię o coś zapytać."
         }
       ]
     }
   ],
   "signalWords": [
     {
-      "word": "for"
+      "word": "for",
+      "note_pl": "+ okres: for two hours, for ages. for bywa też z Past Simple, gdy czynność się skończyła (I waited for an hour yesterday), a przy stanach z Present Perfect (I've known her for years). for w innym znaczeniu (wait for, look for) niczego nie liczy."
     },
     {
-      "word": "since"
+      "word": "since",
+      "note_pl": "+ punkt startowy: since 9 a.m., since Monday. Gdy po since stoi całe zdanie, jest w nim zwykle Past Simple: since we moved here. Przy stanach Present Perfect: I've had this bike since May."
     },
     {
-      "word": "all day"
+      "word": "How long…?",
+      "note_pl": "od jak dawna? (aż do teraz). Przy stanach Present Perfect: How long have you known him? A How long does it take…? pyta, ile coś zwykle trwa → Present Simple."
     },
     {
-      "word": "How long…?"
+      "word": "all day / all morning / all week",
+      "note_pl": "cały dzień, cały ranek — a ten okres jeszcze trwa. Tak samo the whole morning. Gdy okres już minął (all day yesterday), bierzesz Past Simple albo Past Continuous. Przy stanach Present Perfect: I've been at home all day."
     },
     {
-      "word": "lately"
+      "word": "lately",
+      "note_pl": "ostatnio — zwykle na końcu zdania. Gdy liczysz wynik, mówisz o stanie albo o tym, że coś się (nie) wydarzyło → Present Perfect: I haven't seen him lately."
     },
     {
-      "word": "recently"
+      "word": "recently",
+      "note_pl": "ostatnio, od niedawna. Jedno zakończone zdarzenie (I've recently started / I recently started a new job) to Present Perfect albo Past Simple, a nie Continuous."
+    },
+    {
+      "word": "in the last few weeks / over the past few days",
+      "note_pl": "w ciągu ostatnich tygodni / dni — okres kończy się teraz. Z liczbą → Present Perfect: I've read two books in the last few weeks."
+    },
+    {
+      "word": "You look tired / out of breath",
+      "note_pl": "to nie słowo-klucz, tylko dowód w kontekście: widoczny skutek czynności, która trwała przed chwilą. You look tired — have you been working all night?"
     }
   ],
   "relatedTenses": [
     {
       "id": "present-perfect",
-      "relation_pl": "Continuous skupia się na czynności i czasie trwania, Present Perfect — na wyniku."
+      "relation_pl": "Oba łączą przeszłość z teraz. Present Perfect patrzy na wynik: co jest gotowe, ile, ile razy. Present Perfect Continuous patrzy na samą czynność i na to, jak długo trwa — nie mówi, czy się skończyła. Pytanie kontrolne: czy liczysz zrobione rzeczy albo razy (three essays, 20 pages, twice) albo mówisz, że coś jest gotowe? Tak → Present Perfect. Liczba po for (for three hours) to tylko długość czynności i Continuous nie wyklucza. Czasowniki stanu (know, be, have = mieć) idą do Present Perfect. Przy live, work, study, teach z for / since oba są dobre.",
+      "contrast": [
+        {
+          "en": "I've been reading your book — it's brilliant so far.",
+          "pl": "Czytam twoją książkę — na razie jest świetna (jeszcze nie skończyłem)."
+        },
+        {
+          "en": "I've read your book — here it is, thanks.",
+          "pl": "Przeczytałem twoją książkę — oddaję, dzięki (skończona)."
+        },
+        {
+          "en": "I've been painting the bathroom — that's why I've got paint in my hair.",
+          "pl": "Malowałem łazienkę — dlatego mam farbę we włosach (czynność, ślady)."
+        },
+        {
+          "en": "I've painted the bathroom — come and have a look!",
+          "pl": "Pomalowałem łazienkę — chodź, zobacz! (gotowe)"
+        },
+        {
+          "en": "She has been phoning hotels all morning.",
+          "pl": "Cały ranek dzwoni do hoteli (czynność)."
+        },
+        {
+          "en": "She has phoned five hotels this morning.",
+          "pl": "Dziś rano zadzwoniła do pięciu hoteli (liczba)."
+        }
+      ]
+    },
+    {
+      "id": "past-simple",
+      "relation_pl": "Pytanie kontrolne: czy ten okres sięga do teraz? Sięga (for / since liczą do dziś, czynność trwa albo przed chwilą ustała i widać ślady) → Present Perfect Continuous. Zamknął się (yesterday, last summer, in 2022 albo z kontekstu wiadomo, że już tego nie robisz) → Past Simple, nawet z for i z podaną długością. Przy for różnicę słychać też po polsku: „czekam już godzinę” (dalej czekasz) i „czekałem godzinę” (czekanie się skończyło).",
+      "contrast": [
+        {
+          "en": "I've been working at a café for two years.",
+          "pl": "Od dwóch lat pracuję w kawiarni (i dalej pracuję)."
+        },
+        {
+          "en": "I worked at a café for two years.",
+          "pl": "Przez dwa lata pracowałem w kawiarni (już nie pracuję)."
+        },
+        {
+          "en": "How long have you been waiting?",
+          "pl": "Jak długo już czekasz? (dalej czekasz)"
+        },
+        {
+          "en": "How long did you wait?",
+          "pl": "Jak długo czekałeś? (czekanie się skończyło)"
+        }
+      ]
+    },
+    {
+      "id": "present-continuous",
+      "relation_pl": "Oba opisują czynność w toku. Present Continuous patrzy tylko na teraz: co się dzieje. Present Perfect Continuous patrzy też wstecz: od kiedy i jak długo to trwa. Gdy for, since, How long albo all day liczą czas od przeszłości do teraz, Present Continuous odpada — choć po polsku mówisz w teraźniejszym. for w innym znaczeniu (wait for, save up for) nic nie zmienia, a How long are you staying? pyta o plan, więc zostaje Present Continuous.",
+      "contrast": [
+        { "en": "Look, it's snowing!", "pl": "Patrz, pada śnieg!" },
+        { "en": "It has been snowing since this morning.", "pl": "Śnieg pada od rana." },
+        { "en": "I'm learning to drive.", "pl": "Uczę się jeździć samochodem." },
+        {
+          "en": "I've been learning to drive for three months.",
+          "pl": "Uczę się jeździć od trzech miesięcy."
+        }
+      ]
+    },
+    {
+      "id": "past-perfect-continuous",
+      "relation_pl": "Ten sam mechanizm (czynność, czas trwania, ślady), tylko punktem odniesienia nie jest TERAZ, ale chwila w przeszłości. have / has cofasz do had: have been waiting → had been waiting. Jeśli w zdaniu jest moment w przeszłości (when she arrived, by the time we got there), do którego coś trwało, bierzesz Past Perfect Continuous.",
+      "contrast": [
+        {
+          "en": "I've been waiting for an hour — where are you?",
+          "pl": "Czekam już godzinę — gdzie jesteś?"
+        },
+        {
+          "en": "I had been waiting for an hour when she finally turned up.",
+          "pl": "Czekałem już godzinę, kiedy w końcu się zjawiła."
+        },
+        {
+          "en": "His clothes are wet — he has been walking in the rain.",
+          "pl": "Ma mokre ubranie — chodził w deszczu."
+        },
+        {
+          "en": "His clothes were wet — he had been walking in the rain.",
+          "pl": "Miał mokre ubranie — wcześniej chodził w deszczu."
+        }
+      ]
+    },
+    {
+      "id": "present-simple",
+      "relation_pl": "Polski czas teraźniejszy mówi i o nawyku („gram w siatkówkę dwa razy w tygodniu”), i o okresie do teraz („gram w siatkówkę od lat”). Angielski to rozdziela. Present Simple to nawyk albo fakt, bez liczenia czasu do teraz. Gdy for, since albo How long liczą okres od przeszłości do teraz → Present Perfect Continuous. Ale How long does it take…? i for w sensie „ile zwykle trwa” zostają w Present Simple: I usually sleep for seven hours.",
+      "contrast": [
+        {
+          "en": "I play volleyball twice a week.",
+          "pl": "Gram w siatkówkę dwa razy w tygodniu (nawyk)."
+        },
+        {
+          "en": "I've been playing volleyball since I was twelve.",
+          "pl": "Gram w siatkówkę od dwunastego roku życia (od wtedy do teraz)."
+        },
+        {
+          "en": "How long does the journey to Gdańsk take?",
+          "pl": "Ile trwa podróż do Gdańska? (ogólnie)"
+        },
+        {
+          "en": "How long have you been going to this school?",
+          "pl": "Od jak dawna chodzisz do tej szkoły?"
+        }
+      ]
     }
   ],
   "commonMistakes": [
     {
-      "wrong": "I have been knowing him for years.",
-      "right": "I have known him for years.",
-      "why_pl": "Czasowniki stanu (know, be, have w znaczeniu „mieć”) nie mają formy ciągłej — zostaje Present Perfect."
+      "wrong": "I'm waiting for you since six o'clock.",
+      "right": "I've been waiting for you since six o'clock.",
+      "why_pl": "Po polsku „czekam od szóstej” jest w czasie teraźniejszym. Ale since liczy czas od punktu w przeszłości do teraz, a Present Continuous tego nie umie → have been + V-ing."
+    },
+    {
+      "wrong": "How long are you learning English?",
+      "right": "How long have you been learning English?",
+      "why_pl": "„Od jak dawna?” to pytanie o okres zaczęty w przeszłości → have been + V-ing. How long are you staying? jest poprawne, ale to pytanie o plan („na jak długo?”)."
+    },
+    {
+      "wrong": "I have been knowing her for years.",
+      "right": "I have known her for years.",
+      "why_pl": "know to stan, a nie czynność. Stan nie bierze -ing, więc nawet z for / since zostaje Present Perfect. Tak samo be, have (= mieć), like, belong, understand."
+    },
+    {
+      "wrong": "I've been writing three essays this week.",
+      "right": "I've written three essays this week.",
+      "why_pl": "Liczba gotowych rzeczy to wynik → Present Perfect. Continuous mówi o samej czynności, a nie o tym, ile już masz."
+    },
+    {
+      "wrong": "She has been working here since three years.",
+      "right": "She has been working here for three years.",
+      "why_pl": "for + okres (three years, a week, ages), since + punkt startowy (2020, Monday, I was ten). Po polsku w obu przypadkach jest „od”, stąd błąd."
+    },
+    {
+      "wrong": "He has been play computer games all day.",
+      "right": "He has been playing computer games all day.",
+      "why_pl": "Po been w tej formie zawsze V-ing. been + V1 nie istnieje, a been + V3 to już strona bierna (The match has been played = mecz został rozegrany)."
+    },
+    {
+      "wrong": "I've been waiting for two hours at the doctor's yesterday.",
+      "right": "I waited for two hours at the doctor's yesterday.",
+      "why_pl": "yesterday zamyka czas w przeszłości, a Present Perfect Continuous liczy do teraz. Zakończone czekanie z podaną długością → Past Simple."
     }
   ],
   "maturaTips_pl": [
-    "Gdy w zdaniu jest liczba zrobionych rzeczy (three emails, twice), wybierz Present Perfect, nie Continuous."
+    "Polskie „od” w zdaniu w czasie teraźniejszym to sygnał alarmowy: „mieszkam tu od roku”, „czekam od szóstej”, „od jak dawna…?”. Po angielsku nie Present Simple ani Present Continuous, tylko Present Perfect Continuous (czynność) albo Present Perfect (stan: know, have, be).",
+    "Zanim wpiszesz have been + V-ing, sprawdź czasownik i dopełnienie. Stan (know, belong, own) → Present Perfect. Policzone rzeczy albo razy (ile stron, ile razy) → też Present Perfect. I've been reading this book, ale I've read 200 pages.",
+    "Typowa transformacja: I started learning Spanish two years ago. = I have been learning Spanish for two years. = It's two years since I started learning Spanish. W pytaniu: When did you start learning Spanish? = How long have you been learning Spanish? ago (moment startu) idzie z Past Simple. W zdaniu z have been + V-ing może się pojawić tylko w części, która nazywa ten moment, np. po since: I've been learning Spanish since I moved here two years ago.",
+    "Skrót 's w luce albo w tekście: gdy po 's stoi been, to zawsze has. He's been working = he has been working, bo he is been nie istnieje.",
+    "W artykule albo liście formalnym ta forma dobrze pokazuje problem, który trwa od jakiegoś czasu i ciągle jest aktualny: For the past few months, residents have been complaining about the noise from the new car park. To naturalne wejście w temat i plus do zakresu struktur."
   ]
 }

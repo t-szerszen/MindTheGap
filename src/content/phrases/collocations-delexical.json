@@ -1,0 +1,447 @@
+{
+  "id": "collocations-delexical",
+  "category": "collocations",
+  "title_pl": "make, do, take, have, get — kolokacje",
+  "items": [
+    {
+      "en": "make a decision",
+      "pl": "podjąć decyzję",
+      "meaning_pl": "Make = tworzysz coś, czego wcześniej nie było, a decyzja to właśnie taki „wytwór”. Nie: do a decision. W brytyjskim jest też take a decision, trochę bardziej oficjalne. Tak samo: make a choice, make a suggestion, make a promise.",
+      "example": {
+        "en": "I have to make a decision about which university to apply to before March.",
+        "pl": "Przed marcem muszę podjąć decyzję, na którą uczelnię złożyć papiery."
+      },
+      "register": "neutral",
+      "tags": ["make", "verb+noun", "decyzje"]
+    },
+    {
+      "en": "make a mistake",
+      "pl": "zrobić błąd, pomylić się",
+      "meaning_pl": "Błąd to coś, co „wytwarzasz”, więc make. Do a mistake to typowy polski błąd. Przez pomyłkę = by mistake.",
+      "example": {
+        "en": "I made three spelling mistakes in my essay and lost a point because of them.",
+        "pl": "Zrobiłem w wypracowaniu trzy błędy ortograficzne i straciłem przez nie punkt."
+      },
+      "register": "neutral",
+      "tags": ["make", "verb+noun", "szkoła", "pułapka"]
+    },
+    {
+      "en": "make an effort (to do sth)",
+      "pl": "postarać się, zadać sobie trud",
+      "meaning_pl": "Wysiłek trzeba z siebie „wytworzyć”, stąd make. Mocniej i bardziej oficjalnie: make every effort = dołożyć wszelkich starań, przydaje się w liście formalnym.",
+      "example": {
+        "en": "During her exchange in Bristol, she made an effort to speak only English.",
+        "pl": "Podczas wymiany w Bristolu starała się mówić tylko po angielsku."
+      },
+      "register": "neutral",
+      "tags": ["make", "verb+noun"]
+    },
+    {
+      "en": "make a (phone) call",
+      "pl": "zadzwonić, wykonać telefon",
+      "meaning_pl": "Połączenie się „wykonuje”, więc make. Prościej: call sb, bez to (call my mum, nie call to my mum). Potocznie po brytyjsku: give sb a call albo give sb a ring.",
+      "example": {
+        "en": "Can I make a quick call from your phone? My battery is dead.",
+        "pl": "Mogę szybko zadzwonić z twojego telefonu? Mój się rozładował."
+      },
+      "register": "neutral",
+      "tags": ["make", "verb+noun", "telefon"]
+    },
+    {
+      "en": "make money",
+      "pl": "zarabiać pieniądze",
+      "meaning_pl": "Pieniądze się „wytwarza”, więc make, nie do. Earn money mówisz raczej o pensji za pracę, make money szerzej, też o zysku z biznesu albo sprzedaży.",
+      "example": {
+        "en": "Some teenagers make money by selling their old clothes online.",
+        "pl": "Niektórzy nastolatkowie zarabiają, sprzedając stare ubrania w internecie."
+      },
+      "register": "neutral",
+      "tags": ["make", "verb+noun", "praca", "pieniądze"]
+    },
+    {
+      "en": "make a noise",
+      "pl": "hałasować, robić hałas",
+      "meaning_pl": "Dźwięk się wytwarza, więc make. Noise bywa policzalne (make a noise) i niepoliczalne (make too much noise). Nie: do a noise.",
+      "example": {
+        "en": "Please don't make so much noise. Your sister is revising for her exam.",
+        "pl": "Nie hałasuj tak, proszę. Twoja siostra uczy się do egzaminu."
+      },
+      "register": "neutral",
+      "tags": ["make", "verb+noun", "dom"]
+    },
+    {
+      "en": "make the bed",
+      "pl": "pościelić łóżko",
+      "meaning_pl": "Wyjątek do zapamiętania: prace domowe to zwykle do (do the housework), ale łóżko się make. Tu make znaczy „przygotować”, a nie „zbudować”. Często z zaimkiem: make your bed.",
+      "example": {
+        "en": "My mum always tells me to make my bed before I leave for school.",
+        "pl": "Mama zawsze każe mi pościelić łóżko, zanim wyjdę do szkoły."
+      },
+      "register": "neutral",
+      "tags": ["make", "verb+noun", "dom", "do zapamiętania"]
+    },
+    {
+      "en": "make a difference (to sth / sb)",
+      "pl": "mieć znaczenie, zmienić coś na lepsze",
+      "meaning_pl": "Różnicę się „tworzy”, więc make. Bardzo przydatne w rozprawce: small actions can make a difference. It makes no difference = to nie ma znaczenia.",
+      "example": {
+        "en": "Recycling at home may seem a small thing, but it can make a real difference to the environment.",
+        "pl": "Segregowanie śmieci w domu może się wydawać drobiazgiem, ale może mieć realny wpływ na środowisko."
+      },
+      "register": "neutral",
+      "tags": ["make", "verb+noun", "rozprawka", "środowisko"]
+    },
+    {
+      "en": "do your homework",
+      "pl": "odrabiać lekcje, robić pracę domową",
+      "meaning_pl": "Do = wykonujesz czynność albo pracę, niczego nie „wytwarzasz”. Nie: make homework. Homework jest niepoliczalne: a lot of homework, nie homeworks.",
+      "example": {
+        "en": "I usually do my homework straight after school so that I have the evening free.",
+        "pl": "Zwykle odrabiam lekcje od razu po szkole, żeby mieć wolny wieczór."
+      },
+      "register": "neutral",
+      "tags": ["do", "verb+noun", "szkoła", "pułapka"]
+    },
+    {
+      "en": "do the housework",
+      "pl": "wykonywać prace domowe, sprzątać",
+      "meaning_pl": "Prace w domu to czynności, więc do. Często do + the + forma -ing: do the cleaning, do the ironing, do the cooking. Housework jest niepoliczalne.",
+      "example": {
+        "en": "In our family everyone helps to do the housework at the weekend.",
+        "pl": "W naszej rodzinie w weekend wszyscy pomagają w pracach domowych."
+      },
+      "register": "neutral",
+      "tags": ["do", "verb+noun", "dom"]
+    },
+    {
+      "en": "do the washing-up",
+      "pl": "zmywać naczynia",
+      "meaning_pl": "Wersja brytyjska, po amerykańsku do the dishes. Pułapka: do the washing to pranie, a nie zmywanie.",
+      "example": {
+        "en": "If you cook dinner, I'll do the washing-up.",
+        "pl": "Jeśli ty ugotujesz obiad, to ja pozmywam."
+      },
+      "register": "neutral",
+      "tags": ["do", "verb+noun", "dom", "BrE", "pułapka"]
+    },
+    {
+      "en": "do sport / do yoga",
+      "pl": "uprawiać sport / ćwiczyć jogę",
+      "meaning_pl": "Przy sporcie są trzy czasowniki: play przy grach z piłką (play football), go przy aktywnościach na -ing (go swimming), do przy reszcie, np. sztukach walki (do yoga, do karate). Do sport to wersja brytyjska.",
+      "example": {
+        "en": "I didn't use to do any sport, but now I do yoga twice a week.",
+        "pl": "Kiedyś w ogóle nie uprawiałam sportu, a teraz dwa razy w tygodniu ćwiczę jogę."
+      },
+      "register": "neutral",
+      "tags": ["do", "verb+noun", "sport", "pułapka"]
+    },
+    {
+      "en": "do sb a favour",
+      "pl": "wyświadczyć komuś przysługę",
+      "meaning_pl": "Przysługa to czynność, którą robisz dla kogoś, stąd do. Nie: make sb a favour. Poprosić o przysługę = ask sb a favour. Pisownia brytyjska: favour.",
+      "example": {
+        "en": "Could you do me a favour and feed my cat while I'm away?",
+        "pl": "Możesz wyświadczyć mi przysługę i karmić mojego kota, kiedy mnie nie będzie?"
+      },
+      "register": "neutral",
+      "tags": ["do", "verb+noun", "prośby"]
+    },
+    {
+      "en": "do your best (to do sth)",
+      "pl": "zrobić wszystko, co w twojej mocy; dać z siebie wszystko",
+      "meaning_pl": "Do zapamiętania jako całość (choć wysiłek to make an effort). Zaimek dopasowujesz do osoby: I'll do my best, she did her best.",
+      "example": {
+        "en": "I can't promise I'll get 100%, but I'll do my best in the exam.",
+        "pl": "Nie obiecuję, że dostanę 100%, ale na egzaminie dam z siebie wszystko."
+      },
+      "register": "neutral",
+      "tags": ["do", "verb+noun", "do zapamiętania"]
+    },
+    {
+      "en": "do harm / do damage (to sth)",
+      "pl": "szkodzić, wyrządzić szkodę",
+      "meaning_pl": "Szkodę się komuś „robi”, stąd do (formalniej: cause damage). W rozprawce: do more harm than good = przynieść więcej szkody niż pożytku. Pułapka: damages w liczbie mnogiej to odszkodowanie.",
+      "example": {
+        "en": "Social media can do more harm than good if you spend hours on it every day.",
+        "pl": "Media społecznościowe mogą przynieść więcej szkody niż pożytku, jeśli spędzasz na nich codziennie wiele godzin."
+      },
+      "register": "neutral",
+      "tags": ["do", "verb+noun", "rozprawka", "pułapka"]
+    },
+    {
+      "en": "do research (into / on sth)",
+      "pl": "prowadzić badania, szukać informacji",
+      "meaning_pl": "Badania to praca, więc do. Formalniej: carry out / conduct research. Research jest niepoliczalne: nie a research, tylko some research albo a study.",
+      "example": {
+        "en": "For my project I did some research into air pollution in our town.",
+        "pl": "Do projektu poszukałam informacji o zanieczyszczeniu powietrza w naszym mieście."
+      },
+      "register": "neutral",
+      "tags": ["do", "verb+noun", "nauka", "pułapka"]
+    },
+    {
+      "en": "take a photo (of sb / sth)",
+      "pl": "zrobić zdjęcie",
+      "meaning_pl": "Po polsku zdjęcie się „robi”, po angielsku zawsze take a photo / take a picture. Make a photo to kalka z polskiego. Do zapamiętania.",
+      "example": {
+        "en": "Could you take a photo of us in front of the castle?",
+        "pl": "Możesz zrobić nam zdjęcie przed zamkiem?"
+      },
+      "register": "neutral",
+      "tags": ["take", "verb+noun", "podróże", "pułapka"]
+    },
+    {
+      "en": "take part in sth",
+      "pl": "brać udział w czymś",
+      "meaning_pl": "Zawsze z in: take part in a competition. Bez przedimka: nie take a part in. Formalniej: participate in.",
+      "example": {
+        "en": "Over 200 students took part in the school charity run.",
+        "pl": "W szkolnym biegu charytatywnym wzięło udział ponad 200 uczniów."
+      },
+      "register": "neutral",
+      "tags": ["take", "przyimek", "szkoła"]
+    },
+    {
+      "en": "take place",
+      "pl": "odbywać się, mieć miejsce",
+      "meaning_pl": "Mówisz tak o zaplanowanych wydarzeniach (koncert, mecz, ślub). Nie ma dopełnienia ani strony biernej: the concert took place, nie was taken place. O wypadkach i niespodziankach raczej happen.",
+      "example": {
+        "en": "The final of the debating competition will take place in the school hall on Friday.",
+        "pl": "Finał konkursu debat odbędzie się w piątek w auli szkolnej."
+      },
+      "register": "neutral",
+      "tags": ["take", "wydarzenia", "pułapka"]
+    },
+    {
+      "en": "take a risk / take risks",
+      "pl": "zaryzykować, podejmować ryzyko",
+      "meaning_pl": "Ryzyko „bierzesz na siebie”, stąd take, nie make. Z czynnością: take the risk of doing sth.",
+      "example": {
+        "en": "Starting your own business at nineteen means taking a big risk.",
+        "pl": "Założenie własnej firmy w wieku dziewiętnastu lat oznacza podjęcie dużego ryzyka."
+      },
+      "register": "neutral",
+      "tags": ["take", "verb+noun", "praca"]
+    },
+    {
+      "en": "take care of sb / sth",
+      "pl": "opiekować się kimś, zająć się czymś",
+      "meaning_pl": "Dwa znaczenia: opiekować się (= look after) i załatwić sprawę (I'll take care of the tickets). Samo Take care! na pożegnanie to „Trzymaj się!”.",
+      "example": {
+        "en": "When my parents are at work, I take care of my younger brother.",
+        "pl": "Kiedy rodzice są w pracy, opiekuję się młodszym bratem."
+      },
+      "register": "neutral",
+      "tags": ["take", "przyimek", "rodzina"]
+    },
+    {
+      "en": "take advantage of sth / sb",
+      "pl": "skorzystać z czegoś / wykorzystywać kogoś",
+      "meaning_pl": "Z rzeczą pozytywnie: take advantage of an opportunity = skorzystać z okazji. Z osobą negatywnie: take advantage of sb = wykorzystywać kogoś. Zawsze z of.",
+      "example": {
+        "en": "You should take advantage of the free language courses your school offers.",
+        "pl": "Powinieneś skorzystać z darmowych kursów językowych, które oferuje twoja szkoła."
+      },
+      "register": "neutral",
+      "tags": ["take", "przyimek", "pułapka", "rozprawka"]
+    },
+    {
+      "en": "take sth into account",
+      "pl": "brać coś pod uwagę, uwzględniać",
+      "meaning_pl": "Przydatne w rozprawce i liście formalnym. Przy długim dopełnieniu przesuwasz je na koniec: take into account the fact that… Synonim: take sth into consideration.",
+      "example": {
+        "en": "When choosing a university, you should take into account the cost of living in that city.",
+        "pl": "Wybierając uczelnię, warto wziąć pod uwagę koszty życia w danym mieście."
+      },
+      "register": "neutral",
+      "tags": ["take", "rozprawka"]
+    },
+    {
+      "en": "it takes (sb) + time + to do sth",
+      "pl": "zajmuje (komuś) czas, żeby coś zrobić",
+      "meaning_pl": "Podmiotem jest it, osoba i czas stoją po takes: It takes me an hour to get to school. Pytanie: How long does it take to…? Z osobą jako podmiotem: I spend an hour getting to school (spend + -ing).",
+      "example": {
+        "en": "It took us three hours to get to the airport because of the traffic.",
+        "pl": "Przez korki dojazd na lotnisko zajął nam trzy godziny."
+      },
+      "register": "neutral",
+      "tags": ["take", "struktura", "czas"]
+    },
+    {
+      "en": "have breakfast / lunch / dinner",
+      "pl": "jeść śniadanie / lunch / kolację",
+      "meaning_pl": "Have = zjeść albo wypić (have a coffee, have a sandwich). Przy posiłkach bez przedimka: have breakfast, nie have a breakfast. A wraca dopiero z przymiotnikiem: have a big breakfast. Dinner to główny posiłek wieczorem.",
+      "example": {
+        "en": "We usually have dinner together at about seven.",
+        "pl": "Zwykle jemy razem kolację około siódmej."
+      },
+      "register": "neutral",
+      "tags": ["have", "jedzenie", "przedimki"]
+    },
+    {
+      "en": "have a look (at sth)",
+      "pl": "rzucić okiem, spojrzeć (na coś)",
+      "meaning_pl": "Have + a + rzeczownik od czasownika to krótka, jednorazowa czynność: have a look, have a try, have a swim. Take a look też jest poprawne. Zawsze at: have a look at sth.",
+      "example": {
+        "en": "Can you have a look at my CV before I send it?",
+        "pl": "Możesz rzucić okiem na moje CV, zanim je wyślę?"
+      },
+      "register": "neutral",
+      "tags": ["have", "verb+noun", "BrE"]
+    },
+    {
+      "en": "have a good time",
+      "pl": "dobrze się bawić, miło spędzić czas",
+      "meaning_pl": "Have = przeżywać coś. „Miło spędzić czas” to have a good / great time albo have fun, a nie dosłownie spend a nice time. Spend time mówi tylko, ile czasu i gdzie: spend a week in Spain.",
+      "example": {
+        "en": "We had a great time on our school trip to London.",
+        "pl": "Świetnie się bawiliśmy na wycieczce szkolnej do Londynu."
+      },
+      "register": "neutral",
+      "tags": ["have", "verb+noun", "czas wolny", "pułapka"]
+    },
+    {
+      "en": "have a shower / have a bath",
+      "pl": "wziąć prysznic / kąpiel",
+      "meaning_pl": "Polskie „wziąć” podsuwa take i take a shower też jest poprawne (częstsze w amerykańskim). Po brytyjsku zwykle mówi się have a shower.",
+      "example": {
+        "en": "I always have a quick shower after PE.",
+        "pl": "Po WF-ie zawsze szybko biorę prysznic."
+      },
+      "register": "neutral",
+      "tags": ["have", "verb+noun", "BrE", "codzienność"]
+    },
+    {
+      "en": "have / take a break",
+      "pl": "zrobić sobie przerwę",
+      "meaning_pl": "Polskie „zrobić przerwę” kusi, żeby powiedzieć make a break, a to błąd. Poprawnie: have a break albo take a break, obie wersje są w porządku.",
+      "example": {
+        "en": "Let's have a short break and then finish the presentation.",
+        "pl": "Zróbmy krótką przerwę, a potem dokończmy prezentację."
+      },
+      "register": "neutral",
+      "tags": ["have", "take", "verb+noun", "pułapka"]
+    },
+    {
+      "en": "have difficulty (in) doing sth",
+      "pl": "mieć trudności z robieniem czegoś",
+      "meaning_pl": "Po difficulty idzie forma -ing (in można pominąć), nie to + bezokolicznik. Tak samo: have trouble / problems doing sth. Z rzeczownikiem: have difficulty with sth.",
+      "example": {
+        "en": "At first I had difficulty understanding my host family's Scottish accent.",
+        "pl": "Na początku miałem trudności ze zrozumieniem szkockiego akcentu rodziny, u której mieszkałem."
+      },
+      "register": "neutral",
+      "tags": ["have", "struktura", "-ing", "pułapka"]
+    },
+    {
+      "en": "have a headache / have a cold",
+      "pl": "boli mnie głowa / jestem przeziębiony",
+      "meaning_pl": "Po polsku coś „boli” albo „jestem przeziębiony”, a po angielsku chorobę się „ma”: have a headache, have a cold, have a temperature (gorączkę). Przy bólach i przeziębieniu z a, ale have flu albo have the flu. Po brytyjsku często have got: I've got a cold.",
+      "example": {
+        "en": "I've got a terrible headache, so I'm not going to the party.",
+        "pl": "Strasznie boli mnie głowa, więc nie idę na imprezę."
+      },
+      "register": "neutral",
+      "tags": ["have", "zdrowie", "przedimki"]
+    },
+    {
+      "en": "have a go (at sth / at doing sth)",
+      "pl": "spróbować (czegoś)",
+      "meaning_pl": "Potoczne, brytyjskie. Uwaga: have a go at sb to coś innego, czyli naskoczyć na kogoś, skrytykować go.",
+      "example": {
+        "en": "I'd never tried surfing before, but I decided to have a go.",
+        "pl": "Nigdy wcześniej nie surfowałem, ale postanowiłem spróbować."
+      },
+      "register": "informal",
+      "tags": ["have", "BrE", "potoczne", "pułapka"]
+    },
+    {
+      "en": "get a job",
+      "pl": "dostać pracę, znaleźć pracę",
+      "meaning_pl": "Get = dostać, zdobyć: get a job, get a message, get a present. Starać się o pracę to apply for a job. W liście formalnym get brzmi zbyt zwyczajnie, lepiej np. receive (receive an offer).",
+      "example": {
+        "en": "After graduating, she got a job at a travel agency in Gdańsk.",
+        "pl": "Po studiach dostała pracę w biurze podróży w Gdańsku."
+      },
+      "register": "neutral",
+      "tags": ["get", "verb+noun", "praca"]
+    },
+    {
+      "en": "get married (to sb)",
+      "pl": "wziąć ślub, ożenić się, wyjść za mąż",
+      "meaning_pl": "Get + przymiotnik = zmiana stanu, tu z wolnego na żonatego. Pułapka: get married to sb, nie with sb. Bez get: marry sb, bez przyimka. Be married to sb to stan (jest żonaty / mężatką).",
+      "example": {
+        "en": "My aunt got married to a Scotsman and moved to Edinburgh.",
+        "pl": "Moja ciocia wyszła za mąż za Szkota i przeprowadziła się do Edynburga."
+      },
+      "register": "neutral",
+      "tags": ["get", "przyimek", "rodzina", "pułapka"]
+    },
+    {
+      "en": "get ready (for sth / to do sth)",
+      "pl": "przygotować się, szykować się",
+      "meaning_pl": "Get + przymiotnik = stać się: get ready to dosłownie „stać się gotowym”. Get ready for school, get ready to go out. O nauce do egzaminu lepiej prepare for albo revise for an exam.",
+      "example": {
+        "en": "It takes my sister an hour to get ready for school.",
+        "pl": "Mojej siostrze szykowanie się do szkoły zajmuje godzinę."
+      },
+      "register": "neutral",
+      "tags": ["get", "get + przymiotnik", "codzienność"]
+    },
+    {
+      "en": "get lost",
+      "pl": "zgubić się",
+      "meaning_pl": "Get + przymiotnik (lost = zgubiony), czyli „stać się zgubionym”. Nie: lose myself. Uwaga: wykrzyknik Get lost! to niegrzeczne „Spadaj!”.",
+      "example": {
+        "en": "We got lost in the old town because my phone had no signal.",
+        "pl": "Zgubiliśmy się na starym mieście, bo w telefonie nie było zasięgu."
+      },
+      "register": "neutral",
+      "tags": ["get", "get + przymiotnik", "podróże", "pułapka"]
+    },
+    {
+      "en": "get better / get worse",
+      "pl": "poprawiać się / pogarszać się",
+      "meaning_pl": "Get + przymiotnik = stawać się, czyli zmiana: get better, get worse, get tired, get dark. W continuous widać proces: my English is getting better. Get better o chorym = wyzdrowieć.",
+      "example": {
+        "en": "The weather got worse in the afternoon, so we had to come down from the mountains.",
+        "pl": "Po południu pogoda się pogorszyła, więc musieliśmy zejść z gór."
+      },
+      "register": "neutral",
+      "tags": ["get", "get + przymiotnik", "zmiana"]
+    },
+    {
+      "en": "get home / get to school",
+      "pl": "dotrzeć do domu / do szkoły",
+      "meaning_pl": "Get = dotrzeć, dostać się. Przed miejscem stawiasz to (get to school, get to London), ale home i there bez to: get home, get there, tak jak go home. Formalniej: arrive at / in.",
+      "example": {
+        "en": "I usually get home at about four, but on Tuesdays I have extra classes.",
+        "pl": "Zwykle wracam do domu koło czwartej, ale we wtorki mam dodatkowe zajęcia."
+      },
+      "register": "neutral",
+      "tags": ["get", "przyimek", "codzienność", "pułapka"]
+    },
+    {
+      "en": "get rid of sth",
+      "pl": "pozbyć się czegoś",
+      "meaning_pl": "Do zapamiętania jako całość, zawsze z of. Przydaje się przy zakupach i ekologii: get rid of old clothes, get rid of plastic bags.",
+      "example": {
+        "en": "Before moving out, I got rid of all my old school books.",
+        "pl": "Przed wyprowadzką pozbyłem się wszystkich starych podręczników."
+      },
+      "register": "neutral",
+      "tags": ["get", "dom", "do zapamiętania"]
+    },
+    {
+      "en": "get used to sth / to doing sth",
+      "pl": "przyzwyczaić się do czegoś",
+      "meaning_pl": "Get used to = proces przyzwyczajania się, be used to = już jestem przyzwyczajony. To jest tu przyimkiem, więc po nim rzeczownik albo -ing: get used to getting up early. Nie myl z used to do = kiedyś coś robiłem.",
+      "example": {
+        "en": "When we moved to Warsaw, it took me a few weeks to get used to getting up at six.",
+        "pl": "Kiedy przeprowadziliśmy się do Warszawy, przez kilka tygodni przyzwyczajałem się do wstawania o szóstej."
+      },
+      "register": "neutral",
+      "tags": ["get", "struktura", "-ing", "pułapka"]
+    }
+  ]
+}

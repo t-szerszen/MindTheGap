@@ -1,0 +1,601 @@
+{
+  "id": "writing-assessment",
+  "category": "writing",
+  "title_pl": "Jak oceniają wypracowanie",
+  "summary_pl": "13 punktów za zadanie 10: co daje i co zabiera punkty w każdym kryterium, jak CKE liczy wyrazy i jak rozplanować pisanie w 150 minutach.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "Wypracowanie to ostatnie zadanie w arkuszu i **13 z 60 punktów**. Dostajesz dwa tematy po polsku, wybierasz jeden i piszesz po angielsku ==200–250 wyrazów==. Każdy temat ma **dwa elementy**, czyli dwie rzeczy, które musisz omówić.\n\nForma jest podana w poleceniu: **rozprawka**, **artykuł publicystyczny** albo **list formalny**. W latach 2023–2026 pierwszy temat był zawsze rozprawką „za i przeciw”, a drugi artykułem albo listem do gazety. To obserwacja z arkuszy, a nie reguła, więc ćwicz wszystkie trzy formy."
+    },
+    {
+      "type": "table",
+      "headers": ["Kryterium", "Punkty", "Pytanie egzaminatora"],
+      "rows": [
+        ["Zgodność z poleceniem", "0–5", "Czy napisałeś to, o co proszą, i w podanej formie?"],
+        ["Spójność i logika", "0–2", "Czy da się iść za twoim tokiem myśli bez potykania się?"],
+        ["Zakres środków", "0–3", "Jak różnorodny i precyzyjny jest twój angielski?"],
+        ["Poprawność środków", "0–3", "Ile jest błędów i jak bardzo przeszkadzają?"]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "**Zgodność z poleceniem to bezpiecznik całej pracy.** 0 pkt za zgodność oznacza 0 za wszystko. 1 pkt za zgodność oznacza, że w pozostałych kryteriach dostaniesz najwyżej po 1 pkt. Dlatego najpierw pilnujesz tematu i formy, a dopiero potem ładnego języka."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Zgodność z poleceniem (0–5)** liczy się w trzech krokach:\n\n- **treść**: pięć elementów po 0, 1 albo 2 pkt, razem 0–10;\n- **forma**: cztery elementy po 0 albo 1 pkt, razem 0–4;\n- obie liczby zamieniasz na wynik 0–5 tabelą, która jest niżej."
+    },
+    {
+      "type": "table",
+      "headers": ["Element treści", "2 pkt", "1 pkt", "0 pkt"],
+      "rows": [
+        [
+          "Wstęp: rozprawka",
+          "jasna teza, zgodna z tematem i z rozwinięciem",
+          "teza nie w pełni zgodna z tematem albo z rozwinięciem; mocno odbiega od tematu, ale pasuje do rozwinięcia; nie zapowiada struktury tekstu",
+          "brak tezy; teza niezgodna z tematem albo odbiegająca i od tematu, i od rozwinięcia; teza niejasna; wstęp niekomunikatywny"
+        ],
+        [
+          "Wstęp: artykuł",
+          "zgodny z tematem i ciekawy, zachęca do czytania (np. pytanie, cytat)",
+          "zgodny z tematem, ale schematyczny albo typowy dla innej formy (np. jak w rozprawce); ciekawy, ale odbiega od tematu",
+          "brak; niezgodny z tematem; niejasny; niekomunikatywny"
+        ],
+        [
+          "Wstęp: list",
+          "zgodny z tematem i treścią, podaje cel listu",
+          "brak celu albo cel niejasny; cel jest, ale wstęp odbiega od tematu; wstęp nie pasuje do treści listu",
+          "brak; niezgodny z tematem; niejasny; niekomunikatywny"
+        ],
+        [
+          "Element 1 i 2",
+          "każdy osobno: omówiony wieloaspektowo albo pogłębiony, z przykładami i szczegółami",
+          "powierzchownie: sama lista argumentów bez rozwinięcia albo jeden-dwa aspekty omówione słabo",
+          "brak; bardzo pobieżnie (jeden nierozwinięty argument); niekomunikatywnie; nie na temat"
+        ],
+        [
+          "Zakończenie",
+          "zgodne z tematem i treścią; może wracać do wstępu, ale innymi słowami",
+          "nie w pełni zgodne z tematem albo treścią; odbiega od tematu, ale pasuje do treści; schematyczne (np. samo przeformułowanie tezy); powtarza wstęp prawie tymi samymi słowami",
+          "brak; niekomunikatywne; niezgodne z tematem; odbiega od tematu i nie pasuje do treści"
+        ],
+        [
+          "Fragmenty obok tematu",
+          "brak fragmentów odbiegających od tematu i nie na temat",
+          "jeden dłuższy taki fragment albo kilka krótkich",
+          "więcej takich fragmentów"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "Zasady, które łatwo przeoczyć:\n\n- W rozprawce „za i przeciw” teza musi zapowiadać **obie strony**. Jeśli zapowiada tylko jedną, wstęp dostaje najwyżej 1 pkt.\n- W rozprawce z opinią teza musi pokazać **twoje** stanowisko. Zdanie bez stanowiska albo sama opinia innych (*Many people believe…*) to najwyżej 1 pkt.\n- Samo pytanie zamiast tezy też zwykle nie zapowiada, o czym będzie tekst.\n- Teza musi zgadzać się z rozwinięciem. Zapowiadasz obie strony, a piszesz o jednej, albo argumenty przeczą tezie: tracisz punkt. W rozprawce z opinią wolno przytoczyć cudzy pogląd, żeby go zbić.\n- Element tematu omówiony we wstępie albo w zakończeniu liczy się **albo** jako element, **albo** jako wstęp czy zakończenie. Nigdy jako jedno i drugie naraz.\n- Fragment o ogólnym temacie, ale nie o żadnym z dwóch elementów, jest zgodny z tematem, tylko nie liczy się jako omówienie elementu.\n- Krótki fragment (1–2 zdania), który łączy części tekstu, jest w porządku.\n- Dłuższe fragmenty, których nie da się zrozumieć, traktuje się jak odbiegające od tematu.\n- Argumenty pasują, ale konsekwentnie mylisz kluczowe słowo z tematu (np. *tram* zamiast *train*)? Ta część dostaje najwyżej 1 pkt.\n- Tytuł nadany rozprawce jest pomijany przy ocenie."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Teza, która traci punkty",
+          "md_pl": "Opisuje zjawisko albo zadaje pytanie. W „za i przeciw” zapowiada tylko jedną stronę, a w rozprawce z opinią podaje tylko cudze zdanie zamiast twojego. Taki wstęp ma najwyżej 1 pkt, a gdy tezy w ogóle nie ma, 0.",
+          "examples": [
+            {
+              "en": "Nowadays more and more teenagers use social media.",
+              "pl": "Obecnie coraz więcej nastolatków korzysta z mediów społecznościowych."
+            },
+            {
+              "en": "Why do so many teenagers use social media?",
+              "pl": "Dlaczego tak wielu nastolatków korzysta z mediów społecznościowych?"
+            },
+            {
+              "en": "Social media has many advantages for teenagers.",
+              "pl": "Media społecznościowe mają dla nastolatków wiele zalet."
+            },
+            {
+              "en": "Many people believe that social media is harmful to teenagers.",
+              "pl": "Wiele osób uważa, że media społecznościowe szkodzą nastolatkom."
+            }
+          ]
+        },
+        {
+          "title": "Teza, która zapowiada tekst",
+          "md_pl": "W „za i przeciw” zapowiada obie strony, w rozprawce z opinią pokazuje twoje stanowisko.",
+          "examples": [
+            {
+              "en": "Social media offers teenagers real benefits, but it also comes with serious risks.",
+              "pl": "Media społecznościowe dają nastolatkom realne korzyści, ale niosą też poważne zagrożenia."
+            },
+            {
+              "en": "In my view, the benefits of social media for teenagers outweigh the risks.",
+              "pl": "Moim zdaniem korzyści z mediów społecznościowych dla nastolatków przeważają nad zagrożeniami."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Test: przeczytaj samą tezę. Jeśli już z niej wiesz, o czym będą kolejne akapity, jest dobra."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Zakończenie schematyczne",
+          "md_pl": "Samo powtórzenie tezy, nawet innymi słowami, albo sama formułka. To najwyżej 1 pkt.",
+          "examples": [
+            {
+              "en": "To sum up, social media has advantages and disadvantages.",
+              "pl": "Podsumowując, media społecznościowe mają zalety i wady."
+            },
+            {
+              "en": "I hope you enjoyed my article. Leave a comment!",
+              "pl": "Mam nadzieję, że artykuł ci się podobał. Zostaw komentarz!"
+            }
+          ]
+        },
+        {
+          "title": "Zakończenie z wnioskiem",
+          "md_pl": "Może wrócić do tezy, ale dodaje coś, co wynika z akapitów: która strona przeważa, pod jakim warunkiem, co radzisz. Albo zostawia czytelnika z pytaniem.",
+          "examples": [
+            {
+              "en": "On balance, social media does teenagers more good than harm, provided that they learn to limit their screen time.",
+              "pl": "Biorąc wszystko pod uwagę, media społecznościowe dają nastolatkom więcej pożytku niż szkody, pod warunkiem że nauczą się ograniczać czas przed ekranem."
+            },
+            {
+              "en": "So next time you reach for your phone on a Saturday morning, ask yourself what you might be missing.",
+              "pl": "Następnym razem, gdy w sobotę rano sięgniesz po telefon, zadaj sobie pytanie, co może cię omijać."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Zdanie z *On balance* wraca do tezy innymi słowami i dodaje warunek, którego we wstępie nie było. To odróżnia wniosek od samego powtórzenia."
+    },
+    {
+      "type": "text",
+      "md_pl": "Za **formę** dostajesz 0 albo 1 pkt za każdy z czterech elementów."
+    },
+    {
+      "type": "table",
+      "headers": ["Element formy", "Kiedy dostajesz 1 pkt"],
+      "rows": [
+        [
+          "Cecha formy",
+          "rozprawka: teza we wstępie; artykuł: tytuł; list: odpowiedni zwrot na początku i na końcu"
+        ],
+        ["Kompozycja", "widać plan: wstęp, rozwinięcie i zakończenie w sensownych proporcjach"],
+        [
+          "Segmentacja",
+          "tekst jest uporządkowany, a akapity zaczynają się tam, gdzie zmienia się myśl"
+        ],
+        ["Długość", "tekst ma od 180 do 280 wyrazów"]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "**Jedna usterka wystarcza, żeby element formy dał 0.** Typowe wpadki z kluczy:\n\n- artykuł bez tytułu (*Dear Readers* ani *Hi!* nie są tytułem);\n- w liście *Hi*, *Hello* albo *Dear Mrs* bez nazwiska;\n- w rozprawce wypunktowania zamiast akapitów (segmentacja 0).\n\nJeśli egzaminator musi sam wydzielić wstęp albo zakończenie z dłuższego akapitu, może je ocenić w treści, ale segmentacja jest wtedy 0.\n\nW rozprawce brak tezy kosztuje podwójnie: 0 za wstęp w treści i 0 za cechę formy."
+    },
+    {
+      "type": "text",
+      "md_pl": "Napisałeś inną formę niż w poleceniu, np. list zamiast artykułu? Na pewno tracisz cechę formy (list nie ma tytułu), a łatwo stracić też punkt za wstęp, bo jest typowy dla innej formy. Starsze zasady zerowały wtedy wszystkie elementy formy. Obecny informator tego wprost nie zapisuje, ale nie warto tego sprawdzać na sobie."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Tabela, która zamienia treść i formę na wynik 0–5.** Wiersz to punkty za treść, kolumna to punkty za formę."
+    },
+    {
+      "type": "table",
+      "headers": ["Treść", "Forma 4–3", "Forma 2–1", "Forma 0"],
+      "rows": [
+        ["10", "5", "4", "3"],
+        ["8–9", "4", "3", "2"],
+        ["6–7", "3", "2", "1"],
+        ["4–5", "2", "1", "0"],
+        ["2–3", "1", "0", "0"],
+        ["0–1", "0", "0", "0"]
+      ]
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "treść",
+          "text_pl": "Wstęp 2, element 1 — 2, element 2 — 1 (sama lista argumentów), zakończenie 1 (samo przeformułowanie tezy), nic obok tematu 2. Razem 8."
+        },
+        {
+          "step_pl": "forma",
+          "text_pl": "Teza jest, kompozycja w porządku, jeden akapit rozcina myśl w pół (segmentacja 0), 230 wyrazów. Razem 3."
+        },
+        {
+          "step_pl": "tabela",
+          "text_pl": "Wiersz 8–9, kolumna 4–3: za zgodność z poleceniem 4 pkt."
+        },
+        {
+          "step_pl": "co by pomogło",
+          "text_pl": "Rozwinięty element 2 daje treść 9, a wynik dalej 4. Dopiero gdy do tego zakończenie ma wniosek (treść 10), wynik rośnie do 5."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Co mówi ta tabela: forma 4 i forma 3 są w jednej kolumnie, więc jedna wpadka w formie nic nie kosztuje, druga już tak. 5 pkt jest tylko przy treści 10, czyli przy wszystkich elementach na 2. Niżej mniej więcej co dwa punkty treści to jeden punkt wyniku. **Treść waży więcej niż forma.**"
+    },
+    {
+      "type": "text",
+      "md_pl": "**Długość.** Polecenie mówi 200–250 wyrazów, ale element formy „długość” zaliczasz w szerszych granicach. Poniżej 160 wyrazów praca traci prawie wszystko."
+    },
+    {
+      "type": "table",
+      "headers": ["Wyrazy", "Co się dzieje"],
+      "rows": [
+        [
+          "poniżej 160",
+          "oceniana jest tylko zgodność z poleceniem; spójność, zakres i poprawność dostają 0"
+        ],
+        ["160–179", "ocenia się wszystko, ale element formy „długość” = 0"],
+        ["180–199", "długość zaliczona, choć to mniej, niż każe polecenie"],
+        ["200–250", "tyle każe napisać polecenie: tu celuj"],
+        ["251–280", "długość nadal zaliczona"],
+        [
+          "281 i więcej",
+          "element „długość” = 0; innej kary informator nie podaje, ale dłuższy tekst to więcej miejsca na błędy"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "Egzaminator rozróżnia fragment **odbiegający od tematu** (luźno związany, w nawiasie kwadratowym) i **nie na temat** (bez związku, w obwódce). Oba obniżają punkty za treść, a fragmenty nie na temat dodatkowo **nie wchodzą do liczby wyrazów** i nie są oceniane w zakresie ani w poprawności (zasady oceniania z 2025 i 2026).\n\nMasz 185 wyrazów, z czego 15 to zdania nie na temat? Liczy się 170, więc element „długość” = 0 (forma spada o 1 z 4). Celuj w 220–240, żeby mieć zapas z obu stron."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Spójność i logika (0–2)** to pytanie, czy czytelnik idzie za tobą bez potykania się. Egzaminator zaznacza usterki falistą linią i je liczy."
+    },
+    {
+      "type": "table",
+      "headers": ["Usterki", "Punkty"],
+      "rows": [
+        ["0–2", "2"],
+        ["3–5", "1"],
+        ["6 i więcej", "0"]
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "Jeden dłuższy fragment, którego nie da się zrozumieć (dłuższe zdanie albo 2–3 krótkie), od razu obniża ocenę do 1 pkt. Więcej takich fragmentów to 0.\n\nCo liczy się jako usterka:\n\n- odwołanie do czegoś, czego wcześniej nie było (*this problem*, choć żaden problem jeszcze nie padł);\n- skakanie między czasami bez powodu;\n- błąd językowy, przez który czytelnik gubi sens;\n- argument sprzeczny ze zdrowym rozsądkiem i bez uzasadnienia;\n- obca nazwa bez wyjaśnienia po angielsku (np. polski tytuł programu), która jest przy okazji błędem językowym.\n\nBrak akapitów sam nie obniża spójności (traci się za to segmentację w formie). Polskie słowo w tekście jest usterką spójności tylko wtedy, gdy mocno utrudnia zrozumienie. Inaczej to zwykły błąd językowy."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Usterka",
+          "md_pl": "Łącznik mówi co innego niż treść albo czas skacze bez powodu.",
+          "examples": [
+            {
+              "en": "Volunteering teaches responsibility. Moreover, it can be exhausting.",
+              "pl": "Wolontariat uczy odpowiedzialności. Co więcej, potrafi wykończyć."
+            },
+            {
+              "en": "Last summer I joined a local charity. I help at a food bank and I learnt a lot.",
+              "pl": "Zeszłego lata dołączyłem do lokalnej organizacji charytatywnej. Pomagam w banku żywności i dużo się nauczyłem."
+            }
+          ]
+        },
+        {
+          "title": "Spójnie",
+          "md_pl": "Łącznik pokazuje prawdziwy związek, a czas trzyma się jednej perspektywy.",
+          "examples": [
+            {
+              "en": "Volunteering teaches responsibility. However, it can be exhausting.",
+              "pl": "Wolontariat uczy odpowiedzialności. Może jednak wykończyć."
+            },
+            {
+              "en": "Last summer I joined a local charity. I helped at a food bank and learnt a lot.",
+              "pl": "Zeszłego lata dołączyłem do lokalnej organizacji charytatywnej. Pomagałem w banku żywności i dużo się nauczyłem."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Zakres środków językowych (0–3)** ocenia, jak różnorodny i precyzyjny jest twój angielski, a nie to, ile robisz błędów. Precyzja to słowa typowe dla tematu zamiast *nice*, *great*, *interesting*, naturalne kolokacje i struktury dobrane do sytuacji."
+    },
+    {
+      "type": "table",
+      "headers": ["Punkty", "Zakres", "Poziom"],
+      "rows": [
+        [
+          "3",
+          "szeroki: liczne fragmenty naturalne i precyzyjne, z różnorodną frazeologią",
+          "zróżnicowane środki na B2 lub wyżej"
+        ],
+        [
+          "2",
+          "zadowalający: kilka takich fragmentów, ale w większości bardzo pospolite struktury",
+          "B2"
+        ],
+        ["1", "ograniczony: głównie pospolite struktury", "często poniżej B2"],
+        [
+          "0",
+          "bardzo ograniczony: wyłącznie pospolite struktury albo język nie pozwala wykonać polecenia",
+          "znacznie poniżej B2"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "- Poziom dostajesz tylko wtedy, gdy spełniasz **wszystkie** jego warunki. Bogate słownictwo przy tylko zadowalającej gramatyce to 2, nie 3.\n- Struktura z drobnym błędem (np. literówką) też liczy się do zakresu, jeśli użyłeś jej stosownie i da się ją zrozumieć. Za błąd zapłacisz w poprawności, ale do zakresu struktura wejdzie.\n- Za rażące albo liczne wpadki w stylu egzaminator może odjąć 1 pkt (najniżej do zera). Niestosowny styl to np. pisanie jak w rozmowie albo zbyt kwiecisty, metaforyczny język. Niejednolity to mieszanie formalnego z potocznym bez powodu."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Pospolicie",
+          "md_pl": "Ogólne słowa, które pasują do wszystkiego, więc nic konkretnego nie mówią.",
+          "examples": [
+            {
+              "en": "Travelling by train is nice because you can see a lot of things.",
+              "pl": "Podróż pociągiem jest fajna, bo można zobaczyć dużo rzeczy."
+            },
+            {
+              "en": "Volunteering is good for young people.",
+              "pl": "Wolontariat jest dobry dla młodych ludzi."
+            },
+            { "en": "Many people think it is bad.", "pl": "Wiele osób uważa, że to jest złe." }
+          ]
+        },
+        {
+          "title": "Precyzyjnie",
+          "md_pl": "Słowa z tematu, kolokacje i struktury, które mówią coś konkretnego.",
+          "examples": [
+            {
+              "en": "Travelling by train lets you take in the scenery without the stress of driving.",
+              "pl": "Podróż pociągiem pozwala podziwiać krajobrazy bez stresu związanego z prowadzeniem samochodu."
+            },
+            {
+              "en": "Volunteering allows young people to develop skills that employers value.",
+              "pl": "Wolontariat pozwala młodym ludziom rozwijać umiejętności, które cenią pracodawcy."
+            },
+            {
+              "en": "Critics argue that it does more harm than good.",
+              "pl": "Krytycy twierdzą, że przynosi więcej szkody niż pożytku."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Zakres nagradza próby, a poprawność karze błędy. Na egzamin bierz trudniejsze struktury, które masz przećwiczone, a nie te, które widziałeś raz."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Poprawność środków językowych (0–3)** liczy osobno dwa rodzaje błędów: **językowe** (słownictwo i gramatyka) i **błędy zapisu** (ortografia i interpunkcja). Wynik odczytujesz z tabeli."
+    },
+    {
+      "type": "table",
+      "headers": ["Błędy językowe", "Zapis: nieliczne", "Zapis: liczne lub bardzo liczne"],
+      "rows": [
+        ["nieliczne", "3", "2"],
+        ["liczne", "2", "1"],
+        ["bardzo liczne", "1", "0"]
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "- Nikt nie liczy błędów co do sztuki. Egzaminator patrzy, ile ich jest **w stosunku do długości** tekstu.\n- W przypadkach granicznych decyduje waga błędów i to, czy przeszkadzają w zrozumieniu. Interpunkcja waży mniej niż ortografia.\n- Literówka, która robi z jednego słowa inne (*quiet* zamiast *quite*), liczy się jako błąd językowy, a nie zapisu.\n- Skróty z czatu typu *thx* albo *CU* to błędy ortograficzne.\n- Obca nazwa bez wyjaśnienia po angielsku to naraz błąd językowy i usterka spójności. Jeśli ta nazwa jest kluczowa dla tematu, informacja z nią nie liczy się do treści.\n- Przy dostosowaniu warunków (np. dysleksja) nie liczy się błędów zapisu, ale błąd ortograficzny, który zmienia znaczenie słowa, jest błędem językowym."
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "**Kiedy całe wypracowanie dostaje 0:**\n\n- praca jest nieczytelna, niekomunikatywna albo w całości niezgodna z tematem lub poleceniem;\n- praca jest odtworzona z podręcznika albo innego źródła;\n- nie ma rozwinięcia, np. jest sam wstęp;\n- za zgodność z poleceniem jest 0.\n\nPraca niesamodzielna (przepisana z arkusza, z internetu albo od innej osoby) to coś więcej niż 0: może skończyć się **unieważnieniem** części pisemnej egzaminu z angielskiego."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Jak CKE liczy wyrazy.** Wyraz to wszystko, co stoi między dwiema spacjami. Nie liczysz sylab ani „prawdziwych” słów, tylko ciągi znaków."
+    },
+    {
+      "type": "table",
+      "headers": ["Zapis", "Wyrazy", "Przykład"],
+      "rows": [
+        ["zwykłe słowa", "każde osobno", "at home = 2, for a change = 3"],
+        ["forma skrócona", "1", "don't, can't, isn't, haven't"],
+        ["słowo z łącznikiem", "1", "well-built, twenty-four"],
+        ["skrótowiec", "1", "SMS, EU (bez względu na długość)"],
+        ["liczba cyframi", "1", "2027, 150"],
+        ["data", "tyle, ile ciągów", "10 September 2024 = 3, 10.01.2024 = 1"],
+        ["cyfry rzymskie", "jak liczby", "Henry VIII = 2"],
+        ["e-mail, www, telefon", "1", "www.example.com"],
+        ["obcy język", "liczy się", "polski tytuł książki w tekście"],
+        ["nie liczy się", "0", "podpis, emotikony, fragmenty nie na temat"]
+      ]
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "znaj swoją linijkę",
+          "text_pl": "Na próbnych pracach policz kilka razy, ile wyrazów mieści ci się w jednej linijce. Na egzaminie znasz tę liczbę z góry."
+        },
+        {
+          "step_pl": "policz linijki",
+          "text_pl": "Policz zapisane linijki. Krótkie końcówki akapitów licz jako pół."
+        },
+        {
+          "step_pl": "pomnóż",
+          "text_pl": "Np. 23 linijki × 10 wyrazów = ok. 230. Jeśli wychodzi 210–240, jesteś bezpieczny i nie tracisz czasu."
+        },
+        {
+          "step_pl": "blisko progu? licz dokładnie",
+          "text_pl": "Jeśli wynik jest bliżej 180 albo 280, policz co do wyrazu, akapit po akapicie. Sumy zapisuj w brudnopisie, żeby nie zaczynać od nowa."
+        },
+        {
+          "step_pl": "brakuje kilku słów",
+          "text_pl": "Skrót don't to jeden wyraz, a do not dwa. W rozprawce i liście i tak lepiej pisać pełne formy, więc rozwinięcie skrótów to uczciwy zapas."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "Czy tytuł artykułu wlicza się do liczby wyrazów, zasady wprost nie mówią. Policz tak, żeby sam tekst bez tytułu miał co najmniej 200 wyrazów, i problem znika."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Plan w 2 minuty.** Plan nie musi być ładny. Ma upilnować to, co kosztuje najwięcej: oba elementy tematu i tezę."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "20 s: podkreśl polecenie",
+          "text_pl": "Zaznacz formę, oba elementy i każde słowo, które zawęża temat (np. „wyłącznie”, „w małym mieście”, „dla nastolatków”). W kluczach pominięte zawężenie kończyło się najwyżej 1 pkt za element, a czasem uznaniem tekstu za niezgodny z tematem."
+        },
+        {
+          "step_pl": "20 s: pierwsze zdanie",
+          "text_pl": "Zapisz po angielsku roboczą tezę, która zapowiada obie strony albo twoje zdanie. W artykule tytuł i pomysł na otwarcie, w liście cel pisania."
+        },
+        {
+          "step_pl": "60 s: dwa aspekty na element",
+          "text_pl": "Do każdego elementu zapisz dwa argumenty, a przy każdym słowo-klucz do przykładu albo szczegółu. Same hasła po angielsku, bez pełnych zdań."
+        },
+        {
+          "step_pl": "20 s: zakończenie",
+          "text_pl": "Jedna myśl na koniec, która nie powtarza wstępu: wniosek, rada albo spojrzenie w przyszłość."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Nie masz drugiego aspektu do któregoś elementu? Zerknij na drugi temat. Lepiej to odkryć w minucie drugiej niż w połowie pisania."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Akapity.** Najprostszy układ ma cztery akapity. Ułatwia zaliczenie kompozycji i segmentacji, jeśli każdy akapit trzyma się jednego tematu, a proporcje są podobne jak w tabeli. W rozprawce „za i przeciw” element 1 to zwykle zalety, a element 2 wady (albo odwrotnie, jak w poleceniu)."
+    },
+    {
+      "type": "table",
+      "headers": ["Akapit", "Co w nim jest", "Ok. wyrazów"],
+      "rows": [
+        [
+          "1. Wstęp",
+          "rozprawka: teza; artykuł: ciekawe otwarcie i temat; list: cel pisania",
+          "35–45"
+        ],
+        [
+          "2. Element 1",
+          "zdanie, które mówi, o czym jest akapit, potem dwa aspekty, każdy z wyjaśnieniem i przykładem",
+          "70–80"
+        ],
+        ["3. Element 2", "tak samo jak element 1", "70–80"],
+        [
+          "4. Zakończenie",
+          "wniosek zgodny z tezą i treścią, innymi słowami niż wstęp; w liście zwrot końcowy",
+          "30–40"
+        ]
+      ]
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Rozprawka",
+          "md_pl": "Styl formalny. Teza we wstępie, rozwinięcie konsekwentnie ją wspiera, zakończenie zgadza się z tezą i argumentami.",
+          "examples": [
+            {
+              "en": "While a ban on smartphones in schools has some obvious advantages, it also has several drawbacks.",
+              "pl": "Choć zakaz smartfonów w szkołach ma pewne oczywiste zalety, ma też kilka wad."
+            }
+          ]
+        },
+        {
+          "title": "Artykuł",
+          "md_pl": "Tytuł, który przyciąga uwagę, i wstęp, który zachęca do czytania: pytanie, krótka historia, zaskakujący fakt. Możesz zwracać się do czytelnika, ale ton zostaje rzeczowy.",
+          "examples": [
+            {
+              "en": "Is Your Phone Stealing Your Weekend?",
+              "pl": "Czy telefon kradnie ci weekend?"
+            },
+            {
+              "en": "Have you ever picked up your phone 'for a minute' and looked up an hour later?",
+              "pl": "Zdarzyło ci się wziąć telefon „na minutkę” i podnieść wzrok godzinę później?"
+            }
+          ]
+        },
+        {
+          "title": "List formalny",
+          "md_pl": "We wstępie cel listu, potem jasny wywód, na końcu zwrot zamykający. *Dear Sir or Madam* → *Yours faithfully*, *Dear Ms Nowak* → *Yours sincerely*.",
+          "examples": [
+            {
+              "en": "I am writing to express my concern about the plan to close the local library.",
+              "pl": "Piszę, aby wyrazić zaniepokojenie planem zamknięcia miejscowej biblioteki."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Pierwsze zdania decydują o punkcie za wstęp i często o cesze formy. Opłaca się mieć je przećwiczone dla każdej formy."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Za luźno",
+          "md_pl": "Skróty, słowa z rozmowy, wykrzykniki.",
+          "examples": [
+            {
+              "en": "Kids don't read books any more, and that's a real shame!",
+              "pl": "Dzieciaki już nie czytają książek, a to wielka szkoda!"
+            },
+            {
+              "en": "Hi! I'm writing because I've got a problem with the buses.",
+              "pl": "Cześć! Piszę, bo mam problem z autobusami."
+            }
+          ]
+        },
+        {
+          "title": "Formalnie",
+          "md_pl": "Pełne formy, neutralne słownictwo, spokojny ton.",
+          "examples": [
+            {
+              "en": "Fewer and fewer young people read books for pleasure, which is a cause for concern.",
+              "pl": "Coraz mniej młodych ludzi czyta książki dla przyjemności, co budzi niepokój."
+            },
+            {
+              "en": "Dear Sir or Madam, I am writing to complain about the local bus service.",
+              "pl": "Szanowni Państwo, piszę, aby złożyć skargę na miejską komunikację autobusową."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "W artykule możesz pisać żywiej (pytania do czytelnika, *you*), ale bez slangu. Liczne albo rażące wpadki w stylu mogą kosztować punkt w zakresie."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Czas.** Cały arkusz to 150 minut i nie ma osobnego czasu na wypracowanie. To przykładowy podział: sprawdź go na arkuszu próbnym i popraw pod siebie."
+    },
+    {
+      "type": "table",
+      "headers": ["Etap", "Minuty", "Uwagi"],
+      "rows": [
+        ["Słuchanie", "ok. 30", "zadania 1–3; leci nagranie, więc tego czasu nie przesuniesz"],
+        ["Czytanie", "ok. 40", "zadania 4–6, 18 pkt, najwięcej w arkuszu"],
+        ["Środki językowe", "ok. 20", "zadania 7–9, 14 pkt; krótkie, ale wymagają dokładności"],
+        [
+          "Wypracowanie",
+          "ok. 45",
+          "temat i plan 3–5 min, pisanie ok. 30 min, sprawdzanie i liczenie wyrazów 8–10 min"
+        ],
+        ["Karta i zapas", "ok. 15", "przeniesienie odpowiedzi na kartę i ostatni rzut oka"]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "**Brudnopis nie jest oceniany.** Wyjątek: jeśli przekreślisz napis „Brudnopis” i dopiszesz „Czystopis”, egzaminator to sprawdzi. W zadaniach zamkniętych liczy się tylko karta odpowiedzi. Przepisywanie całego wypracowania zjada dużo czasu, więc w brudnopisie zrób tylko plan, a tekst pisz od razu na czysto."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Kolejność zadań jest twoja. Możesz pisać wypracowanie zaraz po słuchaniu, póki głowa jest świeża, a czytanie i środki zrobić później. Sprawdź obie wersje na próbnych arkuszach i wybierz tę, w której nie brakuje ci czasu na sprawdzenie tekstu."
+    }
+  ]
+}

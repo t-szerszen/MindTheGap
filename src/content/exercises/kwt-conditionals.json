@@ -1,0 +1,637 @@
+[
+  {
+    "id": "kc-ferry-island",
+    "type": "key-word-transformation",
+    "source": "If the ferry isn't cancelled because of the wind, we'll reach the island by noon.",
+    "keyWord": "UNLESS",
+    "target": "We'll reach the island by noon ___ cancelled because of the wind.",
+    "maxWords": 5,
+    "correct": ["unless the ferry is", "unless the ferry gets"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "unless znaczy „jeśli nie”, czyli samo w sobie niesie przeczenie. if … isn't zamieniasz na unless … is."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po unless, tak jak po if, o przyszłości mówisz w Present Simple: unless the ferry is cancelled, a nie will be."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "unless the ferry isn't to podwójne przeczenie i zmienia sens na odwrotny. Nie zapomnij też o podmiocie: w zdaniu docelowym nie ma słowa ferry, więc musi się znaleźć w luce. Samo it byłoby niejasne, bo mogłoby chodzić o wyspę."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kc-dad-car-petrol",
+    "type": "key-word-transformation",
+    "source": "Dad says he'll lend me his car, but I have to fill it up with petrol afterwards.",
+    "keyWord": "PROVIDED",
+    "target": "Dad says he'll lend me his car ___ it up with petrol afterwards.",
+    "maxWords": 5,
+    "correct": ["provided I fill", "provided that I fill"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "„Ale muszę zatankować” to tak naprawdę warunek: pożyczy, pod warunkiem że zatankuję. provided (that) działa jak if, tylko mocniej podkreśla warunek."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po provided stoi Present Simple, mimo że chodzi o przyszłość: provided I fill, nie provided I will fill."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "provided that I fill to 4 wyrazy, więc that możesz dodać albo pominąć."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kc-headphones-friday",
+    "type": "key-word-transformation",
+    "source": "You can borrow my headphones, but only if you give them back by Friday.",
+    "keyWord": "LONG",
+    "target": "You can borrow my headphones ___ them back by Friday.",
+    "maxWords": 5,
+    "correct": ["as long as you give", "so long as you give"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "only if = „tylko pod warunkiem, że”. Słowo LONG prowadzi do as long as, które znaczy to samo."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po as long as przyszłość wyrażasz Present Simple: as long as you give, a nie will give."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "as long as you give to dokładnie 5 wyrazów. Zostaje też wersja so long as, rzadsza, ale poprawna."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kc-number-lose-phone",
+    "type": "key-word-transformation",
+    "source": "Write my number down on a piece of paper because you might lose your phone.",
+    "keyWord": "CASE",
+    "target": "Write my number down on a piece of paper ___ your phone.",
+    "maxWords": 5,
+    "correct": ["in case you lose", "just in case you lose", "in case you should lose"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "in case = „na wypadek, gdyby”. Zapisujesz numer teraz, zanim cokolwiek się stanie, bo coś może się wydarzyć. To nie jest if: nie zapisujesz go dopiero wtedy, gdy zgubisz telefon."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po in case stoi Present Simple: in case you lose. Słowo might z pierwszego zdania znika, bo samo in case już mówi, że to tylko możliwość."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "in case you will lose i in case you might lose na maturze traktuj jako błędy."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kc-dawn-traffic-jam",
+    "type": "key-word-transformation",
+    "source": "If we hadn't set off at dawn, we would have got stuck in the traffic jam.",
+    "keyWord": "OTHERWISE",
+    "target": "We set off at dawn; ___ stuck in the traffic jam.",
+    "maxWords": 5,
+    "correct": ["otherwise we would have got", "otherwise we would have been"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "otherwise = „w przeciwnym razie”. Najpierw podajesz fakt (wyjechaliśmy o świcie), a po otherwise to, co stałoby się bez niego."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Skutek dotyczy przeszłości, której już nie zmienisz, więc zostaje forma z trybu trzeciego: would have + V3."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po otherwise nie ma if, więc nie wstawiasz tam had. otherwise we had got to błąd. Nie gub też podmiotu we."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "kc-kuba-licence-airport",
+    "type": "key-word-transformation",
+    "source": "Kuba doesn't have a driving licence, so he can't drive us to the airport.",
+    "keyWord": "COULD",
+    "target": "If Kuba had a driving licence, ___ us to the airport.",
+    "maxWords": 5,
+    "correct": ["he could drive"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Fakt dotyczy teraźniejszości (nie ma prawa jazdy), a zdanie docelowe go odwraca, więc to tryb drugi: if + Past Simple, a w skutku would albo could."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "can't drive w nierealnym skutku zmienia się w could drive, bo could to przeszła forma od can."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "would can nie istnieje. Pamiętaj też o podmiocie he, bez niego zdanie jest niepełne."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "kc-coach-apologise",
+    "type": "key-word-transformation",
+    "source": "My advice is to apologise to the coach before the match.",
+    "keyWord": "WERE",
+    "target": "If ___ apologise to the coach before the match.",
+    "maxWords": 5,
+    "correct": ["I were you, I would", "I were you I would"],
+    "accepted": ["I were you, I'd", "I were you I'd"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Rada „na twoim miejscu” to po angielsku If I were you, I would… Sytuacja jest nierealna (nie jestem tobą), więc tryb drugi."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "W tym zwrocie standardowo stoi were także po I. Po przecinku idzie would + bezokolicznik bez to, a apologise już czeka w zdaniu."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "I were you, I would to 5 wyrazów, interpunkcja się nie liczy."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "kc-striker-final",
+    "type": "key-word-transformation",
+    "source": "Our team lost the final because our best striker was injured.",
+    "keyWord": "HAVE",
+    "target": "If our best striker hadn't been injured, our team ___ the final.",
+    "maxWords": 5,
+    "correct": ["would not have lost", "would have won"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Wszystko wydarzyło się w przeszłości i odwracamy fakty, więc tryb trzeci: if + had + V3, a w skutku would have + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Przegraliśmy, więc w nierealnej wersji: would not have lost. Możesz też odwrócić znaczenie słowem: would have won."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "would have lose i would have losed to błędy. Po would have zawsze idzie trzecia forma: lost, won."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kc-hospital-visit",
+    "type": "key-word-transformation",
+    "source": "I didn't know you were in hospital, so I didn't visit you.",
+    "keyWord": "KNOWN",
+    "target": "I would have visited you if ___ in hospital.",
+    "maxWords": 5,
+    "correct": ["I had known you were"],
+    "accepted": ["I'd known you were"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Obie rzeczy są w przeszłości, a zdanie docelowe opisuje coś, co się nie wydarzyło. To tryb trzeci: if + had + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "didn't know po odwróceniu daje had known. Zdanie o szpitalu zostaje: you were in hospital."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "I had known that you were to już 6 wyrazów, więc that musi wypaść."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "if I would have known to częsty błąd: would nie stoi w części z if."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "kc-quiet-room-brothers",
+    "type": "key-word-transformation",
+    "source": "I'd love to have a quiet room to study in, but I share mine with two brothers.",
+    "keyWord": "WISH",
+    "target": "I ___ a quiet room to study in, but I share mine with two brothers.",
+    "maxWords": 5,
+    "correct": ["wish I had", "wish that I had", "wish I could have", "wish that I could have"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Marzysz o czymś, czego teraz nie masz. Po wish o teraźniejszości stoi forma przeszła: I wish I had."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Życzenie mówi odwrotność faktu: nie mam pokoju, więc I wish I had a room. Da się też powiedzieć I wish I could have."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "I wish I have i I wish I would have to błędy. Po wish nie zostawiasz czasu teraźniejszego."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "kc-guitar-michal",
+    "type": "key-word-transformation",
+    "source": "Why on earth did I sell my old guitar to Michał? It was a big mistake.",
+    "keyWord": "ONLY",
+    "target": "If ___ my old guitar to Michał!",
+    "maxWords": 5,
+    "correct": ["only I had not sold"],
+    "accepted": ["only I'd not sold"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Żałujesz czegoś, co już zrobiłeś. If only działa jak wish, tylko mocniej: „gdybym tylko nie…”."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Żal o przeszłość to cofnięcie o krok dalej: Past Perfect. Sprzedałem, więc If only I had not sold."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "only I had not sold to 5 wyrazów. Ze skrótem hadn't wychodzą 4, oba zapisy mieszczą się w limicie."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "kc-dad-phone-dinner",
+    "type": "key-word-transformation",
+    "source": "My dad keeps checking his phone during dinner, and it really annoys me.",
+    "keyWord": "WOULD",
+    "target": "I wish my dad ___ his phone during dinner.",
+    "maxWords": 5,
+    "correct": ["would stop checking", "would not check", "would not keep checking"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Irytuje cię czyjeś powtarzające się zachowanie i chcesz, żeby się zmieniło. Wtedy po wish stoi would + bezokolicznik."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Chcesz, żeby przestał: would stop checking (po stop -ing) albo po prostu would not check."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "would stop to check znaczy „zatrzymałby się, żeby sprawdzić”, czyli coś zupełnie innego."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kc-essays-on-paper",
+    "type": "key-word-transformation",
+    "source": "Our teacher would prefer us to hand in our essays on paper, not by email.",
+    "keyWord": "RATHER",
+    "target": "Our teacher would ___ our essays on paper, not by email.",
+    "maxWords": 5,
+    "correct": ["rather we handed in"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "would prefer sb to do zamieniasz na would rather + osoba + Past Simple. Forma przeszła mówi, że to tylko życzenie, a nie fakt."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po would rather nie ma to i nie ma us, tylko podmiot we: rather we handed in."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "would rather us to hand in to mieszanka dwóch konstrukcji i błąd."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kc-old-fridge",
+    "type": "key-word-transformation",
+    "source": "We really should replace this old fridge — it's been making strange noises for months.",
+    "keyWord": "REPLACED",
+    "target": "It's high time ___ this old fridge — it's been making strange noises for months.",
+    "maxWords": 5,
+    "correct": ["we replaced"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "It's high time + podmiot + Past Simple to „już najwyższy czas, żeby…”. Mówisz o teraz, ale forma jest przeszła, bo tej rzeczy jeszcze nie zrobiono."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Słowo klucz już jest w formie przeszłej, więc brakuje tylko podmiotu: we replaced."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Wersja It's high time to replace jest poprawna, ale tu odpada, bo słowa REPLACED nie wolno zmieniać."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kc-notes-promise",
+    "type": "key-word-transformation",
+    "source": "I'll only lend you my notes if you promise to give them back tomorrow.",
+    "keyWord": "UNLESS",
+    "target": "I won't lend you my notes ___ to give them back tomorrow.",
+    "maxWords": 5,
+    "correct": ["unless you promise"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "„Pożyczę tylko, jeśli obiecasz” = „nie pożyczę, jeśli nie obiecasz”. Zdanie docelowe ma już won't, więc w luce zostaje unless."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "unless już zawiera przeczenie. unless you don't promise znaczyłoby odwrotność."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po unless Present Simple: unless you promise, nie will promise."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "kc-ola-long-hours",
+    "type": "key-word-transformation",
+    "source": "Ola is always exhausted because she works such long hours.",
+    "keyWord": "DIDN'T",
+    "target": "If Ola ___ such long hours, she wouldn't always be exhausted.",
+    "maxWords": 5,
+    "correct": ["did not work"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Fakt jest teraźniejszy (pracuje tak długo), a w skutku stoi wouldn't. To tryb drugi: if + Past Simple."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "works w części z if cofa się do Past Simple, a przeczenie daje didn't work."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "hadn't worked to już tryb trzeci, o przeszłości, a skutek jest o teraz. didn't works to błąd: po did zawsze bezokolicznik."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "kc-spanish-subtitles",
+    "type": "key-word-transformation",
+    "source": "My Spanish isn't good enough for me to understand the films without subtitles.",
+    "keyWord": "ABLE",
+    "target": "If my Spanish were better, I ___ the films without subtitles.",
+    "maxWords": 5,
+    "correct": ["would be able to understand"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Warunek jest już w zdaniu (were better), więc w luce zostaje skutek trybu drugiego: would + bezokolicznik."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "ABLE wymusza be able to, czyli zamiennik could: would be able to understand."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "would be able to understand to dokładnie 5 wyrazów. could be able to to błąd, bo dwa razy mówisz to samo."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kc-museum-dinosaurs",
+    "type": "key-word-transformation",
+    "source": "The museum was closed, so we didn't see the dinosaur exhibition.",
+    "keyWord": "BEEN",
+    "target": "If the museum ___, we would have seen the dinosaur exhibition.",
+    "maxWords": 5,
+    "correct": ["had been open", "had not been closed"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "W skutku jest would have seen, czyli tryb trzeci, a w warunku potrzebujesz had + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "was closed cofa się do had been. Fakt odwracasz: had been open albo had not been closed."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "had been opened znaczyłoby, że ktoś otworzył muzeum, a chodzi o to, czy było otwarte."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "kc-mateusz-london-job",
+    "type": "key-word-transformation",
+    "source": "Mateusz is sorry he didn't take the job in London.",
+    "keyWord": "WISHES",
+    "target": "Mateusz ___ the job in London.",
+    "maxWords": 5,
+    "correct": ["wishes he had taken", "wishes that he had taken"],
+    "accepted": ["wishes he'd taken", "wishes he had accepted", "wishes that he had accepted"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Żałuje teraz czegoś z przeszłości, więc wish + Past Perfect."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Nie wziął pracy, więc w życzeniu jest odwrotnie: he had taken. take ma nieregularną trzecią formę: taken."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Słowo klucz ma już końcówkę -es, bo żałuje teraz. wishes he took mówiłoby o teraźniejszości, a decyzja jest przeszła."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kc-rain-go-out",
+    "type": "key-word-transformation",
+    "source": "I'd love it if the rain stopped so we could go out.",
+    "keyWord": "ONLY",
+    "target": "If ___ stop raining so we could go out!",
+    "maxWords": 5,
+    "correct": ["only it would"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Chcesz, żeby coś, na co nie masz wpływu, się zmieniło. If only + would działa wtedy tak samo jak I wish + would."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "W zdaniu docelowym jest już stop raining, więc brakuje podmiotu it i would: If only it would stop raining."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "only the rain would nie pasuje, bo wyszłoby the rain would stop raining. Podmiotem pogody jest it."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kc-school-trip-money",
+    "type": "key-word-transformation",
+    "source": "The school will pay for the trip if we raise half the money ourselves.",
+    "keyWord": "CONDITION",
+    "target": "The school will pay for the trip ___ half the money ourselves.",
+    "maxWords": 5,
+    "correct": ["on condition that we raise"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "on condition that = „pod warunkiem, że”. To bardziej formalne if, zachowuje się tak samo."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po on condition that stoi Present Simple: we raise, nie we will raise."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Przyimek to on, nie with ani in. on the condition that to już 6 wyrazów."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations"],
+    "difficulty": 3,
+    "accepted": ["on condition we raise"]
+  },
+  {
+    "id": "kc-interview-leave-now",
+    "type": "key-word-transformation",
+    "source": "Leave right now or you'll be late for your interview.",
+    "keyWord": "IF",
+    "target": "You'll be late for your interview ___ right now.",
+    "maxWords": 5,
+    "correct": ["if you do not leave"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Tryb rozkazujący + or to ukryty warunek: „wyjdź, bo inaczej” = „jeśli nie wyjdziesz”. Przyszłość jest realna, więc tryb pierwszy."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "W części z if przyszłość wyrażasz Present Simple: if you do not leave (albo don't leave)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "if you will not leave to błąd. Przeczenie musi zostać, bo bez niego zdanie mówiłoby, że spóźnisz się przez wyjście."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kc-train-speeches",
+    "type": "key-word-transformation",
+    "source": "It doesn't matter whether the train is late; we'll still get there before the speeches.",
+    "keyWord": "EVEN",
+    "target": "We'll get there before the speeches ___ late.",
+    "maxWords": 5,
+    "correct": ["even if the train is", "even if the train runs", "even if the train arrives"],
+    "accepted": ["even if the train's"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "„Nie ma znaczenia, czy…” to even if = „nawet jeśli”. Skutek będzie ten sam bez względu na warunek."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "even though znaczy „chociaż” i mówi o fakcie, że pociąg jest spóźniony. Tu nie wiadomo, czy się spóźni, więc pasuje tylko even if."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po even if, jak po if, przyszłość wyrażasz Present Simple: the train is, nie will be."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "kc-gps-campsite",
+    "type": "key-word-transformation",
+    "source": "We only found the campsite in the dark thanks to the GPS.",
+    "keyWord": "FOR",
+    "target": "If it ___ the GPS, we wouldn't have found the campsite in the dark.",
+    "maxWords": 5,
+    "correct": ["had not been for"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "If it hadn't been for + rzeczownik = „gdyby nie…” w przeszłości. Skutek ma wouldn't have found, więc to tryb trzeci."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Podmiot it jest już w zdaniu, w luce zostaje had not been for. Tego zwrotu uczysz się w całości."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "If it wasn't for to wersja o teraźniejszości. Przy wouldn't have found potrzebujesz had been."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "kc-party-kasia",
+    "type": "key-word-transformation",
+    "source": "I'm not going to the party tonight, so I won't see Kasia.",
+    "keyWord": "WERE",
+    "target": "If I ___ to the party tonight, I would see Kasia.",
+    "maxWords": 5,
+    "correct": ["were going", "were to go"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "W skutku jest would, więc to tryb drugi: odwracasz plan, którego nie ma. I'm not going cofa się o krok i traci przeczenie: I were going."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Present Continuous o planie w trybie drugim daje were going. Inna możliwość to were to go, czyli wyobrażona przyszłość."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "If I would go to błąd, a samo went odpada, bo nie ma w nim słowa WERE."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations"],
+    "difficulty": 3
+  }
+]

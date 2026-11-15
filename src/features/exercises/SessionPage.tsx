@@ -4,27 +4,28 @@ import { Button, Progress } from '../../components/Controls'
 import { PencilLine } from '../../components/Ink'
 import { Sticky } from '../../components/Paper'
 import { Loading, NoteState } from '../../components/States'
-import type { Exercise } from '../../content/schema'
+import type { Exercise, Topic } from '../../content/schema'
 import { pl } from '../../i18n/pl'
-import { getExercise, getExercises, getTense, getTopic } from '../../lib/content'
+import { getTense, useExercises, useTopics } from '../../lib/content'
 import { addAttempt } from '../../lib/db/attempts'
-import { checkAnswer } from '../../lib/exercises/check'
+import { gradeExercise, partKeys } from '../../lib/exercises/check'
 import { buildSession, tagStats, type SessionMode } from '../../lib/exercises/session'
 import { useAuth } from '../auth/useAuth'
 import { ExerciseItem } from './ExerciseItem'
 import { loadSession, saveSession, type SavedSession } from './savedSession'
 import { useAttempts } from './useAttempts'
 
-function titleFor(tags: string[]) {
+function titleFor(tags: string[], topics: Topic[]) {
   if (tags.length !== 1) return pl.exercises.mixed
   const id = tags[0]!
-  return getTense(id)?.nameEn ?? getTopic(id)?.title_pl ?? pl.exercises.mixed
+  return getTense(id)?.nameEn ?? topics.find((t) => t.id === id)?.title_pl ?? pl.exercises.mixed
 }
 
 // czeka na próby (do trybu słabych punktów), a potem raz układa serię
 export function SessionPage() {
   const [params] = useSearchParams()
   const { attempts, loading } = useAttempts()
+  const exercises = useExercises()
   const { key } = useLocation()
   const resume = params.get('resume') === '1'
   const mode: SessionMode = params.get('mode') === 'weak' ? 'weak' : 'random'
@@ -36,8 +37,10 @@ export function SessionPage() {
   else {
     const tags = params.get('tags')?.split(',').filter(Boolean) ?? []
     const level = Number(params.get('level')) as 1 | 2 | 3
-    const ids = buildSession(getExercises(), {
+    const types = params.get('types')?.split(',').filter(Boolean) as Exercise['type'][] | undefined
+    const ids = buildSession(exercises, {
       tags,
+      types,
       difficulty: [1, 2, 3].includes(level) ? level : undefined,
       mode,
       count: Number(params.get('n')) || 8,
@@ -53,8 +56,12 @@ function Session({ initial }: { initial: SavedSession }) {
   const t = pl.exercises
   const { user } = useAuth()
   const navigate = useNavigate()
+  const exercises = useExercises()
+  const topics = useTopics()
   const [state, setState] = useState(initial)
-  const items = state.ids.map(getExercise).filter((e): e is Exercise => !!e)
+  const items = state.ids
+    .map((id) => exercises.find((e) => e.id === id))
+    .filter((e): e is Exercise => !!e)
   const tags = new URLSearchParams(state.query).get('tags')?.split(',').filter(Boolean) ?? []
 
   function update(next: SavedSession) {
@@ -62,20 +69,23 @@ function Session({ initial }: { initial: SavedSession }) {
     saveSession(next)
   }
 
+  const get = (key: string) => state.values[key] ?? ''
+
+  // każda luka to osobna próba w postępie (exerciseId = klucz luki, np. "id#2")
   function check(ids: string[]) {
     const checked = { ...state.checked }
     for (const id of ids) {
       const ex = items.find((e) => e.id === id)
-      const answer = state.values[id] ?? ''
-      if (!ex || !answer.trim() || checked[id]) continue
+      if (!ex || checked[id] || !partKeys(ex).some((k) => get(k).trim())) continue
       checked[id] = true
       if (user)
-        addAttempt(user.uid, {
-          exerciseId: id,
-          tags: ex.tags,
-          correct: checkAnswer(ex, answer),
-          answer,
-        })
+        for (const r of gradeExercise(ex, get))
+          addAttempt(user.uid, {
+            exerciseId: r.key,
+            tags: ex.tags,
+            correct: r.ok,
+            answer: get(r.key),
+          })
     }
     update({ ...state, checked })
   }
@@ -94,9 +104,8 @@ function Session({ initial }: { initial: SavedSession }) {
     )
 
   const done = items.filter((e) => state.checked[e.id]).length
-  const good = items.filter(
-    (e) => state.checked[e.id] && checkAnswer(e, state.values[e.id] ?? ''),
-  ).length
+  const graded = items.filter((e) => state.checked[e.id]).flatMap((e) => gradeExercise(e, get))
+  const good = graded.filter((r) => r.ok).length
   const finished = done === items.length
 
   return (
@@ -106,7 +115,7 @@ function Session({ initial }: { initial: SavedSession }) {
           <p className="eyebrow">{t.sessionEyebrow(items.length)}</p>
           <div className="hdr">
             <h1 className="h-l" lang={tags.length === 1 && getTense(tags[0]!) ? 'en' : undefined}>
-              {titleFor(tags)}
+              {titleFor(tags, topics)}
             </h1>
             <span className="hand" style={{ fontSize: 24, fontWeight: 700 }}>
               {done}/{items.length}
@@ -135,15 +144,15 @@ function Session({ initial }: { initial: SavedSession }) {
               key={ex.id}
               ex={ex}
               n={i + 1}
-              value={state.values[ex.id] ?? ''}
-              checked={!!state.checked[ex.id]}
-              onChange={(v) =>
+              get={get}
+              set={(key, v) =>
                 update({
                   ...state,
-                  values: { ...state.values, [ex.id]: v },
+                  values: { ...state.values, [key]: v },
                   checked: { ...state.checked, [ex.id]: false },
                 })
               }
+              results={state.checked[ex.id] ? gradeExercise(ex, get) : null}
               onCheck={() => check([ex.id])}
             />
           ))}
@@ -157,12 +166,12 @@ function Session({ initial }: { initial: SavedSession }) {
               <span className="red" style={{ fontWeight: 700 }}>
                 {good}
               </span>{' '}
-              {t.checkedOf(done)}
+              {t.checkedOf(graded.length)}
             </span>
           </p>
           {finished ? (
             <>
-              <p className="note">{t.finished(good, items.length)}</p>
+              <p className="note">{t.finished(good, graded.length)}</p>
               <div className="row wrap" style={{ gap: 12 }}>
                 <Button
                   variant="primary"

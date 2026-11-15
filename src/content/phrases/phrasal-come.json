@@ -1,0 +1,205 @@
+{
+  "id": "phrasal-come",
+  "category": "phrasal-verbs",
+  "title_pl": "Phrasal verbs z come",
+  "items": [
+    {
+      "en": "come across sth/sb",
+      "pl": "natknąć się na coś/kogoś, trafić na coś przypadkiem",
+      "meaning_pl": "Znaleźć albo spotkać coś bez szukania. Ważne dla całej tej listy: come nie bierze dopełnienia, więc żaden phrasal z come nie jest rozdzielny. Rzecz, także zaimek, idzie zawsze za partykułą: come across it (nie: come it across)",
+      "example": {
+        "en": "While we were looking for sources for our project, we came across an article about plastic in the Baltic Sea.",
+        "pl": "Kiedy szukaliśmy źródeł do projektu, natknęliśmy się na artykuł o plastiku w Bałtyku."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "nauka", "szkoła"]
+    },
+    {
+      "en": "come across (as sth / well / badly)",
+      "pl": "sprawiać wrażenie, wychodzić na kogoś, wypadać (dobrze, źle)",
+      "meaning_pl": "Jak odbierają cię inni. Po come across stoi as + rzeczownik albo przymiotnik (come across as rude) albo przysłówek (come across well). Bez dopełnienia, więc nie ma czego rozdzielać. Nie myl z come across sth = natknąć się na coś",
+      "example": {
+        "en": "Don't make your email to the hotel too informal — you don't want to come across as rude.",
+        "pl": "Nie pisz maila do hotelu zbyt potocznie — nie chcesz wyjść na niegrzecznego."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "charakter", "e-mail"]
+    },
+    {
+      "en": "come up (topic, question, job)",
+      "pl": "pojawić się (w rozmowie, na egzaminie), zostać poruszonym; zwolnić się (o posadzie)",
+      "meaning_pl": "Temat albo pytanie 'wypływa': ktoś o nim wspomina, pojawia się na teście (w BrE come up in the exam). Tak samo z okazją albo wolnym miejscem pracy: A job came up. Bez dopełnienia (nie: come it up)",
+      "example": {
+        "en": "A question about the Industrial Revolution came up in the exam, and luckily I had revised it the night before.",
+        "pl": "Na egzaminie pojawiło się pytanie o rewolucję przemysłową i na szczęście powtórzyłam to poprzedniego wieczoru."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "szkoła", "praca"]
+    },
+    {
+      "en": "come up (Something's come up.)",
+      "pl": "wypaść, wyskoczyć (o niespodziewanej sprawie)",
+      "meaning_pl": "Coś nagle się wydarzyło i psuje plany. Typowa wymówka w SMS-ie albo mailu: Something has come up, so I can't make it. Często w present perfect, bo liczy się skutek teraz. Bez dopełnienia",
+      "example": {
+        "en": "Sorry, I can't meet you tonight — something has come up at home.",
+        "pl": "Przepraszam, nie mogę się dziś z tobą spotkać — coś mi wypadło w domu."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "plany", "e-mail"]
+    },
+    {
+      "en": "come up with sth",
+      "pl": "wymyślić coś, wpaść na coś (pomysł, rozwiązanie)",
+      "meaning_pl": "Wymyślić pomysł, plan, rozwiązanie albo wymówkę. Dwie partykuły, rzecz zawsze na końcu: come up with it (nie: come it up with). Pasuje do rozprawki: come up with a solution to the problem",
+      "example": {
+        "en": "Our class came up with a great idea to raise money for the local animal shelter.",
+        "pl": "Nasza klasa wpadła na świetny pomysł, jak zebrać pieniądze dla miejscowego schroniska dla zwierząt."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "pomysły", "szkoła"]
+    },
+    {
+      "en": "come round (to sb's house)",
+      "pl": "wpaść (do kogoś), przyjść w odwiedziny",
+      "meaning_pl": "Brytyjskie: przyjść do kogoś do domu na chwilę, bez wielkiego planowania. To samo znaczy come over, a w AmE come around. Bez dopełnienia, dokąd i po co dodajesz na końcu: come round to my house, come round for dinner",
+      "example": {
+        "en": "Why don't you come round on Saturday? We could revise for the biology test together.",
+        "pl": "Może wpadniesz w sobotę? Moglibyśmy razem powtórzyć do sprawdzianu z biologii."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "znajomi", "BrE"]
+    },
+    {
+      "en": "come round to sth (to the idea)",
+      "pl": "przekonać się do czegoś, zmienić zdanie",
+      "meaning_pl": "Ktoś był przeciw, ale z czasem, zwykle pod wpływem innych, zmienia zdanie. Typowo: come round to the idea. Nierozdzielny: come round to it. Pułapka: come round to my house to odwiedziny, a come round to the idea to zmiana zdania, rozpoznajesz po tym, co stoi po to",
+      "example": {
+        "en": "At first my parents were against my gap year, but in the end they came round to the idea.",
+        "pl": "Na początku rodzice byli przeciwni mojemu rokowi przerwy, ale w końcu przekonali się do tego pomysłu."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "opinie", "rodzina", "BrE"]
+    },
+    {
+      "en": "come round (after fainting)",
+      "pl": "odzyskać przytomność, ocknąć się",
+      "meaning_pl": "Wrócić do przytomności po omdleniu, uderzeniu albo narkozie. W BrE come round, w AmE come around, to samo znaczy też come to. Bez dopełnienia",
+      "example": {
+        "en": "When my brother came round after the operation, a nurse was standing next to his bed.",
+        "pl": "Kiedy brat ocknął się po operacji, przy jego łóżku stała pielęgniarka."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "zdrowie"]
+    },
+    {
+      "en": "come down with sth",
+      "pl": "złapać coś (chorobę), rozchorować się na coś",
+      "meaning_pl": "Zacząć chorować, zwykle na coś niegroźnego: come down with a cold / flu. Często w czasie ciągłym: I think I'm coming down with something = chyba coś mnie bierze. Nierozdzielny, choroba zawsze na końcu",
+      "example": {
+        "en": "Half of our class came down with flu just before the school trip.",
+        "pl": "Połowa naszej klasy złapała grypę tuż przed wycieczką szkolną."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "zdrowie"]
+    },
+    {
+      "en": "come down (prices, numbers)",
+      "pl": "spadać, obniżać się (o cenach, liczbach)",
+      "meaning_pl": "Maleją ceny, temperatura albo liczba czegoś, przeciwieństwo go up. Bez dopełnienia: prices have come down. Kiedy to ktoś obniża ceny, potrzebujesz czasownika z dopełnieniem: bring prices down albo reduce prices (nie: come prices down)",
+      "example": {
+        "en": "The price of solar panels has come down a lot, so more families can afford them.",
+        "pl": "Ceny paneli słonecznych bardzo spadły, więc stać na nie więcej rodzin."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "zakupy", "ekonomia"]
+    },
+    {
+      "en": "come down to sth",
+      "pl": "sprowadzać się do czegoś, zależeć (w końcu) od czegoś",
+      "meaning_pl": "Najważniejsza rzecz, od której wszystko zależy. Typowo: It all comes down to money. Dobre na podsumowanie w rozprawce. Nierozdzielny, po to rzeczownik albo całe zdanie z what",
+      "example": {
+        "en": "In the end, choosing a university comes down to what you really want to do in life.",
+        "pl": "Ostatecznie wybór studiów sprowadza się do tego, co naprawdę chcesz robić w życiu."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "rozprawka", "opinie"]
+    },
+    {
+      "en": "come out (film, book, album)",
+      "pl": "wyjść, ukazać się, wejść (na ekrany, do sprzedaży)",
+      "meaning_pl": "Zostać wydanym: książka, film, płyta, gra, nowy telefon. Po polsku też coś 'wychodzi', więc łatwo zapamiętać. Bez dopełnienia. Gdy podmiotem jest wydawca, użyj release / publish sth: They released the album",
+      "example": {
+        "en": "The new season of the series comes out next week, so I'm trying to finish all my homework early.",
+        "pl": "Nowy sezon serialu wychodzi w przyszłym tygodniu, więc staram się wcześniej odrobić wszystkie lekcje."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "kultura", "media"]
+    },
+    {
+      "en": "come out (truth, news)",
+      "pl": "wyjść na jaw",
+      "meaning_pl": "Prawda, sekret albo wiadomość staje się znana. Typowo: the truth came out albo it came out that... Bez dopełnienia. Polskie 'wyjść na jaw' ma to samo 'wyjść', angielski nie potrzebuje 'na jaw'",
+      "example": {
+        "en": "It later came out that the footballer had been paid to lose the match.",
+        "pl": "Później wyszło na jaw, że piłkarzowi zapłacono za przegranie meczu."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "media", "sport"]
+    },
+    {
+      "en": "come along (How's it coming along?)",
+      "pl": "iść (o postępach), posuwać się do przodu",
+      "meaning_pl": "Robić postępy, rozwijać się. Najczęściej w pytaniu: How's your essay coming along? = Jak ci idzie wypracowanie? Podmiotem jest zwykle praca albo umiejętność. Bez dopełnienia",
+      "example": {
+        "en": "How's your Spanish coming along? — Much better since I started watching films without subtitles.",
+        "pl": "Jak ci idzie hiszpański? — Dużo lepiej, odkąd zaczęłam oglądać filmy bez napisów."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "nauka", "rozmowa"]
+    },
+    {
+      "en": "come on (lights, heating)",
+      "pl": "włączać się, zapalać się (o świetle, urządzeniu)",
+      "meaning_pl": "Urządzenie zaczyna działać, nikt go w tej chwili nie włącza: The lights came on. Bez dopełnienia. Kiedy to ty włączasz, mówisz turn on / switch on, a to już phrasal rozdzielny: turn it on. Osobno okrzyk Come on! = no dalej, pospiesz się",
+      "example": {
+        "en": "The heating comes on automatically at six, so the flat is warm when we get up.",
+        "pl": "Ogrzewanie włącza się automatycznie o szóstej, więc kiedy wstajemy, w mieszkaniu jest ciepło."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "dom", "technologia"]
+    },
+    {
+      "en": "come by sth",
+      "pl": "zdobyć coś, dostać coś (trudno dostępnego)",
+      "meaning_pl": "Zdobyć coś rzadkiego albo trudnego do zdobycia. Najczęściej w zwrocie be hard to come by = trudno o coś: Cheap flats are hard to come by. Nierozdzielny: How did you come by it?",
+      "example": {
+        "en": "Part-time jobs for students are hard to come by in my town.",
+        "pl": "W moim mieście trudno o pracę dorywczą dla uczniów."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "praca", "mieszkanie"]
+    },
+    {
+      "en": "come about",
+      "pl": "dojść do czegoś, wydarzyć się, wziąć się",
+      "meaning_pl": "Zdarzyć się, często w pytaniu o przyczynę: How did it come about? = Jak do tego doszło? Bez dopełnienia, więc nie ma też strony biernej. Pasuje do artykułu i rozprawki, gdy piszesz, skąd wziął się jakiś problem",
+      "example": {
+        "en": "Nobody is sure how the fire came about, but the police are investigating.",
+        "pl": "Nikt nie wie na pewno, jak doszło do pożaru, ale policja prowadzi śledztwo."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "wydarzenia"]
+    },
+    {
+      "en": "come through sth",
+      "pl": "przetrwać coś, przejść przez coś (szczęśliwie)",
+      "meaning_pl": "Przeżyć albo przetrwać coś trudnego lub groźnego: operację, wojnę, kryzys. Nierozdzielny: come through it (nie: come it through)",
+      "example": {
+        "en": "My grandad was very ill last year, but he came through the operation and is back in his garden now.",
+        "pl": "Dziadek był w zeszłym roku bardzo chory, ale szczęśliwie przeszedł operację i znów pracuje w ogródku."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "zdrowie", "rodzina"]
+    }
+  ]
+}

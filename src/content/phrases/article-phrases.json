@@ -1,0 +1,479 @@
+{
+  "id": "article-phrases",
+  "category": "article-phrases",
+  "title_pl": "Zwroty do artykułu",
+  "items": [
+    {
+      "en": "more than just a …",
+      "pl": "więcej niż tylko…",
+      "meaning_pl": "tytuł, który obiecuje, że temat jest głębszy, niż się wydaje",
+      "example": {
+        "en": "More Than Just a Game: What Volleyball Taught Me",
+        "pl": "Więcej niż gra: czego nauczyła mnie siatkówka"
+      },
+      "register": "neutral",
+      "tags": ["tytuł"]
+    },
+    {
+      "en": "why … is worth it",
+      "pl": "dlaczego warto…",
+      "meaning_pl": "tytuł z obietnicą argumentu: czytelnik chce się dowiedzieć, dlaczego",
+      "example": { "en": "Why Getting Lost Is Worth It", "pl": "Dlaczego warto się zgubić" },
+      "register": "neutral",
+      "tags": ["tytuł"]
+    },
+    {
+      "en": "the day I …",
+      "pl": "dzień, w którym…",
+      "meaning_pl": "tytuł zapowiadający historię; pasuje, gdy element 1 to relacja",
+      "example": {
+        "en": "The Day I Missed the Last Train",
+        "pl": "Dzień, w którym uciekł mi ostatni pociąg"
+      },
+      "register": "neutral",
+      "tags": ["tytuł"]
+    },
+    {
+      "en": "Have you ever wondered why …?",
+      "pl": "Czy zastanawiałeś się kiedyś, dlaczego…?",
+      "meaning_pl": "pytanie na start: czytelnik od razu zaczyna szukać odpowiedzi",
+      "example": {
+        "en": "Have you ever wondered why so few teenagers go to the theatre?",
+        "pl": "Czy zastanawiałeś się kiedyś, dlaczego tak mało nastolatków chodzi do teatru?"
+      },
+      "register": "neutral",
+      "tags": ["hak"]
+    },
+    {
+      "en": "Picture this: …",
+      "pl": "Wyobraź sobie taką scenę:…",
+      "meaning_pl": "wprowadza scenkę; po dwukropku krótki, konkretny obraz",
+      "example": {
+        "en": "Picture this: it is midnight, your train has just been cancelled and your phone is dead.",
+        "pl": "Wyobraź sobie: jest północ, twój pociąg właśnie odwołano, a telefon jest rozładowany."
+      },
+      "register": "neutral",
+      "tags": ["hak"]
+    },
+    {
+      "en": "I'll never forget the day (when) …",
+      "pl": "nigdy nie zapomnę dnia, kiedy…",
+      "meaning_pl": "anegdota na start; dalej opowiadasz w Past Simple",
+      "example": {
+        "en": "I'll never forget the day I first stood on a real stage.",
+        "pl": "Nigdy nie zapomnę dnia, kiedy pierwszy raz stanąłem na prawdziwej scenie."
+      },
+      "register": "neutral",
+      "tags": ["hak"]
+    },
+    {
+      "en": "It might surprise you to learn that …",
+      "pl": "Może cię zaskoczyć, że…",
+      "meaning_pl": "zapowiada zaskakujący fakt; najlepiej taki z twojego otoczenia, nie wymyśloną statystykę",
+      "example": {
+        "en": "It might surprise you to learn that my town has two museums but not a single cinema.",
+        "pl": "Może cię zaskoczyć, że w moim mieście są dwa muzea, ale ani jednego kina."
+      },
+      "register": "neutral",
+      "tags": ["hak"]
+    },
+    {
+      "en": "As my grandmother likes to say, …",
+      "pl": "Jak mawia moja babcia,…",
+      "meaning_pl": "cytat z życia; bezpieczniejszy niż słowa sławnej osoby, których nie jesteś pewien",
+      "example": {
+        "en": "As my grandmother likes to say, a walk in the forest is better than any medicine.",
+        "pl": "Jak mawia moja babcia, spacer po lesie jest lepszy niż jakiekolwiek lekarstwo."
+      },
+      "register": "neutral",
+      "tags": ["hak"]
+    },
+    {
+      "en": "Not so long ago, …",
+      "pl": "Jeszcze niedawno…",
+      "meaning_pl": "kontrast „kiedyś tak, dziś inaczej”; dobry początek tekstu o zmianie",
+      "example": {
+        "en": "Not so long ago, the river behind my school was full of fish.",
+        "pl": "Jeszcze niedawno rzeka za moją szkołą była pełna ryb."
+      },
+      "register": "neutral",
+      "tags": ["hak"]
+    },
+    {
+      "en": "If you're anything like me, …",
+      "pl": "Jeśli jesteś choć trochę taki jak ja,…",
+      "meaning_pl": "stawia czytelnika obok ciebie; luźniejsze, ale w artykule na miejscu",
+      "example": {
+        "en": "If you're anything like me, you check your phone before you even get out of bed.",
+        "pl": "Jeśli jesteś choć trochę taki jak ja, sprawdzasz telefon, zanim w ogóle wstaniesz z łóżka."
+      },
+      "register": "neutral",
+      "tags": ["czytelnik"]
+    },
+    {
+      "en": "Imagine how you would feel if …",
+      "pl": "Wyobraź sobie, jak byś się czuł, gdyby…",
+      "meaning_pl": "drugi tryb warunkowy: would w skutku, Past Simple po if",
+      "example": {
+        "en": "Imagine how you would feel if your favourite park disappeared overnight.",
+        "pl": "Wyobraź sobie, jak byś się czuł, gdyby twój ulubiony park zniknął z dnia na dzień."
+      },
+      "register": "neutral",
+      "tags": ["czytelnik"]
+    },
+    {
+      "en": "You may be thinking that …",
+      "pl": "Pewnie myślisz, że…",
+      "meaning_pl": "uprzedzasz wątpliwość czytelnika, żeby zaraz ją odeprzeć",
+      "example": {
+        "en": "You may be thinking that one person cannot change anything. Think again.",
+        "pl": "Pewnie myślisz, że jedna osoba nic nie zmieni. Nic bardziej mylnego."
+      },
+      "register": "neutral",
+      "tags": ["czytelnik"]
+    },
+    {
+      "en": "Let me explain why.",
+      "pl": "Wyjaśnię dlaczego.",
+      "meaning_pl": "most po mocnym stwierdzeniu: zapowiada uzasadnienie",
+      "example": {
+        "en": "Some people say that sport is only for the talented. Let me explain why they are wrong.",
+        "pl": "Niektórzy mówią, że sport jest tylko dla utalentowanych. Wyjaśnię, dlaczego się mylą."
+      },
+      "register": "neutral",
+      "tags": ["czytelnik"]
+    },
+    {
+      "en": "Believe it or not, …",
+      "pl": "Choć trudno w to uwierzyć,…",
+      "meaning_pl": "zapowiada coś, czego czytelnik się nie spodziewa",
+      "example": {
+        "en": "Believe it or not, the best part of my trip was a six-hour delay.",
+        "pl": "Choć trudno w to uwierzyć, najlepszą częścią mojej podróży było sześć godzin opóźnienia."
+      },
+      "register": "neutral",
+      "tags": ["czytelnik"]
+    },
+    {
+      "en": "You don't have to be … to …",
+      "pl": "Nie musisz być…, żeby…",
+      "meaning_pl": "obala obawę czytelnika i zaprasza go do tematu",
+      "example": {
+        "en": "You don't have to be an expert to enjoy a good concert.",
+        "pl": "Nie musisz być znawcą, żeby cieszyć się dobrym koncertem."
+      },
+      "register": "neutral",
+      "tags": ["czytelnik"]
+    },
+    {
+      "en": "I am convinced that …",
+      "pl": "Jestem przekonany, że…",
+      "example": {
+        "en": "I am convinced that every town needs a place where young people can make music.",
+        "pl": "Jestem przekonany, że każde miasto potrzebuje miejsca, gdzie młodzi ludzie mogą grać muzykę."
+      },
+      "register": "neutral",
+      "tags": ["opinia"]
+    },
+    {
+      "en": "To my mind, …",
+      "pl": "Moim zdaniem…",
+      "meaning_pl": "zamiennik in my opinion, żeby się nie powtarzać",
+      "example": {
+        "en": "To my mind, the real problem is not money but a lack of ideas.",
+        "pl": "Moim zdaniem prawdziwym problemem nie są pieniądze, tylko brak pomysłów."
+      },
+      "register": "neutral",
+      "tags": ["opinia"]
+    },
+    {
+      "en": "There is no doubt that …",
+      "pl": "Nie ma wątpliwości, że…",
+      "meaning_pl": "mocne stwierdzenie; używaj tylko tam, gdzie naprawdę jesteś pewien",
+      "example": {
+        "en": "There is no doubt that small local festivals bring people together.",
+        "pl": "Nie ma wątpliwości, że małe lokalne festiwale zbliżają ludzi."
+      },
+      "register": "formal",
+      "tags": ["opinia"]
+    },
+    {
+      "en": "It seems to me that …",
+      "pl": "Wydaje mi się, że…",
+      "meaning_pl": "łagodniejsza opinia, kiedy nie chcesz brzmieć kategorycznie",
+      "example": {
+        "en": "It seems to me that schools focus too much on competition and too little on fun.",
+        "pl": "Wydaje mi się, że szkoły za bardzo skupiają się na rywalizacji, a za mało na zabawie."
+      },
+      "register": "neutral",
+      "tags": ["opinia"]
+    },
+    {
+      "en": "I strongly believe that …",
+      "pl": "Głęboko wierzę, że…",
+      "example": {
+        "en": "I strongly believe that young people should have a say in how their town spends its money.",
+        "pl": "Głęboko wierzę, że młodzi ludzie powinni mieć wpływ na to, jak ich miasto wydaje pieniądze."
+      },
+      "register": "neutral",
+      "tags": ["opinia"]
+    },
+    {
+      "en": "It's high time we …",
+      "pl": "Najwyższy czas, żebyśmy…",
+      "meaning_pl": "po nim Past Simple, choć chodzi o teraz: forma przeszła mówi, że czegoś jeszcze nie ma, a już powinno być",
+      "example": {
+        "en": "It's high time we stopped treating litter as someone else's problem.",
+        "pl": "Najwyższy czas, żebyśmy przestali traktować śmieci jak cudzy problem."
+      },
+      "register": "neutral",
+      "tags": ["opinia"]
+    },
+    {
+      "en": "The problem is not … but …",
+      "pl": "Problemem nie jest…, tylko…",
+      "meaning_pl": "odrzucasz oczywiste wyjaśnienie i podajesz swoje; dobre otwarcie akapitu z propozycjami",
+      "example": {
+        "en": "The problem is not a lack of interest but a lack of information.",
+        "pl": "Problemem nie jest brak zainteresowania, tylko brak informacji."
+      },
+      "register": "neutral",
+      "tags": ["opinia"]
+    },
+    {
+      "en": "One simple solution would be to …",
+      "pl": "Jednym prostym rozwiązaniem byłoby…",
+      "meaning_pl": "otwiera propozycję; po would be idzie bezokolicznik z to",
+      "example": {
+        "en": "One simple solution would be to post short videos about upcoming events online.",
+        "pl": "Jednym prostym rozwiązaniem byłoby wrzucanie do sieci krótkich filmików o nadchodzących wydarzeniach."
+      },
+      "register": "neutral",
+      "tags": ["propozycja"]
+    },
+    {
+      "en": "… would make it easier for … to …",
+      "pl": "…ułatwiłoby (komuś)…",
+      "meaning_pl": "pokazuje, co da twój pomysł; po easier for idzie osoba, a potem to + czasownik",
+      "example": {
+        "en": "A sports club open after lessons would make it easier for shy students to join in.",
+        "pl": "Klub sportowy otwarty po lekcjach ułatwiłby nieśmiałym uczniom włączenie się."
+      },
+      "register": "neutral",
+      "tags": ["propozycja"]
+    },
+    {
+      "en": "That way, …",
+      "pl": "Dzięki temu…",
+      "meaning_pl": "drugie zdanie po propozycji: mówi, jaki będzie jej skutek",
+      "example": {
+        "en": "Students could run the school's social media accounts. That way, events would be advertised where teenagers actually look.",
+        "pl": "Uczniowie mogliby prowadzić szkolne konta w mediach społecznościowych. Dzięki temu o wydarzeniach informowano by tam, gdzie nastolatki naprawdę zaglądają."
+      },
+      "register": "neutral",
+      "tags": ["propozycja"]
+    },
+    {
+      "en": "The main reason is that …",
+      "pl": "Główny powód jest taki, że…",
+      "meaning_pl": "uzasadnienie wprost; przydaje się, gdy polecenie każe wyjaśnić, dlaczego",
+      "example": {
+        "en": "Many teenagers never go to concerts in their town. The main reason is that they simply do not know about them.",
+        "pl": "Wielu nastolatków nigdy nie chodzi na koncerty w swoim mieście. Główny powód jest taki, że po prostu o nich nie wiedzą."
+      },
+      "register": "neutral",
+      "tags": ["uzasadnienie"]
+    },
+    {
+      "en": "That is why …",
+      "pl": "Właśnie dlatego…",
+      "meaning_pl": "łączy przyczynę z poprzedniego zdania ze skutkiem",
+      "example": {
+        "en": "Our coach never compares us with each other. That is why nobody is afraid to try something new.",
+        "pl": "Nasz trener nigdy nas ze sobą nie porównuje. Właśnie dlatego nikt nie boi się spróbować czegoś nowego."
+      },
+      "register": "neutral",
+      "tags": ["uzasadnienie"]
+    },
+    {
+      "en": "I still remember how …",
+      "pl": "Wciąż pamiętam, jak…",
+      "example": {
+        "en": "I still remember how nervous I was before my first race.",
+        "pl": "Wciąż pamiętam, jak bardzo denerwowałem się przed pierwszym wyścigiem."
+      },
+      "register": "neutral",
+      "tags": ["doświadczenie"]
+    },
+    {
+      "en": "At first …, but soon …",
+      "pl": "Na początku…, ale wkrótce…",
+      "meaning_pl": "pokazuje zmianę w czasie; porządkuje relację",
+      "example": {
+        "en": "At first, I hated the early training sessions, but soon I started to look forward to them.",
+        "pl": "Na początku nienawidziłem porannych treningów, ale wkrótce zacząłem na nie czekać."
+      },
+      "register": "neutral",
+      "tags": ["doświadczenie"]
+    },
+    {
+      "en": "It was then that I realised …",
+      "pl": "Właśnie wtedy zrozumiałem, że…",
+      "meaning_pl": "wyróżnia moment, w którym coś do ciebie dotarło; realise po brytyjsku przez -s-",
+      "example": {
+        "en": "It was then that I realised how much I had underestimated the mountains.",
+        "pl": "Właśnie wtedy zrozumiałem, jak bardzo nie doceniłem gór."
+      },
+      "register": "neutral",
+      "tags": ["doświadczenie"]
+    },
+    {
+      "en": "To my surprise, …",
+      "pl": "Ku mojemu zaskoczeniu…",
+      "example": {
+        "en": "To my surprise, the quiet boy from the back row turned out to be the best actor in the group.",
+        "pl": "Ku mojemu zaskoczeniu cichy chłopak z ostatniej ławki okazał się najlepszym aktorem w grupie."
+      },
+      "register": "neutral",
+      "tags": ["doświadczenie"]
+    },
+    {
+      "en": "Looking back, …",
+      "pl": "Z perspektywy czasu…",
+      "meaning_pl": "przejście od relacji do wniosku: co wiesz teraz, czego wtedy nie wiedziałeś",
+      "example": {
+        "en": "Looking back, I can see that missing that bus was the best thing that happened on the whole trip.",
+        "pl": "Z perspektywy czasu widzę, że spóźnienie na ten autobus było najlepszym, co mnie spotkało na całej wycieczce."
+      },
+      "register": "neutral",
+      "tags": ["doświadczenie"]
+    },
+    {
+      "en": "… was a real eye-opener",
+      "pl": "…naprawdę otworzyło mi oczy",
+      "example": {
+        "en": "Volunteering at the animal shelter was a real eye-opener for me.",
+        "pl": "Wolontariat w schronisku dla zwierząt naprawdę otworzył mi oczy."
+      },
+      "register": "neutral",
+      "tags": ["doświadczenie"]
+    },
+    {
+      "en": "I had no idea that …",
+      "pl": "Nie miałem pojęcia, że…",
+      "example": {
+        "en": "I had no idea that such a small town could have such a lively theatre.",
+        "pl": "Nie miałem pojęcia, że takie małe miasto może mieć tak prężnie działający teatr."
+      },
+      "register": "neutral",
+      "tags": ["doświadczenie"]
+    },
+    {
+      "en": "To make matters worse, …",
+      "pl": "Na domiar złego…",
+      "meaning_pl": "dokłada kolejny kłopot do relacji",
+      "example": {
+        "en": "To make matters worse, it started to rain and we had no umbrellas.",
+        "pl": "Na domiar złego zaczęło padać, a my nie mieliśmy parasoli."
+      },
+      "register": "neutral",
+      "tags": ["doświadczenie"]
+    },
+    {
+      "en": "Isn't it time we …?",
+      "pl": "Czy nie czas, żebyśmy…?",
+      "meaning_pl": "jak przy it's time: po we stoi Past Simple",
+      "example": {
+        "en": "Isn't it time we gave our local parks the attention they deserve?",
+        "pl": "Czy nie czas, żebyśmy poświęcili naszym parkom uwagę, na jaką zasługują?"
+      },
+      "register": "neutral",
+      "tags": ["pytanie retoryczne"]
+    },
+    {
+      "en": "Who says … has to …?",
+      "pl": "Kto powiedział, że… musi…?",
+      "meaning_pl": "podważa stereotyp, z którym zaraz się rozprawisz",
+      "example": {
+        "en": "Who says culture has to be expensive?",
+        "pl": "Kto powiedział, że kultura musi być droga?"
+      },
+      "register": "neutral",
+      "tags": ["pytanie retoryczne"]
+    },
+    {
+      "en": "What could be better than …?",
+      "pl": "Co może być lepszego niż…?",
+      "example": {
+        "en": "What could be better than a sunny afternoon by the lake?",
+        "pl": "Co może być lepszego niż słoneczne popołudnie nad jeziorem?"
+      },
+      "register": "neutral",
+      "tags": ["pytanie retoryczne"]
+    },
+    {
+      "en": "So why do so many of us …?",
+      "pl": "Dlaczego więc tak wielu z nas…?",
+      "meaning_pl": "pytanie-most: zamyka jeden akapit i otwiera następny",
+      "example": {
+        "en": "So why do so many of us give up sport as soon as we leave primary school?",
+        "pl": "Dlaczego więc tak wielu z nas rzuca sport, gdy tylko skończy podstawówkę?"
+      },
+      "register": "neutral",
+      "tags": ["pytanie retoryczne"]
+    },
+    {
+      "en": "So, next time you …, why not …?",
+      "pl": "Może więc następnym razem, gdy…, …?",
+      "meaning_pl": "zachęta, która wynika z treści; po why not forma podstawowa bez to",
+      "example": {
+        "en": "So, next time you are bored at the weekend, why not check what is on at your local cultural centre?",
+        "pl": "Może więc następnym razem, gdy będziesz się nudzić w weekend, sprawdzisz, co dzieje się w twoim domu kultury?"
+      },
+      "register": "neutral",
+      "tags": ["zakończenie"]
+    },
+    {
+      "en": "All in all, …",
+      "pl": "Ogólnie rzecz biorąc,…",
+      "meaning_pl": "biorąc wszystko pod uwagę; podsumowanie mniej sztywne niż in conclusion",
+      "example": {
+        "en": "All in all, the trip did not go to plan, but it taught me more than any guidebook.",
+        "pl": "Ogólnie rzecz biorąc, wyjazd nie poszedł zgodnie z planem, ale nauczył mnie więcej niż jakikolwiek przewodnik."
+      },
+      "register": "neutral",
+      "tags": ["zakończenie"]
+    },
+    {
+      "en": "Give it a try – you might be surprised.",
+      "pl": "Spróbuj – może cię to mile zaskoczyć.",
+      "example": {
+        "en": "If you have never tried orienteering, give it a try – you might be surprised.",
+        "pl": "Jeśli nigdy nie próbowałeś biegu na orientację, spróbuj – może cię to mile zaskoczyć."
+      },
+      "register": "neutral",
+      "tags": ["zakończenie"]
+    },
+    {
+      "en": "It is up to us to …",
+      "pl": "To od nas zależy, czy…",
+      "meaning_pl": "przenosi odpowiedzialność na czytelnika i na ciebie; dobre przy tematach o środowisku i społeczności",
+      "example": {
+        "en": "It is up to us to make sure the river stays clean.",
+        "pl": "To od nas zależy, czy rzeka pozostanie czysta."
+      },
+      "register": "neutral",
+      "tags": ["zakończenie"]
+    },
+    {
+      "en": "In the end, what counts is …",
+      "pl": "W ostatecznym rozrachunku liczy się…",
+      "example": {
+        "en": "In the end, what counts is not the medal but the people you meet along the way.",
+        "pl": "W ostatecznym rozrachunku liczy się nie medal, tylko ludzie, których spotykasz po drodze."
+      },
+      "register": "neutral",
+      "tags": ["zakończenie"]
+    }
+  ]
+}

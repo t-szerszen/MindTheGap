@@ -1,0 +1,249 @@
+{
+  "id": "collocations-food",
+  "category": "collocations",
+  "title_pl": "Kolokacje: żywienie",
+  "items": [
+    {
+      "en": "a balanced diet",
+      "pl": "zbilansowana dieta",
+      "meaning_pl": "diet to tu po prostu sposób odżywiania, nie odchudzanie; mówimy eat / have a balanced diet, mocniej: a well-balanced diet",
+      "example": {
+        "en": "Teenagers who eat a balanced diet usually find it easier to concentrate at school.",
+        "pl": "Nastolatkom, którzy odżywiają się w zbilansowany sposób, zwykle łatwiej skupić się w szkole."
+      },
+      "register": "neutral",
+      "tags": ["adj+noun", "zdrowie", "rozprawka"]
+    },
+    {
+      "en": "go on a diet / be on a diet",
+      "pl": "przejść na dietę / być na diecie",
+      "meaning_pl": "tu diet znaczy już odchudzanie albo ograniczanie jedzenia; go on to początek, be on to stan. Przyimek on, nie at ani in",
+      "example": {
+        "en": "I've been on a diet since January, but I still can't resist chocolate.",
+        "pl": "Jestem na diecie od stycznia, ale wciąż nie umiem się oprzeć czekoladzie."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "dieta"]
+    },
+    {
+      "en": "a crash diet",
+      "pl": "drastyczna dieta, dieta cud",
+      "meaning_pl": "bardzo ostre ograniczenie jedzenia, żeby szybko schudnąć; crash sugeruje coś nagłego i na skróty, jak w crash course. Zwykle go on a crash diet",
+      "example": {
+        "en": "Doctors warn that crash diets rarely work in the long term.",
+        "pl": "Lekarze ostrzegają, że drastyczne diety rzadko działają na dłuższą metę."
+      },
+      "register": "neutral",
+      "tags": ["adj+noun", "dieta"]
+    },
+    {
+      "en": "eat healthily",
+      "pl": "zdrowo się odżywiać",
+      "meaning_pl": "czasownik opisujemy przysłówkiem, więc healthily; eat healthy usłyszysz w potocznym angielskim, ale w rozprawce pisz healthily",
+      "example": {
+        "en": "It is hard to eat healthily when the school canteen sells mostly chips and pizza.",
+        "pl": "Trudno zdrowo się odżywiać, kiedy szkolna stołówka sprzedaje głównie frytki i pizzę."
+      },
+      "register": "neutral",
+      "tags": ["verb+adverb", "zdrowie"]
+    },
+    {
+      "en": "eating habits",
+      "pl": "nawyki żywieniowe",
+      "meaning_pl": "prawie zawsze w liczbie mnogiej; typowe czasowniki: change / improve your eating habits, a przymiotniki: unhealthy / poor eating habits",
+      "example": {
+        "en": "Many students change their eating habits when they move away from home.",
+        "pl": "Wielu studentów zmienia nawyki żywieniowe, kiedy wyprowadza się z domu."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "zdrowie", "rozprawka"]
+    },
+    {
+      "en": "junk food",
+      "pl": "niezdrowe jedzenie, śmieciowe jedzenie",
+      "meaning_pl": "jedzenie pełne tłuszczu, cukru i soli, a ubogie w wartości odżywcze; niepoliczalne, więc bez a i bez -s. Fast food mówi, że jedzenie jest szybkie, junk food, że jest niezdrowe",
+      "example": {
+        "en": "Some schools have banned junk food from their vending machines.",
+        "pl": "Niektóre szkoły wycofały niezdrowe jedzenie ze swoich automatów."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "zdrowie"]
+    },
+    {
+      "en": "processed food",
+      "pl": "żywność przetworzona",
+      "meaning_pl": "jedzenie zmienione w fabryce, zwykle z dodatkami i konserwantami; mocniej: highly processed food. W tekstach często jako przeciwieństwo fresh food",
+      "example": {
+        "en": "Highly processed food often contains a lot of salt and sugar.",
+        "pl": "Żywność wysoko przetworzona często zawiera dużo soli i cukru."
+      },
+      "register": "neutral",
+      "tags": ["adj+noun", "zdrowie", "zakupy"]
+    },
+    {
+      "en": "skip a meal",
+      "pl": "pominąć posiłek",
+      "meaning_pl": "skip = opuścić coś, co zwykle robisz; tak samo skip breakfast / lunch, bez a przed nazwą posiłku",
+      "example": {
+        "en": "If you skip breakfast, you are more likely to snack on sweets later in the day.",
+        "pl": "Jeśli pominiesz śniadanie, później w ciągu dnia łatwiej sięgniesz po słodycze."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "posiłki"]
+    },
+    {
+      "en": "a home-cooked meal",
+      "pl": "domowy posiłek",
+      "meaning_pl": "jedzenie ugotowane w domu, a nie kupione gotowe; przed rzeczownikiem home-cooked piszemy z łącznikiem",
+      "example": {
+        "en": "Nothing beats a home-cooked meal after a long week at university.",
+        "pl": "Nic nie przebije domowego obiadu po długim tygodniu na uczelni."
+      },
+      "register": "neutral",
+      "tags": ["adj+noun", "gotowanie"]
+    },
+    {
+      "en": "cook sth from scratch",
+      "pl": "ugotować coś od zera (z samych surowych składników)",
+      "meaning_pl": "from scratch = od samego początku, z surowych składników, bez gotowych sosów i półproduktów; działa też z make: make a cake from scratch",
+      "example": {
+        "en": "My grandmother still cooks everything from scratch, even the pasta.",
+        "pl": "Moja babcia wciąż gotuje wszystko od zera, nawet makaron."
+      },
+      "register": "neutral",
+      "tags": ["verb+phrase", "gotowanie"]
+    },
+    {
+      "en": "food poisoning",
+      "pl": "zatrucie pokarmowe",
+      "meaning_pl": "niepoliczalne: get / have food poisoning, bez a. Pułapka: po polsku mówisz o jednym zatruciu, ale a food poisoning to błąd; jak trzeba liczyć, to cases of food poisoning",
+      "example": {
+        "en": "Half the class got food poisoning on the school trip.",
+        "pl": "Połowa klasy dostała zatrucia pokarmowego na wycieczce szkolnej."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "zdrowie"]
+    },
+    {
+      "en": "lose your appetite",
+      "pl": "stracić apetyt",
+      "meaning_pl": "zaimek dopasowujesz do osoby: I lost my appetite, she lost her appetite. Odwrotnie: have a good / healthy appetite",
+      "example": {
+        "en": "When I'm stressed before exams, I completely lose my appetite.",
+        "pl": "Kiedy stresuję się przed egzaminami, zupełnie tracę apetyt."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "zdrowie"]
+    },
+    {
+      "en": "a heavy meal",
+      "pl": "ciężki posiłek",
+      "meaning_pl": "heavy o jedzeniu = sycące, tłuste, długo leży w żołądku; przeciwieństwo: a light meal, czyli lekki posiłek",
+      "example": {
+        "en": "Try not to eat a heavy meal just before you go to bed.",
+        "pl": "Staraj się nie jeść ciężkiego posiłku tuż przed snem."
+      },
+      "register": "neutral",
+      "tags": ["adj+noun", "posiłki"]
+    },
+    {
+      "en": "be high in sth / be low in sth",
+      "pl": "zawierać dużo / mało czegoś",
+      "meaning_pl": "przyimek in, nie of: high in fat, low in sugar. O składnikach, które są dobre, często mówimy rich in: rich in vitamins",
+      "example": {
+        "en": "Many breakfast cereals are high in sugar but low in fibre.",
+        "pl": "Wiele płatków śniadaniowych zawiera dużo cukru, a mało błonnika."
+      },
+      "register": "neutral",
+      "tags": ["adj+prep", "zdrowie", "etykiety"]
+    },
+    {
+      "en": "nutritional value",
+      "pl": "wartość odżywcza",
+      "meaning_pl": "nutritional to przymiotnik od nutrition (odżywianie); typowo have little / no nutritional value",
+      "example": {
+        "en": "Crisps have very little nutritional value.",
+        "pl": "Chipsy mają bardzo małą wartość odżywczą."
+      },
+      "register": "neutral",
+      "tags": ["adj+noun", "zdrowie"]
+    },
+    {
+      "en": "sugar intake / calorie intake",
+      "pl": "spożycie cukru / kalorii",
+      "meaning_pl": "intake = ile czegoś przyjmujesz; typowo reduce / limit your sugar intake, a daily calorie intake. Brzmi poważniej niż eat less sugar, dobre do rozprawki",
+      "example": {
+        "en": "Experts recommend that we reduce our daily sugar intake.",
+        "pl": "Eksperci zalecają, żebyśmy ograniczyli dzienne spożycie cukru."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "zdrowie", "rozprawka"]
+    },
+    {
+      "en": "sugary drinks",
+      "pl": "słodzone napoje",
+      "meaning_pl": "sugary = z dużą ilością cukru (sugar + -y); napoje gazowane to po brytyjsku fizzy drinks",
+      "example": {
+        "en": "The government introduced a tax on sugary drinks to fight obesity.",
+        "pl": "Rząd wprowadził podatek od słodzonych napojów, żeby walczyć z otyłością."
+      },
+      "register": "neutral",
+      "tags": ["adj+noun", "zdrowie", "rozprawka"]
+    },
+    {
+      "en": "dietary requirements",
+      "pl": "specjalne wymagania żywieniowe (np. dieta wegetariańska, alergie)",
+      "meaning_pl": "o tym, czego ktoś nie może albo nie chce jeść (alergia, wegetarianizm); typowe w zaproszeniach i oficjalnych mailach: Do you have any dietary requirements?",
+      "example": {
+        "en": "Please let us know if you have any special dietary requirements before the trip.",
+        "pl": "Jeśli masz specjalne wymagania żywieniowe, daj nam znać przed wyjazdem."
+      },
+      "register": "formal",
+      "tags": ["adj+noun", "list", "dieta"]
+    },
+    {
+      "en": "fresh produce",
+      "pl": "świeże warzywa i owoce",
+      "meaning_pl": "produce jako rzeczownik to płody rolne, głównie warzywa i owoce; niepoliczalny, akcent na pierwszą sylabę. Często też local produce",
+      "example": {
+        "en": "The market sells fresh produce from local farms every Saturday.",
+        "pl": "Na targu w każdą sobotę można kupić świeże warzywa i owoce z okolicznych gospodarstw."
+      },
+      "register": "neutral",
+      "tags": ["adj+noun", "zakupy"]
+    },
+    {
+      "en": "food waste",
+      "pl": "marnowanie jedzenia, odpady żywnościowe",
+      "meaning_pl": "niepoliczalne; typowe czasowniki: reduce / cut / tackle food waste. Przydaje się w rozprawce o ekologii",
+      "example": {
+        "en": "Supermarkets could reduce food waste by giving unsold products to charities.",
+        "pl": "Supermarkety mogłyby ograniczyć marnowanie jedzenia, oddając niesprzedane produkty organizacjom charytatywnym."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "ekologia", "rozprawka"]
+    },
+    {
+      "en": "eat in moderation",
+      "pl": "jeść z umiarem",
+      "meaning_pl": "in moderation = w rozsądnych ilościach, nie za dużo; działa też z drink. Znane hasło: everything in moderation",
+      "example": {
+        "en": "You don't have to give up sweets completely, just eat them in moderation.",
+        "pl": "Nie musisz całkiem rezygnować ze słodyczy, po prostu jedz je z umiarem."
+      },
+      "register": "neutral",
+      "tags": ["verb+phrase", "zdrowie"]
+    },
+    {
+      "en": "portion size",
+      "pl": "wielkość porcji",
+      "meaning_pl": "często w liczbie mnogiej: portion sizes; typowo reduce / control portion sizes. Jedna porcja czegoś to a portion of sth, np. a portion of chips",
+      "example": {
+        "en": "Restaurants could help by offering smaller portion sizes.",
+        "pl": "Restauracje mogłyby pomóc, oferując mniejsze porcje."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "posiłki"]
+    }
+  ]
+}

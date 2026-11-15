@@ -1,0 +1,466 @@
+{
+  "id": "tenses-overview",
+  "category": "tenses",
+  "title_pl": "Wszystkie czasy razem",
+  "summary_pl": "Jak wybrać czas, gdy pasują dwa albo trzy: jedna ścieżka decyzji, tabela trzynastu czasów i pary, które najczęściej się mylą.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "Dwanaście czasów i be going to (to konstrukcja, nie osobny czas) to nie trzynaście osobnych reguł. Każdy wybór to trzy pytania: **kiedy** (teraz, przeszłość, przyszłość), **z jakiego punktu patrzysz** i **jak patrzysz na czynność** (całość, w trakcie, już za sobą, jak długo do punktu).\n\nStrony poszczególnych czasów tłumaczą, jak działa każdy z nich. Tu chodzi o wybór **między** nimi."
+    },
+    {
+      "type": "text",
+      "md_pl": "Aspekt to dwa klocki, które doklejasz do czasownika:\n\n- **be + V-ing** (continuous): czynność w trakcie, widzisz ją od środka,\n- **have + V3** (perfect): stoisz w jakimś punkcie i patrzysz wstecz na to, co już jest za tobą.\n\nOba naraz dają **have been + V-ing**: jak długo coś trwało aż do punktu albo skąd biorą się ślady, które widać. Czas (teraz, przeszłość, przyszłość) niesie zawsze pierwszy czasownik: *am / was / will be*, *have / had / will have*."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "will", "role": "aux" },
+        { "text": "have", "role": "aux" },
+        { "text": "been", "role": "aux" },
+        { "text": "V-ing", "role": "verb" }
+      ],
+      "example": {
+        "en": "By June, I will have been learning English for ten years.",
+        "pl": "W czerwcu minie dziesięć lat, odkąd uczę się angielskiego."
+      }
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "sygnał",
+          "text_pl": "Szukasz tropów: słów czasu (yesterday, since, by Friday, this time tomorrow), drugiego zdarzenia (when the phone rang) i czasów w zdaniu obok. Zdanie obok też bywa sygnałem: Look at those clouds! albo I've already bought the tickets."
+        },
+        {
+          "step_pl": "kiedy",
+          "text_pl": "Ustalasz punkt odniesienia: teraz, chwila w przeszłości czy chwila w przyszłości. To wybiera grupę: present, past albo future."
+        },
+        {
+          "step_pl": "aspekt",
+          "text_pl": "Pytasz, jak z tego punktu widać czynność. Nawyk, fakt albo jedno zamknięte zdarzenie → Simple. W trakcie w tej chwili → Continuous. Już gotowe, skutek, doświadczenie, liczba → Perfect. Jak długo trwało aż do punktu → Perfect Continuous."
+        },
+        {
+          "step_pl": "pułapka",
+          "text_pl": "Sprawdzasz trzy rzeczy. Czasownik stanu (know, believe, own) zwykle nie bierze -ing. W zdaniu czasowym albo warunkowym po when, as soon as, until, if nie ma will (wyjątek: pytanie zależne, patrz niżej). Zamknięty moment w przeszłości (yesterday, ago) wyklucza Present Perfect."
+        },
+        {
+          "step_pl": "forma",
+          "text_pl": "Dopiero na końcu budujesz formę. Pierwszy czasownik niesie czas (i osobę tam, gdzie się zmienia: is / are, has / have), potem idą klocki aspektu, a główny czasownik stoi w V1, V-ing albo V3."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": ["Czas", "Forma", "Sedno", "Sygnały"],
+      "rows": [
+        [
+          "Present Simple",
+          "V1 / V1 + -s",
+          "nawyk, stały stan, fakt, rozkład jazdy",
+          "always, usually, every day, on Mondays"
+        ],
+        [
+          "Present Continuous",
+          "am / is / are + V-ing",
+          "w trakcie teraz albo na razie; umówiony plan",
+          "now, at the moment, these days, Look!"
+        ],
+        [
+          "Present Perfect",
+          "have / has + V3",
+          "przeszłość widziana z teraz: skutek, doświadczenie, stan do dziś",
+          "ever, never, just, already, yet, so far"
+        ],
+        [
+          "Present Perfect Continuous",
+          "have / has been + V-ing",
+          "czynność trwa od przeszłości do teraz albo widać jej ślady",
+          "for, since, How long…?, all day, lately"
+        ],
+        [
+          "Past Simple",
+          "V2 / V1 + -ed",
+          "zamknięte zdarzenie w czasie, który minął",
+          "yesterday, ago, last week, in 2015"
+        ],
+        [
+          "Past Continuous",
+          "was / were + V-ing",
+          "w trakcie w chwili przeszłości, tło",
+          "while, at that moment, at 8 p.m. yesterday"
+        ],
+        [
+          "Past Perfect",
+          "had + V3",
+          "przeszłość przed przeszłością",
+          "by the time, by then, It was the first time…"
+        ],
+        [
+          "Past Perfect Continuous",
+          "had been + V-ing",
+          "jak długo trwało aż do chwili w przeszłości",
+          "for / since + drugi moment w przeszłości"
+        ],
+        [
+          "Future Simple (will)",
+          "will + V1",
+          "decyzja teraz, obietnica, propozycja, opinia",
+          "I think, probably, I'm sure, In that case"
+        ],
+        [
+          "be going to",
+          "am / is / are going to + V1",
+          "zamiar postanowiony wcześniej albo skutek, który już widać",
+          "Look!, I've decided, at this rate"
+        ],
+        [
+          "Future Continuous",
+          "will be + V-ing",
+          "w trakcie w chwili przyszłości",
+          "this time tomorrow, at 8 p.m. tonight"
+        ],
+        [
+          "Future Perfect",
+          "will have + V3",
+          "gotowe przed terminem w przyszłości",
+          "by Friday, by then, by the time"
+        ],
+        [
+          "Future Perfect Continuous",
+          "will have been + V-ing",
+          "jak długo będzie trwało do punktu w przyszłości",
+          "by … + for, by the time … + for"
+        ]
+      ]
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Past Simple",
+          "md_pl": "Liczy się **kiedy**. Zdarzenie jest zamknięte w czasie, który minął: *yesterday*, *last summer*, *in 2019*, *when I was ten*. Patrzysz z tamtego momentu, nawet jeśli skutek widać do dziś.",
+          "examples": [
+            {
+              "en": "I lost my keys yesterday, but Dad found them in the garden.",
+              "pl": "Zgubiłem wczoraj klucze, ale tata znalazł je w ogrodzie."
+            }
+          ]
+        },
+        {
+          "title": "Present Perfect",
+          "md_pl": "Liczy się **teraz**: skutek, doświadczenie albo stan do dziś. Momentu nie podajesz albo okres jeszcze trwa: *today*, *this week*, *so far*.",
+          "examples": [
+            {
+              "en": "I've lost my keys, so I can't get into the flat.",
+              "pl": "Zgubiłem klucze, więc nie mogę wejść do mieszkania."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Po polsku w obu zdaniach jest „zgubiłem”. Rozstrzyga pytanie: czy w zdaniu jest zamknięty moment w przeszłości? Jeśli tak, **Past Simple**. Jeśli patrzysz z teraz, **Present Perfect**."
+    },
+    {
+      "type": "timeline",
+      "now": 0.7,
+      "marks": [
+        { "kind": "point", "from": 0.3, "label": "lost them" },
+        { "kind": "arrow-to-now", "from": 0.3, "label": "no keys now" }
+      ],
+      "caption_pl": "To samo zgubienie. Past Simple zatrzymuje się w tamtym momencie, Present Perfect prowadzi strzałkę do teraz: kluczy nadal nie ma."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Present Perfect",
+          "md_pl": "Liczy się **wynik**: ile, co jest gotowe. Policzone rzeczy i razy (*three essays*, *twice*, *the whole book*) zostają w Simple. Tak samo czasowniki stanu: *I've known her for years*.",
+          "examples": [
+            {
+              "en": "I've written three emails this morning.",
+              "pl": "Napisałem dziś rano trzy maile."
+            }
+          ]
+        },
+        {
+          "title": "Present Perfect Continuous",
+          "md_pl": "Liczy się **sama czynność** i to, jak długo trwa (*for*, *since*, *all day*), albo ślady, które widać teraz.",
+          "examples": [
+            {
+              "en": "I've been writing emails all morning, and my eyes hurt.",
+              "pl": "Od rana piszę maile i bolą mnie oczy."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Pytanie kontrolne: *How many?* → **Present Perfect**. *How long?* → zwykle **Present Perfect Continuous**, poza czasownikami stanu. Przy *live*, *work*, *study*, *teach* z *for* albo *since* oba czasy są poprawne."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Past Simple",
+          "md_pl": "*we had dinner*: najpierw przyszła, **potem** zjedliśmy. Dwa Past Simple przy *when* to zwykle kolejność, jedno po drugim.",
+          "examples": [
+            {
+              "en": "When she arrived, we had dinner.",
+              "pl": "Kiedy przyszła, zjedliśmy kolację (dopiero wtedy)."
+            }
+          ]
+        },
+        {
+          "title": "Past Continuous",
+          "md_pl": "*we were having dinner*: kolacja **już trwała**, a jej przyjście wpadło w środek.",
+          "examples": [
+            {
+              "en": "When she arrived, we were having dinner.",
+              "pl": "Kiedy przyszła, jedliśmy kolację (byliśmy w trakcie)."
+            }
+          ]
+        },
+        {
+          "title": "Past Perfect",
+          "md_pl": "*we had (already) had dinner*: kolacja skończyła się, **zanim** przyszła.",
+          "examples": [
+            {
+              "en": "When she arrived, we had already had dinner.",
+              "pl": "Kiedy przyszła, byliśmy już po kolacji."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Po polsku różnicę niesie aspekt czasownika (zjedliśmy / jedliśmy) albo słówko „już”, a po angielsku zmienia się cały czas. Zapytaj: kolacja była **po**, **w trakcie** czy **przed** jej przyjściem?"
+    },
+    {
+      "type": "timeline",
+      "now": 0.92,
+      "marks": [
+        { "kind": "point", "from": 0.12, "label": "had had" },
+        { "kind": "span", "from": 0.32, "to": 0.62, "label": "were having" },
+        { "kind": "point", "from": 0.47, "label": "she arrived" },
+        { "kind": "point", "from": 0.78, "label": "had" }
+      ],
+      "caption_pl": "Trzy miejsca kolacji względem jej przyjścia: wcześniej (had had), w trakcie (were having) i później (had)."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "will",
+          "md_pl": "Decyzja **w chwili mówienia**, propozycja, obietnica albo opinia o przyszłości (*I think*, *probably*).",
+          "examples": [
+            {
+              "en": "A: There's no milk left. B: I'll get some on my way home.",
+              "pl": "A: Nie ma już mleka. B: Kupię po drodze do domu."
+            }
+          ]
+        },
+        {
+          "title": "be going to",
+          "md_pl": "Zamiar **postanowiony wcześniej** albo skutek, który **już widać**.",
+          "examples": [
+            {
+              "en": "I'm going to learn Spanish — I've already bought the books.",
+              "pl": "Zamierzam uczyć się hiszpańskiego, już kupiłam książki."
+            },
+            {
+              "en": "Look at that sky! It's going to pour.",
+              "pl": "Spójrz na niebo! Zaraz lunie."
+            }
+          ]
+        },
+        {
+          "title": "Present Continuous",
+          "md_pl": "Plan **umówiony**: z kimś, z terminem, z rezerwacją.",
+          "examples": [
+            {
+              "en": "I'm meeting Ola outside the cinema at six.",
+              "pl": "Jestem umówiona z Olą o szóstej przed kinem."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "**will** rodzi się teraz, **going to** siedzi już w głowie, **Present Continuous** jest już w kalendarzu. Granica między dwoma ostatnimi bywa płynna: przy ustalonym planie oba są poprawne."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Present Simple",
+          "md_pl": "**Rozkład jazdy, program, plan lekcji**: coś zapisanego, co nie zależy od twojej decyzji.",
+          "examples": [
+            {
+              "en": "The train leaves at 7.15 tomorrow morning.",
+              "pl": "Pociąg odjeżdża jutro o 7.15."
+            }
+          ]
+        },
+        {
+          "title": "Present Continuous",
+          "md_pl": "**Twój osobisty plan**, już ustalony.",
+          "examples": [
+            {
+              "en": "We're catching the 7.15 train tomorrow morning.",
+              "pl": "Jutro rano jedziemy pociągiem o 7.15."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Ten sam pociąg. Rozkład mówi *leaves*, a ty o swoim planie mówisz *we're catching*."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Future Continuous",
+          "md_pl": "W danej chwili przyszłości czynność **będzie w trakcie**. Sygnał: *this time tomorrow*, *at ten tomorrow*.",
+          "examples": [
+            {
+              "en": "At ten tomorrow I'll be sitting my maths exam.",
+              "pl": "Jutro o dziesiątej będę pisać egzamin z matmy."
+            }
+          ]
+        },
+        {
+          "title": "Future Perfect",
+          "md_pl": "Do tej chwili czynność **będzie już gotowa**. Sygnał: *by* + termin, *by the time*.",
+          "examples": [
+            {
+              "en": "By two tomorrow I'll have finished my maths exam.",
+              "pl": "Jutro do czternastej będę już po egzaminie z matmy."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Zapytaj: **w środku** czy **już po**? *at* i *this time* zwykle pytają o środek, *by* o to, co będzie już za tobą. Rozstrzyga sens, nie samo słowo: *This time tomorrow I'll have finished my last exam* też jest poprawne."
+    },
+    {
+      "type": "timeline",
+      "now": 0.15,
+      "marks": [
+        { "kind": "span", "from": 0.35, "to": 0.7, "label": "will be sitting" },
+        { "kind": "point", "from": 0.5, "label": "at 10" },
+        { "kind": "point", "from": 0.86, "label": "by 2" }
+      ],
+      "caption_pl": "O dziesiątej egzamin trwa (Future Continuous). O czternastej jest już za mną (Future Perfect)."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Czasy w opowiadaniu.** W historii, artykule czy wpisie na blogu czasy dzielą się pracą:\n\n- **Past Simple** prowadzi akcję: kolejne kroki, jeden po drugim,\n- **Past Continuous** maluje tło: co trwało, kiedy akcja ruszyła,\n- **Past Perfect** cofa o krok: co stało się wcześniej niż to, o czym opowiadasz,\n- **Past Perfect Continuous** mówi, jak długo coś trwało do tamtej chwili albo skąd wziął się czyjś stan.\n\nNie każda wcześniejsza czynność potrzebuje Past Perfect. Gdy opowiadasz po kolei albo kolejność pokazują *after* i *before*, wystarczy Past Simple."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "It was raining and the streets were almost empty.",
+          "pl": "Padało, a ulice były prawie puste. (tło)"
+        },
+        {
+          "en": "I had been waiting at the bus stop for twenty minutes when a car pulled up next to me.",
+          "pl": "Czekałem na przystanku od dwudziestu minut, kiedy obok zatrzymał się samochód. (jak długo do tamtej chwili)"
+        },
+        {
+          "en": "The driver wound down the window and asked for directions.",
+          "pl": "Kierowca opuścił szybę i zapytał o drogę. (akcja)"
+        },
+        {
+          "en": "I recognised him at once: we had met at my cousin's wedding the year before.",
+          "pl": "Od razu go rozpoznałem: poznaliśmy się rok wcześniej na weselu mojej kuzynki. (krok wstecz)"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Zdania czasowe.** Po *when, after, before, as soon as, until, once, by the time* (i po *if*) mówisz o przyszłości bez will. Przyszłość niesie już zdanie główne, a to drugie podaje tylko moment albo warunek. Dlatego stoi tam Present Simple, a gdy coś musi się najpierw skończyć, także Present Perfect.\n\n**will** stoi tylko w zdaniu głównym."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "I'll text you as soon as I get home.",
+          "pl": "Napiszę do ciebie, jak tylko dotrę do domu."
+        },
+        {
+          "en": "Once you've finished the test, you can leave the room.",
+          "pl": "Kiedy skończysz test, możesz wyjść z sali."
+        },
+        {
+          "en": "We won't start until everyone is here.",
+          "pl": "Nie zaczniemy, dopóki wszyscy nie przyjdą."
+        },
+        {
+          "en": "By the time you arrive, the film will have started.",
+          "pl": "Zanim dotrzesz, film już się zacznie."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "Uważaj na **pytanie zależne**. Po *I don't know when…*, *I wonder if…*, *Can you tell me when…* nie podajesz momentu, tylko pytasz o samą przyszłość, więc will zostaje: *I don't know when he will be back*. Porównaj zdanie czasowe: *I'll tell him when he's back*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Inne sposoby na przyszłość.** Oprócz will i going to angielski ma kilka gotowych konstrukcji. Każda ma swoje znaczenie i swój rejestr."
+    },
+    {
+      "type": "table",
+      "headers": ["Forma", "Znaczenie", "Rejestr"],
+      "rows": [
+        ["Present Simple", "rozkład jazdy, program, plan lekcji", "neutralny"],
+        ["Present Continuous", "osobisty plan, już ustalony", "neutralny, typowy w rozmowie"],
+        ["be about to + V1", "zaraz, za chwilę; bez dodatkowego określenia czasu", "neutralny"],
+        [
+          "be to + V1",
+          "oficjalny plan albo polecenie",
+          "formalny: wiadomości, ogłoszenia, regulaminy"
+        ],
+        ["be due to + V1", "zaplanowane na konkretny czas", "neutralny i formalny"],
+        [
+          "be bound to + V1",
+          "na pewno się stanie, mówiący jest o tym przekonany",
+          "neutralny, częsty w mowie"
+        ]
+      ]
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "The match kicks off at 8 p.m. on Saturday.",
+          "pl": "Mecz zaczyna się w sobotę o 20.00."
+        },
+        {
+          "en": "I'm seeing the dentist on Friday afternoon.",
+          "pl": "W piątek po południu idę do dentysty."
+        },
+        {
+          "en": "Hurry up, the film is about to start!",
+          "pl": "Pospiesz się, film zaraz się zacznie!"
+        },
+        {
+          "en": "The Prime Minister is to visit Gdańsk next month.",
+          "pl": "Premier ma w przyszłym miesiącu odwiedzić Gdańsk."
+        },
+        {
+          "en": "All candidates are to remain seated until the end of the exam.",
+          "pl": "Wszyscy zdający mają pozostać na miejscach do końca egzaminu."
+        },
+        {
+          "en": "The train from Warsaw is due to arrive at 10.40.",
+          "pl": "Pociąg z Warszawy ma przyjechać o 10.40."
+        },
+        {
+          "en": "Don't worry, she's bound to call you back today.",
+          "pl": "Nie martw się, na pewno jeszcze dziś oddzwoni."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "W zadaniach 7 i 9 sam wybór czasu rzadko jest celem luki. Czas to zwykle **druga warstwa**: dobra konstrukcja (strona bierna, modal perfect) w złym czasie daje 0 pkt. Często w zdaniu stoi jawny okolicznik czasu (yesterday, last year, tomorrow, always, earlier), który odrzuca zły czas. Zanim wpiszesz formę, zakreśl okolicznik i sprawdź, czy twój czas do niego pasuje.\n\nW wypracowaniu nieuzasadnione skakanie między czasami to usterka w spójności. Wybierz czas narracji i zmieniaj go tylko wtedy, gdy zmienia się punkt odniesienia."
+    }
+  ]
+}

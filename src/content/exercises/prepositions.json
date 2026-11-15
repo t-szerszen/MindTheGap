@@ -1,0 +1,1226 @@
+[
+  {
+    "id": "prep-school-trip-cloze",
+    "type": "choice",
+    "title": "Class trip to Kraków",
+    "text": "Our class trip to Kraków starts ___ Monday. The coach leaves the school car park ___ 7 a.m. sharp, and nobody is allowed to change seats ___ the journey. Remember to hand in your signed consent form ___ Friday this week, otherwise you will not be able to come with us.",
+    "gaps": [
+      {
+        "options": ["on", "at", "in", "by"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce stoi dzień tygodnia: Monday."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Jeden konkretny dzień to w obrazie czasu „dzień”, nie punkt ani długi okres."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Dni i daty idą z on: on Monday, on 12 May. at jest dla godzin, in dla miesięcy i lat."
+          }
+        ]
+      },
+      {
+        "options": ["at", "on", "in", "until"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce stoi godzina: 7 a.m. sharp, czyli punktualnie o siódmej."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Godzina to punkt w czasie, więc at: at 7 a.m."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "until znaczy „aż do” i pasuje do czegoś, co trwa. Autokar odjeżdża raz, nie odjeżdża aż do siódmej."
+          }
+        ]
+      },
+      {
+        "options": ["during", "while", "since", "by"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce stoi nazwa wydarzenia: the journey. Pytanie brzmi „w trakcie czego?”."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "W trakcie wydarzenia = during + rzeczownik: during the journey."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "while też znaczy „podczas”, ale to spójnik i wymaga zdania: while we are travelling. since potrzebuje początku okresu i zwykle present perfect."
+          }
+        ]
+      },
+      {
+        "options": ["by", "until", "since", "during"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Oddać zgodę to jedna czynność, a otherwise mówi, że jest termin, którego nie wolno przekroczyć."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Najpóźniej do piątku. Termin dla czegoś, co ma się wydarzyć raz, to by."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Po polsku „do piątku”, więc kusi until. Ale until jest dla stanu, który trwa: the office is open until Friday. Nie oddajesz formularza nieprzerwanie aż do piątku."
+          }
+        ]
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 1
+  },
+  {
+    "id": "prep-camp-application-cloze",
+    "type": "choice",
+    "title": "Application for a summer camp job",
+    "text": "Dear Sir or Madam,\nI am writing to apply ___ the position of camp assistant advertised on your website. I am very keen ___ working with children, and last summer I was responsible ___ a group of twelve ten-year-olds at a sailing camp on the Masurian lakes. I am also familiar ___ basic first aid, as I completed a course in March.",
+    "gaps": [
+      {
+        "options": ["for", "about", "on", "at"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką stoi apply, a po niej stanowisko: the position of camp assistant."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Ubiegać się o pracę albo stanowisko = apply for. apply to łączy się z firmą albo uczelnią, ale tej opcji tu nie ma."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Polskie „o” podsuwa about. apply about nie istnieje."
+          }
+        ]
+      },
+      {
+        "options": ["on", "in", "at", "for"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką stoi przymiotnik keen. To on wybiera przyimek, nie sens zdania."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "keen on + rzeczownik albo -ing: keen on working. Po przyimku stoi -ing, dlatego working."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "interested in kusi, żeby wstawić in. To inny przymiotnik i ma inny przyimek."
+          }
+        ]
+      },
+      {
+        "options": ["for", "of", "about", "with"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką responsible, po niej grupa dzieci, za którą odpowiadał."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Odpowiedzialny za kogoś albo coś = responsible for."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "responsible of to częsty błąd, bo wiele przymiotników ma of (aware of, capable of). Tu tak nie jest."
+          }
+        ]
+      },
+      {
+        "options": ["with", "to", "about", "in"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Podmiot to I, a po luce stoi to, co znam: basic first aid."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Ja znam coś, jestem z czymś obeznany = I am familiar with sth."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "familiar to też istnieje, ale w drugą stronę: rzecz jest znana osobie. First aid is familiar to me. Tu podmiotem jest osoba, więc with."
+          }
+        ]
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 2
+  },
+  {
+    "id": "prep-depends-weather",
+    "type": "choice",
+    "text": "Whether we go camping in the Bieszczady Mountains this weekend depends ___ the weather forecast.",
+    "gaps": [
+      {
+        "options": ["on", "from", "of", "in"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką stoi czasownik depends. To on wybiera przyimek."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Zależeć od czegoś = depend on sth. Tak samo it depends on you."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Polskie „od” podsuwa from. depend from to jeden z najczęstszych błędów Polaków."
+          }
+        ]
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 1
+  },
+  {
+    "id": "prep-gdansk-holiday-story",
+    "type": "choice",
+    "title": "A late arrival",
+    "text": "We arrived ___ Gdańsk almost an hour late. As the train slowly ___ the station, my dad sighed and said that nothing in this country ever runs ___ time. Still, my little brother was so excited that, as soon as we got to the hotel, he jumped straight ___ the swimming pool. Here he is ___ this photo, still wearing his jeans and trainers!",
+    "gaps": [
+      {
+        "options": ["in", "to", "on", "for"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką arrive, po niej miasto: Gdańsk."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "arrive in + miasto albo kraj, arrive at + budynek albo stacja."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Po polsku „przyjechać do”, więc kusi to. Ale arrive to + miejsce to błąd. Z to idą get to i go to."
+          }
+        ]
+      },
+      {
+        "options": ["approached", "approached to", "came", "reached to"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce od razu stoi dopełnienie: the station. Pociąg się do niej zbliżał."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "approach to czasownik przechodni: approach the station, bez przyimka."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Polskie „zbliżać się do” podsuwa approached to. Tak samo reach: reach the station, nie reach to. came potrzebuje przyimka: came to the station."
+          }
+        ]
+      },
+      {
+        "options": ["on", "in", "at", "by"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Tata narzeka na spóźnienie pociągu. Chodzi o rozkład jazdy."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Zgodnie z rozkładem, punktualnie = on time."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "in time znaczy „w porę, zdążyć na coś”. Tu nikt nie mówi, na co mieli zdążyć, tylko że pociągi się spóźniają."
+          }
+        ]
+      },
+      {
+        "options": ["into", "onto", "at", "across"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "jumped to ruch, a basen ma wnętrze z wodą."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Z zewnątrz do środka = into: jumped into the pool."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "onto to ruch na powierzchnię, np. onto the table. Na wodę się nie wskakuje, tylko do niej."
+          }
+        ]
+      },
+      {
+        "options": ["in", "on", "at", "by"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Here he is ___ this photo: osoba widoczna na zdjęciu."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Osoba jest w obrazku, w jego wnętrzu. Dlatego in the photo, in the picture."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Polskie „na zdjęciu” podsuwa on. on the photo znaczy, że coś leży na odbitce, np. kawa wylana na zdjęcie."
+          }
+        ]
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 2
+  },
+  {
+    "id": "prep-museum-directions",
+    "type": "choice",
+    "title": "How to get to the museum",
+    "text": "From the station, walk ___ the river for about ten minutes until you see a footbridge. Go ___ the bridge to the other bank, and after a few more minutes you will ___ the park gate. Go ___ the gate, and the museum is the white building straight ahead of you.",
+    "gaps": [
+      {
+        "options": ["along", "across", "through", "into"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Idziesz przez dziesięć minut, aż zobaczysz kładkę. Rzeka jest obok ciebie przez cały czas."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Ruch wzdłuż linii (brzegu rzeki) = along."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "across the river to przejście na drugą stronę. To będzie dopiero w następnym zdaniu, po moście."
+          }
+        ]
+      },
+      {
+        "options": ["across", "along", "through", "into"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "to the other bank: chodzi o przejście z jednego brzegu na drugi."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Z jednej strony na drugą po płaskiej powierzchni = across: across the bridge."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "through wymaga wnętrza z wejściem i wyjściem, np. through a tunnel. Most nie ma wnętrza, po nim się idzie."
+          }
+        ]
+      },
+      {
+        "options": ["reach", "arrive", "get", "come"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce od razu stoi miejsce: the park gate, bez przyimka."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "reach to czasownik przechodni: reach the gate. Dopełnienie stoi zaraz po nim."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "arrive, get i come znaczą prawie to samo, ale potrzebują przyimka: arrive at, get to, come to the gate."
+          }
+        ]
+      },
+      {
+        "options": ["through", "across", "along", "onto"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Brama to otwór: wchodzisz z jednej strony i wychodzisz z drugiej, do parku."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Ruch przez otwór albo wnętrze = through: go through the gate."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "across i along opisują ruch po powierzchni albo wzdłuż linii. Przez bramę nie da się przejść wzdłuż."
+          }
+        ]
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 2
+  },
+  {
+    "id": "prep-rent-reason",
+    "type": "choice",
+    "text": "Experts agree that the main reason ___ the sharp rise in rents is the shortage of new flats in big cities.",
+    "gaps": [
+      {
+        "options": ["for", "of", "to", "about"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką rzeczownik reason, po niej to, co wymaga wyjaśnienia: wzrost czynszów."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Powód czegoś = the reason for sth."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Polski dopełniacz („powód wzrostu”) podsuwa of. Z of łączy się cause: the cause of the rise."
+          }
+        ]
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 1
+  },
+  {
+    "id": "prep-tutoring-report-cloze",
+    "type": "choice",
+    "title": "Private lessons on the rise",
+    "text": "Over the last five years, there has been a sharp increase ___ the number of Polish teenagers who take private lessons. One obvious cause ___ this trend is exam stress. The demand ___ online tutors has grown especially fast, and it is easy to see why: the main advantage ___ studying online is that you do not waste time travelling.",
+    "gaps": [
+      {
+        "options": ["in", "of", "at", "on"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką increase, po niej to, co rośnie: the number of teenagers."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Wzrost czegoś = an increase in sth."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "increase of stoi przed samą wielkością wzrostu: an increase of 20%. Tu po luce nie ma liczby, tylko rzecz, która rośnie."
+          }
+        ]
+      },
+      {
+        "options": ["of", "to", "in", "at"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką cause, czyli przyczyna."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Przyczyna czegoś = the cause of sth. Tu akurat angielski działa jak polski dopełniacz."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Nie myl z reason for. Oba znaczą prawie to samo, ale mają inne przyimki."
+          }
+        ]
+      },
+      {
+        "options": ["for", "in", "to", "at"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką demand, po niej to, czego ludzie chcą: online tutors."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Popyt na coś, zapotrzebowanie na coś = demand for sth."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "increase in w pierwszym zdaniu może podsunąć in. Każdy rzeczownik ma swój przyimek, nie przenosi się go z sąsiedniego."
+          }
+        ]
+      },
+      {
+        "options": ["of", "on", "at", "about"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką advantage, po niej -ing: studying online."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Zaleta czegoś = the advantage of sth / of doing sth."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Po przyimku stoi -ing, dlatego studying, a nie to study."
+          }
+        ]
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 2
+  },
+  {
+    "id": "prep-student-council-cloze",
+    "type": "choice",
+    "title": "Student council meeting",
+    "text": "At yesterday's student council meeting, we ___ the plans for a new school canteen. Ms Nowak, who ___ every meeting, ___ that the budget was very limited. When the head teacher ___ the room at the end, everyone stopped talking.",
+    "gaps": [
+      {
+        "options": ["discussed", "discussed about", "talked", "spoke"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce od razu stoi dopełnienie: the plans."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "discuss jest przechodni: discuss sth, bez przyimka."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Polskie „dyskutować o” podsuwa discussed about. talked i spoke wymagają przyimka: talked about the plans."
+          }
+        ]
+      },
+      {
+        "options": ["attends", "attends to", "attends at", "goes"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce stoi every meeting: chodzi o bycie obecnym na spotkaniach."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Być obecnym na czymś = attend sth, bez przyimka."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "attend to znaczy „zająć się czymś”, np. attend to a customer. goes potrzebowałoby to: goes to every meeting."
+          }
+        ]
+      },
+      {
+        "options": ["mentioned", "mentioned about", "told", "said about"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce stoi that + zdanie: wspomniała, że budżet jest mały."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "mention jest przechodni: mention sth albo mention that…"
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "mentioned about to kalka z „wspomnieć o”. told wymaga osoby: told us that. said about that to nie jest poprawna konstrukcja."
+          }
+        ]
+      },
+      {
+        "options": ["entered", "entered into", "entered to", "walked"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce od razu stoi miejsce: the room."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Wejść do pomieszczenia = enter the room, bez przyimka."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "entered to to kalka z „wejść do”. enter into to formalne „przystąpić do” (umowy, rozmów). walked potrzebuje into: walked into the room."
+          }
+        ]
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 2
+  },
+  {
+    "id": "prep-office-lift-cloze",
+    "type": "choice",
+    "title": "Eleven floors on foot",
+    "text": "The lift in our office building has been ___ of order since Monday. Our manager, who is ___ charge of the building, says the repair team is working ___ a lot of pressure, but nobody knows when it will be fixed. Then yesterday someone set off the fire alarm ___ mistake, and we all had to walk down eleven floors.",
+    "gaps": [
+      {
+        "options": ["out", "in", "off", "under"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Winda od poniedziałku nie działa i nikt nie wie, kiedy ją naprawią."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Zepsuty, nieczynny = out of order. To stałe wyrażenie."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "in order znaczy „w porządku”, ale tu przed luką jest już of, a in of order nie istnieje."
+          }
+        ]
+      },
+      {
+        "options": ["in", "on", "at", "under"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Kierownik odpowiada za budynek."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Kierować czymś, odpowiadać za coś = be in charge of sth."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "on charge ani at charge w tym znaczeniu nie istnieją. Wyrażenie trzeba znać w całości."
+          }
+        ]
+      },
+      {
+        "options": ["under", "in", "at", "on"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Ekipa pracuje, a wszyscy czekają na windę: presja z zewnątrz."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Pod presją = under pressure, tak samo jak po polsku „pod”."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "in pressure i at pressure w tym znaczeniu nie istnieją. Tu wyjątkowo polski przyimek podpowiada dobrze."
+          }
+        ]
+      },
+      {
+        "options": ["by", "on", "in", "at"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Ktoś włączył alarm, choć wcale nie było pożaru: pomylił się."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Przez pomyłkę = by mistake. Podobnie by accident (przypadkiem)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "on łączy się z purpose: on purpose to „celowo”, czyli odwrotne znaczenie."
+          }
+        ]
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 2
+  },
+  {
+    "id": "prep-capable-chess",
+    "type": "choice",
+    "text": "My cousin Marta is ___ of solving quite complex maths problems in her head, and she is also really good ___ chess.",
+    "gaps": [
+      {
+        "options": ["capable", "able", "skilled", "good"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce stoi of + -ing: of solving. To słowo po luce rozstrzyga."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Wszystkie opcje znaczą coś podobnego, ale tylko capable łączy się z of: capable of doing sth."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "able łączy się z to: able to solve. skilled z at albo in, good z at."
+          }
+        ]
+      },
+      {
+        "options": ["at", "in", "on", "with"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką przymiotnik good, po niej dziedzina: chess."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Dobry w czymś = good at sth: good at chess, good at maths."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Polskie „dobry w” podsuwa in. good in chess to błąd."
+          }
+        ]
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 2
+  },
+  {
+    "id": "prep-roads-solution",
+    "type": "choice",
+    "text": "Building more and more roads is not a real solution ___ traffic jams, because new roads simply attract more cars.",
+    "gaps": [
+      {
+        "options": ["to", "of", "on", "at"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką rzeczownik solution, po niej problem: traffic jams."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Rozwiązanie problemu = a solution to a problem. Tak samo the answer to a question, the key to the door."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Polski dopełniacz („rozwiązanie korków”) podsuwa of."
+          }
+        ]
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 2
+  },
+  {
+    "id": "prep-library-rules",
+    "type": "choice",
+    "title": "Library rules",
+    "text": "The school library is open ___ 8 p.m. on weekdays, so you can study there after classes. Books reserved online must be collected ___ three days, or they go back on the shelf. You can borrow up to five books ___ two weeks.",
+    "gaps": [
+      {
+        "options": ["until", "by", "since", "during"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "is open to stan, który trwa przez całe popołudnie i kończy się o 20."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Stan trwa aż do pewnej chwili = until."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "by to termin dla jednorazowej czynności: return the books by Friday. Biblioteka nie „otwiera się najpóźniej o 20”."
+          }
+        ]
+      },
+      {
+        "options": ["within", "during", "since", "until"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "or they go back on the shelf: jest granica, po której tracisz rezerwację."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "W ciągu, nie później niż = within three days."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Polskie „w ciągu” podsuwa during, ale during stoi przed nazwą wydarzenia (during the holidays), nie przed liczbą dni."
+          }
+        ]
+      },
+      {
+        "options": ["for", "during", "since", "while"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce stoi długość okresu: liczba i jednostka, two weeks."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Jak długo = for + okres: borrow books for two weeks."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Polskie „na dwa tygodnie, przez dwa tygodnie” podsuwa during. since potrzebuje początku okresu, a while całego zdania."
+          }
+        ]
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 2
+  },
+  {
+    "id": "prep-afraid-dogs",
+    "type": "gap-fill",
+    "sentence": "My little brother has always been ___ (afraid) dogs, even tiny ones that just want to play.",
+    "correct": ["afraid of"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Przymiotnik afraid, po luce to, czego się boi: dogs."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Bać się czegoś = be afraid of sth. Tak samo scared of, frightened of."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Polskie „bać się” nie ma przyimka, więc łatwo go pominąć. afraid dogs to błąd."
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 1
+  },
+  {
+    "id": "prep-proud-canoeist",
+    "type": "gap-fill",
+    "sentence": "The whole village is incredibly ___ (proud) Ewa, who won a bronze medal in canoeing at the European Championships.",
+    "correct": ["proud of"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Przymiotnik proud, po luce osoba, z której wszyscy są dumni."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Dumny z kogoś albo czegoś = proud of."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Polskie „z” podsuwa from albo with. Oba są tu błędem."
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 1
+  },
+  {
+    "id": "prep-interested-photography",
+    "type": "gap-fill",
+    "sentence": "Hania has been ___ (interested) photography since she got her first camera at the age of ten.",
+    "correct": ["interested in"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Przymiotnik interested, po luce dziedzina: photography."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Interesować się czymś = be interested in sth."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "interested about i interested on to błędy. Po in może stać też -ing: interested in taking photos."
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 1
+  },
+  {
+    "id": "prep-similar-czech",
+    "type": "gap-fill",
+    "sentence": "Polish is quite ___ (similar) Czech, so I can understand a lot when I watch Czech films without subtitles.",
+    "correct": ["similar to"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Przymiotnik similar i druga rzecz, z którą porównujesz: Czech."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Podobny do czegoś = similar to sth."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "similar like i similar as to błędy. like samo w sobie już znaczy „jak”, więc nie łączy się z similar."
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 1
+  },
+  {
+    "id": "prep-aware-timetable",
+    "type": "gap-fill",
+    "sentence": "I wasn't ___ (aware) the change in the timetable until I walked into an empty classroom on Tuesday morning.",
+    "correct": ["aware of"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Przymiotnik aware, po luce to, o czym nie wiedziałem: the change."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Być świadomym czegoś, wiedzieć o czymś = be aware of sth."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Polskie „wiedzieć o” podsuwa about. aware about to błąd."
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 1
+  },
+  {
+    "id": "prep-rely-bartek",
+    "type": "gap-fill",
+    "sentence": "You can always ___ (rely) Bartek: if he says he'll help you move flats on Saturday, he'll be there at nine with his van.",
+    "correct": ["rely on", "rely upon"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Czasownik rely, po luce osoba, na której można polegać."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Polegać na kimś = rely on sb. rely upon znaczy to samo, jest bardziej formalne."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Tu polskie „na” wyjątkowo podpowiada dobrze. Uważaj tylko, żeby nie napisać rely in."
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 1
+  },
+  {
+    "id": "prep-welcome-pack",
+    "type": "gap-fill",
+    "sentence": "Every September, the welcome pack for new pupils ___ (consist) a map of the school, a timetable and a list of useful phone numbers.",
+    "correct": ["consists of"],
+    "maxWords": 2,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Every September to zwyczaj, który się powtarza. Podmiot to jeden pakiet: the welcome pack."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Składać się z czegoś = consist of. Trzecia osoba w czasie teraźniejszym: consists of."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Polskie „z” podsuwa from. Do tego consist to stan, więc nie is consisting of."
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 2
+  },
+  {
+    "id": "prep-complained-waiter",
+    "type": "gap-fill",
+    "sentence": "The waiter was extremely rude to us, so before we left my dad ___ (complain / manager) about the service.",
+    "correct": ["complained to the manager"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "before we left: jedna skończona sytuacja w przeszłości, więc past simple."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Skarżyć się komuś = complain to sb, na coś = about sth. Osoba idzie z to, powód z about, który stoi już po luce."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "complained the manager (bez to) albo complained at the manager to błędy. Przed manager potrzebny jest też przedimek the."
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 2
+  },
+  {
+    "id": "prep-insisted-airport",
+    "type": "gap-fill",
+    "sentence": "I told Grandpa I could easily take a taxi, but he ___ (insist / drive) me to the airport himself.",
+    "correct": ["insisted on driving"],
+    "maxWords": 3,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I told… but: cała historia jest w przeszłości, więc insisted."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Nalegać na coś = insist on + -ing: insisted on driving."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "insisted to drive to błąd. Po przyimku on stoi -ing albo rzeczownik, nigdy to + V1."
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 2
+  },
+  {
+    "id": "prep-succeeded-test",
+    "type": "gap-fill",
+    "sentence": "After three failed attempts, my sister finally ___ (succeed / pass) her driving test last Thursday.",
+    "correct": ["succeeded in passing"],
+    "maxWords": 3,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "last Thursday: zamknięta przeszłość, więc succeeded."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Zdołać coś zrobić = succeed in + -ing: succeeded in passing."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "succeeded to pass to błąd. To samo znaczenie z bezokolicznikiem daje inny czasownik: managed to pass."
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 2
+  },
+  {
+    "id": "prep-married-engineer",
+    "type": "gap-fill",
+    "sentence": "Two years after they met on a ferry to Sweden, my aunt ___ (marry) a Scottish engineer, and now they live near Edinburgh.",
+    "correct": ["married", "got married to"],
+    "maxWords": 3,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Two years after they met: ślub to jedno wydarzenie w przeszłości, więc past simple."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "marry sb bez przyimka: married a Scottish engineer. Druga możliwość: get married to sb."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Polskie „wyjść za mąż za, ożenić się z” podsuwa married with. To błąd. Samo married to (bez got) też nie pasuje, bo opisuje stan: she is married to him."
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 2
+  },
+  {
+    "id": "prep-kwt-accused-window",
+    "type": "key-word-transformation",
+    "source": "\"You broke my window on purpose!\" Mr Kowalski shouted at Tomek.",
+    "keyWord": "ACCUSED",
+    "target": "Mr Kowalski ___ his window on purpose.",
+    "correct": ["accused Tomek of breaking", "accused Tomek of having broken"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Sąsiad zarzuca Tomkowi, że coś zrobił. Zarzut w mowie niezależnej to typowe miejsce na accuse."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "accuse + osoba + of + -ing: accused Tomek of breaking."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "accused Tomek for breaking i accused Tomek to break to 0 pkt. Bez osoby po accused też nie wyjdzie."
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 2
+  },
+  {
+    "id": "prep-kwt-advance-table",
+    "type": "key-word-transformation",
+    "source": "At this restaurant you have to reserve a table a week before you want to eat there.",
+    "keyWord": "ADVANCE",
+    "target": "At this restaurant, tables have to be ___.",
+    "correct": [
+      "booked a week in advance",
+      "reserved a week in advance",
+      "booked one week in advance",
+      "reserved one week in advance",
+      "booked seven days in advance",
+      "reserved seven days in advance"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "a week before: coś trzeba zrobić tydzień wcześniej, z wyprzedzeniem."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Z wyprzedzeniem = in advance. Czas wyprzedzenia stoi przed nim: a week in advance."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "tables have to be wymaga imiesłowu: be booked albo be reserved."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "before advance albo in the advance to błędy. Wyrażenie ma zawsze postać in advance."
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 3
+  },
+  {
+    "id": "prep-kwt-behalf-award",
+    "type": "key-word-transformation",
+    "source": "The writer couldn't come to the ceremony, so his publisher collected the award for him.",
+    "keyWord": "BEHALF",
+    "target": "The writer's publisher collected the award ___ because he couldn't come to the ceremony.",
+    "correct": ["on his behalf", "on the writer's behalf", "on behalf of the writer"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Wydawca odebrał nagrodę zamiast pisarza, w jego imieniu."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "W czyimś imieniu = on behalf of sb albo on sb's behalf: on his behalf."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "in his behalf i for his behalf to błędy. W brytyjskim angielskim przyimek to zawsze on."
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 2
+  },
+  {
+    "id": "prep-kwt-risk-flood",
+    "type": "key-word-transformation",
+    "source": "There is a danger that our old house will be flooded if the river rises again.",
+    "keyWord": "RISK",
+    "target": "Our old house is ___ if the river rises again.",
+    "correct": [
+      "at risk of flooding",
+      "at risk of being flooded",
+      "at risk from flooding",
+      "at risk of getting flooded"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "There is a danger that…: dom jest zagrożony zalaniem."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Zagrożony czymś = at risk of + rzeczownik albo -ing: at risk of flooding."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "in risk i on risk nie istnieją. Po of nie może stać will be flooded, tylko -ing."
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 3
+  },
+  {
+    "id": "prep-kwt-deal-guests",
+    "type": "key-word-transformation",
+    "source": "The new receptionist knows how to handle difficult hotel guests.",
+    "keyWord": "DEAL",
+    "target": "The new receptionist knows how ___ difficult hotel guests.",
+    "correct": ["to deal with"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "handle = poradzić sobie z kimś albo czymś."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Radzić sobie z kimś = deal with sb. Po how stoi to + V1: how to deal with."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Bez with zdanie się sypie: how to deal difficult guests to 0 pkt."
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 1
+  },
+  {
+    "id": "prep-kwt-mention-employer",
+    "type": "key-word-transformation",
+    "source": "During the job interview, Ola said nothing about her previous employer.",
+    "keyWord": "MENTION",
+    "target": "During the job interview, Ola ___ her previous employer.",
+    "correct": [
+      "did not mention",
+      "made no mention of",
+      "did not mention anything about",
+      "failed to mention"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "said nothing about = nie wspomniała o kimś."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "mention jest przechodni: did not mention her employer. Słowo klucz stoi bez zmian, więc przeczenie robi did not."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "did not mention about to 0 pkt, bo to kalka z „wspomnieć o”. never mentioned zmienia słowo klucz, więc też odpada."
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 2
+  },
+  {
+    "id": "prep-kwt-time-last-bus",
+    "type": "key-word-transformation",
+    "source": "We got to the station early enough to catch the last bus home.",
+    "keyWord": "TIME",
+    "target": "We got to the station ___ the last bus home.",
+    "correct": [
+      "in time to catch",
+      "in time for",
+      "in time to get",
+      "in good time for",
+      "in good time to catch"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "early enough to catch: zdążyliśmy na coś, zanim było za późno."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Zdążyć, w porę = in time. Dalej for + rzeczownik albo to + V1."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "on time znaczy „punktualnie, zgodnie z rozkładem”. Tu nie chodzi o rozkład, tylko o to, że zdążyli."
+      }
+    ],
+    "tags": ["prepositions"],
+    "difficulty": 2
+  }
+]

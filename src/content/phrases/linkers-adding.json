@@ -1,0 +1,227 @@
+{
+  "id": "linkers-adding",
+  "category": "linkers",
+  "title_pl": "Łączniki: dodawanie i wyliczanie",
+  "items": [
+    {
+      "en": "furthermore",
+      "pl": "ponadto, co więcej",
+      "meaning_pl": "dokładasz kolejny argument, tak samo jak moreover; pisane razem. Zwykle na początku zdania, po nim przecinek: Furthermore, …",
+      "example": {
+        "en": "Online courses are cheaper than traditional ones. Furthermore, students can learn at their own pace.",
+        "pl": "Kursy online są tańsze niż tradycyjne. Ponadto uczniowie mogą uczyć się we własnym tempie."
+      },
+      "register": "formal",
+      "tags": ["dodawanie", "rozprawka"]
+    },
+    {
+      "en": "what is more (what's more)",
+      "pl": "co więcej, w dodatku",
+      "meaning_pl": "dodajesz coś jeszcze ważniejszego albo bardziej zaskakującego. Na początku zdania, po nim przecinek. W formalnym tekście pełna forma what is more, bez skrótu",
+      "example": {
+        "en": "The new sports centre is close to my school. What is more, students get a discount.",
+        "pl": "Nowe centrum sportowe jest blisko mojej szkoły. Co więcej, uczniowie dostają zniżkę."
+      },
+      "register": "neutral",
+      "tags": ["dodawanie", "wzmocnienie"]
+    },
+    {
+      "en": "additionally",
+      "pl": "dodatkowo, ponadto",
+      "meaning_pl": "formalne dodanie informacji, pasuje do listu formalnego i rozprawki. Na początku zdania, po nim przecinek: Additionally, …",
+      "example": {
+        "en": "The hotel offers free Wi-Fi. Additionally, guests can use the swimming pool at no extra cost.",
+        "pl": "Hotel oferuje darmowe Wi-Fi. Dodatkowo goście mogą bezpłatnie korzystać z basenu."
+      },
+      "register": "formal",
+      "tags": ["dodawanie", "list formalny"]
+    },
+    {
+      "en": "besides",
+      "pl": "poza tym, zresztą",
+      "meaning_pl": "dorzucasz jeszcze jeden, często decydujący powód. Na początku zdania, po nim przecinek. Brzmi swobodniej niż moreover, więc częściej w mowie i w mailu niż w rozprawce. Besides z s, bo beside to obok",
+      "example": {
+        "en": "I don't want to go to the party. Besides, I've got a test tomorrow.",
+        "pl": "Nie chcę iść na tę imprezę. Zresztą jutro mam sprawdzian."
+      },
+      "register": "neutral",
+      "tags": ["dodawanie", "powód"]
+    },
+    {
+      "en": "besides sth / besides doing sth",
+      "pl": "oprócz czegoś, poza czymś",
+      "meaning_pl": "tu besides jest przyimkiem, więc po nim rzeczownik albo forma -ing, nigdy to + bezokolicznik. Gdy fraza stoi na początku zdania, po niej przecinek. Nie myl z beside (obok)",
+      "example": {
+        "en": "Besides playing the guitar, Tom sings in the school choir.",
+        "pl": "Oprócz gry na gitarze Tom śpiewa w szkolnym chórze."
+      },
+      "register": "neutral",
+      "tags": ["dodawanie", "przyimek + -ing", "pułapka"]
+    },
+    {
+      "en": "in addition to sth / in addition to doing sth",
+      "pl": "oprócz czegoś, poza czymś",
+      "meaning_pl": "to jest tu przyimkiem, a nie częścią bezokolicznika, dlatego in addition to working, a nie to work. Gdy fraza stoi na początku zdania, po niej przecinek",
+      "example": {
+        "en": "In addition to preparing for the matura, Ola works at a café at weekends.",
+        "pl": "Oprócz przygotowań do matury Ola w weekendy pracuje w kawiarni."
+      },
+      "register": "formal",
+      "tags": ["dodawanie", "przyimek + -ing", "pułapka"]
+    },
+    {
+      "en": "as well as sth / as well as doing sth",
+      "pl": "a także, jak również, oprócz",
+      "meaning_pl": "W środku zdania łączy dwie rzeczy: French as well as English. Na początku zdania znaczy oprócz; jeśli po nim stoi czasownik, to w formie -ing (nie to + bezokolicznik), a po całej frazie stawiasz przecinek. Nie myl z as well na końcu zdania (też)",
+      "example": {
+        "en": "As well as being cheap, cycling to school keeps you fit.",
+        "pl": "Oprócz tego, że jest tani, dojazd rowerem do szkoły pozwala utrzymać formę."
+      },
+      "register": "neutral",
+      "tags": ["dodawanie", "przyimek + -ing"]
+    },
+    {
+      "en": "apart from sth / apart from doing sth",
+      "pl": "oprócz, poza",
+      "meaning_pl": "ma dwa znaczenia: oprócz (w dodatku do) albo z wyjątkiem. Decyduje reszta zdania: Everyone apart from Tom passed to z wyjątkiem Toma. Po nim rzeczownik albo -ing; na początku zdania po całej frazie przecinek",
+      "example": {
+        "en": "Apart from the main course, the price includes a dessert and a drink.",
+        "pl": "Oprócz dania głównego w cenie jest deser i napój."
+      },
+      "register": "neutral",
+      "tags": ["dodawanie", "przyimek + -ing", "pułapka"]
+    },
+    {
+      "en": "also",
+      "pl": "również, także, też",
+      "meaning_pl": "stoi w środku zdania, bez przecinków: przed głównym czasownikiem (she also plays), ale po be i po pierwszym czasowniku posiłkowym (she is also, she has also won). Na koniec zdania lepiej too albo as well",
+      "example": {
+        "en": "Regular exercise improves your mood. It can also help you sleep better.",
+        "pl": "Regularne ćwiczenia poprawiają nastrój. Mogą też pomóc ci lepiej spać."
+      },
+      "register": "neutral",
+      "tags": ["dodawanie", "szyk"]
+    },
+    {
+      "en": "… too / … as well",
+      "pl": "też, również",
+      "meaning_pl": "stoją na końcu zdania, zwykle bez przecinka; częściej w mowie i w mailu do kolegi. W przeczeniu nie ma too, jest either: I don't like it either (ja też nie)",
+      "example": {
+        "en": "My sister is learning Spanish, and I'd like to learn it too.",
+        "pl": "Moja siostra uczy się hiszpańskiego i ja też chciałbym się go nauczyć."
+      },
+      "register": "neutral",
+      "tags": ["dodawanie", "szyk", "pułapka"]
+    },
+    {
+      "en": "on top of that",
+      "pl": "na dodatek, w dodatku",
+      "meaning_pl": "dorzucasz kolejną rzecz, zwykle kolejny minus albo problem. Swobodne, więc do maila albo opowiadania, nie do rozprawki. Na początku zdania, po nim przecinek",
+      "example": {
+        "en": "The train was late. On top of that, it was so crowded that I had to stand all the way.",
+        "pl": "Pociąg się spóźnił. Na dodatek był tak zatłoczony, że całą drogę musiałem stać."
+      },
+      "register": "informal",
+      "tags": ["dodawanie", "e-mail"]
+    },
+    {
+      "en": "plus",
+      "pl": "do tego, poza tym",
+      "meaning_pl": "potoczne dodanie argumentu. Na początku zdania, po nim przecinek: Plus, … Tylko w mailu do znajomego; w liście formalnym i rozprawce wybierz in addition",
+      "example": {
+        "en": "You should come to the festival with us. Plus, the tickets are really cheap this year.",
+        "pl": "Powinieneś pojechać z nami na festiwal. Do tego bilety są w tym roku naprawdę tanie."
+      },
+      "register": "informal",
+      "tags": ["dodawanie", "e-mail"]
+    },
+    {
+      "en": "not to mention sth",
+      "pl": "nie wspominając (już) o",
+      "meaning_pl": "na końcu dorzucasz coś, co jeszcze wzmacnia argument. Zwykle w środku zdania, przed nim przecinek; po nim rzeczownik, -ing albo przymiotnik",
+      "example": {
+        "en": "Cycling to school is cheap and healthy, not to mention good for the environment.",
+        "pl": "Jazda rowerem do szkoły jest tania i zdrowa, a do tego dobra dla środowiska."
+      },
+      "register": "neutral",
+      "tags": ["dodawanie", "wzmocnienie"]
+    },
+    {
+      "en": "not only … but also …",
+      "pl": "nie tylko…, ale też…",
+      "meaning_pl": "po obu częściach ten sam rodzaj słowa: not only cheap but also healthy (przymiotnik i przymiotnik). Po polsku przed ale jest przecinek, a po angielsku przed but also w takim zdaniu zwykle nie",
+      "example": {
+        "en": "Volunteering helps not only other people but also the volunteers themselves.",
+        "pl": "Wolontariat pomaga nie tylko innym ludziom, ale też samym wolontariuszom."
+      },
+      "register": "neutral",
+      "tags": ["dodawanie", "struktura"]
+    },
+    {
+      "en": "Not only does sth…, but it also…",
+      "pl": "nie tylko…, ale też…",
+      "meaning_pl": "gdy zdanie zaczyna się od Not only, robi się szyk pytający (inwersja): czasownik posiłkowy przed podmiotem. Jeśli go nie ma, dochodzi do/does/did jak w pytaniu; z be po prostu Not only is it… Przed but przecinek",
+      "example": {
+        "en": "Not only does the app help you learn new words, but it also reminds you to revise them.",
+        "pl": "Ta aplikacja nie tylko pomaga uczyć się nowych słówek, ale też przypomina o ich powtarzaniu."
+      },
+      "register": "formal",
+      "tags": ["dodawanie", "inwersja", "rozprawka"]
+    },
+    {
+      "en": "both … and …",
+      "pl": "zarówno…, jak i…",
+      "meaning_pl": "łączy dwie rzeczy i podkreśla, że chodzi o obie. Gdy łączy dwa podmioty, czasownik jest w liczbie mnogiej: Both my brother and my sister are… Po polsku przed jak i jest przecinek, po angielsku przed and nie ma",
+      "example": {
+        "en": "Both students and teachers are against the new timetable.",
+        "pl": "Zarówno uczniowie, jak i nauczyciele są przeciwni nowemu planowi lekcji."
+      },
+      "register": "neutral",
+      "tags": ["dodawanie", "struktura"]
+    },
+    {
+      "en": "firstly / first of all",
+      "pl": "po pierwsze",
+      "meaning_pl": "otwiera pierwszy punkt wyliczenia, po nim przecinek; dalej idzie secondly, a na koniec finally. Nie myl z at first: to znaczy na początku, a potem coś się zmieniło (At first I hated maths), więc nie nadaje się do wyliczania",
+      "example": {
+        "en": "Firstly, studying abroad helps you become more independent.",
+        "pl": "Po pierwsze, studia za granicą pomagają stać się bardziej samodzielnym."
+      },
+      "register": "neutral",
+      "tags": ["wyliczanie", "pułapka"]
+    },
+    {
+      "en": "secondly",
+      "pl": "po drugie",
+      "meaning_pl": "drugi punkt wyliczenia, po nim przecinek; dalej thirdly. Używasz go, gdy wcześniej padło firstly albo first of all",
+      "example": {
+        "en": "Secondly, it is the best way to improve your language skills.",
+        "pl": "Po drugie, to najlepszy sposób, żeby podszkolić język."
+      },
+      "register": "neutral",
+      "tags": ["wyliczanie"]
+    },
+    {
+      "en": "finally / lastly",
+      "pl": "na koniec, wreszcie",
+      "meaning_pl": "wprowadza ostatni punkt wyliczenia; na początku zdania, po nim przecinek. Uwaga: finally w środku zdania, bez przecinka, znaczy w końcu, nareszcie (po długim czekaniu): We finally found the hotel. Lastly służy tylko do wyliczania",
+      "example": {
+        "en": "Finally, people who have studied abroad often find it easier to get a job.",
+        "pl": "Wreszcie osobom, które studiowały za granicą, często łatwiej znaleźć pracę."
+      },
+      "register": "neutral",
+      "tags": ["wyliczanie", "pułapka"]
+    },
+    {
+      "en": "last but not least",
+      "pl": "na koniec, co nie mniej ważne",
+      "meaning_pl": "wprowadza ostatni punkt albo osobę i podkreśla, że są tak samo ważne jak poprzednie. Na początku zdania, po nim przecinek. Utarty zwrot, więc używaj go oszczędnie",
+      "example": {
+        "en": "Last but not least, I would like to thank our teachers for their support.",
+        "pl": "Na koniec, co nie mniej ważne, chciałbym podziękować naszym nauczycielom za wsparcie."
+      },
+      "register": "neutral",
+      "tags": ["wyliczanie"]
+    }
+  ]
+}

@@ -1,0 +1,425 @@
+{
+  "id": "prepositions",
+  "category": "prepositions",
+  "title_pl": "Przyimki: czas, miejsce i przyimki zależne",
+  "summary_pl": "Skąd się bierze przyimek: z obrazu w przestrzeni i w czasie (at, on, in, into, through) albo ze słowa przed nim (interested in, depend on, reason for). Do tego by czy until, during czy for, on time czy in time, czasowniki bez przyimka (discuss, enter, marry) i stałe wyrażenia jak in charge of czy by mistake.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "Przyimek bierze się z jednego z dwóch źródeł i od tego zależy, jak go wybierasz.\n\n- **Z obrazu.** Czas i miejsce mają w angielskim swoją ==geometrię==: punkt, powierzchnia, wnętrze, ruch przez coś albo wzdłuż czegoś. *at the bus stop* to punkt, *on the wall* to powierzchnia, *in the kitchen* to wnętrze. Tu da się myśleć, a nie tylko pamiętać.\n- **Ze słowa przed luką.** Przymiotnik, czasownik albo rzeczownik ==zwykle ma swój przyimek== (czasem inny przyimek daje inne znaczenie, np. *apply for* / *apply to*): *interested in*, *depend on*, *reason for*. Tu decyduje słowo, które stoi tuż przed luką, a nie logika ani polski.\n\nCzęsto łapie drugie źródło. Polski podsuwa swój przyimek (*zależeć od* → *depend from*, a powinno być *depend on*), a angielski ma inny."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "słowo przed luką",
+          "text_pl": "Sprawdź, co stoi tuż przed luką. Przymiotnik (aware, capable), czasownik (rely, insist) albo rzeczownik (increase, demand)? To on wybiera przyimek. Przypomnij sobie całą parę, np. capable of."
+        },
+        {
+          "step_pl": "czas albo miejsce",
+          "text_pl": "Przed luką nie ma takiego słowa, a po luce stoi godzina, data, miejsce albo kierunek? Pomyśl o obrazie: punkt (at), dzień albo powierzchnia (on), dłuższy okres albo wnętrze (in), ruch (into, through, across, along)."
+        },
+        {
+          "step_pl": "co stoi po luce",
+          "text_pl": "Po przyimku stoi rzeczownik, zaimek albo -ing, nigdy to + V1: interested in learning, insist on paying. Zdanie może stać tylko z wh- albo whether (It depends on what you want). Jeśli po luce jest zdanie z podmiotem, potrzebujesz spójnika, nie przyimka."
+        },
+        {
+          "step_pl": "sprawdź polski",
+          "text_pl": "Jeśli twój wybór to dosłowne tłumaczenie polskiego przyimka (od, o, z, na), zatrzymaj się. Właśnie tam leży większość pułapek: depend from, discuss about, married with, on the photo."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Czas: at, on, in.** Im większy kawałek czasu, tym „szerszy” przyimek.\n\n- *at* to ==punkt==: godzina, moment, krótkie święto jako okres. *at 7 o'clock, at noon, at night, at Christmas*.\n- *on* to ==jeden dzień==: dzień tygodnia, data, konkretny dzień. *on Monday, on 3 May, on my birthday, on Christmas Day, on Friday evening*.\n- *in* to ==dłuższy okres==: część dnia, miesiąc, pora roku, rok, wiek. *in the morning, in July, in winter, in 2027, in the 19th century*.\n\nPrzed *this morning / this week / this year*, *next, last, every* oraz przed *today, tomorrow, yesterday* nie ma żadnego przyimka (ale: *at this moment*, *at this stage*): *next Monday*, nie *on next Monday*."
+    },
+    {
+      "type": "table",
+      "headers": ["Przyimek", "Obraz", "Przykłady", "Uwaga"],
+      "rows": [
+        [
+          "at",
+          "punkt w czasie",
+          "at 6.30, at midnight, at night, at the moment, at Easter",
+          "at night, ale in the morning / in the evening"
+        ],
+        [
+          "on",
+          "jeden dzień",
+          "on Sunday, on 11 November, on New Year's Eve, on Monday morning",
+          "część dnia z nazwą dnia idzie z on: on Monday morning"
+        ],
+        [
+          "in",
+          "dłuższy okres",
+          "in the afternoon, in March, in summer, in 2026, in the 1990s",
+          "in the morning, ale on the morning of 5 May"
+        ],
+        [
+          "brak",
+          "słowo samo określa czas",
+          "this week, next year, last Friday, every day, tomorrow",
+          "nie mówi się on last Friday ani in next year"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**Weekend.** W brytyjskim angielskim *at the weekend*, w amerykańskim *on the weekend*. Oba są poprawne. Nie mieszaj ich w jednym tekście."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "by",
+          "md_pl": "**Najpóźniej do.** Termin, przed którym coś ==ma się wydarzyć raz==: oddać, skończyć, przyjść. Po polsku *do, najpóźniej do*.",
+          "examples": [
+            {
+              "en": "Please send me your essay by Friday.",
+              "pl": "Proszę, wyślij mi wypracowanie do piątku (najpóźniej w piątek)."
+            }
+          ]
+        },
+        {
+          "title": "until / till",
+          "md_pl": "**Aż do.** Stan albo czynność ==trwa== i kończy się w tym momencie: czekać, zostać, być otwartym. Po polsku *aż do, do*.",
+          "examples": [
+            {
+              "en": "The shop is open until 10 p.m.",
+              "pl": "Sklep jest otwarty do 22."
+            },
+            {
+              "en": "I won't know my results until July.",
+              "pl": "Wyników nie poznam aż do lipca (dopiero w lipcu)."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Zadaj pytanie: coś **trwa** do tego momentu (*until*) czy ma się **wydarzyć przed nim** (*by*)? Po polsku w obu przypadkach mówisz „do”, dlatego tak łatwo je pomylić."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "for",
+          "md_pl": "**Jak długo.** Po *for* stoi ==długość okresu==: liczba i jednostka. *for two weeks, for an hour, for ages*.",
+          "examples": [
+            {
+              "en": "We stayed with my aunt for ten days.",
+              "pl": "Zostaliśmy u cioci przez dziesięć dni."
+            }
+          ]
+        },
+        {
+          "title": "during",
+          "md_pl": "**Kiedy.** Po *during* stoi ==nazwa wydarzenia albo okresu==: *during the film, during the holidays, during the war*. Odpowiada na pytanie „w trakcie czego?”.",
+          "examples": [
+            {
+              "en": "My phone rang twice during the exam.",
+              "pl": "Mój telefon zadzwonił dwa razy w trakcie egzaminu."
+            }
+          ]
+        },
+        {
+          "title": "while",
+          "md_pl": "**Spójnik, nie przyimek.** Po *while* stoi ==zdanie== z podmiotem i czasownikiem.",
+          "examples": [
+            {
+              "en": "My phone rang twice while I was taking the exam.",
+              "pl": "Mój telefon zadzwonił dwa razy, kiedy pisałem egzamin."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Polskie *przez* kusi, żeby napisać *during two weeks*. Sama długość okresu (bez *the*, np. *two weeks*) to *for*. Nazwa wydarzenia to *during*. Zdanie to *while*."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "in + czas",
+          "md_pl": "Dwa znaczenia. O przyszłości: ==za== ile czasu od teraz. O tym, ile coś trwało: ==w== jakim czasie to zrobiono.",
+          "examples": [
+            {
+              "en": "The bus leaves in ten minutes.",
+              "pl": "Autobus odjeżdża za dziesięć minut."
+            },
+            {
+              "en": "She solved the puzzle in five minutes.",
+              "pl": "Rozwiązała łamigłówkę w pięć minut."
+            }
+          ]
+        },
+        {
+          "title": "within + czas",
+          "md_pl": "==W ciągu, nie później niż.== Granica, której nie wolno przekroczyć. Częste w regulaminach i formalnych tekstach.",
+          "examples": [
+            {
+              "en": "You can return the shoes within 30 days.",
+              "pl": "Możesz zwrócić buty w ciągu 30 dni."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "*in ten minutes* o przyszłości to „za dziesięć minut”, czyli po upływie (mniej więcej) dziesięciu minut. *within ten minutes* to „w ciągu dziesięciu minut”, czyli w dowolnej chwili przed upływem tego czasu."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "on time",
+          "md_pl": "==Punktualnie==, zgodnie z planem albo rozkładem. Ani za wcześnie, ani za późno.",
+          "examples": [
+            {
+              "en": "Our train arrived exactly on time.",
+              "pl": "Nasz pociąg przyjechał punktualnie co do minuty."
+            }
+          ]
+        },
+        {
+          "title": "in time",
+          "md_pl": "==Na czas, zdążyć==: wystarczająco wcześnie, żeby coś jeszcze się udało. Często *in time for* + rzeczownik albo *in time to* + V1.",
+          "examples": [
+            {
+              "en": "We got home just in time for dinner.",
+              "pl": "Dotarliśmy do domu w samą porę na obiad."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "*on time* porównuje z rozkładem (punktualnie). *in time* mówi, że zdążyłeś na coś innego (w porę)."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Miejsce: at, on, in.** Ta sama geometria co w czasie.\n\n- *at* to ==punkt== albo miejsce, gdzie coś się robi: *at the bus stop, at the door, at the airport, at work, at school, at a concert*.\n- *on* to ==powierzchnia albo linia==: *on the wall, on the table, on the second floor, on the left, on the coast*.\n- *in* to ==wnętrze== albo obszar z granicami: *in the kitchen, in a box, in Kraków, in Poland, in the photo, in the picture*.\n\nŚrodki transportu: *on the bus, on the train, on a plane* (można po nich chodzić), ale *in a car, in a taxi*."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**Polskie „na” to często nie on.** *na zdjęciu* → ==in the photo== (osoba jest w obrazku, nie leży na papierze). *na uniwersytecie* → *at university*. *na koncercie* → *at a concert*. *na lotnisku* → *at the airport*. *na wsi* → *in the country*."
+    },
+    {
+      "type": "table",
+      "headers": ["Ruch", "Obraz", "Przykład", "Po polsku"],
+      "rows": [
+        ["into", "z zewnątrz do środka", "She ran into the kitchen.", "wbiegła do kuchni"],
+        ["onto", "na powierzchnię", "The cat jumped onto the table.", "kot wskoczył na stół"],
+        [
+          "across",
+          "z jednej strony na drugą po płaskim",
+          "We walked across the bridge.",
+          "przeszliśmy przez most"
+        ],
+        [
+          "through",
+          "przez wnętrze: wejście i wyjście",
+          "The train went through a long tunnel.",
+          "pociąg przejechał przez długi tunel"
+        ],
+        ["along", "wzdłuż linii", "We cycled along the river.", "jechaliśmy rowerami wzdłuż rzeki"]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "**arrive.** *arrive in* + miasto albo kraj (*arrive in Gdańsk*), *arrive at* + budynek, stacja, lotnisko (*arrive at the hotel*). ==arrive to + miejsce to błąd==, nawet jeśli po polsku „przyjechać do”. *arrive home* jest bez przyimka. Z *to* łączą się *get to* i *go to*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Przyimki zależne.** Tu nie ma obrazu, jest para słów. Przymiotnik, czasownik albo rzeczownik ma swój przyimek i trzeba go znać razem z nim, tak jak rodzaj rzeczownika po polsku.\n\nPo przyimku stoi ==rzeczownik, zaimek albo -ing== (albo zdanie z wh-: *interested in how it works*), nigdy *to* + V1. To ważne w zadaniu 9: *I'm interested in joining the club*, nie *in to join*. *She insisted on paying*."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "be", "role": "verb" },
+        { "text": "adjective", "role": "neutral" },
+        { "text": "preposition", "role": "particle" },
+        { "text": "noun / -ing", "role": "object" }
+      ],
+      "example": {
+        "en": "Our coach is very keen on trying new training methods.",
+        "pl": "Nasz trener bardzo chętnie próbuje nowych metod treningowych."
+      }
+    },
+    {
+      "type": "table",
+      "headers": ["Przymiotnik + przyimek", "Po polsku", "Przykład", "Pułapka"],
+      "rows": [
+        [
+          "interested in",
+          "zainteresowany czymś",
+          "I'm interested in astronomy.",
+          "nie interested about"
+        ],
+        [
+          "good at",
+          "dobry w czymś",
+          "She's good at maths.",
+          "przy przedmiotach i umiejętnościach good at, nie good in"
+        ],
+        [
+          "capable of",
+          "zdolny do czegoś",
+          "He's capable of winning the race.",
+          "able to, ale capable of + -ing"
+        ],
+        [
+          "familiar with",
+          "obeznany z czymś",
+          "Are you familiar with this software?",
+          "X is familiar to me = X jest mi znane"
+        ],
+        [
+          "responsible for",
+          "odpowiedzialny za coś",
+          "Who's responsible for the budget?",
+          "nie responsible of"
+        ],
+        ["afraid of", "bać się czegoś", "My sister is afraid of spiders.", "nie afraid from"],
+        [
+          "keen on",
+          "lubiący coś, chętny do czegoś",
+          "I'm not keen on horror films.",
+          "po on rzeczownik albo -ing: keen on cooking"
+        ],
+        ["aware of", "świadomy czegoś", "Were you aware of the risks?", "nie aware about"],
+        ["proud of", "dumny z czegoś", "We're proud of our team.", "polskie z → of"],
+        ["similar to", "podobny do czegoś", "Your bag is similar to mine.", "nie similar like"]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": ["Czasownik + przyimek", "Po polsku", "Przykład", "Pułapka"],
+      "rows": [
+        ["depend on", "zależeć od", "It depends on the price.", "nie depend from ani depend of"],
+        [
+          "deal with",
+          "radzić sobie z, zajmować się",
+          "She deals with complaints.",
+          "nie deal about"
+        ],
+        [
+          "apply for",
+          "ubiegać się o",
+          "I applied for a summer job.",
+          "apply to + firma, uczelnia: apply to Oxford"
+        ],
+        [
+          "consist of",
+          "składać się z",
+          "The test consists of four parts.",
+          "nie consist from; to stan, więc bez is consisting"
+        ],
+        [
+          "accuse sb of",
+          "oskarżać kogoś o",
+          "They accused him of lying.",
+          "nie accuse for; po of rzeczownik albo -ing (accused of theft)"
+        ],
+        ["insist on", "nalegać na", "He insisted on paying.", "po on -ing, nie to + V1"],
+        [
+          "succeed in",
+          "odnieść sukces w, zdołać",
+          "She succeeded in finding a flat.",
+          "nie succeed to do"
+        ],
+        ["rely on", "polegać na", "You can rely on me.", "też rely upon, bardziej formalnie"],
+        [
+          "complain to / about",
+          "skarżyć się komuś na coś",
+          "We complained to the manager about the noise.",
+          "to + osoba, about + powód"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": ["Rzeczownik + przyimek", "Po polsku", "Przykład", "Pułapka"],
+      "rows": [
+        [
+          "reason for",
+          "powód czegoś",
+          "What's the reason for the delay?",
+          "polski dopełniacz kusi do reason of"
+        ],
+        [
+          "solution to",
+          "rozwiązanie czegoś",
+          "We need a solution to this problem.",
+          "przy problemie: to, nie of"
+        ],
+        [
+          "increase in",
+          "wzrost czegoś",
+          "an increase in prices",
+          "increase of + liczba: an increase of 10%"
+        ],
+        [
+          "cause of",
+          "przyczyna czegoś",
+          "the cause of the fire",
+          "tu akurat of jak polski dopełniacz"
+        ],
+        [
+          "demand for",
+          "popyt na, zapotrzebowanie na",
+          "the demand for electric cars",
+          "nie demand on w tym znaczeniu"
+        ],
+        [
+          "advantage of",
+          "zaleta czegoś",
+          "the advantage of living in a city",
+          "take advantage of = wykorzystać"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Czasowniki bez przyimka.** Po polsku mają przyimek, po angielsku dopełnienie stoi ==od razu po czasowniku==. Tu błąd polega na dopisaniu przyimka.\n\n- *discuss* sth: dyskutować ==o== czymś → *discuss the plan*, nie *discuss about*,\n- *mention* sth: wspomnieć ==o== czymś → *mention the problem*,\n- *enter* a place: wejść ==do== → *enter the room*,\n- *reach* a place: dotrzeć ==do== → *reach the summit*,\n- *marry* sb: ożenić się ==z==, wyjść za → *marry Tom* albo *get married to Tom*, nie *married with*,\n- *approach* sth: zbliżać się ==do== → *approach the border*,\n- *attend* sth: uczęszczać ==na==, być obecnym ==na== → *attend a meeting*. *attend to* znaczy co innego: zająć się czymś."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "We discussed the trip for an hour but didn't decide anything.",
+          "pl": "Dyskutowaliśmy o wycieczce przez godzinę, ale nic nie ustaliliśmy."
+        },
+        {
+          "en": "Nobody mentioned the test, so I thought it had been cancelled.",
+          "pl": "Nikt nie wspomniał o sprawdzianie, więc myślałem, że go odwołano."
+        },
+        {
+          "en": "My cousin married a girl from Portugal last year.",
+          "pl": "Mój kuzyn ożenił się w zeszłym roku z dziewczyną z Portugalii."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": ["Wyrażenie", "Znaczenie", "Przykład"],
+      "rows": [
+        ["in charge of", "odpowiedzialny za, kierujący czymś", "Who is in charge of the project?"],
+        ["on behalf of / on sb's behalf", "w czyimś imieniu", "I'm writing on behalf of my class."],
+        ["by mistake", "przez pomyłkę", "I took your umbrella by mistake."],
+        ["by accident", "przypadkiem", "We met by accident at the station."],
+        ["on purpose", "celowo, specjalnie", "He didn't do it on purpose."],
+        ["at risk (of)", "zagrożony (czymś)", "These animals are at risk of extinction."],
+        ["out of order", "zepsuty, nieczynny", "The ticket machine is out of order."],
+        ["in advance", "z wyprzedzeniem, wcześniej", "Book your tickets in advance."],
+        ["under pressure", "pod presją", "Students work under a lot of pressure in May."]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "**Na maturze.** W zadaniu 7 przyimek zależny był luką 3 razy w latach 2023-2026 (*capable of*, *familiar with*, *refer to X as Y*), a dystraktory to ==przymiotniki o podobnym znaczeniu, ale z innym przyimkiem==. Rozstrzyga słowo po luce: luką jest tam sam przymiotnik, a przyimek po luce mówi, który przymiotnik do niego pasuje. W zadaniu 9 przyimek zależny wracał w kilku pozycjach (np. *involved in, informed of, talk about, deal with, accuse of*), do tego odwrotna pułapka: *mention* i *enter* bez przyimka. Były też *out of order* i *book in advance*."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "**Jak się uczyć.** Zapisuj w fiszkach całą parę z przykładem, nie samo słowo: nie *aware*, tylko ==aware of the risks==. Przyimek zapamiętany osobno szybko wypada z głowy, a w parze brzmi potem „dziwnie” w złej wersji i to jest twój sygnał w zadaniu."
+    }
+  ]
+}

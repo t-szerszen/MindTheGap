@@ -1,6 +1,7 @@
 import { Card, Sticky } from '../../components/Paper'
 import { FormulaParts } from '../../components/Formula'
 import { Markdown } from '../../components/Markdown'
+import { Timeline } from '../../components/Timeline'
 import type { Block } from '../../content/schema'
 import { pl } from '../../i18n/pl'
 import { ExampleLine } from '../tenses/ExampleLine'
@@ -71,6 +72,36 @@ export function BlockView({ block }: { block: Block }) {
           </p>
           {block.example && <ExampleLine ex={block.example} />}
         </Card>
+      )
+    case 'timeline':
+      return (
+        <figure className="block tl-block">
+          <Timeline now={block.now} marks={block.marks} />
+          {block.caption_pl && <figcaption className="note ink">{block.caption_pl}</figcaption>}
+        </figure>
+      )
+    case 'comparison':
+      return (
+        <section className="block cmp">
+          <div className={`cmp-cols n${block.columns.length}`}>
+            {block.columns.map((c, i) => (
+              <div key={i} className="cmp-col">
+                <h3 className="h-s cmp-title">{c.title}</h3>
+                <Markdown src={c.md_pl} />
+                {c.examples && (
+                  <ul className="stack" style={{ gap: 6, marginTop: 6 }}>
+                    {c.examples.map((ex, j) => (
+                      <li key={j}>
+                        <ExampleLine ex={ex} />
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            ))}
+          </div>
+          {block.takeaway_pl && <Markdown src={block.takeaway_pl} className="cmp-take" />}
+        </section>
       )
     case 'steps':
       return (
