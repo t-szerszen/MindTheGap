@@ -305,6 +305,163 @@ export const exerciseSchema = z.discriminatedUnion('type', [
 ])
 export const exerciseFileSchema = z.array(exerciseSchema).min(1)
 
+// obszary tematyczne z podstawy programowej (I.1-I.14), do filtrowania tematów wypracowań i tekstów
+export const themeSchema = z.enum([
+  'person',
+  'home',
+  'education',
+  'work',
+  'private-life',
+  'food',
+  'shopping',
+  'travel',
+  'culture',
+  'sport',
+  'health',
+  'science',
+  'nature',
+  'society',
+])
+
+export const writingFormSchema = z.enum(['essay', 'article', 'formal-letter'])
+export const criterionSchema = z.enum(['task', 'coherence', 'range', 'accuracy'])
+
+// wypracowanie: temat jak w arkuszu (po polsku, dwa elementy) i opcjonalne wzory z komentarzem
+export const writingTaskSchema = z
+  .strictObject({
+    id,
+    type: z.literal('writing-task'),
+    form: writingFormSchema,
+    theme: themeSchema,
+    prompt_pl: txt,
+    elements_pl: z.tuple([txt, txt]),
+    planHint_pl: txt,
+    models: z.array(
+      z.strictObject({
+        kind: z.enum(['model', 'weaker', 'stronger']),
+        title: txt.optional(),
+        paragraphs: z.array(txt).min(3),
+        annotations: z.array(
+          z.strictObject({ quote: txt, criterion: criterionSchema, note_pl: txt }),
+        ),
+        comment_pl: txt,
+      }),
+    ),
+    tags: z.array(id).optional(),
+  })
+  .superRefine((w, ctx) => {
+    w.models.forEach((m, i) => {
+      const all = [m.title ?? '', ...m.paragraphs].join('\n')
+      for (const a of m.annotations)
+        if (!all.includes(a.quote))
+          ctx.addIssue({
+            code: 'custom',
+            message: `wzór ${i + 1}: cytatu „${a.quote}” nie ma w tekście`,
+          })
+    })
+  })
+
+// samoocena po oddaniu wypracowania: pytania pogrupowane po kryteriach CKE
+export const checklistSchema = z.array(
+  z.strictObject({
+    criterion: criterionSchema,
+    max: z.number().int().positive(),
+    items: z
+      .array(z.strictObject({ text_pl: txt, forms: z.array(writingFormSchema).optional() }))
+      .min(1),
+  }),
+)
+
+const letter = z.enum(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'])
+const why = txt
+// zadania do jednego tekstu (czytanie): formaty z arkuszy, każda odpowiedź z wyjaśnieniem
+const readingTaskSchema = z.discriminatedUnion('kind', [
+  z.strictObject({
+    kind: z.literal('mc'),
+    items: z
+      .array(
+        z.strictObject({
+          question: txt,
+          options: z.array(txt).min(3).max(4),
+          answer: z.number().int().min(0).max(3),
+          why_pl: why,
+          distractors_pl: z.array(txt).optional(),
+        }),
+      )
+      .min(1),
+  }),
+  z.strictObject({
+    kind: z.literal('paragraph-match'),
+    items: z.array(z.strictObject({ statement: txt, answer: letter, why_pl: why })).min(1),
+  }),
+  z.strictObject({
+    kind: z.literal('sentence-insert'),
+    sentences: z.array(z.strictObject({ key: letter, text: txt })).min(2),
+    answers: z.array(z.strictObject({ answer: letter, why_pl: why })).min(1),
+  }),
+  z.strictObject({
+    kind: z.literal('true-false'),
+    items: z.array(z.strictObject({ statement: txt, answer: z.boolean(), why_pl: why })).min(1),
+  }),
+  z.strictObject({
+    kind: z.literal('match'),
+    options: z.array(z.strictObject({ key: letter, text: txt })).min(2),
+    items: z.array(z.strictObject({ prompt: txt, answer: letter, why_pl: why })).min(1),
+  }),
+  // mediacja: luka po angielsku na podstawie tekstu, z limitem wyrazów
+  z.strictObject({
+    kind: z.literal('gap'),
+    maxWords: z.number().int().min(1).max(8),
+    items: z
+      .array(
+        z.strictObject({
+          sentence: txt,
+          correct: z.array(txt).min(1),
+          accepted: z.array(txt).optional(),
+          why_pl: why,
+        }),
+      )
+      .min(1),
+  }),
+])
+
+export const readingSetSchema = z
+  .strictObject({
+    id,
+    type: z.literal('reading-set'),
+    title: txt,
+    genre: z.enum(['article', 'blog', 'advert', 'interview', 'review', 'email', 'story', 'report']),
+    theme: themeSchema,
+    // akapity z literami (A, B…) przy zadaniu „In which paragraph…”; luki ___ przy wstawianiu zdań
+    paragraphs: z.array(z.strictObject({ key: letter.optional(), text: txt })).min(2),
+    tasks: z.array(readingTaskSchema).min(1),
+    tags: z.array(id).optional(),
+  })
+  .superRefine((r, ctx) => {
+    const blanks = r.paragraphs.reduce((n, p) => n + countBlanks(p.text), 0)
+    const inserts = r.tasks.find((t) => t.kind === 'sentence-insert')
+    if (blanks !== (inserts?.answers.length ?? 0))
+      ctx.addIssue({
+        code: 'custom',
+        message: 'liczba luk ___ w tekście musi równać się odpowiedziom sentence-insert',
+      })
+    if (inserts && inserts.sentences.length <= inserts.answers.length)
+      ctx.addIssue({ code: 'custom', message: 'przy wstawianiu zdań jedno zdanie ma zostać' })
+    const keys = r.paragraphs.map((p) => p.key).filter(Boolean)
+    for (const t of r.tasks)
+      if (t.kind === 'paragraph-match')
+        for (const it of t.items)
+          if (!keys.includes(it.answer))
+            ctx.addIssue({ code: 'custom', message: `akapit ${it.answer} nie istnieje` })
+  })
+
+// próbny zestaw środków językowych: zadania jak 7, 8 i 9 w arkuszu
+export const mockSetSchema = z.strictObject({
+  id,
+  title_pl: txt,
+  exercises: z.array(id).min(3),
+})
+
 export type Role = z.infer<typeof roleSchema>
 export type FormulaPart = z.infer<typeof formulaPartSchema>
 export type Ex = z.infer<typeof exSchema>
@@ -321,4 +478,13 @@ export type ChoiceExercise = z.infer<typeof choiceSchema>
 export type WordFormationExercise = z.infer<typeof wordFormationSchema>
 export type KeyWordExercise = z.infer<typeof keyWordSchema>
 export type ExStep = z.infer<typeof exStep>
+export type Theme = z.infer<typeof themeSchema>
+export type WritingForm = z.infer<typeof writingFormSchema>
+export type Criterion = z.infer<typeof criterionSchema>
+export type WritingTask = z.infer<typeof writingTaskSchema>
+export type WritingModel = WritingTask['models'][number]
+export type Checklist = z.infer<typeof checklistSchema>
+export type ReadingSet = z.infer<typeof readingSetSchema>
+export type ReadingTask = ReadingSet['tasks'][number]
+export type MockSet = z.infer<typeof mockSetSchema>
 export type Exercise = z.infer<typeof exerciseSchema>

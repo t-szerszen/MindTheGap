@@ -1,14 +1,22 @@
 import { use } from 'react'
 import { z } from 'zod'
 import {
+  checklistSchema,
   exerciseFileSchema,
+  mockSetSchema,
   phraseSetSchema,
+  readingSetSchema,
   tenseSchema,
   topicSchema,
+  writingTaskSchema,
+  type Checklist,
   type Exercise,
+  type MockSet,
   type PhraseSet,
+  type ReadingSet,
   type Tense,
   type Topic,
+  type WritingTask,
 } from '../../content/schema'
 
 // jedyne miejsce, które dotyka plików z treścią; komponenty biorą dane stąd.
@@ -57,6 +65,8 @@ export function getTense(id: string) {
 
 const byTitle = <T extends { title_pl: string }>(list: T[]) =>
   list.sort((a, b) => a.title_pl.localeCompare(b.title_pl, 'pl'))
+const byEnglishTitle = (list: ReadingSet[]) =>
+  list.sort((a, b) => a.title.localeCompare(b.title, 'en'))
 
 export const topicStore = lazy<Topic, Topic>(
   import.meta.glob('../../content/topics/*.json', { import: 'default' }),
@@ -76,7 +86,35 @@ export const exerciseStore = lazy<Exercise, Exercise[]>(
   (files) => files.flat(),
 )
 
+export const writingStore = lazy<WritingTask, WritingTask[]>(
+  import.meta.glob('../../content/writing/tasks/*.json', { import: 'default' }),
+  z.array(writingTaskSchema),
+  (files) => files.flat(),
+)
+
+export const checklistStore = lazy<Checklist, Checklist>(
+  import.meta.glob('../../content/writing/checklist.json', { import: 'default' }),
+  checklistSchema,
+  (files) => files,
+)
+
+export const readingStore = lazy<ReadingSet, ReadingSet>(
+  import.meta.glob('../../content/reading/*.json', { import: 'default' }),
+  readingSetSchema,
+  byEnglishTitle,
+)
+
+export const mockStore = lazy<MockSet, MockSet[]>(
+  import.meta.glob('../../content/mocks/*.json', { import: 'default' }),
+  z.array(mockSetSchema),
+  (files) => files.flat(),
+)
+
 // hooki zawieszają komponent do pierwszego załadowania (Suspense w Shell pokazuje „ładuję”)
 export const useTopics = () => use(topicStore.load())
 export const usePhraseSets = () => use(phraseSetStore.load())
 export const useExercises = () => use(exerciseStore.load())
+export const useWritingTasks = () => use(writingStore.load())
+export const useChecklist = () => use(checklistStore.load())[0] ?? []
+export const useReadingSets = () => use(readingStore.load())
+export const useMocks = () => use(mockStore.load())

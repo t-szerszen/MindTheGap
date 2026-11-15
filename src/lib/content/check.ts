@@ -1,12 +1,24 @@
-import type { Exercise, PhraseSet, Tense, Topic } from '../../content/schema'
+import type {
+  Exercise,
+  MockSet,
+  PhraseSet,
+  ReadingSet,
+  Tense,
+  Topic,
+  WritingTask,
+} from '../../content/schema'
 import { normalizeBasic } from '../answers'
 import { countWords } from '../answers/words'
+import { points } from '../exercises/check'
 
 export type ContentSet = {
   tenses: Tense[]
   topics: Topic[]
   phraseSets: PhraseSet[]
   exercises: Exercise[]
+  writing?: WritingTask[]
+  reading?: ReadingSet[]
+  mocks?: MockSet[]
 }
 
 function dupes(ids: string[]) {
@@ -95,6 +107,38 @@ export function checkContent(c: ContentSet): string[] {
         if (g.correct.some((a) => normalizeBasic(a) === normalizeBasic(g.base)))
           errors.push(`${e.id}#${i + 1}: odpowiedź to sam wyraz bazowy ${g.base}`)
       })
+  }
+  const writing = c.writing ?? []
+  const reading = c.reading ?? []
+  const mocks = c.mocks ?? []
+  const allIds = [
+    ...c.exercises.map((e) => e.id),
+    ...writing.map((w) => w.id),
+    ...reading.map((r) => r.id),
+    ...mocks.map((m) => m.id),
+  ]
+  for (const id of dupes(allIds)) errors.push(`id ${id} jest użyte w dwóch miejscach`)
+  for (const x of [...writing, ...reading])
+    for (const tag of x.tags ?? [])
+      if (!tags.has(tag)) errors.push(`${x.id}: tag ${tag} nie jest ani czasem, ani tematem`)
+
+  // wzory liczę jak CKE: bez tytułu, skrót i wyraz z łącznikiem to jeden wyraz
+  for (const w of writing)
+    w.models.forEach((m, i) => {
+      const n = countWords(m.paragraphs.join(' '))
+      if (n < 200 || n > 250)
+        errors.push(`${w.id}: wzór ${i + 1} ma ${n} wyrazów, a powinien 200-250`)
+    })
+
+  // arkusz próbny ma wyglądać jak część z zadaniami 7-9: razem 14 punktów
+  const byId = new Map(c.exercises.map((e) => [e.id, e]))
+  for (const m of mocks) {
+    const list = m.exercises.map((id) => byId.get(id))
+    m.exercises.forEach((id, i) => {
+      if (!list[i]) errors.push(`${m.id}: nie ma ćwiczenia ${id}`)
+    })
+    const total = list.reduce((n, e) => n + (e ? points(e) : 0), 0)
+    if (total !== 14) errors.push(`${m.id}: ${total} pkt zamiast 14 jak w arkuszu`)
   }
   return errors
 }
