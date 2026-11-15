@@ -1,0 +1,605 @@
+[
+  {
+    "id": "svu-kasia-thinking-university",
+    "type": "gap-fill",
+    "sentence": "Don't interrupt Kasia right now — she ___ (think) about which university to apply to, and she has to decide by Friday.",
+    "correct": ["is thinking"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "right now i think about — chodzi o rozważanie, które trwa w tej chwili."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "think about = zastanawiać się. To czynność, która ma środek i się rozwija, więc -ing jest poprawne. Gdyby chodziło o opinię (she thinks that…), zostałaby forma prosta."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "is + V-ing → is thinking."
+      }
+    ],
+    "tags": ["present-continuous", "stative-used-to"],
+    "difficulty": 1,
+    "accepted": ["has been thinking"]
+  },
+  {
+    "id": "svu-dad-scooters-dangerous",
+    "type": "gap-fill",
+    "sentence": "My dad ___ (think) that electric scooters are dangerous, so he won't let me buy one.",
+    "correct": ["thinks"],
+    "steps": [
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "think that… = uważać, mieć zdanie. Opinia taty po prostu jest, nie rozwija się w trakcie."
+      },
+      {
+        "label_pl": "wniosek",
+        "text_pl": "To stan, więc bez -ing. Is thinking about… pasowałoby tylko do rozważania, a tu tata już ma wyrobione zdanie."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "he → V1 + -s → thinks."
+      }
+    ],
+    "tags": ["present-simple", "stative-used-to"],
+    "difficulty": 1
+  },
+  {
+    "id": "svu-mum-bath-ring-back",
+    "type": "gap-fill",
+    "sentence": "Mum can't come to the phone at the moment — she ___ (have) a bath, so can she ring you back in twenty minutes?",
+    "correct": ["is having"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "at the moment i to, że mama nie może podejść do telefonu."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "have a bath to nie posiadanie, tylko czynność (brać kąpiel). Ma początek i koniec, więc może być w trakcie."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "is + V-ing → is having. Przy have = mieć zostałaby forma prosta (she has a car)."
+      }
+    ],
+    "tags": ["present-continuous", "stative-used-to"],
+    "difficulty": 2
+  },
+  {
+    "id": "svu-chef-tasting-sauces",
+    "type": "gap-fill",
+    "sentence": "'Where's the chef?' 'In the kitchen — he ___ (taste) the sauces right now, so give him a minute.'",
+    "correct": ["is tasting"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "right now i give him a minute — coś się dzieje teraz i zaraz się skończy."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Kucharz próbuje smaku sosów. To czynność, którą się robi, a nie to, jak coś smakuje (The sauce tastes great)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "is + V-ing → is tasting."
+      }
+    ],
+    "tags": ["present-continuous", "stative-used-to"],
+    "difficulty": 2
+  },
+  {
+    "id": "svu-fridge-smell-window",
+    "type": "gap-fill",
+    "sentence": "Open the window, will you? Something in this fridge ___ (smell) awful.",
+    "correct": ["smells"],
+    "steps": [
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Coś w lodówce brzydko pachnie. smell = mieć jakiś zapach. Nikt tu niczego nie wącha."
+      },
+      {
+        "label_pl": "wniosek",
+        "text_pl": "Zapach to stan, nie czynność, więc mimo że chodzi o tę chwilę, zostaje forma prosta."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "something → V1 + -s → smells."
+      }
+    ],
+    "tags": ["present-simple", "stative-used-to"],
+    "difficulty": 2
+  },
+  {
+    "id": "svu-kuba-nursery-brother",
+    "type": "gap-fill",
+    "sentence": "Kuba and I ___ (know) each other since nursery school, so he's more like a brother to me.",
+    "correct": ["have known"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "since nursery school — liczysz czas od przeszłości do teraz."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Przy since i czynności często wziąłbyś have been + V-ing. Ale know to stan, nie ma „w trakcie”, więc -ing odpada także w czasie perfect."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "have + V3 (know – knew – known) → have known."
+      }
+    ],
+    "tags": ["present-perfect", "stative-used-to"],
+    "difficulty": 2
+  },
+  {
+    "id": "svu-bus-stop-umbrella",
+    "type": "gap-fill",
+    "sentence": "While I was waiting for the bus, I suddenly realised that the umbrella in my hand ___ (not / belong) to me.",
+    "correct": ["did not belong"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "While I was waiting — tło w Past Continuous. Kusi, żeby zostać przy -ing."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "belong to = należeć do kogoś. To posiadanie, czyli stan. Nie ma etapów, więc nie stoi w Continuous nawet obok while."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Past Simple w przeczeniu: did + not + V1 → did not belong (didn't belong)."
+      }
+    ],
+    "tags": ["past-simple", "stative-used-to"],
+    "difficulty": 2,
+    "accepted": ["does not belong"]
+  },
+  {
+    "id": "svu-deadline-see-mean",
+    "type": "choice",
+    "text": "I ___ what you mean, but I still think the deadline for the project is unrealistic.",
+    "gaps": [
+      {
+        "options": ["see", "am seeing", "was seeing", "have been seeing"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "see what you mean = rozumiem, o co ci chodzi. To zrozumienie, czyli stan."
+          },
+          {
+            "label_pl": "odrzuć",
+            "text_pl": "am seeing i have been seeing pasują do see = spotykać się z kimś. was seeing nie zgadza się też z czasem: rozmowa toczy się teraz (I still think)."
+          },
+          {
+            "label_pl": "odpowiedź",
+            "text_pl": "Stan teraz → forma prosta: see."
+          }
+        ]
+      }
+    ],
+    "tags": ["present-simple", "stative-used-to"],
+    "difficulty": 1
+  },
+  {
+    "id": "svu-grandparents-farm-zamosc",
+    "type": "choice",
+    "text": "When my grandparents were young, they ___ a small farm near Zamość, but they sold it in the 1990s.",
+    "gaps": [
+      {
+        "options": ["would have", "used to have", "were used to having", "use to have"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "have a farm = mieć gospodarstwo. To posiadanie, czyli stan w przeszłości, który się skończył (they sold it)."
+          },
+          {
+            "label_pl": "odrzuć",
+            "text_pl": "would + V1 pasuje tylko do powtarzanych czynności, nie do stanów. were used to having znaczy „byli przyzwyczajeni do posiadania”, a nie o to chodzi. use to bez did nie istnieje."
+          },
+          {
+            "label_pl": "odpowiedź",
+            "text_pl": "Dawny stan, dziś już nie → used to have."
+          }
+        ]
+      }
+    ],
+    "tags": ["stative-used-to"],
+    "difficulty": 2
+  },
+  {
+    "id": "svu-night-shifts-sleeping-day",
+    "type": "choice",
+    "text": "I found the night shifts exhausting at first, but after a few months I ___ sleeping during the day.",
+    "gaps": [
+      {
+        "options": ["used to", "got used to", "would", "use to"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "at first… but after a few months — było trudno, a potem z czasem przestało."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "To proces oswajania się, czyli get used to. W przeszłości: got used to."
+          },
+          {
+            "label_pl": "odrzuć",
+            "text_pl": "Po luce stoi sleeping. Po used to (dawny zwyczaj) i po would musiałoby być V1 (sleep), a use to bez did nie istnieje."
+          }
+        ]
+      }
+    ],
+    "tags": ["stative-used-to"],
+    "difficulty": 2
+  },
+  {
+    "id": "svu-cousin-sandcastles-leba",
+    "type": "choice",
+    "text": "As children, my cousin and I ___ build enormous sandcastles on the beach in Łeba every summer.",
+    "gaps": [
+      {
+        "options": ["would", "were used to", "got used to", "are used to"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "As children i every summer — dawny, powtarzany zwyczaj."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Po luce stoi V1 (build). Po be used to i get used to musiałoby być -ing (building)."
+          },
+          {
+            "label_pl": "odpowiedź",
+            "text_pl": "Budowanie zamków to czynność, a tło przeszłości daje As children, więc would + V1 pasuje: would build."
+          }
+        ]
+      }
+    ],
+    "tags": ["stative-used-to"],
+    "difficulty": 2
+  },
+  {
+    "id": "svu-no-car-cycling-winter",
+    "type": "choice",
+    "text": "Living without a car was tough for us at first, but now we ___ cycling everywhere, even in winter.",
+    "gaps": [
+      {
+        "options": ["used to", "are used to", "use to", "would"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "at first… but now — na początku było trudno, a teraz to normalne."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Coś jest dla was już normalne → be used to. now wymaga teraźniejszego be: are used to."
+          },
+          {
+            "label_pl": "odrzuć",
+            "text_pl": "Po luce stoi cycling. used to i would biorą V1, a use to bez did nie ma."
+          }
+        ]
+      }
+    ],
+    "tags": ["stative-used-to"],
+    "difficulty": 1
+  },
+  {
+    "id": "svu-walk-primary-school-parents",
+    "type": "choice",
+    "text": "___ you use to walk to primary school, or did your parents drive you there?",
+    "gaps": [
+      {
+        "options": ["Did", "Were", "Would", "Are"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "forma",
+            "text_pl": "Po luce jest use to + V1 (bez -d). Tak wygląda pytanie o dawny zwyczaj: Did + podmiot + use to + V1."
+          },
+          {
+            "label_pl": "odrzuć",
+            "text_pl": "Were albo Are dawałyby be used to, ale wtedy byłoby used to walking. Would you use to nie istnieje."
+          },
+          {
+            "label_pl": "odpowiedź",
+            "text_pl": "Did you use to walk…?"
+          }
+        ]
+      }
+    ],
+    "tags": ["stative-used-to"],
+    "difficulty": 1
+  },
+  {
+    "id": "svu-kwt-railway-noise",
+    "type": "key-word-transformation",
+    "source": "The noise of the trains doesn't bother Ania because she's lived next to the railway for years.",
+    "keyWord": "USED",
+    "target": "Ania ___ of the trains.",
+    "maxWords": 5,
+    "correct": ["is used to the noise"],
+    "steps": [
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Hałas jej nie przeszkadza, bo mieszka tam od lat — to już dla niej normalne. To be used to."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po to stoi rzeczownik: the noise (of the trains). Czas teraźniejszy, bo chodzi o dziś: is used to."
+      },
+      {
+        "label_pl": "limit",
+        "text_pl": "is used to the noise to 5 wyrazów. has got used to the noise ma 6, więc się nie mieści."
+      }
+    ],
+    "tags": ["stative-used-to"],
+    "difficulty": 2
+  },
+  {
+    "id": "svu-kwt-brother-nails",
+    "type": "key-word-transformation",
+    "source": "My brother doesn't bite his nails any more.",
+    "keyWord": "USED",
+    "target": "My brother ___ his nails.",
+    "maxWords": 5,
+    "correct": ["used to bite"],
+    "steps": [
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "doesn't … any more = kiedyś tak robił, a teraz już nie."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Dawny zwyczaj, który się skończył → used to + V1: used to bite."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie is used to biting — to znaczyłoby, że obgryzanie paznokci jest dla niego normalne, czyli coś odwrotnego."
+      }
+    ],
+    "tags": ["stative-used-to"],
+    "difficulty": 1
+  },
+  {
+    "id": "svu-kwt-grandmother-story",
+    "type": "key-word-transformation",
+    "source": "When I was little, my grandmother read me a story every night.",
+    "keyWord": "WOULD",
+    "target": "When I was little, my grandmother ___ a story every night.",
+    "maxWords": 5,
+    "correct": ["would read me"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "When I was little i every night — powtarzany zwyczaj z przeszłości, a tło jest już ustawione."
+      },
+      {
+        "label_pl": "test",
+        "text_pl": "read to czynność, nie stan, więc would + V1 pasuje. Przy have albo live by nie przeszło."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "would + V1 + me (komu): would read me. a story jest już w zdaniu."
+      }
+    ],
+    "tags": ["stative-used-to"],
+    "difficulty": 2
+  },
+  {
+    "id": "svu-kwt-driving-left-while",
+    "type": "key-word-transformation",
+    "source": "Driving on the left felt strange to me for quite a while.",
+    "keyWord": "USED",
+    "target": "It took me quite a while to ___ on the left.",
+    "maxWords": 5,
+    "correct": ["get used to driving"],
+    "accepted": ["become used to driving", "grow used to driving"],
+    "steps": [
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Było dziwnie przez dłuższy czas, aż przestało. To proces oswajania → get used to."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po to (it took me a while to) stoi V1, więc get. Potem used to + -ing: get used to driving."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie get used to drive. to w get used to to przyimek, po nim zawsze rzeczownik albo -ing."
+      }
+    ],
+    "tags": ["stative-used-to"],
+    "difficulty": 3
+  },
+  {
+    "id": "svu-kwt-long-hair-school",
+    "type": "key-word-transformation",
+    "source": "Did you have long hair when you were at school?",
+    "keyWord": "USE",
+    "target": "___ long hair when you were at school?",
+    "maxWords": 5,
+    "correct": ["Did you use to have"],
+    "steps": [
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Pytanie o dawny stan (mieć długie włosy w szkole). Do stanu z przeszłości pasuje used to, ale nie would."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "W pytaniu czas przeszły niesie did, więc zostaje use bez -d: Did + you + use to + V1."
+      },
+      {
+        "label_pl": "odpowiedź",
+        "text_pl": "Did you use to have — dokładnie 5 wyrazów."
+      }
+    ],
+    "tags": ["stative-used-to"],
+    "difficulty": 2
+  },
+  {
+    "id": "svu-zosia-edinburgh-accent",
+    "type": "gap-fill",
+    "sentence": "After three months in Edinburgh, Zosia ___ (finally / get / use) the local accent.",
+    "correct": ["has finally got used to", "finally got used to"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Akcent był trudny, a po trzech miesiącach przestał. To proces oswajania się → get used to."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po to stoi rzeczownik (the local accent), więc nic więcej nie dodajesz. get odmieniasz: got."
+      },
+      {
+        "label_pl": "czas",
+        "text_pl": "Jeśli Zosia jest tam nadal, pasuje has finally got used to (skutek teraz). Jeśli opowiadasz o zamkniętym okresie, finally got used to. Oba są poprawne."
+      }
+    ],
+    "tags": ["stative-used-to"],
+    "difficulty": 2,
+    "accepted": ["has finally gotten used to"]
+  },
+  {
+    "id": "svu-krakow-no-car-cycled",
+    "type": "gap-fill",
+    "sentence": "When I lived in Kraków, I ___ (not / use / have) a car — I cycled everywhere.",
+    "correct": ["did not use to have"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Dawny stan: wtedy nie miałeś samochodu. have = mieć, więc would odpada."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Przeczenie z used to: did + not + use to + V1. Po did bez -d: did not use to have (didn't use to have)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie did not used to. Przeszłość jest już w did, tak jak w didn't go."
+      }
+    ],
+    "tags": ["stative-used-to"],
+    "difficulty": 2
+  },
+  {
+    "id": "svu-sister-light-off",
+    "type": "gap-fill",
+    "sentence": "My little sister ___ (not / use / sleep) with the light off, so we leave it on in her room.",
+    "correct": ["is not used to sleeping"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "so we leave it on — teraz, bo dla niej spanie po ciemku nie jest normalne."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Nie jest przyzwyczajona → be used to w przeczeniu, w czasie teraźniejszym: is not used to."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "to jest przyimkiem, więc dalej -ing: is not used to sleeping (isn't used to sleeping)."
+      }
+    ],
+    "tags": ["stative-used-to"],
+    "difficulty": 2
+  },
+  {
+    "id": "svu-dad-tent-masurian-lakes",
+    "type": "gap-fill",
+    "sentence": "Every summer when we were kids, Dad ___ (pack) the tent into the car and drive us all to the Masurian Lakes.",
+    "correct": ["would pack", "used to pack"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Every summer when we were kids — dawny, powtarzany zwyczaj."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po and stoi drive, a nie drove. Samo packed nie pasuje, bo drive musi mieć przed sobą would albo used to, które obejmuje oba czasowniki."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "pack to czynność, więc would pack jest dobre. used to pack też, bo used to pasuje do zwyczajów."
+      }
+    ],
+    "tags": ["stative-used-to"],
+    "difficulty": 3
+  },
+  {
+    "id": "svu-maths-primary-cant-stand",
+    "type": "gap-fill",
+    "sentence": "When I was at primary school, I ___ (love) maths, but these days I can't stand it.",
+    "correct": ["loved", "used to love"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "When I was at primary school… but these days — zamknięty okres w przeszłości i kontrast z dziś."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "love to uczucie, czyli stan. Do dawnego stanu pasuje Past Simple albo used to, ale nie would."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "loved albo used to love. used to mocniej podkreśla, że to się skończyło."
+      }
+    ],
+    "tags": ["stative-used-to", "past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "svu-cinema-corner-car-park",
+    "type": "gap-fill",
+    "sentence": "There ___ (be) a cinema on this corner when my parents were teenagers, but now it's a car park.",
+    "correct": ["was", "used to be"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "when my parents were teenagers… but now — dawny stan, który się zmienił."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Kino stało w tym miejscu, czyli stan, nie powtarzana czynność. would be odpada."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Past Simple: was. Albo used to + V1: used to be."
+      }
+    ],
+    "tags": ["stative-used-to", "past-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "svu-spicy-food-chef-milder",
+    "type": "gap-fill",
+    "sentence": "I ___ (not / use) such spicy food, so could you ask the chef to make mine a bit milder?",
+    "correct": ["am not used to"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Ostre jedzenie nie jest dla ciebie normalne, dlatego prosisz o łagodniejsze. To be used to w przeczeniu."
+      },
+      {
+        "label_pl": "czas",
+        "text_pl": "Mówisz o sobie teraz (could you ask…), więc am not used to (I'm not used to)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po to stoi rzeczownik (such spicy food), więc nie dodajesz już -ing."
+      }
+    ],
+    "tags": ["stative-used-to"],
+    "difficulty": 1
+  }
+]

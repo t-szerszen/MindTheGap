@@ -1,0 +1,400 @@
+{
+  "id": "stative-used-to",
+  "category": "tenses",
+  "title_pl": "Czasowniki stanu i used to",
+  "summary_pl": "Dlaczego know nie bierze -ing, kiedy think i have jednak biorą, i jak nie pomylić used to, would, be used to i get used to.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "Ta strona zbiera dwie rzeczy, które przewijają się przez wszystkie czasy. Pierwsza to **czasowniki stanu**: przez nie Continuous czasem po prostu nie wchodzi w grę. Druga to rodzina **used to**: trzy podobne konstrukcje o zupełnie różnym znaczeniu."
+    },
+    {
+      "type": "text",
+      "md_pl": "## Stan a czynność\n\nKażdy Continuous (*am doing, was doing, have been doing, will be doing*) pokazuje coś **w środku**: czynność już się zaczęła, jeszcze się nie skończyła i trwa przez jakiś czas. *I'm reading* — teraz jestem w połowie, za chwilę skończę.\n\nStan tak nie działa. *I know the answer* nie ma początku, środka i końca, które dałoby się złapać w kadrze. Albo wiesz, albo nie. Nic się nie rozwija, więc nie ma czego pokazać w trakcie i **-ing zwykle odpada**: *I know*, nie *I'm knowing*.\n\nTo działa w każdym czasie, nie tylko w Present Simple:\n- teraz: *I understand now*, nie *I'm understanding now*;\n- przeszłość: *While we were talking, I realised she didn't believe me*;\n- od przeszłości do teraz: *We've known each other for years*, nie *We've been knowing*;\n- przyszłość: *This time tomorrow I'll know my results*, nie *I'll be knowing*."
+    },
+    {
+      "type": "table",
+      "headers": ["Grupa", "Czasowniki", "Przykład"],
+      "rows": [
+        [
+          "myślenie i wiedza",
+          "know, believe, understand, realise, remember, mean, suppose, doubt, recognise",
+          "I don't remember his name."
+        ],
+        [
+          "uczucia i chęci",
+          "like, love, hate, prefer, want, need, wish, mind, care",
+          "She prefers tea to coffee."
+        ],
+        [
+          "posiadanie",
+          "have (= mieć), own, belong, possess, include, contain",
+          "This bag belongs to Ola."
+        ],
+        [
+          "zmysły",
+          "see, hear, smell, taste, feel (gdy coś do ciebie dociera albo coś jakoś pachnie, smakuje)",
+          "I hear a strange noise."
+        ],
+        [
+          "bycie i wygląd",
+          "be, seem, appear, look (= wyglądać), resemble, weigh, cost, consist of, depend on",
+          "It depends on the weather."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Nie ucz się listy na pamięć. Zadaj pytanie: **czy to może trwać w połowie i się rozwijać?** *I'm cooking* — tak, gotowanie ma etapy. *I'm owning a flat* — nie, posiadanie się nie rozwija. Przy zmysłach w tej chwili Brytyjczycy często dodają **can**: *I can hear music next door*, *I can smell smoke*."
+    },
+    {
+      "type": "text",
+      "md_pl": "## Czasowniki z dwoma znaczeniami\n\nNiektóre czasowniki mają drugie znaczenie, które jest już czynnością. Wtedy -ing jest poprawne, bo zmienia się sens, a nie tylko forma. Zawsze pytasz: **w tym zdaniu to stan czy coś, co się robi?**"
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "think = uważać (stan)",
+          "md_pl": "Masz zdanie na jakiś temat. Opinia po prostu jest, nie rozwija się.",
+          "examples": [
+            {
+              "en": "I think the second book is better than the first.",
+              "pl": "Uważam, że druga książka jest lepsza od pierwszej."
+            }
+          ]
+        },
+        {
+          "title": "think = zastanawiać się (czynność)",
+          "md_pl": "Rozważasz coś, w głowie trwa proces. Zwykle z **about** albo **of**.",
+          "examples": [
+            {
+              "en": "I'm thinking of joining the school choir.",
+              "pl": "Zastanawiam się, czy nie zapisać się do szkolnego chóru."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "*I think that…* to opinia, więc Simple. *I'm thinking about…* to rozważanie, więc Continuous jest w porządku."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "have = mieć (stan)",
+          "md_pl": "Posiadanie, rodzina, cechy, choroba: *have a car, have two sisters, have blue eyes, have a cold*.",
+          "examples": [
+            {
+              "en": "My cousin has a flat right in the centre of Wrocław.",
+              "pl": "Mój kuzyn ma mieszkanie w samym centrum Wrocławia."
+            }
+          ]
+        },
+        {
+          "title": "have = robić coś (czynność)",
+          "md_pl": "Jedzenie, picie, branie, przeżywanie: *have lunch, have a shower, have a party, have a good time, have a lesson*.",
+          "examples": [
+            {
+              "en": "We're having a barbecue in the garden — come over!",
+              "pl": "Robimy grilla w ogrodzie — wpadnij!"
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "*Are you having a car?* to błąd, ale *Are you having fun?* jest całkiem naturalne. Rozstrzyga rzeczownik po have."
+    },
+    {
+      "type": "table",
+      "headers": ["Czasownik", "Stan: forma prosta", "Czynność: -ing jest OK"],
+      "rows": [
+        [
+          "see",
+          "widzieć, rozumieć: I see what you mean.",
+          "spotykać się, iść do lekarza: I'm seeing the dentist on Monday."
+        ],
+        [
+          "taste",
+          "smakować (jakoś): This soup tastes too salty.",
+          "próbować smaku: He's tasting the soup to check the salt."
+        ],
+        [
+          "smell",
+          "pachnieć, czuć zapach: The kitchen smells of fresh bread.",
+          "wąchać: Why are you smelling the milk?"
+        ],
+        [
+          "feel",
+          "uważać: I feel we should wait a bit longer.",
+          "dotykać: She was feeling the fabric to see if it was wool."
+        ],
+        [
+          "look",
+          "wyglądać (jakoś): You look tired.",
+          "patrzeć, szukać: I'm looking at the photos from the trip."
+        ],
+        [
+          "be",
+          "jaki ktoś jest: He's rude (taki po prostu jest).",
+          "tak się teraz zachowuje: He's being rude (dziś, w tej chwili)."
+        ],
+        [
+          "appear",
+          "wydawać się: She appears to be lost.",
+          "występować: He's appearing in a new musical in London."
+        ],
+        [
+          "weigh",
+          "ważyć (ile): My rucksack weighs twelve kilos.",
+          "ważyć coś (na wadze): The nurse is weighing the baby."
+        ],
+        [
+          "expect",
+          "spodziewać się, że tak będzie: I expect it'll rain later.",
+          "czekać na coś, być w ciąży: I'm expecting a parcel. She's expecting a baby."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "Dwa przypadki, gdzie obie formy są dobre. **feel** o samopoczuciu: *I feel tired* i *I'm feeling tired* znaczą prawie to samo. **look** o wyglądzie w danym okresie: *You look well* i *You're looking well* też. Tu nie ma błędu, tylko odcień: Continuous podkreśla, że to chwilowe."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "W mowie potocznej i w reklamach usłyszysz *I'm loving it*, *I'm liking this new song*, *I've been wanting a new phone for ages*. To celowe naginanie zasady, żeby zabrzmiało emocjonalnie i „na teraz”. W luce na teście i w wypracowaniu bezpieczniej zostać przy formie prostej: *I love it*, *I really like this song*."
+    },
+    {
+      "type": "text",
+      "md_pl": "## used to: kiedyś tak było, teraz już nie\n\n**used to + V1** opisuje dawny zwyczaj albo dawny stan, który się skończył. Zdanie z used to zwykle sugeruje słuchaczowi: to przeszłość i dziś jest inaczej. Dlatego często stoi obok kontrastu z teraz (*but now…*, *any more*).\n\nused to ma tylko formę przeszłą. Nie ma *I use to* o teraźniejszości: zwyczaj z dziś to Present Simple z *usually*. *I usually get up at six*, nie *I use to get up at six*.\n\nWymowa: [ˈjuːstə], z „s”, nie z „z”."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "podmiot", "role": "subject" },
+        { "text": "used to", "role": "aux" },
+        { "text": "V1", "role": "verb" }
+      ],
+      "example": {
+        "en": "My dad used to play the drums in a rock band.",
+        "pl": "Mój tata kiedyś grał na perkusji w zespole rockowym."
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "podmiot", "role": "subject" },
+        { "text": "did", "role": "aux" },
+        { "text": "not", "role": "particle" },
+        { "text": "use to", "role": "aux" },
+        { "text": "V1", "role": "verb" }
+      ],
+      "example": {
+        "en": "I didn't use to like olives, but now I eat them all the time.",
+        "pl": "Kiedyś nie lubiłem oliwek, a teraz ciągle je jem."
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Did", "role": "aux" },
+        { "text": "podmiot", "role": "subject" },
+        { "text": "use to", "role": "aux" },
+        { "text": "V1", "role": "verb" },
+        { "text": "?", "role": "neutral" }
+      ],
+      "example": {
+        "en": "Did you use to have a nickname at primary school?",
+        "pl": "Miałeś jakieś przezwisko w podstawówce?"
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "Po **did** czas przeszły jest już w did, więc zostaje **use**: *didn't use to*, *Did you use to…?* Tak samo jak *didn't go*, a nie *didn't went*. Bardziej formalne przeczenie bez did to **used not to** (*I used not to mind the cold*), a **never used to** też jest dobre."
+    },
+    {
+      "type": "timeline",
+      "now": 0.85,
+      "marks": [
+        {
+          "kind": "repeat",
+          "from": 0.1,
+          "to": 0.55,
+          "label": "used to / would: kiedyś regularnie"
+        },
+        { "kind": "point", "from": 0.85, "label": "teraz już nie" }
+      ],
+      "caption_pl": "used to patrzy na zamknięty okres w przeszłości i odcina go od teraz."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "used to + V1",
+          "md_pl": "Zwyczaje **i stany**. Podkreśla, że to się skończyło. Działa w pierwszym zdaniu opowieści, bez wcześniejszego kontekstu.",
+          "examples": [
+            {
+              "en": "We used to live in Opole.",
+              "pl": "Kiedyś mieszkaliśmy w Opolu."
+            },
+            {
+              "en": "We used to go to the lake every Sunday.",
+              "pl": "Kiedyś co niedzielę jeździliśmy nad jezioro."
+            }
+          ]
+        },
+        {
+          "title": "would + V1",
+          "md_pl": "**Tylko powtarzane czynności**, nigdy stany. Zwykle pojawia się, gdy przeszłość jest już ustawiona (*When I was a kid…*), we wspomnieniach i opowieściach.",
+          "examples": [
+            {
+              "en": "When I was a kid, Grandma would bake a cake every Saturday.",
+              "pl": "Kiedy byłem mały, babcia w każdą sobotę piekła ciasto."
+            }
+          ]
+        },
+        {
+          "title": "Past Simple",
+          "md_pl": "Pasuje do wszystkiego z przeszłości. Jedyna opcja przy **pojedynczym zdarzeniu** i gdy podajesz, **ile razy w sumie** albo **jak długo** coś trwało.",
+          "examples": [
+            {
+              "en": "We lived in Opole for six years.",
+              "pl": "Mieszkaliśmy w Opolu sześć lat."
+            },
+            {
+              "en": "I went to London three times last year.",
+              "pl": "W zeszłym roku byłem w Londynie trzy razy."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Stan w przeszłości (*have, live, know, like, be*) → **used to** albo Past Simple, nigdy would. Powtarzana czynność → wszystkie trzy. Jedno zdarzenie, liczba razy w sumie, konkretna długość → tylko Past Simple."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "raz czy wiele razy?",
+          "text_pl": "Jedno zdarzenie, liczba razy w sumie (three times) albo konkretna długość (for six years) → Past Simple. Coś regularnego albo trwałego w dawnym okresie → idź dalej."
+        },
+        {
+          "step_pl": "stan czy czynność?",
+          "text_pl": "Stan (have = mieć, live, know, like, be, believe) → used to albo Past Simple. Powtarzana czynność (go, play, bake, tell) → used to, would albo Past Simple."
+        },
+        {
+          "step_pl": "kontekst",
+          "text_pl": "would potrzebuje tła: zwykle wcześniej pada When I was little, As kids albo opowieść już trwa. Bez tego would brzmi jak tryb warunkowy i lepiej wziąć used to."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "## be used to i get used to: przyzwyczajenie\n\nTo zupełnie inna konstrukcja, choć wygląda podobnie. **used** jest tu przymiotnikiem (= przyzwyczajony), a **to** to przyimek, jak w *look forward to*. Po przyimku stoi rzeczownik albo forma -ing, nigdy V1.\n\n- **be used to** = być przyzwyczajonym, coś jest dla ciebie normalne;\n- **get used to** = przyzwyczajać się, dopiero się oswajasz.\n\nbe i get odmieniasz normalnie we wszystkich czasach, więc ta konstrukcja nie jest tylko przeszła: *I'm used to it*, *I was used to it*, *You'll get used to it*, *I'm getting used to it*, *I've got used to it*."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "podmiot", "role": "subject" },
+        { "text": "be / get", "role": "aux" },
+        { "text": "used", "role": "neutral" },
+        { "text": "to", "role": "particle" },
+        { "text": "V-ing / rzeczownik", "role": "verb" }
+      ],
+      "example": {
+        "en": "After a year in Glasgow, I'm used to the rain and I've even got used to cycling in it.",
+        "pl": "Po roku w Glasgow przywykłem do deszczu, a nawet przyzwyczaiłem się do jazdy na rowerze w deszczu."
+      }
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "be used to",
+          "md_pl": "Stan: to już dla ciebie normalne, nie męczy cię.",
+          "examples": [
+            {
+              "en": "She's a nurse, so she's used to working nights.",
+              "pl": "Jest pielęgniarką, więc przywykła do pracy w nocy."
+            }
+          ]
+        },
+        {
+          "title": "get used to",
+          "md_pl": "Proces: było dziwne albo trudne i powoli przestaje.",
+          "examples": [
+            {
+              "en": "The new school was strange at first, but I'm slowly getting used to it.",
+              "pl": "Nowa szkoła była na początku dziwna, ale powoli się przyzwyczajam."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Pytasz: **jest już normalnie** (be used to) czy **dopiero się oswajasz** (get used to)? W obu przypadkach po to idzie -ing albo rzeczownik."
+    },
+    {
+      "type": "table",
+      "headers": ["Źle", "Dobrze", "Dlaczego"],
+      "rows": [
+        [
+          "I'm used to get up early.",
+          "I'm used to getting up early.",
+          "to w be used to to przyimek, więc po nim -ing. Polskie „przywykłem wstawać” podsuwa bezokolicznik."
+        ],
+        [
+          "I used to getting up early.",
+          "I used to get up early.",
+          "Bez be i get to zwykłe used to o przeszłości i po nim V1."
+        ],
+        [
+          "I use to go to the gym on Mondays.",
+          "I usually go to the gym on Mondays.",
+          "used to nie ma formy teraźniejszej. Zwyczaj z dziś to Present Simple z usually."
+        ],
+        [
+          "Did you used to live here?",
+          "Did you use to live here?",
+          "Przeszłość niesie did, więc zostaje use, jak w didn't go."
+        ],
+        [
+          "When I was ten, I would have a hamster.",
+          "When I was ten, I had a hamster.",
+          "have = mieć to stan, a would pasuje tylko do powtarzanych czynności. Dobrze też: I used to have a hamster."
+        ],
+        [
+          "I used to go to Paris last summer.",
+          "I went to Paris last summer.",
+          "Jeden wyjazd to jedno zdarzenie, a used to mówi o czymś regularnym albo trwałym."
+        ],
+        [
+          "I can't get used to live here.",
+          "I can't get used to living here.",
+          "get used to tak samo jak be used to: po to stoi -ing."
+        ]
+      ]
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "co stoi przed used?",
+          "text_pl": "Odmienione be (am, is, was, have been, will be) albo get (got, getting) → przyzwyczajenie i po to idzie -ing albo rzeczownik. Uwaga: is used to + V1 to strona bierna od use (= jest używany do): This app is used to translate texts. Tu nie ma przyzwyczajenia. Nic → used to + V1 o przeszłości."
+        },
+        {
+          "step_pl": "jest normalnie czy się oswajasz?",
+          "text_pl": "Już normalnie → be used to. Dopiero się przyzwyczajasz albo przyzwyczaisz → get used to."
+        },
+        {
+          "step_pl": "czas",
+          "text_pl": "be i get bierzesz w czasie, którego wymaga zdanie: You'll soon get used to it, I've never got used to it, She wasn't used to such cold winters."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "Bezokolicznik czy -ing to obszar, który w części językowej arkuszy 2023–2026 wracał co roku, a **be used to + -ing** to właśnie ta rodzina. W 2026 r. zad. 9 miało formę transformacji ze słowem kluczem: słowa klucza nie wolno odmieniać, a limit to 5 wyrazów (w praktyce skrót liczył się jako jeden). Przy **USED** możliwe są used to + V1, be used to + -ing i get used to + -ing, więc zdanie wyjściowe mówi ci, która: *doesn't … any more* → used to, *isn't strange any more* → be used to, *it took me a while* → get used to. Przy **USE** potrzebujesz did: *didn't use to* albo *Did … use to*. Przy **WOULD** sprawdź, czy to czynność, bo would ze stanem nie przejdzie."
+    }
+  ]
+}
