@@ -52,3 +52,24 @@ export function wordsToCsv(
   )
   return [head.join(','), ...rows].join('\n')
 }
+
+export type OwnCardFields = { en: string; pl: string; example: string; tag: string }
+
+const tidy = (s: string) => s.replace(/\s+/g, ' ').trim()
+
+// własna fiszka z formularza: bez angielskiej albo polskiej strony nie ma czego powtarzać
+export function buildOwnCard(f: OwnCardFields) {
+  const term = tidy(f.en)
+  const translation = tidy(f.pl)
+  if (!term || !translation) return null
+  const example = tidy(f.example)
+  const tag = tidy(f.tag).toLowerCase()
+  return {
+    term,
+    translation,
+    direction: 'en-pl' as const,
+    tags: tag ? [tag] : [],
+    source: 'own' as const,
+    ...(example ? { example } : {}),
+  }
+}
