@@ -13,6 +13,12 @@ import { normalizeBasic } from '../answers'
 import { countWords } from '../answers/words'
 import { points } from '../exercises/check'
 
+const READING_WORDS: Record<4 | 5 | 6, [number, number]> = {
+  4: [330, 520],
+  5: [330, 520],
+  6: [550, 900],
+}
+
 export type ContentSet = {
   tenses: Tense[]
   topics: Topic[]
@@ -125,6 +131,17 @@ export function checkContent(c: ContentSet): string[] {
   for (const x of [...writing, ...reading])
     for (const tag of x.tags ?? [])
       if (!tags.has(tag)) errors.push(`${x.id}: tag ${tag} nie jest ani czasem, ani tematem`)
+
+  // widełki to moje założenie z sumy 1400–1800 wyrazów na całe czytanie, CKE nie podaje długości zadań
+  for (const r of reading) {
+    const band = r.examTask && READING_WORDS[r.examTask]
+    if (!band) continue
+    const n = countWords(r.texts.flatMap((x) => x.paragraphs.map((p) => p.text)).join(' '))
+    if (n < band[0] || n > band[1])
+      errors.push(
+        `${r.id}: tekst do zad. ${r.examTask} ma ${n} wyrazów, a powinien ${band[0]}-${band[1]}`,
+      )
+  }
 
   // wzory liczę jak CKE: bez tytułu, skrót i wyraz z łącznikiem to jeden wyraz
   for (const w of writing)

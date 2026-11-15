@@ -1,4 +1,6 @@
 import { z } from 'zod'
+import { normalizeAnswer } from '../lib/answers'
+import { countWords } from '../lib/answers/words'
 import { countBlanks, countGaps } from '../lib/exercises/gap'
 import { markedError } from '../lib/text/marked'
 
@@ -516,7 +518,88 @@ function readingIssues(r: ReadingSetIn): string[] {
     if (t.kind === 'mc')
       t.items.forEach((it, i) => {
         if (it.answer >= it.options.length) out.push(`mc ${i + 1}: odpowiedź poza listą opcji`)
+        if (it.options[it.answer]?.wrong_pl)
+          out.push(`mc ${i + 1}: poprawna opcja nie może mieć wrong_pl`)
       })
+    if (t.kind === 'gap') out.push(...gapIssues(t))
+  }
+  if (r.texts.length === 2)
+    for (const t of r.tasks)
+      if ((t.kind === 'mc' || t.kind === 'gap') && !t.text)
+        out.push(`przy dwóch tekstach zadanie ${t.kind} musi mieć text: 1 albo 2`)
+  if (r.examTask) out.push(...examIssues(r.examTask, r))
+  return out
+}
+
+function gapIssues(t: Extract<ReadingTask, { kind: 'gap' }>): string[] {
+  const out: string[] = []
+  const note = t.layout === 'note'
+  t.items.forEach((it, i) => {
+    const n = `luka ${i + 1}`
+    if (countBlanks(it.sentence) !== 1) out.push(`${n}: w zdaniu ma być dokładnie jedna ___`)
+    if (note && !it.heading) out.push(`${n}: w notatce każda luka potrzebuje heading`)
+    if (!note && it.heading) out.push(`${n}: heading jest tylko w notatce`)
+    const all = [...it.correct, ...(it.accepted ?? [])]
+    for (const a of all)
+      if (t.maxWords && countWords(a) > t.maxWords)
+        out.push(`${n}: „${a}” ma więcej niż ${t.maxWords} wyrazów`)
+    const seen = new Set<string>()
+    for (const a of all) {
+      const k = normalizeAnswer(a)
+      if (seen.has(k)) out.push(`${n}: wariant „${a}” jest dwa razy`)
+      seen.add(k)
+    }
+  })
+  return out
+}
+
+// układ zadań jak w arkuszach 2023–2026
+function examIssues(task: 4 | 5 | 6, r: ReadingSetIn): string[] {
+  const out: string[] = []
+  const z = `zad. ${task}`
+  const kinds = r.tasks.map((t) => t.kind).join(',')
+  if (task === 4) {
+    if (r.texts.length !== 1) out.push(`${z}: jeden tekst`)
+    const keys = r.texts[0]!.paragraphs.map((p) => p.key ?? '-').join('')
+    if (keys !== 'ABCD') out.push(`${z}: tekst ma 4 akapity z literami A–D, po kolei`)
+    const t = r.tasks[0]
+    if (kinds !== 'paragraph-match' || t?.kind !== 'paragraph-match')
+      return [...out, `${z}: jedno zadanie paragraph-match`]
+    if (t.items.length !== 5) out.push(`${z}: 5 zdań do dopasowania`)
+    const uses = ['A', 'B', 'C', 'D'].map((k) => t.items.filter((it) => it.answer === k).length)
+    if (uses.includes(0)) out.push(`${z}: każdy akapit musi być użyty`)
+    if (uses.filter((u) => u === 2).length !== 1 || uses.some((u) => u > 2))
+      out.push(`${z}: dokładnie jeden akapit pasuje dwa razy`)
+  }
+  if (task === 5) {
+    if (r.texts.length !== 1) out.push(`${z}: jeden tekst`)
+    const t = r.tasks[0]
+    if (kinds !== 'sentence-insert' || t?.kind !== 'sentence-insert')
+      return [...out, `${z}: jedno zadanie sentence-insert`]
+    if (t.answers.length !== 5) out.push(`${z}: 5 luk`)
+    const keys = t.sentences.map((x) => x.key).join('')
+    if (keys !== 'ABCDEF') out.push(`${z}: 6 zdań z literami A–F, po kolei`)
+    const answers = t.answers.map((a) => a.answer)
+    if (new Set(answers).size !== answers.length) out.push(`${z}: zdanie użyte w dwóch lukach`)
+    for (const a of answers) if (!keys.includes(a)) out.push(`${z}: zdania ${a} nie ma na liście`)
+  }
+  if (task === 6) {
+    if (r.texts.length !== 2) out.push(`${z}: dwa teksty`)
+    const lit = r.texts.filter((x) => literaryGenres.includes(x.genre)).length
+    if (lit !== 1) out.push(`${z}: dokładnie jeden tekst literacki (story, novel, memoir)`)
+    const mc = r.tasks[0]
+    const gap = r.tasks[1]
+    if (kinds !== 'mc,gap' || mc?.kind !== 'mc' || gap?.kind !== 'gap')
+      return [...out, `${z}: najpierw mc (6.1–6.4), potem gap (6.5–6.8)`]
+    if (mc.items.length !== 4) out.push(`${z}: 4 pytania A–D`)
+    mc.items.forEach((it, i) => {
+      if (it.options.length !== 4) out.push(`${z}: 6.${i + 1} ma mieć 4 opcje`)
+      it.options.forEach((o, j) => {
+        if (j !== it.answer && !o.wrong_pl)
+          out.push(`${z}: 6.${i + 1}, opcja ${j + 1} bez wrong_pl (dlaczego źle)`)
+      })
+    })
+    if (gap.items.length !== 4) out.push(`${z}: 4 luki otwarte`)
   }
   return out
 }
