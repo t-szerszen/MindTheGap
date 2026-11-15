@@ -1,0 +1,522 @@
+[
+  {
+    "id": "papc-oil-hands-bike",
+    "type": "gap-fill",
+    "sentence": "When Kuba came in for dinner, his hands were black with oil — he ___ (fix) his bike in the garage since lunch.",
+    "correct": ["had been fixing"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "since lunch i chwila w przeszłości: came in for dinner. Do tego ślad: ręce czarne od smaru."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Naprawa trwała od lunchu aż do chwili, gdy Kuba wszedł do domu, i zostawiła ślad. Liczysz czas DO chwili w przeszłości → Past Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Z since lunch czasownik nie stoi w Past Simple ani w Past Continuous (was fixing since lunch jest błędne). had fixed znaczyłoby, że rower był już naprawiony, a since lunch mówi, jak długo trwała sama naprawa."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "he → had been + V-ing → had been fixing."
+      }
+    ],
+    "tags": ["past-perfect-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "papc-keys-since-breakfast",
+    "type": "gap-fill",
+    "sentence": "I ___ (look) for my keys since breakfast when I finally found them in the pocket of my other jacket.",
+    "correct": ["had been looking"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "since breakfast i drugi moment w przeszłości: when I finally found them."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Szukanie trwało od śniadania aż do chwili, gdy klucze się znalazły. Czas trwania do chwili w przeszłości → Past Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Polskie „szukałem od śniadania” kusi Past Continuous (was looking). Ale since liczy czas aż do jakiegoś punktu, a Past Continuous pokazuje tylko, co trwało w danej chwili."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "I + had been + V-ing → had been looking."
+      }
+    ],
+    "tags": ["past-perfect-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "papc-console-unplugged",
+    "type": "gap-fill",
+    "sentence": "My brother ___ (play) the same video game since nine in the morning when Mum lost her patience and unplugged the console.",
+    "correct": ["had been playing"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "since nine in the morning i chwila w przeszłości: when Mum lost her patience and unplugged the console."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Granie trwało od dziewiątej rano aż do chwili, gdy mama wyłączyła konsolę. Liczysz czas do chwili w przeszłości → Past Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "has been playing też liczy czas, ale do teraz. Tu punktem odniesienia jest chwila, gdy mama wyłączyła konsolę (unplugged), więc have / has zmienia się w had."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "my brother = he → had been + V-ing → had been playing."
+      }
+    ],
+    "tags": ["past-perfect-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "papc-wardrobe-since-four",
+    "type": "gap-fill",
+    "sentence": "It was almost midnight, and Dad ___ (struggle) with our new flat-pack wardrobe since four o'clock, so Mum suggested calling it a day.",
+    "correct": ["had been struggling"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "since four o'clock i chwila w przeszłości: It was almost midnight (do tego suggested)."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Walka z szafą zaczęła się o czwartej i trwała aż do „prawie północy”. Liczysz czas do chwili w przeszłości → Past Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "It was almost midnight kusi Past Continuous (was struggling), bo tata był wtedy w trakcie. Ale since four o'clock liczy, ile to trwało DO tej chwili, a Past Continuous czasu nie liczy. Bez since four o'clock byłoby dobrze: Dad was still struggling with the wardrobe."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Dad = he → had been + V-ing → had been struggling."
+      }
+    ],
+    "tags": ["past-perfect-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "papc-customer-services-tune",
+    "type": "gap-fill",
+    "sentence": "By the time someone at customer services picked up, I ___ (listen) to the same awful tune since half past nine.",
+    "correct": ["had been listening"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "since half past nine i By the time someone picked up."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Słuchanie muzyczki trwało od wpół do dziesiątej aż do chwili, gdy ktoś odebrał. Czas trwania do chwili w przeszłości → Past Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "By the time kojarzy się z Past Perfect Simple, ale forma prosta pokazuje wynik, czyli co było gotowe. Tu nic nie jest gotowe: liczysz, jak długo trwała czynność."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "I + had been + V-ing → had been listening."
+      }
+    ],
+    "tags": ["past-perfect-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "papc-washing-machine-noise",
+    "type": "gap-fill",
+    "sentence": "Our old washing machine ___ (make) a strange grinding noise for days when it broke down in the middle of a wash.",
+    "correct": ["had been making"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "for days i chwila w przeszłości: when it broke down."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Dziwny dźwięk trwał kilka dni aż do awarii. Liczysz czas do chwili w przeszłości → Past Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Polskie „od kilku dni wydawała dziwny dźwięk” kusi Past Continuous (was making). Ale Past Continuous pokazuje tylko, co trwało w danej chwili, i nie liczy czasu, a for days liczy aż do awarii. made… for days when… też odpada: Past Simple nie liczy czasu do innej chwili."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "the washing machine = it → had been + V-ing → had been making."
+      }
+    ],
+    "tags": ["past-perfect-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "papc-not-paying-attention",
+    "type": "gap-fill",
+    "sentence": "When the teacher suddenly asked me to sum up the discussion, I had no idea what to say, because I ___ (not / pay) attention for a good ten minutes.",
+    "correct": ["had not been paying", "had not paid"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "for a good ten minutes i chwila w przeszłości: when the teacher suddenly asked me."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Przez dobre dziesięć minut przed pytaniem nie uważałeś i to tłumaczy, czemu nie wiedziałeś, co powiedzieć. Liczysz czas do chwili w przeszłości, więc to robota czasów perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "wasn't paying attention opisałoby tylko tę jedną chwilę, a for a good ten minutes liczy czas aż do pytania. W przeczeniu z for pasuje też forma prosta, jak w hadn't seen him for years: had not been paying pokazuje stan „bujania w obłokach”, który trwał aż do pytania, a had not paid mówi po prostu, że przez ten czas nie było żadnej uwagi. not stoi po had: had been not paying jest błędne."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "I + had + not + been + V-ing → had not been paying; albo had + not + V3 → had not paid."
+      }
+    ],
+    "tags": ["past-perfect-continuous", "past-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "papc-ola-spanish-seville",
+    "type": "gap-fill",
+    "sentence": "How long ___ (Ola / learn) Spanish when she moved to Seville for her Erasmus year?",
+    "correct": ["had Ola been learning"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "How long…? i chwila w przeszłości: when she moved to Seville."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz, ile czasu trwała nauka aż do przeprowadzki (a nauka pewnie trwała dalej). Czas trwania do chwili w przeszłości → Past Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "How long did Ola learn…? pytałoby o zamknięty okres nauki, a przeprowadzka nie jest końcem nauki, tylko punktem, do którego liczysz. has Ola been learning liczyłoby do teraz."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had + Ola + been + V-ing → had Ola been learning."
+      }
+    ],
+    "tags": ["past-perfect-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "papc-parents-planning-japan",
+    "type": "gap-fill",
+    "sentence": "___ (your parents / plan) the trip to Japan for long when the airline suddenly cancelled all the flights?",
+    "correct": ["Had your parents been planning"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "for long i drugi moment w przeszłości: when the airline suddenly cancelled all the flights."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz, czy planowanie trwało już długo w chwili, gdy linia odwołała loty. Czas trwania do chwili w przeszłości → Past Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "W pytaniu tylko had idzie przed podmiot, a been i V-ing zostają za nim: Had been your parents planning… jest błędne. Did your parents plan… pytałoby o zamknięte wydarzenie, a nie o czas do innej chwili."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had + your parents + been + V-ing → Had your parents been planning."
+      }
+    ],
+    "tags": ["past-perfect-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "papc-drummer-rehearsing",
+    "type": "gap-fill",
+    "sentence": "The drummer told us that the band ___ (rehearse) since eight o'clock that morning and badly needed a break.",
+    "correct": ["had been rehearsing"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "told us that… (relacjonujesz czyjeś słowa), since eight o'clock i that morning."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Perkusista powiedział: „We've been rehearsing since eight”. Relacjonujesz to później, więc have been cofasz do had been → Past Perfect Continuous. that morning zamiast this morning też pokazuje to przesunięcie."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po polsku czas się nie zmienia („powiedział, że grają od ósmej”), więc kusi has been rehearsing. Ale told, needed i that morning ustawiają wszystko w przeszłości."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "the band → had been + V-ing (had jest jedno dla wszystkich osób) → had been rehearsing."
+      }
+    ],
+    "tags": ["past-perfect-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "papc-zuzia-puppy-begging",
+    "type": "gap-fill",
+    "sentence": "My cousin Zuzia ___ (beg) her parents for a puppy since she was six, so when they brought home a tiny dachshund on her tenth birthday, she burst into tears of joy.",
+    "correct": ["had been begging"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "since she was six i chwila w przeszłości: when they brought home a tiny dachshund on her tenth birthday."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Zuzia nie prosiła bez przerwy, tylko raz po raz przez cztery lata, aż do dziesiątych urodzin. Seria powtarzana aż do chwili w przeszłości → Past Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "since kusi has been begging, ale to opowieść o przeszłości (brought, burst), a prośby skończyły się, gdy pies był już w domu. Past Simple (begged since…) z since się nie łączy. Gdyby padła liczba próśb (had asked them a hundred times), byłaby forma prosta, ale tu jej nie ma."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Zuzia = she → had been + V-ing → had been begging."
+      }
+    ],
+    "tags": ["past-perfect-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "papc-mum-nurse-paramedic",
+    "type": "gap-fill",
+    "sentence": "Mum ___ (work) as a nurse for twelve years when she decided to retrain as a paramedic.",
+    "correct": ["had been working", "had worked"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "for twelve years i chwila w przeszłości: when she decided to retrain."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Praca pielęgniarki trwała dwanaście lat aż do decyzji o zmianie zawodu, więc liczysz czas do chwili w przeszłości. To robota czasów perfect, a tu pasują oba."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Przy work (tak jak przy live, study, teach) z for pasuje i forma ciągła, i prosta. had been working podkreśla samo trwanie, had worked podaje cały okres jako fakt. Past Simple brzmi tu źle: when she decided to punkt, do którego liczysz, a nie kolejny krok opowieści."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had been + V-ing → had been working; albo had + V3 → had worked."
+      }
+    ],
+    "tags": ["past-perfect-continuous", "past-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "papc-painting-bedroom-unfinished",
+    "type": "gap-fill",
+    "sentence": "I ___ (paint) my bedroom for six hours when Zosia rang to remind me about her party, and I still hadn't finished the ceiling.",
+    "correct": ["had been painting"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "for six hours, chwila w przeszłości: when Zosia rang, i dopowiedzenie: I still hadn't finished the ceiling."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Malowanie trwało sześć godzin aż do telefonu i wcale się nie skończyło. Czynność liczona do chwili w przeszłości → Past Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "had painted my bedroom znaczyłoby, że pokój był już pomalowany, a sufit nie był skończony. Forma prosta pokazuje wynik, ciągła samą czynność, która mogła się nie skończyć."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "I + had been + V-ing → had been painting."
+      }
+    ],
+    "tags": ["past-perfect-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "papc-tatras-not-even-ten-km",
+    "type": "gap-fill",
+    "sentence": "By the end of our first day in the Tatras, we ___ (not / even / cover) ten kilometres, because Kuba kept stopping to take photos.",
+    "correct": ["had not even covered"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "By the end of our first day i liczba: ten kilometres."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Patrzysz wstecz od końca dnia i podajesz wynik: ile trasy było zrobione do tamtej chwili → Past Perfect Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Wędrówka trwała cały dzień, więc kusi hadn't been covering. Ale wersja ciągła nie liczy sztuk ani kilometrów: liczba = wynik = forma prosta. Past Simple po By the end of… też odpada: by liczy wszystko aż do tamtej chwili, a takie liczenie to robota czasu perfect."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "we + had + not + even + V3 → had not even covered (hadn't even covered)."
+      }
+    ],
+    "tags": ["past-perfect", "past-perfect-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "papc-texting-tram",
+    "type": "gap-fill",
+    "sentence": "I ___ (text) with both hands when the tram braked suddenly, so I went flying into the man in front of me.",
+    "correct": ["was texting"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "when the tram braked suddenly — krótkie zdarzenie, które w coś wpadło."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pisałeś SMS-a dokładnie w chwili hamowania i właśnie dlatego poleciałeś do przodu. Czynność w trakcie w danym momencie → Past Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie ma tu for ani since, nic nie liczy czasu do tej chwili. had been texting sugerowałoby, że pisałeś wcześniej i może już przestałeś, a ręce były zajęte akurat przy hamowaniu."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "I + was + V-ing → was texting."
+      }
+    ],
+    "tags": ["past-continuous", "past-perfect-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "papc-ania-bartek-not-long",
+    "type": "gap-fill",
+    "sentence": "Ania and Bartek ___ (not / know) each other for long when they got married, so everyone was sure it wouldn't last.",
+    "correct": ["had not known"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "for long i chwila w przeszłości: when they got married."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Liczysz, jak długo (a właściwie jak krótko) trwała znajomość aż do ślubu. Czas do chwili w przeszłości → to zadanie dla czasu perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Układ for + when kusi hadn't been knowing. Ale know to czasownik stanu: nie ma „w trakcie”, więc nie bierze -ing także w czasach perfect. Zostaje Past Perfect Simple. didn't know each other for long when… też odpada: Past Simple nie liczy czasu do innej chwili."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "they + had + not + V3 (know – knew – known) → had not known (hadn't known)."
+      }
+    ],
+    "tags": ["past-perfect", "past-perfect-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "papc-school-record-held",
+    "type": "gap-fill",
+    "sentence": "The school record for the 400 metres ___ (hold) by our PE teacher for over twenty years when a girl from my class broke it last spring.",
+    "correct": ["had been held"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "for over twenty years i chwila w przeszłości: when a girl from my class broke it last spring. Do tego by our PE teacher."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Rekord należał do nauczyciela ponad dwadzieścia lat, aż do zeszłej wiosny. Liczysz czas do chwili w przeszłości, więc potrzebny czas perfect. Ale to nie rekord coś trzyma, tylko nauczyciel trzyma rekord (by our PE teacher) → strona bierna Past Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Układ for + when kusi had been holding. To strona czynna, czyli rekord sam by coś trzymał. Strony biernej Past Perfect Continuous (had been being held) prawie nikt nie używa, a hold a record to i tak stan, więc zostaje forma prosta. was held for… when też odpada: Past Simple nie liczy czasu do innej chwili."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "the record = it → had + been + V3 (hold – held – held) → had been held."
+      }
+    ],
+    "tags": ["past-perfect", "past-perfect-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "papc-staring-at-board",
+    "type": "gap-fill",
+    "sentence": "When I walked into the classroom, everyone ___ (stare) at the board in silence: someone had written a message on it in huge red letters.",
+    "correct": ["was staring"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "When I walked into the classroom — chwila w przeszłości. Obok had written mówi, co stało się wcześniej."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Wszyscy wpatrywali się w tablicę akurat wtedy, gdy wszedłeś, i to widziałeś. Czynność w trakcie w tej chwili → Past Continuous. Wcześniej było tylko napisanie wiadomości (had written)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "had been staring liczyłoby czas przed twoim wejściem, a nie ma tu for ani since i nic nie mówi, jak długo to trwało. Druga pułapka: everyone łączy się z liczbą pojedynczą, więc was, a nie were."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "everyone → was + V-ing → was staring."
+      }
+    ],
+    "tags": ["past-continuous", "past-perfect-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "papc-sandcastle-beach",
+    "type": "gap-fill",
+    "sentence": "The kids ___ (build) that sandcastle ever since we arrived at the beach, so let's give them another ten minutes before we pack up.",
+    "correct": ["have been building"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "ever since we arrived, ale let's give them i before we pack up mówią o teraz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Budowanie zaczęło się, gdy przyjechaliście na plażę, i trwa do teraz → Present Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "arrived (Past Simple) kusi had been building. Ale zdanie po since tylko podaje punkt startowy, a zdanie główne liczy od niego do teraz. had potrzebowałoby chwili w przeszłości, do której liczysz. have built też odpada: zamek nie jest skończony, a forma prosta pokazałaby wynik."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "the kids = they → have been + V-ing → have been building."
+      }
+    ],
+    "tags": ["present-perfect-continuous", "past-perfect-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "papc-how-long-lisbon",
+    "type": "gap-fill",
+    "sentence": "You're back! How long ___ (you / stay) in Lisbon in the end? Did you have time to visit Sintra as well?",
+    "correct": ["did you stay"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "How long…? kusi czas perfect continuous. Ale You're back!, in the end i Did you have time… pokazują, że wyjazd już się skończył."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz o długość zamkniętego okresu w przeszłości. Nie ma drugiej chwili, do której liczysz → Past Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "had you been staying potrzebowałoby chwili w przeszłości (np. when you met Tom). have you been staying znaczyłoby, że wciąż tam jesteś. How long + Past Simple jest w porządku, gdy okres jest zamknięty."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "did + you + V1 → did you stay."
+      }
+    ],
+    "tags": ["past-simple", "past-perfect-continuous"],
+    "difficulty": 3
+  }
+]
