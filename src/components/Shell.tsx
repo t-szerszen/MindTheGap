@@ -1,6 +1,7 @@
 import { Suspense, useEffect, useState } from 'react'
 import { Link, Outlet, useLocation } from 'react-router'
 import { topicHome } from '../features/topics/hub'
+import { PickWord } from '../features/vocabulary/PickWord'
 import { pl } from '../i18n/pl'
 import { topicStore } from '../lib/content'
 import { Icon, type IconName } from './Icon'
@@ -137,6 +138,7 @@ export function Shell() {
           </Link>
         ))}
       </nav>
+      <PickWord />
       <Grain />
     </div>
   )

@@ -380,7 +380,7 @@ export const pl = {
     added: 'Dodano!',
     addedText: (w: string) => `„${w}” jest już w fiszkach.`,
     justAdded: 'nowe!',
-    sources: { translator: 'z tłumacza', topic: 'z tematu', own: 'własne' },
+    sources: { translator: 'z tłumacza', topic: 'z tematu', own: 'własne', text: 'z tekstu' },
     newCard: {
       title: 'Nowa fiszka',
       sub: 'wpisz sam — bez tłumacza',
@@ -700,6 +700,18 @@ export const pl = {
     nextDue: (label: string) => `Następna powtórka: ${label}.`,
     noWords: 'Najpierw zapisz kilka słówek w tłumaczu.',
     noLeeches: 'Nie ma uciekinierów — tak trzymaj.',
+  },
+  pick: {
+    title: 'Dodaj do fiszek',
+    label: 'Dodaj zaznaczone słówko do fiszek',
+    translation: 'Po polsku',
+    translating: 'Tłumaczę…',
+    translationHint: 'Tłumaczenie z automatu — popraw, jeśli trzeba.',
+    example: 'Przykład z tekstu',
+    tag: 'Etykieta',
+    tagPlaceholder: 'opcjonalnie',
+    save: 'Zapisz',
+    saved: 'Dodano!',
   },
   leeches: {
     title: 'Uciekinierzy',
