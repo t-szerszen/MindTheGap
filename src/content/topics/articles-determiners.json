@@ -183,7 +183,7 @@
     {
       "type": "callout",
       "variant": "warning",
-      "md_pl": "**Niepoliczalne po angielsku, choć po polsku da się je policzyć:** *advice, information, news, furniture, luggage, equipment, homework, research, progress, accommodation*, a także *work* w znaczeniu „praca, robota” (etat to *a job*). Nie biorą *a/an*, nie mają liczby mnogiej, a czasownik stoi w lp: *The news **is** good.* *Your advice **was** really helpful.* Gdy chcesz policzyć: *a piece of advice*, *two pieces of furniture*, *a piece of news*."
+      "md_pl": "**Niepoliczalne po angielsku, choć po polsku da się je policzyć:** *advice, information, news, furniture, luggage, equipment, homework, research, progress, accommodation*, a także *work* w znaczeniu „praca, robota” (etat to *a job*). Nie biorą *a/an*, nie mają liczby mnogiej, a czasownik stoi w lp: *The news is good.* *Your advice was really helpful.* Gdy chcesz policzyć: *a piece of advice*, *two pieces of furniture*, *a piece of news*."
     },
     {
       "type": "text",
@@ -225,7 +225,7 @@
     },
     {
       "type": "text",
-      "md_pl": "**Nazwy geograficzne.** Mechanizm jest ten sam co wyżej. Samo imię własne (*Poland*, *Everest*) wskazuje jedną rzecz, więc nie potrzebuje ani „jednego”, ani „tego”.\n\nPrzy państwach *the* pojawia się, gdy w nazwie siedzi ==rzeczownik pospolity== (*the United **Kingdom***, czyli „to zjednoczone królestwo”, *the Czech Republic*). Druga sytuacja: nazwa jest w ==liczbie mnogiej== i obejmuje całą grupę (*the Alps* = te wszystkie góry razem, *the Netherlands*). Rzeki, morza i oceany zawsze mają *the*, a słowo *river* albo *sea* jest w nazwie albo się go domyślasz: *the (River) Vistula*, *the Baltic (Sea)*.\n\nUlice, parki, dworce i lotniska zwykle są bez przedimka, choć mają w nazwie *Street*, *Park* czy *Station*: *Oxford Street*, *Victoria Station*. Tak samo pojedyncza góra i jezioro, gdy *Mount* albo *Lake* stoi przed imieniem: *Mount Everest*, *Lake Geneva*. Te grupy trzeba po prostu znać."
+      "md_pl": "**Nazwy geograficzne.** Mechanizm jest ten sam co wyżej. Samo imię własne (*Poland*, *Everest*) wskazuje jedną rzecz, więc nie potrzebuje ani „jednego”, ani „tego”.\n\nPrzy państwach *the* pojawia się, gdy w nazwie siedzi ==rzeczownik pospolity== (*the United Kingdom*, czyli „to zjednoczone królestwo”, *the Czech Republic*). Druga sytuacja: nazwa jest w ==liczbie mnogiej== i obejmuje całą grupę (*the Alps* = te wszystkie góry razem, *the Netherlands*). Rzeki, morza i oceany zawsze mają *the*, a słowo *river* albo *sea* jest w nazwie albo się go domyślasz: *the (River) Vistula*, *the Baltic (Sea)*.\n\nUlice, parki, dworce i lotniska zwykle są bez przedimka, choć mają w nazwie *Street*, *Park* czy *Station*: *Oxford Street*, *Victoria Station*. Tak samo pojedyncza góra i jezioro, gdy *Mount* albo *Lake* stoi przed imieniem: *Mount Everest*, *Lake Geneva*. Te grupy trzeba po prostu znać."
     },
     {
       "type": "table",

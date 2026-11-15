@@ -252,7 +252,7 @@
       "columns": [
         {
           "title": "prefer",
-          "md_pl": "*prefer* + -ing / *to* V1. Porównanie: *prefer* -ing ==*to*== -ing.",
+          "md_pl": "*prefer* + -ing / *to* V1. Porównanie: *prefer* -ing ==to== -ing.",
           "examples": [
             {
               "en": "I prefer reading the book to watching the film.",
@@ -266,7 +266,7 @@
         },
         {
           "title": "would rather",
-          "md_pl": "*would rather* + V1 bez *to*. Porównanie: V1 ==*than*== V1.",
+          "md_pl": "*would rather* + V1 bez *to*. Porównanie: V1 ==than== V1.",
           "examples": [
             {
               "en": "I'd rather read the book than watch the film.",
