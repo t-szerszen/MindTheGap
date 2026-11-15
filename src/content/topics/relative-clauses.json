@@ -1,0 +1,437 @@
+{
+  "id": "relative-clauses",
+  "category": "grammar",
+  "title_pl": "Zdania względne",
+  "summary_pl": "Jak po angielsku powiedzieć „który”: who, which, that, whose, where, when, why i what. Kiedy stawiać przecinki, kiedy można pominąć zaimek, gdzie idzie przyimek i jak skrócić zdanie do -ing albo V3.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "Zdanie względne opisuje rzeczownik, który stoi przed nim: *the girl ==who sits next to me==*. Po polsku prawie zawsze wystarcza jedno słowo: **który** (która, które, w którym, którego…). Po angielsku słowo wybierasz po dwóch rzeczach:\n\n- **co opisujesz**: osobę, rzecz, miejsce, czas, powód,\n- **jaką rolę** ma to słowo w swoim zdaniu: jest podmiotem, dopełnieniem, mówi „czyj” albo „gdzie”.\n\nDo tego dochodzą przecinki. Po polsku stawiasz je zawsze. Po angielsku przecinek **zmienia znaczenie**: mówi, czy zdanie wskazuje, o kogo chodzi, czy tylko coś dopowiada."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "co opisujesz",
+          "text_pl": "Spójrz na rzeczownik przed luką. Osoba → who. Rzecz albo zwierzę → which. W zdaniu bez przecinków do jednego i drugiego pasuje też that."
+        },
+        {
+          "step_pl": "potrzebne czy dodatkowe",
+          "text_pl": "Zakryj zdanie względne. Jeśli dalej wiadomo, o kogo chodzi (imię, my mum, jedyny brat), to tylko dopowiedzenie: przecinki i bez that."
+        },
+        {
+          "step_pl": "co stoi po luce",
+          "text_pl": "Czasownik → słowo jest podmiotem i musi zostać (who lives…). Nowy podmiot i czasownik → słowo jest dopełnieniem i bez przecinków możesz je pominąć (the film we saw). Rzeczownik, który należy do opisywanej osoby albo rzeczy (czyj?) → whose (whose car)."
+        },
+        {
+          "step_pl": "czego brakuje",
+          "text_pl": "Zdanie po luce jest pełne, brakuje tylko „gdzie”, „kiedy” albo „dlaczego” → where, when, why. Czasownik potrzebuje przyimka (live in, talk to) → przyimek idzie na koniec albo przed which / whom."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": ["Słowo", "Kiedy", "Przykład"],
+      "rows": [
+        ["who", "osoba; podmiot albo dopełnienie", "the girl who sits next to me"],
+        [
+          "whom",
+          "osoba jako dopełnienie; formalnie, głównie po przyimku",
+          "the person to whom I spoke"
+        ],
+        [
+          "which",
+          "rzecz, zwierzę albo całe poprzednie zdanie",
+          "the bus which goes to the airport"
+        ],
+        ["that", "osoba albo rzecz, tylko bez przecinków", "the film that won the prize"],
+        [
+          "whose",
+          "czyj, czyja; osoba albo rzecz, po nim rzeczownik",
+          "the boy whose phone was stolen"
+        ],
+        ["where", "miejsce (= in / at which), po nim pełne zdanie", "the town where I grew up"],
+        ["when", "czas (= in / on which)", "the day when we met"],
+        ["why", "tylko po the reason", "the reason why she left"],
+        ["what", "to, co; bez rzeczownika przed nim", "What he said was true."]
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Zdanie definiujące** (bez przecinków) mówi, **o którego** człowieka albo o którą rzecz chodzi. Bez niego zdanie traci sens: *The woman who lives upstairs is a vet.* Która kobieta? Ta, która mieszka piętro wyżej.\n\nW takim zdaniu możesz użyć *who*, *which* albo *that*. Zaimek bywa podmiotem (po nim od razu czasownik) albo dopełnieniem (po nim nowy podmiot)."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Noun", "role": "neutral" },
+        { "text": "who / which / that", "role": "signal" },
+        { "text": "verb", "role": "verb" },
+        { "text": "…", "role": "neutral" }
+      ],
+      "example": {
+        "en": "The bus that goes to the airport leaves every twenty minutes.",
+        "pl": "Autobus, który jeździ na lotnisko, odjeżdża co dwadzieścia minut."
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Noun", "role": "neutral" },
+        { "text": "(who / which / that)", "role": "signal" },
+        { "text": "subject", "role": "subject" },
+        { "text": "verb", "role": "verb" },
+        { "text": "…", "role": "neutral" }
+      ],
+      "example": {
+        "en": "The jacket I bought last week has already lost a button.",
+        "pl": "Kurtka, którą kupiłem w zeszłym tygodniu, już zgubiła guzik."
+      }
+    },
+    {
+      "type": "text",
+      "md_pl": "**Zdanie niedefiniujące** (z przecinkami) tylko dopowiada coś o kimś albo o czymś, co już jest jasne. Możesz je wyrzucić i zdanie dalej ma sens: *My grandad, who is 85, still rides his bike every day.*\n\nTu obowiązują trzy zasady:\n\n- przecinek przed i po (albo kropka, jeśli zdanie się kończy),\n- **nie ma that**, tylko *who, whom, which, whose, where, when*,\n- zaimka **nie można pominąć**, nawet gdy jest dopełnieniem."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Name / my mum", "role": "neutral" },
+        { "text": ", who / which", "role": "signal" },
+        { "text": "dopowiedzenie", "role": "neutral" },
+        { "text": ",", "role": "neutral" },
+        { "text": "verb", "role": "verb" },
+        { "text": "…", "role": "neutral" }
+      ],
+      "example": {
+        "en": "My grandad, who is 85, still rides his bike every day.",
+        "pl": "Mój dziadek, który ma 85 lat, wciąż codziennie jeździ na rowerze."
+      }
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "My sister who lives in Wrocław…",
+          "md_pl": "Bez przecinków: wybierasz **jedną z kilku**. Masz co najmniej dwie siostry i mówisz o tej z Wrocławia.",
+          "examples": [
+            {
+              "en": "My sister who lives in Wrocław is a teacher. The other one is still at university.",
+              "pl": "Ta moja siostra, która mieszka we Wrocławiu, jest nauczycielką. Druga jeszcze studiuje."
+            }
+          ]
+        },
+        {
+          "title": "My sister, who lives in Wrocław, …",
+          "md_pl": "Z przecinkami: siostra jest **jedna**, a Wrocław to tylko dodatkowa informacja.",
+          "examples": [
+            {
+              "en": "My sister, who lives in Wrocław, is a teacher.",
+              "pl": "Moja siostra (mieszka we Wrocławiu) jest nauczycielką."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Polski nawyk to przecinek przed każdym *który*. Po angielsku najpierw zapytaj: czy bez tego zdania wiadomo, o kogo chodzi? Tak → przecinki. Nie → bez przecinków."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "The students who had revised passed easily.",
+          "pl": "Łatwo zdali ci uczniowie, którzy się uczyli. (Reszta nie.)"
+        },
+        {
+          "en": "The students, who had revised, passed easily.",
+          "pl": "Uczniowie się uczyli i wszyscy łatwo zdali."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**that nie stoi po przecinku.** *My mum, that is a nurse, …* to błąd. Między przecinkami: *who* przy ludziach, *which* przy rzeczach.\n\n*that* nie stoi też po przyimku: nie *the room in that we slept*, tylko *the room in which we slept* albo *the room (that) we slept in*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**who, which czy that?** W zdaniach bez przecinków *that* pasuje i do ludzi, i do rzeczy, a w mowie jest bardzo częste. Przy ludziach częściej słyszysz *who*.\n\nPo *everything, something, nothing, all, the only* i po stopniu najwyższym przy rzeczach naturalniej brzmi *that* (albo nic) niż *which*: *Everything (that) she cooks is delicious.* *It's the best book (that) I've read this year.*\n\n*which* nigdy nie odnosi się do ludzi: nie *the people which*, tylko *the people who*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Kiedy można pominąć zaimek?** Tylko w zdaniu bez przecinków i tylko wtedy, gdy zaimek jest **dopełnieniem**. Poznasz to po tym, co stoi zaraz po nim:\n\n- po zaimku jest **czasownik** → zaimek to podmiot, musi zostać: *the woman ==who called== you*,\n- po zaimku jest **nowy podmiot** (I, you, my mum…) → zaimek to dopełnienie, możesz go wyrzucić: *the woman (who) ==you called==*. (Do tego bywa pomijane *when* i *why*, o tym niżej.)"
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "zaimek = podmiot",
+          "md_pl": "To ona dzwoniła. Po *who* od razu czasownik. Bez *who* zdanie się rozpada.",
+          "examples": [
+            {
+              "en": "The woman who called you this morning was from the bank.",
+              "pl": "Kobieta, która do ciebie dzwoniła rano, była z banku."
+            }
+          ]
+        },
+        {
+          "title": "zaimek = dopełnienie",
+          "md_pl": "To ty do niej dzwoniłeś. Po *who* nowy podmiot (*you*), więc *who* możesz pominąć.",
+          "examples": [
+            {
+              "en": "The woman (who) you called this morning was from the bank.",
+              "pl": "Kobieta, do której dzwoniłeś rano, była z banku."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Pomijać wolno tylko dopełnienie i tylko bez przecinków. Nie dokładasz też drugiego zaimka: nie *the woman who you called her*, bo *who* już zajęło miejsce *her*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**whose** to „czyj, czyja, czyje”, czyli posiadanie. Zastępuje *his, her, its, their* albo *'s*. Po nim stoi rzeczownik (czasem z przymiotnikiem: *whose younger brother*), bez *the*: *a friend ==whose dad== is a pilot*. Pasuje do ludzi i do rzeczy: *a company whose products are sold all over Europe*.\n\nNie myl go z **who's** (= *who is* albo *who has*). Brzmią tak samo, ale *who's dad* to błąd w pisowni, a w zadaniu z luką to 0 pkt."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Noun", "role": "neutral" },
+        { "text": "whose", "role": "signal" },
+        { "text": "noun", "role": "neutral" },
+        { "text": "verb", "role": "verb" },
+        { "text": "…", "role": "neutral" }
+      ],
+      "example": {
+        "en": "I've got a friend whose dad is a pilot.",
+        "pl": "Mam kolegę, którego tata jest pilotem."
+      }
+    },
+    {
+      "type": "text",
+      "md_pl": "**where, when, why** to skróty od przyimka + *which*:\n\n- **where** = *in / at which* (miejsce): *the town where I grew up* = *the town in which I grew up*,\n- **when** = *in / on which* (czas): *the year when I was born*,\n- **why** = *for which*, tylko po *the reason*: *the reason why I'm late*.\n\nPo nich stoi **pełne zdanie**: ma swój podmiot i niczego w nim nie brakuje poza informacją „gdzie, kiedy, dlaczego”. W zdaniu bez przecinków *when* i *why* możesz zamienić na *that* albo pominąć: *the day (that) we met*, *the reason (that) I'm late*."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "where",
+          "md_pl": "Zdanie po luce jest pełne: *I grew up*. Brakuje tylko „gdzie” (*grow up **in** the town*).",
+          "examples": [
+            {
+              "en": "This is the town where I grew up.",
+              "pl": "To jest miasto, w którym dorastałem."
+            }
+          ]
+        },
+        {
+          "title": "which / that",
+          "md_pl": "W zdaniu po luce brakuje podmiotu albo dopełnienia: *visit* potrzebuje dopełnienia (*visit the town*), a *is famous* potrzebuje podmiotu.",
+          "examples": [
+            {
+              "en": "This is the town (that) we visited last summer.",
+              "pl": "To jest miasto, które odwiedziliśmy zeszłego lata."
+            },
+            {
+              "en": "It's a town which is famous for its castle.",
+              "pl": "To miasto, które słynie z zamku."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Zapytaj, czego brakuje w zdaniu po luce. Podmiotu albo dopełnienia → *which / that*. Tylko miejsca (w nim, tam) → *where*. Dlatego *a town where is famous* to błąd."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Przyimki.** Wiele czasowników ma przyimek na stałe: *live in, talk to, look for, depend on, apply for*. Kiedy rzeczownik stoi przed zdaniem względnym, przyimek nie znika. Ma dwa możliwe miejsca:\n\n- **na końcu** (codzienny angielski): *the flat (that) we live in*, *the girl (who) I was talking to*,\n- **na początku, przed which / whom** (styl formalny): *the flat in which we live*, *the girl to whom I was talking*.\n\nZ zaimków „który/kogo” po przyimku na początku stoją tylko **which** (rzeczy) i **whom** (ludzie); może też stać *whose* (*the man to whose house we went*). Nie *in that* i nie *to who*. W tej wersji zaimka nie da się pominąć."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Noun", "role": "neutral" },
+        { "text": "(that / which / who)", "role": "signal" },
+        { "text": "subject", "role": "subject" },
+        { "text": "verb", "role": "verb" },
+        { "text": "preposition", "role": "particle" }
+      ],
+      "example": {
+        "en": "The girl I was talking to is in my class.",
+        "pl": "Dziewczyna, z którą rozmawiałem, jest w mojej klasie."
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Noun", "role": "neutral" },
+        { "text": "preposition", "role": "particle" },
+        { "text": "which / whom", "role": "signal" },
+        { "text": "subject", "role": "subject" },
+        { "text": "verb", "role": "verb" }
+      ],
+      "example": {
+        "en": "The hotel in which we stayed was right next to the beach.",
+        "pl": "Hotel, w którym mieszkaliśmy, stał tuż przy plaży."
+      }
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "przyimek na końcu",
+          "md_pl": "Codzienny angielski: rozmowa, mail do kolegi. Zaimek możesz pominąć.",
+          "examples": [
+            {
+              "en": "Is this the job you applied for?",
+              "pl": "To ta praca, o którą się starałeś?"
+            }
+          ]
+        },
+        {
+          "title": "przyimek + which / whom",
+          "md_pl": "Styl formalny: list formalny, rozprawka. Zaimek zostaje.",
+          "examples": [
+            {
+              "en": "The position for which I am applying requires fluent English.",
+              "pl": "Stanowisko, o które się ubiegam, wymaga płynnego angielskiego."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Obie wersje są poprawne. Wybierasz według stylu tekstu, a przyimek zawsze bierzesz od czasownika (*apply for*, *talk to*)."
+    },
+    {
+      "type": "text",
+      "md_pl": "W zdaniach z przecinkami często stoją określniki z *of*: **some of whom, most of which, both of whom, none of which, all of whom**. Dzięki nim nie musisz zaczynać nowego zdania: *I've got two older sisters, both of whom are doctors.*\n\nZwykłe *both of them* w tym miejscu to błąd, bo wychodzą dwa zdania sklejone przecinkiem. Albo *both of whom*, albo kropka i nowe zdanie: *…two older sisters. Both of them are doctors.*"
+    },
+    {
+      "type": "text",
+      "md_pl": "**which o całym zdaniu.** Czasem *which* nie opisuje rzeczownika, tylko komentuje **całą sytuację** z poprzedniej części zdania. Po polsku mówisz wtedy „co”: *Zdałem prawo jazdy za pierwszym razem, co wszystkich zaskoczyło.* Po angielsku to zawsze **przecinek + which**: *I passed my driving test first time, which surprised everyone.*\n\nNie *what* i nie *that*. W rozprawce przydaje się *…, which is why…* (= i właśnie dlatego): *Public transport here is cheap and reliable, which is why most students don't need a car.*"
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "The train was cancelled, which meant we had to take a taxi.",
+          "pl": "Pociąg odwołano, przez co musieliśmy wziąć taksówkę."
+        },
+        {
+          "en": "She apologised straight away, which I really appreciated.",
+          "pl": "Od razu przeprosiła, co bardzo doceniłem."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**what = the thing(s) that**, czyli „to, co”. *what* ma w sobie i rzeczownik, i zaimek, więc **nie stoi po rzeczowniku**:\n\n- *The thing that I need is a break.* = *What I need is a break.*\n- *I didn't hear what she said.* = Nie usłyszałem, co powiedziała.\n\nNajczęstszy polski błąd to *wszystko, co* → *everything what*. Po *everything, all, something, nothing* stoi **that** albo nic: *everything (that) he said*, *all (that) I want*."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "what",
+          "md_pl": "Przed nim **nie ma** rzeczownika. Samo znaczy „to, co”.",
+          "examples": [
+            {
+              "en": "What I liked most was the food.",
+              "pl": "Najbardziej podobało mi się jedzenie."
+            }
+          ]
+        },
+        {
+          "title": "that",
+          "md_pl": "Przed nim jest rzeczownik albo *everything, all, something*.",
+          "examples": [
+            {
+              "en": "Everything that I tried was delicious.",
+              "pl": "Wszystko, czego spróbowałem, było pyszne."
+            }
+          ]
+        },
+        {
+          "title": ", which",
+          "md_pl": "Po przecinku. Odnosi się do **całego** zdania przed nim.",
+          "examples": [
+            {
+              "en": "We tried all the local dishes, which was a great idea.",
+              "pl": "Spróbowaliśmy wszystkich miejscowych dań, co było świetnym pomysłem."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Polskie „co” ma trzy odpowiedniki: *what* (nic przed nim nie stoi), *that* (po *everything / all*), *, which* (komentarz do całego zdania)."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Skrócone zdania względne.** Gdy zaimek jest **podmiotem**, możesz wyrzucić zaimek razem z *be* i zostawić sam imiesłów. O formie decyduje znaczenie:\n\n- rzeczownik **sam coś robi** → **-ing**: *the man ==who is sitting== by the window* → *the man ==sitting== by the window*,\n- z rzeczownikiem **ktoś coś zrobił** → **V3**: *a book ==which was written== by a teenager* → *a book ==written== by a teenager*.\n\nCzasu w skróconym zdaniu nie widać, wynika z reszty zdania. Uwaga: -ing to czynność w tym samym czasie albo coś stałego. Jednorazowej, skończonej czynności tak nie skrócisz: *the man who wrote this letter*, nie *the man writing this letter*. *-ing* pasuje też do stałych cech: *people living in big cities* = ludzie, którzy mieszkają w dużych miastach. Skracać można też zdania z przecinkami: *The castle, built in the 14th century, is open to visitors.*"
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Noun", "role": "neutral" },
+        { "text": "V-ing", "role": "verb" },
+        { "text": "…", "role": "neutral" }
+      ],
+      "example": {
+        "en": "Who's the girl talking to your brother?",
+        "pl": "Kim jest ta dziewczyna, która rozmawia z twoim bratem?"
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Noun", "role": "neutral" },
+        { "text": "V3", "role": "verb" },
+        { "text": "(by …)", "role": "neutral" }
+      ],
+      "example": {
+        "en": "Most of the products sold in this shop are made locally.",
+        "pl": "Większość produktów sprzedawanych w tym sklepie powstaje w okolicy."
+      }
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "-ing (czynnie)",
+          "md_pl": "Rzeczownik **sam** wykonuje czynność.",
+          "examples": [
+            {
+              "en": "The woman driving the bus waved at us.",
+              "pl": "Kobieta, która prowadziła autobus, pomachała nam."
+            }
+          ]
+        },
+        {
+          "title": "V3 (biernie)",
+          "md_pl": "Ktoś coś **zrobił z** rzeczownikiem.",
+          "examples": [
+            {
+              "en": "The money raised at the school fair went to an animal shelter.",
+              "pl": "Pieniądze zebrane na festynie szkolnym trafiły do schroniska dla zwierząt."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Pytaj: czy rzeczownik sam to robi? Tak → -ing. Nie, ktoś zrobił to z nim → V3. *The money raising…* znaczyłoby, że pieniądze same coś zbierają."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "Skracasz tylko wtedy, gdy zaimek jest **podmiotem**. *The book which I read* nie zamienia się w *the book reading*, bo to ty czytasz, a nie książka. Tu możesz najwyżej pominąć zaimek: *the book I read*."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Po *the first, the last, the only, the next* zamiast zdania względnego często stoi **to + bezokolicznik**: *She was the first person to notice the mistake.* = *…the first person who noticed the mistake.* *He's always the last one to leave the office.*"
+    },
+    {
+      "type": "text",
+      "md_pl": "**Typowe błędy i skąd się biorą**\n\n- *The people which live here…* → **The people who live here…** *which* nie odnosi się do ludzi.\n- *My mum, that is a nurse, …* → **My mum, who is a nurse, …** Po przecinku nie ma *that*.\n- *The book which I bought it…* → **The book (which) I bought…** Zaimek względny już zastępuje *it*.\n- *Do you know anyone speaks Italian?* → **anyone who speaks Italian** Zaimka-podmiotu nie pomijasz.\n- *It's a city where is famous for its bridges.* → **which is famous** Po *where* musi stać zdanie z własnym podmiotem.\n- *This is the town where I was born in.* → **where I was born** albo **the town I was born in** Przyimek i *where* znaczą to samo, więc jedno wystarczy.\n- *Everything what he said…* → **Everything (that) he said…** *what* nie stoi po rzeczowniku ani po *everything*.\n- *He was late again, what annoyed everyone.* → **…, which annoyed everyone.** Komentarz do całego zdania to *which*.\n- *the girl who's bike was stolen* → **the girl whose bike was stolen** *who's* = *who is*.\n- *the reason because I left* → **the reason why I left** albo **the reason (that) I left**.\n- *The students, who failed the test, have to retake it.* (gdy oblała tylko część) → **The students who failed the test have to retake it.** Polski przecinek zmienia tu sens na „wszyscy oblali”."
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "**Jak to sprawdzają.** Zdania przydawkowe, definiujące i niedefiniujące, są wprost na liście struktur CKE dla poziomu rozszerzonego.\n\n- **Zad. 7 (wybór A–D):** w arkuszach 2023–2026 zaimek względny nie był osobną luką, ale w 2026 pojawiła się konstrukcja imiesłowowa. Przy łącznikach dystraktorami bywają podobne wh-słowa (*whether, whatever, whereas*). Sprawdź, czy luka łączy rzeczownik ze zdaniem, które go opisuje.\n- **Zad. 9 (wyrazy w nawiasie, transformacje):** zaimek względny łatwo wbudować w lukę. Pary do przećwiczenia: *'s* → *whose*, *and this* → *, which*, *the thing that* → *what*, *in it / there* → *where* albo *in which*. Limit to zwykle 4–5 wyrazów razem z podanymi.\n- **Za co 0:** *who's* zamiast *whose*, *that* po przecinku, *what* po rzeczowniku, przyimek dwa razy (*where … in*) albo wcale (*the flat which we lived*)."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "W wypracowaniu polską nazwę, której anglojęzyczny czytelnik nie zna (święto, potrawa, tytuł), trzeba objaśnić po angielsku. Bez tego tekst robi się niejasny dla czytelnika. Najprościej zrobić to zdaniem z przecinkami: *We always celebrate Andrzejki, which is a traditional fortune-telling evening on 29 November.* *My favourite soup is żurek, which is made with fermented rye flour.*"
+    }
+  ]
+}
