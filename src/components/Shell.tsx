@@ -26,7 +26,7 @@ const sections: Section[] = [
     to: '/words',
     label: pl.nav.words,
     icon: 'cards',
-    tab: 'tb-pres',
+    tab: 'tb-k',
     also: ['review', 'leeches'],
   },
   {
@@ -41,7 +41,7 @@ const sections: Section[] = [
     id: 'more',
     to: '/more',
     label: pl.nav.more,
-    icon: 'more',
+    icon: 'dots',
     tab: 'tb-o',
     also: ['topics', 'phrases'],
   },
