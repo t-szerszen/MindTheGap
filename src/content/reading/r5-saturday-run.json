@@ -1,0 +1,82 @@
+{
+  "id": "r5-saturday-run",
+  "type": "reading-set",
+  "examTask": 5,
+  "title": "Saturday mornings in the park",
+  "theme": "sport",
+  "texts": [
+    {
+      "genre": "article",
+      "paragraphs": [
+        {
+          "text": "For most of my thirties, the only running I did was for the bus, and even then I usually missed it. So when a colleague suggested I join her at the free 5k held every Saturday morning in our local park, I laughed. ___ She simply turned up at my door at half past eight the following Saturday, already in her trainers, and waited until I found mine. It is surprisingly hard to send someone away when they are standing on your doorstep in Lycra."
+        },
+        {
+          "text": "That first run was every bit as unpleasant as I had feared. Within five minutes my lungs were burning, and a man pushing a double buggy had overtaken me without apparent effort. ___ Yet nobody seemed to care how slow I was. The volunteer at the finish line cheered as loudly for me as she had for the winner, who had crossed it nearly twenty minutes earlier. Afterwards a man with a clipboard wrote down my time, and I realised that, for better or worse, my place at the very back had been officially recorded."
+        },
+        {
+          "text": "What kept me coming back, though, was not the running itself. ___ There was the retired teacher who handed out jelly babies at the last corner, the teenage brothers who argued about their times all the way to the café, and the woman in her seventies who had completed more than three hundred runs and still wore the same faded cap to every one of them. Nobody asked what I did for a living, and nobody minded that I was always among the last to finish."
+        },
+        {
+          "text": "Slowly, almost without noticing, I got fitter. After two months I could run the whole course without stopping. After six, I had knocked eight minutes off my first time and started to look forward to the hill I used to dread. ___ My doctor, who had been nagging me for years about my blood pressure, was so surprised at my next check-up that she took the reading twice."
+        },
+        {
+          "text": "These days I am the one knocking on doors at half past eight. Once a month I also volunteer at the finish line, cheering for the stragglers the way someone once cheered for me. Last month I finally decided it was time to recruit my neighbour, a self-confessed couch potato who drives to the corner shop. He laughed, of course, just as I once had. ___ After all, I know from experience that laughing is not the same as saying no."
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "kind": "sentence-insert",
+      "sentences": [
+        {
+          "key": "A",
+          "text": "It was the odd little community that gathered there every week."
+        },
+        {
+          "key": "B",
+          "text": "So I did exactly what my colleague had once done for me and turned up at his door anyway."
+        },
+        {
+          "key": "C",
+          "text": "Wisely, she didn't waste any time trying to persuade me."
+        },
+        {
+          "key": "D",
+          "text": "In fact, it would be another year before I managed to run the whole way."
+        },
+        {
+          "key": "E",
+          "text": "I have rarely felt so embarrassed in my life."
+        },
+        {
+          "key": "F",
+          "text": "The results weren't only visible on my stopwatch, though."
+        }
+      ],
+      "answers": [
+        {
+          "answer": "C",
+          "why_pl": "Przed luką autorka się śmieje, czyli odmawia. Po luce jest „She simply turned up”: koleżanka nic nie mówi, po prostu przychodzi. C to zapowiada: nie traciła czasu na przekonywanie (persuade), tylko działała. „she” to ta sama koleżanka."
+        },
+        {
+          "answer": "E",
+          "why_pl": "Przed luką same upokarzające rzeczy: płuca płoną, wyprzedza ją facet z podwójnym wózkiem. Po luce „Yet nobody seemed to care how slow I was”: „yet” robi kontrast, czyli wcześniej musiało być coś o tym, jak ona się czuje. Wstyd (embarrassed) pasuje idealnie. Uwaga na D: też pasuje do słabego początku, ale w akapicie 4 jest „After two months I could run the whole course without stopping”, więc „another year” jest sprzeczne z tekstem. D to zdanie zbędne."
+        },
+        {
+          "answer": "A",
+          "why_pl": "Konstrukcja „not the running itself. It was…”: przed luką mówi, co jej NIE trzymało, więc w luce musi być, co trzymało. Po luce jest lista ludzi (the retired teacher, the teenage brothers, the woman), czyli ta „community” z A."
+        },
+        {
+          "answer": "F",
+          "why_pl": "Przed luką wyniki na czas (eight minutes off my first time). Po luce lekarka i ciśnienie, czyli zmiana, której nie widać na stoperze. F łączy jedno z drugim: wyniki było widać nie tylko na stoperze (stopwatch), „though” zapowiada coś więcej."
+        },
+        {
+          "answer": "B",
+          "why_pl": "„just as I once had” odsyła do początku tekstu, a B mówi „what my colleague had once done for me”, czyli przyjść pod drzwi mimo śmiechu. Po luce „After all, laughing is not the same as saying no” tłumaczy, czemu poszła mimo jego śmiechu. „his door” = sąsiad (he)."
+        }
+      ]
+    }
+  ]
+}

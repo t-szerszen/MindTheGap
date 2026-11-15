@@ -1,0 +1,82 @@
+{
+  "id": "r5-lock-keeper",
+  "type": "reading-set",
+  "examTask": 5,
+  "title": "Keeper of the gates",
+  "theme": "work",
+  "texts": [
+    {
+      "genre": "article",
+      "paragraphs": [
+        {
+          "text": "Every morning at seven, Margaret Hale walks the two hundred metres from her cottage to the lock and checks that the gates have survived the night. Before she retired, she spent twenty-two years in an accounts office in Birmingham. ___ Now she spends her days helping narrowboats climb a hill of water, and she insists she has never been happier. 'I used to dread Monday mornings,' she says. 'Now I can hardly wait for them.'"
+        },
+        {
+          "text": "For anyone who has never seen one, a canal lock is a simple but clever device. A boat enters a long, narrow chamber with heavy wooden gates at each end. ___ When the level inside matches the stretch of canal ahead, the gates on the far side can be pushed open and the boat continues on its way, a few metres higher or lower than where it started. Inside the lock itself, no engine or pump is needed: gravity does all the work."
+        },
+        {
+          "text": "The principle has hardly changed in over two centuries, but that does not mean the work is easy. The gates can weigh several tonnes, and first-time boaters on holiday often misjudge them. ___ Margaret has seen people drop their metal handles into the water, forget to tie up their boats and, on one memorable afternoon, close a gate on their own rope while the whole family looked on. Most of the time she simply walks over, takes the handle and shows them how it is done."
+        },
+        {
+          "text": "Not every visitor is a beginner, of course. Some of the boats that pass through belong to people who live on the canal all year round and move every couple of weeks. ___ Those regulars, Margaret says, have taught her more about the job than any training course could, from reading the weather to spotting a leaking gate before it becomes a real problem. Several of them now stop for a cup of tea whenever they pass."
+        },
+        {
+          "text": "The job is not without its frustrations. In very dry summers the water can fall so low that the lock has to be closed for several days. ___ Then there are the winter months, when ice forms on the gates and hardly any boats appear at all. Still, Margaret has no intention of giving it up. 'I spent twenty-two years looking at numbers,' she says. 'Now I look at herons.'"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "kind": "sentence-insert",
+      "sentences": [
+        {
+          "key": "A",
+          "text": "The gates are then closed behind it, and water is let in or out through small sluices controlled by paddles."
+        },
+        {
+          "key": "B",
+          "text": "For them, the lock is not a tourist attraction but simply part of the route home."
+        },
+        {
+          "key": "C",
+          "text": "On some canals, locks are built so close together that climbing a single hill can take a boat most of a day."
+        },
+        {
+          "key": "D",
+          "text": "It was a job she was good at but never really loved."
+        },
+        {
+          "key": "E",
+          "text": "On those days, she has to turn disappointed holidaymakers away."
+        },
+        {
+          "key": "F",
+          "text": "Watching them struggle is, she admits, part of the entertainment."
+        }
+      ],
+      "answers": [
+        {
+          "answer": "D",
+          "why_pl": "„It was a job” odnosi się do pracy w biurze rachunkowym z poprzedniego zdania. Po luce „Now she spends her days…” i „never been happier” to kontrast: dawniej praca bez serca, teraz radość. D przygotowuje ten kontrast słowami „never really loved”."
+        },
+        {
+          "answer": "A",
+          "why_pl": "Opis działa krok po kroku: łódź wpływa (enters), w luce wrota zamykają się „behind it” (it = boat) i woda jest wpuszczana albo wypuszczana, a po luce „When the level inside matches…”. Słowo „level” potrzebuje wcześniej wody, a wodę wprowadza dopiero A. Zdanie C (o wielu śluzach na jednym wzgórzu) pasuje tematem, ale nie mówi nic o wodzie ani o kolejnym kroku, więc „the level” zostałoby bez odniesienia. C jest zbędne."
+        },
+        {
+          "answer": "F",
+          "why_pl": "„them” = first-time boaters z poprzedniego zdania, a „struggle” to ich kłopoty z ciężkimi wrotami. Po luce jest lista wpadek, które Margaret widziała (has seen people drop…), czyli przykłady tego „struggle”."
+        },
+        {
+          "answer": "B",
+          "why_pl": "„For them” = people who live on the canal all year round. Kontrast „not a tourist attraction” odróżnia ich od turystów-początkujących z akapitu 3. Po luce „Those regulars” to ci sami ludzie, więc w luce musi być o nich, a nie o kimś nowym."
+        },
+        {
+          "answer": "E",
+          "why_pl": "„On those days” = te kilka dni, kiedy śluza jest zamknięta (closed for several days). Po luce „Then there are the winter months” dodaje kolejny kłopot, więc luka też musi być o kłopocie z listy „frustrations”: odsyłanie zawiedzionych turystów."
+        }
+      ]
+    }
+  ]
+}

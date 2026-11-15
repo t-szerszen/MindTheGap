@@ -1,0 +1,82 @@
+{
+  "id": "r5-hedgehog-highway",
+  "type": "reading-set",
+  "examTask": 5,
+  "title": "A hole in the fence",
+  "theme": "nature",
+  "texts": [
+    {
+      "genre": "article",
+      "paragraphs": [
+        {
+          "text": "When Ellie Morgan, a retired nurse from a small village in Shropshire, spotted a hedgehog on her lawn three summers ago, she realised it was the first one she had seen in almost a decade. ___ Across Britain, hedgehog numbers have fallen sharply since the turn of the century, particularly in the countryside, where many people still assume the animals are doing perfectly well. In 2020 the hedgehog was added to the Red List for Britain's mammals as vulnerable to extinction."
+        },
+        {
+          "text": "Part of the problem is space. A hedgehog can easily travel a kilometre or more in a single night, searching for beetles, caterpillars and worms. ___ Modern gardens, however, are increasingly surrounded by solid fences and brick walls, and each of them turns a garden into a dead end. Busy roads, which cut through the animals' territory and kill many of them every year, only make matters worse."
+        },
+        {
+          "text": "Ellie's solution was almost embarrassingly simple. She cut a square hole, roughly thirteen centimetres wide, at the bottom of the fence between her garden and the field behind it. ___ Within a week, a wildlife camera she had borrowed from her grandson showed two different hedgehogs squeezing through the gap on the same night. One of them, a large male, came back almost every evening for the rest of the summer."
+        },
+        {
+          "text": "News travels fast in a village of four hundred people. ___ By the end of the following year, more than sixty gardens had been linked in what locals proudly call their hedgehog highway, and a hand-painted sign on the village green now asks drivers to slow down after dark. Ellie, meanwhile, has been invited to talk at the local primary school, where the children have named that regular visitor Mr Prickles."
+        },
+        {
+          "text": "Not everything Ellie tried was a success. In her first autumn she put out saucers of bread and milk, just as her mother had always done. ___ She now leaves out fresh water and a little meat-based cat food instead, and keeps one corner of the garden deliberately untidy, with a pile of leaves and logs where a hedgehog might sleep through the winter. 'It looks a bit of a mess,' she admits, 'but the hedgehogs don't seem to mind.'"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "kind": "sentence-insert",
+      "sentences": [
+        {
+          "key": "A",
+          "text": "Then she waited, not really expecting anything to happen."
+        },
+        {
+          "key": "B",
+          "text": "Sadly, her experience was far from unusual."
+        },
+        {
+          "key": "C",
+          "text": "She later learnt that this was one of the worst things she could have offered, as milk can make hedgehogs seriously ill."
+        },
+        {
+          "key": "D",
+          "text": "For the first month, however, nothing came through it."
+        },
+        {
+          "key": "E",
+          "text": "To do that, it needs to be able to move freely from one garden to the next."
+        },
+        {
+          "key": "F",
+          "text": "Soon other residents were knocking on her door, asking how to do the same."
+        }
+      ],
+      "answers": [
+        {
+          "answer": "B",
+          "why_pl": "„her experience” = to, że przez prawie 10 lat nie widziała jeża. Po luce „Across Britain, hedgehog numbers have fallen” uogólnia jej przypadek na cały kraj, czyli pokazuje, że nie był wyjątkowy (far from unusual)."
+        },
+        {
+          "answer": "E",
+          "why_pl": "„To do that” = przejść kilometr w nocy i szukać jedzenia. Po luce „however” stawia kontrast: jeż musi swobodnie przechodzić między ogrodami, a płoty robią z ogrodu ślepy zaułek. Bez E słowo „however” nie ma się z czym kłócić."
+        },
+        {
+          "answer": "A",
+          "why_pl": "Najpierw wycina dziurę, w luce czeka, a po luce „Within a week” kamera pokazuje dwa jeże, czyli wynik czekania (i to szybszy, niż się spodziewała). Pułapka to D: „it” też pasowałoby do dziury, ale „For the first month… nothing came through” jest sprzeczne z „Within a week… two different hedgehogs”. D to zdanie zbędne. F tu nie pasuje: sąsiedzi przychodzą dopiero, gdy wieść się rozeszła (akapit 4), a po luce jest wynik samego czekania, czyli kamera."
+        },
+        {
+          "answer": "F",
+          "why_pl": "„News travels fast” zapowiada, że inni się dowiedzieli. F mówi, co zrobili: przychodzili zapytać, jak zrobić to samo (the same = dziura w płocie). Po luce wynik: ponad 60 połączonych ogrodów."
+        },
+        {
+          "answer": "C",
+          "why_pl": "„this” = chleb z mlekiem z poprzedniego zdania. Początek akapitu „Not everything Ellie tried was a success” zapowiada błąd, a po luce „instead” pokazuje, czym go zastąpiła: wodą i karmą dla kotów."
+        }
+      ]
+    }
+  ]
+}
