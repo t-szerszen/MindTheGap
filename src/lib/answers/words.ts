@@ -1,12 +1,12 @@
 import { normalizeAnswer, normalizeBasic } from '.'
 
 // liczenie wyrazów: jedna funkcja dla wypracowań i dla luk z limitem słów.
-// Wyraz = ciąg liter/cyfr (z apostrofami i łącznikami w środku), interpunkcja się nie liczy.
-// Jak w zasadach CKE: skrót (wasn't, must've), wyraz z łącznikiem i Peter's to JEDEN wyraz.
-const WORD = /[\p{L}\p{N}]+(?:['’‐-][\p{L}\p{N}]+)*/gu
+// Jak w zasadach CKE: wyraz to to, co oddzielają spacje — skrót (wasn't), wyraz z łącznikiem, Peter's,
+// data 10.01.2024, adres www i e-mail to po JEDNYM wyrazie. Sama interpunkcja (np. samotny myślnik) się nie liczy.
+const HAS_WORD = /[\p{L}\p{N}]/u
 
 export function countWords(text: string) {
-  return text.match(WORD)?.length ?? 0
+  return text.split(/\s+/).filter((t) => HAS_WORD.test(t)).length
 }
 
 export type LimitCheck =

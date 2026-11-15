@@ -1,0 +1,429 @@
+[
+  {
+    "id": "essay-home-education",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "education",
+    "prompt_pl": "Niektórzy rodzice decydują się uczyć swoje nastoletnie dzieci w domu, zamiast posyłać je do szkoły. Napisz rozprawkę, w której przedstawisz zalety i wady edukacji domowej dla uczniów w wieku szkoły średniej.",
+    "elements_pl": [
+      "przedstawić zalety edukacji domowej dla uczniów w wieku szkoły średniej",
+      "przedstawić wady edukacji domowej dla uczniów w wieku szkoły średniej"
+    ],
+    "planHint_pl": "Zawężenie: nastolatki w wieku szkoły średniej, nie dzieci w ogóle. Wstęp: jedno–dwa zdania o zjawisku i teza z obiema stronami. Zalety: własne tempo i plan dnia, nauka pod zainteresowania, do każdej wyjaśnienie i przykład. Wady: mniej kontaktu z rówieśnikami, duży ciężar dla rodziców. Zakończenie: która strona przeważa i dla kogo to ma sens.",
+    "models": [
+      {
+        "kind": "weaker",
+        "paragraphs": [
+          "Nowadays, some parents teach their teenage children at home instead of sending them to school. A lot of people talk about it and it is a very interesting topic. In this essay I will write about home education.",
+          "Home education has a lot of advantages. Firstly, students can learn in their own speed. Secondly, they can get up later. Thirdly, they do not have to travel to school. Finally, they can learn about things they like.",
+          "On the other hand, home education also has disadvantages. The biggest problem is that students do not meet people in their age every day. At school, students make friends, go on trips and learn how to work in a group, for example when they prepare a project with their classmates. At home it is much more difficult. Moreover, parents must to spend a lot of time on teaching, so one of them often cannot work. If a student will have problems with maths or physics, the parents may not be able to help. Of course, it depends from the family.",
+          "To sum up, some parents teach their teenage children at home instead of sending them to school. In my opinion, home education has advantages and disadvantages and every family should decide for itself."
+        ],
+        "annotations": [
+          {
+            "quote": "A lot of people talk about it and it is a very interesting topic.",
+            "criterion": "range",
+            "note_pl": "Zdanie nic nie wnosi, a interesting (obok nice i great) CKE podaje jako przykład nieprecyzyjnego słownictwa. Do tego same pospolite struktury: a lot of, very."
+          },
+          {
+            "quote": "In this essay I will write about home education.",
+            "criterion": "task",
+            "note_pl": "Teza nie zapowiada struktury: nie wiadomo, że będą i zalety, i wady. Za wstęp najwyżej 1 z 2 pkt. Wystarczyłoby: Home education has clear benefits, but it also has serious drawbacks."
+          },
+          {
+            "quote": "in their own speed",
+            "criterion": "accuracy",
+            "note_pl": "Błąd w kolokacji. Poprawnie: at their own pace (we własnym tempie)."
+          },
+          {
+            "quote": "Secondly, they can get up later. Thirdly, they do not have to travel to school.",
+            "criterion": "task",
+            "note_pl": "Lista: cztery zalety, każda w jednym zdaniu, bez wyjaśnienia i przykładu. To realizacja powierzchowna, za ten element 1 pkt. Lepiej dwie zalety rozwinięte niż cztery gołe."
+          },
+          {
+            "quote": "people in their age",
+            "criterion": "accuracy",
+            "note_pl": "Kalka z polskiego „w ich wieku”. Poprawnie: people of their age albo po prostu their peers."
+          },
+          {
+            "quote": "for example when they prepare a project with their classmates",
+            "criterion": "task",
+            "note_pl": "Tu jest konkret: sytuacja, w której wada naprawdę coś znaczy. Razem z drugim aspektem (czas i wiedza rodziców) wady są omówione na tyle, że ten element może dostać 2 pkt."
+          },
+          {
+            "quote": "parents must to spend",
+            "criterion": "accuracy",
+            "note_pl": "Po must czasownik bez to. Poprawnie: parents must spend albo parents have to spend."
+          },
+          {
+            "quote": "If a student will have",
+            "criterion": "accuracy",
+            "note_pl": "W zdaniu z if o przyszłości nie ma will. Poprawnie: If a student has problems with maths…"
+          },
+          {
+            "quote": "depends from",
+            "criterion": "accuracy",
+            "note_pl": "Zły przyimek. Poprawnie: it depends on the family."
+          },
+          {
+            "quote": "To sum up, some parents teach their teenage children at home instead of sending them to school.",
+            "criterion": "task",
+            "note_pl": "Zakończenie powtarza wstęp prawie tymi samymi słowami, a ostatnie zdanie to schemat bez wniosku. Za zakończenie 1 pkt."
+          }
+        ],
+        "comment_pl": "Szacunek: zgodność z poleceniem 3/5. Treść 7/10: wstęp 1, zalety 1, wady 2, zakończenie 1, brak fragmentów nie na temat 2. Forma 4/4, jeśli egzaminator uzna In this essay I will write about… za tezę. Jeśli nie, wstęp ma 0, a forma 3/4 (przepada teza we wstępie), czyli treść 6 i forma 3. Z tabeli C w obu wariantach wychodzi 3. Spójność 2/2: łączniki są proste, ale tekst się nie rwie. Zakres 1/3: prawie same pospolite słowa i struktury. Poprawność 2/3: pięć błędów językowych w tak krótkim i prostym tekście to raczej „liczne”. Razem około 8/13. Najwięcej da poprawienie treści: teza, rozwinięte zalety i prawdziwy wniosek w zakończeniu."
+      },
+      {
+        "kind": "stronger",
+        "paragraphs": [
+          "For most teenagers, school is where learning happens. However, some parents choose to educate their children at home instead of sending them to secondary school. This approach offers real benefits, but it also comes with drawbacks that families should weigh carefully.",
+          "The greatest advantage is flexibility. Without a fixed timetable, students can spend more time on subjects they find difficult and move quickly through those they have already mastered. A teenager who struggles with chemistry, for instance, can devote a whole week to it instead of falling further behind. Furthermore, learning can be shaped around individual interests. A student passionate about programming or music can pursue that interest seriously, which is rarely possible alongside a seven-hour school day.",
+          "On the other hand, home education can be isolating. School is not only about lessons; it is also where teenagers make friends, learn to cooperate and deal with conflict. Although home-educated students can join clubs or sports teams, they spend far less time with people of their own age. Another drawback is the pressure on parents. Teaching several subjects at an advanced level requires knowledge and time, which often means one parent has to give up work.",
+          "All things considered, home education can work well for highly motivated teenagers whose parents have the time and skills to support them. For most students, however, the social side of school is too valuable to lose, so in my view it should remain the exception rather than the rule."
+        ],
+        "annotations": [
+          {
+            "quote": "instead of sending them to secondary school",
+            "criterion": "task",
+            "note_pl": "Zawężenie z tematu (wiek szkoły średniej) pojawia się już we wstępie. Egzaminator widzi, że piszesz o nastolatkach, a nie o edukacji domowej w ogóle."
+          },
+          {
+            "quote": "This approach offers real benefits, but it also comes with drawbacks that families should weigh carefully.",
+            "criterion": "task",
+            "note_pl": "Teza zapowiada obie strony (benefits / drawbacks), więc wiadomo, jak będzie zbudowany tekst. Wstęp 2 pkt, a teza we wstępie to też element formy."
+          },
+          {
+            "quote": "Without a fixed timetable, students can spend more time on subjects they find difficult",
+            "criterion": "task",
+            "note_pl": "Argument z wyjaśnieniem: nie tylko „mogą uczyć się we własnym tempie”, ale dlaczego i jak to działa."
+          },
+          {
+            "quote": "A teenager who struggles with chemistry, for instance, can devote a whole week to it instead of falling further behind.",
+            "criterion": "task",
+            "note_pl": "Przykład zamienia ogólnik w konkretną sytuację. Dwa tak rozwinięte aspekty to za zalety 2 pkt."
+          },
+          {
+            "quote": "can be shaped around individual interests",
+            "criterion": "range",
+            "note_pl": "Strona bierna z modalem i naturalne shape around: struktura i słownictwo co najmniej na poziomie B2."
+          },
+          {
+            "quote": "On the other hand, home education can be isolating.",
+            "criterion": "coherence",
+            "note_pl": "Łącznik i zdanie tematyczne: od pierwszych słów wiadomo, że akapit jest o wadach."
+          },
+          {
+            "quote": "School is not only about lessons; it is also where teenagers make friends",
+            "criterion": "range",
+            "note_pl": "Konstrukcja not only… also i średnik: zdanie złożone, a nadal jasne."
+          },
+          {
+            "quote": "Although home-educated students can join clubs or sports teams",
+            "criterion": "task",
+            "note_pl": "Autor sam przyznaje, że kontakt z rówieśnikami da się częściowo zastąpić, i pokazuje, czemu to za mało. To pogłębienie argumentu, a nie kolejny punkt na liście."
+          },
+          {
+            "quote": "whose parents have the time and skills to support them",
+            "criterion": "task",
+            "note_pl": "Zakończenie nie kopiuje wstępu: mówi, dla kogo to rozwiązanie ma sens, i wynika z obu akapitów. Za zakończenie 2 pkt."
+          },
+          {
+            "quote": "the exception rather than the rule",
+            "criterion": "range",
+            "note_pl": "Utarty zwrot (wyjątek, a nie reguła), który precyzyjnie zamyka opinię."
+          }
+        ],
+        "comment_pl": "Szacunek: zgodność z poleceniem 5/5 (treść 10/10, forma 4/4), spójność 2/2, zakres 3/3, poprawność 3/3, razem 13/13. Porównaj ze słabszą wersją: pomysły są prawie te same. Różnicę robią teza, wyjaśnienia i przykłady, zakończenie z wnioskiem i precyzyjne słownictwo, a nie trudniejsze argumenty."
+      }
+    ],
+    "tags": ["writing-essay"]
+  },
+  {
+    "id": "essay-remote-first-job",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "work",
+    "prompt_pl": "Niektóre firmy zatrudniają pracowników, którzy pracują wyłącznie zdalnie i w ogóle nie przychodzą do biura. Napisz rozprawkę, w której przedstawisz zalety i wady pracy wyłącznie zdalnej dla młodych ludzi, którzy dopiero zaczynają karierę zawodową.",
+    "elements_pl": [
+      "przedstawić zalety pracy wyłącznie zdalnej dla osób zaczynających karierę",
+      "przedstawić wady takiej pracy dla osób zaczynających karierę"
+    ],
+    "planHint_pl": "Dwa zawężenia: wyłącznie zdalnie i początek kariery. Każdy argument sprawdź pytaniem: czy dotyczy właśnie kogoś, kto dopiero zaczyna? Zalety: brak dojazdów, praca dla firmy z dużego miasta bez drogiego czynszu. Wady: trudniej uczyć się od doświadczonych kolegów, trudniej się wykazać. Zakończenie: wniosek i rozsądna propozycja.",
+    "models": [
+      {
+        "kind": "model",
+        "paragraphs": [
+          "A first job used to mean a desk in an office. Today, however, some companies hire graduates who will never set foot in an office at all. Working entirely from home can be a real opportunity for someone starting their career, yet it also carries risks that are easy to underestimate.",
+          "The most obvious advantage is the time and money saved on commuting. Instead of spending an hour on a crowded bus, a young employee can use that hour to sleep, exercise or study. Another major benefit is that there is no need to move to an expensive city. A graduate from a small town can work for a company in Warsaw without paying high rent, which makes a first salary go much further.",
+          "However, for a beginner the drawbacks may be even more significant. Much of what young people learn at work comes from watching experienced colleagues and asking quick questions, which is far harder through a screen. A junior programmer, for example, may wait hours for an answer that someone at the next desk could give in a minute. Furthermore, newcomers who meet their managers only online find it harder to build relationships and get noticed.",
+          "On balance, I believe that working only from home is not the best start for most young people. A hybrid arrangement, with at least a few days a week in the office, would let them keep some of these benefits while still learning from others."
+        ],
+        "annotations": [
+          {
+            "quote": "Working entirely from home can be a real opportunity for someone starting their career, yet it also carries risks that are easy to underestimate.",
+            "criterion": "task",
+            "note_pl": "Teza zapowiada obie strony i powtarza oba zawężenia z tematu: entirely (wyłącznie) i starting their career (początek kariery). Wstęp 2 pkt."
+          },
+          {
+            "quote": "who will never set foot in an office at all",
+            "criterion": "range",
+            "note_pl": "Set foot in = postawić nogę w. Naturalny zwrot zamiast płaskiego never go to the office."
+          },
+          {
+            "quote": "Instead of spending an hour on a crowded bus",
+            "criterion": "task",
+            "note_pl": "Zaleta pokazana na konkretnej sytuacji i od razu z tym, co młody pracownik zyskuje (sen, ruch, nauka)."
+          },
+          {
+            "quote": "A graduate from a small town can work for a company in Warsaw",
+            "criterion": "task",
+            "note_pl": "Przykład dotyczy właśnie osoby na starcie, a nie pracowników w ogóle. Dwa rozwinięte aspekty to za zalety 2 pkt."
+          },
+          {
+            "quote": "which makes a first salary go much further",
+            "criterion": "range",
+            "note_pl": "Money goes further = pieniądze starczają na więcej. Idiomatyczne i precyzyjne."
+          },
+          {
+            "quote": "However, for a beginner the drawbacks may be even more significant.",
+            "criterion": "coherence",
+            "note_pl": "Przejście do wad i od razu powrót do zawężenia z tematu (for a beginner). Akapit trzyma się jednej myśli."
+          },
+          {
+            "quote": "A junior programmer, for example, may wait hours for an answer",
+            "criterion": "task",
+            "note_pl": "Przykład, który pokazuje mechanizm wady: na odległość nauka od innych jest wolniejsza."
+          },
+          {
+            "quote": "find it harder to build relationships and get noticed",
+            "criterion": "range",
+            "note_pl": "Struktura find it + przymiotnik + to i kolokacja build relationships."
+          },
+          {
+            "quote": "A hybrid arrangement, with at least a few days a week in the office",
+            "criterion": "task",
+            "note_pl": "Zakończenie nie powtarza tezy: daje ocenę i propozycję, która wynika z wad opisanych w akapicie 3. Za zakończenie 2 pkt."
+          }
+        ],
+        "comment_pl": "Szacunek: zgodność z poleceniem 5/5 (treść 10/10, forma 4/4), spójność 2/2, zakres 3/3, poprawność 3/3, razem 13/13. Najmocniejsza strona tego tekstu to pilnowanie zawężeń. Brak dojazdów to zaleta każdej pracy zdalnej, ale tekst od razu pokazuje ją z perspektywy młodego pracownika. Pozostałe argumenty (pierwsza pensja bez drogiego czynszu, nauka od doświadczonych kolegów, szansa, żeby się wykazać) dotyczą właśnie kogoś na starcie i pracy wyłącznie zdalnej. Rozprawka o pracy zdalnej w ogóle dostałaby za elementy najwyżej 1."
+      }
+    ],
+    "tags": ["writing-essay"]
+  },
+  {
+    "id": "essay-online-doctor",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "health",
+    "prompt_pl": "Wiele przychodni pozwala dziś pacjentom porozmawiać z lekarzem przez telefon albo przez internet, bez przychodzenia do gabinetu. Napisz rozprawkę, w której przedstawisz zalety i wady takich porad lekarskich na odległość.",
+    "elements_pl": [
+      "przedstawić zalety porad lekarskich przez telefon albo internet",
+      "przedstawić wady takich porad"
+    ],
+    "planHint_pl": "Pisz o poradzie na odległość zamiast wizyty, a nie o zdrowiu w ogóle. Zalety: szybciej i bez dojazdu, wygoda przy prostych sprawach, nikt nie zaraża innych w poczekalni. Wady: lekarz nie może zbadać pacjenta, nie każdy radzi sobie z rozmową przez telefon czy wideo. Zakończenie: do czego takie porady się nadają, a do czego nie.",
+    "models": [
+      {
+        "kind": "model",
+        "paragraphs": [
+          "Not so long ago, seeing a doctor meant taking time off school or work and spending an hour in a crowded waiting room. Now many patients can describe their symptoms over the phone or during a video call. Such remote consultations have obvious advantages, but they also have limitations.",
+          "The main benefit is convenience. A short call takes minutes, so patients do not have to travel or wait, which matters especially for people living in villages far from the nearest clinic. Remote advice is also well suited to simple matters, such as getting a repeat prescription or discussing test results. What is more, staying at home protects others. A patient with a high temperature does not have to sit among elderly people and risk passing on an infection.",
+          "Nevertheless, a doctor who cannot physically examine the patient may miss important signs. Listening to someone's chest or pressing on a painful stomach is impossible from a distance, so a serious illness could be mistaken for a minor one. Moreover, remote consultations are not equally easy for everyone. Many older patients find video calls confusing, and people with hearing problems may struggle with a poor connection. For them, a visit in person remains the safer option.",
+          "All in all, remote consultations are a useful addition to traditional appointments, but they cannot replace them. In my view, they work best for follow-up questions and minor problems, while anything that requires a physical examination should still be handled face to face."
+        ],
+        "annotations": [
+          {
+            "quote": "Such remote consultations have obvious advantages, but they also have limitations.",
+            "criterion": "task",
+            "note_pl": "Teza z obiema stronami. Wstęp najpierw pokazuje zmianę (kiedyś poczekalnia, dziś telefon), więc teza nie wisi w próżni."
+          },
+          {
+            "quote": "which matters especially for people living in villages far from the nearest clinic",
+            "criterion": "task",
+            "note_pl": "Pogłębienie: dla kogo ta zaleta jest najważniejsza. Szczegół zamiast ogólnego it is convenient."
+          },
+          {
+            "quote": "such as getting a repeat prescription or discussing test results",
+            "criterion": "range",
+            "note_pl": "Precyzyjne słownictwo z tematu zamiast simple things: repeat prescription (kolejna recepta na ten sam lek) i test results (wyniki badań)."
+          },
+          {
+            "quote": "risk passing on an infection",
+            "criterion": "range",
+            "note_pl": "Risk + forma -ing i phrasal verb pass on (przekazać, zarazić kogoś)."
+          },
+          {
+            "quote": "Nevertheless, a doctor who cannot physically examine the patient may miss important signs.",
+            "criterion": "coherence",
+            "note_pl": "Łącznik kontrastu i zdanie tematyczne otwierają akapit o wadach. Ostrożne may: autor nie przesadza, więc argument brzmi wiarygodnie."
+          },
+          {
+            "quote": "Listening to someone's chest or pressing on a painful stomach is impossible from a distance",
+            "criterion": "task",
+            "note_pl": "Konkretne przykłady badań, których nie da się zrobić na odległość. Wada jest pokazana, a nie tylko nazwana."
+          },
+          {
+            "quote": "For them, a visit in person remains the safer option.",
+            "criterion": "coherence",
+            "note_pl": "Krótkie zdanie domyka drugi aspekt: for them odsyła do starszych pacjentów i osób z problemami ze słuchem i od razu mówi, co z tego dla nich wynika."
+          },
+          {
+            "quote": "they work best for follow-up questions and minor problems",
+            "criterion": "task",
+            "note_pl": "Zakończenie daje praktyczny wniosek: kiedy tak, a kiedy nie. Nie powtarza wstępu, więc 2 pkt."
+          },
+          {
+            "quote": "should still be handled face to face",
+            "criterion": "range",
+            "note_pl": "Strona bierna z modalem i face to face (osobiście). Styl formalny do samego końca."
+          }
+        ],
+        "comment_pl": "Szacunek: zgodność z poleceniem 5/5 (treść 10/10, forma 4/4), spójność 2/2, zakres 3/3, poprawność 3/3, razem 13/13. Zwróć uwagę, że w każdym akapicie są dwa aspekty i oba mają szczegół albo przykład. Właśnie tego pilnuje egzaminator przy ocenie „wieloaspektowo”."
+      }
+    ],
+    "tags": ["writing-essay"]
+  },
+  {
+    "id": "essay-space-research",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "science",
+    "prompt_pl": "Niektórzy uważają, że państwa powinny przestać wydawać duże pieniądze na badania kosmosu i przeznaczyć je na rozwiązywanie problemów na Ziemi. Napisz rozprawkę, w której przedstawisz swoją opinię na ten temat. Odnieś się do korzyści, jakie badania kosmosu przynoszą ludziom na Ziemi, oraz do argumentu, że te pieniądze lepiej wydać na inne cele.",
+    "elements_pl": [
+      "przedstawić korzyści, jakie badania kosmosu przynoszą ludziom na Ziemi",
+      "odnieść się do argumentu, że te pieniądze lepiej wydać na inne cele"
+    ],
+    "planHint_pl": "To rozprawka z opinią: w tezie twoje stanowisko i zapowiedź obu elementów. Element 1: konkretne korzyści (prognozy pogody, nawigacja satelitarna, obserwacja klimatu). Element 2: przytocz argument przeciwników i odeprzyj go. Wolno, bo tekst dalej wspiera tezę. Zakończenie: wniosek, który wynika z obu akapitów.",
+    "models": [
+      {
+        "kind": "model",
+        "paragraphs": [
+          "Space missions cost enormous sums, so it is no wonder that some people would rather see this money spent on hospitals or schools. However, I am convinced that cutting space research would be a mistake, both because it improves life on Earth and because the case for cutting it is weaker than it first appears.",
+          "Much of modern life depends on work done in space. Weather satellites allow forecasters to warn people about storms and floods days in advance, which saves lives and protects crops. Satellite navigation, which guides ambulances and delivery drivers alike, would not exist without decades of space research. What is more, images taken from orbit help scientists track melting glaciers and forest fires, which is vital for understanding climate change.",
+          "Admittedly, the money could be used to tackle pressing problems such as poverty or long hospital waiting lists. Yet this argument assumes that governments must choose one or the other. In reality, space agencies receive only a small share of public spending, so cutting their budgets would hardly solve any major problem. Moreover, space programmes create jobs for engineers and can inspire young people to study science, which benefits the economy in the long run.",
+          "For all these reasons, I strongly believe that governments should keep investing in space exploration. Rather than cutting these budgets, they should explain how much everyday life depends on satellites. Space research is not an expensive luxury but an investment whose benefits are felt on Earth."
+        ],
+        "annotations": [
+          {
+            "quote": "it is no wonder that some people would rather see this money spent on hospitals or schools",
+            "criterion": "task",
+            "note_pl": "Cudzy pogląd jest tu tylko tłem. Od 2024 teza, która podaje wyłącznie opinię innych, nie zapowiada struktury, dlatego zaraz po nim przychodzi własne stanowisko."
+          },
+          {
+            "quote": "I am convinced that cutting space research would be a mistake, both because it improves life on Earth and because the case for cutting it is weaker than it first appears",
+            "criterion": "task",
+            "note_pl": "Teza: jasne stanowisko i zapowiedź obu elementów (korzyści + odpowiedź na argument przeciwników). Wstęp 2 pkt."
+          },
+          {
+            "quote": "Weather satellites allow forecasters to warn people about storms and floods days in advance",
+            "criterion": "task",
+            "note_pl": "Konkretna korzyść z mechanizmem (satelity → prognozy → ostrzeżenia) i skutkiem (saves lives). Tak wygląda realizacja pogłębiona."
+          },
+          {
+            "quote": "which guides ambulances and delivery drivers alike",
+            "criterion": "range",
+            "note_pl": "Wtrącone zdanie względne i alike (zarówno jedni, jak i drudzy): zwięźle i precyzyjnie."
+          },
+          {
+            "quote": "Admittedly, the money could be used to tackle pressing problems such as poverty or long hospital waiting lists.",
+            "criterion": "task",
+            "note_pl": "Argument przeciwników przytoczony po to, żeby go odeprzeć. W rozprawce z opinią to wolno i nie psuje zgodności z tezą."
+          },
+          {
+            "quote": "Yet this argument assumes that governments must choose one or the other.",
+            "criterion": "coherence",
+            "note_pl": "This argument odsyła do poprzedniego zdania, a yet od razu zapowiada ripostę. Czytelnik wie, gdzie jest."
+          },
+          {
+            "quote": "would hardly solve any major problem",
+            "criterion": "range",
+            "note_pl": "Hardly = prawie wcale; z any zamiast no, bo hardly już jest przeczeniem."
+          },
+          {
+            "quote": "Rather than cutting these budgets, they should explain how much everyday life depends on satellites",
+            "criterion": "task",
+            "note_pl": "Zakończenie to nie samo powtórzenie tezy: dochodzi wniosek, co rządy powinny robić. Za zakończenie 2 pkt."
+          },
+          {
+            "quote": "is not an expensive luxury but an investment",
+            "criterion": "range",
+            "note_pl": "Konstrukcja not… but… zamyka tekst mocnym przeciwstawieniem."
+          }
+        ],
+        "comment_pl": "Szacunek: zgodność z poleceniem 5/5 (treść 10/10, forma 4/4), spójność 2/2, zakres 3/3, poprawność 3/3, razem 13/13. To wzór rozprawki z opinią: teza pokazuje własne stanowisko, a drugi element polega na odparciu cudzego argumentu. Cała treść wspiera tezę, więc nie ma niezgodności tezy z rozwinięciem."
+      }
+    ],
+    "tags": ["writing-essay"]
+  },
+  {
+    "id": "essay-car-free-centre",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "society",
+    "prompt_pl": "W wielu miastach toczy się dyskusja o zamknięciu ścisłego centrum dla samochodów prywatnych. Napisz rozprawkę, w której przedstawisz swoją opinię na temat takiego zakazu. Odnieś się do jego wpływu na życie mieszkańców oraz do tego, co miasto powinno zrobić, żeby to rozwiązanie się sprawdziło.",
+    "elements_pl": [
+      "przedstawić wpływ zakazu wjazdu samochodów prywatnych do centrum na życie mieszkańców",
+      "zaproponować, co miasto powinno zrobić, żeby taki zakaz się sprawdził"
+    ],
+    "planHint_pl": "Rozprawka z opinią, w której drugi element to rozwiązanie. Teza: twoje stanowisko i warunek (dobre przygotowanie). Element 1: czystsze i cichsze ulice, odzyskana przestrzeń, ale też uczciwie: trudności dla starszych. Element 2: konkretne działania, np. częstsza i tańsza komunikacja, wyjątki dla tych, którzy naprawdę potrzebują auta, parkingi na obrzeżach. Ogólnik typu „miasto musi coś zrobić” nie wystarczy.",
+    "models": [
+      {
+        "kind": "model",
+        "paragraphs": [
+          "Traffic jams, noise and polluted air have become part of everyday life in many city centres. One radical solution is to close them to private cars altogether. In my opinion, such a ban would make city centres far better places to live, but only if the authorities prepare for it carefully.",
+          "The most noticeable change would be cleaner and quieter streets. With fewer exhaust fumes, people with asthma could breathe more easily, and residents could sleep with the windows open. Moreover, space now used for parking could be turned into wider pavements, cycle lanes and small parks, where neighbours could meet and children could play safely. Admittedly, some residents, especially older people, might find it harder to get around at first, which is why good preparation is essential.",
+          "First and foremost, the city would need to improve public transport before the ban comes into force. Trams and buses should run more frequently, including late in the evening, and tickets should be cheap enough to compete with driving. Secondly, there should be exceptions for people who genuinely depend on a car, such as disabled drivers. Finally, park-and-ride car parks on the outskirts would let commuters switch to the tram.",
+          "To conclude, closing city centres to cars is not about punishing drivers but about giving streets back to people. If the change is introduced gradually and residents are offered real alternatives, I am sure most of them will soon wonder how they ever put up with the traffic."
+        ],
+        "annotations": [
+          {
+            "quote": "such a ban would make city centres far better places to live, but only if the authorities prepare for it carefully",
+            "criterion": "task",
+            "note_pl": "Teza z opinią i zapowiedzią obu elementów: wpływ na mieszkańców (better places to live) i warunek, czyli przygotowanie miasta. Wstęp 2 pkt."
+          },
+          {
+            "quote": "people with asthma could breathe more easily",
+            "criterion": "task",
+            "note_pl": "Skutek pokazany na konkretnej grupie mieszkańców, a nie ogólne the air would be better."
+          },
+          {
+            "quote": "could be turned into wider pavements, cycle lanes and small parks",
+            "criterion": "range",
+            "note_pl": "Strona bierna z modalem i słownictwo miejskie w wersji brytyjskiej (pavements, cycle lanes)."
+          },
+          {
+            "quote": "which is why good preparation is essential",
+            "criterion": "coherence",
+            "note_pl": "Zdanie-most: uczciwie przyznana trudność prowadzi prosto do akapitu o rozwiązaniach."
+          },
+          {
+            "quote": "First and foremost, the city would need to improve public transport before the ban comes into force.",
+            "criterion": "task",
+            "note_pl": "Rozwiązanie jest konkretne: co i kiedy. Ogólnik w stylu the city should do something to ryzyko 0 pkt (tak oceniono ogólnikowy pomysł w liście z 2025)."
+          },
+          {
+            "quote": "cheap enough to compete with driving",
+            "criterion": "range",
+            "note_pl": "Struktura przymiotnik + enough + to i precyzyjne compete with."
+          },
+          {
+            "quote": "such as disabled drivers",
+            "criterion": "task",
+            "note_pl": "Kolejne działanie z przykładem. Trzy konkretne propozycje (komunikacja, wyjątki, parkingi) to realizacja wieloaspektowa, więc 2 pkt."
+          },
+          {
+            "quote": "is not about punishing drivers but about giving streets back to people",
+            "criterion": "range",
+            "note_pl": "Konstrukcja not about… but about… zbiera myśl całego tekstu w jedno zdanie."
+          },
+          {
+            "quote": "I am sure most of them will soon wonder how they ever put up with the traffic",
+            "criterion": "task",
+            "note_pl": "Zakończenie zgodne z tezą, ale innymi słowami i z przewidywaniem, które wynika z akapitów. Za zakończenie 2 pkt."
+          }
+        ],
+        "comment_pl": "Szacunek: zgodność z poleceniem 5/5 (treść 10/10, forma 4/4), spójność 2/2, zakres 3/3, poprawność 3/3, razem 13/13. Tak wygląda rozprawka z opinią, w której jeden element to rozwiązanie problemu. Zauważ, że trudność dla mieszkańców pojawia się w akapicie 2, ale tylko jako most do propozycji, więc nie przeczy tezie. Element typu „zaproponuj” w rozprawce to rzadkość: w latach 2023–2026 był tylko w liście (2025), a wszystkie rozprawki były „za i przeciw”. Ten temat to trening na wypadek rozprawki z opinią, którą informator dopuszcza."
+      }
+    ],
+    "tags": ["writing-essay"]
+  }
+]

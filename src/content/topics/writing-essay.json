@@ -1,0 +1,271 @@
+{
+  "id": "writing-essay",
+  "category": "writing",
+  "title_pl": "Rozprawka krok po kroku",
+  "summary_pl": "Za i przeciw albo opinia: teza, która zapowiada plan, akapity z argumentem, wyjaśnieniem i przykładem, zakończenie z wnioskiem.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "Rozprawka to tekst, w którym **ważysz argumenty** i dochodzisz do wniosku. Na maturze rozszerzonej masz **200–250 wyrazów**, styl formalny i temat z **dwoma elementami**, które trzeba omówić.\n\nW latach 2023–2026 temat 1 był za każdym razem rozprawką **„za i przeciw”**: zalety i wady czegoś (znane osoby w reklamach, wolontariat w wakacje, studia wyłącznie online, podróż koleją po Europie). Informator dopuszcza też rozprawkę **z własną opinią**. W terminach głównych jeszcze jej nie było, ale warto umieć obie."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Za i przeciw",
+          "md_pl": "Polecenie typu: *przedstaw zalety i wady…*\n\n- teza zapowiada **obie strony**\n- jeden akapit na zalety, jeden na wady\n- własne zdanie najlepiej dać w zakończeniu, jako wniosek z argumentów",
+          "examples": [
+            {
+              "en": "Working while still at school has clear benefits, but it also has some serious drawbacks.",
+              "pl": "Praca w czasie nauki w szkole ma wyraźne zalety, ale też kilka poważnych wad."
+            }
+          ]
+        },
+        {
+          "title": "Opinia",
+          "md_pl": "Polecenie typu: *przedstaw swoją opinię na temat…* (aprobata albo dezaprobata)\n\n- teza pokazuje **twoje** stanowisko i zapowiada oba elementy\n- całe rozwinięcie wspiera tezę\n- cudzy pogląd wolno przytoczyć, żeby go odeprzeć",
+          "examples": [
+            {
+              "en": "Some people claim that a part-time job teaches independence. However, this benefit is small compared with the time it takes away from learning.",
+              "pl": "Niektórzy twierdzą, że praca dorywcza uczy samodzielności. Ta korzyść jest jednak niewielka w porównaniu z czasem, który zabiera nauce."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "W obu typach teza stoi **we wstępie**. To nie tylko treść: teza we wstępie to też jeden z czterech elementów formy."
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "**A „problem i rozwiązanie”?** W informatorze CKE nie ma takiego osobnego typu rozprawki. To rada, nie zapis CKE: gdyby temat kazał ocenić jakiś pomysł i zaproponować, jak go wprowadzić, piszesz go jak rozprawkę z opinią: teza = stanowisko + zapowiedź obu elementów.\n\nRozwiązanie pisz **konkretnie**: kto, co, kiedy, jak. W kluczu z 2025 (list, nie rozprawka) ogólnik w stylu „trzeba coś zorganizować” dostał za element 0."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Teza: najważniejsze zdanie wstępu**\n\nTeza to jedno, najwyżej dwa zdania na końcu wstępu. Mówi, **o czym będzie reszta tekstu**. Egzaminator czyta ją jak spis treści, a potem sprawdza, czy rozwinięcie dowiozło to, co obiecałeś."
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "**Zasady CKE o tezie**\n\n- teza, która **nie zapowiada struktury**, daje za wstęp najwyżej **1 z 2 pkt**\n- w „za i przeciw” musi zapowiadać **obie strony**; same zalety to za mało\n- w rozprawce z opinią musi pokazać **twoje** stanowisko; od 2024 samo „wiele osób uważa, że…” nie zapowiada struktury\n- teza ma pasować do rozwinięcia: zapowiedziana strona, której potem nie ma, albo argumenty sprzeczne z tezą kosztują punkty\n- pytanie zwykle nie zapowiada struktury (chyba że wprost zapowiada obie strony), więc pisz zdanie oznajmujące; w rozprawce z opinią to samo dotyczy zdania bez twojego stanowiska"
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Nie zapowiada struktury",
+          "md_pl": "Po kolei: sam opis zjawiska, tylko jedna strona, pytanie, tylko cudza opinia (w rozprawce z opinią). Za wstęp najwyżej 1 pkt. Jeśli egzaminator uzna, że tezy w ogóle nie ma (np. przy samym opisie zjawiska), wstęp ma 0 i przepada też element formy „teza we wstępie”.",
+          "examples": [
+            {
+              "en": "Nowadays, more and more teenagers have part-time jobs.",
+              "pl": "Obecnie coraz więcej nastolatków pracuje dorywczo."
+            },
+            {
+              "en": "Having a part-time job while at school has a lot of advantages.",
+              "pl": "Praca dorywcza w czasie nauki w szkole ma wiele zalet."
+            },
+            {
+              "en": "Is it a good idea to work while still at school?",
+              "pl": "Czy praca w czasie nauki w szkole to dobry pomysł?"
+            },
+            {
+              "en": "Many people believe that students should not work during the school year.",
+              "pl": "Wiele osób uważa, że uczniowie nie powinni pracować w trakcie roku szkolnego."
+            }
+          ]
+        },
+        {
+          "title": "Zapowiada",
+          "md_pl": "Pierwsza do „za i przeciw”, druga do rozprawki z opinią. Mogą dać 2 pkt, jeśli rozwinięcie dowiezie obietnicę.",
+          "examples": [
+            {
+              "en": "Combining school with a part-time job has clear benefits, but it also has serious drawbacks.",
+              "pl": "Łączenie szkoły z pracą dorywczą ma wyraźne zalety, ale też poważne wady."
+            },
+            {
+              "en": "In my view, students should not work during the school year, as it harms both their grades and their social life.",
+              "pl": "Moim zdaniem uczniowie nie powinni pracować w trakcie roku szkolnego, bo szkodzi to zarówno ich ocenom, jak i życiu towarzyskiemu."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Test na tezę: zakryj resztę tekstu. Czy z samej tezy wiesz, o czym będą akapity? Jeśli nie, przepisz ją."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "główka tematu",
+          "text_pl": "Podkreśl każde zawężenie z polecenia: wyłącznie, za granicą, w wakacje, młodzi ludzie. Piszesz dokładnie o tym. Pominięte zawężenie zwykle kończy się 1 pkt za element albo uznaniem, że tekst odbiega od tematu."
+        },
+        {
+          "step_pl": "plan",
+          "text_pl": "Wypisz po 2–3 argumenty na każdy element. Zostaw dwa, do których masz wyjaśnienie i przykład. Z gołym argumentem nic nie zrobisz."
+        },
+        {
+          "step_pl": "teza",
+          "text_pl": "Napisz ją przed resztą. Sprawdź: czy zapowiada oba elementy? Czy jest zdaniem oznajmującym? Czy w opinii widać twoje stanowisko?"
+        },
+        {
+          "step_pl": "rozwinięcie",
+          "text_pl": "Jeden element = jeden akapit. Pierwsze zdanie akapitu mówi, o czym on jest. Potem aspekty: argument, wyjaśnienie, przykład."
+        },
+        {
+          "step_pl": "zakończenie",
+          "text_pl": "Wniosek z tego, co już napisałeś: która strona przeważa, pod jakim warunkiem, co radzisz. Bez nowych argumentów."
+        },
+        {
+          "step_pl": "kontrola",
+          "text_pl": "Policz wyrazy (cel 200–250). Sprawdź czasowniki, przedimki, przyimki, pisownię i czy nie zostały formy skrócone typu don't."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Szablon: cztery akapity**\n\nNajbezpieczniejszy układ to cztery akapity. Liczby wyrazów są orientacyjne, ale pilnują proporcji, a kompozycja i podział na akapity to dwa osobne elementy formy."
+    },
+    {
+      "type": "table",
+      "headers": ["Akapit", "Co w nim jest", "Wyrazy"],
+      "rows": [
+        ["Wstęp", "1–2 zdania o temacie (z jego zawężeniami) + teza", "ok. 40"],
+        [
+          "Element 1",
+          "zdanie otwierające + 2 aspekty: pierwszy z wyjaśnieniem i przykładem, drugi krótszy, ale z konkretem",
+          "ok. 75"
+        ],
+        ["Element 2", "łącznik + to samo dla drugiego elementu", "ok. 75"],
+        ["Zakończenie", "krótkie podsumowanie innymi słowami + wniosek albo twoja opinia", "ok. 40"]
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Wstęp**\n\nJedno–dwa zdania, które wprowadzają temat razem z jego zawężeniami, potem teza. Argumentów tu nie ma: element omówiony we wstępie liczy się albo jako element, albo jako wstęp, nigdy jako jedno i drugie."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "In recent years, a growing number of secondary school students have taken on part-time jobs during the school year.",
+          "pl": "W ostatnich latach coraz więcej uczniów szkół średnich podejmuje pracę dorywczą w trakcie roku szkolnego."
+        },
+        {
+          "en": "Although such jobs offer clear benefits, they also have drawbacks that are worth considering.",
+          "pl": "Choć taka praca daje wyraźne korzyści, ma też wady, które warto rozważyć."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Akapit z argumentami**\n\nPierwsze zdanie mówi, o czym jest akapit (*The first benefit is…*, *The most serious drawback is…*). Potem dwa aspekty. Łącznik przed drugim aspektem (*Furthermore*, *Another advantage is that…*) pokazuje, że zaczynasz nową myśl."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "The most important advantage is that students learn to manage their own money.",
+          "pl": "Najważniejszą zaletą jest to, że uczniowie uczą się zarządzać własnymi pieniędzmi."
+        },
+        {
+          "en": "Another drawback is the lack of free time.",
+          "pl": "Kolejną wadą jest brak wolnego czasu."
+        },
+        {
+          "en": "For instance, a student who works every Saturday may have to give up football training.",
+          "pl": "Na przykład uczeń, który pracuje w każdą sobotę, może być zmuszony zrezygnować z treningów piłkarskich."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Wieloaspektowo, czyli jak dostać 2 pkt za element**\n\nKażdy z dwóch elementów tematu dostaje osobno 0–2 pkt:\n\n- **2**: realizacja wieloaspektowa i/lub pogłębiona, czyli są przykłady i szczegóły\n- **1**: sama lista argumentów bez rozwinięcia albo 1–2 aspekty omówione słabo\n- **0**: jeden nierozwinięty argument, brak elementu albo coś nie na temat\n\nBezpieczny przepis: dwa aspekty na element. Pierwszy rozpisz na argument, wyjaśnienie i przykład, drugi przynajmniej na argument i konkretny szczegół. Skutek dopisz, jeśli akapit mieści się w ok. 75 wyrazach."
+    },
+    {
+      "type": "steps",
+      "items": [
+        { "step_pl": "argument", "text_pl": "Jedno zdanie: co jest zaletą albo wadą." },
+        {
+          "step_pl": "wyjaśnienie",
+          "text_pl": "Dlaczego tak jest? Jak to działa? To ten krok najczęściej znika i wtedy zostaje lista."
+        },
+        {
+          "step_pl": "przykład",
+          "text_pl": "Konkretna osoba, sytuacja albo liczba. Zamienia ogólnik w coś, co egzaminator widzi."
+        },
+        {
+          "step_pl": "skutek",
+          "text_pl": "Jeśli masz jeszcze miejsce: co z tego wynika dla tematu. Jedno krótkie zdanie z as a result, this means that albo consequently."
+        }
+      ]
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Lista (1 pkt)",
+          "md_pl": "Trzy argumenty po jednym zdaniu. Brzmi jak wyliczanka i niczego nie udowadnia.",
+          "examples": [
+            {
+              "en": "Firstly, students earn money. Secondly, they become independent. Thirdly, they gain experience.",
+              "pl": "Po pierwsze, uczniowie zarabiają pieniądze. Po drugie, stają się niezależni. Po trzecie, zdobywają doświadczenie."
+            }
+          ]
+        },
+        {
+          "title": "Rozwinięcie (2 pkt)",
+          "md_pl": "Jeden aspekt z wyjaśnieniem, przykładem i skutkiem. Dopisz drugi, choćby krótszy, ale z konkretnym szczegółem, i to zwykle wystarcza na 2.",
+          "examples": [
+            {
+              "en": "Firstly, a part-time job teaches students to manage money. When they pay for things themselves, they start to plan their spending. A student who pays their own phone bill, for instance, thinks twice before buying new trainers. As a result, they are better prepared for adult life.",
+              "pl": "Po pierwsze, praca dorywcza uczy zarządzania pieniędzmi. Kiedy uczniowie sami za coś płacą, zaczynają planować wydatki. Uczeń, który sam opłaca rachunek za telefon, dwa razy się zastanowi, zanim kupi nowe buty sportowe. W rezultacie jest lepiej przygotowany do dorosłego życia."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Lepiej dwa rozwinięte aspekty niż pięć gołych. Lista zjada wyrazy, a punktów nie daje."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Zakończenie, które nie jest kopią wstępu**\n\nWedług zasad CKE zakończenie, które powtarza wstęp prawie tymi samymi słowami albo jest samym przeformułowaniem tezy, to **1 pkt**. Na **2 pkt** zakończenie musi pasować do tematu i do treści. Myśl ze wstępu może wrócić, ale innymi słowami.\n\nNajprościej dodać coś, co **wynika** z akapitów: która strona przeważa i dlaczego, pod jakim warunkiem rozwiązanie działa albo co radzisz komuś, kto stoi przed taką decyzją. Nowy argument na koniec to nie wniosek, jego miejsce jest w rozwinięciu."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Kopia (1 pkt)",
+          "md_pl": "Powtarza tezę i nic z niej nie wynika.",
+          "examples": [
+            {
+              "en": "To sum up, combining school with a part-time job has both advantages and disadvantages.",
+              "pl": "Podsumowując, łączenie szkoły z pracą dorywczą ma zarówno zalety, jak i wady."
+            }
+          ]
+        },
+        {
+          "title": "Wniosek (2 pkt)",
+          "md_pl": "Ocenia, która strona przeważa, i stawia warunek wzięty z akapitu o wadach.",
+          "examples": [
+            {
+              "en": "On balance, a part-time job is worth it, provided that it takes up no more than a few hours a week. Only then can it teach independence without harming school results.",
+              "pl": "Po rozważeniu wszystkich za i przeciw praca dorywcza się opłaca, pod warunkiem że zajmuje najwyżej kilka godzin w tygodniu. Tylko wtedy uczy samodzielności i nie szkodzi wynikom w nauce."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "**Styl formalny.** Za styl nie ma osobnego punktu, ale liczy się w zakresie środków: rażące albo liczne uchybienia w stosowności lub jednolitości stylu mogą zabrać 1 pkt. W rozprawce:\n\n- pełne formy: *do not*, *it is* zamiast *don't*, *it's*\n- zamiast *kids*, *stuff*: *children*, *things*; zamiast ciągłego *a lot of*: *many* (z policzalnymi), *a great deal of* (z niepoliczalnymi), a najlepiej konkretne słowo\n- zamiast *good*, *bad*, *nice*, *interesting*: słowo typowe dla tematu (*beneficial*, *harmful*, *time-consuming*)\n- bez *you know*, wykrzykników i emotek"
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**Typowe błędy, które kosztują punkty**\n\n- teza jednostronna w „za i przeciw” albo *In this essay I will write about…* bez zapowiedzi obu stron\n- pominięte zawężenie z tematu, np. nauka online w ogóle, gdy temat mówi o studiach **wyłącznie** online\n- argumenty jako lista bez wyjaśnień i przykładów: za element 1 pkt\n- argumenty wpisane już we wstęp\n- wypunktowania zamiast akapitów: segmentacja 0\n- zakończenie, które kopiuje wstęp\n- kalki słów kluczowych: *reclamation* zamiast *advertisement*, *volontariat* zamiast *volunteering*\n- polska nazwa własna bez wyjaśnienia po angielsku (np. nazwa akcji, tytuł programu): błąd językowy i usterka spójności\n- polskie słowo zamiast angielskiego (np. *matura*, lepiej *final exams*): błąd językowy; usterka spójności tylko wtedy, gdy mocno utrudnia zrozumienie"
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "**Długość i liczenie wyrazów.** Polecenie mówi 200–250 wyrazów. Element formy „długość” zaliczasz przy **180–280**. Poniżej **160** egzaminator ocenia tylko zgodność z poleceniem, a za resztę dostajesz 0.\n\nForma skrócona (*don't*) i wyraz z łącznikiem (*well-paid*) liczą się jako jeden wyraz. Tytuł nie jest potrzebny: w rozprawce pomija się go przy ocenie (zasady 2026)."
+    }
+  ]
+}

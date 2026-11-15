@@ -40,6 +40,11 @@ describe('countWords', () => {
     expect(countWords('')).toBe(0)
     expect(countWords("I don't know.")).toBe(3)
   })
+  it('data, adres i samotny myślnik jak w zasadach CKE', () => {
+    expect(
+      countWords('See www.example.com or mail me at ola@example.com on 10.01.2024 — thanks.'),
+    ).toBe(10)
+  })
   it('skrót i dzierżawcze s to jeden wyraz (jak w zasadach CKE)', () => {
     expect(countWords("wasn't in working order")).toBe(4)
     expect(countWords('was not in working order')).toBe(5)

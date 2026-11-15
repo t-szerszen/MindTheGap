@@ -1,0 +1,314 @@
+[
+  {
+    "id": "prompt-essay-01",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "person",
+    "prompt_pl": "Coraz częściej słychać, że dla wielu nastolatków to influencerzy, a nie rodzice czy nauczyciele, są dziś najważniejszymi wzorami do naśladowania. Napisz rozprawkę, w której przedstawisz swoją opinię na temat tego, czy influencerzy mogą być autorytetami dla młodzieży. Odnieś się do wpływu influencerów na wybory i styl życia młodych ludzi oraz do cech, którymi powinna się wyróżniać osoba będąca prawdziwym autorytetem.",
+    "elements_pl": [
+      "odnieść się do wpływu influencerów na wybory i styl życia młodych ludzi",
+      "odnieść się do cech, którymi powinna się wyróżniać osoba będąca prawdziwym autorytetem"
+    ],
+    "planHint_pl": "Wybierz jedno stanowisko i zapowiedz je w tezie, np. że influencer może inspirować, ale rzadko bywa prawdziwym autorytetem. Pierwszy element rozwiń na konkretach (moda, dieta, sposób wydawania pieniędzy), drugi oprzyj na cechach takich jak uczciwość, wiedza i odpowiedzialność za własne słowa. Pułapka: tekst o reklamie z udziałem gwiazd albo o mediach społecznościowych w ogóle, bo tematem są influencerzy jako autorytety.",
+    "models": []
+  },
+  {
+    "id": "prompt-essay-02",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "education",
+    "prompt_pl": "Coraz więcej młodych ludzi po maturze nie idzie od razu na studia, tylko robi sobie rok przerwy, żeby popracować, popodróżować albo zastanowić się nad przyszłością. Napisz rozprawkę, w której przedstawisz zalety i wady takiej rocznej przerwy przed rozpoczęciem studiów.",
+    "elements_pl": [
+      "przedstawić zalety rocznej przerwy między szkołą średnią a studiami",
+      "przedstawić wady rocznej przerwy między szkołą średnią a studiami"
+    ],
+    "planHint_pl": "Teza musi zapowiadać obie strony, np. że taki rok daje doświadczenie i czas na przemyślenie wyboru, ale grozi wypadnięciem z rytmu nauki. Zalety: doświadczenie zawodowe, pieniądze odłożone na studia, lepiej przemyślany wybór kierunku; wady: wypadnięcie z rytmu nauki, koszty podróży, poczucie, że znajomi są już rok dalej. Pułapka: tekst o wakacjach po maturze albo o rezygnacji ze studiów, a chodzi o rok przerwy (a gap year), po którym studia się zaczynają.",
+    "models": []
+  },
+  {
+    "id": "prompt-essay-03",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "home",
+    "prompt_pl": "Wielu studentów zamiast mieszkać w akademiku albo dojeżdżać z domu rodzinnego wynajmuje mieszkanie razem ze znajomymi. Napisz rozprawkę, w której przedstawisz dobre i złe strony wspólnego wynajmowania mieszkania ze znajomymi w czasie studiów.",
+    "elements_pl": [
+      "przedstawić dobre strony wynajmowania mieszkania ze znajomymi w czasie studiów",
+      "przedstawić złe strony wynajmowania mieszkania ze znajomymi w czasie studiów"
+    ],
+    "planHint_pl": "W tezie zapowiedz obie strony, np. że wspólne mieszkanie uczy samodzielności, ale wystawia przyjaźń na próbę. Dobre strony: niższe koszty dzięki dzieleniu czynszu i rachunków, wzajemne wsparcie, nauka gotowania i planowania budżetu; złe: spory o sprzątanie i hałas, brak prywatności i spokoju przed sesją. Pułapka: tekst o wyprowadzce z domu w ogóle, a kluczowi są tu znajomi jako współlokatorzy, po angielsku flatmates.",
+    "models": []
+  },
+  {
+    "id": "prompt-essay-04",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "home",
+    "prompt_pl": "Niektórzy rodzice uważają, że nastolatki powinny skupić się na nauce, a obowiązki domowe mogą poczekać, aż dzieci dorosną. Napisz rozprawkę, w której przedstawisz swoją opinię na temat tego, czy nastolatki powinny mieć stałe obowiązki domowe. Odnieś się do tego, czego młody człowiek uczy się dzięki regularnym obowiązkom domowym, oraz do tego, jak takie obowiązki wpływają na czas przeznaczony na naukę i odpoczynek.",
+    "elements_pl": [
+      "odnieść się do tego, czego młody człowiek uczy się dzięki regularnym obowiązkom domowym",
+      "odnieść się do tego, jak obowiązki domowe wpływają na czas przeznaczony na naukę i odpoczynek"
+    ],
+    "planHint_pl": "Zajmij wyraźne stanowisko, np. że stałe, ale rozsądne obowiązki pomagają, a nie przeszkadzają. Przy pierwszym elemencie pokaż konkretne umiejętności (gotowanie, planowanie czasu, dbanie o wspólną przestrzeń), przy drugim możesz przyznać, że w klasie maturalnej czasu jest mało, i pokazać, jak to pogodzić. Pułapka: teza, która tylko streszcza opinię rodziców, bo w rozprawce z opinią musisz podać swoje zdanie.",
+    "models": []
+  },
+  {
+    "id": "prompt-essay-05",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "education",
+    "prompt_pl": "Coraz częściej słychać propozycje, żeby lekcje w szkołach średnich zaczynały się później, np. o dziewiątej zamiast o ósmej. Napisz rozprawkę, w której przedstawisz zalety i wady późniejszego rozpoczynania lekcji.",
+    "elements_pl": [
+      "przedstawić zalety późniejszego rozpoczynania lekcji w szkołach średnich",
+      "przedstawić wady późniejszego rozpoczynania lekcji w szkołach średnich"
+    ],
+    "planHint_pl": "Teza zapowiada obie strony, np. że dłuższy sen pomógłby uczniom, ale zmiana przesunęłaby cały plan dnia. Zalety: w okresie dojrzewania zegar biologiczny przesuwa się na później, więc uczniowie byliby rano bardziej wypoczęci i skupieni; wady: lekcje kończą się później, zostaje mniej czasu na zajęcia dodatkowe, a kłopot mają rodzice wcześnie wyjeżdżający do pracy i uczniowie dojeżdżający autobusem. Pułapka: tekst o śnie i zdrowiu w ogóle, bez związku z godziną rozpoczęcia lekcji.",
+    "models": []
+  },
+  {
+    "id": "prompt-essay-06",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "education",
+    "prompt_pl": "Coraz częściej słychać głosy, że zadania domowe nic nie dają i powinny zniknąć ze szkół. Napisz rozprawkę, w której przedstawisz swoją opinię na temat całkowitej rezygnacji z zadań domowych w szkołach średnich. Odnieś się do wpływu zadań domowych na postępy w nauce oraz do ich wpływu na czas wolny i samopoczucie uczniów.",
+    "elements_pl": [
+      "odnieść się do wpływu zadań domowych na postępy w nauce",
+      "odnieść się do wpływu zadań domowych na czas wolny i samopoczucie uczniów"
+    ],
+    "planHint_pl": "Możesz być za, przeciw albo za kompromisem, ale stanowisko musi być jasne od pierwszego akapitu i trzymać się do końca. Przy postępach pomyśl o utrwalaniu materiału i samodzielnej pracy, przy czasie wolnym o zmęczeniu, zajęciach dodatkowych i śnie. Pułapka: zmiana zdania w połowie tekstu; jeśli uważasz, że zadania powinny zostać, ale powinno ich być mniej, napisz to już w tezie.",
+    "models": []
+  },
+  {
+    "id": "prompt-essay-07",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "work",
+    "prompt_pl": "Wielu uczniów szkół średnich dorabia w weekendy albo po lekcjach, np. w kawiarni, w sklepie czy przy roznoszeniu ulotek. Napisz rozprawkę, w której przedstawisz zalety i wady pracy dorywczej w trakcie roku szkolnego.",
+    "elements_pl": [
+      "przedstawić zalety podejmowania przez uczniów pracy dorywczej w trakcie roku szkolnego",
+      "przedstawić wady podejmowania przez uczniów pracy dorywczej w trakcie roku szkolnego"
+    ],
+    "planHint_pl": "Teza zapowiada plusy i minusy, np. że praca uczy odpowiedzialności, ale może odbić się na nauce. Zalety: własne pieniądze, pierwsze doświadczenie do CV, kontakt z klientami; wady: mniej czasu na naukę i sen, zmęczenie, ryzyko, że praca zacznie być ważniejsza od szkoły. Pułapka: praca wakacyjna, a w temacie chodzi o rok szkolny, więc każdy argument łącz z codzienną nauką.",
+    "models": []
+  },
+  {
+    "id": "prompt-essay-08",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "work",
+    "prompt_pl": "Niektórzy uważają, że przy wyborze zawodu najważniejsze są zarobki, a pasja to luksus, na który stać tylko nielicznych. Napisz rozprawkę, w której przedstawisz swoją opinię na ten temat. Odnieś się do znaczenia zarobków oraz do znaczenia zainteresowań i predyspozycji przy wyborze zawodu.",
+    "elements_pl": [
+      "odnieść się do znaczenia zarobków przy wyborze zawodu",
+      "odnieść się do znaczenia zainteresowań i predyspozycji przy wyborze zawodu"
+    ],
+    "planHint_pl": "Wybierz stanowisko, np. że zarobki są ważne, ale bez zainteresowania pracą trudno w niej wytrwać. Pokaż przykłady: stabilność finansowa i niezależność z jednej strony, wypalenie zawodowe i brak motywacji z drugiej. Pułapka: teza, w której tylko powtarzasz zdanie z polecenia, a musi być widać, czy się z nim zgadzasz.",
+    "models": []
+  },
+  {
+    "id": "prompt-essay-09",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "private-life",
+    "prompt_pl": "Coraz więcej rodziców korzysta z aplikacji, które pokazują im w telefonie, gdzie w danej chwili jest ich nastoletnie dziecko. Napisz rozprawkę, w której przedstawisz zalety i wady śledzenia lokalizacji nastolatków przez rodziców.",
+    "elements_pl": [
+      "przedstawić zalety śledzenia lokalizacji nastolatków przez rodziców",
+      "przedstawić wady śledzenia lokalizacji nastolatków przez rodziców"
+    ],
+    "planHint_pl": "Teza zapowiada obie strony, np. że aplikacja daje poczucie bezpieczeństwa, ale może osłabić zaufanie. Zalety: spokój rodziców, szybka pomoc w razie wypadku albo zgubienia się; wady: brak prywatności, kłótnie, nastolatek wolniej uczy się samodzielności. Pułapka: tekst o bezpieczeństwie w internecie albo o kontroli rodzicielskiej w ogóle, a chodzi o śledzenie lokalizacji (location tracking).",
+    "models": []
+  },
+  {
+    "id": "prompt-essay-10",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "private-life",
+    "prompt_pl": "Niektórzy uważają, że przyjaźnie zawarte w internecie są tak samo wartościowe jak te, które zaczęły się w szkole czy na podwórku. Napisz rozprawkę, w której przedstawisz swoją opinię na ten temat. Odnieś się do tego, w jaki sposób internet pomaga nawiązywać i utrzymywać przyjaźnie, oraz do tego, czego może brakować w relacjach utrzymywanych głównie przez internet.",
+    "elements_pl": [
+      "odnieść się do tego, w jaki sposób internet pomaga nawiązywać i utrzymywać przyjaźnie",
+      "odnieść się do tego, czego może brakować w relacjach utrzymywanych głównie przez internet"
+    ],
+    "planHint_pl": "Ustal stanowisko i zapowiedz je w tezie, np. że przyjaźń zawarta w internecie może być tak samo wartościowa jak ta ze szkoły, jeśli z czasem przeniesie się też do realnego świata. Przykłady: wspólne pasje mimo dużej odległości, wsparcie dla osób nieśmiałych; z drugiej strony brak wspólnych przeżyć i łatwość udawania kogoś innego. Przeciwne zdanie wolno przytoczyć, ale tylko po to, żeby je odeprzeć, a zakończenie musi trzymać się tezy.",
+    "models": []
+  },
+  {
+    "id": "prompt-essay-11",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "food",
+    "prompt_pl": "W Polsce, podobnie jak w wielu innych krajach, przepisy ograniczają sprzedaż słodyczy, słodzonych napojów i niezdrowych przekąsek w szkołach. Napisz rozprawkę, w której przedstawisz zalety i wady zakazu sprzedaży niezdrowego jedzenia na terenie szkoły.",
+    "elements_pl": [
+      "przedstawić zalety zakazu sprzedaży niezdrowego jedzenia na terenie szkoły",
+      "przedstawić wady zakazu sprzedaży niezdrowego jedzenia na terenie szkoły"
+    ],
+    "planHint_pl": "Teza zapowiada obie strony, np. że zakaz pomaga zmieniać nawyki, ale sam ich nie zmieni. Zalety: mniej cukru w ciągu dnia, zdrowe nawyki od młodości, szkoła daje dobry przykład; wady: uczniowie kupują to samo w sklepie obok, zdrowe przekąski bywają droższe, zakaz bez edukacji niewiele daje. Pułapka: ogólny tekst o zdrowym odżywianiu, a każdy argument trzeba wiązać z zakazem w szkole.",
+    "models": []
+  },
+  {
+    "id": "prompt-essay-12",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "shopping",
+    "prompt_pl": "Coraz więcej młodych ludzi kupuje i sprzedaje używane ubrania przez aplikacje i serwisy internetowe. Napisz rozprawkę, w której przedstawisz zalety i wady kupowania ubrań z drugiej ręki przez internet.",
+    "elements_pl": [
+      "przedstawić zalety kupowania używanych ubrań przez internet",
+      "przedstawić wady kupowania używanych ubrań przez internet"
+    ],
+    "planHint_pl": "Teza zapowiada zalety i wady, np. że to tani i bardziej ekologiczny sposób na ubrania, który wymaga jednak ostrożności. Zalety: niższe ceny, mniej odpadów, oryginalne rzeczy, których nie ma w sieciówkach; wady: nie da się przymierzyć, zdjęcia mogą wprowadzać w błąd, ryzyko oszustwa, trudniejszy zwrot niż w zwykłym sklepie. Pułapka: tekst o lumpeksach albo o zakupach online w ogóle, a ważne są oba warunki naraz: z drugiej ręki i przez internet.",
+    "models": []
+  },
+  {
+    "id": "prompt-essay-13",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "shopping",
+    "prompt_pl": "Coraz więcej osób płaci wyłącznie kartą albo telefonem, a w niektórych krajach część sklepów i kawiarni w ogóle nie przyjmuje już gotówki. Niektórzy uważają, że gotówka powinna całkowicie zniknąć. Napisz rozprawkę, w której przedstawisz swoją opinię na ten temat. Odnieś się do wygody i bezpieczeństwa płatności bezgotówkowych oraz do sytuacji osób, dla których gotówka wciąż jest ważna.",
+    "elements_pl": [
+      "odnieść się do wygody i bezpieczeństwa płatności bezgotówkowych",
+      "odnieść się do sytuacji osób, dla których gotówka wciąż jest ważna"
+    ],
+    "planHint_pl": "Zdecyduj, czy popierasz świat bez gotówki, i napisz to wprost w tezie. Argumenty: szybkie płatności, łatwa kontrola wydatków, mniej pieniędzy do zgubienia albo ukradzenia; po drugiej stronie osoby starsze, dzieci uczące się gospodarować kieszonkowym, awarie systemu i brak prądu. Pułapka: lista argumentów bez rozwinięcia, więc przy każdym podaj krótki przykład albo skutek.",
+    "models": []
+  },
+  {
+    "id": "prompt-essay-14",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "travel",
+    "prompt_pl": "W popularnych miastach turystycznych coraz więcej mieszkań w centrum wynajmuje się turystom na kilka dni zamiast stałym lokatorom. Napisz rozprawkę, w której przedstawisz zalety i wady tego zjawiska dla mieszkańców takich miast.",
+    "elements_pl": [
+      "przedstawić zalety, jakie krótkoterminowy wynajem mieszkań turystom ma dla mieszkańców miasta",
+      "przedstawić wady, jakie krótkoterminowy wynajem mieszkań turystom ma dla mieszkańców miasta"
+    ],
+    "planHint_pl": "Teza zapowiada obie strony, np. że turyści przynoszą pieniądze, ale wypychają mieszkańców z centrum. Zalety: dodatkowy dochód dla właścicieli mieszkań, ruch w lokalnych kawiarniach i sklepach, nowe miejsca pracy; wady: rosnące czynsze (rising rents), hałas w nocy, centrum, w którym zostaje coraz mniej stałych mieszkańców. Pułapka: pisanie z perspektywy turysty (tanio, wygodnie), bo polecenie pyta o mieszkańców.",
+    "models": []
+  },
+  {
+    "id": "prompt-essay-15",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "travel",
+    "prompt_pl": "Niektóre popularne miasta wprowadzają albo rozważają opłatę dla turystów, którzy przyjeżdżają tylko na jeden dzień, żeby ograniczyć tłumy na ulicach. Napisz rozprawkę, w której przedstawisz swoją opinię na temat takich opłat. Odnieś się do wpływu takich opłat na życie mieszkańców oraz do ich wpływu na turystów, zwłaszcza młodych i mniej zamożnych.",
+    "elements_pl": [
+      "odnieść się do wpływu takich opłat na życie mieszkańców",
+      "odnieść się do wpływu takich opłat na turystów, zwłaszcza młodych i mniej zamożnych"
+    ],
+    "planHint_pl": "Wybierz stanowisko, np. że opłata ma sens, jeśli pieniądze wracają do miasta i jego mieszkańców. Pierwszy element: mniej tłoku, pieniądze na sprzątanie i komunikację miejską; drugi: wycieczki szkolne i studenci, dla których liczy się każdy wydatek, i ryzyko, że zwiedzanie stanie się luksusem. Pułapka: tekst o turystyce masowej w ogóle, a trzymać się trzeba opłat dla osób przyjeżdżających na jeden dzień (day-trippers).",
+    "models": []
+  },
+  {
+    "id": "prompt-essay-16",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "culture",
+    "prompt_pl": "Nowe filmy coraz szybciej trafiają na platformy streamingowe, więc wiele osób woli poczekać i obejrzeć je w domu, zamiast iść do kina. Napisz rozprawkę, w której przedstawisz zalety i wady oglądania nowych filmów w domu zamiast w kinie.",
+    "elements_pl": [
+      "przedstawić zalety oglądania nowych filmów w domu zamiast w kinie",
+      "przedstawić wady oglądania nowych filmów w domu zamiast w kinie"
+    ],
+    "planHint_pl": "Teza zapowiada obie strony, np. że dom wygrywa wygodą, a kino przeżyciem. Zalety: niższy koszt dla całej rodziny, własne tempo, napisy i pauza w dowolnej chwili; wady: rozpraszający telefon, mniejszy ekran i gorszy dźwięk, brak wspólnego wyjścia, kłopoty kin w małych miastach. Pułapka: recenzja konkretnego filmu albo tekst o serialach, a w temacie chodzi o porównanie dwóch sposobów oglądania nowych filmów.",
+    "models": []
+  },
+  {
+    "id": "prompt-essay-17",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "sport",
+    "prompt_pl": "Niektóre szkoły zakładają drużyny e-sportowe i proponują uczniom zajęcia, na których trenują gry komputerowe pod okiem trenera. Napisz rozprawkę, w której przedstawisz zalety i wady organizowania zajęć e-sportowych w szkołach.",
+    "elements_pl": [
+      "przedstawić zalety organizowania zajęć e-sportowych w szkołach",
+      "przedstawić wady organizowania zajęć e-sportowych w szkołach"
+    ],
+    "planHint_pl": "Teza zapowiada obie strony, np. że e-sport może uczyć współpracy, ale nie zastąpi ruchu. Zalety: praca w zespole, myślenie strategiczne, szansa dla uczniów, którzy nie lubią tradycyjnych sportów; wady: jeszcze więcej czasu przed ekranem, brak wysiłku fizycznego, koszt sprzętu. Pułapka: rozprawka o grach komputerowych w ogóle, a każdy argument trzeba wiązać z zajęciami w szkole.",
+    "models": []
+  },
+  {
+    "id": "prompt-essay-18",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "health",
+    "prompt_pl": "Miliony osób noszą inteligentne zegarki i korzystają z aplikacji, które liczą kroki, mierzą tętno i oceniają jakość snu. Napisz rozprawkę, w której przedstawisz zalety i wady monitorowania własnego zdrowia za pomocą takich urządzeń.",
+    "elements_pl": [
+      "przedstawić zalety monitorowania zdrowia za pomocą inteligentnych zegarków i aplikacji",
+      "przedstawić wady monitorowania zdrowia za pomocą inteligentnych zegarków i aplikacji"
+    ],
+    "planHint_pl": "Teza zapowiada obie strony, np. że takie urządzenia motywują do dbania o siebie, ale łatwo przez nie wpaść w obsesję na punkcie liczb. Zalety: motywacja do ruchu, widoczne postępy, przypomnienia o śnie i piciu wody; wady: obsesja na punkcie liczb, niepokój przy każdym gorszym wyniku, dane o zdrowiu w rękach firm. Pułapka: tekst o technologii w medycynie (szpitale, roboty), a chodzi o urządzenia, którymi zwykły człowiek sam mierzy swoje zdrowie.",
+    "models": []
+  },
+  {
+    "id": "prompt-essay-19",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "health",
+    "prompt_pl": "W Polsce od 2024 roku, podobnie jak w kilku innych krajach, nie wolno sprzedawać napojów energetycznych osobom poniżej 18 lat. Napisz rozprawkę, w której przedstawisz swoją opinię na temat takiego zakazu. Odnieś się do wpływu napojów energetycznych na zdrowie i naukę młodych ludzi oraz do tego, czy zakaz działa lepiej niż edukacja.",
+    "elements_pl": [
+      "odnieść się do wpływu napojów energetycznych na zdrowie i naukę młodych ludzi",
+      "odnieść się do tego, czy zakaz działa lepiej niż edukacja"
+    ],
+    "planHint_pl": "Zajmij stanowisko w tezie, np. że zakaz ma sens, ale bez edukacji niewiele zmieni. Pierwszy element: dużo kofeiny i często cukru, kłopoty ze snem, energetyk zamiast wysypiania się przed sprawdzianem; drugi: starszy znajomy może kupić napój za kogoś, a dobra lekcja albo kampania tłumaczy, dlaczego warto z niego zrezygnować. Pułapka: mocne twierdzenia medyczne, których nie jesteś pewien, więc lepiej trzymać się faktów, które znasz.",
+    "models": []
+  },
+  {
+    "id": "prompt-essay-20",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "science",
+    "prompt_pl": "Coraz więcej uczniów korzysta z czatbotów opartych na sztucznej inteligencji, gdy uczy się do sprawdzianów albo odrabia lekcje. Napisz rozprawkę, w której przedstawisz zalety i wady korzystania z takich narzędzi w nauce.",
+    "elements_pl": [
+      "przedstawić zalety korzystania z czatbotów opartych na sztucznej inteligencji w nauce",
+      "przedstawić wady korzystania z czatbotów opartych na sztucznej inteligencji w nauce"
+    ],
+    "planHint_pl": "Teza zapowiada obie strony, np. że AI może być dobrym korepetytorem, ale nie zastąpi własnego myślenia. Zalety: wyjaśnienie trudnego tematu na kilka sposobów, quizy do powtórek, pomoc o każdej porze; wady: błędne odpowiedzi podane pewnym tonem, pokusa oddania gotowej pracy, słabsze zapamiętywanie materiału. Pułapka: tekst o sztucznej inteligencji w ogóle (praca, filmy, roboty), a każdy argument trzeba wiązać z nauką ucznia.",
+    "models": []
+  },
+  {
+    "id": "prompt-essay-21",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "science",
+    "prompt_pl": "W niektórych krajach wprowadzono albo rozważa się zakaz zakładania kont w mediach społecznościowych przez osoby poniżej 16 lat. Napisz rozprawkę, w której przedstawisz swoją opinię na temat takiego zakazu. Odnieś się do wpływu mediów społecznościowych na młodsze nastolatki oraz do tego, czy taki zakaz da się skutecznie egzekwować.",
+    "elements_pl": [
+      "odnieść się do wpływu mediów społecznościowych na młodsze nastolatki",
+      "odnieść się do tego, czy taki zakaz da się skutecznie egzekwować"
+    ],
+    "planHint_pl": "Wybierz stanowisko, np. że granica wieku jest potrzebna, ale sama nie wystarczy. Pierwszy element: porównywanie się z innymi, hejt, mniej snu, ale też kontakt z przyjaciółmi i dostęp do informacji; drugi: łatwo podać fałszywą datę urodzenia, a dokładniejsze sprawdzanie wieku oznacza oddanie platformom kolejnych danych. Pułapka: tekst o internecie w ogóle zamiast o mediach społecznościowych i granicy 16 lat.",
+    "models": []
+  },
+  {
+    "id": "prompt-essay-22",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "nature",
+    "prompt_pl": "Ogrody zoologiczne odwiedzają co roku miliony ludzi, ale nie brakuje głosów, że dzikie zwierzęta nie powinny żyć w niewoli. Napisz rozprawkę, w której przedstawisz zalety i wady istnienia ogrodów zoologicznych.",
+    "elements_pl": [
+      "przedstawić zalety istnienia ogrodów zoologicznych",
+      "przedstawić wady istnienia ogrodów zoologicznych"
+    ],
+    "planHint_pl": "Teza zapowiada obie strony, np. że zoo może chronić gatunki, ale nie każde zwierzę dobrze znosi życie w zamknięciu. Zalety: programy ratowania zagrożonych gatunków, edukacja dzieci, opieka nad zwierzętami, które nie przeżyłyby na wolności; wady: stres i brak przestrzeni, zwłaszcza dla dużych zwierząt, zoo traktowane jako rozrywka, a nie ochrona przyrody. Pułapka: teza, która zapowiada tylko jedną stronę; własną ocenę możesz w niej zasygnalizować, ale obie strony muszą się pojawić.",
+    "models": []
+  },
+  {
+    "id": "prompt-essay-23",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "nature",
+    "prompt_pl": "Niektórzy uważają, że zwykły człowiek nie ma wpływu na zmiany klimatu, bo wszystko zależy od rządów i wielkich firm. Napisz rozprawkę, w której przedstawisz swoją opinię na ten temat. Odnieś się do znaczenia codziennych wyborów pojedynczych osób oraz do odpowiedzialności rządów i dużych firm.",
+    "elements_pl": [
+      "odnieść się do znaczenia codziennych wyborów pojedynczych osób",
+      "odnieść się do odpowiedzialności rządów i dużych firm"
+    ],
+    "planHint_pl": "Zajmij jasne stanowisko, np. że największe zmiany zależą od rządów i firm, ale wybory zwykłych ludzi też się liczą, bo wpływają na decyzje polityków i producentów. Przykłady: transport, jedzenie, zakupy, udział w wyborach; po drugiej stronie energetyka, przepisy, przemysł. Pułapka: ogólny tekst o ochronie środowiska (śmieci w lesie, segregacja) bez związku ze zmianami klimatu.",
+    "models": []
+  },
+  {
+    "id": "prompt-essay-24",
+    "type": "writing-task",
+    "form": "essay",
+    "theme": "society",
+    "prompt_pl": "W kilku krajach osoby, które skończyły 16 lat, mogą już głosować w wyborach. Napisz rozprawkę, w której przedstawisz swoją opinię na temat obniżenia wieku wyborczego do 16 lat. Odnieś się do tego, czy szesnastolatki są przygotowane do podejmowania decyzji politycznych, oraz do wpływu takiej zmiany na zainteresowanie młodych ludzi sprawami publicznymi.",
+    "elements_pl": [
+      "odnieść się do tego, czy szesnastolatki są przygotowane do podejmowania decyzji politycznych",
+      "odnieść się do wpływu takiej zmiany na zainteresowanie młodych ludzi sprawami publicznymi"
+    ],
+    "planHint_pl": "Wybierz stanowisko i trzymaj się go, np. że szesnastolatki mogłyby głosować, jeśli szkoła lepiej przygotuje ich do tej decyzji. Pierwszy element: wiedza o świecie, podatność na manipulację w sieci, porównanie z dorosłymi, którzy też bywają nieprzygotowani; drugi: nawyk głosowania wyrobiony wcześniej, poczucie, że głos młodych się liczy. Pułapka: tekst o polityce w ogóle albo o konkretnych partiach, a skupić się trzeba na wieku wyborców.",
+    "models": []
+  }
+]

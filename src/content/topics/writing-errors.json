@@ -1,0 +1,333 @@
+{
+  "id": "writing-errors",
+  "category": "writing",
+  "title_pl": "40 typowych błędów w wypracowaniu",
+  "summary_pl": "Błędy, które polscy uczniowie robią najczęściej: źle, dobrze i dlaczego. Gramatyka, fałszywi przyjaciele, przyimki, przedimki, szyk, pisownia, styl i łączniki.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "Większość błędów w wypracowaniach nie jest przypadkowa. Biorą się z tego, że polskie zdanie przechodzi na angielski słowo w słowo: z polskim przyimkiem, polskim szykiem i polskim przecinkiem. Kiedy wiesz, skąd błąd się bierze, łatwiej go wyłapać przy sprawdzaniu.\n\nKażdy wiersz to: jak to często wychodzi polskim uczniom → jak powinno być → dlaczego."
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "**Gdzie to kosztuje punkty.** Gramatyka, słownictwo, przyimki, przedimki i szyk to **błędy językowe**, a pisownia i interpunkcja to **błędy zapisu**. Razem decydują o poprawności (0–3). Wpadki w stylu uderzają w zakres: za liczne albo rażące egzaminator może odjąć punkt. Wyjątek to zwroty na początku i na końcu listu: są elementem formy, więc za *Hi* czy *Dear Mrs* tracisz ten element, a on liczy się do zgodności z poleceniem. Zły łącznik to błąd językowy, a jeśli przez niego czytelnik gubi tok myśli, także usterka spójności."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Gramatyka.** Czasy, formy czasownika i liczba. Tu błąd prawie zawsze ma źródło w polskiej konstrukcji."
+    },
+    {
+      "type": "table",
+      "headers": ["Źle", "Dobrze", "Dlaczego"],
+      "rows": [
+        [
+          "I am agree with you.",
+          "I agree with you.",
+          "Agree to czasownik („zgadzam się”), a nie przymiotnik, więc nie stawiasz przed nim am. Przeczenie: I don't agree albo I disagree."
+        ],
+        [
+          "People which travel learn a lot.",
+          "People who travel learn a lot.",
+          "O ludziach mówisz who (albo that), o rzeczach which. Polskie „który” pasuje do obu, angielski je rozdziela."
+        ],
+        [
+          "If it will rain, we will stay at home.",
+          "If it rains, we will stay at home.",
+          "W zdaniu warunkowym i czasowym o przyszłości (if, when, as soon as) stoi czas teraźniejszy. Will stawiasz w zdaniu głównym, czyli tym bez if czy when, obojętnie, czy stoi pierwsze, czy drugie: We will stay at home if it rains."
+        ],
+        [
+          "I live here since 2015.",
+          "I have lived here since 2015.",
+          "Since liczy od punktu w przeszłości do teraz, więc potrzebny jest present perfect (albo present perfect continuous). Polskie „mieszkam od” ma czas teraźniejszy i stąd kalka."
+        ],
+        [
+          "Last year I have visited Rome.",
+          "Last year I visited Rome.",
+          "Last year, in 2024, two days ago to zamknięty czas w przeszłości, czyli past simple. Present perfect nie łączy się z takimi określeniami."
+        ],
+        [
+          "It is worth to try.",
+          "It is worth trying.",
+          "Po be worth stoi forma -ing. Polskie „warto spróbować” podsuwa bezokolicznik, ale po angielsku go tu nie ma."
+        ],
+        [
+          "I look forward to hear from you.",
+          "I look forward to hearing from you.",
+          "To w look forward to jest przyimkiem, a po przyimku czasownik dostaje -ing. Tak samo be used to doing."
+        ],
+        [
+          "He gave me many informations.",
+          "He gave me a lot of information.",
+          "Information jest niepoliczalne: bez -s, bez a i z a lot of zamiast many. Much pasuje głównie do przeczeń i pytań: I don't have much information. Tak samo advice, equipment, furniture."
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Słownictwo i fałszywi przyjaciele.** Słowa, które wyglądają jak polskie, ale znaczą co innego, i połączenia przetłumaczone dosłownie."
+    },
+    {
+      "type": "table",
+      "headers": ["Źle", "Dobrze", "Dlaczego"],
+      "rows": [
+        [
+          "The actual situation is bad.",
+          "The current situation is bad.",
+          "Actual znaczy „rzeczywisty, faktyczny”. Polskie „aktualny” to current albo present."
+        ],
+        [
+          "Eventually, we can go by bus.",
+          "Alternatively, we can go by bus.",
+          "Eventually znaczy „w końcu, ostatecznie”. Polskie „ewentualnie” to alternatively, possibly albo if necessary."
+        ],
+        [
+          "We must realise this project.",
+          "We must carry out this project.",
+          "Realise to najczęściej „zdać sobie sprawę”, a w znaczeniu „spełnić” łączy się z marzeniem albo ambicją (realise a dream). Polskie „zrealizować projekt” to carry out albo implement a project."
+        ],
+        [
+          "This novel is an obligatory lecture.",
+          "This novel is compulsory reading.",
+          "Lecture to wykład. Szkolna lektura to compulsory reading albo set book."
+        ],
+        [
+          "Prices are very expensive.",
+          "Prices are very high.",
+          "Drogie są rzeczy (expensive tickets), a ceny są wysokie albo niskie (high prices, low prices)."
+        ],
+        [
+          "According to me, it is unfair.",
+          "In my opinion, it is unfair.",
+          "According to wprowadza cudze zdanie albo źródło (according to experts). O swoim poglądzie mówisz in my opinion albo I believe."
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Przyimki.** Polski przyimek rzadko pasuje jeden do jednego. Ucz się czasownika razem z jego przyimkiem, jak jednego słowa."
+    },
+    {
+      "type": "table",
+      "headers": ["Źle", "Dobrze", "Dlaczego"],
+      "rows": [
+        [
+          "It depends of the weather.",
+          "It depends on the weather.",
+          "Depend łączy się z on. Polskie „zależy od” podsuwa of albo from."
+        ],
+        [
+          "We arrived to London at six.",
+          "We arrived in London at six.",
+          "Arrive nie łączy się z to. Miasto i kraj: arrive in. Budynek, dworzec, lotnisko: arrive at."
+        ],
+        [
+          "We discussed about it.",
+          "We discussed it.",
+          "Discuss bierze dopełnienie bez przyimka. Jeśli chcesz about, użyj talk about albo have a discussion about."
+        ],
+        [
+          "Many students work in the weekend.",
+          "Many students work at the weekend.",
+          "Polskie „w weekend” podsuwa in. Po brytyjsku at the weekend (albo at weekends), po amerykańsku on the weekend."
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Przedimki.** Po polsku ich nie ma, więc najłatwiej je zgubić albo wstawić tam, gdzie nie trzeba."
+    },
+    {
+      "type": "table",
+      "headers": ["Źle", "Dobrze", "Dlaczego"],
+      "rows": [
+        [
+          "The life in cities is stressful.",
+          "Life in cities is stressful.",
+          "O czymś ogólnie (życie, natura, szczęście) mówisz bez the. The dajesz, gdy chodzi o konkretne: the life of my grandparents."
+        ],
+        [
+          "I found it on internet.",
+          "I found it on the internet.",
+          "Internet jest jeden, wspólny dla wszystkich, więc dostaje the. Tak samo the environment, the sun."
+        ],
+        [
+          "It is good idea.",
+          "It is a good idea.",
+          "Policzalny rzeczownik w liczbie pojedynczej nie stoi sam. Potrzebuje a, the albo innego określnika (my, this)."
+        ],
+        [
+          "In 21st century we travel more.",
+          "In the 21st century we travel more.",
+          "Wiek z liczebnikiem porządkowym ma the: in the 21st century, in the 19th century. Dekady też: in the 1990s."
+        ],
+        [
+          "The most of people agree.",
+          "Most people agree.",
+          "Most w znaczeniu „większość” nie ma the. Jeśli dodajesz of, po nim potrzebny jest określnik: most of the people I know."
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Szyk zdania.** Po polsku szyk jest swobodny, po angielsku pozycja w zdaniu mówi, kto co robi."
+    },
+    {
+      "type": "table",
+      "headers": ["Źle", "Dobrze", "Dlaczego"],
+      "rows": [
+        [
+          "I like very much music.",
+          "I really like music.",
+          "Przysłówka (very much, often) nie wstawiasz między czasownik a dopełnienie. Very much idzie na koniec (I like music very much) albo zamieniasz je na really przed czasownikiem."
+        ],
+        [
+          "I wonder when will it start.",
+          "I wonder when it will start.",
+          "W pytaniu zależnym (po I wonder, I would like to know, Could you tell me) szyk jest jak w zdaniu oznajmującym: najpierw podmiot, potem czasownik. Tu when zaczyna pytanie, a nie zdanie czasowe, więc will zostaje."
+        ],
+        [
+          "Always I check my phone.",
+          "I always check my phone.",
+          "Always i never stoją przed czasownikiem głównym, a po be: I am always late. Usually i sometimes mogą też zacząć zdanie (Usually I walk to school), ale always w zdaniu oznajmującym nie."
+        ],
+        [
+          "I read every day the news.",
+          "I read the news every day.",
+          "Określenie czasu (every day, last week) idzie na koniec albo na początek zdania, a nie między czasownik a dopełnienie."
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Pisownia i interpunkcja.** Interpunkcję ocenia się tylko na poziomie rozszerzonym, a polskie zasady przecinka tu nie działają."
+    },
+    {
+      "type": "table",
+      "headers": ["Źle", "Dobrze", "Dlaczego"],
+      "rows": [
+        [
+          "I think, that it is wrong.",
+          "I think that it is wrong.",
+          "Po polsku przed „że” stawiasz przecinek, po angielsku przed that nie."
+        ],
+        [
+          "Students, who work, have less free time.",
+          "Students who work have less free time.",
+          "Gdy zdanie z who mówi, o których ludzi chodzi, nie bierzesz go w przecinki. Z przecinkami znaczyłoby, że pracują wszyscy studenci."
+        ],
+        [
+          "On monday we have english.",
+          "On Monday we have English.",
+          "Dni tygodnia, miesiące, narodowości i języki piszesz wielką literą: Monday, May, English, Polish."
+        ],
+        [
+          "The city must repair it's roads.",
+          "The city must repair its roads.",
+          "It's to skrót od it is albo it has. Its bez apostrofu znaczy „jego, swój”, tak jak his i her."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Słowa, w których łatwo zgubić albo dodać literę: **government**, **environment**, **beginning**, **until**, **which**, **necessary**, **recommend**, **accommodation**, **definitely**, **opportunity**, **responsible**, **believe**. Przepisz je raz ręcznie, powoli, litera po literze."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Styl.** Rozprawka i list są formalne. Artykuł może być żywszy, ale też nie jak wiadomość do kolegi."
+    },
+    {
+      "type": "table",
+      "headers": ["Źle", "Dobrze", "Dlaczego"],
+      "rows": [
+        [
+          "Hi! I'm writing to complain…",
+          "Dear Sir or Madam, I am writing to complain…",
+          "List formalny zaczynasz od Dear Sir or Madam, Dear Editor (list do gazety) albo Dear Mr/Ms i nazwiska. Hi, Hello i Greetings są w kluczach karane: to nie tylko styl, tracisz element formy w zgodności z poleceniem."
+        ],
+        [
+          "Dear Mrs,",
+          "Dear Ms Nowak,",
+          "Mr, Mrs i Ms zawsze idą z nazwiskiem. Bez nazwiska piszesz Dear Sir or Madam. Ms pasuje do każdej kobiety, nie musisz wiedzieć, czy jest mężatką. Za Dear Mrs bez nazwiska tracisz element formy."
+        ],
+        [
+          "Dear Sir or Madam … Yours sincerely",
+          "Dear Sir or Madam … Yours faithfully",
+          "Brytyjska zasada: nie znasz nazwiska (Dear Sir or Madam), więc Yours faithfully. Znasz je (Dear Ms Nowak), więc Yours sincerely. W zasadach z 2025 r. CKE za samo niedopasowanie punktu nie odbierała, ale poprawna para nic nie kosztuje."
+        ],
+        [
+          "Kids don't do enough sport.",
+          "Children do not do enough sport.",
+          "W rozprawce i liście nie ma miejsca na słowa z rozmowy (kids, stuff, guys) i skróty (don't → do not)."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "Skróty z czatu (*thx*, *CU*) CKE liczy jako **błędy ortograficzne**, nie tylko jako zły styl."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Łączniki i spójność.** Łącznik mówi czytelnikowi, w którą stronę idzie myśl. Zły łącznik prowadzi go w złą stronę."
+    },
+    {
+      "type": "table",
+      "headers": ["Źle", "Dobrze", "Dlaczego"],
+      "rows": [
+        [
+          "It is fun. Moreover, it is tiring.",
+          "It is fun. However, it is tiring.",
+          "Moreover dodaje argument w tę samą stronę. Przy zmianie kierunku potrzebujesz kontrastu: however, on the other hand."
+        ],
+        [
+          "On the other side, it is costly.",
+          "On the other hand, it is costly.",
+          "Gdy zestawiasz argumenty, piszesz on the other hand. On the one hand przed nim możesz dodać, ale nie musisz. Polskie „z drugiej strony” podsuwa side, a on the other side to dosłownie „po drugiej stronie”: on the other side of the road."
+        ],
+        [
+          "Although it is cheap, but it is slow.",
+          "Although it is cheap, it is slow.",
+          "Although już robi kontrast, więc but jest podwójne. Po polsku „chociaż…, to jednak” brzmi dobrze, po angielsku wybierasz jedno: although albo but."
+        ],
+        [
+          "Despite of the rain, we went out.",
+          "Despite the rain, we went out.",
+          "Despite nie łączy się z of. Z of jest in spite of. Po obu stoi rzeczownik albo forma -ing, a nie całe zdanie."
+        ],
+        [
+          "At the end, I think it is worth it.",
+          "In conclusion, I think it is worth it.",
+          "At the end znaczy „na końcu czegoś” (at the end of the film). Zakończenie zaczynasz od In conclusion albo On balance. Uwaga też na at last: to „nareszcie”, a nie „na koniec”."
+        ]
+      ]
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "czasowniki",
+          "text_pl": "Przeczytaj tekst raz tylko pod kątem czasowników: czas, -s w 3. osobie, -ing po przyimku i po worth."
+        },
+        {
+          "step_pl": "rzeczowniki",
+          "text_pl": "Drugi raz: a / the przed rzeczownikami, liczba mnoga, słowa niepoliczalne (information, advice)."
+        },
+        {
+          "step_pl": "przecinki i wielkie litery",
+          "text_pl": "Trzeci raz: przecinki przed that i who, dni tygodnia, narodowości, its / it's."
+        },
+        {
+          "step_pl": "łączniki",
+          "text_pl": "Na koniec sprawdź, czy każdy łącznik pasuje do tego, co robi zdanie: dodaje, przeciwstawia czy podsumowuje."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Błędy w budowie całego tekstu (teza bez zapowiedzi obu stron, zakończenie, które powtarza wstęp, brak tytułu w artykule) kosztują więcej niż pojedyncze słowa. Są opisane w temacie o tym, jak oceniają wypracowanie."
+    }
+  ]
+}

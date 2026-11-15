@@ -1,0 +1,298 @@
+{
+  "id": "writing-letter",
+  "category": "writing",
+  "title_pl": "List formalny",
+  "summary_pl": "Jak zacząć i skończyć list po brytyjsku, gdzie podać cel, jak trzymać formalny styl i których wpadek unikać.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "Na maturze rozszerzonej list formalny to **tekst argumentacyjny**. Zwykle piszesz jako czytelnik do redakcji gazety albo jako mieszkaniec do władz miasta. CKE podaje te dwie sytuacje jako przykłady, więc adresat może być też inny, np. dyrekcja szkoły. Jeden element tematu bywa opisem albo relacją, ale cały list ma służyć twojemu stanowisku: zajmujesz je, uzasadniasz i często coś proponujesz.\n\nCKE wymaga od listu trzech rzeczy:\n\n- **cel listu we wstępie**: od pierwszego akapitu wiadomo, po co piszesz,\n- **jasny, logiczny wywód** w rozwinięciu,\n- **zwrot otwierający i zamykający** odpowiedni dla listu formalnego.\n\nReszta jak przy rozprawce i artykule: 200–250 wyrazów i dwa elementy tematu, każdy rozwinięty przykładem albo szczegółem."
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "Za zwroty na początku i na końcu jest osobny element formy: 1 albo 0. **Jedna usterka wystarczy do zera**, np. *Hi*, *Hello*, *Greetings* albo *Dear Mrs* bez nazwiska. Wstęp bez celu listu dostaje najwyżej 1 z 2 punktów."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Układ.** List ma cztery części i dwa zwroty. Każda część to osobny akapit, a zwroty stoją w osobnych linijkach. Adresu i daty nie ma w kryteriach CKE, więc na maturze możesz je spokojnie pominąć."
+    },
+    {
+      "type": "table",
+      "headers": ["Część", "Co piszesz", "Ile wyrazów (mniej więcej)"],
+      "rows": [
+        ["zwrot otwierający", "Dear Sir or Madam, albo Dear Ms Nowak, z przecinkiem", "2–4"],
+        ["wstęp", "na co odpowiadasz, kim jesteś (jeśli to ważne) i po co piszesz", "40–55"],
+        ["akapit 1", "pierwszy element tematu z przykładami", "55–85"],
+        ["akapit 2", "drugi element tematu z uzasadnieniem", "55–85"],
+        ["zakończenie", "stanowisko innymi słowami niż we wstępie i to, czego oczekujesz", "30–45"],
+        [
+          "zwrot zamykający",
+          "Yours faithfully, albo Yours sincerely, a pod spodem imię i nazwisko",
+          "2 + podpis"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Z części listu CKE nie wlicza do limitu tylko **podpisu**. *Dear Sir or Madam* (4 wyrazy) i *Yours faithfully* (2) liczą się jak każde inne słowa, więc zostaw na nie miejsce w planie. Liczby w tabeli to proporcje, a nie sztywne limity: pilnujesz 200–250 wyrazów w sumie."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Jak zacząć i jak skończyć.** Zwrot na końcu wynika z tego, jak zacząłeś. Liczy się jedno: czy znasz **nazwisko** adresata."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Nie znasz nazwiska",
+          "md_pl": "Zaczynasz od **Dear Sir or Madam,** i kończysz **Yours faithfully,**\n\nTak samo przy **Dear Editor,** w liście do gazety: redaktor to funkcja, a nie nazwisko.",
+          "examples": [
+            {
+              "en": "Dear Sir or Madam, … Yours faithfully,",
+              "pl": "Szanowni Państwo, … Z poważaniem"
+            }
+          ]
+        },
+        {
+          "title": "Znasz nazwisko",
+          "md_pl": "Zaczynasz od **Dear Mr Nowak,** albo **Dear Ms Nowak,** i kończysz **Yours sincerely,**\n\nPo *Mr* i *Ms* stoi nazwisko, nigdy samo imię. Po brytyjsku bez kropki: *Mr*, a nie *Mr.*",
+          "examples": [
+            {
+              "en": "Dear Ms Nowak, … Yours sincerely,",
+              "pl": "Szanowna Pani, … Z poważaniem"
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Ściąga: **Sir** i **sincerely** nigdy razem. Bez nazwiska *faithfully*, z nazwiskiem *sincerely*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Ms, Mrs czy Miss?** *Ms* pasuje do każdej kobiety i nie zdradza stanu cywilnego, więc to bezpieczny wybór. *Mrs* oznacza mężatkę, a *Miss* kobietę niezamężną. Lepiej tego nie zgadywać. Do mężczyzny zawsze *Mr*.\n\n**Przecinek i wielka litera.** Po zwrocie stawiasz przecinek, a list zaczynasz od nowego akapitu **wielką literą**. Po polsku po „Szanowni Państwo,” piszesz dalej małą, po angielsku nie."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "W zasadach oceniania z 2025 r. CKE nie wymagała, żeby zwrot na końcu pasował do zwrotu na początku. Para *Sir – faithfully* i *nazwisko – sincerely* to jednak zwykły brytyjski standard, a kosztuje tyle samo wyrazów. Pisz ją poprawnie, nic na tym nie tracisz."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Cel listu w pierwszym akapicie.** Egzaminator szuka zdania, które mówi, **po co** piszesz. Najłatwiej zbudować je z *I am writing to…*: po *to* stoi czasownik, który nazywa cel, np. *object*, *support*, *ask*, *suggest*. W *I am writing in response to…* po *to* stoi rzeczownik: artykuł, apel, decyzja."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "I", "role": "subject" },
+        { "text": "am", "role": "aux" },
+        { "text": "writing", "role": "verb" },
+        { "text": "to", "role": "particle" },
+        { "text": "express", "role": "verb" },
+        { "text": "my concern", "role": "object" },
+        { "text": "about", "role": "particle" },
+        { "text": "+ rzeczownik", "role": "neutral" }
+      ],
+      "example": {
+        "en": "I am writing to express my concern about the plan to close the youth centre.",
+        "pl": "Piszę, aby wyrazić zaniepokojenie planem zamknięcia młodzieżowego domu kultury."
+      }
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "na co reagujesz",
+          "text_pl": "Nawiąż do sytuacji z polecenia: artykułu w gazecie, decyzji władz, apelu redakcji."
+        },
+        {
+          "step_pl": "kim jesteś",
+          "text_pl": "Jedno zdanie, i to tylko wtedy, gdy wzmacnia twój głos: As a student who…, As a resident of… Nie My name is… and I am 18."
+        },
+        {
+          "step_pl": "po co piszesz",
+          "text_pl": "Nazwij cel czasownikiem: sprzeciwiasz się, popierasz, prosisz, proponujesz. To jest „cel listu”, za który są punkty."
+        },
+        {
+          "step_pl": "co dalej",
+          "text_pl": "Krótko zapowiedz, o czym będzie list, np. dlaczego sprawa jest ważna i co proponujesz. Wtedy wstęp pasuje do treści."
+        }
+      ]
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "I am writing in response to your article on the planned changes to local bus services.",
+          "pl": "Piszę w odpowiedzi na Państwa artykuł o planowanych zmianach w lokalnej komunikacji autobusowej."
+        },
+        {
+          "en": "I am writing to object to the council's decision to sell the sports ground.",
+          "pl": "Piszę, aby wyrazić sprzeciw wobec decyzji rady miasta o sprzedaży boiska."
+        },
+        {
+          "en": "I am writing to express my support for the idea of turning the old station into an arts centre.",
+          "pl": "Piszę, aby poprzeć pomysł przekształcenia starego dworca w centrum sztuki."
+        },
+        {
+          "en": "I would like to draw your attention to the poor condition of the pavements in the old town.",
+          "pl": "Chciałbym zwrócić Państwa uwagę na zły stan chodników na starym mieście."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Rejestr.** List formalny piszesz do kogoś obcego albo do instytucji. Ten dystans widać w języku: **pełne formy** zamiast skrótów, **dokładne słowa** zamiast potocznych, **uprzejme prośby** zamiast poleceń. Styl ma być jednolity od początku do końca. Za rażące albo liczne wpadki stylu CKE może odjąć punkt w zakresie środków językowych."
+    },
+    {
+      "type": "table",
+      "headers": ["Potocznie", "W liście formalnym", "Dlaczego"],
+      "rows": [
+        [
+          "I'm, don't, can't, it's",
+          "I am, do not, cannot, it is",
+          "skróty to zapis mowy, w liście piszesz pełne formy"
+        ],
+        ["kids", "children, young people", "kids to słowo z rozmowy"],
+        [
+          "a lot of people",
+          "many residents, a large number of people",
+          "konkretniej: kto dokładnie"
+        ],
+        [
+          "really bad",
+          "unacceptable, serious, harmful",
+          "really bad nie mówi, co dokładnie jest nie tak"
+        ],
+        ["find out", "learn, discover", "pojedynczy czasownik brzmi bardziej oficjalnie"],
+        [
+          "get",
+          "receive, obtain, become",
+          "get ma wiele znaczeń, a formalne słowo mówi, o które chodzi"
+        ],
+        ["I want you to…", "I would be grateful if you could…", "want brzmi jak żądanie"],
+        [
+          "Thanks!",
+          "Thank you for taking the time to read my letter.",
+          "pełnym zdaniem i bez wykrzyknika"
+        ],
+        [
+          "thx, pls, !!!",
+          "pełne słowa i zwykła kropka",
+          "w zasadach CKE z 2026 r. skróty typu thx to błędy ortograficzne"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Szybki test przed oddaniem: przeleć wzrokiem wszystkie apostrofy i przy każdym zapytaj, czy da się go rozwinąć. Jeśli tak (*it's* = it is, *don't* = do not, *we'll* = we will, *the plan's* = the plan is), to skrót i piszesz pełną formę. Jeśli po apostrofie stoi to, co do kogoś należy (*the council's plan*, *residents' needs*), to dopełniacz i zostaje."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Rodzaje listów.** Podręczniki dzielą listy formalne na kilka typów. Na maturze rozszerzonej liczą się głównie dwa pierwsze, ale zwroty z pozostałych też się przydają."
+    },
+    {
+      "type": "table",
+      "headers": ["Rodzaj", "Cel w pierwszym zdaniu", "Co w rozwinięciu"],
+      "rows": [
+        [
+          "list do redakcji",
+          "I am writing in response to your article on…",
+          "twoje stanowisko, argumenty z przykładami, propozycja"
+        ],
+        [
+          "list do władz",
+          "As a resident of…, I am writing to object to…",
+          "skutki decyzji dla ludzi, inne rozwiązanie, apel o zmianę"
+        ],
+        [
+          "skarga",
+          "I am writing to complain about…",
+          "co się stało i kiedy, co było nie tak, czego oczekujesz"
+        ],
+        [
+          "podanie o pracę",
+          "I am writing to apply for the position of…",
+          "doświadczenie, umiejętności, dlaczego pasujesz"
+        ],
+        [
+          "prośba o informacje",
+          "I am writing to enquire about…",
+          "konkretne pytania, zadane uprzejmie i pośrednio"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "W terminach głównych (maj) 2023–2026 list formalny był w arkuszu rozszerzonym raz, w 2025 r.: list czytelnika do gazety. Pierwszy element był opisowy (korzyści), drugi projektowy (własny pomysł). Nawet jeśli w twoim liście jest skarga albo prośba, punkty dostajesz za **dwa elementy tematu**, rozwinięte i uzasadnione, a nie za samo narzekanie."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Typowe wpadki.** Za pierwsze cztery CKE odbiera punkty w zgodności z poleceniem. Reszty łatwo uniknąć, a egzaminator może je policzyć jako błędy."
+    },
+    {
+      "type": "table",
+      "headers": ["Źle", "Dobrze", "Dlaczego"],
+      "rows": [
+        [
+          "Hello, / Hi Editor,",
+          "Dear Sir or Madam, / Dear Editor,",
+          "powitanie z listu prywatnego, element formy za zwroty spada do 0"
+        ],
+        [
+          "Dear Mrs,",
+          "Dear Madam, / Dear Ms Nowak,",
+          "Mrs to tytuł przed nazwiskiem, sam nie wystarczy"
+        ],
+        [
+          "I'm writing because I want to tell you something.",
+          "I am writing to object to the plan to close the library.",
+          "skrót i cel bez treści, a wstęp bez celu to najwyżej 1 pkt"
+        ],
+        [
+          "I hope you liked my letter.",
+          "I hope the council will reconsider its decision.",
+          "zakończenie z samych formułek jest schematyczne"
+        ],
+        ["Dear Mr Jan,", "Dear Mr Kowalski,", "po Mr i Ms stoi nazwisko, a nie imię"],
+        [
+          "Dear Sir or Madam, my name is…",
+          "Dear Sir or Madam, / I am writing…",
+          "po zwrocie nowy akapit wielką literą, a przedstawiasz się tylko wtedy, gdy to ważne"
+        ],
+        [
+          "Dear Mr Kowalski, … Yours faithfully,",
+          "Dear Mr Kowalski, … Yours sincerely,",
+          "znasz nazwisko, więc sincerely; w 2025 r. CKE tego nie karała, ale to brytyjski standard"
+        ],
+        [
+          "Yours sincerelly, / Yours faithfuly,",
+          "Yours sincerely, / Yours faithfully,",
+          "sincere + ly (e zostaje), faithful + ly (stąd dwa l)"
+        ],
+        [
+          "I look forward to hear from you.",
+          "I look forward to hearing from you.",
+          "to jest tu przyimkiem, jak w look forward to the holidays, więc po nim -ing"
+        ],
+        [
+          "We must discuss about this problem.",
+          "We must discuss this problem.",
+          "discuss łączy się bez przyimka"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "Samo *I look forward to your reply* to jeszcze nie zakończenie. Najpierw jedno albo dwa zdania, które zbierają twoje stanowisko innymi słowami niż we wstępie, a dopiero potem formułka i *Yours faithfully*."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Zanim oddasz list, sprawdź cztery rzeczy:\n\n- *Dear…* i *Yours…* tworzą parę,\n- w pierwszym akapicie jest zdanie z celem listu,\n- nie ma ani jednego skrótu typu *don't*,\n- przed formułką na końcu jest zdanie z treścią."
+    }
+  ]
+}

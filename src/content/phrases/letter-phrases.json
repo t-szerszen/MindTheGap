@@ -1,0 +1,410 @@
+{
+  "id": "letter-phrases",
+  "category": "letter-phrases",
+  "title_pl": "Zwroty do listu formalnego",
+  "items": [
+    {
+      "en": "Dear Sir or Madam,",
+      "pl": "Szanowni Państwo,",
+      "meaning_pl": "nie znasz nazwiska adresata; na końcu Yours faithfully",
+      "example": {
+        "en": "Dear Sir or Madam, … Yours faithfully,",
+        "pl": "Szanowni Państwo, … Z poważaniem"
+      },
+      "register": "formal",
+      "tags": ["otwarcie"]
+    },
+    {
+      "en": "Dear Ms Nowak,",
+      "pl": "Szanowna Pani,",
+      "meaning_pl": "znasz nazwisko; Ms pasuje do każdej kobiety, do mężczyzny Mr; na końcu Yours sincerely",
+      "example": {
+        "en": "Dear Ms Nowak, … Yours sincerely,",
+        "pl": "Szanowna Pani, … Z poważaniem"
+      },
+      "register": "formal",
+      "tags": ["otwarcie"]
+    },
+    {
+      "en": "Dear Editor,",
+      "pl": "Szanowna Redakcjo,",
+      "meaning_pl": "list do gazety, gdy nie znasz nazwiska redaktora; na końcu Yours faithfully",
+      "example": {
+        "en": "Dear Editor, … Yours faithfully,",
+        "pl": "Szanowna Redakcjo, … Z poważaniem"
+      },
+      "register": "formal",
+      "tags": ["otwarcie"]
+    },
+    {
+      "en": "I am writing in response to your article on…",
+      "pl": "Piszę w odpowiedzi na Państwa artykuł o…",
+      "meaning_pl": "najprostszy cel listu do redakcji: od razu wiadomo, na co reagujesz",
+      "example": {
+        "en": "I am writing in response to your article on the plan to close the town's only swimming pool.",
+        "pl": "Piszę w odpowiedzi na Państwa artykuł o planie zamknięcia jedynego basenu w mieście."
+      },
+      "register": "formal",
+      "tags": ["cel listu"]
+    },
+    {
+      "en": "I am writing to express my concern about…",
+      "pl": "Piszę, aby wyrazić zaniepokojenie…",
+      "example": {
+        "en": "I am writing to express my concern about the growing traffic outside our school.",
+        "pl": "Piszę, aby wyrazić zaniepokojenie coraz większym ruchem przed naszą szkołą."
+      },
+      "register": "formal",
+      "tags": ["cel listu"]
+    },
+    {
+      "en": "I am writing to object to…",
+      "pl": "Piszę, aby wyrazić sprzeciw wobec…",
+      "meaning_pl": "drugie to jest przyimkiem, więc po nim rzeczownik albo -ing",
+      "example": {
+        "en": "I am writing to object to the council's decision to sell the sports ground.",
+        "pl": "Piszę, aby wyrazić sprzeciw wobec decyzji rady miasta o sprzedaży boiska."
+      },
+      "register": "formal",
+      "tags": ["cel listu"]
+    },
+    {
+      "en": "I am writing to express my support for…",
+      "pl": "Piszę, aby poprzeć…",
+      "example": {
+        "en": "I am writing to express my support for the plan to create a cycle path along the river.",
+        "pl": "Piszę, aby poprzeć plan wytyczenia ścieżki rowerowej wzdłuż rzeki."
+      },
+      "register": "formal",
+      "tags": ["cel listu"]
+    },
+    {
+      "en": "As a student who… / As a resident of…",
+      "pl": "Jako uczeń, który… / Jako mieszkaniec…",
+      "meaning_pl": "przedstawiasz się jednym zdaniem i od razu widać, dlaczego twój głos się liczy",
+      "example": {
+        "en": "As a student who travels to school by bus every day, I know how important this bus route is.",
+        "pl": "Jako uczeń, który codziennie dojeżdża do szkoły autobusem, wiem, jak ważna jest ta linia."
+      },
+      "register": "formal",
+      "tags": ["cel listu"]
+    },
+    {
+      "en": "I would like to draw your attention to…",
+      "pl": "Chciałbym zwrócić Państwa uwagę na…",
+      "example": {
+        "en": "I would like to draw your attention to the poor condition of the pavements in the old town.",
+        "pl": "Chciałbym zwrócić Państwa uwagę na zły stan chodników na starym mieście."
+      },
+      "register": "formal",
+      "tags": ["cel listu"]
+    },
+    {
+      "en": "I am writing to complain about…",
+      "pl": "Piszę, aby złożyć skargę na…",
+      "example": {
+        "en": "I am writing to complain about the service I received at your hotel last weekend.",
+        "pl": "Piszę, aby złożyć skargę na obsługę w Państwa hotelu w zeszły weekend."
+      },
+      "register": "formal",
+      "tags": ["skarga"]
+    },
+    {
+      "en": "I was disappointed to find that…",
+      "pl": "Z rozczarowaniem stwierdziłem, że…",
+      "example": {
+        "en": "I was disappointed to find that the museum was closed, despite the information on your website.",
+        "pl": "Z rozczarowaniem stwierdziłem, że muzeum było zamknięte, mimo informacji na Państwa stronie."
+      },
+      "register": "formal",
+      "tags": ["skarga"]
+    },
+    {
+      "en": "contrary to…",
+      "pl": "wbrew…",
+      "meaning_pl": "pokazujesz różnicę między obietnicą a rzeczywistością",
+      "example": {
+        "en": "Contrary to what your advertisement claimed, the room had no view of the sea.",
+        "pl": "Wbrew temu, co obiecywała Państwa reklama, z pokoju nie było widoku na morze."
+      },
+      "register": "formal",
+      "tags": ["skarga"]
+    },
+    {
+      "en": "… is simply unacceptable",
+      "pl": "… jest po prostu nie do przyjęcia",
+      "meaning_pl": "mocna, ale wciąż uprzejma ocena zamiast really bad",
+      "example": {
+        "en": "Waiting forty minutes for a bus in winter is simply unacceptable.",
+        "pl": "Czekanie zimą czterdzieści minut na autobus jest po prostu nie do przyjęcia."
+      },
+      "register": "formal",
+      "tags": ["skarga"]
+    },
+    {
+      "en": "I would like to ask for a full refund.",
+      "pl": "Proszę o zwrot całej kwoty.",
+      "example": {
+        "en": "As the concert was cancelled, I would like to ask for a full refund.",
+        "pl": "Ponieważ koncert odwołano, proszę o zwrot całej kwoty."
+      },
+      "register": "formal",
+      "tags": ["skarga", "prośba"]
+    },
+    {
+      "en": "I would be grateful if you could…",
+      "pl": "Byłbym wdzięczny, gdyby Państwo mogli…",
+      "meaning_pl": "uprzejma prośba; po could bezokolicznik bez to",
+      "example": {
+        "en": "I would be grateful if you could publish my letter in the next issue.",
+        "pl": "Byłbym wdzięczny, gdyby Państwo opublikowali mój list w następnym numerze."
+      },
+      "register": "formal",
+      "tags": ["prośba"]
+    },
+    {
+      "en": "I would appreciate it if…",
+      "pl": "Byłbym wdzięczny, gdyby…",
+      "meaning_pl": "nie zapomnij o it: appreciate it if, a nie appreciate if",
+      "example": {
+        "en": "I would appreciate it if the council could consult residents before making such decisions.",
+        "pl": "Byłbym wdzięczny, gdyby rada miasta konsultowała takie decyzje z mieszkańcami."
+      },
+      "register": "formal",
+      "tags": ["prośba"]
+    },
+    {
+      "en": "I would like to enquire about…",
+      "pl": "Chciałbym zapytać o…",
+      "meaning_pl": "enquire to formalne „pytać o informację”",
+      "example": {
+        "en": "I would like to enquire about the dates of the summer language course.",
+        "pl": "Chciałbym zapytać o terminy wakacyjnego kursu językowego."
+      },
+      "register": "formal",
+      "tags": ["prośba"]
+    },
+    {
+      "en": "Could you please let me know whether…?",
+      "pl": "Czy mogliby Państwo dać mi znać, czy…?",
+      "example": {
+        "en": "Could you please let me know whether the course is open to secondary school students?",
+        "pl": "Czy mogliby Państwo dać mi znać, czy kurs jest otwarty dla uczniów szkół średnich?"
+      },
+      "register": "neutral",
+      "tags": ["prośba"]
+    },
+    {
+      "en": "I urge the council to…",
+      "pl": "Apeluję do rady miasta, aby…",
+      "meaning_pl": "mocny apel do władz, dobry na koniec listu",
+      "example": {
+        "en": "I urge the council to reconsider its decision before it is too late.",
+        "pl": "Apeluję do rady miasta, aby ponownie rozważyła swoją decyzję, zanim będzie za późno."
+      },
+      "register": "formal",
+      "tags": ["prośba", "zakończenie"]
+    },
+    {
+      "en": "First and foremost,",
+      "pl": "Przede wszystkim",
+      "meaning_pl": "otwierasz najważniejszy argument",
+      "example": {
+        "en": "First and foremost, the park is the only green space within walking distance for many families.",
+        "pl": "Przede wszystkim park to jedyny teren zielony, do którego wiele rodzin może dojść pieszo."
+      },
+      "register": "formal",
+      "tags": ["argumenty"]
+    },
+    {
+      "en": "This is particularly important because…",
+      "pl": "Jest to szczególnie ważne, ponieważ…",
+      "example": {
+        "en": "This is particularly important because many elderly residents do not drive.",
+        "pl": "Jest to szczególnie ważne, ponieważ wielu starszych mieszkańców nie prowadzi samochodu."
+      },
+      "register": "formal",
+      "tags": ["argumenty"]
+    },
+    {
+      "en": "It is worth pointing out that…",
+      "pl": "Warto zwrócić uwagę, że…",
+      "example": {
+        "en": "It is worth pointing out that the library is also used by people who have no internet at home.",
+        "pl": "Warto zwrócić uwagę, że z biblioteki korzystają też osoby, które nie mają w domu internetu."
+      },
+      "register": "formal",
+      "tags": ["argumenty"]
+    },
+    {
+      "en": "There is no doubt that…",
+      "pl": "Nie ma wątpliwości, że…",
+      "example": {
+        "en": "There is no doubt that the new cycle lane has made the town centre safer.",
+        "pl": "Nie ma wątpliwości, że nowa ścieżka rowerowa poprawiła bezpieczeństwo w centrum."
+      },
+      "register": "formal",
+      "tags": ["argumenty"]
+    },
+    {
+      "en": "not only… but also…",
+      "pl": "nie tylko…, ale także…",
+      "meaning_pl": "dwie korzyści w jednym zdaniu; obie części mają tę samą budowę",
+      "example": {
+        "en": "The centre offers not only free classes but also a safe place to spend time after school.",
+        "pl": "Dom kultury oferuje nie tylko darmowe zajęcia, ale także bezpieczne miejsce na czas po lekcjach."
+      },
+      "register": "neutral",
+      "tags": ["argumenty"]
+    },
+    {
+      "en": "As a consequence,",
+      "pl": "W konsekwencji",
+      "meaning_pl": "skutek tego, o czym była mowa w poprzednim zdaniu",
+      "example": {
+        "en": "The morning bus has been cancelled. As a consequence, many students arrive late for their first lesson.",
+        "pl": "Poranny autobus został zlikwidowany. W konsekwencji wielu uczniów spóźnia się na pierwszą lekcję."
+      },
+      "register": "formal",
+      "tags": ["argumenty"]
+    },
+    {
+      "en": "It could be argued that… However,…",
+      "pl": "Można by twierdzić, że… Jednak…",
+      "meaning_pl": "przytaczasz argument drugiej strony, żeby go od razu odeprzeć",
+      "example": {
+        "en": "It could be argued that the town cannot afford the centre. However, closing it would cost far more in the long run.",
+        "pl": "Można by twierdzić, że miasta nie stać na dom kultury. Jednak jego zamknięcie na dłuższą metę kosztowałoby znacznie więcej."
+      },
+      "register": "formal",
+      "tags": ["argumenty"]
+    },
+    {
+      "en": "In my view,",
+      "pl": "Moim zdaniem",
+      "meaning_pl": "formalniej niż I think; dobre na zmianę, żeby nie powtarzać I think w każdym akapicie",
+      "example": {
+        "en": "In my view, the money would be better spent on repairing the existing roads.",
+        "pl": "Moim zdaniem te pieniądze lepiej byłoby wydać na remont istniejących dróg."
+      },
+      "register": "formal",
+      "tags": ["argumenty"]
+    },
+    {
+      "en": "I would like to suggest that…",
+      "pl": "Chciałbym zaproponować, żeby…",
+      "meaning_pl": "po suggest that: podmiot + (should) + czasownik, np. the council (should) run…; nie suggest somebody to do",
+      "example": {
+        "en": "I would like to suggest that the council should run smaller buses in the evening.",
+        "pl": "Chciałbym zaproponować, żeby rada miasta wprowadziła wieczorem mniejsze autobusy."
+      },
+      "register": "formal",
+      "tags": ["propozycja"]
+    },
+    {
+      "en": "One possible solution would be to…",
+      "pl": "Jednym z możliwych rozwiązań byłoby…",
+      "example": {
+        "en": "One possible solution would be to build a multi-storey car park on the site of the old market.",
+        "pl": "Jednym z możliwych rozwiązań byłoby zbudowanie parkingu wielopoziomowego na terenie starego targowiska."
+      },
+      "register": "formal",
+      "tags": ["propozycja"]
+    },
+    {
+      "en": "It would make more sense to…",
+      "pl": "Rozsądniej byłoby…",
+      "example": {
+        "en": "It would make more sense to repair the existing building than to build a new one.",
+        "pl": "Rozsądniej byłoby wyremontować istniejący budynek niż stawiać nowy."
+      },
+      "register": "neutral",
+      "tags": ["propozycja"]
+    },
+    {
+      "en": "If the council introduced…, … would…",
+      "pl": "Gdyby rada miasta wprowadziła…, …",
+      "meaning_pl": "drugi tryb warunkowy: pokazujesz skutek swojej propozycji",
+      "example": {
+        "en": "If the council introduced a family ticket, more people would leave their cars at home.",
+        "pl": "Gdyby rada miasta wprowadziła bilet rodzinny, więcej osób zostawiałoby samochody w domu."
+      },
+      "register": "neutral",
+      "tags": ["propozycja"]
+    },
+    {
+      "en": "I am convinced that this would…",
+      "pl": "Jestem przekonany, że to…",
+      "example": {
+        "en": "I am convinced that this would benefit both residents and local businesses.",
+        "pl": "Jestem przekonany, że to przyniosłoby korzyść zarówno mieszkańcom, jak i lokalnym firmom."
+      },
+      "register": "formal",
+      "tags": ["propozycja"]
+    },
+    {
+      "en": "To sum up,",
+      "pl": "Podsumowując",
+      "meaning_pl": "otwiera zakończenie; dalej stanowisko innymi słowami niż we wstępie",
+      "example": {
+        "en": "To sum up, the park is worth far more to our town than a few hundred parking spaces.",
+        "pl": "Podsumowując, park jest dla naszego miasta wart znacznie więcej niż kilkaset miejsc parkingowych."
+      },
+      "register": "neutral",
+      "tags": ["zakończenie"]
+    },
+    {
+      "en": "I hope that the council will reconsider its decision.",
+      "pl": "Mam nadzieję, że rada miasta ponownie rozważy swoją decyzję.",
+      "example": {
+        "en": "For these reasons, I hope that the council will reconsider its decision.",
+        "pl": "Z tych powodów mam nadzieję, że rada miasta ponownie rozważy swoją decyzję."
+      },
+      "register": "formal",
+      "tags": ["zakończenie"]
+    },
+    {
+      "en": "Thank you for taking the time to read my letter.",
+      "pl": "Dziękuję za poświęcenie czasu na przeczytanie mojego listu.",
+      "example": {
+        "en": "Thank you for taking the time to read my letter. I look forward to your reply.",
+        "pl": "Dziękuję za poświęcenie czasu na przeczytanie mojego listu. Czekam na odpowiedź."
+      },
+      "register": "formal",
+      "tags": ["zakończenie"]
+    },
+    {
+      "en": "I look forward to hearing from you.",
+      "pl": "Czekam na odpowiedź.",
+      "meaning_pl": "to jest tu przyimkiem, więc hearing, a nie hear; I look forward brzmi formalniej niż I am looking forward",
+      "example": {
+        "en": "Thank you for considering my request. I look forward to hearing from you.",
+        "pl": "Dziękuję za rozpatrzenie mojej prośby. Czekam na odpowiedź."
+      },
+      "register": "formal",
+      "tags": ["zakończenie"]
+    },
+    {
+      "en": "Yours faithfully,",
+      "pl": "Z poważaniem",
+      "meaning_pl": "po Dear Sir or Madam albo Dear Editor; pod spodem imię i nazwisko",
+      "example": {
+        "en": "Yours faithfully, Anna Kowalska",
+        "pl": "Z poważaniem Anna Kowalska"
+      },
+      "register": "formal",
+      "tags": ["zamknięcie"]
+    },
+    {
+      "en": "Yours sincerely,",
+      "pl": "Z poważaniem",
+      "meaning_pl": "po Dear Mr / Ms + nazwisko; pod spodem imię i nazwisko",
+      "example": {
+        "en": "Yours sincerely, Piotr Wiśniewski",
+        "pl": "Z poważaniem Piotr Wiśniewski"
+      },
+      "register": "formal",
+      "tags": ["zamknięcie"]
+    }
+  ]
+}
