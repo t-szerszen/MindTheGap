@@ -19,9 +19,12 @@ const typeOrder: Exercise['type'][] = [
   'word-formation',
   'key-word-transformation',
 ]
-// TODO: czytanie i arkusz próbny dochodzą w tej samej fazie
-const modeCards: { id: 'writing' | 'reading' | 'exam'; to: string; icon: IconName; tilt: Tilt }[] =
-  [{ id: 'writing', to: '/writing', icon: 'pencil', tilt: -1 }]
+// TODO: arkusz próbny dochodzi w tej samej fazie
+type ModeCard = { id: 'writing' | 'reading' | 'exam'; to: string; icon: IconName; tilt: Tilt }
+const modeCards: ModeCard[] = [
+  { id: 'writing', to: '/writing', icon: 'pencil', tilt: -1 },
+  { id: 'reading', to: '/reading', icon: 'book', tilt: 1 },
+]
 
 export function ExercisesPage() {
   const t = pl.exercises

@@ -1222,3 +1222,67 @@
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   }
 }
+
+/* czytanie */
+.reading-text {
+  margin-top: 14px;
+  font-family: var(--f-body);
+  font-size: 18px;
+  line-height: 30px;
+}
+.reading-text p + p {
+  margin-top: 12px;
+}
+.reading-text p.keyed {
+  position: relative;
+  padding-left: 30px;
+}
+.para-key {
+  position: absolute;
+  left: 0;
+  top: -2px;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--pen-red);
+}
+.reading-items {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0;
+  gap: 14px;
+}
+.reading-item {
+  position: relative;
+  padding-left: 28px;
+  --num-x: -2px;
+}
+.reading-item .ex-num {
+  top: -4px;
+}
+/* z prawej miejsce na ptaszka albo krzyżyk po sprawdzeniu */
+.reading-item .ex-main {
+  padding-right: 46px;
+}
+.reading-options {
+  list-style: none;
+  padding: 10px 12px;
+  margin: 8px 0;
+  border: 1.5px dashed var(--ink-2);
+  border-radius: var(--r2);
+  gap: 6px;
+  font-size: 17px;
+}
+.reading-options b {
+  font-size: 20px;
+  margin-right: 4px;
+}
+.reading-why {
+  margin-top: 6px;
+  color: var(--pen-red);
+  font-size: 15px;
+}
+.reading-distractor {
+  display: block;
+  margin-top: 2px;
+  color: var(--pencil);
+}
