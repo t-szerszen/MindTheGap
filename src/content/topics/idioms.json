@@ -1,0 +1,127 @@
+{
+  "id": "idioms",
+  "category": "vocabulary",
+  "title_pl": "Idiomy",
+  "summary_pl": "Czym jest idiom, jak się go uczyć, gdzie pasuje do wypracowania, a gdzie nie, i jak nie dać się złapać na dosłowne czytanie w tekście.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "**Idiom** to stałe wyrażenie, którego znaczenia nie da się złożyć ze znaczeń pojedynczych słów. *Turn a blind eye* to nie „obrócić ślepe oko”, tylko „przymknąć oko” na coś złego.\n\nZ polskim bywa różnie:\n\n- **ten sam obraz:** *the tip of the iceberg* = wierzchołek góry lodowej, *a vicious circle* = błędne koło\n- **podobny sens, inny obraz:** *turn a blind eye* = przymykać oko, *cost an arm and a leg* = kosztować majątek\n- **brak odpowiednika:** wtedy tłumaczysz sens, a nie słowa\n\nNajgroźniejsza jest druga grupa: polski obraz podsuwa kalkę, która po angielsku nie istnieje."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "cały wzorzec",
+          "text_pl": "Ucz się idiomu razem z tym, co go otacza: turn a blind eye TO sth, go hand in hand WITH sth. Bez przyimka idiom w zdaniu się rozsypuje."
+        },
+        {
+          "step_pl": "sprawdź rejestr",
+          "text_pl": "Przy każdym idiomie w zestawach jest oznaczenie: informal, neutral albo formal. Zanim użyjesz idiomu w wypracowaniu, spójrz na nie. Informal zostaw do rozmowy."
+        },
+        {
+          "step_pl": "własne zdanie",
+          "text_pl": "Ułóż jedno zdanie o czymś ze swojego życia. Idiom przypięty do konkretnej sytuacji zostaje w głowie dłużej niż sama definicja."
+        },
+        {
+          "step_pl": "w obie strony",
+          "text_pl": "Na fiszkach sprawdzaj się z angielskiego na polski (rozumienie tekstu) i z polskiego na angielski (pisanie). To dwie różne umiejętności."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "## Idiom a rejestr\n\nWiększość idiomów pochodzi z mowy. Idiom to obrazek i emocja w jednym, więc najlepiej czuje się w rozmowie, w wiadomości do kolegi i w luźnym tekście. W zestawach w aplikacji mniej więcej połowa idiomów ma oznaczenie **informal**.\n\nNa maturze to ma znaczenie przy kryterium *zakres środków językowych*. Według zasad oceniania styl niestosowny to np. **zbyt metaforyczny albo potoczny jak w mowie**, a niejednolity to mieszanie stylów bez powodu. Za rażące albo liczne uchybienia w stylu można stracić 1 punkt. Idiom wstawiony na siłę do rozprawki łatwo podpada pod jedno i drugie.\n\nTo nie znaczy, że idiomy są zakazane. Liczy się, **jaki** idiom i **gdzie**. Poniżej tendencje, nie sztywne reguły."
+    },
+    {
+      "type": "table",
+      "headers": ["Forma", "Co zwykle pasuje", "Czego lepiej unikać"],
+      "rows": [
+        [
+          "artykuł",
+          "Najwięcej swobody. Neutralny idiom w tytule albo we wstępie może przyciągnąć uwagę (a recipe for disaster, take the world by storm). W rozwinięciu raczej rzeczowo.",
+          "Slangu i idiomów czysto emocjonalnych (be over the moon) w środkowych akapitach, gdzie podajesz argumenty."
+        ],
+        [
+          "rozprawka",
+          "Pojedyncze neutralne idiomy, które nazywają zjawisko albo zależność (a vicious circle, go hand in hand with, the lesser of two evils). Jeden albo dwa na tekst w zupełności wystarczą.",
+          "Idiomów oznaczonych informal i ozdobników bez treści. Rozprawka ma styl formalny, a obrazek nie zastąpi argumentu."
+        ],
+        [
+          "list formalny",
+          "Najostrożniej. Ewentualnie idiom rzeczowy, prawie terminologiczny (red tape, the tip of the iceberg, by word of mouth).",
+          "Wszystkiego, co brzmi jak rozmowa z kolegą (a piece of cake, cost an arm and a leg). Lepiej napisać wprost: straightforward, extremely expensive."
+        ]
+      ]
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "do rozmowy",
+          "md_pl": "Idiom potoczny: obrazowy, z emocją. W rozmowie brzmi naturalnie.",
+          "examples": [
+            {
+              "en": "Concert tickets cost an arm and a leg these days.",
+              "pl": "Bilety na koncerty kosztują teraz majątek."
+            },
+            {
+              "en": "She was over the moon when she got the job.",
+              "pl": "Była wniebowzięta, kiedy dostała tę pracę."
+            }
+          ]
+        },
+        {
+          "title": "do wypracowania",
+          "md_pl": "Ten sam sens zapisany wprost, precyzyjnym słownictwem.",
+          "examples": [
+            {
+              "en": "Concert tickets have become extremely expensive in recent years.",
+              "pl": "W ostatnich latach bilety na koncerty stały się bardzo drogie."
+            },
+            {
+              "en": "She was delighted when she was appointed to the position.",
+              "pl": "Bardzo się ucieszyła, kiedy dostała to stanowisko."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Jeśli idiom jest oznaczony **informal**, w rozprawce i liście formalnym zwykle lepiej zastąpić go zwykłym, precyzyjnym słowem. Zakres podnosi precyzja, a nie liczba obrazków."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "**8 idiomów, które są na tyle neutralne, że pasują też do tekstu pisanego** (z umiarem, jeden czy dwa na wypracowanie):\n\n- *go hand in hand with sth* — iść w parze z czymś\n- *the tip of the iceberg* — wierzchołek góry lodowej\n- *a vicious circle* — błędne koło\n- *turn a blind eye to sth* — przymykać oko na coś\n- *by word of mouth* — z ust do ust, dzięki poleceniom\n- *the lesser of two evils* — mniejsze zło\n- *sth bears fruit* — coś przynosi owoce (wysiłek, plan)\n- *a bone of contention* — kość niezgody\n\nWszystkie są w zestawach idiomów z oznaczeniem neutral albo formal, z przykładami w zdaniu."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "Physical activity and mental health often go hand in hand.",
+          "pl": "Aktywność fizyczna i zdrowie psychiczne często idą w parze."
+        },
+        {
+          "en": "The reported cases of cyberbullying may be just the tip of the iceberg.",
+          "pl": "Zgłoszone przypadki cyberprzemocy mogą być tylko wierzchołkiem góry lodowej."
+        },
+        {
+          "en": "Many schools turn a blind eye to the use of phones during breaks.",
+          "pl": "Wiele szkół przymyka oko na korzystanie z telefonów na przerwach."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "## Idiomy w czytaniu i słuchaniu\n\nTu idiomu nie musisz używać, tylko go zrozumieć. Sygnał ostrzegawczy: fragment, który dosłownie nie ma sensu w danej sytuacji. Ktoś *knows the ropes* w biurze, gdzie nie ma żadnych lin? To idiom, a nie opis.\n\nJak wtedy działać:\n\n1. **Nie tłumacz słowo po słowie.** Odpowiedź oparta na dosłownym obrazku to typowy dystraktor.\n2. **Sprawdź ton.** Czy zdanie obok jest pozytywne czy negatywne? Często to wystarczy, żeby odrzucić połowę opcji.\n3. **Szukaj parafrazy.** Tekst albo pytanie zwykle mówi to samo innymi słowami chwilę wcześniej lub później."
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "W arkuszach 2023–2026 idiomy pojawiały się głównie w rozumieniu:\n\n- **zadanie 6 (wybór A–D):** jedna z pułapek to dosłowne odczytanie idiomu, np. *know the ropes* (= wiedzieć, jak coś działa, znać się na rzeczy; w zestawie *praca i nauka*: learn the ropes);\n- **słuchanie:** porównanie albo idiom odczytany dosłownie bywa podstawą dystraktora;\n- **zadanie 9:** w 2024 jedna pozycja sprawdzała idiom *out of order*.\n\nCzyli najpierw rozumienie, a dopiero potem używanie we własnym tekście."
+    },
+    {
+      "type": "text",
+      "md_pl": "## Gdzie są idiomy w aplikacji\n\nW zakładce ze zwrotami, kategoria **Idiomy**, jest 10 zestawów po około 25 idiomów:\n\n- ludzie, charakter i emocje\n- praca i nauka\n- pieniądze i zakupy\n- czas i pośpiech\n- relacje i komunikacja\n- sukces, porażka i problemy\n- części ciała\n- zdrowie i samopoczucie\n- decyzje i ryzyko\n- codzienne sytuacje\n\nKażdy idiom ma oznaczony rejestr. Do wypracowań najwięcej neutralnych idiomów jest w zestawach *sukces, porażka i problemy* oraz *czas i pośpiech*."
+    }
+  ]
+}
