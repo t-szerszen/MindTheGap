@@ -626,6 +626,36 @@
   touch-action: pan-y;
   user-select: none;
   -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 0.25s var(--ease-pen);
+}
+.review-stage .flip.dragging {
+  transition: none;
+}
+/* pieczątka nad kartą podczas przeciągania; pełna, gdy puszczenie już zaliczy odpowiedź */
+.swipe-stamp {
+  position: absolute;
+  z-index: 2;
+  top: 58px;
+  padding: 2px 12px 4px;
+  border: 2.5px solid currentColor;
+  border-radius: var(--r1);
+  background: var(--card);
+  font-family: var(--f-hand);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.1;
+  pointer-events: none;
+}
+.swipe-stamp.knew {
+  left: 18px;
+  color: var(--pen-green);
+  rotate: -8deg;
+}
+.swipe-stamp.didnt {
+  right: 18px;
+  color: var(--pen-red);
+  rotate: 8deg;
 }
 /* obie strony w jednej komórce siatki: karta ma wysokość wyższej z nich,
    więc długi przykład rozciąga całą fiszkę zamiast wychodzić poza nią */
