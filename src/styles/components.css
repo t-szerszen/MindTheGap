@@ -893,7 +893,6 @@ body {
 }
 .line-input:focus {
   border-bottom-color: var(--pen-blue);
-  box-shadow: 0 3px 0 -1px var(--hl-b);
 }
 .line-area {
   display: block;
@@ -935,10 +934,12 @@ body {
   vertical-align: -2px;
   caret-color: var(--pen-red);
 }
-.gap-in:focus {
+/* sama linia, bez zakreślacza, bo zasłaniał wpisane słowo */
+.gap-in:focus,
+.gap-in.is-focus {
   border-bottom-style: solid;
   border-bottom-color: var(--pen-blue);
-  background: linear-gradient(transparent 62%, var(--hl-b) 62%) no-repeat;
+  border-bottom-width: 2.5px;
 }
 .gap-in.ok {
   border-bottom-style: solid;
