@@ -43,7 +43,7 @@ const sections: Section[] = [
     label: pl.nav.more,
     icon: 'more',
     tab: 'tb-o',
-    also: ['topics', 'phrases', 'settings'],
+    also: ['topics', 'phrases'],
   },
 ]
 

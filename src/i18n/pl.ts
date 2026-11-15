@@ -109,7 +109,6 @@ export const pl = {
   more: {
     title: 'Wszystko poza czasami',
     subtitle: 'słownictwo, przyimki, spójność tekstu i pisanie',
-    settingsHint: 'motyw, konto, synchronizacja',
     shelves: {
       exam: 'Matura',
       writing: 'Pisanie',

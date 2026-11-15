@@ -15,9 +15,9 @@ export function SettingsPage() {
   return (
     <div className="sheet lined plain page-in">
       <div className="measure stack">
-        <Link className="link-pen" to="/more" style={{ alignSelf: 'flex-start', marginLeft: -4 }}>
+        <Link className="link-pen" to="/" style={{ alignSelf: 'flex-start', marginLeft: -4 }}>
           <Icon name="back" size="s" />
-          {pl.nav.more}
+          {pl.nav.home}
         </Link>
         <h1 className="h-l">{t.title}</h1>
         <Scribble width={150} />

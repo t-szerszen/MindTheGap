@@ -162,23 +162,6 @@ export function MorePage() {
             })}
           </div>
         )}
-
-        <Card
-          as={Link}
-          to="/settings"
-          tilt={1}
-          className="row"
-          style={{ marginTop: 34, textDecoration: 'none', gap: 12 }}
-        >
-          <Icon name="gear" size="l" />
-          <span className="grow">
-            <span className="h-s" style={{ display: 'block' }}>
-              {pl.settings.title}
-            </span>
-            <span className="small muted">{t.settingsHint}</span>
-          </span>
-          <Icon name="next" size="s" />
-        </Card>
       </div>
     </div>
   )
