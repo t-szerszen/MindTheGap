@@ -1,0 +1,372 @@
+[
+  {
+    "id": "letter-park-car-park",
+    "type": "writing-task",
+    "form": "formal-letter",
+    "theme": "nature",
+    "prompt_pl": "Lokalna gazeta napisała, że władze miasta chcą przeznaczyć część parku miejskiego na parking dla osób dojeżdżających do pracy w centrum. Napisz list do redakcji, w którym przedstawisz, jakie znaczenie ma ten park dla mieszkańców w różnym wieku, oraz zaproponujesz inne rozwiązanie problemu braku miejsc parkingowych i uzasadnisz, dlaczego jest lepsze.",
+    "elements_pl": [
+      "przedstaw, jakie znaczenie ma park dla mieszkańców w różnym wieku",
+      "zaproponuj inne rozwiązanie problemu z parkowaniem i uzasadnij, dlaczego jest lepsze"
+    ],
+    "planHint_pl": "Wstęp: na jaki artykuł odpowiadasz i że jesteś przeciw. Akapit 1: dzieci, młodzież, starsi, każda grupa z konkretem. Akapit 2: jedna propozycja (co i gdzie) i dwa powody, dlaczego lepsza. Zakończenie: stanowisko innymi słowami i prośba o publikację.",
+    "models": [
+      {
+        "kind": "model",
+        "paragraphs": [
+          "Dear Sir or Madam,",
+          "I am writing in response to your article on the council's plan to replace part of Riverside Park with a car park for commuters. As a regular visitor to the park, I strongly object to this idea and would like to propose a better solution.",
+          "First and foremost, the park is the only green space within walking distance for thousands of residents of all ages. Young parents bring their children to the playground, one of the few safe places to play outdoors. Teenagers like me use the paths for jogging and cycling. For elderly people, a daily walk among the trees is often their main form of exercise and a chance to meet neighbours. Losing even part of the park would therefore affect almost everyone.",
+          "The council should instead consider building a multi-storey car park on the site of the old bus depot, which has been empty for years. Such a building would hold more cars on a smaller plot of land. Moreover, the depot is just outside the town centre, so commuters could park there and walk to work. This would not only solve the parking problem but also reduce traffic in the centre.",
+          "In short, the park is worth far more than a few hundred parking spaces. I would be grateful if you could publish my letter, as I hope it will encourage other residents to make their voices heard before the final decision is made.",
+          "Yours faithfully,",
+          "Marta Zielińska"
+        ],
+        "annotations": [
+          {
+            "quote": "Dear Sir or Madam,",
+            "criterion": "task",
+            "note_pl": "Nazwiska redaktora nie znasz, więc Dear Sir or Madam, a na końcu Yours faithfully. To element formy za zwroty."
+          },
+          {
+            "quote": "I am writing in response to your article on the council's plan",
+            "criterion": "task",
+            "note_pl": "Cel listu w pierwszym zdaniu: wiadomo, na co odpowiadasz. Dalej stanowisko (I strongly object) i zapowiedź propozycji, więc wstęp pasuje do treści."
+          },
+          {
+            "quote": "within walking distance",
+            "criterion": "range",
+            "note_pl": "Precyzyjna kolokacja zamiast close to our homes."
+          },
+          {
+            "quote": "Young parents bring their children to the playground",
+            "criterion": "task",
+            "note_pl": "Element 1 omówiony wieloaspektowo: trzy grupy wiekowe i przy każdej konkret. Sama lista „dzieci, młodzież, seniorzy” dałaby najwyżej 1 pkt."
+          },
+          {
+            "quote": "therefore",
+            "criterion": "coherence",
+            "note_pl": "Ostatnie zdanie akapitu wyciąga wniosek z przykładów i spina je z tematem listu."
+          },
+          {
+            "quote": "on the site of the old bus depot, which has been empty for years",
+            "criterion": "task",
+            "note_pl": "Propozycja jest konkretna: co i gdzie. Ogólnik w stylu find another place byłby za mało."
+          },
+          {
+            "quote": "Such a building would hold more cars on a smaller plot of land.",
+            "criterion": "task",
+            "note_pl": "Uzasadnienie, dlaczego lepsze: mniej zajętego terenu, krótki spacer do pracy i mniejszy ruch w centrum. Polecenie każe uzasadnić, więc bez tego element 2 byłby powierzchowny."
+          },
+          {
+            "quote": "not only solve the parking problem but also reduce traffic",
+            "criterion": "range",
+            "note_pl": "Not only… but also i would przy skutkach propozycji: struktury, które pokazują zakres."
+          },
+          {
+            "quote": "I would be grateful if you could publish my letter",
+            "criterion": "range",
+            "note_pl": "Uprzejma prośba zamiast please publish it. Zakończenie zaczyna się od stanowiska, więc nie jest samą formułką."
+          }
+        ],
+        "comment_pl": "Ocena orientacyjna: 13/13. Zgodność z poleceniem 5/5: wstęp z celem, oba elementy rozwinięte i z konkretami, zakończenie zgodne z treścią, poprawne zwroty, widoczny plan i akapity, długość w normie. Spójność i logika 2/2: First and foremost, therefore, Moreover i In short prowadzą czytelnika. Zakres 3/3: precyzyjne słownictwo (commuters, multi-storey car park, make their voices heard) i różne struktury. Poprawność 3/3: brak błędów."
+      }
+    ],
+    "tags": ["writing-letter"]
+  },
+  {
+    "id": "letter-youth-centre",
+    "type": "writing-task",
+    "form": "formal-letter",
+    "theme": "culture",
+    "prompt_pl": "Władze twojego miasta zapowiedziały, że z powodu oszczędności od przyszłego roku zamkną młodzieżowy dom kultury. Napisz list do władz miasta, w którym opiszesz zorganizowane tam wydarzenie, w którym brałeś / brałaś udział, oraz przedstawisz argumenty za tym, aby miasto nadal finansowało dom kultury mimo oszczędności.",
+    "elements_pl": [
+      "opisz zorganizowane w domu kultury wydarzenie, w którym brałeś / brałaś udział",
+      "przedstaw argumenty za tym, żeby miasto dalej finansowało dom kultury mimo oszczędności"
+    ],
+    "planHint_pl": "Wstęp: kim jesteś, na co reagujesz i o co prosisz. Akapit 1: relacja w czasach przeszłych (kiedy, co, jak przebiegało, co z tego wyszło). Akapit 2: przyznaj, że miasto musi oszczędzać, a potem dwa argumenty z przykładem. Zakończenie: apel do władz.",
+    "models": [
+      {
+        "kind": "model",
+        "paragraphs": [
+          "Dear Sir or Madam,",
+          "As a member of the drama group at the Youth Cultural Centre, I was shocked to learn that the council intends to close the centre next year to cut costs. I am writing to ask you to reconsider this decision.",
+          "Last spring, the centre organised a three-day theatre festival for secondary school students from across the region. Our group spent two months preparing a play based on stories collected from our grandparents. On the final evening, the hall was so full that people stood at the back, and afterwards several elderly residents told us how moved they were. For most of us, it was the first time we had performed in front of a real audience.",
+          "I fully understand that the town has to reduce its spending. However, closing the centre would be a false economy, as the town would lose far more than it would save. The centre offers low-cost activities to over three hundred young people every week, many of whom cannot afford private lessons. Without it, they would have nowhere to go after school except shopping centres. Furthermore, it brings different generations together through events like our festival, which no other place in town does.",
+          "For these reasons, I urge the council to look for savings elsewhere and keep the centre open. I would also be grateful if you could meet some of the young people who use the centre before a final decision is made.",
+          "Yours faithfully,",
+          "Jakub Malinowski"
+        ],
+        "annotations": [
+          {
+            "quote": "As a member of the drama group at the Youth Cultural Centre",
+            "criterion": "task",
+            "note_pl": "Przedstawiasz się jednym zdaniem i od razu wiadomo, dlaczego twój głos się liczy. Nie ma My name is… and I am 18."
+          },
+          {
+            "quote": "I am writing to ask you to reconsider this decision.",
+            "criterion": "task",
+            "note_pl": "Cel listu podany wprost: prośba o zmianę decyzji. Za taki wstęp są 2 pkt."
+          },
+          {
+            "quote": "Last spring, the centre organised a three-day theatre festival",
+            "criterion": "task",
+            "note_pl": "Relacja zaczyna się od tego, kiedy i co. Dalej przebieg i efekt, wszystko w czasach przeszłych, bo wydarzenie się skończyło."
+          },
+          {
+            "quote": "it was the first time we had performed",
+            "criterion": "accuracy",
+            "note_pl": "Po it was the first time stoi Past Perfect: chodzi o doświadczenie do tamtego momentu w przeszłości. W teraźniejszości byłoby it is the first time we have performed."
+          },
+          {
+            "quote": "I fully understand that the town has to reduce its spending.",
+            "criterion": "task",
+            "note_pl": "Przyznajesz rację drugiej stronie i od razu ją odpierasz (However). To pogłębia element 2, bo argumenty odpowiadają na powód zamknięcia."
+          },
+          {
+            "quote": "a false economy",
+            "criterion": "range",
+            "note_pl": "Brytyjskie wyrażenie: oszczędność, która w końcu więcej kosztuje. Naturalne i dokładnie na temat."
+          },
+          {
+            "quote": "many of whom cannot afford private lessons",
+            "criterion": "range",
+            "note_pl": "Zdanie względne z many of whom to struktura powyżej podstaw."
+          },
+          {
+            "quote": "Furthermore,",
+            "criterion": "coherence",
+            "note_pl": "Łącznik dokłada drugi argument, więc czytelnik wie, że to nowa myśl, a nie ciąg dalszy poprzedniej."
+          },
+          {
+            "quote": "I urge the council to look for savings elsewhere",
+            "criterion": "task",
+            "note_pl": "Zakończenie to apel, który wynika z argumentów. Nie powtarza wstępu tymi samymi słowami."
+          }
+        ],
+        "comment_pl": "Ocena orientacyjna: 13/13. Zgodność z poleceniem 5/5: cel we wstępie, relacja z konkretami (kiedy, co, jak się skończyło), argumenty z odpowiedzią na kontrargument, apel w zakończeniu, poprawne zwroty i akapity. Spójność i logika 2/2: czasy się nie mieszają, a However i Furthermore porządkują argumenty. Zakres 3/3: false economy, many of whom, it was the first time we had performed, urge the council. Poprawność 3/3: brak błędów."
+      }
+    ],
+    "tags": ["writing-letter"]
+  },
+  {
+    "id": "letter-school-phones",
+    "type": "writing-task",
+    "form": "formal-letter",
+    "theme": "education",
+    "prompt_pl": "Dyrektorka twojej szkoły, pani Ewa Kowalczyk, chce od września wprowadzić całkowity zakaz korzystania z telefonów komórkowych w szkole, także na przerwach, i poprosiła uczniów o opinie. Napisz do niej list, w którym opiszesz, jak uczniowie twojej szkoły korzystają obecnie z telefonów w ciągu dnia, oraz zaproponujesz zasady, które według ciebie byłyby lepsze od całkowitego zakazu, i uzasadnisz swoją propozycję.",
+    "elements_pl": [
+      "opisz, jak uczniowie twojej szkoły korzystają teraz z telefonów w ciągu dnia",
+      "zaproponuj zasady lepsze od całkowitego zakazu i uzasadnij swoją propozycję"
+    ],
+    "planHint_pl": "Znasz nazwisko adresatki, więc Dear Ms Kowalczyk i Yours sincerely. Wstęp: podziękowanie za pytanie, cel i stanowisko. Akapit 1: dobre i złe użycie telefonów, z przykładami. Akapit 2: dwie–trzy zasady i dlaczego zadziałają lepiej niż zakaz. Zakończenie: przekonanie i prośba o rozmowę.",
+    "models": [
+      {
+        "kind": "model",
+        "paragraphs": [
+          "Dear Ms Kowalczyk,",
+          "Thank you for asking students for their opinions on the planned ban on mobile phones. I am writing to share the views of my class. While we agree that phones cause problems at our school, we believe that a total ban is not the best solution and would like to propose an alternative.",
+          "At present, phones are part of almost every moment of the school day. Many students use them for sensible purposes, such as checking changes to the timetable, looking up words in English lessons or contacting their parents. However, during breaks most of us simply stare at our screens instead of talking to each other, and the corridors have become strangely quiet. Some students also play games in class, which distracts everyone around them.",
+          "Instead of a complete ban, we would suggest that the school introduce two simple rules. Firstly, phones should stay in our bags during lessons unless a teacher asks us to use them. Secondly, the lunch break could be phone-free, with board games and table tennis available in the hall. Such rules would be easier to enforce than a total ban, and they would teach us to control our phone use ourselves.",
+          "We are convinced that students would respect rules they have helped to create. We would be grateful if you could discuss this proposal with the student council before the final decision is made.",
+          "Yours sincerely,",
+          "Zuzanna Lis"
+        ],
+        "annotations": [
+          {
+            "quote": "Dear Ms Kowalczyk,",
+            "criterion": "task",
+            "note_pl": "Nazwisko jest w poleceniu, więc Ms + nazwisko, a na końcu Yours sincerely. Ms jest bezpieczne, bo nie musisz zgadywać, czy pani dyrektor ma męża."
+          },
+          {
+            "quote": "I am writing to share the views of my class.",
+            "criterion": "task",
+            "note_pl": "Cel listu podany wprost, zaraz po podziękowaniu."
+          },
+          {
+            "quote": "While we agree that phones cause problems at our school",
+            "criterion": "task",
+            "note_pl": "Stanowisko z zastrzeżeniem: zgadzasz się co do problemu, ale nie co do rozwiązania. Wstęp zapowiada oba elementy."
+          },
+          {
+            "quote": "Many students use them for sensible purposes",
+            "criterion": "task",
+            "note_pl": "Element 1 ma dwie strony, dobre i złe użycie, i przy każdej przykłady. To realizacja wieloaspektowa."
+          },
+          {
+            "quote": "the corridors have become strangely quiet",
+            "criterion": "range",
+            "note_pl": "Konkretny obraz zamiast ogólnika phones are bad for relationships."
+          },
+          {
+            "quote": "we would suggest that the school introduce",
+            "criterion": "accuracy",
+            "note_pl": "Po suggest that stoi podmiot i czasownik w formie podstawowej (introduce) albo should introduce. To dwie najbezpieczniejsze wersje, choć po brytyjsku przejdzie też zwykłe introduces. Błędem jest suggest the school to introduce."
+          },
+          {
+            "quote": "Firstly,",
+            "criterion": "coherence",
+            "note_pl": "Firstly i Secondly porządkują zasady, więc łatwo je policzyć i zapamiętać."
+          },
+          {
+            "quote": "Such rules would be easier to enforce than a total ban",
+            "criterion": "task",
+            "note_pl": "Uzasadnienie propozycji: dlaczego lepsza od zakazu. Bez tego element 2 byłby samą listą zasad."
+          },
+          {
+            "quote": "Yours sincerely,",
+            "criterion": "task",
+            "note_pl": "Zaczęło się od nazwiska, więc sincerely, a nie faithfully."
+          }
+        ],
+        "comment_pl": "Ocena orientacyjna: 13/13. Zgodność z poleceniem 5/5: wstęp z celem i stanowiskiem, element 1 z dwiema stronami i przykładami, zasady z uzasadnieniem, zakończenie zgodne z treścią, zwroty dobrane do adresatki. Spójność i logika 2/2: However, Firstly, Secondly i Such rules wiążą akapity. Zakres 3/3: enforce, phone-free, strangely quiet, suggest that the school introduce. Poprawność 3/3: brak błędów."
+      }
+    ],
+    "tags": ["writing-letter"]
+  },
+  {
+    "id": "letter-village-buses",
+    "type": "writing-task",
+    "form": "formal-letter",
+    "theme": "travel",
+    "prompt_pl": "Lokalna gazeta poinformowała, że od września, z powodu oszczędności, zostanie zlikwidowana większość kursów autobusowych łączących okoliczne wsie z miastem. Zostanie tylko jeden kurs rano i jeden po południu. Napisz list do redakcji, w którym przedstawisz, jak ta zmiana wpłynie na codzienne życie uczniów dojeżdżających do szkół w mieście, oraz zaproponujesz rozwiązanie, które pozwoli ograniczyć koszty, a jednocześnie zachować dojazd do miasta, i uzasadnisz swój wybór.",
+    "elements_pl": [
+      "przedstaw, jak zmiana wpłynie na codzienne życie uczniów dojeżdżających do szkół",
+      "zaproponuj rozwiązanie, które ograniczy koszty i zachowa dojazd, i uzasadnij swój wybór"
+    ],
+    "planHint_pl": "Wstęp: na jaki artykuł odpowiadasz, kim jesteś i co proponujesz. Akapit 1: rano i po lekcjach, skutki z konkretami. Akapit 2: jedno rozwiązanie i uzasadnienie, które odpowiada na oba warunki z polecenia: koszty i dojazd. Zakończenie: stanowisko i prośba o publikację.",
+    "models": [
+      {
+        "kind": "weaker",
+        "paragraphs": [
+          "Hello,",
+          "My name is Kasia and I am seventeen years old. I live in a small village near the town and I go to school by bus every day. I read your article about the buses and I want to write what I think about it.",
+          "It's really bad for kids from villages like mine. Now there are a lot of buses, so I can choose. From September there will be only one bus in the morning and one in the afternoon. Students will must wake up at five o'clock and they will be very tired on lessons. After lessons we will have to wait two or three hours for the bus home, so a lot of students won't go to extra classes or sports clubs beacause they won't have time. Some parents can drive their kids, but not everybody has a car and my parents work in another town.",
+          "I am agree that the bus company must to save money. They can use smaller buses or something. In the afternoon there are not many people on the bus anyway. It will be cheaper and better for everybody. The authorities should do something because young people are the future.",
+          "I hope you liked my letter. Please answer me fast.",
+          "Best wishes,",
+          "Kasia"
+        ],
+        "annotations": [
+          {
+            "quote": "Hello,",
+            "criterion": "task",
+            "note_pl": "Powitanie z listu prywatnego, więc element formy za zwroty spada do 0. Powinno być Dear Editor albo Dear Sir or Madam."
+          },
+          {
+            "quote": "I want to write what I think about it",
+            "criterion": "task",
+            "note_pl": "Nie wiadomo, po co jest list: sprzeciw, prośba, propozycja? Cel niejasny, więc wstęp najwyżej 1 pkt. Do tego imię i wiek nic nie wnoszą, a zjadają wyrazy."
+          },
+          {
+            "quote": "It's really bad for kids from villages like mine.",
+            "criterion": "range",
+            "note_pl": "It's, kids, really bad, a dalej a lot of i won't: język z rozmowy. W liście formalnym to styl niestosowny, a za rażące albo liczne uchybienia stylu można stracić punkt w zakresie."
+          },
+          {
+            "quote": "Students will must wake up at five o'clock and they will be very tired on lessons.",
+            "criterion": "accuracy",
+            "note_pl": "Dwa błędy: must nie ma formy przyszłej, więc will have to. Zmęczony na lekcjach to during lessons albo in class, a nie on lessons."
+          },
+          {
+            "quote": "beacause",
+            "criterion": "accuracy",
+            "note_pl": "Błąd ortograficzny: because."
+          },
+          {
+            "quote": "they won't have time",
+            "criterion": "coherence",
+            "note_pl": "Na początku tego samego zdania uczniowie czekają dwie–trzy godziny, a na końcu nie mają czasu. To się gryzie. Chodzi o to, że po zajęciach nie ma już autobusu do domu."
+          },
+          {
+            "quote": "I am agree that the bus company must to save money.",
+            "criterion": "accuracy",
+            "note_pl": "Dwa błędy: agree to czasownik, więc I agree, bez am. Po must bezokolicznik bez to: must save."
+          },
+          {
+            "quote": "They can use smaller buses or something.",
+            "criterion": "task",
+            "note_pl": "Pomysł jest, ale bez szczegółów (jakie autobusy, o których godzinach), a uzasadnienie to jedno zdanie o pustych autobusach po południu. Nie ma ani słowa o tym, jak zachować dojazd, a better for everybody i young people are the future nic nie wyjaśniają. Element 2 najwyżej 1 pkt."
+          },
+          {
+            "quote": "I hope you liked my letter. Please answer me fast.",
+            "criterion": "task",
+            "note_pl": "Zakończenie z samych formułek, a do tego Please answer me fast brzmi jak polecenie. Zakończenie schematyczne, najwyżej 1 pkt."
+          },
+          {
+            "quote": "Best wishes,",
+            "criterion": "task",
+            "note_pl": "Zamknięcie z listu do znajomych. Po Dear Sir or Madam albo Dear Editor: Yours faithfully, a pod spodem imię i nazwisko."
+          }
+        ],
+        "comment_pl": "Ocena orientacyjna: 8/13, a przy surowszym egzaminatorze 7/13. Zgodność z poleceniem 3/5: treść 7/10 (wstęp bez celu 1, element 1 rozwinięty, choć z usterką logiczną, 2, element 2 ogólnikowy 1, zakończenie schematyczne 1, brak fragmentów nie na temat 2) i forma 3/4 (Hello i Best wishes zerują zwroty, akapity i długość są w porządku), co w tabeli C daje 3. Kompozycja jest na granicy, bo zakończenie to dwa krótkie zdania bez treści. Gdyby egzaminator dał za nią 0, forma spadłaby do 2/4, a zgodność do 2/5. Spójność i logika 2/2: jedna wyraźna usterka, ale tekst da się śledzić. Zakres 1/3: głównie proste struktury i potoczny styl. Poprawność 2/3: kilka błędów językowych (will must, on lessons, am agree, must to) i jedna literówka."
+      },
+      {
+        "kind": "stronger",
+        "paragraphs": [
+          "Dear Editor,",
+          "I am writing in response to your article on the planned cuts to bus services between the surrounding villages and the town. As a student who travels to school by bus every day, I am deeply concerned about this decision, and I would like to suggest a fairer way of saving money.",
+          "If the plan goes ahead, students like me will have to catch the only morning bus at around six o'clock, more than an hour before lessons begin. Getting up so early is bound to affect our concentration. The afternoon will be even worse. With just one bus after school, anyone who stays for extra classes or exam preparation will simply have no way of getting home. As a result, students from villages will be at a clear disadvantage compared with their classmates from the town.",
+          "Rather than cancelling most of the services, the bus company could replace its large buses with minibuses outside peak hours. A minibus uses considerably less fuel, so the savings would be significant, while students and elderly residents would still have several buses a day. In this way, the company would cut its costs without leaving anyone stranded.",
+          "To sum up, the cuts would save money in the short term, but they would also limit opportunities for young people in our area. I would be grateful if you could publish my letter, as I hope it will persuade the company to reconsider.",
+          "Yours faithfully,",
+          "Katarzyna Nowak"
+        ],
+        "annotations": [
+          {
+            "quote": "Dear Editor,",
+            "criterion": "task",
+            "note_pl": "Nazwiska redaktora nie znasz, więc Dear Editor i na końcu Yours faithfully."
+          },
+          {
+            "quote": "I am writing in response to your article on the planned cuts",
+            "criterion": "task",
+            "note_pl": "Cel listu w pierwszym zdaniu, a w drugim stanowisko i zapowiedź propozycji. Porównaj z I want to write what I think about it."
+          },
+          {
+            "quote": "As a student who travels to school by bus every day",
+            "criterion": "task",
+            "note_pl": "Zamiast imienia i wieku jedno zdanie, które pokazuje, dlaczego piszesz o tej sprawie."
+          },
+          {
+            "quote": "If the plan goes ahead, students like me will have to catch",
+            "criterion": "accuracy",
+            "note_pl": "Po if czas teraźniejszy (goes), a nie will. Przyszłość od must to will have to."
+          },
+          {
+            "quote": "is bound to affect our concentration",
+            "criterion": "range",
+            "note_pl": "Be bound to = na pewno się stanie. Dokładniej niż will probably be bad for us."
+          },
+          {
+            "quote": "will simply have no way of getting home",
+            "criterion": "coherence",
+            "note_pl": "Tu logika się zgadza: problemem nie jest brak czasu, tylko brak autobusu po zajęciach."
+          },
+          {
+            "quote": "replace its large buses with minibuses outside peak hours",
+            "criterion": "task",
+            "note_pl": "Konkretna propozycja: co zmienić i kiedy. W słabszej wersji było smaller buses or something."
+          },
+          {
+            "quote": "so the savings would be significant, while students and elderly residents would still have several buses a day",
+            "criterion": "task",
+            "note_pl": "Uzasadnienie odpowiada na oba warunki z polecenia: mniejsze koszty i zachowany dojazd. Za to jest pełne 2 pkt."
+          },
+          {
+            "quote": "I would be grateful if you could publish my letter",
+            "criterion": "range",
+            "note_pl": "Uprzejma prośba zamiast Please answer me fast. Przed nią zdanie, które zbiera stanowisko, więc zakończenie nie jest samą formułką."
+          },
+          {
+            "quote": "Yours faithfully,",
+            "criterion": "task",
+            "note_pl": "Para do Dear Editor. Pod spodem pełne imię i nazwisko."
+          }
+        ],
+        "comment_pl": "Ocena orientacyjna: 13/13. Zgodność z poleceniem 5/5: cel we wstępie, skutki rano i po lekcjach z konkretami, propozycja z uzasadnieniem odpowiadającym na oba warunki, zakończenie z treścią, poprawne zwroty. Spójność i logika 2/2: As a result i In this way łączą przyczyny ze skutkami. Zakres 3/3: be bound to, go ahead, at a clear disadvantage, peak hours, leave somebody stranded, a w całym tekście jeden formalny styl. Poprawność 3/3: brak błędów."
+      }
+    ],
+    "tags": ["writing-letter"]
+  }
+]
