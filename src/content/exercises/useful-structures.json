@@ -1,0 +1,751 @@
+[
+  {
+    "id": "ust-boring-film-audience",
+    "type": "key-word-transformation",
+    "source": "The film was so boring that half the audience left before the end.",
+    "keyWord": "SUCH",
+    "target": "It was ___ that half the audience left before the end.",
+    "correct": ["such a boring film"],
+    "accepted": ["such a boring movie"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "so boring that: film był tak nudny, że coś się przez to stało. Skutek zostaje po that."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Zdanie docelowe zaczyna się od It was, więc musisz powiedzieć, czym to było: filmem. Potrzebny rzeczownik."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "such + a + przymiotnik + rzeczownik: such a boring film. film jest policzalny w liczbie pojedynczej, więc a jest obowiązkowe."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "such boring film bez a daje 0 pkt. so a boring film nie istnieje."
+      }
+    ],
+    "tags": ["useful-structures", "articles-determiners"],
+    "difficulty": 1
+  },
+  {
+    "id": "ust-cold-lake-swim",
+    "type": "key-word-transformation",
+    "source": "The lake was so cold that we couldn't swim in it.",
+    "keyWord": "TOO",
+    "target": "The lake was ___ swim in.",
+    "correct": ["too cold for us to", "too cold to"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "so cold that we couldn't: coś przekroczyło granicę i dlatego było niemożliwe."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "too = za, ponad granicę. Niemożliwość jest już w too, więc couldn't znika."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "too + przymiotnik + (for + osoba) + to V1: too cold for us to. Osobę możesz pominąć, sens zostaje."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Na końcu zdania jest samo in. it nie wraca, bo jezioro jest już podmiotem zdania. too cold for we ✗: po for stoi us."
+      }
+    ],
+    "tags": ["useful-structures", "articles-determiners"],
+    "difficulty": 2,
+    "accepted": ["much too cold to", "far too cold to"]
+  },
+  {
+    "id": "ust-kuba-driving-licence",
+    "type": "key-word-transformation",
+    "source": "Kuba is too young to get a driving licence.",
+    "keyWord": "ENOUGH",
+    "target": "Kuba isn't ___ get a driving licence.",
+    "correct": ["old enough to"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "too young to: za młody, czyli nie spełnia warunku."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "W zdaniu docelowym jest już przeczenie (isn't). Nie jest wystarczająco… czego? Starszy. Bierzesz przymiotnik o przeciwnym znaczeniu: young → old."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "przymiotnik + enough + to V1: old enough to."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "enough old ✗: enough stoi po przymiotniku. young enough dałoby odwrotny sens."
+      }
+    ],
+    "tags": ["useful-structures", "articles-determiners"],
+    "difficulty": 1
+  },
+  {
+    "id": "ust-ola-painting-bedroom",
+    "type": "key-word-transformation",
+    "source": "Ola spent the whole weekend painting her bedroom.",
+    "keyWord": "TOOK",
+    "target": "It ___ to paint her bedroom.",
+    "correct": [
+      "took Ola the whole weekend",
+      "took her the whole weekend",
+      "took Ola all weekend",
+      "took her all weekend"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "spent + czas + -ing: ile czasu coś komuś zajęło."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Zdanie zaczyna się od It, a kończy na to paint. To rama it takes sb time to V1."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "It + took + osoba + czas: took Ola the whole weekend. Słowo klucz jest już w przeszłości, tak jak spent."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Osoba stoi zaraz po took, przed czasem: took the whole weekend Ola ✗. Bez osoby zdanie gubi informację, kto malował."
+      }
+    ],
+    "tags": ["useful-structures"],
+    "difficulty": 2,
+    "accepted": [
+      "took Ola the entire weekend",
+      "took her the entire weekend",
+      "took all weekend for her",
+      "took all weekend for Ola"
+    ]
+  },
+  {
+    "id": "ust-marta-big-city",
+    "type": "key-word-transformation",
+    "source": "Living in a big city is nothing new to Marta, so the traffic doesn't bother her.",
+    "keyWord": "USED",
+    "target": "Marta ___ in a big city, so the traffic doesn't bother her.",
+    "correct": ["is used to living", "has got used to living"],
+    "accepted": [
+      "'s used to living",
+      "'s got used to living",
+      "has gotten used to living",
+      "has become used to living"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "nothing new to Marta i doesn't bother her: to dla niej normalne."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "To przyzwyczajenie, które trwa teraz, a nie dawny zwyczaj. Potrzebne be used to (stan)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "be used to + -ing: is used to living. to jest tu przyimkiem, więc po nim -ing."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "used to live znaczy „kiedyś mieszkała”, czyli odwrotnie. is used to live ✗: brak -ing daje 0 pkt."
+      }
+    ],
+    "tags": ["useful-structures", "gerund-infinitive"],
+    "difficulty": 2
+  },
+  {
+    "id": "ust-new-timetable-strange",
+    "type": "key-word-transformation",
+    "source": "I'm sure the new timetable will soon stop feeling strange to you.",
+    "keyWord": "GET",
+    "target": "I'm sure you'll soon ___ the new timetable.",
+    "correct": ["get used to", "get accustomed to"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "will soon stop feeling strange: teraz jest dziwnie, za jakiś czas już nie będzie."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "To proces przyzwyczajania się, a nie stan. Proces to get, stan to be."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "get used to + rzeczownik: get used to the new timetable. you'll już jest, więc wpisujesz tylko trzy wyrazy."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "be used to opisałoby stan, a słowo klucz to GET. used to bez get znaczyłoby dawny zwyczaj."
+      }
+    ],
+    "tags": ["useful-structures", "gerund-infinitive"],
+    "difficulty": 1
+  },
+  {
+    "id": "ust-referee-storm-pitch",
+    "type": "key-word-transformation",
+    "source": "The referee made the players leave the pitch because of the storm.",
+    "keyWord": "MADE",
+    "target": "The players ___ the pitch because of the storm.",
+    "correct": ["were made to leave", "were made to go off", "were made to walk off"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Podmiotem zdania docelowego są piłkarze, a nie sędzia. Ktoś coś z nimi zrobił: strona bierna."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "made sb do = kazać, zmusić. Kazano piłkarzom zejść z boiska."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "W stronie biernej make odzyskuje to: were made to leave. were, bo players to liczba mnoga i przeszłość."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "were made leave ✗: bez to w stronie biernej. Samo V1 stoi tylko w stronie czynnej (made the players leave)."
+      }
+    ],
+    "tags": ["useful-structures", "passive-voice"],
+    "difficulty": 2,
+    "accepted": ["were made to come off"]
+  },
+  {
+    "id": "ust-stay-up-school-nights",
+    "type": "key-word-transformation",
+    "source": "Our parents didn't let us stay up late on school nights.",
+    "keyWord": "ALLOWED",
+    "target": "We ___ up late on school nights.",
+    "correct": ["were not allowed to stay"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "didn't let us, a zdanie docelowe zaczyna się od We: strona bierna."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Nie wolno nam było siedzieć do późna. let nie ma strony biernej, dlatego słowo klucz to ALLOWED."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "be allowed + to V1: were not allowed to stay. Czas przeszły jak w didn't."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "were not allowed stay ✗: allow zawsze bierze to. weren't let to stay ✗."
+      }
+    ],
+    "tags": ["useful-structures", "passive-voice"],
+    "difficulty": 2
+  },
+  {
+    "id": "ust-cook-or-pizza",
+    "type": "key-word-transformation",
+    "source": "I'd prefer to cook at home tonight rather than order a pizza.",
+    "keyWord": "RATHER",
+    "target": "I ___ tonight than order a pizza.",
+    "correct": ["would rather cook at home"],
+    "accepted": ["'d rather cook at home"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I'd prefer to … rather than: wolałbym w tej konkretnej sytuacji."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "To samo znaczenie daje would rather. Druga opcja (order a pizza) zostaje po than."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "would rather + samo V1: would rather cook at home. Pięć wyrazów, czyli dokładnie limit."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "would rather to cook ✗. Po rather nie ma to, tak jak po than (than order, nie than to order)."
+      }
+    ],
+    "tags": ["useful-structures", "subjunctive-formal"],
+    "difficulty": 2
+  },
+  {
+    "id": "ust-swimming-running",
+    "type": "key-word-transformation",
+    "source": "I enjoy swimming more than running.",
+    "keyWord": "PREFER",
+    "target": "I ___ running.",
+    "correct": ["prefer swimming to"],
+    "accepted": ["prefer swimming over"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "enjoy X more than Y: porównujesz dwie czynności, mówisz ogólnie."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "prefer X to Y = wolę X od Y."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "prefer + -ing + to + -ing: prefer swimming to running. to jest przyimkiem, dlatego po nim running."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "prefer swimming than ✗. Po prefer swimming druga rzecz idzie przez to; than tylko w would rather … than albo prefer to V1 … rather than."
+      }
+    ],
+    "tags": ["useful-structures", "gerund-infinitive"],
+    "difficulty": 1
+  },
+  {
+    "id": "ust-rain-school-trip",
+    "type": "key-word-transformation",
+    "source": "It will probably rain on the day of our school trip.",
+    "keyWord": "LIKELY",
+    "target": "It ___ on the day of our school trip.",
+    "correct": ["is likely to rain"],
+    "accepted": ["'s likely to rain", "will likely rain", "will most likely rain"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "will probably: coś prawdopodobnie się stanie."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "be likely to = prawdopodobnie. Pewność jest ta sama co przy probably."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "be likely + to V1: is likely to rain. Przyszłość siedzi w znaczeniu likely, więc wystarczy is."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "is likely rain ✗ i is likely raining ✗: po likely zawsze to + V1. will be likely to rain brzmi niezręcznie, unikaj go."
+      }
+    ],
+    "tags": ["useful-structures"],
+    "difficulty": 1
+  },
+  {
+    "id": "ust-phones-off-exams",
+    "type": "key-word-transformation",
+    "source": "According to the school rules, we must switch off our phones during exams.",
+    "keyWord": "SUPPOSED",
+    "target": "We ___ our phones off during exams.",
+    "correct": ["are supposed to switch", "are supposed to turn"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "According to the school rules … must: obowiązek wynika z zasad."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "be supposed to = mieć coś zrobić, bo tak mówią zasady albo plan."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "be supposed + to V1: are supposed to switch. off już jest w zdaniu, po our phones."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "are suppose to ✗: supposed zawsze z -d. are supposed switch ✗: bez to."
+      }
+    ],
+    "tags": ["useful-structures", "modal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "ust-film-popcorn",
+    "type": "gap-fill",
+    "sentence": "Hurry up! The film ___ (about / start) and we still haven't bought any popcorn.",
+    "correct": ["is about to start"],
+    "accepted": ["'s about to start"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Hurry up!: coś stanie się lada chwila."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "be about to = zaraz, za moment."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "be + about + to V1: is about to start. is i to dopisujesz sam."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "is about starting ✗ i is about start ✗. Po about w tym znaczeniu zawsze to + V1."
+      }
+    ],
+    "tags": ["useful-structures"],
+    "difficulty": 1
+  },
+  {
+    "id": "ust-train-krakow-timetable",
+    "type": "gap-fill",
+    "sentence": "According to the timetable, the next train to Kraków ___ (due / leave) at 10.40, so we've still got time for a coffee.",
+    "correct": ["is due to leave"],
+    "accepted": ["'s due to leave"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "According to the timetable i konkretna godzina: to plan."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "be due to = ma nastąpić według planu, rozkładu albo terminu."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "be + due + to V1: is due to leave."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "is due leave ✗: brak to. due to + rzeczownik (due to the fog) to przyimek „z powodu”, tu po luce stoi czasownik."
+      }
+    ],
+    "tags": ["useful-structures"],
+    "difficulty": 2
+  },
+  {
+    "id": "ust-interview-prepared",
+    "type": "gap-fill",
+    "sentence": "Stop worrying about the interview. You've prepared really well, so you ___ (bound / get) the job.",
+    "correct": ["are bound to get"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Stop worrying i prepared really well: mówiący jest pewien wyniku."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "be bound to = na pewno, mówiący jest o tym przekonany."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "be + bound + to V1: are bound to get. are, bo podmiotem jest you."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "are bound getting ✗ i will bound to get ✗. Przyszłość jest w znaczeniu bound, wystarczy are."
+      }
+    ],
+    "tags": ["useful-structures"],
+    "difficulty": 2
+  },
+  {
+    "id": "ust-injured-players-cup",
+    "type": "gap-fill",
+    "sentence": "With four key players injured, our team ___ (unlikely / win) the cup this season.",
+    "correct": ["is unlikely to win", "seems unlikely to win", "looks unlikely to win"],
+    "accepted": ["'s unlikely to win"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "four key players injured: raczej się nie uda."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "be unlikely to = mało prawdopodobne, że. Przeczenie jest już w un-."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "be + unlikely + to V1: is unlikely to win. team to jedna drużyna, więc is."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "is not unlikely to win dałoby odwrotny sens. is unlikely winning ✗: po unlikely to + V1."
+      }
+    ],
+    "tags": ["useful-structures"],
+    "difficulty": 1
+  },
+  {
+    "id": "ust-grandparents-dancing",
+    "type": "gap-fill",
+    "sentence": "When they were young, my grandparents ___ (use / go) dancing every Saturday night.",
+    "correct": ["used to go"],
+    "maxWords": 3,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "When they were young i every Saturday night: zwyczaj z przeszłości, który już minął."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "used to + V1 = kiedyś tak było, teraz już nie."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "use → used, potem to + go: used to go."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "were used to going znaczyłoby „byli przyzwyczajeni”, a nie dawny zwyczaj. used to going ✗."
+      }
+    ],
+    "tags": ["useful-structures", "past-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "ust-olives-now",
+    "type": "gap-fill",
+    "sentence": "I ___ (not / use / like) olives, but now I put them on everything.",
+    "correct": ["did not use to like"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "but now: kiedyś było inaczej niż teraz."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Kiedyś nie lubiłem, teraz lubię: dawny stan, który się skończył. To used to w przeczeniu."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Przeczenie robisz przez did not, a po did stoi forma podstawowa: did not use to like."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "did not used to ✗: po did nie ma -d, tak jak did not played ✗."
+      }
+    ],
+    "tags": ["useful-structures", "past-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "ust-hotel-taxi-airport",
+    "type": "gap-fill",
+    "sentence": "Don't worry about getting to the airport, sir. I'll ___ (have / receptionist / call) you a taxi.",
+    "correct": ["have the receptionist call", "have our receptionist call"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Mówiący sam nie zadzwoni, tylko zleci to komuś innemu."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "have sb do = poprosić kogoś, zlecić mu, żeby coś zrobił."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "have + osoba + samo V1: have the receptionist call. Przed receptionist trzeba dopisać przedimek albo zaimek (the, our)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "have the receptionist to call ✗ i have the receptionist calling ✗. have, tak jak make i let, bierze samo V1."
+      }
+    ],
+    "tags": ["useful-structures", "gerund-infinitive"],
+    "difficulty": 3
+  },
+  {
+    "id": "ust-chat-online-friends",
+    "type": "gap-fill",
+    "sentence": "These days most of my friends ___ (prefer / chat) online to meeting up in person.",
+    "correct": ["prefer chatting"],
+    "maxWords": 3,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Po luce stoi to meeting: porównanie dwóch czynności."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "prefer X to Y = woleć X od Y, ogólne upodobanie (These days)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "W prefer X to Y obie czynności mają tę samą formę: -ing. chat → chatting, z podwójnym t."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "prefer to chat byłoby dobre samo w sobie, ale nie z to meeting na końcu. Przy to V1 drugą opcję łączysz przez rather than."
+      }
+    ],
+    "tags": ["useful-structures", "gerund-infinitive"],
+    "difficulty": 2
+  },
+  {
+    "id": "ust-lovely-weather-garden",
+    "type": "choice",
+    "text": "It was ___ lovely weather that we had lunch in the garden.",
+    "gaps": [
+      {
+        "options": ["such", "so", "such a", "too"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce przymiotnik i rzeczownik (lovely weather), a dalej that i skutek."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Przed rzeczownikiem stoi such. weather jest niepoliczalne, więc bez a: such lovely weather."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "such a odpada, bo nie mówi się a weather. so stoi przed samym przymiotnikiem, a too nie łączy się z that i skutkiem."
+          }
+        ]
+      }
+    ],
+    "tags": ["useful-structures", "articles-determiners"],
+    "difficulty": 2
+  },
+  {
+    "id": "ust-cafe-round-corner",
+    "type": "choice",
+    "text": "If you're hungry, ___ a little café round the corner that does amazing cheesecake.",
+    "gaps": [
+      {
+        "options": ["there's", "it's", "it has", "there are"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Mówisz o kawiarni pierwszy raz i informujesz, że ona w ogóle tam jest. Nowa rzecz, która istnieje gdzieś: there is."
+          },
+          {
+            "label_pl": "liczba",
+            "text_pl": "a little café to liczba pojedyncza, więc there's, nie there are."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "it's wskazuje na coś już znanego, a o kawiarni nikt jeszcze nie mówił. it has to kalka z polskiego „ma”."
+          }
+        ]
+      }
+    ],
+    "tags": ["useful-structures"],
+    "difficulty": 1
+  },
+  {
+    "id": "ust-snow-town-buses",
+    "type": "choice",
+    "text": "Last January ___ so much snow in our town that the schools closed for three days. The storm ___ the council to shut several roads, and the snow was ___ deep for the buses to run normally.",
+    "gaps": [
+      {
+        "options": ["there was", "it was", "there were", "it had"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Mówisz, że śnieg w ogóle był, i to dużo. Istnienie czegoś to there is, w przeszłości there was."
+          },
+          {
+            "label_pl": "liczba",
+            "text_pl": "snow jest niepoliczalne, więc was, nie were."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "it was so much snow ✗ to kalka z polskiego. it had też nie mówi, że coś istniało."
+          }
+        ]
+      },
+      {
+        "options": ["forced", "made", "let", "had"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "po luce",
+            "text_pl": "Po osobie (the council) stoi to shut. Potrzebny czasownik, który bierze to + V1."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "force sb to do = zmusić kogoś. Okoliczności zmusiły władze do zamknięcia dróg."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "made, let i had w stronie czynnej biorą samo V1: made the council shut. Z to po nich zdanie jest błędne."
+          }
+        ]
+      },
+      {
+        "options": ["too", "so", "enough", "such"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce przymiotnik deep, a potem for the buses to run: coś przekroczyło granicę."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "too + przymiotnik + for sb + to V1: too deep for the buses to run."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "so deep wymaga that i zdania. enough stoi po przymiotniku (deep enough), a such przed rzeczownikiem."
+          }
+        ]
+      }
+    ],
+    "tags": ["useful-structures"],
+    "difficulty": 2
+  },
+  {
+    "id": "ust-walk-or-bus",
+    "type": "choice",
+    "text": "I'd ___ walk to school than wait twenty minutes for the bus in the rain.",
+    "gaps": [
+      {
+        "options": ["rather", "prefer", "like", "enjoy"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce samo V1 (walk), a dalej than i druga opcja."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "would rather + V1 + than + V1 = wolałbym raczej. I'd rather walk than wait."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "I'd prefer i I'd like wymagają to walk, a drugą opcję łączą przez rather than. enjoy bierze -ing i nie pasuje do I'd … than."
+          }
+        ]
+      }
+    ],
+    "tags": ["useful-structures", "subjunctive-formal"],
+    "difficulty": 1
+  },
+  {
+    "id": "ust-dad-night-shifts",
+    "type": "choice",
+    "text": "My dad has worked nights for years, so he ___ sleeping during the day.",
+    "gaps": [
+      {
+        "options": ["is used to", "used to", "uses to", "is using to"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "for years i po luce sleeping: chodzi o coś, co jest dla niego normalne teraz."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "be used to + -ing = być przyzwyczajonym. to jest przyimkiem, więc po nim sleeping."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "used to + V1 to dawny zwyczaj (used to sleep) i nie łączy się z -ing. uses to i is using to nie istnieją."
+          }
+        ]
+      }
+    ],
+    "tags": ["useful-structures", "gerund-infinitive"],
+    "difficulty": 1
+  }
+]
