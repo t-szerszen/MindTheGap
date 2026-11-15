@@ -11,6 +11,7 @@ import { useReadingSets } from '../../lib/content'
 import { addAttempt } from '../../lib/db/attempts'
 import { gradeReading, itemCount, itemKey } from '../../lib/reading/grade'
 import { splitBlanks } from '../../lib/exercises/gap'
+import { optionOrder } from '../../lib/exercises/order'
 import { useAuth } from '../auth/useAuth'
 import { answerInput, letters } from '../exercises/itemInput'
 
@@ -97,6 +98,7 @@ function Reading({ set }: { set: ReadingSet }) {
             </h2>
             <p className="eyebrow ex-task">{instruction(task)}</p>
             <TaskBody
+              setId={set.id}
               task={task}
               ti={ti}
               get={get}
@@ -145,6 +147,7 @@ function instruction(task: ReadingTask) {
 }
 
 type BodyProps = {
+  setId: string
   task: ReadingTask
   ti: number
   get: (k: string) => string
@@ -153,7 +156,7 @@ type BodyProps = {
   ok: (k: string) => boolean | undefined
 }
 
-function TaskBody({ task, ti, get, set, checked, ok }: BodyProps) {
+function TaskBody({ setId, task, ti, get, set, checked, ok }: BodyProps) {
   const t = pl.reading
   switch (task.kind) {
     case 'mc':
@@ -161,6 +164,12 @@ function TaskBody({ task, ti, get, set, checked, ok }: BodyProps) {
         <ol className="stack reading-items">
           {task.items.map((it, i) => {
             const k = itemKey(ti, i)
+            // litery wg miejsca na ekranie, wartość to indeks z pliku, więc ocena się nie zmienia
+            const order = optionOrder(`${setId}#${k}`, it.options.length)
+            const notes = order.flatMap((j, pos) => {
+              const note = it.options[j]!.wrong_pl
+              return note ? [`${letters[pos]}: ${note}`] : []
+            })
             return (
               <Item
                 key={i}
@@ -169,12 +178,12 @@ function TaskBody({ task, ti, get, set, checked, ok }: BodyProps) {
                 checked={checked}
                 ok={ok(k)}
                 why={it.why_pl}
-                extra={it.options.flatMap((o) => (o.wrong_pl ? [o.wrong_pl] : []))}
+                extra={notes}
               >
                 <p lang="en">{it.question}</p>
                 <Options
-                  labels={it.options.map((o, j) => `${letters[j]} ${o.text}`)}
-                  values={it.options.map((_, j) => String(j))}
+                  labels={order.map((j, pos) => `${letters[pos]} ${it.options[j]!.text}`)}
+                  values={order.map(String)}
                   value={get(k)}
                   right={checked ? String(it.answer) : null}
                   onPick={(v) => set(k, v)}
