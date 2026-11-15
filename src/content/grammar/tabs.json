@@ -1,0 +1,14 @@
+[
+  {
+    "id": "conditionals",
+    "group": "sentences",
+    "tab": ["Tryby", "warunk."],
+    "label_pl": "Tryby warunkowe"
+  },
+  {
+    "id": "modal-verbs",
+    "group": "verbs",
+    "tab": ["Czas.", "modalne"],
+    "label_pl": "Czasowniki modalne"
+  }
+]

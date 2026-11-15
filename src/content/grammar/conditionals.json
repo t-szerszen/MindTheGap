@@ -1,0 +1,240 @@
+{
+  "id": "conditionals",
+  "title_pl": "Tryby warunkowe",
+  "note_pl": "jeśli… to… — od faktów po rzeczy niemożliwe",
+  "chooseTitle_pl": "Jak wybrać tryb?",
+  "defaultSubtype": "1",
+  "practiceTag": "conditionals",
+  "theoryTopic": "conditionals",
+  "subtypes": [
+    {
+      "id": "0",
+      "label": "0",
+      "name": "Zero conditional",
+      "desc_pl": "fakty, prawa natury i stałe zależności",
+      "time_pl": "ogólnie (fakty, nawyki)",
+      "scale": {
+        "left": "realne",
+        "right": "nierealne",
+        "ticks": ["0 · fakt", "1 · możliwe", "2 · wyobrażone", "3 · już za późno"],
+        "on": [0],
+        "ring": 0
+      },
+      "formula": [
+        {
+          "key": "warunek",
+          "text": "[k:If] + [v:Present Simple]"
+        },
+        {
+          "key": "skutek",
+          "text": "[v:Present Simple]"
+        }
+      ],
+      "usage_pl": [
+        "prawa natury i fakty naukowe",
+        "stałe zależności i nawyki — [k:if] można tu zwykle zamienić na [k:when]"
+      ],
+      "signals": ["if", "when", "whenever"],
+      "examples": [
+        {
+          "en": "[k:If] you [v:heat] ice, it [v:melts].",
+          "pl": "Kiedy podgrzewasz lód, on się topi."
+        },
+        {
+          "en": "[k:If] I [v:drink] coffee late in the evening, I [a:can][n:'t] [v:sleep].",
+          "pl": "Jeśli piję kawę późnym wieczorem, nie mogę zasnąć."
+        }
+      ],
+      "steps": [
+        "Czy to fakt albo stała zależność? Da się zamienić [k:if] na [k:when]?",
+        "Skutek pojawia się za każdym razem, gdy warunek jest spełniony — nie chodzi o jedną konkretną sytuację.",
+        "[k:If] + [v:Present Simple], [v:Present Simple]."
+      ]
+    },
+    {
+      "id": "1",
+      "label": "1",
+      "name": "First conditional",
+      "desc_pl": "realna sytuacja w przyszłości",
+      "time_pl": "przyszłość",
+      "scale": {
+        "left": "realne",
+        "right": "nierealne",
+        "ticks": ["0 · fakt", "1 · możliwe", "2 · wyobrażone", "3 · już za późno"],
+        "on": [1],
+        "ring": 1
+      },
+      "formula": [
+        {
+          "key": "warunek",
+          "text": "[k:If] + [v:Present Simple]"
+        },
+        {
+          "key": "skutek",
+          "text": "[a:will] + [v:V1]"
+        }
+      ],
+      "usage_pl": [
+        "realna, prawdopodobna sytuacja w przyszłości",
+        "ostrzeżenia, obietnice, groźby — [k:unless] ≈ if… not",
+        "w skutku zamiast [a:will] może być [a:can], [a:may], [a:might] albo tryb rozkazujący"
+      ],
+      "signals": ["if", "unless", "as long as", "provided that", "as soon as"],
+      "examples": [
+        {
+          "en": "[k:If] it [v:rains] tomorrow, we [a:will] [v:stay] at home.",
+          "pl": "Jeśli jutro będzie padać, zostaniemy w domu."
+        },
+        {
+          "en": "You [a:wo][n:n't] [v:pass] [k:unless] you [v:revise].",
+          "pl": "Nie zdasz, jeśli nie będziesz powtarzać."
+        }
+      ],
+      "steps": [
+        "Mówisz o przyszłości, która naprawdę może się zdarzyć?",
+        "Warunek realny → skutek prawdopodobny.",
+        "[k:If] + [v:Present Simple], [a:will] + [v:V1] — w warunku zwykle nie ma will, choć po polsku jest czas przyszły."
+      ]
+    },
+    {
+      "id": "2",
+      "label": "2",
+      "name": "Second conditional",
+      "desc_pl": "wyobrażone teraz albo w przyszłości",
+      "time_pl": "teraz / przyszłość, nierealnie",
+      "scale": {
+        "left": "realne",
+        "right": "nierealne",
+        "ticks": ["0 · fakt", "1 · możliwe", "2 · wyobrażone", "3 · już za późno"],
+        "on": [2],
+        "ring": 2
+      },
+      "formula": [
+        {
+          "key": "warunek",
+          "text": "[k:If] + [v:Past Simple]"
+        },
+        {
+          "key": "skutek",
+          "text": "[a:would] + [v:V1]"
+        }
+      ],
+      "usage_pl": [
+        "sytuacja nierealna albo mało prawdopodobna",
+        "rady — [k:If I were you]…",
+        "marzenia i hipotezy; w skutku też [a:could] / [a:might] + [v:V1]"
+      ],
+      "signals": ["if", "If I were you", "supposing", "what if"],
+      "examples": [
+        {
+          "en": "[k:If] I [v:had] more time, I [a:would] [v:learn] Spanish.",
+          "pl": "Gdybym miał więcej czasu, uczyłbym się hiszpańskiego."
+        },
+        {
+          "en": "[k:If I were you], I [a:would] [v:apologise].",
+          "pl": "Na twoim miejscu bym przeprosił."
+        }
+      ],
+      "steps": [
+        "Sytuacja jest wyobrażona albo mało prawdopodobna?",
+        "Forma przeszła, ale chodzi o teraz albo przyszłość.",
+        "[k:If] + [v:Past Simple] (were dla wszystkich osób to wersja staranna, was jest potoczne), [a:would] + [v:V1]."
+      ]
+    },
+    {
+      "id": "3",
+      "label": "3",
+      "name": "Third conditional",
+      "desc_pl": "przeszłość, której nie da się zmienić",
+      "time_pl": "przeszłość",
+      "scale": {
+        "left": "realne",
+        "right": "nierealne",
+        "ticks": ["0 · fakt", "1 · możliwe", "2 · wyobrażone", "3 · już za późno"],
+        "on": [3],
+        "ring": 3
+      },
+      "formula": [
+        {
+          "key": "warunek",
+          "text": "[k:If] + [a:had] + [v:V3]"
+        },
+        {
+          "key": "skutek",
+          "text": "[a:would have] + [v:V3]"
+        }
+      ],
+      "usage_pl": [
+        "przeszłość, która się nie wydarzyła — żal, krytyka",
+        "wyobrażony inny przebieg zdarzeń; w skutku też [a:could have] / [a:might have] + [v:V3]"
+      ],
+      "signals": ["if", "if … hadn't", "yesterday", "last year"],
+      "examples": [
+        {
+          "en": "[k:If] we [a:had] [v:left] earlier, we [a:would have] [v:caught] the train.",
+          "pl": "Gdybyśmy wyszli wcześniej, zdążylibyśmy na pociąg."
+        },
+        {
+          "en": "She [a:would][n:n't] [a:have] [v:failed] [k:if] she [a:had] [v:studied].",
+          "pl": "Nie oblałaby, gdyby się uczyła."
+        }
+      ],
+      "steps": [
+        "Mówisz o przeszłości, która już się nie zmieni?",
+        "Wyobrażasz sobie inny przebieg tego, co już się stało.",
+        "[k:If] + [a:had] + [v:V3], [a:would have] + [v:V3]."
+      ]
+    },
+    {
+      "id": "mix",
+      "label": "mieszany",
+      "name": "Mixed conditional",
+      "desc_pl": "przeszłość → skutek widoczny teraz (poza wymaganiami 2027, tylko do rozumienia tekstów)",
+      "time_pl": "przeszłość → teraz",
+      "scale": {
+        "left": "realne",
+        "right": "nierealne",
+        "ticks": ["0 · fakt", "1 · możliwe", "2 · wyobrażone", "3 · już za późno"],
+        "on": [3],
+        "ring": 3
+      },
+      "formula": [
+        {
+          "key": "warunek",
+          "text": "[k:If] + [a:had] + [v:V3]"
+        },
+        {
+          "key": "skutek",
+          "text": "[a:would] + [v:V1]"
+        }
+      ],
+      "usage_pl": [
+        "nierealny warunek w przeszłości, skutek widoczny teraz",
+        "sygnał teraźniejszości w skutku — [k:now], [k:today]"
+      ],
+      "signals": ["if", "now", "today", "still"],
+      "examples": [
+        {
+          "en": "[k:If] I [a:had] [v:taken] that job, I [a:would] [v:live] in London [k:now].",
+          "pl": "Gdybym przyjął tę pracę, mieszkałbym teraz w Londynie."
+        }
+      ],
+      "steps": [
+        "Warunek z przeszłości, a skutek — teraz ([k:now], [k:today])?",
+        "Przeszłość się nie zmieni, a jej skutek widać dziś.",
+        "[k:If] + [a:had] + [v:V3], [a:would] + [v:V1]."
+      ]
+    }
+  ],
+  "cheat": {
+    "title_pl": "Ściąga: wszystkie tryby",
+    "headers": ["typ", "warunek", "skutek"],
+    "rows": [
+      ["0", "[k:If] + Present S.", "Present S."],
+      ["1", "[k:If] + Present S.", "[a:will] + [v:V1]"],
+      ["2", "[k:If] + Past S.", "[a:would] + [v:V1]"],
+      ["3", "[k:If] + [a:had] + [v:V3]", "[a:would have] + [v:V3]"],
+      ["mix", "[k:If] + [a:had] + [v:V3]", "[a:would] + [v:V1]"]
+    ]
+  }
+}
