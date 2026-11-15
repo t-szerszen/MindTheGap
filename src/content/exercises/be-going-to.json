@@ -1,0 +1,528 @@
+[
+  {
+    "id": "bgt-medicine-made-up-mind",
+    "type": "gap-fill",
+    "sentence": "My parents keep telling me that law is a safer choice, but I made up my mind ages ago — I ___ (study) medicine.",
+    "correct": ["am going to study"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I made up my mind ages ago — decyzja zapadła dawno, na długo przed tą rozmową."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Studia są dopiero przed tobą, ale zamiar istnieje już teraz → be going to."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will study brzmiałoby jak decyzja podjęta w tej chwili, a tu jest odwrotnie. Present Continuous (I'm studying medicine) zabrzmiałby tak, jakbyś już studiował albo miał już załatwione miejsce na studiach."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "I + am + going to + V1 → am going to study (I'm going to study)."
+      }
+    ],
+    "tags": ["be-going-to"],
+    "difficulty": 1
+  },
+  {
+    "id": "bgt-seagull-chips",
+    "type": "gap-fill",
+    "sentence": "That seagull on the railing hasn't taken its eyes off your chips for a whole minute. It ___ (steal) them!",
+    "correct": ["is going to steal"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "hasn't taken its eyes off your chips — mewa od minuty wpatruje się w twoje frytki, dowód widać teraz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Kradzieży jeszcze nie ma, ale z tego, co widzisz, wynika, że zaraz będzie → be going to."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "is stealing znaczyłoby, że mewa już je porywa, a ona dalej siedzi na barierce. will steal pasuje do przypuszczenia z głowy (I think…), a przy dowodzie przed oczami naturalne jest going to."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "it + is + going to + V1 → is going to steal."
+      }
+    ],
+    "tags": ["be-going-to"],
+    "difficulty": 1
+  },
+  {
+    "id": "bgt-chestnut-trees-red-crosses",
+    "type": "gap-fill",
+    "sentence": "Someone has sprayed red crosses on all the old chestnut trees along our street. That can only mean one thing — the trees ___ (cut down).",
+    "correct": ["are going to be cut down"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "red crosses on all the trees i That can only mean one thing — wniosek z tego, co widać teraz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Krzyżyki już są, a wycinki jeszcze nie ma: ktoś to zaplanował i skutek wynika z tego, co widzisz → be going to. Drzewa ktoś wytnie, same się nie wytną → strona bierna."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "are being cut down znaczyłoby, że piły już pracują. will be cut down brzmiałoby jak przypuszczenie z głowy, a tu dowód masz przed oczami. Strona czynna (are going to cut down) nie ma tu dopełnienia, więc się nie składa."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "are + going to + be + V3 (cut – cut – cut) → are going to be cut down."
+      }
+    ],
+    "tags": ["be-going-to"],
+    "difficulty": 3
+  },
+  {
+    "id": "bgt-bike-tyre-inner-tube",
+    "type": "gap-fill",
+    "sentence": "A: Your back tyre is completely flat. B: I know — I ___ (fix) it myself. I've already bought a new inner tube and watched a video on how to do it.",
+    "correct": ["am going to fix"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I know w odpowiedzi i I've already bought… — B wiedział o problemie i przygotował się wcześniej."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Naprawa będzie później, ale decyzja zapadła przed rozmową → be going to."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will fix pasowałoby, gdyby B dopiero teraz usłyszał o oponie i od razu zdecydował. Tu ma już nową dętkę i obejrzany film, więc to gotowy zamiar."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "I + am + going to + V1 → am going to fix (I'm going to fix)."
+      }
+    ],
+    "tags": ["be-going-to"],
+    "difficulty": 1
+  },
+  {
+    "id": "bgt-ola-saving-car",
+    "type": "gap-fill",
+    "sentence": "Ola has been saving every złoty she earns because she ___ (buy) a second-hand car the moment she passes her driving test.",
+    "correct": ["is going to buy"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "has been saving every złoty — to, co Ola robi teraz, ma swój cel."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Zakup będzie dopiero po egzaminie, ale zamiar jest już teraz i to on tłumaczy, czemu Ola oszczędza → be going to."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "the moment she passes to zdanie czasowe, więc tam zostaje Present Simple, a luka jest w zdaniu głównym. will buy brzmiałoby jak czyjeś przypuszczenie, a tu chodzi o jej plan. Present Continuous odpada, bo nic nie jest ustalone — nie ma nawet daty egzaminu."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "she + is + going to + V1 → is going to buy."
+      }
+    ],
+    "tags": ["be-going-to"],
+    "difficulty": 2
+  },
+  {
+    "id": "bgt-kamil-say-something",
+    "type": "gap-fill",
+    "sentence": "Last night you told me you'd decided to stand up to Kamil at last. So ___ (you / say) something to him, or have you changed your mind?",
+    "correct": ["are you going to say"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "you'd decided… last night i or have you changed your mind? — decyzja zapadła wczoraj, a ty pytasz, czy dalej obowiązuje."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz o zamiar, który rozmówca ma już teraz → be going to."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Will you say something? pytałoby o decyzję, którą ktoś dopiero podejmie, albo brzmiałoby jak prośba („powiesz mu coś?”). Tu zamiar już jest, inaczej nie dałoby się zmienić zdania. Are you saying…? pytałoby o to, co ktoś mówi w tej chwili."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "are + you + going to + V1 → are you going to say."
+      }
+    ],
+    "tags": ["be-going-to"],
+    "difficulty": 2
+  },
+  {
+    "id": "bgt-teacher-baby-april",
+    "type": "gap-fill",
+    "sentence": "Have you heard? Our English teacher ___ (have) a baby in April, so we'll have someone new for the last few months before the matura.",
+    "correct": ["is going to have", "is having", "will be having"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Have you heard? i in April — nowina o czymś, co już teraz wiadomo."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Ciąża to fakt teraz, z którego wynika poród w kwietniu → be going to. To też coś pewnego i już „w toku”, więc Present Continuous (is having a baby) jest równie naturalny. Pasuje też will be having: coś, co w kwietniu po prostu nastąpi, jak przy will be coming."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Samo will have brzmiałoby jak przepowiednia albo przypuszczenie, a tu nikt nie zgaduje — wszyscy już wiedzą."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "she + is + going to + V1 → is going to have, is + V-ing → is having (have a baby to czynność, więc -ing jest OK) albo will be + V-ing → will be having."
+      }
+    ],
+    "tags": ["be-going-to", "present-continuous", "future-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "bgt-department-store-youth-centre",
+    "type": "gap-fill",
+    "sentence": "The council finally announced its decision yesterday: the empty department store on the main square ___ (turn) into a youth centre with a climbing wall.",
+    "correct": ["is going to be turned", "will be turned"],
+    "accepted": ["is to be turned"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "announced its decision yesterday — decyzja już zapadła, a ty przekazujesz, co postanowiono."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Plan, który już istnieje → be going to. W oficjalnych zapowiedziach równie naturalne jest will, więc oba są poprawne. W brytyjskich wiadomościach o decyzjach władz usłyszysz też is to be turned (be to + be + V3) — to też poprawna odpowiedź."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Budynek ktoś przerobi, sam się nie przerobi → strona bierna. is being turned znaczyłoby, że przebudowa już trwa, a decyzja zapadła dopiero wczoraj."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "is + going to + be + V3 → is going to be turned albo will + be + V3 → will be turned."
+      }
+    ],
+    "tags": ["be-going-to", "future-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "bgt-at-this-rate-midnight",
+    "type": "gap-fill",
+    "sentence": "We've only done three of the twenty maths problems, and it's already been an hour. At this rate, we ___ (not / finish) before midnight.",
+    "correct": ["are not going to finish", "will not finish"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "At this rate i liczby: trzy zadania z dwudziestu w godzinę — wniosek z tego, jak idzie teraz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Przewidujesz na podstawie tempa, które widać teraz → be going to. Po at this rate często mówi się też will, więc oba są poprawne."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Present Continuous (aren't finishing) odpada: to nie jest umówiony plan, tylko przewidywanie."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "we + are + not + going to + V1 → are not going to finish (aren't going to finish) albo will not finish (won't finish)."
+      }
+    ],
+    "tags": ["be-going-to", "future-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "bgt-already-hoovered",
+    "type": "gap-fill",
+    "sentence": "Oh, you've already hoovered the living room! I ___ (do) it after this episode, honestly.",
+    "correct": ["was going to do"],
+    "accepted": ["would have done"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "you've already hoovered — ktoś odkurzył przed tobą, a ty się tłumaczysz (honestly). hoover to brytyjskie „odkurzać”, w amerykańskim vacuum."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Zamiar był wcześniej (zrobić to po odcinku), ale już się nie spełni, bo pokój jest odkurzony → was / were going to."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "am going to do nie pasuje, bo nie ma już czego robić. will do byłoby decyzją teraz o czymś, co jest już zrobione. Poprawne jest też I would have done it (zrobiłbym), ale to tryb warunkowy, a nie ta forma."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "I + was + going to + V1 → was going to do."
+      }
+    ],
+    "tags": ["be-going-to"],
+    "difficulty": 2
+  },
+  {
+    "id": "bgt-prague-trip-ever-tell",
+    "type": "gap-fill",
+    "sentence": "So you've known since Monday that the trip to Prague was cancelled! ___ (you / ever / tell) me, or were you hoping I wouldn't find out?",
+    "correct": ["Were you ever going to tell"],
+    "accepted": ["Would you ever have told"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "you've known since Monday i were you hoping…? — pytasz o to, co ktoś planował przez ostatnie dni, zanim sam się dowiedziałeś."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz o zamiar z przeszłości: czy w ogóle miał zamiar ci powiedzieć → was / were going to."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Are you going to tell me? nie pasuje, bo już wiesz. Did you tell me? też nie, bo dobrze wiesz, że nie powiedział. ever stoi po podmiocie, przed going to. Poprawne jest też Would you ever have told me (powiedziałbyś mi?), ale to tryb warunkowy."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Were + you + ever + going to + V1 → Were you ever going to tell."
+      }
+    ],
+    "tags": ["be-going-to"],
+    "difficulty": 2
+  },
+  {
+    "id": "bgt-jumper-inside-out",
+    "type": "gap-fill",
+    "sentence": "I ___ (not / say) anything, but you've got your jumper on inside out — and you've been walking around like that since breakfast.",
+    "correct": ["was not going to say"],
+    "accepted": ["would not have said"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "but you've got your jumper on inside out — właśnie to mówisz, więc zamiar „nic nie mówić” już się nie spełnił."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Zamiar był wcześniej (od śniadania) i właśnie z niego rezygnujesz → was / were going to."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "W zdaniu nie ma czasownika w czasie przeszłym, a forma i tak jest przeszła: zamiar trwał od śniadania, a am not going to say kłóciłoby się z tym, że właśnie to mówisz. To utarty początek: I wasn't going to say anything, but… (Nie chciałem nic mówić, ale…). Poprawne jest też I wouldn't have said anything, but…, ale to tryb warunkowy."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "I + was + not + going to + V1 → was not going to say (wasn't going to say)."
+      }
+    ],
+    "tags": ["be-going-to"],
+    "difficulty": 3
+  },
+  {
+    "id": "bgt-volleyball-final-shown",
+    "type": "gap-fill",
+    "sentence": "The volleyball final ___ (show) live on national TV, but a week before the match the broadcaster lost the rights to it, so in the end we watched it on a laptop at Kuba's.",
+    "correct": ["was going to be shown"],
+    "accepted": ["was to be shown", "would have been shown"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "but a week before the match the broadcaster lost the rights — plan był, ale się nie spełnił."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Plan z przeszłości, który się nie spełnił → was going to. Finał ktoś pokazuje (telewizja), więc strona bierna."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "was shown znaczyłoby, że finał poszedł w telewizji, a oglądaliście go na laptopie. Past Continuous bywa planem z przeszłości (I was meeting Ola at five, but…), ale w stronie biernej was being shown brzmi jak transmisja, która już leci, a tej w ogóle nie było. Poprawne są też was to be shown (oficjalny plan, styl wiadomości) i would have been shown (tryb warunkowy)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "was + going to + be + V3 (show – showed – shown) → was going to be shown."
+      }
+    ],
+    "tags": ["be-going-to"],
+    "difficulty": 3
+  },
+  {
+    "id": "bgt-chemistry-teacher-smiling",
+    "type": "gap-fill",
+    "sentence": "I could tell from the way our chemistry teacher was smiling that she ___ (give) us a surprise test.",
+    "correct": ["was going to give"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I could tell from the way… was smiling — wniosek z tego, co było widać wtedy."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "To przewidywanie z dowodu, tylko cofnięte w przeszłość: widziałeś uśmiech i wiedziałeś, co się zaraz stanie → was / were going to."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "is going to give nie pasuje, bo cała historia jest w przeszłości (could tell, was smiling). was giving znaczyłoby, że już rozdawała kartki. Tu was going to nie musi oznaczać niespełnionego planu — to po prostu przyszłość widziana z przeszłości."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "she + was + going to + V1 → was going to give."
+      }
+    ],
+    "tags": ["be-going-to"],
+    "difficulty": 2
+  },
+  {
+    "id": "bgt-rain-washing-line",
+    "type": "gap-fill",
+    "sentence": "A: Look, it's just started raining! B: Oh no, the washing's still out on the line — I ___ (bring) it in before it gets soaked.",
+    "correct": ["will bring"],
+    "accepted": ["shall bring"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Oh no, the washing's still out — B dopiero teraz przypomina sobie o praniu."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Decyzja zapada w chwili mówienia, jako reakcja na deszcz → will."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Look! i deszcz kuszą be going to, ale tu niczego nie przewidujesz z dowodu, tylko decydujesz, co zrobisz. am going to bring znaczyłoby, że zaplanowałeś to wcześniej. am bringing pasowałoby, gdybyś już zdejmował pranie."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + V1 → will bring (I'll bring)."
+      }
+    ],
+    "tags": ["future-simple", "be-going-to"],
+    "difficulty": 3
+  },
+  {
+    "id": "bgt-first-snow-flakes",
+    "type": "gap-fill",
+    "sentence": "Look out of the window! It ___ (snow) — huge, fluffy flakes, the first ones this winter!",
+    "correct": ["is snowing"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Look out of the window! i huge, fluffy flakes — płatki już lecą."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Śnieg pada teraz, w chwili mówienia → Present Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Look! często stoi przed be going to, ale tylko wtedy, gdy widzisz dowód czegoś, co dopiero nastąpi (ciemne chmury). Tu śnieg już pada, więc is going to snow nie ma sensu."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "it + is + V-ing → is snowing."
+      }
+    ],
+    "tags": ["present-continuous", "be-going-to"],
+    "difficulty": 1
+  },
+  {
+    "id": "bgt-zuzia-broken-leg-visit",
+    "type": "gap-fill",
+    "sentence": "A: Zuzia broke her leg skiing, and she's in hospital. B: Oh no, I had no idea! I ___ (visit) her after school.",
+    "correct": ["will visit"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Oh no, I had no idea! — o wypadku dowiadujesz się dopiero teraz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Decyzja zapada w chwili mówienia, jako reakcja na wiadomość → will."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "am going to visit zakłada, że planowałeś to wcześniej, a przecież przed chwilą nic nie wiedziałeś. Present Continuous też odpada, bo nic nie jest ustalone."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + V1 → will visit (I'll visit)."
+      }
+    ],
+    "tags": ["future-simple", "be-going-to"],
+    "difficulty": 1
+  },
+  {
+    "id": "bgt-grandparents-sunday-lunch",
+    "type": "gap-fill",
+    "sentence": "Mum invited my grandparents last week, and they ___ (come) for lunch on Sunday, so could you tidy the living room on Saturday?",
+    "correct": ["are coming", "are going to come", "will be coming"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Mum invited them last week i konkretny termin (on Sunday) — wizyta jest już ustalona."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Ustalony plan na przyszłość → Present Continuous. Ten sam plan możesz też podać jako zamiar (are going to come) albo jako coś, co po prostu nastąpi w niedzielę (will be coming)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Przy come i go zwykle wybiera się Present Continuous, bo going to come brzmi ciężej, choć jest poprawne. Samo will come brzmiałoby jak przypuszczenie albo decyzja teraz, a tu wszystko ustalono tydzień temu."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "they + are + V-ing → are coming; albo are going to come; albo will be coming."
+      }
+    ],
+    "tags": ["present-continuous", "be-going-to", "future-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "bgt-huge-suitcase-where",
+    "type": "gap-fill",
+    "sentence": "Where ___ (you / go) with that huge suitcase? You look as if you're moving out!",
+    "correct": ["are you going"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "with that huge suitcase i You look as if you're moving out — widzisz kogoś, kto właśnie wychodzi z walizką."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz, dokąd ta osoba idzie → Present Continuous od go."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "W nawiasie jest go, więc kusi are you going to go. To gramatyczne, ale przy go i come zamiast going to go mówi się po prostu Present Continuous. Where are you going? pasuje i do tego, dokąd ktoś idzie teraz, i do zaplanowanego wyjazdu."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Where + are + you + V-ing → are you going."
+      }
+    ],
+    "tags": ["present-continuous", "be-going-to"],
+    "difficulty": 3
+  },
+  {
+    "id": "bgt-bakery-wallet-halfway",
+    "type": "gap-fill",
+    "sentence": "I ___ (go) to the bakery for some rolls when I realised, halfway there, that I'd left my wallet at home, so I had to turn back.",
+    "correct": ["was going"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "halfway there i I had to turn back — byłeś już w połowie drogi, czyli droga trwała, kiedy coś ją przerwało."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Byłeś w drodze do piekarni, kiedy przypomniałeś sobie o portfelu → czynność w trakcie w przeszłości, Past Continuous od go."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "was going to the bakery wygląda jak was going to, ale po to stoi tu miejsce, a nie V1, więc to zwykłe go w trakcie (szedłem). was going to go znaczyłoby, że dopiero miałeś iść, a tego nie da się pogodzić z halfway there."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "I + was + V-ing → was going."
+      }
+    ],
+    "tags": ["past-continuous", "be-going-to"],
+    "difficulty": 3
+  }
+]
