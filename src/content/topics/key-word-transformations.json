@@ -233,7 +233,7 @@
     {
       "type": "callout",
       "variant": "matura",
-      "md_pl": "Na maturze w tym zadaniu wymagana jest **pełna poprawność gramatyczna i ortograficzna**:\n\n- ==przekroczony limit wyrazów = 0==,\n- ==jedna literówka = 0==,\n- zamiana wielkiej i małej litery przechodzi, o ile nie psuje innej zasady pisowni (np. nazwy własnej),\n- egzaminator uznaje też poprawne odpowiedzi spoza klucza, jeśli spełniają warunki zadania.\n\nWniosek: lepiej krótsza, prosta i pewna forma niż ambitna z ryzykiem błędu."
+      "md_pl": "Na maturze w tym zadaniu wymagana jest **pełna poprawność gramatyczna i ortograficzna**:\n\n- ==przekroczony limit wyrazów to 0 pkt==,\n- ==jedna literówka to 0 pkt==,\n- zamiana wielkiej i małej litery przechodzi, o ile nie psuje innej zasady pisowni (np. nazwy własnej),\n- egzaminator uznaje też poprawne odpowiedzi spoza klucza, jeśli spełniają warunki zadania.\n\nWniosek: lepiej krótsza, prosta i pewna forma niż ambitna z ryzykiem błędu."
     }
   ]
 }

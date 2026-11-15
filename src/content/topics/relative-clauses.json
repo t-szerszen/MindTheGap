@@ -6,7 +6,7 @@
   "blocks": [
     {
       "type": "text",
-      "md_pl": "Zdanie względne opisuje rzeczownik, który stoi przed nim: *the girl ==who sits next to me==*. Po polsku prawie zawsze wystarcza jedno słowo: **który** (która, które, w którym, którego…). Po angielsku słowo wybierasz po dwóch rzeczach:\n\n- **co opisujesz**: osobę, rzecz, miejsce, czas, powód,\n- **jaką rolę** ma to słowo w swoim zdaniu: jest podmiotem, dopełnieniem, mówi „czyj” albo „gdzie”.\n\nDo tego dochodzą przecinki. Po polsku stawiasz je zawsze. Po angielsku przecinek **zmienia znaczenie**: mówi, czy zdanie wskazuje, o kogo chodzi, czy tylko coś dopowiada."
+      "md_pl": "Zdanie względne opisuje rzeczownik, który stoi przed nim: *the girl who sits next to me*. Po polsku prawie zawsze wystarcza jedno słowo: **który** (która, które, w którym, którego…). Po angielsku słowo wybierasz po dwóch rzeczach:\n\n- **co opisujesz**: osobę, rzecz, miejsce, czas, powód,\n- **jaką rolę** ma to słowo w swoim zdaniu: jest podmiotem, dopełnieniem, mówi „czyj” albo „gdzie”.\n\nDo tego dochodzą przecinki. Po polsku stawiasz je zawsze. Po angielsku przecinek **zmienia znaczenie**: mówi, czy zdanie wskazuje, o kogo chodzi, czy tylko coś dopowiada."
     },
     {
       "type": "steps",
@@ -156,7 +156,7 @@
     },
     {
       "type": "text",
-      "md_pl": "**Kiedy można pominąć zaimek?** Tylko w zdaniu bez przecinków i tylko wtedy, gdy zaimek jest **dopełnieniem**. Poznasz to po tym, co stoi zaraz po nim:\n\n- po zaimku jest **czasownik** → zaimek to podmiot, musi zostać: *the woman ==who called== you*,\n- po zaimku jest **nowy podmiot** (I, you, my mum…) → zaimek to dopełnienie, możesz go wyrzucić: *the woman (who) ==you called==*. (Do tego bywa pomijane *when* i *why*, o tym niżej.)"
+      "md_pl": "**Kiedy można pominąć zaimek?** Tylko w zdaniu bez przecinków i tylko wtedy, gdy zaimek jest **dopełnieniem**. Poznasz to po tym, co stoi zaraz po nim:\n\n- po zaimku jest **czasownik** → zaimek to podmiot, musi zostać: *the woman who called you*,\n- po zaimku jest **nowy podmiot** (I, you, my mum…) → zaimek to dopełnienie, możesz go wyrzucić: *the woman (who) you called*. (Do tego bywa pomijane *when* i *why*, o tym niżej.)"
     },
     {
       "type": "comparison",
@@ -186,7 +186,7 @@
     },
     {
       "type": "text",
-      "md_pl": "**whose** to „czyj, czyja, czyje”, czyli posiadanie. Zastępuje *his, her, its, their* albo *'s*. Po nim stoi rzeczownik (czasem z przymiotnikiem: *whose younger brother*), bez *the*: *a friend ==whose dad== is a pilot*. Pasuje do ludzi i do rzeczy: *a company whose products are sold all over Europe*.\n\nNie myl go z **who's** (= *who is* albo *who has*). Brzmią tak samo, ale *who's dad* to błąd w pisowni, a w zadaniu z luką to 0 pkt."
+      "md_pl": "**whose** to „czyj, czyja, czyje”, czyli posiadanie. Zastępuje *his, her, its, their* albo *'s*. Po nim stoi rzeczownik (czasem z przymiotnikiem: *whose younger brother*), bez *the*: *a friend whose dad is a pilot*. Pasuje do ludzi i do rzeczy: *a company whose products are sold all over Europe*.\n\nNie myl go z **who's** (= *who is* albo *who has*). Brzmią tak samo, ale *who's dad* to błąd w pisowni, a w zadaniu z luką to 0 pkt."
     },
     {
       "type": "formula",
@@ -357,7 +357,7 @@
     },
     {
       "type": "text",
-      "md_pl": "**Skrócone zdania względne.** Gdy zaimek jest **podmiotem**, możesz wyrzucić zaimek razem z *be* i zostawić sam imiesłów. O formie decyduje znaczenie:\n\n- rzeczownik **sam coś robi** → **-ing**: *the man ==who is sitting== by the window* → *the man ==sitting== by the window*,\n- z rzeczownikiem **ktoś coś zrobił** → **V3**: *a book ==which was written== by a teenager* → *a book ==written== by a teenager*.\n\nCzasu w skróconym zdaniu nie widać, wynika z reszty zdania. Uwaga: -ing to czynność w tym samym czasie albo coś stałego. Jednorazowej, skończonej czynności tak nie skrócisz: *the man who wrote this letter*, nie *the man writing this letter*. *-ing* pasuje też do stałych cech: *people living in big cities* = ludzie, którzy mieszkają w dużych miastach. Skracać można też zdania z przecinkami: *The castle, built in the 14th century, is open to visitors.*"
+      "md_pl": "**Skrócone zdania względne.** Gdy zaimek jest **podmiotem**, możesz wyrzucić zaimek razem z *be* i zostawić sam imiesłów. O formie decyduje znaczenie:\n\n- rzeczownik **sam coś robi** → **-ing**: *the man who is sitting by the window* → *the man sitting by the window*,\n- z rzeczownikiem **ktoś coś zrobił** → **V3**: *a book which was written by a teenager* → *a book written by a teenager*.\n\nCzasu w skróconym zdaniu nie widać, wynika z reszty zdania. Uwaga: -ing to czynność w tym samym czasie albo coś stałego. Jednorazowej, skończonej czynności tak nie skrócisz: *the man who wrote this letter*, nie *the man writing this letter*. *-ing* pasuje też do stałych cech: *people living in big cities* = ludzie, którzy mieszkają w dużych miastach. Skracać można też zdania z przecinkami: *The castle, built in the 14th century, is open to visitors.*"
     },
     {
       "type": "formula",
