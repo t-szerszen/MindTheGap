@@ -106,6 +106,10 @@ export function MorePage() {
           <p className="eyebrow">{pl.nav.more}</p>
           <h1 className="h-l">{t.title}</h1>
           <p className="note blue">{t.subtitle}</p>
+          <Link className="link-pen" to="/grammar" style={{ alignSelf: 'flex-start' }}>
+            {t.grammarMoved}
+            <Icon name="next" size="s" />
+          </Link>
         </header>
 
         <div style={{ marginTop: 14 }}>

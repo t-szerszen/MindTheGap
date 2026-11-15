@@ -1,4 +1,5 @@
 import { Link } from 'react-router'
+import { Icon } from '../../components/Icon'
 import { Scribble } from '../../components/Ink'
 import { pl } from '../../i18n/pl'
 import { getTenses } from '../../lib/content'
@@ -43,6 +44,11 @@ export function TensesIndexPage() {
             </ul>
           </section>
         ))}
+        {/* temat zbiorczy wisiał kiedyś w „Więcej”, teraz jest tutaj */}
+        <Link className="link-pen" to="/topics/tenses-overview" style={{ marginTop: 22 }}>
+          {t.overview}
+          <Icon name="next" size="s" />
+        </Link>
       </div>
       <TenseTabs tenses={tenses} />
     </div>
