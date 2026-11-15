@@ -5,206 +5,374 @@
   "group": "past",
   "aspect": "perfect-continuous",
   "tabLabel": ["Past", "Perf. C."],
-  "oneLiner_pl": "trwało aż do jakiegoś momentu w przeszłości",
+  "oneLiner_pl": "trwało przez jakiś czas AŻ DO innej chwili w przeszłości: liczy się, jak długo, albo ślad, który to zostawiło",
   "timeline": {
     "now": 0.65,
     "marks": [
-      {
-        "kind": "span",
-        "from": 0.08,
-        "to": 0.4,
-        "label": "had been doing"
-      },
-      {
-        "kind": "point",
-        "from": 0.4,
-        "label": "then"
-      }
+      { "kind": "span", "from": 0.08, "to": 0.42, "label": "for two hours" },
+      { "kind": "point", "from": 0.42, "label": "bus came" }
     ]
   },
   "howToChoose": [
     {
       "step_pl": "sygnał",
-      "text_pl": "Widzisz for, since albo how long w opowieści o przeszłości i drugą czynność w Past Simple?"
+      "text_pl": "Szukasz okresu (for two hours, since breakfast, How long…?, all day) i drugiego momentu w przeszłości, zwykle w Past Simple: when the bus came, by the time she arrived, before they got married. Albo śladu w przeszłości, który trzeba wyjaśnić: her eyes were red, he was out of breath."
     },
     {
       "step_pl": "relacja w czasie",
-      "text_pl": "Czynność trwała przez jakiś czas aż do innego momentu w przeszłości. Liczy się, jak długo."
+      "text_pl": "Punktem odniesienia jest chwila w przeszłości, a nie teraz. Czynność zaczęła się wcześniej i trwała aż do tej chwili albo skończyła się tuż przed nią i zostawiła ślad. Pytasz: jak długo to trwało do „wtedy”? Albo: co się wcześniej działo, że tak to wyglądało?"
+    },
+    {
+      "step_pl": "pułapka",
+      "text_pl": "Liczba albo wynik (three letters, the whole book) → Past Perfect Simple: had written. Samo „było w trakcie” w danej chwili, bez liczenia czasu → Past Continuous: was writing. Czasowniki stanu (know, be, have = mieć, believe) zostają w Past Perfect Simple: had known. A gdy liczysz do teraz, a nie do „wtedy”, to Present Perfect Continuous: have been writing. Gdy tylko podajesz, jak długo coś trwało, bez drugiego momentu, do którego liczysz (She wrote for two hours and then went for a walk) → Past Simple: wrote."
     },
     {
       "step_pl": "forma",
-      "text_pl": "had been + V-ing: We had been walking for hours."
+      "text_pl": "had been + V-ing, tak samo dla wszystkich osób. Przeczenie: hadn't been + V-ing. Pytanie: Had + podmiot + been + V-ing? Skrót: 'd been (She'd been crying)."
     }
   ],
   "forms": {
     "active": {
       "affirmative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "had been",
-            "role": "aux"
-          },
-          {
-            "text": "V-ing",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "had been", "role": "aux" },
+          { "text": "V-ing", "role": "verb" }
         ],
         "example": {
           "en": "She had been working there for ten years when the company closed.",
-          "pl": "Pracowała tam od dziesięciu lat, kiedy firmę zamknięto."
-        }
+          "pl": "Pracowała tam już od dziesięciu lat, kiedy firmę zamknięto."
+        },
+        "note_pl": "To Present Perfect Continuous (have / has been + V-ing) cofnięty w przeszłość: have / has zmieniasz na had, reszta zostaje. had mówi, że patrzysz wstecz od chwili w przeszłości. been to V3 od be, bo w czasach perfect po have / had stoi V3. V-ing pokazuje, że czynność trwała. had jest jedno dla wszystkich osób, więc nie ma kłopotu z has. Skrót 'd przed been to zawsze had: She'd been working. W brytyjskim travel → travelling, w amerykańskim traveling."
       },
       "negative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "had",
-            "role": "aux"
-          },
-          {
-            "text": "not",
-            "role": "particle"
-          },
-          {
-            "text": "been",
-            "role": "aux"
-          },
-          {
-            "text": "V-ing",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "had", "role": "aux" },
+          { "text": "not", "role": "particle" },
+          { "text": "been", "role": "aux" },
+          { "text": "V-ing", "role": "verb" }
         ],
         "example": {
-          "en": "I hadn't been sleeping well, so I was tired.",
-          "pl": "Nie spałem dobrze, więc byłem zmęczony."
-        }
+          "en": "I hadn't been sleeping well for weeks, so I fell asleep in the middle of a maths lesson.",
+          "pl": "Od tygodni źle sypiałem, więc zasnąłem w środku lekcji matematyki."
+        },
+        "note_pl": "not stawiasz zaraz po had, czyli po pierwszym czasowniku posiłkowym, jak w każdym czasie. Skrót: hadn't been. Nie had been not ani hadn't being."
       },
       "question": {
         "pattern": [
-          {
-            "text": "Had",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "been",
-            "role": "aux"
-          },
-          {
-            "text": "V-ing",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Had", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "been", "role": "aux" },
+          { "text": "V-ing", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
         "example": {
-          "en": "Had you been waiting long when the bus came?",
-          "pl": "Długo czekałeś, zanim przyjechał autobus?"
-        }
+          "en": "Had you been waiting long when the doors finally opened?",
+          "pl": "Czekałeś już długo, kiedy w końcu otworzyli drzwi?"
+        },
+        "note_pl": "Przed podmiot idzie tylko had. been i V-ing zostają za podmiotem. Krótka odpowiedź: Yes, I had. / No, I hadn't."
       },
       "whQuestion": {
         "pattern": [
-          {
-            "text": "Wh-word",
-            "role": "neutral"
-          },
-          {
-            "text": "had",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "been",
-            "role": "aux"
-          },
-          {
-            "text": "V-ing",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Wh-word", "role": "neutral" },
+          { "text": "had", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "been", "role": "aux" },
+          { "text": "V-ing", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
         "example": {
-          "en": "How long had they been dating before they got married?",
-          "pl": "Jak długo się spotykali, zanim wzięli ślub?"
-        }
+          "en": "How long had she been playing the violin when she won her first competition?",
+          "pl": "Jak długo już grała na skrzypcach, kiedy wygrała swój pierwszy konkurs?"
+        },
+        "note_pl": "Najczęściej pytasz How long…? Gdy pytasz o podmiot (Who? What?), nie ma przestawienia: Who had been living in the flat before we moved in?"
       }
     },
     "passive": null,
-    "passiveNote_pl": "Strona bierna (had been being + V3) jest tak rzadka, że jej nie używamy. Wystarczy Past Perfect w stronie biernej: had been + V3."
+    "passiveNote_pl": "Strona bierna (had been being + V3) teoretycznie istnieje, ale jest tak rzadka i ciężka, że prawie nikt jej nie używa. Gdy chcesz powiedzieć, że coś było robione przez jakiś czas, przejdź na stronę czynną z they: They had been repairing the road for months (drogę remontowano już od miesięcy). Gdy liczy się wynik, bierzesz stronę bierną Past Perfect: The road had been repaired by then. Często pasuje też under repair / under construction: The road had been under repair for months when it finally reopened. Uważaj, bo łatwo to pomylić: had been + V3 (had been repaired) to bierna Past Perfect, a had been + V-ing (had been repairing) to strona czynna Past Perfect Continuous."
   },
+  "modals": [
+    {
+      "modal": "must have been",
+      "pattern": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "must", "role": "aux" },
+        { "text": "have been", "role": "aux" },
+        { "text": "V-ing", "role": "verb" }
+      ],
+      "example": {
+        "en": "The ground was wet when we woke up — it must have been raining all night.",
+        "pl": "Rano ziemia była mokra — musiało padać całą noc."
+      },
+      "note_pl": "To nie jest Past Perfect Continuous, tylko struktura modalna z tym samym kawałkiem been + V-ing. Po must nie postawisz had, więc have been + V-ing zastępuje had been + V-ing. Wnioskujesz z dowodów, że coś wcześniej trwało przez jakiś czas."
+    },
+    {
+      "modal": "can't have been",
+      "pattern": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "can't", "role": "aux" },
+        { "text": "have been", "role": "aux" },
+        { "text": "V-ing", "role": "verb" }
+      ],
+      "example": {
+        "en": "He can't have been training for long — he was out of breath after one lap.",
+        "pl": "Na pewno nie trenował długo — po jednym okrążeniu brakowało mu tchu."
+      },
+      "note_pl": "Pewność, że coś NIE trwało (albo nie trwało długo). Przeczenie od must have to can't have albo couldn't have, a nie mustn't have."
+    }
+  ],
   "uses": [
     {
-      "title_pl": "Trwało aż do momentu w przeszłości",
-      "explanation_pl": "Długa czynność doprowadziła do innej chwili w przeszłości.",
+      "title_pl": "Jak długo trwało aż do chwili w przeszłości",
+      "explanation_pl": "Masz moment w przeszłości (when the bus came, by the time they arrived) i liczysz, jak długo coś trwało DO niego: for two hours, since morning, How long…? Czynność mogła się wtedy skończyć albo trwać dalej — liczy się czas trwania. Po polsku mówimy po prostu „czekaliśmy już dwie godziny”, bez osobnej formy, dlatego łatwo wpisać Past Simple albo Past Continuous. Przy live, work, study i teach z for często pasuje też Past Perfect Simple (had lived, had worked), a różnica jest niewielka.",
       "examples": [
         {
-          "en": "We had been walking for three hours when it started to rain.",
-          "pl": "Szliśmy już od trzech godzin, kiedy zaczęło padać."
+          "en": "We had been waiting for two hours when the bus finally came.",
+          "pl": "Czekaliśmy już dwie godziny, kiedy w końcu przyjechał autobus."
+        },
+        {
+          "en": "By the time the firefighters arrived, the fire had been burning for over an hour.",
+          "pl": "Kiedy przyjechali strażacy, pożar trwał już ponad godzinę."
+        },
+        {
+          "en": "How long had you been living in Kraków when you met Kasia?",
+          "pl": "Od jak dawna mieszkałeś w Krakowie, kiedy poznałeś Kasię?"
         }
       ]
     },
     {
-      "title_pl": "Widoczny skutek w przeszłości",
-      "explanation_pl": "Wtedy było widać ślady wcześniejszej czynności.",
+      "title_pl": "Ślad albo przyczyna stanu w przeszłości",
+      "explanation_pl": "W przeszłości coś było widać albo czuć (czerwone oczy, zadyszka, bałagan), a Past Perfect Continuous mówi, co trwało WCZEŚNIEJ i to spowodowało. Czynność zwykle skończyła się tuż przed tamtą chwilą, ale ślad jeszcze był. To ten sam mechanizm co Your eyes are red — have you been crying?, tylko przesunięty w przeszłość. Często stoi po because albo po myślniku.",
       "examples": [
         {
           "en": "Her eyes were red because she had been crying.",
-          "pl": "Miała czerwone oczy, bo płakała."
+          "pl": "Miała czerwone oczy, bo (wcześniej) płakała."
+        },
+        {
+          "en": "He was out of breath because he had been running.",
+          "pl": "Brakowało mu tchu, bo biegł."
+        },
+        {
+          "en": "The kitchen smelled of garlic — Dad had been cooking all afternoon.",
+          "pl": "W kuchni pachniało czosnkiem — tata gotował całe popołudnie."
+        }
+      ]
+    },
+    {
+      "title_pl": "Powtarzane przez jakiś czas aż do tamtej chwili",
+      "explanation_pl": "Czynność nie musiała trwać bez przerwy. Mogła się powtarzać przez jakiś okres (every day, for weeks) aż do momentu w przeszłości. Wersja ciągła pokazuje serię, która trwała aż do tamtej chwili. Potem mogła się urwać, jak treningi Kuby przed kontuzją. Częstotliwość (every day, five times a week) jej nie przeszkadza. Gdy podajesz, ile razy w sumie (She had called him twelve times), wracasz do formy prostej.",
+      "examples": [
+        {
+          "en": "She had been calling him every day for a week before he finally picked up.",
+          "pl": "Dzwoniła do niego codziennie przez tydzień, zanim w końcu odebrał."
+        },
+        {
+          "en": "Before the injury, Kuba had been training five times a week.",
+          "pl": "Przed kontuzją Kuba trenował pięć razy w tygodniu."
+        }
+      ]
+    },
+    {
+      "title_pl": "Mowa zależna: have been doing → had been doing",
+      "explanation_pl": "Gdy relacjonujesz czyjeś słowa po said / told / asked, czas zwykle cofasz o krok. Present Perfect Continuous (have / has been + V-ing) przechodzi w had been + V-ing. Past Continuous może zostać bez zmian albo też przejść w had been + V-ing. Po polsku w mowie zależnej czas się nie zmienia („powiedział, że czeka”), stąd błędy. W pytaniu zależnym nie ma przestawienia szyku: asked how long I had been learning, a nie how long had I been learning.",
+      "examples": [
+        {
+          "en": "“I've been waiting for over an hour,” he complained. → He complained that he had been waiting for over an hour.",
+          "pl": "„Czekam od ponad godziny” — poskarżył się. → Poskarżył się, że czeka od ponad godziny."
+        },
+        {
+          "en": "“How long have you been learning Japanese?” she asked. → She asked me how long I had been learning Japanese.",
+          "pl": "„Jak długo uczysz się japońskiego?” — zapytała. → Zapytała mnie, jak długo uczę się japońskiego."
+        }
+      ]
+    },
+    {
+      "title_pl": "Nierealna przeszłość: if i wish",
+      "explanation_pl": "W trzecim trybie warunkowym i po wish / if only o przeszłości bierzesz formy Past Perfect: If I had known… Gdy chodzi o czynność, która wtedy trwała, bierzesz wersję ciągłą. To nie jest liczenie czasu, tylko nierealna przeszłość: tak jak had known zastępuje knew, tak had been looking zastępuje was looking.",
+      "examples": [
+        {
+          "en": "If I hadn't been looking at my phone, I wouldn't have missed my stop.",
+          "pl": "Gdybym nie gapił się w telefon, nie przegapiłbym przystanku."
+        },
+        {
+          "en": "I wish we hadn't been talking so loudly — the whole carriage heard everything.",
+          "pl": "Szkoda, że rozmawialiśmy tak głośno — cały wagon wszystko słyszał."
         }
       ]
     }
   ],
   "signalWords": [
     {
-      "word": "for"
+      "word": "for",
+      "note_pl": "+ okres: for two hours, for ages. Ten sam sygnał co w Present Perfect (Continuous) — decyduje, czy liczysz do teraz, czy do chwili w przeszłości. for w innym znaczeniu (wait for, look for) niczego nie liczy: When I arrived, they were waiting for the bus."
     },
     {
-      "word": "since"
+      "word": "since",
+      "note_pl": "+ punkt startowy: since breakfast, since 2019. Liczysz od niego do chwili w przeszłości (had been), a nie do teraz (have been). Uwaga: since znaczy też „ponieważ” (Since it was late, we took a taxi) — wtedy niczego nie liczy"
     },
     {
-      "word": "how long"
+      "word": "How long…?",
+      "note_pl": "pytanie o czas trwania do chwili w przeszłości: How long had you been waiting when…? Gdy pytasz o zamknięty okres bez takiej chwili, wystarczy Past Simple: How long did you stay?"
     },
     {
-      "word": "all day"
+      "word": "when",
+      "note_pl": "when + Past Simple wyznacza moment, DO którego liczysz: …for an hour when the phone rang. Sam when bez for / since to zwykle Past Continuous (w trakcie) albo Past Simple (po kolei), chyba że tłumaczysz ślad: When he came in, his hair was wet — he had been swimming"
     },
     {
-      "word": "when"
+      "word": "by the time",
+      "note_pl": "do czasu, gdy: By the time she arrived, I had been waiting for ages. Ten sam sygnał co w Past Perfect Simple — forma prosta, gdy liczy się wynik (had finished)"
+    },
+    {
+      "word": "before",
+      "note_pl": "przed innym zdarzeniem: They had been going out for years before they got engaged. Przy before kolejność widać ze spójnika, więc Past Simple też bywa poprawny"
+    },
+    {
+      "word": "until then / up to then",
+      "note_pl": "do tamtej pory: Until then, I had been living with my parents. Często też z Past Perfect Simple"
+    },
+    {
+      "word": "all day / all morning / all night",
+      "note_pl": "przez cały… — podkreśla trwanie, gdy jest też chwila w przeszłości: I was exhausted — I had been studying all day. Bez takiej chwili wystarczy Past Simple albo Past Continuous"
+    },
+    {
+      "word": "said / told / asked",
+      "note_pl": "w mowie zależnej have / has been + V-ing przechodzi w had been + V-ing: She said she had been feeling ill since Monday"
     }
   ],
   "relatedTenses": [
     {
       "id": "past-perfect",
-      "relation_pl": "Past Perfect — co było gotowe wcześniej. Continuous — jak długo coś trwało do tamtej chwili."
+      "relation_pl": "Oba patrzą wstecz od chwili w przeszłości. Past Perfect Simple mówi o wyniku: co było gotowe, ile zrobiono (liczba, całość). Continuous mówi o samej czynności i o tym, jak długo trwała — nie wiadomo, czy się skończyła. Czasowniki stanu (know, be, have = mieć) zawsze w formie prostej: had known her for years.",
+      "contrast": [
+        {
+          "en": "By lunchtime she had written three letters.",
+          "pl": "Do południa napisała trzy listy (wynik, liczba)."
+        },
+        {
+          "en": "She had been writing letters all morning, so her hand hurt.",
+          "pl": "Cały ranek pisała listy, więc bolała ją ręka (czynność, czas trwania)."
+        },
+        {
+          "en": "He had washed the car, so it was shining.",
+          "pl": "Umył samochód, więc lśnił (skończone)."
+        },
+        {
+          "en": "He had been washing the car, so his trainers were soaking wet.",
+          "pl": "Mył samochód, więc miał przemoczone buty (czy skończył — nie wiadomo)."
+        }
+      ]
+    },
+    {
+      "id": "past-continuous",
+      "relation_pl": "Past Continuous pokazuje, co było W TRAKCIE w danej chwili, i nie liczy czasu. Past Perfect Continuous liczy, jak długo coś trwało DO tej chwili, albo tłumaczy ślad czegoś, co trwało wcześniej. Gdy for albo since liczy czas DO tej chwili, Past Continuous nie pasuje.",
+      "contrast": [
+        {
+          "en": "When I arrived, they were playing chess.",
+          "pl": "Kiedy przyszedłem, grali w szachy (byli w trakcie)."
+        },
+        {
+          "en": "When I arrived, they had been playing chess for three hours.",
+          "pl": "Kiedy przyszedłem, grali w szachy już od trzech godzin (liczysz czas do mojego przyjścia)."
+        },
+        {
+          "en": "When Mum got home, I was baking a cake.",
+          "pl": "Kiedy mama wróciła, piekłem ciasto (byłem w trakcie)."
+        },
+        {
+          "en": "When Mum got home, the kitchen was a mess — I had been baking a cake.",
+          "pl": "Kiedy mama wróciła, w kuchni był bałagan — wcześniej piekłem ciasto (widać było ślady)."
+        }
+      ]
     },
     {
       "id": "present-perfect-continuous",
-      "relation_pl": "Ten sam czas trwania, tylko liczony do momentu w przeszłości, a nie do teraz."
+      "relation_pl": "Ten sam mechanizm (been + V-ing liczy czas trwania), tylko inny punkt odniesienia. Present Perfect Continuous liczy do TERAZ (have / has been), Past Perfect Continuous — do chwili w przeszłości (had been). Pytaj: do kiedy liczę? Do teraz → have / has. Do „wtedy” → had. W mowie zależnej jeden przechodzi w drugi.",
+      "contrast": [
+        {
+          "en": "I'm tired because I've been working all day.",
+          "pl": "Jestem zmęczony, bo cały dzień pracowałem (zmęczony teraz)."
+        },
+        {
+          "en": "I was tired because I had been working all day.",
+          "pl": "Byłem zmęczony, bo cały dzień pracowałem (zmęczony wtedy)."
+        },
+        {
+          "en": "She has been living in Gdańsk since 2020.",
+          "pl": "Mieszka w Gdańsku od 2020 roku (i dalej tam mieszka)."
+        },
+        {
+          "en": "When I met her, she had been living in Gdańsk for two years.",
+          "pl": "Kiedy ją poznałem, mieszkała w Gdańsku od dwóch lat."
+        }
+      ]
+    },
+    {
+      "id": "past-simple",
+      "relation_pl": "Past Simple podaje całe, zamknięte zdarzenie, także z długością: We waited for two hours (fakt). Past Perfect Continuous bierzesz, gdy ten okres prowadzi DO innej chwili w przeszłości, o której opowiadasz. Pytaj: czy liczę czas do jakiegoś „wtedy”? Tak → had been + V-ing. Nie, po prostu mówię, jak długo coś trwało → Past Simple.",
+      "contrast": [
+        {
+          "en": "They talked for an hour and then went to bed.",
+          "pl": "Rozmawiali godzinę, a potem poszli spać (zamknięty okres, kolejne kroki)."
+        },
+        {
+          "en": "They had been talking for an hour when the lights suddenly went out.",
+          "pl": "Rozmawiali już od godziny, kiedy nagle zgasło światło (liczysz czas do tej chwili)."
+        },
+        {
+          "en": "How long did you play in that band?",
+          "pl": "Jak długo grałeś w tym zespole? (zamknięty okres, już w nim nie grasz)"
+        },
+        {
+          "en": "How long had you been playing in that band when it split up?",
+          "pl": "Jak długo już grałeś w tym zespole, kiedy się rozpadł?"
+        }
+      ]
     }
   ],
   "commonMistakes": [
     {
       "wrong": "I had been knowing her for years.",
       "right": "I had known her for years.",
-      "why_pl": "know to czasownik stanu, więc bez formy ciągłej."
+      "why_pl": "know to czasownik stanu: nie ma „w trakcie”, więc nie bierze -ing także w czasach perfect. Tak samo be, have (= mieć), like, believe, understand. Wtedy bierzesz Past Perfect Simple."
+    },
+    {
+      "wrong": "I was studying for three hours when my friend called.",
+      "right": "I had been studying for three hours when my friend called.",
+      "why_pl": "for three hours liczy czas DO telefonu. Past Continuous mówi tylko, co trwało w tej chwili, i nie liczy czasu. Polskie „uczyłem się już trzy godziny” nie ma osobnej formy, dlatego łatwo o ten błąd."
+    },
+    {
+      "wrong": "By noon she had been writing three essays.",
+      "right": "By noon she had written three essays.",
+      "why_pl": "Liczba (three essays) to wynik, a wynik pokazuje forma prosta. Wersja ciągła mówi o samej czynności: She had been writing essays all morning."
+    },
+    {
+      "wrong": "She told me she has been waiting for ages, but I didn't believe her.",
+      "right": "She told me she had been waiting for ages, but I didn't believe her.",
+      "why_pl": "Relacjonujesz rozmowę z przeszłości (told, didn't believe), więc have / has been cofasz do had been. Po polsku czas zostaje („powiedziała, że czeka od dawna”), stąd błąd."
+    },
+    {
+      "wrong": "Her eyes were red because she had being crying.",
+      "right": "Her eyes were red because she had been crying.",
+      "why_pl": "had jako czasownik posiłkowy w czasie perfect wymaga V3, a V3 od be to been. -ing dostaje tylko główny czasownik (crying). being to forma -ing od be i tu nie pasuje."
+    },
+    {
+      "wrong": "How long you had been driving when the engine started making that noise?",
+      "right": "How long had you been driving when the engine started making that noise?",
+      "why_pl": "W pytaniu had idzie przed podmiot, a been i V-ing zostają za nim. Po polsku szyk się nie zmienia („Jak długo już jechałeś…?”), stąd kusi zwykły szyk."
+    },
+    {
+      "wrong": "I'm exhausted because I had been working all day.",
+      "right": "I'm exhausted because I've been working all day.",
+      "why_pl": "Jesteś zmęczony TERAZ, więc liczysz do teraz → Present Perfect Continuous. had been + V-ing potrzebuje chwili w przeszłości. Past Perfect nie znaczy „bardziej przeszłe”, tylko „wcześniej niż inna chwila w przeszłości”."
     }
   ],
-  "maturaTips_pl": []
+  "maturaTips_pl": [
+    "W luce szukaj dwóch rzeczy naraz: okresu (for two hours, since breakfast, all day) i drugiego momentu w przeszłości (when…, by the time…, before…). Są oba → had been + V-ing. Liczysz do teraz, a nie do „wtedy” → have / has been + V-ing.",
+    "Liczba albo wynik w zdaniu (three chapters, 20 kilometres, the whole pizza) to znak, że trzeba formy prostej: had written, had walked. Wersja ciągła nie liczy sztuk.",
+    "Zanim wpiszesz had been + V-ing, sprawdź czasownik. know, believe, own, be i have (= mieć) nie biorą -ing: They had had the same car for twenty years when it finally broke down.",
+    "Mowa zależna to częste miejsce na ten czas: „I've been feeling ill since Monday” → She said she had been feeling ill since Monday. Pamiętaj też o określeniach czasu: this morning → that morning, today → that day.",
+    "Możliwa transformacja: She started working there in 2015. The company closed in 2020. → When the company closed, she had been working there for five years. Data startu (in 2015) idzie z Past Simple, a for liczy czas do „wtedy”, czyli do zamknięcia firmy → had been + V-ing (przy work pasuje też had worked). Licz wyrazy: had been working to już trzy, a w zadaniu 9 limit wynosił 4 albo 5 wyrazów.",
+    "W wypracowaniu (rozprawka, artykuł, list formalny) czasem opisujesz własne doświadczenie jako przykład albo zaczynasz artykuł od krótkiej anegdoty. Jedno zdanie z had been + V-ing dobrze pokazuje wtedy tło i przyczynę: We had been cycling in the rain for three hours, so we were exhausted when we finally crossed the finish line."
+  ]
 }
