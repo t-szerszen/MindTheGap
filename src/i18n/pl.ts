@@ -27,6 +27,7 @@ export const pl = {
     label: 'Sekcje',
     home: 'Start',
     tenses: 'Czasy',
+    grammar: 'Gramatyka',
     translator: 'Tłumacz',
     words: 'Fiszki',
     exercises: 'Ćwiczenia',

@@ -25,3 +25,11 @@ export const shelves: Shelf[] = [
   { id: 'prepositions', topics: ['prepositions'], sets: [] },
   { id: 'other', topics: ['other'], sets: [] },
 ]
+
+// gdzie „mieszka” temat: od tego zależy podświetlona przekładka i link wstecz
+export function topicHome(category: Topic['category']): 'grammar' | 'tenses' | 'more' {
+  if (category === 'grammar' || category === 'modals' || category === 'prepositions')
+    return 'grammar'
+  if (category === 'tenses') return 'tenses'
+  return 'more'
+}
