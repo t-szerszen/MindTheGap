@@ -4,7 +4,8 @@ import { SearchField, TagButton } from '../../components/Controls'
 import { Icon } from '../../components/Icon'
 import { Scribble } from '../../components/Ink'
 import { Sheet } from '../../components/Sheet'
-import { Loading, NoteState } from '../../components/States'
+import { Sticky } from '../../components/Paper'
+import { Loading } from '../../components/States'
 import { pl } from '../../i18n/pl'
 import { updateWord, type Word } from '../../lib/db/words'
 import { accuracy, dueCards, leeches } from '../../lib/srs'
@@ -37,7 +38,7 @@ export function WordsPage() {
   // „teraz” liczone przy każdym renderze: lista i tak odświeża się z każdą zmianą w bazie
   const now = new Date()
 
-  const allTags = useMemo(() => [...new Set(words.flatMap((w) => w.tags))].sort(), [words])
+  const allTags = [...new Set(words.flatMap((w) => w.tags))].sort()
   const due = dueCards(words, now).length
   const leechCount = leeches(words).length
 
@@ -77,10 +78,16 @@ export function WordsPage() {
       )}
 
       <div className="row wrap" style={{ gap: 12, marginTop: 14 }}>
-        <Link className="btn btn-mint" to="/review" aria-disabled={due === 0}>
-          <Icon name="flip" />
-          {due ? t.review(due) : t.nothingDue}
-        </Link>
+        {due > 0 ? (
+          <Link className="btn btn-mint" to="/review">
+            <Icon name="flip" />
+            {t.review(due)}
+          </Link>
+        ) : (
+          <button type="button" className="btn" disabled>
+            {words.length ? t.nothingDue : t.noCards}
+          </button>
+        )}
         {leechCount > 0 && (
           <Link className="link-pen red" to="/leeches">
             {t.leeches(leechCount)}
@@ -89,13 +96,13 @@ export function WordsPage() {
       </div>
 
       {words.length === 0 ? (
-        <div style={{ marginTop: 26 }}>
-          <NoteState title={t.empty} color="b" tilt={1}>
-            <Link className="link-pen" to="/translator">
-              {t.toTranslator}
-            </Link>
-          </NoteState>
-        </div>
+        <Sticky color="b" tilt={-1} tape={{ color: 'm' }} className="words-empty">
+          <h2 className="h-m">{t.empty}</h2>
+          <p className="body-l">{t.emptyHint}</p>
+          <Link className="link-pen" to="/translator">
+            {t.toTranslator}
+          </Link>
+        </Sticky>
       ) : (
         <>
           <div style={{ marginTop: 18 }}>

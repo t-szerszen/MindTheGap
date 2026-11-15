@@ -297,6 +297,7 @@ export const pl = {
     allTags: 'wszystkie',
     review: (n: number) => `Powtórka · ${n} ${plural(n, 'karta', 'karty', 'kart')}`,
     nothingDue: 'Wszystko powtórzone',
+    noCards: 'Nic do powtórki',
     leeches: (n: number) => `Uciekinierzy (${n})`,
     attempts: (n: number) => `${n} ${plural(n, 'próba', 'próby', 'prób')}`,
     accuracy: (pct: number) => `${pct}% dobrze`,
@@ -311,7 +312,9 @@ export const pl = {
     confirmDelete: 'Usunąć na zawsze?',
     confirmYes: 'Tak, usuń',
     confirmNo: 'Zostaw',
-    empty: 'Nie masz jeszcze zapisanych słówek. Zapisz coś w tłumaczu albo dodaj zwrot z tematów.',
+    empty: 'Nie masz jeszcze zapisanych słówek.',
+    emptyHint:
+      'Dodaj pierwsze przyciskiem „Dodaj słówko” albo zapisz coś w tłumaczu. Każda fiszka trafi potem do powtórki.',
     toTranslator: 'Do tłumacza',
     noResults: 'Nic tu nie ma — spróbuj innego słowa albo etykiety.',
     saveTitle: 'Do fiszek',
