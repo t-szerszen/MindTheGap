@@ -1,0 +1,575 @@
+{
+  "id": "inversion-emphasis",
+  "category": "grammar",
+  "title_pl": "Inwersja i emfaza",
+  "summary_pl": "Little did I know, It was only … that, so / such … that, What I need is… / All I did was… i So do I / Neither do I są w wymaganiach 2027. Inwersja po never czy not until i emfatyczne do to bonus do wypracowania i do rozumienia tekstów.",
+  "blocks": [
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**Nie wszystko z tej strony jest na maturze 2027.** Od edycji 2024 informator CKE usunął z poziomu rozszerzonego inwersję stylistyczną i formy emfatyczne (*Rarely do I…*, *It was Tom who…*, emfatyczne *do / did*). Zadania nie będą tego od ciebie wymagać. Mogą się trafić w czytaniu i słuchaniu, ale do rozwiązania zadań nie musisz znać reguły.\n\nNa liście zostały: ==Little did I know…==, ==It was only … that…== (w parze z nim chodzi *It wasn't until … that…*), ==so / such … that== i zdania typu ==What I need is… / All I did was…==. Inwersja zostaje też w dopowiedzeniach ==So do I / Neither do I== i w formalnym porównaniu *She loves jazz, as do her parents* (ten sam mechanizm: posiłkowy przed podmiotem). Zaimki emfatyczne (*I made it myself*) też zostały, ale to osobny temat. Resztę traktuj jako bonus do zakresu w wypracowaniu."
+    },
+    {
+      "type": "text",
+      "md_pl": "Po angielsku szyk jest sztywny: podmiot, orzeczenie, reszta. Po polsku coś podkreślasz szykiem, akcentem albo słówkiem *to* (*Wygrała Kasia*, *To Kasia wygrała*). Angielski w mowie też używa akcentu (*KASIA won*), ale w piśmie potrzebuje do tego osobnych konstrukcji. Na tej stronie są trzy takie narzędzia:\n\n- **inwersja**, czyli posiłkowy przed podmiotem: po przeczeniu albo ograniczeniu na początku zdania (*Little did I know…*, *Never have I…*) i w krótkich dopowiedzeniach (*So do I*),\n- **so / such … that**: coś było bardzo jakieś, więc coś się stało,\n- **zdania rozszczepione** (*It was only … that…*, *What I need is…*) i **emfatyczne do** (*I do like it*)."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Skąd się bierze inwersja?** Gdy zdanie zaczyna się od słowa, które zaprzecza albo mocno ogranicza całą resztę (*never*, *rarely*, *only after…*), angielski daje po nim ==szyk pytania==: najpierw posiłkowy, potem podmiot. Zdanie nie jest pytaniem, tylko tak angielski pokazuje, że słowo z początku dotyczy całej reszty.\n\nSens zostaje ten sam co w zwykłym zdaniu z przeczeniem. Zmienia się nacisk i styl: zdanie brzmi mocniej, bardziej formalnie, czasem dramatycznie. Dlatego to jest język pisany, a w rozmowie raczej wyjątek. Jeden wyjątek w znaczeniu: *Little did I know* = *I had no idea* (wcale nie wiedziałem), a nie *I knew little* (wiedziałem niewiele)."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "sygnał",
+          "text_pl": "Na samym początku zdania stoi przeczenie albo ograniczenie, które dotyczy całego zdania: never, rarely, seldom, little, hardly, no sooner, not only, under no circumstances, only + okolicznik, not until."
+        },
+        {
+          "step_pl": "znaczenie",
+          "text_pl": "Sens jest ten sam co w zwykłym zdaniu z przeczeniem (I have never seen = Never have I seen). Dochodzi tylko nacisk. Wyjątek: Little did I know = I had no idea (wcale nie wiedziałem), a nie I knew little (wiedziałem niewiele)."
+        },
+        {
+          "step_pl": "forma",
+          "text_pl": "Resztę zdania budujesz jak pytanie: posiłkowy albo modalny (have, had, will, can, should, is…) + podmiot + reszta. Nie ma żadnego? Wstawiasz do / does / did, a czasownik wraca do formy podstawowej."
+        },
+        {
+          "step_pl": "pułapka",
+          "text_pl": "Przy be nie ma do: Rarely is he late. I tylko jedno przeczenie: Never have I…, nigdy Never haven't I…"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Little did I know…** to inwersja, która została w wymaganiach. *Little* znaczy tu *wcale nie*, a nie *mało*. Idzie z czasownikami wiedzy i przeczucia: *know, realise, suspect, imagine*. Zwykle mówi o przeszłości, więc stoi *did*. O teraźniejszości rzadziej: *Little does he know that…*.\n\nTypowa para: *I had no idea that…* → *Little did I know that…*. Pasuje do opowieści tuż przed zwrotem akcji."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Little", "role": "signal" },
+        { "text": "did", "role": "aux" },
+        { "text": "subject", "role": "subject" },
+        { "text": "know / realise / suspect", "role": "verb" },
+        { "text": "(that)…", "role": "neutral" }
+      ],
+      "example": {
+        "en": "Little did I know that the exam had been moved to Monday.",
+        "pl": "Nie miałem pojęcia, że egzamin przełożono na poniedziałek."
+      }
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "Little did we know that the hotel had been closed for months.",
+          "pl": "Nie mieliśmy pojęcia, że hotel od miesięcy był zamknięty."
+        },
+        {
+          "en": "Little does Kuba know that the whole class is coming to his party.",
+          "pl": "Kuba nie ma pojęcia, że na jego imprezę przyjdzie cała klasa."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**So do I / Neither do I** to też inwersja, tylko w krótkiej odpowiedzi. Mówisz, że z tobą jest tak samo, i nie powtarzasz całego zdania. Posiłkowy bierzesz ze zdania rozmówcy, a gdy go tam nie ma, wstawiasz do / does / did w tym samym czasie.\n\n- zdanie twierdzące → **So** + posiłkowy + podmiot: *I'm exhausted. – So am I.*\n- zdanie przeczące → **Neither / Nor** + posiłkowy + podmiot: *I haven't started yet. – Neither have I.*\n\nPo *neither / nor* posiłkowy jest twierdzący, bo przeczenie już siedzi w *neither*. W luźnej rozmowie wystarczy *Me too* albo *Me neither*.\n\nTen sam szyk bywa w formalnym porównaniu po *as* (przykład niżej). Zwykły szyk, *as her mother did*, też jest poprawny."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "My sister loves horror films, and so does my dad.",
+          "pl": "Moja siostra uwielbia horrory, tata też."
+        },
+        {
+          "en": "I can't stand early mornings. – Neither can I.",
+          "pl": "Nie znoszę wczesnych poranków. – Ja też nie."
+        },
+        {
+          "en": "Ania studies medicine, as did her mother.",
+          "pl": "Ania studiuje medycynę, tak jak kiedyś jej mama."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Reszta inwersji to bonus.** Wszystko od tego miejsca do *so / such* wypadło z wymagań 2027. Warto to rozpoznawać w tekstach, a jedno-dwa takie zdania dobrze wyglądają w wypracowaniu."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Never", "role": "signal" },
+        { "text": "have", "role": "aux" },
+        { "text": "I", "role": "subject" },
+        { "text": "seen", "role": "verb" },
+        { "text": "…", "role": "neutral" }
+      ],
+      "example": {
+        "en": "Never have I seen so many people at a school concert.",
+        "pl": "Nigdy nie widziałem tylu ludzi na szkolnym koncercie."
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Rarely / Seldom", "role": "signal" },
+        { "text": "do / does / did", "role": "aux" },
+        { "text": "subject", "role": "subject" },
+        { "text": "V1", "role": "verb" },
+        { "text": "…", "role": "neutral" }
+      ],
+      "example": {
+        "en": "Seldom does my grandad admit that he's wrong.",
+        "pl": "Dziadek rzadko przyznaje, że nie ma racji."
+      }
+    },
+    {
+      "type": "table",
+      "headers": ["Na początku", "Znaczenie", "Przykład"],
+      "rows": [
+        ["Never (before)", "nigdy (wcześniej)", "Never before have I felt so nervous."],
+        [
+          "Rarely / Seldom",
+          "rzadko (seldom jest bardziej książkowe)",
+          "Rarely is the town centre this quiet."
+        ],
+        [
+          "Hardly / Scarcely … when",
+          "ledwo…, a już",
+          "Hardly had I left the house when it started to snow."
+        ],
+        [
+          "No sooner … than",
+          "ledwo…, a już; zaraz potem",
+          "No sooner had we arrived than the power went off."
+        ],
+        [
+          "Not only … but (also)",
+          "nie tylko…, ale też",
+          "Not only is the app free, but it also works offline."
+        ],
+        [
+          "Under no circumstances / On no account",
+          "w żadnym wypadku",
+          "On no account should you share your password."
+        ],
+        [
+          "Only after / when / then / by …",
+          "dopiero po…, dopiero gdy…, dopiero wtedy; only by = tylko dzięki…",
+          "Only then did I understand the problem."
+        ],
+        [
+          "Not until …",
+          "dopiero gdy…, nie wcześniej niż…",
+          "Not until the next morning did we hear the news."
+        ]
+      ]
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "Under no circumstances should you leave your bag unattended.",
+          "pl": "W żadnym wypadku nie zostawiaj torby bez opieki."
+        },
+        {
+          "en": "Only by booking early can you get a cheap flight.",
+          "pl": "Tylko rezerwując wcześnie, dostaniesz tani lot."
+        }
+      ]
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Zwykły szyk",
+          "md_pl": "Przysłówek stoi w środku zdania. Tak mówisz na co dzień.",
+          "examples": [
+            { "en": "I have never been so tired.", "pl": "Nigdy nie byłem taki zmęczony." },
+            {
+              "en": "We had hardly started the test when the fire alarm went off.",
+              "pl": "Ledwo zaczęliśmy test, a już włączył się alarm przeciwpożarowy."
+            }
+          ]
+        },
+        {
+          "title": "Inwersja",
+          "md_pl": "To samo słowo idzie na początek, a po nim szyk pytania. Brzmi mocniej i bardziej formalnie.",
+          "examples": [
+            { "en": "Never have I been so tired.", "pl": "Nigdy nie byłem taki zmęczony." },
+            {
+              "en": "Hardly had we started the test when the fire alarm went off.",
+              "pl": "Ledwo zaczęliśmy test, a już włączył się alarm przeciwpożarowy."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Inwersję wywołuje **miejsce** słowa, nie samo słowo. Przysłówek w środku zdania = zwykły szyk."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Hardly … when** i **No sooner … than** zwykle opisują dwa zdarzenia w przeszłości, jedno tuż po drugim. Pierwsze, wcześniejsze, idzie wtedy w **Past Perfect** i to w nim jest inwersja: *had + podmiot + V3*. Drugie to zwykły Past Simple.\n\nSpójniki nie są wymienne. *Sooner* to stopień wyższy od *soon*, a po stopniu wyższym stoi **than** (jak *better than*). Dlatego ==no sooner → than==, a ==hardly → when== (rzadziej spotkasz też *hardly … before*)."
+    },
+    {
+      "type": "timeline",
+      "now": 0.85,
+      "marks": [
+        { "kind": "point", "from": 0.3, "label": "had sat down" },
+        { "kind": "point", "from": 0.4, "label": "doorbell rang" }
+      ],
+      "caption_pl": "No sooner had we sat down to dinner than the doorbell rang. Dwa zdarzenia w przeszłości, prawie bez przerwy między nimi."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "No sooner", "role": "signal" },
+        { "text": "had", "role": "aux" },
+        { "text": "subject", "role": "subject" },
+        { "text": "V3", "role": "verb" },
+        { "text": "than", "role": "signal" },
+        { "text": "subject", "role": "subject" },
+        { "text": "V2", "role": "verb" }
+      ],
+      "example": {
+        "en": "No sooner had I switched on my laptop than the battery died.",
+        "pl": "Ledwo włączyłem laptopa, a już padła bateria."
+      }
+    },
+    {
+      "type": "text",
+      "md_pl": "**Only after / Only when / Not until** to pułapka. Gdy po *after / when / until* stoi całe zdanie (podmiot + czasownik), ta część ma zwykły szyk, a inwersja jest dopiero w **zdaniu głównym**. Gdy stoi sam okolicznik (*Not until the next morning*, *Only then*), inwersja jest zaraz po nim."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Only when / Not until", "role": "signal" },
+        { "text": "zdanie (zwykły szyk)", "role": "neutral" },
+        { "text": "did / had / could…", "role": "aux" },
+        { "text": "subject", "role": "subject" },
+        { "text": "V1 / V3", "role": "verb" }
+      ],
+      "example": {
+        "en": "Only when I got home did I notice that my phone was missing.",
+        "pl": "Dopiero gdy wróciłem do domu, zauważyłem, że nie mam telefonu."
+      }
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "Not until the plane landed did I finally relax.",
+          "pl": "Dopiero gdy samolot wylądował, w końcu się uspokoiłem."
+        },
+        {
+          "en": "Only after I had read the reviews did I book the tickets.",
+          "pl": "Dopiero gdy przeczytałem recenzje, zarezerwowałem bilety."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Not only … but (also)**: inwersja jest tylko w pierwszej części. Druga część to zwykłe zdanie z *but*, często z *also* przed czasownikiem: *but it also cut off…*."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "Not only did the storm close the airport, but it also cut off power to the whole town.",
+          "pl": "Burza nie tylko zamknęła lotnisko, ale też odcięła prąd w całym mieście."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Gdy *only* albo *not only* stoi przy **podmiocie**, inwersji nie ma: *Only my sister knew the answer.* *Not only the students but also the teachers were tired.* Inwersja jest wtedy, gdy *only* zaczyna okolicznik: czas, warunek, sposób (*Only then did she…*).\n\nInwersji nie ma też, gdy przeczenie dotyczy jednego słowa, a nie całego zdania (*Hardly anyone came.*), albo gdy całe wyrażenie wcale nie przeczy: *Not long ago* (= niedawno) *I moved to Gdańsk.*"
+    },
+    {
+      "type": "text",
+      "md_pl": "**so / such … that** łączy przyczynę ze skutkiem: coś było *bardzo* jakieś, więc coś się stało. O wyborze decyduje to, co stoi zaraz po nim:\n\n- **so** + przymiotnik albo przysłówek: *so tired*, *so quickly*; też *so many / so much / so few / so little* + rzeczownik,\n- **such** + (przymiotnik) + rzeczownik: *such a hot day*, *such awful weather*, *such kind people*.\n\nPomaga polski: przed przymiotnikiem *so* ≈ *tak* (tak zmęczony), przed rzeczownikiem *such* ≈ *taki* (taki długi film). Przy rzeczowniku policzalnym w liczbie pojedynczej po *such* musi być **a / an**. Przy niepoliczalnych i w liczbie mnogiej przedimka nie ma. W mowie *that* często się pomija: *I was so tired (that) I fell asleep on the bus.*"
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "so",
+          "md_pl": "**so** + przymiotnik / przysłówek. Przed rzeczownikiem tylko *so many / much / few / little*.",
+          "examples": [
+            {
+              "en": "The film was so long that we left before the end.",
+              "pl": "Film był tak długi, że wyszliśmy przed końcem."
+            },
+            {
+              "en": "There were so many people that we couldn't get in.",
+              "pl": "Było tylu ludzi, że nie mogliśmy wejść."
+            }
+          ]
+        },
+        {
+          "title": "such",
+          "md_pl": "**such** + (przymiotnik) + rzeczownik. Policzalny w liczbie pojedynczej dostaje *a / an*.",
+          "examples": [
+            {
+              "en": "It was such a long film that we left before the end.",
+              "pl": "To był taki długi film, że wyszliśmy przed końcem."
+            },
+            {
+              "en": "We had such awful weather that we stayed in all week.",
+              "pl": "Mieliśmy taką okropną pogodę, że cały tydzień siedzieliśmy w domu."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Patrz, co stoi dalej: przymiotnik albo przysłówek (albo many / much / few / little) → **so**; rzeczownik, z przymiotnikiem albo bez → **such**."
+    },
+    {
+      "type": "text",
+      "md_pl": "W bardzo formalnym stylu *so* też może wywołać inwersję: *So strong was the wind that the ferry was cancelled.* To już ozdobnik poza wymaganiami. Zwykłe *The wind was so strong that…* jest w pełni poprawne."
+    },
+    {
+      "type": "text",
+      "md_pl": "*Bonus poza wymaganiami 2027, z wyjątkiem It was only … that (niżej).*\n\n**Zdania rozszczepione** dzielą jedną informację na dwie części, żeby wyróżnić jedną z nich. Zwykłe zdanie: *My cousin recommended this book.* Wyróżniasz, **kto** to zrobił: *It was my cousin who recommended this book* (a nie ktoś inny).\n\nPo *It is / It was* stoi to, co podkreślasz, potem *that* (przy ludziach też *who*) i reszta zdania w ==zwykłym szyku==."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "It", "role": "subject" },
+        { "text": "is / was", "role": "verb" },
+        { "text": "to, co wyróżniasz", "role": "neutral" },
+        { "text": "that / who", "role": "signal" },
+        { "text": "reszta zdania", "role": "neutral" }
+      ],
+      "example": {
+        "en": "It was in Kraków that my parents first met.",
+        "pl": "To w Krakowie moi rodzice się poznali."
+      }
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "It was my cousin who recommended this book, not my brother.",
+          "pl": "To kuzyn polecił tę książkę, a nie brat."
+        },
+        {
+          "en": "It was only last year that I started taking English seriously.",
+          "pl": "Dopiero w zeszłym roku zacząłem poważnie podchodzić do angielskiego."
+        }
+      ]
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Only when … + inwersja",
+          "md_pl": "Okolicznik na początku, inwersja w zdaniu głównym.",
+          "examples": [
+            {
+              "en": "Only when the results came out did we start to celebrate.",
+              "pl": "Dopiero gdy ogłoszono wyniki, zaczęliśmy świętować."
+            }
+          ]
+        },
+        {
+          "title": "It was only when … that",
+          "md_pl": "Zdanie z *it*. Po *that* zwykły szyk, bez *did*.",
+          "examples": [
+            {
+              "en": "It was only when the results came out that we started to celebrate.",
+              "pl": "Dopiero gdy ogłoszono wyniki, zaczęliśmy świętować."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Albo inwersja, albo *it was … that*. Nigdy obie naraz: *It was only when… that did we…* to błąd."
+    },
+    {
+      "type": "text",
+      "md_pl": "Z tej samej rodziny jest **It wasn't until … that…**: *It wasn't until the lights came on that we saw how small the room really was.* (Dopiero gdy zapaliło się światło, zobaczyliśmy, jak mały naprawdę jest ten pokój.) Uwaga na przeczenie. Zdanie wyjściowe ma zwykle *I didn't notice … until…*, a po *It wasn't until* reszta jest **twierdząca**: *…that I noticed*, nie *…that I didn't notice*. Przeczenie przeszło na początek, do *wasn't*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**What … is / All … is** działa odwrotnie: najpierw stoi część, która budzi ciekawość, a nowa informacja przychodzi na końcu, po *is / was*. *What* = to, co; *All* = jedyne, co. *What* może też samo być podmiotem: *What surprised me most was…* (po *What* od razu czasownik).\n\nPo *What I did was* i *All I did was* idzie bezokolicznik, z *to* albo bez: *All he did was (to) complain.*"
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "What / All", "role": "signal" },
+        { "text": "subject", "role": "subject" },
+        { "text": "verb", "role": "verb" },
+        { "text": "is / was", "role": "verb" },
+        { "text": "to, co wyróżniasz", "role": "neutral" }
+      ],
+      "example": {
+        "en": "What I need is a good night's sleep.",
+        "pl": "To, czego mi trzeba, to porządnie się wyspać."
+      }
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "What surprised me most was the price.",
+          "pl": "Najbardziej zaskoczyła mnie cena."
+        },
+        {
+          "en": "All I want is some peace and quiet.",
+          "pl": "Chcę tylko trochę spokoju."
+        },
+        {
+          "en": "All he did during the trip was complain about the food.",
+          "pl": "Przez całą wycieczkę tylko narzekał na jedzenie."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "*What I need it's a break* to kalka z polskiego *To, czego potrzebuję, to…*. Po angielsku wystarczy **is**: *What I need is a break.*"
+    },
+    {
+      "type": "text",
+      "md_pl": "*Bonus poza wymaganiami 2027.*\n\n**Emfatyczne do / does / did** stawiasz w zdaniu twierdzącym, żeby powiedzieć, że coś *naprawdę* jest prawdą, zwykle wbrew temu, co ktoś myśli albo powiedział. Po polsku dodałbyś *naprawdę*, *jednak* albo *przecież*. W mowie akcent pada na *do*."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "do / does / did", "role": "aux" },
+        { "text": "V1", "role": "verb" }
+      ],
+      "example": {
+        "en": "I did lock the door — I remember checking it.",
+        "pl": "Przecież zamknąłem drzwi — pamiętam, że sprawdzałem."
+      }
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "You don't believe me, but I do like your new haircut.",
+          "pl": "Nie wierzysz mi, ale naprawdę podoba mi się twoja nowa fryzura."
+        },
+        {
+          "en": "Social media does have some advantages.",
+          "pl": "Media społecznościowe mają jednak pewne zalety."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "Po *do / does / did* czasownik wraca do formy podstawowej: **she does like**, **he did call**. Nie *she does likes*, nie *he did called*.\n\nGdy w zdaniu jest już *be*, modalny albo posiłkowy, nie dodajesz *do*, tylko akcentujesz ten wyraz: *I AM listening*, *She CAN swim*."
+    },
+    {
+      "type": "table",
+      "headers": ["Źle", "Dobrze", "Dlaczego"],
+      "rows": [
+        [
+          "Never I have seen such a mess.",
+          "Never have I seen such a mess.",
+          "Polski szyk jest swobodny, angielski nie. Never na początku → posiłkowy przed podmiotem."
+        ],
+        [
+          "Never haven't I seen…",
+          "Never have I seen…",
+          "Never już przeczy. Polskie „nigdy nie” to po angielsku jedno przeczenie."
+        ],
+        [
+          "Little I knew that…",
+          "Little did I know that…",
+          "Bez did nie ma inwersji. Little na początku wymaga posiłkowego przed podmiotem."
+        ],
+        [
+          "Little did I knew…",
+          "Little did I know…",
+          "Przeszłość jest już w did, więc know zostaje w formie podstawowej."
+        ],
+        [
+          "I can't swim. – Neither can't I.",
+          "I can't swim. – Neither can I.",
+          "Neither już przeczy, więc posiłkowy jest twierdzący."
+        ],
+        [
+          "Rarely we go out. / Rarely go we out.",
+          "Rarely do we go out.",
+          "Bez posiłkowego wstawiasz do / does / did. Głównego czasownika nie przestawiasz."
+        ],
+        [
+          "Only when did I get home, I noticed…",
+          "Only when I got home did I notice…",
+          "Inwersja jest w zdaniu głównym, nie w części z when / after / until."
+        ],
+        [
+          "No sooner had we left when…",
+          "No sooner had we left than…",
+          "Sooner to stopień wyższy, więc than."
+        ],
+        [
+          "Not only she sings, but…",
+          "Not only does she sing, but she also…",
+          "Inwersja w pierwszej części, druga ma zwykły szyk."
+        ],
+        [
+          "It was such boring film that…",
+          "It was such a boring film that…",
+          "such + a + przymiotnik + rzeczownik policzalny w liczbie pojedynczej."
+        ],
+        [
+          "We had so beautiful weather.",
+          "We had such beautiful weather.",
+          "Dalej stoi rzeczownik → such. Weather jest niepoliczalne, więc bez a."
+        ],
+        [
+          "She gave me such a good advice.",
+          "She gave me such good advice.",
+          "Advice, news, information, weather są niepoliczalne: po such bez a."
+        ],
+        [
+          "There were so much people.",
+          "There were so many people.",
+          "People to liczba mnoga, więc many."
+        ],
+        [
+          "It wasn't until I got home that I didn't notice…",
+          "It wasn't until I got home that I noticed…",
+          "Przeczenie już stoi w It wasn't, drugie by je zdublowało."
+        ],
+        [
+          "All I did was asking.",
+          "All I did was ask.",
+          "Po All / What I did was stoi bezokolicznik (z to albo bez)."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "W arkuszach z lat 2023–2026 w zadaniach 7–9 nie było ani jednej luki na inwersję czy zdanie rozszczepione. Z tej strony najbardziej prawdopodobne w zadaniach jest **so / such … that**: jest na liście CKE (*so / such*, zdania skutku) i to typowa para w transformacjach ze zbiorów (*so long that* ↔ *such a long … that*, *so … that … couldn't* ↔ *too … to*). W arkuszach 2023–2026 jeszcze jej nie było.\n\nGdyby w transformacji trafiło się coś jeszcze z tej strony, to raczej pary z listy CKE: *I had no idea* → **Little did I know**; *I didn't realise … until…* → **It was only when … that** albo **It wasn't until … that**; *I only asked…* → **All I did was ask…**. Pary *As soon as* → *No sooner had … than* i *Not until … did I* znajdziesz w zbiorach FCE/CAE, ale od 2024 nie ma ich w wymaganiach. Licz wyrazy: takie konstrukcje szybko zjadają limit 5.\n\nW wypracowaniu inwersja i zdania rozszczepione liczą się do zakresu (struktury B2 i wyżej, dobrane do sytuacji). Pasują do rozprawki i listu formalnego, w artykule działają jako mocny początek. Wystarczą jedno-dwa zdania: nadmiar brzmi sztucznie, a błąd w inwersji odbiera punkty za poprawność."
+    },
+    {
+      "type": "text",
+      "md_pl": "Kilka zdań, które pasują do rozprawki albo listu formalnego (dwa pierwsze to inwersja z bonusu):"
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "Not only does online learning save time, but it also allows students to work at their own pace.",
+          "pl": "Nauka online nie tylko oszczędza czas, ale też pozwala uczniom pracować we własnym tempie."
+        },
+        {
+          "en": "Rarely has a single invention changed our lives as much as the smartphone.",
+          "pl": "Rzadko który wynalazek zmienił nasze życie tak bardzo jak smartfon."
+        },
+        {
+          "en": "What worries me most is the lack of green spaces in my town.",
+          "pl": "Najbardziej martwi mnie brak terenów zielonych w moim mieście."
+        },
+        {
+          "en": "It is only by working together that we can protect the local environment.",
+          "pl": "Tylko działając razem, możemy chronić lokalne środowisko."
+        }
+      ]
+    }
+  ]
+}

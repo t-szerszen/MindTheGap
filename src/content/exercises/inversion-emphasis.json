@@ -1,0 +1,288 @@
+[
+  {
+    "id": "inv-little-did-iceland",
+    "type": "gap-fill",
+    "sentence": "When I signed up for the school exchange to Iceland, ___ (little / I / realise) that it would completely change my plans for university.",
+    "correct": ["little did I realise"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "little otwiera zdanie główne, a całość opowiada o przeszłości (signed up). little znaczy tu wcale nie: wtedy w ogóle nie miałem pojęcia, co z tego wyniknie."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "little na początku działa jak przeczenie, więc dalej idzie szyk pytania: posiłkowy + podmiot + czasownik."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Zwykłe zdanie to I realised, bez posiłkowego. Dokładasz did, a realise wraca do formy podstawowej: little did I realise (4 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "little I realised to little przesunięte na początek bez inwersji, a little did I realised ma przeszłość dwa razy. Oba to 0 pkt."
+      }
+    ],
+    "tags": ["inversion-emphasis"],
+    "difficulty": 1
+  },
+  {
+    "id": "inv-little-did-driving-test",
+    "type": "key-word-transformation",
+    "source": "My parents had no idea that I had failed my driving test twice.",
+    "keyWord": "KNOW",
+    "target": "Little ___ that I had failed my driving test twice.",
+    "correct": ["did my parents know"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "had no idea = w ogóle nie wiedzieli. Zdanie docelowe zaczyna się od Little, a za luką stoi that + to, czego nie wiedzieli."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Little na początku daje szyk pytania: Little + did + podmiot + know."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Rodzice nie wiedzieli w przeszłości, więc did, a know zostaje w formie podstawowej: did my parents know (4 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Zostaw my parents ze zdania wyjściowego: did they know gubi informację, kto nie wiedział. my parents knew to szyk bez inwersji, a did my parents knew ma przeszłość dwa razy."
+      }
+    ],
+    "tags": ["inversion-emphasis"],
+    "difficulty": 2
+  },
+  {
+    "id": "inv-it-was-only-abroad",
+    "type": "key-word-transformation",
+    "source": "I only realised how much I missed my family when I moved abroad.",
+    "keyWord": "WHEN",
+    "target": "It was only ___ abroad that I realised how much I missed my family.",
+    "correct": ["when I moved", "when I had moved"],
+    "accepted": ["when I'd moved"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "It was only … that: zdanie z it, które wyróżnia moment. only realised … when = dopiero gdy."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "W luce zostaje część czasowa z when. Po that stoi zwykły szyk: I realised, bez did."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "when + podmiot + Past Simple: when I moved. when I had moved też jest dobrze, bo przeprowadzka była wcześniej niż odkrycie."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "when did I move to szyk pytania, a w it was … that inwersji nie ma."
+      }
+    ],
+    "tags": ["inversion-emphasis"],
+    "difficulty": 2
+  },
+  {
+    "id": "inv-it-wasnt-until-bike",
+    "type": "key-word-transformation",
+    "source": "I didn't notice that my bike had a flat tyre until I was halfway to school.",
+    "keyWord": "UNTIL",
+    "target": "It ___ I was halfway to school that I noticed my bike had a flat tyre.",
+    "correct": ["was not until"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "didn't notice … until = zauważyłem dopiero wtedy, gdy… Zdanie docelowe zaczyna się od It, a dalej stoi that I noticed, bez przeczenia."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "It + was not until + moment + that + reszta. Wyróżniasz moment, w którym w końcu to zauważyłeś."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Wszystko dzieje się w przeszłości: was not until (albo wasn't until, 2 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Przeczenie z didn't przechodzi do wasn't, dlatego dalej jest twierdzące that I noticed. It was until bez not to błąd: bez przeczenia until nie znaczy dopiero gdy."
+      }
+    ],
+    "tags": ["inversion-emphasis"],
+    "difficulty": 2
+  },
+  {
+    "id": "inv-all-i-did-question",
+    "type": "key-word-transformation",
+    "source": "I only asked her a simple question, and she got really angry.",
+    "keyWord": "ALL",
+    "target": "___ ask her a simple question, and she got really angry.",
+    "correct": ["All I did was", "All I did was to", "All that I did was", "All I had done was"],
+    "accepted": ["All I'd done was"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "only asked = jedyne, co zrobiłem, to zapytałem. Za luką stoi ask w formie podstawowej."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "All I did was + bezokolicznik: All podkreśla, że to było tylko tyle."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "All I did was (4 wyrazy). Można dodać to: All I did was to (5). Wszystko w przeszłości, więc did i was."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "All I do is pasowałoby do zwyczaju w teraźniejszości, a tu chodzi o jedną sytuację z przeszłości. All I asked was nie pasuje, bo ask już stoi za luką."
+      }
+    ],
+    "tags": ["inversion-emphasis"],
+    "difficulty": 2
+  },
+  {
+    "id": "inv-what-we-need-cycle-path",
+    "type": "gap-fill",
+    "sentence": "Our town doesn't need another car park. ___ (what / we / need) a safe cycle path along the river.",
+    "correct": ["What we need is"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Najpierw jest to, czego nie trzeba, a potem ta jedna rzecz, której naprawdę trzeba. Zdanie ma ją wyróżnić na końcu."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "What + podmiot + czasownik + is + to, co wyróżniasz. What = to, co."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Mowa o tym, czego miasto potrzebuje teraz, więc need i is: What we need is (4 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "What we need it's to kalka z polskiego To, czego potrzebujemy, to…. Po angielsku stoi samo is, bez it."
+      }
+    ],
+    "tags": ["inversion-emphasis"],
+    "difficulty": 1
+  },
+  {
+    "id": "inv-such-bad-weather",
+    "type": "key-word-transformation",
+    "source": "The weather was so bad that the school trip to the mountains was called off.",
+    "keyWord": "SUCH",
+    "target": "It ___ weather that the school trip to the mountains was called off.",
+    "correct": ["was such bad"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Za luką stoi rzeczownik weather, a dalej that + skutek (wycieczkę odwołano)."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "so + sam przymiotnik (so bad), such + przymiotnik + rzeczownik (such bad weather)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "weather jest niepoliczalne, więc po such nie ma a: was such bad (3 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "was such a bad to 0 pkt, bo a nie stoi przed niepoliczalnym. was so bad też nie: przed rzeczownikiem nie stawiasz so, a SUCH musi być w odpowiedzi."
+      }
+    ],
+    "tags": ["inversion-emphasis"],
+    "difficulty": 2
+  },
+  {
+    "id": "inv-so-much-traffic",
+    "type": "choice",
+    "text": "There was ___ traffic on the way to the airport that we nearly missed our flight.",
+    "gaps": [
+      {
+        "options": ["so much", "so many", "such a", "so"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce stoi traffic, a dalej that + skutek. traffic jest niepoliczalne i stoi bez przymiotnika."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Przed samym rzeczownikiem so łączy się tylko z many / much / few / little. such idzie z rzeczownikiem, czasem z przymiotnikiem przed nim."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Niepoliczalne → much: so much traffic."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "so many idzie z liczbą mnogą (so many cars), such a z policzalnym w liczbie pojedynczej (such a long queue), a samo so przed rzeczownikiem w ogóle nie stoi."
+          }
+        ]
+      }
+    ],
+    "tags": ["inversion-emphasis"],
+    "difficulty": 1
+  },
+  {
+    "id": "inv-so-has-spanish",
+    "type": "gap-fill",
+    "sentence": "My brother's been learning Spanish since September. – ___ (so / my sister)! They should practise together.",
+    "correct": ["So has my sister"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Druga osoba mówi, że z jej siostrą jest tak samo. Zdanie rozmówcy jest twierdzące, więc dopowiedzenie zaczyna się od so."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "So + posiłkowy + podmiot. Posiłkowy bierzesz ze zdania rozmówcy, nie wymyślasz nowego."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "brother's been = brother has been: po 's stoi been, więc to has, nie is. Stąd So has my sister (4 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "So is my sister czyta 's jako is, a So does my sister wstawia do, chociaż posiłkowy już jest. So my sister has to szyk bez inwersji."
+      }
+    ],
+    "tags": ["inversion-emphasis"],
+    "difficulty": 3
+  },
+  {
+    "id": "inv-not-only-final",
+    "type": "key-word-transformation",
+    "source": "Ola won the regional final, and she also broke the school record.",
+    "keyWord": "ONLY",
+    "target": "Not ___ the regional final, but she also broke the school record.",
+    "correct": ["only did Ola win"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Not na początku, a dalej but she also: para not only … but also."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Not only na początku daje inwersję, ale tylko w pierwszej części. Druga część (but she also broke…) ma zwykły szyk i już stoi w zdaniu."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "won nie ma posiłkowego, więc did + podmiot + forma podstawowa: only did Ola win (4 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Zostaw imię: only did she win gubi informację, kto wygrał, bo Ola nie pada nigdzie indziej. Not only Ola won znaczyłoby, że wygrała nie tylko Ola, a only did Ola won ma przeszłość dwa razy."
+      },
+      {
+        "label_pl": "matura",
+        "text_pl": "Ta inwersja wypadła z wymagań 2027, więc w zadaniach 7–9 jej nie będzie. W rozprawce jedno takie zdanie dobrze robi zakresowi."
+      }
+    ],
+    "tags": ["inversion-emphasis"],
+    "difficulty": 3
+  }
+]
