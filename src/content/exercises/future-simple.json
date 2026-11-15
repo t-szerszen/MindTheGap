@@ -1,0 +1,533 @@
+[
+  {
+    "id": "fus-pick-up-zosia-piano",
+    "type": "gap-fill",
+    "sentence": "A: Could you collect Zosia from her piano lesson at six? I'm stuck at work. B: Sure, I ___ (pick) her up on my way back from the gym.",
+    "correct": ["will pick"],
+    "accepted": ["shall pick"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Sure — B odpowiada na prośbę, którą właśnie usłyszał."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "B zgadza się i od razu postanawia, kiedy to zrobi. Zgoda na prośbę w chwili mówienia → will."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "be going to albo Present Continuous znaczyłyby, że B miał to w planie, zanim A poprosił. at six i on my way back mówią tylko, że chodzi o przyszłość, i same nie wybierają czasu."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "I + will + V1 → will pick (I'll pick). up zostaje za her: pick her up."
+      }
+    ],
+    "tags": ["future-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "fus-party-dad-lift",
+    "type": "gap-fill",
+    "sentence": "If you stay and help us tidy up after the party, my dad ___ (give) you a lift home.",
+    "correct": ["will give"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "If you stay… — warunek o przyszłości, w Present Simple."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Druga część mówi, co się stanie, jeśli warunek się spełni. To oferta i pierwszy tryb warunkowy: will + V1."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "W części z if will nie stawiasz, ale w zdaniu głównym — owszem. my dad to he, a mimo to po will nie ma -s."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "my dad + will + V1 → will give."
+      }
+    ],
+    "tags": ["future-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "fus-jacket-green-one",
+    "type": "gap-fill",
+    "sentence": "A: We've got this jacket in navy or dark green. B: Hmm… I ___ (take) the green one, please.",
+    "correct": ["will take"],
+    "accepted": ["shall take"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Hmm… — B zastanawia się i wybiera na miejscu, w sklepie."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Decyzja w chwili mówienia → will. Tak samo zamawiasz w restauracji: I'll have the soup, please."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Present Simple (I take the green one) brzmi jak opis, a nie decyzja. be going to pasowałoby, gdyby B przyszedł do sklepu już zdecydowany. W amerykańskim angielskim przy wyborze na miejscu słychać też I'm going to take…, ale w brytyjskim i na maturze wybierz will."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "I + will + V1 → will take (I'll take)."
+      }
+    ],
+    "tags": ["future-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "fus-juice-notes-print",
+    "type": "gap-fill",
+    "sentence": "Oh no, I've just spilt juice all over my history notes! Oh well, I ___ (print) them out again in the library at lunchtime.",
+    "correct": ["will print"],
+    "accepted": ["shall print"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Oh no… Oh well (trudno) — reagujesz na to, co stało się przed sekundą."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pomysł, co zrobić, rodzi się w chwili mówienia. Wcześniej nie było problemu, więc nie było też planu → will."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "be going to znaczyłoby, że plan istniał wcześniej, a sok wylał się przed chwilą. at lunchtime mówi tylko, kiedy, i sam nie wybiera czasu. spilt to forma brytyjska, w amerykańskim spilled."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "I + will + V1 → will print (I'll print). them out zostaje za czasownikiem: print them out."
+      }
+    ],
+    "tags": ["future-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "fus-concert-final-turn-up",
+    "type": "gap-fill",
+    "sentence": "I don't think many people ___ (turn up) for the school concert — it's on the same night as the Champions League final.",
+    "correct": ["will turn up", "are going to turn up"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I don't think… — twoja opinia o tym, co się stanie."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Przewidujesz z tego, co wiesz (finał tego samego wieczoru), a nie z czegoś, co widzisz teraz → will. be going to też jest tu poprawne."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po polsku mówisz „myślę, że mało kto przyjdzie”, a po angielsku przeczenie stoi przy think. W luce zostaje więc zwykłe twierdzenie: will turn up, nie won't turn up. it's on… to Present Simple, bo termin koncertu jest już w programie."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "many people (= they) + will + V1 → will turn up."
+      }
+    ],
+    "tags": ["future-simple", "be-going-to"],
+    "difficulty": 1
+  },
+  {
+    "id": "fus-secret-definitely-not-tell",
+    "type": "gap-fill",
+    "sentence": "I ___ (definitely / not / tell) anyone what you've just told me — not even my sister, I promise.",
+    "correct": ["definitely will not tell"],
+    "accepted": [
+      "will definitely not tell",
+      "definitely shall not tell",
+      "shall definitely not tell"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I promise na końcu — to obietnica."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Obietnica dotyczy przyszłości i zależy od twojej woli → will, a w przeczeniu won't."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "definitely stoi przed won't: I definitely won't tell. Typowy błąd to won't definitely. W pełnej formie możesz też wstawić definitely między will a not: I will definitely not tell."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "definitely + will not + V1 → definitely won't tell."
+      }
+    ],
+    "tags": ["future-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "fus-open-day-confirmation",
+    "type": "gap-fill",
+    "sentence": "Thank you for signing up for our university open day. You ___ (send) a confirmation email with your ticket within 24 hours.",
+    "correct": ["will be sent"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Thank you for signing up… within 24 hours — oficjalny komunikat o tym, co stanie się po rejestracji."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "To zapowiedź i zarazem obietnica organizatora → will. W oficjalnym komunikacie be going to brzmiałoby zbyt potocznie."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "You jest tu odbiorcą, nie wykonawcą: to tobie wyślą e-mail. will send znaczyłoby, że to ty masz go wysłać → strona bierna."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + be + V3 (send – sent – sent) → will be sent."
+      }
+    ],
+    "tags": ["future-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "fus-wallet-cinema-found",
+    "type": "gap-fill",
+    "sentence": "The cinema's closed now, but I'm sure your wallet ___ (find) when the cleaners come in tomorrow morning.",
+    "correct": ["will be found", "is going to be found"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I'm sure… — przewidujesz z opinii. when the cleaners come in tomorrow morning — zdanie czasowe o przyszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Mówisz, co według ciebie stanie się jutro → will (be going to też jest poprawne). W części po when zostaje Present Simple (come), a will idzie tylko do luki."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po polsku „portfel się znajdzie”, więc kusi your wallet will find. Ale to znaczyłoby, że portfel sam coś znajdzie. Portfel znajdzie ekipa sprzątająca → strona bierna."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + be + V3 (find – found – found) → will be found."
+      }
+    ],
+    "tags": ["future-simple", "be-going-to"],
+    "difficulty": 3
+  },
+  {
+    "id": "fus-sea-levels-not-stop",
+    "type": "gap-fill",
+    "sentence": "Most climate scientists agree that sea levels ___ (not / stop) rising for centuries, even if we cut emissions to zero tomorrow.",
+    "correct": ["will not stop", "are not going to stop"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "scientists agree that… for centuries — prognoza na podstawie wiedzy, a nie czegoś, co widać za oknem."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Przewidywanie o dalekiej przyszłości → will. be going to też jest poprawne, ale w tekstach formalnych typowe jest will."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "even if we cut… tomorrow: w części z even if stoi Present Simple, choć to też przyszłość. will idzie tylko do zdania głównego."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "sea levels = they → will not + V1 → won't stop."
+      }
+    ],
+    "tags": ["future-simple", "be-going-to"],
+    "difficulty": 2
+  },
+  {
+    "id": "fus-coal-mine-miners-redundant",
+    "type": "gap-fill",
+    "sentence": "If the last coal mine in our town closes, ___ (all the miners / make) redundant?",
+    "correct": ["will all the miners be made", "are all the miners going to be made"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "If the last coal mine closes — warunek o przyszłości w Present Simple."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz o skutek tego warunku → will w pytaniu: Will + podmiot + be + V3? be going to też tu pasuje."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Górnicy sami się nie zwalniają, ktoś ich zwalnia → strona bierna. make someone redundant to brytyjskie „zwolnić z pracy (bo etat jest likwidowany)”; w amerykańskim częściej lay off."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Will + all the miners + be + V3 (make – made – made) → will all the miners be made."
+      }
+    ],
+    "tags": ["future-simple", "be-going-to"],
+    "difficulty": 2
+  },
+  {
+    "id": "fus-eurovision-who-win",
+    "type": "gap-fill",
+    "sentence": "Who do you think ___ (win) Eurovision this year? My money's on Sweden again.",
+    "correct": ["will win", "is going to win"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Who do you think…? i My money's on… (stawiam na…) — pytanie o opinię."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Przewidywanie z opinii, bez dowodu przed oczami → will. be going to też jest poprawne."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "do you think to tylko wtrącenie. Who jest podmiotem czasownika win, więc po wtrąceniu od razu idzie will + V1, bez drugiego przestawiania szyku."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Who + will + V1 → will win."
+      }
+    ],
+    "tags": ["future-simple", "be-going-to"],
+    "difficulty": 2
+  },
+  {
+    "id": "fus-post-office-ring-back",
+    "type": "gap-fill",
+    "sentence": "Sorry, I can't talk — I'm in the queue at the post office. Once I've sent this parcel, I ___ (ring) you back, OK?",
+    "correct": ["will ring"],
+    "accepted": ["shall ring"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "OK? na końcu — obiecujesz to rozmówcy teraz, w trakcie rozmowy. Once I've sent… to zdanie czasowe, ale luka jest w drugiej części."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Obietnica o przyszłości → will w zdaniu głównym. Po once zostaje Present Perfect (albo Present Simple: once I send), bo ta część podaje tylko moment."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Zdanie zaczyna się od Once, więc kusi, żeby w całym nie było will. be going to też odpada: nie planowałeś tego, decydujesz w chwili, gdy ktoś dzwoni. ring back i queue to brytyjskie; po amerykańsku call back i line."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "I + will + V1 → will ring (I'll ring). back zostaje za you: ring you back."
+      }
+    ],
+    "tags": ["future-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "fus-cake-until-everyone",
+    "type": "gap-fill",
+    "sentence": "We won't cut the birthday cake until everyone ___ (be) at the table, so tell Grandad to hurry up.",
+    "correct": ["is"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "until po zdaniu z won't — zdanie czasowe o przyszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Przyszłość wyraża już zdanie główne (won't cut), a część po until podaje tylko moment → Present Simple. will be odpada, bo to właśnie ta część."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po polsku „dopóki wszyscy nie siądą do stołu” ma czas przyszły i „nie”. Po angielsku nie ma ani will, ani not: until everyone is. everyone traktujesz jak he / she → is."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "everyone + is → is."
+      }
+    ],
+    "tags": ["present-simple", "future-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "fus-power-bank-in-case",
+    "type": "gap-fill",
+    "sentence": "I'll take my power bank in case my phone ___ (die) on the way back from the mountains.",
+    "correct": ["dies"],
+    "accepted": ["should die"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "in case (na wypadek, gdyby) po I'll take — zdanie o przyszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Gramatycznie in case działa jak if i when: przyszłość jest już w zdaniu głównym (I'll take), więc po in case → Present Simple. will die odpada, bo to właśnie ta część."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Polskie „na wypadek, gdyby padł” ma tryb przypuszczający, stąd kusi would die. Znaczenie jest jednak inne niż przy if: powerbank bierzesz tak czy siak, a nie dopiero wtedy, gdy telefon padnie. Formalnie możesz też powiedzieć in case it should die."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "my phone = it → die + -s → dies."
+      }
+    ],
+    "tags": ["present-simple", "future-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "fus-front-door-frozen-lock",
+    "type": "gap-fill",
+    "sentence": "I've been turning the key for five minutes, but the front door just ___ (not / open) — I think the lock has frozen overnight.",
+    "correct": ["will not open"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I've been turning the key for five minutes, but… — próbujesz i nic. Chodzi o tę chwilę, a nie o przyszłość."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "won't = „nie chce”: drzwi nie dają się otworzyć mimo prób. To ślad dawnego znaczenia will (chcieć), dlatego tak mówi się o rzeczach, które odmawiają współpracy: My phone won't charge."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "doesn't open brzmiałoby jak stała cecha (te drzwi w ogóle się nie otwierają). isn't opening brzmi tu dużo mniej naturalnie: po just i przy uporczywych próbach mówi się won't."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will not + V1 → won't open."
+      }
+    ],
+    "tags": ["future-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "fus-brother-australia-when",
+    "type": "gap-fill",
+    "sentence": "Nobody knows yet when my brother ___ (be) back from Australia — he hasn't even started looking at flights.",
+    "correct": ["will be", "is going to be"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Nobody knows when… — to nie zdanie czasowe, tylko pytanie zależne: „Kiedy wróci?”."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz o sam moment w przyszłości, więc przyszłość musi być w tym zdaniu → will (be going to też jest poprawne)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "when kusi, żeby dać Present Simple jak w I'll call you when he is back. Ale tam when podaje moment dla innej czynności, a tu jest słowem pytającym. is back (When are you back?) pasuje tylko przy ustalonej dacie albo rozkładzie, a tu nic nie jest ustalone. Szyk jak w zdaniu oznajmującym: when my brother will be, nie when will my brother be."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "my brother + will + V1 (be) → will be."
+      }
+    ],
+    "tags": ["future-simple", "be-going-to"],
+    "difficulty": 3
+  },
+  {
+    "id": "fus-final-whistle-moment",
+    "type": "gap-fill",
+    "sentence": "The moment the referee ___ (blow) the final whistle, thousands of fans will run onto the pitch.",
+    "correct": ["blows"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "The moment… (w chwili, gdy), a w drugiej części will run — zdanie czasowe o przyszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Gwizdek to moment, od którego coś się zacznie. Przyszłość jest już w zdaniu głównym (will run), więc po the moment → Present Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "the moment nie wygląda jak spójnik, dlatego łatwo wpisać will blow. Działa jednak tak samo jak as soon as albo when."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "the referee = he → blow + -s → blows."
+      }
+    ],
+    "tags": ["present-simple", "future-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "fus-grandma-photo-framed",
+    "type": "gap-fill",
+    "sentence": "I'll give Grandma the photo from her birthday party when it ___ (frame) — the shop says it should be ready on Thursday.",
+    "correct": ["is framed", "has been framed"],
+    "accepted": ["gets framed"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "when po I'll give — zdanie czasowe o przyszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Przyszłość jest w zdaniu głównym (I'll give), więc po when → Present Simple. Present Perfect też jest poprawny, jeśli podkreślasz, że oprawianie musi się najpierw skończyć."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Zdjęcie samo się nie oprawi, oprawia je zakład → strona bierna. will be framed odpada, bo to część po when."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "the photo = it → is + V3 → is framed (albo has been framed)."
+      }
+    ],
+    "tags": ["present-simple", "present-perfect", "future-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "fus-taxi-waiting-coming",
+    "type": "gap-fill",
+    "sentence": "A: Hurry up, the taxi's waiting outside! B: OK, OK, I ___ (come) — I'm just looking for my keys.",
+    "correct": ["am coming"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Hurry up, the taxi's waiting — ktoś pogania cię teraz, a ty już się zbierasz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Wychodzenie już się zaczęło (szukasz kluczy), więc to czynność w toku → Present Continuous: I'm coming = już idę."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Polskie „już idę” albo „zaraz będę” kusi will come. Ale I'll come to zgoda albo decyzja, że przyjdziesz (OK, I'll come to your party), a nie znak, że już jesteś w drodze."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "I + am + V-ing → am coming (I'm coming)."
+      }
+    ],
+    "tags": ["present-continuous", "future-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "fus-roller-coaster-sick",
+    "type": "gap-fill",
+    "sentence": "Quick, find a bin! Kuba's gone completely green since he got off the roller coaster — he ___ (be) sick!",
+    "correct": ["is going to be"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Quick… gone completely green — widzisz dowód teraz, na twarzy Kuby."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Skutek zaraz nastąpi i wynika z tego, co widać w tej chwili → be going to."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Polskie „zaraz zwymiotuje” ma czas przyszły, więc kusi will be sick. Ale nie przewidujesz z opinii ani nic nie postanawiasz, tylko opisujesz, do czego już zmierza sytuacja. be sick to po brytyjsku „wymiotować” (w amerykańskim raczej throw up), a „być chorym” to po brytyjsku be ill."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Kuba = he → is + going to + V1 → is going to be (he's going to be)."
+      }
+    ],
+    "tags": ["be-going-to", "future-simple"],
+    "difficulty": 2
+  }
+]
