@@ -1001,8 +1001,10 @@
   width: 20px;
   color: var(--pen-blue);
 }
-.recent-mark.bad,
 .recent-mark.ok {
+  color: var(--pen-green);
+}
+.recent-mark.bad {
   color: var(--pen-red);
 }
 .recent-text {
