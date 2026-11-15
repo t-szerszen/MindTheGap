@@ -1,0 +1,282 @@
+{
+  "id": "word-families-2",
+  "category": "word-families",
+  "title_pl": "Rodziny wyrazów (2)",
+  "items": [
+    {
+      "en": "care (n, v) – careful, careless, caring (adj) – carefully, carelessly (adv) – carelessness (n)",
+      "pl": "opieka (troska) / troszczyć się – ostrożny (staranny), nieostrożny (niedbały), troskliwy – ostrożnie, niedbale – niedbałość",
+      "meaning_pl": "-ful = pełen, -less = bez. Przeciwieństwo careful to careless, bez żadnego przedrostka. Caring to troskliwy (o osobie). Przysłówki: careful + -ly = carefully, z dwoma l.",
+      "example": {
+        "en": "He failed the test because of a few careless mistakes.",
+        "pl": "Oblał test przez kilka błędów z nieuwagi."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "help (n, v) – helpful, unhelpful, helpless (adj) – helpfully (adv) – helplessness (n)",
+      "pl": "pomoc / pomagać – pomocny, mało pomocny (nieuczynny), bezradny – uczynnie – bezradność",
+      "meaning_pl": "Pułapka: unhelpful to ktoś, kto nie chce albo nie umie pomóc, a helpless to ktoś bezradny, kto sam potrzebuje pomocy. -less = bez (pomocy).",
+      "example": {
+        "en": "I felt completely helpless when my phone died in a foreign city.",
+        "pl": "Czułem się zupełnie bezradny, kiedy padł mi telefon w obcym mieście."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "know (v) – knowledge (n) – knowledgeable (adj) – known, unknown (adj)",
+      "pl": "wiedzieć (znać) – wiedza – mający dużą wiedzę (dobrze zorientowany) – znany, nieznany",
+      "meaning_pl": "Knowledge jest niepoliczalne: bez „knowledges”, ale mówi się a good knowledge of sth. W knowledgeable e zostaje przed -able. Nieznany to unknown, nie „unknowledge”.",
+      "example": {
+        "en": "She has a good knowledge of British history.",
+        "pl": "Ma dużą wiedzę o historii Wielkiej Brytanii."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "possible, impossible (adj) – possibility, impossibility (n) – possibly (adv)",
+      "pl": "możliwy, niemożliwy – możliwość, niemożliwość – być może (możliwie)",
+      "meaning_pl": "Przed p przeczenie to im-: impossible (tak jak impatient, impolite). Przysłówek: -le zamienia się na -ly, czyli possibly, nie „possiblely”. Possibly często znaczy „być może”.",
+      "example": {
+        "en": "Is there any possibility of changing the date of the exam?",
+        "pl": "Czy jest jakaś możliwość zmiany terminu egzaminu?"
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "comfort, discomfort (n) – comfort (v) – comfortable, uncomfortable (adj) – comfortably (adv)",
+      "pl": "wygoda (pocieszenie), dyskomfort – pocieszać – wygodny, niewygodny – wygodnie",
+      "meaning_pl": "Przymiotnik ma -able: comfortable. Przeczenie przymiotnika to un- (uncomfortable), a rzeczownika dis- (discomfort). Comfort jako czasownik znaczy „pocieszać”.",
+      "example": {
+        "en": "These shoes look nice, but they're really uncomfortable.",
+        "pl": "Te buty ładnie wyglądają, ale są strasznie niewygodne."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "honest, dishonest (adj) – honesty, dishonesty (n) – honestly (adv)",
+      "pl": "uczciwy (szczery), nieuczciwy – uczciwość (szczerość), nieuczciwość – szczerze (uczciwie)",
+      "meaning_pl": "Przeczenie to dis-, nie un- — tego nie wyprowadzisz z reguły, trzeba zapamiętać. H jest nieme, dlatego mówisz an honest person.",
+      "example": {
+        "en": "Honesty is the most important thing in a friendship.",
+        "pl": "Szczerość to najważniejsza rzecz w przyjaźni."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "understand, misunderstand (v) – understanding, misunderstanding (n) – understandable, understanding (adj)",
+      "pl": "rozumieć, źle zrozumieć – zrozumienie, nieporozumienie – zrozumiały, wyrozumiały",
+      "meaning_pl": "Mis- znaczy „źle”: misunderstand = źle zrozumieć. Understandable mówi o sytuacji (it's understandable = to zrozumiałe), a understanding jako przymiotnik o osobie: wyrozumiały.",
+      "example": {
+        "en": "There must have been a misunderstanding about the time of the meeting.",
+        "pl": "Musiało dojść do nieporozumienia co do godziny spotkania."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "rely (v) – reliable, unreliable (adj) – reliability, reliance (n)",
+      "pl": "polegać – niezawodny (rzetelny), zawodny (niesolidny) – niezawodność (rzetelność), poleganie (zależność)",
+      "meaning_pl": "Y po spółgłosce zmienia się w i: rely → reliable, reliance. Mówisz rely on sb/sth. Unreliable to ktoś albo coś, na kim nie można polegać.",
+      "example": {
+        "en": "My old car is so unreliable that I never know if it will start.",
+        "pl": "Mój stary samochód jest tak zawodny, że nigdy nie wiem, czy odpali."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "equal, unequal (adj) – equality, inequality (n) – equally (adv)",
+      "pl": "równy, nierówny – równość, nierówność – równo (jednakowo)",
+      "meaning_pl": "Ten sam schemat co unable – inability: przymiotnik dostaje un- (unequal), a rzeczownik in- (inequality). W equally są dwa l.",
+      "example": {
+        "en": "The report shows that income inequality is growing.",
+        "pl": "Raport pokazuje, że nierówności dochodowe rosną."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "experience (n, v) – experienced, inexperienced (adj)",
+      "pl": "doświadczenie (przeżycie) / doświadczać (przeżywać) – doświadczony, niedoświadczony",
+      "meaning_pl": "Przeczenie to in-: inexperienced. Experience niepoliczalne = doświadczenie (work experience), policzalne = przeżycie (an amazing experience). Eksperyment to experiment, inne słowo.",
+      "example": {
+        "en": "He's too inexperienced to manage the whole team.",
+        "pl": "Ma za małe doświadczenie, żeby kierować całym zespołem."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "effect (n) – effective, ineffective (adj) – effectively (adv) – effectiveness (n)",
+      "pl": "skutek (efekt) – skuteczny, nieskuteczny – skutecznie – skuteczność",
+      "meaning_pl": "Effective znaczy „skuteczny”, a nie „efektowny” (to impressive). Effect to zwykle rzeczownik, a czasownik „wpływać” to affect. Przeczenie: ineffective.",
+      "example": {
+        "en": "Learning words in context is much more effective than memorising lists.",
+        "pl": "Uczenie się słówek w kontekście jest dużo skuteczniejsze niż wkuwanie list."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "confidence (n) – confident (adj) – confidently (adv) – confidential (adj)",
+      "pl": "pewność siebie (zaufanie) – pewny siebie – pewnie (z przekonaniem) – poufny",
+      "meaning_pl": "Uwaga na confidential: to nie „pewny siebie”, tylko „poufny” (confidential information). Pewny siebie to confident, a pewność siebie to confidence albo self-confidence.",
+      "example": {
+        "en": "Speaking in public helped her gain confidence.",
+        "pl": "Wystąpienia publiczne pomogły jej nabrać pewności siebie."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "sense (n) – sensible, sensitive, insensitive, senseless (adj) – sensitivity (n)",
+      "pl": "sens (zmysł, rozsądek) – rozsądny, wrażliwy, nieczuły (niewrażliwy), bezsensowny – wrażliwość",
+      "meaning_pl": "Sensible = rozsądny, a sensitive = wrażliwy. To klasyczna pomyłka. Senseless = bezsensowny. Przeczenie od sensitive: insensitive.",
+      "example": {
+        "en": "It would be sensible to book the tickets early.",
+        "pl": "Rozsądnie byłoby zarezerwować bilety wcześniej."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "humour (n) – humorous, humourless (adj)",
+      "pl": "humor – zabawny (humorystyczny) – pozbawiony poczucia humoru",
+      "meaning_pl": "Pułapka w brytyjskiej pisowni: humour ma -our, ale humorous gubi u. Humourless zostawia u. Poczucie humoru to a sense of humour.",
+      "example": {
+        "en": "She wrote a humorous article about life in a student flat.",
+        "pl": "Napisała zabawny artykuł o życiu w studenckim mieszkaniu."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "offend (v) – offence, offender (n) – offensive, inoffensive, offended (adj)",
+      "pl": "urazić (obrazić) – przestępstwo (obraza), przestępca (sprawca) – obraźliwy, nieszkodliwy (niewinny), urażony",
+      "meaning_pl": "Po brytyjsku offence pisze się z c, ale offensive z s. Offender to sprawca przestępstwa, a nie ktoś obrażony (to offended). Offensive mówi o tym, co obraża.",
+      "example": {
+        "en": "Some of his jokes were quite offensive.",
+        "pl": "Niektóre jego żarty były dość obraźliwe."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "believe (v) – belief, disbelief (n) – believable, unbelievable (adj) – unbelievably (adv)",
+      "pl": "wierzyć – przekonanie (wiara), niedowierzanie – wiarygodny, niewiarygodny – niewiarygodnie",
+      "meaning_pl": "W rzeczowniku v zmienia się w f: believe → belief, liczba mnoga beliefs. W believable i unbelievable e z końca znika przed -able.",
+      "example": {
+        "en": "The film is based on a story that sounds almost unbelievable.",
+        "pl": "Film powstał na podstawie historii, która brzmi niemal niewiarygodnie."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "relieve (v) – relief (n) – relieved (adj)",
+      "pl": "łagodzić (przynosić ulgę) – ulga – czujący ulgę",
+      "meaning_pl": "Ten sam schemat co believe – belief: v w czasowniku, f w rzeczowniku. I'm relieved = ulżyło mi, a What a relief! = Co za ulga!",
+      "example": {
+        "en": "I was so relieved when I found my wallet.",
+        "pl": "Ale mi ulżyło, kiedy znalazłem portfel."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "behave, misbehave (v) – behaviour (n) – well-behaved, badly behaved (adj)",
+      "pl": "zachowywać się, źle się zachowywać (rozrabiać) – zachowanie – grzeczny, niegrzeczny",
+      "meaning_pl": "Po brytyjsku behaviour z -our, a e z behave znika. Behaviour jest zwykle niepoliczalne. Mis- = źle: misbehave. Grzeczne dziecko to a well-behaved child.",
+      "example": {
+        "en": "His behaviour in class has improved a lot this term.",
+        "pl": "Jego zachowanie na lekcjach bardzo się poprawiło w tym semestrze."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "danger (n) – dangerous (adj) – dangerously (adv) – endanger (v) – endangered (adj)",
+      "pl": "niebezpieczeństwo – niebezpieczny – niebezpiecznie – zagrażać (narażać) – zagrożony",
+      "meaning_pl": "En- robi z rzeczownika czasownik, jak w encourage: endanger = narażać na niebezpieczeństwo. Endangered species to gatunek zagrożony wyginięciem.",
+      "example": {
+        "en": "The tiger is an endangered species.",
+        "pl": "Tygrys to gatunek zagrożony wyginięciem."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "real (adj) – reality (n) – realise (v) – realistic, unrealistic (adj) – really (adv)",
+      "pl": "prawdziwy – rzeczywistość – uświadamiać sobie (zdawać sobie sprawę) – realistyczny, nierealistyczny – naprawdę",
+      "meaning_pl": "Realise najczęściej znaczy „zdać sobie sprawę”, a nie „realizować” projekt (to carry out). Po brytyjsku zwykle piszesz -ise, ale realize też jest poprawne. W really są dwa l.",
+      "example": {
+        "en": "I didn't realise how late it was.",
+        "pl": "Nie zdawałem sobie sprawy, jak jest późno."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "appear, disappear (v) – appearance, disappearance (n) – apparent (adj) – apparently (adv)",
+      "pl": "pojawiać się (wydawać się), znikać – wygląd (pojawienie się), zniknięcie – widoczny (oczywisty) – podobno (najwyraźniej)",
+      "meaning_pl": "W apparent ear skraca się do ar. Apparently zwykle znaczy „podobno” albo „najwyraźniej”. Appearance to też wygląd. Disappear ma jedno s i dwa p.",
+      "example": {
+        "en": "Apparently, the school is going to close next year.",
+        "pl": "Podobno szkoła ma zostać zamknięta w przyszłym roku."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "please (v) – pleasure (n) – pleasant, unpleasant, pleased (adj)",
+      "pl": "zadowalać (sprawiać przyjemność) – przyjemność – przyjemny (miły), nieprzyjemny, zadowolony",
+      "meaning_pl": "Pleased czuje osoba (pleased with sth = zadowolony z czegoś), a pleasant to coś albo ktoś miły, przyjemny (a pleasant evening, a pleasant man). W pleasure i pleasant e z please znika.",
+      "example": {
+        "en": "We had a very pleasant evening at my grandparents'.",
+        "pl": "Spędziliśmy bardzo miły wieczór u dziadków."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "industry, industrialisation (n) – industrial, industrious (adj)",
+      "pl": "przemysł, uprzemysłowienie – przemysłowy, pracowity",
+      "meaning_pl": "Pułapka: industrial = przemysłowy, a industrious = pracowity (o osobie). O wyborze decyduje sens zdania: miasto jest industrial, uczeń industrious.",
+      "example": {
+        "en": "Katowice is an industrial city in the south of Poland.",
+        "pl": "Katowice to przemysłowe miasto na południu Polski."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "person, personality, personnel (n) – personal (adj) – personally (adv)",
+      "pl": "osoba, osobowość, personel – osobisty – osobiście",
+      "meaning_pl": "Personal (akcent na pierwszą sylabę) = osobisty, a personnel (akcent na końcu) = personel, pracownicy firmy. Personality to osobowość. Personally często otwiera zdanie z opinią.",
+      "example": {
+        "en": "Personally, I prefer living in a small town.",
+        "pl": "Osobiście wolę mieszkać w małym mieście."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    },
+    {
+      "en": "differ (v) – difference (n) – different, indifferent (adj) – differently (adv)",
+      "pl": "różnić się – różnica – różny (inny), obojętny – inaczej",
+      "meaning_pl": "Pułapka: indifferent nie znaczy „nie różny”, tylko „obojętny” (indifferent to sth). Pisownia: we wszystkich formach dwa f, a końcówki to -ence i -ent.",
+      "example": {
+        "en": "He seemed completely indifferent to what other people thought.",
+        "pl": "Wydawało się, że jest mu zupełnie obojętne, co myślą inni."
+      },
+      "register": "neutral",
+      "tags": ["słowotwórstwo"]
+    }
+  ]
+}
