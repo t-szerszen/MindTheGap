@@ -197,7 +197,7 @@
     {
       "type": "callout",
       "variant": "warning",
-      "md_pl": "**Polskie „na” to często nie *on*.** *na zdjęciu* → ==in the photo== (osoba jest w obrazku, nie leży na papierze). *na uniwersytecie* → *at university*. *na koncercie* → *at a concert*. *na lotnisku* → *at the airport*. *na wsi* → *in the country*."
+      "md_pl": "**Polskie „na” to często nie on.** *na zdjęciu* → ==in the photo== (osoba jest w obrazku, nie leży na papierze). *na uniwersytecie* → *at university*. *na koncercie* → *at a concert*. *na lotnisku* → *at the airport*. *na wsi* → *in the country*."
     },
     {
       "type": "table",
@@ -223,7 +223,7 @@
     {
       "type": "callout",
       "variant": "tip",
-      "md_pl": "**arrive.** *arrive in* + miasto albo kraj (*arrive in Gdańsk*), *arrive at* + budynek, stacja, lotnisko (*arrive at the hotel*). ==*arrive to* + miejsce to błąd==, nawet jeśli po polsku „przyjechać do”. *arrive home* jest bez przyimka. Z *to* łączą się *get to* i *go to*."
+      "md_pl": "**arrive.** *arrive in* + miasto albo kraj (*arrive in Gdańsk*), *arrive at* + budynek, stacja, lotnisko (*arrive at the hotel*). ==arrive to + miejsce to błąd==, nawet jeśli po polsku „przyjechać do”. *arrive home* jest bez przyimka. Z *to* łączą się *get to* i *go to*."
     },
     {
       "type": "text",
@@ -419,7 +419,7 @@
     {
       "type": "callout",
       "variant": "tip",
-      "md_pl": "**Jak się uczyć.** Zapisuj w fiszkach całą parę z przykładem, nie samo słowo: nie *aware*, tylko ==*aware of the risks*==. Przyimek zapamiętany osobno szybko wypada z głowy, a w parze brzmi potem „dziwnie” w złej wersji i to jest twój sygnał w zadaniu."
+      "md_pl": "**Jak się uczyć.** Zapisuj w fiszkach całą parę z przykładem, nie samo słowo: nie *aware*, tylko ==aware of the risks==. Przyimek zapamiętany osobno szybko wypada z głowy, a w parze brzmi potem „dziwnie” w złej wersji i to jest twój sygnał w zadaniu."
     }
   ]
 }

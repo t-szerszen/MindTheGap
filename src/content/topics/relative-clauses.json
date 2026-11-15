@@ -211,7 +211,7 @@
       "columns": [
         {
           "title": "where",
-          "md_pl": "Zdanie po luce jest pełne: *I grew up*. Brakuje tylko „gdzie” (*grow up **in** the town*).",
+          "md_pl": "Zdanie po luce jest pełne: *I grew up*. Brakuje tylko „gdzie” (*grow up in the town*).",
           "examples": [
             {
               "en": "This is the town where I grew up.",
