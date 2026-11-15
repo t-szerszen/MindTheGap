@@ -24,6 +24,7 @@ function draftFrom(set: PhraseSet, item: PhraseItem): WordInput {
     direction: 'en-pl',
     example: item.example.en,
     tags: [pl.topics.setTag[set.category], ...(item.tags ?? [])],
+    source: 'topic',
   }
 }
 

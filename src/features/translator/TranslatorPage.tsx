@@ -155,7 +155,9 @@ export function TranslatorPage() {
                       className="ibtn star"
                       aria-pressed={saved}
                       aria-label={saved ? t.alreadySaved : t.save}
-                      onClick={() => !saved && pair && setDraft({ ...pair, tags: [] })}
+                      onClick={() =>
+                        !saved && pair && setDraft({ ...pair, tags: [], source: 'translator' })
+                      }
                     >
                       <Icon name="star" size="l" />
                     </button>
