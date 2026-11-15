@@ -1,0 +1,63 @@
+{
+  "id": "r4-travel",
+  "type": "reading-set",
+  "examTask": 4,
+  "title": "The hut where guests carry the bread",
+  "theme": "travel",
+  "texts": [
+    {
+      "title": "The hut where guests carry the bread",
+      "genre": "article",
+      "paragraphs": [
+        {
+          "key": "A",
+          "text": "There is no road to the Kessler Hut, and the owners intend to keep it that way. Perched at just over 2,000 metres above a quiet valley in the Austrian Alps, the stone building can only be reached by a steep three-hour path, and the cable car that was proposed in the 1990s never got further than a drawing. Visitors who turn up expecting a hotel are quickly put right. There are twenty-four beds in two shared rooms, a single cold-water tap, and electricity from a solar panel that is switched off at ten every night."
+        },
+        {
+          "key": "B",
+          "text": "The hut's most unusual tradition begins at the bottom of the valley. Next to the car park stands a wooden box filled with loaves, bags of rice and bottles of oil, and every walker heading up is asked to take one item and carry it to the kitchen. Nobody checks, and no one is turned away for arriving empty-handed, yet the manager, Lena Hofer, says she cannot remember the last time that happened. The system saves the hut two helicopter flights each summer, which is good news for the budget and for the peace of the valley."
+        },
+        {
+          "key": "C",
+          "text": "Hofer took over from her parents eleven years ago, having spent most of her twenties working in restaurants in Vienna. At first she planned to modernise almost everything. She wanted hot showers, a proper menu and an online booking system. Only the last of these survived. \"I realised people weren't climbing for three hours to get what they have at home,\" she says. \"They come because it's simple. If I take that away, I've got nothing to sell.\""
+        },
+        {
+          "key": "D",
+          "text": "That simplicity has its price, and not every guest is ready to pay it. A few times each season, someone decides after one night that they would rather sleep in the valley, and Hofer never tries to change their mind. Most, however, stay, and many come back. She has noticed that groups who arrive glued to their phones are usually playing cards by the second evening, partly because the signal disappears behind the ridge after sunset. \"The mountain does the work,\" she says. \"I just cook the soup.\""
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "kind": "paragraph-match",
+      "items": [
+        {
+          "statement": "In which paragraph does the writer describe how guests contribute to the hut's food supplies?",
+          "answer": "B",
+          "why_pl": "B: każdy turysta ma „take one item and carry it to the kitchen” ze skrzynki z chlebem, ryżem i olejem. Goście sami wnoszą jedzenie. Kusi D, bo kończy się zdaniem „I just cook the soup”, ale tam jedzenie robi Hofer, a goście nic nie dostarczają."
+        },
+        {
+          "statement": "In which paragraph does the writer mention a transport link that was once planned but did not go ahead?",
+          "answer": "A",
+          "why_pl": "A: „the cable car that was proposed in the 1990s never got further than a drawing”. Kolejkę planowano, ale skończyło się na rysunku. Kusi B, bo są tam loty helikopterem, ale one istnieją, tylko jest ich mniej."
+        },
+        {
+          "statement": "In which paragraph does the writer say that the manager gave up most of her original ideas?",
+          "answer": "C",
+          "why_pl": "C: chciała ciepłych pryszniców, menu i rezerwacji online, „Only the last of these survived”, bo zrozumiała, że ludzie szukają prostoty. Kusi D, bo tam Hofer też z czegoś rezygnuje (nie przekonuje gości, żeby zostali), ale to nie są jej plany wobec schroniska."
+        },
+        {
+          "statement": "In which paragraph does the writer suggest that the setting influences how guests spend their time?",
+          "answer": "D",
+          "why_pl": "D: grupy z telefonami „are usually playing cards by the second evening, partly because the signal disappears behind the ridge” i „The mountain does the work”. To góry i brak zasięgu zmieniają zachowanie gości. Kusi C, bo „They come because it's simple” mówi o tym, dlaczego ludzie przychodzą, a nie co robią na miejscu."
+        },
+        {
+          "statement": "In which paragraph does the writer list the basic facilities that visitors can expect?",
+          "answer": "A",
+          "why_pl": "A: „twenty-four beds in two shared rooms, a single cold-water tap, and electricity from a solar panel”. To wyliczenie tego, co jest w schronisku. Kusi C, bo też są tam prysznice i menu, ale to plany Hofer, z których zrezygnowała, a nie to, co goście zastaną. Akapit A pasuje dwa razy: kolejka i wyposażenie."
+        }
+      ]
+    }
+  ]
+}

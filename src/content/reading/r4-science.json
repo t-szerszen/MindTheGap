@@ -1,0 +1,63 @@
+{
+  "id": "r4-science",
+  "type": "reading-set",
+  "examTask": 4,
+  "title": "A shelf full of failures",
+  "theme": "science",
+  "texts": [
+    {
+      "title": "A shelf full of failures",
+      "genre": "article",
+      "paragraphs": [
+        {
+          "key": "A",
+          "text": "For most of its history, science has had a habit of hiding its disappointments. Journals are full of experiments that worked, while those that produced nothing usually end up in a drawer, or simply in the bin. At Harwick University, a small team of chemists decided three years ago that this was a waste. Their solution was surprisingly low-tech: a shared online notebook in which every researcher in the department records the experiments that went nowhere, together with a short note on what they expected to happen. Nobody is paid extra for contributing, and no one from outside the department approves the entries before they go online."
+        },
+        {
+          "key": "B",
+          "text": "The idea came from Dr Nadia Okafor, who admits that it was born out of frustration rather than principle. In her second year as a postdoctoral researcher, she spent almost five months trying to grow a particular type of crystal, only to hear at a conference that a group in another country had tried exactly the same method years earlier and given it up. \"They knew it wouldn't work. I didn't, because nobody had ever written it down,\" she says. \"Those five months could have gone on something else entirely.\""
+        },
+        {
+          "key": "C",
+          "text": "Not everyone was enthusiastic at first. Some senior colleagues worried that a list of failures would make the department look careless, and that rival labs might use the information to get ahead. Okafor's answer was to make the notebook optional and to let contributors remain anonymous if they preferred. Interestingly, very few have chosen to do so. Around four hundred entries have now been added, and the names attached to them include two of the professors who objected most strongly in the beginning."
+        },
+        {
+          "key": "D",
+          "text": "Whether the notebook actually speeds up research is harder to prove. There is no simple way to count the mistakes that people did not make. However, Okafor points to a handful of emails from students at other universities who say an entry persuaded them to change direction before they had used up any equipment. She also believes the effect on younger researchers matters as much as the time saved. \"When you see that a professor got it wrong six times in a row, you stop thinking that failure means you're not good enough,\" she explains."
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "kind": "paragraph-match",
+      "items": [
+        {
+          "statement": "In which paragraph does the writer say that some early critics of the project ended up taking part in it?",
+          "answer": "C",
+          "why_pl": "C: „the names attached to them include two of the professors who objected most strongly in the beginning”. Krytycy (objected) dziś mają swoje wpisy, czyli biorą udział. Kusi D, bo tam też pojawia się profesor, który pomylił się sześć razy, ale nigdzie nie ma mowy, że był przeciwko projektowi."
+        },
+        {
+          "statement": "In which paragraph does the writer suggest that the benefits of the project cannot be measured precisely?",
+          "answer": "D",
+          "why_pl": "D: „harder to prove. There is no simple way to count the mistakes that people did not make”. Nie da się policzyć, ile błędów ktoś uniknął, więc korzyści nie da się dokładnie zmierzyć. Kusi C, bo jest tam liczba (four hundred entries), ale to liczba wpisów, a nie zmierzona korzyść."
+        },
+        {
+          "statement": "In which paragraph does the writer describe someone realising that another team had already reached the same dead end?",
+          "answer": "B",
+          "why_pl": "B: Okafor usłyszała na konferencji, że grupa z innego kraju „had tried exactly the same method years earlier and given it up”. To jest ta sama ślepa uliczka (dead end). Kusi D, bo studenci też zmieniają kierunek, ale oni dowiedzieli się w porę, z notatnika, a nie po fakcie od innego zespołu."
+        },
+        {
+          "statement": "In which paragraph does the writer explain how the project can make people at the start of their careers feel more confident?",
+          "answer": "D",
+          "why_pl": "D: „the effect on younger researchers” i „you stop thinking that failure means you're not good enough”. Młodzi przestają myśleć, że są za słabi, czyli zyskują pewność siebie. Kusi B, bo Okafor była wtedy młodą badaczką i opisuje emocje, ale to frustracja, a nie korzyść z projektu. Akapit D pasuje dwa razy: raz o trudnym pomiarze, raz o pewności siebie."
+        },
+        {
+          "statement": "In which paragraph does the writer point out that contributions go online without being checked by anyone beyond the team?",
+          "answer": "A",
+          "why_pl": "A: „no one from outside the department approves the entries before they go online”. Nikt z zewnątrz nie zatwierdza wpisów, czyli nie ma zewnętrznej kontroli. Kusi C, bo tam są zasady dodawania wpisów (dobrowolnie, anonimowo), ale anonimowość to coś innego niż brak sprawdzania."
+        }
+      ]
+    }
+  ]
+}
