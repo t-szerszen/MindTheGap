@@ -1,0 +1,282 @@
+{
+  "id": "idioms-success-problems",
+  "category": "idioms",
+  "title_pl": "Idiomy: sukces, porażka i problemy",
+  "items": [
+    {
+      "en": "go from strength to strength",
+      "pl": "odnosić coraz większe sukcesy",
+      "meaning_pl": "Coś (zespół, firma, kariera) rozwija się coraz lepiej, sukces za sukcesem. Często w present perfect, bo opisujesz trend, który trwa do teraz: has gone from strength to strength.",
+      "example": {
+        "en": "Since the new coach arrived, our school basketball team has gone from strength to strength.",
+        "pl": "Odkąd przyszedł nowy trener, nasza szkolna drużyna koszykówki odnosi coraz większe sukcesy."
+      },
+      "register": "neutral",
+      "tags": ["sukces", "rozprawka"]
+    },
+    {
+      "en": "take sth / the world by storm",
+      "pl": "podbić coś / świat",
+      "meaning_pl": "Bardzo szybki i ogromny sukces w jakimś miejscu albo wśród ludzi. Obraz z wojska: zdobyć miasto szturmem, czyli jednym nagłym atakiem. W miejsce sth wstawiasz miejsce lub grupę: take London / the internet by storm.",
+      "example": {
+        "en": "The song took the world by storm and was streamed millions of times in its first week.",
+        "pl": "Piosenka podbiła świat i w pierwszym tygodniu miała miliony odtworzeń."
+      },
+      "register": "neutral",
+      "tags": ["sukces", "kultura"]
+    },
+    {
+      "en": "be on a roll",
+      "pl": "mieć dobrą passę",
+      "meaning_pl": "Seria sukcesów pod rząd: wszystko ci wychodzi. Obraz: coś się rozpędziło i toczy się dalej samo. Mówi się tak w rozmowie, nie w rozprawce.",
+      "example": {
+        "en": "I've got top marks in three tests in a row, so I'm definitely on a roll.",
+        "pl": "Dostałem najlepsze oceny z trzech sprawdzianów z rzędu, więc zdecydowanie mam dobrą passę."
+      },
+      "register": "informal",
+      "tags": ["sukces", "szkoła"]
+    },
+    {
+      "en": "come up trumps",
+      "pl": "spisać się na medal, stanąć na wysokości zadania",
+      "meaning_pl": "Ktoś odnosi sukces albo ratuje sytuację, zwłaszcza gdy nikt się tego nie spodziewał. Trumps to atuty w kartach: ktoś nagle okazuje się mocną kartą. Brytyjskie, potoczne.",
+      "example": {
+        "en": "Nobody expected much from the youngest player, but she came up trumps and scored the winning goal.",
+        "pl": "Nikt nie spodziewał się wiele po najmłodszej zawodniczce, ale spisała się na medal i strzeliła zwycięskiego gola."
+      },
+      "register": "informal",
+      "tags": ["sukces", "sport", "UK"]
+    },
+    {
+      "en": "get off to a flying start",
+      "pl": "świetnie wystartować, zacząć z przytupem",
+      "meaning_pl": "Coś bardzo dobrze się zaczyna. Flying start to w wyścigach start z rozpędu. Ten sam schemat działa z innymi przymiotnikami: get off to a good / bad / slow start.",
+      "example": {
+        "en": "Our charity campaign got off to a flying start: we raised £500 on the first day.",
+        "pl": "Nasza akcja charytatywna świetnie wystartowała: pierwszego dnia zebraliśmy 500 funtów."
+      },
+      "register": "neutral",
+      "tags": ["sukces", "początek"]
+    },
+    {
+      "en": "against all (the) odds",
+      "pl": "wbrew wszelkim przeciwnościom",
+      "meaning_pl": "Udało się, choć szanse były bardzo małe. Odds to szanse (jak w zakładach u bukmachera), a nie forma od odd (dziwny). Zwykle na początku zdania, po nim przecinek.",
+      "example": {
+        "en": "Against all odds, a small village school won the national science competition.",
+        "pl": "Wbrew wszelkim przeciwnościom mała wiejska szkoła wygrała ogólnopolski konkurs naukowy."
+      },
+      "register": "neutral",
+      "tags": ["sukces", "rozprawka", "pułapka"]
+    },
+    {
+      "en": "sth bears fruit",
+      "pl": "coś przynosi owoce / efekty",
+      "meaning_pl": "Wysiłek, plan albo rozmowy w końcu dają dobry wynik. Podmiotem jest wysiłek, nie osoba. Formalne, dobre do rozprawki i artykułu. Odmiana: bear, bore, borne.",
+      "example": {
+        "en": "Months of hard work finally bore fruit when she was offered a place at university.",
+        "pl": "Miesiące ciężkiej pracy w końcu przyniosły owoce, gdy dostała miejsce na studiach."
+      },
+      "register": "formal",
+      "tags": ["sukces", "rozprawka"]
+    },
+    {
+      "en": "land on your feet",
+      "pl": "spaść na cztery łapy",
+      "meaning_pl": "Po kłopotach trafiasz w dobrą sytuację, często po prostu dzięki szczęściu. Ten sam obraz co po polsku, z kotem, tylko po angielsku są feet, a nie cztery łapy.",
+      "example": {
+        "en": "He lost his part-time job in June, but he landed on his feet and found a better one a week later.",
+        "pl": "W czerwcu stracił pracę dorywczą, ale spadł na cztery łapy i tydzień później znalazł lepszą."
+      },
+      "register": "informal",
+      "tags": ["sukces", "praca", "szczęście"]
+    },
+    {
+      "en": "be / go back to square one",
+      "pl": "wrócić do punktu wyjścia",
+      "meaning_pl": "Próba się nie udała i wszystko trzeba zacząć od samego początku, jakby nic jeszcze nie zrobiono. Square one = pole numer jeden, czyli sam start.",
+      "example": {
+        "en": "My laptop crashed and I lost the whole essay, so I'm back to square one.",
+        "pl": "Laptop mi się zawiesił i straciłem całe wypracowanie, więc wracam do punktu wyjścia."
+      },
+      "register": "informal",
+      "tags": ["porażka", "początek"]
+    },
+    {
+      "en": "(it's) back to the drawing board",
+      "pl": "trzeba wymyślić wszystko od nowa",
+      "meaning_pl": "Pierwszy plan nie wypalił, więc trzeba przygotować nowy. Drawing board to deska kreślarska: projekt wraca do projektanta. Różnica: square one = wracasz na start, drawing board = robisz nowy plan.",
+      "example": {
+        "en": "The head teacher rejected our idea for the school trip, so it's back to the drawing board.",
+        "pl": "Dyrektor odrzucił nasz pomysł na wycieczkę szkolną, więc musimy wymyślić wszystko od nowa."
+      },
+      "register": "neutral",
+      "tags": ["porażka", "plan"]
+    },
+    {
+      "en": "sth goes pear-shaped",
+      "pl": "coś bierze w łeb, wszystko się sypie",
+      "meaning_pl": "Plan albo sytuacja idzie bardzo nie tak. Podmiotem jest rzecz, nie osoba: it all went pear-shaped, things went pear-shaped. Brytyjskie, potoczne.",
+      "example": {
+        "en": "Everything went pear-shaped when the singer lost her voice an hour before the concert.",
+        "pl": "Wszystko wzięło w łeb, kiedy godzinę przed koncertem wokalistka straciła głos."
+      },
+      "register": "informal",
+      "tags": ["porażka", "plan", "UK"]
+    },
+    {
+      "en": "sth falls flat",
+      "pl": "coś nie wypala, nie chwyta",
+      "meaning_pl": "Coś nie daje efektu, na który liczyłeś: żart nikogo nie śmieszy, pomysł nikogo nie rusza. Mówimy o żarcie, pomyśle albo przemowie, nie o osobie.",
+      "example": {
+        "en": "His joke fell flat and nobody in the class laughed.",
+        "pl": "Jego żart nie chwycił i nikt w klasie się nie zaśmiał."
+      },
+      "register": "neutral",
+      "tags": ["porażka", "pułapka"]
+    },
+    {
+      "en": "fight a losing battle",
+      "pl": "toczyć z góry przegraną walkę",
+      "meaning_pl": "Starasz się, choć i tak nie masz szans wygrać. Losing battle to bitwa, którą przegrywasz, a nie gubiąca coś. Często z against albo trying: fight a losing battle against sth / trying to do sth.",
+      "example": {
+        "en": "My parents are fighting a losing battle trying to keep my little brother off his phone.",
+        "pl": "Rodzice toczą z góry przegraną walkę, próbując odciągnąć mojego młodszego brata od telefonu."
+      },
+      "register": "neutral",
+      "tags": ["porażka", "technologia"]
+    },
+    {
+      "en": "the writing is on the wall (for sb / sth)",
+      "pl": "widać, że to już koniec; wszystko zapowiada upadek",
+      "meaning_pl": "Są wyraźne znaki, że coś się zaraz skończy albo upadnie. Pochodzi z Biblii (Księga Daniela): tajemniczy napis na ścianie zapowiedział upadek króla Baltazara.",
+      "example": {
+        "en": "When the factory lost its biggest client, the writing was on the wall for hundreds of workers.",
+        "pl": "Kiedy fabryka straciła największego klienta, było jasne, że setki pracowników stracą pracę."
+      },
+      "register": "neutral",
+      "tags": ["porażka", "praca"]
+    },
+    {
+      "en": "(see the) light at the end of the tunnel",
+      "pl": "(widzieć) światełko w tunelu",
+      "meaning_pl": "Pierwsze oznaki, że trudny okres się skończy. Obraz ten sam co po polsku, ale po angielsku jest dłużej: light at the end of the tunnel, zwykle z see.",
+      "example": {
+        "en": "After weeks of revising for my mocks, I can finally see the light at the end of the tunnel.",
+        "pl": "Po tygodniach powtórek do próbnych matur wreszcie widzę światełko w tunelu."
+      },
+      "register": "neutral",
+      "tags": ["problemy", "nadzieja", "szkoła"]
+    },
+    {
+      "en": "make-or-break (moment / decision)",
+      "pl": "decydujący, kwestia być albo nie być",
+      "meaning_pl": "Coś przesądza o pełnym sukcesie albo pełnej porażce, bez trzeciej opcji. Przed rzeczownikiem z łącznikami: a make-or-break moment. Jako czasownik bez łączników: it can make or break your career.",
+      "example": {
+        "en": "The interview is a make-or-break moment because it decides who gets the scholarship.",
+        "pl": "Rozmowa kwalifikacyjna to moment decydujący, bo przesądza o tym, kto dostanie stypendium."
+      },
+      "register": "neutral",
+      "tags": ["sukces", "porażka", "rozprawka"]
+    },
+    {
+      "en": "a recipe for disaster",
+      "pl": "przepis na katastrofę, proszenie się o kłopoty",
+      "meaning_pl": "Coś, co prawie na pewno skończy się źle. Pułapka: recipe to przepis (kulinarny), a recepta od lekarza to prescription. Zwykle be a recipe for disaster.",
+      "example": {
+        "en": "Leaving all your revision until the night before the exam is a recipe for disaster.",
+        "pl": "Zostawianie całej nauki na noc przed egzaminem to przepis na katastrofę."
+      },
+      "register": "neutral",
+      "tags": ["problemy", "szkoła", "pułapka"]
+    },
+    {
+      "en": "get out of hand",
+      "pl": "wymknąć się spod kontroli",
+      "meaning_pl": "Sytuacja robi się tak duża albo głośna, że nikt nad nią nie panuje. Uwaga: reject sth out of hand to coś innego, czyli odrzucić od razu, bez zastanowienia.",
+      "example": {
+        "en": "The party got out of hand when dozens of uninvited guests started arriving.",
+        "pl": "Impreza wymknęła się spod kontroli, kiedy zaczęły przychodzić dziesiątki nieproszonych gości."
+      },
+      "register": "neutral",
+      "tags": ["problemy", "pułapka"]
+    },
+    {
+      "en": "the tip of the iceberg",
+      "pl": "wierzchołek góry lodowej",
+      "meaning_pl": "To, co widać, to tylko mała część dużo większego problemu. Ten sam obraz co po polsku: większość góry lodowej jest pod wodą.",
+      "example": {
+        "en": "The complaints we've received are just the tip of the iceberg; many students are unhappy but say nothing.",
+        "pl": "Skargi, które dostaliśmy, to tylko wierzchołek góry lodowej; wielu uczniów jest niezadowolonych, ale nic nie mówi."
+      },
+      "register": "neutral",
+      "tags": ["problemy", "szkoła", "rozprawka"]
+    },
+    {
+      "en": "open (up) a can of worms",
+      "pl": "otworzyć puszkę Pandory",
+      "meaning_pl": "Poruszasz sprawę, która wywoła masę nowych, nieprzyjemnych problemów. Obraz: otwierasz puszkę z robakami i wszystko zaczyna z niej wypełzać, a z powrotem już tego nie zamkniesz.",
+      "example": {
+        "en": "If we start discussing who did the least work on the project, we'll open a can of worms.",
+        "pl": "Jeśli zaczniemy rozmawiać o tym, kto najmniej zrobił w projekcie, otworzymy puszkę Pandory."
+      },
+      "register": "informal",
+      "tags": ["problemy", "konflikt"]
+    },
+    {
+      "en": "nip sth in the bud",
+      "pl": "zdusić coś w zarodku",
+      "meaning_pl": "Zatrzymać problem, zanim urośnie. Bud to pączek kwiatu: ogrodnik obrywa go, zanim zakwitnie. Zaimek wchodzi do środka: nip it in the bud.",
+      "example": {
+        "en": "If you notice that you're falling behind in maths, nip the problem in the bud and ask for help.",
+        "pl": "Jeśli widzisz, że zostajesz w tyle z matmy, zduś problem w zarodku i poproś o pomoc."
+      },
+      "register": "neutral",
+      "tags": ["problemy", "rozwiązanie"]
+    },
+    {
+      "en": "teething problems / teething troubles",
+      "pl": "problemy na starcie, choroby wieku dziecięcego",
+      "meaning_pl": "Drobne problemy, kiedy coś jest zupełnie nowe (aplikacja, system, firma), i które z czasem mijają. Teething to ząbkowanie u niemowląt: przykre, ale przejściowe. Brytyjskie.",
+      "example": {
+        "en": "The new school app had a few teething problems, but now it works perfectly.",
+        "pl": "Nowa szkolna aplikacja miała na starcie kilka problemów, ale teraz działa bez zarzutu."
+      },
+      "register": "neutral",
+      "tags": ["problemy", "technologia", "UK"]
+    },
+    {
+      "en": "a vicious circle",
+      "pl": "błędne koło",
+      "meaning_pl": "Jeden problem powoduje drugi, a ten pogłębia pierwszy, i tak w kółko. Vicious znaczy tu zły, szkodliwy. Spotkasz też vicious cycle (częściej w USA).",
+      "example": {
+        "en": "I'm tired, so I drink coffee late, so I can't sleep and I'm tired again. It's a vicious circle.",
+        "pl": "Jestem zmęczony, więc piję kawę wieczorem, więc nie mogę spać i znowu jestem zmęczony. To błędne koło."
+      },
+      "register": "neutral",
+      "tags": ["problemy", "rozprawka"]
+    },
+    {
+      "en": "turn the corner",
+      "pl": "wyjść na prostą",
+      "meaning_pl": "Po trudnym okresie sytuacja zaczyna się poprawiać: najgorsze minęło. Obraz: za zakrętem droga robi się łatwiejsza. Zawsze the corner, nie a corner.",
+      "example": {
+        "en": "After two difficult seasons, the local football club seems to have turned the corner.",
+        "pl": "Po dwóch trudnych sezonach lokalny klub piłkarski chyba wychodzi na prostą."
+      },
+      "register": "neutral",
+      "tags": ["problemy", "poprawa", "sport"]
+    },
+    {
+      "en": "a blessing in disguise",
+      "pl": "nie ma tego złego, co by na dobre nie wyszło",
+      "meaning_pl": "Coś, co najpierw wygląda na pecha, a potem okazuje się dobre. In disguise = w przebraniu: dobro przebrane za pecha. Nie myl ze szczęściem w nieszczęściu, które znaczy, że mogło być gorzej.",
+      "example": {
+        "en": "Failing my driving test the first time was a blessing in disguise, because I became a much more careful driver.",
+        "pl": "Oblanie egzaminu na prawo jazdy za pierwszym razem wyszło mi na dobre, bo stałem się dużo ostrożniejszym kierowcą."
+      },
+      "register": "neutral",
+      "tags": ["problemy", "poprawa", "pułapka"]
+    }
+  ]
+}
