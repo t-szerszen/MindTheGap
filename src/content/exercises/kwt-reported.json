@@ -1,0 +1,702 @@
+[
+  {
+    "id": "kr-admitted-copied",
+    "type": "key-word-transformation",
+    "source": "\"Yes, I copied my answers from Ola's test,\" Bartek told the teacher.",
+    "keyWord": "ADMITTED",
+    "target": "Bartek ___ his answers from Ola's test.",
+    "maxWords": 5,
+    "correct": [
+      "admitted copying",
+      "admitted having copied",
+      "admitted to copying",
+      "admitted to having copied",
+      "admitted that he had copied",
+      "admitted he had copied",
+      "admitted that he copied",
+      "admitted he copied"
+    ],
+    "accepted": ["admitted he'd copied", "admitted that he'd copied"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Yes, I copied… to przyznanie się do czegoś, co Bartek zrobił. Pasuje admit."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "admit + -ing, admit to + -ing albo admit (that) + zdanie z czasem cofniętym (przy past simple cofnięcie można pominąć)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie admitted to copy. W admit to słówko to jest przyimkiem, więc dalej idzie -ing."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "admitted to the teacher that he had copied ma 8 wyrazów, więc nauczyciela tu pomijasz."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kr-refused-car",
+    "type": "key-word-transformation",
+    "source": "\"No, I won't lend you my car again,\" Dad told my brother.",
+    "keyWord": "REFUSED",
+    "target": "Dad ___ my brother his car again.",
+    "maxWords": 5,
+    "correct": ["refused to lend"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "No, I won't… to odmowa: tata mówi, że czegoś nie zrobi."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "refuse + to + V1. Przeczenie siedzi już w samym refuse."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie refused lending i nie refused not to lend, bo to znaczyłoby coś odwrotnego. lend to pożyczyć komuś, borrow to pożyczyć od kogoś."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "kr-offered-suitcase",
+    "type": "key-word-transformation",
+    "source": "\"Shall I carry your suitcase upstairs?\" the receptionist asked the elderly guest.",
+    "keyWord": "OFFERED",
+    "target": "The receptionist ___ the elderly guest's suitcase upstairs.",
+    "maxWords": 5,
+    "correct": ["offered to carry", "offered to take"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Shall I…? to propozycja pomocy: „Czy mam…?”. Recepcjonista zgłasza się, że coś zrobi."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "offer + to + V1. Osoba, której się pomaga, jest już w zdaniu (the elderly guest's suitcase)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie offered him to carry. Po offer nie wstawiasz osoby przed to + V1."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "kr-reminded-id-cards",
+    "type": "key-word-transformation",
+    "source": "\"Don't forget to bring your ID cards to the exam,\" our form tutor told us.",
+    "keyWord": "REMINDED",
+    "target": "Our form tutor ___ our ID cards to the exam.",
+    "maxWords": 5,
+    "correct": ["reminded us to bring", "reminded us to take", "reminded us not to forget"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Don't forget to… to przypomnienie. Samo remind zawiera już „nie zapomnij”."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "remind + kogo + to + V1. Osoba stoi zaraz po remind."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie reminded to us bring ani reminded us bringing. Po osobie idzie to + V1."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kr-accused-lying",
+    "type": "key-word-transformation",
+    "source": "\"You're lying about where you were last night!\" Ewa shouted at her boyfriend.",
+    "keyWord": "ACCUSED",
+    "target": "Ewa ___ about where he had been the night before.",
+    "maxWords": 5,
+    "correct": [
+      "accused her boyfriend of lying",
+      "accused him of lying",
+      "accused him of telling lies"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Ewa mówi chłopakowi wprost, że kłamie. To oskarżenie."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "accuse + kogo + of + -ing."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Przyimek to of, nie for (for jest przy blame). lie + -ing to lying: ie zmienia się w y."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "accused her boyfriend of telling lies ma 6 wyrazów, za dużo. Z her boyfriend mieści się tylko of lying."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kr-threatened-police",
+    "type": "key-word-transformation",
+    "source": "\"If you don't turn the music down, I'll call the police,\" our neighbour told us.",
+    "keyWord": "THREATENED",
+    "target": "Our neighbour ___ the police if we didn't turn the music down.",
+    "maxWords": 5,
+    "correct": [
+      "threatened to call",
+      "threatened that he would call",
+      "threatened he would call",
+      "threatened that she would call",
+      "threatened she would call"
+    ],
+    "accepted": [
+      "threatened he'd call",
+      "threatened she'd call",
+      "threatened that he'd call",
+      "threatened that she'd call"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Jeśli nie…, to zrobię coś nieprzyjemnego. To groźba."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "threaten + to + V1 albo threaten (that) + zdanie z would."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie threatened us to call. Przy threaten nie stawiasz osoby przed to + V1. Część z if jest już w zdaniu i ma cofnięty czas: didn't turn."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kr-ordered-stop-talking",
+    "type": "key-word-transformation",
+    "source": "\"Stop talking and sit down at once!\" the head teacher shouted at the noisy students.",
+    "keyWord": "ORDERED",
+    "target": "The head teacher ___ talking and sit down at once.",
+    "maxWords": 5,
+    "correct": ["ordered the students to stop", "ordered them to stop"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Tryb rozkazujący i wykrzyknik: to polecenie kogoś, kto ma władzę."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "order + kogo + to + V1. Drugi czasownik (sit down) stoi już po and i też zależy od tego samego to."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "stop + -ing to przestać coś robić, więc talking zostaje. stop to talk znaczyłoby, że przerywają coś innego, żeby porozmawiać."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "ordered the noisy students to stop ma 6 wyrazów. Wystarczy the students albo them."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "kr-how-long-spanish",
+    "type": "key-word-transformation",
+    "source": "\"How long have you been learning Spanish?\" the examiner asked me.",
+    "keyWord": "LONG",
+    "target": "The examiner asked me ___ learning Spanish.",
+    "maxWords": 5,
+    "correct": ["how long I had been"],
+    "accepted": ["how long I'd been"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Pytanie z how long, zadane w przeszłości (asked)."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "W pytaniu zależnym szyk jest jak w zdaniu oznajmującym: how long + podmiot + czasownik."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "have you been learning cofa się o jeden krok: I had been learning. you zmienia się na I, bo to mnie pytano."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie how long had I been. Inwersja zostaje w pytaniu bezpośrednim."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "kr-whether-homework-help",
+    "type": "key-word-transformation",
+    "source": "\"Do you need any help with your homework?\" my older sister asked me.",
+    "keyWord": "WHETHER",
+    "target": "My older sister asked me ___ any help with my homework.",
+    "maxWords": 5,
+    "correct": ["whether I needed", "whether or not I needed"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Pytanie tak/nie, bez słowa pytającego. W relacji wprowadza je if albo whether."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "whether + podmiot + czasownik. do znika, a przeszłość pokazuje sam czasownik: need → needed."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie whether did I need i nie whether I need: siostra pytała w przeszłości, więc czas się cofa."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "kr-next-day-photos",
+    "type": "key-word-transformation",
+    "source": "\"I'll send you the photos tomorrow,\" Natalia told me on Monday.",
+    "keyWord": "DAY",
+    "target": "On Monday Natalia told me that she would send me the photos ___.",
+    "maxWords": 5,
+    "correct": ["the next day", "the following day", "the day after"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Relacjonujesz rozmowę z poniedziałku już po fakcie. Jej „jutro” nie jest twoim jutrem."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "W mowie zależnej określenia czasu przesuwają się razem z czasem: tomorrow → the next day / the following day."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie tomorrow: jutro Natalii to dla ciebie już wtorek, więc the next day."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "kr-never-been-match",
+    "type": "key-word-transformation",
+    "source": "\"I've never been to a live football match,\" Igor said.",
+    "keyWord": "NEVER",
+    "target": "Igor said ___ to a live football match.",
+    "maxWords": 5,
+    "correct": ["he had never been", "that he had never been"],
+    "accepted": ["he'd never been", "that he'd never been"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "said + (that) + zdanie. I zmienia się na he."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Present Perfect cofa się do Past Perfect: have never been → had never been. never stoi między had a been."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "that he had never been to dokładnie 5 wyrazów. that można pominąć."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "kr-congratulated-debate",
+    "type": "key-word-transformation",
+    "source": "\"Well done on winning the debate competition!\" the head teacher said to Zuzia.",
+    "keyWord": "CONGRATULATED",
+    "target": "The head teacher ___ the debate competition.",
+    "maxWords": 5,
+    "correct": [
+      "congratulated Zuzia on winning",
+      "congratulated her on winning",
+      "congratulated Zuzia on having won",
+      "congratulated her on having won"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Well done on… to gratulacje z powodu sukcesu."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "congratulate + kogo + on + -ing. Po przyimku czasownik ma -ing."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Przyimek to on, nie for."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "win + -ing to winning, z podwójnym n."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "kr-promised-pay-back",
+    "type": "key-word-transformation",
+    "source": "\"I'll definitely pay you back by Friday,\" Filip told me.",
+    "keyWord": "PROMISED",
+    "target": "Filip ___ me back by Friday.",
+    "maxWords": 5,
+    "correct": [
+      "promised to pay",
+      "promised he would pay",
+      "promised that he would pay",
+      "promised me he would pay"
+    ],
+    "accepted": [
+      "promised he'd pay",
+      "promised that he'd pay",
+      "promised me he'd pay",
+      "promised me that he'd pay"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I'll definitely… to zobowiązanie na przyszłość, czyli obietnica."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "promise + to + V1 albo promise (sb) (that) + zdanie z would."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie promised me to pay, ten wzór uchodzi za błąd. Z osobą bezpiecznie jest promised me (that) he would pay. pay back się rozdziela: pay me back, a me back jest już w zdaniu."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "promised me that he would pay ma 6 wyrazów. Ze skrótem he'd mieści się w pięciu."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "kr-warned-thin-ice",
+    "type": "key-word-transformation",
+    "source": "\"Be careful – the ice on the pond is very thin,\" Dad told us.",
+    "keyWord": "WARNED",
+    "target": "Dad ___ the ice on the pond was very thin.",
+    "maxWords": 5,
+    "correct": ["warned us that", "warned us", "warned that"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Be careful plus informacja o zagrożeniu. Tata ostrzega."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Tu po luce jest całe zdanie z was, więc warn (sb) (that) + zdanie, a nie warn sb not to + V1."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie warned to us. Po warn osoba stoi bez to."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kr-blamed-accident-on",
+    "type": "key-word-transformation",
+    "source": "\"The accident was my brother's fault,\" Marek told the police.",
+    "keyWord": "BLAMED",
+    "target": "Marek ___ his brother.",
+    "maxWords": 5,
+    "correct": ["blamed the accident on"],
+    "accepted": ["blamed it on"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "…was my brother's fault = „to wina mojego brata”. Marek zrzuca winę."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Są dwa wzory: blame sb for sth i blame sth on sb. Tu brat stoi po luce na końcu, więc pasuje tylko drugi: blame the accident on his brother."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie blamed his brother for, bo his brother jest już po luce i nie ma miejsca na wypadek. Nie blamed the accident to."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "kr-know-where-pharmacy",
+    "type": "key-word-transformation",
+    "source": "\"Where is the nearest pharmacy?\" a tourist asked us.",
+    "keyWord": "KNOW",
+    "target": "A tourist wanted ___ the nearest pharmacy was.",
+    "maxWords": 5,
+    "correct": ["to know where"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "want + to + V1: wanted to know = „chciał wiedzieć”, czyli pytał."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Pytanie zależne ma szyk oznajmujący, dlatego was stoi na końcu: where the nearest pharmacy was."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie wanted know (brakuje to) i nie where was the nearest pharmacy."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kr-asked-not-tell",
+    "type": "key-word-transformation",
+    "source": "\"Please don't tell anyone about my new boyfriend,\" Weronika said to me.",
+    "keyWord": "ASKED",
+    "target": "Weronika ___ anyone about her new boyfriend.",
+    "maxWords": 5,
+    "correct": ["asked me not to tell"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Please don't… to prośba o coś, czego mam nie robić."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "ask + kogo + not to + V1. not stoi przed to."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie asked me don't tell. Polecenie z don't zamieniasz na not to + V1."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kr-ever-been-london",
+    "type": "key-word-transformation",
+    "source": "\"Have you ever been to London?\" my new English teacher asked me.",
+    "keyWord": "EVER",
+    "target": "My new English teacher asked ___ been to London.",
+    "maxWords": 5,
+    "correct": ["me if I had ever", "me whether I had ever", "if I had ever", "whether I had ever"],
+    "accepted": ["me if I'd ever", "me whether I'd ever", "if I'd ever", "whether I'd ever"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Pytanie tak/nie bez słowa pytającego, więc if albo whether."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "have you ever been cofa się do had ever been. you zmienia się na I, a ever zostaje między had a been."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie if had I ever. W pytaniu zależnym podmiot idzie przed had."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "me whether I had ever to równo 5 wyrazów. me można pominąć."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "kr-told-packed-lunch",
+    "type": "key-word-transformation",
+    "source": "\"Bring a packed lunch on Saturday,\" the coach said to all the players.",
+    "keyWord": "TOLD",
+    "target": "All the players ___ bring a packed lunch on Saturday.",
+    "maxWords": 5,
+    "correct": ["were told to", "had been told to"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Zawodnicy są podmiotem, a polecenie wydał ktoś inny, więc strona bierna od tell sb to do: be told to + V1."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "were told to, bo players to liczba mnoga. had been told to też uchodzi: polecenie padło przed sobotą."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie were said to bring. said to w biernej znaczy „podobno”, a nie „dostali polecenie”."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations", "passive-voice"],
+    "difficulty": 2
+  },
+  {
+    "id": "kr-agreed-fence",
+    "type": "key-word-transformation",
+    "source": "\"OK, I'll help you paint the fence,\" Michał told his dad.",
+    "keyWord": "AGREED",
+    "target": "Michał ___ his dad paint the fence.",
+    "maxWords": 5,
+    "correct": ["agreed to help", "agreed that he would help", "agreed he would help"],
+    "accepted": ["agreed he'd help", "agreed that he'd help"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "OK, I'll… to zgoda na coś, o co ktoś prosił."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "agree + to + V1 albo agree (that) + zdanie z would."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie agreed with helping. agree with sb to zgadzać się z czyimś zdaniem, a tu chodzi o zgodę na zrobienie czegoś."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "kr-begged-party",
+    "type": "key-word-transformation",
+    "source": "\"Please, please let me go to the party!\" Hania said to her parents.",
+    "keyWord": "BEGGED",
+    "target": "Hania ___ let her go to the party.",
+    "maxWords": 5,
+    "correct": ["begged her parents to", "begged them to"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Please, please… i wykrzyknik. To więcej niż zwykła prośba, to błaganie."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "beg + kogo + to + V1. let her go jest już w zdaniu, ty dokładasz osobę i to."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie begged to her parents. Po beg osoba stoi bez przyimka. me z wypowiedzi zmienia się na her i to też już jest w zdaniu."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kr-complained-hotel-food",
+    "type": "key-word-transformation",
+    "source": "\"The food in this hotel is terrible,\" Mr Lis told the manager.",
+    "keyWord": "COMPLAINED",
+    "target": "Mr Lis ___ the food in the hotel.",
+    "maxWords": 5,
+    "correct": ["complained to the manager about", "complained about"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Gość mówi kierownikowi, że coś jest okropne. To skarga."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "complain (to sb) about sth. Komu: to, na co: about."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie complained the manager about. Bez to przed osobą to błąd. complain of używa się głównie przy dolegliwościach (complain of a headache)."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kr-could-not-party",
+    "type": "key-word-transformation",
+    "source": "\"I can't come to your party on Saturday,\" Iza told me.",
+    "keyWord": "COULD",
+    "target": "Iza told me that she ___ to my party on Saturday.",
+    "maxWords": 5,
+    "correct": ["could not come", "could not make it"],
+    "steps": [
+      {
+        "label_pl": "forma",
+        "text_pl": "W mowie zależnej can cofa się do could: can't come → could not come."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "make it to = dać radę przyjść, dlatego could not make it też pasuje przed to my party."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "your party zmienia się na my party, bo relacjonuję ja, ale to jest już w zdaniu. Nie could not to come: po could jest V1 bez to."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kr-thanked-dog",
+    "type": "key-word-transformation",
+    "source": "\"Thank you so much for looking after my dog while I was away,\" Mrs Wójcik said to me.",
+    "keyWord": "THANKED",
+    "target": "Mrs Wójcik ___ after her dog while she was away.",
+    "maxWords": 5,
+    "correct": ["thanked me for looking", "thanked me for having looked"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Thank you for… to podziękowanie za coś, co już zrobiłem."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "thank + kogo + for + -ing. Osoba jest obowiązkowa: thank sb."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie thanked to me ani thanked me to look. look after to opiekować się, a after jest już po luce."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kr-advised-mushrooms",
+    "type": "key-word-transformation",
+    "source": "\"I wouldn't eat those mushrooms if I were you,\" the guide told us.",
+    "keyWord": "ADVISED",
+    "target": "The guide ___ those mushrooms.",
+    "maxWords": 5,
+    "correct": ["advised us not to eat", "advised us against eating", "advised against eating"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "If I were you, I wouldn't… to rada: „na twoim miejscu bym nie…”."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "advise + kogo + not to + V1 albo advise (kogo) against + -ing."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie advised us don't eat. Po against czasownik ma -ing. Pisownia: advise to czasownik, advice to rzeczownik."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations"],
+    "difficulty": 3
+  }
+]
