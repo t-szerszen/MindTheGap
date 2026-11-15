@@ -53,7 +53,7 @@ function Reading({ set }: { set: ReadingSet }) {
     <div className="sheet ruled page-in reading">
       <div className="measure stack">
         <header className="stack" style={{ gap: 2 }}>
-          <Link className="link-pen back" to="/reading">
+          <Link className="link-pen back-link" to="/reading">
             <Icon name="back" size="s" />
             {t.back}
           </Link>

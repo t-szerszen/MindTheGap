@@ -31,7 +31,7 @@ export function WritingPage() {
     <div className="sheet ruled page-in writing">
       <div className="measure stack">
         <header className="stack" style={{ gap: 2 }}>
-          <Link className="link-pen back" to="/writing">
+          <Link className="link-pen back-link" to="/writing">
             <Icon name="back" size="s" />
             {t.back}
           </Link>

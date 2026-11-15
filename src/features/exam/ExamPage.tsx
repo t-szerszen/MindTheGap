@@ -26,7 +26,7 @@ export function ExamPage() {
     <div className="sheet ruled page-in">
       <div className="measure stack">
         <header className="stack" style={{ gap: 2 }}>
-          <Link className="link-pen back" to="/exercises">
+          <Link className="link-pen back-link" to="/exercises">
             <Icon name="back" size="s" />
             {pl.exercises.eyebrow}
           </Link>
