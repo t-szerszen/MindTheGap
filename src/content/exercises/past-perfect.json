@@ -1,0 +1,523 @@
+[
+  {
+    "id": "pap-pierogi-never-tasted",
+    "type": "gap-fill",
+    "sentence": "The pierogi were a big hit with our exchange student from Spain — she ___ (never / taste) anything like them before.",
+    "correct": ["had never tasted"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "never… before + przeszły kontekst: were a big hit."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Doświadczenie liczysz do tamtej kolacji, a nie do teraz: do wtedy nigdy nie jadła czegoś takiego → Past Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "has never tasted liczyłoby do teraz, a od tamtej pory pierogi już jadła. Polskie „nigdy wcześniej nie jadła” podsuwa zwykły czas przeszły, ale never… before do chwili w przeszłości to had + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had + never + V3 → had never tasted."
+      }
+    ],
+    "tags": ["past-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "pap-driving-test-mood",
+    "type": "gap-fill",
+    "sentence": "I was in a great mood that evening because I ___ (just / pass) my driving test.",
+    "correct": ["had just passed"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "just + that evening — „dopiero co”, ale względem tamtego wieczoru."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Egzamin był chwilę PRZED tamtym wieczorem i to on tłumaczy dobry humor. Wcześniej niż inny moment w przeszłości → Past Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "have just passed pasuje do teraz, a tu mowa o tamtym wieczorze. Po amerykańsku usłyszysz też I just passed, ale po brytyjsku just w tym znaczeniu idzie zwykle z czasem perfect."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had + just + V3 → had just passed."
+      }
+    ],
+    "tags": ["past-perfect"],
+    "difficulty": 1
+  },
+  {
+    "id": "pap-coach-not-packed",
+    "type": "gap-fill",
+    "sentence": "The coach for our school trip was leaving at six in the morning, but at midnight I ___ (not / pack) my bag yet, so I got almost no sleep.",
+    "correct": ["had not packed"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "at midnight + yet — „jeszcze nie” do konkretnej chwili tamtej nocy."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Do północy pakowanie nie było zrobione. Coś (nie) gotowe do chwili w przeszłości → Past Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "haven't packed liczyłoby do teraz, a granicą jest północ tamtej nocy. Po brytyjsku yet w przeczeniu idzie z czasem perfect, więc didn't pack… yet odpada. was leaving to tylko plan na rano, a nie twój punkt odniesienia."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had + not + V3 → had not packed (hadn't packed)."
+      }
+    ],
+    "tags": ["past-perfect"],
+    "difficulty": 1
+  },
+  {
+    "id": "pap-surfing-portugal",
+    "type": "gap-fill",
+    "sentence": "___ (you / ever / try) surfing before that holiday in Portugal, or was it your first time on a board?",
+    "correct": ["Had you ever tried"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "ever + before that holiday + was it your first time — pytanie o doświadczenie przed konkretnym wyjazdem."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz o czas aż do tamtych wakacji, które już minęły. Doświadczenie do chwili w przeszłości → Past Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Have you ever tried liczyłoby do teraz, a tu granicą są wakacje w Portugalii. W luźnej mowie, zwłaszcza amerykańskiej, bywa Did you ever try…, ale standardem jest Past Perfect."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Had + podmiot + ever + V3? → Had you ever tried."
+      }
+    ],
+    "tags": ["past-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "pap-essay-laptop-crashed",
+    "type": "gap-fill",
+    "sentence": "Oh no, that's awful! How many pages of your essay ___ (you / already / write) when your laptop crashed?",
+    "correct": ["had you already written"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "already + when your laptop crashed — granica w przeszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz, ile było gotowe do chwili awarii. Wynik przed chwilą w przeszłości → Past Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "did you write przy when brzmiałoby, jakbyś pisał dopiero po awarii. were you writing pytałoby o czynność w trakcie, a tu liczysz gotowe strony."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Wh-word + had + podmiot + already + V3? write – wrote – written → had you already written."
+      }
+    ],
+    "tags": ["past-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "pap-summer-course-places",
+    "type": "gap-fill",
+    "sentence": "I sent in my application for the summer language course in March, but by then all the places ___ (give) to students from other schools.",
+    "correct": ["had been given"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "by then (do tamtej pory) — czyli do marca, kiedy wysłałem zgłoszenie."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Miejsca rozdano wcześniej niż moje zgłoszenie. Ktoś je rozdał → strona bierna. Gotowe przed chwilą w przeszłości → Past Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "were given nie pasuje do by then: by then znaczy, że najpóźniej wtedy było już po wszystkim. Uważaj na V3: give – gave – given, więc had been gave to błąd."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had + been + V3 → had been given."
+      }
+    ],
+    "tags": ["past-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "pap-school-first-time-invited",
+    "type": "gap-fill",
+    "sentence": "It was the first time our school ___ (invite) to take part in the national debating finals, so the whole team was incredibly excited.",
+    "correct": ["had been invited"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "It was the first time… — po tym zwrocie idzie czas perfect."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Liczysz zaproszenia do tamtej chwili w przeszłości (was), więc Past Perfect. Szkołę ktoś zaprosił → strona bierna."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "It's the first time → Present Perfect, It was the first time → Past Perfect. Polskie „pierwszy raz zaproszono” podsuwa zwykły czas przeszły (was invited)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had + been + V3 → had been invited."
+      }
+    ],
+    "tags": ["past-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "pap-fire-everyone-evacuated",
+    "type": "gap-fill",
+    "sentence": "I saw the photos of the fire at the shopping centre. ___ (everyone / already / evacuate) by the time the fire engines arrived?",
+    "correct": ["Had everyone already been evacuated"],
+    "accepted": ["Had everyone been evacuated already"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "by the time the fire engines arrived + already — granica w przeszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz, czy ewakuacja była już skończona przed przyjazdem straży. Ludzi ktoś ewakuuje → strona bierna. Gotowe przed chwilą w przeszłości → Past Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Was everyone evacuated nie pasuje do by the time (najpóźniej wtedy już zrobione). Szyk jak w pytaniu: had przed podmiotem, already przed been."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Had + podmiot + already + been + V3? → Had everyone already been evacuated."
+      }
+    ],
+    "tags": ["past-perfect"],
+    "difficulty": 3
+  },
+  {
+    "id": "pap-hardly-closed-eyes",
+    "type": "gap-fill",
+    "sentence": "I ___ (hardly / close) my eyes when the neighbours' dog started barking again.",
+    "correct": ["had hardly closed"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "hardly… when — ledwo…, a już."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Najpierw zamknąłem oczy, a tuż potem pies zaczął szczekać. Wcześniejsza czynność → Past Perfect, późniejsza (started) → Past Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "hardly stoi między had a V3, jak just albo already. Wersja z inwersją (Hardly had I closed…) też istnieje, ale to styl książkowy i nie ma jej w wymaganiach na maturę 2027."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had + hardly + V3 → had hardly closed."
+      }
+    ],
+    "tags": ["past-perfect"],
+    "difficulty": 3
+  },
+  {
+    "id": "pap-cafe-interview-customers",
+    "type": "gap-fill",
+    "sentence": "When I applied for a summer job at a café, the manager asked me whether I ___ (ever / work) with customers before.",
+    "correct": ["had ever worked"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "asked me whether… (mowa zależna) + ever… before."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytanie dotyczyło doświadczenia do dnia rozmowy, która już minęła. Jej słowa to Have you ever worked…?, a po asked Present Perfect cofa się do Past Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "have ever worked liczyłoby do teraz. Po polsku zostaje „czy pracowałem”, więc cofnięcia czasu nie czuć."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had + ever + V3 → had ever worked. Po whether szyk jak w zdaniu oznajmującym (I had), nie jak w pytaniu."
+      }
+    ],
+    "tags": ["past-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "pap-wish-photo-bartek",
+    "type": "gap-fill",
+    "sentence": "I wish I ___ (not / post) that photo of Bartek — now half the school has seen it and he's furious with me.",
+    "correct": ["had not posted"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I wish + now half the school has seen it — żal o coś, co już się stało."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Zdjęcie trafiło do sieci w przeszłości i nie da się tego cofnąć. Żal o przeszłość → I wish + had + V3."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "I wish I didn't post mówiłoby o teraz (jak I wish I knew), a wrzucenie zdjęcia to przeszłość. would też tu nie pasuje."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had + not + V3 → had not posted (hadn't posted)."
+      }
+    ],
+    "tags": ["past-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "pap-ola-gone-bread",
+    "type": "gap-fill",
+    "sentence": "When I got to Ola's flat, nobody answered the door because she ___ (go) out to buy some bread.",
+    "correct": ["had gone"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "When I got to Ola's flat + nobody answered the door."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Ola wyszła PRZED moim przyjściem — dlatego nikt nie otworzył. Wcześniej niż inny moment w przeszłości → Past Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "went out nie pokazuje, że wyjście było WCZEŚNIEJ niż moje przyjście, a właśnie to tłumaczy, czemu nikt nie otworzył. Przyczyna sprzed punktu w przeszłości → had + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had + V3. go – went – gone → had gone."
+      }
+    ],
+    "tags": ["past-perfect"],
+    "difficulty": 1
+  },
+  {
+    "id": "pap-barbecue-had-lunch",
+    "type": "gap-fill",
+    "sentence": "I didn't eat much at the barbecue because I ___ (already / have) a huge lunch at my grandma's.",
+    "correct": ["had already had"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "already + didn't eat much at the barbecue (przeszłość)."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Obiad u babci był PRZED grillem i tłumaczy, czemu nie byłem głodny. Wcześniej niż inny moment w przeszłości → Past Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "had had wygląda dziwnie, ale jest poprawne: pierwsze had to posiłkowy, drugie to V3 od have (jeść). Samo already had usłyszysz w luźnej mowie, zwłaszcza amerykańskiej, ale po brytyjsku already idzie zwykle z czasem perfect."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had + already + V3 (have – had – had) → had already had."
+      }
+    ],
+    "tags": ["past-perfect"],
+    "difficulty": 3
+  },
+  {
+    "id": "pap-after-check-out-hostel",
+    "type": "gap-fill",
+    "sentence": "After we ___ (check) out of the hostel, we walked to the station and caught the ten o'clock train to Kraków.",
+    "correct": ["had checked", "checked"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "After + dalsze czynności w Past Simple (walked, caught)."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Wymeldowanie było pierwsze. Spójnik after sam pokazuje tę kolejność, więc oba czasy są poprawne: had checked podkreśla, że pierwsza czynność była zakończona, checked po prostu podaje kolejny krok."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Past Perfect nie idzie do późniejszej czynności: nie After we checked out, we had walked to the station."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had + V3 → had checked; albo V2 → checked."
+      }
+    ],
+    "tags": ["past-perfect", "past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "pap-grandma-brother-canada",
+    "type": "gap-fill",
+    "sentence": "My grandma's brother ___ (emigrate) to Canada in 1982 and never moved back to Poland.",
+    "correct": ["emigrated"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "in 1982 — konkretny rok w przeszłości, a dalej kolejny krok: never moved back."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Zdarzenia idą po kolei: wyjechał, a potem już nie wrócił na stałe. Zamknięty moment w przeszłości → Past Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Past Perfect nie znaczy „bardzo dawno”. Potrzebowałby drugiego punktu w przeszłości, przed którym coś się stało, a tu go nie ma."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "emigrate + -d → emigrated."
+      }
+    ],
+    "tags": ["past-simple", "past-perfect"],
+    "difficulty": 1
+  },
+  {
+    "id": "pap-parents-scholarship",
+    "type": "gap-fill",
+    "sentence": "When I told my parents about the scholarship, they ___ (not / believe) me at first.",
+    "correct": ["did not believe"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "When I told… + at first — reakcja na moją wiadomość."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Najpierw powiedziałem, potem nie uwierzyli. Jedno po drugim przy when → Past Simple w obu częściach."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "hadn't believed znaczyłoby, że nie wierzyli mi jeszcze PRZED moją wiadomością — bez sensu. believe to czasownik stanu, więc weren't believing też odpada."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "did + not + V1 → did not believe (didn't believe)."
+      }
+    ],
+    "tags": ["past-simple", "past-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "pap-zosia-already-seen-film",
+    "type": "gap-fill",
+    "sentence": "Zosia ___ (already / see) that new horror film, so she doesn't want to come to the cinema with us tonight.",
+    "correct": ["has already seen"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "already + doesn't want… tonight — mowa o teraz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Zosia widziała film kiedyś wcześniej, a skutek liczy się teraz: dziś nie chce iść → Present Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "had already seen wymagałby drugiego punktu w przeszłości, a tu punktem odniesienia jest teraz (doesn't want). Po amerykańsku usłyszysz też she already saw, ale brytyjska norma to Present Perfect."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "has + already + V3. see – saw – seen → has already seen."
+      }
+    ],
+    "tags": ["present-perfect", "past-perfect"],
+    "difficulty": 1
+  },
+  {
+    "id": "pap-kasia-gdansk-matches",
+    "type": "gap-fill",
+    "sentence": "Kasia ___ (not / miss) a single Lechia home match since she moved to Gdańsk — she goes even when it's pouring with rain.",
+    "correct": ["has not missed"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "since she moved + she goes even when… — od przeprowadzki aż do teraz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "moved to Gdańsk to tylko punkt startowy. Okres liczysz od niego do dziś (druga część jest w Present Simple) → Present Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Past Simple po since kusi, żeby cofnąć się do had not missed. Ale Past Perfect potrzebuje końca okresu w przeszłości, a ten okres trwa do teraz."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "has + not + V3 → has not missed (hasn't missed)."
+      }
+    ],
+    "tags": ["present-perfect", "past-perfect"],
+    "difficulty": 3
+  },
+  {
+    "id": "pap-twins-remote",
+    "type": "gap-fill",
+    "sentence": "When Mum walked in, the twins were sitting quietly on the sofa, but they were still out of breath and the cushions were all over the floor — they ___ (fight) over the remote again.",
+    "correct": ["had been fighting"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "When Mum walked in + still out of breath, cushions all over the floor — ślady czegoś, co trwało tuż przedtem."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Kłótnia o pilota trwała aż do chwili, gdy mama weszła, i dopiero co się skończyła: siedzą spokojnie, ale wciąż nie mogą złapać tchu. Widać jej ślady → Past Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "were fighting znaczyłoby, że kłótnia trwała jeszcze w chwili wejścia mamy, a oni już siedzą spokojnie. had fought podałoby tylko sam fakt; zadyszka i bałagan to ślady czynności, która trwała tuż przedtem, i to opisuje forma Continuous."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had + been + V-ing → had been fighting."
+      }
+    ],
+    "tags": ["past-perfect-continuous", "past-perfect"],
+    "difficulty": 3
+  },
+  {
+    "id": "pap-hill-sunset",
+    "type": "gap-fill",
+    "sentence": "When we finally reached the top of the hill, the sun ___ (set), so we sat down on a rock and watched it slowly disappear behind the forest.",
+    "correct": ["was setting"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "When we finally reached… + watched it slowly disappear — słońce wciąż było widać."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "W chwili dotarcia na szczyt zachód słońca trwał, a my trafiliśmy w jego środek → Past Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Schemat When we reached…, the sun had… kusi, ale had set znaczyłoby, że słońca już nie było, a my patrzymy, jak znika. set (Past Simple) pokazałoby zachód jako cały kolejny krok, a nie coś, co właśnie trwało."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "was + V-ing → was setting."
+      }
+    ],
+    "tags": ["past-continuous", "past-perfect"],
+    "difficulty": 3
+  }
+]
