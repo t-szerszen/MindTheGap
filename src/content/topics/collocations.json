@@ -1,0 +1,150 @@
+{
+  "id": "collocations",
+  "category": "vocabulary",
+  "title_pl": "Kolokacje",
+  "summary_pl": "Które słowa chodzą w parze, dlaczego to się liczy na maturze i jak się ich uczyć.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "**Kolokacja** to para (albo grupka) słów, które Anglicy po prostu łączą ze sobą. Gramatyka pozwalałaby na kilka wersji, ale naturalnie brzmi zwykle tylko jedna, czasem dwie.\n\nPo polsku mówisz *ulewny* albo *silny deszcz*, a po angielsku **heavy rain**, nie *strong rain*. Często nie ma w tym reguły do wyprowadzenia, to zwyczaj języka. Dlatego tłumaczenie słowo po słowie z polskiego często daje zdanie poprawne gramatycznie, ale dziwne."
+    },
+    {
+      "type": "table",
+      "headers": ["Po polsku", "Po angielsku", "Kalka, która nie działa"],
+      "rows": [
+        ["zrobić zdjęcie", "take a photo", "make a photo"],
+        ["popełnić przestępstwo", "commit a crime", "make a crime"],
+        ["ulewny deszcz", "heavy rain", "strong rain"],
+        ["zbierać doświadczenie", "gain experience", "collect experience"],
+        ["zrobić pracę domową", "do homework", "make homework"],
+        ["robić postępy", "make progress", "do progress"]
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "Kolokacje mają kilka typowych kształtów:\n\n- **czasownik + rzeczownik:** *make a decision, raise awareness, meet a deadline*\n- **przymiotnik + rzeczownik:** *a balanced diet, a heavy workload, fierce competition*\n- **rzeczownik + rzeczownik:** *job satisfaction, peer pressure, tuition fees*\n- **czasownik + przysłówek:** *train hard, decline sharply, work remotely*\n- **przysłówek + przymiotnik:** *highly skilled, bitterly disappointed*\n\nNajwięcej pułapek siedzi w pierwszej grupie, bo tam polski czasownik ciągnie w złą stronę."
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "**Zadanie 7 (wybór A–D).** W arkuszach 2023–2026 kolokacje i stałe wyrażenia to 3 z 24 luk (np. *book in advance*, *no wonder*). Dystraktory to zwykle synonimy z tego samego pola, które z danym słowem się nie łączą: przy *no wonder* były to *chance, reason, possibility*. Znaczeniowo wszystkie cztery są blisko, więc rozstrzyga tylko to, czy słowo **łączy się** z sąsiadem."
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "**Wypracowanie, kryterium zakres środków językowych.** Na najwyższy poziom potrzebne jest zróżnicowane słownictwo B2 lub wyżej i precyzja. Ogólniki typu *nice, great, interesting* nie są precyzyjne. Kolokacja robi tu robotę za darmo: *a demanding job* zamiast *a hard job*, *pose a serious threat* zamiast *be very bad*."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "całe kawałki",
+          "text_pl": "Nie ucz się samego słowa decision. Ucz się od razu make a decision, a najlepiej całego zdania z przykładu."
+        },
+        {
+          "step_pl": "zauważ różnicę",
+          "text_pl": "Przy każdej kolokacji sprawdź, jak by to brzmiało po polsku słowo w słowo. Jeśli kalka jest inna (zrobić zdjęcie → make?), to właśnie to miejsce trzeba zapamiętać."
+        },
+        {
+          "step_pl": "tematami",
+          "text_pl": "Ucz się kolokacji z jednego obszaru naraz (praca, zdrowie, środowisko). Na wypracowaniu i tak piszesz o jednym temacie, więc gotowy zestaw się przyda."
+        },
+        {
+          "step_pl": "używaj",
+          "text_pl": "Zapisz kolokację do fiszek i wpleć 2–3 nowe w najbliższe wypracowanie. Dopiero użyta w zdaniu zostaje w głowie."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "## make, do, take, have, get\n\nTe pięć czasowników sprawia najwięcej kłopotu, bo po polsku często wszystkie to po prostu *robić*. Przy *make* i *do* jest logika, która działa w większości przypadków. Przy *take*, *have* i *get* to raczej luźne skojarzenia, a resztę trzeba zapamiętać."
+    },
+    {
+      "type": "table",
+      "headers": ["Czasownik", "Logika", "Przykłady"],
+      "rows": [
+        [
+          "make",
+          "coś powstaje, jest efekt: tworzysz, wytwarzasz",
+          "make a decision, make a mistake, make money, make a noise, make progress"
+        ],
+        [
+          "do",
+          "czynność, praca, zadanie; też ogólne słowa typu something, anything",
+          "do homework, do the housework, do sport (BrE), do research, do your best"
+        ],
+        [
+          "take",
+          "często „bierzesz” coś na siebie albo w czymś uczestniczysz; dużo do zapamiętania",
+          "take a photo, take part in, take a risk, take care of, take advantage of"
+        ],
+        [
+          "have",
+          "posiłki, przeżycia, czynności dla przyjemności lub odpoczynku",
+          "have breakfast, have a shower, have a look, have a good time, have a break"
+        ],
+        [
+          "get",
+          "zmiana stanu (stajesz się) albo zdobycie czegoś",
+          "get married, get lost, get better, get a job, get ready"
+        ]
+      ]
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "make",
+          "md_pl": "Na końcu jest **wynik**: decyzja, błąd, pieniądze, hałas.",
+          "examples": [
+            {
+              "en": "I made a mistake in the second exercise.",
+              "pl": "Zrobiłem błąd w drugim zadaniu."
+            }
+          ]
+        },
+        {
+          "title": "do",
+          "md_pl": "Liczy się **sama czynność**, praca do wykonania.",
+          "examples": [
+            {
+              "en": "I did the exercises, but I didn't check them.",
+              "pl": "Zrobiłem ćwiczenia, ale ich nie sprawdziłem."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Pytanie kontrolne: czy coś **powstaje** (make), czy coś **wykonujesz** (do)? Gdy logika nie pomaga (*take a photo*), zostaje zapamiętanie."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "Uważaj na *zdawać egzamin*. **take / sit an exam** to podchodzić do egzaminu, a **pass an exam** to go zdać. *I took the exam* nie mówi jeszcze, czy ci poszło."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "Plastic waste poses a serious threat to marine life.",
+          "pl": "Odpady plastikowe stanowią poważne zagrożenie dla życia w morzu."
+        },
+        {
+          "en": "Working in a café helped me gain valuable work experience.",
+          "pl": "Praca w kawiarni pomogła mi zdobyć cenne doświadczenie zawodowe."
+        },
+        {
+          "en": "The match was cancelled because of heavy rain.",
+          "pl": "Mecz odwołano z powodu ulewnego deszczu."
+        },
+        {
+          "en": "She has made great progress in English this year.",
+          "pl": "W tym roku zrobiła duże postępy w angielskim."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "## Gdzie są kolokacje w aplikacji\n\nW zakładce ze zwrotami, kategoria **Kolokacje**, jest 15 zestawów:\n\n- **make, do, take, have, get — kolokacje**: 40 klasycznych par, po 8 na czasownik\n- po jednym zestawie na każdy obszar z podstawy programowej: człowiek, dom i miejsce zamieszkania, edukacja, praca, życie prywatne, żywienie, zakupy i usługi, podróże i turystyka, kultura i media, sport, zdrowie, nauka i technika, świat przyrody i środowisko, państwo i społeczeństwo\n\nPrzed wypracowaniem otwórz zestaw z tematu, o którym piszesz. Ćwiczenia z wyborem A–D do tego tematu sprawdzają kolokacje właśnie z tych zestawów."
+    }
+  ]
+}
