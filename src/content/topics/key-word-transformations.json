@@ -1,0 +1,239 @@
+{
+  "id": "key-word-transformations",
+  "category": "exam",
+  "title_pl": "Zadanie 9: transformacje i zdania z nawiasem",
+  "summary_pl": "Dwa formaty zadania 9: transformacja ze słowem kluczem (2026) i gramatykalizacja z wyrazami w nawiasie (2023-2025). Technika w pięciu krokach, liczenie wyrazów, najczęstsze pary struktur i pułapki, przez które w kluczach traci się punkt.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "Zadanie 9 to ==4 pozycje po 1 punkcie==. Zwykle każda sprawdza jedną konkretną strukturę gramatyczną, ale punkt dostajesz tylko za ==całą lukę bezbłędnie==. Dlatego nie wystarczy wiedzieć, o jaką strukturę chodzi. Trzeba ją jeszcze dopasować do reszty zdania: czas, przyimek, przedimek, liczba wyrazów.\n\nW arkuszach były dwa formaty. Nie wiadomo na pewno, który będzie w 2027, więc ćwicz oba. Mechanizm jest ten sam: ==rozpoznaj strukturę, wstaw ją we właściwej formie, policz wyrazy==."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Transformacja (2026)",
+          "md_pl": "Dostajesz zdanie wyjściowe, słowo **WIELKIMI LITERAMI** i drugie zdanie z luką. Uzupełniasz lukę tak, żeby oba zdania znaczyły to samo.\n\n- słowa klucza ==nie wolno zmieniać== (BEING nie może być *been*),\n- maksymalnie **5 wyrazów razem ze słowem kluczem**.",
+          "examples": [
+            {
+              "en": "I'm sure she forgot about the meeting. (MUST) → She must have forgotten about the meeting.",
+              "pl": "Jestem pewien, że zapomniała o spotkaniu. → Musiała zapomnieć o spotkaniu."
+            }
+          ]
+        },
+        {
+          "title": "Gramatykalizacja (2023-2025)",
+          "md_pl": "Dostajesz zdanie z luką i wyrazy w nawiasie. Używasz ich ==w podanej kolejności==, możesz je **odmieniać** i w razie potrzeby **dodajesz inne wyrazy**.\n\n- limit to 4 albo 5 wyrazów, dotąd zawsze podawany w poleceniu,\n- wyrazy z nawiasu ==wliczają się do limitu==.",
+          "examples": [
+            {
+              "en": "I ___ (find / hard / get) up early on Mondays. (limit 5 wyrazów) → I find it hard to get up early on Mondays.",
+              "pl": "Trudno mi wstawać wcześnie w poniedziałki."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "W transformacji słowo klucz jest *zamrożone*. W gramatykalizacji wyrazy z nawiasu możesz odmieniać, ale nie przestawiasz. W obu liczysz wyrazy razem z tymi podanymi."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "1. przeczytaj oba zdania",
+          "text_pl": "Przeczytaj zdanie wyjściowe i docelowe do końca, także to, co stoi po luce. Zobacz, co już jest w zdaniu docelowym, a czego brakuje: często po luce stoi czasownik albo przyimek, którego nie wolno powtórzyć."
+        },
+        {
+          "step_pl": "2. jaką strukturę wymusza słowo",
+          "text_pl": "Zapytaj, co to słowo tu zwykle ciągnie za sobą. RATHER to would rather + osoba + past simple. ACCUSED to accuse sb of -ing. LIKELY to be likely to + V1. Powiedz sobie po polsku, co znaczy zdanie wyjściowe, żeby wybrać ramę o tym samym sensie."
+        },
+        {
+          "step_pl": "3. co zmienia się dookoła",
+          "text_pl": "Dopasuj resztę: czas do okolicznika (yesterday, tomorrow, since), osobę i liczbę do podmiotu, przyimek zależny (of, in, about), przedimek (a, the), zaimki przy mowie zależnej. Sprawdź też przeczenie: It was a mistake for us not to book daje We should have booked, już bez not."
+        },
+        {
+          "step_pl": "4. napisz i policz",
+          "text_pl": "Wpisz lukę i policz wyrazy razem ze słowem kluczem albo wyrazami z nawiasu. Skrót typu wasn't, must've albo dzierżawcze Peter's to jeden wyraz. Jeśli wychodzi za dużo, zwykle wybrałeś za długą konstrukcję, a nie za mało skrótów."
+        },
+        {
+          "step_pl": "5. sprawdź sens i pisownię",
+          "text_pl": "Przeczytaj całe zdanie docelowe z luką. Czy znaczy to samo co wyjściowe, bez dodanej i bez zgubionej informacji? Potem litera po literze: forgotten, believed, accused. Jedna literówka to zero."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Jak to wygląda w praktyce.** Zdanie wyjściowe: *They were painting the kitchen when I came home.* Słowo: **BEING**. Zdanie docelowe: *The kitchen ___ when I came home.*\n\n- **Struktura.** *being* + V3 to strona bierna w czasie ciągłym.\n- **Co dookoła.** Oryginał jest w past continuous, a podmiot *the kitchen* jest w liczbie pojedynczej, więc *was*, nie *were*. Wykonawca (*they*) jest ogólny, więc znika.\n- **Luka.** *was being painted*: 3 wyrazy, słowo klucz bez zmian.\n- **Sens.** Kuchnia była w trakcie malowania, gdy przyszedłem. Zgadza się."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "The kitchen was being painted when I came home.",
+          "pl": "Kiedy wróciłem do domu, kuchnia była właśnie malowana."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Liczenie wyrazów.** Liczysz to, co wpisujesz w lukę, ==razem ze słowem kluczem==. Wyraz to wszystko między spacjami, więc:\n\n- *must have forgotten* = 3, *must've forgotten* = 2,\n- *wasn't being* = 2, *Peter's* = 1,\n- *is believed to have been* = 5, czyli dokładnie na granicy (*built* musi już stać po luce, inaczej 6 wyrazów i 0 pkt).\n\nW praktyce (klucze 2024 i 2026) skrót liczył się jako jeden wyraz. Bywało, że wersja ze skrótem mieściła się w limicie, a ta sama bez skrótu już nie i dostawała 0. Ale skrót to koło ratunkowe, nie metoda: jeśli brakuje ci dwóch wyrazów, to raczej zła konstrukcja."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Najczęstsze pary.** To struktury, które naprawdę były w zadaniu 9, oraz kilka typowych par spoza arkuszy (FIRST, WISH, TOO, DESPITE). Każdy wiersz to jedna rama do wyćwiczenia na pamięć, razem z pułapką."
+    },
+    {
+      "type": "table",
+      "headers": ["Zdanie wyjściowe", "Słowo", "Zdanie docelowe", "Pułapka"],
+      "rows": [
+        [
+          "They were repairing the road.",
+          "BEING",
+          "The road was being repaired.",
+          "was czy were zależy od nowego podmiotu"
+        ],
+        [
+          "People believe the castle was built in 1200.",
+          "BELIEVED",
+          "The castle is believed to have been built in 1200.",
+          "przeszłość wcześniejsza niż mówienie to to have been + V3"
+        ],
+        [
+          "People say he is very rich.",
+          "SAID",
+          "He is said to be very rich.",
+          "po He jest is said to be, a nie is said that"
+        ],
+        [
+          "I'd prefer you not to tell anyone.",
+          "RATHER",
+          "I'd rather you didn't tell anyone.",
+          "po osobie past simple, nie bezokolicznik"
+        ],
+        [
+          "\"You took my phone!\" Anna said to Tom.",
+          "ACCUSED",
+          "Anna accused Tom of taking her phone.",
+          "of + -ing i zmiana my na her"
+        ],
+        ["I'm sure she forgot.", "MUST", "She must have forgotten.", "have + V3, nie V2"],
+        [
+          "I'm sure he wasn't at home.",
+          "CAN'T",
+          "He can't have been at home.",
+          "pewność, że nie, to can't, a nie mustn't"
+        ],
+        [
+          "It was a mistake for us not to book a table.",
+          "SHOULD",
+          "We should have booked a table.",
+          "przeczenie się odwraca: nie zrobiliśmy, więc should have"
+        ],
+        [
+          "I don't know the answer, so I can't help.",
+          "KNEW",
+          "If I knew the answer, I could help.",
+          "w zdaniu z if bez would, logika na odwrót"
+        ],
+        [
+          "We got lost because we didn't have a map.",
+          "WOULDN'T",
+          "We wouldn't have got lost if we had had a map.",
+          "podwójne had had jest poprawne"
+        ],
+        [
+          "It will probably rain tomorrow.",
+          "LIKELY",
+          "It is likely to rain tomorrow.",
+          "likely jest przymiotnikiem, więc potrzebuje is"
+        ],
+        [
+          "Getting up early is hard for me.",
+          "IT",
+          "I find it hard to get up early.",
+          "bez it nie ma tej konstrukcji"
+        ],
+        [
+          "We don't discuss it any more.",
+          "STOPPED",
+          "We have stopped discussing it.",
+          "stop + -ing, bo stop + to + V1 znaczy: zatrzymać się, żeby coś zrobić"
+        ],
+        [
+          "Nobody in the class is as tall as Mark.",
+          "THAN",
+          "Mark is taller than anyone else in the class.",
+          "else, bo Mark też jest w klasie"
+        ],
+        [
+          "I've never eaten sushi before.",
+          "FIRST",
+          "It's the first time I have eaten sushi.",
+          "present perfect, nie present simple"
+        ],
+        [
+          "I regret not studying harder.",
+          "WISH",
+          "I wish I had studied harder.",
+          "żal o przeszłość to past perfect"
+        ],
+        [
+          "The box was so heavy that I couldn't lift it.",
+          "TOO",
+          "The box was too heavy for me to lift.",
+          "na końcu bez it"
+        ],
+        [
+          "Although it rained, we played the match.",
+          "DESPITE",
+          "Despite the rain, we played the match.",
+          "despite bez of, potem rzeczownik albo -ing"
+        ]
+      ]
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "podmiot", "role": "subject" },
+        { "text": "find", "role": "verb" },
+        { "text": "it", "role": "object" },
+        { "text": "przymiotnik", "role": "neutral" },
+        { "text": "to", "role": "particle" },
+        { "text": "V1", "role": "verb" }
+      ],
+      "example": {
+        "en": "Many students find it difficult to speak in front of the class.",
+        "pl": "Wielu uczniom trudno jest mówić przed klasą."
+      }
+    },
+    {
+      "type": "text",
+      "md_pl": "**Pułapki, które kosztują punkt.** Strukturę zwykle rozpoznajesz od razu. Punkt ucieka na czymś obok:\n\n- **Czas a okolicznik.** W zdaniu często stoi *yesterday*, *last year*, *tomorrow* albo *always* i to on decyduje o czasie. Klasyczny błąd to present perfect przy *yesterday*. Podobnie *will* po *if* w zdaniu warunkowym albo *would have* przy *tomorrow*.\n- **Przyimek zależny.** *involved in*, *informed of*, *deal with*, *accuse of*, *succeed in*. I odwrotnie: niektóre czasowniki ==nie biorą przyimka==: *mention the trip* ✓, *mention about the trip* ✗, tak samo *enter*, *discuss*.\n- **Przedimek i liczba.** *an umbrella*, *an easier solution*, *the problem*, *any doubts*. Rzeczownik musi pasować do reszty zdania: jeśli dalej jest *it*, to liczba pojedyncza.\n- **Odwrócona logika przeczenia.** *It was a mistake not to…* daje *should have*, a *It was a mistake to…* daje *shouldn't have*. *probably won't* to *unlikely to* albo *isn't likely to*.\n- **Stopień wyższy.** *later than*, *an easier way than*, *than anyone else*. Pamiętaj o *than*, a nie *then*.\n- **Ukryte słowotwórstwo.** Słowo klucz albo wyraz z nawiasu bywa w innej części mowy, niż się spodziewasz: *doubt* jako rzeczownik (*have no doubt about*), *like* przerobione na *likely* (to tylko w gramatykalizacji, bo słowa klucza nie odmieniasz).\n- **Zmiana sensu.** Nie dodawaj informacji, której nie było (*very*, *always*), i nie gub tej, która była (przeczenie, czas)."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "I lost my keys yesterday. ✗ I have lost my keys yesterday.",
+          "pl": "Wczoraj zgubiłem klucze. Przy yesterday nie ma present perfect."
+        },
+        {
+          "en": "She mentioned the trip. ✗ She mentioned about the trip.",
+          "pl": "Wspomniała o wycieczce. Po polsku jest „o”, po angielsku nic."
+        },
+        {
+          "en": "It was a mistake to shout at him. → I shouldn't have shouted at him.",
+          "pl": "Błędem było na niego nakrzyczeć. → Nie powinienem był na niego nakrzyczeć."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "Słowa klucza ==nie odmieniasz==. Jeśli jest **BEING**, w odpowiedzi musi stać *being*, nie *been* ani *be*. Jeśli jest **STOPPED**, nie piszesz *stop*. Każda zmiana formy to 0, nawet gdy reszta jest idealna."
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "Na maturze w tym zadaniu wymagana jest **pełna poprawność gramatyczna i ortograficzna**:\n\n- ==przekroczony limit wyrazów = 0==,\n- ==jedna literówka = 0==,\n- zamiana wielkiej i małej litery przechodzi, o ile nie psuje innej zasady pisowni (np. nazwy własnej),\n- egzaminator uznaje też poprawne odpowiedzi spoza klucza, jeśli spełniają warunki zadania.\n\nWniosek: lepiej krótsza, prosta i pewna forma niż ambitna z ryzykiem błędu."
+    }
+  ]
+}
