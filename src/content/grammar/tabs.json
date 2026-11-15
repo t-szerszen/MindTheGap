@@ -6,9 +6,128 @@
     "label_pl": "Tryby warunkowe"
   },
   {
+    "id": "wish",
+    "group": "sentences",
+    "tab": ["Wish", "if only"],
+    "label_pl": "Wish / if only",
+    "topic": "conditionals"
+  },
+  {
+    "id": "relative-clauses",
+    "group": "sentences",
+    "tab": ["Zdania", "wzgl."],
+    "label_pl": "Zdania względne",
+    "topic": "relative-clauses"
+  },
+  {
+    "id": "reported-speech",
+    "group": "sentences",
+    "tab": ["Mowa", "zależna"],
+    "label_pl": "Mowa zależna",
+    "topic": "reported-speech"
+  },
+  {
+    "id": "question-forms",
+    "group": "sentences",
+    "tab": ["Pyta-", "nia"],
+    "label_pl": "Pytania i question tags",
+    "topic": "question-forms"
+  },
+  {
+    "id": "participle-clauses",
+    "group": "sentences",
+    "tab": ["Imie-", "słowy"],
+    "label_pl": "Konstrukcje imiesłowowe",
+    "topic": "participle-clauses"
+  },
+  {
+    "id": "inversion-emphasis",
+    "group": "sentences",
+    "tab": ["Inwer-", "sja"],
+    "label_pl": "Inwersja i emfaza",
+    "topic": "inversion-emphasis"
+  },
+  {
+    "id": "linking-contrast",
+    "group": "sentences",
+    "tab": ["Łącz-", "niki"],
+    "label_pl": "Łączniki",
+    "topic": "linking-contrast"
+  },
+  {
     "id": "modal-verbs",
     "group": "verbs",
     "tab": ["Czas.", "modalne"],
     "label_pl": "Czasowniki modalne"
+  },
+  {
+    "id": "passive-voice",
+    "group": "verbs",
+    "tab": ["Strona", "bierna"],
+    "label_pl": "Strona bierna",
+    "topic": "passive-voice"
+  },
+  {
+    "id": "have-something-done",
+    "group": "verbs",
+    "tab": ["have", "done"],
+    "label_pl": "have something done",
+    "topic": "passive-voice"
+  },
+  {
+    "id": "gerund-infinitive",
+    "group": "verbs",
+    "tab": ["-ing", "/ to"],
+    "label_pl": "Gerund czy bezokolicznik",
+    "topic": "gerund-infinitive"
+  },
+  {
+    "id": "stative-used-to",
+    "group": "verbs",
+    "tab": ["used", "to"],
+    "label_pl": "Czasowniki stanu i used to",
+    "topic": "stative-used-to"
+  },
+  {
+    "id": "subjunctive-formal",
+    "group": "verbs",
+    "tab": ["Tryb", "łącz."],
+    "label_pl": "Tryb łączący",
+    "topic": "subjunctive-formal"
+  },
+  {
+    "id": "articles-determiners",
+    "group": "words",
+    "tab": ["a / an", "the"],
+    "label_pl": "Przedimki i określniki",
+    "topic": "articles-determiners"
+  },
+  {
+    "id": "adjectives-adverbs",
+    "group": "words",
+    "tab": ["Przym.", "przysł."],
+    "label_pl": "Przymiotniki i przysłówki, stopniowanie",
+    "topic": "adjectives-adverbs"
+  },
+  {
+    "id": "prepositions",
+    "group": "words",
+    "tab": ["Przy-", "imki"],
+    "label_pl": "Przyimki",
+    "topic": "prepositions"
+  },
+  {
+    "id": "nouns-pronouns",
+    "group": "words",
+    "tab": ["Rzecz.", "zaimki"],
+    "label_pl": "Rzeczowniki i zaimki",
+    "topic": "nouns-pronouns"
+  },
+  {
+    "id": "useful-structures",
+    "group": "words",
+    "tab": ["Przyd.", "konstr."],
+    "label_pl": "Przydatne konstrukcje",
+    "topic": "useful-structures"
   }
 ]
