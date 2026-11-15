@@ -1,9 +1,11 @@
+import { Suspense } from 'react'
 import { Link, Outlet, useLocation } from 'react-router'
 import { pl } from '../i18n/pl'
 import { setPrefs, systemIsDark, usePrefs } from '../features/settings/prefs'
 import { Icon, type IconName } from './Icon'
 import { Hl } from './Ink'
 import { Grain } from './Paper'
+import { Loading } from './States'
 
 type Section = {
   id: string
@@ -85,7 +87,10 @@ export function Shell() {
       </header>
 
       <main className="viewport" key={pathname}>
-        <Outlet />
+        {/* treści poza czasami ładują się leniwie, pierwsza wizyta na stronie chwilę czeka */}
+        <Suspense fallback={<Loading />}>
+          <Outlet />
+        </Suspense>
       </main>
 
       <nav className="tabbar" aria-label={pl.nav.label}>

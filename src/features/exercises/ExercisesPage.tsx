@@ -4,7 +4,7 @@ import { Button, Progress, TagButton } from '../../components/Controls'
 import { Icon } from '../../components/Icon'
 import { Sticky } from '../../components/Paper'
 import { pl } from '../../i18n/pl'
-import { getExercises, getTenses, getTopics } from '../../lib/content'
+import { getTenses, useExercises, useTopics } from '../../lib/content'
 import { filterExercises, type SessionMode } from '../../lib/exercises/session'
 import { useAuth } from '../auth/useAuth'
 import { loadSession, sessionProgress } from './savedSession'
@@ -23,15 +23,16 @@ export function ExercisesPage() {
   const [count, setCount] = useState(8)
   const [saved] = useState(loadSession)
 
-  const exercises = getExercises()
+  const exercises = useExercises()
+  const topics = useTopics()
   // tylko te czasy i tematy, do których są jakieś zdania
   const tenseChips = useMemo(
     () => getTenses().filter((x) => exercises.some((e) => e.tags.includes(x.id))),
     [exercises],
   )
   const topicChips = useMemo(
-    () => getTopics().filter((x) => exercises.some((e) => e.tags.includes(x.id))),
-    [exercises],
+    () => topics.filter((x) => exercises.some((e) => e.tags.includes(x.id))),
+    [exercises, topics],
   )
   const matching = filterExercises(exercises, tags, level || undefined).length
   const progress = saved && sessionProgress(saved)

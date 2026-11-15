@@ -4,9 +4,9 @@ import { Button, Progress } from '../../components/Controls'
 import { PencilLine } from '../../components/Ink'
 import { Sticky } from '../../components/Paper'
 import { Loading, NoteState } from '../../components/States'
-import type { Exercise } from '../../content/schema'
+import type { Exercise, Topic } from '../../content/schema'
 import { pl } from '../../i18n/pl'
-import { getExercise, getExercises, getTense, getTopic } from '../../lib/content'
+import { getTense, useExercises, useTopics } from '../../lib/content'
 import { addAttempt } from '../../lib/db/attempts'
 import { checkAnswer } from '../../lib/exercises/check'
 import { buildSession, tagStats, type SessionMode } from '../../lib/exercises/session'
@@ -15,16 +15,17 @@ import { ExerciseItem } from './ExerciseItem'
 import { loadSession, saveSession, type SavedSession } from './savedSession'
 import { useAttempts } from './useAttempts'
 
-function titleFor(tags: string[]) {
+function titleFor(tags: string[], topics: Topic[]) {
   if (tags.length !== 1) return pl.exercises.mixed
   const id = tags[0]!
-  return getTense(id)?.nameEn ?? getTopic(id)?.title_pl ?? pl.exercises.mixed
+  return getTense(id)?.nameEn ?? topics.find((t) => t.id === id)?.title_pl ?? pl.exercises.mixed
 }
 
 // czeka na próby (do trybu słabych punktów), a potem raz układa serię
 export function SessionPage() {
   const [params] = useSearchParams()
   const { attempts, loading } = useAttempts()
+  const exercises = useExercises()
   const { key } = useLocation()
   const resume = params.get('resume') === '1'
   const mode: SessionMode = params.get('mode') === 'weak' ? 'weak' : 'random'
@@ -36,7 +37,7 @@ export function SessionPage() {
   else {
     const tags = params.get('tags')?.split(',').filter(Boolean) ?? []
     const level = Number(params.get('level')) as 1 | 2 | 3
-    const ids = buildSession(getExercises(), {
+    const ids = buildSession(exercises, {
       tags,
       difficulty: [1, 2, 3].includes(level) ? level : undefined,
       mode,
@@ -53,8 +54,12 @@ function Session({ initial }: { initial: SavedSession }) {
   const t = pl.exercises
   const { user } = useAuth()
   const navigate = useNavigate()
+  const exercises = useExercises()
+  const topics = useTopics()
   const [state, setState] = useState(initial)
-  const items = state.ids.map(getExercise).filter((e): e is Exercise => !!e)
+  const items = state.ids
+    .map((id) => exercises.find((e) => e.id === id))
+    .filter((e): e is Exercise => !!e)
   const tags = new URLSearchParams(state.query).get('tags')?.split(',').filter(Boolean) ?? []
 
   function update(next: SavedSession) {
@@ -106,7 +111,7 @@ function Session({ initial }: { initial: SavedSession }) {
           <p className="eyebrow">{t.sessionEyebrow(items.length)}</p>
           <div className="hdr">
             <h1 className="h-l" lang={tags.length === 1 && getTense(tags[0]!) ? 'en' : undefined}>
-              {titleFor(tags)}
+              {titleFor(tags, topics)}
             </h1>
             <span className="hand" style={{ fontSize: 24, fontWeight: 700 }}>
               {done}/{items.length}

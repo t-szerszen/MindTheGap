@@ -4,18 +4,19 @@ import { Icon } from '../../components/Icon'
 import { Scribble } from '../../components/Ink'
 import { Loading, NoteState } from '../../components/States'
 import { pl } from '../../i18n/pl'
-import { getTenses, getTopics } from '../../lib/content'
+import { getTenses, useTopics } from '../../lib/content'
 import { tagAccuracy, tagStats } from '../../lib/exercises/session'
 import { useAttempts } from './useAttempts'
 
 export function ProgressPage() {
   const t = pl.exercises
   const { attempts, loading } = useAttempts()
+  const topics = useTopics()
   if (loading) return <Loading />
   const stats = tagStats(attempts)
   const rows = [
     ...getTenses().map((x) => ({ id: x.id, name: x.nameEn, en: true })),
-    ...getTopics().map((x) => ({ id: x.id, name: x.title_pl, en: false })),
+    ...topics.map((x) => ({ id: x.id, name: x.title_pl, en: false })),
   ].filter((r) => stats[r.id])
   const good = attempts.filter((a) => a.correct).length
 

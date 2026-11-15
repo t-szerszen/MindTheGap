@@ -1,3 +1,4 @@
+import { Suspense } from 'react'
 import { Link, useParams } from 'react-router'
 import { FormulaParts } from '../../components/Formula'
 import { Doodle, Scribble } from '../../components/Ink'
@@ -6,7 +7,7 @@ import { Card, Sticky, type Tilt } from '../../components/Paper'
 import { NotFound } from '../../components/States'
 import { Timeline } from '../../components/Timeline'
 import { pl } from '../../i18n/pl'
-import { getExercises, getTense, getTenses } from '../../lib/content'
+import { getTense, getTenses, useExercises } from '../../lib/content'
 import { signalPhrases } from '../../lib/text/signals'
 import { ExampleLine } from './ExampleLine'
 import { FormsSection } from './FormsSection'
@@ -24,7 +25,6 @@ export function TensePage() {
   const t = pl.tenses
   const index = all.indexOf(tense)
   const signals = signalPhrases(tense.signalWords.map((s) => s.word))
-  const practiceCount = getExercises().filter((e) => e.tags.includes(tense.id)).length
 
   return (
     <div className="tense-wrap">
@@ -201,11 +201,19 @@ export function TensePage() {
             {t.practice}
           </Link>
           <p className="note ink" style={{ textAlign: 'center' }}>
-            {t.practiceCount(practiceCount)}
+            <Suspense fallback={null}>
+              <PracticeCount tag={tense.id} />
+            </Suspense>
           </p>
         </div>
       </article>
       <TenseTabs tenses={all} current={tense.id} />
     </div>
   )
+}
+
+// liczba zdań do ćwiczeń dociąga się osobno, żeby notatka nie czekała na cały bank
+function PracticeCount({ tag }: { tag: string }) {
+  const n = useExercises().filter((e) => e.tags.includes(tag)).length
+  return <>{pl.tenses.practiceCount(n)}</>
 }

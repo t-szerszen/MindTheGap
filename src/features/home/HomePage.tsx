@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { Suspense, useState } from 'react'
 import { Link } from 'react-router'
 import { Progress } from '../../components/Controls'
 import { Icon } from '../../components/Icon'
@@ -150,7 +150,9 @@ export function HomePage() {
                 </div>
               </section>
 
-              <RecentActivity />
+              <Suspense fallback={null}>
+                <RecentActivity />
+              </Suspense>
             </>
           ) : (
             <>
