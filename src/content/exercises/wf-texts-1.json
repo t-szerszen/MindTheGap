@@ -1,0 +1,415 @@
+[
+  {
+    "id": "wft-golden-anniversary",
+    "type": "word-formation",
+    "title": "Fifty Years Together",
+    "text": "Last Saturday my grandparents celebrated their golden wedding anniversary, so the whole family met at a small hotel by the lake. More than forty ___ came, and some of them I had never met before. In the middle of lunch, my uncle Marek, who has lived in Canada for twenty years, ___ walked into the room. Nobody had told us he was coming, not even Grandma! Later, Grandpa gave a short speech about the secret of their long and happy ___. He said it was simple: talk to each other every day and never go to bed angry. When he finished, even my teenage cousins got a bit ___ and had to wipe their eyes. I think it was the best family party we have ever had.",
+    "gaps": [
+      {
+        "base": "RELATE",
+        "correct": ["relatives", "relations"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po More than forty, a przed came stoi podmiot, czyli rzeczownik. Czterdzieści to więcej niż jeden, więc liczba mnoga."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Na rocznicę przyjechała rodzina: krewni = relatives. Relations też może znaczyć „krewni”, tylko brzmi trochę staroświecko."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "relate → relative, e zostaje, plus -s. relative bez -s to 0 pkt, bo po forty musi być liczba mnoga. relationships (związki) nie pasuje znaczeniowo."
+          }
+        ]
+      },
+      {
+        "base": "EXPECT",
+        "correct": ["unexpectedly"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Między podmiotem (my uncle Marek) a czasownikiem walked stoi przysłówek, który mówi, jak to się stało."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Następne zdanie mówi, że nikt nie wiedział o jego przyjeździe. Czyli przyszedł niespodziewanie, a nie zgodnie z oczekiwaniami."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "un- + expected + -ly → unexpectedly. expectedly bez un- to 0 pkt, bo odwraca sens. unexpected bez -ly też, bo opisuje czasownik, a nie rzeczownik."
+          }
+        ]
+      },
+      {
+        "base": "PARTNER",
+        "correct": ["partnership"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po their long and happy stoi rzeczownik: dwa przymiotniki opisują coś, co mają dziadkowie."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Chodzi o ich wspólne życie, związek dwojga ludzi. Końcówka -ship robi z osoby relację: friend → friendship, partner → partnership."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "partner + -ship → partnership, bez zmian w pisowni. partners to 0 pkt: dziadkowie to partnerzy, ale tu mowa o sekrecie ich związku."
+          }
+        ]
+      },
+      {
+        "base": "EMOTION",
+        "correct": ["emotional"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po got a bit stoi przymiotnik, tak jak got a bit tired. Get + przymiotnik = stać się jakimś."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Kuzyni ocierali łzy, więc się wzruszyli: get emotional = wzruszyć się."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "emotion + -al → emotional, jedno n i jedno l. emotionally to 0 pkt, bo po get stoi przymiotnik. emotive odnosi się do tematów i słów, nie do ludzi."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wft-shared-flat",
+    "type": "word-formation",
+    "title": "My First Flat",
+    "text": "In September I moved out of my parents' house and into a shared flat near my college. For me, it was the first real step into ___. The flat is on the top floor of an old building and, although the rent is low, it is surprisingly ___: there is a large living room and each of us has a bedroom with a big window. I share it with two other students, Ola and Kuba. At first everything went well, but after a few weeks Ola said that her only complaint was the ___ of the kitchen, which was always full of dirty plates. We sat down, made a cleaning rota and promised to stick to it. Since then the three of us have lived together ___, and nobody has left a dirty pan in the sink for a month.",
+    "gaps": [
+      {
+        "base": "ADULT",
+        "correct": ["adulthood"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po przyimku into stoi rzeczownik. Krok do czegoś, czyli do jakiegoś etapu."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Wyprowadzka z domu to wejście w dorosłość. Etapy życia robi końcówka -hood: child → childhood, adult → adulthood."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "adult + -hood → adulthood, dwa razy o na końcu. adults (dorośli) to 0 pkt, bo tu chodzi o okres życia, a nie o ludzi."
+          }
+        ]
+      },
+      {
+        "base": "SPACE",
+        "correct": ["spacious"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po it is surprisingly stoi przymiotnik, który opisuje mieszkanie (it = the flat)."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Po dwukropku są przykłady: duży salon i każdy ma swój pokój. Mieszkanie jest przestronne = spacious. Słowo although pokazuje kontrast: tanie, a jednak duże."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "space → spacious: e znika, dochodzi -ious, a c zostaje. spacous albo spaceous to 0 pkt. spacey znaczy „rozkojarzony” i nie opisuje mieszkania."
+          }
+        ]
+      },
+      {
+        "base": "TIDY",
+        "correct": ["untidiness"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Między the a of stoi rzeczownik: the ___ of the kitchen."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Kuchnia była pełna brudnych talerzy, a Ola się skarżyła. Skarży się na bałagan, czyli na nieporządek, a nie na porządek."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "un- + tidy + -ness, a y zmienia się w i: untidiness. tidiness to 0 pkt, bo nikt nie narzeka na porządek. untidyness z y też."
+          }
+        ]
+      },
+      {
+        "base": "PEACE",
+        "correct": ["peacefully", "peaceably"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po have lived together stoi przysłówek, który mówi, jak im się mieszka."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Po ustaleniu grafiku sprzątania nie ma już kłótni: żyją w zgodzie, spokojnie = peacefully."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "peace + -ful + -ly → peacefully, więc dwa l. peacefuly z jednym l to 0 pkt. peaceful bez -ly też, bo opisuje czasownik lived."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wft-night-market",
+    "type": "word-formation",
+    "title": "The Friday Night Market",
+    "text": "Every Friday from May to September, the car park behind our town hall turns into a night market. It is the best place in town to eat out on a budget. There is an amazing ___ of dishes from all over the world, from Korean pancakes to Mexican tacos. Last week I tried some Georgian dumplings, and they were so ___ that I went back for a second portion. The ___, two brothers who also run a small café nearby, started the market three years ago with only six stalls. Now there are more than thirty. Even though all the food is cooked fresh in front of you, everything is ___ priced, and most dishes cost less than twenty złoty. Just remember to come early, because by nine o'clock the queues are enormous.",
+    "box": ["HUNGER", "ORGANISE", "PACK", "REASON", "TASTE", "VARY"],
+    "gaps": [
+      {
+        "base": "VARY",
+        "correct": ["variety"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po an amazing, a przed of stoi rzeczownik. Przedimek an mówi, że w liczbie pojedynczej."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Dania z całego świata, od naleśników po tacos, to duży wybór: a variety of = wiele różnych. Z ramki pasuje tylko VARY. HUNGER i PACK nie mówią nic o daniach."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "vary → variety: y zmienia się w i, dochodzi -ety. various to przymiotnik, a tu trzeba rzeczownika. varieties po an to 0 pkt."
+          }
+        ]
+      },
+      {
+        "base": "TASTE",
+        "correct": ["tasty"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po they were so stoi przymiotnik, który opisuje pierogi. so + przymiotnik + that pokazuje skutek."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Wrócił po drugą porcję, więc były smaczne. HUNGER daje hungry, ale głodny może być człowiek, nie pierogi."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "taste → tasty: e znika, dochodzi -y. tasteful znaczy „gustowny” (np. wystrój), a tasteless to „bez smaku”, czyli sens odwrotny. Oba to 0 pkt."
+          }
+        ]
+      },
+      {
+        "base": "ORGANISE",
+        "correct": ["organisers"],
+        "accepted": ["organizers"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po The stoi podmiot zdania, a po przecinku wyjaśnienie: two brothers. Czyli ludzie i liczba mnoga."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Bracia założyli ten targ, więc to organizatorzy. Ludzi robi końcówka -er: organise → organiser."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "organise + -er, e się zlewa: organiser, plus -s, bo braci jest dwóch. organiser bez -s i organisation (to instytucja, nie ludzie) to 0 pkt. Pisownia z z jest amerykańska."
+          }
+        ]
+      },
+      {
+        "base": "REASON",
+        "correct": ["reasonably"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Przed priced (imiesłów, „wyceniony”) stoi przysłówek, tak jak well paid albo badly written."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Większość dań kosztuje mniej niż 20 zł, więc ceny są rozsądne: reasonably priced. Even though pokazuje kontrast: świeże jedzenie, a jednak niedrogo."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "reason + -able + -ly → reasonably: e z -able znika przed -y. reasonable to 0 pkt, bo przed imiesłowem stoi przysłówek. reasonabley albo reasonablely też."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wft-online-bike",
+    "type": "word-formation",
+    "title": "The Bike That Arrived Late",
+    "text": "Last spring I ordered a second-hand bike from an online shop because it was much cheaper than in town. Unfortunately, the ___ was a week late, so it arrived after the cycling trip I had bought it for. When I finally took it out of the box, I found out that the front brake was completely ___: it did not stop the wheel at all. I wrote to the shop the same evening. To my ___, nobody answered for over a week, and I had to send three more emails. In the end, however, the owner called me and dealt with my complaint very ___. He apologised for the delay, sent a mechanic to fix the brake at my house and gave me a free lock. Now I would actually recommend the shop to my friends.",
+    "box": ["ANNOY", "CHOOSE", "DELIVER", "PRICE", "PROFESSION", "USE"],
+    "gaps": [
+      {
+        "base": "DELIVER",
+        "correct": ["delivery"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po the, a przed was stoi podmiot, czyli rzeczownik. Czasownik was mówi, że w liczbie pojedynczej."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Rower przyszedł za późno, więc spóźniła się dostawa = delivery. CHOOSE (choice) i PRICE nie mogą się spóźnić."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "deliver + -y → delivery. deliveries to 0 pkt, bo czasownik to was. deliverance znaczy „wybawienie” i tu nie pasuje."
+          }
+        ]
+      },
+      {
+        "base": "USE",
+        "correct": ["useless", "unusable"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po was completely stoi przymiotnik, który opisuje hamulec."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Po dwukropku jest wyjaśnienie: w ogóle nie zatrzymywał koła. Był więc do niczego, bezużyteczny. PRICE dałoby priceless („bezcenny”), a to sens odwrotny."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "use + -less → useless, e zostaje, a -less ma na końcu dwa s. useful to 0 pkt, bo odwraca sens. unusable (nie da się go używać) też jest dobrze."
+          }
+        ]
+      },
+      {
+        "base": "ANNOY",
+        "correct": ["annoyance"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po To my stoi rzeczownik. To my + rzeczownik o uczuciu to stały zwrot: to my surprise, to my relief."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Sklep nie odpisywał przez tydzień i trzeba było pisać jeszcze trzy razy. To złości: to my annoyance = ku mojej irytacji."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "annoy + -ance → annoyance, y zostaje. annoyence przez e to 0 pkt. annoying i annoyed to przymiotniki i po my nie pasują."
+          }
+        ]
+      },
+      {
+        "base": "PROFESSION",
+        "correct": ["professionally"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po dealt with my complaint very stoi przysłówek, bo mówi, jak właściciel załatwił reklamację."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Przeprosił, przysłał mechanika do domu i dorzucił zapięcie. Zrobił to fachowo = professionally."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "profession + -al + -ly → professionally: jedno f, dwa s, dwa l. professional bez -ly to 0 pkt, bo opisuje czasownik dealt. profesionally z jednym s też."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  },
+  {
+    "id": "wft-youth-council",
+    "type": "word-formation",
+    "title": "My Campaign for the Youth Council",
+    "text": "Last spring our town held elections to its first youth council, and I decided to stand as a candidate. It was not easy. Only a third of young ___ in our town took part in the previous local elections, so we knew we had to get teenagers interested. Our team came up with some very ___ ideas, such as sixty-second videos explaining our plans and a quiz about the history of the town. On election day the result was completely ___ until the very last vote was counted. In the end I lost by just four votes. ___, I think the campaign was worth it, because I learnt how to speak in public and how to listen to people who disagree with me.",
+    "gaps": [
+      {
+        "base": "VOTE",
+        "correct": ["voters"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po young stoi rzeczownik, a cała grupa a third of young ___ to podmiot czasownika took part."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "W wyborach udział biorą ludzie, czyli wyborcy. Ludzi robi końcówka -er: vote → voter."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "vote + -er, e się zlewa: voter, plus -s, bo a third of to część jakiejś grupy. voter bez -s to 0 pkt. votes to głosy, a nie ludzie."
+          }
+        ]
+      },
+      {
+        "base": "CREATE",
+        "correct": ["creative"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po very, a przed ideas stoi przymiotnik, który opisuje pomysły."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Minutowe filmiki i quiz o historii miasta to pomysły pomysłowe, nietypowe: creative ideas."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "create → creative: e znika przed -ive. creatively to 0 pkt, bo przed rzeczownikiem stoi przymiotnik. creation albo creator to rzeczowniki."
+          }
+        ]
+      },
+      {
+        "base": "PREDICT",
+        "correct": ["unpredictable"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po was completely stoi przymiotnik, który opisuje wynik (the result)."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Do ostatniego głosu nie było wiadomo, kto wygra, a różnica wyniosła cztery głosy. Wynik był nie do przewidzenia, więc potrzebne jest przeczenie."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "un- + predict + -able → unpredictable. predictable bez un- to 0 pkt, bo odwraca sens. unpredictible przez i też, bo predict to cały wyraz, a po całym wyrazie zwykle stoi -able."
+          }
+        ]
+      },
+      {
+        "base": "PERSON",
+        "correct": ["personally"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Na początku zdania, przed przecinkiem, stoi przysłówek, który komentuje całe zdanie, tak jak Honestly, albo Luckily,."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Autor mówi o swojej opinii, choć przegrał: personally = jeśli chodzi o mnie, osobiście."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "person + -al + -ly → personally, dwa l. personaly z jednym l to 0 pkt. personality (osobowość) i personal bez -ly też."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  }
+]
