@@ -1,0 +1,667 @@
+{
+  "id": "false-friends",
+  "category": "false-friends",
+  "title_pl": "Fałszywi przyjaciele",
+  "items": [
+    {
+      "en": "actual",
+      "pl": "faktyczny, rzeczywisty",
+      "meaning_pl": "Nie znaczy „aktualny”, tylko faktyczny, prawdziwy (w odróżnieniu od tego, co się wydawało albo planowało). Po polsku „aktualny” to current albo up-to-date",
+      "example": {
+        "en": "The actual cost of the trip was much higher than we expected.",
+        "pl": "Faktyczny koszt wycieczki był dużo wyższy, niż się spodziewaliśmy."
+      },
+      "register": "neutral",
+      "tags": ["przymiotnik", "podróże"]
+    },
+    {
+      "en": "actually",
+      "pl": "właściwie, tak naprawdę, w rzeczywistości",
+      "meaning_pl": "Nie znaczy „aktualnie”, tylko tak naprawdę; często prostuje to, co ktoś myśli. Po polsku „aktualnie” to currently albo at the moment",
+      "example": {
+        "en": "I thought the test would be hard, but actually it was quite easy.",
+        "pl": "Myślałem, że test będzie trudny, ale tak naprawdę był całkiem łatwy."
+      },
+      "register": "neutral",
+      "tags": ["przysłówek", "edukacja"]
+    },
+    {
+      "en": "eventually",
+      "pl": "w końcu, ostatecznie",
+      "meaning_pl": "Nie znaczy „ewentualnie”, tylko w końcu, po długim czasie albo wielu próbach. Po polsku „ewentualnie” to possibly albo alternatively (or)",
+      "example": {
+        "en": "After three hours of searching, we eventually found the hotel.",
+        "pl": "Po trzech godzinach szukania w końcu znaleźliśmy hotel."
+      },
+      "register": "neutral",
+      "tags": ["przysłówek", "podróże"]
+    },
+    {
+      "en": "sympathetic",
+      "pl": "współczujący, wyrozumiały",
+      "meaning_pl": "Nie znaczy „sympatyczny”, tylko taki, który współczuje albo okazuje zrozumienie (od sympathy = współczucie). Po polsku „sympatyczny” to nice albo friendly",
+      "example": {
+        "en": "My teacher was very sympathetic when I told her about my grandfather's illness.",
+        "pl": "Moja nauczycielka bardzo mi współczuła, kiedy powiedziałem jej o chorobie dziadka."
+      },
+      "register": "neutral",
+      "tags": ["przymiotnik", "człowiek"]
+    },
+    {
+      "en": "extra",
+      "pl": "dodatkowy",
+      "meaning_pl": "Nie znaczy „ekstra” w sensie świetny, tylko dodatkowy, ponad to, co zwykle. Po polsku „ekstra!” to great albo brilliant",
+      "example": {
+        "en": "The hotel charges extra for breakfast.",
+        "pl": "Hotel pobiera dodatkową opłatę za śniadanie."
+      },
+      "register": "neutral",
+      "tags": ["przymiotnik", "zakupy"]
+    },
+    {
+      "en": "ordinary",
+      "pl": "zwykły, przeciętny",
+      "meaning_pl": "Nie znaczy „ordynarny”, tylko zwykły, niczym się niewyróżniający. Po polsku „ordynarny” to vulgar albo rude",
+      "example": {
+        "en": "It was just an ordinary day at school until the fire alarm went off.",
+        "pl": "To był zwykły dzień w szkole, dopóki nie włączył się alarm przeciwpożarowy."
+      },
+      "register": "neutral",
+      "tags": ["przymiotnik", "edukacja"]
+    },
+    {
+      "en": "pathetic",
+      "pl": "żałosny",
+      "meaning_pl": "Nie znaczy „patetyczny”, tylko żałosny: budzący litość albo (potocznie) beznadziejnie słaby. Po polsku „patetyczny” to pompous albo solemn",
+      "example": {
+        "en": "His excuse for missing the deadline was pathetic.",
+        "pl": "Jego wymówka za niedotrzymanie terminu była żałosna."
+      },
+      "register": "neutral",
+      "tags": ["przymiotnik", "człowiek"]
+    },
+    {
+      "en": "fabric",
+      "pl": "tkanina, materiał",
+      "meaning_pl": "Nie znaczy „fabryka”, tylko tkanina, z której szyje się ubrania. Po polsku „fabryka” to factory",
+      "example": {
+        "en": "This jacket is made of a light, waterproof fabric.",
+        "pl": "Ta kurtka jest uszyta z lekkiego, wodoodpornego materiału."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "zakupy"]
+    },
+    {
+      "en": "lecture",
+      "pl": "wykład",
+      "meaning_pl": "Nie znaczy „lektura”, tylko wykład (np. na uczelni). Po polsku „lektura” to reading, a lektura szkolna to set book",
+      "example": {
+        "en": "The professor gave a fascinating lecture on climate change.",
+        "pl": "Profesor wygłosił fascynujący wykład o zmianach klimatu."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "edukacja"]
+    },
+    {
+      "en": "receipt",
+      "pl": "paragon, pokwitowanie",
+      "meaning_pl": "Nie znaczy „recepta”, tylko paragon albo potwierdzenie zapłaty. W słowie nie wymawia się p: /rɪˈsiːt/. Po polsku „recepta” to prescription",
+      "example": {
+        "en": "Keep the receipt in case you want to return the shoes.",
+        "pl": "Zachowaj paragon na wypadek, gdybyś chciał zwrócić buty."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "zakupy"]
+    },
+    {
+      "en": "recipe",
+      "pl": "przepis (kulinarny)",
+      "meaning_pl": "Nie znaczy „recepta”, tylko przepis na potrawę. Po polsku „recepta” od lekarza to prescription",
+      "example": {
+        "en": "My grandmother's recipe for apple pie is the best I know.",
+        "pl": "Przepis mojej babci na szarlotkę jest najlepszy, jaki znam."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "żywienie"]
+    },
+    {
+      "en": "chef",
+      "pl": "szef kuchni, kucharz",
+      "meaning_pl": "Nie znaczy „szef” w ogóle, tylko kucharz w restauracji, zwłaszcza ten główny. Po polsku „szef” w pracy to boss albo manager",
+      "example": {
+        "en": "The chef prepared a special menu for the wedding.",
+        "pl": "Szef kuchni przygotował specjalne menu na wesele."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "praca", "żywienie"]
+    },
+    {
+      "en": "gymnasium",
+      "pl": "sala gimnastyczna",
+      "meaning_pl": "Nie znaczy „gimnazjum”, tylko sala gimnastyczna; na co dzień mówi się krótko gym. Po polsku dawne „gimnazjum” to lower secondary school",
+      "example": {
+        "en": "The school gymnasium is used for basketball matches.",
+        "pl": "Szkolna sala gimnastyczna służy do meczów koszykówki."
+      },
+      "register": "formal",
+      "tags": ["rzeczownik", "sport"]
+    },
+    {
+      "en": "novel",
+      "pl": "powieść",
+      "meaning_pl": "Nie znaczy „nowela”, tylko powieść, czyli długi utwór prozą. Po polsku „nowela” to short story",
+      "example": {
+        "en": "She has just finished writing her first novel.",
+        "pl": "Właśnie skończyła pisać swoją pierwszą powieść."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "kultura"]
+    },
+    {
+      "en": "mark",
+      "pl": "ocena (w szkole)",
+      "meaning_pl": "Nie znaczy „marka”, tylko ocena (w brytyjskim angielskim) albo ślad, znak. Po polsku „marka” to brand",
+      "example": {
+        "en": "I got a good mark in my history test.",
+        "pl": "Dostałem dobrą ocenę ze sprawdzianu z historii."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "edukacja"]
+    },
+    {
+      "en": "preservative",
+      "pl": "konserwant",
+      "meaning_pl": "Nie znaczy „prezerwatywa”, tylko substancja, która przedłuża trwałość jedzenia. Po polsku „prezerwatywa” to condom",
+      "example": {
+        "en": "This bread contains no artificial preservatives.",
+        "pl": "Ten chleb nie zawiera sztucznych konserwantów."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "żywienie"]
+    },
+    {
+      "en": "apartment",
+      "pl": "mieszkanie",
+      "meaning_pl": "Nie znaczy „apartament” w sensie luksusowego lokalu, tylko zwykłe mieszkanie (w brytyjskim angielskim częściej a flat). Po polsku „apartament” to luxury flat albo suite w hotelu",
+      "example": {
+        "en": "They rented a small apartment near the beach for the summer.",
+        "pl": "Na lato wynajęli małe mieszkanie niedaleko plaży."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "dom"]
+    },
+    {
+      "en": "consequently",
+      "pl": "w rezultacie, w związku z tym",
+      "meaning_pl": "Nie znaczy „konsekwentnie”, tylko w konsekwencji, czyli wskazuje skutek. Po polsku „konsekwentnie” to consistently",
+      "example": {
+        "en": "He didn't revise at all. Consequently, he failed the exam.",
+        "pl": "W ogóle nie powtarzał materiału. W rezultacie nie zdał egzaminu."
+      },
+      "register": "formal",
+      "tags": ["przysłówek", "edukacja", "łącznik"]
+    },
+    {
+      "en": "evidence",
+      "pl": "dowody",
+      "meaning_pl": "Nie znaczy „ewidencja”, tylko dowody, dane potwierdzające coś. Rzeczownik niepoliczalny: some evidence, a piece of evidence (nie evidences). Po polsku „ewidencja” to records albo register",
+      "example": {
+        "en": "There is growing evidence that social media affects our sleep.",
+        "pl": "Jest coraz więcej dowodów na to, że media społecznościowe wpływają na nasz sen."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "nauka"]
+    },
+    {
+      "en": "dress",
+      "pl": "sukienka; ubierać się",
+      "meaning_pl": "Nie znaczy „dres”, tylko sukienka (albo czasownik ubierać się). Po polsku „dres” to tracksuit",
+      "example": {
+        "en": "She bought a new dress for the school ball.",
+        "pl": "Kupiła nową sukienkę na studniówkę."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "zakupy"]
+    },
+    {
+      "en": "lunatic",
+      "pl": "szaleniec, wariat",
+      "meaning_pl": "Nie znaczy „lunatyk”, tylko ktoś, kto zachowuje się jak szalony. Po polsku „lunatyk” to sleepwalker",
+      "example": {
+        "en": "He drives like a lunatic.",
+        "pl": "Jeździ jak wariat."
+      },
+      "register": "informal",
+      "tags": ["rzeczownik", "człowiek"]
+    },
+    {
+      "en": "hazard",
+      "pl": "zagrożenie, niebezpieczeństwo",
+      "meaning_pl": "Nie znaczy „hazard”, tylko zagrożenie (np. a health hazard). Po polsku „hazard” to gambling",
+      "example": {
+        "en": "Old electrical wires can be a fire hazard.",
+        "pl": "Stare przewody elektryczne mogą stwarzać zagrożenie pożarowe."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "zdrowie"]
+    },
+    {
+      "en": "affair",
+      "pl": "sprawa; romans",
+      "meaning_pl": "Zwykle znaczy sprawa (current affairs = bieżące wydarzenia) albo romans. Tylko w nazwach typu the Watergate affair jest blisko polskiej „afery”; samo słowo „afera” to zwykle scandal.",
+      "example": {
+        "en": "I try to keep up with current affairs by reading the news every day.",
+        "pl": "Staram się śledzić bieżące wydarzenia, codziennie czytając wiadomości."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "społeczeństwo"]
+    },
+    {
+      "en": "angina",
+      "pl": "dławica piersiowa",
+      "meaning_pl": "Nie znaczy „angina”, tylko choroba serca, której objawem jest ból w klatce piersiowej. Po polsku „angina” to tonsillitis albo strep throat",
+      "example": {
+        "en": "My grandfather suffers from angina and has to avoid stress.",
+        "pl": "Mój dziadek choruje na dławicę piersiową i musi unikać stresu."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "zdrowie"]
+    },
+    {
+      "en": "audition",
+      "pl": "przesłuchanie (dla aktorów, muzyków)",
+      "meaning_pl": "Nie znaczy „audycja”, tylko przesłuchanie, na którym kandydat pokazuje, co potrafi. Po polsku „audycja” to programme albo broadcast",
+      "example": {
+        "en": "She is preparing for an audition for the school musical.",
+        "pl": "Przygotowuje się do przesłuchania do szkolnego musicalu."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "kultura"]
+    },
+    {
+      "en": "billion",
+      "pl": "miliard",
+      "meaning_pl": "Nie znaczy „bilion”, tylko miliard (tysiąc milionów). Po polsku „bilion” to trillion",
+      "example": {
+        "en": "The company is worth over a billion dollars.",
+        "pl": "Firma jest warta ponad miliard dolarów."
+      },
+      "register": "neutral",
+      "tags": ["liczebnik", "praca"]
+    },
+    {
+      "en": "caravan",
+      "pl": "przyczepa kempingowa",
+      "meaning_pl": "Nie znaczy „karawan”, tylko przyczepa kempingowa (także karawana, np. wielbłądów). Po polsku „karawan” to hearse",
+      "example": {
+        "en": "We spent two weeks travelling around Scotland in a caravan.",
+        "pl": "Spędziliśmy dwa tygodnie, podróżując po Szkocji z przyczepą kempingową."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "podróże"]
+    },
+    {
+      "en": "colleague",
+      "pl": "kolega z pracy, współpracownik",
+      "meaning_pl": "Nie znaczy „kolega” w ogóle, tylko osoba, z którą pracujesz. Kolega ze szkoły albo z podwórka to friend, classmate albo mate (potocznie)",
+      "example": {
+        "en": "I'm going for lunch with some colleagues from the office.",
+        "pl": "Idę na lunch z kilkoma kolegami z biura."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "praca"]
+    },
+    {
+      "en": "data",
+      "pl": "dane",
+      "meaning_pl": "Nie znaczy „data”, tylko dane (informacje, liczby). Po polsku „data” to date",
+      "example": {
+        "en": "The scientists collected data from over a thousand students.",
+        "pl": "Naukowcy zebrali dane od ponad tysiąca uczniów."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "nauka"]
+    },
+    {
+      "en": "fatal",
+      "pl": "śmiertelny; fatalny w skutkach",
+      "meaning_pl": "Nie znaczy „fatalny” w sensie okropny, tylko śmiertelny (a fatal accident) albo taki, który prowadzi do katastrofy (a fatal mistake). Po polsku „fatalny” w sensie bardzo zły to terrible albo awful",
+      "example": {
+        "en": "The accident on the motorway was fatal.",
+        "pl": "Wypadek na autostradzie był śmiertelny."
+      },
+      "register": "neutral",
+      "tags": ["przymiotnik", "zdrowie"]
+    },
+    {
+      "en": "genial",
+      "pl": "serdeczny, przyjazny",
+      "meaning_pl": "Nie znaczy „genialny”, tylko serdeczny i pogodny. Po polsku „genialny” to brilliant",
+      "example": {
+        "en": "Our host was a genial old man who loved telling stories.",
+        "pl": "Naszym gospodarzem był serdeczny starszy pan, który uwielbiał opowiadać historie."
+      },
+      "register": "neutral",
+      "tags": ["przymiotnik", "człowiek"]
+    },
+    {
+      "en": "hymn",
+      "pl": "pieśń religijna",
+      "meaning_pl": "Nie znaczy „hymn państwowy”, tylko pieśń kościelna. Po polsku „hymn” narodowy to national anthem",
+      "example": {
+        "en": "The choir sang a hymn at the end of the service.",
+        "pl": "Na koniec nabożeństwa chór zaśpiewał pieśń."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "kultura"]
+    },
+    {
+      "en": "mandate",
+      "pl": "mandat (polityczny), upoważnienie",
+      "meaning_pl": "Nie znaczy „mandat” za wykroczenie, tylko upoważnienie do działania, np. dla rządu od wyborców. Po polsku „mandat” od policji to a fine albo a speeding ticket",
+      "example": {
+        "en": "The new government has a clear mandate to reform the health service.",
+        "pl": "Nowy rząd ma wyraźny mandat do zreformowania służby zdrowia."
+      },
+      "register": "formal",
+      "tags": ["rzeczownik", "społeczeństwo"]
+    },
+    {
+      "en": "manifestation",
+      "pl": "przejaw, oznaka",
+      "meaning_pl": "Nie znaczy „manifestacja”, tylko przejaw czegoś (a manifestation of stress). Po polsku „manifestacja” to demonstration albo protest",
+      "example": {
+        "en": "Headaches can be a manifestation of stress.",
+        "pl": "Bóle głowy mogą być przejawem stresu."
+      },
+      "register": "formal",
+      "tags": ["rzeczownik", "zdrowie"]
+    },
+    {
+      "en": "obscure",
+      "pl": "mało znany; niejasny",
+      "meaning_pl": "Nie znaczy „obskurny”, tylko mało znany albo trudny do zrozumienia. Po polsku „obskurny” to shabby albo grotty (potocznie)",
+      "example": {
+        "en": "The film is based on an obscure novel from the 1920s.",
+        "pl": "Film powstał na podstawie mało znanej powieści z lat dwudziestych."
+      },
+      "register": "neutral",
+      "tags": ["przymiotnik", "kultura"]
+    },
+    {
+      "en": "occasion",
+      "pl": "okazja (wydarzenie)",
+      "meaning_pl": "Znaczy okazja tylko w sensie wydarzenia albo chwili (a special occasion). Okazja do zrobienia czegoś to opportunity, a okazja w sklepie to bargain",
+      "example": {
+        "en": "A wedding is a special occasion, so I'll wear a suit.",
+        "pl": "Wesele to wyjątkowa okazja, więc założę garnitur."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "życie prywatne"]
+    },
+    {
+      "en": "pension",
+      "pl": "emerytura",
+      "meaning_pl": "Nie znaczy „pensja”, tylko emerytura. Po polsku „pensja” to salary",
+      "example": {
+        "en": "My grandparents live on a small pension.",
+        "pl": "Moi dziadkowie żyją z niewielkiej emerytury."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "praca"]
+    },
+    {
+      "en": "prospect",
+      "pl": "perspektywa, widoki na przyszłość",
+      "meaning_pl": "Nie znaczy „prospekt”, tylko perspektywa (job prospects = perspektywy zawodowe). Po polsku „prospekt” reklamowy to brochure albo leaflet",
+      "example": {
+        "en": "Learning languages can improve your job prospects.",
+        "pl": "Nauka języków może poprawić twoje perspektywy zawodowe."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "praca"]
+    },
+    {
+      "en": "provision",
+      "pl": "zapewnienie, dostarczanie",
+      "meaning_pl": "Nie znaczy „prowizja”, tylko zapewnianie czegoś (the provision of healthcare). Po polsku „prowizja” to commission",
+      "example": {
+        "en": "The town council is responsible for the provision of public transport.",
+        "pl": "Rada miasta odpowiada za zapewnienie komunikacji miejskiej."
+      },
+      "register": "formal",
+      "tags": ["rzeczownik", "społeczeństwo"]
+    },
+    {
+      "en": "rent",
+      "pl": "czynsz; wynajmować",
+      "meaning_pl": "Nie znaczy „renta”, tylko czynsz albo czasownik wynajmować. Po polsku „renta” to (disability) pension albo benefit",
+      "example": {
+        "en": "Students often share a flat to pay less rent.",
+        "pl": "Studenci często dzielą mieszkanie, żeby płacić mniejszy czynsz."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "dom"]
+    },
+    {
+      "en": "smoking",
+      "pl": "palenie (papierosów)",
+      "meaning_pl": "Nie znaczy „smoking”, tylko palenie. Po polsku „smoking” to dinner jacket (w amerykańskim angielskim tuxedo)",
+      "example": {
+        "en": "Smoking is not allowed anywhere in the building.",
+        "pl": "W całym budynku obowiązuje zakaz palenia."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "zdrowie"]
+    },
+    {
+      "en": "stadium",
+      "pl": "stadion",
+      "meaning_pl": "Nie znaczy „stadium”, tylko stadion. Po polsku „stadium” to stage albo phase",
+      "example": {
+        "en": "The new stadium can hold 50,000 fans.",
+        "pl": "Nowy stadion może pomieścić 50 000 kibiców."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "sport"]
+    },
+    {
+      "en": "transparent",
+      "pl": "przezroczysty; jawny",
+      "meaning_pl": "Nie znaczy „transparent”, tylko przezroczysty albo jawny, uczciwy (a transparent process). Po polsku „transparent” na demonstracji to banner",
+      "example": {
+        "en": "Put the sandwiches in a transparent plastic box.",
+        "pl": "Włóż kanapki do przezroczystego plastikowego pudełka."
+      },
+      "register": "neutral",
+      "tags": ["przymiotnik", "nauka"]
+    },
+    {
+      "en": "pasta",
+      "pl": "makaron",
+      "meaning_pl": "Nie znaczy „pasta”, tylko makaron (i dania z niego). Po polsku „pasta do zębów” to toothpaste, a pasta do kanapek to spread albo paste",
+      "example": {
+        "en": "We had pasta with tomato sauce for dinner.",
+        "pl": "Na obiad zjedliśmy makaron z sosem pomidorowym."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "żywienie"]
+    },
+    {
+      "en": "paragraph",
+      "pl": "akapit",
+      "meaning_pl": "Przede wszystkim akapit w tekście. Paragraf w kodeksie (znak §) to zwykle section, choć w umowach bywa też paragraph.",
+      "example": {
+        "en": "Each paragraph of your essay should focus on one main idea.",
+        "pl": "Każdy akapit twojej rozprawki powinien dotyczyć jednej głównej myśli."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "edukacja"]
+    },
+    {
+      "en": "physician",
+      "pl": "lekarz",
+      "meaning_pl": "Nie znaczy „fizyk”, tylko lekarz (słowo dość formalne, częściej AmE). Po polsku „fizyk” to physicist",
+      "example": {
+        "en": "You should consult your physician before taking these pills.",
+        "pl": "Przed zażyciem tych tabletek należy skonsultować się z lekarzem."
+      },
+      "register": "formal",
+      "tags": ["rzeczownik", "zdrowie"]
+    },
+    {
+      "en": "chips",
+      "pl": "frytki",
+      "meaning_pl": "W brytyjskim angielskim to frytki (fish and chips). Po polsku „chipsy” to crisps (w amerykańskim angielskim właśnie chips, stąd zamieszanie)",
+      "example": {
+        "en": "We had fish and chips on the beach in Brighton.",
+        "pl": "Zjedliśmy rybę z frytkami na plaży w Brighton."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "żywienie"]
+    },
+    {
+      "en": "biscuit",
+      "pl": "herbatnik, ciastko",
+      "meaning_pl": "Nie znaczy „biszkopt”, tylko herbatnik albo kruche ciastko. Po polsku „biszkopt” to sponge cake",
+      "example": {
+        "en": "Would you like a biscuit with your tea?",
+        "pl": "Masz ochotę na ciastko do herbaty?"
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "żywienie"]
+    },
+    {
+      "en": "history",
+      "pl": "historia (dzieje, przedmiot)",
+      "meaning_pl": "Znaczy historia tylko jako przeszłość albo przedmiot szkolny. Historia w sensie opowieści, którą się opowiada, to story",
+      "example": {
+        "en": "History was my favourite subject at school.",
+        "pl": "Historia była moim ulubionym przedmiotem w szkole."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "edukacja"]
+    },
+    {
+      "en": "magazine",
+      "pl": "czasopismo, magazyn (pismo)",
+      "meaning_pl": "Znaczy magazyn tylko jako czasopismo. Magazyn, w którym przechowuje się towar, to warehouse albo storeroom",
+      "example": {
+        "en": "She reads a fashion magazine every month.",
+        "pl": "Co miesiąc czyta magazyn o modzie."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "kultura"]
+    },
+    {
+      "en": "parapet",
+      "pl": "murek, balustrada (na dachu, moście)",
+      "meaning_pl": "Nie znaczy „parapet” okienny, tylko niski murek na brzegu dachu, mostu albo balkonu. Po polsku „parapet” to windowsill",
+      "example": {
+        "en": "We leaned on the parapet of the bridge and watched the river.",
+        "pl": "Oparliśmy się o murek na moście i patrzyliśmy na rzekę."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "dom"]
+    },
+    {
+      "en": "confident",
+      "pl": "pewny siebie",
+      "meaning_pl": "Nie znaczy „konfident”, tylko pewny siebie albo pewny czegoś (confident that…). Po polsku „konfident” to informer",
+      "example": {
+        "en": "After months of practice, she felt confident about the speaking exam.",
+        "pl": "Po miesiącach ćwiczeń czuła się pewnie przed egzaminem ustnym."
+      },
+      "register": "neutral",
+      "tags": ["przymiotnik", "człowiek"]
+    },
+    {
+      "en": "rest",
+      "pl": "reszta (pozostała część); odpoczynek",
+      "meaning_pl": "Znaczy reszta tylko jako pozostała część czegoś (the rest of the day). Reszta pieniędzy przy płaceniu to change: Keep the change",
+      "example": {
+        "en": "I spent the rest of the weekend revising.",
+        "pl": "Resztę weekendu spędziłem na powtórkach."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "zakupy"]
+    },
+    {
+      "en": "cabinet",
+      "pl": "szafka; gabinet (rząd)",
+      "meaning_pl": "Znaczy szafka (a kitchen cabinet) albo gabinet w sensie najważniejszych ministrów. Gabinet lekarski to (doctor's) surgery, a gabinet w domu to study",
+      "example": {
+        "en": "The plates are in the cabinet above the sink.",
+        "pl": "Talerze są w szafce nad zlewem."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "dom"]
+    },
+    {
+      "en": "baton",
+      "pl": "pałka; batuta; pałeczka (w sztafecie)",
+      "meaning_pl": "Nie znaczy „baton”, tylko pałka policyjna, batuta dyrygenta albo pałeczka w sztafecie. Po polsku „baton” to chocolate bar",
+      "example": {
+        "en": "He dropped the baton during the relay race.",
+        "pl": "Upuścił pałeczkę podczas biegu sztafetowego."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "sport"]
+    },
+    {
+      "en": "process",
+      "pl": "proces (przebieg)",
+      "meaning_pl": "Znaczy proces jako przebieg, kolejne etapy czegoś. Proces w sądzie to trial",
+      "example": {
+        "en": "Learning a language is a long process.",
+        "pl": "Nauka języka to długi proces."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "nauka"]
+    },
+    {
+      "en": "spectacle",
+      "pl": "widowisko",
+      "meaning_pl": "Znaczy widowisko, coś efektownego do oglądania. Spektakl w teatrze to play albo performance",
+      "example": {
+        "en": "The fireworks display was an amazing spectacle.",
+        "pl": "Pokaz fajerwerków był niesamowitym widowiskiem."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "kultura"]
+    },
+    {
+      "en": "agenda",
+      "pl": "porządek obrad, plan spotkania",
+      "meaning_pl": "Nie znaczy „agenda” w sensie oddziału, tylko lista spraw do omówienia (także ukryte cele: a hidden agenda). Po polsku „agenda” instytucji to branch albo agency",
+      "example": {
+        "en": "The first item on the agenda is the school trip.",
+        "pl": "Pierwszy punkt porządku obrad to wycieczka szkolna."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "praca"]
+    },
+    {
+      "en": "parking",
+      "pl": "parkowanie",
+      "meaning_pl": "Znaczy parkowanie albo miejsca do parkowania (niepoliczalne: There's plenty of parking). Nie mówi się a parking: sam plac to car park (w amerykańskim angielskim parking lot).",
+      "example": {
+        "en": "There is no parking in front of the school.",
+        "pl": "Przed szkołą obowiązuje zakaz parkowania."
+      },
+      "register": "neutral",
+      "tags": ["rzeczownik", "podróże"]
+    },
+    {
+      "en": "realise",
+      "pl": "zdać sobie sprawę, uświadomić sobie",
+      "meaning_pl": "Nie znaczy „realizować”, tylko uświadomić sobie coś (realise that…). Po polsku „realizować” plan albo projekt to carry out albo implement",
+      "example": {
+        "en": "I suddenly realised that I had left my passport at home.",
+        "pl": "Nagle zdałem sobie sprawę, że zostawiłem paszport w domu."
+      },
+      "register": "neutral",
+      "tags": ["czasownik", "podróże"]
+    }
+  ]
+}
