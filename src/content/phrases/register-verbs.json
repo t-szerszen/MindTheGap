@@ -1,0 +1,337 @@
+{
+  "id": "register-verbs",
+  "category": "register",
+  "title_pl": "Rejestr: czasowniki",
+  "items": [
+    {
+      "en": "obtain sth",
+      "pl": "uzyskać, zdobyć",
+      "meaning_pl": "zamiast potocznego „get”: obtain to zdobyć coś, zwykle oficjalną drogą albo z wysiłkiem (zgodę, wizę, informacje). Nie zastąpi get w znaczeniu „stać się” (get tired) ani „dotrzeć” (get home).",
+      "example": {
+        "en": "Applicants must obtain parental consent before taking part in the exchange.",
+        "pl": "Kandydaci muszą uzyskać zgodę rodziców przed udziałem w wymianie."
+      },
+      "register": "formal",
+      "tags": ["get", "regulamin"]
+    },
+    {
+      "en": "receive sth",
+      "pl": "otrzymać",
+      "meaning_pl": "zamiast potocznego „get”: receive to dostać coś, co ktoś ci wysłał albo dał (list, odpowiedź, nagrodę). Ty nic nie zdobywasz, coś do ciebie przychodzi, i tym różni się od obtain.",
+      "example": {
+        "en": "All participants will receive a certificate at the end of the course.",
+        "pl": "Wszyscy uczestnicy otrzymają certyfikat na zakończenie kursu."
+      },
+      "register": "formal",
+      "tags": ["get", "ogłoszenie"]
+    },
+    {
+      "en": "purchase sth",
+      "pl": "nabyć, zakupić",
+      "meaning_pl": "zamiast potocznego „buy”: purchase brzmi urzędowo, pasuje do regulaminów, ogłoszeń i reklamacji. To samo słowo jest też rzeczownikiem: a purchase = zakup.",
+      "example": {
+        "en": "Tickets may be purchased online or at the box office.",
+        "pl": "Bilety można nabyć online lub w kasie."
+      },
+      "register": "formal",
+      "tags": ["buy", "zakupy", "reklamacja"]
+    },
+    {
+      "en": "assist sb with sth / in doing sth",
+      "pl": "pomagać komuś w czymś",
+      "meaning_pl": "zamiast potocznego „help”: assist to pomagać w oficjalnej sytuacji. Inna konstrukcja niż przy help: po help może stać bezokolicznik (help sb do sth), a po assist dajesz with sth albo in doing sth. „Assist sb do sth” to błąd.",
+      "example": {
+        "en": "A teacher will assist students in preparing their presentations.",
+        "pl": "Nauczyciel pomoże uczniom w przygotowaniu prezentacji."
+      },
+      "register": "formal",
+      "tags": ["help", "szkoła"]
+    },
+    {
+      "en": "require sth",
+      "pl": "wymagać, potrzebować",
+      "meaning_pl": "zamiast potocznego „need”: require znaczy to samo, ale brzmi oficjalnie. Często w stronie biernej: be required to do sth = mieć obowiązek coś zrobić.",
+      "example": {
+        "en": "Students who require additional support should contact the school counsellor.",
+        "pl": "Uczniowie, którzy potrzebują dodatkowego wsparcia, powinni zgłosić się do pedagoga szkolnego."
+      },
+      "register": "formal",
+      "tags": ["need", "szkoła"]
+    },
+    {
+      "en": "enquire about sth",
+      "pl": "pytać o coś, dowiadywać się o coś",
+      "meaning_pl": "zamiast potocznego „ask”: enquire to pytać o informacje, oficjalnie. Po ask może stać osoba (ask the teacher about sth), po enquire nie: od razu about sth albo whether/if. Pisownia brytyjska enquire, amerykańska inquire.",
+      "example": {
+        "en": "Several parents have enquired about the cost of the school trip.",
+        "pl": "Kilkoro rodziców pytało o koszt wycieczki szkolnej."
+      },
+      "register": "formal",
+      "tags": ["ask", "list formalny"]
+    },
+    {
+      "en": "request sth",
+      "pl": "prosić o coś, zwracać się o coś",
+      "meaning_pl": "zamiast potocznego „ask for”: request to oficjalne „poprosić o”. Pułapka: czasownik bez for (request information), a rzeczownik z for (a request for information).",
+      "example": {
+        "en": "Students may request an extension if they are ill.",
+        "pl": "Uczniowie mogą poprosić o przesunięcie terminu, jeśli są chorzy."
+      },
+      "register": "formal",
+      "tags": ["ask for", "list formalny"]
+    },
+    {
+      "en": "commence",
+      "pl": "rozpoczynać (się)",
+      "meaning_pl": "zamiast potocznego „start”: commence jest bardzo oficjalne (ogłoszenia, regulaminy, uroczystości). W zwykłym liście formalnym często wystarczy neutralne begin. Po commence może być rzeczownik albo -ing.",
+      "example": {
+        "en": "The ceremony will commence at 10 a.m. in the school hall.",
+        "pl": "Uroczystość rozpocznie się o 10:00 w auli szkolnej."
+      },
+      "register": "formal",
+      "tags": ["start", "begin", "ogłoszenie"]
+    },
+    {
+      "en": "conclude",
+      "pl": "zakończyć (się)",
+      "meaning_pl": "zamiast potocznego „end”: conclude to zakończyć (spotkanie, przemówienie, wydarzenie), często z with sth. Uwaga na drugie znaczenie: conclude that... = dojść do wniosku, że...",
+      "example": {
+        "en": "The conference concluded with a speech by the head teacher.",
+        "pl": "Konferencja zakończyła się przemówieniem dyrektora szkoły."
+      },
+      "register": "formal",
+      "tags": ["end", "wydarzenie"]
+    },
+    {
+      "en": "terminate sth",
+      "pl": "rozwiązać (umowę), zakończyć",
+      "meaning_pl": "zamiast potocznego „end”: terminate to zakończyć coś oficjalnie, często przed czasem (umowę, zatrudnienie, subskrypcję). Brzmi prawniczo, więc nie użyjesz go do opisu końca filmu czy imprezy.",
+      "example": {
+        "en": "The company has the right to terminate the contract if payments are late.",
+        "pl": "Firma ma prawo rozwiązać umowę, jeśli płatności są opóźnione."
+      },
+      "register": "formal",
+      "tags": ["end", "umowa"]
+    },
+    {
+      "en": "verify sth",
+      "pl": "zweryfikować, potwierdzić",
+      "meaning_pl": "zamiast potocznego „check”: verify to sprawdzić, czy coś jest prawdziwe albo poprawne. Nie zastąpi check w znaczeniu „zerknąć” (check your phone).",
+      "example": {
+        "en": "Please verify that all the information on the form is correct.",
+        "pl": "Prosimy sprawdzić, czy wszystkie dane w formularzu są poprawne."
+      },
+      "register": "formal",
+      "tags": ["check", "formularz"]
+    },
+    {
+      "en": "provide sb with sth",
+      "pl": "zapewniać komuś coś, dostarczać",
+      "meaning_pl": "zamiast potocznego „give”: provide to zapewnić, dostarczyć coś, czego ktoś potrzebuje. Konstrukcje: provide sb with sth albo provide sth for sb. Nie mówi się „provide sb sth” bez with, choć przy give tak się da (give sb sth).",
+      "example": {
+        "en": "The school provides students with free access to the library.",
+        "pl": "Szkoła zapewnia uczniom bezpłatny dostęp do biblioteki."
+      },
+      "register": "formal",
+      "tags": ["give", "szkoła"]
+    },
+    {
+      "en": "demonstrate sth",
+      "pl": "wykazać, pokazać, dowieść",
+      "meaning_pl": "zamiast potocznego „show”: demonstrate to pokazać coś za pomocą dowodów albo przykładu, typowe w rozprawce i przy wynikach badań. Drugie znaczenie: demonstrate against sth = demonstrować, protestować.",
+      "example": {
+        "en": "The results clearly demonstrate that the new timetable works.",
+        "pl": "Wyniki wyraźnie pokazują, że nowy plan lekcji się sprawdza."
+      },
+      "register": "formal",
+      "tags": ["show", "rozprawka"]
+    },
+    {
+      "en": "discover sth",
+      "pl": "odkryć, dowiedzieć się",
+      "meaning_pl": "zamiast potocznego „find out”: discover to dowiedzieć się czegoś, często niespodziewanie. Formalniejsze niż find out, dobrze brzmi w skardze i w rozprawce.",
+      "example": {
+        "en": "We later discovered that the hotel had no swimming pool, despite what the advert said.",
+        "pl": "Później odkryliśmy, że hotel nie miał basenu, mimo tego, co obiecywała reklama."
+      },
+      "register": "formal",
+      "tags": ["find out", "skarga"]
+    },
+    {
+      "en": "establish sth",
+      "pl": "ustalić",
+      "meaning_pl": "zamiast potocznego „find out”: establish to ustalić fakty na pewno, zwykle w śledztwie albo badaniu (establish the cause, establish whether...). Drugie znaczenie: założyć firmę lub organizację.",
+      "example": {
+        "en": "The police are trying to establish the cause of the accident.",
+        "pl": "Policja próbuje ustalić przyczynę wypadku."
+      },
+      "register": "formal",
+      "tags": ["find out", "fakty"]
+    },
+    {
+      "en": "inform sb of/about sth",
+      "pl": "poinformować kogoś o czymś",
+      "meaning_pl": "zamiast potocznego „tell”: inform to oficjalne „powiadomić”. Po czasowniku zawsze osoba, bez to: inform sb of/about sth albo inform sb that...",
+      "example": {
+        "en": "We will inform all participants of any changes to the programme.",
+        "pl": "Poinformujemy wszystkich uczestników o wszelkich zmianach w programie."
+      },
+      "register": "formal",
+      "tags": ["tell", "ogłoszenie"]
+    },
+    {
+      "en": "permit sb to do sth",
+      "pl": "pozwalać komuś coś zrobić, zezwalać",
+      "meaning_pl": "zamiast potocznego „let”: let sb do (bez to), a permit sb to do (z to). Permit jest jeszcze bardziej oficjalne niż allow i często stoi w stronie biernej: be (not) permitted to do. Z let takiej strony biernej się nie robi.",
+      "example": {
+        "en": "Students are not permitted to use mobile phones during exams.",
+        "pl": "Uczniom nie wolno korzystać z telefonów komórkowych podczas egzaminów."
+      },
+      "register": "formal",
+      "tags": ["let", "allow", "regulamin"]
+    },
+    {
+      "en": "increase",
+      "pl": "wzrosnąć, zwiększyć",
+      "meaning_pl": "zamiast potocznego „go up”: increase znaczy „wzrosnąć” (bez dopełnienia) albo „zwiększyć coś” (z dopełnieniem). Ile: increase by 10% (o), increase to 20% (do). Akcent: czasownik inCREASE, rzeczownik INcrease.",
+      "example": {
+        "en": "The number of students using public transport has increased significantly.",
+        "pl": "Liczba uczniów korzystających z komunikacji miejskiej znacznie wzrosła."
+      },
+      "register": "neutral",
+      "tags": ["go up", "opis danych"]
+    },
+    {
+      "en": "decrease",
+      "pl": "zmniejszyć (się), spaść",
+      "meaning_pl": "zamiast potocznego „go down”: decrease to zmniejszyć się albo zmniejszyć coś. Para do increase, z tymi samymi przyimkami (by, to). Przy opisie danych możesz go wymieniać z fall albo decline.",
+      "example": {
+        "en": "The amount of waste produced by the school has decreased since we introduced recycling bins.",
+        "pl": "Ilość odpadów produkowanych przez szkołę zmniejszyła się, odkąd wprowadziliśmy kosze do segregacji."
+      },
+      "register": "formal",
+      "tags": ["go down", "opis danych"]
+    },
+    {
+      "en": "postpone sth",
+      "pl": "przełożyć (na później)",
+      "meaning_pl": "zamiast potocznego „put off”: postpone to przesunąć termin na później, a nie odwołać (to jest cancel). Tak jak po put off, po postpone stoi -ing: postpone doing sth.",
+      "example": {
+        "en": "The match has been postponed until next Saturday due to bad weather.",
+        "pl": "Mecz został przełożony na przyszłą sobotę z powodu złej pogody."
+      },
+      "register": "formal",
+      "tags": ["put off", "ogłoszenie"]
+    },
+    {
+      "en": "reduce sth",
+      "pl": "ograniczyć, zmniejszyć",
+      "meaning_pl": "zamiast potocznego „cut down on”: reduce to ograniczyć, zmniejszyć coś. Dopełnienie od razu po czasowniku, bez on (reduce sth). O ile: reduce sth by 20%.",
+      "example": {
+        "en": "The new measures aim to reduce air pollution in the city centre.",
+        "pl": "Nowe działania mają na celu ograniczenie zanieczyszczenia powietrza w centrum miasta."
+      },
+      "register": "formal",
+      "tags": ["cut down on", "ekologia", "rozprawka"]
+    },
+    {
+      "en": "investigate sth",
+      "pl": "zbadać, wyjaśnić (sprawę)",
+      "meaning_pl": "zamiast potocznego „look into”: investigate to zbadać sprawę, żeby ustalić, co się stało (skargę, wypadek, problem). Po czasowniku od razu dopełnienie (investigate sth), a into dajesz tylko po rzeczowniku: an investigation into sth.",
+      "example": {
+        "en": "The council has promised to investigate the complaints from local residents.",
+        "pl": "Rada miasta obiecała zbadać skargi mieszkańców."
+      },
+      "register": "formal",
+      "tags": ["look into", "skarga"]
+    },
+    {
+      "en": "attempt to do sth",
+      "pl": "próbować, podjąć próbę",
+      "meaning_pl": "zamiast potocznego „try”: attempt to formalne „spróbować”, zwykle o czymś trudnym. Konstrukcja attempt to do sth albo attempt sth. Rzeczownik: an attempt = próba.",
+      "example": {
+        "en": "Several students attempted to solve the problem, but nobody succeeded.",
+        "pl": "Kilku uczniów próbowało rozwiązać ten problem, ale nikomu się nie udało."
+      },
+      "register": "formal",
+      "tags": ["try", "rozprawka"]
+    },
+    {
+      "en": "discuss sth",
+      "pl": "omawiać, dyskutować o czymś",
+      "meaning_pl": "zamiast potocznego „talk about”: discuss to omówić temat. Pułapka: bez about, bo „o czym” jest już w czasowniku (discuss the problem, nie discuss about the problem). Z kim: discuss sth with sb.",
+      "example": {
+        "en": "The article discusses the advantages and disadvantages of online learning.",
+        "pl": "Artykuł omawia zalety i wady nauki zdalnej."
+      },
+      "register": "neutral",
+      "tags": ["talk about", "rozprawka"]
+    },
+    {
+      "en": "continue to do / doing sth",
+      "pl": "kontynuować, nadal coś robić",
+      "meaning_pl": "zamiast potocznego „go on”: continue to kontynuować, robić dalej. Po continue możesz dać to do albo -ing bez zmiany sensu. Przy go on forma zmienia znaczenie: go on doing = robić dalej, go on to do = przejść do czegoś następnego.",
+      "example": {
+        "en": "Prices are expected to continue rising next year.",
+        "pl": "Oczekuje się, że ceny będą nadal rosnąć w przyszłym roku."
+      },
+      "register": "formal",
+      "tags": ["go on", "opis danych"]
+    },
+    {
+      "en": "return",
+      "pl": "wrócić; zwrócić",
+      "meaning_pl": "zamiast potocznego „come back / go back”: return to wrócić. Nie dodawaj back, bo „return back” to powtórzenie. Return home bez to (jak go home). Drugie znaczenie: oddać, zwrócić coś (return a jacket to the shop).",
+      "example": {
+        "en": "The group is expected to return to Warsaw on Friday evening.",
+        "pl": "Grupa ma wrócić do Warszawy w piątek wieczorem."
+      },
+      "register": "neutral",
+      "tags": ["come back", "go back", "podróże"]
+    },
+    {
+      "en": "ensure (that)",
+      "pl": "zapewnić, dopilnować",
+      "meaning_pl": "zamiast potocznego „make sure”: ensure to dopilnować, żeby coś na pewno się stało. Nie myl z insure (ubezpieczyć) ani z assure sb that (zapewniać kogoś słowami).",
+      "example": {
+        "en": "The organisers must ensure that all participants are safe.",
+        "pl": "Organizatorzy muszą dopilnować, żeby wszyscy uczestnicy byli bezpieczni."
+      },
+      "register": "formal",
+      "tags": ["make sure", "regulamin"]
+    },
+    {
+      "en": "resolve sth",
+      "pl": "rozwiązać (problem, spór)",
+      "meaning_pl": "zamiast potocznego „sort out”: resolve to rozwiązać problem, spór albo konflikt w poważny, oficjalny sposób. Drugie znaczenie: resolve to do sth = postanowić coś zrobić.",
+      "example": {
+        "en": "The school has taken steps to resolve the problem of bullying.",
+        "pl": "Szkoła podjęła kroki, żeby rozwiązać problem przemocy rówieśniczej."
+      },
+      "register": "formal",
+      "tags": ["sort out", "problemy"]
+    },
+    {
+      "en": "tolerate sth",
+      "pl": "tolerować, znosić",
+      "meaning_pl": "zamiast potocznego „put up with”: tolerate to znosić coś nieprzyjemnego. Jedno słowo zamiast trzech, a dopełnienie stoi od razu po czasowniku (tolerate the noise).",
+      "example": {
+        "en": "Residents should not have to tolerate such high levels of noise.",
+        "pl": "Mieszkańcy nie powinni być zmuszeni znosić tak dużego hałasu."
+      },
+      "register": "formal",
+      "tags": ["put up with", "skarga"]
+    },
+    {
+      "en": "submit sth",
+      "pl": "złożyć, oddać (pracę, wniosek)",
+      "meaning_pl": "zamiast potocznego „hand in”: submit to oficjalnie złożyć coś do oceny albo rozpatrzenia (wypracowanie, wniosek, formularz). Często w stronie biernej z by + termin: be submitted by Friday = najpóźniej w piątek.",
+      "example": {
+        "en": "All essays must be submitted by Friday.",
+        "pl": "Wszystkie wypracowania trzeba oddać najpóźniej w piątek."
+      },
+      "register": "formal",
+      "tags": ["hand in", "szkoła"]
+    }
+  ]
+}
