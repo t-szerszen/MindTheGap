@@ -35,7 +35,7 @@ export function ReadingListPage() {
                   {s.title}
                 </span>
                 <span className="row wrap" style={{ gap: 6 }}>
-                  <span className="tag tg-b">{t.genres[s.genre]}</span>
+                  <span className="tag tg-b">{t.genres[s.texts[0]!.genre]}</span>
                   <span className="tag">{pl.themes[s.theme]}</span>
                   <span className="tag tg-m">
                     {t.points(s.tasks.reduce((n, task) => n + itemCount(task), 0))}

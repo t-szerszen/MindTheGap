@@ -569,8 +569,10 @@ export const pl = {
       interview: 'wywiad',
       review: 'recenzja',
       email: 'e-mail',
-      story: 'opowiadanie',
       report: 'reportaż',
+      story: 'opowiadanie',
+      novel: 'fragment powieści',
+      memoir: 'wspomnienia',
     },
     points: (n: number) => `${n} pkt`,
     task: {

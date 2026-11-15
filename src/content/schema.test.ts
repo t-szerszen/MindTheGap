@@ -1,5 +1,11 @@
 import { describe, expect, it } from 'vitest'
-import { blockSchema, gapFillSchema, grammarTopicSchema, timelineMarkSchema } from './schema'
+import {
+  blockSchema,
+  gapFillSchema,
+  grammarTopicSchema,
+  readingSetSchema,
+  timelineMarkSchema,
+} from './schema'
 
 const gap = {
   id: 'pp-1',
@@ -126,5 +132,112 @@ describe('grammarTopicSchema', () => {
       expect(grammarTopicSchema.safeParse({ ...topic, subtypes: [sub('0'), x] }).success).toBe(
         false,
       )
+  })
+})
+
+// malutkie zestawy na każde zadanie z arkusza, tylko do testów
+const para = (key: string, text: string) => ({ key, text })
+const task4 = {
+  id: 'r4',
+  type: 'reading-set',
+  examTask: 4,
+  title: 'Test 4',
+  theme: 'science',
+  texts: [
+    {
+      genre: 'article',
+      paragraphs: [para('A', 'One.'), para('B', 'Two.'), para('C', 'Three.'), para('D', 'Four.')],
+    },
+  ],
+  tasks: [
+    {
+      kind: 'paragraph-match',
+      items: ['A', 'B', 'C', 'D', 'B'].map((answer) => ({ statement: 'S', answer, why_pl: 'x' })),
+    },
+  ],
+}
+const task5 = {
+  id: 'r5',
+  type: 'reading-set',
+  examTask: 5,
+  title: 'Test 5',
+  theme: 'nature',
+  texts: [
+    {
+      genre: 'report',
+      paragraphs: [{ text: 'One ___ two ___ three.' }, { text: 'Four ___ five ___ six ___.' }],
+    },
+  ],
+  tasks: [
+    {
+      kind: 'sentence-insert',
+      sentences: ['A', 'B', 'C', 'D', 'E', 'F'].map((key) => ({ key, text: `Sentence ${key}.` })),
+      answers: ['C', 'A', 'F', 'B', 'E'].map((answer) => ({ answer, why_pl: 'x' })),
+    },
+  ],
+}
+const mc = (answer: number) => ({
+  question: 'Q?',
+  options: [0, 1, 2, 3].map((j) =>
+    j === answer ? { text: `o${j}` } : { text: `o${j}`, wrong_pl: 'bo nie' },
+  ),
+  answer,
+  why_pl: 'x',
+})
+const gapItem = (correct: string[], heading?: string) => ({
+  ...(heading ? { heading } : {}),
+  sentence: 'It was ___.',
+  correct,
+  why_pl: 'x',
+})
+const task6 = {
+  id: 'r6',
+  type: 'reading-set',
+  examTask: 6,
+  title: 'Test 6',
+  theme: 'culture',
+  texts: [
+    { title: 'Text 1', genre: 'novel', paragraphs: [{ text: 'Once.' }] },
+    { title: 'Text 2', genre: 'article', paragraphs: [{ text: 'Now.' }] },
+  ],
+  tasks: [
+    { kind: 'mc', text: 1, items: [mc(0), mc(1), mc(2), mc(3)] },
+    {
+      kind: 'gap',
+      text: 2,
+      maxWords: 6,
+      layout: 'note',
+      items: [
+        gapItem(['cheap'], 'Pros'),
+        gapItem(['fast'], 'Pros'),
+        gapItem(['too loud'], 'Cons'),
+        gapItem(['far away'], 'Cons'),
+      ],
+    },
+  ],
+}
+
+describe('readingSetSchema', () => {
+  it('przepuszcza zestawy do zad. 4, 5 i 6', () => {
+    for (const s of [task4, task5, task6])
+      expect(readingSetSchema.safeParse(s).error).toBeUndefined()
+  })
+
+  it('odrzuca odpowiedź mc poza opcjami i odwołanie do trzeciego tekstu', () => {
+    const bad = { ...mc(0), options: mc(0).options.slice(0, 3), answer: 3 }
+    expect(
+      readingSetSchema.safeParse({
+        ...task6,
+        examTask: undefined,
+        tasks: [{ kind: 'mc', items: [bad] }],
+      }).success,
+    ).toBe(false)
+    expect(
+      readingSetSchema.safeParse({
+        ...task4,
+        examTask: undefined,
+        tasks: [{ kind: 'mc', text: 2, items: [mc(0)] }],
+      }).success,
+    ).toBe(false)
   })
 })

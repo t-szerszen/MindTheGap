@@ -58,7 +58,7 @@ function Reading({ set }: { set: ReadingSet }) {
             {t.back}
           </Link>
           <p className="eyebrow">
-            {t.genres[set.genre]} · {pl.themes[set.theme]} · {t.points(total)}
+            {t.genres[set.texts[0]!.genre]} · {pl.themes[set.theme]} · {t.points(total)}
           </p>
           <h1 className="h-l" lang="en">
             {set.title}
@@ -66,26 +66,28 @@ function Reading({ set }: { set: ReadingSet }) {
         </header>
 
         <article className="reading-text" lang="en">
-          {set.paragraphs.map((p, i) => (
-            <p key={i} className={p.key ? 'keyed' : undefined}>
-              {p.key && <span className="para-key hand">{p.key}</span>}
-              {splitBlanks(p.text).map((seg, j, all) => {
-                if (j === all.length - 1) return <span key={j}>{seg}</span>
-                const n = blank++
-                const key = itemKey(insertTask, n)
-                const v = get(key)
-                return (
-                  <span key={j}>
-                    {seg}
-                    <span className={`cgap${checked ? (ok(key) ? ' ok' : ' bad') : ''}`}>
-                      <sup>{n + 1}</sup>
-                      {v || ' '.repeat(8)}
+          {set.texts
+            .flatMap((x) => x.paragraphs)
+            .map((p, i) => (
+              <p key={i} className={p.key ? 'keyed' : undefined}>
+                {p.key && <span className="para-key hand">{p.key}</span>}
+                {splitBlanks(p.text).map((seg, j, all) => {
+                  if (j === all.length - 1) return <span key={j}>{seg}</span>
+                  const n = blank++
+                  const key = itemKey(insertTask, n)
+                  const v = get(key)
+                  return (
+                    <span key={j}>
+                      {seg}
+                      <span className={`cgap${checked ? (ok(key) ? ' ok' : ' bad') : ''}`}>
+                        <sup>{n + 1}</sup>
+                        {v || ' '.repeat(8)}
+                      </span>
                     </span>
-                  </span>
-                )
-              })}
-            </p>
-          ))}
+                  )
+                })}
+              </p>
+            ))}
         </article>
 
         {set.tasks.map((task, ti) => (
@@ -136,7 +138,7 @@ function instruction(task: ReadingTask) {
     case 'sentence-insert':
       return t['sentence-insert'](task.sentences.length - task.answers.length)
     case 'gap':
-      return t.gap(task.maxWords)
+      return t.gap(task.maxWords ?? 0)
     default:
       return t[task.kind]
   }
@@ -167,11 +169,11 @@ function TaskBody({ task, ti, get, set, checked, ok }: BodyProps) {
                 checked={checked}
                 ok={ok(k)}
                 why={it.why_pl}
-                extra={it.distractors_pl}
+                extra={it.options.flatMap((o) => (o.wrong_pl ? [o.wrong_pl] : []))}
               >
                 <p lang="en">{it.question}</p>
                 <Options
-                  labels={it.options.map((o, j) => `${letters[j]} ${o}`)}
+                  labels={it.options.map((o, j) => `${letters[j]} ${o.text}`)}
                   values={it.options.map((_, j) => String(j))}
                   value={get(k)}
                   right={checked ? String(it.answer) : null}
@@ -297,8 +299,10 @@ function TaskBody({ task, ti, get, set, checked, ok }: BodyProps) {
                   {after}
                 </p>
                 {!checked && v.trim() && (
-                  <p className={`note ink ex-count${countWords(v) > task.maxWords ? ' over' : ''}`}>
-                    {pl.exercises.wordCount(countWords(v), task.maxWords)}
+                  <p
+                    className={`note ink ex-count${countWords(v) > (task.maxWords ?? Infinity) ? ' over' : ''}`}
+                  >
+                    {pl.exercises.wordCount(countWords(v), task.maxWords ?? 0)}
                   </p>
                 )}
               </Item>

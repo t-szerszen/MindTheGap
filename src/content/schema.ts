@@ -397,18 +397,24 @@ export const checklistSchema = z.array(
 
 const letter = z.enum(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'])
 const why = txt
-// zadania do jednego tekstu (czytanie): formaty z arkuszy, każda odpowiedź z wyjaśnieniem
+// przy zad. 6 są dwa teksty: text mówi, do którego jest zadanie (1 albo 2)
+const textRef = z.union([z.literal(1), z.literal(2)]).optional()
+// zadania do tekstu (czytanie): formaty z arkuszy, każda odpowiedź z wyjaśnieniem
 const readingTaskSchema = z.discriminatedUnion('kind', [
   z.strictObject({
     kind: z.literal('mc'),
+    text: textRef,
     items: z
       .array(
         z.strictObject({
           question: txt,
-          options: z.array(txt).min(3).max(4),
+          // wrong_pl siedzi przy opcji, więc po mieszaniu dalej wiadomo, do której litery
+          options: z
+            .array(z.strictObject({ text: txt, wrong_pl: txt.optional() }))
+            .min(3)
+            .max(4),
           answer: z.number().int().min(0).max(3),
           why_pl: why,
-          distractors_pl: z.array(txt).optional(),
         }),
       )
       .min(1),
@@ -431,13 +437,17 @@ const readingTaskSchema = z.discriminatedUnion('kind', [
     options: z.array(z.strictObject({ key: letter, text: txt })).min(2),
     items: z.array(z.strictObject({ prompt: txt, answer: letter, why_pl: why })).min(1),
   }),
-  // mediacja: luka po angielsku na podstawie tekstu, z limitem wyrazów
+  // luki otwarte po angielsku (6.5–6.8); w 2026 bez limitu wyrazów, stąd maxWords opcjonalne.
+  // layout: osobne zdania, jedno streszczenie albo notatka z nagłówkami (heading przy każdej luce)
   z.strictObject({
     kind: z.literal('gap'),
-    maxWords: z.number().int().min(1).max(8),
+    text: textRef,
+    maxWords: z.number().int().min(1).max(8).optional(),
+    layout: z.enum(['sentences', 'summary', 'note']).optional(),
     items: z
       .array(
         z.strictObject({
+          heading: txt.optional(),
           sentence: txt,
           correct: z.array(txt).min(1),
           accepted: z.array(txt).optional(),
@@ -448,35 +458,68 @@ const readingTaskSchema = z.discriminatedUnion('kind', [
   }),
 ])
 
+export const readingGenreSchema = z.enum([
+  'article',
+  'blog',
+  'advert',
+  'interview',
+  'review',
+  'email',
+  'report',
+  'story',
+  'novel',
+  'memoir',
+])
+export const literaryGenres: ReadingGenre[] = ['story', 'novel', 'memoir']
+
+const readingTextSchema = z.strictObject({
+  title: txt.optional(),
+  genre: readingGenreSchema,
+  // akapity z literami (A, B…) przy zadaniu „In which paragraph…”; luki ___ przy wstawianiu zdań
+  paragraphs: z.array(z.strictObject({ key: letter.optional(), text: txt })).min(1),
+})
+
 export const readingSetSchema = z
   .strictObject({
     id,
     type: z.literal('reading-set'),
+    // zestaw = jedno zadanie z arkusza; bez examTask to zwykły drill (np. prawda/fałsz)
+    examTask: z.union([z.literal(4), z.literal(5), z.literal(6)]).optional(),
     title: txt,
-    genre: z.enum(['article', 'blog', 'advert', 'interview', 'review', 'email', 'story', 'report']),
     theme: themeSchema,
-    // akapity z literami (A, B…) przy zadaniu „In which paragraph…”; luki ___ przy wstawianiu zdań
-    paragraphs: z.array(z.strictObject({ key: letter.optional(), text: txt })).min(2),
+    texts: z.array(readingTextSchema).min(1).max(2),
     tasks: z.array(readingTaskSchema).min(1),
     tags: z.array(id).optional(),
   })
   .superRefine((r, ctx) => {
-    const blanks = r.paragraphs.reduce((n, p) => n + countBlanks(p.text), 0)
-    const inserts = r.tasks.find((t) => t.kind === 'sentence-insert')
-    if (blanks !== (inserts?.answers.length ?? 0))
-      ctx.addIssue({
-        code: 'custom',
-        message: 'liczba luk ___ w tekście musi równać się odpowiedziom sentence-insert',
-      })
-    if (inserts && inserts.sentences.length <= inserts.answers.length)
-      ctx.addIssue({ code: 'custom', message: 'przy wstawianiu zdań jedno zdanie ma zostać' })
-    const keys = r.paragraphs.map((p) => p.key).filter(Boolean)
-    for (const t of r.tasks)
-      if (t.kind === 'paragraph-match')
-        for (const it of t.items)
-          if (!keys.includes(it.answer))
-            ctx.addIssue({ code: 'custom', message: `akapit ${it.answer} nie istnieje` })
+    for (const message of readingIssues(r)) ctx.addIssue({ code: 'custom', message })
   })
+
+type ReadingSetIn = z.infer<typeof readingSetSchema>
+
+function readingIssues(r: ReadingSetIn): string[] {
+  const out: string[] = []
+  const paragraphs = r.texts.flatMap((x) => x.paragraphs)
+  const blanks = paragraphs.reduce((n, p) => n + countBlanks(p.text), 0)
+  const inserts = r.tasks.find((t) => t.kind === 'sentence-insert')
+  if (blanks !== (inserts?.answers.length ?? 0))
+    out.push('liczba luk ___ w tekście musi równać się odpowiedziom sentence-insert')
+  if (inserts && inserts.sentences.length <= inserts.answers.length)
+    out.push('przy wstawianiu zdań jedno zdanie ma zostać')
+  const keys = paragraphs.map((p) => p.key).filter(Boolean)
+  for (const t of r.tasks) {
+    if (t.kind === 'paragraph-match')
+      for (const it of t.items)
+        if (!keys.includes(it.answer)) out.push(`akapit ${it.answer} nie istnieje`)
+    if ((t.kind === 'mc' || t.kind === 'gap') && (t.text ?? 1) > r.texts.length)
+      out.push(`zadanie ${t.kind} wskazuje tekst ${t.text}, a jest ich ${r.texts.length}`)
+    if (t.kind === 'mc')
+      t.items.forEach((it, i) => {
+        if (it.answer >= it.options.length) out.push(`mc ${i + 1}: odpowiedź poza listą opcji`)
+      })
+  }
+  return out
+}
 
 // próbny zestaw środków językowych: zadania jak 7, 8 i 9 w arkuszu
 export const mockSetSchema = z.strictObject({
@@ -587,6 +630,8 @@ export type WritingModel = WritingTask['models'][number]
 export type Checklist = z.infer<typeof checklistSchema>
 export type ReadingSet = z.infer<typeof readingSetSchema>
 export type ReadingTask = ReadingSet['tasks'][number]
+export type ReadingText = ReadingSet['texts'][number]
+export type ReadingGenre = z.infer<typeof readingGenreSchema>
 export type MockSet = z.infer<typeof mockSetSchema>
 export type Exercise = z.infer<typeof exerciseSchema>
 export type GrammarScale = z.infer<typeof grammarScaleSchema>

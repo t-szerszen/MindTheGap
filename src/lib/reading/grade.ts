@@ -34,7 +34,7 @@ function isRight(task: ReadingTask, i: number, value: string): boolean {
       const it = task.items[i]!
       return checkLimited(value, {
         answers: [...it.correct, ...(it.accepted ?? [])],
-        maxWords: task.maxWords,
+        maxWords: task.maxWords ?? Infinity,
       }).ok
     }
   }

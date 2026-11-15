@@ -6,14 +6,28 @@ const set: ReadingSet = {
   id: 'r1',
   type: 'reading-set',
   title: 'Test',
-  genre: 'article',
   theme: 'culture',
-  paragraphs: [
-    { key: 'A', text: 'One. ___ Two.' },
-    { key: 'B', text: 'Three.' },
+  texts: [
+    {
+      genre: 'article',
+      paragraphs: [
+        { key: 'A', text: 'One. ___ Two.' },
+        { key: 'B', text: 'Three.' },
+      ],
+    },
   ],
   tasks: [
-    { kind: 'mc', items: [{ question: 'Q?', options: ['a', 'b', 'c'], answer: 1, why_pl: 'x' }] },
+    {
+      kind: 'mc',
+      items: [
+        {
+          question: 'Q?',
+          options: [{ text: 'a' }, { text: 'b' }, { text: 'c' }],
+          answer: 1,
+          why_pl: 'x',
+        },
+      ],
+    },
     { kind: 'paragraph-match', items: [{ statement: 'S', answer: 'B', why_pl: 'x' }] },
     {
       kind: 'sentence-insert',
