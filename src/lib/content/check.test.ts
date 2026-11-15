@@ -200,8 +200,15 @@ describe('checkContent: gramatyka', () => {
       topics: [topic],
       grammar: [g],
       grammarTabs: [
-        { id: 'cond', group: 'sentences', tab: ['a', 'b'], label_pl: 'x' },
-        { id: 'wish', group: 'sentences', tab: ['a', 'b'], label_pl: 'x', topic: 'conditionals' },
+        { id: 'cond', group: 'sentences', tab: ['a', 'b'], label_pl: 'x', desc_pl: 'x' },
+        {
+          id: 'wish',
+          group: 'sentences',
+          tab: ['a', 'b'],
+          label_pl: 'x',
+          desc_pl: 'x',
+          topic: 'conditionals',
+        },
       ],
     })
     expect(errors).toEqual([])
@@ -212,7 +219,9 @@ describe('checkContent: gramatyka', () => {
       ...base,
       topics: [topic],
       grammar: [{ ...g, practiceTag: 'nope', theoryTopic: 'nope' }],
-      grammarTabs: [{ id: 'x', group: 'words', tab: ['a', 'b'], label_pl: 'x', topic: 'nope' }],
+      grammarTabs: [
+        { id: 'x', group: 'words', tab: ['a', 'b'], label_pl: 'x', desc_pl: 'x', topic: 'nope' },
+      ],
     })
     expect(errors).toHaveLength(4)
   })

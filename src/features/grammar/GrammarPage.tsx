@@ -1,5 +1,5 @@
 import { Suspense, useState } from 'react'
-import { Link, Navigate, useParams } from 'react-router'
+import { Link, useParams } from 'react-router'
 import { MarkedText } from '../../components/Formula'
 import { HowToChoose } from '../../components/HowToChoose'
 import { Icon } from '../../components/Icon'
@@ -18,7 +18,6 @@ export function GrammarPage() {
   const tabs = useGrammarTabs()
   const views = useGrammarTopics()
   const topics = useTopics()
-  if (!id) return <Navigate to={`/grammar/${tabs[0]!.id}`} replace />
   const tab = tabs.find((t) => t.id === id)
   if (!tab) return <NotFound />
 

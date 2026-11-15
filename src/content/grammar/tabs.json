@@ -3,13 +3,15 @@
     "id": "conditionals",
     "group": "sentences",
     "tab": ["Tryby", "warunk."],
-    "label_pl": "Tryby warunkowe"
+    "label_pl": "Tryby warunkowe",
+    "desc_pl": "jeśli… to… — od faktów po rzeczy niemożliwe"
   },
   {
     "id": "wish",
     "group": "sentences",
     "tab": ["Wish", "if only"],
     "label_pl": "Wish / if only",
+    "desc_pl": "żal i marzenia: I wish I had…, if only…",
     "topic": "conditionals"
   },
   {
@@ -17,6 +19,7 @@
     "group": "sentences",
     "tab": ["Zdania", "wzgl."],
     "label_pl": "Zdania względne",
+    "desc_pl": "who, which, that, whose — jak powiedzieć „który”",
     "topic": "relative-clauses"
   },
   {
@@ -24,6 +27,7 @@
     "group": "sentences",
     "tab": ["Mowa", "zależna"],
     "label_pl": "Mowa zależna",
+    "desc_pl": "co ktoś powiedział, o co pytał i o co prosił",
     "topic": "reported-speech"
   },
   {
@@ -31,6 +35,7 @@
     "group": "sentences",
     "tab": ["Pyta-", "nia"],
     "label_pl": "Pytania i question tags",
+    "desc_pl": "operator przed podmiotem, pytania pośrednie, question tags",
     "topic": "question-forms"
   },
   {
@@ -38,6 +43,7 @@
     "group": "sentences",
     "tab": ["Imie-", "słowy"],
     "label_pl": "Konstrukcje imiesłowowe",
+    "desc_pl": "skracanie zdań do -ing, having + V3 i V3",
     "topic": "participle-clauses"
   },
   {
@@ -45,6 +51,7 @@
     "group": "sentences",
     "tab": ["Inwer-", "sja"],
     "label_pl": "Inwersja i emfaza",
+    "desc_pl": "Little did I know, It was only… that, What I need is…",
     "topic": "inversion-emphasis"
   },
   {
@@ -52,19 +59,22 @@
     "group": "sentences",
     "tab": ["Łącz-", "niki"],
     "label_pl": "Łączniki",
+    "desc_pl": "although czy despite, so czy so that i inne pary",
     "topic": "linking-contrast"
   },
   {
     "id": "modal-verbs",
     "group": "verbs",
     "tab": ["Czas.", "modalne"],
-    "label_pl": "Czasowniki modalne"
+    "label_pl": "Czasowniki modalne",
+    "desc_pl": "must, should, can, might… — co znaczą i czym się różnią"
   },
   {
     "id": "passive-voice",
     "group": "verbs",
     "tab": ["Strona", "bierna"],
     "label_pl": "Strona bierna",
+    "desc_pl": "co się z czymś dzieje, a nie kto to robi",
     "topic": "passive-voice"
   },
   {
@@ -72,6 +82,7 @@
     "group": "verbs",
     "tab": ["have", "done"],
     "label_pl": "have something done",
+    "desc_pl": "gdy ktoś robi coś dla ciebie: I had my hair cut",
     "topic": "passive-voice"
   },
   {
@@ -79,6 +90,7 @@
     "group": "verbs",
     "tab": ["-ing", "/ to"],
     "label_pl": "Gerund czy bezokolicznik",
+    "desc_pl": "to + V1, samo V1 czy V-ing po danym słowie",
     "topic": "gerund-infinitive"
   },
   {
@@ -86,6 +98,7 @@
     "group": "verbs",
     "tab": ["used", "to"],
     "label_pl": "Czasowniki stanu i used to",
+    "desc_pl": "know bez -ing; used to, would, be used to",
     "topic": "stative-used-to"
   },
   {
@@ -93,6 +106,7 @@
     "group": "verbs",
     "tab": ["Tryb", "łącz."],
     "label_pl": "Tryb łączący",
+    "desc_pl": "suggest that he go, If I were, would rather",
     "topic": "subjunctive-formal"
   },
   {
@@ -100,6 +114,7 @@
     "group": "words",
     "tab": ["a / an", "the"],
     "label_pl": "Przedimki i określniki",
+    "desc_pl": "a/an, the albo nic; some, any, much, few…",
     "topic": "articles-determiners"
   },
   {
@@ -107,6 +122,7 @@
     "group": "words",
     "tab": ["Przym.", "przysł."],
     "label_pl": "Przymiotniki i przysłówki, stopniowanie",
+    "desc_pl": "przymiotnik czy przysłówek, -ed czy -ing, stopniowanie",
     "topic": "adjectives-adverbs"
   },
   {
@@ -114,6 +130,7 @@
     "group": "words",
     "tab": ["Przy-", "imki"],
     "label_pl": "Przyimki",
+    "desc_pl": "at, on, in w czasie i miejscu, interested in, depend on",
     "topic": "prepositions"
   },
   {
@@ -121,6 +138,7 @@
     "group": "words",
     "tab": ["Rzecz.", "zaimki"],
     "label_pl": "Rzeczowniki i zaimki",
+    "desc_pl": "policzalne i niepoliczalne, liczba mnoga, zaimki",
     "topic": "nouns-pronouns"
   },
   {
@@ -128,6 +146,7 @@
     "group": "words",
     "tab": ["Przyd.", "konstr."],
     "label_pl": "Przydatne konstrukcje",
+    "desc_pl": "so / such… that, too i enough, be likely to, it takes",
     "topic": "useful-structures"
   }
 ]

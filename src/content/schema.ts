@@ -555,6 +555,8 @@ export const grammarTabsSchema = z
       group: z.enum(['sentences', 'verbs', 'words']),
       tab: z.tuple([txt, txt]),
       label_pl: txt,
+      // jedna linijka do spisu zagadnień
+      desc_pl: txt,
       // istniejący pełny temat z src/content/topics, otwierany w zakładce Gramatyka
       topic: id.optional(),
     }),

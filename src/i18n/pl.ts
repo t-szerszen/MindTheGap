@@ -223,9 +223,11 @@ export const pl = {
   grammar: {
     title: 'Gramatyka',
     indexTitle: 'Spis zagadnień',
+    indexHint: 'wybierz zagadnienie z listy albo z indeksu z boku',
     subnav: { label: 'Gramatyka — dział', tenses: 'Czasy', grammar: 'Zagadnienia' },
     eyebrow: (group: string, n: number, total: number) => `Gramatyka › ${group} · ${n} / ${total}`,
     groups: { sentences: 'zdania', verbs: 'czasowniki', words: 'słowa' },
+    groupNames: { sentences: 'Zdania', verbs: 'Czasowniki', words: 'Słowa' },
     soonTab: (label: string) => `${label} — wkrótce`,
     soonTitle: 'Rozdział w przygotowaniu',
     soonText:
