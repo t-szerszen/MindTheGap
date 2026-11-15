@@ -6,6 +6,7 @@ export type SessionMode = 'random' | 'weak'
 
 export type SessionOptions = {
   tags?: string[]
+  types?: Exercise['type'][]
   difficulty?: 1 | 2 | 3
   mode: SessionMode
   count: number
@@ -42,17 +43,23 @@ function shuffle<T>(list: T[], random: () => number) {
   return a
 }
 
-export function filterExercises(exercises: Exercise[], tags?: string[], difficulty?: 1 | 2 | 3) {
+export function filterExercises(
+  exercises: Exercise[],
+  tags?: string[],
+  difficulty?: 1 | 2 | 3,
+  types?: Exercise['type'][],
+) {
   return exercises.filter(
     (e) =>
       (!tags?.length || e.tags.some((t) => tags.includes(t))) &&
-      (!difficulty || e.difficulty === difficulty),
+      (!difficulty || e.difficulty === difficulty) &&
+      (!types?.length || types.includes(e.type)),
   )
 }
 
 export function buildSession(exercises: Exercise[], opts: SessionOptions): Exercise[] {
   const random = opts.random ?? Math.random
-  const pool = shuffle(filterExercises(exercises, opts.tags, opts.difficulty), random)
+  const pool = shuffle(filterExercises(exercises, opts.tags, opts.difficulty, opts.types), random)
   if (opts.mode === 'weak') {
     const stats = opts.stats ?? {}
     const score = (e: Exercise) => Math.min(...e.tags.map((t) => tagAccuracy(stats, t) ?? UNSEEN))

@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { isCorrect, normalizeBasic } from '.'
 import { toBritish } from './variants'
-import { checkTransformation, countAnswerWords, countWords } from './words'
+import { checkLimited, countWords } from './words'
 
 describe('toBritish', () => {
   it('wyrównuje bezpieczne amerykańskie warianty', () => {
@@ -40,13 +40,14 @@ describe('countWords', () => {
     expect(countWords('')).toBe(0)
     expect(countWords("I don't know.")).toBe(3)
   })
-  it('w lukach skrót to dwa wyrazy', () => {
-    expect(countAnswerWords("don't have to")).toBe(4)
-    expect(countAnswerWords('had better not')).toBe(3)
+  it('skrót i dzierżawcze s to jeden wyraz (jak w zasadach CKE)', () => {
+    expect(countWords("wasn't in working order")).toBe(4)
+    expect(countWords('was not in working order')).toBe(5)
+    expect(countWords("must've left Peter's")).toBe(3)
   })
 })
 
-describe('checkTransformation', () => {
+describe('checkLimited', () => {
   const opts = {
     answers: ['is said to have', 'is said to have been'],
     keyWord: 'SAID',
@@ -54,29 +55,34 @@ describe('checkTransformation', () => {
   }
 
   it('poprawna odpowiedź', () => {
-    expect(checkTransformation('is said to have', opts)).toEqual({ ok: true })
-    expect(checkTransformation('  Is said to have. ', opts)).toEqual({ ok: true })
+    expect(checkLimited('is said to have', opts)).toEqual({ ok: true })
+    expect(checkLimited('  Is said to have. ', opts)).toEqual({ ok: true })
   })
   it('brak słowa kluczowego albo zmieniona forma', () => {
-    expect(checkTransformation('is believed to have', opts)).toEqual({
+    expect(checkLimited('is believed to have', opts)).toEqual({
       ok: false,
       reason: 'key-missing',
     })
-    expect(checkTransformation('is saying to have', opts)).toEqual({
+    expect(checkLimited('is saying to have', opts)).toEqual({
       ok: false,
       reason: 'key-missing',
     })
   })
   it('za dużo słów', () => {
-    expect(checkTransformation('is widely said to have been', opts)).toEqual({
+    expect(checkLimited('is widely said to have been', opts)).toEqual({
       ok: false,
       reason: 'too-long',
     })
   })
   it('zła odpowiedź mimo słowa kluczowego', () => {
-    expect(checkTransformation('said to have', opts)).toEqual({ ok: false, reason: 'wrong' })
+    expect(checkLimited('said to have', opts)).toEqual({ ok: false, reason: 'wrong' })
+  })
+  it('bez słowa kluczowego liczy się tylko limit i klucz', () => {
+    const o = { answers: ["wasn't in working order"], maxWords: 4 }
+    expect(checkLimited("wasn't in working order", o)).toEqual({ ok: true })
+    expect(checkLimited('was not in working order', o)).toEqual({ ok: false, reason: 'too-long' })
   })
   it('pusta odpowiedź', () => {
-    expect(checkTransformation('  ', opts)).toEqual({ ok: false, reason: 'empty' })
+    expect(checkLimited('  ', opts)).toEqual({ ok: false, reason: 'empty' })
   })
 })

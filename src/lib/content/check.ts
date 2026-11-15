@@ -1,5 +1,6 @@
 import type { Exercise, PhraseSet, Tense, Topic } from '../../content/schema'
 import { normalizeBasic } from '../answers'
+import { countWords } from '../answers/words'
 
 export type ContentSet = {
   tenses: Tense[]
@@ -46,16 +47,89 @@ export function checkContent(c: ContentSet): string[] {
       .trim()
       .toLowerCase(),
   )
+  const seen = new Map<string, string>()
   for (const e of c.exercises) {
     for (const tag of e.tags) {
       if (!tags.has(tag)) errors.push(`${e.id}: tag ${tag} nie jest ani czasem, ani tematem`)
     }
-    const s = e.sentence.toLowerCase()
-    const hint = tenseNames.find((n) => s.includes(n))
-    if (hint) errors.push(`${e.id}: zdanie podpowiada czas („${hint}”)`)
-    // skróty sprawdzarka rozwija sama, więc "'ll close" obok "will close" to zbędny duplikat
-    for (const a of dupes([...e.correct, ...(e.accepted ?? [])].map(normalizeBasic)))
-      errors.push(`${e.id}: odpowiedź „${a}” powtarza się po rozwinięciu skrótów`)
+    const text = exerciseText(e)
+    const low = text.toLowerCase()
+    const hint = tenseNames.find((n) => low.includes(n)) ?? GRAMMAR_TERMS.exec(low)?.[0]
+    if (hint) errors.push(`${e.id}: zdanie podpowiada strukturę („${hint}”)`)
+
+    // to samo zdanie w dwóch zadaniach to ten sam punkt dwa razy
+    const norm = low
+      .replace(/[^a-z ]+/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim()
+    const twin = seen.get(norm)
+    if (twin) errors.push(`${e.id}: to samo zdanie co w ${twin}`)
+    else seen.set(norm, e.id)
+
+    for (const [label, answers] of answerSets(e)) {
+      // skróty sprawdzarka rozwija sama, więc "'ll close" obok "will close" to zbędny duplikat
+      for (const a of dupes(answers.map(normalizeBasic)))
+        errors.push(`${e.id}${label}: odpowiedź „${a}” powtarza się po rozwinięciu skrótów`)
+      for (const a of answers) {
+        if (/_{3,}/.test(a)) errors.push(`${e.id}${label}: w odpowiedzi zostało ___`)
+        const limit =
+          e.type === 'gap-fill'
+            ? e.maxWords
+            : e.type === 'key-word-transformation'
+              ? e.maxWords
+              : undefined
+        if (limit && countWords(a) > limit)
+          errors.push(`${e.id}${label}: „${a}” ma więcej niż ${limit} wyrazów`)
+        if (e.type === 'key-word-transformation' && !hasWord(a, e.keyWord))
+          errors.push(
+            `${e.id}: „${a}” nie zawiera słowa klucza ${e.keyWord} w niezmienionej formie`,
+          )
+        if (e.type === 'word-formation' && /\s/.test(a.trim()))
+          errors.push(`${e.id}${label}: słowotwórstwo to jeden wyraz, a „${a}” ma kilka`)
+      }
+    }
+    if (e.type === 'key-word-transformation' && hasWord(e.target, e.keyWord))
+      errors.push(`${e.id}: słowo klucz jest już w zdaniu docelowym`)
+    if (e.type === 'word-formation')
+      e.gaps.forEach((g, i) => {
+        if (g.correct.some((a) => normalizeBasic(a) === normalizeBasic(g.base)))
+          errors.push(`${e.id}#${i + 1}: odpowiedź to sam wyraz bazowy ${g.base}`)
+      })
   }
   return errors
+}
+
+// nazwy struktur, które w zdaniu zadania byłyby podpowiedzią
+const GRAMMAR_TERMS =
+  /\b(passive voice|reported speech|(zero|first|second|third|mixed) conditional|gerund|bare infinitive|inversion|past participle|present participle|modal verb|relative clause|causative)\b/
+
+function exerciseText(e: Exercise) {
+  switch (e.type) {
+    case 'gap-fill':
+      return e.sentence
+    case 'key-word-transformation':
+      return `${e.source} ${e.target}`
+    case 'choice':
+    case 'word-formation':
+      return e.text
+  }
+}
+
+// odpowiedzi pogrupowane po lukach: [etykieta luki, lista poprawnych i akceptowanych]
+function answerSets(e: Exercise): [string, string[]][] {
+  switch (e.type) {
+    case 'gap-fill':
+    case 'key-word-transformation':
+      return [['', [...e.correct, ...(e.accepted ?? [])]]]
+    case 'word-formation':
+      return e.gaps.map((g, i) => [`#${i + 1}`, [...g.correct, ...(g.accepted ?? [])]])
+    case 'choice':
+      return []
+  }
+}
+
+function hasWord(text: string, word: string) {
+  const words = normalizeBasic(text).split(/[^a-z']+/)
+  const key = normalizeBasic(word).split(' ')
+  return words.some((_, i) => key.every((k, j) => words[i + j] === k))
 }

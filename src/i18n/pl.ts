@@ -309,8 +309,8 @@ export const pl = {
   exercises: {
     eyebrow: 'Ćwiczenia',
     title: 'Ułóż serię',
-    intro: 'Uzupełnij luki poprawną formą czasownika z nawiasu.',
-    introHint: 'Bez podpowiedzi, który to czas — sygnał znajdziesz w zdaniu.',
+    intro: 'Uzupełnij luki. Polecenie stoi nad każdym zadaniem, jak w arkuszu.',
+    introHint: 'Bez podpowiedzi, której struktury szukasz — sygnał jest w zdaniu.',
     mode: 'Tryb',
     modes: { random: 'losowo', weak: 'słabe punkty' },
     weakNeedsLogin:
@@ -321,26 +321,55 @@ export const pl = {
     all: 'wszystko',
     level: 'Poziom',
     levels: { 0: 'każdy', 1: 'łatwe', 2: 'średnie', 3: 'trudne' } as Record<number, string>,
-    count: 'Ile zdań',
-    matching: (n: number) => `pasuje: ${n} ${plural(n, 'zdanie', 'zdania', 'zdań')}`,
+    count: 'Ile zadań',
+    matching: (n: number) => `pasuje: ${n} ${plural(n, 'zadanie', 'zadania', 'zadań')}`,
     start: 'Zacznij',
     continue: 'Kontynuuj serię',
     progressLink: 'Postęp w czasach',
-    sessionEyebrow: (n: number) => `Ćwiczenia · ${n} ${plural(n, 'zdanie', 'zdania', 'zdań')}`,
+    sessionEyebrow: (n: number) => `Ćwiczenia · ${n} ${plural(n, 'zadanie', 'zadania', 'zadań')}`,
     mixed: 'Mieszane',
     gapLabel: (n: number, base: string) => `Luka ${n}, czasownik ${base}`,
+    // polecenia jak w arkuszu, osobno dla każdego typu zadania
+    task: {
+      verb: 'Uzupełnij lukę poprawną formą wyrazów z nawiasu.',
+      words: (max: number) =>
+        `Użyj wyrazów z nawiasu w podanej kolejności. Możesz zmieniać ich formę i dodawać słowa. Najwyżej ${max} ${plural(max, 'wyraz', 'wyrazy', 'wyrazów')}, skrót (don't) liczy się jako jeden.`,
+      choice: (gaps: number) =>
+        gaps > 1
+          ? 'Wybierz poprawne uzupełnienie każdej luki.'
+          : 'Wybierz poprawne uzupełnienie luki.',
+      wordFormation: 'Uzupełnij każdą lukę jednym wyrazem utworzonym od wyrazu w nawiasie.',
+      wordBox: (extra: number) =>
+        `Utwórz od wyrazów z ramki wyrazy pasujące do luk. ${extra === 1 ? 'Jeden wyraz jest zbędny.' : `${extra} wyrazy są zbędne.`}`,
+      keyWord: (max: number) =>
+        `Uzupełnij drugie zdanie tak, żeby znaczyło to samo co pierwsze. Użyj słowa z ramki bez zmieniania jego formy. Najwyżej ${max} wyrazów razem z nim.`,
+    },
+    gapN: (n: number) => `Luka ${n}`,
+    gapInput: (n: number, base: string) => `Luka ${n}, wyraz ${base}`,
+    answerLabel: 'Twoja odpowiedź',
+    keyWordLabel: 'słowo klucz',
+    boxLabel: 'Wyrazy do wykorzystania',
+    wordCount: (n: number, max: number) => `${n} / ${max} wyr.`,
+    miss: {
+      empty: 'Luka została pusta.',
+      'key-missing': 'Brakuje słowa kluczowego albo zmieniła się jego forma.',
+      'too-long': 'Za dużo wyrazów — na maturze to od razu 0 punktów.',
+      wrong: 'Ta odpowiedź nie pasuje.',
+    },
+    keyIs: 'Klucz:',
+    points: (good: number, total: number) => `${good} / ${total} pkt`,
     check: 'Sprawdź',
     checkAll: 'Sprawdź wszystkie wpisane',
     result: 'Wynik',
-    checkedOf: (done: number) =>
-      `/ ${done} ${plural(done, 'sprawdzone', 'sprawdzone', 'sprawdzonych')}`,
+    checkedOf: (done: number) => `/ ${done} pkt`,
     why: (name: string) => `Dlaczego ${name}?`,
     whyGeneric: 'Dlaczego tak?',
     good: 'Dobrze',
     bad: 'Źle',
     showSteps: 'Pokaż kroki',
     hideSteps: 'Schowaj kroki',
-    finished: (good: number, total: number) => `Koniec serii: ${good} z ${total} dobrze.`,
+    finished: (good: number, total: number) =>
+      `Koniec serii: ${good} z ${total} ${plural(total, 'punktu', 'punktów', 'punktów')}.`,
     newSeries: 'Nowa seria',
     changeSettings: 'Zmień ustawienia',
     notSaved: 'Nie jesteś zalogowany — wynik nie trafi do postępu.',

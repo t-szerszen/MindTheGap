@@ -1,6 +1,7 @@
 import { Icon, type IconName } from '../../components/Icon'
 import { pl } from '../../i18n/pl'
 import { useExercises } from '../../lib/content'
+import { exerciseLabel } from '../../lib/exercises/check'
 import { englishSide } from '../../lib/vocab'
 import { useAttempts } from '../exercises/useAttempts'
 import { useWords } from '../vocabulary/useWords'
@@ -22,15 +23,18 @@ export function RecentActivity() {
   const { words } = useWords()
   const { attempts } = useAttempts()
   const exercises = useExercises()
+  // próba z tekstu z lukami ma klucz luki, np. "cloze-1#3"
+  const label = (key: string) => {
+    const ex = exercises.find((e) => e.id === key.split('#')[0])
+    return ex ? exerciseLabel(ex) : key
+  }
 
   const items: Item[] = [
     ...attempts.slice(0, 10).map((a) => ({
       key: `a${a.id}`,
       at: a.at,
       mark: a.correct ? ('ok' as const) : ('bad' as const),
-      text:
-        exercises.find((e) => e.id === a.exerciseId)?.sentence.replace(/___ \(([^)]+)\)/, '___') ??
-        a.exerciseId,
+      text: label(a.exerciseId),
     })),
     ...words.slice(0, 10).map((w) => ({
       key: `w${w.id}`,

@@ -1,5 +1,5 @@
 import { z } from 'zod'
-import { countGaps } from '../lib/exercises/gap'
+import { countBlanks, countGaps } from '../lib/exercises/gap'
 
 // jedno źródło prawdy dla treści: typy w aplikacji to z.infer z tych schematów
 
@@ -188,6 +188,15 @@ export const phraseSetSchema = z.strictObject({
     .min(1),
 })
 
+const exStep = z.strictObject({ label_pl: txt, text_pl: txt })
+const steps = z.array(exStep).min(2).max(5)
+const tags = z.array(id).min(1)
+const difficulty = z.union([z.literal(1), z.literal(2), z.literal(3)])
+// limit wyrazów jak na maturze; skrót liczy się jako jeden wyraz (zasady CKE)
+const maxWords = z.number().int().min(1).max(8)
+
+// jedno zdanie z luką "___ (base)": czasy, a z maxWords też zad. 9 z lat 2023-2025
+// (wyrazy z nawiasu w podanej kolejności, można zmieniać formy i dodawać słowa)
 export const gapFillSchema = z
   .strictObject({
     id,
@@ -195,17 +204,105 @@ export const gapFillSchema = z
     sentence: txt,
     correct: z.array(txt).min(1),
     accepted: z.array(txt).optional(),
-    steps: z
-      .array(z.strictObject({ label_pl: txt, text_pl: txt }))
-      .min(2)
-      .max(5),
-    tags: z.array(id).min(1),
-    difficulty: z.union([z.literal(1), z.literal(2), z.literal(3)]),
+    maxWords: maxWords.optional(),
+    steps,
+    tags,
+    difficulty,
   })
   .refine((e) => countGaps(e.sentence) === 1, 'zdanie musi mieć dokładnie jedną lukę "___ (verb)"')
 
-// kolejne typy (multiple-choice, transformation) dopisuje się tutaj i w ExerciseItem
-export const exerciseSchema = z.discriminatedUnion('type', [gapFillSchema])
+// wybór A-D: zdanie z jedną luką albo tekst z kilkoma (zad. 7 to tekst z 6 lukami)
+export const choiceSchema = z
+  .strictObject({
+    id,
+    type: z.literal('choice'),
+    title: txt.optional(),
+    text: txt,
+    gaps: z
+      .array(
+        z.strictObject({
+          options: z.array(txt).min(3).max(4),
+          answer: z.number().int().min(0).max(3),
+          steps,
+        }),
+      )
+      .min(1),
+    tags,
+    difficulty,
+  })
+  .superRefine((e, ctx) => {
+    if (countBlanks(e.text) !== e.gaps.length)
+      ctx.addIssue({
+        code: 'custom',
+        message: 'liczba luk ___ w tekście musi równać się liczbie gaps',
+      })
+    e.gaps.forEach((g, i) => {
+      if (g.answer >= g.options.length)
+        ctx.addIssue({ code: 'custom', message: `luka ${i + 1}: answer poza listą opcji` })
+      if (new Set(g.options).size !== g.options.length)
+        ctx.addIssue({ code: 'custom', message: `luka ${i + 1}: powtórzona opcja` })
+    })
+  })
+
+// słowotwórstwo: wyraz w nawiasie przy luce albo (jak w 2025) ramka z wyrazami, w tym zbędnymi
+export const wordFormationSchema = z
+  .strictObject({
+    id,
+    type: z.literal('word-formation'),
+    title: txt.optional(),
+    text: txt,
+    box: z.array(txt).optional(),
+    gaps: z
+      .array(
+        z.strictObject({
+          base: txt,
+          correct: z.array(txt).min(1),
+          accepted: z.array(txt).optional(),
+          steps,
+        }),
+      )
+      .min(1),
+    tags,
+    difficulty,
+  })
+  .superRefine((e, ctx) => {
+    if (countBlanks(e.text) !== e.gaps.length)
+      ctx.addIssue({
+        code: 'custom',
+        message: 'liczba luk ___ w tekście musi równać się liczbie gaps',
+      })
+    if (e.box) {
+      if (e.box.length <= e.gaps.length)
+        ctx.addIssue({ code: 'custom', message: 'ramka musi mieć więcej wyrazów niż luk' })
+      for (const g of e.gaps)
+        if (!e.box.includes(g.base))
+          ctx.addIssue({ code: 'custom', message: `wyraz ${g.base} nie jest w ramce` })
+    }
+  })
+
+// transformacja ze słowem kluczem (zad. 9 w 2026): słowa nie wolno odmieniać, max 5 wyrazów razem z nim
+export const keyWordSchema = z
+  .strictObject({
+    id,
+    type: z.literal('key-word-transformation'),
+    source: txt,
+    keyWord: txt.regex(/^[A-Z][A-Z' -]*$/, 'słowo klucz wielkimi literami'),
+    target: txt,
+    maxWords: maxWords.default(5),
+    correct: z.array(txt).min(1),
+    accepted: z.array(txt).optional(),
+    steps,
+    tags,
+    difficulty,
+  })
+  .refine((e) => countBlanks(e.target) === 1, 'zdanie docelowe musi mieć dokładnie jedną lukę ___')
+
+export const exerciseSchema = z.discriminatedUnion('type', [
+  gapFillSchema,
+  choiceSchema,
+  wordFormationSchema,
+  keyWordSchema,
+])
 export const exerciseFileSchema = z.array(exerciseSchema).min(1)
 
 export type Role = z.infer<typeof roleSchema>
@@ -220,4 +317,8 @@ export type Topic = z.infer<typeof topicSchema>
 export type PhraseSet = z.infer<typeof phraseSetSchema>
 export type PhraseItem = PhraseSet['items'][number]
 export type GapFillExercise = z.infer<typeof gapFillSchema>
+export type ChoiceExercise = z.infer<typeof choiceSchema>
+export type WordFormationExercise = z.infer<typeof wordFormationSchema>
+export type KeyWordExercise = z.infer<typeof keyWordSchema>
+export type ExStep = z.infer<typeof exStep>
 export type Exercise = z.infer<typeof exerciseSchema>
