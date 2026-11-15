@@ -5,7 +5,7 @@
   "group": "present",
   "aspect": "perfect",
   "tabLabel": ["Pres.", "Perf."],
-  "oneLiner_pl": "łączy przeszłość z TERAZ: liczy się skutek albo doświadczenie, nie moment",
+  "oneLiner_pl": "łączy przeszłość z TERAZ: liczy się skutek, doświadczenie albo stan do dziś, a nie KIEDY",
   "timeline": {
     "now": 0.65,
     "marks": [
@@ -16,19 +16,19 @@
   "howToChoose": [
     {
       "step_pl": "sygnał",
-      "text_pl": "Szukasz słów: ever, never, just, already, yet, so far, for, since. I sprawdzasz, czy w zdaniu NIE ma konkretnego momentu w przeszłości (yesterday, ago, in 2020)."
+      "text_pl": "Szukasz słów: ever, never, just, already, yet, still (w przeczeniu), so far, for, since, How long…? albo okresu, który jeszcze trwa (today, this week). I sprawdzasz, czy przy tej czynności NIE ma konkretnego, zamkniętego momentu w przeszłości (yesterday, ago, last week, in 2020)."
     },
     {
       "step_pl": "relacja w czasie",
-      "text_pl": "Coś wydarzyło się wcześniej, ale patrzysz na to z perspektywy TERAZ: liczy się skutek, doświadczenie albo stan, który trwa do dziś."
+      "text_pl": "Coś wydarzyło się wcześniej, ale patrzysz na to z perspektywy TERAZ: liczy się skutek, doświadczenie (ile razy do tej pory) albo stan, który trwa do dziś. Stąd have w czasie teraźniejszym: „mam to już za sobą”."
     },
     {
       "step_pl": "pułapka",
-      "text_pl": "Jeśli pojawia się zakończony moment (yesterday, last week, when I was ten), to już Past Simple — nawet jeśli po polsku brzmi identycznie."
+      "text_pl": "Zakończony moment (yesterday, last week, when I was ten) to Past Simple, nawet jeśli po polsku brzmi identycznie. I odwrotnie: „mieszkam tu od roku” albo „znam go od dawna” mówisz po polsku w teraźniejszym, a po angielsku stan od przeszłości do teraz to Present Perfect. for też bywa w Past Simple, gdy okres już się zamknął."
     },
     {
       "step_pl": "forma",
-      "text_pl": "have / has + V3. Przeczenie: haven't / hasn't + V3. Pytanie: Have / Has + podmiot + V3?"
+      "text_pl": "have / has + V3. Przeczenie: haven't / hasn't + V3. Pytanie: Have / Has + podmiot + V3? Skrót 's może znaczyć has (she's gone = she has gone) albo is (she's going = she is going) — rozstrzyga to, co stoi dalej."
     }
   ],
   "forms": {
@@ -40,7 +40,7 @@
           { "text": "V3", "role": "verb" }
         ],
         "example": { "en": "She has finished her essay.", "pl": "Skończyła (już) rozprawkę." },
-        "note_pl": "he / she / it → has, reszta → have. V3 to trzecia forma: regularne -ed (worked), nieregularne z tabeli (go → gone)."
+        "note_pl": "he / she / it → has, reszta → have. V3 to trzecia forma: regularne -ed (worked), nieregularne z tabeli (go → gone, write → written). have stoi w czasie teraźniejszym i to on robi z całości czas „present”: z teraz patrzysz na coś, co już masz za sobą. W amerykańskim get ma zwykle V3 gotten (I've gotten used to it), w brytyjskim — got (I've got used to it). Uwaga: I've got w znaczeniu „mam” (posiadanie) to nie Present Perfect, tylko have got, które znaczy to samo co zwykłe have. W tym znaczeniu także w amerykańskim jest got, a I've gotten znaczy tam „dostałem, zdobyłem”."
       },
       "negative": {
         "pattern": [
@@ -53,7 +53,7 @@
           "en": "I haven't seen this film yet.",
           "pl": "Jeszcze nie widziałem tego filmu."
         },
-        "note_pl": "Skróty: haven't, hasn't. W przeczeniach często pojawia się yet na końcu zdania."
+        "note_pl": "Skróty: haven't, hasn't. yet idzie na koniec zdania, a still — przed haven't: I still haven't seen it (w bardziej formalnym stylu też I have still not seen it). Z never czasownik zostaje twierdzący, bo never już przeczy: I've never seen it, nie I haven't never seen it."
       },
       "question": {
         "pattern": [
@@ -63,7 +63,7 @@
           { "text": "?", "role": "neutral" }
         ],
         "example": { "en": "Have you ever been to London?", "pl": "Byłeś kiedyś w Londynie?" },
-        "note_pl": "ever stoi między podmiotem a V3."
+        "note_pl": "ever stoi między podmiotem a V3. Krótka odpowiedź powtarza tylko have / has, bez V3: Yes, I have. / No, I haven't."
       },
       "whQuestion": {
         "pattern": [
@@ -74,7 +74,7 @@
           { "text": "?", "role": "neutral" }
         ],
         "example": { "en": "How long have you known Ola?", "pl": "Jak długo znasz Olę?" },
-        "note_pl": "Gdy pytasz o podmiot (Who? What?), nie ma przestawienia: Who has eaten my sandwich?"
+        "note_pl": "How long…? (jak długo, aż do teraz) → Present Perfect. Ale How long ago…? (ile czasu temu) pyta o moment, więc idzie w Past Simple: How long ago did you move here? Gdy pytasz o podmiot (Who? What?), nie ma przestawienia: Who has eaten my sandwich?"
       }
     },
     "passive": {
@@ -85,7 +85,7 @@
           { "text": "V3", "role": "verb" }
         ],
         "example": { "en": "The bridge has been repaired.", "pl": "Most został naprawiony." },
-        "note_pl": "Bierna = have / has + been + V3. Wykonawcę dodajesz przez by, tylko gdy jest ważny."
+        "note_pl": "Bierna = have / has + been + V3. have / has been niesie Present Perfect (been to V3 od be), a końcowe V3 daje sens bierny. Wykonawcę dodajesz przez by, tylko gdy jest ważny."
       },
       "negative": {
         "pattern": [
@@ -98,7 +98,8 @@
         "example": {
           "en": "The results haven't been published yet.",
           "pl": "Wyniki nie zostały jeszcze opublikowane."
-        }
+        },
+        "note_pl": "not stoi zaraz po have / has, przed been: hasn't been sent, haven't been published."
       },
       "question": {
         "pattern": [
@@ -108,7 +109,8 @@
           { "text": "V3", "role": "verb" },
           { "text": "?", "role": "neutral" }
         ],
-        "example": { "en": "Has the parcel been sent?", "pl": "Czy paczka została wysłana?" }
+        "example": { "en": "Has the parcel been sent?", "pl": "Czy paczka została wysłana?" },
+        "note_pl": "Przed podmiot idzie tylko have / has. been i V3 zostają za podmiotem."
       },
       "whQuestion": {
         "pattern": [
@@ -122,7 +124,8 @@
         "example": {
           "en": "Why has the concert been cancelled?",
           "pl": "Dlaczego koncert został odwołany?"
-        }
+        },
+        "note_pl": "Pytanie o podmiot idzie bez przestawienia: What has been stolen? (Co zostało skradzione?)"
       }
     }
   },
@@ -139,7 +142,7 @@
         "en": "She must have forgotten about the meeting.",
         "pl": "Musiała zapomnieć o spotkaniu."
       },
-      "note_pl": "Pewność co do przeszłości — wnioskujesz z dowodów. To nie jest Present Perfect, tylko ten sam kawałek have + V3 po czasowniku modalnym, i dotyczy przeszłości."
+      "note_pl": "Pewność co do przeszłości — wnioskujesz z dowodów. To nie jest Present Perfect, tylko konstrukcja modalna: ten sam kawałek have + V3 po czasowniku modalnym, i dotyczy przeszłości. Po modalnym zawsze have, nigdy has: she must have, nie she must has."
     },
     {
       "modal": "can't have",
@@ -153,7 +156,21 @@
         "en": "He can't have seen us — he was in Gdańsk all week.",
         "pl": "Nie mógł nas widzieć — cały tydzień był w Gdańsku."
       },
-      "note_pl": "Pewność, że coś się NIE wydarzyło. Przeczenie od must have to can't have, a nie mustn't have."
+      "note_pl": "Pewność, że coś się NIE wydarzyło. Zamiast can't have możesz też powiedzieć couldn't have. W brytyjskim przeczeniem od must have jest zwykle can't have, a nie mustn't have. W amerykańskim usłyszysz też must not have (He must not have seen us)."
+    },
+    {
+      "modal": "could have",
+      "pattern": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "could", "role": "aux" },
+        { "text": "have", "role": "aux" },
+        { "text": "V3", "role": "verb" }
+      ],
+      "example": {
+        "en": "You could have told me you weren't coming!",
+        "pl": "Mogłeś mi powiedzieć, że nie przyjdziesz!"
+      },
+      "note_pl": "Możliwość, z której nie skorzystano, często z wyrzutem. Bywa też przypuszczeniem o przeszłości, tak jak might have: He could have missed the bus."
     },
     {
       "modal": "should have",
@@ -167,7 +184,21 @@
         "en": "You should have told me earlier.",
         "pl": "Powinieneś był powiedzieć mi wcześniej."
       },
-      "note_pl": "Krytyka albo żal: należało coś zrobić, a tego nie zrobiono."
+      "note_pl": "Krytyka albo żal: należało coś zrobić, a tego nie zrobiono. shouldn't have — odwrotnie: zrobiono coś, czego nie należało (I shouldn't have eaten so much)."
+    },
+    {
+      "modal": "needn't have",
+      "pattern": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "needn't", "role": "aux" },
+        { "text": "have", "role": "aux" },
+        { "text": "V3", "role": "verb" }
+      ],
+      "example": {
+        "en": "You needn't have bought flowers, but they're lovely.",
+        "pl": "Nie trzeba było kupować kwiatów, ale są piękne."
+      },
+      "note_pl": "Zrobiłeś coś, czego nie trzeba było, czyli niepotrzebnie. I didn't need to buy flowers mówi tylko, że nie było trzeba, i zwykle znaczy, że ich nie kupiłeś. needn't have jest głównie brytyjskie, w amerykańskim powiesz raczej You didn't need to / didn't have to buy flowers."
     },
     {
       "modal": "may / might have",
@@ -184,7 +215,7 @@
   "uses": [
     {
       "title_pl": "Doświadczenie życiowe (bez „kiedy”)",
-      "explanation_pl": "Mówisz, że coś zdarzyło się (albo nie) kiedykolwiek w twoim życiu aż do teraz. Moment nie jest ważny, więc go nie podajesz. Typowe słowa: ever, never, before, once, twice.",
+      "explanation_pl": "Mówisz, że coś zdarzyło się (albo nie) kiedykolwiek w twoim życiu aż do teraz. Moment nie jest ważny, więc go nie podajesz. Typowe słowa: ever, never, before, once, twice. Przy podróżach i wizytach doświadczenie to have been to (byłem tam i wróciłem), a nie have gone to — gone znaczy, że ktoś pojechał i dalej tam jest.",
       "examples": [
         { "en": "I have never eaten sushi.", "pl": "Nigdy nie jadłem sushi." },
         { "en": "Have you ever been to Scotland?", "pl": "Byłeś kiedyś w Szkocji?" },
@@ -193,33 +224,37 @@
     },
     {
       "title_pl": "Skutek widoczny teraz",
-      "explanation_pl": "Czynność się skończyła, ale jej efekt jest ważny w chwili mówienia. Często z just, already i yet.",
+      "explanation_pl": "Czynność się skończyła, ale jej efekt jest ważny w chwili mówienia. Często z just, already i yet: just stoi między have a V3, already zwykle też (czasem na końcu: I've paid already), a yet — na końcu pytania albo przeczenia. has gone to też jest skutkiem: ktoś wyjechał i dlatego teraz go nie ma. W amerykańskim angielskim z just, already i yet często słychać Past Simple (Did you eat yet?, I just saw him). W brytyjskim jest Present Perfect (Have you eaten yet?) i tę wersję traktuj jako domyślną — jest poprawna w obu odmianach.",
       "examples": [
         {
           "en": "I've lost my keys, so I can't get in.",
           "pl": "Zgubiłem klucze, więc nie mogę wejść."
         },
         {
-          "en": "She has just left — you've missed her.",
-          "pl": "Właśnie wyszła — minąłeś się z nią."
+          "en": "My brother has gone to Spain on an Erasmus exchange, so I have our room all to myself.",
+          "pl": "Brat wyjechał do Hiszpanii na Erasmusa, więc mam nasz pokój tylko dla siebie."
         },
         { "en": "Have you finished your homework yet?", "pl": "Skończyłeś już pracę domową?" }
       ]
     },
     {
       "title_pl": "Stan, który trwa do teraz (for / since)",
-      "explanation_pl": "Sytuacja zaczęła się w przeszłości i trwa nadal. for = jak długo (for three years), since = od kiedy (since 2019). Po polsku mówimy wtedy w czasie teraźniejszym („mieszkam tu od…”), dlatego tak łatwo o błąd.",
+      "explanation_pl": "Sytuacja zaczęła się w przeszłości i trwa nadal. for = jak długo (for three years, for ages), since = od kiedy (since 2019, since Monday). Po since może stać całe zdanie. Zwykle jest ono w Past Simple, bo nazywa tylko moment startu, który już minął: since I was ten, since we moved. Gdy obie sytuacje trwają do teraz, bywa też Present Perfect: I've known her since I've lived here. Po polsku mówimy w czasie teraźniejszym („mieszkam tu od…”), dlatego tak łatwo o błąd. Przy czasownikach stanu (know, have = mieć, be) to jedyna opcja. Przy live i work możliwy jest też Present Perfect Continuous (I've lived / I've been living here for years). A przy czynnościach, które trwają i jeszcze się nie skończyły, jak learn albo wait, naturalniej brzmi Continuous: I've been learning English for ten years.",
       "examples": [
         {
           "en": "We have lived in Kraków since 2018.",
           "pl": "Mieszkamy w Krakowie od 2018 roku."
         },
-        { "en": "I've known Kasia for ten years.", "pl": "Znam Kasię od dziesięciu lat." }
+        { "en": "I've known Kasia for ten years.", "pl": "Znam Kasię od dziesięciu lat." },
+        {
+          "en": "I've wanted to be a vet since I was ten.",
+          "pl": "Od kiedy miałem dziesięć lat, chcę zostać weterynarzem."
+        }
       ]
     },
     {
       "title_pl": "Okres, który jeszcze trwa (today, this week, so far)",
-      "explanation_pl": "Jeśli okres się nie skończył (today, this week, this year, so far), liczysz wszystko od jego początku do teraz.",
+      "explanation_pl": "Jeśli okres się nie skończył (today, this week, this year, so far), liczysz wszystko od jego początku do teraz. Tak samo in recent years, in the last few years albo over the past decade: okres sięga aż do teraz. this morning działa tak samo, ale tylko dopóki trwa poranek: o dziesiątej powiesz I've had two lessons this morning, a o trzeciej po południu — I had two lessons this morning, bo poranek już minął i to Past Simple.",
       "examples": [
         { "en": "I've drunk three cups of coffee today.", "pl": "Wypiłem dziś trzy kawy." },
         {
@@ -231,39 +266,118 @@
     },
     {
       "title_pl": "Nowość, a potem szczegóły",
-      "explanation_pl": "Wiadomość często zaczyna się od Present Perfect (co się stało — ważne teraz), a szczegóły z konkretnym czasem lecą już w Past Simple.",
+      "explanation_pl": "Wiadomość często zaczyna się od Present Perfect (co się stało — ważne teraz), a szczegóły z konkretnym czasem lecą już w Past Simple. Tak brzmią serwisy informacyjne w radiu i telewizji. W samych nagłówkach gazet i portali jest zwykle Present Simple (PM resigns), ale to osobny, skrótowy styl.",
       "examples": [
         {
           "en": "Our school has won the national debating competition! The final took place in Warsaw last Friday.",
           "pl": "Nasza szkoła wygrała ogólnopolski konkurs debat! Finał odbył się w Warszawie w zeszły piątek."
+        },
+        {
+          "en": "The Prime Minister has just announced an early election. He made the statement outside Downing Street at noon.",
+          "pl": "Premier właśnie ogłosił przedterminowe wybory. Oświadczenie wygłosił w południe przed Downing Street."
+        }
+      ]
+    },
+    {
+      "title_pl": "Pierwszy raz, kolejny raz, najlepszy w życiu",
+      "explanation_pl": "Po It's / This is the first (second, third…) time liczysz, ile razy coś zdarzyło się od zawsze aż do teraz, więc idzie Present Perfect, choć po polsku mówimy w teraźniejszym („pierwszy raz tu jestem”). Tak samo po stopniu najwyższym z ever: porównujesz z całym życiem do teraz. Gdy cała historia jest w przeszłości, wszystko przesuwa się o krok wstecz: It was the first time I had seen snow (Past Perfect).",
+      "examples": [
+        {
+          "en": "This is the first time I've been to a real rock concert.",
+          "pl": "Pierwszy raz jestem na prawdziwym koncercie rockowym."
+        },
+        {
+          "en": "It's the second time this week the bus has been late.",
+          "pl": "Autobus spóźnił się już drugi raz w tym tygodniu."
+        },
+        {
+          "en": "It's the best book I've ever read.",
+          "pl": "To najlepsza książka, jaką kiedykolwiek przeczytałem."
+        }
+      ]
+    },
+    {
+      "title_pl": "Zdania czasowe o przyszłości (when, as soon as, until)",
+      "explanation_pl": "Po when, as soon as, after, until, once i before w zdaniu o przyszłości nie ma will. Zwykle wystarczy Present Simple (when I finish), ale Present Perfect podkreśla, że jedno musi się skończyć, zanim zacznie się drugie. To ten sam pomysł „mam to już za sobą”, tylko patrzysz z momentu w przyszłości. Gdy obie rzeczy dzieją się w tej samej chwili, zostaje Present Simple: When I see Ola, I'll give her your message.",
+      "examples": [
+        {
+          "en": "I'll call you as soon as I've finished my essay.",
+          "pl": "Zadzwonię, jak tylko skończę rozprawkę."
+        },
+        {
+          "en": "You can't go out until you've tidied your room.",
+          "pl": "Nie wyjdziesz, dopóki nie posprzątasz pokoju."
         }
       ]
     }
   ],
   "signalWords": [
-    { "word": "ever", "note_pl": "kiedykolwiek — głównie w pytaniach" },
-    { "word": "never", "note_pl": "nigdy (do teraz)" },
-    { "word": "just", "note_pl": "właśnie — stoi przed V3" },
-    { "word": "already", "note_pl": "już — zwykle w twierdzeniach" },
-    { "word": "yet", "note_pl": "już? / jeszcze nie — w pytaniach i przeczeniach, na końcu" },
-    { "word": "for", "note_pl": "+ okres: for two years" },
-    { "word": "since", "note_pl": "+ punkt startowy: since Monday, since 2019" },
-    { "word": "so far", "note_pl": "jak dotąd" },
     {
-      "word": "recently",
-      "note_pl": "ostatnio (bywa też z Past Simple, gdy podajesz konkretne wydarzenie)"
+      "word": "ever",
+      "note_pl": "kiedykolwiek — w pytaniach (Have you ever…?) i po stopniu najwyższym (the best film I've ever seen). Stoi przed V3. W zwykłym twierdzeniu go nie ma: I've been there, nie I've ever been there. Uwaga: gdy okres się zamknął, ever idzie z Past Simple: Did you ever go skiing when you lived in Austria?"
     },
-    { "word": "before", "note_pl": "wcześniej, przedtem — na końcu zdania" },
-    { "word": "today / this week", "note_pl": "okres, który jeszcze się nie skończył" },
     {
-      "word": "It's the first time…",
-      "note_pl": "po tym zwrocie Present Perfect: It's the first time I've seen snow."
+      "word": "never",
+      "note_pl": "nigdy (do teraz); czasownik zostaje twierdzący: I've never…, nie I haven't never… Uwaga: never bywa też w Present Simple, gdy mówisz o nawyku (I never drink coffee), i w Past Simple, gdy okres się zamknął: My great-grandad never learnt to drive (już nie żyje)"
+    },
+    {
+      "word": "just",
+      "note_pl": "właśnie, przed chwilą — między have / has a V3: I've just finished. W amerykańskim często z Past Simple (I just finished). Uwaga: just now (przed chwilą) idzie z Past Simple: I saw her just now. A just w znaczeniu „po prostu, tylko” (I just want to sleep) w ogóle nie jest sygnałem"
+    },
+    {
+      "word": "already",
+      "note_pl": "już — zwykle między have a V3 (I've already paid). Na końcu pytania pokazuje zdziwienie: Have you finished already? W amerykańskim też z Past Simple (I already paid)"
+    },
+    {
+      "word": "yet",
+      "note_pl": "już? (w pytaniu) / jeszcze nie (w przeczeniu) — na końcu zdania: Have you finished yet? I haven't finished yet. W amerykańskim też Did you finish yet?"
+    },
+    {
+      "word": "still",
+      "note_pl": "w przeczeniu stoi PRZED haven't / hasn't: I still haven't decided — coś wciąż się nie wydarzyło, choć powinno. Samo still nie wybiera czasu: I'm still waiting (Continuous), He still lives with his parents (Simple)"
+    },
+    {
+      "word": "for",
+      "note_pl": "+ okres: for two years, for ages, for the last few months. Uwaga: z okresem, który się zamknął, idzie Past Simple: I lived there for two years (już tam nie mieszkam)"
+    },
+    {
+      "word": "since",
+      "note_pl": "+ punkt startowy: since Monday, since 2019, since last summer, since then. Albo + zdanie, zwykle w Past Simple: since I was ten, since we moved. Uwaga: since znaczy też „ponieważ” i wtedy nie jest sygnałem"
+    },
+    {
+      "word": "How long…?",
+      "note_pl": "jak długo (aż do teraz)? → How long have you known her? Ale How long ago…? (ile czasu temu) → Past Simple, a How long does it take? (ile to zwykle trwa) → Present Simple"
+    },
+    { "word": "so far / up to now", "note_pl": "jak dotąd, do tej pory" },
+    {
+      "word": "recently / lately",
+      "note_pl": "ostatnio. lately idzie zwykle z Present Perfect albo Present Perfect Continuous (I haven't slept well lately). recently bywa też z Past Simple, gdy chodzi o konkretne zdarzenie: I recently met an old friend"
+    },
+    {
+      "word": "before",
+      "note_pl": "wcześniej, przedtem — na końcu zdania: I've never been here before. Uwaga: before + rzeczownik albo zdanie (before the exam, before I left) znaczy „przed” i samo nie wskazuje na Present Perfect"
+    },
+    {
+      "word": "today / this week / this year",
+      "note_pl": "okres, który jeszcze się nie skończył. this morning / this afternoon tylko dopóki trwa — gdy minął, Past Simple. Uwaga: this week bywa też w Present Continuous, gdy opisujesz tymczasową sytuację: I'm working late this week"
+    },
+    {
+      "word": "in recent years / over the past decade",
+      "note_pl": "w ostatnich latach, aż do teraz (tak samo in the last few years). Typowe w rozprawce i artykule: Prices have risen sharply over the past decade. Przy czynności, która trwa, też Present Perfect Continuous: I've been revising a lot in the last few weeks"
+    },
+    {
+      "word": "once / twice / three times",
+      "note_pl": "ile razy do tej pory: I've been to Rome twice. Uwaga: z zamkniętym okresem → Past Simple: I went to Rome twice last year. once w znaczeniu „kiedyś, pewnego razu” (I once met a famous actor) zwykle idzie z Past Simple"
+    },
+    {
+      "word": "the first time…",
+      "note_pl": "po It's / This is the first (second…) time → Present Perfect: It's the first time I've seen snow. Po It was the first time → Past Perfect"
     }
   ],
   "relatedTenses": [
     {
       "id": "past-simple",
-      "relation_pl": "Past Simple, gdy podajesz (albo masz w głowie) konkretny, zakończony moment. Present Perfect, gdy moment jest nieważny, a liczy się związek z teraz.",
+      "relation_pl": "Pytanie kontrolne: czy jest (w zdaniu albo w głowie mówiącego) konkretny, zamknięty moment? Jest → Past Simple. Nie ma, a liczy się skutek, doświadczenie albo okres trwający do teraz → Present Perfect. Typowy układ: nowina w Present Perfect, szczegóły (kiedy, gdzie, jak) w Past Simple. When…? i What time…? pytają o moment, więc idą w Past Simple: When did you meet her?, nie When have you met her? Okres może się też zamknąć bez sygnału w zdaniu: gdy ktoś nie żyje albo coś już nie istnieje, nie ma „do teraz”, więc Past Simple.",
       "contrast": [
         { "en": "I've seen this film.", "pl": "Widziałem ten film (kiedyś — wiem, o czym jest)." },
         {
@@ -277,12 +391,28 @@
         {
           "en": "She worked here for five years.",
           "pl": "Pracowała tu przez pięć lat (już nie pracuje)."
+        },
+        {
+          "en": "Have you seen Kuba this morning?",
+          "pl": "Widziałeś dziś rano Kubę? (pytanie zadane rano — poranek trwa)"
+        },
+        {
+          "en": "Did you see Kuba this morning?",
+          "pl": "Widziałeś dziś rano Kubę? (pytanie zadane po południu — poranek minął)"
+        },
+        {
+          "en": "My grandma has never been abroad.",
+          "pl": "Babcia nigdy nie była za granicą (żyje, jeszcze może pojechać)."
+        },
+        {
+          "en": "My great-grandma never went abroad.",
+          "pl": "Prababcia nigdy nie była za granicą (już nie żyje, okres zamknięty)."
         }
       ]
     },
     {
       "id": "present-perfect-continuous",
-      "relation_pl": "Oba łączą przeszłość z teraz. Present Perfect skupia się na wyniku (ile, co gotowe), Continuous — na samej czynności i na tym, jak długo trwa.",
+      "relation_pl": "Oba łączą przeszłość z teraz. Present Perfect skupia się na wyniku (ile, co gotowe), Continuous — na samej czynności i na tym, jak długo trwa. Liczba albo How many…? → Present Perfect, How long…? przy czynności → zwykle Continuous. Czasowniki stanu (know, have = mieć, be, like) nie biorą -ing, więc zostają w Present Perfect: I've known her for years, nie I've been knowing her.",
       "contrast": [
         {
           "en": "I've written three emails this morning.",
@@ -291,6 +421,14 @@
         {
           "en": "I've been writing emails all morning.",
           "pl": "Cały ranek piszę maile (czynność, czas trwania)."
+        },
+        {
+          "en": "How many pages have you read?",
+          "pl": "Ile stron przeczytałeś? (wynik)"
+        },
+        {
+          "en": "How long have you been reading?",
+          "pl": "Jak długo już czytasz? (czynność, czas trwania)"
         }
       ]
     },
@@ -302,6 +440,33 @@
         {
           "en": "I wasn't hungry — I had already eaten.",
           "pl": "Nie byłem głodny — zjadłem już wcześniej."
+        },
+        {
+          "en": "It's the first time I've seen snow.",
+          "pl": "Pierwszy raz widzę śnieg."
+        },
+        {
+          "en": "It was the first time I had seen snow.",
+          "pl": "To był pierwszy raz, kiedy widziałem śnieg."
+        }
+      ]
+    },
+    {
+      "id": "present-simple",
+      "relation_pl": "Po polsku stan od przeszłości do teraz mówimy w teraźniejszym („znam ją od lat”, „od jak dawna tu jesteś?”). Present Simple mówi tylko, jak jest teraz, i nie liczy czasu od początku. Gdy for, since albo How long…? liczą czas do teraz, potrzebujesz Present Perfect. How long + Present Simple pyta o coś innego: ile coś zwykle trwa (How long does the lesson last?) albo, z for na końcu, na jak długo (How long are you here for?).",
+      "contrast": [
+        { "en": "I know Kasia.", "pl": "Znam Kasię (po prostu fakt)." },
+        {
+          "en": "I've known Kasia since primary school.",
+          "pl": "Znam Kasię od podstawówki (od kiedy → Present Perfect)."
+        },
+        {
+          "en": "How long are you here for?",
+          "pl": "Na jak długo przyjechałeś? (cały pobyt)"
+        },
+        {
+          "en": "How long have you been here?",
+          "pl": "Od jak dawna tu jesteś? (od przyjazdu do teraz)"
         }
       ]
     }
@@ -320,7 +485,12 @@
     {
       "wrong": "How long do you know Tom?",
       "right": "How long have you known Tom?",
-      "why_pl": "„Jak długo (aż do teraz)?” to pytanie o okres zaczęty w przeszłości → Present Perfect, mimo że po polsku pytamy w teraźniejszym."
+      "why_pl": "„Jak długo (aż do teraz)?” to pytanie o okres zaczęty w przeszłości → Present Perfect, mimo że po polsku pytamy w teraźniejszym. Uwaga: How long ago…? (ile czasu temu) pyta już o moment, więc Past Simple: How long ago did you meet him?"
+    },
+    {
+      "wrong": "I have ever been to Paris.",
+      "right": "I've been to Paris.",
+      "why_pl": "Polskie „kiedyś” w zdaniu twierdzącym to nie ever. ever pojawia się w pytaniach (Have you ever…?), w przeczeniach (I haven't ever… = I've never…) i po stopniu najwyższym. W twierdzeniu wystarczy samo Present Perfect, ewentualnie z before albo once."
     },
     {
       "wrong": "She has went to school.",
@@ -335,14 +505,25 @@
     {
       "wrong": "I've had this phone since two years.",
       "right": "I've had this phone for two years.",
-      "why_pl": "for + okres (two years, a week), since + punkt startowy (2019, Monday, I was ten)."
+      "why_pl": "for + okres (two years, a week), since + punkt startowy (2019, Monday). Po since może stać też całe zdanie, zwykle w Past Simple, gdy nazywa moment startu: since I was ten, nie since I have been ten."
+    },
+    {
+      "wrong": "My grandad has died for five years.",
+      "right": "My grandad has been dead for five years.",
+      "why_pl": "Po polsku „nie żyje od pięciu lat”, ale die to czynność jednorazowa: dzieje się w jednej chwili, więc for / since nie zmierzy jej długości. Tak samo buy, meet, arrive, get married. Do trwania potrzebujesz stanu: be dead, have, know, be here, be married. Albo podajesz moment w Past Simple: He died five years ago. for / since mogą za to liczyć powtórzenia (I've bought three books since Monday) albo brak czynności (I haven't met him for years)."
+    },
+    {
+      "wrong": "I'll send you the photos as soon as I will have edited them.",
+      "right": "I'll send you the photos as soon as I've edited them.",
+      "why_pl": "Po when, as soon as, until w zdaniu o przyszłości nie ma will ani will have. Przyszłość niesie zdanie główne, a w zdaniu czasowym zostaje Present Simple albo, gdy liczy się, że coś będzie już zrobione, Present Perfect."
     }
   ],
   "maturaTips_pl": [
-    "Zanim wpiszesz have / has + V3, przeczytaj całe zdanie: jedno yesterday albo ago gdziekolwiek zmienia wszystko na Past Simple.",
-    "Częsta transformacja: I've never seen such a big dog before. = It's the first time I've seen such a big dog.",
-    "Trzy wersje tego samego: It's two years since I last saw him. = I haven't seen him for two years. = The last time I saw him was two years ago.",
-    "Skróty w lukach są w porządku, ale uważaj: she's to she is albo she has. She's gone = she has gone.",
-    "W e-mailu Present Perfect świetnie otwiera nowinę: I've just passed my driving test! — brzmi naturalnie i pokazuje zakres struktur."
+    "Zanim wpiszesz have / has + V3, przeczytaj całe zdanie: yesterday, ago albo last week przy tej czynności zmienia ją na Past Simple. Ale sprawdź, czego dotyczy sygnał: w I've lived here since we moved two years ago słowo ago opisuje przeprowadzkę, a mieszkanie trwa do teraz.",
+    "Częsta transformacja: I've never seen such a big dog before. = It's the first time I've seen such a big dog. = It's the biggest dog I've ever seen.",
+    "Pięć wersji tego samego: I last saw him two years ago. = The last time I saw him was two years ago. = It's two years since I last saw him. = It's been (It has been) two years since I last saw him. = I haven't seen him for two years. It's been… usłyszysz w obu odmianach, w amerykańskim częściej niż It's two years since…, a przydaje się, gdy słowem kluczem jest BEEN.",
+    "W transformacjach z for / since czasem trzeba zmienić czasownik na stan: I bought this bike two years ago. = I've had this bike for two years. We met in 2019. = We've known each other since 2019. They got married in May. = They've been married since May. He died five years ago. = He has been dead for five years.",
+    "Uważaj na 's: she's to she is albo she has, a rozstrzyga to, co stoi dalej. she's gone, she's been → has, she's going, she's tired → is. Jeśli nie jesteś pewny, pisz pełną formę.",
+    "W rozprawce i artykule Present Perfect z in recent years albo over the past decade opisuje zmianę, która trwa do dziś: Over the past decade, smartphones have changed the way teenagers communicate. W liście formalnym dobrze otwiera sprawę: I have recently learnt that the council is planning to close our local library. Gdy podajesz konkretną datę (on 3 May, last week), przechodzisz na Past Simple. Różne czasy użyte na miejscu liczą się do zakresu środków językowych."
   ]
 }
