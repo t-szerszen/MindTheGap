@@ -1185,6 +1185,67 @@
   margin-top: 20px;
   padding: 8px 16px 8px;
 }
+/* odliczanie do matury */
+.exam-card {
+  padding: 10px 16px 8px;
+}
+.exam-rows {
+  display: block;
+  margin-top: 2px;
+}
+.exam-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 6px;
+  min-height: 30px;
+}
+.exam-name {
+  font-size: 21px;
+}
+.exam-dot {
+  color: var(--pencil);
+}
+.exam-left {
+  font-size: 23px;
+  font-weight: 700;
+  color: var(--pen-blue);
+}
+.exam-row.soon .exam-left {
+  color: var(--pen-red);
+}
+.exam-row.past {
+  opacity: 0.6;
+}
+.exam-when {
+  margin-left: auto;
+  font-size: 13px;
+}
+/* na wąskim telefonie data spadała do nowej linii, a karta ma być mała */
+@media (max-width: 479px) {
+  .exam-when {
+    display: none;
+  }
+}
+.exam-pick {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  min-height: 44px;
+  padding: 8px 0;
+  border-bottom: 1.5px dashed var(--faint);
+  cursor: pointer;
+}
+.exam-pick input {
+  width: 22px;
+  height: 22px;
+  margin-top: 3px;
+  flex: none;
+  accent-color: var(--pen-blue);
+}
+.exam-oral {
+  margin-top: 12px;
+}
 /* mała talia fiszek: dwie kartki pod spodem wystają, na wierzchu liczba */
 .mini-deck {
   position: relative;

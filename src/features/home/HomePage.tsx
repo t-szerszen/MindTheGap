@@ -13,6 +13,7 @@ import { useAuth } from '../auth/useAuth'
 import { loadSession, sessionProgress } from '../exercises/savedSession'
 import { useWords } from '../vocabulary/useWords'
 import { Cover } from './Cover'
+import { ExamCountdown } from './ExamCountdown'
 import { RecentActivity } from './RecentActivity'
 import { useActivityDays } from './useActivityDays'
 
@@ -79,6 +80,8 @@ export function HomePage() {
               {dateFmt.format(now)}
             </p>
           </div>
+
+          <ExamCountdown now={now} />
 
           <ExercisesCard />
 
