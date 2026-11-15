@@ -222,6 +222,10 @@ export const pl = {
     object: 'dopełnienie',
     neutral: '',
   },
+  grammar: {
+    scaleLabel: (l: string, r: string, ticks: string[]) =>
+      `Skala od „${l}” do „${r}”: ${ticks.join(', ')}`,
+  },
   tenses: {
     title: 'Czasy',
     indexTitle: 'Spis czasów',
