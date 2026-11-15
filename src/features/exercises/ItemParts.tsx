@@ -1,4 +1,4 @@
-import { useState, type ReactNode } from 'react'
+import { useId, useState } from 'react'
 import { Button } from '../../components/Controls'
 import { Mark } from '../../components/Ink'
 import type { ExStep } from '../../content/schema'
@@ -19,35 +19,39 @@ export function Task({ text }: { text: string }) {
   return <p className="eyebrow ex-task">{text}</p>
 }
 
-export function StepsNote({ head, steps }: { head: string; steps: ExStep[] }) {
-  return (
-    <div className="mnote ex-note" aria-live="polite">
-      <span className="mhead">{head}</span>
-      {steps.map((s, j) => (
-        <span key={j} className={`mstep d${j + 1}`}>
-          <b>{j + 1}</b>
-          <span>
-            <span className="mlabel">{s.label_pl}: </span>
-            {s.text_pl}
-          </span>
-        </span>
-      ))}
-    </div>
-  )
-}
-
-// po sprawdzeniu: wyjaśnienie od razu przy błędzie, przy dobrej odpowiedzi na żądanie
-export function Explain({ ok, children }: { ok: boolean; children: ReactNode }) {
+// po sprawdzeniu: przy błędzie kroki od razu, przy dobrej odpowiedzi zwinięte pod przyciskiem
+export function StepsNote({ ok, head, steps }: { ok: boolean; head: string; steps: ExStep[] }) {
   const t = pl.exercises
-  const [open, setOpen] = useState(false)
-  if (!ok) return <>{children}</>
+  const id = useId()
+  const [open, setOpen] = useState(!ok)
   return (
-    <>
-      {open && children}
-      <button type="button" className="link-pen ex-steps-toggle" onClick={() => setOpen(!open)}>
-        {open ? t.hideSteps : t.showSteps}
-      </button>
-    </>
+    <div className={`mnote ex-note${ok ? ' ok' : ''}`} aria-live="polite">
+      {/* nagłówek i przycisk w jednym wierszu, wcześniej na szerokim ekranie wchodziły na siebie */}
+      <div className="mnote-row">
+        <span className="mhead">{head}</span>
+        <button
+          type="button"
+          className={`link-pen mnote-toggle ${ok ? 'green' : 'red'}`}
+          aria-expanded={open}
+          aria-controls={id}
+          onClick={() => setOpen(!open)}
+        >
+          {open ? t.hideSteps : t.showSteps}
+        </button>
+      </div>
+      <div id={id} hidden={!open}>
+        {open &&
+          steps.map((s, j) => (
+            <span key={j} className={`mstep d${j + 1}`}>
+              <b>{j + 1}</b>
+              <span>
+                <span className="mlabel">{s.label_pl}: </span>
+                {s.text_pl}
+              </span>
+            </span>
+          ))}
+      </div>
+    </div>
   )
 }
 

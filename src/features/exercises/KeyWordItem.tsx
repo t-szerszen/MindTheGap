@@ -4,7 +4,7 @@ import { pl } from '../../i18n/pl'
 import { countWords } from '../../lib/answers/words'
 import { splitBlanks } from '../../lib/exercises/gap'
 import { answerInput } from './itemInput'
-import { CheckRow, Explain, StepsNote, Task, type ItemProps } from './ItemParts'
+import { CheckRow, StepsNote, Task, type ItemProps } from './ItemParts'
 
 // transformacja: zdanie wyjściowe, słowo klucz w ramce i drugie zdanie z luką
 export function KeyWordItem({
@@ -69,11 +69,7 @@ export function KeyWordItem({
         )}
         <CheckRow results={results} canCheck={!!value.trim()} onCheck={onCheck} />
       </div>
-      {r && (
-        <Explain ok={r.ok}>
-          <StepsNote head={t.whyGeneric} steps={ex.steps} />
-        </Explain>
-      )}
+      {r && <StepsNote ok={r.ok} head={r.ok ? t.goodHead() : t.whyGeneric} steps={ex.steps} />}
     </li>
   )
 }

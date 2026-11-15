@@ -3,7 +3,7 @@ import { pl } from '../../i18n/pl'
 import { splitBlanks } from '../../lib/exercises/gap'
 import { optionOrder } from '../../lib/exercises/order'
 import { letters } from './itemInput'
-import { CheckRow, Explain, StepsNote, Task, type ItemProps } from './ItemParts'
+import { CheckRow, StepsNote, Task, type ItemProps } from './ItemParts'
 
 // wybór A-D: w tekście luki są ponumerowane, a pod tekstem przy każdej luce rząd opcji, jak w arkuszu
 export function ChoiceItem({
@@ -79,9 +79,19 @@ export function ChoiceItem({
                   })}
                 </div>
                 {r && (
-                  <Explain ok={r.ok}>
-                    <StepsNote head={multi ? t.gapN(i + 1) : t.whyGeneric} steps={g.steps} />
-                  </Explain>
+                  <StepsNote
+                    ok={r.ok}
+                    head={
+                      r.ok
+                        ? multi
+                          ? t.gapGood(i + 1)
+                          : t.goodHead()
+                        : multi
+                          ? t.gapN(i + 1)
+                          : t.whyGeneric
+                    }
+                    steps={g.steps}
+                  />
                 )}
               </li>
             )

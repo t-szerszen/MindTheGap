@@ -5,7 +5,7 @@ import { countWords } from '../../lib/answers/words'
 import { getTense } from '../../lib/content'
 import { splitGap } from '../../lib/exercises/gap'
 import { answerInput } from './itemInput'
-import { CheckRow, Explain, StepsNote, Task, type ItemProps } from './ItemParts'
+import { CheckRow, StepsNote, Task, type ItemProps } from './ItemParts'
 
 export function GapFillItem({
   ex,
@@ -69,9 +69,11 @@ export function GapFillItem({
         <CheckRow results={results} canCheck={!!value.trim()} onCheck={onCheck} />
       </div>
       {r && (
-        <Explain ok={ok}>
-          <StepsNote head={tense ? t.why(tense.nameEn) : t.whyGeneric} steps={ex.steps} />
-        </Explain>
+        <StepsNote
+          ok={ok}
+          head={ok ? t.goodHead(tense?.nameEn) : tense ? t.why(tense.nameEn) : t.whyGeneric}
+          steps={ex.steps}
+        />
       )}
     </li>
   )

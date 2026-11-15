@@ -558,9 +558,20 @@
 .d5 {
   --d: 3.2s;
 }
-.ex-steps-toggle {
-  min-height: 36px;
-  font-size: 18px;
+.mnote-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 8px;
+}
+.mnote-row .mhead {
+  margin: 0;
+  min-width: 0;
+}
+.mnote-toggle {
+  flex: none;
+  font-size: 17px;
 }
 /* polecenie nad zadaniem, jak w arkuszu; z prawej miejsce na ptaszka albo krzyżyk */
 .ex-task {
@@ -739,8 +750,7 @@
   .ex-main {
     grid-column: 1;
   }
-  .ex-note,
-  .ex-steps-toggle {
+  .ex-note {
     grid-column: 2;
     grid-row: 1 / span 2;
     align-self: start;

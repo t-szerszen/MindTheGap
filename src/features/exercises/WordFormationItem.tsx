@@ -2,7 +2,7 @@ import type { WordFormationExercise } from '../../content/schema'
 import { pl } from '../../i18n/pl'
 import { splitBlanks } from '../../lib/exercises/gap'
 import { answerInput } from './itemInput'
-import { CheckRow, Explain, StepsNote, Task, type ItemProps } from './ItemParts'
+import { CheckRow, StepsNote, Task, type ItemProps } from './ItemParts'
 
 // słowotwórstwo: pole w miejscu luki, a za nim wyraz bazowy wielkimi literami (albo ramka nad tekstem)
 export function WordFormationItem({
@@ -73,12 +73,12 @@ export function WordFormationItem({
       {results && (
         <div className="stack" style={{ gap: 4 }}>
           {ex.gaps.map((g, i) => (
-            <Explain key={i} ok={results[i]!.ok}>
-              <StepsNote
-                head={`${multi ? `${t.gapN(i + 1)}: ` : ''}${g.base} → ${g.correct[0]}`}
-                steps={g.steps}
-              />
-            </Explain>
+            <StepsNote
+              key={i}
+              ok={results[i]!.ok}
+              head={`${multi ? `${t.gapN(i + 1)}: ` : ''}${results[i]!.ok ? `${t.goodHead()} ` : ''}${g.base} → ${g.correct[0]}`}
+              steps={g.steps}
+            />
           ))}
         </div>
       )}
