@@ -129,6 +129,20 @@ export const pl = {
     oralWhen: 'termin ustala szkoła, między 6 a 31 maja 2027',
     oralDate: 'Mój termin ustnej (data i godzina)',
     oralBad: 'Ustna jest między 6 a 31 maja 2027 — sprawdź datę.',
+    reminder: 'Przypomnienie',
+    reminderToggle: 'Przypominaj codziennie',
+    reminderHint:
+      'Jeśli danego dnia nic nie zrobisz, o wybranej godzinie przyjdzie powiadomienie „zrób chociaż coś”. Działa też przy zamkniętej aplikacji.',
+    reminderNeeds:
+      'Potrzebna jest zgoda na powiadomienia. Na iPhonie działa tylko z aplikacji dodanej do ekranu początkowego (iOS 16.4 lub nowszy).',
+    reminderHour: 'Godzina',
+    reminderOff: 'Przypomnienia nie są skonfigurowane w tej wersji aplikacji.',
+    reminderUnsupported:
+      'Ta przeglądarka nie obsługuje powiadomień. Na iPhonie dodaj aplikację do ekranu początkowego (Udostępnij → Do ekranu początkowego) i otwórz ją stamtąd.',
+    reminderDenied:
+      'Powiadomienia są zablokowane. Włącz je dla tej strony w ustawieniach przeglądarki albo telefonu.',
+    reminderFailed: 'Nie udało się włączyć przypomnienia. Sprawdź internet i spróbuj jeszcze raz.',
+    reminderSaving: 'Zapisuję…',
   },
   matura: {
     basic: 'podstawowa',

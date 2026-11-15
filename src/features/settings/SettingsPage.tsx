@@ -6,6 +6,7 @@ import { pl } from '../../i18n/pl'
 import { setPrefs, systemIsDark, usePrefs } from './prefs'
 import { AccountSection } from './AccountSection'
 import { ExamsSection } from './ExamsSection'
+import { ReminderSection } from './ReminderSection'
 import { SyncSection } from './SyncSection'
 import { ThemePicker } from './ThemePicker'
 import { UsageSection } from './UsageSection'
@@ -45,6 +46,7 @@ export function SettingsPage() {
         </section>
 
         <ExamsSection />
+        <ReminderSection />
         <SyncSection />
         <UsageSection />
         <AccountSection />

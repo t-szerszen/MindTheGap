@@ -1,4 +1,5 @@
 import { arrayUnion, doc, onSnapshot, setDoc } from 'firebase/firestore'
+import { notePushActivity } from '../push'
 import { dayKey } from '../streak'
 import { getDb } from './firebase'
 
@@ -8,6 +9,8 @@ function ref(uid: string) {
 
 // arrayUnion jest idempotentne, więc można wołać przy każdej odpowiedzi
 export function markActivity(uid: string, now = new Date()) {
+  // ten sam moment wyłącza dzisiejsze przypomnienie
+  notePushActivity(now)
   if (!getDb()) return
   setDoc(ref(uid), { days: arrayUnion(dayKey(now)) }, { merge: true }).catch(() => {})
 }
