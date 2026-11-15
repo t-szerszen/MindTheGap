@@ -84,84 +84,73 @@ export function ExercisesPage() {
 
   return (
     <div className="sheet ruled page-in">
-      <div className="measure stack">
-        <p className="eyebrow">{t.eyebrow}</p>
-        <h1 className="h-l">{t.title}</h1>
+      <div className="measure ex-page">
+        <div className="stack ex-top">
+          <p className="eyebrow">{t.eyebrow}</p>
+          <h1 className="h-l">{t.title}</h1>
 
-        <section className="tsec" aria-labelledby="exam-h">
-          <h2 id="exam-h" className="h-s">
-            {t.examLike}
-          </h2>
-          <div className="mode-cards">
-            {modeCards.map((c) => (
-              <Card key={c.to} as={Link} to={c.to} tilt={c.tilt} className="mode-card">
-                <Icon name={c.icon} size="l" />
-                <span>
-                  <span className="h-s" style={{ display: 'block' }}>
-                    {t.cards[c.id].title}
+          <section className="tsec" aria-labelledby="exam-h">
+            <h2 id="exam-h" className="h-s">
+              {t.examLike}
+            </h2>
+            <div className="mode-cards">
+              {modeCards.map((c) => (
+                <Card key={c.to} as={Link} to={c.to} tilt={c.tilt} className="mode-card">
+                  <Icon name={c.icon} size="l" />
+                  <span>
+                    <span className="h-s" style={{ display: 'block' }}>
+                      {t.cards[c.id].title}
+                    </span>
+                    <span className="small muted">{t.cards[c.id].sub}</span>
                   </span>
-                  <span className="small muted">{t.cards[c.id].sub}</span>
-                </span>
-              </Card>
-            ))}
-          </div>
-        </section>
+                </Card>
+              ))}
+            </div>
+          </section>
 
-        {progress && progress.done < progress.total && (
-          <Sticky
-            as={Link}
-            to="/exercises/session?resume=1"
-            color="y"
-            tilt={-1}
-            tape={{ color: 'p' }}
-            className="continue-card"
-          >
-            <span
-              className="row"
-              style={{ justifyContent: 'space-between', alignItems: 'baseline' }}
+          {progress && progress.done < progress.total && (
+            <Sticky
+              as={Link}
+              to="/exercises/session?resume=1"
+              color="y"
+              tilt={-1}
+              tape={{ color: 'p' }}
+              className="continue-card"
             >
-              <span className="h-m">{t.continue}</span>
-              <span className="hand" style={{ fontSize: 23, fontWeight: 700 }}>
-                {progress.done}/{progress.total}
+              <span
+                className="row"
+                style={{ justifyContent: 'space-between', alignItems: 'baseline' }}
+              >
+                <span className="h-m">{t.continue}</span>
+                <span className="hand" style={{ fontSize: 23, fontWeight: 700 }}>
+                  {progress.done}/{progress.total}
+                </span>
               </span>
-            </span>
-            <span style={{ display: 'block', margin: '8px 0' }}>
-              <Progress value={progress.done / progress.total} />
-            </span>
-          </Sticky>
-        )}
-
-        <Sticky
-          color="b"
-          tilt={1}
-          tape={{ color: 'p', pos: 'tr' }}
-          style={{ marginTop: 18, padding: '14px 14px 12px' }}
-        >
-          <p className="small">{t.intro}</p>
-          <p className="note ink" style={{ fontSize: 14, marginTop: 2 }}>
-            {t.introHint}
-          </p>
-        </Sticky>
-
-        <section className="tsec" aria-labelledby="mode-h">
-          <h2 id="mode-h" className="h-s">
-            {t.mode}
-          </h2>
-          <div className="row chips">
-            {(['random', 'weak'] as const).map((m) => (
-              <TagButton key={m} pressed={mode === m} onClick={() => setMode(m)}>
-                {t.modes[m]}
-              </TagButton>
-            ))}
-          </div>
-          {mode === 'weak' && (
-            <p className="note" style={{ marginTop: 6 }}>
-              {!user ? t.weakNeedsLogin : attempts.length === 0 ? t.weakEmpty : null}
-            </p>
+              <span style={{ display: 'block', margin: '8px 0' }}>
+                <Progress value={progress.done / progress.total} />
+              </span>
+            </Sticky>
           )}
-        </section>
 
-        <section className="tsec" aria-labelledby="tags-h">
+          <Sticky
+            color="b"
+            tilt={1}
+            tape={{ color: 'p', pos: 'tr' }}
+            style={{ marginTop: 18, padding: '14px 14px 12px' }}
+          >
+            <p className="small">{t.intro}</p>
+            <p className="note ink" style={{ fontSize: 14, marginTop: 2 }}>
+              {t.introHint}
+            </p>
+          </Sticky>
+        </div>
+        <Card
+          as="section"
+          variant="index-card"
+          tilt={-1}
+          className="ex-side"
+          aria-labelledby="tags-h"
+        >
           <h2 id="tags-h" className="h-s">
             {t.pick}
           </h2>
@@ -189,71 +178,90 @@ export function ExercisesPage() {
               </div>
             </div>
           ))}
-        </section>
-
-        {presentTypes.length > 1 && (
-          <section className="tsec" aria-labelledby="types-h">
-            <h2 id="types-h" className="h-s">
-              {t.types}
+        </Card>
+        <div className="stack ex-rest">
+          <section className="tsec" aria-labelledby="mode-h">
+            <h2 id="mode-h" className="h-s">
+              {t.mode}
             </h2>
-            <div className="row wrap" style={{ gap: 6, marginTop: 8 }}>
-              <TagButton pressed={!types.length} color="y" onClick={() => setTypes([])}>
-                {t.all}
-              </TagButton>
-              {presentTypes.map((ty) => (
-                <TagButton
-                  key={ty}
-                  pressed={types.includes(ty)}
-                  color="p"
-                  onClick={() =>
-                    setTypes(types.includes(ty) ? types.filter((x) => x !== ty) : [...types, ty])
-                  }
-                >
-                  {t.typeNames[ty]}
+            <div className="row chips">
+              {(['random', 'weak'] as const).map((m) => (
+                <TagButton key={m} pressed={mode === m} onClick={() => setMode(m)}>
+                  {t.modes[m]}
+                </TagButton>
+              ))}
+            </div>
+            {mode === 'weak' && (
+              <p className="note" style={{ marginTop: 6 }}>
+                {!user ? t.weakNeedsLogin : attempts.length === 0 ? t.weakEmpty : null}
+              </p>
+            )}
+          </section>
+
+          {presentTypes.length > 1 && (
+            <section className="tsec" aria-labelledby="types-h">
+              <h2 id="types-h" className="h-s">
+                {t.types}
+              </h2>
+              <div className="row wrap" style={{ gap: 6, marginTop: 8 }}>
+                <TagButton pressed={!types.length} color="y" onClick={() => setTypes([])}>
+                  {t.all}
+                </TagButton>
+                {presentTypes.map((ty) => (
+                  <TagButton
+                    key={ty}
+                    pressed={types.includes(ty)}
+                    color="p"
+                    onClick={() =>
+                      setTypes(types.includes(ty) ? types.filter((x) => x !== ty) : [...types, ty])
+                    }
+                  >
+                    {t.typeNames[ty]}
+                  </TagButton>
+                ))}
+              </div>
+            </section>
+          )}
+
+          <section className="tsec" aria-labelledby="level-h">
+            <h2 id="level-h" className="h-s">
+              {t.level}
+            </h2>
+            <div className="row chips">
+              {([0, 1, 2, 3] as const).map((l) => (
+                <TagButton key={l} pressed={level === l} onClick={() => setLevel(l)}>
+                  {t.levels[l]}
                 </TagButton>
               ))}
             </div>
           </section>
-        )}
 
-        <section className="tsec" aria-labelledby="level-h">
-          <h2 id="level-h" className="h-s">
-            {t.level}
-          </h2>
-          <div className="row chips">
-            {([0, 1, 2, 3] as const).map((l) => (
-              <TagButton key={l} pressed={level === l} onClick={() => setLevel(l)}>
-                {t.levels[l]}
-              </TagButton>
-            ))}
+          <section className="tsec" aria-labelledby="count-h">
+            <h2 id="count-h" className="h-s">
+              {t.count}
+            </h2>
+            <div className="row chips">
+              {counts.map((c) => (
+                <TagButton key={c} pressed={count === c} onClick={() => setCount(c)}>
+                  {String(c)}
+                </TagButton>
+              ))}
+            </div>
+          </section>
+
+          <div className="tsec stack" style={{ gap: 6 }}>
+            <p className="note ink">{matching ? t.matching(matching) : t.noMatch}</p>
+            <Button variant="primary" block disabled={!matching} onClick={start}>
+              <Icon name="pencil" />
+              {t.start}
+            </Button>
+            {user && (
+              <Link className="link-pen" to="/exercises/progress" style={{ alignSelf: 'center' }}>
+                <Icon name="chart" size="s" />
+                {t.progressLink}
+              </Link>
+            )}
           </div>
-        </section>
-
-        <section className="tsec" aria-labelledby="count-h">
-          <h2 id="count-h" className="h-s">
-            {t.count}
-          </h2>
-          <div className="row chips">
-            {counts.map((c) => (
-              <TagButton key={c} pressed={count === c} onClick={() => setCount(c)}>
-                {String(c)}
-              </TagButton>
-            ))}
-          </div>
-        </section>
-
-        <div className="tsec stack" style={{ gap: 6 }}>
-          <p className="note ink">{matching ? t.matching(matching) : t.noMatch}</p>
-          <Button variant="primary" block disabled={!matching} onClick={start}>
-            <Icon name="pencil" />
-            {t.start}
-          </Button>
-          {user && (
-            <Link className="link-pen" to="/exercises/progress" style={{ alignSelf: 'center' }}>
-              <Icon name="chart" size="s" />
-              {t.progressLink}
-            </Link>
-          )}
         </div>
       </div>
     </div>
