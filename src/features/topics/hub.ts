@@ -8,12 +8,20 @@ export type Shelf = {
 }
 
 export const shelves: Shelf[] = [
+  { id: 'exam', topics: ['exam'], sets: [] },
+  {
+    id: 'writing',
+    topics: ['writing'],
+    sets: ['essay-phrases', 'article-phrases', 'letter-phrases'],
+  },
+  { id: 'tenses', topics: ['tenses'], sets: [] },
   { id: 'grammar', topics: ['grammar'], sets: [] },
   { id: 'modals', topics: ['modals'], sets: [] },
+  { id: 'vocabulary', topics: ['vocabulary'], sets: ['collocations', 'word-families', 'register'] },
   { id: 'idioms', topics: [], sets: ['idioms'] },
+  { id: 'phrasal', topics: ['phrasal-verbs'], sets: ['phrasal-verbs'] },
   { id: 'linkers', topics: [], sets: ['linkers'] },
+  { id: 'words', topics: [], sets: ['false-friends', 'confused-words'] },
   { id: 'prepositions', topics: ['prepositions'], sets: [] },
-  { id: 'essay', topics: ['essay'], sets: ['essay-phrases'] },
-  { id: 'phrasal', topics: ['phrasal-verbs'], sets: [] },
-  { id: 'other', topics: ['other'], sets: ['collocations'] },
+  { id: 'other', topics: ['other'], sets: [] },
 ]

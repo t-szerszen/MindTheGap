@@ -164,7 +164,17 @@ export const blockSchema = z.discriminatedUnion('type', [
 
 export const topicSchema = z.strictObject({
   id,
-  category: z.enum(['grammar', 'modals', 'prepositions', 'phrasal-verbs', 'essay', 'other']),
+  category: z.enum([
+    'tenses',
+    'grammar',
+    'modals',
+    'prepositions',
+    'phrasal-verbs',
+    'vocabulary',
+    'writing',
+    'exam',
+    'other',
+  ]),
   title_pl: txt,
   summary_pl: txt,
   blocks: z.array(blockSchema).min(1),
@@ -172,7 +182,19 @@ export const topicSchema = z.strictObject({
 
 export const phraseSetSchema = z.strictObject({
   id,
-  category: z.enum(['idioms', 'linkers', 'essay-phrases', 'collocations']),
+  category: z.enum([
+    'idioms',
+    'linkers',
+    'essay-phrases',
+    'article-phrases',
+    'letter-phrases',
+    'collocations',
+    'phrasal-verbs',
+    'false-friends',
+    'confused-words',
+    'register',
+    'word-families',
+  ]),
   title_pl: txt,
   items: z
     .array(
