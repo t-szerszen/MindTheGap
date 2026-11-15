@@ -11,7 +11,8 @@ export type ItemProps = {
   set: (key: string, v: string) => void
   // null, dopóki zadanie nie jest sprawdzone
   results: PartResult[] | null
-  onCheck: () => void
+  // bez onCheck (arkusz próbny) nie ma przycisku przy zadaniu, sprawdza się wszystko na końcu
+  onCheck?: () => void
 }
 
 export function Task({ text }: { text: string }) {
@@ -57,7 +58,7 @@ export function CheckRow({
 }: {
   results: PartResult[] | null
   canCheck: boolean
-  onCheck: () => void
+  onCheck?: () => void
 }) {
   const t = pl.exercises
   if (results) {
@@ -72,6 +73,7 @@ export function CheckRow({
       </div>
     )
   }
+  if (!onCheck) return null
   return (
     <div className="row" style={{ justifyContent: 'flex-end', marginTop: 2 }}>
       <Button size="sm" variant="primary" onClick={onCheck} disabled={!canCheck}>

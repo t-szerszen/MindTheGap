@@ -98,7 +98,7 @@ function Reading({ set }: { set: ReadingSet }) {
               task={task}
               ti={ti}
               get={get}
-              set={(k, v) => !checked && setAnswers({ ...answers, [k]: v })}
+              set={(k, v) => !checked && setAnswers((prev) => ({ ...prev, [k]: v }))}
               checked={checked}
               ok={ok}
             />

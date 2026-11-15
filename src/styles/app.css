@@ -1286,3 +1286,30 @@
   margin-top: 2px;
   color: var(--pencil);
 }
+
+/* arkusz próbny */
+.exam-random {
+  margin-top: 16px;
+  padding: 20px 16px 14px;
+}
+.exam-time {
+  font-size: 28px;
+  font-weight: 700;
+}
+.exam-summary {
+  margin-top: 8px;
+}
+.exam-history {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0;
+  gap: 6px;
+}
+.exam-history li {
+  border-bottom: 1.5px dashed var(--faint);
+  padding-bottom: 4px;
+}
+.exam-score {
+  font-size: 22px;
+  font-weight: 700;
+}

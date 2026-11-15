@@ -48,7 +48,7 @@ export function GapFillItem({
             onKeyDown={(e) => {
               if (e.key === 'Enter' && value.trim()) {
                 e.preventDefault()
-                onCheck()
+                onCheck?.()
               }
             }}
             placeholder="…"
