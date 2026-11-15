@@ -11,7 +11,7 @@ import { shelves } from './hub'
 type Entry = { key: string; to: string; title: string; preview: ReactNode }
 
 // każda półka wygląda trochę inaczej, jak w projekcie: karteczka, fiszka, wyrwana kartka, ramka
-function ShelfPaper({ i, children }: { i: number; children: ReactNode }) {
+function ShelfPaper({ i, size, children }: { i: number; size: string; children: ReactNode }) {
   const kind = i % 4
   if (kind === 0)
     return (
@@ -19,24 +19,29 @@ function ShelfPaper({ i, children }: { i: number; children: ReactNode }) {
         color={(['p', 'm', 'b'] as const)[(i / 4) % 3]}
         tilt={-2}
         tape={{ color: 'y' }}
-        className="shelf"
+        className={`shelf ${size}`}
       >
         {children}
       </Sticky>
     )
   if (kind === 1)
     return (
-      <Card variant="index-card" tilt={1} tape={{ color: 'b', pos: 'tr' }} className="shelf">
+      <Card
+        variant="index-card"
+        tilt={1}
+        tape={{ color: 'b', pos: 'tr' }}
+        className={`shelf ${size}`}
+      >
         {children}
       </Card>
     )
   if (kind === 2)
     return (
-      <TornSheet className="r-1 shelf-torn" sheetClassName="shelf shelf-sheet">
+      <TornSheet className={`r-1 shelf-torn ${size}`} sheetClassName="shelf shelf-sheet">
         {children}
       </TornSheet>
     )
-  return <section className="sk alt shelf shelf-sk">{children}</section>
+  return <section className={`sk alt shelf shelf-sk ${size}`}>{children}</section>
 }
 
 export function MorePage() {
@@ -101,7 +106,7 @@ export function MorePage() {
 
   return (
     <div className="sheet dotted plain page-in">
-      <div className="measure stack">
+      <div className="measure stack more-page">
         <header className="stack" style={{ gap: 2 }}>
           <p className="eyebrow">{pl.nav.more}</p>
           <h1 className="h-l">{t.title}</h1>
@@ -112,7 +117,7 @@ export function MorePage() {
           </Link>
         </header>
 
-        <div style={{ marginTop: 14 }}>
+        <div className="more-search" style={{ marginTop: 14 }}>
           <SearchField label={t.searchLabel} placeholder={t.search} value={q} onChange={setQ} />
         </div>
 
@@ -145,10 +150,13 @@ export function MorePage() {
                     </div>
                   </section>
                 )
+              // na komputerze długie półki dostają szerszą kartkę i listę w kolumnach
+              const size =
+                entries.length > 20 ? 'shelf-full' : entries.length > 8 ? 'shelf-wide' : ''
               return (
-                <ShelfPaper key={shelf.id} i={i}>
+                <ShelfPaper key={shelf.id} i={i} size={size}>
                   <h2 className="h-m">{t.shelves[shelf.id]}</h2>
-                  <ul className="stack" style={{ gap: 6, marginTop: 6 }}>
+                  <ul className="stack shelf-list" style={{ gap: 6, marginTop: 6 }}>
                     {entries.map((e) => (
                       <li key={e.key}>
                         <Link to={e.to} className="shelf-entry">

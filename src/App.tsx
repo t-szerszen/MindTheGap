@@ -14,6 +14,7 @@ import { ReviewPage } from './features/vocabulary/ReviewPage'
 import { WordsPage } from './features/vocabulary/WordsPage'
 import { WordsProvider } from './features/vocabulary/WordsProvider'
 import { NotFound } from './components/States'
+import { GrammarIndexPage } from './features/grammar/GrammarIndexPage'
 import { GrammarPage } from './features/grammar/GrammarPage'
 import { HomePage } from './features/home/HomePage'
 import { SettingsPage } from './features/settings/SettingsPage'
@@ -43,7 +44,7 @@ export function App() {
                 <Route index element={<HomePage />} />
                 <Route path="tenses" element={<TensesIndexPage />} />
                 <Route path="tenses/:id" element={<TensePage />} />
-                <Route path="grammar" element={<GrammarPage />} />
+                <Route path="grammar" element={<GrammarIndexPage />} />
                 <Route path="grammar/:id" element={<GrammarPage />} />
                 <Route path="translator" element={<TranslatorPage />} />
                 <Route

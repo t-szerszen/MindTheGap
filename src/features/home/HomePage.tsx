@@ -97,7 +97,7 @@ export function HomePage() {
                   <span aria-hidden="true" className="mini-deck">
                     <i />
                     <i />
-                    <i />
+                    <i>{due.length || words.length}</i>
                   </span>
                 </span>
                 <span
