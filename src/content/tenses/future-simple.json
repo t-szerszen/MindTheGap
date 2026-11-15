@@ -5,318 +5,527 @@
   "group": "future",
   "aspect": "simple",
   "tabLabel": ["Fut.", "will"],
-  "oneLiner_pl": "decyzja teraz, opinia, obietnica",
+  "oneLiner_pl": "przyszłość z głowy mówiącego: decyzja podjęta teraz, oferta, obietnica albo opinia — zwykle bez wcześniejszego planu i bez dowodu przed oczami",
   "timeline": {
-    "now": 0.45,
+    "now": 0.65,
     "marks": [
-      {
-        "kind": "point",
-        "from": 0.76,
-        "label": "tomorrow"
-      }
+      { "kind": "point", "from": 0.65, "label": "decision now" },
+      { "kind": "point", "from": 0.92, "label": "it happens" }
     ]
   },
   "howToChoose": [
     {
       "step_pl": "sygnał",
-      "text_pl": "Widzisz I think, probably, I'm sure, perhaps — albo decyzję podjętą w chwili mówienia?"
+      "text_pl": "Szukasz opinii i przypuszczeń: I think, I don't think, I'm sure, I expect, I hope, probably, definitely, perhaps. Albo reakcji w rozmowie: ktoś właśnie się czegoś dowiedział i od razu postanawia, proponuje, obiecuje, zgadza się albo odmawia (In that case…, Don't worry…, OK…). Prośba zaczyna się często od Will you…?, propozycja od Shall I…? / Shall we…?, a ostrzeżenie to często polecenie + or: Careful, or you'll fall."
     },
     {
       "step_pl": "relacja w czasie",
-      "text_pl": "Przyszłość jako opinia, przewidywanie bez dowodów, obietnica albo nagła decyzja."
+      "text_pl": "Patrzysz na przyszłość z chwili mówienia i zwykle nic nie zostało ustalone wcześniej ani nie widzisz dowodu przed oczami. Decyzja rodzi się teraz albo przewidujesz z głowy: z opinii i wiedzy. will to dawny czasownik „chcieć” (rzeczownik will to do dziś „wola”), dlatego tak dobrze pasuje do decyzji, obietnic i odmów. Wyjątek to oficjalne komunikaty: tam will podaje też ustalone plany, ale neutralnie, jako informację."
+    },
+    {
+      "step_pl": "pułapka",
+      "text_pl": "Zamiar postanowiony wcześniej albo dowód widoczny teraz (Look at those clouds!) → be going to. Plan umówiony z kimś, z terminem → Present Continuous. Rozkład jazdy i program → Present Simple. A po when, as soon as, until, before, after, once, by the time, unless, if, in case i as long as will znika, gdy mówisz o przyszłości: zostaje Present Simple, choć po polsku mówisz w przyszłym („jak dojadę”). Wyjątek: pytanie zależne (I don't know if / when…, I wonder if…) — tu will zostaje: I don't know if she'll come."
     },
     {
       "step_pl": "forma",
-      "text_pl": "will + V1: I'll call you tomorrow."
+      "text_pl": "will + V1 dla każdej osoby, bez -s i bez to: she will go, nie she will goes ani she will to go. Przeczenie: will not (won't) + V1. Pytanie: Will + podmiot + V1? Skrót: 'll (I'll, she'll). Strona bierna: will be + V3."
     }
   ],
   "forms": {
     "active": {
       "affirmative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "will",
-            "role": "aux"
-          },
-          {
-            "text": "V1",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "will", "role": "aux" },
+          { "text": "V1", "role": "verb" }
         ],
         "example": {
-          "en": "I think it will rain tomorrow.",
-          "pl": "Myślę, że jutro będzie padać."
-        }
+          "en": "Don't worry, I'll send you my notes tonight.",
+          "pl": "Nie martw się, wyślę ci dziś wieczorem moje notatki."
+        },
+        "note_pl": "will jest czasownikiem modalnym, więc ma jedną formę dla wszystkich osób, a po nim stoi czasownik w formie podstawowej: bez to i bez -s. Skrót 'll dokleja się do podmiotu: I'll, you'll, it'll. Po polsku są dwa czasy przyszłe: „napiszę” i „będę pisać”. Angielskie will + V1 zwykle pokrywa oba (I'll write to you every week = będę do ciebie pisać co tydzień). Czynność w trakcie w konkretnym momencie przyszłości to już Future Continuous: This time tomorrow I'll be taking my first exam."
       },
       "negative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "will",
-            "role": "aux"
-          },
-          {
-            "text": "not",
-            "role": "particle"
-          },
-          {
-            "text": "V1",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "will", "role": "aux" },
+          { "text": "not", "role": "particle" },
+          { "text": "V1", "role": "verb" }
         ],
         "example": {
-          "en": "She won't tell anyone.",
-          "pl": "Ona nikomu nie powie."
+          "en": "Don't worry, it won't take long.",
+          "pl": "Nie martw się, to nie potrwa długo."
         },
-        "note_pl": "will not = won't"
+        "note_pl": "Skrót: won't, nie willn't. Przy I think przeczenie przenosisz zwykle do think: I don't think it'll rain. I think it won't rain też jest poprawne, ale brzmi mniej naturalnie."
       },
       "question": {
         "pattern": [
-          {
-            "text": "Will",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "V1",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Will", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "V1", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
         "example": {
-          "en": "Will you help me with this?",
-          "pl": "Pomożesz mi z tym?"
-        }
+          "en": "Will you lend me your charger for a minute?",
+          "pl": "Pożyczysz mi na chwilę ładowarkę?"
+        },
+        "note_pl": "Will you…? to często prośba, a nie pytanie o przyszłość. Grzeczniej brzmi Could you…? albo Would you…? Krótka odpowiedź powtarza samo will: Yes, I will. / No, I won't. W twierdzącej nie ma skrótu: Yes, I will, nie Yes, I'll. Gdy proponujesz, że coś zrobisz (z I albo we), zaczynasz od Shall, nie od Will: Shall I help you? Will I…? pyta o przewidywanie: Will I need a coat? (Będę potrzebować płaszcza?)"
       },
       "whQuestion": {
         "pattern": [
-          {
-            "text": "Wh-word",
-            "role": "neutral"
-          },
-          {
-            "text": "will",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "V1",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Wh-word", "role": "neutral" },
+          { "text": "will", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "V1", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
-        "example": {
-          "en": "What will you do after the exam?",
-          "pl": "Co będziesz robić po egzaminie?"
-        }
+        "example": { "en": "What time will you be back?", "pl": "O której wrócisz?" },
+        "note_pl": "Pytanie o podmiot (Who? What?) idzie bez przestawienia: Who will win the final? W pytaniu zależnym (I don't know…, Can you tell me…) szyk jest jak w zdaniu oznajmującym, a will zostaje, bo to pytanie o samą przyszłość, a nie zdanie czasowe: I don't know when he will be back, nie I don't know when will he be back."
       }
     },
     "passive": {
       "affirmative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "will be",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "will be", "role": "aux" },
+          { "text": "V3", "role": "verb" }
         ],
         "example": {
-          "en": "The results will be announced in July.",
-          "pl": "Wyniki zostaną ogłoszone w lipcu."
-        }
+          "en": "The winners will be announced at the end of the ceremony.",
+          "pl": "Zwycięzcy zostaną ogłoszeni na koniec ceremonii."
+        },
+        "note_pl": "Bierna = will + be + V3. will niesie przyszłość, be stoi w formie podstawowej (bo po will zawsze jest V1), a V3 daje sens bierny. Po polsku: „zostanie zrobione” albo „będzie robione”. Bierna z will jest bardzo częsta w ogłoszeniach i tekstach oficjalnych, bo liczy się to, co się stanie, a nie kto to zrobi: Passengers will be informed of any changes."
       },
       "negative": {
         "pattern": [
-          {
-            "text": "Subject",
-            "role": "subject"
-          },
-          {
-            "text": "will",
-            "role": "aux"
-          },
-          {
-            "text": "not",
-            "role": "particle"
-          },
-          {
-            "text": "be",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          }
+          { "text": "Subject", "role": "subject" },
+          { "text": "will", "role": "aux" },
+          { "text": "not", "role": "particle" },
+          { "text": "be", "role": "aux" },
+          { "text": "V3", "role": "verb" }
         ],
         "example": {
-          "en": "The match won't be shown on TV.",
-          "pl": "Mecz nie będzie pokazywany w telewizji."
-        }
+          "en": "Late applications won't be accepted.",
+          "pl": "Spóźnione zgłoszenia nie będą przyjmowane."
+        },
+        "note_pl": "not stoi zaraz po will, przed be: won't be accepted."
       },
       "question": {
         "pattern": [
-          {
-            "text": "Will",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "be",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Will", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "be", "role": "aux" },
+          { "text": "V3", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
         "example": {
-          "en": "Will the meeting be held online?",
-          "pl": "Czy spotkanie odbędzie się online?"
-        }
+          "en": "Will the match be shown on TV?",
+          "pl": "Czy mecz będzie pokazywany w telewizji?"
+        },
+        "note_pl": "Przed podmiot idzie tylko will. be i V3 zostają za podmiotem."
       },
       "whQuestion": {
         "pattern": [
-          {
-            "text": "Wh-word",
-            "role": "neutral"
-          },
-          {
-            "text": "will",
-            "role": "aux"
-          },
-          {
-            "text": "subject",
-            "role": "subject"
-          },
-          {
-            "text": "be",
-            "role": "aux"
-          },
-          {
-            "text": "V3",
-            "role": "verb"
-          },
-          {
-            "text": "?",
-            "role": "neutral"
-          }
+          { "text": "Wh-word", "role": "neutral" },
+          { "text": "will", "role": "aux" },
+          { "text": "subject", "role": "subject" },
+          { "text": "be", "role": "aux" },
+          { "text": "V3", "role": "verb" },
+          { "text": "?", "role": "neutral" }
         ],
         "example": {
-          "en": "When will the new stadium be opened?",
-          "pl": "Kiedy zostanie otwarty nowy stadion?"
-        }
+          "en": "When will the new bridge be opened?",
+          "pl": "Kiedy zostanie otwarty nowy most?"
+        },
+        "note_pl": "Pytanie o podmiot idzie bez przestawienia: Who will be chosen as captain? (Kogo wybiorą na kapitana?)"
       }
     }
   },
+  "modals": [
+    {
+      "modal": "might / may",
+      "pattern": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "might / may", "role": "aux" },
+        { "text": "V1", "role": "verb" }
+      ],
+      "example": {
+        "en": "We might go to Croatia this summer, but nothing's decided yet.",
+        "pl": "Może pojedziemy tego lata do Chorwacji, ale nic jeszcze nie jest postanowione."
+      },
+      "note_pl": "To nie Future Simple, tylko czasownik modalny w miejscu will, z tym samym V1 po nim. Przewidywanie jest słabsze: może tak, może nie. Skala pewności: will definitely → will probably → may / might → probably won't → definitely won't. might not znaczy „może nie” (She might not come), a nie „nie może”."
+    },
+    {
+      "modal": "will be able to",
+      "pattern": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "will", "role": "aux" },
+        { "text": "be able to", "role": "aux" },
+        { "text": "V1", "role": "verb" }
+      ],
+      "example": {
+        "en": "I'm sorry, I won't be able to come on Saturday.",
+        "pl": "Przepraszam, nie będę mógł przyjść w sobotę."
+      },
+      "note_pl": "To nie osobny czas, tylko struktura modalna: will + be able to + V1. can nie łączy się z will (nie ma will can), więc o przyszłej możliwości albo umiejętności mówisz will be able to. Przy decyzji albo ustaleniu teraz często wystarczy samo can: I can help you tomorrow."
+    },
+    {
+      "modal": "will have to",
+      "pattern": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "will", "role": "aux" },
+        { "text": "have to", "role": "aux" },
+        { "text": "V1", "role": "verb" }
+      ],
+      "example": {
+        "en": "If we miss the last bus, we'll have to walk home.",
+        "pl": "Jeśli spóźnimy się na ostatni autobus, będziemy musieli wrócić pieszo."
+      },
+      "note_pl": "Struktura modalna, nie osobny czas. must nie łączy się z will (nie ma will must), więc przyszły obowiązek, zwłaszcza taki, który wynika z czegoś przyszłego, to will have to + V1. Przeczenie won't have to znaczy „nie będzie trzeba”, a nie „nie wolno”: You won't have to pay."
+    }
+  ],
   "uses": [
     {
       "title_pl": "Decyzja w chwili mówienia",
-      "explanation_pl": "Postanawiasz coś właśnie teraz, w reakcji na sytuację.",
+      "explanation_pl": "Postanawiasz coś właśnie teraz, w reakcji na to, co się dzieje albo co przed chwilą usłyszałeś. Wcześniej tego nie planowałeś. Typowe początki: OK, I'll…, In that case I'll…, I think I'll… Tak samo wybierasz w sklepie i w restauracji: I'll take it, I'll have the soup. Jeśli postanowiłeś to wcześniej, mówisz be going to: I'm going to buy a new phone (już zdecydowałem).",
       "examples": [
         {
-          "en": "The phone's ringing — I'll get it!",
-          "pl": "Telefon dzwoni — odbiorę!"
+          "en": "Ola's ill and can't come? OK, I'll ask Kuba instead.",
+          "pl": "Ola jest chora i nie przyjdzie? Dobra, to poproszę Kubę."
+        },
+        {
+          "en": "It's getting late — I think I'll take a taxi.",
+          "pl": "Robi się późno — chyba wezmę taksówkę."
+        },
+        { "en": "I'll have the tomato soup, please.", "pl": "Poproszę zupę pomidorową." }
+      ]
+    },
+    {
+      "title_pl": "Oferty, obietnice, prośby i odmowy",
+      "explanation_pl": "Skoro will to dawna „wola”, pasuje do wszystkiego, co zależy od twojej woli: oferujesz pomoc (I'll carry it), obiecujesz (I'll be careful), prosisz (Will you…?) albo odmawiasz (I won't = nie zrobię, nie chcę). Przy rzeczach won't znaczy, że coś „nie chce” działać, choć próbujesz. Uwaga: wtedy won't nie mówi o przyszłości, tylko o teraz — to wola, a nie czas.",
+      "examples": [
+        {
+          "en": "I promise I'll be back before midnight.",
+          "pl": "Obiecuję, że wrócę przed północą."
+        },
+        {
+          "en": "Will you hold my bag for a second? I need to tie my shoelace.",
+          "pl": "Potrzymasz mi na chwilę torbę? Muszę zawiązać sznurówkę."
+        },
+        {
+          "en": "The car won't start — we'll have to take the bus.",
+          "pl": "Samochód nie chce zapalić — będziemy musieli pojechać autobusem."
         }
       ]
     },
     {
-      "title_pl": "Przewidywanie (opinia)",
-      "explanation_pl": "Myślisz, że tak będzie, ale nie masz twardych dowodów.",
+      "title_pl": "Przewidywanie z opinii",
+      "explanation_pl": "Mówisz, co według ciebie się stanie, na podstawie tego, co wiesz, myślisz albo przeczuwasz — a nie tego, co widzisz w tej chwili. Dlatego will tak często stoi po I think, I'm sure, I expect, I hope i obok probably albo definitely. Gdy masz dowód przed oczami (czarne chmury, ktoś chwieje się na drabinie), wybierasz be going to. W wielu przewidywaniach poprawne są obie formy, a różnica jest w tym, na czym opierasz pewność.",
       "examples": [
         {
-          "en": "I'm sure you'll pass the exam.",
-          "pl": "Jestem pewien, że zdasz egzamin."
+          "en": "I'm sure you'll love Edinburgh — it's a beautiful city.",
+          "pl": "Jestem pewien, że pokochasz Edynburg — to piękne miasto."
+        },
+        {
+          "en": "I don't think the new stadium will be ready before the summer.",
+          "pl": "Nie sądzę, żeby nowy stadion był gotowy przed latem."
+        },
+        {
+          "en": "Prices will probably go up again next year.",
+          "pl": "Ceny pewnie znowu pójdą w górę w przyszłym roku."
         }
       ]
     },
     {
-      "title_pl": "Obietnice i propozycje",
-      "explanation_pl": "Obiecujesz albo proponujesz pomoc.",
+      "title_pl": "Fakty o przyszłości",
+      "explanation_pl": "Coś się stanie, bo tak działa kalendarz albo życie, i nikt nie musi tego planować: wiek, pory roku, kolejne etapy. will jest tu neutralne, bez emocji i bez decyzji. Jeśli to rozkład jazdy albo program (odjazd pociągu, początek lekcji), wybierasz Present Simple: The train leaves at 7.15. Przy datach z kalendarza często wystarcza też Present Simple: Tomorrow is Friday, It's my birthday on Saturday.",
       "examples": [
         {
-          "en": "Don't worry, I'll help you.",
-          "pl": "Nie martw się, pomogę ci."
+          "en": "My brother will be eighteen in May.",
+          "pl": "Mój brat skończy w maju osiemnaście lat."
+        },
+        {
+          "en": "Next year will be our last year at school.",
+          "pl": "Przyszły rok będzie naszym ostatnim rokiem w szkole."
+        },
+        {
+          "en": "It'll be dark by six, so take a torch.",
+          "pl": "Przed szóstą będzie już ciemno, więc weź latarkę (torch — brytyjskie; po amerykańsku flashlight)."
+        }
+      ]
+    },
+    {
+      "title_pl": "Oficjalne plany i komunikaty",
+      "explanation_pl": "W wiadomościach, ogłoszeniach i listach formalnych will podaje ustalone plany neutralnie, jako informację, a nie jako czyjąś decyzję teraz. Dlatego stoi tu często strona bierna: The results will be published on Friday. O własnych planach w rozmowie mówisz raczej be going to albo Present Continuous: I'm meeting Ola on Friday.",
+      "examples": [
+        {
+          "en": "The Prime Minister will visit Gdańsk on Monday.",
+          "pl": "Premier odwiedzi Gdańsk w poniedziałek."
+        },
+        {
+          "en": "The school will be closed on Friday because of the elections.",
+          "pl": "W piątek szkoła będzie zamknięta z powodu wyborów."
+        }
+      ]
+    },
+    {
+      "title_pl": "Ostrzeżenia i groźby: or / and + will",
+      "explanation_pl": "Polecenie albo rada + or + will: mówisz, co się stanie, jeśli ktoś tego nie zrobi. Polecenie + and + will: co się stanie, jeśli to zrobi. To skrócony pierwszy tryb warunkowy, dlatego will: Careful, or you'll fall = If you aren't careful, you'll fall. Bez or i and, przy dowodzie przed oczami (Watch out! You're going to hit your head), idzie zwykle be going to.",
+      "examples": [
+        {
+          "en": "Put your coat on, or you'll catch a cold.",
+          "pl": "Załóż kurtkę, bo się przeziębisz."
+        },
+        {
+          "en": "Touch my phone again and I'll tell Mum!",
+          "pl": "Dotknij jeszcze raz mojego telefonu, a powiem mamie!"
+        }
+      ]
+    },
+    {
+      "title_pl": "Zdania czasowe i warunkowe: will tylko w zdaniu głównym",
+      "explanation_pl": "Po when, as soon as, until, before, after, once, by the time, unless, if, in case i as long as mówisz o przyszłości, ale bez will. Przyszłość wyraża już zdanie główne, a to drugie podaje tylko moment albo warunek — dlatego Present Simple: I'll call you when I get home. Gdy chcesz podkreślić, że coś musi się najpierw skończyć, możesz dać też Present Perfect: I'll call you when I've finished. Tak samo działa pierwszy tryb warunkowy: If + Present Simple, will + V1. in case znaczy „na wypadek, gdyby”: zabezpieczasz się zawczasu, a nie stawiasz warunku jak if. Ale gdy when albo if zaczyna pytanie zależne („nie wiem, kiedy / czy…”), will zostaje, bo pytasz o samą przyszłość, a nie podajesz warunku: I don't know when he will come.",
+      "examples": [
+        {
+          "en": "I'll lend you the book as soon as I finish it.",
+          "pl": "Pożyczę ci tę książkę, jak tylko ją skończę."
+        },
+        {
+          "en": "If you leave now, you'll catch the last train.",
+          "pl": "Jeśli wyjdziesz teraz, zdążysz na ostatni pociąg."
+        },
+        {
+          "en": "Take some sandwiches in case you get hungry on the train.",
+          "pl": "Weź kanapki, na wypadek gdybyś zgłodniał w pociągu."
+        },
+        {
+          "en": "I wonder if she'll remember my birthday.",
+          "pl": "Ciekawe, czy będzie pamiętać o moich urodzinach."
+        }
+      ]
+    },
+    {
+      "title_pl": "Shall: propozycje i sugestie",
+      "explanation_pl": "Shall I…? znaczy „Czy mam…?”: proponujesz, że coś zrobisz. Shall we…? znaczy „Może byśmy…?”: proponujesz coś wspólnie, a What shall we do? to „Co robimy?”. Dziś shall żyje głównie w takich pytaniach i głównie w brytyjskim angielskim. W twierdzeniu (I shall…) brzmi formalnie albo staroświecko, a Amerykanie zamiast Shall I…? mówią zwykle Should I…? Po Let's… pytanie doczepiane to shall we?",
+      "examples": [
+        {
+          "en": "Shall I open the window? It's really stuffy in here.",
+          "pl": "Otworzyć okno? Strasznie tu duszno."
+        },
+        { "en": "Shall we order a pizza tonight?", "pl": "Może zamówimy dziś pizzę?" },
+        {
+          "en": "Let's start with the hardest question, shall we?",
+          "pl": "Zacznijmy od najtrudniejszego pytania, dobrze?"
         }
       ]
     }
   ],
   "signalWords": [
     {
-      "word": "tomorrow"
+      "word": "I think / I don't think",
+      "note_pl": "opinia o przyszłości: I think she'll win. Przeczenie zwykle przy think: I don't think it'll rain. I think I'll… to często decyzja w chwili mówienia: I think I'll stay in tonight. Uwaga: przy dowodzie, który widzisz albo czujesz w ciele, po I think idzie zwykle be going to (Look at the sky — I think it's going to snow)"
     },
     {
-      "word": "next year"
+      "word": "I'm sure",
+      "note_pl": "jestem pewien → przewidywanie: I'm sure you'll pass. Gdy mówisz o teraz, zostaje Present Simple: I'm sure she knows"
     },
     {
-      "word": "I think"
+      "word": "I expect",
+      "note_pl": "spodziewam się: I expect he'll be late again. W brytyjskim I expect bywa też o teraźniejszości („pewnie”): I expect you're tired"
     },
     {
-      "word": "probably"
+      "word": "I hope",
+      "note_pl": "I hope you'll like it. Po I hope o przyszłości często stoi też Present Simple: I hope you like it — obie wersje są poprawne"
     },
     {
-      "word": "I'm sure"
+      "word": "I promise",
+      "note_pl": "obietnica → will: I promise I'll call. „Obiecuję, że nie…” to I promise I won't…"
     },
     {
-      "word": "perhaps"
+      "word": "probably",
+      "note_pl": "pewnie. W twierdzeniu stoi po will (She'll probably be late), a w przeczeniu przed won't (She probably won't come)"
+    },
+    {
+      "word": "definitely / certainly",
+      "note_pl": "na pewno; pozycja jak przy probably: I'll definitely come, I definitely won't forget"
+    },
+    {
+      "word": "perhaps / maybe",
+      "note_pl": "może; zwykle na początku zdania: Perhaps he'll call later. Podobnie: He might call later"
+    },
+    {
+      "word": "in that case",
+      "note_pl": "w takim razie → decyzja w reakcji na to, co właśnie usłyszałeś: In that case, I'll take a taxi"
+    },
+    {
+      "word": "Don't worry",
+      "note_pl": "uspokajasz kogoś i od razu oferujesz albo obiecujesz → will: Don't worry, I'll help you. Gdy dalej stoi coś już ustalonego (Don't worry, Dad's picking us up at ten), czas wybiera reszta zdania"
+    },
+    {
+      "word": "Shall I…? / Shall we…?",
+      "note_pl": "propozycja (Shall I…?) albo sugestia (Shall we…?), głównie w brytyjskim angielskim. W amerykańskim zwykle Should I…?"
+    },
+    {
+      "word": "I don't know if / I don't know when / I wonder if",
+      "note_pl": "pytanie zależne o przyszłość → will zostaje: I don't know when she'll be back, I wonder if he'll call. Nie myl ze zdaniem czasowym: I'll tell her when she's back"
+    },
+    {
+      "word": "tomorrow / next week / in ten years' time",
+      "note_pl": "same mówią tylko, że chodzi o przyszłość, a nie który czas wybrać. Umówiony plan → Present Continuous (I'm meeting Ola tomorrow), zamiar → be going to, rozkład → Present Simple. will — gdy dochodzi opinia, decyzja teraz, obietnica albo fakt"
     }
   ],
   "relatedTenses": [
     {
       "id": "be-going-to",
-      "relation_pl": "will — opinia albo decyzja teraz. be going to — dowód widoczny teraz albo wcześniejszy zamiar.",
+      "relation_pl": "Pytanie kontrolne: kiedy zapadła decyzja i na czym opierasz przewidywanie? Decyzja teraz, w trakcie rozmowy → will. Zamiar postanowiony wcześniej → be going to. Przewidywanie z opinii, przeczucia albo wiedzy → zwykle will, a z dowodu, który widzisz teraz → be going to. W wielu przewidywaniach obie formy są poprawne, ale oferta, obietnica i nagła decyzja to tylko will.",
       "contrast": [
         {
-          "en": "Look at those clouds! It's going to rain.",
-          "pl": "Spójrz na te chmury! Będzie padać (dowód teraz)."
+          "en": "I've decided — I'm going to learn Spanish this year.",
+          "pl": "Postanowiłem — w tym roku nauczę się hiszpańskiego (zamiar sprzed rozmowy)."
         },
         {
-          "en": "I think it will rain tomorrow.",
-          "pl": "Myślę, że jutro będzie padać (opinia)."
+          "en": "There's a free Spanish course at the library? Great, I'll sign up.",
+          "pl": "W bibliotece jest darmowy kurs hiszpańskiego? Super, zapiszę się (decyzja teraz)."
+        },
+        {
+          "en": "Look at that sky — it's going to pour.",
+          "pl": "Spójrz na niebo — zaraz lunie (dowód przed oczami)."
+        },
+        {
+          "en": "I think it'll be sunny at the weekend.",
+          "pl": "Myślę, że w weekend będzie słonecznie (opinia; at the weekend — brytyjskie, po amerykańsku on the weekend)."
+        }
+      ]
+    },
+    {
+      "id": "present-continuous",
+      "relation_pl": "Present Continuous to plan już ustalony: umówiony z kimś, zapisany w kalendarzu, bilety kupione. will to decyzja albo obietnica, która rodzi się teraz, i przewidywanie. Pytanie kontrolne: czy to było ustalone, zanim zacząłeś mówić? Tak → Present Continuous (albo be going to). O pogodzie i rzeczach, których nikt nie planuje, Present Continuous nie powiesz.",
+      "contrast": [
+        {
+          "en": "I'm having my hair cut on Saturday — I booked it last week.",
+          "pl": "W sobotę idę do fryzjera — umówiłem się w zeszłym tygodniu (ustalone)."
+        },
+        {
+          "en": "My hair's far too long. I think I'll get it cut on Saturday.",
+          "pl": "Mam za długie włosy. Chyba w sobotę pójdę do fryzjera (decyzja teraz)."
+        },
+        {
+          "en": "What are you doing on Friday evening?",
+          "pl": "Co robisz w piątek wieczorem? (pytanie o plany)"
+        },
+        {
+          "en": "What will you do if they cancel the trip?",
+          "pl": "Co zrobisz, jeśli odwołają wycieczkę? (pytanie o reakcję, nie o plan)"
+        }
+      ]
+    },
+    {
+      "id": "present-simple",
+      "relation_pl": "Rozkład jazdy, plan lekcji, godzina seansu → Present Simple: traktujesz to jak stały zapis, a nie jak przewidywanie czy decyzję. Druga granica: w zdaniu po when, as soon as, until, before, after, if i in case o przyszłości stoi Present Simple, a will tylko w zdaniu głównym. W pytaniu zależnym (I don't know when / if…) will zostaje.",
+      "contrast": [
+        {
+          "en": "The film starts at 7.30, so let's meet at seven.",
+          "pl": "Film zaczyna się o 19.30, więc spotkajmy się o siódmej (program kina)."
+        },
+        {
+          "en": "I think the film will be a huge hit.",
+          "pl": "Myślę, że film będzie wielkim hitem (opinia)."
+        },
+        {
+          "en": "I'll call you when I land.",
+          "pl": "Zadzwonię, jak wyląduję (zdanie czasowe — Present Simple)."
+        },
+        {
+          "en": "I've no idea when I'll land — the flight is delayed.",
+          "pl": "Nie mam pojęcia, kiedy wyląduję — lot jest opóźniony (pytanie zależne — will zostaje)."
+        }
+      ]
+    },
+    {
+      "id": "future-continuous",
+      "relation_pl": "will + V1 widzi przyszłe zdarzenie w całości: zrobię, stanie się. Future Continuous (will be + V-ing) stawia cię w środku czynności w konkretnym momencie przyszłości: o ósmej będę akurat w trakcie. Ma też drugie zastosowanie: coś wydarzy się w normalnym toku rzeczy, bez decyzji teraz. Dlatego Will you be using your laptop tonight? to grzeczne pytanie o plany, a Will you lend me your laptop? — prośba.",
+      "contrast": [
+        {
+          "en": "I'll write the essay tonight.",
+          "pl": "Napiszę wypracowanie dziś wieczorem (całość — zrobię to)."
+        },
+        {
+          "en": "Don't call at eight — I'll be writing my essay.",
+          "pl": "Nie dzwoń o ósmej — będę wtedy pisać wypracowanie (w trakcie)."
+        },
+        {
+          "en": "Will you lend me your laptop tonight?",
+          "pl": "Pożyczysz mi dziś wieczorem laptopa? (prośba)"
+        },
+        {
+          "en": "Will you be using your laptop tonight?",
+          "pl": "Będziesz dziś wieczorem korzystać z laptopa? (pytanie o plany, bez nacisku)"
+        }
+      ]
+    },
+    {
+      "id": "future-perfect",
+      "relation_pl": "will + V1 mówi, że coś się stanie albo kiedy. Future Perfect (will have + V3) patrzy z punktu w przyszłości wstecz: do tego momentu będzie już zrobione. by + termin (by Friday, by the time…) zwykle prowadzi do Future Perfect, ale przy obietnicy z terminem wystarcza will: I'll send it by Friday.",
+      "contrast": [
+        {
+          "en": "I'll finish the project on Friday.",
+          "pl": "Skończę projekt w piątek (wtedy)."
+        },
+        {
+          "en": "I'll have finished the project by Friday.",
+          "pl": "Do piątku skończę projekt (najpóźniej wtedy będzie gotowy)."
         }
       ]
     }
   ],
   "commonMistakes": [
     {
-      "wrong": "I will call you when I will get home.",
-      "right": "I'll call you when I get home.",
-      "why_pl": "Po when, if, as soon as, before i after (gdy mowa o przyszłości) używamy Present Simple, nie will."
+      "wrong": "We won't start until everyone will arrive.",
+      "right": "We won't start until everyone arrives.",
+      "why_pl": "until (tak jak when, as soon as, before, after) zaczyna zdanie czasowe. Przyszłość jest już w zdaniu głównym (won't start), więc tu zostaje Present Simple. Polskie „dopóki wszyscy nie przyjdą” ma też „nie”, a po angielsku samo until wystarczy, bez not."
+    },
+    {
+      "wrong": "If it will be sunny, we'll have a barbecue.",
+      "right": "If it's sunny, we'll have a barbecue.",
+      "why_pl": "W części z if o przyszłości stoi Present Simple, a will tylko w drugiej części. To pierwszy tryb warunkowy: If + Present Simple, will + V1."
+    },
+    {
+      "wrong": "Take your keys in case I'll be out when you get back.",
+      "right": "Take your keys in case I'm out when you get back.",
+      "why_pl": "Po in case (na wypadek, gdyby) jest tak samo jak po if: o przyszłości Present Simple, a will tylko w zdaniu głównym. Polskie „gdyby mnie nie było” kusi też would, ale po in case zostaje Present Simple."
+    },
+    {
+      "wrong": "I will can help you tomorrow.",
+      "right": "I'll be able to help you tomorrow.",
+      "why_pl": "Po will nie postawisz drugiego czasownika modalnego (can, must). Przyszłość od can to will be able to, a od must — will have to. Często wystarczy też samo can: I can help you tomorrow."
+    },
+    {
+      "wrong": "She won't probably come.",
+      "right": "She probably won't come.",
+      "why_pl": "probably i definitely stoją po will (She'll probably come), ale przed won't. W pełnej formie mogą też stać między will a not: She will probably not come — to brzmi bardziej formalnie."
+    },
+    {
+      "wrong": "Will I open the window?",
+      "right": "Shall I open the window?",
+      "why_pl": "Propozycja „czy mam…?” z I albo we to Shall (po amerykańsku zwykle Should I…?). Will I…? pyta o przewidywanie: Will I need a coat?"
+    },
+    {
+      "wrong": "I don't know when will he come.",
+      "right": "I don't know when he will come.",
+      "why_pl": "W pytaniu zależnym szyk jest jak w zdaniu oznajmującym: najpierw podmiot, potem will. Samo will zostaje, bo to nie jest zdanie czasowe, tylko pytanie o przyszłość."
+    },
+    {
+      "wrong": "A: I've left my wallet at home! B: Don't worry, I'm going to lend you some money.",
+      "right": "A: I've left my wallet at home! B: Don't worry, I'll lend you some money.",
+      "why_pl": "B dowiaduje się o problemie w tej chwili i od razu oferuje pomoc → will. be going to znaczyłoby, że miał to w planie wcześniej, a przecież dopiero to usłyszał."
     }
   ],
   "maturaTips_pl": [
-    "Pamiętaj o zdaniach czasowych: when / as soon as / until + Present Simple, choć mówimy o przyszłości."
+    "Zanim wpiszesz will, sprawdź, czy luka nie stoi po when, as soon as, until, before, after, once, by the time, unless, if, in case albo as long as. Jeśli tak i chodzi o przyszłość — Present Simple, a will idzie do drugiej części zdania. Uważaj, gdy zdanie zaczyna się od When albo Once: luka w drugiej części (Once I get my results, I'll…) potrzebuje will. Wyjątek to pytanie zależne po I don't know, I wonder, Can you tell me: tu will zostaje.",
+    "will czy be going to? Szukaj, kiedy zapadła decyzja. Reakcja na to, co ktoś właśnie powiedział (OK…, In that case…, Don't worry…) → will. Postanowienie sprzed rozmowy (I've made up my mind…) → be going to, a ustalenie z kimś (I've booked…) → Present Continuous.",
+    "Pozycja przysłówków: will probably / will definitely + V1, ale probably / definitely won't. Częsta transformacja: It's likely that she'll be late. = She'll probably be late. = She is likely to be late.",
+    "Transformacje z modalnymi: can → will be able to, must → will have to (I can't come tomorrow. = I won't be able to come tomorrow.). I jeszcze unless = if… not, a ostrzeżenie z or to ukryte if… not: Hurry up, or you'll miss the bus. = If you don't hurry up, you'll miss the bus. = Unless you hurry up, you'll miss the bus.",
+    "Mowa zależna: will przechodzi zwykle w would (She said she would call me). Funkcje will mają też swoje czasowniki: I'll carry it for you → he offered to carry it, I promise I'll be careful → she promised to be careful, I won't do it → he refused to do it, OK, I'll help → she agreed to help.",
+    "W e-mailu will przydaje się przy obietnicach i propozycjach: I'll send you the photos as soon as I get back. Shall we meet on Saturday? W liście formalnym pisz pełne formy (I will, I will not), a strona bierna z will dobrze brzmi w zapowiedziach: The documents will be sent to you next week."
   ]
 }
