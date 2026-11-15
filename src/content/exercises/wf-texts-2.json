@@ -1,0 +1,416 @@
+[
+  {
+    "id": "wft-bouldering",
+    "type": "word-formation",
+    "title": "Afraid of Heights, but Climbing Anyway",
+    "text": "Last autumn a bouldering centre opened in an old factory near my school, and my friend Zosia persuaded me to give it a try. I was sure I would hate it, because I am afraid of heights. Luckily, the walls are only about four metres high and the floor is covered with thick mats, so a fall is usually ___. The instructor showed us how to push with our legs instead of pulling with our arms. He explained that good climbers depend on balance and ___ more than on big muscles. After my first session I could hardly lift a cup of tea, but I went back the next week. Since then my technique has ___ improved. What I like most is the atmosphere: climbers who are complete ___ cheer each other on when someone is trying a difficult route.",
+    "gaps": [
+      {
+        "base": "HARM",
+        "correct": ["harmless"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po a fall is usually stoi przymiotnik, który opisuje upadek."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Ściany są niskie, a na podłodze leżą grube materace. To powód, żeby się nie bać, więc upadek jest niegroźny, nieszkodliwy."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "harm + -less → harmless, na końcu dwa s. harmful to 0 pkt, bo znaczy odwrotnie („szkodliwy”). harmlessly to przysłówek, a po is stoi przymiotnik."
+          }
+        ]
+      },
+      {
+        "base": "FLEXIBLE",
+        "correct": ["flexibility"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po balance and stoi drugi element pary po depend on, czyli tak jak balance rzeczownik."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Dobry wspinacz nie musi mieć wielkich mięśni, liczy się równowaga i gibkość, rozciągnięcie = flexibility."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "flexible → flexibility: -ble zmienia się w -bility. flexibleness i flexability przez a to 0 pkt. Liczby mnogiej tu nie ma, bo to cecha, jak balance."
+          }
+        ]
+      },
+      {
+        "base": "NOTICE",
+        "correct": ["noticeably"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Między has a improved stoi przysłówek, który mówi, jak bardzo technika się poprawiła."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Od pierwszych treningów poprawę widać gołym okiem: noticeably = zauważalnie."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "notice + -able + -ly → noticeably. e po c zostaje, bo bez niego c czytałoby się jak k. noticably bez e to 0 pkt. noticeable bez -ly też, bo opisuje czasownik improved."
+          }
+        ]
+      },
+      {
+        "base": "STRANGE",
+        "correct": ["strangers"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po climbers who are complete stoi rzeczownik: wspinacze są kimś. Climbers to liczba mnoga, więc rzeczownik też."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Ludzie, którzy się nie znają, a i tak sobie kibicują: to obcy, nieznajomi = strangers. Ludzi robi końcówka -er."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "strange + -er, e się zlewa: stranger, plus -s. stranger bez -s to 0 pkt, bo climbers to wielu ludzi. strangeness (dziwność) to nie osoba."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wft-bird-count",
+    "type": "word-formation",
+    "title": "One Hour at the Window",
+    "text": "In January our biology teacher asked the whole class to take part in a winter bird count. The idea is simple: you watch a garden, a park or even a balcony for one hour and write down every bird you see. The ___ who run the project then put together the results from thousands of volunteers across the country. Counting birds sounds easy, but it takes a lot of ___. For the first twenty minutes I saw nothing but a cat. Then the birds started to arrive. Great tits and blackbirds were everywhere, and house sparrows were ___ common, even though I had read that their numbers have fallen in many European cities. Counts like this are ___, because no research team could ever watch so many places at once.",
+    "gaps": [
+      {
+        "base": "SCIENCE",
+        "correct": ["scientists"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po The, a przed who run stoi podmiot, czyli rzeczownik. who odnosi się do ludzi, a run (bez -s) pokazuje liczbę mnogą."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Projekt prowadzą ludzie, którzy potem opracowują wyniki: naukowcy. Osobę od science robi końcówka -ist."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "science → scientist: e znika, dochodzi t, potem -ist i -s. scientist bez -s to 0 pkt, bo czasownik to run. science i scientific to nie ludzie."
+          }
+        ]
+      },
+      {
+        "base": "PATIENT",
+        "correct": ["patience"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po a lot of stoi rzeczownik. Tu niepoliczalny, bo chodzi o cechę, a nie o rzeczy do policzenia."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Przez dwadzieścia minut nie było żadnego ptaka, więc trzeba umieć czekać: cierpliwość = patience."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "patient → patience: -ent zmienia się w -ence. patients (pacjenci) brzmi prawie tak samo, ale to inny wyraz i 0 pkt. patientness też nie istnieje."
+          }
+        ]
+      },
+      {
+        "base": "SURPRISE",
+        "correct": ["surprisingly"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Przed przymiotnikiem common stoi przysłówek, który go wzmacnia, jak very common."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "W tekście jest informacja, że wróbli ubywa, a podczas liczenia było ich dużo. Even though pokazuje ten kontrast: wróble były zaskakująco liczne."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "surprise → surprising (e znika) + -ly → surprisingly. surprising bez -ly to 0 pkt, bo opisuje przymiotnik. surprisedly też, bo to wróble zaskakują, a nie są zaskoczone. Uwaga na surprize przez z: tak się nie pisze."
+          }
+        ]
+      },
+      {
+        "base": "VALUE",
+        "correct": ["valuable", "invaluable"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po Counts like this are stoi przymiotnik, który opisuje takie liczenie."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Żaden zespół naukowców nie obejrzy naraz tylu miejsc, więc dane od wolontariuszy są cenne. invaluable znaczy „bezcenny, nieoceniony”, czyli jeszcze mocniej to samo."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "value → valuable: e znika przed -able. valueless (bez wartości) to 0 pkt, bo odwraca sens. Pułapka: in- w invaluable formalnie przeczy (nie da się wycenić), ale całość znaczy bezcenny, czyli mocniej niż valuable."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wft-street-mural",
+    "type": "word-formation",
+    "title": "The Wall Next to the Old Cinema",
+    "text": "Two years ago the side wall of the old cinema in my street was grey and covered in graffiti. Then a local artist offered to turn it into a mural about the history of our district. At first, a few neighbours ___ with the plan, saying that the colours would be far too bright for such a quiet street. So the artist organised a meeting and showed everyone her sketches. By the end of the evening most people ___ supported the idea, and the final ___ to go ahead was almost unanimous. More than forty volunteers, from small children to pensioners, helped her paint it during the summer holidays. Today the corner is almost ___: tourists stop to take photos, and a new café has opened right next to the wall.",
+    "gaps": [
+      {
+        "base": "AGREE",
+        "correct": ["disagreed"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po podmiocie a few neighbours stoi czasownik, a cała historia jest w przeszłości, więc past simple."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Sąsiedzi mówili, że kolory będą za jaskrawe, czyli byli przeciw. Potrzebne jest przeczenie: nie zgadzali się = disagreed with."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "dis- + agree + -d → disagreed, jedno s i dwa e. agreed to 0 pkt, bo odwraca sens. disagree bez -d też, bo to przeszłość. Nie ma unagreed ani misagreed."
+          }
+        ]
+      },
+      {
+        "base": "ENTHUSIASM",
+        "correct": ["enthusiastically"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Między podmiotem most people a czasownikiem supported stoi przysłówek, który mówi, jak go poparli."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Po obejrzeniu szkiców ludzie zmienili zdanie i poparli pomysł z entuzjazmem, a decyzja była prawie jednogłośna."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "enthusiasm → enthusiastic → enthusiastically. Przymiotnik na -ic dostaje -ally, nie samo -ly. enthusiasticly to 0 pkt. enthusiastic bez -ally też, bo opisuje czasownik."
+          }
+        ]
+      },
+      {
+        "base": "DECIDE",
+        "correct": ["decision"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po the final, a przed to go ahead stoi rzeczownik. Czasownik was mówi, że w liczbie pojedynczej."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Na spotkaniu podjęto decyzję, żeby malować: the decision to do something = decyzja, żeby coś zrobić."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "decide → decision: -de zmienia się w -sion. decission z dwoma s i decisions po was to 0 pkt. decisive to przymiotnik („stanowczy”)."
+          }
+        ]
+      },
+      {
+        "base": "RECOGNISE",
+        "correct": ["unrecognisable"],
+        "accepted": ["unrecognizable"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po the corner is almost stoi przymiotnik, który opisuje róg ulicy."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Szara ściana z graffiti zmieniła się w mural, przyjeżdżają turyści, jest nowa kawiarnia. Róg zmienił się tak, że trudno go poznać: nie do rozpoznania."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "un- + recognise + -able, e znika: unrecognisable. recognisable bez un- to 0 pkt, bo almost recognisable nie ma tu sensu. unrecognised (nierozpoznany) znaczy co innego. Pisownia z z jest amerykańska."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  },
+  {
+    "id": "wft-blood-donation",
+    "type": "word-formation",
+    "title": "My First Time Giving Blood",
+    "text": "When I turned eighteen in March, I decided to give blood for the first time. My older brother has been a donor for years, and he kept telling me how easy it was. I have to admit that I was quite ___ when I got to the centre, because I have always hated needles. The whole visit, including ___ and a short medical check, took about an hour, but the donation itself lasted less than ten minutes. The nurse explained that serious side effects are very ___, although some people feel a bit dizzy afterwards. That is why every donor has to rest for a while and have something to drink. I felt fine, and I left with a bag of chocolate bars and a real sense of ___. I am already planning my next visit.",
+    "box": ["COMMON", "HEALTH", "NERVE", "PAIN", "REGISTER", "SATISFY"],
+    "gaps": [
+      {
+        "base": "NERVE",
+        "correct": ["nervous"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po I was quite stoi przymiotnik, który mówi, jak autor się czuł."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "W tekście ktoś nie znosi igieł, więc przed wizytą jest zdenerwowanie: nervous. HEALTH (healthy) i PAIN (painful) tu nie pasują: bycie zdrowym nie wynika z tego, że ktoś nie lubi igieł, a painful opisuje rzecz, nie człowieka."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "nerve → nervous: e znika przed -ous. nervously to przysłówek i po was nie pasuje."
+          }
+        ],
+        "accepted": ["nervy"]
+      },
+      {
+        "base": "REGISTER",
+        "correct": ["registration"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po including, obok a short medical check, stoi rzeczownik. Bez przedimka, więc niepoliczalny, jak czynność."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Wizyta składa się z zapisania się (dane, ankieta) i badania. To rejestracja = registration. HEALTH i PAIN nie są etapami wizyty."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "register → registration: e znika, dochodzi -ation. registeration to 0 pkt. register bez końcówki też jest rzeczownikiem, ale znaczy „rejestr, lista”."
+          }
+        ]
+      },
+      {
+        "base": "COMMON",
+        "correct": ["uncommon"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po are very stoi przymiotnik, który opisuje poważne skutki uboczne."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Although pokazuje kontrast: niektórym kręci się w głowie, ale poważne problemy zdarzają się rzadko. Potrzebne jest przeczenie: uncommon = rzadki. painful nie tworzy tu kontrastu, a healthy nie opisuje skutków ubocznych."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "un- + common → uncommon, dwa m. common bez un- to 0 pkt, bo odwraca sens i psuje kontrast z although. incommon i discommon nie istnieją."
+          }
+        ]
+      },
+      {
+        "base": "SATISFY",
+        "correct": ["satisfaction"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po a real sense of stoi rzeczownik. sense of + rzeczownik to poczucie czegoś."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Po oddaniu krwi wszystko jest w porządku i zostaje zadowolenie, że się pomogło, że pomógł: a sense of satisfaction = poczucie satysfakcji. PAIN (sense of pain) przeczy zdaniu I felt fine, a sense of health nie jest zwrotem."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "satisfy → satisfaction: y znika, dochodzi -action. satisfication to 0 pkt. satisfied i satisfying to przymiotniki, a po of stoi rzeczownik."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wft-grandad-ebike",
+    "type": "word-formation",
+    "title": "Grandad Gets an E-bike",
+    "text": "Last spring my seventy-two-year-old grandfather surprised the whole family by buying an e-bike. He had always said that bikes with motors were for lazy people, but his knees had started to hurt on the hills around his village. The bike was not cheap, but running it is surprisingly ___: a full charge uses very little ___ and costs less than a bus ticket. His first ride to the market and back was so ___ that he now leaves the car in the garage most days. He has also joined a local cycling group, and a few real ___ have grown out of their Sunday rides.",
+    "box": ["ELECTRIC", "EXPENSE", "FRIEND", "POLLUTE", "SUCCESS", "WASTE"],
+    "gaps": [
+      {
+        "base": "EXPENSE",
+        "correct": ["inexpensive"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po is surprisingly stoi przymiotnik, który opisuje jazdę (running it)."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Dwukropek wyjaśnia: ładowanie kosztuje mniej niż bilet. Jazda jest więc tania. WASTE dałoby wasteful (rozrzutny), a to przeczy temu, co po dwukropku."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "expense → expensive → inexpensive: przeczenie in-, nie un-. expensive bez przeczenia to 0 pkt, bo odwraca sens."
+          }
+        ]
+      },
+      {
+        "base": "ELECTRIC",
+        "correct": ["electricity"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po uses very little stoi rzeczownik niepoliczalny: czego zużywa mało."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Rower na baterię zużywa prąd = electricity. POLLUTE (pollution) i WASTE nie dają sensu: ładowanie nie „zużywa zanieczyszczenia”."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "electric → electricity: c zostaje, dochodzi -ity. electrician to elektryk, a electrics to instalacja, nie pasują."
+          }
+        ]
+      },
+      {
+        "base": "SUCCESS",
+        "correct": ["successful"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po was so stoi przymiotnik (so + przymiotnik + that)."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Pierwsza jazda poszła tak dobrze, że teraz samochód stoi w garażu. To udana jazda = successful."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "success → successful: dwa c, dwa s, -ful z jednym l. successfully to przysłówek i po was so nie pasuje."
+          }
+        ]
+      },
+      {
+        "base": "FRIEND",
+        "correct": ["friendships"],
+        "steps": [
+          {
+            "label_pl": "pozycja w zdaniu",
+            "text_pl": "Po a few real stoi rzeczownik w liczbie mnogiej, bo dalej jest have grown."
+          },
+          {
+            "label_pl": "część mowy i znaczenie",
+            "text_pl": "Ze wspólnych wycieczek wyrosły prawdziwe przyjaźnie = friendships."
+          },
+          {
+            "label_pl": "forma i pułapka",
+            "text_pl": "friend + -ship + -s → friendships. friendship bez -s to 0 pkt (a few, have). friends też nie pasuje sensem: przyjaciele nie „wyrastają” z wycieczek, tylko przyjaźnie."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  }
+]

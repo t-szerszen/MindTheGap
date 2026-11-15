@@ -1,0 +1,622 @@
+[
+  {
+    "id": "cz-education",
+    "type": "choice",
+    "title": "Later start, better marks?",
+    "text": "When Hollins Sixth Form College in Yorkshire decided to start lessons at ten instead of nine, the reaction was mixed. The idea was first ___ by a group of students who had read about research on teenage sleep and then collected over three hundred signatures to support it. Many parents, however, were strongly opposed ___ the change, arguing that it would make family mornings even more chaotic. ___ their concerns, the college went ahead with a one-year trial. Since the new timetable began last September, attendance at morning lessons ___ by almost ten per cent, and teachers say that students now ___ far more attention in class. The head teacher, Ms Okafor, remains cautious, though. 'It is still too early to say whether exam results will improve,' she explains. 'The ___ timetable will stay in place until July, and then we will look carefully at the data before we make a final decision.'",
+    "gaps": [
+      {
+        "options": ["put off", "put forward", "put away", "put down"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Uczniowie przeczytali badania i zbierali podpisy, żeby pomysł poprzeć. Czyli to oni go zgłosili."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "put forward an idea = zgłosić, zaproponować pomysł."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "put off to odłożyć na później albo zniechęcić, put down to skrytykować albo zapisać, put away to schować. Żaden nie pasuje do zbierania podpisów."
+          }
+        ]
+      },
+      {
+        "options": ["against", "with", "to", "for"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką stoi przymiotnik opposed. O przyimku decyduje właśnie on."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "be opposed to sth = być przeciwnym czemuś. To stałe połączenie."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "against kusi, bo znaczy „przeciw”, ale mówi się be against sth albo be opposed to sth, nigdy opposed against."
+          }
+        ]
+      },
+      {
+        "options": ["Although", "However", "Despite", "Even if"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Za luką jest tylko grupa rzeczownika: their concerns, bez czasownika."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Rodzice mieli obawy, a mimo to próba ruszyła. To ustępstwo, a przed rzeczownikiem stawiamy przyimek Despite."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Although i Even if to spójniki, potrzebują pełnego zdania (although they had concerns). However nie łączy się z rzeczownikiem w jedno zdanie."
+          }
+        ]
+      },
+      {
+        "options": ["rose", "had risen", "was rising", "has risen"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Since the new timetable began last September: od punktu w przeszłości aż do teraz."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Zmiana trwa od września do dziś i liczy się jej wynik teraz, więc present perfect: has risen."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "W brytyjskim angielskim i na maturze: po since w znaczeniu „od” część główna stoi w present perfect, nie w past simple. had risen wymagałoby innego punktu w przeszłości, a tu odniesieniem jest teraźniejszość."
+          }
+        ]
+      },
+      {
+        "options": ["make", "pay", "take", "put"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Słowo po luce: attention."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Kolokacja pay attention = uważać, zwracać uwagę."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Po polsku „zwracać” albo „poświęcać” uwagę, stąd pokusa make lub take. Po angielsku uwagę zawsze się „płaci”."
+          }
+        ]
+      },
+      {
+        "options": ["actual", "current", "topical", "contemporary"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Chodzi o plan, który obowiązuje teraz i zostanie do lipca."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "current = obecny, aktualnie obowiązujący."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "actual to false friend: znaczy „rzeczywisty, faktyczny”, nie „aktualny”. topical to „na czasie” (o temacie), a contemporary „współczesny” (o sztuce, epoce)."
+          }
+        ]
+      }
+    ],
+    "tags": ["collocations", "linking-contrast", "prepositions", "phrasal-verbs", "confused-words"],
+    "difficulty": 2
+  },
+  {
+    "id": "cz-work",
+    "type": "choice",
+    "title": "My first proper job",
+    "text": "Last summer I worked as a waiter in a small café in Brighton. ___ I had no experience at all, the owner agreed to give me a two-week trial. She turned out to be a demanding but fair boss, and within a month I was responsible ___ opening the café on my own at seven every morning. At first I ___ a lot of mistakes: I mixed up orders, printed the wrong ___ for customers paying at the till and once dropped a whole tray of cups in front of a queue of tourists. Slowly, though, things got easier. By the time I left in September, I ___ how to stay calm when ten people wanted coffee at once, and how to keep smiling at someone who was being rude. The money was not great, but the experience was worth far more. If I ___ at home that summer, I would never have discovered how much I enjoy working with people.",
+    "gaps": [
+      {
+        "options": ["Despite", "Even though", "Unless", "In case"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Za luką pełne zdanie: I had no experience. Nie miałem doświadczenia, a mimo to dostałem szansę."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "To ustępstwo przed zdaniem, więc spójnik Even though (= chociaż)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Despite to przyimek: despite having no experience albo despite my lack of experience, nigdy przed podmiotem i czasownikiem. In case i Unless dają złą logikę."
+          }
+        ]
+      },
+      {
+        "options": ["of", "for", "about", "to"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką przymiotnik responsible, a po niej czynność z -ing."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "be responsible for sth/doing sth = odpowiadać za coś."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Polskie „odpowiedzialny za” nie podpowiada przyimka. responsible to istnieje, ale znaczy „podlegać komuś” (responsible to the manager), a nie zadanie."
+          }
+        ]
+      },
+      {
+        "options": ["did", "took", "made", "had"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce: a lot of mistakes."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Kolokacja make a mistake = popełnić błąd."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "do pasuje do homework, a favour, damage, ale nie do mistake. take i have w ogóle nie łączą się z mistake."
+          }
+        ]
+      },
+      {
+        "options": ["recipes", "prescriptions", "receipts", "recipients"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Kelner drukuje coś dla klienta przy płaceniu."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "receipt = paragon (p w środku nie czytamy)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "recipe to false friend: znaczy „przepis kulinarny”. Polska „recepta” to prescription. recipients to „odbiorcy”."
+          }
+        ]
+      },
+      {
+        "options": ["had learnt", "have learnt", "was learning", "would learn"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "By the time I left in September: punkt w przeszłości, do którego coś się już dokonało."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Nauka zakończyła się przed wyjazdem, więc past perfect: had learnt."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "have learnt odnosi się do teraz, a wrzesień to zamknięta przeszłość. was learning opisuje trwanie, nie efekt przed konkretnym momentem."
+          }
+        ]
+      },
+      {
+        "options": ["stayed", "would have stayed", "have stayed", "had stayed"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "W drugiej części stoi would never have discovered, a mowa o zeszłym lecie, którego nie da się zmienić."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Trzeci tryb warunkowy: if + past perfect, czyli If I had stayed."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "stayed dałoby drugi tryb (teraźniejszość). would have nigdy nie stoi w części z if."
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "past-perfect",
+      "conditionals",
+      "linking-contrast",
+      "prepositions",
+      "collocations",
+      "confused-words"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "cz-health",
+    "type": "choice",
+    "title": "Five kilometres on a Saturday",
+    "text": "Every Saturday morning, hundreds of thousands of people across the UK gather in local parks to run, jog or walk five kilometres. The event, known as parkrun, ___ in 2004 by Paul Sinton-Hewitt, who invited a few friends to Bushy Park in London; only thirteen runners took part that first morning. Today it is free and open to everyone, and each event is run entirely by volunteers. ___ every run is timed, most participants are not really competing with anyone but themselves. You do not need to be fit to join in; ___, some people walk the whole course with their dogs or push a pram. Many beginners walk most of the way on their first visit, but ___ they manage to run the whole distance. Organisers often hear from people who say that parkrun helped them ___ exercise after years of doing nothing at all. Some doctors now even refer patients ___ their local event, as regular activity in a friendly group can improve both physical and mental health.",
+    "gaps": [
+      {
+        "options": ["started", "was started", "has been started", "had been started"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Za luką: in 2004 by Paul Sinton-Hewitt. Jest wykonawca z by i zamknięta data."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Wydarzenie ktoś założył, więc strona bierna, a rok 2004 to past simple: was started."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "started (strona czynna) nie ma tu dopełnienia i gryzie się z by. has been started nie łączy się z konkretnym rokiem w przeszłości."
+          }
+        ]
+      },
+      {
+        "options": ["Although", "Despite", "Because", "Unless"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Za luką pełne zdanie: every run is timed. Czas jest mierzony, a mimo to ludzie się nie ścigają."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Ustępstwo przed zdaniem: spójnik Although."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Despite to przyimek i nie może stać przed podmiotem z czasownikiem. Because dałoby przyczynę, a Unless warunek, i sens się rozsypuje."
+          }
+        ]
+      },
+      {
+        "options": ["however", "in fact", "otherwise", "nevertheless"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Nie trzeba być wysportowanym, a druga część to przykład, który to jeszcze mocniej potwierdza."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "in fact = wręcz, a nawet. Dokłada mocniejszy argument w tę samą stronę."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "however i nevertheless wprowadzają kontrast, a tu kontrastu nie ma. otherwise znaczy „w przeciwnym razie”."
+          }
+        ]
+      },
+      {
+        "options": ["possibly", "lately", "eventually", "currently"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Najpierw idą pieszo, potem, po jakimś czasie, przebiegają całość. To efekt końcowy procesu."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "eventually = w końcu, z czasem."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "eventually to nie „ewentualnie”, a „ewentualnie” to possibly. lately łączy się z present perfect, a currently opisuje stan teraz, nie zmianę."
+          }
+        ]
+      },
+      {
+        "options": ["take off", "take up", "take over", "take in"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po latach bez ruchu ludzie zaczynają ćwiczyć. Po luce: exercise."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "take up sth = zacząć coś robić regularnie (sport, hobby)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "take off to zdjąć albo wystartować, take over to przejąć, take in to wchłonąć albo oszukać. Ten sam czasownik, inna partykuła, inny sens."
+          }
+        ]
+      },
+      {
+        "options": ["at", "to", "for", "into"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Czasownik refer i osoba po nim: lekarz kieruje pacjenta dokądś."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "refer sb to sth/sb = skierować kogoś do czegoś lub do kogoś."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "refer sb for istnieje, ale łączy się z celem (for treatment, for tests), a nie z miejscem. at i into nie tworzą tu poprawnego połączenia z refer."
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "linking-contrast",
+      "passive-voice",
+      "confused-words",
+      "phrasal-verbs",
+      "prepositions"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "cz-travel",
+    "type": "choice",
+    "title": "Stuck in the Alps",
+    "text": "Before last July, I ___ abroad on my own, so I felt quite nervous as I boarded the night train from Vienna to Venice. Everything went smoothly until about two in the morning, when the train suddenly ___ in the middle of the Alps. Nobody seemed to know what was happening, and we waited for almost three hours while the engine ___. As a result, I ___ my connection to Florence and had to spend an unplanned night in Venice. Every hotel I could afford was full, so I ended up at a ___ outside the city, sleeping in a tent lent to me by a friendly Dutch family I had met on the platform. Looking back, it was the best part of the whole holiday, and I am still in touch with them. My advice to anyone planning a similar trip? Always carry some spare cash and a phone charger, and book your seat well in advance ___ you are happy to stand in a corridor for hours.",
+    "gaps": [
+      {
+        "options": [
+          "have never travelled",
+          "had never travelled",
+          "never travel",
+          "was never travelling"
+        ],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Before last July i dalej opowieść w past simple (boarded). Chodzi o czas przed tym przeszłym momentem."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Doświadczenie do punktu w przeszłości: past perfect, had never travelled."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "have never travelled liczy do dziś, a przecież od lipca już raz pojechał. never travel to zwyczaj w teraźniejszości."
+          }
+        ]
+      },
+      {
+        "options": ["broke up", "broke down", "broke out", "broke off"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Pociąg staje w górach, potem naprawiają silnik."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "break down = zepsuć się (o maszynie, aucie, pociągu)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "break up to rozstać się albo rozpaść, break out to wybuchnąć (wojna, pożar), break off to oderwać się albo przerwać rozmowę."
+          }
+        ]
+      },
+      {
+        "options": ["was repairing", "had repaired", "was being repaired", "has been repaired"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "while i trzy godziny czekania: czynność w trakcie. Silnik sam się nie naprawia."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Trwanie w przeszłości + strona bierna: was being repaired."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "was repairing robi z silnika mechanika i brakuje dopełnienia. had repaired to czynność już skończona, a my czekaliśmy w jej trakcie."
+          }
+        ]
+      },
+      {
+        "options": ["lost", "missed", "failed", "skipped"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce: my connection, czyli przesiadka na inny pociąg."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "miss a connection / a train = spóźnić się na przesiadkę, na pociąg."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Polskie „stracić przesiadkę” podsuwa lost, ale lose a connection mówi się o internecie. skip to celowo coś pominąć, a fail nie łączy się z connection."
+          }
+        ]
+      },
+      {
+        "options": ["camping", "campsite", "campus", "camper"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką at a, po niej spanie w namiocie. Potrzebny rzeczownik oznaczający miejsce."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "campsite = pole namiotowe, kemping."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "camping to false friend: po angielsku to czynność (go camping), nie miejsce. campus to teren uczelni, a camper to kamper albo osoba biwakująca."
+          }
+        ]
+      },
+      {
+        "options": ["if", "unless", "in case", "so that"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Rezerwuj miejsce, chyba że nie przeszkadza ci stanie w korytarzu."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "unless = chyba że, jeśli nie. Wyjątek od rady."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "if odwraca sens: rezerwuj, jeśli chcesz stać? in case to „na wypadek, gdyby”, a so that wprowadza cel. Żadne nie daje wyjątku."
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "past-perfect",
+      "passive-voice",
+      "phrasal-verbs",
+      "collocations",
+      "confused-words",
+      "linking-contrast"
+    ],
+    "difficulty": 3
+  },
+  {
+    "id": "cz-culture",
+    "type": "choice",
+    "title": "The little theatre that refused to close",
+    "text": "The Roxburgh Playhouse, a tiny theatre in a quiet market town in Shropshire, ___ in the 1880s, although no one has ever found the original documents. For decades it was famous ___ its Christmas pantomimes, which attracted families from all over the county. By 2015, however, the ___ was getting smaller every year and the building badly needed a new roof. Instead of giving up, a group of local residents formed a charity, raised the money themselves and persuaded young writers to stage their first plays there. Last year a comedy by a nineteen-year-old student received rave ___ in the national press, and every performance sold out. The Playhouse now also runs a small film festival, which ___ place every June and is entirely organised by volunteers. The town council has finally agreed to support the theatre with an annual grant ___ it continues to sell at least twenty thousand tickets a year.",
+    "gaps": [
+      {
+        "options": [
+          "believes to have opened",
+          "is believed opening",
+          "is believed to have opened",
+          "is believed to open"
+        ],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Dalej: no one has ever found the original documents. Nikt nie jest pewny, więc to przypuszczenie. A otwarcie było w latach 1880., dawno przed tym, co ludzie sądzą teraz."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Konstrukcja raportująca: is believed to + have V3, bo czynność jest wcześniejsza niż samo przypuszczenie."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "is believed to open mówiłoby o teraz albo o zwyczaju. believes to have opened to strona czynna, jakby teatr sam w coś wierzył. Po believed nie stawiamy -ing."
+          }
+        ]
+      },
+      {
+        "options": ["of", "about", "for", "with"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką famous, po niej to, z czego teatr słynął."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "famous for sth = znany z czegoś."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Polskie „słynny z” podsuwa of, ale famous of nie istnieje. about i with też nie łączą się z famous."
+          }
+        ]
+      },
+      {
+        "options": ["public", "audience", "spectators", "viewers"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Chodzi o ludzi, którzy przychodzą do teatru, i o to, że jest ich coraz mniej."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "audience = publiczność w teatrze, kinie, na koncercie."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "public to false friend: the public to ogół społeczeństwa, nie widzowie spektaklu. spectators oglądają sport, a viewers telewizję."
+          }
+        ]
+      },
+      {
+        "options": ["critics", "opinions", "reports", "reviews"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką rave, czyli entuzjastyczne. Po luce: in the national press."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Stałe połączenie rave reviews = entuzjastyczne recenzje."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "critics to ludzie, którzy piszą recenzje, a nie same teksty. opinions i reports nie tworzą kolokacji z rave."
+          }
+        ]
+      },
+      {
+        "options": ["has", "makes", "takes", "gets"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Słowo po luce: place, a mowa o festiwalu, który się odbywa."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "take place = odbywać się. Co roku w czerwcu, więc present simple: takes."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Tylko take tworzy to wyrażenie. has, makes i gets place nie istnieją w tym znaczeniu."
+          }
+        ]
+      },
+      {
+        "options": ["as long as", "even if", "unless", "in case"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Dotacja jest uzależniona od progu: co najmniej dwadzieścia tysięcy biletów."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "as long as = pod warunkiem że. Wprowadza warunek, który musi być spełniony."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "even if znaczy „nawet jeśli” i robi z progu coś nieważnego. unless odwraca warunek, a in case to „na wypadek, gdyby”."
+          }
+        ]
+      }
+    ],
+    "tags": ["collocations", "passive-voice", "prepositions", "confused-words", "linking-contrast"],
+    "difficulty": 3
+  }
+]

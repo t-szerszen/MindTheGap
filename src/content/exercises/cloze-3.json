@@ -1,0 +1,620 @@
+[
+  {
+    "id": "cz-sport",
+    "type": "choice",
+    "title": "Back on the pitch",
+    "text": "When seventeen-year-old midfielder Lena Novak fell awkwardly during a match last October, she knew at once that something was wrong. A scan later showed that she ___ a ligament in her left knee, and she was told she would not play for at least five months. 'For a few weeks I wanted to ___ football altogether,' she admits. Her physiotherapist explained that the knee would not be capable ___ handling sudden turns until the muscles around it were much stronger, so Lena spent the winter doing slow, boring exercises in the gym. ___ the pain, she also went to every training session to watch and support her teammates from the bench. Her coach says her presence lifted the whole team. ___, after five months of exercises, she was allowed to train with the ball again, and two weeks later she played twenty minutes in a league match. Her doctor now says she has ___ a full recovery, although she still wears a support on her knee. 'The injury taught me patience,' Lena says. 'I used to rush everything. Now I listen to my body.'",
+    "gaps": [
+      {
+        "options": ["has torn", "tears", "had torn", "was torn"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "A scan later showed that…: badanie pokazało coś w przeszłości, a samo zerwanie więzadła stało się jeszcze wcześniej, podczas meczu."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Czynność wcześniejsza niż inna przeszła (showed): past perfect, had torn. Podmiotem jest she, więc strona czynna: to ona zerwała więzadło."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "was torn to strona bierna, wyszłoby, że to ona została rozdarta. has torn liczy do teraz, a historia jest zamknięta (dziś Lena już gra). tears to teraźniejszość."
+          }
+        ]
+      },
+      {
+        "options": ["give up", "give in", "give away", "give out"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Za luką jest dopełnienie football i altogether (całkowicie). Chodzi o rzucenie piłki na dobre."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "give up sth = rzucić coś, przestać się czymś zajmować."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "give in w znaczeniu ustąpić, poddać się nie bierze dopełnienia, a give in sth = oddać (np. pracę), nie rzucić. give away = rozdać, oddać za darmo. give out = rozdawać albo przestać działać."
+          }
+        ]
+      },
+      {
+        "options": ["at", "for", "to", "of"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką przymiotnik capable, za nią forma -ing (handling)."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "be capable of sth / of doing sth = być w stanie coś zrobić. Ten przyimek trzeba po prostu znać razem z przymiotnikiem."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "able łączy się z to (able to handle) i to podsuwa to. Ale capable bierze tylko of. at pasuje do good at, a for do ready for."
+          }
+        ]
+      },
+      {
+        "options": ["Although", "Despite", "However", "Even though"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Za luką sam rzeczownik: the pain, bez czasownika. Do tego kontrast: bolało, a mimo to chodziła na każdy trening."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Despite to przyimek, więc stoi przed rzeczownikiem: Despite the pain = mimo bólu."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Although i Even though znaczą to samo, ale potrzebują całego zdania (Although it hurt). However nie stoi przed samym rzeczownikiem i nie łączy dwóch części w jedno zdanie."
+          }
+        ]
+      },
+      {
+        "options": ["Actually", "Currently", "Lately", "Eventually"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "after five months of exercises: coś następuje dopiero po długim czekaniu. Czasownik w przeszłości (was allowed)."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Eventually = w końcu, ostatecznie, po długim czasie."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Actually to false friend: znaczy „właściwie, w rzeczywistości”, a nie „aktualnie”. Currently = obecnie, nie pasuje do opowieści w przeszłości. Lately = ostatnio, zwykle z present perfect."
+          }
+        ]
+      },
+      {
+        "options": ["done", "taken", "made", "got"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Za luką a full recovery: pełny powrót do zdrowia."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Stała kolokacja: make a (full) recovery = (całkowicie) wyzdrowieć."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Kusi do albo take, bo po polsku „robimy” różne rzeczy, ale z recovery łączy się make. got a recovery też nie jest naturalne."
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "past-perfect",
+      "linking-contrast",
+      "phrasal-verbs",
+      "prepositions",
+      "confused-words",
+      "collocations"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "cz-volunteering",
+    "type": "choice",
+    "title": "Four weeks on a farm",
+    "text": "Last July, eighteen-year-old Oskar Wilczek spent four weeks as a volunteer on a small organic farm in the hills of northern Portugal. The farm belongs to a retired couple who host young people from all over Europe every summer. Volunteers ___ a bed and three meals a day in exchange for five hours of work, so the trip cost Oskar little more than the flight. He was responsible ___ the chickens and the vegetable garden, and he got up at six every morning ___ he could finish the hardest jobs before the worst heat. 'The work was tougher than I expected,' he says. 'If I had known how hot it gets there in July, I ___ more lightweight clothes.' On his second day he got badly sunburnt, but the owners were very ___ about it and let him work in the shade until his skin had healed. In the evenings everyone cooked together, and Oskar ___ friends with volunteers from Italy, Finland and Ireland. He still talks to them online almost every week. 'I went there to help on a farm,' he says, 'but I came back with a much better idea of where my food comes from.'",
+    "gaps": [
+      {
+        "options": ["give", "are given", "are giving", "have given"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Wolontariusze nie dają łóżka i jedzenia, tylko je dostają od gospodarzy. To opis stałej zasady na farmie."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Strona bierna w present simple: are given. Czasownik give ma dwa dopełnienia, więc osoba (volunteers) może być podmiotem w stronie biernej."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "give, are giving i have given to strona czynna, wyszłoby, że to wolontariusze rozdają łóżka i posiłki."
+          }
+        ]
+      },
+      {
+        "options": ["for", "of", "about", "with"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką przymiotnik responsible, za nią to, czym Oskar się zajmował (the chickens)."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "be responsible for sth = odpowiadać za coś."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "of kusi przez skojarzenie z in charge of. with i about z responsible w tym znaczeniu się nie łączą."
+          }
+        ]
+      },
+      {
+        "options": ["unless", "in case", "so that", "as long as"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Wstawał o szóstej, a za luką jest to, co dzięki temu mógł zrobić: he could finish the hardest jobs before the worst heat."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Cel + could: so that = żeby, po to żeby."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "in case = na wypadek, gdyby, a skończenie pracy to nie zagrożenie, przed którym się zabezpiecza. unless = chyba że, as long as = pod warunkiem że. Żadne nie wyraża celu."
+          }
+        ]
+      },
+      {
+        "options": ["would pack", "had packed", "will pack", "would have packed"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "If I had known…: warunek o przeszłości, która się nie wydarzyła. Oskar nie wiedział i spakował za mało lekkich ubrań."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Trzeci tryb warunkowy: if + had V3, would have V3. Czyli would have packed."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "would pack to drugi tryb, mówi o teraz albo przyszłości, a pakowanie już się skończyło. had packed nie stoi w zdaniu głównym, a will pack to pierwszy tryb."
+          }
+        ]
+      },
+      {
+        "options": ["likeable", "sympathetic", "emotional", "pathetic"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Oskar się poparzył, a gospodarze zareagowali: pozwolili mu pracować w cieniu (let him work in the shade)."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "sympathetic = współczujący, wyrozumiały wobec czyjegoś problemu."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "To klasyczny false friend: „sympatyczny” po angielsku to likeable albo nice, a nie sympathetic. likeable opisuje charakter, nie reakcję na czyjś kłopot. pathetic = żałosny."
+          }
+        ]
+      },
+      {
+        "options": ["made", "did", "got", "took"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Za luką friends with: zaprzyjaźnił się z innymi wolontariuszami."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Stałe wyrażenie: make friends (with sb) = zaprzyjaźnić się z kimś."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "did, got i took nie tworzą tego wyrażenia. Polskie „zawrzeć przyjaźń” mogłoby podsunąć took, ale po angielsku jest tylko make."
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "passive-voice",
+      "conditionals",
+      "prepositions",
+      "linking-contrast",
+      "confused-words",
+      "collocations"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "cz-housing",
+    "type": "choice",
+    "title": "Our first flat",
+    "text": "When Zofia Kral and her friend Amira started university last October, they decided to ___ a small flat together instead of living in student halls. It was cheaper, and they liked the idea of having their own kitchen. The first problem appeared in their second week, when the heating stopped working. 'We ___ it properly before we signed the contract,' Zofia admits. 'We just looked at the radiators and assumed they were fine.' The girls complained ___ the problem to the landlord several times. ___ he promised to send a plumber, nobody came for almost a month, so for four weeks they had to ___ a freezing flat, wearing two jumpers at home and drinking a lot of hot tea. Since then, things have improved. The heating works, the landlord answers his phone, and the girls have created a simple system for the housework: each week one of them does the shopping and the other ___ the cleaning. 'Living with a friend is great,' Amira says, 'but you learn very quickly that someone has to take out the rubbish.'",
+    "gaps": [
+      {
+        "options": ["borrow", "hire", "lend", "rent"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "a small flat together instead of living in student halls: dziewczyny płacą za mieszkanie co miesiąc i w nim mieszkają."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "rent a flat = wynająć mieszkanie (jako lokator)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "hire to zwykle wynajem na krótko, np. samochodu albo sali, z mieszkaniem na rok tak się nie mówi. borrow i lend to pożyczanie, bez płacenia czynszu."
+          }
+        ]
+      },
+      {
+        "options": ["should have checked", "should check", "must have checked", "had to check"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Zofia przyznaje (admits), że tylko popatrzyły na kaloryfery (We just looked at the radiators). Czyli nie sprawdziły i teraz tego żałuje."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Żal albo krytyka przeszłości: should have V3 = powinnyśmy były coś zrobić, a nie zrobiłyśmy."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "must have checked to wniosek „na pewno sprawdziły”, a wiemy, że nie sprawdziły. had to check = musiały (taki był obowiązek), nie wyraża żalu. should check mówi o teraz albo przyszłości."
+          }
+        ]
+      },
+      {
+        "options": ["on", "for", "about", "at"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką czasownik complained, za nią to, na co się skarżyły: the problem."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "complain about sth (to sb) = skarżyć się na coś (komuś)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Polskie „skarżyć się na” podsuwa on, ale po angielsku complain on nie istnieje w tym znaczeniu. for i at też się z complain nie łączą."
+          }
+        ]
+      },
+      {
+        "options": ["Despite", "Although", "Because", "Unless"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Właściciel obiecał hydraulika (he promised to send a plumber), a nikt nie przyszedł (nobody came). Za luką jest pełne zdanie z podmiotem i czasownikiem."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Ustępstwo + pełne zdanie: Although = chociaż."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Despite to przyimek i nie stoi przed zdaniem z czasownikiem (Despite his promise byłoby dobrze). Because to przyczyna, a obietnica nie jest powodem, że nikt nie przyszedł. Unless = chyba że."
+          }
+        ]
+      },
+      {
+        "options": ["put off", "put down", "put away", "put up with"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "had to…a freezing flat, wearing two jumpers: musiały jakoś wytrzymać w zimnym mieszkaniu."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "put up with sth = znosić coś, cierpliwie tolerować coś nieprzyjemnego."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "put off = odłożyć na później albo zniechęcić, put down = odłożyć, położyć, put away = schować na miejsce. Żaden nie znaczy „wytrzymać”."
+          }
+        ]
+      },
+      {
+        "options": ["makes", "does", "takes", "has"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Wcześniej w tym samym zdaniu: does the shopping. Za luką the cleaning, czyli kolejny obowiązek domowy."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Z obowiązkami domowymi na -ing łączy się do: do the cleaning, do the shopping, do the ironing."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "makes kusi, bo po polsku „robimy” i jedno, i drugie. Ale make łączy się z make the bed albo make dinner, a sprzątanie to do. takes i has nie tworzą tej kolokacji."
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "confused-words",
+      "modal-verbs",
+      "prepositions",
+      "linking-contrast",
+      "phrasal-verbs",
+      "collocations"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "cz-food",
+    "type": "choice",
+    "title": "The fridge outside the library",
+    "text": "Every evening, a small fridge outside the library in Ella Marsh's neighbourhood fills up with bread, yoghurt and vegetables that local shops would otherwise throw away. Anyone can take what they need, and nobody has to pay. Ella, now nineteen, ___ the project two years ago, after noticing how much food the bakery where she worked part-time had to get rid of at closing time. 'Most people simply aren't aware ___ how much is wasted,' she says. Today the fridge ___ by a team of twelve volunteers, who check it twice a day and remove anything that looks or smells bad. More than forty people ___ advantage of it every week, from students to pensioners. Ella also sticks a simple ___ on the door every Monday, showing what can be cooked from the things that are usually left over. She has no doubt that the project matters. ___ the fridge, she estimates, around a hundred kilos of food from local shops would end up in the bin every week.",
+    "gaps": [
+      {
+        "options": ["set off", "set up", "set out", "set back"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Za luką the project two years ago: Ella coś zaczęła i zorganizowała od zera."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "set up sth = założyć, zorganizować (firmę, projekt, organizację)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "set off = wyruszyć w drogę, set out = wyruszyć albo przedstawić (np. plan na piśmie), set back = opóźnić czyjeś postępy."
+          }
+        ]
+      },
+      {
+        "options": ["about", "with", "for", "of"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką przymiotnik aware, za nią to, o czym ludzie nie wiedzą: how much is wasted."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "be aware of sth = być świadomym czegoś, zdawać sobie z czegoś sprawę."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Polskie „wiedzieć o” podsuwa about, ale standardowo po aware stoi of, a aware about uchodzi za błąd. with i for z aware się nie łączą."
+          }
+        ]
+      },
+      {
+        "options": ["runs", "has run", "is run", "is running"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Za luką by a team of twelve volunteers: wykonawca z by, a lodówka sama niczym nie zarządza."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Stały stan teraz (Today) + strona bierna: present simple passive, is run (run = prowadzić coś)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "runs, has run i is running to strona czynna. Wyszłoby, że lodówka prowadzi wolontariuszy albo „biegnie”."
+          }
+        ]
+      },
+      {
+        "options": ["take", "make", "have", "get"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Za luką advantage of it: ludzie korzystają z lodówki."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Stałe wyrażenie: take advantage of sth = skorzystać z czegoś."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "make kusi przez podobne make use of sth, ale z advantage się nie łączy. have an advantage to „mieć przewagę”, a get advantage of nie jest stałym wyrażeniem."
+          }
+        ]
+      },
+      {
+        "options": ["receipt", "prescription", "recipe", "recipient"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "showing what can be cooked: kartka mówi, co ugotować z resztek."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "recipe = przepis kulinarny."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "To false friends: „recepta” od lekarza to prescription, a receipt = paragon. recipient = odbiorca. Żadne nie mówi, co ugotować."
+          }
+        ]
+      },
+      {
+        "options": ["Unless", "Otherwise", "Except", "Without"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Za luką sam rzeczownik (the fridge), a dalej would end up: sytuacja wyobrażona, gdyby lodówki nie było."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Without + rzeczownik = bez czegoś, gdyby nie było czegoś. Działa jak skrócony warunek: if there were no fridge."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Unless potrzebuje całego zdania z czasownikiem. Otherwise (w przeciwnym razie) nie stoi przed rzeczownikiem. Except = oprócz, nie pasuje znaczeniem."
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "passive-voice",
+      "prepositions",
+      "phrasal-verbs",
+      "linking-contrast",
+      "confused-words",
+      "collocations"
+    ],
+    "difficulty": 3
+  },
+  {
+    "id": "cz-festival",
+    "type": "choice",
+    "title": "Museum Night",
+    "text": "The small town of Harlowby was once famous ___ its wool, and every September it celebrates its history with Museum Night: for one evening, all six local museums stay open until midnight and entry is free. This year I finally went. I took a paper map ___ my phone battery died, and I started at the old textile mill by the river, which ___ to have been built around 1790. ___ most museums I know feel quiet and serious, this one was full of noise. Volunteers were running the old machines, children were weaving their own bookmarks, and a retired worker was explaining how the looms worked. The queue for the last museum, a tiny house where a local poet once lived, was long, but the wait was definitely ___ it. My only regret is that I didn't manage to see everything. If I hadn't spent so long in the mill, I ___ the poet's garden, which closed at eleven. Next year I'm going to plan my route more carefully.",
+    "gaps": [
+      {
+        "options": ["of", "with", "for", "by"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką famous, za nią to, z czego miasteczko słynęło: its wool."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "be famous for sth = słynąć z czegoś."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Polskie „słynąć z” podsuwa of, ale famous łączy się z for. with i by nie tworzą tego połączenia."
+          }
+        ]
+      },
+      {
+        "options": ["unless", "in case", "even if", "so that"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Papierowa mapa to zabezpieczenie: telefon mógł się rozładować (my phone battery died)."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "in case = na wypadek, gdyby. Robimy coś teraz, bo coś złego może się zdarzyć później."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "so that to cel, wyszłoby, że mapa miała sprawić, żeby bateria padła. unless = chyba że, even if = nawet jeśli, oba nie pasują logicznie."
+          }
+        ]
+      },
+      {
+        "options": ["is thought", "thinks", "is thinking", "has thought"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Podmiotem jest which (młyn), a za luką to have been built: nikt nie zna dokładnej daty, ludzie tylko tak sądzą."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Strona bierna raportująca: sth is thought to have been V3 = uważa się, że coś zostało zbudowane. Młyn nie myśli, to ludzie myślą o młynie."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "thinks, is thinking i has thought to strona czynna, wyszłoby, że młyn sam coś myśli."
+          }
+        ]
+      },
+      {
+        "options": ["Despite", "Unless", "Therefore", "Whereas"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Dwa przeciwne fakty: większość muzeów jest cicha (quiet and serious), a to było pełne hałasu (full of noise). Za luką pełne zdanie."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Whereas = podczas gdy, natomiast. Zestawia dwie różne rzeczy w jednym zdaniu."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Despite to przyimek i nie stoi przed zdaniem z podmiotem i czasownikiem. Therefore to skutek, a tu nie ma przyczyny. Unless = chyba że."
+          }
+        ]
+      },
+      {
+        "options": ["worth", "worthy", "valuable", "deserving"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Kolejka była długa, ale (but) się opłaciło. Za luką samo it."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "be worth it = być wartym zachodu, opłacać się."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "worthy zwykle łączy się z of (worthy of attention) i brzmi dużo bardziej oficjalnie. valuable = cenny, deserving = zasługujący, żadne nie łączy się z samym it w tym znaczeniu."
+          }
+        ]
+      },
+      {
+        "options": ["would see", "will see", "would have seen", "had seen"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "If I hadn't spent so long…: warunek o przeszłości, która była inna. Ogród był już zamknięty (closed at eleven)."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Trzeci tryb warunkowy: if + had V3, would have V3. Czyli would have seen."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "would see to drugi tryb, mówi o teraz, a Museum Night już się skończyła. had seen nie stoi w zdaniu głównym, will see to pierwszy tryb."
+          }
+        ]
+      }
+    ],
+    "tags": ["linking-contrast", "passive-voice", "conditionals", "prepositions", "confused-words"],
+    "difficulty": 3
+  }
+]
