@@ -1,6 +1,7 @@
 import { Suspense, useEffect, useState } from 'react'
 import { Link, Outlet, useLocation } from 'react-router'
 import { topicHome } from '../features/topics/hub'
+import { PickWord } from '../features/vocabulary/PickWord'
 import { pl } from '../i18n/pl'
 import { topicStore } from '../lib/content'
 import { Icon, type IconName } from './Icon'
@@ -52,18 +53,8 @@ const more: Section = {
   also: ['topics', 'phrases'],
 }
 
-const topSections: Section[] = [
-  home,
-  { id: 'tenses', to: '/tenses', label: pl.nav.tenses, icon: 'clock', tab: 'tb-b' },
-  { id: 'grammar', to: '/grammar', label: pl.nav.grammar, icon: 'book', tab: 'tb-l' },
-  translator,
-  words,
-  exercises,
-  more,
-]
-
-// na telefonie jest miejsce na 6, więc czasy siedzą w gramatyce (podział na górze strony)
-const phoneSections: Section[] = [
+// czasy siedzą w gramatyce (podział na górze strony), tak samo na telefonie i na komputerze
+const sections: Section[] = [
   home,
   {
     id: 'grammar',
@@ -98,8 +89,7 @@ export function Shell() {
   useEffect(() => {
     if (onTopic && !topicStore.peek()) void topicStore.load().then(() => setTopicsReady(true))
   }, [onTopic])
-  const activeTop = currentSection(topSections, pathname)
-  const activePhone = currentSection(phoneSections, pathname)
+  const active = currentSection(sections, pathname)
 
   return (
     <div className="app desk">
@@ -107,13 +97,13 @@ export function Shell() {
         <p className="logo h-m" lang="en">
           Mind the <Hl>Gap</Hl>
         </p>
-        <nav className="toptabs tight" aria-label={pl.nav.label}>
-          {topSections.map((s) => (
+        <nav className="toptabs" aria-label={pl.nav.label}>
+          {sections.map((s) => (
             <Link
               key={s.id}
               to={s.to}
               className={`ttab ${s.tab}`}
-              aria-current={activeTop === s.id ? 'page' : undefined}
+              aria-current={active === s.id ? 'page' : undefined}
             >
               <Icon name={s.icon} size="s" />
               {s.label}
@@ -136,18 +126,19 @@ export function Shell() {
       </main>
 
       <nav className="tabbar" aria-label={pl.nav.label}>
-        {phoneSections.map((s) => (
+        {sections.map((s) => (
           <Link
             key={s.id}
             to={s.to}
             className={`tab ${s.tab}`}
-            aria-current={activePhone === s.id ? 'page' : undefined}
+            aria-current={active === s.id ? 'page' : undefined}
           >
             <Icon name={s.icon} />
             <span>{s.label}</span>
           </Link>
         ))}
       </nav>
+      <PickWord />
       <Grain />
     </div>
   )

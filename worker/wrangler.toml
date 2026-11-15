@@ -4,3 +4,13 @@ compatibility_date = "2026-11-01"
 
 # DEEPL_API_KEY i ALLOWED_ORIGIN ustawiam przez `wrangler secret put`,
 # lokalnie w worker/.dev.vars (nie idzie do repo)
+
+# przypomnienia push: VAPID_PUBLIC_KEY, VAPID_PRIVATE_KEY i VAPID_SUBJECT (mailto:...) też przez `wrangler secret put`
+# id przestrzeni KV dostaję z `npx wrangler kv namespace create PUSH` i wklejam tutaj
+[[kv_namespaces]]
+binding = "PUSH"
+id = "TU_WKLEJ_ID_Z_WRANGLER_KV_NAMESPACE_CREATE"
+
+# co godzinę (UTC), worker sam sprawdza, która jest w Warszawie
+[triggers]
+crons = ["0 * * * *"]

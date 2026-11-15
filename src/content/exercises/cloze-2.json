@@ -1,0 +1,643 @@
+[
+  {
+    "id": "cz-technology",
+    "type": "choice",
+    "title": "A week offline",
+    "text": "Last spring, seventeen-year-old Maya Brennan from the small town of Ashcombe agreed to take part in an experiment organised by her school: for one week, her phone had to stay switched off after six in the evening. 'I was sure I would hate it,' she admits. 'I'm completely addicted ___ checking my messages, and I thought I would miss everything.' The first two evenings were hard. ___ she had promised to stay offline, she kept reaching for her phone out of habit. On Wednesday, though, she ___ an old sketchbook in a drawer and spent the whole evening drawing, something she had not done since primary school. By the end of the week she ___ two novels as well. Her parents, who had expected endless complaints, describe the rule as ___: 'It's just common sense. Nobody needs to answer a message at midnight.' Maya now sleeps an hour longer than before and says she feels calmer at school. No ___ she has decided to keep her phone in the kitchen every evening, even though the experiment is over.",
+    "gaps": [
+      {
+        "options": ["at", "to", "on", "with"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką przymiotnik addicted. To on wybiera przyimek."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "be addicted to sth / to doing sth = być uzależnionym od czegoś. Po to stoi tu -ing (checking), bo to przyimek, a nie część bezokolicznika."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Polskie „uzależniony od” podsuwa from albo on, ale po angielsku jest tylko to. with i at nie łączą się z addicted."
+          }
+        ]
+      },
+      {
+        "options": ["Although", "However", "Since", "Despite"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Obiecała, że będzie offline (had promised to stay offline), a mimo to sięgała po telefon (kept reaching). Do tego za luką jest pełne zdanie z czasownikiem."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Ustępstwo + pełne zdanie: Although = chociaż."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Despite to przyimek, przed zdaniem z podmiotem i czasownikiem nie stoi (despite having promised byłoby dobrze). However nie łączy dwóch zdań w jedno bez kropki lub średnika. Since = ponieważ, a obietnica nie jest powodem sięgania po telefon."
+          }
+        ]
+      },
+      {
+        "options": ["came across", "came up", "came round", "came over"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "an old sketchbook in a drawer: coś leżało w szufladzie i nagle się znalazło."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "come across sth = natknąć się na coś przypadkiem."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "come up to pojawić się (temat, problem), come over i come round to wpaść do kogoś w odwiedziny albo zmienić zdanie (come round). Żaden nie bierze dopełnienia „szkicownik”."
+          }
+        ]
+      },
+      {
+        "options": ["reads", "is reading", "has read", "had read"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "By the end of the week: do pewnego punktu w przeszłości. Cała historia jest opowiadana w past simple (were, kept)."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Czynność zakończona przed tym punktem w przeszłości: past perfect, had read."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "has read liczy do teraz, a tydzień już minął. is reading i reads to teraźniejszość, nie pasują do opowieści o zeszłej wiośnie."
+          }
+        ]
+      },
+      {
+        "options": ["sentimental", "sensitive", "sensible", "sensational"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Rodzice tłumaczą: It's just common sense. Chodzi o rozsądną zasadę."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "sensible = rozsądny."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "sensitive = wrażliwy, delikatny. Kusi, bo brzmi jak „sensowny”, ale to false friend. sentimental to sentymentalny, sensational to rewelacyjny albo sensacyjny."
+          }
+        ]
+      },
+      {
+        "options": ["chance", "point", "reason", "wonder"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Wcześniej same plusy: dłuższy sen, spokój w szkole. Decyzja Mai jest więc oczywista."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "No wonder (that)… = nic dziwnego, że… To stałe wyrażenie."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Po polsku „nie ma powodu” czy „nie ma szans” brzmią podobnie, ale no reason, no chance i no point nie wprowadzają zdania w znaczeniu „nic dziwnego”. no point mówi, że coś nie ma sensu (there's no point in doing)."
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "prepositions",
+      "linking-contrast",
+      "phrasal-verbs",
+      "past-perfect",
+      "confused-words",
+      "collocations"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "cz-environment",
+    "type": "choice",
+    "title": "The river that came back",
+    "text": "Until about ten years ago, the River Wenlow ___ as the dirtiest river in the county. Plastic bags hung from the trees along its banks, and local children were told not to swim in it. Everything changed when a retired chemistry teacher, Gwen Ashby, ___ a volunteer group called Friends of the Wenlow. Every Saturday, its members were responsible ___ clearing one stretch of the river, while Gwen tested the water and sent the results to the council. The work was not always easy. Any long-term plan had to ___ into account the needs of local farmers, whose fields drain directly into the river. Gwen admits that the group ___ the farmers much earlier. 'We wasted two years arguing with them instead of listening,' she says. 'Once we sat down together, they turned out to be our best allies.' Today, otters have returned to the upper part of the river, ___ the lower part, near the old paper mill, still has some of the worst water in the region. The volunteers are not giving up, though. Their next goal is a clean beach by the town bridge where families can safely paddle.",
+    "gaps": [
+      {
+        "options": ["was described", "described", "is described", "has been described"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Until about ten years ago: okres zamknięty w przeszłości. Rzeka nikogo nie opisuje, to ją ktoś opisywał (as the dirtiest river)."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Przeszłość + strona bierna: was described."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "has been described sięga do dziś, a dziś rzeka jest już czystsza. is described to teraźniejszość. described w stronie czynnej potrzebuje dopełnienia: rzeka musiałaby kogoś opisać."
+          }
+        ]
+      },
+      {
+        "options": ["set in", "set off", "set out", "set up"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce: a volunteer group called Friends of the Wenlow. Grupa wcześniej nie istniała."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "set up sth = założyć, zorganizować (firmę, grupę, organizację)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "set off to wyruszyć w drogę albo uruchomić (alarm), set out to wyruszyć albo przedstawić (plan), set in to nadejść i się utrzymać (zima, deszcz). Żaden nie znaczy „założyć grupę”."
+          }
+        ]
+      },
+      {
+        "options": ["for", "about", "of", "to"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką przymiotnik responsible, po niej zadanie: clearing one stretch of the river."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "be responsible for sth / for doing sth = odpowiadać za coś."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Polskie „odpowiedzialny za” nie pomaga, trzeba znać połączenie. responsible to sb istnieje, ale znaczy „podlegać komuś” i stoi przed osobą, nie przed czynnością. of i about nie łączą się z responsible."
+          }
+        ]
+      },
+      {
+        "options": ["take", "have", "bring", "make"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Za luką: into account the needs of local farmers."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "take sth into account = wziąć coś pod uwagę. Stała kolokacja."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "make, bring i have nie tworzą tego wyrażenia. Polskie „wziąć” akurat pasuje, ale w innych kolokacjach (make a decision, take a photo) trzeba uważać."
+          }
+        ]
+      },
+      {
+        "options": [
+          "can't have involved",
+          "must have involved",
+          "should have involved",
+          "needn't have involved"
+        ],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Gwen admits i zaraz potem: We wasted two years arguing. Żal, że czegoś nie zrobili wcześniej (much earlier)."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "should have + V3 = powinni byli (a nie zrobili). To krytyka własnej decyzji z przeszłości."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "must have i can't have to dedukcja (na pewno / na pewno nie), a Gwen dobrze wie, co się stało. needn't have = niepotrzebnie, czyli odwrotny sens niż żal."
+          }
+        ]
+      },
+      {
+        "options": ["so that", "whereas", "in case", "unless"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Dwie części rzeki zestawione obok siebie: upper part jest czysta (otters have returned), lower part dalej brudna (still has some of the worst water)."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "whereas = podczas gdy, natomiast. Łączy dwa fakty, które się różnią."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "unless to warunek (chyba że), in case to zabezpieczenie (na wypadek gdyby), so that to cel (żeby). Tu nic od niczego nie zależy, to zwykłe porównanie."
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "passive-voice",
+      "phrasal-verbs",
+      "prepositions",
+      "collocations",
+      "modal-verbs",
+      "linking-contrast"
+    ],
+    "difficulty": 3
+  },
+  {
+    "id": "cz-family",
+    "type": "choice",
+    "title": "Three generations, one bathroom",
+    "text": "When Rose Dawson, now eighty-one, slipped on her kitchen floor last winter, her son suggested that she should come and live with his family, just ___ she had another fall when nobody was around. For the past eight months, six people ___ under one roof in a small terraced house in the town of Hartwell, and life has not always been smooth. Sharing one bathroom takes a lot of patience, and everyone has had to ___ compromises: the teenagers shower in the evening so that their parents can get to work on time. There are clear benefits, too. Rose ___ the youngest grandchild after school, so the child's parents no longer pay for a childminder. Ellie, who is eleven, has grown very fond ___ her grandmother's stories about life in the 1960s. Even sixteen-year-old Ben, who was not happy about giving up his room, has changed his mind. When he was preparing for his driving theory test, Rose sat with him for hours, asking him questions. It took him three attempts, but he ___ passed in March. 'Gran was more patient than any teacher,' he says. 'I wouldn't want her to move out now.'",
+    "gaps": [
+      {
+        "options": ["whereas", "as long as", "unless", "in case"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Babcia upadła (slipped on her kitchen floor) i syn boi się, że to się powtórzy, gdy nikogo nie będzie (when nobody was around)."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "(just) in case = na wypadek, gdyby. Przeprowadzka jest zabezpieczeniem przed kolejnym upadkiem."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "unless = chyba że, wyszłoby „zamieszkaj z nami, chyba że znowu upadniesz”. as long as = pod warunkiem że, czyli upadek byłby warunkiem. whereas zestawia dwa różne fakty."
+          }
+        ]
+      },
+      {
+        "options": ["have been living", "had lived", "are living", "lived"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "For the past eight months: od ośmiu miesięcy do teraz, i dalej tak mieszkają."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Stan trwający od przeszłości do dziś: present perfect continuous, have been living."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Po polsku mówimy „od ośmiu miesięcy mieszkają”, co podsuwa are living. Po angielsku z for + okres do teraz potrzebny jest present perfect. lived zamyka sprawę w przeszłości, had lived wymaga innego punktu w przeszłości."
+          }
+        ]
+      },
+      {
+        "options": ["make", "give", "take", "do"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce rzeczownik compromises, a dalej przykład: nastolatki biorą prysznic wieczorem."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "make a compromise = pójść na kompromis. Stała kolokacja z make."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "do, take i give nie łączą się z compromise. Polskie „iść na kompromis” nie podpowiada czasownika, trzeba znać połączenie."
+          }
+        ]
+      },
+      {
+        "options": ["looks for", "looks after", "looks into", "looks up to"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "after school i dalej: rodzice nie płacą już za opiekunkę (no longer pay for a childminder)."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "look after sb = opiekować się kimś. Babcia zastępuje opiekunkę."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "look for = szukać, look into = badać, sprawdzać (sprawę), look up to = podziwiać kogoś. Żaden nie tłumaczy, czemu opiekunka jest niepotrzebna."
+          }
+        ]
+      },
+      {
+        "options": ["on", "to", "of", "with"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką grown very fond, po niej to, co Ellie lubi: her grandmother's stories."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "be / grow fond of sb/sth = lubić kogoś, coś, przywiązać się."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "on kusi przez keen on, który znaczy podobnie, ale fond łączy się tylko z of. with i to nie pasują do fond."
+          }
+        ]
+      },
+      {
+        "options": ["lately", "currently", "eventually", "possibly"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "It took him three attempts, but…: po kilku porażkach w końcu się udało."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "eventually = w końcu, ostatecznie (po dłuższym czasie albo trudnościach)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "To false friends: eventually nie znaczy „ewentualnie” (to possibly), a currently to „obecnie”, nie pasuje do past simple. possibly osłabiałoby fakt, że zdał w marcu. lately = ostatnio, zwykle z present perfect."
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "linking-contrast",
+      "present-perfect-continuous",
+      "collocations",
+      "phrasal-verbs",
+      "prepositions",
+      "confused-words"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "cz-shopping",
+    "type": "choice",
+    "title": "Faulty headphones",
+    "text": "Last autumn I bought a pair of wireless headphones from a big online shop. I ___ them for less than a month when the left earphone suddenly went silent. The shop's website said that customers could return products within fourteen days ___ the product was faulty, in which case the time limit was much longer. So I sent the headphones back, expecting a quick replacement. Instead, I received an email claiming that the earphone ___ by water and that the guarantee did not cover this kind of damage. ___, I had never even worn them outside, let alone in the rain. Rather than argue on the phone, I decided to put everything in ___: I described the fault, attached photos and explained that, as the product was faulty, I was entitled ___ a refund, a repair or a replacement. Four days later, a new pair arrived, together with an apology. My advice? Keep every email, and don't give up after the first 'no'.",
+    "gaps": [
+      {
+        "options": ["am having", "have had", "was having", "had had"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "for less than a month when the left earphone suddenly went silent: jak długo coś trwało aż do przeszłego momentu w past simple (went)."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Okres do punktu w przeszłości: past perfect, had had (pierwsze had to posiłkowy, drugie to V3 od have)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "have had liczy do teraz, a słuchawki już dawno odesłane. have w znaczeniu „mieć” to czasownik stanu, więc was having i am having tu nie pasują."
+          }
+        ]
+      },
+      {
+        "options": ["despite", "unless", "in case", "whereas"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce: in which case the time limit was much longer. Czyli wadliwy produkt to wyjątek od zasady 14 dni."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "unless = chyba że. Zwrot w 14 dni, chyba że produkt jest wadliwy, wtedy termin jest dłuższy."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "in case to „na wypadek, gdyby”, a nie wyjątek od reguły. whereas zestawia dwa różne fakty. despite to przyimek i nie stoi przed pełnym zdaniem."
+          }
+        ]
+      },
+      {
+        "options": [
+          "must have damaged",
+          "should have been damaged",
+          "must have been damaged",
+          "can't have been damaged"
+        ],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce by water: słuchawka nie zrobiła sobie nic sama, to woda ją uszkodziła. Dalej: gwarancja tego nie obejmuje (did not cover this kind of damage)."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Sklep wnioskuje o przeszłości i jest pewny: must have + been + V3, dedukcja w stronie biernej."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "must have damaged jest w stronie czynnej, wtedy słuchawka coś by uszkodziła. can't have been damaged przeczy temu, że gwarancja nie działa. should have been damaged znaczyłoby, że słuchawka powinna była zostać uszkodzona, co nie ma sensu."
+          }
+        ]
+      },
+      {
+        "options": ["Actually", "Eventually", "Accordingly", "Currently"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Sklep twierdzi, że to woda, a autor odpowiada: I had never even worn them outside. Prawda jest inna niż zarzut."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Actually = w rzeczywistości, tak naprawdę. Prostuje coś, co ktoś powiedział."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Currently to „aktualnie, obecnie” i nie pasuje do past perfect. Eventually = w końcu, a nie „ewentualnie”. Accordingly = w związku z tym, wprowadza skutek, a tu jest sprostowanie."
+          }
+        ]
+      },
+      {
+        "options": ["script", "writing", "letter", "paper"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Rather than argue on the phone, a potem opis usterki i zdjęcia. Chodzi o formę pisemną zamiast rozmowy."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "put sth in writing = przedstawić coś na piśmie. Stałe wyrażenie."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Mówi się on paper (na papierze), nie in paper. in letter i in script nie tworzą z put stałego wyrażenia."
+          }
+        ]
+      },
+      {
+        "options": ["of", "for", "at", "to"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką entitled, po niej to, co się należy: a repair or a replacement."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "be entitled to sth = mieć prawo do czegoś."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "for kusi, bo kojarzy się z eligible for i ask for, ale entitled łączy się z to. of i at nie łączą się z entitled."
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "past-perfect",
+      "linking-contrast",
+      "modal-verbs",
+      "passive-voice",
+      "confused-words",
+      "collocations",
+      "prepositions"
+    ],
+    "difficulty": 3
+  },
+  {
+    "id": "cz-science",
+    "type": "choice",
+    "title": "The stone with a spine",
+    "text": "Four years ago, twelve-year-old Isla Morgan was looking for shells at Penmorrow Bay when she noticed a strange grey shape in a rock. She ___ it as part of a spine because she had seen similar pictures in a book about fossils. Experts from the local museum had searched the cliffs above the bay for decades. ___, the most important find in the area was made by a schoolgirl on holiday. The fossil ___ to be about 180 million years old. It belongs to a sea reptile that is similar ___ an ichthyosaur, but its skull is much narrower and its teeth are unusually small. The museum's curator, Dr Imogen Hale, admits that luck played a big part. 'If Isla hadn't told her parents, the rock ___ by the winter storms, and we would never have known about it.' The discovery ___ headlines around the world, and the new species has been named after Isla. Now sixteen, she wants to study palaeontology at university.",
+    "gaps": [
+      {
+        "options": ["reminded", "realised", "recognised", "noticed"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "it as part of a spine i because she had seen similar pictures: poznała kształt, bo widziała go wcześniej w książce."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "recognise sth as sth = rozpoznać coś jako coś (na podstawie tego, co już się zna)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "realise = zdać sobie sprawę, łączy się ze zdaniem (realised that…), nie z konstrukcją it as. remind sb of sth to przypominać komuś coś. notice znaczy „zauważyć”, ale nie łączy się z as w znaczeniu „rozpoznać jako”."
+          }
+        ]
+      },
+      {
+        "options": ["Despite", "However", "Although", "Therefore"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Eksperci szukali przez dziesięciolecia (for decades), a znalazła dziewczynka na wakacjach. Dwa zdania rozdzielone kropką, po luce przecinek."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "However, = jednak. Zaczyna nowe zdanie i wprowadza kontrast z poprzednim."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Therefore = dlatego, a długie poszukiwania ekspertów nie są przyczyną tego, że znalazło je dziecko. Although potrzebuje drugiej części w tym samym zdaniu, a Despite stoi przed rzeczownikiem, nie przed przecinkiem i zdaniem."
+          }
+        ]
+      },
+      {
+        "options": ["thinks", "is thought", "is thinking", "has thought"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Podmiotem jest The fossil, a po luce to be about 180 million years old. Skamielina nic nie myśli, to naukowcy tak sądzą."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Strona bierna z czasownikiem opinii: sth is thought to be = uważa się, że coś jest."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "thinks, has thought i is thinking są w stronie czynnej, wtedy skamielina sama by myślała. Wszystkie trzy zmieniają sens zdania."
+          }
+        ]
+      },
+      {
+        "options": ["with", "to", "as", "from"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przed luką przymiotnik similar, po niej to, z czym porównujemy: an ichthyosaur."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "be similar to sth = być podobnym do czegoś."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "as łączy się z the same (the same as), a from z different (different from). with kusi przez polskie „podobny z”, które samo jest błędem."
+          }
+        ]
+      },
+      {
+        "options": [
+          "will be destroyed",
+          "would have been destroyed",
+          "had been destroyed",
+          "would have destroyed"
+        ],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "If Isla hadn't told her parents: warunek o przeszłości, który się nie spełnił. Po luce by the winter storms, czyli to sztormy niszczą skałę."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "Trzeci tryb warunkowy w stronie biernej: would have been + V3."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "would have destroyed jest w stronie czynnej, skała musiałaby coś zniszczyć. will be destroyed to przyszłość, a sprawa jest zamknięta. had been destroyed to past perfect bez would, a skutek w 3. trybie wymaga would have + V3, nie do skutku."
+          }
+        ]
+      },
+      {
+        "options": ["made", "did", "took", "gave"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce headlines around the world: o odkryciu pisały gazety na całym świecie."
+          },
+          {
+            "label_pl": "dlaczego ta",
+            "text_pl": "make (the) headlines = trafić na pierwsze strony gazet. Stała kolokacja."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "do, take i give nie tworzą tego wyrażenia z headlines. To typowa pułapka make/do: trzeba znać całe połączenie."
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "confused-words",
+      "linking-contrast",
+      "passive-voice",
+      "prepositions",
+      "conditionals",
+      "collocations"
+    ],
+    "difficulty": 3
+  }
+]

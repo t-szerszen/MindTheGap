@@ -59,6 +59,8 @@ export default defineConfig(({ mode }) => {
           globPatterns: ['**/*.{js,css,html,svg,png,woff2}'],
           navigateFallback: 'index.html',
           cleanupOutdatedCaches: true,
+          // obsługa powiadomień leży w public/push-sw.js, bez przechodzenia na injectManifest
+          importScripts: ['push-sw.js'],
         },
       }),
     ],

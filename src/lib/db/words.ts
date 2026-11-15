@@ -19,7 +19,7 @@ import { markActivity } from './activity'
 import { getDb } from './firebase'
 
 // skąd przyszła fiszka; stare dokumenty nie mają tego pola
-export type WordSource = 'translator' | 'topic' | 'own'
+export type WordSource = 'translator' | 'topic' | 'own' | 'text'
 
 export type Word = CardState & {
   id: string
@@ -41,7 +41,7 @@ export type WordInput = {
   source?: WordSource
 }
 
-const sources: WordSource[] = ['translator', 'topic', 'own']
+const sources: WordSource[] = ['translator', 'topic', 'own', 'text']
 
 const toDate = (v: unknown) => (v instanceof Timestamp ? v.toDate() : new Date(0))
 const num = (v: unknown, fallback = 0) => (typeof v === 'number' ? v : fallback)

@@ -1087,25 +1087,6 @@ body {
   height: 58px;
   font-size: 23px;
 }
-/* 7 przekładek: tight węższe, compact jeszcze bez ikon */
-.toptabs.tight .ttab {
-  padding: 2px 12px 0;
-  gap: 6px;
-  font-size: 20px;
-}
-.toptabs.tight .ttab[aria-current='page'] {
-  font-size: 22px;
-}
-.toptabs.compact .ttab {
-  padding: 2px 13px 0;
-  font-size: 19px;
-}
-.toptabs.compact .ttab .ico {
-  display: none;
-}
-.toptabs.compact .ttab[aria-current='page'] {
-  font-size: 21px;
-}
 /* indeks czasów na brzegu kartki */
 .itabs {
   display: flex;
@@ -1782,7 +1763,7 @@ body {
   border-color: var(--cover-ink);
 }
 
-/* Czasy | Zagadnienia na telefonie */
+/* Czasy | Zagadnienia w gramatyce */
 .subnav {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

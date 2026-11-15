@@ -1,23 +1,30 @@
 import { useSyncExternalStore } from 'react'
+import type { ExamId } from '../../lib/exams/constants'
+import { parseExams } from '../../lib/exams/countdown'
 
 export type ThemeChoice = 'light' | 'dark' | 'system'
 
-export type Prefs = { theme: ThemeChoice; calm: boolean }
+export type Prefs = { theme: ThemeChoice; calm: boolean; exams: ExamId[]; oralAt: string | null }
 
 // te same klucze czyta skrypt w index.html, zanim cokolwiek się narysuje
 const THEME_KEY = 'mtg-theme'
 const CALM_KEY = 'mtg-calm'
+const EXAMS_KEY = 'mtg-exams'
+const ORAL_KEY = 'mtg-oral'
 const PAPER = { light: '#F7F0E1', dark: '#1F2427' }
 
 function load(): Prefs {
   try {
     const t = localStorage.getItem(THEME_KEY)
+    const exams = localStorage.getItem(EXAMS_KEY)
     return {
       theme: t === 'light' || t === 'dark' ? t : 'system',
       calm: localStorage.getItem(CALM_KEY) === '1',
+      exams: parseExams(exams === null ? undefined : exams.split(',')),
+      oralAt: localStorage.getItem(ORAL_KEY),
     }
   } catch {
-    return { theme: 'system', calm: false }
+    return { theme: 'system', calm: false, exams: parseExams(undefined), oralAt: null }
   }
 }
 
@@ -43,12 +50,21 @@ function apply(p: Prefs) {
 // source = 'remote', kiedy zmiana przyszła z Firestore (wtedy nie odsyłamy jej z powrotem)
 export function setPrefs(patch: Partial<Prefs>, source: 'user' | 'remote' = 'user') {
   const next = { ...current, ...patch }
-  if (next.theme === current.theme && next.calm === current.calm) return
+  if (
+    next.theme === current.theme &&
+    next.calm === current.calm &&
+    next.exams.join() === current.exams.join() &&
+    next.oralAt === current.oralAt
+  )
+    return
   current = next
   try {
     if (next.theme === 'system') localStorage.removeItem(THEME_KEY)
     else localStorage.setItem(THEME_KEY, next.theme)
     localStorage.setItem(CALM_KEY, next.calm ? '1' : '0')
+    localStorage.setItem(EXAMS_KEY, next.exams.join(','))
+    if (next.oralAt) localStorage.setItem(ORAL_KEY, next.oralAt)
+    else localStorage.removeItem(ORAL_KEY)
   } catch {
     // tryb prywatny w Safari potrafi rzucić wyjątkiem, wtedy po prostu nie zapamiętujemy
   }
