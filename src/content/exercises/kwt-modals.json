@@ -1,0 +1,686 @@
+[
+  {
+    "id": "km-zosia-party",
+    "type": "key-word-transformation",
+    "source": "I'm sure Zosia heard about the party from her cousin — nobody else knew about it.",
+    "keyWord": "MUST",
+    "target": "Zosia ___ about the party from her cousin — nobody else knew about it.",
+    "maxWords": 5,
+    "correct": ["must have heard"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I'm sure + heard: mówiący jest pewien czegoś, co już się wydarzyło."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Pewność o przeszłości to must + have + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "hear → heard → heard, więc must have heard (3 wyrazy). must heard to błąd, bo po modalu stoi bezokolicznik."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "km-bartek-essay",
+    "type": "key-word-transformation",
+    "source": "It's impossible that Bartek wrote this essay on his own — it's full of words he never uses.",
+    "keyWord": "CAN'T",
+    "target": "Bartek ___ this essay on his own — it's full of words he never uses.",
+    "maxWords": 5,
+    "correct": ["can't have written", "can't possibly have written"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "It's impossible that + wrote: mówiący jest pewien, że coś w przeszłości się NIE wydarzyło."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Pewność „nie” to can't, a przeszłość dokładasz przez have + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "write → wrote → written: can't have written. can't have wrote to błąd, po have idzie trzecia forma."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "mustn't have written nie pasuje: mustn't to zakaz, a nie pewność, że nie."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "km-burglars-garage",
+    "type": "key-word-transformation",
+    "source": "It's possible that the burglars got in through the garage.",
+    "keyWord": "MIGHT",
+    "target": "The burglars ___ in through the garage.",
+    "maxWords": 5,
+    "correct": ["might have got"],
+    "accepted": ["might have gotten"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "It's possible that + got: przypuszczenie o przeszłości, mówiący nie jest pewien."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Możliwość w przeszłości to might + have + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "get → got → got (w brytyjskim angielskim): might have got. Do luki wpisujesz tylko might have got, a in jest już w zdaniu po luce."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "km-tymek-bus",
+    "type": "key-word-transformation",
+    "source": "Maybe Tymek took the wrong bus — he should have been here twenty minutes ago.",
+    "keyWord": "COULD",
+    "target": "Tymek ___ the wrong bus — he should have been here twenty minutes ago.",
+    "maxWords": 5,
+    "correct": ["could have taken"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Maybe + took: zgadujemy, co się stało, ale bez pewności."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "could + have + V3 to tu przypuszczenie o przeszłości, tak samo jak might have."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "take → took → taken: could have taken. could took albo could have took to błędy."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "km-shouted-brother",
+    "type": "key-word-transformation",
+    "source": "It was wrong of you to shout at your little brother like that.",
+    "keyWord": "SHOULDN'T",
+    "target": "You ___ at your little brother like that.",
+    "maxWords": 5,
+    "correct": ["shouldn't have shouted"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "It was wrong of you: krytyka czegoś, co ktoś już zrobił."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Zrobione, a nie powinno → shouldn't + have + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "shout jest regularny: shouted. Razem shouldn't have shouted, 3 wyrazy, bo skrót liczy się jako jeden."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "km-concert-cancelled",
+    "type": "key-word-transformation",
+    "source": "Why didn't you tell me the concert was cancelled? I travelled all the way to Gdańsk for nothing!",
+    "keyWord": "SHOULD",
+    "target": "You ___ me the concert was cancelled — I travelled all the way to Gdańsk for nothing!",
+    "maxWords": 5,
+    "correct": ["should have told"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Why didn't you…? z pretensją w głosie to wyrzut: należało to zrobić, a ktoś tego nie zrobił."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Krytyka przeszłości → should + have + V3."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "W zdaniu wyjściowym jest didn't, ale w odpowiedzi przeczenia nie ma. Błędem było NIE powiedzieć, więc: powinieneś był powiedzieć, should have told."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "km-council-road",
+    "type": "key-word-transformation",
+    "source": "It would have been better if the council had repaired the road before the winter.",
+    "keyWord": "OUGHT",
+    "target": "The council ___ the road before the winter.",
+    "maxWords": 5,
+    "correct": ["ought to have repaired"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "It would have been better if… had repaired: ktoś czegoś nie zrobił, a byłoby lepiej, gdyby zrobił. To krytyka przeszłości."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Zwykle powiesz should have + V3, ale słowo klucz to OUGHT, a ought to znaczy to samo co should."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "ought ma w sobie to, a przeszłość robisz jak przy should: ought to have repaired (4 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "ought have repaired bez to to błąd. Nie dodawaj też not: chodzi o to, że naprawić należało."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "km-soup-guests",
+    "type": "key-word-transformation",
+    "source": "It wasn't necessary for me to make so much soup — the guests had already eaten before they came.",
+    "keyWord": "NEEDN'T",
+    "target": "I ___ so much soup — the guests had already eaten before they came.",
+    "maxWords": 5,
+    "correct": ["needn't have made"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "wasn't necessary + so much soup: zupa już jest, ugotowałem ją, a okazało się, że niepotrzebnie."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Zrobione, chociaż nie było trzeba → needn't + have + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "make → made → made: needn't have made."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "needn't make mówi o teraz albo o przyszłości, a tu sprawa jest już zamknięta."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "km-queue-tickets",
+    "type": "key-word-transformation",
+    "source": "Kasia had already bought the tickets online, so there was no need for us to queue and we walked straight in.",
+    "keyWord": "NEED",
+    "target": "Kasia had already bought the tickets online, so we ___ and walked straight in.",
+    "maxWords": 5,
+    "correct": ["did not need to queue"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "there was no need + walked straight in: nie trzeba było stać w kolejce i nikt w niej nie stał."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Nie trzeba było i tego nie robiliśmy → didn't need to + V1. NEED stoi tu jako zwykły czasownik, z did."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "needn't have queued znaczyłoby, że staliśmy w kolejce niepotrzebnie. A weszliśmy od razu, więc to zmienia sens."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "didn't need to queue to 4 wyrazy, did not need to queue to 5, oba mieszczą się w limicie."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "km-school-uniform",
+    "type": "key-word-transformation",
+    "source": "Wearing a uniform isn't compulsory at my new school.",
+    "keyWord": "HAVE",
+    "target": "At my new school, students ___ a uniform.",
+    "maxWords": 5,
+    "correct": ["do not have to wear"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "isn't compulsory = nie jest obowiązkowe. Można nosić mundurek, tylko nie trzeba."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Brak obowiązku → don't have to + V1."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "students to liczba mnoga, czas teraźniejszy: don't have to wear."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "mustn't wear znaczyłoby, że mundurka nosić nie wolno, a to coś zupełnie innego."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 1,
+    "accepted": ["have not got to wear"]
+  },
+  {
+    "id": "km-ride-bike-six",
+    "type": "key-word-transformation",
+    "source": "When I was six, I knew how to ride a bike without stabilisers.",
+    "keyWord": "COULD",
+    "target": "When I was six, I ___ a bike without stabilisers.",
+    "maxWords": 5,
+    "correct": ["could ride"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "knew how to + When I was six: umiejętność, którą ktoś miał przez jakiś czas w przeszłości."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Ogólna umiejętność w przeszłości → could + V1."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "could have ridden to przypuszczenie albo niewykorzystana możliwość, a nie umiejętność. Po could stoi samo ride."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "km-grandpa-lunch",
+    "type": "key-word-transformation",
+    "source": "Grandpa says that when he was at school, pupils were forbidden to speak during lunch.",
+    "keyWord": "ALLOWED",
+    "target": "Grandpa says that when he was at school, pupils ___ during lunch.",
+    "maxWords": 5,
+    "correct": ["were not allowed to speak"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "were forbidden = był zakaz. Do tego when he was at school, czyli przeszłość."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Zakaz w przeszłości → wasn't / weren't allowed to + V1."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "pupils to liczba mnoga: were not allowed to speak."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "were not allowed to speak to dokładnie 5 wyrazów. Z weren't wychodzą 4."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "km-scooter-station",
+    "type": "key-word-transformation",
+    "source": "I don't think you should leave your scooter unlocked outside the station — it'll get stolen.",
+    "keyWord": "BETTER",
+    "target": "You ___ your scooter unlocked outside the station — it'll get stolen.",
+    "maxWords": 5,
+    "correct": ["had better not leave"],
+    "accepted": ["'d better not leave"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I don't think you should…: mocna rada, żeby czegoś NIE robić, z ostrzeżeniem o skutkach (it'll get stolen)."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Mocna rada → had better + V1, a przeczenie stoi po better: had better not + V1."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "hadn't better leave jest bardzo rzadkie, na maturze pisz had better not. had better not to leave to błąd, po had better nie ma to."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "km-computer-course",
+    "type": "key-word-transformation",
+    "source": "Once Michał finishes the course, he'll know how to fix most computer problems himself.",
+    "keyWord": "ABLE",
+    "target": "Once Michał finishes the course, he ___ most computer problems himself.",
+    "maxWords": 5,
+    "correct": ["will be able to fix"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Once Michał finishes + he'll know how to: umiejętność, która dopiero się pojawi."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "can nie ma formy przyszłej, więc w przyszłości wchodzi will be able to + V1."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will can fix to błąd: dwóch modali nie łączy się ze sobą."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "km-camping-dad",
+    "type": "key-word-transformation",
+    "source": "We tried for hours, but we didn't manage to persuade Dad to let us go camping on our own.",
+    "keyWord": "ABLE",
+    "target": "We tried for hours, but we ___ Dad to let us go camping on our own.",
+    "maxWords": 5,
+    "correct": ["were not able to persuade"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "didn't manage to: jedna konkretna próba w przeszłości, która się nie udała."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Nie udało się → wasn't / weren't able to + V1."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "we → were: were not able to persuade."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "were not able to persuade to 5 wyrazów, weren't able to persuade to 4. Każde dodatkowe słowo przekracza limit."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "km-wet-streets",
+    "type": "key-word-transformation",
+    "source": "The streets are all wet. I'm sure it was raining while we were in the cinema.",
+    "keyWord": "MUST",
+    "target": "The streets are all wet. It ___ while we were in the cinema.",
+    "maxWords": 5,
+    "correct": ["must have been raining", "must have rained"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I'm sure: pewność. was raining: coś trwało w przeszłości."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Pewność o czymś, co trwało → must + have been + V-ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "must have been raining (4 wyrazy). Poprawne jest też must have rained, jeśli nie podkreślasz, że deszcz trwał."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "km-ola-message",
+    "type": "key-word-transformation",
+    "source": "Perhaps Ola didn't see my message — she usually replies within minutes.",
+    "keyWord": "MAY",
+    "target": "Ola ___ my message — she usually replies within minutes.",
+    "maxWords": 5,
+    "correct": ["may not have seen"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Perhaps + didn't see: przypuszczenie, że coś w przeszłości się nie stało."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Możliwe, że nie → may not + have + V3. not stoi zaraz po may."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "see → saw → seen: may not have seen (4 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "may have not seen to rzadka, nienaturalna kolejność (pisz may not have seen), a can't have seen to już pewność, a nie przypuszczenie."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "km-dog-fridge",
+    "type": "key-word-transformation",
+    "source": "I'm sure our dog didn't open the fridge by himself — he's far too small.",
+    "keyWord": "COULDN'T",
+    "target": "Our dog ___ the fridge by himself — he's far too small.",
+    "maxWords": 5,
+    "correct": ["couldn't have opened"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I'm sure + didn't open: pewność, że czegoś w przeszłości nie było."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Pewność „nie” o przeszłości → can't have albo couldn't have + V3. Słowo klucz wybiera couldn't."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "open jest regularny: couldn't have opened (3 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "couldn't open bez have to zwykłe stwierdzenie, że pies nie dał rady. Zdanie wyjściowe to wniosek mówiącego (I'm sure), a wniosek o przeszłości robi się przez have + V3."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "km-exam-results",
+    "type": "key-word-transformation",
+    "source": "There's no need to worry about the exam results — you did really well.",
+    "keyWord": "NEEDN'T",
+    "target": "You ___ about the exam results — you did really well.",
+    "maxWords": 5,
+    "correct": ["needn't worry", "needn't be worried"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "There's no need to worry: rada na teraz, nie ma powodu się martwić."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Brak potrzeby teraz → needn't + V1, bez to."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "needn't to worry to błąd. needn't have worried mówiłoby o martwieniu się, które już minęło, a tu rada dotyczy teraz."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "km-festival-pass",
+    "type": "key-word-transformation",
+    "source": "It wasn't necessary for Marek to pay for his festival pass because he won it in a radio competition.",
+    "keyWord": "HAVE",
+    "target": "Marek ___ for his festival pass because he won it in a radio competition.",
+    "maxWords": 5,
+    "correct": ["did not have to pay"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "wasn't necessary + he won it: Marek nie musiał płacić i nie zapłacił, bo karnet wygrał."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Brak obowiązku w przeszłości, a rzeczy nie zrobiono → didn't have to + V1."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "needn't have paid też zawiera HAVE, ale znaczy, że zapłacił niepotrzebnie. A Marek nic nie zapłacił."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "didn't have to pay to 4 wyrazy, did not have to pay to 5."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "km-exam-room",
+    "type": "key-word-transformation",
+    "source": "Students are not allowed to leave the exam room during the first hour.",
+    "keyWord": "MUSTN'T",
+    "target": "Students ___ the exam room during the first hour.",
+    "maxWords": 5,
+    "correct": ["mustn't leave"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "are not allowed to = nie wolno. To zakaz, a nie brak obowiązku."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Zakaz → mustn't + V1."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "mustn't to leave to błąd, po modalu nie ma to. don't have to leave znaczyłoby coś innego: wolno zostać, ale nie trzeba."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "km-homework-attention",
+    "type": "key-word-transformation",
+    "source": "Why weren't you paying attention when the teacher was explaining the homework? Now you don't know what to do!",
+    "keyWord": "BEEN",
+    "target": "You ___ attention when the teacher was explaining the homework — now you don't know what to do!",
+    "maxWords": 5,
+    "correct": ["should have been paying", "ought to have been paying"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Why weren't you…? to wyrzut. weren't paying: chodzi o coś, co powinno było trwać w tamtym momencie."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Krytyka przeszłości to should have + V3, a gdy czynność trwała, should have been + V-ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "BEEN wymusza formę ciągłą: should have been paying (4 wyrazy) albo ought to have been paying (5)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie przenoś przeczenia: błędem było NIE uważać, więc w odpowiedzi nie ma not."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "km-goalkeeper-mistake",
+    "type": "key-word-transformation",
+    "source": "We had a real chance of winning the match, but our goalkeeper made a silly mistake.",
+    "keyWord": "COULD",
+    "target": "We ___ the match, but our goalkeeper made a silly mistake.",
+    "maxWords": 5,
+    "correct": ["could have won"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "had a real chance of winning + but: była szansa, ale się nie udało."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Niewykorzystana możliwość w przeszłości → could + have + V3: mogliśmy wygrać."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "win → won → won: could have won."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "could win mówiłoby o umiejętności albo o przyszłości. Mecz już się skończył, więc potrzebne jest have + V3."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "km-lift-stairs",
+    "type": "key-word-transformation",
+    "source": "Since the lift broke down, it has been necessary for us to carry our shopping up eight flights of stairs.",
+    "keyWord": "HAD",
+    "target": "Since the lift broke down, we ___ our shopping up eight flights of stairs.",
+    "maxWords": 5,
+    "correct": ["have had to carry"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Since the lift broke down + it has been necessary: obowiązek trwa od momentu w przeszłości do teraz."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "must nie ma formy z have + V3 w znaczeniu obowiązku, więc wchodzi have to w Present Perfect: have had to + V1."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "have (bo we) + had (V3 od have) + to carry: have had to carry, 4 wyrazy."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "had to carry pomija since: obowiązek nie skończył się, trwa do dziś, więc sam Past Simple tu nie wystarczy."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "km-charger-office",
+    "type": "key-word-transformation",
+    "source": "Marek must have taken my charger by mistake when he left the office yesterday.",
+    "keyWord": "SURE",
+    "target": "I ___ my charger by mistake when he left the office yesterday.",
+    "maxWords": 5,
+    "correct": ["am sure Marek took", "am sure that Marek took"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "must have taken to pewność o przeszłości. Tu idziesz w drugą stronę: z modala robisz zwykłe zdanie z I'm sure."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "I am sure (that) + podmiot + czasownik w normalnym czasie. Marek trafia do luki, bo w zdaniu docelowym brakuje podmiotu."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "yesterday to zamknięta przeszłość, więc Past Simple: took."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "am sure Marek took to 4 wyrazy, z that 5. I am sure that Marek has taken się nie zmieści i nie pasuje do yesterday."
+      }
+    ],
+    "tags": ["modal-verbs", "key-word-transformations"],
+    "difficulty": 3
+  }
+]

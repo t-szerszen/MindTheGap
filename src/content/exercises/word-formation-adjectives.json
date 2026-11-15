@@ -1,0 +1,935 @@
+[
+  {
+    "id": "wf-adj-spider",
+    "type": "word-formation",
+    "text": "Don't worry about the spider in the bath – it's completely ___ and won't hurt you.",
+    "gaps": [
+      {
+        "base": "HARM",
+        "correct": ["harmless"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po it's (it is) i completely stoi słowo, które opisuje pająka. Po be + przysłówek typu completely, very, really idzie przymiotnik."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "won't hurt you: pająk nie zrobi krzywdy, czyli jest nieszkodliwy. -less znaczy „bez”, więc harmless = bez szkody."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "harm + -less → harmless. Końcówka -less ma dwa s."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "harmful (szkodliwy) to odwrotność i przeczy dalszej części zdania. Na maturze właśnie taka zamiana -ful i -less daje 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 1
+  },
+  {
+    "id": "wf-adj-hotel-staff",
+    "type": "word-formation",
+    "text": "The staff at the hotel were really ___ and helpful, so we felt at home from the very first day.",
+    "gaps": [
+      {
+        "base": "FRIEND",
+        "correct": ["friendly"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Luka jest połączona przez and z helpful, a helpful to przymiotnik. and łączy słowa tej samej części mowy, więc po were really też stoi przymiotnik."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "we felt at home: obsługa była miła, więc sens jest pozytywny. friendly = przyjazny, miły. unfriendly przeczyłoby reszcie zdania."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "friend + -ly → friendly. -ly dodane do rzeczownika daje przymiotnik, nie przysłówek. Tak samo love → lovely."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Nie myśl, że -ly to zawsze przysłówek. friendly to przymiotnik i stoi po were tak jak kind albo nice."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 1
+  },
+  {
+    "id": "wf-adj-picnic",
+    "type": "word-formation",
+    "text": "The forecast says it's going to be ___ all weekend, so let's have a picnic by the lake.",
+    "gaps": [
+      {
+        "base": "SUN",
+        "correct": ["sunny"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "it's going to be ___: po be, gdy mówimy o pogodzie, stoi przymiotnik, jak w it's going to be cold albo windy."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Skoro planujemy piknik, pogoda ma być dobra, czyli słoneczna: sunny."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "sun + -y. sun ma krótką samogłoskę i kończy się jedną spółgłoską, więc n się podwaja: sunny. Tak samo fog → foggy."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "suny z jednym n to 0 pkt. sunshine to rzeczownik i w tym miejscu nie pasuje."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 1
+  },
+  {
+    "id": "wf-adj-plastic-oceans",
+    "type": "word-formation",
+    "text": "Plastic in the oceans is one of the most serious ___ problems we face today.",
+    "gaps": [
+      {
+        "base": "ENVIRONMENT",
+        "correct": ["environmental"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Luka stoi między serious a rzeczownikiem problems i mówi, jakiego rodzaju to problemy. Słowo, które opisuje rzeczownik, to przymiotnik."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Plastik w oceanach to problem dla środowiska, czyli problem ekologiczny: environmental."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "environment + -al → environmental. Nic nie znika, końcówka dochodzi na końcu. Uważaj na n przed m: enviroNMent."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "environment problems to po prostu przepisany wyraz z nawiasu, a tu trzeba utworzyć nowy. enviromental bez pierwszego n to 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 1
+  },
+  {
+    "id": "wf-adj-dentist",
+    "type": "word-formation",
+    "text": "The dentist promised that the treatment would be quick and ___, and in the end I really didn't feel a thing.",
+    "gaps": [
+      {
+        "base": "PAIN",
+        "correct": ["painless"],
+        "accepted": ["pain-free"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Luka jest połączona przez and z quick, a quick to przymiotnik. Do tego obie stoją po would be, więc w luce też przymiotnik."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "I really didn't feel a thing: nic nie bolało, więc leczenie było bezbolesne. -less = bez, czyli painless."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "pain + -less → painless. Pień się nie zmienia."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "painful (bolesny) to odwrotność. Przy dentyście brzmi znajomo, ale przeczy końcówce zdania."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adj-teacher-mum",
+    "type": "word-formation",
+    "text": "I felt really ___ when I accidentally called my new teacher 'Mum' in front of the whole class.",
+    "gaps": [
+      {
+        "base": "EMBARRASS",
+        "correct": ["embarrassed"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po felt really stoi przymiotnik, który mówi, jak się czułem, tak jak felt happy albo felt tired."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Opisujesz własne uczucie, więc forma na -ed: embarrassed = zawstydzony. Forma na -ing opisuje to, co wywołuje uczucie: an embarrassing situation."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "embarrass + -ed. Podwójne r i podwójne s: embaRRaSSed."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "embarrassing to 0 pkt: tak opisuje się sytuację, która krępuje, a nie osobę, która się wstydzi. embarassed z jednym r też daje 0."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adj-scholarship",
+    "type": "word-formation",
+    "text": "Despite all her efforts, her application for the scholarship was ___, so she is going to apply again next year.",
+    "gaps": [
+      {
+        "base": "SUCCESS",
+        "correct": ["unsuccessful"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po was nie ma a/an, więc rzeczownik policzalny tu nie wejdzie. Luka mówi, jakie było application, czyli po be stoi przymiotnik, jak w was good."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Despite all her efforts i apply again next year: mimo starań coś nie wyszło. Potrzebny przymiotnik z przeczeniem: unsuccessful."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "un- + success + -ful → unsuccessful. W środku dwa c i dwa s, na końcu jedno l."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "successful przeczy logice zdania, bo po co aplikować drugi raz? unsuccessfull z dwoma l to 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adj-skydiving",
+    "type": "word-formation",
+    "text": "My sister is really ___ – she has already tried bungee jumping and now she wants to go skydiving.",
+    "gaps": [
+      {
+        "base": "ADVENTURE",
+        "correct": ["adventurous"],
+        "accepted": ["adventuresome"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po is really stoi przymiotnik, który opisuje siostrę."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Skakała na bungee i chce skoczyć ze spadochronem, więc lubi ryzyko i nowe przeżycia: adventurous = odważny, żądny przygód."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "adventure: końcowe e wypada przed -ous → adventurous. Tak samo fame → famous."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "adventureous to 0 pkt. adventurer to rzeczownik (poszukiwacz przygód) i po is really bez przedimka nie stoi."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adj-old-car",
+    "type": "word-formation",
+    "text": "I need a more ___ car – my old one breaks down almost every month.",
+    "gaps": [
+      {
+        "base": "RELY",
+        "correct": ["reliable"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Między a more a rzeczownikiem car stoi przymiotnik w stopniu wyższym, jak w a more expensive car."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Stary samochód ciągle się psuje, więc potrzebny jest taki, na którym można polegać: reliable = niezawodny."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "rely + -able. y po spółgłosce zmienia się w i: reliable."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "unreliable opisuje stary samochód, a nie ten, którego szukasz. relyable to 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adj-hospital-card",
+    "type": "word-formation",
+    "text": "It was really ___ of you to send me a card when I was in hospital.",
+    "gaps": [
+      {
+        "base": "THOUGHT",
+        "correct": ["thoughtful"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Schemat It was + przymiotnik + of you to..., jak w It was kind of you to... W luce przymiotnik, który ocenia czyjeś zachowanie."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Kartka do szpitala to miły gest: ktoś o mnie pomyślał. thoughtful = troskliwy, pamiętający o innych."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "thought + -ful → thoughtful. Na końcu jedno l."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "thoughtless = bezmyślny, czyli odwrotność. thoughtfull z dwoma l to 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adj-rainy-holiday",
+    "type": "word-formation",
+    "text": "Our holiday in Spain was quite ___ because it rained almost every day and the hotel was dirty.",
+    "gaps": [
+      {
+        "base": "DISAPPOINT",
+        "correct": ["disappointing"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po was quite stoi przymiotnik, który opisuje wakacje."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Deszcz i brudny hotel to powody do rozczarowania. To wakacje wywołują to uczucie, więc forma na -ing: disappointing = rozczarowujący."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "dis + appoint: jedno s, dwa p. disappoint + -ing → disappointing."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "disappointed (rozczarowany) opisuje ludzi: we were disappointed. Wakacje nic nie czują, więc disappointed to tu 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adj-museum-painting",
+    "type": "word-formation",
+    "text": "The police still cannot explain the ___ disappearance of a famous painting from the city museum.",
+    "gaps": [
+      {
+        "base": "MYSTERY",
+        "correct": ["mysterious"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Między the a rzeczownikiem disappearance stoi słowo, które opisuje zniknięcie, czyli przymiotnik."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Policja nie potrafi tego wyjaśnić, więc zniknięcie jest tajemnicze: mysterious."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Końcowe y zmienia się w i przed -ous → mysterious. Pierwsze y, po m, zostaje: mYsterIous. Tak samo glory → glorious."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "misterious albo mysterius to 0 pkt. Wystarczy jedna zła litera."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adj-video-comments",
+    "type": "word-formation",
+    "text": "Some of the comments under the video were so ___ that the website removed them within an hour.",
+    "gaps": [
+      {
+        "base": "OFFEND",
+        "correct": ["offensive"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Schemat so + przymiotnik + that, jak w so bad that... W luce przymiotnik, który opisuje komentarze."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Strona usunęła komentarze, więc kogoś obrażały: offensive = obraźliwy."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "offend: d zmienia się w s przed -ive → offensive. Tak samo defend → defensive."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "offended = obrażony, czyli opisuje człowieka, który poczuł się urażony. Komentarze nic nie czują, więc offended to 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adj-student-flats",
+    "type": "word-formation",
+    "text": "Students in big cities need more ___ flats, because many of them spend half their income on rent.",
+    "gaps": [
+      {
+        "base": "AFFORD",
+        "correct": ["affordable"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Między more a rzeczownikiem flats stoi przymiotnik, który mówi, jakich mieszkań brakuje."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Połowa dochodu idzie na czynsz, więc potrzebne są mieszkania, na które studentów stać: affordable = przystępny cenowo."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "afford + -able → affordable. Pień się nie zmienia, na początku dwa f."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "unaffordable opisuje to, co jest teraz, a nie to, czego studentom trzeba. affordible przez i to 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adj-pizza",
+    "type": "word-formation",
+    "text": "That was a really ___ thing to do – you ate the whole pizza and didn't leave a single slice for your sister.",
+    "gaps": [
+      {
+        "base": "SELF",
+        "correct": ["selfish"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "a really ___ thing: luka stoi między przedimkiem a rzeczownikiem thing, po really. To miejsce na przymiotnik."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Zjadłeś wszystko i nic nie zostawiłeś siostrze, czyli myślałeś tylko o sobie: selfish = samolubny."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "self + -ish → selfish."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "selfless = bezinteresowny, czyli dokładna odwrotność. Oba słowa pochodzą od self, decyduje sens zdania."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adj-babysitting",
+    "type": "word-formation",
+    "text": "My parents finally think I'm ___ enough to look after my little brother for a whole weekend.",
+    "gaps": [
+      {
+        "base": "RESPONSIBILITY",
+        "correct": ["responsible"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Schemat przymiotnik + enough, jak w old enough albo tall enough. Po I'm (I am) w luce przymiotnik."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Rodzice ufają, że dam radę zaopiekować się bratem, czyli jestem odpowiedzialny: responsible."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Tu idziesz od rzeczownika do przymiotnika: -ibility zamienia się w -ible. responsibility → responsible, tak samo possibility → possible."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "responsable brzmi znajomo, ale to 0 pkt: po angielsku jest -ible. irresponsible przeczy temu, że rodzice ci ufają."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adj-river-waste",
+    "type": "word-formation",
+    "text": "For years the river was polluted by ___ waste from the factories along its banks.",
+    "gaps": [
+      {
+        "base": "INDUSTRY",
+        "correct": ["industrial"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Luka stoi przed rzeczownikiem waste i mówi, jakie to odpady, więc potrzebny przymiotnik."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Odpady pochodzą z fabryk, więc są przemysłowe: industrial."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "industry: y zmienia się w i przed -al → industrial."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "industrious też pochodzi od industry, ale znaczy pracowity i opisuje ludzi (an industrious student). Odpady nie są pracowite, więc to 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adj-exam-phone",
+    "type": "word-formation",
+    "text": "Using a phone during the exam is completely ___, and anyone caught doing it will have their exam cancelled.",
+    "gaps": [
+      {
+        "base": "ACCEPT",
+        "correct": ["unacceptable"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po is completely stoi przymiotnik, który ocenia używanie telefonu."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Za to unieważniają egzamin, więc jest to niedopuszczalne. Potrzebny przymiotnik z przeczeniem: unacceptable."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "un- + accept + -able → unacceptable. Przeczenie przez un-, pień accept bez zmian."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "acceptable przeczy karze z drugiej części zdania. inacceptable to 0 pkt: po angielsku jest unacceptable."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adj-football-fans",
+    "type": "word-formation",
+    "text": "The fans were incredibly ___ and kept singing and cheering until the very last minute of the match.",
+    "gaps": [
+      {
+        "base": "ENTHUSIASM",
+        "correct": ["enthusiastic"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po were incredibly stoi przymiotnik, który opisuje kibiców."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Śpiewali i dopingowali do samego końca, czyli byli pełni zapału: enthusiastic."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Końcowe -m zamienia się w -tic: enthusiasm → enthusiastic. Tak samo sarcasm → sarcastic."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "enthusiastical to 0 pkt, tu nie ma -al. enthusiast to rzeczownik (fan czegoś) i po were incredibly nie pasuje."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adj-past-papers",
+    "type": "word-formation",
+    "text": "Doing past papers regularly is one of the most ___ ways to prepare for your exams.",
+    "gaps": [
+      {
+        "base": "EFFECT",
+        "correct": ["effective"],
+        "accepted": ["effectual"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "one of the most ___ ways: stopień najwyższy przed rzeczownikiem ways, więc przymiotnik."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Chodzi o sposób, który działa i daje wyniki: effective = skuteczny."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "effect + -ive → effective. Pień się nie zmienia."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "affective przez a to inne słowo (związany z emocjami), więc 0 pkt. efficient (wydajny) nie powstaje od effect, to osobne słowo, więc też 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adj-moving-out",
+    "type": "word-formation",
+    "text": "My older brother moved out at eighteen because he wanted to be ___ and make his own decisions.",
+    "gaps": [
+      {
+        "base": "DEPEND",
+        "correct": ["independent"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po to be stoi przymiotnik, który mówi, jaki brat chciał być."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Wyprowadził się i chce sam decydować, czyli chce być niezależny. Potrzebne przeczenie: independent."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "in- + depend + -ent → independent. Przeczenie przez in-, a końcówka -ent, nie -ant."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "dependent znaczy zależny, czyli odwrotnie. independant przez a to 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adj-roof",
+    "type": "word-formation",
+    "text": "Not checking the roof before buying the house turned out to be a ___ mistake – the repairs took all our savings.",
+    "gaps": [
+      {
+        "base": "COST",
+        "correct": ["costly"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "a ___ mistake: luka stoi między przedimkiem a rzeczownikiem, więc przymiotnik."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Naprawy pochłonęły wszystkie oszczędności, więc był to drogi, kosztowny błąd: costly."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "cost + -ly → costly. -ly po rzeczowniku daje przymiotnik, jak love → lovely."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "costful nie istnieje. a costly mistake to stałe połączenie: kosztowny błąd."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adj-driving-test",
+    "type": "word-formation",
+    "text": "After months of practice, Maja felt ___ that she would pass her driving test.",
+    "gaps": [
+      {
+        "base": "CONFIDENCE",
+        "correct": ["confident"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po felt stoi przymiotnik (felt sure, felt happy), a po nim zdanie z that."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Po miesiącach ćwiczeń Maja jest pewna, że zda: confident = pewny siebie, przekonany."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "-ence w rzeczowniku to -ent w przymiotniku: confidence → confident. Tak samo difference → different, silence → silent."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "confidential = poufny (confidential information). Ten sam rdzeń, ale zupełnie inne znaczenie, więc 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adj-act-your-age",
+    "type": "word-formation",
+    "text": "Stop being so ___! You're seventeen, so act like an adult and apologise to your sister.",
+    "gaps": [
+      {
+        "base": "CHILD",
+        "correct": ["childish"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "being so ___: po being (forma od be) i so stoi przymiotnik."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "To krytyka: zachowujesz się jak małe dziecko. Negatywny przymiotnik od child to childish = dziecinny."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "child + -ish → childish."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "childlike znaczy dziecięcy w dobrym sensie (childlike curiosity, dziecięca ciekawość) i nie pasuje do krytyki. childless = bezdzietny."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-adj-wedding-speech",
+    "type": "word-formation",
+    "text": "His speech at his brother's wedding was so ___ that the guests couldn't stop laughing.",
+    "gaps": [
+      {
+        "base": "HUMOUR",
+        "correct": ["humorous"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Schemat so + przymiotnik + that. W luce przymiotnik, który opisuje przemowę."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Goście nie mogli przestać się śmiać, więc przemowa była zabawna i dowcipna: humorous."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "humour + -ous: u przed r wypada → humorous. Tak jest także w pisowni brytyjskiej, chociaż humour ma u. Tak samo glamour → glamorous."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "humourous to 0 pkt. humoristic to bardzo rzadkie słowo i brzmi jak kalka z polskiego humorystyczny. Naturalne i bezpieczne jest humorous."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  },
+  {
+    "id": "wf-adj-exercise",
+    "type": "word-formation",
+    "text": "Regular exercise is ___ for both your body and your mind.",
+    "gaps": [
+      {
+        "base": "BENEFIT",
+        "correct": ["beneficial"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "is ___ for: po be stoi przymiotnik, jak w good for albo bad for."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Ćwiczenia pomagają i ciału, i głowie, więc są korzystne: beneficial."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "benefit + -ial: t zmienia się w c → beneficial."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "benefitial przez t to 0 pkt. benefit bez zmian to rzeczownik, a tu trzeba przymiotnika."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  },
+  {
+    "id": "wf-adj-fuel",
+    "type": "word-formation",
+    "text": "Our new car is much more ___ than the old one – it uses only five litres of petrol per hundred kilometres.",
+    "gaps": [
+      {
+        "base": "ECONOMY",
+        "correct": ["economical"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "much more ___ than: stopień wyższy, więc przymiotnik."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Samochód mało pali, więc jest oszczędny: economical. Chodzi o oszczędność w użyciu, nie o gospodarkę."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "economy: y odpada, dochodzi -ical → economical."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "economic znaczy gospodarczy (economic growth, economic crisis). Samochód nie jest gospodarczy, więc economic to 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  },
+  {
+    "id": "wf-adj-knights",
+    "type": "word-formation",
+    "text": "My grandad loves ___ novels set in the Middle Ages, especially ones about knights and castles.",
+    "gaps": [
+      {
+        "base": "HISTORY",
+        "correct": ["historical"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Luka stoi przed rzeczownikiem novels i mówi, jakie to powieści, więc przymiotnik."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Akcja dzieje się w średniowieczu, czyli powieści dotyczą przeszłości: historical novels = powieści historyczne."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "history: y odpada, dochodzi -ical → historical."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "historic znaczy przełomowy, ważny dla historii (a historic victory). A historic novel byłaby powieścią przełomową, a nie o przeszłości, więc 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  },
+  {
+    "id": "wf-adj-sunscreen",
+    "type": "word-formation",
+    "text": "My skin is very ___ to the sun, so I always put on sunscreen before I go to the beach.",
+    "gaps": [
+      {
+        "base": "SENSE",
+        "correct": ["sensitive"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "is very ___ to: po be i very stoi przymiotnik."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Skóra mocno reaguje na słońce, więc jest wrażliwa: sensitive. Pasuje też przyimek: sensitive to."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "sense: e odpada, dochodzi -itive → sensitive."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "sensible to fałszywy przyjaciel: znaczy rozsądny (a sensible decision), a nie wrażliwy. Za sensible jest 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  },
+  {
+    "id": "wf-adj-classmates",
+    "type": "word-formation",
+    "text": "Our teacher expects us to be ___ towards each other, even when we disagree.",
+    "gaps": [
+      {
+        "base": "RESPECT",
+        "correct": ["respectful"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po to be stoi przymiotnik, który mówi, jacy mamy być."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Chodzi o to, jak traktujemy innych: okazujemy im szacunek. Taki przymiotnik to respectful = pełen szacunku."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "respect + -ful → respectful. Na końcu jedno l."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "respectable = szanowany, porządny (a respectable job): to inni szanują ciebie. respective = poszczególny. Oba są od respect, ale nie pasują do towards each other."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  }
+]

@@ -1,0 +1,924 @@
+[
+  {
+    "id": "gi-enjoy-comics",
+    "type": "gap-fill",
+    "sentence": "My little sister really enjoys ___ (draw) comics about our cat, and she's already filled three notebooks.",
+    "correct": ["drawing"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Przed luką stoi enjoys. Po enjoy drugi czasownik zawsze dostaje -ing."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po polsku „lubi rysować” to bezokolicznik, więc kusi enjoys to draw. Ale enjoy nie łączy się z to."
+      },
+      { "label_pl": "forma", "text_pl": "draw + -ing → drawing." }
+    ],
+    "tags": ["gerund-infinitive"],
+    "difficulty": 1
+  },
+  {
+    "id": "gi-interested-films",
+    "type": "gap-fill",
+    "sentence": "Kuba has always been interested in ___ (make) short films, so he's applying to a film school in Łódź.",
+    "correct": ["making"],
+    "steps": [
+      { "label_pl": "sygnał", "text_pl": "Przed luką jest przyimek in (interested in)." },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Po przyimku czasownik stoi w formie -ing. Przyimek łączy się z rzeczownikiem, a -ing to „rzeczownikowa” forma czasownika."
+      },
+      { "label_pl": "forma", "text_pl": "make traci e: making, nie makeing." }
+    ],
+    "tags": ["gerund-infinitive"],
+    "difficulty": 1
+  },
+  {
+    "id": "gi-cant-help-laughing",
+    "type": "gap-fill",
+    "sentence": "Every time Bartek tells that story about the goat on his uncle's farm, I can't help ___ (laugh), even though I've heard it a hundred times.",
+    "correct": ["laughing", "but laugh"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "can't help nie znaczy tu „nie mogę pomóc”, tylko „nie mogę się powstrzymać”."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "W tym znaczeniu po can't help stoi -ing: can't help laughing. Spotkasz też can't help but laugh, ale wersja z -ing jest najbezpieczniejsza."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "can't help to laugh ✗. Samo V1 albo to + V1 idzie po help wtedy, gdy ktoś komuś pomaga (help me carry), a tu nikt nikomu nie pomaga."
+      },
+      { "label_pl": "forma", "text_pl": "laugh + -ing → laughing." }
+    ],
+    "tags": ["gerund-infinitive"],
+    "difficulty": 2
+  },
+  {
+    "id": "gi-remember-keys",
+    "type": "gap-fill",
+    "sentence": "I definitely remember ___ (put) my keys in this bag before we left the flat, so they must be in here somewhere.",
+    "correct": ["putting", "having put"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "before we left the flat: wkładanie kluczy było wcześniej niż to, że teraz pamiętam."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "remember + V-ing = pamiętam coś, co już się stało (wspomnienie). remember + to V1 = pamiętam, żeby coś dopiero zrobić."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "remember to put znaczyłoby „pamiętam, żeby włożyć”. A klucze powinny już leżeć w torbie, więc chodzi o wspomnienie."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "put + -ing → putting (podwójne t). Można też having put, ale zwykłe -ing wystarczy."
+      }
+    ],
+    "tags": ["gerund-infinitive"],
+    "difficulty": 2
+  },
+  {
+    "id": "gi-forgot-charge",
+    "type": "gap-fill",
+    "sentence": "I forgot ___ (charge) my phone last night, so it died halfway through the bus journey to school.",
+    "correct": ["to charge"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Telefon się rozładował, czyli ładowanie w ogóle się nie odbyło."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "forget + to V1 = zapomnieć coś zrobić (czynność miała nastąpić i nie nastąpiła). forget + V-ing = zapomnieć o czymś, co już się zrobiło."
+      },
+      { "label_pl": "forma", "text_pl": "forgot + to charge." }
+    ],
+    "tags": ["gerund-infinitive"],
+    "difficulty": 1
+  },
+  {
+    "id": "gi-avoid-recognised",
+    "type": "gap-fill",
+    "sentence": "The singer wore a cap and dark glasses at the airport to avoid ___ (recognise) by her fans.",
+    "correct": ["being recognised", "getting recognised"],
+    "accepted": ["being recognized", "getting recognized"],
+    "steps": [
+      { "label_pl": "sygnał", "text_pl": "Przed luką jest avoid, a po avoid zawsze stoi -ing." },
+      {
+        "label_pl": "struktura",
+        "text_pl": "by her fans: to fani rozpoznają piosenkarkę, nie ona ich. Jej coś się dzieje → znaczenie bierne."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Bierne -ing = being + V3 → being recognised. Potocznie też getting recognised."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "avoid recognising znaczyłoby, że to ona nie chce rozpoznać fanów. avoid to be recognised ✗, bo avoid nie bierze to."
+      }
+    ],
+    "tags": ["gerund-infinitive", "passive-voice"],
+    "difficulty": 3
+  },
+  {
+    "id": "gi-denied-copying",
+    "type": "gap-fill",
+    "sentence": "The two students handed in almost identical essays, but both of them denied ___ (copy) anything from the internet.",
+    "correct": ["copying", "having copied"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "denied: po deny (zaprzeczać) drugi czasownik ma -ing."
+      },
+      {
+        "label_pl": "czas",
+        "text_pl": "Kopiowanie było wcześniej niż zaprzeczanie. Możesz to pokazać przez having + V3, ale nie musisz: deny samo mówi, że chodzi o coś, co już było."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "denied to copy ✗. Po polsku „zaprzeczyli, że skopiowali”, a po angielsku zamiast całego zdania wystarczy -ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "copy + -ing → copying (y zostaje). Wersja perfect: having copied."
+      }
+    ],
+    "tags": ["gerund-infinitive"],
+    "difficulty": 2
+  },
+  {
+    "id": "gi-managed-hostel",
+    "type": "gap-fill",
+    "sentence": "After an hour of walking round in circles, we finally ___ (manage / find) the hostel, but reception had already closed.",
+    "correct": ["managed to find"],
+    "maxWords": 3,
+    "steps": [
+      { "label_pl": "sygnał", "text_pl": "manage = zdołać, dać radę. Po nim stoi to + V1." },
+      {
+        "label_pl": "czas",
+        "text_pl": "Opowiadasz o przeszłości (had already closed), więc manage → managed."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "managed finding ✗ i managed find ✗. To musisz dopisać sam."
+      },
+      { "label_pl": "forma", "text_pl": "managed + to find → 3 wyrazy." }
+    ],
+    "tags": ["gerund-infinitive"],
+    "difficulty": 1
+  },
+  {
+    "id": "gi-no-use-complaining",
+    "type": "gap-fill",
+    "sentence": "It ___ (no / use / complain) to the landlord about the heating — he never answers his phone, so let's just buy a heater.",
+    "correct": ["is no use complaining"],
+    "accepted": ["'s no use complaining"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "It + no use: stałe wyrażenie „nie ma sensu”."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "It's no use + V-ing. Tak samo działają It's worth + V-ing i There's no point (in) + V-ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Brakuje czasownika. Mówisz o tym, co robić teraz (let's just buy), więc It + is. Potem no use + complaining → is no use complaining (4 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie zostawiaj zdania bez is (It no use…) i nie pisz no use to complain."
+      }
+    ],
+    "tags": ["gerund-infinitive"],
+    "difficulty": 2
+  },
+  {
+    "id": "gi-made-to-run",
+    "type": "gap-fill",
+    "sentence": "We turned up late for training again, so we ___ (make / run) five extra laps around the pitch while the others watched.",
+    "correct": ["were made to run"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Podmiotem jest we, a to nie my kazaliśmy sobie biegać. Ktoś (trener) nas zmusił → strona bierna od make."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "W stronie czynnej: make + osoba + V1 (The coach made us run). W biernej wraca to: be made + to V1."
+      },
+      { "label_pl": "czas", "text_pl": "turned up to przeszłość, więc were made." },
+      {
+        "label_pl": "forma",
+        "text_pl": "were + made + to run → 4 wyrazy. were made run ✗."
+      }
+    ],
+    "tags": ["gerund-infinitive", "passive-voice"],
+    "difficulty": 3
+  },
+  {
+    "id": "gi-not-let-go",
+    "type": "gap-fill",
+    "sentence": "When I was fifteen, my parents ___ (not / let / go) to the festival on my own, so my older cousin had to come with me.",
+    "correct": ["didn't let me go", "wouldn't let me go"],
+    "maxWords": 4,
+    "steps": [
+      { "label_pl": "sygnał", "text_pl": "let = pozwolić. Po let stoi osoba i samo V1, bez to." },
+      {
+        "label_pl": "struktura",
+        "text_pl": "let + me + go. Musisz dodać me, bo pozwolenie dotyczy mnie."
+      },
+      {
+        "label_pl": "czas",
+        "text_pl": "When I was fifteen to przeszłość, przeczenie: didn't let. Pasuje też wouldn't let (nie chcieli pozwolić)."
+      },
+      {
+        "label_pl": "limit",
+        "text_pl": "Skrót liczy się jako jeden wyraz: didn't let me go = 4. did not let me go to już 5 wyrazów, czyli za dużo."
+      },
+      { "label_pl": "pułapka", "text_pl": "didn't let me to go ✗." }
+    ],
+    "tags": ["gerund-infinitive"],
+    "difficulty": 2
+  },
+  {
+    "id": "gi-seem-gone-away",
+    "type": "gap-fill",
+    "sentence": "The neighbours ___ (seem / go) away — their car hasn't moved for a week and all the lights are off.",
+    "correct": ["seem to have gone"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "hasn't moved for a week: wyjazd już się odbył, a ty oceniasz to teraz po śladach."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "seem + to V1. Gdy czynność jest wcześniejsza niż „wydaje się”, dajesz bezokolicznik z have: to have + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "The neighbours to liczba mnoga → seem, bez -s. go → gone: seem to have gone (4 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "seem to go away znaczyłoby, że mają zwyczaj wyjeżdżać. seems to have gone ✗, bo sąsiadów jest kilku."
+      }
+    ],
+    "tags": ["gerund-infinitive"],
+    "difficulty": 3
+  },
+  {
+    "id": "gi-regret-not-learning",
+    "type": "gap-fill",
+    "sentence": "Now that I'm backpacking around Mexico, I really ___ (regret / not / learn) Spanish at school.",
+    "correct": [
+      "regret not learning",
+      "regret not having learnt",
+      "regret not having learned",
+      "regret I didn't learn"
+    ],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Teraz żałuję czegoś, co było wcześniej (w szkole)."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "regret + V-ing = żałuję, że coś zrobiłem albo nie zrobiłem. regret to + V1 to formalne „z przykrością informuję”."
+      },
+      {
+        "label_pl": "przeczenie",
+        "text_pl": "not stoi tuż przed -ing: regret not learning = żałuję, że się nie uczyłem. don't regret learning znaczy odwrotnie."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "regret not learning (3 wyrazy) albo regret not having learnt (4). Zdanie regret I didn't learn też jest dobre i się mieści."
+      }
+    ],
+    "tags": ["gerund-infinitive"],
+    "difficulty": 2
+  },
+  {
+    "id": "gi-succeeded-winning",
+    "type": "gap-fill",
+    "sentence": "After months of rehearsals, our tiny school choir ___ (succeed / win) the regional competition.",
+    "correct": ["succeeded in winning"],
+    "maxWords": 3,
+    "steps": [
+      { "label_pl": "sygnał", "text_pl": "succeed łączy się z przyimkiem in." },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Po przyimku czasownik dostaje -ing → succeed in + winning."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "succeeded to win ✗. Po polsku „udało się wygrać”, ale to + V1 bierze manage (managed to win), a nie succeed. Przyimek in musisz dopisać sam."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Przeszłość → succeeded in winning (3 wyrazy). W winning podwójne n."
+      }
+    ],
+    "tags": ["gerund-infinitive"],
+    "difficulty": 2
+  },
+  {
+    "id": "gi-finish-writing",
+    "type": "gap-fill",
+    "sentence": "As soon as I ___ (finish / write) this essay, I'm going to bed — I can barely keep my eyes open.",
+    "correct": ["finish writing", "have finished writing"],
+    "maxWords": 3,
+    "steps": [
+      { "label_pl": "sygnał", "text_pl": "finish = skończyć. Po finish stoi -ing." },
+      {
+        "label_pl": "czas",
+        "text_pl": "As soon as mówi o przyszłości, ale w tej części zdania nie ma will: zostaje finish albo have finished."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "finish to write ✗. Po polsku „skończyć pisać” to bezokolicznik, a po angielsku -ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "finish writing albo have finished writing (3 wyrazy). writing bez e."
+      }
+    ],
+    "tags": ["gerund-infinitive", "present-simple", "present-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "gi-aunt-gap-year",
+    "type": "choice",
+    "text": "When I told my aunt I had no idea what to do after school, she advised me ___ a gap year and asked if I had ever considered ___ abroad. She even promised ___ me find a good programme.",
+    "gaps": [
+      {
+        "options": ["taking", "to take", "take", "for taking"],
+        "answer": 1,
+        "steps": [
+          { "label_pl": "sygnał", "text_pl": "advised me: po advise od razu stoi osoba." },
+          {
+            "label_pl": "struktura",
+            "text_pl": "advise + osoba + to V1, tak jak tell sb to i ask sb to. Bez osoby advise bierze -ing (she advised taking a gap year), ale tu osoba jest."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "advised me taking ✗. Kusi -ing, bo advise bez osoby je bierze, ale z osobą (me) wraca to + V1."
+          }
+        ]
+      },
+      {
+        "options": ["to study", "study", "studying", "to studying"],
+        "answer": 2,
+        "steps": [
+          { "label_pl": "sygnał", "text_pl": "considered: po consider (rozważać) stoi -ing." },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "consider dotyczy przyszłości, więc kusi to study. Ale consider znaczy tyle co think about, a po about stoi -ing. Rozważasz pomysł jak rzecz (studia za granicą), więc studying."
+          },
+          {
+            "label_pl": "eliminacja",
+            "text_pl": "study bez to też odpada (consider nie jest modalem), a to studying to forma po przyimku to, którego tu nie ma."
+          }
+        ]
+      },
+      {
+        "options": ["to help", "helping", "help", "to helping"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "promised: obietnica dotyczy czegoś, co dopiero ma się stać. Po promise → to + V1."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "promised helping ✗. to helping też odpada: to po promise nie jest przyimkiem, bo nie wstawisz tam rzeczownika (promised to the programme ✗)."
+          }
+        ]
+      }
+    ],
+    "tags": ["gerund-infinitive"],
+    "difficulty": 2
+  },
+  {
+    "id": "gi-stopped-coffee",
+    "type": "choice",
+    "text": "On the way to Zakopane we stopped ___ a coffee at a petrol station, and twenty minutes later we were back on the road.",
+    "gaps": [
+      {
+        "options": ["having", "to have", "have", "to having"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "twenty minutes later we were back on the road: jazdę przerwaliśmy na chwilę, żeby zrobić coś innego."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "stop + to V1 = zatrzymać się, żeby coś zrobić (to jest tu bezokolicznikiem celu). stop + V-ing = przestać coś robić."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "stopped having a coffee znaczyłoby, że przestaliśmy pić kawę. A kawa jest celem postoju, a nie czymś, co się skończyło."
+          }
+        ]
+      }
+    ],
+    "tags": ["gerund-infinitive"],
+    "difficulty": 2
+  },
+  {
+    "id": "gi-tried-egg",
+    "type": "choice",
+    "text": "My first banana bread was really dry, so the next time I tried ___ an extra egg, and it came out perfect.",
+    "gaps": [
+      {
+        "options": ["to add", "add", "adding", "added"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "so the next time … and it came out perfect: sprawdzasz sposób, czy pomoże na suche ciasto."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "try + V-ing = zrobić coś na próbę, jak eksperyment. try + to V1 = starać się, gdy czynność jest trudna."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Dodanie jajka nie jest trudne, więc tried to add (starałem się dodać) nie pasuje. Liczy się, czy ten sposób zadziała."
+          }
+        ]
+      }
+    ],
+    "tags": ["gerund-infinitive"],
+    "difficulty": 2
+  },
+  {
+    "id": "gi-went-on-become",
+    "type": "choice",
+    "text": "After winning a local talent show at sixteen, she went on ___ one of the best-selling singers in the country.",
+    "gaps": [
+      {
+        "options": ["becoming", "become", "to becoming", "to become"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "After winning…: najpierw konkurs, potem nowy, kolejny etap kariery."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "go on + to V1 = potem przejść do czegoś nowego. go on + V-ing = dalej robić to samo."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "went on becoming znaczyłoby, że dalej robiła coś, co robiła już wcześniej. Tu to nowy krok po konkursie."
+          }
+        ]
+      }
+    ],
+    "tags": ["gerund-infinitive"],
+    "difficulty": 3
+  },
+  {
+    "id": "gi-mean-less-time",
+    "type": "choice",
+    "text": "Taking a part-time job would mean ___ less time for training, so I'm still not sure whether to accept the offer.",
+    "gaps": [
+      {
+        "options": ["having", "to have", "have", "to having"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Podmiotem jest czynność (Taking a part-time job), a mean opisuje jej skutek."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "mean + V-ing = oznaczać, wiązać się z czymś. mean + to V1 = zamierzać (I didn't mean to hurt you)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Praca nie może niczego zamierzać, więc to have odpada. Chodzi o konsekwencję: praca = mniej czasu."
+          }
+        ]
+      }
+    ],
+    "tags": ["gerund-infinitive"],
+    "difficulty": 3
+  },
+  {
+    "id": "gi-kayak-email",
+    "type": "choice",
+    "title": "A job by the lake",
+    "text": "Hi Marta,\n\nYou won't believe it, but I'm spending the summer working at a kayak rental place in Mazury! At first the manager refused ___ anyone under eighteen, so I went back the next day ___ him my first-aid certificate, and he finally gave me a chance. He has even offered ___ me how to repair damaged kayaks. The only problem is that some tourists keep ___ about the weather, as if it were my fault. He has asked me ___ at weekends too, so I'll be quite busy. I'm really looking forward to ___ you in August, though!\n\nLove, Julka",
+    "gaps": [
+      {
+        "options": ["hiring", "to hire", "hire", "for hiring"],
+        "answer": 1,
+        "steps": [
+          { "label_pl": "sygnał", "text_pl": "refused: po refuse (odmówić) stoi to + V1." },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "refused hiring ✗. Odmowa dotyczy czegoś, co miałoby się dopiero stać, a refuse bierze to."
+          }
+        ]
+      },
+      {
+        "options": ["for showing", "showing", "to show", "show"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po co wróciłam następnego dnia? Żeby pokazać certyfikat, czyli cel."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Cel = to + V1. for + V-ing mówi, do czego służy rzecz (a knife for cutting), a nie po co ktoś coś robi."
+          }
+        ]
+      },
+      {
+        "options": ["to teach", "teaching", "teach", "for teaching"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "offer = zaproponować, że się coś zrobi. Po offer → to + V1."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "offered teaching ✗. Tak samo działają promise i agree: chodzi o coś, co dopiero będzie."
+          }
+        ]
+      },
+      {
+        "options": ["to complain", "complain", "complained", "complaining"],
+        "answer": 3,
+        "steps": [
+          { "label_pl": "sygnał", "text_pl": "keep = ciągle coś robić. Po keep → -ing." },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "keep to complain ✗. keep + V-ing opisuje coś, co się powtarza i zwykle irytuje."
+          }
+        ]
+      },
+      {
+        "options": ["that I work", "working", "work", "to work"],
+        "answer": 3,
+        "steps": [
+          { "label_pl": "sygnał", "text_pl": "has asked me: ask + osoba." },
+          {
+            "label_pl": "struktura",
+            "text_pl": "ask + osoba + to V1 = poprosić kogoś, żeby coś zrobił. Po polsku „poprosił, żebym pracowała”, ale po angielsku bez that: asked me that I work ✗."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "asked me working ✗ i asked me work ✗. Po osobie wraca to."
+          }
+        ]
+      },
+      {
+        "options": ["seeing", "see", "have seen", "be seeing"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "look forward to: tu to jest przyimkiem, bo pasuje po nim rzeczownik (look forward to the holidays)."
+          },
+          { "label_pl": "forma", "text_pl": "Po przyimku → V-ing: looking forward to seeing." }
+        ]
+      }
+    ],
+    "tags": ["gerund-infinitive"],
+    "difficulty": 2
+  },
+  {
+    "id": "gi-sleep-article",
+    "type": "choice",
+    "title": "Why are teenagers always tired?",
+    "text": "Scientists have known for years that teenagers tend ___ to bed later than adults. It isn't just laziness: during the teenage years the body clock actually shifts, so it is hard for many of them ___ asleep before eleven. Instead of blaming students for being sleepy in the morning, some schools have decided ___ lessons an hour later. Early results suggest the change is worth ___: attendance has improved, and fewer students fall asleep in class. Some parents, however, say they can't afford ___ late for work, so they still drop their children off at eight. Teachers also encourage students ___ their phones out of the bedroom at night.",
+    "gaps": [
+      {
+        "options": ["going", "to go", "go", "to going"],
+        "answer": 1,
+        "steps": [
+          { "label_pl": "sygnał", "text_pl": "tend = mieć skłonność. Po tend → to + V1." },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "tend going ✗. To, że chodzi o zwyczaj, nie zmienia formy: tend zawsze bierze to."
+          }
+        ]
+      },
+      {
+        "options": ["falling", "to fall", "fall", "to falling"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "it is hard for many of them: It + przymiotnik + for + osoba."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Po takim układzie czynność stoi w formie to + V1: it is hard for them to fall asleep."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "for kusi, żeby dać -ing, ale tu for łączy się z osobą (for many of them), a nie z czasownikiem. Dlatego for them falling ✗."
+          }
+        ]
+      },
+      {
+        "options": ["starting", "start", "to starting", "to start"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "have decided: decyzja dotyczy czegoś, co dopiero się wydarzy → to + V1."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "decided starting ✗, decided start ✗. to starting też odpada, bo to po decide nie jest przyimkiem."
+          }
+        ]
+      },
+      {
+        "options": ["making", "to make", "make", "being made"],
+        "answer": 0,
+        "steps": [
+          { "label_pl": "sygnał", "text_pl": "is worth: po worth czasownik stoi w formie -ing." },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Zmianę „robią” szkoły, ale po worth zostaje zwykłe -ing w stronie czynnej: The film is worth seeing, nie worth being seen. Dlatego being made odpada."
+          }
+        ]
+      },
+      {
+        "options": ["being", "to be", "be", "to being"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "can't afford: po afford → to + V1. can't afford to be late = nie mogą sobie pozwolić na spóźnienie."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "afford being ✗. afford = mieć środki (pieniądze, czas), żeby coś zrobić. Patrzy na czynność, która dopiero mogłaby się stać, tak jak be able to, więc bierze to + V1."
+          }
+        ]
+      },
+      {
+        "options": ["keeping", "keep", "to keep", "that they keep"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "encourage students: encourage + osoba."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "encourage + osoba + to V1. encourage students that they keep ✗, bo po encourage nie ma zdania z that."
+          }
+        ]
+      }
+    ],
+    "tags": ["gerund-infinitive"],
+    "difficulty": 3
+  },
+  {
+    "id": "gi-stopped-discussing",
+    "type": "key-word-transformation",
+    "source": "We don't discuss politics at family dinners any more.",
+    "keyWord": "STOPPED",
+    "target": "We ___ politics at family dinners.",
+    "correct": [
+      "have stopped discussing",
+      "stopped discussing",
+      "have stopped talking about",
+      "stopped talking about"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "not … any more: kiedyś coś się działo, a teraz już nie."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "stop + V-ing = przestać coś robić. stop + to V1 to „zatrzymać się, żeby”, czyli inne znaczenie."
+      },
+      {
+        "label_pl": "czas",
+        "text_pl": "Skutek widać teraz, więc najlepiej have stopped. Samo stopped też pasuje, bo zmiana nastąpiła w przeszłości."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "discuss nie ma przyimka: discussing politics, nie discussing about politics. Przy talk przyimek jest potrzebny: talking about."
+      }
+    ],
+    "tags": ["gerund-infinitive"],
+    "difficulty": 2
+  },
+  {
+    "id": "gi-find-it-hard",
+    "type": "key-word-transformation",
+    "source": "Getting up early on winter mornings is hard for me.",
+    "keyWord": "IT",
+    "target": "I find ___ get up early on winter mornings.",
+    "correct": ["it hard to", "it difficult to"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "X is hard for me → I find it hard to + V1."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "find + it + przymiotnik + to V1. it zapowiada to, co trudne (wstawanie), i jest obowiązkowe."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "I find hard to get up ✗: bez it zdanie się sypie. To najczęstszy błąd w tej transformacji."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po luce stoi już get, więc w luce kończysz na to: it hard to (difficult też pasuje)."
+      }
+    ],
+    "tags": ["gerund-infinitive"],
+    "difficulty": 2
+  },
+  {
+    "id": "gi-too-cold-swim",
+    "type": "key-word-transformation",
+    "source": "The water in the lake was so cold that we couldn't swim in it.",
+    "keyWord": "TOO",
+    "target": "The water in the lake was ___ in.",
+    "correct": [
+      "too cold to swim",
+      "too cold to go swimming",
+      "far too cold to swim",
+      "much too cold to swim"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "so cold that we couldn't: woda była tak zimna, że pływanie odpadało. To znaczy: za zimna, żeby pływać."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "too + przymiotnik + to V1. too już mówi „za bardzo”, więc that i couldn't znikają."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Na końcu zostaje samo in, bez it. Podmiot (the water) jest już tym, w czym się pływa, więc too cold to swim in it ✗."
+      },
+      {
+        "label_pl": "limit",
+        "text_pl": "too cold to swim to 4 wyrazy. Zmieści się też too cold to go swimming albo far too cold to swim. too cold for us to swim to już 6 wyrazów, a us nie jest potrzebne, sens zostaje ten sam."
+      }
+    ],
+    "tags": ["gerund-infinitive"],
+    "difficulty": 3
+  },
+  {
+    "id": "gi-persuaded-drama",
+    "type": "key-word-transformation",
+    "source": "In the end, Kuba talked me into joining the drama club.",
+    "keyWord": "PERSUADED",
+    "target": "In the end, Kuba ___ the drama club.",
+    "correct": ["persuaded me to join", "persuaded me into joining"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "talk sb into + V-ing = namówić kogoś na coś. To samo znaczy persuade."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "persuade + osoba + to V1, tak jak tell sb to, ask sb to, encourage sb to."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "persuaded me joining ✗ i persuaded to join ✗ (bez osoby). Istnieje też persuade sb into + V-ing, ale typowa wersja to persuade sb to."
+      },
+      { "label_pl": "forma", "text_pl": "persuaded + me + to join → 4 wyrazy." }
+    ],
+    "tags": ["gerund-infinitive"],
+    "difficulty": 3
+  },
+  {
+    "id": "gi-without-being-noticed",
+    "type": "key-word-transformation",
+    "source": "We left the party early, and nobody noticed us.",
+    "keyWord": "BEING",
+    "target": "We left the party early ___.",
+    "correct": [
+      "without being noticed",
+      "without being noticed by anyone",
+      "without being noticed by anybody"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "nobody noticed us: to nas ktoś (nie) zauważył, więc znaczenie jest bierne."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "without to przyimek → po nim -ing. Bierne -ing = being + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "without + being + noticed. Możesz dodać by anyone, bo mieścisz się w 5 wyrazach."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "without noticing znaczyłoby, że to my niczego nie zauważyliśmy."
+      }
+    ],
+    "tags": ["gerund-infinitive", "passive-voice"],
+    "difficulty": 3
+  },
+  {
+    "id": "gi-instead-complaining",
+    "type": "key-word-transformation",
+    "source": "Rather than complain about the noise, why don't you just talk to your neighbours?",
+    "keyWord": "INSTEAD",
+    "target": "Why don't you just talk to your neighbours ___ about the noise?",
+    "correct": ["instead of complaining"],
+    "steps": [
+      { "label_pl": "sygnał", "text_pl": "rather than = zamiast. Ten sam sens daje instead of." },
+      {
+        "label_pl": "struktura",
+        "text_pl": "instead of + V-ing. of to przyimek, a po przyimku czasownik dostaje -ing."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po rather than może stać samo V1 (rather than complain), ale po instead of już nie: instead of complain ✗, instead to complain ✗."
+      }
+    ],
+    "tags": ["gerund-infinitive"],
+    "difficulty": 2
+  },
+  {
+    "id": "gi-mind-closing",
+    "type": "key-word-transformation",
+    "source": "Could you close the window, please?",
+    "keyWord": "MIND",
+    "target": "Would ___ the window, please?",
+    "correct": ["you mind closing", "you mind shutting"],
+    "steps": [
+      { "label_pl": "sygnał", "text_pl": "Uprzejma prośba → Would you mind + V-ing?" },
+      { "label_pl": "struktura", "text_pl": "mind (mieć coś przeciwko) zawsze bierze -ing." },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Would you mind to close ✗. A w odpowiedzi uważaj: Would you mind…? = Czy masz coś przeciwko? Jeśli się zgadzasz, mówisz No, not at all."
+      }
+    ],
+    "tags": ["gerund-infinitive"],
+    "difficulty": 1
+  },
+  {
+    "id": "gi-used-to-noise",
+    "type": "key-word-transformation",
+    "source": "Living in such a noisy city still feels strange to me.",
+    "keyWord": "USED",
+    "target": "I ___ in such a noisy city yet.",
+    "correct": [
+      "am not used to living",
+      "haven't got used to living",
+      "haven't become used to living",
+      "haven't grown used to living",
+      "am not used to life",
+      "haven't got used to life",
+      "haven't become used to life",
+      "haven't grown used to life"
+    ],
+    "accepted": ["haven't gotten used to living", "haven't gotten used to life"],
+    "steps": [
+      { "label_pl": "sygnał", "text_pl": "still feels strange: jeszcze się nie przyzwyczaiłem." },
+      {
+        "label_pl": "struktura",
+        "text_pl": "be used to + V-ing = być przyzwyczajonym. get used to + V-ing = przyzwyczaić się. to jest tu przyimkiem."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "I'm not used to live ✗. used to + V1 to coś zupełnie innego: dawny nawyk (I used to live in a village)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "am not used to living albo haven't got used to living. Skrót haven't to jeden wyraz, więc mieścisz się w 5."
+      }
+    ],
+    "tags": ["gerund-infinitive"],
+    "difficulty": 3
+  }
+]

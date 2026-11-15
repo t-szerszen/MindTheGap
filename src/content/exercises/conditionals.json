@@ -1,0 +1,892 @@
+[
+  {
+    "id": "cnd-milk-goes-off",
+    "type": "gap-fill",
+    "sentence": "If you ___ (leave) milk out of the fridge on a hot day, it goes off within a few hours.",
+    "correct": ["leave"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Skutek stoi w czasie teraźniejszym (goes off) i opisuje coś, co dzieje się za każdym razem, a nie raz."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "To prawda ogólna: if znaczy tu tyle co „zawsze, gdy”. Nic nie jest wyobrażone ani zaplanowane."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "W obu częściach Present Simple. Podmiot to you, więc bez -s: leave."
+      }
+    ],
+    "tags": ["conditionals", "present-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "cnd-unless-train-late",
+    "type": "gap-fill",
+    "sentence": "Unless the train ___ (be) late, we'll be in Kraków by six.",
+    "correct": ["is"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "we'll be in Kraków — skutek w przyszłości, całkiem realny."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "unless = if … not: będziemy o szóstej, jeśli pociąg NIE będzie spóźniony. Przeczenie siedzi już w unless."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie dokładaj not (unless the train isn't late znaczyłoby coś odwrotnego) i nie stawiaj will — po unless jest jak po if."
+      },
+      { "label_pl": "forma", "text_pl": "Present Simple od be: the train → is." }
+    ],
+    "tags": ["conditionals", "present-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "cnd-grandparents-closer",
+    "type": "gap-fill",
+    "sentence": "My grandparents live in Szczecin, almost 600 km away. If they lived closer, I ___ (visit) them every weekend.",
+    "correct": ["would visit", "could visit", "might visit", "would be visiting"],
+    "accepted": ["'d visit", "'d be visiting"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "If they lived — forma przeszła, a zdanie mówi o teraz: dziadkowie naprawdę mieszkają daleko."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Sytuacja wyobrażona, sprzeczna z faktem, więc skutek też jest tylko wyobrażony: odwiedzałbym."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "would + V1 → would visit. Pasuje też could visit (mógłbym) albo might visit (może bym)."
+      }
+    ],
+    "tags": ["conditionals"],
+    "difficulty": 1
+  },
+  {
+    "id": "cnd-brother-impatient",
+    "type": "gap-fill",
+    "sentence": "My brother is so impatient with customers. If he ___ (be) a bit calmer, he wouldn't get into arguments with them every day.",
+    "correct": ["were", "was"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "wouldn't get … every day — skutek wyobrażony i dotyczy teraźniejszości, bo brat JEST niecierpliwy."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Warunek przeczy faktom teraz, więc w części z if stoi forma przeszła."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Od be: were (staranniej, bezpieczne w wypracowaniu) albo was (luźniej, częste w mowie). Obie formy są tu poprawne."
+      }
+    ],
+    "tags": ["conditionals", "past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "cnd-alarm-school-bus",
+    "type": "gap-fill",
+    "sentence": "My alarm didn't ring this morning. If it ___ (go off) at seven as usual, I wouldn't have missed the school bus.",
+    "correct": ["had gone off"],
+    "accepted": ["'d gone off"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "wouldn't have missed — skutek z have + V3, czyli wyobrażona przeszłość."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Fakt: budzik nie zadzwonił. Odwracasz go w wyobraźni: gdyby zadzwonił. Tego ranka nie da się już zmienić."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Past Simple (went off) to za mało — tak wyglądałby warunek o teraz. Przy przeszłości cofasz o krok dalej."
+      },
+      { "label_pl": "forma", "text_pl": "had + V3: go off → had gone off." }
+    ],
+    "tags": ["conditionals", "past-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "cnd-headache-series",
+    "type": "gap-fill",
+    "sentence": "I've got a terrible headache. I wish I ___ (not / stay) up so late watching that series last night.",
+    "correct": ["had not stayed"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "last night — żal dotyczy przeszłości, choć ból głowy jest teraz."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Fakt: siedziałem do późna. Życzenie mówi odwrotność: żebym nie siedział."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "wish + Past Perfect, tak jak po if przy przeszłości: had not + V3 → had not stayed (hadn't stayed)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "I wish I didn't stay to życzenie o teraz. Przy last night nie pasuje."
+      }
+    ],
+    "tags": ["conditionals", "past-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "cnd-neighbour-drums",
+    "type": "gap-fill",
+    "sentence": "My neighbour has been playing the drums since eleven. I wish he ___ (stop) — I've got an exam in the morning!",
+    "correct": ["would stop"],
+    "accepted": ["'d stop"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Sąsiad gra i to cię denerwuje. Czekasz, aż ON coś zmieni."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Skarga na czyjeś zachowanie, które może się zmienić → wish + would."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Past Simple po wish opisuje stan (I wish he lived somewhere else). Gdy czekasz na czyjś ruch, bierzesz would."
+      },
+      { "label_pl": "forma", "text_pl": "would + V1 → would stop (he'd stop)." }
+    ],
+    "tags": ["conditionals"],
+    "difficulty": 2
+  },
+  {
+    "id": "cnd-deadline-reminder",
+    "type": "gap-fill",
+    "sentence": "Thank goodness you reminded me about the deadline! If you hadn't, I ___ (not / send) my application in time.",
+    "correct": ["would not have sent", "could not have sent", "might not have sent"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "If you hadn't = If you hadn't reminded me. Skrót odsyła do przeszłości, która potoczyłaby się inaczej."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Fakt: przypomniałeś i wysłałem. Odwracasz warunek, więc odwraca się też skutek: nie wysłałbym."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "would + not + have + V3 → would not have sent (wouldn't have sent). Z could albo might też jest poprawnie."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "wouldn't send bez have + V3 mówiłoby o teraz, a termin już minął."
+      }
+    ],
+    "tags": ["conditionals"],
+    "difficulty": 3
+  },
+  {
+    "id": "cnd-concert-revision",
+    "type": "gap-fill",
+    "sentence": "Thanks for the invitation to the concert, but I ___ (rather / not / go) — I've got loads of revision to do.",
+    "correct": ["would rather not go"],
+    "accepted": ["'d rather not go"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Grzecznie odmawiasz i mówisz, co sam wolisz. Podmiot jest jeden: I."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Ten sam podmiot → would rather + V1 bez to. Przeczenie: would rather not + V1."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie: would rather don't go ani would rather not to go."
+      },
+      { "label_pl": "forma", "text_pl": "would rather not go (I'd rather not go) — 4 wyrazy." }
+    ],
+    "tags": ["conditionals"],
+    "difficulty": 1
+  },
+  {
+    "id": "cnd-exams-three-weeks",
+    "type": "gap-fill",
+    "sentence": "Your exams start in three weeks and you haven't opened a single book. It's ___ (high / time / you / start) revising, don't you think?",
+    "correct": ["high time you started"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "It's high time + osoba: coś powinno już się dziać, a jeszcze się nie dzieje."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Mówisz o teraz, ale nauki wciąż nie ma. To dystans od rzeczywistości, więc forma przeszła, jak po if w drugim trybie."
+      },
+      { "label_pl": "forma", "text_pl": "high time + you + Past Simple → high time you started." },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie: high time you start. Bez osoby byłoby It's time to start…, ale tu masz you w nawiasie."
+      }
+    ],
+    "tags": ["conditionals", "past-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "cnd-airport-before-six",
+    "type": "gap-fill",
+    "sentence": "Don't worry about the traffic. We'll get to the airport on time ___ (provided / leave) before six.",
+    "correct": [
+      "provided we leave",
+      "provided that we leave",
+      "providing we leave",
+      "providing that we leave"
+    ],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "provided = pod warunkiem że. To mocniejsze if: zdążymy tylko wtedy."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Warunek w przyszłości, ale realny, więc działa jak zwykłe if."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po provided nie stawiasz will: nie provided we will leave."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "provided (that) + we + Present Simple → provided we leave. That możesz dodać albo pominąć, providing też jest poprawne."
+      }
+    ],
+    "tags": ["conditionals", "present-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "cnd-goalkeeper-injured",
+    "type": "gap-fill",
+    "sentence": "Our goalkeeper got injured in the first half. If he had stayed on the pitch, we ___ (could / win) the match.",
+    "correct": ["could have won"],
+    "maxWords": 3,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "If he had stayed — Past Perfect w warunku, mecz już się odbył."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Skutek w wyobrażonej przeszłości: mogliśmy wygrać, ale nie wygraliśmy."
+      },
+      { "label_pl": "forma", "text_pl": "could + have + V3 (win → won) → could have won." },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie: could won ani could have win. Po have zawsze trzecia forma."
+      }
+    ],
+    "tags": ["conditionals"],
+    "difficulty": 2
+  },
+  {
+    "id": "cnd-exam-room-id",
+    "type": "choice",
+    "text": "You won't be allowed into the exam room ___ you show your ID card at the door.",
+    "gaps": [
+      {
+        "options": ["unless", "if", "in case", "even if"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "won't be allowed — nie wpuszczą cię. Dowód to warunek, żeby wejść."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Nie wejdziesz, jeśli NIE pokażesz dowodu → if … not = unless."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "if odwraca sens (nie wejdziesz, jeśli pokażesz), in case = na wypadek gdyby, even if = nawet jeśli. Żadne nie pasuje do logiki."
+          }
+        ]
+      }
+    ],
+    "tags": ["conditionals"],
+    "difficulty": 1
+  },
+  {
+    "id": "cnd-coach-power-bank",
+    "type": "choice",
+    "text": "I'll take a power bank with me ___ my phone dies during the coach trip.",
+    "gaps": [
+      {
+        "options": ["if", "unless", "provided", "in case"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Power bank bierzesz przed wyjazdem, zanim cokolwiek się stanie."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "To zabezpieczenie na wypadek, gdyby telefon padł → in case."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "if znaczyłoby, że weźmiesz power bank dopiero wtedy, gdy telefon padnie, a w autokarze już się nie da. unless i provided dają złą logikę."
+          }
+        ]
+      }
+    ],
+    "tags": ["conditionals"],
+    "difficulty": 2
+  },
+  {
+    "id": "cnd-hike-waterproofs",
+    "type": "choice",
+    "text": "We're going on the hike tomorrow ___ it rains — we've all got good waterproof jackets.",
+    "gaps": [
+      {
+        "options": ["even though", "unless", "even if", "in case"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Deszcz jutro to tylko możliwość, a kurtki pokazują, że i tak idziecie."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Skutek nastąpi bez względu na warunek → even if (nawet jeśli)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "even though mówi o fakcie (choć pada), a o jutrze nie wiesz. unless odwraca logikę: idziemy, chyba że pada — a kurtki są właśnie na deszcz."
+          }
+        ]
+      }
+    ],
+    "tags": ["conditionals"],
+    "difficulty": 2
+  },
+  {
+    "id": "cnd-concert-moved-sunday",
+    "type": "choice",
+    "text": "Nobody told us that the concert had been moved to Sunday. If we ___ about it, we wouldn't have driven all the way to Gdańsk.",
+    "gaps": [
+      {
+        "options": ["had known", "knew", "would have known", "have known"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "wouldn't have driven — skutek w wyobrażonej przeszłości."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Fakt: nie wiedzieliśmy i pojechaliśmy. Odwracasz przeszłość → Past Perfect po if."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "knew to warunek o teraz, a would have known odpada, bo would nie idzie do części z if."
+          }
+        ]
+      }
+    ],
+    "tags": ["conditionals", "past-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "cnd-campsite-message",
+    "type": "choice",
+    "title": "A message from the campsite",
+    "text": "Hi Kasia! I'm writing from the campsite. It hasn't stopped raining for three days and I wish I ___ at home with you. I really wish I ___ to Mum and packed a warmer sleeping bag! The worst thing is that the camp doesn't end until Sunday. I wish I ___ come home earlier.",
+    "gaps": [
+      {
+        "options": ["am", "would be", "have been", "were"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Pada teraz i jesteś na kempingu. Chcesz, żeby teraźniejszość była inna."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "wish + Past Simple od be → were (w mowie też was)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "I wish I would be nie działa: would po wish dotyczy kogoś innego, a nie twojego stanu."
+          }
+        ]
+      },
+      {
+        "options": ["listened", "had listened", "would listen", "have listened"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Pakowanie było przed wyjazdem — to żal o przeszłość."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Fakt: mama radziła cieplejszy śpiwór, a ty jej nie posłuchałeś. Życzenie mówi odwrotność, więc bez not."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "wish + Past Perfect → had listened. Jedno had wystarcza też dla and packed."
+          }
+        ]
+      },
+      {
+        "options": ["could", "can", "would", "will"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Obóz trwa do niedzieli, więc nie możesz wrócić wcześniej."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Życzenie o możliwości teraz → wish + could (gdybym mógł)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "can i will to nie forma przeszła, a I wish I would… o sobie zwykle się nie mówi."
+          }
+        ]
+      }
+    ],
+    "tags": ["conditionals", "past-perfect"],
+    "difficulty": 3
+  },
+  {
+    "id": "cnd-tickets-weekend",
+    "type": "choice",
+    "text": "You'd better book the tickets today. ___, there might not be any left by the weekend.",
+    "gaps": [
+      {
+        "options": ["However", "Unless", "Otherwise", "In case"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Najpierw rada (zarezerwuj dziś), potem co się stanie, jeśli jej nie posłuchasz."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "otherwise = w przeciwnym razie, czyli jeśli nie zarezerwujesz."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Unless i In case to spójniki: po nich musi przyjść warunek, a nie przecinek i od razu skutek. However to kontrast, nie warunek."
+          }
+        ]
+      }
+    ],
+    "tags": ["conditionals"],
+    "difficulty": 2
+  },
+  {
+    "id": "cnd-festival-text-parents",
+    "type": "choice",
+    "text": "My parents say I can go to the festival ___ I text them every evening.",
+    "gaps": [
+      {
+        "options": ["as soon as", "as far as", "as long as", "as well as"],
+        "answer": 2,
+        "steps": [
+          { "label_pl": "sygnał", "text_pl": "Rodzice stawiają warunek: SMS co wieczór." },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "as long as = pod warunkiem że. Bez SMS-ów nie ma zgody."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Wyglądają podobnie, ale znaczą co innego: as soon as = gdy tylko, as far as = o ile, aż do, as well as = a także."
+          }
+        ]
+      }
+    ],
+    "tags": ["conditionals"],
+    "difficulty": 1
+  },
+  {
+    "id": "cnd-lost-tatras",
+    "type": "choice",
+    "title": "Lost in the mountains",
+    "text": "Last winter two students got lost in the Tatras. They hadn't checked the weather forecast, and if they ___, they would have known that a snowstorm was coming. Rescuers say hikers should always carry a head torch ___ they are still on the trail when it gets dark. “Many accidents wouldn't happen if people ___ the mountains more seriously,” says one of them. “And never go into the mountains alone ___ someone knows exactly which route you're taking.”",
+    "gaps": [
+      {
+        "options": ["did", "had", "have", "would"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "would have known — wyobrażona przeszłość, a luka to skrócony warunek."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "if they had = if they had checked it. Z Past Perfect zostaje samo had."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "did dałoby Past Simple, czyli warunek o teraz. would nie idzie do części z if."
+          }
+        ]
+      },
+      {
+        "options": ["unless", "so that", "even if", "in case"],
+        "answer": 3,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Latarkę nosisz zawsze, zanim zrobi się ciemno."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Zabezpieczenie na wypadek, gdyby zastał cię zmrok → in case."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "so that to cel, unless odwraca logikę, a even if nie ma tu sensu."
+          }
+        ]
+      },
+      {
+        "options": ["take", "took", "are taking", "will take"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "wouldn't happen — skutek wyobrażony, o teraz i ogólnie."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Ludzie nie traktują gór dość poważnie (fakt). Warunek mu przeczy → forma przeszła."
+          },
+          { "label_pl": "forma", "text_pl": "Past Simple: take → took." }
+        ]
+      },
+      {
+        "options": ["unless", "if", "provided", "as long as"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "never go … alone — zakaz, a po luce jedyna sytuacja, w której przestaje obowiązywać."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Nie idź sam, chyba że ktoś zna twoją trasę → unless (= if … not)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "if, provided i as long as dają odwrotny sens: nigdy nie idź sam, jeśli ktoś zna twoją trasę."
+          }
+        ]
+      }
+    ],
+    "tags": ["conditionals", "past-perfect"],
+    "difficulty": 3
+  },
+  {
+    "id": "cnd-game-since-lunch",
+    "type": "choice",
+    "text": "You've been playing that game since lunch, Tymek. It's time you ___ something useful.",
+    "gaps": [
+      {
+        "options": ["do", "did", "will do", "have done"],
+        "answer": 1,
+        "steps": [
+          { "label_pl": "sygnał", "text_pl": "It's time + osoba (you)." },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Czynność powinna już trwać, a jej nie ma. Ten dystans od rzeczywistości daje formę przeszłą, choć mówisz o teraz."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Polskie „czas, żebyś coś zrobił” kusi, żeby wpisać do. Po It's time + osoba stoi Past Simple."
+          }
+        ]
+      }
+    ],
+    "tags": ["conditionals", "past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "cnd-kwt-no-map",
+    "type": "key-word-transformation",
+    "source": "We got lost because we had no map.",
+    "keyWord": "WOULDN'T",
+    "target": "If we had had a map, we ___ lost.",
+    "correct": ["would not have got", "would not have been"],
+    "accepted": ["would not have gotten"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "because o przeszłości: brak mapy spowodował, że się zgubiliśmy. Oba zdarzenia już się stały."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Warunek jest już odwrócony (had had a map), więc odwracasz też skutek: nie zgubilibyśmy się."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "wouldn't + have + V3: get → got → wouldn't have got."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Przepisz WOULDN'T dokładnie tak, jak stoi w poleceniu. wouldn't get lost bez have + V3 mówiłoby o teraz."
+      }
+    ],
+    "tags": ["conditionals"],
+    "difficulty": 2
+  },
+  {
+    "id": "cnd-kwt-regret-maths",
+    "type": "key-word-transformation",
+    "source": "I regret not studying harder for my maths exam.",
+    "keyWord": "WISH",
+    "target": "I ___ harder for my maths exam.",
+    "correct": ["wish I had studied", "wish that I had studied"],
+    "accepted": ["wish I'd studied", "wish that I'd studied"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "regret not -ing = żałuję, że czegoś NIE zrobiłem. Egzamin już był."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Fakt: nie uczyłem się dość. wish mówi odwrotność, więc not znika."
+      },
+      { "label_pl": "forma", "text_pl": "wish + Past Perfect: wish I had studied." },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie: wish I didn't study (odwrotny sens) ani wish I studied (to życzenie o teraz)."
+      }
+    ],
+    "tags": ["conditionals", "past-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "cnd-kwt-laptop-away",
+    "type": "key-word-transformation",
+    "source": "I'd prefer you not to use my laptop while I'm away.",
+    "keyWord": "RATHER",
+    "target": "I'd ___ my laptop while I'm away.",
+    "correct": ["rather you did not use"],
+    "accepted": ["rather that you didn't use"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I'd prefer you not to… = chcę, żeby ktoś INNY czegoś nie robił."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "would rather + inna osoba + Past Simple. Forma przeszła znaczy tu „to tylko moje życzenie”, a nie przeszłość."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "rather you did not use (didn't use). I'd już stoi w zdaniu, więc go nie powtarzasz."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie: rather you not to use. Konstrukcja z to należy do prefer, a nie do rather."
+      }
+    ],
+    "tags": ["conditionals", "past-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "cnd-kwt-apologise",
+    "type": "key-word-transformation",
+    "source": "If you don't apologise to her, she won't speak to you again.",
+    "keyWord": "UNLESS",
+    "target": "She won't speak to you again ___ to her.",
+    "correct": ["unless you apologise", "unless you say sorry", "unless you have apologised"],
+    "accepted": ["unless you apologize", "unless you have apologized"],
+    "steps": [
+      { "label_pl": "sygnał", "text_pl": "If you don't… — warunek z przeczeniem." },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "unless = if … not, więc przeczenie znika: unless you apologise."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie: unless you don't apologise (podwójne przeczenie) ani unless you will apologise."
+      },
+      { "label_pl": "forma", "text_pl": "unless + Present Simple → unless you apologise." }
+    ],
+    "tags": ["conditionals", "present-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "cnd-kwt-ola-address",
+    "type": "key-word-transformation",
+    "source": "I don't know Ola's address, so I can't send her an invitation.",
+    "keyWord": "KNEW",
+    "target": "If ___, I could send her an invitation.",
+    "correct": [
+      "I knew Ola's address",
+      "I knew her address",
+      "I knew where Ola lived",
+      "I knew where she lived",
+      "I knew where Ola lives",
+      "I knew where she lives"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "don't know … so can't — fakt o teraz i jego skutek."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Wyobrażasz sobie odwrotność teraz: gdybym znał adres. Przeczenie znika, bo warunek przeczy faktowi."
+      },
+      { "label_pl": "forma", "text_pl": "if + Past Simple: know → knew." },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie: If I would know. would należy do skutku, a tu skutek już jest (could send)."
+      }
+    ],
+    "tags": ["conditionals", "past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "cnd-kwt-drawing",
+    "type": "key-word-transformation",
+    "source": "It's a pity I'm not good at drawing.",
+    "keyWord": "ONLY",
+    "target": "If ___ at drawing!",
+    "correct": [
+      "only I were good",
+      "only I was good",
+      "only I were any good",
+      "only I was any good"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "It's a pity + teraz = szkoda, że tak jest. Chcesz, żeby teraźniejszość była inna."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "If only działa jak wish, tylko mocniej, jak westchnienie. Fakt: nie jestem dobry → życzenie: gdybym był."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "If only + Past Simple od be: were (staranniej) albo was."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie: If only I am good ani If only I would be good."
+      }
+    ],
+    "tags": ["conditionals", "past-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "cnd-kwt-candles-power-cut",
+    "type": "key-word-transformation",
+    "source": "Mum always keeps some candles in the kitchen drawer because there might be a power cut.",
+    "keyWord": "CASE",
+    "target": "Mum always keeps some candles in the kitchen drawer ___ a power cut.",
+    "correct": [
+      "in case there is",
+      "just in case there is",
+      "in case of",
+      "just in case of",
+      "in case there should be",
+      "in case we have",
+      "just in case we have",
+      "in case we get",
+      "just in case we get"
+    ],
+    "accepted": ["in case there's", "just in case there's"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "because there might be… = świece leżą zawsze, bo coś MOŻE się zdarzyć."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Zabezpieczenie zawczasu → in case (na wypadek gdyby)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "in case + zdanie w Present Simple (in case there is, in case we have) albo in case of + rzeczownik (in case of a power cut)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie: in case there will be. I nie zamieniaj na if — świece są w szufladzie, zanim zgaśnie prąd."
+      }
+    ],
+    "tags": ["conditionals"],
+    "difficulty": 2
+  },
+  {
+    "id": "cnd-kwt-last-bus",
+    "type": "key-word-transformation",
+    "source": "If you don't leave now, you'll miss the last bus.",
+    "keyWord": "OTHERWISE",
+    "target": "Leave now, ___ the last bus.",
+    "correct": ["otherwise you will miss"],
+    "accepted": ["otherwise you're going to miss"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "If you don't… = co będzie, jeśli NIE posłuchasz."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "otherwise = w przeciwnym razie. Samo niesie „jeśli nie”, więc po nim od razu skutek."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "otherwise + you will miss (you'll miss) — zwykły skutek w przyszłości."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po otherwise nie dokładasz drugi raz if ani don't."
+      }
+    ],
+    "tags": ["conditionals"],
+    "difficulty": 2
+  },
+  {
+    "id": "cnd-kwt-kuba-helped",
+    "type": "key-word-transformation",
+    "source": "I only passed the test thanks to Kuba's help.",
+    "keyWord": "HADN'T",
+    "target": "If Kuba ___, I wouldn't have passed the test.",
+    "correct": ["had not helped me", "had not helped"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "only … thanks to = zdałem wyłącznie dzięki Kubie. Wszystko to już przeszłość."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Odwracasz fakt: Kuba pomógł → gdyby NIE pomógł, nie zdałbym. Rzeczownik help zamieniasz na czasownik."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "if + Past Perfect: hadn't + V3 → hadn't helped me. HADN'T przepisujesz bez zmian."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie: If Kuba didn't help me. Past Simple dałby warunek o teraz, a test już był."
+      }
+    ],
+    "tags": ["conditionals", "past-perfect"],
+    "difficulty": 3
+  }
+]

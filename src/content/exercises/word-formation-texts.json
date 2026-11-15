@@ -1,0 +1,791 @@
+[
+  {
+    "id": "wf-text-animal-shelter",
+    "type": "word-formation",
+    "title": "Saturdays at the Shelter",
+    "text": "When I started helping at our local animal shelter last spring, I had almost no ___ of how to look after dogs. Luckily, the staff were incredibly ___ and showed me how to feed, walk and brush the animals. Some of the dogs had been treated ___ in their previous homes, so they were terrified of people. It was six weeks before a shy greyhound called Mabel finally let me stroke her. Now, whenever one of the dogs I've looked after leaves with a new family, I feel a real sense of ___. If you have a free Saturday morning, give it a try!",
+    "gaps": [
+      {
+        "base": "KNOW",
+        "correct": ["knowledge"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po no (żadnej) i przed of stoi rzeczownik, tak jak w no idea of albo no experience of."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Ktoś, kto dopiero zaczyna, nie wie, jak opiekować się psami, czyli nie ma wiedzy. Wiedza = knowledge."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "know + -ledge → knowledge. Litera w zostaje: k-n-o-w-l-e-d-g-e. To rzeczownik niepoliczalny, więc bez -s."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "knowlege (bez d) i knowledges to 0 pkt. knowing to forma czasownika, a nie „wiedza”."
+          }
+        ]
+      },
+      {
+        "base": "HELP",
+        "correct": ["helpful"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po were i incredibly stoi przymiotnik, który opisuje ludzi (the staff), tak jak were incredibly nice."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Pracownicy pokazali, jak karmić i wyprowadzać zwierzęta, czyli byli pomocni = helpful. helpless (bezradny) się z tym kłóci: bezradni ludzie nie uczą innych."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "help + -ful → helpful. Przyrostek -ful ma zawsze jedno l."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "helpfull (dwa l) to 0 pkt. helping też: to forma czasownika, a nie przymiotnik."
+          }
+        ]
+      },
+      {
+        "base": "CRUEL",
+        "correct": ["cruelly"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "treated to czasownik. Słowo, które mówi, jak kogoś traktowano, to przysłówek: treated badly, treated ___."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Psy bały się ludzi, więc w poprzednich domach ktoś je krzywdził: okrutnie = cruelly."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "cruel kończy się na l, a przysłówek dostaje całe -ly, więc wychodzą dwa l: cruel + ly → cruelly. Tak samo careful → carefully."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "cruely (jedno l) to 0 pkt. cruelty to rzeczownik (okrucieństwo) i po treated nie pasuje."
+          }
+        ]
+      },
+      {
+        "base": "ACHIEVE",
+        "correct": ["achievement"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po przyimku of stoi rzeczownik. a sense of ___ to stałe połączenie: a sense of humour, a sense of ___."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Pies, którym się opiekowałeś, znalazł dom, więc czujesz, że coś ci się udało. a sense of achievement = poczucie sukcesu, satysfakcja."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "achieve + -ment → achievement. Końcowe e z achieve zostaje przed -ment."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "achievment (bez e) to 0 pkt. achievements też, bo w a sense of ___ ten rzeczownik jest niepoliczalny."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-text-summer-job",
+    "type": "word-formation",
+    "title": "My Summer Job",
+    "text": "Hi Ola, guess what? I've finally found a summer job! I'm working in a small café near the beach. The ___, Mr Evans, is really friendly, and the other waiters are great fun. The only ___ is that the café opens at seven, so I have to get up at half past five. I've also learnt to stay calm when ___ tourists shout at me because their coffee isn't hot enough. Still, earning my own money gives me a wonderful feeling of ___, and I'm saving up for our trip in September. Write soon! Tomek",
+    "gaps": [
+      {
+        "base": "OWN",
+        "correct": ["owner"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po The stoi rzeczownik, a zaraz za nim imię i nazwisko (Mr Evans). Czyli chodzi o osobę."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Kto w kawiarni jest szefem? Właściciel = owner. ownership (własność, posiadanie) to nie osoba."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "own + -er → owner. -er robi z czasownika osobę: teach → teacher, own → owner."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "owners to 0 pkt: jest jeden pan Evans i czasownik is."
+          }
+        ]
+      },
+      {
+        "base": "DIFFICULT",
+        "correct": ["difficulty"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po The only stoi rzeczownik, a za nim is. Czyli rzeczownik w liczbie pojedynczej."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Wstawanie o wpół do szóstej to minus tej pracy. The only ___ is that... = jedyny problem polega na tym, że... Trudność = difficulty."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "difficult + -y → difficulty. Nic nie znika."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "difficulties to 0 pkt, bo the only i is wymagają liczby pojedynczej."
+          }
+        ]
+      },
+      {
+        "base": "POLITE",
+        "correct": ["impolite"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Luka stoi przed rzeczownikiem tourists, więc to przymiotnik, który ich opisuje."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Turyści krzyczą na kelnera o letnią kawę, więc są niegrzeczni. Potrzebne przeczenie: impolite. polite odwróciłoby sens zdania."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Przeczenie in- przed p, b i m zmienia się w im-: impolite, impossible, immature. Nie każde słowo na p je bierze (jest unpleasant), więc takie pary trzeba znać."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "unpolite nie istnieje (0 pkt). politely to przysłówek, a przed rzeczownikiem stoi przymiotnik."
+          }
+        ]
+      },
+      {
+        "base": "PROUD",
+        "correct": ["pride"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po a feeling of stoi rzeczownik: a feeling of happiness, a feeling of ___."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Pierwsze samodzielnie zarobione pieniądze: człowiek jest z siebie dumny. Duma = pride."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "proud (przymiotnik) → pride (rzeczownik): ou zmienia się w i, a na końcu dochodzi e. Nie ma tu żadnej końcówki, tę parę trzeba znać."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "proudly to przysłówek i po of nie pasuje (0 pkt). prid bez e też jest błędem."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-text-teen-sleep",
+    "type": "word-formation",
+    "title": "Why Teenagers Need More Sleep",
+    "text": "Most experts agree that teenagers need eight to ten hours of sleep a night, but few of them actually get that much. One reason is biological: during adolescence, the body clock shifts, so many young people don't feel sleepy until late at night. Teenagers who are short of sleep tend to suffer from poor ___ in class. Sleep is also ___ important for learning: after a good night's rest, it is much easier to ___ new vocabulary. Some schools have started lessons later in the morning, and a few studies have reported a ___ improvement in students' attendance.",
+    "gaps": [
+      {
+        "base": "CONCENTRATE",
+        "correct": ["concentration"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po przymiotniku poor stoi rzeczownik: poor health, poor ___."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Niewyspany uczeń nie może się skupić na lekcji. suffer from poor concentration = mieć słabą koncentrację."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "concentrate traci końcowe e i dostaje -ion: concentration. Tak samo educate → education."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "concentrating to forma czasownika i po przymiotniku poor nie pasuje (0 pkt). concentrations też nie: koncentracja w tym znaczeniu jest niepoliczalna."
+          }
+        ]
+      },
+      {
+        "base": "PARTICULAR",
+        "correct": ["particularly"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Luka stoi przed przymiotnikiem important. Przed przymiotnikiem stoi przysłówek, który go wzmacnia: really important, especially important."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Sen jest ważny zwłaszcza dla nauki: particularly = szczególnie, zwłaszcza."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "particular + -ly → particularly. Końcówka -ar zostaje, dochodzi samo -ly."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "particulary (bez l) to 0 pkt. particular (przymiotnik) przed innym przymiotnikiem tu nie pasuje."
+          }
+        ]
+      },
+      {
+        "base": "MEMORY",
+        "correct": ["memorise"],
+        "accepted": ["memorize"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po it is much easier to stoi czasownik w formie podstawowej, a za nim dopełnienie new vocabulary."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Co robi się z nowymi słówkami? Zapamiętuje się je, uczy na pamięć = memorise."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "memory traci końcowe -y i dostaje -ise: memorise. Amerykańska pisownia memorize też jest dobra."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "memorable (łatwy do zapamiętania) to przymiotnik, a po to musi stać czasownik, więc 0 pkt. memorised z -d po to też jest błędem."
+          }
+        ]
+      },
+      {
+        "base": "SIGNIFY",
+        "correct": ["significant"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Między a a rzeczownikiem improvement stoi przymiotnik: a big improvement, a ___ improvement."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Badania pokazały wyraźną, istotną poprawę: significant = znaczący. insignificant (nieistotny) odpada: przed samogłoską byłoby an, a o nieistotnej poprawie nikt by nie pisał jako o argumencie za późniejszymi lekcjami."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "signify → significant: -ify zmienia się w -ific-, a na końcu dochodzi -ant."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "significent (z e) to 0 pkt. significantly to przysłówek, a przed rzeczownikiem musi stać przymiotnik."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  },
+  {
+    "id": "wf-text-film-review",
+    "type": "word-formation",
+    "title": "Review: The Silent Coast",
+    "text": "The Silent Coast is the second film by the young Irish ___ Niamh Byrne, and it is even better than her first. It tells the story of a fisherman who loses everything in a storm and has to start his life again. The acting is ___ from start to finish, and some of the landscapes are ___ beautiful. My only real ___ is the ending, which feels rushed after two slow hours. Still, if you enjoy quiet, emotional dramas, don't miss it.",
+    "gaps": [
+      {
+        "base": "DIRECT",
+        "correct": ["director"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po przymiotnikach young Irish stoi rzeczownik, a zaraz za nim imię i nazwisko. Chodzi o osobę."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Kto robi film? Reżyser = director. direction (kierunek, reżyseria) to nie osoba."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "direct + -or → director. Ten wyraz ma końcówkę -or, nie -er."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "directer to 0 pkt. directors też: chodzi o jedną osobę, Niamh Byrne."
+          }
+        ]
+      },
+      {
+        "base": "CONVINCE",
+        "correct": ["convincing"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po is stoi przymiotnik, który opisuje grę aktorów (the acting)."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Gra aktorów przekonuje widza. Przymiotnik na -ing opisuje to, co wywołuje wrażenie (convincing = przekonujący), a na -ed tego, kto coś czuje (convinced = przekonany). unconvincing odpada, bo jedyny minus filmu to zakończenie."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "convince traci końcowe e i dostaje -ing: convincing."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "convinced to 0 pkt: aktorstwo samo nie może być przekonane. convincingly to przysłówek."
+          }
+        ]
+      },
+      {
+        "base": "BELIEVE",
+        "correct": ["unbelievably"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Luka stoi przed przymiotnikiem beautiful. Przed przymiotnikiem stoi przysłówek, który go wzmacnia: really beautiful, ___ beautiful."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Krajobrazy są tak piękne, że trudno w to uwierzyć: niewiarygodnie = unbelievably. Bez un- (believably beautiful) zdanie nie ma sensu."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "believe traci e i dostaje -able: believable. Z przeczeniem un-: unbelievable. W przysłówku -able zmienia się w -ably: unbelievably."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "unbelievable (przymiotnik) przed innym przymiotnikiem to 0 pkt. Tak samo unbelieveably z e w środku."
+          }
+        ]
+      },
+      {
+        "base": "COMPLAIN",
+        "correct": ["complaint"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po My only real stoi rzeczownik, a za nim is. Czyli rzeczownik w liczbie pojedynczej."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Zakończenie jest pospieszne, więc recenzent ma do niego zastrzeżenia. My only complaint is... = jedyne, na co mogę narzekać, to... Zarzut, skarga = complaint."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "complain + t → complaint. Nie ma tu -ment ani -tion, to słowo trzeba po prostu znać."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "complaints to 0 pkt (only + is). complainment nie istnieje, a complaining to forma czasownika."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  },
+  {
+    "id": "wf-text-running-club",
+    "type": "word-formation",
+    "title": "Riverside Running Club",
+    "text": "Want to improve your ___ without paying for an expensive gym? Then come and run with us! We meet every Tuesday and Thursday at 6 p.m. by the main gate of Riverside Park. Runners of all levels are welcome, and ___ can join a special group that starts with just two kilometres. Our coaches will watch you run, ___ your weak points and prepare a plan that matches your level. All you need is a ___ pair of trainers and a bottle of water. And it's completely free!",
+    "gaps": [
+      {
+        "base": "FIT",
+        "correct": ["fitness"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po improve your stoi rzeczownik, który jest dopełnieniem: improve your English, improve your ___."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Ogłoszenie zachęca do biegania zamiast siłowni, więc chodzi o kondycję: sprawność fizyczna = fitness."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "fit + -ness → fitness. t się nie podwaja, po prostu fit i ness stoją obok siebie."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "fit bez zmian to przymiotnik albo czasownik, a fitnes z jednym s to 0 pkt."
+          }
+        ]
+      },
+      {
+        "base": "BEGIN",
+        "correct": ["beginners"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Luka stoi przed can join, więc to podmiot zdania: rzeczownik."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Grupa zaczyna od dwóch kilometrów, więc jest dla tych, którzy dopiero zaczynają biegać: początkujący = beginners."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "begin ma akcent na końcu i kończy się na jedną samogłoskę + n, więc n się podwaja: beginner. Przed luką nie ma a, więc liczba mnoga: beginners."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "beginner bez -s to 0 pkt: policzalny rzeczownik w liczbie pojedynczej potrzebuje a. beginers z jednym n też."
+          }
+        ]
+      },
+      {
+        "base": "IDENTITY",
+        "correct": ["identify"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "will łączy tu trzy czasowniki: will watch, ___ and prepare. Po will stoi czasownik w formie podstawowej."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Trener patrzy, jak biegasz, i rozpoznaje, co trzeba poprawić: rozpoznać, wskazać = identify."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "identity → identify: końcówka -ity zmienia się w -ify."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "identifies (z -s po will) i identification (rzeczownik) to 0 pkt."
+          }
+        ]
+      },
+      {
+        "base": "SUIT",
+        "correct": ["suitable"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Między a a rzeczownikiem pair stoi przymiotnik."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Do biegania potrzebne są buty, które się do tego nadają: odpowiedni = suitable. unsuitable nie ma sensu i wymagałoby an."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "suit + -able → suitable. Nic nie znika."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "suited i suiting to 0 pkt: to formy czasownika, a przed pair potrzebny przymiotnik na -able. suitible (z i) też."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-text-lisbon-passport",
+    "type": "word-formation",
+    "title": "Lost in Lisbon",
+    "text": "On the second day of our holiday in Lisbon, I suddenly realised that I had left my passport in a taxi. I ran back to the hotel, where the ___ on duty, a young woman called Rita, phoned the taxi company for me. For half an hour nobody could tell us anything. Then, to my enormous ___, the driver called back. He had found the passport under the back seat, and he even ___ for not noticing it sooner. He wouldn't take any money for his trouble. Since then, I have been ___ careful with my documents whenever I travel.",
+    "gaps": [
+      {
+        "base": "RECEPTION",
+        "correct": ["receptionist"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po the stoi rzeczownik, który jest podmiotem (phoned the taxi company). Dzwoniła konkretna osoba: a young woman called Rita."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "W hotelu przy wejściu pracuje recepcjonistka = receptionist. reception to miejsce (recepcja), a miejsce nie dzwoni."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "reception + -ist → receptionist. -ist oznacza osobę: art → artist."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "receptionists to 0 pkt: chodzi o jedną osobę, Ritę. receptionest (z e) też."
+          }
+        ]
+      },
+      {
+        "base": "RELIEVE",
+        "correct": ["relief"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po to my enormous stoi rzeczownik. to my ___ to stały zwrot: to my surprise, to my horror."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Kierowca znalazł paszport, więc przychodzi wielka ulga: ulga = relief."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "relieve (czasownik) → relief (rzeczownik): v zmienia się w f, a końcowe e znika. Tak samo believe → belief."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "releif (ei zamiast ie) i relieve (czasownik) to 0 pkt."
+          }
+        ]
+      },
+      {
+        "base": "APOLOGY",
+        "correct": ["apologised"],
+        "accepted": ["apologized"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po he even stoi czasownik, a cała historia dzieje się w przeszłości (had found, called back). Potrzebny czasownik w past simple."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Kierowca przeprosił, że wcześniej nie zauważył paszportu: apologise for (doing) sth = przepraszać za coś."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "apology traci -y i dostaje -ise: apologise, a w przeszłości -d: apologised. Amerykańska pisownia apologized też jest dobra."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "apologise bez -d (zły czas) i apologies (rzeczownik w liczbie mnogiej) to 0 pkt."
+          }
+        ]
+      },
+      {
+        "base": "EXTREME",
+        "correct": ["extremely"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Luka stoi przed przymiotnikiem careful, więc to przysłówek stopnia: very careful, really careful."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Po takiej przygodzie narrator bardzo pilnuje dokumentów: extremely = niezwykle, wyjątkowo."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "extreme + -ly → extremely. Końcowe e zostaje."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "extremly (bez e) to 0 pkt, to jedna z najczęstszych literówek."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-text-plastic-free-week",
+    "type": "word-formation",
+    "title": "Our Plastic-Free Week",
+    "text": "Last month our school organised a plastic-free week. The idea came from a group of students who had seen ___ plastic bottles floating in the river that flows through our town. During the week, every class had to find ___ for plastic bottles, bags and straws. Some people brought metal water bottles, while others made shopping bags out of old T-shirts. As a result, the amount of rubbish in our bins fell ___, by almost fifty per cent. The head teacher was so pleased that she now wants every class to ___ its use of plastic for the rest of the year.",
+    "box": ["COUNT", "DRAMATIC", "ENERGY", "MINIMUM", "PROTECT", "REPLACE"],
+    "gaps": [
+      {
+        "base": "COUNT",
+        "correct": ["countless"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Przed plastic bottles stoi przymiotnik, który mówi, ile tych butelek było."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Uczniowie widzieli w rzece tyle butelek, że nie dało się ich policzyć: countless = niezliczony. Z ramki pasuje tylko COUNT."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "count + -less → countless. Tu -less nie znaczy nic złego, tylko „tyle, że nie da się policzyć”."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "countable (policzalny) i counted to 0 pkt: nie mówią, że butelek było dużo."
+          }
+        ]
+      },
+      {
+        "base": "REPLACE",
+        "correct": ["replacements"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po find stoi dopełnienie, czyli rzeczownik. Przed luką nie ma przedimka, a za nią jest for."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Klasy miały znaleźć coś zamiast plastiku: zamienniki = replacements. Następne zdanie podaje przykłady: metalowe butelki, torby z koszulek. PROTECT (protection) nie pasuje, bo nikt nie chronił butelek."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "replace + -ment → replacement, e zostaje. Zamienników jest kilka i nie ma a, więc liczba mnoga: replacements."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "replacement bez -s to 0 pkt: policzalny rzeczownik w liczbie pojedynczej potrzebuje a. replacments bez e też."
+          }
+        ]
+      },
+      {
+        "base": "DRAMATIC",
+        "correct": ["dramatically"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "fell to czasownik. To, jak mocno coś spadło, mówi przysłówek: fell sharply, fell ___."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Spadek prawie o połowę to ogromna zmiana: dramatically = gwałtownie, bardzo wyraźnie. Po angielsku to słowo nie znaczy, że stało się coś złego."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Przymiotniki na -ic prawie zawsze dostają -ally: dramatic → dramatically, basic → basically. Wyjątek to public → publicly."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "dramaticly (bez al) to 0 pkt. MINIMUM (minimally) odpada, bo minimalny spadek to nie prawie pięćdziesiąt procent."
+          }
+        ]
+      },
+      {
+        "base": "MINIMUM",
+        "correct": ["minimise"],
+        "accepted": ["minimize"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po wants every class to stoi czasownik w formie podstawowej, a za nim dopełnienie its use of plastic."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Dyrektorka chce, żeby klasy dalej zużywały jak najmniej plastiku: ograniczyć do minimum = minimise. ENERGY i PROTECT to wyrazy zbędne, nie pasują do żadnej luki."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "minimum traci -um i dostaje -ise: minimise. Amerykańska pisownia minimize też jest dobra."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "minimal to przymiotnik, a po to musi stać czasownik (0 pkt). minimises z -s po to też jest błędem."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  },
+  {
+    "id": "wf-text-phones-school",
+    "type": "word-formation",
+    "title": "Phones in the Classroom",
+    "text": "Our school wants to ban phones completely from next term, and I'm not sure it's a good idea. Of course, a phone can be a real ___ when someone watches videos in the middle of a lesson. But most of us use our phones ___: we look up ___ of new words, take photos of the board and do short online quizzes, which make lessons more ___. Instead of a total ban, teachers should agree on clear rules with us. What do you think?",
+    "box": ["ADVERTISE", "DEFINE", "DISTRACT", "ENJOY", "NOTIFY", "WISE"],
+    "gaps": [
+      {
+        "base": "DISTRACT",
+        "correct": ["distraction"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po a real stoi rzeczownik policzalny w liczbie pojedynczej."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Ktoś ogląda filmiki w środku lekcji, więc telefon odciąga uwagę: coś, co rozprasza = a distraction. Z ramki pasuje tylko DISTRACT."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "distract + -ion → distraction."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "distracting (przymiotnik) po a real bez rzeczownika to 0 pkt. distractions też, bo po a jest liczba pojedyncza."
+          }
+        ]
+      },
+      {
+        "base": "WISE",
+        "correct": ["wisely"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Luka stoi po use our phones (czasownik + dopełnienie). To, jak używamy telefonów, mówi przysłówek."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "But zapowiada kontrast z poprzednim zdaniem: większość używa telefonów z głową. Mądrze = wisely. Dalej są przykłady: słówka, zdjęcia tablicy, quizy."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "wise + -ly → wisely. Końcowe e zostaje."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "wisdom (mądrość) to rzeczownik i po use our phones nie pasuje (0 pkt). unwisely odwraca sens, bo But zapowiada coś dobrego."
+          }
+        ]
+      },
+      {
+        "base": "DEFINE",
+        "correct": ["definitions"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po look up stoi dopełnienie, czyli rzeczownik. Przed luką nie ma przedimka, a za nią jest of new words."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "W słowniku sprawdza się, co znaczą nowe słowa: definicje = definitions. Z ramki pasuje tylko DEFINE."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "define traci e i dostaje -ition: definition. Słów jest wiele i nie ma a, więc liczba mnoga: definitions."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "definition bez -s to 0 pkt (brak a). definitely to przysłówek od innego wyrazu (definite) i tu nie ma sensu."
+          }
+        ]
+      },
+      {
+        "base": "ENJOY",
+        "correct": ["enjoyable"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po make lessons more stoi przymiotnik: make something more interesting, more ___."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Quizy to argument za telefonami, więc lekcje stają się przyjemniejsze: enjoyable = przyjemny. ADVERTISE i NOTIFY to wyrazy zbędne, nie pasują do żadnej luki."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "enjoy + -able → enjoyable. y zostaje, bo stoi po samogłosce o."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "enjoyed to 0 pkt: lekcje same niczego nie czują, to one mają dawać przyjemność. enjoying to forma czasownika, nie przymiotnik, więc po more też nie pasuje."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  }
+]

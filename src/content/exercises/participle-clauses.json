@@ -1,0 +1,587 @@
+[
+  {
+    "id": "part-seeing-water-rising",
+    "type": "choice",
+    "text": "___ how quickly the water was rising, the villagers decided to leave their homes before dark.",
+    "gaps": [
+      {
+        "options": ["Seeing", "Seen", "Being seen", "Having been seen"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce stoi how quickly the water was rising, czyli to, co ktoś zobaczył. Podmiot zdania głównego to the villagers."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Mieszkańcy sami widzą, jak przybywa wody → forma czynna. Widzą to w tej samej chwili, w której decydują, i to jest powód decyzji → zwykłe -ing."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Seen, Being seen i Having been seen są bierne: znaczyłyby, że to mieszkańców ktoś zobaczył. Po formie biernej nie ma też miejsca na dopełnienie how quickly…"
+          }
+        ]
+      }
+    ],
+    "tags": ["participle-clauses"],
+    "difficulty": 2
+  },
+  {
+    "id": "part-station-built",
+    "type": "choice",
+    "text": "___ in 1905, the railway station in our town is one of the oldest buildings in the region.",
+    "gaps": [
+      {
+        "options": ["Built", "Building", "Having built", "Being built"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Dworzec niczego nie buduje. To ktoś go zbudował w 1905 roku → znaczenie bierne."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Bierne znaczenie bez be to samo V3: Built in 1905 = The station was built in 1905."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Building i Having built są czynne, jakby dworzec sam coś budował. Being built znaczyłoby, że budowa trwa właśnie teraz."
+          }
+        ]
+      }
+    ],
+    "tags": ["participle-clauses"],
+    "difficulty": 1
+  },
+  {
+    "id": "part-river-noise-dangling",
+    "type": "choice",
+    "text": "Walking along the river late last night, ___.",
+    "gaps": [
+      {
+        "options": [
+          "a strange noise came from the bushes",
+          "we heard a strange noise in the bushes",
+          "there was a strange noise in the bushes",
+          "a strange noise was heard in the bushes"
+        ],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Walking along the river nie ma własnego podmiotu. Bierze go z podmiotu zdania głównego."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Kto szedł wzdłuż rzeki? Ludzie, nie hałas. Podmiotem po przecinku musi więc być we."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "W pozostałych zdaniach podmiotem jest a strange noise albo there, więc wychodzi, że to hałas spacerował nad rzeką. To wiszący imiesłów, czyli błąd."
+          }
+        ]
+      }
+    ],
+    "tags": ["participle-clauses"],
+    "difficulty": 2
+  },
+  {
+    "id": "part-forecast-dangling",
+    "type": "choice",
+    "text": "Having checked the weather forecast for the weekend, ___.",
+    "gaps": [
+      {
+        "options": [
+          "the trip to the mountains was postponed",
+          "our trip to the mountains seemed like a bad idea",
+          "we decided to postpone our trip to the mountains",
+          "it became clear that the trip had to be postponed"
+        ],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Having checked to czynność wcześniejsza i zakończona: ktoś najpierw sprawdził prognozę, a potem coś postanowił."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Prognozę sprawdzają ludzie, więc to oni muszą być podmiotem zdania głównego: we decided."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "W pierwszych dwóch zdaniach podmiotem jest wycieczka, a w ostatnim it. Wychodzi, że to wycieczka albo nikt sprawdzał prognozę. Strona bierna w pierwszym kusi, bo brzmi formalnie, ale to dalej wiszący imiesłów."
+          }
+        ]
+      }
+    ],
+    "tags": ["participle-clauses"],
+    "difficulty": 3
+  },
+  {
+    "id": "part-spent-japan",
+    "type": "choice",
+    "text": "___ three years in Japan as a student, Ola now teaches Japanese at a language school in Kraków.",
+    "gaps": [
+      {
+        "options": ["Spending", "Having spent", "Spent", "Being spent"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "now teaches to teraz. Trzy lata w Japonii jako studentka to zamknięty etap, który był wcześniej."
+          },
+          {
+            "label_pl": "relacja",
+            "text_pl": "Czynność skończyła się, zanim zaczęła się główna → having + V3. Ola sama spędziła ten czas, więc forma czynna."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Spending znaczyłoby, że te trzy lata trwają razem z uczeniem teraz. Spent i Being spent są bierne, jakby to Olę ktoś spędzał."
+          }
+        ]
+      }
+    ],
+    "tags": ["participle-clauses"],
+    "difficulty": 2
+  },
+  {
+    "id": "part-feeling-unwell",
+    "type": "choice",
+    "text": "___ a bit unwell after lunch, Marta decided to skip her afternoon training session.",
+    "gaps": [
+      {
+        "options": ["Feeling", "Felt", "Being felt", "To feel"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Marta źle się czuje i dlatego rezygnuje z treningu. Ta część zdania podaje powód: because she felt…"
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Marta sama się czuje, w tej samej chwili, w której decyduje → zwykłe -ing: Feeling."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Felt i Being felt to formy bierne, a tu nikt nie czuje Marty. To feel na początku zdania oznaczałoby cel („żeby poczuć”), co nie ma sensu."
+          }
+        ]
+      }
+    ],
+    "tags": ["participle-clauses"],
+    "difficulty": 1
+  },
+  {
+    "id": "part-exam-phone-while",
+    "type": "choice",
+    "text": "Keep your phone in your bag ___ sitting the exam – even if it is switched off, it can get you disqualified.",
+    "gaps": [
+      {
+        "options": ["while", "during", "meanwhile", "whereas"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce stoi sitting, czyli czynność w formie -ing, a nie rzeczownik."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "while + -ing to skrót od while you are sitting, czyli „w trakcie pisania”. Podmiot (ty) jest ten sam w obu częściach."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Polskie „podczas” kusi, ale during stoi tylko przed rzeczownikiem: during the exam. Meanwhile to przysłówek „w międzyczasie”, a whereas wprowadza kontrast."
+          }
+        ]
+      }
+    ],
+    "tags": ["participle-clauses"],
+    "difficulty": 1
+  },
+  {
+    "id": "part-since-moving-krakow",
+    "type": "choice",
+    "text": "___ moving to Kraków, my grandparents have been going to the theatre almost every month.",
+    "gaps": [
+      {
+        "options": ["Since", "For", "From", "During"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "have been going to Present Perfect Continuous: okres od jakiegoś punktu w przeszłości aż do teraz. Tym punktem jest przeprowadzka."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "since + -ing = od czasu, gdy. Since moving = since they moved."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "For stoi przed długością okresu (for two years), a nie przed wydarzeniem. From nie otwiera okresu, który trwa do teraz, a during stoi przed rzeczownikiem, nie przed -ing."
+          }
+        ]
+      }
+    ],
+    "tags": ["participle-clauses", "present-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "part-students-wishing",
+    "type": "choice",
+    "text": "Students ___ to take part in the trip to London should sign up at the school office by Friday.",
+    "gaps": [
+      {
+        "options": ["wishing", "wished", "wish", "are wishing"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Zdanie ma już orzeczenie: should sign up. Luka stoi zaraz po rzeczowniku Students i dopowiada, o których uczniów chodzi."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "To skrót od who wish: uczniowie sami chcą jechać → -ing po rzeczowniku. Tak pisze się ogłoszenia."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "wish i are wishing dałyby drugie orzeczenie w tym samym zdaniu. wished jako V3 jest bierne, a uczniowie sami chcą jechać, nikt nie robi tego z nimi."
+          }
+        ]
+      }
+    ],
+    "tags": ["participle-clauses"],
+    "difficulty": 2
+  },
+  {
+    "id": "part-survey-questioned",
+    "type": "choice",
+    "text": "Most of the people ___ in the survey said they would pay more for locally grown food.",
+    "gaps": [
+      {
+        "options": ["questioning", "questioned", "having questioned", "were questioned"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Orzeczenie zdania to said. Luka po the people mówi, o których ludzi chodzi."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Ludzi ktoś pytał w ankiecie → znaczenie bierne → V3 po rzeczowniku: the people questioned = the people who were questioned."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "questioning i having questioned są czynne, jakby to oni kogoś pytali. were questioned bez who to drugie orzeczenie."
+          }
+        ]
+      }
+    ],
+    "tags": ["participle-clauses"],
+    "difficulty": 2
+  },
+  {
+    "id": "part-lighthouse-repairs",
+    "type": "choice",
+    "title": "The old lighthouse",
+    "text": "___ by thousands of tourists every summer, the old lighthouse above our town had been in poor condition for years. ___ enough money through an online campaign, the town council finally started the repairs last spring. When ___, the lighthouse will also house a small museum about the history of the coast.",
+    "gaps": [
+      {
+        "options": ["Visiting", "Visited", "Having visited", "To visit"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Podmiot zdania to the old lighthouse. Latarnia nikogo nie odwiedza, to turyści odwiedzają ją (by thousands of tourists)."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Znaczenie bierne → samo V3: Visited = which was visited."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Visiting i Having visited są czynne. To visit na początku zdania znaczyłoby cel."
+          }
+        ]
+      },
+      {
+        "options": ["Raised", "Having raised", "Being raised", "Having been raised"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce stoi dopełnienie enough money, a podmiot zdania to the town council."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Rada miasta sama zebrała pieniądze → forma czynna. Zbiórka skończyła się, zanim ruszył remont → having + V3."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Raised, Being raised i Having been raised są bierne: nie zostawiają miejsca na enough money i znaczyłyby, że to z radą ktoś coś zrobił."
+          }
+        ]
+      },
+      {
+        "options": ["finishing", "finished", "having finished", "finish"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Podmiot to latarnia. Latarnia nie kończy remontu, to ją ktoś skończy."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Spójnik + V3 to skrót od when it is finished, bez podmiotu i bez is."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "finishing i having finished są czynne, jakby latarnia sama coś kończyła. Samo finish po when potrzebowałoby podmiotu: when they finish it."
+          }
+        ]
+      }
+    ],
+    "tags": ["participle-clauses"],
+    "difficulty": 3
+  },
+  {
+    "id": "part-on-hearing-driving-test",
+    "type": "key-word-transformation",
+    "source": "As soon as Ola heard that she had passed her driving test, she called her parents.",
+    "keyWord": "ON",
+    "target": "___ that she had passed her driving test, Ola called her parents.",
+    "correct": ["On hearing", "On learning", "On finding out"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "As soon as she heard = zaraz, gdy usłyszała. Słowo klucz ON prowadzi do on + -ing."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "on + -ing znaczy „zaraz po tym, jak”. Podmiot jest ten sam (Ola usłyszała, Ola zadzwoniła), więc she znika."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "On hearing. Po on jako przyimku czasownik zawsze ma -ing, a having nie jest potrzebne."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "On heard i On hear to błędy. Upon hearing znaczy to samo, ale nie ma w nim słowa ON, więc w transformacji odpada."
+      }
+    ],
+    "tags": ["participle-clauses"],
+    "difficulty": 2,
+    "accepted": ["On finding", "On discovering"]
+  },
+  {
+    "id": "part-not-being-member",
+    "type": "key-word-transformation",
+    "source": "Because I wasn't a member of the club, I wasn't allowed to use the swimming pool.",
+    "keyWord": "BEING",
+    "target": "___ a member of the club, I wasn't allowed to use the swimming pool.",
+    "correct": ["Not being"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Because I wasn't… podaje powód. Podmiot w obu częściach to I, więc można skrócić."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "be w formie -ing to being. Being a member = because I was a member."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Przeczenie w skróconym zdaniu to samo not przed imiesłowem: Not being."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Don't being i Wasn't being to błędy: imiesłów nie ma czasu ani do, ma tylko not."
+      }
+    ],
+    "tags": ["participle-clauses"],
+    "difficulty": 2
+  },
+  {
+    "id": "part-given-second-chance",
+    "type": "key-word-transformation",
+    "source": "The company gave Marek a second chance, and he decided to make the most of it.",
+    "keyWord": "HAVING",
+    "target": "___ a second chance by the company, Marek decided to make the most of it.",
+    "correct": ["Having been given"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "by the company w zdaniu docelowym: firma dała szansę, a Marek ją dostał → znaczenie bierne."
+      },
+      {
+        "label_pl": "relacja",
+        "text_pl": "Najpierw dostał szansę, potem postanowił ją wykorzystać → czynność wcześniejsza → having."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Bierne i wcześniejsze naraz: having been + V3 → Having been given (give – gave – given)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Having given znaczyłoby, że to Marek dał komuś szansę. Wtedy by the company nie ma sensu."
+      }
+    ],
+    "tags": ["participle-clauses"],
+    "difficulty": 3
+  },
+  {
+    "id": "part-when-asked-scandal",
+    "type": "key-word-transformation",
+    "source": "When journalists asked the singer about the scandal, she refused to comment.",
+    "keyWord": "ASKED",
+    "target": "When ___ the scandal, the singer refused to comment.",
+    "correct": [
+      "asked about",
+      "asked by journalists about",
+      "asked by the journalists about",
+      "she was asked about"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "W zdaniu docelowym podmiotem jest the singer, a piosenkarkę ktoś pytał → znaczenie bierne."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Spójnik + V3 to skrót od when she was asked. Podmiot jest ten sam co w zdaniu głównym, więc she i was mogą zniknąć."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "ask sb about sth, więc przyimek zostaje: When asked about the scandal."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Bez about zdanie się rozpada: When asked the scandal to błąd."
+      }
+    ],
+    "tags": ["participle-clauses"],
+    "difficulty": 3
+  },
+  {
+    "id": "part-not-read-book",
+    "type": "gap-fill",
+    "sentence": "___ (not / read) the book, I found the film quite hard to follow at times.",
+    "correct": ["Not having read", "Having not read"],
+    "maxWords": 3,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Książkę czyta się przed filmem. Brak lektury był wcześniej i jest powodem, że film był trudny."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Czynność wcześniejsza → having + V3. read – read – read: pisownia się nie zmienia, tylko wymowa."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Przeczenie stoi na początku: Not having read. Having not read też jest poprawne, choć rzadsze."
+      },
+      {
+        "label_pl": "limit",
+        "text_pl": "Not having read to dokładnie 3 wyrazy. I hadn't read się nie nadaje: zdanie główne ma już swój podmiot i wyszłyby dwa zdania sklejone przecinkiem."
+      }
+    ],
+    "tags": ["participle-clauses"],
+    "difficulty": 3
+  },
+  {
+    "id": "part-after-finishing-school",
+    "type": "gap-fill",
+    "sentence": "___ (after / finish) secondary school, my cousin moved to Dublin and found a job in a hotel.",
+    "correct": ["After finishing"],
+    "maxWords": 2,
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "after to tu przyimek, a po przyimku czasownik stoi w formie -ing: After finishing."
+      },
+      {
+        "label_pl": "czas",
+        "text_pl": "Kolejność widać już z after, więc having nie jest potrzebne."
+      },
+      {
+        "label_pl": "limit",
+        "text_pl": "Limit to 2 wyrazy, więc pełne zdanie After he finished się nie mieści."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "After finish i After finished to częste błędy: po polsku mówisz „po skończeniu”, a po angielsku tę rolę gra -ing."
+      }
+    ],
+    "tags": ["participle-clauses"],
+    "difficulty": 1
+  },
+  {
+    "id": "part-injured-knee",
+    "type": "gap-fill",
+    "sentence": "___ (injure) his knee in training, the team's best player had to watch the final from the stands.",
+    "correct": ["Having injured"],
+    "maxWords": 2,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Kontuzja na treningu była przed finałem i to przez nią zawodnik siedział na trybunach → czynność wcześniejsza → having + V3."
+      },
+      {
+        "label_pl": "strona",
+        "text_pl": "Po luce stoi dopełnienie his knee. Po angielsku mówi się he injured his knee, czyli forma czynna."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Having been injured pasowałoby bez his knee (Having been injured in training…). Z dopełnieniem po luce forma bierna tu odpada."
+      }
+    ],
+    "tags": ["participle-clauses"],
+    "difficulty": 2
+  },
+  {
+    "id": "part-trainers-made",
+    "type": "gap-fill",
+    "sentence": "___ (make) from recycled plastic bottles, these trainers are surprisingly light and comfortable.",
+    "correct": ["Made"],
+    "maxWords": 1,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Buty nie robią same siebie. Ktoś je zrobił z butelek → znaczenie bierne."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Bierne znaczenie w skróconym zdaniu to samo V3: make – made – made. Made from… = which are made from…"
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Making znaczyłoby, że to buty coś robią."
+      }
+    ],
+    "tags": ["participle-clauses"],
+    "difficulty": 1
+  },
+  {
+    "id": "part-rain-causing-floods",
+    "type": "gap-fill",
+    "sentence": "Heavy rain fell for three days without a break, ___ (cause) floods in several villages along the river.",
+    "correct": ["causing"],
+    "maxWords": 1,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Zdanie główne jest pełne, a po przecinku dochodzi skutek: deszcz padał i przez to były powodzie."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "-ing po zdaniu głównym = and it caused. Deszcz sam wywołał powodzie → forma czynna."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Samo caused byłoby drugim orzeczeniem doklejonym przecinkiem. Potrzebne byłoby and albo which, a limit to 1 wyraz."
+      }
+    ],
+    "tags": ["participle-clauses"],
+    "difficulty": 2
+  }
+]

@@ -1,0 +1,681 @@
+[
+  {
+    "id": "g1-palace-not-designed",
+    "type": "gap-fill",
+    "sentence": "Contrary to what many people think, the Palace of Culture and Science in Warsaw ___ (not / design) by a Polish architect — it was the work of a Soviet team led by Lev Rudnev.",
+    "correct": ["was not designed"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Pałac ktoś zaprojektował, sam niczego nie projektuje. Do tego by a Polish architect, czyli wykonawca. To strona bierna: be + V3."
+      },
+      {
+        "label_pl": "czas",
+        "text_pl": "Projekt powstał dawno i jest zamknięty (it was the work), więc be idzie w past simple: was."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Przeczenie stoi przy be: was not designed (3 wyrazy, wasn't designed to 2)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "didn't design to strona czynna, czyli pałac by coś projektował. Źle."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "past-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "g1-coach-still-inspected",
+    "type": "gap-fill",
+    "sentence": "When we got back to the car park after the tour, our coach ___ (still / inspect) by two police officers, so we had to wait outside in the rain.",
+    "correct": ["was still being inspected"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Autokar sprawdzają policjanci (by two police officers), więc strona bierna."
+      },
+      {
+        "label_pl": "czas",
+        "text_pl": "When we got back to tło: kontrola trwała w chwili, gdy wróciliśmy, i jeszcze się nie skończyła (still, musieliśmy czekać). To past continuous."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Past continuous w stronie biernej: was + being + V3. still stoi po was: was still being inspected (4 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Bez being (was still inspected) znika to, że kontrola trwała."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "past-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "g1-bridge-not-used",
+    "type": "gap-fill",
+    "sentence": "The old railway bridge over the river ___ (not / use) since engineers found a large crack in one of its pillars in 2019.",
+    "correct": ["has not been used", "has not been in use"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "since + moment w przeszłości: stan trwa od 2019 do dziś. Główne zdanie idzie w present perfect."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Mostu ktoś (nie) używa, więc strona bierna: have/has + been + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "the bridge to it, więc has: has not been used (4 wyrazy). Da się też z rzeczownikiem: has not been in use (5)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "wasn't used since ✗: gdy since znaczy „od” (od jakiegoś momentu), zdanie główne idzie w present perfect, nie w past simple."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "present-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "g1-phone-switched-off",
+    "type": "gap-fill",
+    "sentence": "Your phone ___ (must / switch / off) before you enter the exam room, and you can't take it out again until you hand in your paper.",
+    "correct": ["must be switched off"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Podmiotem jest telefon. Telefon sam się nie wyłącza, to ty go wyłączasz, więc strona bierna."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Modal w stronie biernej: modal + be + V3. Po must zawsze forma podstawowa, tu be."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "must be switched off (4 wyrazy). off zostaje na końcu, bo to część czasownika switch off."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "must switch off znaczyłoby, że telefon coś wyłącza. must to be ✗: po modalu nie ma to."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "modal-verbs"],
+    "difficulty": 1
+  },
+  {
+    "id": "g1-refused-interviewed",
+    "type": "gap-fill",
+    "sentence": "The famous footballer ___ (refuse / interview) by our school magazine when he visited Gdańsk last month, which was a big disappointment for us.",
+    "correct": ["refused to be interviewed"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "last month: past simple, więc refused."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "refuse + to + bezokolicznik. Piłkarz nie miał przeprowadzać wywiadu, tylko go udzielić (by our school magazine), więc bezokolicznik bierny: to be + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "refused to be interviewed (4 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "refused being interviewed ✗: po refuse nie stawia się -ing. refused to interview by ✗: brakuje be."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "gerund-infinitive"],
+    "difficulty": 2
+  },
+  {
+    "id": "g1-accused-diving",
+    "type": "gap-fill",
+    "sentence": "During yesterday's match the referee ___ (accuse / Kuba / dive), but the replay clearly showed that he had been tripped.",
+    "correct": ["accused Kuba of diving", "accused Kuba of having dived"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "yesterday: past simple, accused."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "accuse somebody of + -ing. Przyimek of musisz dopisać sam, a po przyimku czasownik ma końcówkę -ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "accused Kuba of diving (4 wyrazy). Można też podkreślić, że to było wcześniej: of having dived (5)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "accused Kuba for diving ✗ i accused Kuba to dive ✗. Przyimek przy accuse to tylko of."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations", "past-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "g1-stopped-loud-music",
+    "type": "gap-fill",
+    "sentence": "Our neighbours finally ___ (stop / play) loud music at night last month, after the landlord had warned them twice.",
+    "correct": ["stopped playing"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "last month: past simple. Ostrzeżenia były wcześniej (had warned), a przestali potem."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "stop + -ing = przestać coś robić. stop + to = zatrzymać się, żeby coś zrobić."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Chodzi o to, że muzyka ucichła: stopped playing (2 wyrazy). Uwaga na pisownię: stop → stopped, podwójne p."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "stopped to play znaczyłoby, że przerwali coś innego, żeby zacząć grać. Odwrotny sens."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations", "past-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "g1-remember-lock",
+    "type": "gap-fill",
+    "sentence": "Did you ___ (remember / lock) the back door when you left this morning? The cat has gone missing.",
+    "correct": ["remember to lock"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Pytanie z Did: czas przeszły jest już w did, więc czasownik zostaje w formie podstawowej: remember, nie remembered."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "remember + to = pamiętać, żeby coś zrobić (najpierw pamiętasz, potem robisz). remember + -ing = pamiętać, że się coś zrobiło."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Pytasz, czy pamiętał o zamknięciu drzwi, więc remember to lock (3 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "remember locking pytałoby o wspomnienie zamykania, a nie o to, czy w ogóle zamknął. Tu pytasz, czy w ogóle to zrobił (najpierw pamiętasz, potem robisz)."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations", "past-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "g1-insisted-paying",
+    "type": "gap-fill",
+    "sentence": "Although we offered to split the bill, Grandpa ___ (insist / on / pay) for everyone's dinner.",
+    "correct": ["insisted on paying"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "offered jest w past simple, cała historia dzieje się w przeszłości, więc insisted."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "insist on + -ing = upierać się, że się coś zrobi. on to przyimek, a po przyimku czasownik ma -ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "insisted on paying (3 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "insisted on pay ✗ i insisted on to pay ✗. Po on nie ma ani formy podstawowej, ani to."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations", "past-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "g1-baker-used-to",
+    "type": "gap-fill",
+    "sentence": "My dad is a baker, so he ___ (be / use / get) up at 4 a.m. and never even needs an alarm clock.",
+    "correct": ["is used to getting"],
+    "accepted": ["'s used to getting"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "is a baker, never needs: opis tego, jak jest teraz. Present simple, więc is."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "be used to = być przyzwyczajonym. To w nim jest przyimkiem, więc dalej idzie -ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "is used to getting (4 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "is used to get ✗. Mylisz z used to + V1 (kiedyś coś robiłem), a to inna konstrukcja, bez be."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations", "present-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "g1-oslo-get-used",
+    "type": "gap-fill",
+    "sentence": "Ola moved to Oslo two years ago, but she still ___ (can / get / use / go) to bed while it's light outside in June.",
+    "correct": ["cannot get used to going"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "but she still: nadal, czyli teraz. Mimo dwóch lat coś jej nie wychodzi, więc przeczenie: cannot."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "get used to + -ing = przyzwyczaić się do czegoś. to jest przyimkiem, więc going, nie go."
+      },
+      {
+        "label_pl": "liczenie",
+        "text_pl": "cannot pisze się razem i to jeden wyraz: cannot get used to going (5). can't też liczy się jako jeden. can not osobno dałoby 6, za dużo."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "cannot get use to ✗: use musi być w formie used."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations", "present-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "g1-wrist-find-difficult",
+    "type": "gap-fill",
+    "sentence": "My wrist is still in plaster, so I ___ (find / difficult / write) by hand for more than ten minutes.",
+    "correct": ["find it difficult to write"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "is still in plaster: sytuacja teraz, więc present simple: find."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "find it + przymiotnik + to + V1. it to puste dopełnienie, które zapowiada to, co dalej (pisanie)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "find it difficult to write (5 wyrazów, dokładnie w limicie)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Bez it (find difficult to write ✗) zdanie nie jest poprawne, a to najczęściej gubiony wyraz w tej konstrukcji."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations", "present-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "g1-spent-all-day",
+    "type": "gap-fill",
+    "sentence": "Last Saturday my younger brother ___ (spend / all / day / play) video games instead of revising for his exams.",
+    "correct": ["spent all day playing"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Last Saturday: past simple. spend jest nieregularny: spend, spent, spent."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "spend + czas + -ing = spędzić ileś czasu na robieniu czegoś."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "spent all day playing (4 wyrazy). all day stoi bez przedimka."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "spent all day to play ✗ i spended ✗. Po czasie w tej konstrukcji idzie -ing."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations", "past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "g1-warned-monkeys",
+    "type": "gap-fill",
+    "sentence": "Our guide ___ (warn / us / not / feed) the monkeys at the temple, but a few tourists ignored her and one of them got bitten.",
+    "correct": ["warned us not to feed"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "ignored, got bitten: opowieść w past simple, więc warned."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "warn somebody (not) to do something = ostrzec kogoś, żeby (nie) robił. Przeczenie stoi przed to."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "warned us not to feed (5 wyrazów)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "warned us not feed ✗ gubi to, a warned us to feed znaczy coś odwrotnego."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations", "past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "g1-not-allowed-calculators",
+    "type": "gap-fill",
+    "sentence": "We ___ (not / allow / use) calculators in last week's physics test, so I had to do all the sums in my head.",
+    "correct": ["were not allowed to use"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "last week's test, had to: przeszłość, past simple."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "To nie my komuś pozwalaliśmy, tylko nam nie pozwolono: be allowed to + V1 (strona bierna od allow)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "We + were: were not allowed to use (5 wyrazów, weren't allowed to use to 4)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "We didn't allow to use ✗ znaczyłoby, że to my zabranialiśmy, i do tego brakuje dopełnienia."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "g1-fire-thought-started",
+    "type": "gap-fill",
+    "sentence": "Firefighters are still at the scene. The fire ___ (think / start) in the restaurant kitchen shortly after midnight.",
+    "correct": ["is thought to have started"],
+    "accepted": ["'s thought to have started"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Ludzie myślą teraz (strażacy wciąż są na miejscu), a pożar zaczął się wcześniej (after midnight). Dwa różne momenty."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Strona bierna z czasownikiem opinii: podmiot + is thought + to + bezokolicznik. Gdy chodzi o coś wcześniejszego, bezokolicznik ma formę to have + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "is thought to have started (5 wyrazów)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "is thought to start ✗ mówi o teraźniejszości albo przyszłości. was thought przesuwa samo myślenie w przeszłość, a ono trwa teraz."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "g1-windows-cleaned",
+    "type": "gap-fill",
+    "sentence": "We ___ (have / our / windows / clean) by a professional company every spring because our flat is on the tenth floor.",
+    "correct": ["have our windows cleaned"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "every spring: coś, co się powtarza, present simple."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "have + coś + V3 = zlecić, żeby ktoś to zrobił za nas (by a professional company)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "have our windows cleaned (4 wyrazy). V3 stoi na końcu, po przedmiocie."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "have cleaned our windows to present perfect: sami umyliśmy. Inny sens i zła kolejność wyrazów z nawiasu."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "present-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "g1-offered-free-ticket",
+    "type": "gap-fill",
+    "sentence": "Every student in our class ___ (offer / free / ticket) to the premiere last week because we had won the school drama competition.",
+    "correct": ["was offered a free ticket"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "last week: past simple. Uczniom ktoś zaproponował bilety, więc strona bierna."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "offer ma dwa dopełnienia (offer somebody something). W stronie biernej podmiotem jest osoba: somebody was offered something."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Every student to liczba pojedyncza, więc was: was offered a free ticket (5)."
+      },
+      {
+        "label_pl": "liczenie",
+        "text_pl": "ticket jest policzalny, więc potrzebny przedimek a. Bez niego ✗, a z nim jest równo 5 wyrazów."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "past-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "g1-tired-photographed",
+    "type": "gap-fill",
+    "sentence": "The singer says she is tired of ___ (photograph / by) fans every time she leaves her hotel.",
+    "correct": ["being photographed by"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "tired of: po przyimku of czasownik ma -ing."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "To fani robią zdjęcia, a piosenkarka jest fotografowana (by fans). -ing w stronie biernej: being + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "being photographed by (3 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "tired of photographing by ✗: to strona czynna, czyli to ona by fotografowała."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "gerund-infinitive"],
+    "difficulty": 2
+  },
+  {
+    "id": "g1-gym-floor-laid",
+    "type": "gap-fill",
+    "sentence": "Sorry, you can't use the school gym at the moment because a new floor ___ (lay) there.",
+    "correct": ["is being laid"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "at the moment: coś trwa teraz, present continuous. Podłoga sama się nie kładzie, więc strona bierna."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Present continuous w stronie biernej: is + being + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "lay, laid, laid (kłaść). a new floor to on, więc is: is being laid (3 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "layed ✗ i lied ✗ (lie to leżeć albo kłamać). Bez being (is laid) wychodzi zwykła czynność powtarzalna, a nie to, co trwa teraz."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "present-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "g1-pretended-read",
+    "type": "gap-fill",
+    "sentence": "As soon as the teacher walked in, Bartek ___ (pretend / read) his textbook, but in fact he was messaging his friends under the desk.",
+    "correct": ["pretended to read", "pretended to be reading"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "As soon as the teacher walked in: reakcja na wejście nauczyciela, jedna czynność po drugiej. Past simple: pretended."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "pretend + to + V1 = udawać, że się coś robi."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "pretended to read (3 wyrazy) albo pretended to be reading (4), bo udawał czynność w trakcie."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "pretended reading ✗: po pretend nie ma -ing."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations", "past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "g1-involved-organising",
+    "type": "gap-fill",
+    "sentence": "Three students from our school ___ (be / involve / organise) last year's charity concert for the children's hospital.",
+    "correct": ["were involved in organising"],
+    "accepted": ["were involved in organizing"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "last year's concert: przeszłość, a podmiot w liczbie mnogiej (three students), więc were."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "be involved in + -ing = brać udział w czymś. Przyimek in dopisujesz sam."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "were involved in organising (4 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "involved to organise ✗. Przy czynności (-ing) używamy in, a po in czasownik ma -ing."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations", "past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "g1-museum-worth-visit",
+    "type": "gap-fill",
+    "sentence": "If you like baking, the Living Museum of Gingerbread in Toruń ___ (worth / visit): you can make your own gingerbread there.",
+    "correct": ["is worth visiting", "is worth a visit"],
+    "accepted": ["'s worth visiting", "'s worth a visit"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Rada na dziś i ogólna prawda o muzeum (you can make): present simple, czyli is."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "be worth + -ing albo be worth + rzeczownik = warto coś zrobić."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "is worth visiting (3 wyrazy) albo z rzeczownikiem is worth a visit (4)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "is worth to visit ✗. Bez is też źle: przed worth potrzebne jest be."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations", "present-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "g1-shirt-needs-ironing",
+    "type": "gap-fill",
+    "sentence": "My white shirt looks terrible after two days in my suitcase, so it really ___ (need / iron) before the wedding tomorrow.",
+    "correct": ["needs ironing", "needs to be ironed"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "it = koszula, liczba pojedyncza, teraz: needs."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Koszula sama się nie prasuje. need + -ing ma znaczenie bierne, tak samo jak need + to be + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "needs ironing (2 wyrazy) albo needs to be ironed (4)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "needs to iron ✗ znaczyłoby, że to koszula ma coś prasować. Nie zgub też -s w needs."
+      }
+    ],
+    "tags": ["gerund-infinitive", "key-word-transformations", "passive-voice"],
+    "difficulty": 3
+  },
+  {
+    "id": "g1-church-destroyed",
+    "type": "gap-fill",
+    "sentence": "By the time the firefighters arrived, most of the old wooden church ___ (already / destroy) by the flames.",
+    "correct": ["had already been destroyed"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "By the time + past simple (arrived): to, co skończyło się przed tym momentem, idzie w past perfect."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Kościół zniszczył ogień (by the flames), więc strona bierna: had + been + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "already stoi po had: had already been destroyed (4 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "was being destroyed mówiłoby, że ogień dopiero niszczył kościół, a has been destroyed nie pasuje do opowieści o przeszłości."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "past-perfect"],
+    "difficulty": 2
+  }
+]

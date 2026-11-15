@@ -1,0 +1,586 @@
+[
+  {
+    "id": "kt-georgian-food",
+    "type": "key-word-transformation",
+    "source": "It's the first time I've tried Georgian food — this khachapuri is amazing!",
+    "keyWord": "NEVER",
+    "target": "I ___ Georgian food before — this khachapuri is amazing!",
+    "maxWords": 5,
+    "correct": ["have never tried"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "It's the first time + present perfect: coś dzieje się pierwszy raz teraz, a przez całe życie do tej chwili tego nie było."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Ten sam sens od drugiej strony: never + present perfect + before, czyli ani razu przed tą chwilą."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "try → tried → tried: have never tried (3 wyrazy). never stoi między have a trzecią formą."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Chodzi o okres aż do teraz, więc bezpieczny jest present perfect. I never tried before to forma amerykańska; w brytyjskim angielskim i na maturze bezpieczniej present perfect."
+      }
+    ],
+    "tags": ["present-perfect", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "kt-sea-first-time",
+    "type": "key-word-transformation",
+    "source": "Hania has never seen the sea before, so she can't stop running along the beach.",
+    "keyWord": "TIME",
+    "target": "Hania can't stop running along the beach because this is the first ___ the sea.",
+    "maxWords": 5,
+    "correct": ["time she has seen", "time she has ever seen", "time that she has seen"],
+    "accepted": ["time she's seen", "time she's ever seen", "time that she's seen"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "has never seen … before: Hania widzi morze pierwszy raz w życiu, właśnie teraz."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "This is the first time + present perfect. the first już jest w zdaniu, więc luka zaczyna się od time."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "see → saw → seen: time she has seen (4 wyrazy). Zamiast imienia piszesz she, bo Hania jest już na początku zdania."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "Możesz dodać ever albo that i dalej masz 5 wyrazów. time that she has ever seen to już 6, za dużo."
+      }
+    ],
+    "tags": ["present-perfect", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kt-grandpa-drove",
+    "type": "key-word-transformation",
+    "source": "Grandpa hasn't driven a car for ten years.",
+    "keyWord": "LAST",
+    "target": "Grandpa ___ a car ten years ago.",
+    "maxWords": 5,
+    "correct": ["last drove"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "hasn't driven + for ten years: od dziesięciu lat ani razu, czyli ostatni raz prowadził dziesięć lat temu."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "ago wymaga past simple, a last przed czasownikiem znaczy „ostatni raz”."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "drive → drove → driven: last drove (2 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "has last driven to błąd: przy ago nie stawia się present perfect."
+      }
+    ],
+    "tags": ["past-simple", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "kt-bowling-ages",
+    "type": "key-word-transformation",
+    "source": "We haven't been bowling for ages — let's go this weekend!",
+    "keyWord": "AGES",
+    "target": "It's ___ bowling — let's go this weekend!",
+    "maxWords": 5,
+    "correct": ["ages since we went", "ages since we last went", "been ages since we went"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "haven't been + for ages: od bardzo dawna tego nie robiliśmy."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "It's ages since + past simple: od ostatniego razu (since) minęło dużo czasu (ages). Ostatni raz to moment w przeszłości, więc po since najczęściej (i najbezpieczniej) jest past simple. W brytyjskim angielskim spotkasz też present perfect: since we have been."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "have been bowling w past simple to went bowling: ages since we went (4 wyrazy), z last: ages since we last went (5)."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "It's been ages since we went też jest dobrze, w luce to 5 wyrazów. been ages since we last went ma już 6."
+      }
+    ],
+    "tags": ["past-simple", "key-word-transformations"],
+    "difficulty": 3,
+    "accepted": ["ages since we have been"]
+  },
+  {
+    "id": "kt-cello-been",
+    "type": "key-word-transformation",
+    "source": "Zuzia started learning the cello six years ago, and she still has lessons every week.",
+    "keyWord": "BEEN",
+    "target": "Zuzia ___ the cello for six years, and she still has lessons every week.",
+    "maxWords": 5,
+    "correct": ["has been learning"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "started + ago, a do tego still: nauka zaczęła się w przeszłości i trwa do dziś."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Czynność trwająca od przeszłości do teraz z for to present perfect continuous: has been + V-ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Zuzia to she, więc has: has been learning (3 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "is learning for six years to kalka z polskiego „uczy się od sześciu lat”. Przy for i „do teraz” potrzebne jest has."
+      }
+    ],
+    "tags": ["present-perfect-continuous", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "kt-lublin-lived",
+    "type": "key-word-transformation",
+    "source": "My family moved to Lublin in 2020, and we still love it here.",
+    "keyWord": "LIVED",
+    "target": "My family ___ Lublin since 2020, and we still love it here.",
+    "maxWords": 5,
+    "correct": ["has lived in", "have lived in"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "moved in 2020 + still love it here: mieszkamy tu od 2020 roku do dziś."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "since + punkt w czasie i stan, który trwa do teraz: present perfect (has/have + V3)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "has lived in (3 wyrazy). family w brytyjskim angielskim może łączyć się też z liczbą mnogą, więc have lived in też jest poprawne."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie zgub przyimka: live in Lublin. has lived Lublin to błąd."
+      }
+    ],
+    "tags": ["present-perfect", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kt-igor-horse",
+    "type": "key-word-transformation",
+    "source": "It was the first time Igor had ridden a horse, so he was a bit nervous.",
+    "keyWord": "NEVER",
+    "target": "Igor ___ a horse before, so he was a bit nervous.",
+    "maxWords": 5,
+    "correct": ["had never ridden"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "It was the first time + past perfect: pierwszy raz, ale w pewnym momencie w przeszłości."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Odwracasz to na never … before. Patrzysz z punktu w przeszłości (wtedy był zdenerwowany), więc potrzebny jest past perfect: had never + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "ride → rode → ridden: had never ridden (3 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "has never ridden nie pasuje, bo reszta zdania jest w przeszłości (was nervous). had never rode to błąd w trzeciej formie."
+      }
+    ],
+    "tags": ["past-perfect", "key-word-transformations"],
+    "difficulty": 2,
+    "accepted": ["had never been on"]
+  },
+  {
+    "id": "kt-northern-lights",
+    "type": "key-word-transformation",
+    "source": "My parents saw the Northern Lights in Iceland last winter. They had never seen them before.",
+    "keyWord": "TIME",
+    "target": "When my parents saw the Northern Lights in Iceland last winter, it was the first ___ them.",
+    "maxWords": 5,
+    "correct": ["time they had seen", "time they had ever seen", "time that they had seen"],
+    "accepted": ["time they'd seen", "time they'd ever seen", "time that they'd seen"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "had never seen them before: zorzę zobaczyli pierwszy raz, ale to było w przeszłości."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Po It was the first time stoi past perfect, tak jak po It's the first time stoi present perfect."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "see → saw → seen: time they had seen (4 wyrazy). Luka zaczyna się od time, bo the first już jest w zdaniu."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "Z ever albo z that masz 5 wyrazów. time that they had ever seen to już 6."
+      }
+    ],
+    "tags": ["past-perfect", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "kt-grandma-bread",
+    "type": "key-word-transformation",
+    "source": "My grandma used to bake her own bread, but she doesn't now.",
+    "keyWord": "LONGER",
+    "target": "My grandma ___ her own bread.",
+    "maxWords": 5,
+    "correct": ["no longer bakes"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "used to + but she doesn't now: kiedyś tak, dziś już nie."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "no longer + czasownik w present simple znaczy „już nie”. Stoi przed czasownikiem głównym."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "grandma to she, więc bakes z -s: no longer bakes (3 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "doesn't no longer bake to podwójne przeczenie. no longer samo w sobie jest przeczeniem."
+      }
+    ],
+    "tags": ["present-simple", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kt-kacper-drums",
+    "type": "key-word-transformation",
+    "source": "Kacper played the drums in the school band, but he doesn't any more.",
+    "keyWord": "USED",
+    "target": "Kacper ___ the drums in the school band.",
+    "maxWords": 5,
+    "correct": ["used to play"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "played + doesn't any more: dawny zwyczaj, który się skończył."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "used to + V1 mówi właśnie to: kiedyś regularnie, teraz już nie."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "used to play (3 wyrazy), play w formie podstawowej."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "is used to playing znaczy „jest przyzwyczajony do grania”, to zupełnie inny sens."
+      }
+    ],
+    "tags": ["past-simple", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "kt-landline-any",
+    "type": "key-word-transformation",
+    "source": "My parents no longer have a landline — they only use their mobiles.",
+    "keyWord": "ANY",
+    "target": "My parents don't ___ — they only use their mobiles.",
+    "maxWords": 5,
+    "correct": ["have a landline any more"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "no longer = już nie, a w zdaniu docelowym przeczenie don't już jest."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "not … any more znaczy to samo co no longer, ale any more stoi na końcu, po dopełnieniu."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "have a landline any more (5 wyrazów). Słowo klucz to ANY, więc piszesz any more osobno (dwa wyrazy). anymore zmieniłoby słowo klucz."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie zgub przedimka: a landline. don't have any landline more to zły szyk."
+      }
+    ],
+    "tags": ["present-simple", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kt-last-train",
+    "type": "key-word-transformation",
+    "source": "The last train left just before we got to the station.",
+    "keyWord": "HAD",
+    "target": "By the time we got to the station, the last train ___.",
+    "maxWords": 5,
+    "correct": ["had left", "had just left"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "left just before we got: najpierw odjechał pociąg, dopiero potem my dotarliśmy na stację."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "By the time + past simple, a w drugiej części past perfect dla tego, co stało się wcześniej."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "leave → left → left: had left (2 wyrazy). Możesz dodać just albo already: had just left, had already left."
+      }
+    ],
+    "tags": ["past-perfect", "key-word-transformations"],
+    "difficulty": 1,
+    "accepted": ["had already left", "had gone", "had just gone"]
+  },
+  {
+    "id": "kt-leave-about",
+    "type": "key-word-transformation",
+    "source": "I was just going to leave the house when it started to pour.",
+    "keyWord": "ABOUT",
+    "target": "I ___ the house when it started to pour.",
+    "maxWords": 5,
+    "correct": ["was just about to leave", "was about to leave"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "was just going to leave + when: za chwilę miałem wyjść i wtedy coś przerwało ten plan."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "be about to + V1 = zaraz, za moment coś zrobić. W przeszłości be zmieniasz na was."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "was about to leave (4 wyrazy), a z just: was just about to leave (5). just stoi przed about."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "was about to leaving to błąd: po about to stoi bezokolicznik."
+      }
+    ],
+    "tags": ["be-going-to", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "kt-boring-book",
+    "type": "key-word-transformation",
+    "source": "Our set text for English is awful — I've never read such a boring book.",
+    "keyWord": "EVER",
+    "target": "Our set text for English is awful — it's the most boring book ___.",
+    "maxWords": 5,
+    "correct": ["I have ever read", "that I have ever read"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "never + such a boring book: w całym życiu nie trafiła mi się nudniejsza książka."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Stopień najwyższy + present perfect z ever: the most … I have ever + V3. ever znaczy tu „kiedykolwiek”."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "read → read → read (w trzeciej formie czytasz /red/): I have ever read (4 wyrazy), z that: that I have ever read (5)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Chodzi o całe życie aż do teraz, więc present perfect. I ever read w past simple to forma amerykańska i na maturze ryzyko."
+      }
+    ],
+    "tags": ["present-perfect", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kt-dog-barking",
+    "type": "key-word-transformation",
+    "source": "Our neighbours' dog started barking at six o'clock this morning and it hasn't stopped.",
+    "keyWord": "SINCE",
+    "target": "Our neighbours' dog ___ six o'clock this morning.",
+    "maxWords": 5,
+    "correct": ["has been barking since"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "started at six + hasn't stopped: pies szczeka od szóstej do teraz, bez przerwy."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Czynność trwająca od punktu w przeszłości do teraz: present perfect continuous. six o'clock to punkt w czasie, więc since."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "has been barking since (4 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "for six o'clock to błąd: for stoi przed długością okresu (for three hours), since przed punktem startu."
+      }
+    ],
+    "tags": ["present-perfect-continuous", "key-word-transformations"],
+    "difficulty": 2,
+    "accepted": ["has been barking non-stop since"]
+  },
+  {
+    "id": "kt-mum-cooking",
+    "type": "key-word-transformation",
+    "source": "Mum started cooking at noon, and when the guests arrived at three, she was still in the kitchen.",
+    "keyWord": "FOR",
+    "target": "When the guests arrived, Mum ___ three hours.",
+    "maxWords": 5,
+    "correct": ["had been cooking for"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "started at noon + arrived at three + still: gotowanie trwało aż do chwili w przeszłości."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Czynność trwająca do momentu w przeszłości to past perfect continuous: had been + V-ing, a długość okresu podajesz z for."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Od dwunastej do trzeciej są trzy godziny: had been cooking for (4 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "has been cooking nie pasuje, bo punktem odniesienia jest przeszłość (arrived), a nie teraz."
+      }
+    ],
+    "tags": ["past-perfect-continuous", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "kt-football-years",
+    "type": "key-word-transformation",
+    "source": "I last went to a football match five years ago.",
+    "keyWord": "YEARS",
+    "target": "It's five ___ to a football match.",
+    "maxWords": 5,
+    "correct": ["years since I went", "years since I last went"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "last + five years ago: od ostatniego razu minęło pięć lat."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "It's + okres + since + past simple. since wskazuje moment, od którego liczysz, a ten moment opisujesz w past simple."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "years since I went (4 wyrazy) albo z last: years since I last went (5)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "five years ago since to błąd: ago i since się nie łączą."
+      }
+    ],
+    "tags": ["past-simple", "key-word-transformations"],
+    "difficulty": 2,
+    "accepted": ["years since I have been"]
+  },
+  {
+    "id": "kt-meat-for",
+    "type": "key-word-transformation",
+    "source": "The last time I ate meat was two years ago — I'm a vegetarian now.",
+    "keyWord": "FOR",
+    "target": "I ___ two years — I'm a vegetarian now.",
+    "maxWords": 5,
+    "correct": ["haven't eaten meat for", "haven't eaten any meat for"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "The last time … was two years ago: od dwóch lat ani razu."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Od tamtej chwili do teraz to present perfect, w przeczeniu haven't + V3. Długość okresu (two years) podajesz z for."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "eat → ate → eaten: haven't eaten meat for (4 wyrazy, haven't to jeden wyraz)."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "haven't eaten any meat for to 5 wyrazów, więc też się mieści, ale tylko ze skrótem. have not eaten any meat for ma już 6."
+      }
+    ],
+    "tags": ["present-perfect", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kt-dentist-last",
+    "type": "key-word-transformation",
+    "source": "You keep complaining about toothache. How long is it since you last saw a dentist?",
+    "keyWord": "LAST",
+    "target": "You keep complaining about toothache. When ___ a dentist?",
+    "maxWords": 5,
+    "correct": ["did you last see"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "How long is it since you last saw: pytanie o to, ile czasu minęło od ostatniej wizyty."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "To samo możesz zapytać o moment: When did you last + V1? Pytasz o czas w przeszłości, więc past simple."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "did you last see (4 wyrazy). Po did czasownik wraca do formy podstawowej: see, nie saw."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "When have you last seen to błąd: pytanie when o moment w przeszłości stawiasz w past simple. When was the last time you saw ma 6 wyrazów, więc się nie mieści."
+      }
+    ],
+    "tags": ["past-simple", "key-word-transformations"],
+    "difficulty": 3,
+    "accepted": ["did you last go to", "did you last visit"]
+  },
+  {
+    "id": "kt-pierogi-use",
+    "type": "key-word-transformation",
+    "source": "When I was a child, I didn't like pierogi, but now I love them.",
+    "keyWord": "USE",
+    "target": "I ___ pierogi as a child, but now I love them.",
+    "maxWords": 5,
+    "correct": ["didn't use to like"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "didn't like + but now I love them: dawny stan, który się zmienił."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "used to + V1 pasuje też do stanów (like, have, be). W przeczeniu jest didn't use to, bez -d, bo po did czasownik ma formę podstawową."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "didn't use to like (4 wyrazy, didn't to jeden)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Słowo klucz to USE, więc used not to like odpada: formy słowa klucza nie wolno zmieniać."
+      }
+    ],
+    "tags": ["past-simple", "key-word-transformations"],
+    "difficulty": 3
+  }
+]

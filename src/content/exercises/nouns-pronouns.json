@@ -1,0 +1,664 @@
+[
+  {
+    "id": "nnp-first-boss-advice",
+    "type": "choice",
+    "text": "My first boss gave me ___ that I've never forgotten: never promise a client something you can't deliver.",
+    "gaps": [
+      {
+        "options": ["a piece of advice", "an advice", "a piece of advices", "an advise"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "gave me ___ that…: potrzebny rzeczownik, i to jedna rada."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "advice jest niepoliczalne: nie ma a / an ani -s. Jedną radę liczysz przez a piece of advice."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "an advice to kalka z polskiego „rada”. advices nie istnieje, także po a piece of. advise przez s to czasownik (doradzać)."
+          }
+        ]
+      }
+    ],
+    "tags": ["nouns-pronouns"],
+    "difficulty": 1
+  },
+  {
+    "id": "nnp-vet-news",
+    "type": "choice",
+    "text": "I've just spoken to the vet, and the news ___ better than we expected: our dog can come home tomorrow.",
+    "gaps": [
+      {
+        "options": ["is", "are", "were", "have been"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Podmiotem jest the news. Końcówka -s tylko udaje liczbę mnogą."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "news jest niepoliczalne, więc czasownik stoi w liczbie pojedynczej: the news is, the news was."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "are, were i have been pasują tylko do liczby mnogiej. Po polsku „wiadomości są”, po angielsku the news is."
+          }
+        ]
+      }
+    ],
+    "tags": ["nouns-pronouns"],
+    "difficulty": 1
+  },
+  {
+    "id": "nnp-edinburgh-trip-notice",
+    "type": "choice",
+    "title": "Edinburgh trip: final details",
+    "text": "Dear students, here ___ some important information about next week's trip to Edinburgh. Please don't bring too ___ luggage: one small suitcase each is enough, because space on the coach is limited. You will also have some homework to do on the journey, but don't worry: ___ won't take more than twenty minutes. Finally, Mr Kowalski has done ___ research into the history of the city, so get ready for some amazing stories!",
+    "gaps": [
+      {
+        "options": ["is", "are", "have", "were"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Za luką stoi some important information. Od tego rzeczownika zależy, czy Here is, czy Here are."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "information jest niepoliczalne, więc czasownik w liczbie pojedynczej: Here is some information."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Po polsku „informacje są”, stąd kusi are. are i were to liczba mnoga, a here have nie tworzy zdania."
+          }
+        ]
+      },
+      {
+        "options": ["much", "many", "a lot", "few"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "too ___ luggage: przed rzeczownikiem brakuje słowa, które mówi „ile”."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "luggage (bagaż) jest niepoliczalne, więc łączy się z much i little. many i few idą tylko z liczbą mnogą."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "a lot potrzebuje of, a too a lot w ogóle nie istnieje. Jedna walizka to a piece of luggage albo a suitcase."
+          }
+        ]
+      },
+      {
+        "options": ["it", "they", "these", "them"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Luka to podmiot, który zastępuje some homework z poprzedniej części zdania."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "homework jest niepoliczalne, więc zastępuje je it, a czasownik stoi w liczbie pojedynczej."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "„Zadania domowe” to po polsku liczba mnoga, ale they i these po angielsku tu nie pasują. them to dopełnienie, nie podmiot."
+          }
+        ]
+      },
+      {
+        "options": ["a lot of", "many", "a", "several"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "has done ___ research: do research to „prowadzić badania”."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "research traktuj jako niepoliczalne: a lot of research, nie many research ani a research."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "„Badania” to po polsku liczba mnoga, stąd kusi many albo several. Jedno badanie to a study."
+          }
+        ]
+      }
+    ],
+    "tags": ["nouns-pronouns"],
+    "difficulty": 2
+  },
+  {
+    "id": "nnp-band-equipment",
+    "type": "gap-fill",
+    "sentence": "The airline made our band leave ___ (several / piece / equipment) at the airport because our luggage was over the weight limit.",
+    "correct": ["several pieces of equipment"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "several to kilka sztuk, a equipment (sprzęt) jest niepoliczalne."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Sztuki czegoś niepoliczalnego liczysz przez piece of: several pieces of equipment."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "-s dostaje piece, nigdy equipment. several piece of equipments to dwa błędy naraz."
+      },
+      {
+        "label_pl": "limit",
+        "text_pl": "several, pieces, of, equipment: 4 wyrazy, wliczając podane."
+      }
+    ],
+    "tags": ["nouns-pronouns"],
+    "difficulty": 2
+  },
+  {
+    "id": "nnp-room-only-chair",
+    "type": "key-word-transformation",
+    "source": "Apart from an old wooden chair, there was no furniture in the room.",
+    "keyWord": "PIECE",
+    "target": "The only ___ in the room was an old wooden chair.",
+    "correct": ["piece of furniture"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "The only ___ … was an old wooden chair: jedno krzesło to jedna sztuka mebli."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "furniture jest niepoliczalne, więc jedną sztukę nazywasz piece of furniture. a odpada, bo przed luką jest już the only."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "The only furniture też jest poprawne, ale nie ma w nim słowa PIECE. furnitures nie istnieje."
+      }
+    ],
+    "tags": ["nouns-pronouns"],
+    "difficulty": 2
+  },
+  {
+    "id": "nnp-cyclist-passers-by",
+    "type": "gap-fill",
+    "sentence": "When the cyclist fell off his bike, two ___ (passer-by) rushed over to help him.",
+    "correct": ["passers-by"],
+    "accepted": ["passersby"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "two: potrzebna liczba mnoga."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "W złożeniu z łącznikiem -s dostaje główny rzeczownik. passer-by to ktoś, kto przechodzi obok, więc ważne słowo to passer."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "passer → passers, a -by zostaje bez zmian: passers-by."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "passer-bys to częsty błąd. Na koniec -s idzie tylko wtedy, gdy w środku nie ma rzeczownika, jak w grown-ups."
+      }
+    ],
+    "tags": ["nouns-pronouns"],
+    "difficulty": 3
+  },
+  {
+    "id": "nnp-police-ring-road",
+    "type": "choice",
+    "text": "The police ___ still looking for the driver who caused last night's accident on the ring road.",
+    "gaps": [
+      {
+        "options": ["are", "is", "was", "has"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Podmiotem jest the police, a still looking pokazuje, że szukanie trwa teraz."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "police zawsze łączy się z czasownikiem w liczbie mnogiej, tak jak people: the police are."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Po polsku „policja szuka” (liczba pojedyncza), stąd kusi is. was odpada przez liczbę, a has nie tworzy formy z looking."
+          }
+        ]
+      }
+    ],
+    "tags": ["nouns-pronouns"],
+    "difficulty": 2
+  },
+  {
+    "id": "nnp-company-logo",
+    "type": "choice",
+    "text": "The company has changed ___ logo three times in the last ten years, and some customers still don't recognise the new one.",
+    "gaps": [
+      {
+        "options": ["its", "it's", "his", "her"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "has changed: firma jest tu jedną całością, więc mówisz o niej it."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Dzierżawcze od it to its, bez apostrofu, tak samo jak his, hers i ours."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "it's to skrót od it is albo it has. W brytyjskim można też powiedzieć The company have changed their logo, ale wtedy konsekwentnie have i their."
+          }
+        ]
+      }
+    ],
+    "tags": ["nouns-pronouns"],
+    "difficulty": 2
+  },
+  {
+    "id": "nnp-grandparents-mountains",
+    "type": "choice",
+    "text": "Every summer I spend two weeks at my ___ house in the mountains. They moved there when Grandad retired.",
+    "gaps": [
+      {
+        "options": ["grandparents'", "grandparent's", "grandparents's", "grandparents"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "They w drugim zdaniu pokazuje, że dom należy do dwóch osób."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Liczba mnoga zakończona na -s dostaje sam apostrof: grandparents'."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "grandparent's to dom jednej osoby. grandparents's ma o jedno s za dużo, a samo grandparents bez apostrofu nie mówi, czyje to."
+          }
+        ]
+      }
+    ],
+    "tags": ["nouns-pronouns"],
+    "difficulty": 2
+  },
+  {
+    "id": "nnp-writer-rights",
+    "type": "gap-fill",
+    "sentence": "The writer, who died last year, spent her whole life fighting for ___ (woman) rights.",
+    "correct": ["women's"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Prawa należą do kobiet w ogóle, więc potrzebna liczba mnoga i forma dzierżawcza."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "woman ma nieregularną liczbę mnogą: women. Nie kończy się na -s, więc dostaje 's: women's."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "womens' i womans to błędy. Sam apostrof po s piszesz tylko wtedy, gdy liczba mnoga kończy się na -s: the girls' rooms."
+      }
+    ],
+    "tags": ["nouns-pronouns"],
+    "difficulty": 2
+  },
+  {
+    "id": "nnp-borrowed-tent",
+    "type": "key-word-transformation",
+    "source": "I borrowed this tent from one of my friends.",
+    "keyWord": "MINE",
+    "target": "I borrowed this tent from ___.",
+    "correct": ["a friend of mine"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "one of my friends: jeden z moich przyjaciół, bez mówienia który."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "a i my nie mogą stać obok siebie (a my friend to błąd), więc mówisz a friend of mine."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "a friend of me jest błędne: po of stoi tu mine, czyli zaimek samodzielny."
+      }
+    ],
+    "tags": ["nouns-pronouns"],
+    "difficulty": 2
+  },
+  {
+    "id": "nnp-high-street-trainers",
+    "type": "choice",
+    "text": "There's a new ___ on the high street, and they've got trainers in every colour you can imagine.",
+    "gaps": [
+      {
+        "options": ["shoe shop", "shoes shop", "shoe's shop", "shop of shoes"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Sklep, w którym sprzedają buty: dwa rzeczowniki obok siebie."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "W rzeczowniku złożonym pierwsze słowo działa jak przymiotnik i zostaje w liczbie pojedynczej: a shoe shop, a bus stop."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "shoes shop to kalka z „sklep z butami”. shoe's shop znaczyłoby sklep należący do buta, a shop of shoes nie brzmi naturalnie."
+          }
+        ]
+      }
+    ],
+    "tags": ["nouns-pronouns"],
+    "difficulty": 1
+  },
+  {
+    "id": "nnp-museum-walk",
+    "type": "gap-fill",
+    "sentence": "Don't bother taking the bus: the museum is only ___ (ten / minute / walk) from here.",
+    "correct": [
+      "a ten-minute walk",
+      "ten minutes' walk",
+      "a ten-minute walk away",
+      "ten minutes' walk away"
+    ],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "ten i minute stoją przed walk, więc opisują, jaki to spacer."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Liczba + rzeczownik przed innym rzeczownikiem działa jak przymiotnik: bez -s, z łącznikiem i z a przed całością: a ten-minute walk."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Druga poprawna droga to forma dzierżawcza: ten minutes' walk. Wtedy minutes ma -s i apostrof, a a znika."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "a ten-minutes walk i a ten minutes walk to błędy: albo przymiotnik bez -s, albo dzierżawcze z apostrofem."
+      },
+      {
+        "label_pl": "limit",
+        "text_pl": "a, ten-minute, walk to 3 wyrazy, bo wyraz z łącznikiem liczy się jako jeden."
+      }
+    ],
+    "tags": ["nouns-pronouns"],
+    "difficulty": 3,
+    "accepted": ["a ten minute walk"]
+  },
+  {
+    "id": "nnp-grandmother-smartphone",
+    "type": "gap-fill",
+    "sentence": "Nobody showed my grandmother how to use a smartphone: she taught ___ (she) by watching videos online.",
+    "correct": ["herself"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "she taught ___: uczyła i była uczona ta sama osoba."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Gdy podmiot i dopełnienie to ta sama osoba, stawiasz zaimek zwrotny: she → herself."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "she taught her znaczyłoby, że uczyła kogoś innego."
+      }
+    ],
+    "tags": ["nouns-pronouns"],
+    "difficulty": 1
+  },
+  {
+    "id": "nnp-tatra-hostel-weekend",
+    "type": "choice",
+    "title": "A weekend in the Tatras",
+    "text": "Last weekend our class stayed at a small hostel in the mountains. On the first evening everyone was exhausted, so we just sat by the fire and ___. Our teacher told us to forget about school and simply enjoy ___. Some people in the group had hardly spoken before the trip, but by Sunday they were borrowing ___ jumpers and laughing like old friends. ___ was so cold on the last morning that we stayed indoors and played cards. Back at home, I found it really hard to ___ on my history essay.",
+    "gaps": [
+      {
+        "options": ["relaxed", "relaxed ourselves", "relaxed us", "relaxed themselves"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "we just sat by the fire and ___: po prostu odpoczywaliśmy."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "relax po angielsku nie jest zwrotny: we relaxed. Polskie „się” nie przechodzi na angielski."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "relaxed ourselves to kalka z „zrelaksowaliśmy się”, a us i themselves w ogóle nie pasują do we."
+          }
+        ]
+      },
+      {
+        "options": ["ourselves", "us", "yourselves", "themselves"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "told us to … enjoy ___: dobrze bawić się mamy my, czyli us."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "enjoy w zdaniu oznajmującym potrzebuje dopełnienia. Kiedy nie ma rzeczy, którą się lubi, dopełnieniem jest zaimek zwrotny: enjoy ourselves = dobrze się bawić."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "yourselves pasuje do słów nauczyciela wprost (Enjoy yourselves!), ale w relacji osobą jest us, więc ourselves."
+          }
+        ]
+      },
+      {
+        "options": ["each other's", "each other", "themselves", "theirselves"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "had hardly spoken … but by Sunday … like old friends: pożyczali swetry jedni od drugich."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Wzajemność to each other, a przed rzeczownikiem (jumpers) potrzebna jest forma dzierżawcza: each other's."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "themselves to każdy sobie, a theirselves nie istnieje. each other bez 's nie może stać przed rzeczownikiem."
+          }
+        ]
+      },
+      {
+        "options": ["It", "There", "This", "That"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "___ was so cold: opisujesz pogodę, a nie to, że coś istnieje."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Pogoda, temperatura i godzina mają pusty podmiot it: It was cold."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Po There was musiałby stać rzeczownik (There was snow). This i That wskazywałyby na coś konkretnego."
+          }
+        ]
+      },
+      {
+        "options": ["concentrate", "concentrate myself", "concentrate me", "concentrate itself"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "hard to ___ on my history essay: skupić się na wypracowaniu."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "concentrate on sth nie bierze zaimka zwrotnego, podobnie jak relax, feel i meet."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "concentrate myself to kalka z „skupić się”."
+          }
+        ]
+      }
+    ],
+    "tags": ["nouns-pronouns"],
+    "difficulty": 3
+  },
+  {
+    "id": "nnp-kasia-since-2018",
+    "type": "key-word-transformation",
+    "source": "Kasia and I first met in 2018.",
+    "keyWord": "KNOWN",
+    "target": "Kasia and I ___ 2018.",
+    "correct": ["have known each other since", "have known one another since"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "first met in 2018: od tamtej chwili się znacie, aż do teraz."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "„Znamy się” to wzajemność: Kasia zna mnie, a ja ją → each other (albo one another)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Okres od 2018 do teraz → have known … since 2018."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "know ourselves znaczyłoby, że każdy zna sam siebie. We know each other since… to błąd czasu."
+      }
+    ],
+    "tags": ["nouns-pronouns", "present-perfect"],
+    "difficulty": 3
+  },
+  {
+    "id": "nnp-scholarship-criteria",
+    "type": "gap-fill",
+    "sentence": "To get the scholarship, you have to meet two ___ (criterion): excellent grades and a convincing motivation letter.",
+    "correct": ["criteria"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "two: potrzebna liczba mnoga."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "criterion pochodzi z greki i ma nieregularną liczbę mnogą: criteria, tak jak phenomenon → phenomena."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "criterions się nie używa. Uważaj też w drugą stronę: criteria to już liczba mnoga, więc one criterion, nie one criteria."
+      }
+    ],
+    "tags": ["nouns-pronouns"],
+    "difficulty": 2
+  },
+  {
+    "id": "nnp-grey-curtains",
+    "type": "choice",
+    "text": "I don't like these grey curtains. Let's buy some brighter ___ for the living room.",
+    "gaps": [
+      {
+        "options": ["ones", "one", "them", "it"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "some brighter ___: zamiast drugi raz mówić curtains, potrzebujesz słowa zastępczego."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Policzalny rzeczownik po przymiotniku zastępujesz one (lp.) albo ones (lm.). curtains to liczba mnoga → ones."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "them i it oznaczałyby te same zasłony, a chcesz kupić inne. one nie pasuje do some ani do liczby mnogiej."
+          }
+        ]
+      }
+    ],
+    "tags": ["nouns-pronouns"],
+    "difficulty": 1
+  },
+  {
+    "id": "nnp-morning-traffic",
+    "type": "choice",
+    "text": "___ so much traffic in the city centre this morning that I missed my first lesson.",
+    "gaps": [
+      {
+        "options": ["There was", "It was", "There were", "It had"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce stoi rzeczownik (traffic) i miejsce (in the city centre): mówisz, że coś było."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Informację, że coś istnieje albo gdzieś jest, zaczynasz od there."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "traffic jest niepoliczalne, więc czasownik w liczbie pojedynczej: There was."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "It was so much traffic to kalka z „było tyle korków”. There were pasowałoby do liczby mnogiej, np. so many cars."
+          }
+        ]
+      }
+    ],
+    "tags": ["nouns-pronouns"],
+    "difficulty": 2
+  },
+  {
+    "id": "nnp-new-bar-noise",
+    "type": "gap-fill",
+    "sentence": "___ (be / several / complaint) about the noise since the new bar opened on our street.",
+    "correct": ["There have been several complaints"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "since the new bar opened: okres od przeszłości do teraz."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Mówisz, że skargi były, czyli że istniały. Takie zdanie zaczyna się od There, a czas niesie be: There have been."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Czasownik zgadza się z rzeczownikiem po nim: several complaints to liczba mnoga, więc have, nie has."
+      },
+      {
+        "label_pl": "limit",
+        "text_pl": "There, have, been, several, complaints: 5 wyrazów."
+      }
+    ],
+    "tags": ["nouns-pronouns", "present-perfect"],
+    "difficulty": 3
+  }
+]

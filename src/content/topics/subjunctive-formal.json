@@ -1,0 +1,577 @@
+{
+  "id": "subjunctive-formal",
+  "category": "grammar",
+  "title_pl": "Tryb łączący: suggest that…, If I were, as if, would rather, had better",
+  "summary_pl": "Dlaczego po suggest, insist i It is essential that stoi goła forma czasownika, skąd się bierze If I were i as if he were, jak działają would rather i had better i które z tych struktur brzmią formalnie.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "**Co to jest tryb łączący?**\n\nZwykłe zdanie opisuje fakt: *He takes the bus.* Czasem jednak mówisz o czymś, co **ma się dopiero stać**, bo ktoś tego żąda albo to konieczne. Albo o czymś, co **nie jest prawdą**, bo tylko to sobie wyobrażasz. Polski robi to słowem *żeby* albo cząstką *-by*: *Zaproponowała, żeby wziął autobus*, *Gdybym był tobą…*\n\nAngielski ma na to dwie formy. Razem nazywa się je *subjunctive*, po polsku ==tryb łączący==:\n\n- **goła forma V1** po słowach typu *suggest, insist, essential*: *She suggested that he take the bus.*\n- **were** w zdaniach nierealnych: *If I were you…*, *as if he were the boss*.\n\nNa tej stronie są też *as if / as though*, *would rather* i *had better*. To nie jest tryb łączący w ścisłym sensie, ale działa na podobnym mechanizmie: forma czasownika pokazuje, że mówisz o życzeniu albo radzie, a nie o fakcie. Skróty: V1 = forma podstawowa (go), V2 = forma Past Simple (went), V3 = trzecia forma (gone)."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Część 1: suggest that he go — żądanie, rada, wymóg**\n\nPo czasownikach, przymiotnikach i rzeczownikach, które znaczą „chcę, żeby to się stało”, zdanie z *that* nie opisuje faktu. Opisuje plan albo wymaganie. Skoro to jeszcze nie fakt, czasownik ==nie dostaje czasu ani osoby==. Stoi goła forma V1:\n\n- bez *-s* w 3. osobie: *that he take*, nie *takes*,\n- bez cofania czasu, nawet gdy zdanie główne jest w przeszłości: *She suggested that he take…*,\n- przy *be* zawsze *be*: *that she be on time*,\n- przeczenie bez *do*: *that he not take*,\n- strona bierna: *be* + V3: *that the room be cleaned*."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "suggest / insist / demand", "role": "signal" },
+        { "text": "(that)", "role": "particle" },
+        { "text": "subject", "role": "subject" },
+        { "text": "(not)", "role": "particle" },
+        { "text": "V1", "role": "verb" }
+      ],
+      "example": {
+        "en": "The coach insisted that every player be at the stadium by nine.",
+        "pl": "Trener nalegał, żeby każdy zawodnik był na stadionie najpóźniej o dziewiątej."
+      }
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "sygnał",
+          "text_pl": "Szukasz słowa, które wyraża żądanie, radę albo konieczność: suggest, recommend, propose, insist, demand, request, require, essential, vital, important, necessary."
+        },
+        {
+          "step_pl": "znaczenie",
+          "text_pl": "Zapytaj: czy zdanie z that mówi, jak jest, czy jak ma być? „Ma być” → tryb łączący."
+        },
+        {
+          "step_pl": "forma",
+          "text_pl": "Podmiot + V1. Ta sama forma dla każdej osoby i w każdym czasie: that she go, that they go, that he be."
+        },
+        {
+          "step_pl": "przeczenie i bierna",
+          "text_pl": "not + V1 (that he not go) oraz be + V3 (that it be done). Bez do, does i did."
+        },
+        {
+          "step_pl": "wersja brytyjska",
+          "text_pl": "Zamiast samej V1 możesz wstawić should + V1: that he should go. Oba warianty są w pełni poprawne."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": ["Słowo", "Rodzaj", "Przykład", "Tłumaczenie"],
+      "rows": [
+        [
+          "suggest",
+          "czasownik",
+          "My sister suggested that we hire bikes for the day.",
+          "Siostra zaproponowała, żebyśmy wypożyczyli rowery na cały dzień."
+        ],
+        [
+          "recommend",
+          "czasownik",
+          "The doctor recommended that Dad drink less coffee.",
+          "Lekarz zalecił, żeby tata pił mniej kawy."
+        ],
+        [
+          "propose",
+          "czasownik",
+          "The mayor has proposed that the park be closed to cars at weekends.",
+          "Burmistrz zaproponował, żeby w weekendy park był zamknięty dla samochodów."
+        ],
+        [
+          "insist",
+          "czasownik",
+          "My parents insist that I be home before midnight.",
+          "Rodzice nalegają, żebym był w domu przed północą."
+        ],
+        [
+          "demand",
+          "czasownik",
+          "The workers demanded that the company pay them for overtime.",
+          "Pracownicy zażądali, żeby firma płaciła im za nadgodziny."
+        ],
+        [
+          "request, require (formalne)",
+          "czasownik",
+          "The hotel requests that guests not smoke in their rooms.",
+          "Hotel prosi, żeby goście nie palili w pokojach."
+        ],
+        [
+          "essential, vital, important, necessary, crucial",
+          "przymiotnik: It is … that",
+          "It is vital that every climber carry a map and a whistle.",
+          "Konieczne jest, żeby każdy wspinacz miał przy sobie mapę i gwizdek."
+        ],
+        [
+          "suggestion, recommendation, proposal, demand, requirement",
+          "rzeczownik + that",
+          "We discussed her suggestion that the club start a junior team.",
+          "Rozmawialiśmy o jej propozycji, żeby klub założył drużynę juniorów."
+        ]
+      ]
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "The guide recommended that we not swim in the river because of the strong current.",
+          "pl": "Przewodnik zalecił, żebyśmy nie pływali w rzece z powodu silnego prądu."
+        },
+        {
+          "en": "It is important that the essay be handed in before Friday.",
+          "pl": "Ważne, żeby wypracowanie zostało oddane przed piątkiem."
+        },
+        {
+          "en": "Mum insisted that I should phone her as soon as the plane landed.",
+          "pl": "Mama nalegała, żebym do niej zadzwonił, gdy tylko samolot wyląduje."
+        }
+      ]
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "V1",
+          "md_pl": "Najbardziej formalne. Typowe dla regulaminów, ogłoszeń i listów formalnych. W amerykańskim angielskim to zwykła forma także na co dzień.",
+          "examples": [
+            {
+              "en": "It is essential that every candidate bring a valid ID card.",
+              "pl": "Każdy zdający musi koniecznie mieć ważny dokument tożsamości."
+            }
+          ]
+        },
+        {
+          "title": "should + V1",
+          "md_pl": "Typowo brytyjskie i neutralne. Pasuje do listu i do rozmowy. Zawsze poprawne.",
+          "examples": [
+            {
+              "en": "It is essential that every candidate should bring a valid ID card.",
+              "pl": "Każdy zdający musi koniecznie mieć ważny dokument tożsamości."
+            }
+          ]
+        },
+        {
+          "title": "zwykły czas",
+          "md_pl": "W luźnym brytyjskim angielskim słychać też zwykły czas: *that everyone brings*. To nie błąd, ale brzmi mniej starannie.",
+          "examples": [
+            {
+              "en": "It's essential that everyone brings their ID.",
+              "pl": "Każdy koniecznie musi wziąć dokument."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Na maturze i w liście formalnym stawiaj na V1 albo *should* + V1. Obie formy są pewne, a zwykły czas z *-s* zostaw do rozmowy."
+    },
+    {
+      "type": "text",
+      "md_pl": "**suggest i insist: żądanie czy fakt?**\n\nTe dwa czasowniki mają po dwa znaczenia. *insist* to „nalegać, żeby…” albo „upierać się, że…”. *suggest* to „proponować, żeby…” albo „wskazywać, że…”. Tryb łączący stoi ==tylko przy żądaniu albo propozycji==. Gdy ktoś twierdzi, że coś jest prawdą, zostaje zwykły czas, w relacji z przeszłości cofnięty jak w mowie zależnej."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "fakt",
+          "md_pl": "Ktoś **twierdzi**, że tak jest albo było. Zwykły czas.",
+          "examples": [
+            {
+              "en": "She insisted that she had locked the door.",
+              "pl": "Upierała się, że zamknęła drzwi na klucz."
+            },
+            {
+              "en": "The survey suggests that most teenagers sleep less than eight hours.",
+              "pl": "Ankieta wskazuje, że większość nastolatków śpi mniej niż osiem godzin."
+            }
+          ]
+        },
+        {
+          "title": "żądanie, propozycja",
+          "md_pl": "Ktoś **chce**, żeby coś się stało. Tryb łączący: V1 albo *should* + V1.",
+          "examples": [
+            {
+              "en": "She insisted that he lock the door every night.",
+              "pl": "Nalegała, żeby co wieczór zamykał drzwi na klucz."
+            },
+            {
+              "en": "Our teacher suggested that we sleep at least eight hours before the exam.",
+              "pl": "Nauczycielka zaproponowała, żebyśmy przed egzaminem spali co najmniej osiem godzin."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Zapytaj: czy zdanie z *that* mówi, **jak jest**, czy **jak ma być**? Jak jest → zwykły czas. Jak ma być → V1 albo *should* + V1."
+    },
+    {
+      "type": "table",
+      "headers": ["Czasownik", "Z that", "Inne poprawne wzorce", "Błąd"],
+      "rows": [
+        ["suggest", "suggest (that) we go", "suggest going", "suggest us to go, suggest to go"],
+        [
+          "recommend",
+          "recommend (that) she rest",
+          "recommend resting; recommend sb to do (brytyjskie, formalne)",
+          "recommend to rest"
+        ],
+        [
+          "propose",
+          "propose (that) we meet",
+          "propose meeting (= proponować); propose to do (= zamierzać)",
+          "propose sb to do"
+        ],
+        [
+          "insist",
+          "insist (that) he come",
+          "insist on coming; insist on sb coming",
+          "insist sb to come, insist to come"
+        ],
+        [
+          "demand",
+          "demand (that) she apologise",
+          "demand to see sb (gdy sam czegoś żądasz); demand an apology",
+          "demand sb to apologise"
+        ],
+        [
+          "request",
+          "request (that) guests not smoke",
+          "request sb to do; be requested to do (formalne)",
+          "—"
+        ],
+        [
+          "require",
+          "require (that) all staff wear a uniform",
+          "require sb to do; be required to do",
+          "—"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**Polska pułapka: zaproponował mi, żebym…**\n\nPo polsku mówisz *zaproponował mi, żebym poszedł*, więc kusi *He suggested me to go*. Po angielsku *suggest* nie łączy się z osobą + *to*. Masz trzy poprawne wyjścia:\n\n- *He suggested (that) I go.* (formalnie)\n- *He suggested (that) I should go.* (po brytyjsku)\n- *He suggested going.* (gdy nie mówisz, kto ma to zrobić)\n\nJeśli chcesz konstrukcję z osobą i *to*, weź inny czasownik: *He advised me to go*, *He told me to go*, *He asked me to go*."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "**Stare formy w gotowych zwrotach.** Tryb łączący przetrwał też w kilku stałych wyrażeniach. Nie musisz ich budować, wystarczy je rozpoznać w tekście: *God save the King* (Boże, chroń króla), *Long live the King* (niech żyje król), *if need be* (w razie potrzeby), *be that as it may* (tak czy inaczej, formalne), *come what may* (cokolwiek się stanie)."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Część 2: were — forma nierealna**\n\nDrugi ślad trybu łączącego to *were*. Gdy coś **nie jest prawdą** albo tylko to sobie wyobrażasz, angielski cofa czasownik do formy przeszłej (szerzej na stronie o trybach warunkowych). Przy *be* tradycyjnie stoi ==were dla każdej osoby==, także po *I, he, she, it*:\n\n- *If I were you, I'd apply.* (rada)\n- *If she were here, she'd know what to do.*\n- *I wish it were Friday.*\n- *He talks as if he were the boss.*\n\nW mowie często słychać *was* (*If I was you…*). To wersja luźniejsza. W liście formalnym, w wypracowaniu i w zwrocie z radą *If I were you* pisz *were*."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "If", "role": "signal" },
+        { "text": "subject", "role": "subject" },
+        { "text": "were", "role": "verb" },
+        { "text": "…", "role": "neutral" },
+        { "text": ",", "role": "neutral" },
+        { "text": "subject", "role": "subject" },
+        { "text": "would", "role": "aux" },
+        { "text": "V1", "role": "verb" }
+      ],
+      "example": {
+        "en": "If I were the mayor, I would build more cycle paths.",
+        "pl": "Gdybym był burmistrzem, zbudowałbym więcej ścieżek rowerowych."
+      }
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "If my sister were here, she'd fix your laptop in five minutes.",
+          "pl": "Gdyby moja siostra tu była, naprawiłaby ci laptopa w pięć minut."
+        },
+        {
+          "en": "I wish it were the summer holidays already.",
+          "pl": "Szkoda, że to jeszcze nie wakacje."
+        },
+        {
+          "en": "If I were you, I'd ask another doctor for a second opinion.",
+          "pl": "Na twoim miejscu zapytałbym o zdanie innego lekarza."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**were tylko przy nierealnym.** Gdy nie wiesz, jak było, i to mogło być prawdą, zostaje zwykłe *was*: *If Kuba was at the party, he must have seen what happened.* Tu *were* byłoby błędem, bo nic nie przeczy faktom."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "**were to: formalna hipoteza.** W tekstach formalnych zobaczysz *If* + *were to* + V1, gdy ktoś rozważa mało prawdopodobny scenariusz: *If the government were to raise taxes, many small shops would close.* (Gdyby rząd podniósł podatki, wiele małych sklepów by upadło.) Znaczy podobnie jak *If the government raised…*, ale brzmi oficjalniej i bardziej hipotetycznie. Nie ma tego na liście struktur CKE, więc wystarczy, że rozpoznasz to w tekście."
+    },
+    {
+      "type": "text",
+      "md_pl": "**as if / as though: jakby**\n\nOba znaczą to samo: porównujesz to, co widzisz albo słyszysz, do jakiejś sytuacji. Forma zależy od tego, jak realne jest to porównanie:\n\n- **możliwe, pewnie prawda** → zwykły czas: *You look as if you need a break.* (chyba naprawdę potrzebujesz)\n- **nieprawda, teraz** → forma przeszła, przy *be* najstaranniej *were*: *She treats me as if I were five.* (nie mam pięciu lat)\n- **porównanie do czegoś wcześniejszego** → Past Perfect: *He looked as if he had run a marathon.*\n\nW mowie przy nierealnym porównaniu często słychać też zwykły czas (*He talks as if he knows everything*). Forma przeszła mocniej podkreśla, że to nieprawda, więc w piśmie jest bezpieczniejsza. Przed *as if* najczęściej stoją *look, sound, seem, feel, act, behave, talk, treat*. W luźnej mowie zamiast *as if* bywa *like* (*It looks like…*), ale w wypracowaniu pisz *as if*."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "możliwe",
+          "md_pl": "Mówiący myśli, że to **może być prawda**. Zwykły czas.",
+          "examples": [
+            {
+              "en": "It sounds as if the neighbours are having a party.",
+              "pl": "Brzmi to tak, jakby sąsiedzi robili imprezę. (chyba robią)"
+            }
+          ]
+        },
+        {
+          "title": "nierealne",
+          "md_pl": "Mówiący wie, że to **nieprawda**, i chce to podkreślić. Forma przeszła.",
+          "examples": [
+            {
+              "en": "My brother acts as if he were the only person in the house.",
+              "pl": "Brat zachowuje się tak, jakby był jedynym domownikiem. (a nie jest)"
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Ta sama spójka, różny stopień realności. W zadaniu szukaj zdania obok, które zdradza, czy to prawda: *but he isn't*, *he had never been there*."
+    },
+    {
+      "type": "timeline",
+      "now": 0.85,
+      "marks": [
+        { "kind": "point", "from": 0.3, "label": "had run (wyobrażone)" },
+        { "kind": "point", "from": 0.6, "label": "looked" }
+      ],
+      "caption_pl": "He looked as if he had run a marathon. Wyobrażony bieg byłby wcześniej niż chwila, w której tak wyglądał, więc stoi Past Perfect."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "You sound as if you've got a cold.",
+          "pl": "Brzmisz, jakbyś był przeziębiony. (pewnie jesteś)"
+        },
+        {
+          "en": "He spends money as though he were a millionaire.",
+          "pl": "Wydaje pieniądze, jakby był milionerem. (a nie jest)"
+        },
+        {
+          "en": "Ola looked as if she hadn't slept for a week.",
+          "pl": "Ola wyglądała, jakby nie spała od tygodnia."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Część 3: would rather — wolałbym**\n\n*would rather* mówi, co wolisz. Wzór zależy od tego, **kto** ma coś zrobić:\n\n- **ty sam** → *would rather* + V1 bez *to*: *I'd rather cook at home tonight.* Z porównaniem: *I'd rather cook than order a pizza.* Przeczenie: *I'd rather not.*\n- **ktoś inny** → *would rather* + osoba + **Past Simple**: *I'd rather you cooked tonight.* Forma przeszła znów pokazuje dystans: to tylko twoje życzenie o teraz albo o przyszłości, nie fakt.\n- **ktoś inny, a sprawa już się stała** → *would rather* + osoba + **Past Perfect**: *I'd rather you hadn't told him.*\n\nSkrót *'d* w *I'd rather* to zawsze **would**."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "would rather / 'd rather", "role": "aux" },
+        { "text": "(not)", "role": "particle" },
+        { "text": "V1", "role": "verb" }
+      ],
+      "example": {
+        "en": "We'd rather leave early than get stuck in traffic.",
+        "pl": "Wolelibyśmy wyjechać wcześniej, niż utknąć w korku."
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "would rather / 'd rather", "role": "aux" },
+        { "text": "subject", "role": "subject" },
+        { "text": "V2", "role": "verb" }
+      ],
+      "example": {
+        "en": "I'd rather you texted me than called me during lessons.",
+        "pl": "Wolałbym, żebyś do mnie pisał, a nie dzwonił w czasie lekcji."
+      }
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "I'd rather stay",
+          "md_pl": "Wolisz **sam** coś zrobić. V1 bez *to*.",
+          "examples": [
+            {
+              "en": "I'd rather stay in tonight — I'm exhausted.",
+              "pl": "Wolę dziś zostać w domu, jestem wykończony."
+            }
+          ]
+        },
+        {
+          "title": "I'd rather you stayed",
+          "md_pl": "Wolisz, żeby **ktoś inny** coś zrobił. Osoba + Past Simple, choć mówisz o teraz.",
+          "examples": [
+            {
+              "en": "I'd rather you stayed in tonight — the roads are icy.",
+              "pl": "Wolałbym, żebyś dziś został w domu, drogi są oblodzone."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Najpierw sprawdź podmiot po *rather*. Brak nowej osoby → V1. Nowa osoba → V2 (albo Past Perfect, gdy chodzi o coś, co już się stało). *to* nie ma w żadnym z tych wzorów."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "I'd rather not talk about it right now.",
+          "pl": "Wolałbym teraz o tym nie rozmawiać."
+        },
+        {
+          "en": "My parents would rather I studied in Poland than abroad.",
+          "pl": "Rodzice woleliby, żebym studiował w Polsce, a nie za granicą."
+        },
+        {
+          "en": "I'd rather we had stayed at a hotel — this campsite is awful.",
+          "pl": "Wolałbym, żebyśmy zatrzymali się w hotelu, ten kemping jest okropny."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Część 4: had better — lepiej, żebyś…**\n\n*had better* to rada albo ostrzeżenie w **konkretnej sytuacji**, z ukrytym „bo inaczej…”. Jest mocniejsze niż *should*, które daje ogólną radę.\n\n- Po *better* stoi V1 bez *to*: *You'd better go*, nie *to go*.\n- Mimo *had* mówisz o teraz albo o przyszłości, nie o przeszłości.\n- Przeczenie stoi po *better*: *You'd better not be late.*\n- Skrót *'d* w *you'd better* to zawsze **had**.\n\nTo zwrot z mowy i luźniejszych tekstów. W liście formalnym zamień go na *I would recommend that you…* albo *It would be advisable to…*."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "had better / 'd better", "role": "aux" },
+        { "text": "(not)", "role": "particle" },
+        { "text": "V1", "role": "verb" }
+      ],
+      "example": {
+        "en": "You'd better charge your phone before the trip — we'll need the map.",
+        "pl": "Lepiej naładuj telefon przed wyjazdem, będziemy potrzebować mapy."
+      }
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "We'd better leave now if we want to get good seats.",
+          "pl": "Lepiej wyjdźmy już teraz, jeśli chcemy mieć dobre miejsca."
+        },
+        {
+          "en": "You'd better not mention the match — he's still upset about it.",
+          "pl": "Lepiej nie wspominaj o meczu, on wciąż to przeżywa."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**'d: had czy would?** Ten sam skrót kryje dwa różne słowa:\n\n- *You'd better* = you **had** better → rada.\n- *I'd rather* = I **would** rather → preferencja.\n\nPo obu (przy *rather* bez nowej osoby) stoi V1 bez *to*, więc różnica jest tylko w znaczeniu: *You'd better leave* (radzę ci wyjść), *I'd rather leave* (wolę wyjść). Pełne *had better* i *would rather* są zawsze poprawne, ale przy limicie wyrazów pamiętaj, że skrót to jeden wyraz."
+    },
+    {
+      "type": "table",
+      "headers": ["Struktura", "Jak brzmi", "Gdzie jej użyjesz", "Przykład"],
+      "rows": [
+        [
+          "suggest / insist / It is essential that + V1",
+          "formalnie",
+          "list formalny, regulamin, rozprawka",
+          "We recommend that the school introduce a recycling scheme."
+        ],
+        [
+          "… that + should + V1",
+          "neutralnie (brytyjskie)",
+          "wszędzie",
+          "We recommend that the school should introduce a recycling scheme."
+        ],
+        [
+          "If I were you / If I were in your position",
+          "neutralnie, were staranniej niż was",
+          "rada w liście, e-mailu, rozmowie",
+          "If I were in your position, I would complain to the manager."
+        ],
+        [
+          "as if / as though + forma przeszła",
+          "neutralnie, were staranniej niż was",
+          "opis, opowiadanie, artykuł",
+          "The old man spoke as though he were reading from a book."
+        ],
+        [
+          "would rather",
+          "neutralnie, raczej w mowie",
+          "rozmowa, e-mail do znajomego",
+          "I'd rather meet in the afternoon."
+        ],
+        [
+          "would prefer",
+          "uprzejmiej, formalniej",
+          "list formalny",
+          "I would prefer to receive a refund rather than a voucher."
+        ],
+        [
+          "had better",
+          "nieformalnie",
+          "rozmowa, e-mail do znajomego",
+          "You'd better book now — tickets are selling fast."
+        ],
+        [
+          "It would be advisable to / I would recommend that",
+          "formalnie",
+          "list formalny zamiast had better",
+          "It would be advisable to book in advance."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "**Jak to sprawdzają.**\n\n- **Zadanie 9:** w 2026 była transformacja *I'd prefer you to…* → *I'd rather you* + V2 (słowo RATHER). Drugi tryb warunkowy, czyli forma nierealna (*If I knew…*), był w tym zadaniu w 2023 i 2025.\n- *suggest / insist that* + V1 jest na liście struktur CKE na 2027, choć w arkuszach 2023–2026 nie było go w żadnej luce. Może wypaść w zadaniu 9 (wyrazy w nawiasie albo transformacja) i jako luka w zadaniu 7.\n- **Zadanie 7:** opcje to zwykle ten sam czasownik w kilku formach (*take / to take / taking / will take*). Rozstrzyga to, co stoi przed luką: *suggest that* + podmiot → V1, *'d rather* → V1, *'d better* → V1, *as if* + nieprawda → forma przeszła.\n- **Limit wyrazów:** *that* i *should* to osobne wyrazy, skrót (*I'd*, *didn't*) to jeden. Jeśli wersja z *that* i *should* się nie mieści, wybierz krótszą: *suggested we go*.\n- **Typowe 0 pkt:** *suggested me to*, *had better to*, *would rather to*, *would rather you* + czas teraźniejszy, *will* po *essential that*.\n\nPary do transformacji: *Why don't we…?* → *suggested (that) we…* (SUGGESTED), *You must…* → *It is essential that you…* (ESSENTIAL), *I'd prefer you not to…* → *I'd rather you didn't…* (RATHER), *My advice is to…* → *If I were you, I'd…* (WERE), *You should… or…* → *You'd better…* (BETTER), *He isn't the boss, but he acts like one* → *as if he were the boss* (WERE)."
+    },
+    {
+      "type": "table",
+      "headers": ["Źle", "Dobrze", "Dlaczego"],
+      "rows": [
+        [
+          "She suggested me to join the drama club.",
+          "She suggested (that) I join / should join the drama club.",
+          "suggest nie łączy się z osobą + to. To kalka z „zaproponowała mi, żebym”."
+        ],
+        [
+          "The doctor recommended that he rests more.",
+          "The doctor recommended that he rest / should rest more.",
+          "Po recommend that stoi V1 albo should + V1. rests nie pasuje: po recommended that bierzesz V1 (rest) albo should rest. Luźno przejdzie jeszcze rested, ale nie rests."
+        ],
+        [
+          "It is essential that everyone will bring a pen.",
+          "It is essential that everyone bring / should bring a pen.",
+          "will to przewidywanie. Po essential that mówisz o wymogu."
+        ],
+        [
+          "They insisted that he doesn't pay.",
+          "They insisted that he not pay / should not pay.",
+          "Przeczenie w trybie łączącym to not + V1, bez does i did."
+        ],
+        [
+          "I insist you to stay for dinner.",
+          "I insist that you stay for dinner. / I insist on you staying for dinner.",
+          "insist łączy się z that albo z on + -ing, nigdy z osobą + to."
+        ],
+        [
+          "He demanded the manager to give him a refund.",
+          "He demanded that the manager give / should give him a refund.",
+          "demand + to + V1 tylko wtedy, gdy sam czegoś chcesz (He demanded to see the manager). Gdy żądasz czegoś od kogoś: that + podmiot + V1."
+        ],
+        [
+          "I'd rather you don't tell anyone.",
+          "I'd rather you didn't tell anyone.",
+          "would rather + inna osoba → Past Simple, choć mówisz o teraz. W mowie słychać czasem don't, ale w zadaniu i w piśmie: didn't."
+        ],
+        [
+          "We'd rather to wait here.",
+          "We'd rather wait here.",
+          "Po would rather V1 bez to. to stoi po prefer: We'd prefer to wait here."
+        ],
+        ["You had better to call her.", "You had better call her.", "Po had better V1 bez to."],
+        [
+          "You'd better don't touch it.",
+          "You'd better not touch it.",
+          "Przeczenie to samo not po better, bez don't."
+        ]
+      ]
+    }
+  ]
+}

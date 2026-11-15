@@ -1,0 +1,953 @@
+[
+  {
+    "id": "ks-maths-homework",
+    "type": "key-word-transformation",
+    "source": "Our maths teacher set so much homework that I didn't finish it until midnight.",
+    "keyWord": "SUCH",
+    "target": "Our maths teacher set ___ that I didn't finish it until midnight.",
+    "maxWords": 5,
+    "correct": ["such a lot of homework"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "so much + rzeczownik + that: było tego tak dużo, że aż był skutek."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Słowo klucz to such, a po such stoi rzeczownik, nie samo much. so much zamieniasz na such a lot of."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "such much homework to błąd, a such a homework też, bo homework jest niepoliczalne. a stoi tu tylko dlatego, że należy do wyrażenia a lot of."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "such a lot of homework to 5 wyrazów, czyli dokładnie limit."
+      }
+    ],
+    "tags": ["useful-structures", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "ks-long-journey",
+    "type": "key-word-transformation",
+    "source": "It was such a long journey that the children fell asleep in the car.",
+    "keyWord": "SO",
+    "target": "The journey ___ the children fell asleep in the car.",
+    "maxWords": 5,
+    "correct": ["was so long that", "was so long"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "such a long journey: rzeczownik jest już podmiotem nowego zdania, więc zostaje sam przymiotnik."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "so + sam przymiotnik (+ that): was so long that."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "was so long journey to błąd, bo po so nie stoi rzeczownik. that możesz opuścić, oba warianty są poprawne."
+      }
+    ],
+    "tags": ["useful-structures", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "ks-nervous-interview",
+    "type": "key-word-transformation",
+    "source": "Dawid was so nervous that he couldn't say a word during the interview.",
+    "keyWord": "TOO",
+    "target": "Dawid was ___ a word during the interview.",
+    "maxWords": 5,
+    "correct": ["too nervous to say"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "so … that he couldn't: był tak zdenerwowany, że czegoś nie mógł zrobić."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "too + przymiotnik + to V1 mówi to samo: ponad granicę, więc się nie da."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Przeczenie siedzi już w too, więc nie dodajesz not ani couldn't: too nervous to say, nie too nervous not to say."
+      }
+    ],
+    "tags": ["useful-structures", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "ks-beach-volunteers",
+    "type": "key-word-transformation",
+    "source": "There were too few volunteers to clean the whole beach in one day.",
+    "keyWord": "ENOUGH",
+    "target": "There ___ to clean the whole beach in one day.",
+    "maxWords": 5,
+    "correct": ["were not enough volunteers"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "too few volunteers: ochotników było mniej, niż trzeba."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Odwrotność too few to not enough. Przeczenie stawiasz przy were: there were not enough."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Przed rzeczownikiem enough stoi z przodu: enough volunteers, nie volunteers enough."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "were not enough volunteers to 4 wyrazy, a weren't enough volunteers to 3."
+      }
+    ],
+    "tags": ["useful-structures", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "ks-tymon-keys",
+    "type": "key-word-transformation",
+    "source": "I'm sure Tymon will forget his keys again — he always does.",
+    "keyWord": "BOUND",
+    "target": "Tymon ___ his keys again — he always does.",
+    "maxWords": 5,
+    "correct": ["is bound to forget"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I'm sure … will: mówiący jest pewien, że coś się stanie."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "be bound to + V1 znaczy właśnie to: na pewno się stanie."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "be odmieniasz do podmiotu: Tymon is bound to forget. Po to stoi V1, bez will."
+      }
+    ],
+    "tags": ["useful-structures", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "ks-sports-hall",
+    "type": "key-word-transformation",
+    "source": "It's doubtful that the new sports hall will be ready before September.",
+    "keyWord": "UNLIKELY",
+    "target": "The new sports hall ___ ready before September.",
+    "maxWords": 5,
+    "correct": ["is unlikely to be"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "It's doubtful that … will be: raczej się nie stanie."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "be unlikely to + V1. Podmiotem jest teraz hala, więc zaczynasz od is."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Przeczenie siedzi w un-, więc is not unlikely to be znaczyłoby, że to całkiem możliwe. Po to stoi be, bez will."
+      }
+    ],
+    "tags": ["useful-structures", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "ks-firefighters",
+    "type": "key-word-transformation",
+    "source": "It took the firefighters three hours to put out the fire.",
+    "keyWord": "SPENT",
+    "target": "The firefighters ___ out the fire.",
+    "maxWords": 5,
+    "correct": ["spent three hours putting"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "It took + osoba + czas + to V1: ile czasu coś wymagało."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Ten sam sens daje spend + czas + -ing, z osobą jako podmiotem."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po spent stoi -ing, nie to: spent three hours putting, nie spent three hours to put."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "spent three hours putting to 4 wyrazy, out zostało w zdaniu."
+      }
+    ],
+    "tags": ["useful-structures", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "ks-dentist",
+    "type": "key-word-transformation",
+    "source": "I'd prefer you to come with me to the dentist's.",
+    "keyWord": "RATHER",
+    "target": "I ___ with me to the dentist's.",
+    "maxWords": 5,
+    "correct": ["would rather you came"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I'd prefer you to: chcę, żeby zrobił to ktoś inny niż ja."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "would rather + osoba + czas przeszły, choć chodzi o teraz albo przyszłość."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "come → came: would rather you came. would rather you come spotkasz w amerykańskim, ale na maturze pisz came. would rather you to come to błąd."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "would rather you came to 4 wyrazy."
+      }
+    ],
+    "tags": ["useful-structures", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "ks-pancakes",
+    "type": "key-word-transformation",
+    "source": "Everyone says this new café makes the best pancakes in town.",
+    "keyWord": "SUPPOSED",
+    "target": "This new café ___ the best pancakes in town.",
+    "maxWords": 5,
+    "correct": ["is supposed to make"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Everyone says: tak się mówi, to opinia innych."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "be supposed to + V1 znaczy tu „podobno”, a nie „powinien”."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "is supposed to make. Zostajesz przy czasowniku make ze zdania wyjściowego."
+      }
+    ],
+    "tags": ["useful-structures", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "ks-grandparents-farm",
+    "type": "key-word-transformation",
+    "source": "When we were kids, we used to spend every summer at our grandparents' farm.",
+    "keyWord": "WOULD",
+    "target": "When we were kids, we ___ every summer at our grandparents' farm.",
+    "maxWords": 5,
+    "correct": ["would spend"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "used to spend: powtarzana czynność z przeszłości, której już nie ma."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "O powtarzanej czynności w przeszłości możesz też powiedzieć would + V1."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Działa to tylko z czynnościami. Ze stanem (used to live, used to have) would nie pasuje, ale spend to czynność."
+      }
+    ],
+    "tags": ["useful-structures", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "ks-shopping-centre",
+    "type": "key-word-transformation",
+    "source": "The new shopping centre is planned to open next spring.",
+    "keyWord": "DUE",
+    "target": "The new shopping centre ___ next spring.",
+    "maxWords": 5,
+    "correct": ["is due to open"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "is planned to open: termin jest zaplanowany."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "be due to + V1 mówi, że coś ma się stać zgodnie z planem albo rozkładem."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "due to + rzeczownik znaczy „z powodu”. Tu po due to stoi czasownik, więc to plan, nie przyczyna."
+      }
+    ],
+    "tags": ["useful-structures", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "ks-alarm-code",
+    "type": "key-word-transformation",
+    "source": "Police say it's likely that the thieves knew the alarm code.",
+    "keyWord": "LIKELY",
+    "target": "Police say the thieves ___ the alarm code.",
+    "maxWords": 5,
+    "correct": ["are likely to have known"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "it's likely that … knew: prawdopodobieństwo dotyczy przeszłości."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Podmiotem zostają złodzieje: are likely to + V1."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Przeszłość pokazujesz bezokolicznikiem dokonanym: to have known. are likely to know mówiłoby o teraz."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "are likely to have known to 5 wyrazów, czyli limit."
+      }
+    ],
+    "tags": ["useful-structures", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "ks-poetry-competition",
+    "type": "key-word-transformation",
+    "source": "There's no doubt that Ola will win the poetry competition.",
+    "keyWord": "CERTAIN",
+    "target": "Ola ___ the poetry competition.",
+    "maxWords": 5,
+    "correct": ["is certain to win"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "There's no doubt that … will: mówiący jest pewien przyszłości."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "be certain to + V1: na pewno się stanie."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Ola is certain that she will win znaczy co innego: to Ola jest pewna, a nie mówiący."
+      }
+    ],
+    "tags": ["useful-structures", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "ks-last-ferry",
+    "type": "key-word-transformation",
+    "source": "Our bus was too slow for us to catch the last ferry.",
+    "keyWord": "ENOUGH",
+    "target": "Our bus didn't go ___ us to catch the last ferry.",
+    "maxWords": 5,
+    "correct": ["fast enough for", "quickly enough for"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "too slow: było za wolno. Odwrotność z przeczeniem to not fast enough."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Po go potrzebny jest przysłówek: fast albo quickly. enough stoi po nim."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Osoba wchodzi przez for: fast enough for us to catch."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "enough fast to błąd, enough idzie za przymiotnikiem albo przysłówkiem."
+      }
+    ],
+    "tags": ["adjectives-adverbs", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "ks-pizza",
+    "type": "key-word-transformation",
+    "source": "I have never eaten such a delicious pizza before.",
+    "keyWord": "MOST",
+    "target": "This pizza is ___ I have ever eaten.",
+    "maxWords": 5,
+    "correct": ["the most delicious", "the most delicious one", "the most delicious pizza"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "never … such a delicious … before: żadna wcześniejsza nie była tak dobra."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Tę samą myśl daje stopień najwyższy + I have ever V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "delicious jest długie, więc dostaje most przed sobą: the most delicious. Bez the to błąd."
+      }
+    ],
+    "tags": ["adjectives-adverbs", "key-word-transformations"],
+    "difficulty": 2,
+    "accepted": ["the most delicious pizza that", "the most delicious one that"]
+  },
+  {
+    "id": "ks-new-phone",
+    "type": "key-word-transformation",
+    "source": "My new phone isn't as heavy as my old one.",
+    "keyWord": "LIGHTER",
+    "target": "My new phone ___ my old one.",
+    "maxWords": 5,
+    "correct": ["is lighter than"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "isn't as heavy as: nowy jest mniej ciężki."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Mniej ciężki to lżejszy, czyli stopień wyższy + than."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po stopniu wyższym stoi than, nie as: is lighter than."
+      }
+    ],
+    "tags": ["adjectives-adverbs", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "ks-tired-concentrate",
+    "type": "key-word-transformation",
+    "source": "When you're more tired, it's harder to concentrate.",
+    "keyWord": "HARDER",
+    "target": "The more tired you are, ___ is to concentrate.",
+    "maxWords": 5,
+    "correct": ["the harder it"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Dwie rzeczy zmieniają się razem: im bardziej zmęczony, tym trudniej."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Obie części zaczynasz od the + stopień wyższy: the more tired …, the harder …"
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po stopniu wyższym stoi podmiot, a czasownik na końcu: the harder it is. is jest już w zdaniu."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Bez the zdanie się rozsypuje: harder it is to błąd."
+      }
+    ],
+    "tags": ["adjectives-adverbs", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "ks-museum",
+    "type": "key-word-transformation",
+    "source": "The museum was less crowded than we had expected.",
+    "keyWord": "AS",
+    "target": "The museum was not ___ we had expected.",
+    "maxWords": 5,
+    "correct": ["as crowded as"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "less crowded than: mniej ludzi, niż się spodziewaliśmy."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "not as … as znaczy „mniej niż”, a not jest już w zdaniu."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Między as i as stoi forma podstawowa: as crowded as, nie as more crowded as."
+      }
+    ],
+    "tags": ["adjectives-adverbs", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "ks-second-hand-bike",
+    "type": "key-word-transformation",
+    "source": "The second-hand bike was cheaper than the new one.",
+    "keyWord": "LESS",
+    "target": "The second-hand bike was ___ the new one.",
+    "maxWords": 5,
+    "correct": ["less expensive than"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "cheaper than: porównanie dwóch rowerów."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "less + przymiotnik + than to „mniej jakiś”. Tańszy to mniej drogi: less expensive."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "less cheaper to błąd, a less cheap than zmieniłoby sens na odwrotny."
+      }
+    ],
+    "tags": ["adjectives-adverbs", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "ks-prague",
+    "type": "key-word-transformation",
+    "source": "Few cities in Europe are as beautiful as Prague.",
+    "keyWord": "ONE",
+    "target": "Prague is ___ cities in Europe.",
+    "maxWords": 5,
+    "correct": ["one of the most beautiful"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Few cities … as beautiful as: Praga jest w ścisłej czołówce."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "one of the + stopień najwyższy + rzeczownik w liczbie mnogiej."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "beautiful jest długie, więc the most beautiful. cities jest już w zdaniu."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "one of the most beautiful to 5 wyrazów."
+      }
+    ],
+    "tags": ["adjectives-adverbs", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "ks-film-book",
+    "type": "key-word-transformation",
+    "source": "The film was much worse than the book.",
+    "keyWord": "NOWHERE",
+    "target": "The film was ___ the book.",
+    "maxWords": 5,
+    "correct": ["nowhere near as good as"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "much worse than: duża różnica na niekorzyść filmu."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "nowhere near as … as znaczy „ani trochę tak … jak”, czyli dużo gorzej."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Odwracasz przymiotnik: worse → as good as. nowhere near as bad as znaczyłoby coś przeciwnego."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "nowhere near as good as to 5 wyrazów."
+      }
+    ],
+    "tags": ["adjectives-adverbs", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "ks-school-council",
+    "type": "key-word-transformation",
+    "source": "Almost nobody turned up to the school council meeting on Friday.",
+    "keyWord": "HARDLY",
+    "target": "___ turned up to the school council meeting on Friday.",
+    "maxWords": 5,
+    "correct": ["Hardly anyone", "Hardly anybody"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Almost nobody: prawie nikt."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "hardly ma już znaczenie przeczące, więc łączysz je z anyone, a nie z nobody."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Hardly nobody to błąd, bo daje podwójne przeczenie."
+      }
+    ],
+    "tags": ["adjectives-adverbs", "key-word-transformations"],
+    "difficulty": 2,
+    "accepted": ["Hardly any people"]
+  },
+  {
+    "id": "ks-careful-driver",
+    "type": "key-word-transformation",
+    "source": "Mateusz is a much more careful driver than his brother.",
+    "keyWord": "CAREFULLY",
+    "target": "Mateusz drives ___ his brother.",
+    "maxWords": 5,
+    "correct": ["much more carefully than"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "a careful driver: przymiotnik przy rzeczowniku. W nowym zdaniu jest czasownik drives."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Czasownik opisuje przysłówek, więc careful → carefully, a stopień wyższy to more carefully."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "much zostaje, bo mówi, jak duża jest różnica: much more carefully than."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "much more carefully than to 4 wyrazy."
+      }
+    ],
+    "tags": ["adjectives-adverbs", "key-word-transformations"],
+    "difficulty": 2,
+    "accepted": ["far more carefully than", "a lot more carefully than"]
+  },
+  {
+    "id": "ks-new-flat",
+    "type": "key-word-transformation",
+    "source": "Our new flat is twice the size of the old one.",
+    "keyWord": "AS",
+    "target": "Our new flat is ___ the old one.",
+    "maxWords": 5,
+    "correct": ["twice as big as", "twice as large as"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "twice the size of: dwa razy większe."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Krotność stawiasz przed as … as: twice as … as."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "size zamieniasz na przymiotnik: big albo large. Między as i as stoi forma podstawowa."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "twice bigger than nie ma as, więc nie pasuje do słowa klucza. Trzymaj się twice as … as."
+      }
+    ],
+    "tags": ["adjectives-adverbs", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "ks-job-interview",
+    "type": "key-word-transformation",
+    "source": "Although he was ill, Wojtek went to the job interview.",
+    "keyWord": "SPITE",
+    "target": "Wojtek went to the job interview ___ ill.",
+    "maxWords": 5,
+    "correct": ["in spite of being"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Although: coś się stało wbrew przeszkodzie."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "in spite of to przyimek, więc po nim stoi -ing, a nie zdanie."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "was → being: in spite of being ill."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "in spite he was ill i in spite of he was ill to błędy. Bez of też nie przejdzie."
+      }
+    ],
+    "tags": ["linking-contrast", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "ks-expensive-hotel",
+    "type": "key-word-transformation",
+    "source": "Although the hotel was expensive, we didn't regret staying there.",
+    "keyWord": "FACT",
+    "target": "We didn't regret staying at the hotel despite ___ expensive.",
+    "maxWords": 5,
+    "correct": ["the fact that it was"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Although + zdanie, a w nowym zdaniu przed luką stoi już despite."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Po despite nie postawisz zdania, chyba że przez the fact that."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Hotel jest już nazwany, więc w zdaniu po that wystarczy it: the fact that it was."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "despite of the fact to błąd, po despite nie ma of."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "the fact that it was to 5 wyrazów, the fact that the hotel was miałoby 6."
+      }
+    ],
+    "tags": ["linking-contrast", "key-word-transformations"],
+    "difficulty": 3,
+    "accepted": ["the fact it was"]
+  },
+  {
+    "id": "ks-late-for-school",
+    "type": "key-word-transformation",
+    "source": "Despite living next to the school, Michał is often late.",
+    "keyWord": "EVEN",
+    "target": "Michał is often late ___ next to the school.",
+    "maxWords": 5,
+    "correct": ["even though he lives"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Despite + -ing: kontrast, ale bez podmiotu i czasownika."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "even though to spójnik, więc po nim stoi pełne zdanie: podmiot + czasownik."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Michał jest już w zdaniu, więc wystarczy he. Fakt ogólny, więc present simple: he lives."
+      }
+    ],
+    "tags": ["linking-contrast", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "ks-cancelled-concert",
+    "type": "key-word-transformation",
+    "source": "The concert was cancelled because the singer was ill.",
+    "keyWord": "OWING",
+    "target": "The concert was cancelled ___ illness.",
+    "maxWords": 5,
+    "correct": ["owing to the singer's"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "because + zdanie: przyczyna."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "owing to to przyimek, więc po nim stoi rzeczownik. ill zamieniasz na illness, które już jest w zdaniu."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Czyja choroba? Dopełniacz saksoński: the singer's illness."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "singer's to jeden wyraz, więc owing to the singer's ma 4."
+      }
+    ],
+    "tags": ["linking-contrast", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "ks-festival-rain",
+    "type": "key-word-transformation",
+    "source": "Because it rained heavily, the festival was moved indoors.",
+    "keyWord": "RESULT",
+    "target": "The festival was moved indoors ___ rain.",
+    "maxWords": 5,
+    "correct": ["as a result of heavy"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Because + zdanie: przyczyna przeniesienia festiwalu."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "as a result of + rzeczownik podaje przyczynę. Samo as a result (bez of) znaczy „w rezultacie”, wprowadza skutek i nie łączy się z rzeczownikiem."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "rained heavily zamieniasz na rzeczownik z przymiotnikiem: heavy rain."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "as a result of heavy to 5 wyrazów. Z the przed heavy byłoby 6."
+      }
+    ],
+    "tags": ["linking-contrast", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "ks-two-alarms",
+    "type": "key-word-transformation",
+    "source": "I set two alarms because I didn't want to oversleep.",
+    "keyWord": "ORDER",
+    "target": "I set two alarms ___ oversleep.",
+    "maxWords": 5,
+    "correct": ["in order not to"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "because I didn't want to: cel, i to przeczący."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Cel to in order to + V1."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "not stawiasz przed to: in order not to. in order to not brzmi potocznie, na maturze bezpieczniej in order not to."
+      }
+    ],
+    "tags": ["linking-contrast", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "ks-school-trip",
+    "type": "key-word-transformation",
+    "source": "The school trip was cancelled because not enough students signed up.",
+    "keyWord": "DUE",
+    "target": "The school trip was cancelled ___ not enough students signed up.",
+    "maxWords": 5,
+    "correct": ["due to the fact that"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "because + pełne zdanie: przyczyna."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "due to to przyimek, więc samo zdanie po nim nie stanie. Most do zdania to the fact that."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "due to not enough students signed up to błąd: po due to brakuje the fact that."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "due to the fact that to 5 wyrazów, czyli limit."
+      }
+    ],
+    "tags": ["linking-contrast", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "ks-brother-sport",
+    "type": "key-word-transformation",
+    "source": "My brother loves sport, but I'm not interested in it at all.",
+    "keyWord": "WHEREAS",
+    "target": "My brother loves sport, ___ interested in it at all.",
+    "maxWords": 5,
+    "correct": ["whereas I am not"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "but zestawia dwie różne osoby: brat lubi, ja nie."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "whereas to spójnik, więc po nim stoi pełne zdanie: I am not."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "whereas I am not to 4 wyrazy, whereas I'm not to 3."
+      }
+    ],
+    "tags": ["linking-contrast", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "ks-bartosz-earns",
+    "type": "key-word-transformation",
+    "source": "No matter how much Bartosz earns, he never manages to save anything.",
+    "keyWord": "HOWEVER",
+    "target": "___ earns, he never manages to save anything.",
+    "maxWords": 5,
+    "correct": ["However much Bartosz"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "No matter how much: bez względu na to, ile."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "however + przymiotnik albo much znaczy to samo: choćby nie wiem ile."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po however much stoi podmiot i czasownik. Imię musi być w luce, bo dalej jest tylko he."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "However, Bartosz earns z przecinkiem to inne słowo: „jednak”. Tu nie ma przecinka."
+      }
+    ],
+    "tags": ["linking-contrast", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "ks-picnic-cold",
+    "type": "key-word-transformation",
+    "source": "In spite of the cold, we had a picnic on the beach.",
+    "keyWord": "THOUGH",
+    "target": "We had a picnic on the beach ___ cold.",
+    "maxWords": 5,
+    "correct": ["even though it was", "though it was"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "In spite of + rzeczownik: kontrast."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "though i even though to spójniki, więc po nich stoi zdanie z podmiotem i czasownikiem."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Pogoda: it was cold. cold zostaje w zdaniu jako przymiotnik."
+      }
+    ],
+    "tags": ["linking-contrast", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "ks-late-hour",
+    "type": "key-word-transformation",
+    "source": "Although it was late, the children were still playing outside.",
+    "keyWord": "DESPITE",
+    "target": "The children were still playing outside ___ hour.",
+    "maxWords": 5,
+    "correct": ["despite the late"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Although + zdanie, a w nowym zdaniu po luce stoi rzeczownik hour."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "despite + rzeczownik: despite the late hour."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "despite of to błąd, a bez the zdanie jest niepoprawne, bo hour to rzeczownik policzalny."
+      }
+    ],
+    "tags": ["linking-contrast", "key-word-transformations"],
+    "difficulty": 2
+  }
+]

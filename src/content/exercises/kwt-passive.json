@@ -1,0 +1,614 @@
+[
+  {
+    "id": "kp-classrooms-repainted",
+    "type": "key-word-transformation",
+    "source": "Workers are repainting the classrooms on the first floor this week, so our lessons have moved to the library.",
+    "keyWord": "BEING",
+    "target": "The classrooms on the first floor ___ this week, so our lessons have moved to the library.",
+    "maxWords": 5,
+    "correct": ["are being repainted"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Klasy nie malują same siebie, ktoś je maluje, więc w zdaniu docelowym, gdzie klasy są podmiotem, potrzebna jest strona bierna."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "are repainting to Present Continuous. Czas niesie be, więc w biernej jest are being, a na końcu V3: repainted."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "are repainted znaczyłoby, że to się dzieje regularnie. Tu remont trwa w tym tygodniu, a słowo BEING i tak wymusza formę ciągłą."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "present-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "kp-biscuits-eaten",
+    "type": "key-word-transformation",
+    "source": "Someone has eaten all the biscuits I bought for the guests!",
+    "keyWord": "BEEN",
+    "target": "All the biscuits I bought for the guests ___!",
+    "maxWords": 5,
+    "correct": ["have been eaten", "have been eaten up"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Nowym podmiotem są biscuits, a someone wypada, bo nie wiadomo, kto to zrobił."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "has eaten to Present Perfect. W biernej perfect daje been: have been + V3. Biscuits to liczba mnoga, więc have, a nie has."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "present-perfect"],
+    "difficulty": 1
+  },
+  {
+    "id": "kp-marek-not-invited",
+    "type": "key-word-transformation",
+    "source": "Kasia and Tomek didn't invite Marek to their wedding.",
+    "keyWord": "WAS",
+    "target": "Marek ___ to Kasia and Tomek's wedding.",
+    "maxWords": 5,
+    "correct": ["was not invited"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Marek był dopełnieniem, teraz jest podmiotem, więc strona bierna: was + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "didn't invite to przeczenie w Past Simple. W biernej not staje po pierwszym posiłkowym: was not invited (albo wasn't invited)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "didn't be invited to błąd: w stronie biernej przeczenie robisz na was, a nie na did."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "past-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "kp-staircase-being-cleaned",
+    "type": "key-word-transformation",
+    "source": "We had to use the back entrance because someone was cleaning the main staircase.",
+    "keyWord": "BEING",
+    "target": "We had to use the back entrance because the main staircase ___.",
+    "maxWords": 5,
+    "correct": ["was being cleaned"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "was cleaning to Past Continuous: sprzątanie trwało akurat wtedy, gdy chcieliśmy przejść."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Czas przechodzi na be: was being, potem V3: cleaned. Staircase to liczba pojedyncza, więc was."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "had been cleaned znaczyłoby, że było już posprzątane, a wtedy nie byłoby powodu, żeby iść tylnym wejściem."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "past-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "kp-premiere-tickets-sold",
+    "type": "key-word-transformation",
+    "source": "When we got to the cinema, they had already sold all the tickets for the premiere.",
+    "keyWord": "BEEN",
+    "target": "When we got to the cinema, all the tickets for the premiere ___.",
+    "maxWords": 5,
+    "correct": [
+      "had already been sold",
+      "had been sold",
+      "had been sold already",
+      "had been sold out",
+      "had already been sold out"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Bilety sprzedano wcześniej, niż dotarliśmy do kina, więc zostaje Past Perfect."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had sold → had been sold. Already stoi zwykle po pierwszym posiłkowym: had already been sold."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "had already been sold out to dokładnie 5 wyrazów, więcej już się nie zmieści."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "past-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "kp-pool-going-to-close",
+    "type": "key-word-transformation",
+    "source": "The council is going to close the old swimming pool next spring.",
+    "keyWord": "GOING",
+    "target": "The old swimming pool ___ next spring.",
+    "maxWords": 5,
+    "correct": ["is going to be closed", "is going to be shut", "is going to get closed"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Basen jest teraz podmiotem, a zamyka go rada miasta, więc strona bierna."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po going to stoi bezokolicznik, a bezokolicznik w biernej to be + V3: is going to be closed."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "is going to be closed to 5 wyrazów. Wersja z closed down miałaby 6, więc nie przejdzie."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "be-going-to"],
+    "difficulty": 2
+  },
+  {
+    "id": "kp-volunteers-trees-planted",
+    "type": "key-word-transformation",
+    "source": "By the end of the month, the volunteers will have planted a thousand trees along the motorway.",
+    "keyWord": "HAVE",
+    "target": "By the end of the month, a thousand trees ___ along the motorway by the volunteers.",
+    "maxWords": 5,
+    "correct": ["will have been planted"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "By the end of the month to granica w przyszłości, do której coś będzie już zrobione, więc Future Perfect."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will have planted → will have been planted. Been pojawia się, bo w perfect be ma formę been."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will be planted mówiłoby o samym sadzeniu w przyszłości, bez tego, że do końca miesiąca będzie już po wszystkim."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "future-perfect"],
+    "difficulty": 3
+  },
+  {
+    "id": "kp-plastic-recycled",
+    "type": "key-word-transformation",
+    "source": "You can't recycle this kind of plastic in our town.",
+    "keyWord": "BE",
+    "target": "This kind of plastic ___ in our town.",
+    "maxWords": 5,
+    "correct": ["cannot be recycled"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "You znaczy tu ogólnie ludzi, więc w biernej po prostu znika. Plastik staje się podmiotem."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po modalnym idzie forma podstawowa, w biernej to be: cannot be recycled (albo can't be recycled)."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "kp-gate-left-open",
+    "type": "key-word-transformation",
+    "source": "It's possible that someone left the gate open by mistake, and that's how the dog got out.",
+    "keyWord": "MIGHT",
+    "target": "The gate ___ open by mistake, and that's how the dog got out.",
+    "maxWords": 5,
+    "correct": ["might have been left"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "It's possible that + przeszłość to przypuszczenie o przeszłości: might have + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Brama jest podmiotem, ktoś ją zostawił, więc w środku wchodzi been: might have been left."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "might be left mówiłoby o teraźniejszości albo przyszłości, a pies już uciekł."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "modal-verbs"],
+    "difficulty": 3
+  },
+  {
+    "id": "kp-flat-cleaned-spotless",
+    "type": "key-word-transformation",
+    "source": "I'm sure someone cleaned the flat before we arrived — it was spotless.",
+    "keyWord": "MUST",
+    "target": "The flat ___ before we arrived — it was spotless.",
+    "maxWords": 5,
+    "correct": ["must have been cleaned", "must have been cleaned up"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "I'm sure + przeszłość to pewny wniosek o przeszłości: must have + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Mieszkanie samo się nie posprzątało, więc biernie: must have been cleaned."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "must be cleaned znaczyłoby, że trzeba je posprzątać, czyli zupełnie co innego."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "modal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "kp-lake-hancza-known",
+    "type": "key-word-transformation",
+    "source": "Everybody knows that Lake Hańcza is deeper than any other lake in Poland.",
+    "keyWord": "KNOWN",
+    "target": "Lake Hańcza ___ deeper than any other lake in Poland.",
+    "maxWords": 5,
+    "correct": ["is known to be", "is well known to be", "is widely known to be"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Everybody knows that X is… zamieniasz na X is known to + bezokolicznik. Podmiotem zostaje jezioro."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Wiedza i fakt są w tym samym czasie (teraz), więc zwykły bezokolicznik: to be."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "is known deeper jest błędne: po known w tym znaczeniu musi stać to + bezokolicznik."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "kp-vikings-believed-landed",
+    "type": "key-word-transformation",
+    "source": "People believe that the Vikings landed in North America about 500 years before Columbus.",
+    "keyWord": "BELIEVED",
+    "target": "The Vikings are ___ in North America about 500 years before Columbus.",
+    "maxWords": 5,
+    "correct": ["believed to have landed", "believed to have arrived"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "People believe that X… → X is / are believed to + bezokolicznik. Are już stoi w zdaniu, dopisujesz resztę."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Ludzie wierzą teraz, a lądowanie było dawno temu. Wcześniejsze wydarzenie daje bezokolicznik przeszły: to have + V3."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "believed to land znaczyłoby, że wierzymy w coś równoczesne z wiarą, a tu chodzi o wydarzenie sprzed 1000 lat."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "kp-mill-haunted-it",
+    "type": "key-word-transformation",
+    "source": "People say that the old mill by the river is haunted.",
+    "keyWord": "IT",
+    "target": "___ the old mill by the river is haunted.",
+    "maxWords": 5,
+    "correct": ["It is said that", "It is said"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "People say that… ma bezosobową wersję It is said that… Podmiot people znika, zostaje puste it."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "say → is said. Czas teraźniejszy, bo ludzie mówią tak teraz."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "The old mill is said… nie pasuje, bo zdanie docelowe zaczyna się luką, a dalej stoi już the old mill."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "present-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "kp-singer-reported-recording",
+    "type": "key-word-transformation",
+    "source": "It is reported that the singer is recording a new album in Iceland.",
+    "keyWord": "REPORTED",
+    "target": "The singer ___ a new album in Iceland.",
+    "maxWords": 5,
+    "correct": ["is reported to be recording"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "It is reported that X… → X is reported to + bezokolicznik."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Nagrywanie trwa teraz, w tym samym czasie co doniesienia, więc bezokolicznik ciągły: to be recording."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "is reported to be recording to dokładnie 5 wyrazów."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "present-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "kp-ice-thought-thick",
+    "type": "key-word-transformation",
+    "source": "Everyone thought that the ice on the lake was thick enough to walk on, but it cracked as soon as Bartek stepped onto it.",
+    "keyWord": "THOUGHT",
+    "target": "The ice on the lake ___ thick enough to walk on, but it cracked as soon as Bartek stepped onto it.",
+    "maxWords": 5,
+    "correct": ["was thought to be", "was widely thought to be", "was generally thought to be"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Everyone thought that X was… → X was thought to + bezokolicznik. Lód staje się podmiotem."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Myślenie było w przeszłości, więc was thought. Stan lodu był w tym samym momencie, więc zwykłe to be."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "is thought przesunąłby myślenie na teraz, a tu wszyscy się pomylili wtedy."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "past-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "kp-hair-cut-wedding",
+    "type": "key-word-transformation",
+    "source": "A hairdresser is going to cut my hair before my cousin's wedding.",
+    "keyWord": "HAVE",
+    "target": "I'm going to ___ before my cousin's wedding.",
+    "maxWords": 5,
+    "correct": ["have my hair cut"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Ktoś zrobi coś dla ciebie, za twoim zamówieniem: have + rzecz + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Kolejność jest stała: have, potem co (my hair), na końcu V3 (cut). Cut ma trzy takie same formy."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "have cut my hair to bezokolicznik perfect i znaczyłoby, że do tego czasu obetniesz je sam. Rzecz musi stać przed V3."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "be-going-to"],
+    "difficulty": 1
+  },
+  {
+    "id": "kp-laptop-getting-repaired",
+    "type": "key-word-transformation",
+    "source": "A technician is repairing my laptop at the moment, so I can't send you the file.",
+    "keyWord": "GETTING",
+    "target": "I'm ___ at the moment, so I can't send you the file.",
+    "maxWords": 5,
+    "correct": ["getting my laptop repaired", "getting my laptop fixed"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Laptop naprawia ktoś inny, ale ja to zleciłem: get + rzecz + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Dzieje się teraz, więc get dostaje -ing: I'm getting my laptop repaired."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "present-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "kp-neighbours-car-broken-into",
+    "type": "key-word-transformation",
+    "source": "Someone broke into our neighbours' car last night.",
+    "keyWord": "HAD",
+    "target": "Our neighbours ___ last night.",
+    "maxWords": 5,
+    "correct": ["had their car broken into"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "have + rzecz + V3 opisuje też coś złego, co ktoś ci zrobił: had their car broken into."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "break into to czasownik z przyimkiem, więc into zostaje po V3: broken into."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "had broken into their car znaczyłoby, że to sąsiedzi się włamali. Liczy się kolejność: rzecz przed V3."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "past-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "kp-runners-map-sent",
+    "type": "key-word-transformation",
+    "source": "The organisers sent all the runners a map of the route.",
+    "keyWord": "SENT",
+    "target": "A map of the route ___ all the runners.",
+    "maxWords": 5,
+    "correct": ["was sent to", "was sent out to"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Send ma dwa dopełnienia: komu (the runners) i co (a map). Tu podmiotem jest mapa, czyli rzecz."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Gdy rzecz jest podmiotem, osobę dokładasz przez to: was sent to all the runners."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Bez to (was sent all the runners) zdanie brzmi źle i na maturze nie przejdzie."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "kp-coffee-machine-shown",
+    "type": "key-word-transformation",
+    "source": "Nobody has ever shown me how to use this coffee machine.",
+    "keyWord": "BEEN",
+    "target": "I have never ___ how to use this coffee machine.",
+    "maxWords": 5,
+    "correct": ["been shown", "been taught"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Show ma dwa dopełnienia. Tu podmiotem jest osoba (I), a to, co pokazano, zostaje po czasowniku."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "has shown → have been shown. Nobody… ever zamienia się na zwykłe never, które już stoi w zdaniu."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "I have never shown znaczyłoby, że to ja nikomu nie pokazałem."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "present-perfect"],
+    "difficulty": 3
+  },
+  {
+    "id": "kp-accent-laughed-at",
+    "type": "key-word-transformation",
+    "source": "I can't stand it when other people laugh at my accent.",
+    "keyWord": "BEING",
+    "target": "I can't stand ___ because of my accent.",
+    "maxWords": 5,
+    "correct": ["being laughed at", "being made fun of"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Po can't stand idzie forma -ing. Gdy to ciebie coś spotyka, -ing jest w stronie biernej: being + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "laugh at to czasownik z przyimkiem, więc at zostaje na końcu: being laughed at."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Bez at (being laughed) zdanie jest niepełne."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "gerund-infinitive"],
+    "difficulty": 2,
+    "accepted": ["being laughed at by others", "being laughed at by people"]
+  },
+  {
+    "id": "kp-ola-promoted",
+    "type": "key-word-transformation",
+    "source": "Ola expects that her boss will promote her soon.",
+    "keyWord": "TO",
+    "target": "Ola expects ___ soon.",
+    "maxWords": 5,
+    "correct": ["to be promoted", "to get promoted"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Po expect idzie to + bezokolicznik. Ola nie awansuje sama, awansuje ją szef, więc bezokolicznik bierny: to be + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "to be promoted. By her boss nie zmieści się w limicie, a i tak jest oczywiste, kto daje awans."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "gerund-infinitive"],
+    "difficulty": 2
+  },
+  {
+    "id": "kp-plants-watered-holiday",
+    "type": "key-word-transformation",
+    "source": "Someone will need to water the plants while we're on holiday.",
+    "keyWord": "WATERED",
+    "target": "The plants will need ___ while we're on holiday.",
+    "maxWords": 5,
+    "correct": ["to be watered"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Rośliny są podmiotem, ktoś je podleje, więc po need idzie bezokolicznik bierny: to be + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Słowo klucz to już V3, więc dopisujesz tylko to be przed nim."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "need watering też jest poprawne po angielsku, ale tu nie ma w nim słowa WATERED."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "gerund-infinitive"],
+    "difficulty": 2
+  },
+  {
+    "id": "kp-krakow-visited-by",
+    "type": "key-word-transformation",
+    "source": "Millions of tourists visit Kraków every year.",
+    "keyWord": "BY",
+    "target": "Kraków ___ millions of tourists every year.",
+    "maxWords": 5,
+    "correct": ["is visited by"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Kraków staje się podmiotem, a turyści wracają na koniec przez by, bo to ważna informacja."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "visit w Present Simple → is visited. Kraków to jedno miasto, więc is."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations", "present-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "kp-composer-said-written",
+    "type": "key-word-transformation",
+    "source": "People say that the composer wrote this piece in just three days.",
+    "keyWord": "SAID",
+    "target": "The composer ___ this piece in just three days.",
+    "maxWords": 5,
+    "correct": ["is said to have written", "is said to have composed"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "People say that X… → X is said to + bezokolicznik."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Mówią teraz (is said), a pisał dawniej, więc bezokolicznik przeszły: to have written."
+      },
+      {
+        "label_pl": "liczenie wyrazów",
+        "text_pl": "is said to have written to 5 wyrazów. Wersja z been written byłaby dłuższa i miałaby zły sens, bo kompozytor sam pisał."
+      }
+    ],
+    "tags": ["passive-voice", "key-word-transformations"],
+    "difficulty": 3
+  }
+]

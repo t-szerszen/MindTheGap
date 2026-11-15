@@ -1,0 +1,837 @@
+[
+  {
+    "id": "pv-japan-classrooms-cleaned",
+    "type": "gap-fill",
+    "sentence": "In most Japanese schools, classrooms ___ (clean) by the students themselves, not by professional cleaners.",
+    "correct": ["are cleaned", "get cleaned"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "by the students themselves — sprzątają uczniowie, a klasy to te, z którymi coś się dzieje. Podmiot nie wykonuje czynności, więc strona bierna."
+      },
+      {
+        "label_pl": "czas",
+        "text_pl": "To opis tego, jak jest zwykle w japońskich szkołach, a nie jednego dnia → Present Simple."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "classrooms to liczba mnoga → are + V3 → are cleaned. Potoczne get cleaned też jest poprawne."
+      }
+    ],
+    "tags": ["passive-voice", "present-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "pv-jellyfish-ever-stung",
+    "type": "gap-fill",
+    "sentence": "___ (you / ever / sting) by a jellyfish? I've heard it can be really painful.",
+    "correct": ["Have you ever been stung"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "ever w pytaniu o to, co ci się przydarzyło w życiu → Present Perfect."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "by a jellyfish — żądli meduza, a ty jesteś tym, kogo użądlono → strona bierna."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Have + you + ever + been + V3. Czasownik nieregularny: sting – stung – stung."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Have you ever stung…? znaczyłoby, że to ty kogoś użądliłeś."
+      }
+    ],
+    "tags": ["passive-voice", "present-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "pv-tent-blown-lake",
+    "type": "gap-fill",
+    "sentence": "When we got back to the campsite after a long walk, we discovered that our tent ___ (blow) into the lake by the wind.",
+    "correct": ["had been blown"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "we got back… we discovered — punkt w przeszłości. Namiot wylądował w jeziorze wcześniej, zanim wróciliśmy → Past Perfect."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "by the wind — działa wiatr, namiot sam nic nie robi → strona bierna."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had + been + V3. Czasownik nieregularny: blow – blew – blown → had been blown."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "was blown brzmiałoby, jakby działo się to w chwili, gdy wracaliśmy, a my odkryliśmy już skutek."
+      }
+    ],
+    "tags": ["passive-voice", "past-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "pv-final-postponed",
+    "type": "gap-fill",
+    "sentence": "Last Saturday's final ___ (have to / postpone) because half the pitch was under water.",
+    "correct": ["had to be postponed"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Last Saturday — zamknięta przeszłość, więc have to przechodzi w had to."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Finał nie przekłada sam siebie. Ktoś go przełożył, a kto, nie ma znaczenia → strona bierna."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po had to stoi bezokolicznik, w biernej to be + V3 → had to be postponed."
+      },
+      {
+        "label_pl": "limit",
+        "text_pl": "had, to, be, postponed — dokładnie 4 wyrazy, wliczając podane."
+      }
+    ],
+    "tags": ["passive-voice", "modal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "pv-brother-sacked",
+    "type": "gap-fill",
+    "sentence": "Why ___ (your brother / get / sack) last month? I thought his boss really liked him.",
+    "correct": ["did your brother get sacked"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "last month — zamknięta przeszłość → Past Simple."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "get + V3 to potoczna strona bierna: get sacked = zostać zwolnionym z pracy."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "get to zwykły czasownik, a nie posiłkowy. Pytanie robisz więc przez did, jak w każdym pytaniu w Past Simple. Nie Why got your brother sacked."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "did + your brother + get (forma podstawowa po did) + sacked → 5 wyrazów."
+      }
+    ],
+    "tags": ["passive-voice", "past-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "pv-cyclists-got-hurt",
+    "type": "gap-fill",
+    "sentence": "Two cyclists ___ (get / hurt) when a delivery van suddenly pulled out in front of them, but luckily neither of them needed to go to hospital.",
+    "correct": ["got hurt"],
+    "maxWords": 3,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "when a delivery van suddenly pulled out — jedno zdarzenie w przeszłości, wszystko dzieje się naraz → Past Simple."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Rowerzyści nie zrobili sobie krzywdy sami, to im się przytrafiło. get + V3 to potoczna strona bierna, typowa przy wypadkach."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "get w przeszłości → got, a hurt w trzeciej formie to dalej hurt → got hurt."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "hurt jest nieregularny i ma trzy takie same formy: hurt – hurt – hurt. Nie got hurted."
+      }
+    ],
+    "tags": ["passive-voice", "past-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "pv-shopping-centre-knocked-down",
+    "type": "gap-fill",
+    "sentence": "The council has finally decided what to do with the empty shopping centre near the station: it ___ (go / knock) down next year to make room for a park.",
+    "correct": ["is going to be knocked"],
+    "accepted": ["'s going to be knocked", "is going to get knocked", "'s going to get knocked"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "has finally decided + next year — decyzja już zapadła, to plan na przyszłość → be going to."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "it to centrum handlowe, a ono samo się nie zburzy. Zburzy je ktoś inny → strona bierna: is going to be + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po going to stoi bezokolicznik, więc bierność daje be: is going to be knocked."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "knock down to phrasal verb. W biernej down nie znika i stoi zaraz po V3: is going to be knocked down."
+      }
+    ],
+    "tags": ["passive-voice", "be-going-to"],
+    "difficulty": 2
+  },
+  {
+    "id": "pv-eyes-tested",
+    "type": "gap-fill",
+    "sentence": "If you keep getting headaches when you read, you should ___ (get / eyes / test).",
+    "correct": ["get your eyes tested"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "you should — rada. Wzrok zbada optyk, nie ty sam."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "get / have + rzecz + V3 = ktoś robi coś dla ciebie, jak usługa."
+      },
+      {
+        "label_pl": "szyk",
+        "text_pl": "Najpierw rzecz, potem V3: get your eyes tested. Nie get tested your eyes."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po should forma podstawowa → get. Przy częściach ciała zaimek dzierżawczy: your eyes."
+      }
+    ],
+    "tags": ["passive-voice"],
+    "difficulty": 2
+  },
+  {
+    "id": "pv-children-accompanied",
+    "type": "gap-fill",
+    "sentence": "Children under twelve ___ (need / accompany) by an adult at all times inside the museum.",
+    "correct": ["need to be accompanied"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "at all times — stała zasada z regulaminu → czas teraźniejszy. children to liczba mnoga, więc need bez -s."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "by an adult — to dorosły towarzyszy dzieciom, a nie dzieci komuś → bezokolicznik bierny."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "need to + be + V3 → need to be accompanied."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "need to accompany znaczyłoby, że to dzieci mają komuś towarzyszyć. Brytyjskie need accompanying też ma sens bierny, ale w regulaminie standardem jest need to be + V3."
+      }
+    ],
+    "tags": ["passive-voice"],
+    "difficulty": 2,
+    "accepted": ["need accompanying"]
+  },
+  {
+    "id": "pv-sun-earth-believed",
+    "type": "gap-fill",
+    "sentence": "For centuries, ___ (it / widely / believe) that the Sun moved around the Earth.",
+    "correct": ["it was widely believed"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "For centuries + moved — chodzi o dawne przekonanie, dziś nieaktualne → Past Simple."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Po polsku „powszechnie uważano, że…” to forma bezosobowa. Po angielsku: It + be + V3 + that."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Angielskie zdanie musi mieć podmiot, więc samo was widely believed that to błąd. It zostaje."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Przysłówek widely stoi między was a V3 → it was widely believed."
+      }
+    ],
+    "tags": ["passive-voice", "past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "pv-complaint-dealt-with",
+    "type": "gap-fill",
+    "sentence": "Don't worry about your complaint — it ___ (deal) with by our manager at the moment.",
+    "correct": ["is being dealt"],
+    "accepted": ["'s being dealt"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "at the moment — coś dzieje się właśnie teraz → Present Continuous."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "by our manager — to kierownik zajmuje się reklamacją, a nie odwrotnie → strona bierna: is being + V3."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "deal with to czasownik z przyimkiem. W biernej with nie znika, stoi zaraz po V3: is being dealt with."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Czasownik nieregularny: deal – dealt – dealt."
+      }
+    ],
+    "tags": ["passive-voice", "present-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "pv-portrait-painted-by",
+    "type": "choice",
+    "text": "This portrait of a young woman was painted ___ a little-known Dutch artist in the 17th century.",
+    "gaps": [
+      {
+        "options": ["by", "with", "from", "of"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "struktura",
+            "text_pl": "was painted — strona bierna. Po luce stoi osoba, która namalowała obraz."
+          },
+          {
+            "label_pl": "wybór",
+            "text_pl": "Wykonawcę w stronie biernej wprowadza by. Tu jest ważną informacją, więc zostaje w zdaniu."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "with to narzędzie (with a thin brush), a from i of nie łączą się z wykonawcą."
+          }
+        ]
+      }
+    ],
+    "tags": ["passive-voice"],
+    "difficulty": 1
+  },
+  {
+    "id": "pv-climbers-rescued",
+    "type": "choice",
+    "text": "The two missing climbers ___ by a helicopter crew late yesterday afternoon.",
+    "gaps": [
+      {
+        "options": ["were rescued", "have been rescued", "rescued", "had rescued"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "yesterday afternoon — konkretny, zamknięty moment w przeszłości → Past Simple. Present Perfect z yesterday odpada."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "by a helicopter crew — ratowała załoga, wspinacze zostali uratowani → strona bierna."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "rescued i had rescued to strona czynna: wychodzi, że to wspinacze kogoś uratowali."
+          }
+        ]
+      }
+    ],
+    "tags": ["passive-voice", "past-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "pv-candidates-contacted",
+    "type": "choice",
+    "text": "All shortlisted candidates ___ by email next Friday and invited for an interview.",
+    "gaps": [
+      {
+        "options": ["will be contacted", "will contact", "are contacting", "will have contacted"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "next Friday — przyszłość, zapowiedź tego, co się stanie → will."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Kandydaci nie kontaktują się sami. To firma napisze do nich i ich zaprosi (and invited) → strona bierna: will be + V3."
+          },
+          {
+            "label_pl": "styl",
+            "text_pl": "W oficjalnych ogłoszeniach strona bierna jest naturalna. Liczy się, co spotka kandydatów, a nie kto wyśle maila."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "will contact, are contacting i will have contacted to strona czynna: kandydaci kontaktowaliby się z kimś."
+          }
+        ]
+      }
+    ],
+    "tags": ["passive-voice", "future-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "pv-dad-wallet-stolen",
+    "type": "choice",
+    "text": "On the first day of our holiday in Rome, my dad ___ on a crowded bus.",
+    "gaps": [
+      {
+        "options": [
+          "had his wallet stolen",
+          "had stolen his wallet",
+          "was stolen his wallet",
+          "has his wallet stolen"
+        ],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "struktura",
+            "text_pl": "have + rzecz + V3 opisuje nie tylko usługę, ale też coś złego, co ktoś ci zrobił: ktoś ukradł tacie portfel."
+          },
+          {
+            "label_pl": "szyk",
+            "text_pl": "Najpierw rzecz, potem V3: had his wallet stolen. had stolen his wallet to Past Perfect i znaczy, że tata sam coś ukradł."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "was stolen his wallet to kalka z polskiego. Kradnie się rzecz, nie osobę, więc osoba nie może być podmiotem przy steal."
+          },
+          {
+            "label_pl": "czas",
+            "text_pl": "On the first day of our holiday — opowieść o przeszłości, więc has odpada."
+          }
+        ]
+      }
+    ],
+    "tags": ["passive-voice", "past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "pv-parcel-wrong-address",
+    "type": "choice",
+    "text": "The parcel ___ to the wrong address — it should have arrived on Monday, but it still isn't here.",
+    "gaps": [
+      {
+        "options": [
+          "must have been sent",
+          "must have sent",
+          "must be sent",
+          "must have been sending"
+        ],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "should have arrived on Monday, but it still isn't here — wnioskujesz o przeszłości i jesteś prawie pewny → must have + V3."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Paczka niczego nie wysyła, to ktoś ją wysłał → strona bierna: must have been + V3."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "must be sent mówi o obowiązku teraz albo w przyszłości. must have sent i must have been sending to strona czynna."
+          }
+        ]
+      }
+    ],
+    "tags": ["passive-voice", "modal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "pv-sister-hates-told",
+    "type": "choice",
+    "text": "My sister hates ___ what to do, which is probably why she decided to start her own business.",
+    "gaps": [
+      {
+        "options": ["being told", "telling", "to tell", "be told"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "struktura",
+            "text_pl": "tell wymaga osoby: tell someone what to do. Po luce osoby nie ma, bo to siostrze ktoś mówi, co ma robić → strona bierna."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Po hate może stać -ing, więc bierne -ing: being + V3 → being told. (to be told też byłoby poprawne, ale nie ma go w opcjach.)"
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "telling i to tell to strona czynna bez osoby, której się mówi. be told odpada, bo po hate nie ma bezokolicznika bez to."
+          }
+        ]
+      }
+    ],
+    "tags": ["passive-voice"],
+    "difficulty": 2
+  },
+  {
+    "id": "pv-fire-thought-caused",
+    "type": "choice",
+    "text": "Last night's fire at the sports centre is thought ___ by a cigarette that someone had dropped near the bins.",
+    "gaps": [
+      {
+        "options": ["to have been caused", "to have caused", "to be caused", "having been caused"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "struktura",
+            "text_pl": "is thought to… — strona bierna z czasownikiem relacjonującym. Po niej zawsze bezokolicznik z to, więc having odpada."
+          },
+          {
+            "label_pl": "czas",
+            "text_pl": "Pożar był wczoraj w nocy, a ludzie myślą teraz. Czynność wcześniejsza → to have + V3."
+          },
+          {
+            "label_pl": "strona",
+            "text_pl": "by a cigarette — to papieros spowodował pożar, a nie odwrotnie → bierny: to have been caused."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "to be caused odnosiłoby się do teraz, a to have caused znaczyłoby, że pożar coś spowodował."
+          }
+        ]
+      }
+    ],
+    "tags": ["passive-voice"],
+    "difficulty": 3
+  },
+  {
+    "id": "pv-timetable-explained",
+    "type": "choice",
+    "text": "Nobody understood the new timetable, so at the start of the lesson ___ to us step by step.",
+    "gaps": [
+      {
+        "options": ["it was explained", "we were explained it", "it explained", "we explained it"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "pułapka",
+            "text_pl": "explain, w przeciwieństwie do give, nie bierze osoby bez to: give someone something, ale explain something to someone."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Dlatego w biernej podmiotem jest rzecz (it = rozkład), a osoba zostaje z to: it was explained to us."
+          },
+          {
+            "label_pl": "odpada",
+            "text_pl": "we were explained it to osoba jako podmiot przy explain. it explained i we explained it to strona czynna, a przecież to nie my tłumaczyliśmy."
+          }
+        ]
+      }
+    ],
+    "tags": ["passive-voice"],
+    "difficulty": 3
+  },
+  {
+    "id": "pv-museum-being-renovated",
+    "type": "key-word-transformation",
+    "source": "They were renovating the museum when we visited Wrocław, so we couldn't go inside.",
+    "keyWord": "BEING",
+    "target": "The museum ___ when we visited Wrocław, so we couldn't go inside.",
+    "correct": ["was being renovated"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "were renovating — remont trwał w chwili, kiedy przyjechaliśmy → Past Continuous."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Podmiotem jest teraz museum, a remontowali je inni → strona bierna. Czas zostaje ten sam: was / were + being + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "museum to liczba pojedyncza → was being renovated."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "was renovated znaczyłoby, że remont się odbył jako całość, a tu był w trakcie. Poza tym nie ma w nim słowa BEING."
+      }
+    ],
+    "tags": ["passive-voice", "past-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "pv-church-believed-built",
+    "type": "key-word-transformation",
+    "source": "People believe that the church was built in the 12th century.",
+    "keyWord": "BELIEVED",
+    "target": "The church is ___ in the 12th century.",
+    "correct": ["believed to have been built"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "People believe that… → podmiotem robisz church: The church is believed + to + bezokolicznik."
+      },
+      {
+        "label_pl": "czas",
+        "text_pl": "Ludzie wierzą teraz (believe), a kościół zbudowano dawno (was built). Czynność wcześniejsza → to have + V3."
+      },
+      {
+        "label_pl": "strona",
+        "text_pl": "Kościół nie budował, tylko został zbudowany → bierny: to have been built."
+      },
+      {
+        "label_pl": "limit",
+        "text_pl": "believed to have been built — 5 wyrazów, czyli równo limit."
+      }
+    ],
+    "tags": ["passive-voice"],
+    "difficulty": 3
+  },
+  {
+    "id": "pv-head-teacher-said",
+    "type": "key-word-transformation",
+    "source": "Everyone says that the new head teacher is very strict.",
+    "keyWord": "SAID",
+    "target": "The new head teacher ___ very strict.",
+    "correct": ["is said to be"],
+    "accepted": ["'s said to be"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Everyone says that + zdanie → podmiot ze zdania po that (head teacher) idzie na początek: is said + to + bezokolicznik."
+      },
+      {
+        "label_pl": "czas",
+        "text_pl": "Mówią teraz i dyrektor jest surowy teraz — ten sam czas → zwykły bezokolicznik: to be."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "is said that he is nie pasuje: podmiot już jest na początku, a wersja z that wymaga It."
+      }
+    ],
+    "tags": ["passive-voice"],
+    "difficulty": 2
+  },
+  {
+    "id": "pv-thieves-thought-got-in",
+    "type": "key-word-transformation",
+    "source": "People think the thieves got into the house through the bathroom window.",
+    "keyWord": "THOUGHT",
+    "target": "The thieves are ___ into the house through the bathroom window.",
+    "correct": ["thought to have got"],
+    "accepted": ["thought to have gotten"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "People think… → The thieves are thought + to + bezokolicznik."
+      },
+      {
+        "label_pl": "czas",
+        "text_pl": "Ludzie myślą teraz, a złodzieje weszli wcześniej (got) → to have + V3."
+      },
+      {
+        "label_pl": "strona",
+        "text_pl": "Złodzieje sami weszli do domu, więc bezokolicznik zostaje czynny: to have got, bez been."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Bierna jest tylko część is thought. Gdy wykonawcą tego, o czym się mówi, jest podmiot, been nie dodajesz."
+      }
+    ],
+    "tags": ["passive-voice"],
+    "difficulty": 3
+  },
+  {
+    "id": "pv-car-serviced-had",
+    "type": "key-word-transformation",
+    "source": "A mechanic serviced my car last week.",
+    "keyWord": "HAD",
+    "target": "I ___ last week.",
+    "correct": ["had my car serviced"],
+    "steps": [
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Samochód serwisował mechanik, ty go tylko zleciłeś → have something done."
+      },
+      {
+        "label_pl": "szyk",
+        "text_pl": "had + rzecz + V3 → had my car serviced."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "I had serviced my car to Past Perfect i znaczy, że sam to zrobiłeś (i to wcześniej niż coś innego)."
+      },
+      {
+        "label_pl": "czas",
+        "text_pl": "last week → Past Simple od have, czyli had."
+      }
+    ],
+    "tags": ["passive-voice", "past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "pv-staff-made-uniforms",
+    "type": "key-word-transformation",
+    "source": "The new manager has made all the staff wear uniforms.",
+    "keyWord": "MADE",
+    "target": "All the staff ___ uniforms by the new manager.",
+    "correct": ["have been made to wear"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "W stronie czynnej make + osoba + bezokolicznik bez to: has made all the staff wear."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "W stronie biernej to wraca: be made to + V1. have been made wear to błąd."
+      },
+      {
+        "label_pl": "czas",
+        "text_pl": "has made → Present Perfect, więc w biernej have been + V3. All the staff to wielu ludzi, dlatego have, a nie has."
+      },
+      {
+        "label_pl": "limit",
+        "text_pl": "have been made to wear — 5 wyrazów, czyli równo limit."
+      }
+    ],
+    "tags": ["passive-voice", "present-perfect"],
+    "difficulty": 3
+  },
+  {
+    "id": "pv-nobody-allowed-enter",
+    "type": "key-word-transformation",
+    "source": "They haven't let anyone enter the building since the fire.",
+    "keyWord": "ALLOWED",
+    "target": "Nobody ___ enter the building since the fire.",
+    "correct": ["has been allowed to"],
+    "accepted": ["'s been allowed to"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "since the fire — od pożaru aż do teraz → Present Perfect, tak jak haven't let."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "let + bezokolicznik nie ma strony biernej. Zamiast niego jest be allowed to, a po allowed zawsze stoi to."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Podmiotem jest Nobody, które samo już przeczy. Czasownik zostaje twierdzący: has been allowed to, nie hasn't been allowed to."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Nobody łączy się z liczbą pojedynczą → has. Razem has been allowed to — 4 wyrazy."
+      }
+    ],
+    "tags": ["passive-voice", "present-perfect"],
+    "difficulty": 3
+  },
+  {
+    "id": "pv-bridge-should-checked",
+    "type": "key-word-transformation",
+    "source": "Nobody checked the bridge before the storm, which was a big mistake.",
+    "keyWord": "SHOULD",
+    "target": "The bridge ___ before the storm.",
+    "correct": ["should have been checked"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Nobody checked + a big mistake — krytyka czegoś, czego nie zrobiono w przeszłości → should have + V3."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Podmiotem jest bridge, a sprawdzać miał go ktoś inny → strona bierna: should have been + V3."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "should have checked znaczyłoby, że to most miał coś sprawdzić. should be checked mówi o teraz albo o przyszłości."
+      }
+    ],
+    "tags": ["passive-voice", "modal-verbs"],
+    "difficulty": 3
+  },
+  {
+    "id": "pv-stadium-finished-by-june",
+    "type": "key-word-transformation",
+    "source": "The builders will have finished the new stadium by June.",
+    "keyWord": "BEEN",
+    "target": "The new stadium ___ by June.",
+    "correct": ["will have been finished"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "by June — do tego momentu w przyszłości wszystko będzie gotowe → Future Perfect."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Podmiotem jest stadium, a nie budowlańcy → strona bierna. Czas przechodzi na be: will have + been + V3."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will be finished by June też jest poprawnym angielskim i znaczy prawie to samo, ale nie ma w nim słowa BEEN. Klucz wymusza Future Perfect w stronie biernej: will have been + V3."
+      },
+      {
+        "label_pl": "limit",
+        "text_pl": "will have been finished — 4 wyrazy."
+      }
+    ],
+    "tags": ["passive-voice", "future-perfect"],
+    "difficulty": 3,
+    "accepted": ["will have been completed", "will have been built"]
+  },
+  {
+    "id": "pv-kasia-offered-job",
+    "type": "key-word-transformation",
+    "source": "A London company has offered Kasia a job.",
+    "keyWord": "OFFERED",
+    "target": "Kasia ___ by a London company.",
+    "correct": ["has been offered a job"],
+    "accepted": ["'s been offered a job"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "offer ma dwa dopełnienia: komu (Kasia) i co (a job). Gdy osoba idzie na początek, rzecz zostaje zaraz po V3."
+      },
+      {
+        "label_pl": "czas",
+        "text_pl": "has offered → Present Perfect, więc w biernej has been + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "has been offered a job — 5 wyrazów. Bez a job zdanie traci sens."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Kasia has offered a job znaczyłoby, że to Kasia komuś zaproponowała pracę."
+      }
+    ],
+    "tags": ["passive-voice", "present-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "pv-passengers-not-told",
+    "type": "key-word-transformation",
+    "source": "Nobody informed the passengers about the delay.",
+    "keyWord": "TOLD",
+    "target": "The passengers ___ about the delay.",
+    "correct": ["were not told", "were told nothing", "were not told anything"],
+    "steps": [
+      {
+        "label_pl": "struktura",
+        "text_pl": "Nobody + czasownik → w biernej przeczenie przechodzi na be: the passengers were not + V3. Nobody znika, nie dopisujesz by nobody."
+      },
+      {
+        "label_pl": "czas",
+        "text_pl": "informed → Past Simple, a passengers to liczba mnoga → were not (weren't) told."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "tell – told – told. informed i told znaczą tu to samo. Pasuje też were told nothing albo were not told anything."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "were not told by nobody to podwójne przeczenie, a w standardowym angielskim jedno przeczenie wystarcza."
+      }
+    ],
+    "tags": ["passive-voice", "past-simple"],
+    "difficulty": 1,
+    "accepted": ["were never told"]
+  }
+]

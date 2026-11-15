@@ -1,0 +1,886 @@
+{
+  "id": "adjectives-adverbs",
+  "category": "grammar",
+  "title_pl": "Przymiotniki i przysłówki",
+  "summary_pl": "Kiedy przymiotnik, a kiedy przysłówek (także po look, taste, feel), -ed czy -ing, stopniowanie z as … as i the more…, the more…, very kontra absolutely, quite i rather, kolejność przymiotników i miejsce przysłówka w zdaniu.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "**Przymiotnik** opisuje rzeczownik: mówi, jaki ktoś albo coś jest (*a careful driver*, *The test was easy.*). **Przysłówek** opisuje całą resztę: czasownik (*drive carefully*), przymiotnik (*extremely easy*), inny przysłówek (*very carefully*) albo całe zdanie (*Luckily, nobody was hurt.*).\n\nPo polsku działa to podobnie: *ostrożny kierowca*, ale *jedzie ostrożnie*. Różnica jest jedna, za to ważna: po czasownikach typu *wyglądać*, *smakować*, *brzmieć* po polsku często mówisz przysłówkiem (*wygląda dobrze*, *smakuje pysznie*), a po angielsku stoi tam ==przymiotnik==: *It looks good.* *It tastes delicious.*"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "co opisujesz?",
+          "text_pl": "Znajdź słowo, do którego odnosi się luka. Rzeczownik → przymiotnik (a quick lunch). Czasownik czynności → przysłówek (eat quickly)."
+        },
+        {
+          "step_pl": "czy to czasownik łączący?",
+          "text_pl": "be, become, get, seem, look, sound, smell, taste, feel, stay mówią, jaki jest podmiot. Po nich stoi przymiotnik: She looks tired. Test: zamień czasownik na is. Jeśli zdanie ma sens (She is tired), to przymiotnik."
+        },
+        {
+          "step_pl": "czy stoi przed innym słowem opisującym?",
+          "text_pl": "Słowo, które wzmacnia albo osłabia przymiotnik albo przysłówek, samo jest przysłówkiem: incredibly fast, surprisingly cheap, really well."
+        },
+        {
+          "step_pl": "forma",
+          "text_pl": "Zrób przysłówek (zwykle -ly) i sprawdź, czy to nie wyjątek: good → well, fast → fast, hard → hard, late → late."
+        }
+      ]
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "Subject",
+          "role": "subject"
+        },
+        {
+          "text": "look / sound / taste / feel",
+          "role": "signal"
+        },
+        {
+          "text": "przymiotnik",
+          "role": "neutral"
+        }
+      ],
+      "example": {
+        "en": "This soup smells amazing.",
+        "pl": "Ta zupa niesamowicie pachnie."
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "Subject",
+          "role": "subject"
+        },
+        {
+          "text": "verb",
+          "role": "neutral"
+        },
+        {
+          "text": "(dopełnienie)",
+          "role": "object"
+        },
+        {
+          "text": "przysłówek",
+          "role": "neutral"
+        }
+      ],
+      "example": {
+        "en": "She speaks English fluently.",
+        "pl": "Ona płynnie mówi po angielsku."
+      }
+    },
+    {
+      "type": "text",
+      "md_pl": "**Jak zrobić przysłówek.** Zwykle dodajesz *-ly* do przymiotnika: *quick → quickly*, *careful → carefully* (dwa l, bo *careful* kończy się na l). Uważaj na pisownię:\n\n- -y po spółgłosce → -ily: *happy → happily*, *easy → easily*,\n- -le → -ly: *gentle → gently*, *terrible → terribly*, *simple → simply*,\n- -ic → -ically: *basic → basically*, *dramatic → dramatically* (wyjątek: *public → publicly*),\n- *true → truly*, *full → fully*."
+    },
+    {
+      "type": "table",
+      "headers": ["Przymiotnik", "Przysłówek", "Przykład i uwaga"],
+      "rows": [
+        [
+          "good",
+          "well",
+          "She's a good singer. She sings well. Jako przymiotnik well znaczy „zdrowy”: I don't feel well."
+        ],
+        ["fast", "fast", "a fast car, drive fast (słowa fastly nie ma)"],
+        ["hard", "hard", "hard work, work hard"],
+        ["late, early", "late, early", "a late train, arrive late; an early flight, get up early"],
+        ["daily, weekly", "daily, weekly", "a daily newspaper, published daily"],
+        [
+          "friendly, lovely, lonely, silly",
+          "brak",
+          "Kończą się na -ly, ale to przymiotniki. Przysłówek zastępujesz zwrotem: She smiled at me in a friendly way."
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Pary o różnym znaczeniu.** Niektóre słowa mają dwie formy przysłówka, ale forma z *-ly* znaczy coś zupełnie innego. Tu nie pomoże zasada, trzeba znać znaczenie."
+    },
+    {
+      "type": "table",
+      "headers": ["Bez -ly", "Z -ly"],
+      "rows": [
+        [
+          "hard = ciężko, mocno: She works hard.",
+          "hardly = prawie wcale, ledwo: I can hardly hear you."
+        ],
+        ["late = późno: We got home late.", "lately = ostatnio: Have you seen Ola lately?"],
+        ["near = blisko: Do you live near here?", "nearly = prawie: I nearly missed the bus."],
+        [
+          "high = wysoko: The plane flew high above the clouds.",
+          "highly = wysoce, bardzo: a highly qualified teacher"
+        ],
+        [
+          "free = za darmo: Children under five travel free.",
+          "freely = swobodnie: You can speak freely here."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "*hardly* samo ma znaczenie przeczące, więc nie łączysz go z *not*: **I can hardly hear you**, nie *I can't hardly hear you*. Stoi tam, gdzie *never*: po pierwszym posiłkowym, przed głównym czasownikiem."
+    },
+    {
+      "type": "text",
+      "md_pl": "**look good, feel bad: czasowniki łączące.** Czasowniki *be, become, get, seem, appear, look, sound, smell, taste, feel, stay, remain* łączą podmiot z jego cechą. Nic się wtedy nie dzieje, mówisz tylko, jaki podmiot jest albo się wydaje. Dlatego stoi po nich ==przymiotnik==: *You look tired.* *This milk smells strange.* *I feel bad about it.*\n\nCzęść z tych czasowników może też oznaczać zwykłą czynność: *look at* (patrzeć na), *taste the soup* (próbować zupy), *feel the fabric* (dotykać materiału). Wtedy opisujesz czynność, więc stoi przysłówek. Test z *is* rozstrzyga: *The soup is delicious* ma sens, więc *The soup tastes delicious*. *He is the soup carefully* nie ma sensu, więc *He tasted the soup carefully*."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Stan → przymiotnik",
+          "md_pl": "Mówisz, **jaki** jest podmiot. Zamiana na *is* działa.",
+          "examples": [
+            {
+              "en": "She looked angry.",
+              "pl": "Wyglądała na złą."
+            },
+            {
+              "en": "The soup tasted delicious.",
+              "pl": "Zupa była pyszna."
+            },
+            {
+              "en": "I feel bad about what I said.",
+              "pl": "Głupio mi z powodu tego, co powiedziałem."
+            }
+          ]
+        },
+        {
+          "title": "Czynność → przysłówek",
+          "md_pl": "Mówisz, **jak** ktoś coś robi. Po czasowniku często stoi dopełnienie albo przyimek.",
+          "examples": [
+            {
+              "en": "She looked angrily at the mess on the floor.",
+              "pl": "Spojrzała ze złością na bałagan na podłodze."
+            },
+            {
+              "en": "He tasted the soup carefully.",
+              "pl": "Ostrożnie spróbował zupy."
+            },
+            {
+              "en": "She felt the fabric carefully.",
+              "pl": "Ostrożnie dotknęła materiału."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "*look good* to „dobrze wyglądać”, a *look well* to „wyglądać zdrowo”. *You look well!* mówisz komuś po chorobie, a *This jacket looks good on you* o wyglądzie."
+    },
+    {
+      "type": "text",
+      "md_pl": "**-ed czy -ing?** Przymiotniki od czasowników uczuć (*bore, interest, tire, excite, embarrass*) mają dwie formy. Pomaga jedno pytanie: kto czuje, a co to uczucie wywołuje?\n\n- **-ing** opisuje ==przyczynę==: rzecz albo osobę, która wywołuje uczucie. *The lecture was boring.*\n- **-ed** opisuje ==tego, kto czuje==. *I was bored.*\n\nMechanizm widać w samym czasowniku: *The lecture bored me.* Wykład coś robi mnie, więc jest *boring* (nudzący). Ja jestem tym, komu to zrobiono, więc jestem *bored* (znudzony). Forma -ed działa jak strona bierna: *I was bored by the lecture.*\n\nNajczęstsze pary: *bored / boring, interested / interesting, tired / tiring, excited / exciting, confused / confusing, disappointed / disappointing, embarrassed / embarrassing, exhausted / exhausting, frightened / frightening, surprised / surprising, annoyed / annoying, relaxed / relaxing, worried / worrying*."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "-ing: co wywołuje uczucie",
+          "md_pl": "Opisuje rzecz, sytuację albo osobę, która działa na innych.",
+          "examples": [
+            {
+              "en": "The match was really exciting.",
+              "pl": "Mecz był naprawdę emocjonujący."
+            },
+            {
+              "en": "It's so embarrassing when my mum posts my baby photos online.",
+              "pl": "Strasznie mi głupio, kiedy mama wrzuca do sieci moje zdjęcia z dzieciństwa."
+            }
+          ]
+        },
+        {
+          "title": "-ed: kto czuje",
+          "md_pl": "Opisuje osobę (czasem zwierzę), która odczuwa.",
+          "examples": [
+            {
+              "en": "We were really excited about the trip.",
+              "pl": "Bardzo się cieszyliśmy na wycieczkę."
+            },
+            {
+              "en": "I felt embarrassed when I forgot my lines.",
+              "pl": "Było mi głupio, kiedy zapomniałem tekstu."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "*I'm boring* znaczy „jestem nudny”, a nie „nudzę się”. Osoba też może być -ing, jeśli działa na innych: *He's so annoying!* (strasznie mnie denerwuje). Po formie -ed często stoi przyimek: *interested in*, *excited about*, *worried about*, *bored with*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Stopień wyższy i najwyższy.** Stopnia wyższego używasz, gdy porównujesz dwie rzeczy (*cheaper than*). Najwyższego, gdy jedna wygrywa z całą grupą (*the cheapest in the shop*). Formę wybierasz po długości przymiotnika: ==krótkie słowa dostają końcówkę, długie dostają more / most przed sobą==."
+    },
+    {
+      "type": "table",
+      "headers": ["Przymiotnik", "Wyższy", "Najwyższy", "Zasada"],
+      "rows": [
+        ["cheap, tall", "cheaper, taller", "the cheapest, the tallest", "jedna sylaba: -er, -est"],
+        [
+          "large, nice",
+          "larger, nicer",
+          "the largest, the nicest",
+          "kończy się na -e: tylko -r, -st"
+        ],
+        [
+          "big, hot, thin",
+          "bigger, hotter, thinner",
+          "the biggest, the hottest, the thinnest",
+          "jedna samogłoska + jedna spółgłoska na końcu: podwajasz spółgłoskę"
+        ],
+        [
+          "happy, easy, busy",
+          "happier, easier, busier",
+          "the happiest, the easiest, the busiest",
+          "dwie sylaby, na -y: y → i, potem -er, -est"
+        ],
+        [
+          "careful, modern, boring",
+          "more careful, more modern, more boring",
+          "the most careful, the most modern, the most boring",
+          "pozostałe dwusylabowe: more, most"
+        ],
+        [
+          "expensive, interesting",
+          "more expensive, more interesting",
+          "the most expensive, the most interesting",
+          "trzy sylaby i więcej: more, most"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Spółgłoski nie podwajasz, gdy przed nią stoją dwie samogłoski (*cheap → cheaper*) ani gdy to w albo y (*new → newer*, *slow → slower*). Kilka dwusylabowych (*clever, quiet, narrow, simple, gentle*) może brać obie formy: *quieter* albo *more quiet*. Przysłówki stopniujesz tak samo: krótkie dostają -er (*faster, harder, later, earlier, sooner*), te z -ly dostają *more* (*more carefully, more slowly*)."
+    },
+    {
+      "type": "table",
+      "headers": ["Podstawowy", "Wyższy", "Najwyższy"],
+      "rows": [
+        ["good / well", "better", "the best"],
+        ["bad / badly", "worse", "the worst"],
+        ["far", "farther / further", "the farthest / the furthest"],
+        ["little", "less", "the least"],
+        ["much / many", "more", "the most"],
+        ["old", "older (elder)", "the oldest (the eldest)"]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "*further* znaczy też „dodatkowy, dalszy”: *For further information, call…* W tym znaczeniu nie powiesz *farther*. *elder / eldest* mówisz tylko o rodzinie i nigdy z *than*: *my elder sister*, *the eldest of three brothers*. *older* pasuje zawsze."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "Subject",
+          "role": "subject"
+        },
+        {
+          "text": "be / verb",
+          "role": "neutral"
+        },
+        {
+          "text": "(much / far / a bit)",
+          "role": "signal"
+        },
+        {
+          "text": "-er / more + przymiotnik",
+          "role": "neutral"
+        },
+        {
+          "text": "than",
+          "role": "signal"
+        },
+        {
+          "text": "to, z czym porównujesz",
+          "role": "neutral"
+        }
+      ],
+      "example": {
+        "en": "The train is much faster than the bus.",
+        "pl": "Pociąg jest dużo szybszy niż autobus."
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "(by far)",
+          "role": "signal"
+        },
+        {
+          "text": "the",
+          "role": "signal"
+        },
+        {
+          "text": "-est / most + przymiotnik",
+          "role": "neutral"
+        },
+        {
+          "text": "rzeczownik",
+          "role": "neutral"
+        },
+        {
+          "text": "in / of …",
+          "role": "neutral"
+        }
+      ],
+      "example": {
+        "en": "It's by far the oldest building in the city.",
+        "pl": "To zdecydowanie najstarszy budynek w mieście."
+      }
+    },
+    {
+      "type": "text",
+      "md_pl": "**in czy of po stopniu najwyższym?** Po miejscu albo grupie traktowanej jako całość stoi *in*: *the best student in the class*, *the tallest building in the world*, *the fastest player in the team*. Po okresie czasu i po liczbie mnogiej stoi *of*: *the best day of my life*, *the hottest day of the year*, *the cheapest of the three*. *the biggest city of the world* to błąd."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**one of the + stopień najwyższy + liczba mnoga.** *one of the best films*, nie *one of the best film*. Wybierasz jeden z wielu, więc rzeczownik musi być w liczbie mnogiej. Czasownik zgadza się z *one*: *One of my friends lives in Gdańsk.*"
+    },
+    {
+      "type": "text",
+      "md_pl": "**Jak duża jest różnica?** Przed stopniem wyższym stawiasz słowo, które mówi, ile tej różnicy jest:\n\n- duża: *much, far, a lot* (potocznie),\n- mała: *a bit, a little, slightly*,\n- „jeszcze bardziej”: *even* (*even better*, *even more expensive*).\n\n==very przed stopniem wyższym to błąd==: *very cheaper* ✗ → *much cheaper*. Stopień najwyższy wzmacniasz przez *by far* (przed *the*) albo *easily*: *by far the best*, *easily the most popular*. Poprawne jest też *the very best* (absolutnie najlepszy), ale wtedy *very* stoi po *the*."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Stopień wyższy",
+          "md_pl": "*much / far / a lot / a bit / slightly / even* + -er albo *more*",
+          "examples": [
+            {
+              "en": "This exercise is slightly harder than the last one.",
+              "pl": "To ćwiczenie jest trochę trudniejsze od poprzedniego."
+            },
+            {
+              "en": "Online tickets are far cheaper than tickets at the door.",
+              "pl": "Bilety przez internet są dużo tańsze niż przy wejściu."
+            }
+          ]
+        },
+        {
+          "title": "Stopień najwyższy",
+          "md_pl": "*by far / easily* + *the* + -est albo *most*",
+          "examples": [
+            {
+              "en": "It's by far the most popular café in town.",
+              "pl": "To zdecydowanie najpopularniejsza kawiarnia w mieście."
+            },
+            {
+              "en": "She's easily the best player in the team.",
+              "pl": "Jest bez dwóch zdań najlepszą zawodniczką w drużynie."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Samo *very* nie stoi przed stopniem wyższym ani przed *the*: *very cheaper* ✗, *very the best* ✗ (poprawnie: *very much cheaper*, *the very best*). Z kolei *by far* stawiasz przed *the*: *by far the best*, nie *the by far best*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**as … as: tak samo.** *as + przymiotnik / przysłówek + as* mówi, że dwie rzeczy są na tym samym poziomie. Przeczenie *not as … as* znaczy „mniej niż”: *The sequel isn't as good as the first film* = pierwszy film jest lepszy.\n\n- Między *as* i *as* stoi forma podstawowa, bez -er: *as fast as*, nie *as faster as*.\n- Po *not* możesz też powiedzieć *so … as*: *not so good as*. Częstsze jest *as*.\n- Wielkość różnicy podajesz przed pierwszym *as*: *nearly as good as* (prawie tak dobry), *not nearly as good as* (dużo gorszy), *just as good as* (równie dobry), *twice as expensive as* (dwa razy droższy).\n- „Taki sam jak” to *the same as*, nigdy *the same like*."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "Subject",
+          "role": "subject"
+        },
+        {
+          "text": "be / verb",
+          "role": "neutral"
+        },
+        {
+          "text": "(not)",
+          "role": "particle"
+        },
+        {
+          "text": "as",
+          "role": "signal"
+        },
+        {
+          "text": "przymiotnik / przysłówek",
+          "role": "neutral"
+        },
+        {
+          "text": "as",
+          "role": "signal"
+        },
+        {
+          "text": "to, z czym porównujesz",
+          "role": "neutral"
+        }
+      ],
+      "example": {
+        "en": "My brother isn't as tall as me.",
+        "pl": "Mój brat nie jest tak wysoki jak ja."
+      }
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "więcej",
+          "md_pl": "stopień wyższy + *than*",
+          "examples": [
+            {
+              "en": "Mark is taller than Tom.",
+              "pl": "Mark jest wyższy od Toma."
+            }
+          ]
+        },
+        {
+          "title": "tyle samo",
+          "md_pl": "*as … as*",
+          "examples": [
+            {
+              "en": "Mark is as tall as Tom.",
+              "pl": "Mark jest tak wysoki jak Tom."
+            }
+          ]
+        },
+        {
+          "title": "mniej",
+          "md_pl": "*not as … as* albo *less … than* (zwykle przy dłuższych przymiotnikach)",
+          "examples": [
+            {
+              "en": "Tom isn't as tall as Mark.",
+              "pl": "Tom nie jest tak wysoki jak Mark."
+            },
+            {
+              "en": "This hotel is less expensive than that one.",
+              "pl": "Ten hotel jest tańszy od tamtego."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Na tych układach opiera się typowa transformacja: *Nobody in the class is as tall as Mark* = *Mark is taller than anyone else in the class* = *Mark is the tallest in the class*."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Po *than* i *as* możesz dać zaimek w formie dopełnienia (*taller than me*) albo podmiot z czasownikiem (*taller than I am*). Samo *taller than I* brzmi bardzo formalnie. W stylu pisanym spotkasz też *as* + posiłkowy + podmiot: *She works in a hospital, as does her sister.* (tak jak jej siostra)"
+    },
+    {
+      "type": "text",
+      "md_pl": "**Im…, tym…: the more…, the more…** Dwie rzeczy zmieniają się razem. Po polsku mówisz „im… tym…”, po angielsku obie części zaczynasz od ==the + stopień wyższy==, a podmiot i czasownik idą dopiero po nim."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "The",
+          "role": "signal"
+        },
+        {
+          "text": "-er / more …",
+          "role": "neutral"
+        },
+        {
+          "text": "subject",
+          "role": "subject"
+        },
+        {
+          "text": "verb",
+          "role": "neutral"
+        },
+        {
+          "text": ",",
+          "role": "neutral"
+        },
+        {
+          "text": "the",
+          "role": "signal"
+        },
+        {
+          "text": "-er / more …",
+          "role": "neutral"
+        },
+        {
+          "text": "subject",
+          "role": "subject"
+        },
+        {
+          "text": "verb",
+          "role": "neutral"
+        }
+      ],
+      "example": {
+        "en": "The more you read, the better your English gets.",
+        "pl": "Im więcej czytasz, tym lepszy staje się twój angielski."
+      }
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "The longer we waited, the more nervous we became.",
+          "pl": "Im dłużej czekaliśmy, tym bardziej się denerwowaliśmy."
+        },
+        {
+          "en": "The sooner you start revising, the less stressed you'll be.",
+          "pl": "Im wcześniej zaczniesz powtórki, tym mniej będziesz się stresować."
+        },
+        {
+          "en": "The more money he earns, the more he spends.",
+          "pl": "Im więcej zarabia, tym więcej wydaje."
+        },
+        {
+          "en": "The sooner, the better.",
+          "pl": "Im szybciej, tym lepiej."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "Bez *the* zdanie się rozsypuje: *More you read, better you get* ✗. Gdy mówisz o przyszłości, w pierwszej części zwykle stoi czas teraźniejszy: *The sooner you start, the better you'll do.* „Coraz” to co innego: powtarzasz stopień wyższy z *and*: *more and more expensive* (coraz droższy), *better and better* (coraz lepiej)."
+    },
+    {
+      "type": "text",
+      "md_pl": "**very good, ale absolutely amazing.** Przymiotniki dzielą się na dwie grupy.\n\n- **Stopniowalne** (*good, bad, big, cold, tired, hungry, interesting*): cecha może być mniejsza albo większa, więc mierzysz ją przez *a bit, fairly, quite, rather, very, extremely*.\n- **Niestopniowalne**: skrajne (*amazing, awful, huge, tiny, exhausted, starving, freezing, delicious, furious*) i absolutne (*impossible, perfect, unique, empty, full*). One już są na końcu skali, więc nie ma czego mierzyć. Wzmacniasz je przez *absolutely, completely, totally, utterly*.\n\n*absolutely* pasuje zwłaszcza do skrajnych (*absolutely amazing*, *absolutely starving*), *completely / totally* do absolutnych (*completely empty*, *totally impossible*). Przy absolutnych pasuje też *almost / nearly*: *almost impossible*, *nearly empty*. ==really jest bezpieczne w obu grupach==: *really good*, *really amazing*."
+    },
+    {
+      "type": "table",
+      "headers": ["Stopniowalny (very, extremely)", "Skrajny (absolutely, really)"],
+      "rows": [
+        ["good", "amazing, fantastic, brilliant"],
+        ["bad", "awful, terrible"],
+        ["big", "huge, enormous"],
+        ["small", "tiny"],
+        ["tired", "exhausted"],
+        ["hungry", "starving"],
+        ["cold / hot", "freezing / boiling"],
+        ["angry", "furious"],
+        ["scared", "terrified"],
+        ["tasty", "delicious"],
+        ["interesting", "fascinating"],
+        ["dirty", "filthy"]
+      ]
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "very / extremely",
+          "role": "signal"
+        },
+        {
+          "text": "good / tired / cold",
+          "role": "neutral"
+        }
+      ],
+      "example": {
+        "en": "I'm very tired.",
+        "pl": "Jestem bardzo zmęczony."
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "absolutely / totally",
+          "role": "signal"
+        },
+        {
+          "text": "amazing / exhausted / freezing",
+          "role": "neutral"
+        }
+      ],
+      "example": {
+        "en": "I'm absolutely exhausted.",
+        "pl": "Jestem kompletnie wykończony."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "*very amazing*, *very delicious* i w drugą stronę *absolutely good*, *absolutely tired* to błędy. Jeśli nie wiesz, do której grupy należy przymiotnik, weź *really*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**quite, rather, fairly, pretty: ile to jest?** Przed zwykłym przymiotnikiem wszystkie znaczą mniej więcej „dość”, ale w brytyjskim angielskim różnią się siłą i nastawieniem. Skala jest przybliżona, dużo robi intonacja.\n\n- *fairly* — najsłabsze: w porządku, bez zachwytu. *The hotel was fairly clean.*\n- *quite* — „całkiem, dość”: *quite good* to dobra, ale nie świetna ocena.\n- *rather* — mocniejsze, często przy czymś niechcianym: *It's rather cold in here.* Przy pozytywnym przymiotniku brzmi jak miłe zaskoczenie: *The film was rather good.*\n- *pretty* — potoczne, podobne do *rather*: *pretty good* to całkiem dobra ocena.\n\n==quite przy skrajnym albo absolutnym przymiotniku znaczy „całkowicie”==: *quite right* (zupełnie słusznie), *quite impossible* (zupełnie niemożliwe), *quite amazing* (naprawdę niesamowity). W amerykańskim *quite good* brzmi zwykle mocniej, bliżej „bardzo dobry”."
+    },
+    {
+      "type": "table",
+      "headers": ["Słowo", "Siła", "Przykład"],
+      "rows": [
+        ["a bit, a little", "trochę (zwykle o czymś niechcianym)", "It's a bit expensive."],
+        ["fairly", "dość, w porządku", "a fairly easy test"],
+        ["quite", "całkiem, dość", "quite a good film"],
+        ["rather, pretty", "mocniejsze „dość”", "rather difficult, pretty good"],
+        ["very", "bardzo", "very tired"],
+        ["extremely", "niezwykle, skrajnie", "extremely dangerous"]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Szyk z przedimkiem: *quite* stoi **przed** *a*: *quite a long way*. *fairly* i *pretty* stoją **po** *a*: *a fairly long way*, *a pretty good idea*. *rather* może stać i przed, i po: *rather a long way* albo *a rather long way*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**too i enough.** *too* stoi przed przymiotnikiem i znaczy „za, zbyt”, czyli tak bardzo, że coś się nie da: *too hot to drink*. *enough* stoi ==po== przymiotniku albo przysłówku: *old enough*, *fast enough*. Przed rzeczownikiem jest odwrotnie: *enough time*, *enough money*.\n\n*very* i *too* to nie to samo: *The coffee is very hot* (bardzo gorąca, ale da się pić), *The coffee is too hot* (za gorąca, nie da się)."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "too",
+          "role": "signal"
+        },
+        {
+          "text": "przymiotnik",
+          "role": "neutral"
+        },
+        {
+          "text": "(for sb)",
+          "role": "object"
+        },
+        {
+          "text": "to V1",
+          "role": "neutral"
+        }
+      ],
+      "example": {
+        "en": "This box is too heavy for me to carry.",
+        "pl": "To pudło jest dla mnie za ciężkie, żebym je uniósł."
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "przymiotnik",
+          "role": "neutral"
+        },
+        {
+          "text": "enough",
+          "role": "signal"
+        },
+        {
+          "text": "(for sb)",
+          "role": "object"
+        },
+        {
+          "text": "to V1",
+          "role": "neutral"
+        }
+      ],
+      "example": {
+        "en": "You're not old enough to vote yet.",
+        "pl": "Nie jesteś jeszcze na tyle dorosły, żeby głosować."
+      }
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "so + przymiotnik / przysłówek",
+          "md_pl": "Gdy po wzmocnieniu nie ma rzeczownika.",
+          "examples": [
+            {
+              "en": "The film was so boring that we left halfway through.",
+              "pl": "Film był tak nudny, że wyszliśmy w połowie."
+            }
+          ]
+        },
+        {
+          "title": "such (a) + przymiotnik + rzeczownik",
+          "md_pl": "Gdy wzmacniasz rzeczownik razem z jego przymiotnikiem.",
+          "examples": [
+            {
+              "en": "It was such a boring film that we left halfway through.",
+              "pl": "To był tak nudny film, że wyszliśmy w połowie."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Policzalny rzeczownik w liczbie pojedynczej potrzebuje *a*: *such a nice day*. Niepoliczalny i liczba mnoga są bez *a*: *such nice weather*, *such nice people*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Kolejność przymiotników przed rzeczownikiem.** Gdy stawiasz dwa albo trzy przymiotniki przed rzeczownikiem, kolejność nie jest dowolna. Zasada jest jedna: ==im bliżej rzeczownika, tym bardziej obiektywna i stała cecha==. Opinia (twoje zdanie) stoi najdalej. To, co prawie jest częścią nazwy (z czego coś jest, do czego służy), stoi tuż przy rzeczowniku."
+    },
+    {
+      "type": "table",
+      "headers": ["Miejsce", "Co mówi", "Przykłady"],
+      "rows": [
+        ["1. opinia", "jak to oceniasz", "lovely, beautiful, ugly, great"],
+        ["2. rozmiar", "jak duże", "big, small, tiny, long"],
+        ["3. wiek", "jak stare", "old, new, young, modern"],
+        ["4. kolor", "jaki kolor", "red, black, dark blue"],
+        ["5. pochodzenie", "skąd", "Italian, Polish, Swiss"],
+        ["6. materiał", "z czego", "wooden, leather, silk"],
+        ["7. cel, rodzaj", "do czego służy", "walking (boots), sleeping (bag), running (shoes)"]
+      ]
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "a lovely old Italian village",
+          "pl": "urocza stara włoska wioska"
+        },
+        {
+          "en": "a big black leather sofa",
+          "pl": "duża czarna skórzana kanapa"
+        },
+        {
+          "en": "a beautiful long silk dress",
+          "pl": "piękna długa jedwabna sukienka"
+        },
+        {
+          "en": "a pair of new running shoes",
+          "pl": "nowe buty do biegania"
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Kształt (*round, square*) stawiasz po rozmiarze, a przed kolorem: *a small round table*. Więcej niż trzy przymiotniki przed jednym rzeczownikiem brzmi nienaturalnie. Przymiotniki z różnych grup stawiasz bez *and* i bez przecinka: *a small dark room*. Wyjątek: dwa kolory łączysz przez *and*: *a black and white dress*. Po czasowniku łączysz je przez *and*: *The room was small and dark.*"
+    },
+    {
+      "type": "text",
+      "md_pl": "**Gdzie stoi przysłówek.** Polski szyk jest swobodny, angielski nie. Najważniejsza zasada: ==nie rozdzielaj czasownika i jego dopełnienia==. *She speaks English fluently*, nie *She speaks fluently English*. Reszta zależy od tego, jaki to przysłówek."
+    },
+    {
+      "type": "table",
+      "headers": ["Rodzaj", "Gdzie stoi", "Przykład"],
+      "rows": [
+        ["sposób (jak?)", "po czasowniku albo po dopełnieniu", "He closed the door quietly."],
+        [
+          "częstotliwość (always, usually, often, never)",
+          "przed głównym czasownikiem, ale po be i po pierwszym posiłkowym",
+          "I usually walk to school. She's always late. I've never been to Rome."
+        ],
+        [
+          "stopień (almost, nearly, hardly)",
+          "przed słowem, które określa; przy czasowniku tak jak częstotliwość",
+          "I almost forgot. I can hardly breathe."
+        ],
+        [
+          "still, already, just",
+          "w środku zdania, tak jak częstotliwość",
+          "She still lives with her parents. I've already finished."
+        ],
+        [
+          "miejsce i czas",
+          "na końcu, najpierw miejsce, potem czas",
+          "We met at the station at six."
+        ],
+        [
+          "komentarz (luckily, unfortunately, apparently)",
+          "zwykle na początku, z przecinkiem",
+          "Luckily, nobody was hurt."
+        ]
+      ]
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "She sang beautifully at the concert last night.",
+          "pl": "Wczoraj wieczorem pięknie zaśpiewała na koncercie."
+        },
+        {
+          "en": "We hardly ever eat out during the week.",
+          "pl": "W tygodniu prawie nigdy nie jemy na mieście."
+        },
+        {
+          "en": "Unfortunately, the museum is closed on Mondays.",
+          "pl": "Niestety muzeum jest w poniedziałki zamknięte."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "*very* nie określa czasownika. Zamiast *I very like it* powiedz **I really like it** albo **I like it very much** (*very much* na końcu, po dopełnieniu, nie *I like very much it*)."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Przysłówek z przeczeniem na początku zdania odwraca szyk jak w pytaniu: *Little did we know that the trip would change our lives.* (Nie mieliśmy pojęcia, że…) To styl pisany. Więcej w temacie o inwersji."
+    },
+    {
+      "type": "text",
+      "md_pl": "**the rich, the young: przymiotnik jako grupa ludzi.** *the* + przymiotnik oznacza wszystkich ludzi z tą cechą: *the rich, the poor, the young, the elderly, the unemployed, the homeless*. Czasownik stoi wtedy w liczbie mnogiej, a przymiotnik nie dostaje -s: *The rich are getting richer.* O jednej osobie mówisz z rzeczownikiem: *a rich man*, *a young person*, nie *a rich*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Typowe błędy Polaków.** Większość bierze się z tłumaczenia słowo w słowo: po polsku *bardzo* pasuje wszędzie, szyk jest luźny, a po *smakuje* i *wygląda* stoi przysłówek."
+    },
+    {
+      "type": "table",
+      "headers": ["Źle", "Dobrze", "Dlaczego"],
+      "rows": [
+        ["This one is more cheaper.", "This one is cheaper.", "-er już jest stopniem wyższym"],
+        [
+          "It's very cheaper online.",
+          "It's much cheaper online.",
+          "very nie łączy się ze stopniem wyższym"
+        ],
+        ["She's taller then me.", "She's taller than me.", "than = niż, then = potem"],
+        ["It's the same like before.", "It's the same as before.", "the same as, tak jak as … as"],
+        [
+          "He's one of the best player in the team.",
+          "He's one of the best players in the team.",
+          "po one of liczba mnoga"
+        ],
+        [
+          "It's the biggest city of the world.",
+          "It's the biggest city in the world.",
+          "miejsce → in"
+        ],
+        ["I very like this song.", "I really like this song.", "very nie określa czasownika"],
+        [
+          "She speaks very well English.",
+          "She speaks English very well.",
+          "nie rozdzielaj czasownika i dopełnienia"
+        ],
+        [
+          "I was boring during the lecture.",
+          "I was bored during the lecture.",
+          "ja czuję → -ed; boring = nudny dla innych"
+        ],
+        [
+          "The pizza tastes deliciously.",
+          "The pizza tastes delicious.",
+          "po taste, look, sound przymiotnik"
+        ],
+        [
+          "He isn't enough old to drive.",
+          "He isn't old enough to drive.",
+          "enough po przymiotniku"
+        ],
+        [
+          "The view was very amazing.",
+          "The view was absolutely amazing.",
+          "skrajnego przymiotnika nie mierzysz przez very"
+        ],
+        ["He works very hardly.", "He works very hard.", "hardly = prawie wcale"],
+        [
+          "She smiled at me friendly.",
+          "She smiled at me in a friendly way.",
+          "friendly to przymiotnik, przysłówka nie ma"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "Ten temat wraca w każdej części językowej, choć rzadko jest jedynym celem luki.\n\n- **Zad. 8 (słowotwórstwo):** przymiotnik i przysłówek to częste cele luk (np. *clearly*, *gradually*). Część mowy wybierasz po pozycji: przed rzeczownikiem przymiotnik, przy czasowniku, imiesłowie albo przymiotniku przysłówek. Pułapką bywa forma -ed/-ing zamiast potrzebnej części mowy.\n- **Zad. 9 i luki otwarte:** stopień wyższy pojawia się często jako druga warstwa luki. W zad. 9 oprócz głównej struktury trzeba było dopisać *than* albo przedimek (*an easier … than*). Typowa para do transformacji: *Nobody is as tall as Mark* → *Mark is taller than anyone else* (THAN) albo *Mark is the tallest…* (TALLEST). Brak *the* albo *than*, *more easier* czy zła liczba po *one of the* to 0 pkt.\n- **Zad. 7:** przy lukach z przyimkiem zależnym opcjami bywają przymiotniki bliskoznaczne, z których każdy łączy się z innym przyimkiem (*capable of*, *familiar with*, *aware of*). Rozstrzyga słowo po luce.\n- **Wypracowanie:** w kryterium zakresu liczy się precyzja. Zamiast *nice, great, interesting* weź dokładniejszy przymiotnik z modyfikatorem: *absolutely essential*, *far more effective*, *by far the biggest problem*."
+    }
+  ]
+}

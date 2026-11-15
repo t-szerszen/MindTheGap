@@ -1,0 +1,365 @@
+{
+  "id": "participle-clauses",
+  "category": "grammar",
+  "title_pl": "Konstrukcje imiesłowowe",
+  "summary_pl": "Jak skrócić zdanie do -ing, having + V3 albo samego V3, skąd wiadomo, którą formę wybrać, i dlaczego obie części zdania muszą mieć ten sam podmiot.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "Po polsku mówisz *Wracając do domu, spotkałem Tomka* albo *Odrobiwszy lekcje, Ola wyszła*. Angielski robi to samo. Zamiast pełnego zdania z podmiotem i czasem zostaje sam imiesłów:\n\n*When I was walking home, I met Tom.* → **Walking home, I met Tom.**\n\nTa skrócona część nie ma własnego podmiotu ani czasu. Podmiot bierze ze zdania głównego, a czas z czasownika głównego. Dlatego forma imiesłowu mówi tylko dwie rzeczy:\n\n- **kto co robi**: podmiot sam działa czy coś dzieje się z nim,\n- **kiedy**: w tym samym czasie czy wcześniej.\n\nDo tego jedna reguła, której prawie nigdy nie wolno złamać: ==podmiot obu części musi być ten sam== (kilka utartych zwrotów typu *Generally speaking* to wyjątki, o nich niżej). Kto szedł do domu? Ja. Kto spotkał Tomka? Ja. Dlatego można skrócić."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "Opening the fridge, Ola realised there was nothing for dinner.",
+          "pl": "Otwierając lodówkę, Ola zorientowała się, że nie ma nic na kolację."
+        },
+        {
+          "en": "Having finished her homework, Ola went out with her friends.",
+          "pl": "Odrobiwszy lekcje, Ola wyszła ze znajomymi."
+        },
+        {
+          "en": "Written in simple English, the book is perfect for beginners.",
+          "pl": "Napisana prostym angielskim książka jest idealna dla początkujących."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "podmiot",
+          "text_pl": "Znajdź podmiot zdania głównego. To on wykonuje czynność z imiesłowu albo to z nim coś się dzieje. Jeśli w skróconej części chodzi o kogoś innego, nie skracaj."
+        },
+        {
+          "step_pl": "strona",
+          "text_pl": "Podmiot sam coś robi → forma czynna: -ing albo having + V3. Ktoś coś robi z podmiotem → forma bierna: V3 albo having been + V3."
+        },
+        {
+          "step_pl": "czas",
+          "text_pl": "Dzieje się w tym samym czasie albo tuż przed czynnością główną → -ing. Skończyło się, zanim zaczęła się czynność główna → having + V3."
+        },
+        {
+          "step_pl": "relacja",
+          "text_pl": "Chcesz powiedzieć wprost, o jaki czas chodzi? Dodaj spójnik albo przyimek: after, before, while, when, since, on. Po nim stoi -ing bez podmiotu. V3 dajesz tylko po when, if, unless, once (When asked…)."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": ["Forma", "Znaczenie", "Przykład"],
+      "rows": [
+        [
+          "doing",
+          "podmiot działa, w tym samym czasie albo tuż przed",
+          "Hearing the bell, the students stood up."
+        ],
+        [
+          "having done",
+          "podmiot działa, wcześniej",
+          "Having lost his keys, Tom had to wait outside."
+        ],
+        ["done", "coś zrobiono z podmiotem", "Painted bright yellow, the house is easy to find."],
+        [
+          "being done",
+          "coś robią z podmiotem w tej chwili",
+          "Being watched by the whole class, Kuba felt nervous."
+        ],
+        [
+          "having been done",
+          "coś zrobiono z podmiotem wcześniej",
+          "Having been told the road was closed, we took the train."
+        ]
+      ]
+    },
+    {
+      "type": "timeline",
+      "now": 0.62,
+      "marks": [
+        { "kind": "point", "from": 0.2, "label": "having left school" },
+        { "kind": "span", "from": 0.45, "to": 0.8, "label": "walking home" }
+      ],
+      "caption_pl": "TERAZ to tu chwila czynności głównej: I met Tom. Walking home trwa wokół niej, więc wystarczy -ing. Having left school wydarzyło się i skończyło wcześniej, więc having + V3."
+    },
+    {
+      "type": "text",
+      "md_pl": "**V-ing: w tym samym czasie.** Najczęściej to dwie czynności, które się nakładają: *Walking home, I met Tom.* = *While I was walking home, I met Tom.*\n\nTak samo opisujesz krótkie czynności, jedną zaraz po drugiej. Kolejność widać z sensu: *Taking a deep breath, she opened the envelope.*\n\nBardzo często -ing podaje też **powód**. Oddaje wtedy *because* albo *as*:\n\n- *Not knowing what to say, he kept quiet.* = Because he didn't know what to say…\n- *Being the oldest, Kasia often has to look after her little brother.* = Because she is the oldest…"
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "V-ing …", "role": "verb" },
+        { "text": ",", "role": "neutral" },
+        { "text": "subject", "role": "subject" },
+        { "text": "main verb …", "role": "neutral" }
+      ],
+      "example": {
+        "en": "Feeling tired, I went to bed early.",
+        "pl": "Czując się zmęczony, wcześnie poszedłem spać."
+      }
+    },
+    {
+      "type": "text",
+      "md_pl": "**Przeczenie: samo not na początku.** Imiesłów nie ma czasu, więc nie ma też *do / does / did*. Stawiasz *not* przed całą formą: *Not knowing…*, *Not being…*, *Not having seen…*."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Not", "role": "particle" },
+        { "text": "V-ing / having V3 …", "role": "verb" },
+        { "text": ",", "role": "neutral" },
+        { "text": "subject", "role": "subject" },
+        { "text": "main verb …", "role": "neutral" }
+      ],
+      "example": {
+        "en": "Not having a car, we usually travel by train.",
+        "pl": "Nie mając samochodu, zwykle jeździmy pociągiem."
+      }
+    },
+    {
+      "type": "text",
+      "md_pl": "**-ing po zdaniu głównym.** Imiesłów może też stać na końcu, po przecinku. Wtedy opisuje:\n\n- czynność, która **towarzyszy** głównej: siedziała i przy tym czytała,\n- **skutek** tego, co się stało: *…, causing serious damage* = *…and it caused serious damage*."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "She sat by the window, reading a book.",
+          "pl": "Siedziała przy oknie i czytała książkę."
+        },
+        {
+          "en": "The factory closed down, leaving 300 people without work.",
+          "pl": "Fabrykę zamknięto i 300 osób zostało bez pracy."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**having + V3: wcześniej.** Kiedy pierwsza czynność skończyła się, zanim zaczęła się druga, bierzesz *having* + V3. To odpowiednik polskiego *-wszy*: *Przeczytawszy list, …* → *Having read the letter, …*\n\nNajbardziej potrzebne jest wtedy, gdy pierwsza czynność to dłuższy, zamknięty etap, a główna dzieje się dużo później albo teraz. Samo -ing sugerowałoby, że obie trwają naraz."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Having", "role": "aux" },
+        { "text": "V3 …", "role": "verb" },
+        { "text": ",", "role": "neutral" },
+        { "text": "subject", "role": "subject" },
+        { "text": "main verb …", "role": "neutral" }
+      ],
+      "example": {
+        "en": "Having saved enough money, Kuba bought a second-hand car.",
+        "pl": "Kiedy Kuba uzbierał dość pieniędzy, kupił używany samochód."
+      }
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "V-ing",
+          "md_pl": "Czynności **nakładają się** albo idą zaraz po sobie. Po polsku zwykle *-ąc*: czekając, słysząc, wiedząc.",
+          "examples": [
+            {
+              "en": "Waiting for the bus, I read the news on my phone.",
+              "pl": "Czekając na autobus, czytałem wiadomości w telefonie."
+            }
+          ]
+        },
+        {
+          "title": "having + V3",
+          "md_pl": "Pierwsza czynność **skończyła się wcześniej**. Po polsku zwykle *-wszy*: skończywszy, przeczytawszy.",
+          "examples": [
+            {
+              "en": "Having lived in Spain for five years, she speaks Spanish fluently.",
+              "pl": "Pięć lat mieszkała w Hiszpanii, więc mówi płynnie po hiszpańsku."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Przy krótkich czynnościach jedna po drugiej wystarczy -ing: *Taking off his coat, he sat down.* Gdy pierwsza czynność to zamknięty etap, a główna jest później albo teraz, potrzebne jest *having* + V3."
+    },
+    {
+      "type": "text",
+      "md_pl": "**V3: coś zrobiono z podmiotem.** Jeśli podmiot zdania głównego nie wykonuje czynności, tylko ktoś coś z nim zrobił, bierzesz samo V3. To skrót od strony biernej, bez *be*:\n\n*The company was founded by two students in 2015. It now employs over 200 people.* → **Founded by two students in 2015, the company now employs over 200 people.**\n\nSamo V3 nie mówi, kiedy to się stało, czas wynika z kontekstu. Kiedy chcesz podkreślić, że coś zrobiono z podmiotem **wcześniej** i to wpłynęło na to, co było potem, mówisz *having been* + V3."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "V3 …", "role": "verb" },
+        { "text": "(by + agent)", "role": "neutral" },
+        { "text": ",", "role": "neutral" },
+        { "text": "subject", "role": "subject" },
+        { "text": "main verb …", "role": "neutral" }
+      ],
+      "example": {
+        "en": "Shocked by the news, she couldn't say a word.",
+        "pl": "Zszokowana wiadomością, nie mogła wydusić słowa."
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Having been", "role": "aux" },
+        { "text": "V3 …", "role": "verb" },
+        { "text": ",", "role": "neutral" },
+        { "text": "subject", "role": "subject" },
+        { "text": "main verb …", "role": "neutral" }
+      ],
+      "example": {
+        "en": "Having been chosen as team captain, Maja felt she had to set an example.",
+        "pl": "Wybrana na kapitankę drużyny, Maja czuła, że musi dawać przykład."
+      }
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "-ing (czynna)",
+          "md_pl": "Podmiot **sam** coś robi.",
+          "examples": [
+            {
+              "en": "Looking out of the window, I saw a fox in the garden.",
+              "pl": "Wyglądając przez okno, zobaczyłem w ogrodzie lisa."
+            }
+          ]
+        },
+        {
+          "title": "V3 (bierna)",
+          "md_pl": "Ktoś coś robi **z podmiotem**.",
+          "examples": [
+            {
+              "en": "Seen from the hill, the town looks tiny.",
+              "pl": "Oglądane ze wzgórza miasto wydaje się malutkie."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Zapytaj: czy podmiot zdania głównego sam to robi? Miasto nie patrzy, to ktoś patrzy na miasto, więc **Seen from the hill**. Druga wskazówka: jeśli zaraz po imiesłowie stoi dopełnienie (*a fox*, *the letter*), forma bierna zwykle odpada (wyjątek: czasowniki z dwoma dopełnieniami, np. *Given a second chance, he…*)."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Spójnik albo przyimek + -ing.** Sam imiesłów nie mówi wprost, jaka to relacja. Jeśli chcesz to pokazać, dodaj spójnik. Po nim dalej stoi -ing, bez podmiotu:\n\n- *after / before* + -ing: *After finishing the exam, we went for pizza.* *Before leaving, check the windows.*\n- *while / when* + -ing, czyli „w trakcie”: *While cooking dinner, he listened to a podcast.*\n- *since* + -ing, od jakiegoś momentu aż do teraz, więc zwykle z Present Perfect: *Since leaving school, he has had five different jobs.*\n- *on* + -ing, czyli „zaraz, gdy”: *On entering the room, she noticed a strange smell.* Bardziej formalnie: *upon*.\n\nPo *after* zwykłe -ing wystarczy, bo kolejność jest już w samym słowie. *After having finished* nie jest błędem, ale brzmi ciężko."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "after / before / while / since", "role": "signal" },
+        { "text": "V-ing …", "role": "verb" },
+        { "text": ",", "role": "neutral" },
+        { "text": "subject", "role": "subject" },
+        { "text": "main verb …", "role": "neutral" }
+      ],
+      "example": {
+        "en": "While waiting for the results, she started a summer job at a café.",
+        "pl": "Czekając na wyniki, zaczęła wakacyjną pracę w kawiarni."
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "On", "role": "signal" },
+        { "text": "V-ing …", "role": "verb" },
+        { "text": ",", "role": "neutral" },
+        { "text": "subject", "role": "subject" },
+        { "text": "main verb …", "role": "neutral" }
+      ],
+      "example": {
+        "en": "On arriving at the airport, we found out that our flight had been cancelled.",
+        "pl": "Zaraz po przyjeździe na lotnisko dowiedzieliśmy się, że nasz lot odwołano."
+      }
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "while + -ing",
+          "md_pl": "Po *while* stoi **czynność**: -ing albo pełne zdanie.",
+          "examples": [
+            {
+              "en": "While travelling around Scotland, we stayed in youth hostels.",
+              "pl": "Podróżując po Szkocji, nocowaliśmy w schroniskach młodzieżowych."
+            }
+          ]
+        },
+        {
+          "title": "during + rzeczownik",
+          "md_pl": "Po *during* stoi **rzeczownik**, nie czynność.",
+          "examples": [
+            {
+              "en": "During our trip around Scotland, we stayed in youth hostels.",
+              "pl": "Podczas wycieczki po Szkocji nocowaliśmy w schroniskach młodzieżowych."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Polskie „podczas” to po angielsku dwa słowa. *During travelling around Scotland* to błąd: przed czynnością stoi **while**."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Spójnik + V3.** Ze znaczeniem biernym działa to tak samo. Po *when, if, unless, once* możesz zostawić samo V3, bez podmiotu i bez *be*:\n\n- *When asked about his plans, he just smiled.* = When he was asked…\n- *If stored properly, the cheese will keep for months.* = If it is stored…\n- *Unless told otherwise, please wait in the main hall.* = Unless you are told…\n\nTo bardzo częste w instrukcjach, regulaminach i tekstach formalnych."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "when / if / unless / once", "role": "signal" },
+        { "text": "V3 …", "role": "verb" },
+        { "text": ",", "role": "neutral" },
+        { "text": "subject", "role": "subject" },
+        { "text": "main verb …", "role": "neutral" }
+      ],
+      "example": {
+        "en": "Once opened, the jar should be kept in the fridge.",
+        "pl": "Po otwarciu słoik trzeba trzymać w lodówce."
+      }
+    },
+    {
+      "type": "text",
+      "md_pl": "**Imiesłów po rzeczowniku.** Imiesłów może też stać zaraz po rzeczowniku. To skrócone zdanie z *who / which / that*, a zasada jest ta sama: -ing, kiedy rzeczownik sam coś robi, V3, kiedy coś z nim zrobiono.\n\n- *the girl who is sitting next to Ola* → **the girl sitting next to Ola**\n- *a bridge which was built in 1900* → **a bridge built in 1900**\n- *people who live near the airport* → **people living near the airport**\n\nW ogłoszeniach to bardzo częste: *Passengers travelling with small children may board first.*"
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "-ing po rzeczowniku opisuje coś, co **trwa** albo jest stałe. Jednorazowej, skończonej czynności w przeszłości tak nie skrócisz: nie *the man stealing my bike*, tylko **the man who stole my bike**."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Wiszący imiesłów (dangling participle).** Imiesłów zawsze łączy się z podmiotem zdania głównego. Jeśli podmiot jest inny, zdanie mówi coś, czego nie chciałeś:\n\n- *Walking home, the rain started.* Wychodzi, że to deszcz szedł do domu. Poprawnie: **Walking home, I got caught in the rain.**\n- *Having finished dinner, the dishes were washed.* Naczynia zjadły obiad. Poprawnie: **Having finished dinner, we washed the dishes.**\n- *Built in 1900, my grandfather bought the house in 1965.* Dziadka zbudowano w 1900 roku. Poprawnie: **Built in 1900, the house was bought by my grandfather in 1965.**\n\nPo polsku działa ta sama zasada. *Wracając do domu, zaczął padać deszcz* to też błąd, tylko łatwiej go przeoczyć."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "kto to robi",
+          "text_pl": "Kto naprawdę wykonuje czynność z imiesłowu? W Walking home, the rain started do domu idzie człowiek, nie deszcz."
+        },
+        {
+          "step_pl": "zmień podmiot",
+          "text_pl": "Postaw tę osobę jako podmiot zdania głównego: Walking home, I got caught in the rain."
+        },
+        {
+          "step_pl": "albo rozwiń",
+          "text_pl": "Jeśli podmioty muszą być różne, nie skracaj. Wróć do pełnego zdania ze spójnikiem: While I was walking home, it started to rain."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Kilka stałych zwrotów nie musi pasować do podmiotu i jest poprawnych: *Generally speaking*, *Strictly speaking*, *Judging by…*, *Considering…*. Działają jak polskie „ogólnie mówiąc” albo „sądząc po”: *Judging by the queue, the new café is very popular.*"
+    },
+    {
+      "type": "text",
+      "md_pl": "**Typowe błędy i skąd się biorą**\n\n- *After finished school, she…* → **After finishing school, she…** Po *after, before, since, on* stoi -ing, a nie V2 czy V3.\n- *During waiting for the bus, I…* → **While waiting for the bus, I…** „Podczas” przed czynnością to *while*.\n- *Finished my homework, I went out.* → **Having finished my homework, I went out.** Samo V3 jest bierne, więc zwykle nie ma po nim dopełnienia (*my homework*). Wyjątek to give, tell, offer, show: *Given a second chance, he…*\n- *Seeing from the tower, the town looks tiny.* → **Seen from the tower, the town looks tiny.** Miasto nie patrzy.\n- *Don't knowing what to say, I kept quiet.* → **Not knowing what to say, I kept quiet.** W imiesłowie przeczenie to samo *not*, bez *do*.\n- *Having arrived late, the teacher told me off.* → **Having arrived late, I was told off by the teacher.** Wychodzi, że to nauczyciel się spóźnił.\n- *The man stealing my bike was arrested.* → **The man who stole my bike was arrested.**"
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "Konstrukcje imiesłowowe pojawiły się w części językowej w 2026, w latach 2023–2025 ich nie było. Typowe dystraktory to ten sam czasownik w stronie biernej i w formie perfect. Jak to rozbroić:\n\n- znajdź podmiot zdania głównego i zapytaj, czy sam wykonuje czynność → czynna czy bierna,\n- jeśli po luce stoi dopełnienie (*how quickly…*, *enough money*), forma bierna zwykle odpada (poza give, tell, offer, show),\n- sprawdź kolejność: w tym samym czasie → -ing, wcześniej i już skończone → having + V3.\n\nW zad. 9 imiesłowów w kluczach jeszcze nie było, ale są w zakresie i łatwo je sprawdzić transformacją: *As soon as she heard* → **On hearing** (ON), *Because I wasn't* → **Not being** (BEING), *When journalists asked him* → **When asked** (ASKED). Limit to zwykle 5 wyrazów razem ze słowem kluczem, a skrót liczy się jako jeden wyraz."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "W rozprawce albo artykule jedna konstrukcja imiesłowowa pokazuje zakres struktur: *Having considered both sides of the argument, I believe that…* Sprawdź tylko, czy podmiot po przecinku to naprawdę ten, kto „rozważył”."
+    }
+  ]
+}

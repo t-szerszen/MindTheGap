@@ -1,0 +1,689 @@
+[
+  {
+    "id": "g3-norway-tickets-cheaper",
+    "type": "gap-fill",
+    "sentence": "Flights to Norway are far too expensive for me at the moment. If the tickets ___ (be / much / cheap) than they are now, I would visit my cousin in Bergen every summer.",
+    "correct": ["were much cheaper"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Bilety teraz są drogie, a ja tylko wyobrażam sobie inną sytuację. W drugiej części stoi I would visit, więc to warunek nierealny o teraźniejszości."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "W części z if czas przeszły prosty, choć chodzi o teraz. Podmiot to the tickets (liczba mnoga), więc were."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po luce jest than, czyli porównanie: cheap przechodzi w cheaper, a much je wzmacnia: were much cheaper (3 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "are much cheaper to zwykły warunek realny i nie pasuje do would. more cheap ✗: krótki przymiotnik dostaje -er."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations", "adjectives-adverbs"],
+    "difficulty": 3
+  },
+  {
+    "id": "g3-grandma-ground-floor",
+    "type": "gap-fill",
+    "sentence": "Grandma has a bad knee and lives on the fourth floor of a block with no lift. If her flat ___ (be / on / ground / floor), she would go out much more often.",
+    "correct": ["were on the ground floor", "was on the ground floor"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Mieszkanie jest na czwartym piętrze, a zdanie opisuje sytuację wymyśloną. Druga część ma she would go out, więc warunek nierealny o teraźniejszości."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "if + czas przeszły prosty: be przechodzi w were (w luźniejszej angielszczyźnie też was przy her flat)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Parter to the ground floor, z przedimkiem the, bo w budynku jest tylko jeden: were on the ground floor (5 wyrazów)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Bez the odpowiedź jest błędna, a ta jedna litera kosztuje punkt. Limit 5 wyrazów jest tu wykorzystany w całości."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations", "articles-determiners"],
+    "difficulty": 2
+  },
+  {
+    "id": "g3-tomek-final-could-play",
+    "type": "gap-fill",
+    "sentence": "Tomek has broken his leg, so he can't play in Saturday's final. If he ___ (can / play), we would have a much better chance of winning the cup.",
+    "correct": ["could play"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Wiemy, że Tomek grać nie może (he can't play). Zdanie z if wyobraża sobie odwrotność, a w drugiej części jest would (we would have a better chance)."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Warunek nierealny o teraźniejszości lub przyszłości: if + czas przeszły. Przeszła forma od can to could."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "could play (2 wyrazy). Po could czasownik bez to i bez końcówki."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "can play to zwykły warunek realny, a obok stoi would, więc formy się gryzą. could to play ✗."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations", "modal-verbs"],
+    "difficulty": 1
+  },
+  {
+    "id": "g3-kasia-strict-parents",
+    "type": "gap-fill",
+    "sentence": "Kasia's parents are really strict. If she came home after ten on a Saturday night, they ___ (not / let / her / go) out for a month.",
+    "correct": ["would not let her go"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "W części z if jest came, czyli czas przeszły o sytuacji wyobrażonej (Kasia tak nie robi). To warunek nierealny."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "W drugiej części would + bezokolicznik bez to. let sb do sth: po let też bez to."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "would not let her go (5 wyrazów, wouldn't let her go to 4)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "won't let przy came się nie łączy. let her to go ✗: po let nie ma to."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "g3-lottery-spend-it-on",
+    "type": "gap-fill",
+    "sentence": "Imagine you won a million złoty in the lottery tomorrow. What ___ (you / spend / it / on) first?",
+    "correct": ["would you spend it on"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Imagine you won: wygrana jest wymyślona, a won to czas przeszły o przyszłości. Skutek takiej sytuacji idzie z would."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Pytanie: would przed podmiotem, potem czasownik bez to. Przyimek on zostaje na końcu: spend money on sth."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "would you spend it on (5 wyrazów)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "will you spend nie pasuje do won. Bez on zdanie jest niepełne, bo spend on to stała para."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations", "question-forms"],
+    "difficulty": 2
+  },
+  {
+    "id": "g3-vegetarian-sister-burger",
+    "type": "gap-fill",
+    "sentence": "My sister has been a vegetarian since she was twelve. She ___ (not / eat) a burger even if you paid her a hundred złoty.",
+    "correct": ["would not eat"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "even if you paid her: nikt jej nie płaci, to czysto wyobrażona sytuacja, a paid to czas przeszły o teraźniejszości."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Druga część warunku nierealnego: would + bezokolicznik bez to."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "would not eat (3 wyrazy) albo wouldn't eat (2)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "doesn't eat lub won't eat nie pasują do paid, bo w drugiej części brakuje would."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "g3-village-cinema",
+    "type": "gap-fill",
+    "sentence": "Our village doesn't have a cinema, so we have to take a bus to Kalisz whenever we want to see a film. I wish there ___ (be / cinema) in our village.",
+    "correct": ["were a cinema", "was a cinema"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Kina teraz nie ma, a ja chciałbym, żeby było. wish o teraźniejszości idzie z czasem przeszłym."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "there is przechodzi w there were (albo there was). Kino jest jedno i pojawia się pierwszy raz, więc a cinema."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "were a cinema (3 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "I wish there is ✗ i I wish there would be ✗: po wish o stanie teraz stoi czas przeszły. Bez a też źle, bo cinema jest policzalne."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations", "past-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "g3-missed-concert-could-have",
+    "type": "gap-fill",
+    "sentence": "I had a high temperature last night, so I missed the open-air concert in the park. I wish I ___ (can / go) with you.",
+    "correct": ["could have gone"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "last night: koncert już był, ja na nim nie byłem. Żal dotyczy przeszłości."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "wish o przeszłości cofa czas o krok dalej: zamiast could mamy could have + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "could have gone (3 wyrazy). Trzecia forma od go to gone, nie went."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "could go mówiłoby o teraz albo o przyszłości, a koncert był wczoraj. could have went ✗."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations", "modal-verbs"],
+    "difficulty": 3
+  },
+  {
+    "id": "g3-soaked-umbrella",
+    "type": "gap-fill",
+    "sentence": "I got completely soaked on my way to school. I wish I ___ (take / umbrella) with me this morning.",
+    "correct": ["had taken an umbrella", "had taken my umbrella"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "this morning i got soaked: wszystko już się stało. Żałuję czegoś z przeszłości."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "wish + past perfect: had + V3. take ma trzecią formę taken."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Przed umbrella potrzebny jest określnik: an (bo zaczyna się od samogłoski) albo my. had taken an umbrella (4 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "I wish I took ✗: czas przeszły po wish dotyczy teraźniejszości. a umbrella ✗: przed samogłoską an."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations", "past-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "g3-dad-driving-promise",
+    "type": "gap-fill",
+    "sentence": "Dad has been promising to teach me to drive for months, but he always finds an excuse. I wish he ___ (finally / keep / promise).",
+    "correct": ["would finally keep his promise"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Tata ciągle się wykręca, a ja chcę, żeby w końcu coś zrobił. Chodzi o zmianę cudzego zachowania, nie o stan."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "wish + would + bezokolicznik: tak mówimy, że ktoś inny nie chce czegoś zrobić, a nas to męczy."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "finally stoi między would a keep. Obietnica należy do taty, więc his promise: would finally keep his promise (5 wyrazów)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "keep a promise to stała kolokacja; tu his brzmi najnaturalniej. finally would keep ✗: przysłówek idzie po would."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations"],
+    "difficulty": 3,
+    "accepted": ["would finally keep the promise"]
+  },
+  {
+    "id": "g3-poznan-missed-train",
+    "type": "gap-fill",
+    "sentence": "We had to wait two hours at the station in Poznań for the next connection. If only we ___ (not / miss / train)!",
+    "correct": ["had not missed the train", "had not missed our train"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Czekaliśmy dwie godziny, bo pociąg nam uciekł. To już się stało, a If only wyraża żal."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "If only działa jak wish: o przeszłości idzie past perfect, czyli had + V3."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Konkretny pociąg, więc the albo our: had not missed the train (5 wyrazów), hadn't missed the train (4)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "If only we didn't miss ✗: czas przeszły po If only dotyczy teraźniejszości, a pociąg uciekł wcześniej. Bez the albo our przed train też źle."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations", "past-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "g3-brother-wishes-taller",
+    "type": "gap-fill",
+    "sentence": "My brother is the shortest boy in his class, and it really bothers him. He ___ (wish / he / be / tall).",
+    "correct": [
+      "wishes he were taller",
+      "wishes he was taller",
+      "wishes that he were taller",
+      "wishes that he was taller"
+    ],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "is the shortest i bothers him: chodzi o to, jak jest teraz. Więc wish w czasie teraźniejszym."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Podmiot he, więc wishes z -es. Po wish o stanie teraz idzie czas przeszły: were (albo was)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Chce być wyższy, czyli taller w stopniu wyższym: wishes he were taller (4 wyrazy). that można dodać, wtedy 5."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "wish bez -es przy he to błąd za punkt. he is taller lub he would be taller ✗ po wish o stanie."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations", "adjectives-adverbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "g3-mum-facebook-photos",
+    "type": "gap-fill",
+    "sentence": "Mum, I know you're proud of me, but I'd ___ (rather / you / not / post) photos of me on Facebook – all my friends can see them.",
+    "correct": ["rather you did not post"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I'd rather i potem inna osoba (you): chcę, żeby ktoś inny czegoś nie robił."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "would rather + inna osoba + czas przeszły, choć chodzi o teraz i przyszłość."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Przeczenie robi did not: rather you did not post (5 wyrazów) albo rather you didn't post (4)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "rather you not post ✗ i rather you don't post ✗. Z I'd przed luką nie dopisuj would, bo to już jest w 'd."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations", "past-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "g3-dinner-eat-at-home",
+    "type": "gap-fill",
+    "sentence": "\"Shall we go out for dinner tonight?\" \"Honestly, I ___ (rather / we / eat) at home; we spent far too much money last weekend.\"",
+    "correct": ["would rather we ate"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "rather i druga osoba (we) po nim: mówię, co wolałbym, żeby zrobiła para, nie tylko ja."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "would rather + osoba + czas przeszły, choć chodzi o dzisiejszy wieczór."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Przed luką jest samo I, więc trzeba dopisać would: would rather we ate (4 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "rather we eat ✗ i rather we would eat ✗. Gdyby osoba była ta sama, byłoby would rather eat, ale tu jest we."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations", "past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "g3-truth-from-ola",
+    "type": "gap-fill",
+    "sentence": "You knew about the problem for weeks! I ___ (rather / you / tell) me the truth right away instead of letting me find out from Ola.",
+    "correct": ["would rather you had told"],
+    "accepted": ["'d rather you had told", "would rather you'd told", "'d rather you'd told"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "You knew for weeks i find out from Ola: sprawa już się wydarzyła. Pretensja dotyczy przeszłości."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "would rather + inna osoba: o teraz czas przeszły, o przeszłości cofamy się dalej, do past perfect."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "would rather you had told (5 wyrazów). Skrót you'd albo I'd daje mniej wyrazów i też jest dobry."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "rather you told mówiłoby o teraz albo o przyszłości. would rather you would have told ✗."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations", "past-perfect"],
+    "difficulty": 3
+  },
+  {
+    "id": "g3-window-cold",
+    "type": "gap-fill",
+    "sentence": "\"Do you mind if I open the window?\" \"Actually, I'd ___ (rather / you / not); I've got a bit of a cold.\"",
+    "correct": ["rather you did not"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Ktoś pyta o pozwolenie, a ja grzecznie odmawiam. I'd rather + you: chcę, żeby ta druga osoba czegoś nie robiła."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "would rather + osoba + czas przeszły. Czasownika nie powtarzamy, zostaje samo did not."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "rather you did not (4 wyrazy) albo rather you didn't (3)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "rather you don't ✗ i rather you not ✗. W odpowiedzi nie powtarzaj open the window, bo luka kończy się na not."
+      }
+    ],
+    "tags": ["conditionals", "key-word-transformations", "past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "g3-interview-why-work",
+    "type": "gap-fill",
+    "sentence": "At my interview for a summer job yesterday, the manager asked me ___ (why / I / want / work) in tourism.",
+    "correct": ["why I wanted to work"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "asked me + why: to pytanie przytoczone, a nie zadane wprost."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "W pytaniu zależnym szyk jest jak w zdaniu oznajmującym: why I wanted, bez did. Po asked czas zwykle cofamy o krok."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "want + to + bezokolicznik: why I wanted to work (5 wyrazów). Bez cofnięcia (why I want) część egzaminatorów by uznała, ale bezpieczniej wanted."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "why did I want ✗: to szyk pytania. Bez to też źle, bo want łączy się z to."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations", "past-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "g3-rome-colosseum",
+    "type": "gap-fill",
+    "sentence": "When I got back from my school trip to Rome, Grandma asked me ___ (whether / I / see) the Colosseum.",
+    "correct": ["whether I had seen"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Babcia pytała o coś, co działo się na wycieczce, czyli wcześniej niż samo pytanie."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Pytanie zależne tak/nie: whether + szyk zdania oznajmującego. Did you see? po cofnięciu daje past perfect."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "whether I had seen (4 wyrazy). Oglądanie było wcześniej niż pytanie babci, więc potrzebny jest past perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "whether did I see ✗. Trzecia forma od see to seen, nie saw."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations", "past-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "g3-doctor-advised-lift",
+    "type": "gap-fill",
+    "sentence": "After Dad's back operation, the doctor ___ (advise / him / not / lift) anything heavy for six weeks.",
+    "correct": ["advised him not to lift"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Operacja już była, lekarz dał radę po niej. To przeszłość, więc advised."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "advise + osoba + (not) to + bezokolicznik."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "not stoi przed to: advised him not to lift (5 wyrazów)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "advised him to not lift się spotyka, ale na maturze bezpieczniej not to. advised him don't lift ✗. Uwaga na pisownię: advise to czasownik, advice to rzeczownik."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations", "past-simple"],
+    "difficulty": 1
+  },
+  {
+    "id": "g3-drama-club-persuaded",
+    "type": "gap-fill",
+    "sentence": "At first I didn't want to join the drama club, but last week my best friend finally ___ (persuade / me / sign / up).",
+    "correct": ["persuaded me to sign up"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "last week: zakończone zdarzenie w przeszłości, więc past simple."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "persuade + osoba + to + bezokolicznik (przekonać kogoś, żeby coś zrobił)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "persuaded me to sign up (5 wyrazów). up zostaje przy sign, bo sign up to jeden czasownik."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "has finally persuaded nie pasuje do last week i do tego przekracza limit. persuaded me sign up ✗: brakuje to."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations", "past-simple"],
+    "difficulty": 2
+  },
+  {
+    "id": "g3-kuba-never-flown",
+    "type": "gap-fill",
+    "sentence": "When I met Kuba at the airport, he told me he ___ (never / fly) before and felt really nervous during take-off.",
+    "correct": ["had never flown"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "told me: relacja w przeszłości. Kuba powiedział wtedy: I have never flown before."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Po told present perfect cofa się do past perfect. Tu nie da się go zostawić, bo dziś Kuba już leciał."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had never flown (3 wyrazy). Trzecia forma od fly to flown."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "has never flown ✗ i never flew ✗. had never flew ✗: flew to druga forma."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations", "past-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "g3-lucia-shops-close",
+    "type": "gap-fill",
+    "sentence": "During her exchange visit, our Spanish guest Lucía asked me ___ (what / time / shops / close) on Saturdays in Poland.",
+    "correct": [
+      "what time the shops closed",
+      "what time shops closed",
+      "what time the shops close",
+      "what time shops close"
+    ],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "asked me + what time: przytaczam pytanie, nie zadaję go."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "W pytaniu zależnym nie ma did, a podmiot stoi przed czasownikiem: what time the shops closed."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po asked zwykle cofamy czas: closed (5 wyrazów z the). Godziny otwarcia to fakt, który dalej jest prawdziwy, więc close też przejdzie."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "what time did the shops close ✗ to szyk pytania i do tego 6 wyrazów. shops closes ✗: shops to liczba mnoga."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations", "question-forms"],
+    "difficulty": 2
+  },
+  {
+    "id": "g3-ola-still-revising",
+    "type": "gap-fill",
+    "sentence": "When I phoned Ola at nine, she said she ___ (still / revise) for the chemistry test and couldn't talk.",
+    "correct": ["was still revising"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "she said i couldn't talk: relacja w przeszłości. Ola powiedziała: I'm still revising."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Po said present continuous cofa się do past continuous: was + -ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "still stoi po was: was still revising (3 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "still was revising ✗: still idzie po be. is still revising nie pasuje do couldn't i do rozmowy, która już się skończyła."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations", "past-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "g3-parents-forbade-festival",
+    "type": "gap-fill",
+    "sentence": "Last summer my parents ___ (forbid / me / go) to the music festival on my own because I was only fifteen.",
+    "correct": ["forbade me to go", "forbade me from going"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Last summer: zdarzenie zamknięte w przeszłości, więc past simple."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "forbid + osoba + to + bezokolicznik albo forbid + osoba + from + -ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Czas przeszły od forbid jest nieregularny: forbade. forbade me to go (4 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "forbidded ✗ i forbid ✗ w czasie przeszłym. forbade me going ✗: bez from gerund tu nie pasuje."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations", "past-simple"],
+    "difficulty": 3
+  },
+  {
+    "id": "g3-new-girl-gym",
+    "type": "gap-fill",
+    "sentence": "On her first day at our school, the new girl asked me ___ (I / can / show / her) where the gym was.",
+    "correct": ["if I could show her", "whether I could show her"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "asked me: przytoczona prośba w formie pytania. Dziewczyna powiedziała: Can you show me where the gym is?"
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Pytanie tak/nie w mowie zależnej: if albo whether + szyk zdania oznajmującego. Po asked can cofa się do could."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Trzeba dopisać if: if I could show her (5 wyrazów)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "could I show her ✗ to szyk pytania. Bez if albo whether zdanie się rozpada."
+      }
+    ],
+    "tags": ["reported-speech", "key-word-transformations", "modal-verbs"],
+    "difficulty": 2
+  }
+]

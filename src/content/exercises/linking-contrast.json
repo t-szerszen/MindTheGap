@@ -1,0 +1,941 @@
+[
+  {
+    "id": "lnk-knee-injury-half-marathon",
+    "type": "choice",
+    "text": "___ a knee injury, Kasia finished the half marathon in under two hours.",
+    "gaps": [
+      {
+        "options": ["Despite", "Although", "However", "Because of"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "relacja",
+            "text_pl": "Kontuzja kolana i świetny czas to zaskoczenie: pobiegła dobrze mimo kontuzji. To kontrast, więc Because of (przyczyna) odpada."
+          },
+          {
+            "label_pl": "po luce",
+            "text_pl": "Za luką stoi rzeczownik (a knee injury), a nie zdanie z czasownikiem. Potrzebny przyimek: Despite."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Although też znaczy „mimo że”, ale wymaga zdania: Although she had a knee injury. However zaczyna nowe zdanie i ma po sobie przecinek."
+          }
+        ]
+      }
+    ],
+    "tags": ["linking-contrast"],
+    "difficulty": 1
+  },
+  {
+    "id": "lnk-brother-outdoors-book",
+    "type": "choice",
+    "text": "My older brother spends every free minute outdoors, ___ I'd rather stay in with a good book.",
+    "gaps": [
+      {
+        "options": ["whereas", "whether", "whatever", "despite"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "relacja",
+            "text_pl": "Dwie osoby i dwa różne zwyczaje: brat robi tak, a ja inaczej. Nic tu nie zaskakuje, to zestawienie dwóch faktów."
+          },
+          {
+            "label_pl": "po luce",
+            "text_pl": "Za luką stoi pełne zdanie (I'd rather stay in), więc potrzebny spójnik. whereas = podczas gdy, a."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "whether to „czy”, a whatever to „cokolwiek”. Wyglądają podobnie, ale znaczą co innego. despite to przyimek i nie łączy się ze zdaniem."
+          }
+        ]
+      }
+    ],
+    "tags": ["linking-contrast"],
+    "difficulty": 2
+  },
+  {
+    "id": "lnk-hotel-view-tiny-rooms",
+    "type": "choice",
+    "text": "The hotel had a wonderful view of the bay. ___, the rooms were tiny and the Wi-Fi hardly worked.",
+    "gaps": [
+      {
+        "options": ["However", "Although", "Despite", "Therefore"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "relacja",
+            "text_pl": "Najpierw zaleta, potem wady. To kontrast, więc Therefore (skutek) odpada."
+          },
+          {
+            "label_pl": "interpunkcja",
+            "text_pl": "Przed luką jest kropka, a po niej przecinek. Tak stoi przysłówek łączący na początku nowego zdania: However,."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Although i Despite łączą dwie części w jednym zdaniu i nie stawia się zaraz po nich przecinka. Although, the rooms… ani Despite, the rooms… nie istnieją."
+          }
+        ]
+      }
+    ],
+    "tags": ["linking-contrast"],
+    "difficulty": 1
+  },
+  {
+    "id": "lnk-underdogs-semicolon",
+    "type": "choice",
+    "text": "Nobody expected our school team to beat the reigning champions; ___, they played the match of their lives and won 2-1.",
+    "gaps": [
+      {
+        "options": ["nevertheless", "therefore", "otherwise", "whereas"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "relacja",
+            "text_pl": "Nikt nie wierzył w wygraną, a jednak wygrali. Wynik przeczy oczekiwaniom: to kontrast, czyli „mimo to”."
+          },
+          {
+            "label_pl": "interpunkcja",
+            "text_pl": "Średnik przed luką i przecinek po niej: potrzebny przysłówek łączący. nevertheless = mimo to."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "therefore dałoby skutek (nikt nie wierzył, więc wygrali), a otherwise warunek (w przeciwnym razie). whereas to spójnik, po którym nie stawia się przecinka."
+          }
+        ]
+      }
+    ],
+    "tags": ["linking-contrast"],
+    "difficulty": 3
+  },
+  {
+    "id": "lnk-strike-flights",
+    "type": "choice",
+    "text": "Hundreds of flights were delayed ___ a strike by air traffic controllers in France.",
+    "gaps": [
+      {
+        "options": ["because of", "because", "so", "although"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "relacja",
+            "text_pl": "Strajk jest powodem opóźnień. Potrzebna przyczyna, więc so (skutek) i although (kontrast) odpadają."
+          },
+          {
+            "label_pl": "po luce",
+            "text_pl": "Za luką stoi rzeczownik (a strike), nie zdanie. Przed rzeczownikiem stoi przyimek: because of."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "because to spójnik i wymaga zdania z czasownikiem: because air traffic controllers were on strike."
+          }
+        ]
+      }
+    ],
+    "tags": ["linking-contrast"],
+    "difficulty": 1
+  },
+  {
+    "id": "lnk-language-school-groups",
+    "type": "choice",
+    "text": "___ the success of the first course, the language school decided to open two more groups in September.",
+    "gaps": [
+      {
+        "options": ["Owing to", "Because", "In spite of", "As long as"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "relacja",
+            "text_pl": "Pierwszy kurs się udał, więc szkoła otwiera kolejne grupy. Sukces to przyczyna decyzji. In spite of znaczyłoby, że otwierają je mimo sukcesu."
+          },
+          {
+            "label_pl": "po luce",
+            "text_pl": "Za luką stoi rzeczownik (the success), więc potrzebny przyimek przyczyny: Owing to = z powodu, dzięki."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Because i As long as to spójniki, więc wymagają zdania z czasownikiem: Because the first course was a success…"
+          }
+        ]
+      }
+    ],
+    "tags": ["linking-contrast"],
+    "difficulty": 2
+  },
+  {
+    "id": "lnk-cinema-closed-therefore",
+    "type": "choice",
+    "text": "Our town's only cinema closed down last year. ___, anyone who wants to see a new film now has to drive to Poznań.",
+    "gaps": [
+      {
+        "options": ["Therefore", "Even so", "Whereas", "Owing to"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "relacja",
+            "text_pl": "Kino zamknięto, więc trzeba jeździć gdzie indziej. Druga informacja wynika z pierwszej: to skutek. Even so (mimo to) daje odwrotną logikę."
+          },
+          {
+            "label_pl": "interpunkcja",
+            "text_pl": "Kropka przed luką i przecinek po niej: przysłówek łączący na początku zdania. Therefore = dlatego."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Whereas to spójnik, który zestawia dwa fakty w jednym zdaniu. Owing to to przyimek, po którym stoi rzeczownik, a nie przecinek i zdanie."
+          }
+        ]
+      }
+    ],
+    "tags": ["linking-contrast"],
+    "difficulty": 2
+  },
+  {
+    "id": "lnk-ankle-unless",
+    "type": "choice",
+    "text": "The doctor says Ania will be back on the court in a month, ___ her ankle takes longer to heal than expected.",
+    "gaps": [
+      {
+        "options": ["unless", "if", "otherwise", "whereas"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "relacja",
+            "text_pl": "Lekarz podaje plan (wróci za miesiąc) i jeden wyjątek, który może go zepsuć. To „chyba że”, czyli warunek z przeczeniem w środku: unless."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "if odwraca sens: wróci za miesiąc, jeśli kostka będzie się goić dłużej. To bez sensu."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "otherwise wprowadza skutek, a nie warunek (bo inaczej…). whereas zestawia dwa różne fakty, a tu nie ma czego zestawiać."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Po unless stoi czas teraźniejszy, choć chodzi o przyszłość: takes, nie will take."
+          }
+        ]
+      }
+    ],
+    "tags": ["linking-contrast", "conditionals"],
+    "difficulty": 2
+  },
+  {
+    "id": "lnk-sunscreen-otherwise",
+    "type": "choice",
+    "text": "Put on some sunscreen before we go out on the lake, ___ you'll get badly burnt.",
+    "gaps": [
+      {
+        "options": ["otherwise", "unless", "so that", "whereas"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "relacja",
+            "text_pl": "Najpierw rada, potem to, co się stanie, jeśli jej nie posłuchasz. To skutek niespełnionego warunku: bo inaczej = otherwise."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "unless stoi przed warunkiem, nie przed skutkiem, i nie bierze will. so that dałoby cel: posmaruj się, żeby się spalić."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "whereas zestawia dwa fakty, a tu jest polecenie i jego konsekwencja."
+          }
+        ]
+      }
+    ],
+    "tags": ["linking-contrast"],
+    "difficulty": 1
+  },
+  {
+    "id": "lnk-grandad-apples-whenever",
+    "type": "choice",
+    "text": "___ my grandad comes to visit, he brings a bag of apples from his garden.",
+    "gaps": [
+      {
+        "options": ["Whenever", "Whatever", "Whether", "Whereas"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Zdanie po luce jest pełne (my grandad comes to visit) i opisuje sytuację, która się powtarza. Chodzi o czas: za każdym razem, gdy."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Whenever = zawsze gdy, za każdym razem gdy."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Whatever wymaga zdania, w którym brakuje rzeczy (whatever he brings). Whether to „czy” i zwykle idzie z or not. Whereas zestawia dwa różne fakty."
+          }
+        ]
+      }
+    ],
+    "tags": ["linking-contrast"],
+    "difficulty": 1
+  },
+  {
+    "id": "lnk-after-school-whatever",
+    "type": "choice",
+    "text": "___ you decide to do after school, your mum and I will always support you.",
+    "gaps": [
+      {
+        "options": ["Whatever", "Whenever", "Whether", "Whereas"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce brakuje rzeczy: you decide to do… co? Czasownik do nie ma dopełnienia, więc słowo z luki musi je zastąpić."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Whatever = cokolwiek, bez względu na to, co. Rodzice wesprą każdy wybór."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Whenever mówi o czasie i wymaga pełnego zdania (whenever you need help). Whether to „czy” i potrzebuje dwóch możliwości. Whereas zestawia dwa fakty."
+          }
+        ]
+      }
+    ],
+    "tags": ["linking-contrast"],
+    "difficulty": 2
+  },
+  {
+    "id": "lnk-medicine-law-whether",
+    "type": "choice",
+    "text": "Maja can't make up her mind ___ to study medicine or law, so she's going to see a careers adviser.",
+    "gaps": [
+      {
+        "options": ["whether", "whatever", "whereas", "unless"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Są dwie możliwości: medicine or law. Maja wybiera między nimi, czyli zastanawia się, czy jedno, czy drugie."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Po luce stoi to + V1 (to study). Przed bezokolicznikiem w znaczeniu „czy” może stać tylko whether, nigdy if."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "whatever i whereas wyglądają podobnie, ale nie znaczą „czy”. unless to „chyba że” i wymaga zdania z podmiotem."
+          }
+        ]
+      }
+    ],
+    "tags": ["linking-contrast"],
+    "difficulty": 3
+  },
+  {
+    "id": "lnk-wildlife-centre-blog",
+    "type": "choice",
+    "title": "Two weeks with the seals",
+    "text": "Last summer I spent two weeks volunteering at a wildlife centre on the coast of Scotland. ___ the work was physically demanding, I enjoyed every minute of it. We started at six every morning ___ the animals could be fed before the first visitors arrived. The centre relies entirely on donations; ___, it cannot afford to employ many staff, and volunteers do most of the work. ___ my lack of experience, by the end of my stay the team trusted me to look after the baby seals on my own.",
+    "gaps": [
+      {
+        "options": ["Although", "In spite of", "However", "Since"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "relacja",
+            "text_pl": "Praca była ciężka, a mimo to bardzo mi się podobała. To kontrast, więc Since (przyczyna) odpada."
+          },
+          {
+            "label_pl": "po luce",
+            "text_pl": "Za luką stoi pełne zdanie: the work was physically demanding. Potrzebny spójnik: Although."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "In spite of to przyimek i wymaga rzeczownika (in spite of the hard work). However nie łączy dwóch części w jedno zdanie."
+          }
+        ]
+      },
+      {
+        "options": ["so that", "in order to", "in case", "unless"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "relacja",
+            "text_pl": "Wstawaliśmy o szóstej po to, żeby zwierzęta zjadły przed przyjściem gości. To cel."
+          },
+          {
+            "label_pl": "po luce",
+            "text_pl": "Za luką stoi zdanie z nowym podmiotem i modalnym: the animals could be fed. Takie zdanie celu otwiera so that."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "in order to wymaga samego V1, bez podmiotu. in case to „na wypadek, gdyby”, a unless to „chyba że”. Oba psują logikę."
+          }
+        ]
+      },
+      {
+        "options": ["as a result", "nevertheless", "whereas", "otherwise"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "relacja",
+            "text_pl": "Centrum żyje tylko z darowizn, więc nie stać go na pracowników. Druga część wynika z pierwszej: to skutek."
+          },
+          {
+            "label_pl": "interpunkcja",
+            "text_pl": "Średnik przed luką i przecinek po niej: przysłówek łączący. as a result = w rezultacie."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "nevertheless dałoby kontrast (mimo to), a otherwise warunek (w przeciwnym razie). whereas to spójnik i nie ma po sobie przecinka."
+          }
+        ]
+      },
+      {
+        "options": ["Despite", "Although", "Owing to", "Whatever"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "relacja",
+            "text_pl": "Nie miałem doświadczenia, a mimo to zespół mi zaufał. To kontrast. Owing to (z powodu) odwraca logikę."
+          },
+          {
+            "label_pl": "po luce",
+            "text_pl": "Za luką stoi rzeczownik: my lack of experience. Przed nim stoi przyimek: Despite."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Although wymaga zdania (although I had no experience). Whatever to „cokolwiek” i tu nie ma sensu."
+          }
+        ]
+      }
+    ],
+    "tags": ["linking-contrast"],
+    "difficulty": 2
+  },
+  {
+    "id": "lnk-school-festival-email",
+    "type": "choice",
+    "title": "School festival update",
+    "text": "Dear Students,\n\nHere is an update about Saturday's festival. The concert will take place in the park ___ it rains, in which case we'll move everything to the sports hall. Lots of students from other classes have already signed up to help, ___ only three people from Year 3 have, so we would be grateful if you could ask your classmates. We still don't know ___ the mayor is coming to the opening, so the speeches might start a bit later. Finally, the barbecue has been cancelled ___ a problem with the gas supply.\n\nBest regards,\nThe Student Council",
+    "gaps": [
+      {
+        "options": ["unless", "if", "whether", "otherwise"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "relacja",
+            "text_pl": "Koncert będzie w parku, a do hali przeniosą go tylko przy deszczu. Park to plan, deszcz to wyjątek: chyba że."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "if odwraca sens: koncert w parku, jeśli pada. whether to „czy”, a otherwise wprowadza skutek, nie warunek."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "unless it rains: po unless stoi czas teraźniejszy, choć chodzi o sobotę."
+          }
+        ]
+      },
+      {
+        "options": ["whereas", "whatever", "despite", "because of"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "relacja",
+            "text_pl": "Dwie grupy i dwie różne sytuacje: z innych klas zgłosiło się dużo osób, a z naszej tylko trzy. To zestawienie: podczas gdy, a."
+          },
+          {
+            "label_pl": "po luce",
+            "text_pl": "Za luką stoi pełne zdanie (only three people from our class have), więc potrzebny spójnik: whereas."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "despite i because of to przyimki i nie łączą się ze zdaniem. whatever znaczy „cokolwiek”."
+          }
+        ]
+      },
+      {
+        "options": ["whether", "whereas", "whenever", "unless"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "We still don't know… Nie wiemy, czy burmistrz przyjdzie. To pytanie zależne typu tak albo nie."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "„Czy” w pytaniu zależnym to whether (albo if, ale tego nie ma w opcjach)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "whereas i whenever wyglądają podobnie, ale nie znaczą „czy”. unless to „chyba że”."
+          }
+        ]
+      },
+      {
+        "options": ["due to", "because", "so that", "in spite of"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "relacja",
+            "text_pl": "Problem z gazem to powód odwołania grilla. To przyczyna, więc so that (cel) i in spite of (kontrast) odpadają."
+          },
+          {
+            "label_pl": "po luce",
+            "text_pl": "Za luką stoi rzeczownik: a problem with the gas supply. Przed rzeczownikiem stoi przyimek: due to."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "because wymaga zdania z czasownikiem: because there was a problem."
+          }
+        ]
+      }
+    ],
+    "tags": ["linking-contrast"],
+    "difficulty": 3
+  },
+  {
+    "id": "lnk-kwt-night-shift",
+    "type": "key-word-transformation",
+    "source": "Although she was exhausted after her night shift, Agata drove her son to school.",
+    "keyWord": "DESPITE",
+    "target": "___ after her night shift, Agata drove her son to school.",
+    "correct": [
+      "Despite being exhausted",
+      "Despite feeling exhausted",
+      "Despite her exhaustion",
+      "Despite her being exhausted"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Although + zdanie: była wykończona, a mimo to zawiozła syna do szkoły. Relacja zostaje ta sama, zmienia się tylko klasa słowa."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "DESPITE to przyimek, więc po nim nie może stać she was. Potrzebny rzeczownik albo -ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Obie części mówią o Agacie, więc wystarczy -ing: was → being. Despite being exhausted. Można też rzeczownikiem: despite her exhaustion."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Despite she was exhausted to 0 pkt. Despite the fact that she was exhausted jest poprawne, ale ma 7 wyrazów."
+      }
+    ],
+    "tags": ["linking-contrast", "gerund-infinitive"],
+    "difficulty": 2
+  },
+  {
+    "id": "lnk-kwt-airport-traffic",
+    "type": "key-word-transformation",
+    "source": "Although the traffic was heavy, we got to the airport on time.",
+    "keyWord": "SPITE",
+    "target": "We got to the airport on time ___ traffic.",
+    "correct": ["in spite of the heavy", "in spite of heavy"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Korki były duże, a mimo to zdążyliśmy. To kontrast, ale trzeba go zapisać bez zdania, bo po luce stoi już tylko rzeczownik traffic."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "SPITE występuje tylko w in spite of. Po nim stoi rzeczownik, a przymiotnik idzie przed niego."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "was heavy zamieniasz na przymiotnik przed rzeczownikiem: the heavy traffic. in spite of the heavy to pięć wyrazów, akurat w limicie."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "in spite the heavy bez of to 0 pkt. Zdania (the traffic was heavy) też nie wstawisz, bo po przyimku nie ma zdania."
+      }
+    ],
+    "tags": ["linking-contrast"],
+    "difficulty": 2
+  },
+  {
+    "id": "lnk-kwt-broken-arm",
+    "type": "key-word-transformation",
+    "source": "Despite having a broken arm, Bartek took part in the school play.",
+    "keyWord": "ALTHOUGH",
+    "target": "___ a broken arm, Bartek took part in the school play.",
+    "correct": ["Although he had", "Although Bartek had"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Despite + -ing w drugą stronę. ALTHOUGH to spójnik, więc po nim musi stać zdanie z podmiotem i czasownikiem."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "having zamieniasz na czasownik w czasie całej historii. took part to przeszłość, więc had."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Podmiot dopisujesz sam: he albo Bartek. Although he had a broken arm, Bartek took part…"
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "although he has to zły czas, bo przedstawienie już się odbyło. Nie dopisuj też but przed Bartek: jeden łącznik wystarczy."
+      }
+    ],
+    "tags": ["linking-contrast"],
+    "difficulty": 2
+  },
+  {
+    "id": "lnk-kwt-ferry-rough-sea",
+    "type": "key-word-transformation",
+    "source": "The ferry didn't leave the harbour as the sea was very rough.",
+    "keyWord": "BECAUSE",
+    "target": "The ferry didn't leave the harbour ___ sea.",
+    "correct": ["because of the rough", "because of the very rough"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "as znaczy tu „ponieważ”: wzburzone morze to powód. Relacja przyczyny zostaje."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Po luce stoi tylko rzeczownik sea, bez czasownika. Przed rzeczownikiem potrzebny przyimek: because of."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Przymiotnik idzie przed rzeczownik i potrzebny jest przedimek: the rough sea. very możesz zostawić: the very rough sea."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "because the sea was rough się nie zmieści, bo zdanie kończy się na sea. Bez the (because of rough sea) też jest źle."
+      }
+    ],
+    "tags": ["linking-contrast"],
+    "difficulty": 2
+  },
+  {
+    "id": "lnk-kwt-library-staff",
+    "type": "key-word-transformation",
+    "source": "The library's opening hours have been shortened because there aren't enough staff.",
+    "keyWord": "DUE",
+    "target": "The library's opening hours have been shortened ___ of staff.",
+    "correct": [
+      "due to a shortage",
+      "due to the shortage",
+      "due to a lack",
+      "due to the lack",
+      "due to lack",
+      "due to an insufficient number"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "because there aren't enough staff: przyczyna podana zdaniem. Trzeba ją zamienić na rzeczownik, bo po luce stoi już of staff."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "DUE to część przyimka due to, a po nim stoi rzeczownik: due to + rzeczownik + of staff."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "not enough to brak albo niedobór: a lack, a shortage (short → shortage). Przedimek a albo the, a przy lack może go nie być."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "due to there aren't enough to 0 pkt: po przyimku nie ma zdania. Samo due bez to też nie zadziała."
+      }
+    ],
+    "tags": ["linking-contrast"],
+    "difficulty": 3
+  },
+  {
+    "id": "lnk-kwt-competition-age",
+    "type": "key-word-transformation",
+    "source": "You can only enter the competition if you are over sixteen.",
+    "keyWord": "UNLESS",
+    "target": "You can't enter the competition ___ sixteen.",
+    "correct": ["unless you are over", "unless you are older than", "unless you are aged over"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "only if: możesz wziąć udział tylko pod jednym warunkiem. W zdaniu docelowym jest już przeczenie: You can't enter."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Nie możesz, chyba że masz ponad szesnaście lat. Warunek jest wyjątkiem od zakazu: unless."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po unless zdanie twierdzące w czasie teraźniejszym: unless you are over sixteen."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "unless you aren't over to podwójne przeczenie, które odwraca sens. Nie przepisuj też only, bo tę rolę gra już unless."
+      }
+    ],
+    "tags": ["linking-contrast", "conditionals"],
+    "difficulty": 3
+  },
+  {
+    "id": "lnk-kwt-skatepark-helmet",
+    "type": "key-word-transformation",
+    "source": "You must wear a helmet at the skatepark or you won't be allowed in.",
+    "keyWord": "OTHERWISE",
+    "target": "You must wear a helmet at the skatepark; ___ allowed in.",
+    "correct": [
+      "otherwise you will not be",
+      "otherwise, you will not be",
+      "otherwise you are not",
+      "otherwise, you are not"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "or znaczy tu „bo inaczej”: jeśli nie założysz kasku, nie wpuszczą cię. To skutek niespełnionego warunku."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "OTHERWISE stoi po średniku i zaczyna drugą część, która mówi o skutku. Po nim stoi pełne zdanie z podmiotem."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Skutek w przyszłości, tak jak w zdaniu wyjściowym: you won't be allowed in. Zasadę możesz też podać w czasie teraźniejszym: you aren't allowed in."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie myl OTHERWISE z unless. unless wprowadza warunek, a tu po luce jest skutek."
+      }
+    ],
+    "tags": ["linking-contrast"],
+    "difficulty": 2
+  },
+  {
+    "id": "lnk-kwt-shoes-off-parents",
+    "type": "key-word-transformation",
+    "source": "Tomek took his shoes off at the door because he didn't want to wake his parents.",
+    "keyWord": "AS",
+    "target": "Tomek took his shoes off at the door ___ his parents.",
+    "correct": ["so as not to wake"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "because he didn't want to: Tomek robi coś po to, żeby coś się NIE stało. To cel z przeczeniem."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Słowo AS pasuje tu do so as to + V1. Przeczenie stawiasz przed to: so as not to."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po to stoi forma podstawowa: wake. so as not to wake = żeby nie obudzić."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "as he didn't want to wake ma sześć wyrazów, więc nie mieści się w limicie. so as not waking nie istnieje."
+      }
+    ],
+    "tags": ["linking-contrast", "gerund-infinitive"],
+    "difficulty": 3
+  },
+  {
+    "id": "lnk-youngest-captain",
+    "type": "gap-fill",
+    "sentence": "Despite ___ (be) the youngest player in the squad, Zosia was chosen as captain.",
+    "correct": ["being"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Przed luką stoi despite, a to przyimek. Po przyimku czasownik zawsze dostaje -ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "be → being. Despite being the youngest = pomimo że była najmłodsza."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Despite she was the youngest to błąd: po despite nie ma zdania z podmiotem."
+      }
+    ],
+    "tags": ["linking-contrast", "gerund-infinitive"],
+    "difficulty": 1
+  },
+  {
+    "id": "lnk-porch-light",
+    "type": "gap-fill",
+    "sentence": "Last night Mum left the porch light on so that we ___ (can) find the house in the dark.",
+    "correct": ["could", "would be able to"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "so that = żeby. Mama zostawiła światło po to, żebyśmy mogli trafić do domu. To cel."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Zdanie główne jest w przeszłości (Last night, left), więc can przechodzi w could."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "so that we can find pasowałoby, gdyby chodziło o teraz albo o przyszłość. Tu wszystko działo się wczoraj."
+      }
+    ],
+    "tags": ["linking-contrast"],
+    "difficulty": 2
+  },
+  {
+    "id": "lnk-sailing-race-warning",
+    "type": "gap-fill",
+    "sentence": "The sailing race went ahead ___ (spite / warning) about strong winds.",
+    "correct": [
+      "in spite of the warning",
+      "in spite of a warning",
+      "in spite of the warnings",
+      "in spite of warnings"
+    ],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Regaty się odbyły, choć ostrzegano przed silnym wiatrem. To kontrast: pomimo ostrzeżeń."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "spite łączy się tylko w in spite of. Brakujące in i of dopisujesz sam."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po of stoi rzeczownik z przedimkiem: the warning albo a warning. Liczba mnoga może być bez przedimka: warnings."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Limit to 5 wyrazów razem z podanymi. in spite of the warning to już pięć, więc nic więcej nie dokładasz."
+      }
+    ],
+    "tags": ["linking-contrast"],
+    "difficulty": 2
+  },
+  {
+    "id": "lnk-saving-up-car",
+    "type": "gap-fill",
+    "sentence": "I'm saving up ___ (order / buy) a second-hand car before I start university.",
+    "correct": ["in order to buy"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Oszczędzam po co? Żeby kupić samochód. To cel."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "order w znaczeniu celu występuje w in order to + V1. Dopisujesz in i to."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po to stoi forma podstawowa: buy, bez -ing i bez końcówki."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "in order to buying i in order for buy to błędy. Nie dodawaj też podmiotu: in order to I buy ✗."
+      }
+    ],
+    "tags": ["linking-contrast", "gerund-infinitive"],
+    "difficulty": 1
+  },
+  {
+    "id": "lnk-show-sold-out",
+    "type": "gap-fill",
+    "sentence": "___ (despite / fact) the tickets cost a fortune, the show sold out within hours.",
+    "correct": ["Despite the fact that"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Bilety kosztowały majątek, a mimo to wszystkie się sprzedały. To kontrast."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Za luką stoi pełne zdanie: the tickets cost a fortune. Samo despite nie łączy się ze zdaniem, dlatego potrzebne jest the fact that."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "despite the fact that: dokładnie cztery wyrazy, bez of."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "despite of the fact that to błąd, a do tego pięć wyrazów, czyli za dużo."
+      }
+    ],
+    "tags": ["linking-contrast"],
+    "difficulty": 2
+  },
+  {
+    "id": "lnk-balcony-plants",
+    "type": "gap-fill",
+    "sentence": "The plants on our balcony will die ___ (unless / somebody / water) them while we're on holiday.",
+    "correct": ["unless somebody waters", "unless somebody can water"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Rośliny zginą, chyba że ktoś je podleje. unless = chyba że, jeśli nie."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po unless stoi czas teraźniejszy, choć chodzi o przyszłość. somebody to trzecia osoba, więc waters z -s."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "unless somebody will water to 0 pkt: po unless, tak jak po if, nie ma will. Nie dodawaj też not, bo przeczenie siedzi już w unless."
+      }
+    ],
+    "tags": ["linking-contrast", "conditionals"],
+    "difficulty": 2
+  },
+  {
+    "id": "lnk-campsite-midday-heat",
+    "type": "gap-fill",
+    "sentence": "We set off from the campsite before dawn ___ (so / as / get) caught in the midday heat.",
+    "correct": ["so as not to get", "so as to avoid getting"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Wyszliśmy przed świtem po to, żeby NIE złapał nas upał. To cel z przeczeniem."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "so i as razem dają so as to + V1. Przeczenie stawiasz przed to: so as not to."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po to stoi forma podstawowa: get. get caught in the heat = dać się złapać upałowi. Pasuje też so as to avoid getting."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "so as not getting i so that not get to błędy. so as not to get ma pięć wyrazów razem z podanymi, więc mieści się w limicie."
+      }
+    ],
+    "tags": ["linking-contrast", "gerund-infinitive"],
+    "difficulty": 3
+  },
+  {
+    "id": "lnk-whatever-happens-final",
+    "type": "gap-fill",
+    "sentence": "___ (what) happens in the final, I'm proud of how hard you've trained this season.",
+    "correct": ["Whatever", "No matter what"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Po luce brakuje podmiotu: ___ happens. Coś się wydarzy w finale, ale nie wiadomo co."
+      },
+      {
+        "label_pl": "znaczenie",
+        "text_pl": "Zdanie mówi: bez względu na to, co się stanie, jestem z ciebie dumny. To whatever = cokolwiek."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "what + ever = whatever, pisane razem. To samo znaczy no matter what."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Samo What nie zadziała: What happens in the final to początek pytania, a nie „cokolwiek się stanie”."
+      }
+    ],
+    "tags": ["linking-contrast"],
+    "difficulty": 2
+  }
+]

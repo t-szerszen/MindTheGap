@@ -1,0 +1,1040 @@
+[
+  {
+    "id": "art-cottage-snowdon",
+    "type": "choice",
+    "text": "Last summer my family rented ___ at the foot of Snowdon. ___ was over two hundred years old and had no Wi-Fi, but there was ___ in the living room, so I spent every evening teaching myself to play it.",
+    "gaps": [
+      {
+        "options": ["the cottage", "a cottage", "cottage", "a cottages"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Domek pojawia się w tekście pierwszy raz. Słuchacz nie wie, o który chodzi."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Pierwsza wzmianka + rzeczownik policzalny w lp → a: „jeden, jakiś domek”."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Samo cottage ✗: policzalny w lp nie stoi bez przedimka. a cottages ✗: a idzie tylko z lp."
+          }
+        ]
+      },
+      {
+        "options": ["A cottage", "The cottage", "Cottage", "The cottages"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "To ten sam domek, o którym było zdanie wcześniej."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Druga wzmianka → the: „ten domek, już wiesz który”."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "A cottage brzmiałoby jak jakiś inny domek. The cottages nie pasuje do czasownika was (lp)."
+          }
+        ]
+      },
+      {
+        "options": ["the old piano", "a old piano", "an old piano", "old piano"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "there was przedstawia coś nowego: dopiero się dowiadujesz, że w pokoju było pianino. To pierwsza wzmianka."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "a czy an zależy od pierwszego dźwięku słowa tuż po przedimku. Tu to old, a nie piano, więc an old piano."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "the old piano sugeruje, że o tym pianinie już była mowa. Samo old piano ✗: piano jest policzalne w lp."
+          }
+        ]
+      }
+    ],
+    "tags": ["articles-determiners"],
+    "difficulty": 1
+  },
+  {
+    "id": "art-music-concentrate",
+    "type": "choice",
+    "text": "I've always believed that ___ helps people concentrate, but ___ in the café next to our school is so loud that I can't hear myself think.",
+    "gaps": [
+      {
+        "options": ["the music", "music", "a music", "musics"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Mówisz o muzyce w ogóle, o każdej muzyce, a nie o konkretnym utworze."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Ogólnie + rzeczownik niepoliczalny → bez przedimka."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "the music to ta konkretna muzyka, a tu żadnej konkretnej nie ma. music jest niepoliczalne, więc a music i musics odpadają."
+          }
+        ]
+      },
+      {
+        "options": ["music", "the music", "a music", "musics"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "in the café next to our school zawęża: chodzi o muzykę w jednym, konkretnym miejscu."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Rzeczownik doprecyzowany tym, co stoi po nim → the."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "To samo słowo dwa razy w jednym zdaniu, a przedimek inny. Decyduje znaczenie: w ogóle → nic, ta konkretna → the."
+          }
+        ]
+      }
+    ],
+    "tags": ["articles-determiners"],
+    "difficulty": 2
+  },
+  {
+    "id": "art-prison-film",
+    "type": "choice",
+    "text": "The film tells the story of a man who spends twenty years in ___ for a crime he didn't commit. After his release, the first thing he does is go back to ___ to thank the guard who always believed he was innocent.",
+    "gaps": [
+      {
+        "options": ["the prison", "prison", "prisons", "the prisons"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Chodzi o odsiadywanie wyroku, czyli o to, do czego więzienie służy."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Instytucja w swojej funkcji (szkoła dla ucznia, szpital dla pacjenta, więzienie dla więźnia) → bez przedimka: in prison."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "the prison to konkretny budynek, a o żadnym budynku jeszcze nie było mowy."
+          }
+        ]
+      },
+      {
+        "options": ["prison", "the prison", "a prison", "prisons"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Wraca, żeby podziękować strażnikowi. Przychodzi jako gość, nie jako więzień."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Budynek, a nie funkcja → the. Wiadomo który: to samo więzienie, w którym siedział."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "go back to prison znaczy „znowu trafić za kratki”. Jeden przedimek zmienia sens całego zdania."
+          }
+        ]
+      }
+    ],
+    "tags": ["articles-determiners"],
+    "difficulty": 3
+  },
+  {
+    "id": "art-dinner-harbour",
+    "type": "choice",
+    "text": "On the last evening of our trip to Corfu we had ___ at a tiny family restaurant by the harbour. ___ was delicious, but the best part was listening to the owner's stories about the island.",
+    "gaps": [
+      {
+        "options": ["the dinner", "dinner", "a dinner", "dinners"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "had + nazwa posiłku: have breakfast, have lunch, have dinner."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Posiłek jako pora jedzenia → bez przedimka. Mówisz, co robiliście, a nie o konkretnym daniu."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "a dinner wraca dopiero z przymiotnikiem (a lovely dinner) albo gdy chodzi o uroczystą kolację jako wydarzenie."
+          }
+        ]
+      },
+      {
+        "options": ["Food", "The food", "A food", "Foods"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Chodzi o jedzenie w tej restauracji, o której mowa w poprzednim zdaniu."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Konkretne, wiadomo które → the."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Food bez the to jedzenie w ogóle (Food is expensive in Norway). food jest tu niepoliczalne, więc nie A food."
+          }
+        ]
+      }
+    ],
+    "tags": ["articles-determiners"],
+    "difficulty": 2
+  },
+  {
+    "id": "art-vistula-ferry",
+    "type": "choice",
+    "text": "This summer my cousin and I are planning to cycle along ___ from Kraków to Gdańsk. Then we'll take a ferry across ___ to ___, and if we still have any money left, we'll finish the trip in ___, because everyone says it's the best country in Europe for cycling.",
+    "gaps": [
+      {
+        "options": ["Vistula", "the Vistula", "a Vistula", "the Vistulas"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Wisła to rzeka."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Rzeki zawsze z the: the Vistula, the Thames. W nazwie ukryte jest słowo river: the (River) Vistula."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Po polsku „wzdłuż Wisły” bez niczego, więc kusi samo Vistula. a Vistula ✗: rzeka jest jedna."
+          }
+        ]
+      },
+      {
+        "options": ["the Baltic Sea", "Baltic Sea", "a Baltic Sea", "Baltic"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Morze."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Morza i oceany, tak jak rzeki, mają the: the Baltic (Sea), the Atlantic."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Baltic Sea i samo Baltic bez the ✗."
+          }
+        ]
+      },
+      {
+        "options": ["the Sweden", "Sweden", "a Sweden", "the Swedens"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Nazwa państwa: jedno imię własne, bez Republic, Kingdom, States i bez lm."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Takie nazwy już wskazują jedną rzecz → bez przedimka: Sweden, Poland, Norway."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "the Sweden ✗. the dostają tylko nazwy typu the UK, the Czech Republic albo nazwy w lm."
+          }
+        ]
+      },
+      {
+        "options": ["Netherlands", "the Netherlands", "a Netherlands", "the Netherland"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Nazwa kończy się na -s: to liczba mnoga (dosłownie „niskie kraje”)."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Nazwy państw w lm mają the: the Netherlands, the Philippines."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Netherland bez -s nie istnieje jako nazwa państwa, a samo Netherlands bez the ✗."
+          }
+        ]
+      }
+    ],
+    "tags": ["articles-determiners"],
+    "difficulty": 2
+  },
+  {
+    "id": "art-football-violin",
+    "type": "choice",
+    "text": "My little brother plays ___ for the school team on Saturdays, and on Wednesdays he has lessons at the music school because he's learning to play ___.",
+    "gaps": [
+      {
+        "options": ["the football", "football", "a football", "footballs"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "play + sport. Po polsku „grać w”."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Sporty i gry to nazwy czynności → bez przedimka: play football, play chess, play tennis."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "a football to piłka jako przedmiot (kick a football). Do gry w drużynie nie pasuje."
+          }
+        ]
+      },
+      {
+        "options": ["a violin", "the violin", "violins", "the violins"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "play + instrument. Po polsku „grać na”."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Instrumenty z the: play the violin, play the piano."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "a violin to jakieś skrzypce jako przedmiot (I bought a violin). Liczba mnoga też odpada: uczy się gry na instrumencie, nie na kilku sztukach."
+          }
+        ]
+      }
+    ],
+    "tags": ["articles-determiners"],
+    "difficulty": 1
+  },
+  {
+    "id": "art-juice-picnic",
+    "type": "choice",
+    "text": "A: Have we got ___ orange juice left for the picnic? B: No, there isn't ___ in the fridge, but I'll buy ___ on the way to the park.",
+    "gaps": [
+      {
+        "options": ["any", "many", "a lot", "few"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Zwykłe pytanie, a juice jest niepoliczalny."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "W pytaniach → any. some w pytaniu brzmi jak propozycja albo prośba (Would you like some juice?)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "many i few idą tylko z policzalnymi w lm. a lot bez of ✗: a lot of orange juice."
+          }
+        ]
+      },
+      {
+        "options": ["some", "no", "any", "none"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "W zdaniu jest już przeczenie: isn't."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "not + any = nic, ani trochę."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "isn't no i isn't none to podwójne przeczenie, po angielsku błąd. Bez not byłoby dobrze: there's none / there's no juice."
+          }
+        ]
+      },
+      {
+        "options": ["some", "none", "no", "few"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Zdanie twierdzące: kupię trochę soku."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Pewna ilość w zdaniu twierdzącym → some."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "no musi mieć po sobie rzeczownik, none przeczy sensowi (kupię żadnego), few idzie z policzalnymi."
+          }
+        ]
+      }
+    ],
+    "tags": ["articles-determiners"],
+    "difficulty": 1
+  },
+  {
+    "id": "art-krakow-tourists",
+    "type": "choice",
+    "text": "Kraków was amazing, but our hotel was ___ expensive, and in August there are ___ tourists in the Old Town. We spent ___ money in cafés and didn't have ___ time left for the museums, so next time we're going in October.",
+    "gaps": [
+      {
+        "options": ["too much", "too", "too many", "enough"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce stoi przymiotnik expensive, nie rzeczownik."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "too + przymiotnik = za (drogi). too much i too many stoją przed rzeczownikiem."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "too much expensive ✗. enough stoi po przymiotniku (expensive enough) i znaczyłoby co innego."
+          }
+        ]
+      },
+      {
+        "options": ["too much", "too many", "too", "a lot"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "tourists: policzalny w lm."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Za dużo + lm → too many."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "too much idzie z niepoliczalnymi, samo too z przymiotnikiem, a a lot bez of nie łączy się z rzeczownikiem."
+          }
+        ]
+      },
+      {
+        "options": ["a lot of", "many", "a few", "lots"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "money jest niepoliczalne, a zdanie twierdzące."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "W twierdzeniach z niepoliczalnym naturalnie brzmi a lot of. much w takim zdaniu brzmiałoby sztywno."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "many i a few idą z policzalnymi. lots bez of ✗: lots of money."
+          }
+        ]
+      },
+      {
+        "options": ["much", "many", "a lot", "few"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Przeczenie didn't i niepoliczalny time."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "W przeczeniach z niepoliczalnym → much."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "many i few są dla policzalnych. a lot of time też byłoby dobrze, ale samo a lot przed rzeczownikiem nie działa."
+          }
+        ]
+      }
+    ],
+    "tags": ["articles-determiners"],
+    "difficulty": 2
+  },
+  {
+    "id": "art-charity-concert",
+    "type": "choice",
+    "text": "Because of the storm, ___ people came to our charity concert, so we raised much less money than we had hoped. Luckily, ___ local businesses have offered to help, so we're trying again in June.",
+    "gaps": [
+      {
+        "options": ["very little", "very few", "a few", "a little"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "people jest policzalne w lm, więc zostają few albo a few."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Because of the storm i raised much less: wydźwięk na minus, przyszło za mało osób → (very) few."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "a few = kilka, czyli „są, i to jest coś”. Tu zdanie mówi o porażce. little i a little idą tylko z niepoliczalnymi."
+          }
+        ]
+      },
+      {
+        "options": ["a few", "few", "a little", "little"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Luckily + offered to help: wydźwięk na plus."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Kilka firm chce pomóc i to wystarczy, żeby spróbować jeszcze raz → a few."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "few = prawie żadne, kłóci się z Luckily. businesses są policzalne, więc little odpada."
+          }
+        ]
+      }
+    ],
+    "tags": ["articles-determiners"],
+    "difficulty": 2
+  },
+  {
+    "id": "art-rescue-hope",
+    "type": "choice",
+    "text": "The rescue team kept digging through the night, even though there was ___ hope of finding anyone alive under the snow.",
+    "gaps": [
+      {
+        "options": ["a few", "little", "a little", "few"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "hope jest tu niepoliczalne, więc zostają little albo a little."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "even though = mimo że. Kontrast z kept digging działa tylko wtedy, gdy nadziei było mało, prawie wcale → little."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "a little hope = trochę nadziei, czyli powód, żeby kopać dalej. Wtedy even though nie miałoby sensu. few i a few idą z policzalnymi."
+          }
+        ]
+      }
+    ],
+    "tags": ["articles-determiners"],
+    "difficulty": 3
+  },
+  {
+    "id": "art-presentation-each",
+    "type": "choice",
+    "text": "___ student in our group has to give a short presentation in English. Mrs Wójcik gives ___ of us exactly five minutes, and on Friday we're staying at school ___ day to watch them all.",
+    "gaps": [
+      {
+        "options": ["All", "Every", "Both", "Many"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce student w lp i has."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "every + rzeczownik w lp + czasownik w lp."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "All i Many wymagają lm (All students have). Both to dwie osoby i też lm."
+          }
+        ]
+      },
+      {
+        "options": ["every", "each", "either", "no"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Po luce stoi of us."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "each of + us / them / the… = każdy z nas z osobna."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "every nie łączy się z of (można every one of us). either of us to jedna z dwóch osób, a grupa jest większa. no of ✗, byłoby none of us."
+          }
+        ]
+      },
+      {
+        "options": ["every", "each", "all", "whole"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "W piątek siedzą w szkole od rana do wieczora: przez cały dzień."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Cały dzień → all day (jak all week, all night)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "every day i each day to codziennie, a chodzi o jeden piątek. whole day bez the ✗, dobrze byłoby the whole day."
+          }
+        ]
+      }
+    ],
+    "tags": ["articles-determiners"],
+    "difficulty": 2
+  },
+  {
+    "id": "art-advice-news",
+    "type": "choice",
+    "text": "Before my first job interview, my uncle gave me ___ about what to wear and what to say. But the news on the radio that morning ___ awful: there had been an accident on the bridge, so I was late anyway.",
+    "gaps": [
+      {
+        "options": [
+          "a useful advice",
+          "some useful advices",
+          "some useful advice",
+          "an useful advice"
+        ],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "advice jest po angielsku niepoliczalne: nie ma an advice ani advices."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Pewna ilość czegoś niepoliczalnego → some. Jedna rada to a piece of advice."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Po polsku „rada” jest policzalna (dwie rady), stąd błąd. an useful ✗ podwójnie: useful zaczyna się od dźwięku ju-, więc byłoby a useful."
+          }
+        ]
+      },
+      {
+        "options": ["were", "was", "have been", "are"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Podmiot to the news."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "news jest niepoliczalne i stoi w lp, mimo końcówki -s → czasownik w lp."
+          },
+          {
+            "label_pl": "czas",
+            "text_pl": "Opowiadasz o przeszłości (that morning, there had been) → was."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "were ✗: -s myli, ale news to nie liczba mnoga."
+          }
+        ]
+      }
+    ],
+    "tags": ["articles-determiners"],
+    "difficulty": 3
+  },
+  {
+    "id": "art-two-cafes",
+    "type": "choice",
+    "text": "There are two cafés near our school. ___ of them have free Wi-Fi, so we can revise in ___ – it doesn't matter which. Sadly, ___ of them is open after six, so in the evenings we have to go to the library.",
+    "gaps": [
+      {
+        "options": ["Either", "Both", "Neither", "Each"],
+        "answer": 1,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Dwie kawiarnie, po luce have (lm) i so we can revise: obie mają Wi-Fi."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "both (of them) = obie, czasownik w lm."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Each of them i Either of them biorą czasownik w lp (has). Neither przeczyłoby dalszej części zdania."
+          }
+        ]
+      },
+      {
+        "options": ["both", "neither", "either", "none"],
+        "answer": 2,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "it doesn't matter which: obojętnie która z dwóch."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Jedna z dwóch, dowolna → either."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "both = w obu naraz, a which pyta o jedną. neither i none przeczą sensowi."
+          }
+        ]
+      },
+      {
+        "options": ["neither", "either", "both", "none"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Sadly i we have to go to the library: żadna z dwóch nie jest otwarta."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "Ani jedna, ani druga → neither, a czasownik twierdzący w lp (is), bo przeczenie już jest w neither."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "Przy dwóch rzeczach staranniej neither, none of them zostaw na trzy i więcej. both of them is ✗ (zgoda liczby), either of them is open odwraca sens."
+          }
+        ]
+      }
+    ],
+    "tags": ["articles-determiners"],
+    "difficulty": 3
+  },
+  {
+    "id": "art-honest-mistake",
+    "type": "gap-fill",
+    "sentence": "Don't be so hard on Zosia — sending the email to the wrong group was ___ (honest) mistake, and she apologised straight away.",
+    "correct": ["an honest"],
+    "maxWords": 2,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "mistake to rzeczownik policzalny w lp, jedna z wielu możliwych pomyłek → a/an."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Liczy się dźwięk, nie litera. W honest h jest nieme, słowo zaczyna się od samogłoski → an honest (jak an hour)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "a honest ✗. Samo honest mistake ✗, bo policzalny w lp nie stoi bez przedimka."
+      }
+    ],
+    "tags": ["articles-determiners"],
+    "difficulty": 1
+  },
+  {
+    "id": "art-vet-one-day",
+    "type": "gap-fill",
+    "sentence": "My cousin Ola has always loved animals, and she wants to ___ (be / vet) when she finishes school.",
+    "correct": ["be a vet"],
+    "maxWords": 3,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Po be stoi zawód."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "be + a/an + zawód w lp: She's a vet. He's an engineer."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po polsku „chce być weterynarzem”, bez niczego. Po angielsku be vet ✗, przedimek musisz dopisać sam."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "be + a + vet = 3 wyrazy."
+      }
+    ],
+    "tags": ["articles-determiners"],
+    "difficulty": 1
+  },
+  {
+    "id": "art-church-sunday",
+    "type": "gap-fill",
+    "sentence": "Every Sunday morning my grandparents ___ (go / church), and afterwards the whole family has lunch at their place.",
+    "correct": ["go to church"],
+    "maxWords": 3,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Every Sunday morning: zwyczaj, więc czasownik w zwykłej formie (go, bo grandparents to lm)."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Kościół jako miejsce modlitwy, czyli w swojej funkcji → bez przedimka: go to church."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "go to the church to wyprawa do konkretnego budynku, np. żeby go zwiedzić. Do tego the przekroczyłoby limit 3 wyrazów."
+      }
+    ],
+    "tags": ["articles-determiners"],
+    "difficulty": 2
+  },
+  {
+    "id": "art-school-by-bus",
+    "type": "gap-fill",
+    "sentence": "In winter I usually ___ (go / school / bus), because the cycle path near our house is often covered in ice.",
+    "correct": ["go to school by bus"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Jedziesz do szkoły jako uczeń, czyli szkoła w swojej funkcji → go to school, bez the."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Środek transportu po by → bez przedimka: by bus, by train, by car."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "by the bus ✗. on the bus też jest poprawne, ale to inna konstrukcja i w limicie się nie zmieści."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "go + to school + by bus = 5 wyrazów."
+      }
+    ],
+    "tags": ["articles-determiners"],
+    "difficulty": 2
+  },
+  {
+    "id": "art-worst-film",
+    "type": "gap-fill",
+    "sentence": "We walked out after forty minutes — honestly, it was ___ (bad / film) I've ever seen.",
+    "correct": ["the worst film"],
+    "maxWords": 3,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I've ever seen: porównujesz ze wszystkimi filmami, jakie widziałeś → stopień najwyższy."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Najgorszy jest tylko jeden, więc wiadomo który → the + stopień najwyższy."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "bad → worse → worst, stopniowanie nieregularne."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "worst film bez the ✗ i a worst film ✗. the baddest ✗."
+      }
+    ],
+    "tags": ["articles-determiners"],
+    "difficulty": 2
+  },
+  {
+    "id": "art-umbrella-lend",
+    "type": "gap-fill",
+    "sentence": "It's pouring with rain! If I ___ (have / umbrella), I'd lend it to you, but I left mine in my locker.",
+    "correct": ["had an umbrella", "had my umbrella"],
+    "maxWords": 3,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I'd lend it to you, but I left mine: sytuacja teraz i nierealna, parasola przy sobie nie masz."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Nierealny warunek o teraźniejszości → If + Past Simple, would: If I had…"
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "umbrella to rzeczownik policzalny w lp, nie może stać sam. Na maturze brak przedimka w takiej luce dałby 0 pkt, mimo dobrego czasu."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "umbrella zaczyna się od samogłoski → an umbrella. Można też my umbrella, bo mowa o twoim parasolu w szafce."
+      }
+    ],
+    "tags": ["articles-determiners", "conditionals"],
+    "difficulty": 3
+  },
+  {
+    "id": "art-milk-cereal",
+    "type": "gap-fill",
+    "sentence": "Don't worry, there's still ___ (little) milk in the fridge — enough for your cereal, anyway.",
+    "correct": ["a little"],
+    "maxWords": 2,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Don't worry i enough for your cereal: wydźwięk na plus, mleka jest trochę i wystarczy."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "milk jest niepoliczalne → little albo a little. a little = trochę, little = mało, za mało."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Samo little znaczyłoby „prawie nie ma mleka” i kłóciłoby się z Don't worry. a few idzie z policzalnymi."
+      }
+    ],
+    "tags": ["articles-determiners"],
+    "difficulty": 1
+  },
+  {
+    "id": "art-internet-grandma",
+    "type": "gap-fill",
+    "sentence": "My grandma was born in 1951, and she still can't believe how much ___ (internet) has changed the way people shop and talk to each other.",
+    "correct": ["the internet"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Internet jest jeden, wszyscy wiedzą, o który chodzi."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Rzeczy jedyne w swoim rodzaju → the: the sun, the world, the internet."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po polsku „internet” bez niczego, więc kusi samo internet. Mówi się online albo on the internet, nigdy on internet."
+      }
+    ],
+    "tags": ["articles-determiners"],
+    "difficulty": 1
+  },
+  {
+    "id": "art-flats-no",
+    "type": "key-word-transformation",
+    "source": "There aren't any cheap flats to rent near the university.",
+    "keyWord": "NO",
+    "target": "There ___ to rent near the university.",
+    "correct": ["are no cheap flats"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "aren't any: przeczenie z any."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "not + any = no. no stoi przed rzeczownikiem (razem z przymiotnikiem), a czasownik jest twierdzący."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "aren't no ✗: no zastępuje i not, i any, więc drugie przeczenie byłoby podwójne."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "are + no + cheap flats = 4 wyrazy."
+      }
+    ],
+    "tags": ["articles-determiners"],
+    "difficulty": 1
+  },
+  {
+    "id": "art-licence-enough",
+    "type": "key-word-transformation",
+    "source": "Antek is too young to get a driving licence.",
+    "keyWord": "ENOUGH",
+    "target": "Antek isn't ___ a driving licence.",
+    "correct": ["old enough to get", "old enough to have"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "too young to = za młody, żeby."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "too + przymiotnik ↔ not + przymiotnik o przeciwnym znaczeniu + enough: too young = not old enough."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "enough stoi po przymiotniku: old enough, nie enough old. young enough odwróciłoby sens."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "old enough to get = 4 wyrazy."
+      }
+    ],
+    "tags": ["articles-determiners"],
+    "difficulty": 2,
+    "accepted": ["old enough to hold"]
+  },
+  {
+    "id": "art-sisters-neither",
+    "type": "key-word-transformation",
+    "source": "Kasia doesn't eat meat, and her sister doesn't eat it either.",
+    "keyWord": "NEITHER",
+    "target": "___ eats meat.",
+    "correct": [
+      "Neither Kasia nor her sister",
+      "Neither of the sisters",
+      "Neither of the two sisters",
+      "Neither sister"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Dwie osoby i obie nie: doesn't … either."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "neither … nor = ani … ani. Czasownik twierdzący, bo przeczenie już jest w neither. Po neither … nor zgadza się z bliższym podmiotem: her sister → eats."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Neither Kasia nor her sister doesn't eat ✗, podwójne przeczenie. Zdanie docelowe ma eats, więc zostaje samo przeczenie w neither."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Neither Kasia nor her sister = 5 wyrazów. Krócej: Neither of the sisters."
+      }
+    ],
+    "tags": ["articles-determiners"],
+    "difficulty": 3,
+    "accepted": ["Neither of them", "Neither of the girls"]
+  },
+  {
+    "id": "art-shops-none",
+    "type": "key-word-transformation",
+    "source": "I tried three shops, but not one of them had my size.",
+    "keyWord": "NONE",
+    "target": "I tried three shops, but ___ my size.",
+    "correct": ["none of them had", "none had", "none of the shops had", "none of the three had"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "not one of them = ani jeden. Sklepy są trzy, czyli więcej niż dwa."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Przy trzech i więcej: none of + them / the… Przy dwóch byłoby neither."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "none of them didn't have ✗: none już jest przeczeniem, więc czasownik zostaje twierdzący."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "none of them had = 4 wyrazy, had zostaje w przeszłości jak w zdaniu wyjściowym."
+      }
+    ],
+    "tags": ["articles-determiners"],
+    "difficulty": 2
+  }
+]

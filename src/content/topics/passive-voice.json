@@ -1,0 +1,539 @@
+{
+  "id": "passive-voice",
+  "category": "grammar",
+  "title_pl": "Strona bierna",
+  "summary_pl": "Kiedy mówić o tym, co się z czymś dzieje, a nie kto to robi. Jak zbudować formę w czasach, z modalnymi, z have something done i z It is said that.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "W stronie czynnej na początku zdania stoi ten, kto coś robi: *Someone stole my bike.* W stronie biernej na początek idzie to, **z czym** coś się dzieje: *My bike was stolen.* Wydarzenie jest to samo. Zmienia się tylko to, o czym mówisz.\n\nMechanizm jest zawsze ten sam:\n\n- dopełnienie ze strony czynnej (*my bike*) staje się podmiotem,\n- czasownik zamienia się w **be + V3**,\n- wykonawca znika albo wraca na koniec zdania z **by**."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Strona czynna",
+          "md_pl": "Ważne jest, **kto** coś robi. Wykonawca stoi na początku.",
+          "examples": [
+            {
+              "en": "The police arrested two men last night.",
+              "pl": "Policja aresztowała wczoraj w nocy dwóch mężczyzn."
+            }
+          ]
+        },
+        {
+          "title": "Strona bierna",
+          "md_pl": "Ważne jest, **co się stało** i komu. Wykonawca jest nieznany, oczywisty albo po prostu mniej ważny.",
+          "examples": [
+            {
+              "en": "Two men were arrested last night.",
+              "pl": "Wczoraj w nocy aresztowano dwóch mężczyzn."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Polskie formy bezosobowe (*aresztowano*, *zbudowano*, *mówi się*) to po angielsku najczęściej właśnie strona bierna."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "znajdź dopełnienie",
+          "text_pl": "Co stoi po czasowniku w stronie czynnej? They are building a new school. Dopełnienie (a new school) będzie nowym podmiotem."
+        },
+        {
+          "step_pl": "sprawdź czas",
+          "text_pl": "Jaki czas ma czasownik? are building to Present Continuous. Ten sam czas dostaje be, ale be zgadza się z nowym podmiotem: a new school → is being."
+        },
+        {
+          "step_pl": "dodaj V3",
+          "text_pl": "Główny czasownik zawsze idzie w trzeciej formie: built. On się nie zmienia, czas niesie tylko be."
+        },
+        {
+          "step_pl": "zdecyduj o by",
+          "text_pl": "Wykonawcę dopisz przez by tylko wtedy, gdy to nowa i ważna informacja. They, people, someone po prostu wyrzucasz."
+        }
+      ]
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "be", "role": "aux" },
+        { "text": "V3", "role": "verb" },
+        { "text": "(by + agent)", "role": "neutral" }
+      ],
+      "example": {
+        "en": "A new school is being built in our area.",
+        "pl": "W naszej okolicy budują nową szkołę."
+      }
+    },
+    {
+      "type": "text",
+      "md_pl": "**be niesie czas, V3 stoi w miejscu.** Żeby zrobić stronę bierną w dowolnym czasie, bierzesz ten czas od czasownika *be*, a na końcu dokładasz V3. Dlatego w czasach continuous pojawia się ==being==, a w perfect ==been==."
+    },
+    {
+      "type": "table",
+      "headers": ["Czas", "Strona czynna", "Strona bierna"],
+      "rows": [
+        ["Present Simple", "They clean the room every day.", "The room is cleaned every day."],
+        ["Present Continuous", "They are cleaning the room.", "The room is being cleaned."],
+        ["Past Simple", "They cleaned the room.", "The room was cleaned."],
+        ["Past Continuous", "They were cleaning the room.", "The room was being cleaned."],
+        ["Present Perfect", "They have cleaned the room.", "The room has been cleaned."],
+        ["Past Perfect", "They had cleaned the room.", "The room had been cleaned."],
+        ["will", "They will clean the room.", "The room will be cleaned."],
+        ["be going to", "They are going to clean the room.", "The room is going to be cleaned."],
+        ["Future Perfect", "They will have cleaned the room.", "The room will have been cleaned."]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Czasy perfect continuous i Future Continuous w stronie biernej (*has been being cleaned*, *will be being cleaned*) są bardzo rzadkie i brzmią ciężko. Jeśli ważne jest, że coś trwa, zostań przy czynnej: *They've been cleaning the room for two hours.* Jeśli liczy się skutek, weź zwykłe perfect: *The room has been cleaned.*"
+    },
+    {
+      "type": "text",
+      "md_pl": "**Pytania i przeczenia** robisz na **pierwszym** czasowniku posiłkowym, tak jak w każdym innym zdaniu.\n\n- pytanie: pierwszy posiłkowy idzie przed podmiot (*Has the room been cleaned?*),\n- przeczenie: *not* stawiasz zaraz po pierwszym posiłkowym (*The room hasn't been cleaned.*),\n- V3 zostaje na końcu i się nie zmienia."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Wh-word", "role": "neutral" },
+        { "text": "is / was / were / has / will", "role": "aux" },
+        { "text": "subject", "role": "subject" },
+        { "text": "(be / being / been)", "role": "aux" },
+        { "text": "V3", "role": "verb" },
+        { "text": "?", "role": "neutral" }
+      ],
+      "example": {
+        "en": "Where were these photos taken?",
+        "pl": "Gdzie zrobiono te zdjęcia?"
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "is / was / has / will", "role": "aux" },
+        { "text": "not", "role": "particle" },
+        { "text": "(be / being / been)", "role": "aux" },
+        { "text": "V3", "role": "verb" }
+      ],
+      "example": {
+        "en": "The results haven't been checked yet.",
+        "pl": "Wyników jeszcze nie sprawdzono."
+      }
+    },
+    {
+      "type": "examples",
+      "items": [
+        { "en": "Were you invited to Ola's party?", "pl": "Zaprosili cię na imprezę Oli?" },
+        {
+          "en": "When will the winners be announced?",
+          "pl": "Kiedy zostaną ogłoszeni zwycięzcy?"
+        },
+        {
+          "en": "Phones aren't allowed in the exam room.",
+          "pl": "Na salę egzaminacyjną nie wolno wnosić telefonów."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Modalne w stronie biernej: modal + be + V3.** Po modalnym zawsze stoi forma podstawowa, więc w biernej to jest *be*: *must be done*, *can be seen*, *should be checked*.\n\nKiedy mówisz o przeszłości (wniosek albo krytyka), dokładasz *have been*: **must have been done**, **should have been done**, **can't have been done**. Tak samo działają *have to* i *need to*: *The match had to be cancelled.*"
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "modal", "role": "aux" },
+        { "text": "be", "role": "aux" },
+        { "text": "V3", "role": "verb" }
+      ],
+      "example": {
+        "en": "Mobile phones must be switched off during the exam.",
+        "pl": "Telefony muszą być wyłączone podczas egzaminu."
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "modal", "role": "aux" },
+        { "text": "have been", "role": "aux" },
+        { "text": "V3", "role": "verb" }
+      ],
+      "example": {
+        "en": "The window can't have been broken by the wind — there was no wind at all last night.",
+        "pl": "Okna nie mógł wybić wiatr — w nocy w ogóle nie wiało."
+      }
+    },
+    {
+      "type": "text",
+      "md_pl": "**Kiedy strona bierna jest naturalna.** Nie jest „lepsza” od czynnej. Wybierasz ją, kiedy:\n\n- wykonawcy nie znasz: *My phone was stolen.*\n- wykonawca jest oczywisty albo nieważny: *He was arrested.* (wiadomo, że przez policję)\n- liczy się skutek albo proces, a nie osoba: *All the tickets have been sold.*\n- piszesz formalnie (ogłoszenia, regulaminy, wiadomości, teksty naukowe): *Visitors are asked not to touch the exhibits.*\n- chcesz zacząć zdanie od tego, o czym już mówisz: *This is our school. It was built in 1905.*"
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "Our car was broken into last night.",
+          "pl": "Wczoraj w nocy ktoś włamał się nam do samochodu."
+        },
+        {
+          "en": "The final decision hasn't been made yet.",
+          "pl": "Ostateczna decyzja jeszcze nie zapadła."
+        },
+        {
+          "en": "Applications must be submitted by 30 June.",
+          "pl": "Zgłoszenia trzeba złożyć do 30 czerwca."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**by tylko wtedy, gdy wykonawca to ważna informacja.** *The window was broken by someone* brzmi dziwnie, bo *someone* nic nie mówi. Ale w *Guernica was painted by Picasso* to właśnie Picasso jest najważniejszy, więc *by* zostaje."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "by + kto",
+          "md_pl": "Wykonawca: osoba albo coś, co **działa** samo (wiatr, pies, burza).",
+          "examples": [
+            {
+              "en": "The letter was written by my grandfather.",
+              "pl": "List napisał mój dziadek."
+            }
+          ]
+        },
+        {
+          "title": "with + czym",
+          "md_pl": "**Narzędzie**, którego ktoś użył.",
+          "examples": [
+            {
+              "en": "The letter was written with a fountain pen.",
+              "pl": "List napisano wiecznym piórem."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Kto albo co to zrobiło? → **by**. Jakim narzędziem ktoś to zrobił? → **with**. Uwaga: sposób i środek bez przedimka to też *by*: *sent by email*, *made by hand*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Czasowniki z dwoma dopełnieniami** (*give, send, offer, show, tell, teach, lend, promise*) mają dwie wersje biernej. Częściej na początek idzie **osoba**: *They gave me a map.* → **I was given a map.** Wersja z rzeczą też jest poprawna. Wybierasz ją, gdy to rzecz jest tematem zdania, a osoba idzie wtedy na koniec z *to*: *The prize was given to Ola.*\n\nUważaj na *explain, describe, suggest, say*. One nie biorą osoby bez *to* (*explain something to someone*), więc osoba nie może być podmiotem. Nie *We were explained the rules*, tylko **The rules were explained to us**."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "give, send, show, tell…",
+          "md_pl": "Osoba **może** być podmiotem.",
+          "examples": [
+            {
+              "en": "We were shown the way to the station.",
+              "pl": "Pokazano nam drogę na dworzec."
+            },
+            {
+              "en": "We were taught French by a woman from Lyon.",
+              "pl": "Francuskiego uczyła nas pani z Lyonu."
+            }
+          ]
+        },
+        {
+          "title": "explain, describe, suggest",
+          "md_pl": "Podmiotem jest **rzecz**, osoba zostaje z *to*.",
+          "examples": [
+            {
+              "en": "The route was described to us in detail.",
+              "pl": "Dokładnie opisano nam trasę."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Po polsku powiesz i „dano mi”, i „wyjaśniono mi”. Po angielsku najpierw sprawdź, czy czasownik w stronie czynnej bierze osobę bez *to*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Czasownik z przyimkiem albo phrasal verb** zabiera partykułę ze sobą. W stronie biernej przyimek albo partykuła stoi zaraz po V3: *Someone is looking after the kids.* → **The kids are being looked after.** *Everyone laughed at him.* → **He was laughed at.** *They've called off the match.* → **The match has been called off.**"
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "Your complaint is being dealt with.",
+          "pl": "Twoja reklamacja jest właśnie rozpatrywana."
+        },
+        {
+          "en": "Nobody likes being laughed at.",
+          "pl": "Nikt nie lubi, kiedy się z niego śmieją."
+        },
+        { "en": "The doctor was sent for.", "pl": "Posłano po lekarza." }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**get + V3** to potoczna wersja strony biernej. Pasuje do zmian i rzeczy, które się komuś przytrafiają, często nieprzyjemnych: *get hurt, get stolen, get lost, get sacked, get invited*.\n\n*get* to zwykły czasownik, więc pytania i przeczenia robisz z **do / does / did**: *Did he get hurt?* *I didn't get invited.* W liście formalnym i w rozprawce trzymaj się *be*."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "be + V3",
+          "md_pl": "Neutralne i formalne. Pasuje i do wydarzeń, i do **stanów**.",
+          "examples": [
+            {
+              "en": "The castle is known for its gardens.",
+              "pl": "Zamek słynie z ogrodów."
+            }
+          ]
+        },
+        {
+          "title": "get + V3",
+          "md_pl": "Potoczne. **Zmiana** albo coś, co się przytrafiło.",
+          "examples": [
+            {
+              "en": "He got hit by a ball during PE.",
+              "pl": "Na WF-ie dostał piłką."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Do stanów (*is known*, *is loved*) *get* nie pasuje."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Bezokolicznik i forma -ing też mają stronę bierną.** O tym, czy w luce ma być *to*, czy *-ing*, decyduje słowo przed luką, tak samo jak w stronie czynnej. Bierność dokładasz na końcu: *be / being* + V3."
+    },
+    {
+      "type": "table",
+      "headers": ["Forma", "Czynna", "Bierna"],
+      "rows": [
+        ["bezokolicznik", "to do", "to be done"],
+        ["bezokolicznik perfect", "to have done", "to have been done"],
+        ["-ing", "doing", "being done"],
+        ["-ing perfect", "having done", "having been done"]
+      ]
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "to be + V3",
+          "md_pl": "Po *want, expect, hope, would like, need* i po *have to, ought to*.",
+          "examples": [{ "en": "Everyone wants to be liked.", "pl": "Każdy chce być lubiany." }]
+        },
+        {
+          "title": "being + V3",
+          "md_pl": "Po przyimkach (*without, after, instead of*) i po *enjoy, avoid, mind, can't stand*.",
+          "examples": [
+            {
+              "en": "I'm tired of being treated like a child.",
+              "pl": "Mam dość tego, że traktuje się mnie jak dziecko."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Najpierw sprawdź, co stoi przed luką: to decyduje o *to* albo *-ing*. Dopiero potem dodaj *be / being* + V3."
+    },
+    {
+      "type": "examples",
+      "items": [
+        { "en": "I don't want to be disturbed.", "pl": "Nie chcę, żeby mi przeszkadzano." },
+        {
+          "en": "She left the room without being seen.",
+          "pl": "Wyszła z pokoju tak, że nikt jej nie zauważył."
+        },
+        {
+          "en": "The documents seem to have been lost.",
+          "pl": "Wygląda na to, że dokumenty zaginęły."
+        },
+        {
+          "en": "Having been warned about the traffic, we left early.",
+          "pl": "Ostrzeżono nas przed korkami, więc wyjechaliśmy wcześniej."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**have / get something done** znaczy, że ktoś robi coś **dla ciebie**, zwykle za pieniądze: fryzjer, mechanik, optyk. Ty jesteś podmiotem, ale nie ty wykonujesz pracę.\n\nTo duża pułapka, bo po polsku mówisz *obciąłem włosy* albo *naprawiłem auto*, nawet jeśli zrobił to ktoś inny. Po angielsku wtedy: **I had my hair cut.** **I had my car repaired.**"
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "have / get", "role": "verb" },
+        { "text": "something", "role": "object" },
+        { "text": "V3", "role": "verb" }
+      ],
+      "example": {
+        "en": "We're having the bathroom redecorated next week.",
+        "pl": "W przyszłym tygodniu robią nam remont łazienki."
+      }
+    },
+    {
+      "type": "text",
+      "md_pl": "Czas niesie *have*: *I'm having my car repaired*, *I've had my car repaired*, *I'll have my car repaired*. Szyk jest stały: najpierw rzecz, potem V3.\n\n*have* jest tu zwykłym czasownikiem, a nie posiłkowym, więc pytania i przeczenia robisz z *do / does / did*: *Where did you have your hair cut?* *I didn't have my car repaired.* Nie *Had you your hair cut?*\n\nTa sama konstrukcja opisuje też coś złego, co ktoś ci zrobił: *She had her bag stolen.* = Ukradziono jej torebkę."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "I repaired my bike.",
+          "md_pl": "Zrobiłeś to **sam**.",
+          "examples": [{ "en": "I repaired my bike myself.", "pl": "Sam naprawiłem rower." }]
+        },
+        {
+          "title": "I had my bike repaired.",
+          "md_pl": "Ktoś zrobił to **dla ciebie**.",
+          "examples": [
+            {
+              "en": "I had my bike repaired in town.",
+              "pl": "Naprawili mi rower w serwisie w mieście."
+            }
+          ]
+        },
+        {
+          "title": "I had repaired my bike.",
+          "md_pl": "Past Perfect: zrobiłeś to sam i **wcześniej** niż coś innego.",
+          "examples": [
+            {
+              "en": "I had repaired my bike before the trip.",
+              "pl": "Naprawiłem rower jeszcze przed wycieczką."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "O sensie decyduje szyk: **had + rzecz + V3** to usługa, **had + V3 + rzecz** to Past Perfect."
+    },
+    {
+      "type": "text",
+      "md_pl": "Obok są dwie konstrukcje z osobą, która wykonuje pracę: **have someone do something** (*I had the mechanic check the brakes.*) i **get someone to do something** (*I got my brother to help me.*). Przy *get* pamiętaj o *to*.\n\nPotocznie *get something done* znaczy też po prostu „skończyć coś”: *I must get this essay done tonight.*"
+    },
+    {
+      "type": "text",
+      "md_pl": "**make, see, hear** w stronie czynnej biorą bezokolicznik bez *to*: *They made us wait.* W stronie biernej **to wraca**: *We were made to wait.* *He was seen to leave the building.* (albo *was seen leaving*).\n\n*let* + bezokolicznik nie ma strony biernej. Zamiast niej używasz **be allowed to**: *They didn't let us use phones.* → *We weren't allowed to use phones.*"
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "We were made to write the whole test again.",
+          "pl": "Kazali nam pisać cały test od nowa."
+        },
+        {
+          "en": "My little brother isn't allowed to play video games on school nights.",
+          "pl": "Mojemu młodszemu bratu nie wolno grać w gry wieczorem przed szkołą."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Mówi się, że… / Uważa się, że…** Po polsku to forma bezosobowa. Po angielsku masz dwie wersje i obie są bierne:\n\n- **It + is said / believed / thought / expected / known + that + zdanie**: *It is said that he lives in a castle.*\n- **podmiot + is said / believed / thought… + to + bezokolicznik**: *He is said to live in a castle.*\n\nW drugiej wersji czas mówienia niesie *is said*, a bezokolicznik pokazuje, kiedy dzieje się to, o czym się mówi, względem *is said*. Zadaj sobie pytanie: to, o czym się mówi, dzieje się **w tym samym czasie** co mówienie, czy **wcześniej**?"
+    },
+    {
+      "type": "formula",
+      "parts": [
+        { "text": "Subject", "role": "subject" },
+        { "text": "is", "role": "aux" },
+        { "text": "said", "role": "verb" },
+        { "text": "to", "role": "particle" },
+        { "text": "have", "role": "aux" },
+        { "text": "V3", "role": "verb" }
+      ],
+      "example": {
+        "en": "He is said to have lived in Paris for ten years.",
+        "pl": "Podobno mieszkał w Paryżu przez dziesięć lat."
+      }
+    },
+    {
+      "type": "table",
+      "headers": ["Co się dzieje?", "Bezokolicznik", "Przykład"],
+      "rows": [
+        ["w tym samym czasie (stan, zwyczaj)", "to + V1", "He is said to live in Kraków."],
+        ["trwa właśnie teraz", "to be + -ing", "He is said to be writing a new book."],
+        [
+          "w tym samym czasie i biernie",
+          "to be + V3",
+          "The painting is believed to be held in a private collection."
+        ],
+        ["później (plan, prognoza)", "to + V1", "The new metro line is expected to open in 2028."],
+        ["wcześniej", "to have + V3", "He is said to have lived in Paris."],
+        [
+          "wcześniej i biernie",
+          "to have been + V3",
+          "The painting is thought to have been stolen in 1990."
+        ]
+      ]
+    },
+    {
+      "type": "timeline",
+      "now": 0.72,
+      "marks": [
+        { "kind": "span", "from": 0.1, "to": 0.35, "label": "to have lived" },
+        { "kind": "span", "from": 0.6, "to": 0.86, "label": "to be writing" }
+      ],
+      "caption_pl": "is said dzieje się TERAZ. Co było wcześniej → to have + V3. Co trwa teraz → to be + -ing."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "nowy podmiot",
+          "text_pl": "People say that the house was built in 1800. Podmiot ze zdania po that (the house) idzie na początek."
+        },
+        {
+          "step_pl": "czasownik relacjonujący",
+          "text_pl": "People say → is said. Czas bierzesz od say: say → is said, said → was said."
+        },
+        {
+          "step_pl": "porównaj czasy",
+          "text_pl": "Dom zbudowano (was built) wcześniej, niż się o tym mówi (say) → to have + V3."
+        },
+        {
+          "step_pl": "strona",
+          "text_pl": "Dom nie budował, tylko został zbudowany → bierny bezokolicznik: to have been built."
+        },
+        {
+          "step_pl": "wynik",
+          "text_pl": "The house is said to have been built in 1800."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "Jeśli coś mówiono **kiedyś** (*People thought…*), zmienia się tylko pierwsza część: **was thought**. Bezokolicznik liczysz względem tamtego momentu: *People thought he was a spy.* → **He was thought to be a spy.**"
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "Nie mieszaj obu wersji. *He is said that he lives…* to błąd. Po *It is said* idzie **that** + zdanie, a po *He is said* idzie **to** + bezokolicznik."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "*be supposed to* też może znaczyć „podobno”: *This restaurant is supposed to be very good.* Ma jednak drugie znaczenie: „trzeba, tak każe zasada albo plan”: *You're supposed to wear a helmet here.* = Tu trzeba nosić kask. Sens bierzesz z kontekstu."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "Strony biernej nie mają czasowniki bez dopełnienia: *happen, occur, arrive, die, disappear, seem*. Nie *The accident was happened*, tylko **The accident happened**.\n\nBez biernej są też czasowniki stanu, chociaż mają dopełnienie: *have* (= mieć), *resemble*, *suit*, *lack*, *consist of*. Nie *is consisted of*, tylko **consists of**. Nie *You are suited by this colour*, tylko **This colour suits you**."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Typowe błędy i skąd się biorą**\n\n- *The bridge built in 1990.* → **The bridge was built in 1990.** Bez *be* nie ma orzeczenia, a V3 sam nie niesie czasu.\n- *The letter was wrote yesterday.* → **The letter was written yesterday.** Po *be* zawsze trzecia forma, nie druga.\n- *Is said that he is rich.* → **It is said that he is rich.** Polskie „mówi się” nie ma podmiotu, angielskie zdanie musi go mieć.\n- *Teraz remontują drogę*: nie *The road is repaired now*, tylko **The road is being repaired now**. Bez *being* wychodzi stan po remoncie.\n- *I was stolen my phone.* → **My phone was stolen.** albo **I had my phone stolen.** Kradnie się rzecz, nie osobę.\n- *I had repaired my car at the garage.* → **I had my car repaired at the garage.** Rzecz stoi przed V3, inaczej wychodzi Past Perfect.\n- *Nobody has cleaned the room.* → nie *The room has been cleaned by nobody*, tylko **The room hasn't been cleaned.** Przeczenie z *nobody* przechodzi na czasownik.\n- *He is said to live in Paris in the 1990s.* → **He is said to have lived in Paris in the 1990s.** Przeszłość w bezokoliczniku to *to have* + V3.\n- *We were made wait.* → **We were made to wait.** W biernej po *make* wraca *to*."
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "Strona bierna była w części językowej w każdym arkuszu 2023–2026.\n\n- **Zad. 7 (wybór A–D):** cztery formy tego samego czasownika. Dystraktory to ten sam czasownik w stronie czynnej, w złym czasie (Present Perfect przy zamkniętej przeszłości) albo Past Perfect w zdaniu głównym. Pojawiły się też *is believed to have* + V3 i czasownik z dwoma dopełnieniami.\n- **Zad. 9 (wyrazy w nawiasie, 2023 i 2025):** bierna w Past Simple, także przecząca. Dobra struktura w złym czasie daje 0, więc zawsze szukaj okolicznika czasu.\n- **Transformacje (2026):** czynna continuous → bierna z **BEING**, np. *They were repairing the road.* → *The road was being repaired.* Tak samo da się zamienić *People believe that…* (BELIEVED, SAID) i usługę (HAD). Limit to 5 wyrazów razem ze słowem kluczem. W kluczach skrót (*wasn't*) liczono jako jeden wyraz."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "W rozprawce strona bierna pomaga brzmieć bezosobowo i rzeczowo: *It is often argued that…*, *It is widely believed that…*, *Young people are often criticised for…*. Jedno, dwa takie zdania wystarczą, żeby pokazać zakres struktur."
+    }
+  ]
+}

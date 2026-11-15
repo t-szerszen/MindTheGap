@@ -1,0 +1,576 @@
+{
+  "id": "word-formation",
+  "category": "vocabulary",
+  "title_pl": "Słowotwórstwo",
+  "summary_pl": "Jak z wyrazu w nawiasie zrobić słowo, które pasuje do luki: pozycja w zdaniu, znaczenie, końcówka i pisownia. Do tego przeczenia i pułapki z zadania 8.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "W zadaniu 8 dostajesz krótki tekst z czterema lukami. Przy każdej luce w nawiasie stoi wyraz (w 2025 była zamiast tego ramka z sześcioma wyrazami, z których dwa zostawały). Wpisujesz **jeden wyraz** utworzony od podanego: z inną końcówką, z przedrostkiem albo w innej formie.\n\nZa każdą lukę jest 1 punkt i nie ma półśrodków. Zła część mowy, zła liczba albo jedna zła litera to 0. Dlatego nie zgadujesz „na ucho”, tylko idziesz po kolei: najpierw pozycja w zdaniu, potem znaczenie, na końcu pisownia."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "pozycja w zdaniu",
+          "text_pl": "Przeczytaj słowa tuż przed luką i tuż po niej. Przed rzeczownikiem stoi przymiotnik. Po a / an / the, my, this albo po przymiotniku stoi rzeczownik. Czasownik, imiesłów (widely known), przymiotnik albo całe zdanie określa przysłówek. Po to z bezokolicznika (want to, need to) i po modalu (can, must, should) stoi czasownik. Ale to bywa też przyimkiem (the key to success, look forward to), a wtedy dalej idzie rzeczownik albo -ing. Liczy się i lewa, i prawa strona: w the ___ situation po the jest przymiotnik, bo dalej stoi rzeczownik."
+        },
+        {
+          "step_pl": "znaczenie",
+          "text_pl": "Przeczytaj całe zdanie, także to, co jest po luce. Sens jest pozytywny czy przeczący? Chodzi o osobę, czynność czy cechę? Od tego zależy, czy wpisujesz employer, employee, employment czy unemployment."
+        },
+        {
+          "step_pl": "forma",
+          "text_pl": "Dobierz końcówkę do części mowy (tabele niżej), a jeśli sens tego wymaga, przedrostek przeczący. Czasem potrzeba kilku zmian naraz: FORTUNE → fortunate → unfortunate → unfortunately (un- + -ate + -ly). Sprawdź pisownię: czy pada e, czy y zmienia się w i, czy podwaja się spółgłoska."
+        },
+        {
+          "step_pl": "sprawdzenie",
+          "text_pl": "Wstaw słowo i przeczytaj zdanie od początku. Po a / an tylko liczba pojedyncza, po many / several / these mnoga. Czasownik musi pasować do czasu i podmiotu: it widens, they widened. Na koniec przeliteruj wyraz jeszcze raz, litera po literze."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Pozycja w zdaniu** to pierwsze i najpewniejsze kryterium. Nie pytaj „co tu brzmi dobrze?”, tylko „jakie słowo może tu w ogóle stać?”."
+    },
+    {
+      "type": "table",
+      "headers": ["Obok luki", "Część mowy", "Przykład"],
+      "rows": [
+        ["przed rzeczownikiem", "przymiotnik", "a ___ (CARE) driver who never speeds → careful"],
+        ["po a / the / my / this", "rzeczownik", "the ___ (ARRIVE) of the train → arrival"],
+        ["po przymiotniku", "rzeczownik", "a serious ___ (DECIDE) → decision"],
+        ["po przyimku", "rzeczownik albo forma -ing", "without ___ (PERMIT) → permission"],
+        [
+          "po be, seem, become, look (bez a / the)",
+          "przymiotnik",
+          "The streets looked ___ (DANGER) at night. → dangerous; ale It was a ___ (SUCCEED). → success, bo po a jest rzeczownik"
+        ],
+        ["przy czasowniku", "przysłówek", "The roads are icy, so drive ___ (CARE). → carefully"],
+        ["przed przymiotnikiem", "przysłówek", "___ (EXTREME) difficult → extremely"],
+        ["przed imiesłowem (-ed)", "przysłówek", "a ___ (WIDE) known fact → widely"],
+        ["na początku, przed przecinkiem", "przysłówek", "___ (LUCK), nobody was hurt. → Luckily"],
+        ["po want to / can / must", "czasownik (V1)", "want to ___ (SHORT) the meeting → shorten"],
+        [
+          "w miejscu orzeczenia",
+          "czasownik w odpowiednim czasie",
+          "Last year the city ___ (MODERN) its trams. → modernised (albo modernized)"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Jedna rodzina, różne miejsca.** Z rodziny succeed / success masz kilka wyrazów. Pozycja wybiera część mowy, a sens decyduje, czy potrzebna jest wersja przecząca."
+    },
+    {
+      "type": "examples",
+      "items": [
+        { "en": "Hard work is the key to success.", "pl": "Ciężka praca to klucz do sukcesu." },
+        {
+          "en": "She is a successful lawyer.",
+          "pl": "Jest prawniczką, która odnosi sukcesy."
+        },
+        { "en": "He successfully completed the course.", "pl": "Z powodzeniem ukończył kurs." },
+        {
+          "en": "Few people succeed in changing their habits overnight.",
+          "pl": "Niewielu ludziom udaje się zmienić nawyki z dnia na dzień."
+        },
+        {
+          "en": "Their first attempt was unsuccessful.",
+          "pl": "Ich pierwsza próba się nie powiodła."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Rzeczowniki** są w zadaniu 8 najczęstsze. Najpierw ustal, o co chodzi: o czynność, cechę, stan czy osobę. Każda z tych grup ma swoje końcówki."
+    },
+    {
+      "type": "table",
+      "headers": ["Końcówka", "Co oznacza", "Przykłady"],
+      "rows": [
+        [
+          "-tion / -sion",
+          "czynność albo jej wynik",
+          "act → action, decide → decision, protect → protection, permit → permission"
+        ],
+        [
+          "-ation",
+          "czynność albo jej wynik",
+          "inform → information, explain → explanation, prepare → preparation"
+        ],
+        [
+          "-ment",
+          "czynność, stan, wynik",
+          "employ → employment, develop → development, achieve → achievement, argue → argument"
+        ],
+        [
+          "-al",
+          "czynność (od czasownika)",
+          "arrive → arrival, survive → survival, refuse → refusal, approve → approval"
+        ],
+        ["-ure", "czynność, wynik", "fail → failure, depart → departure, please → pleasure"],
+        ["-age", "stan, czynność", "short → shortage, store → storage, marry → marriage"],
+        [
+          "-ness",
+          "cecha (od przymiotnika)",
+          "kind → kindness, aware → awareness, happy → happiness, ill → illness"
+        ],
+        [
+          "-ity",
+          "cecha (od przymiotnika); -ous + -ity = -osity, u znika",
+          "able → ability, popular → popularity, responsible → responsibility, curious → curiosity, generous → generosity"
+        ],
+        [
+          "-ance / -ence",
+          "stan, cecha",
+          "important → importance, patient → patience, appear → appearance, prefer → preference, exist → existence"
+        ],
+        ["-cy", "stan, cecha", "private → privacy, accurate → accuracy, efficient → efficiency"],
+        [
+          "-th",
+          "wymiar, cecha",
+          "strong → strength, long → length, wide → width, deep → depth, true → truth, grow → growth"
+        ],
+        [
+          "-ship",
+          "relacja, stan, funkcja",
+          "friend → friendship, relation → relationship, member → membership, leader → leadership"
+        ],
+        [
+          "-hood",
+          "okres życia, wspólnota",
+          "child → childhood, adult → adulthood, neighbour → neighbourhood"
+        ],
+        ["-dom", "stan, obszar", "free → freedom, bore → boredom, wise → wisdom, king → kingdom"],
+        ["-ism", "postawa, zjawisko", "tour → tourism, critic → criticism, real → realism"],
+        [
+          "-er / -or",
+          "osoba, która coś robi",
+          "teach → teacher, employ → employer, act → actor, visit → visitor"
+        ],
+        [
+          "-ee",
+          "osoba, której coś się robi",
+          "employ → employee, train → trainee, interview → interviewee"
+        ],
+        [
+          "-ist / -ian",
+          "zawód, specjalista",
+          "science → scientist, art → artist, music → musician, library → librarian"
+        ],
+        [
+          "-ant / -ent",
+          "osoba",
+          "assist → assistant, apply → applicant, participate → participant, reside → resident"
+        ]
+      ]
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "-er / -or",
+          "md_pl": "**Ten, kto coś robi.** employer zatrudnia i płaci, interviewer zadaje pytania.",
+          "examples": [
+            {
+              "en": "My employer pays for my English course.",
+              "pl": "Mój pracodawca płaci za mój kurs angielskiego."
+            }
+          ]
+        },
+        {
+          "title": "-ee",
+          "md_pl": "**Ten, komu się coś robi.** employee jest zatrudniony, interviewee odpowiada na pytania.",
+          "examples": [
+            {
+              "en": "The company has over two hundred employees.",
+              "pl": "Firma ma ponad dwustu pracowników."
+            }
+          ]
+        },
+        {
+          "title": "-ment",
+          "md_pl": "**Nie osoba, tylko czynność albo stan.** employment to zatrudnienie, unemployment to bezrobocie.",
+          "examples": [
+            {
+              "en": "Unemployment among young people has fallen.",
+              "pl": "Bezrobocie wśród młodych ludzi spadło."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Pozycja mówi tylko, że to rzeczownik. Który rzeczownik, rozstrzyga sens: **kto?** czy **co?** Potem jeszcze liczba: *an employee*, ale *two hundred employees*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Rzeczowniki nieregularne.** Część rzeczowników nie powstaje przez doklejenie końcówki. Zmienia się samogłoska, spółgłoska albo cały koniec wyrazu. Te pary trzeba po prostu znać, bo działają w obie strony: od rzeczownika do czasownika też."
+    },
+    {
+      "type": "table",
+      "headers": ["Od", "Rzeczownik", "Na co uważać"],
+      "rows": [
+        ["choose", "choice", "oo → oi, s → c"],
+        ["advise", "advice", "advice jest niepoliczalne: some advice, a piece of advice"],
+        ["lose", "loss", "ss na końcu; lost to forma czasownika"],
+        ["die / dead", "death", "die to czasownik, dead przymiotnik"],
+        ["succeed", "success", "succession to następstwo, inne słowo"],
+        ["believe", "belief", "f w rzeczowniku, v w czasowniku; lm. beliefs"],
+        ["think", "thought", "to samo słowo co czas przeszły od think"],
+        ["high", "height", "pisze się height, nie hight"],
+        ["speak", "speech", "ea → ee, k → ch"],
+        ["poor", "poverty", "bieda to poverty"],
+        ["proud", "pride", "be proud of = take pride in"],
+        ["anxious", "anxiety", "-ous zmienia się w -ety"],
+        ["complain", "complaint", "na końcu dochodzi t"],
+        ["behave", "behaviour", "AmE behavior"],
+        ["describe", "description", "b zmienia się w p"],
+        ["repeat", "repetition", "ea zmienia się w e"],
+        ["maintain", "maintenance", "drugie ai zmienia się w e: maintenance, nie maintainance"],
+        ["pronounce", "pronunciation", "bez o w środku: nie pronounciation"]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Polskie **-ość** to często angielskie **-ness** albo **-ity**: uprzejmość = *kindness*, popularność = *popularity*. Polskie **-anie / -enie** to często **-tion** albo **-ment**: zatrudnienie = *employment*, przygotowanie = *preparation*. To podpowiada kierunek, ale samą końcówkę i tak trzeba znać."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Przymiotniki** stoją przed rzeczownikiem albo po be, seem, become, look, feel. Końcówka niesie sens: -ful to „z czymś”, -less to „bez czegoś”, więc *harmful* i *harmless* znaczą coś przeciwnego."
+    },
+    {
+      "type": "table",
+      "headers": ["Końcówka", "Co oznacza", "Przykłady"],
+      "rows": [
+        [
+          "-ful",
+          "pełen czegoś, z czymś",
+          "care → careful, success → successful, harm → harmful, use → useful"
+        ],
+        ["-less", "bez czegoś", "care → careless, harm → harmless, use → useless, home → homeless"],
+        [
+          "-ous",
+          "mający daną cechę",
+          "danger → dangerous, fame → famous, ambition → ambitious, mystery → mysterious"
+        ],
+        [
+          "-ive",
+          "skłonny do czegoś",
+          "create → creative, attract → attractive, act → active, decide → decisive"
+        ],
+        [
+          "-able / -ible",
+          "taki, że da się",
+          "afford → affordable, rely → reliable, accept → acceptable, access → accessible"
+        ],
+        [
+          "-al",
+          "związany z czymś",
+          "nature → natural, culture → cultural, environment → environmental, industry → industrial"
+        ],
+        [
+          "-ic / -ical",
+          "związany z czymś",
+          "science → scientific, energy → energetic, politics → political, logic → logical"
+        ],
+        ["-y", "pełen czegoś", "sun → sunny, health → healthy, noise → noisy, salt → salty"],
+        [
+          "-ish",
+          "jak ktoś, trochę",
+          "child → childish, fool → foolish, self → selfish, red → reddish"
+        ],
+        [
+          "-ly",
+          "przymiotnik od rzeczownika",
+          "friend → friendly, day → daily, cost → costly, love → lovely"
+        ],
+        [
+          "-ent / -ant",
+          "cecha",
+          "differ → different, depend → dependent, please → pleasant, excel → excellent"
+        ],
+        [
+          "-ing / -ed",
+          "-ing: wywołuje uczucie, -ed: czuje je osoba",
+          "bore → boring / bored, interest → interesting / interested, embarrass → embarrassing / embarrassed"
+        ]
+      ]
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "-ing",
+          "md_pl": "**To, co wywołuje uczucie.** Jaki jest film, wykład, sytuacja?",
+          "examples": [
+            {
+              "en": "The lecture was so boring that half the class fell asleep.",
+              "pl": "Wykład był tak nudny, że pół klasy zasnęło."
+            }
+          ]
+        },
+        {
+          "title": "-ed",
+          "md_pl": "**Ten, kto to uczucie ma.** Co czuję ja, on, publiczność?",
+          "examples": [
+            {
+              "en": "I was bored, so I started checking my phone.",
+              "pl": "Nudziłem się, więc zacząłem sprawdzać telefon."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "*I am boring* znaczy „jestem nudny”, a nie „nudzę się”. A gdy pozycja wymaga rzeczownika, ani -ing, ani -ed nie pasuje: *a serious addiction*, nie *a serious addicted*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Pary, które się mylą.** Ta sama rodzina, ta sama część mowy, inne znaczenie. Tu pozycja nic nie rozstrzyga, decyduje tylko sens zdania. Na maturze było INDUSTRY → *industrial* (przemysłowy), a tuż obok jest *industrious* (pracowity)."
+    },
+    {
+      "type": "table",
+      "headers": ["Słowo", "Znaczenie", "Przykład"],
+      "rows": [
+        ["industrial", "przemysłowy", "an industrial region"],
+        ["industrious", "pracowity", "an industrious student"],
+        ["economic", "gospodarczy", "economic growth"],
+        ["economical", "oszczędny, tani w użyciu", "an economical car"],
+        ["historic", "ważny, przełomowy", "a historic moment"],
+        ["historical", "dotyczący historii", "a historical novel"],
+        ["sensible", "rozsądny", "a sensible decision"],
+        ["sensitive", "wrażliwy", "sensitive skin"],
+        ["successful", "udany, odnoszący sukces", "a successful company"],
+        ["successive", "kolejny, następujący po sobie", "three successive wins"],
+        ["respectful", "pełen szacunku", "respectful behaviour"],
+        ["respectable", "porządny, szanowany", "a respectable family"],
+        ["considerable", "znaczny", "a considerable amount of money"],
+        ["considerate", "taktowny, liczący się z innymi", "a considerate neighbour"],
+        ["childish", "dziecinny (z przyganą)", "childish behaviour"],
+        ["childlike", "dziecięcy, niewinny", "childlike curiosity"],
+        ["imaginative", "z wyobraźnią, pomysłowy", "an imaginative writer"],
+        ["imaginary", "wymyślony, nieprawdziwy", "an imaginary friend"]
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Przysłówki** mówią, jak, kiedy albo w jakim stopniu coś się dzieje. Stoją przy czasowniku, przed przymiotnikiem albo imiesłowem (widely known) albo na początku zdania. Prawie zawsze robisz je z przymiotnika, więc najpierw ustal przymiotnik: CARE → careful → carefully."
+    },
+    {
+      "type": "table",
+      "headers": ["Zasada", "Przykłady", "Uwaga"],
+      "rows": [
+        [
+          "+ -ly",
+          "quick → quickly, clear → clearly, wide → widely, extreme → extremely",
+          "końcowe e zostaje"
+        ],
+        ["-ful → -fully", "careful → carefully, successful → successfully", "dwa l"],
+        ["y → -ily", "happy → happily, easy → easily, lucky → luckily", "wyjątek: shy → shyly"],
+        [
+          "-le → -ly",
+          "gentle → gently, simple → simply, possible → possibly",
+          "e znika, nie doklejasz całego -ly"
+        ],
+        ["-al → -ally", "gradual → gradually, final → finally, accidental → accidentally", "dwa l"],
+        [
+          "-ic → -ically",
+          "basic → basically, dramatic → dramatically, tragic → tragically",
+          "wyjątek: public → publicly"
+        ],
+        ["-ll → -lly", "full → fully, dull → dully", "dochodzi samo y"],
+        ["wyjątki z e", "true → truly, whole → wholly", "tu e znika"]
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Przysłówki nieregularne.** good ma osobny przysłówek well. Niektóre przysłówki mają tę samą formę co przymiotnik (fast, early, daily). Przy części z nich istnieje też forma z -ly, ale to osobne słowo o innym znaczeniu (hardly, lately, highly, nearly). Przymiotniki, które już kończą się na -ly (friendly, lovely, lonely), nie dostają drugiego -ly."
+    },
+    {
+      "type": "table",
+      "headers": ["Przymiotnik", "Przysłówek", "Uwaga"],
+      "rows": [
+        ["good", "well", "She speaks English well."],
+        ["fast", "fast", "nie ma fastly"],
+        ["hard", "hard", "hardly = ledwo, prawie wcale"],
+        ["late", "late", "lately = ostatnio"],
+        ["high", "high", "highly = bardzo, wysoce (highly recommended)"],
+        ["near", "near", "nearly = prawie"],
+        ["early", "early", "ta sama forma: an early train, get up early"],
+        ["daily", "daily", "ta sama forma: a daily newspaper, published daily"],
+        ["friendly", "in a friendly way", "przysłówka z -ly nie tworzysz"]
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Czasowniki** robisz zwykle od przymiotnika albo rzeczownika. Luka z czasownikiem musi dostać też właściwą formę: -s przy he / she / it, -ed w przeszłości, -ing po be albo po przyimku. Samo *shorten* w zdaniu *Last week they ___ (SHORT) the trip* to 0, bo potrzebne jest **shortened**."
+    },
+    {
+      "type": "table",
+      "headers": ["Afiks", "Przykłady", "Uwaga"],
+      "rows": [
+        [
+          "-en",
+          "short → shorten, wide → widen, strength → strengthen, threat → threaten, soft → soften",
+          "wide + -en = widen, jedno e"
+        ],
+        [
+          "en-",
+          "courage → encourage, sure → ensure, able → enable, large → enlarge, danger → endanger",
+          "piszesz en-: incourage to 0"
+        ],
+        ["em-", "power → empower, body → embody", "en- przed p i b zmienia się w em-"],
+        [
+          "-ify",
+          "simple → simplify, pure → purify, class → classify, just → justify",
+          "końcowe e znika"
+        ],
+        [
+          "-ise / -ize",
+          "modern → modernise, real → realise, critic → criticise, apology → apologise",
+          "BrE: -ise albo -ize, AmE: -ize"
+        ],
+        ["-ate", "active → activate, motive → motivate, origin → originate", "końcowe e znika"]
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Przeczenia.** Przedrostek przeczący odwraca sens, ale nie zmienia części mowy: *possible* i *impossible* to oba przymiotniki. Dodajesz go tylko wtedy, gdy wymaga tego sens zdania."
+    },
+    {
+      "type": "table",
+      "headers": ["Przedrostek", "Kiedy", "Przykłady"],
+      "rows": [
+        [
+          "un-",
+          "najczęstszy; przy czasowniku odwraca czynność",
+          "happy → unhappy, likely → unlikely, employment → unemployment, lock → unlock"
+        ],
+        [
+          "in-",
+          "zwykle słowa pochodzenia łacińskiego",
+          "correct → incorrect, visible → invisible, dependent → independent, formal → informal"
+        ],
+        [
+          "im-",
+          "in- przed p, m, b",
+          "possible → impossible, polite → impolite, mature → immature, balance → imbalance"
+        ],
+        ["il-", "in- przed l", "legal → illegal, logical → illogical, literate → illiterate"],
+        [
+          "ir-",
+          "in- przed r",
+          "regular → irregular, responsible → irresponsible, relevant → irrelevant"
+        ],
+        [
+          "dis-",
+          "przymiotniki, czasowniki, rzeczowniki",
+          "honest → dishonest, agree → disagree, appear → disappear, advantage → disadvantage"
+        ],
+        [
+          "mis-",
+          "źle, błędnie (a nie: przeciwnie)",
+          "understand → misunderstand, behave → misbehave, lead → mislead, spell → misspell"
+        ],
+        [
+          "non-",
+          "po prostu „nie-”, zwykle z łącznikiem",
+          "smoker → non-smoker, fiction → non-fiction, stop → non-stop"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "im-, il- i ir- to ten sam przedrostek in-, tylko dopasowany do następnej litery. Stąd podwójne litery: *immature*, *illegal*, *irregular*. Przy dis- i mis- podwójne s ma inny powód: przedrostek kończy się na s, a słowo zaczyna na s (dis + satisfied, mis + spell). Gdy słowo nie zaczyna się na s, s jest jedno: *disappear*, *misunderstand*. I jeszcze jedno: nie każde słowo na p, l albo r bierze in-: *unpopular*, *unlucky*, *unreliable* mają un-."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**Przeczenie musi wynikać ze zdania.** Szukaj sygnałów: *but*, *although*, *however*, *unfortunately*, a także słów jak *complain*, *fail*, *refuse*, *worried*. W zdaniu *The plan was ___ (SUCCESS), so they tried a different approach* pasuje **unsuccessful**: gdyby plan się udał, nie zmieniliby podejścia. Bez takiego sygnału przeczenie to błąd. Tak samo z -less: *harmless* tam, gdzie zdanie ostrzega przed szkodą, to 0."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "Uwaga na słowa, które tylko wyglądają na przeczenie. **invaluable** znaczy „bezcenny, bardzo cenny” (bez wartości to *worthless*). **priceless** też znaczy „bezcenny”. **inflammable** to „łatwopalny”, tak samo jak *flammable*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Pisownia.** Jedna zła litera to 0 pkt, więc te zasady warto mieć w małym palcu."
+    },
+    {
+      "type": "table",
+      "headers": ["Zmiana", "Kiedy", "Przykłady"],
+      "rows": [
+        [
+          "e znika",
+          "przed końcówką od samogłoski: -able, -ous, -ion, -al, -ure, -ity",
+          "fame → famous, create → creation, arrive → arrival, please → pleasure, use → usable"
+        ],
+        [
+          "e zostaje",
+          "przed końcówką od spółgłoski: -ful, -less, -ment, -ness, -ly",
+          "use → useful, care → careless, excite → excitement, polite → politeness"
+        ],
+        [
+          "e zostaje po c i g",
+          "przed -able i -ous, żeby c i g brzmiały miękko",
+          "notice → noticeable, change → changeable, courage → courageous"
+        ],
+        [
+          "wyjątki z e",
+          "trzeba zapamiętać",
+          "argue → argument, true → truly, whole → wholly, awe → awful; gentle → gently, simple → simply (spółgłoska + -le: e zamienia się w y)"
+        ],
+        [
+          "y → i",
+          "spółgłoska + y przed końcówką, ale nie przed -ing (wyjątki: shyness, shyly)",
+          "happy → happiness, beauty → beautiful, rely → reliable, industry → industrial"
+        ],
+        [
+          "y zostaje",
+          "samogłoska + y albo końcówka -ing (wyjątek: day → daily)",
+          "enjoy → enjoyable, employ → employment, study → studying"
+        ],
+        [
+          "podwójna spółgłoska",
+          "wyraz kończy się na spółgłoskę + jedną samogłoskę + spółgłoskę, akcent pada na koniec, a końcówka zaczyna się od samogłoski (w, x, y nigdy się nie podwajają: snow → snowy, box → boxer, play → player)",
+          "sun → sunny, red → reddish, begin → beginner, forget → forgettable"
+        ],
+        [
+          "bez podwojenia",
+          "akcent nie pada na ostatnią sylabę albo w nowym słowie przechodzi na początek",
+          "visit → visitor, happen → happening, differ → difference, prefer → preference (ale preferred, bo tu akcent zostaje na -fer)"
+        ],
+        [
+          "l w BrE",
+          "gdy przed l stoi jedna samogłoska, l podwaja się przed -ed, -ing, -er, -ous także bez akcentu; przed -ity i -ise / -ize zwykle nie",
+          "travel → traveller, cancel → cancelled, marvel → marvellous (AmE traveler, canceled, marvelous); ale equal → equality, final → finalise"
+        ],
+        [
+          "-able czy -ible",
+          "-able zwykle po całym słowie, -ible zwykle po rdzeniu, który sam nie jest słowem",
+          "afford → affordable, enjoy → enjoyable; possible, visible, terrible"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "**-able czy -ible** to tylko tendencja. *accessible*, *sensible* i *flexible* mają -ible, choć access, sense i flex to normalne słowa. Gdy nie masz pewności, ucz się całych wyrazów, a nie reguły.\n\n**Pisownia brytyjska i amerykańska.** W kluczach CKE uznano też pisownię amerykańską (*neighborhood* obok *neighbourhood*), ale trzymaj się jednej wersji w całym arkuszu. W brytyjskim poprawne są oba warianty *realise / realize*, za to *advertise*, *advise*, *exercise* i *surprise* piszesz zawsze przez -ise."
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "**Co naprawdę sprawdza zadanie 8.** W latach 2023–2026 było 16 luk: rzeczownik 7 razy, przymiotnik 3, przysłówek 3, czasownik 2 i raz przyimek na -ing (*concerning* = about, czyli „w sprawie, odnośnie do”).\n\nZa co w kluczach było 0 pkt:\n\n- **przeczenie wbrew sensowi zdania**: *discourage*, *unsuccessful*, *harmless* tam, gdzie zdanie mówiło coś odwrotnego;\n- **zła liczba**: *addictions*, *preferences* po *a*, a *actions* w zwrocie *take action*, gdzie action stoi bez liczby mnogiej;\n- **forma na -ed albo -ing zamiast potrzebnej części mowy**: *addicted*, *harming*, *concerned*;\n- **inny wyraz z tej samej rodziny**: *shortness* zamiast *shortage*, *activity* zamiast *action*;\n- **jedna literówka**: *harmfull*, *strenght*, *incourage*. Tolerancji nie ma.\n\nPrzy INDUSTRY (w arkuszu było *industrial*) łatwo pomylić się z *industrious* (pracowity), bo oba to przymiotniki z tej samej rodziny."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Typowe błędy Polaków**\n\n- *The film was very bored.* → **The film was very boring.** Film wywołuje nudę, więc -ing. *bored* opisuje osobę, która się nudzi.\n- *She speaks English very good.* → **She speaks English very well.** Przy czasowniku stoi przysłówek, a od good przysłówek to well.\n- *He drove very careful.* → **He drove very carefully.** Sposób wykonania czynności to przysłówek z -ly, tak jak po polsku „ostrożnie”, a nie „ostrożny”.\n- *It's unpossible.* → **It's impossible.** possible bierze in-, a przed p in- zmienia się w im-.\n- *I need some informations.* → **I need some information.** information i advice są niepoliczalne: bez -s i bez a.\n- *There is a shortness of doctors.* → **There is a shortage of doctors.** shortage to niedobór, shortness to krótkość.\n- *The economical situation is getting worse.* → **The economic situation is getting worse.** economic = gospodarczy, economical = oszczędny.\n- *My employee pays me well.* → **My employer pays me well.** Płaci ten, kto zatrudnia (-er), a employee to zatrudniony.\n- *Be sensitive and don't spend all your money.* → **Be sensible and don't spend all your money.** sensible = rozsądny, sensitive = wrażliwy."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**Najczęstsze literówki**\n\n- *beautifull*, *carefull* → **beautiful**, **careful**: -ful ma jedno l, dwa są dopiero w -fully\n- *accidently* → **accidentally**: -al + -ly\n- *hight* → **height**\n- *strenght*, *lenght* → **strength**, **length**: najpierw g, potem th\n- *pronounciation* → **pronunciation**\n- *dissapear*, *mispell* → **disappear**, **misspell**: dis- + appear, mis- + spell\n- *noticable* → **noticeable**: e zostaje po c\n- *curiousity* → **curiosity**: -ous + -ity = -osity\n- *arguement* → **argument**\n- *goverment*, *enviroment* → **government**, **environment**: govern + -ment, environ + -ment\n- *independant* → **independent**"
+    }
+  ]
+}

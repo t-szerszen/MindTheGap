@@ -1,0 +1,1244 @@
+[
+  {
+    "id": "wf-n-teacher-explanation",
+    "type": "word-formation",
+    "text": "The teacher's ___ was so clear that everyone understood the problem straight away.",
+    "gaps": [
+      {
+        "base": "EXPLAIN",
+        "correct": ["explanation"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po The teacher's (czyje?) stoi słowo, które jest podmiotem dla was. W tym miejscu może stać tylko rzeczownik."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Nauczyciel coś wytłumaczył i wszyscy zrozumieli, więc chodzi o wyjaśnienie. was wymaga liczby pojedynczej."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "explain + -ation, ale ai skraca się do samego a: explain → explanation. Tak samo proclaim → proclamation."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "explaination to 0 pkt. W rzeczowniku po a nie ma już i."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-n-pronunciation",
+    "type": "word-formation",
+    "text": "Her grammar is excellent, but her ___ still needs some work, because people sometimes can't understand what she's saying.",
+    "gaps": [
+      {
+        "base": "PRONOUNCE",
+        "correct": ["pronunciation"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po her stoi rzeczownik, a needs w liczbie pojedynczej pokazuje, że to jedna rzecz."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Gramatyka jest świetna, a mimo to ludzie jej nie rozumieją, więc problemem jest wymowa. Wymowa = pronunciation."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "pronounce gubi końcowe e, ou zmienia się w samo u i dochodzi -iation: pronounce → pronunc- → pronunciation. W wymowie też znika au: pro-NUN-ci-ation."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "pronounciation to najczęstszy błąd w tym słowie i 0 pkt. pronouncement też istnieje, ale znaczy oficjalne oświadczenie, a nie wymowę."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  },
+  {
+    "id": "wf-n-school-permission",
+    "type": "word-formation",
+    "text": "Students are not allowed to leave the school grounds during the day without ___ from a teacher.",
+    "gaps": [
+      {
+        "base": "PERMIT",
+        "correct": ["permission"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po przyimku without stoi rzeczownik. Nie ma przed nim a ani the, więc nie może to być policzalny rzeczownik w liczbie pojedynczej. Zostaje niepoliczalny albo liczba mnoga."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Uczniowie nie mogą wyjść bez zgody nauczyciela. Zgoda, pozwolenie = permission. W tym znaczeniu jest niepoliczalny, więc bez -s."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "permit → permission: końcowe t zmienia się w ss i dochodzi -ion. Tak samo admit → admission, submit → submission."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "permition i permision to 0 pkt. permit jako rzeczownik też istnieje, ale to urzędowy dokument (work permit = pozwolenie na pracę), a nie zgoda nauczyciela."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-n-air-pollution",
+    "type": "word-formation",
+    "text": "On some winter days air ___ in Polish cities is so bad that doctors advise people to stay indoors.",
+    "gaps": [
+      {
+        "base": "POLLUTE",
+        "correct": ["pollution"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "air ___ to dwa rzeczowniki obok siebie, jak air travel. Całość jest podmiotem dla is, więc w luce stoi rzeczownik."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Chodzi o smog, czyli zanieczyszczenie powietrza: air pollution."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "pollute gubi e i dostaje -ion: pollute → pollution. Tak samo create → creation."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "pollutant to jedna substancja zanieczyszczająca. Jest policzalny, więc bez przedimka i z is tu nie pasuje."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 1
+  },
+  {
+    "id": "wf-n-witness-description",
+    "type": "word-formation",
+    "text": "The police asked the witness to give a detailed ___ of the man she had seen running away.",
+    "gaps": [
+      {
+        "base": "DESCRIBE",
+        "correct": ["description"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po a i przymiotniku detailed stoi rzeczownik w liczbie pojedynczej."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Świadek ma powiedzieć, jak wyglądał mężczyzna, czyli podać jego opis = description."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "describe → description: b zmienia się w p, e znika i dochodzi -tion. Tak samo subscribe → subscription."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "describtion to 0 pkt. W rzeczowniku jest p, chociaż w czasowniku jest b."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-n-washing-up-argument",
+    "type": "word-formation",
+    "text": "My brother and I had a terrible ___ about whose turn it was to do the washing-up.",
+    "gaps": [
+      {
+        "base": "ARGUE",
+        "correct": ["argument"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po had a terrible stoi rzeczownik w liczbie pojedynczej, bo jest a."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Spór o to, kto zmywa, to kłótnia = argument. have an argument to stałe połączenie: pokłócić się."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "argue + -ment, ale końcowe e znika: argue → argument. Zwykle przed -ment e zostaje (improve → improvement), a argue jest wyjątkiem."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "arguement to 0 pkt, chociaż wygląda logicznie."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-n-camping-equipment",
+    "type": "word-formation",
+    "text": "We had to carry all our camping ___ up the hill because the car couldn't get any closer to the lake.",
+    "gaps": [
+      {
+        "base": "EQUIP",
+        "correct": ["equipment"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po all our camping stoi rzeczownik. camping działa tu jak przymiotnik: jaki sprzęt? kempingowy."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Niesiemy namiot, śpiwory i całą resztę, czyli sprzęt = equipment."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "equip + -ment → equipment, bez podwajania p."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "equipment jest niepoliczalny, więc equipments to 0 pkt, mimo że all our kojarzy się z wieloma rzeczami. Tak samo furniture i information."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-n-essay-improvement",
+    "type": "word-formation",
+    "text": "Your essays have got much better since September, and I can see a real ___ in the way you organise your ideas.",
+    "gaps": [
+      {
+        "base": "IMPROVE",
+        "correct": ["improvement"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po a real stoi rzeczownik w liczbie pojedynczej."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Wypracowania są coraz lepsze, więc widać poprawę = improvement. improvement in something = poprawa w czymś."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "improve + -ment, e zostaje: improvement."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "improvements to 0 pkt, bo przed luką jest a."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 1
+  },
+  {
+    "id": "wf-n-thank-you-kindness",
+    "type": "word-formation",
+    "text": "Thank you for your ___. I don't know what I would have done without your help.",
+    "gaps": [
+      {
+        "base": "KIND",
+        "correct": ["kindness"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po your stoi rzeczownik."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Dziękujemy komuś za pomoc, czyli za życzliwość, dobroć = kindness. unkindness odwróciłoby sens podziękowania."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "kind + -ness → kindness. Tak samo dark → darkness."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "kind jako rzeczownik znaczy rodzaj, typ (a kind of music), więc thank you for your kind nie ma sensu."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 1
+  },
+  {
+    "id": "wf-n-campaign-awareness",
+    "type": "word-formation",
+    "text": "The aim of the campaign is to raise ___ of the dangers of using a phone while driving.",
+    "gaps": [
+      {
+        "base": "AWARE",
+        "correct": ["awareness"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po czasowniku raise stoi dopełnienie, czyli rzeczownik. Nie ma przed nim a ani the, więc to rzeczownik niepoliczalny albo liczba mnoga."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Kampania ma sprawić, że ludzie będą wiedzieć o zagrożeniu. raise awareness of something = zwiększać świadomość czegoś. Świadomość jest niepoliczalna, więc bez -s."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "aware + -ness, e zostaje: awareness."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "awarness to 0 pkt. unawareness przeczy celowi kampanii."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-n-elderly-loneliness",
+    "type": "word-formation",
+    "text": "Many elderly people who live on their own suffer from ___, especially in winter, when they rarely leave the house.",
+    "gaps": [
+      {
+        "base": "LONELY",
+        "correct": ["loneliness"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po suffer from stoi rzeczownik: cierpieć na co?"
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Starsi ludzie mieszkają sami i prawie nie wychodzą, więc cierpią na samotność = loneliness."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "lonely kończy się na y, które przed -ness zmienia się w i: lonely → loneliness. Tak samo happy → happiness."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "lonelyness to 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-n-parcel-curiosity",
+    "type": "word-formation",
+    "text": "I opened the strange parcel out of ___, even though it wasn't addressed to me.",
+    "gaps": [
+      {
+        "base": "CURIOUS",
+        "correct": ["curiosity"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po przyimku of stoi rzeczownik. out of + rzeczownik mówi, z jakiego powodu ktoś coś zrobił."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Otworzyłem cudzą paczkę, bo chciałem wiedzieć, co w niej jest, czyli z ciekawości = out of curiosity."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "curious → curiosity: z -ous znika u i dochodzi -ity. Tak samo generous → generosity."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "curiousity to 0 pkt. To najczęstsza literówka w tym słowie."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  },
+  {
+    "id": "wf-n-storm-electricity",
+    "type": "word-formation",
+    "text": "The storm left the whole village without ___ for two days, so we had to use candles.",
+    "gaps": [
+      {
+        "base": "ELECTRIC",
+        "correct": ["electricity"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po przyimku without stoi rzeczownik. Nie ma przed nim a ani the, więc to rzeczownik niepoliczalny albo liczba mnoga."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Po burzy trzeba było palić świeczki, czyli nie było prądu = electricity. Prąd jest niepoliczalny, więc bez -s."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "electric + -ity → electricity. c zostaje w pisowni, ale czyta się je teraz jak s."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "electrician to elektryk, czyli osoba. electricty bez i to 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-n-luggage-assistance",
+    "type": "word-formation",
+    "text": "If you need any ___ with your luggage, please ask a member of staff at reception.",
+    "gaps": [
+      {
+        "base": "ASSIST",
+        "correct": ["assistance"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po any stoi rzeczownik: need any ... with something = potrzebować jakiejś ... przy czymś."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Chodzi o pomoc przy bagażu = assistance. Osobą, która pomoże, jest a member of staff."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "assist + -ance → assistance."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "assistant to osoba (asystent), a tu potrzebna jest sama pomoc. assistence przez e to 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-n-actor-performance",
+    "type": "word-formation",
+    "text": "The actor's ___ in the final scene was so moving that half the audience was in tears.",
+    "gaps": [
+      {
+        "base": "PERFORM",
+        "correct": ["performance"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po The actor's (czyje?) stoi rzeczownik, podmiot dla was."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Aktor zagrał scenę tak, że widzowie płakali, czyli chodzi o jego występ, grę = performance."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "perform + -ance → performance."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "performer to osoba, która występuje, a aktor sam jest tą osobą, więc the actor's performer nie ma sensu. performence przez e to 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-n-lesson-attendance",
+    "type": "word-formation",
+    "text": "Regular ___ at lessons is compulsory, and students who miss more than half of their classes are not allowed to take the final exam.",
+    "gaps": [
+      {
+        "base": "ATTEND",
+        "correct": ["attendance"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po przymiotniku Regular stoi rzeczownik, podmiot dla is."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Kto opuści ponad połowę zajęć, nie podejdzie do egzaminu, więc obowiązkowa jest obecność na lekcjach = attendance."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "attend + -ance → attendance."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "attention (uwaga) ma ten sam rdzeń, ale znaczy co innego. attendants to osoby z obsługi (flight attendants). attendence przez e to 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  },
+  {
+    "id": "wf-n-course-participants",
+    "type": "word-formation",
+    "text": "Each of the ___ received a certificate at the end of the course.",
+    "gaps": [
+      {
+        "base": "PARTICIPATE",
+        "correct": ["participants"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po Each of the stoi rzeczownik w liczbie mnogiej: each of the + liczba mnoga = każdy z."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Certyfikat dostają ludzie, którzy brali udział w kursie, czyli uczestnicy = participants."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "participate gubi -ate i dostaje -ant: participant, a na końcu -s na liczbę mnogą: participants."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "participant bez -s to 0 pkt, bo po each of the zawsze jest liczba mnoga. participation (udział) nie jest osobą i nie dostaje certyfikatu."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-n-interview-applicants",
+    "type": "word-formation",
+    "text": "All ___ must bring their passports and a copy of their CV to the interview.",
+    "gaps": [
+      {
+        "base": "APPLY",
+        "correct": ["applicants"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po All stoi rzeczownik w liczbie mnogiej, a their passports pokazuje, że chodzi o ludzi."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Na rozmowę przychodzą ludzie, którzy złożyli podanie o pracę, czyli kandydaci = applicants."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "apply → applicant: y zmienia się w ic i dochodzi -ant, a na końcu -s na liczbę mnogą: applicants."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "applications to podania, a podania nie przynoszą paszportów. applicant bez -s to 0 pkt, bo All wymaga liczby mnogiej."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  },
+  {
+    "id": "wf-n-driving-instructor",
+    "type": "word-formation",
+    "text": "My driving ___ always reminds me to check the mirrors before I change lanes.",
+    "gaps": [
+      {
+        "base": "INSTRUCT",
+        "correct": ["instructor"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po My driving stoi rzeczownik. reminds me pokazuje, że to jedna osoba."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Ktoś uczy mnie jeździć i przypomina o lusterkach, czyli instruktor = instructor."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "instruct + -or → instructor."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "instructer przez e to 0 pkt. instruction to polecenie, a nie osoba."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-n-new-trainee",
+    "type": "word-formation",
+    "text": "As a ___, you will earn less than the rest of the staff for the first six months while you learn how everything works.",
+    "gaps": [
+      {
+        "base": "TRAIN",
+        "correct": ["trainee"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po As a stoi rzeczownik w liczbie pojedynczej. As a + osoba = jako ktoś."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Ta osoba dopiero uczy się pracy i zarabia mniej niż reszta, czyli jest stażystą, osobą szkoloną = trainee."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "train + -ee → trainee. -ee oznacza tego, kogo się szkoli."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "trainer to ten, kto szkoli innych, a w zdaniu ta osoba sama dopiero się uczy."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  },
+  {
+    "id": "wf-n-gym-membership",
+    "type": "word-formation",
+    "text": "If you show your student card, a year's gym ___ costs only half the normal price.",
+    "gaps": [
+      {
+        "base": "MEMBER",
+        "correct": ["membership"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po a year's gym stoi rzeczownik. gym działa tu jak przymiotnik: jaki karnet? na siłownię. costs z -s pokazuje liczbę pojedynczą."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Płacisz za to, że przez rok należysz do siłowni i możesz na nią chodzić, czyli za członkostwo, karnet = membership."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "member + -ship → membership. -ship robi z osoby rzeczownik o relacji albo przynależności: friend → friendship, leader → leadership."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "members to ludzie, a płaci się za karnet, nie za ludzi. memberships to 0 pkt, bo costs wymaga liczby pojedynczej."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-n-free-speech",
+    "type": "word-formation",
+    "text": "In a democracy, ___ of speech means that you can say what you think about the government without being punished.",
+    "gaps": [
+      {
+        "base": "FREE",
+        "correct": ["freedom"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Luka otwiera podmiot (___ of speech), a czasownik to means. Na tym miejscu stoi rzeczownik."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Można mówić, co się myśli o rządzie, i nie ponieść kary, czyli chodzi o wolność słowa = freedom of speech."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "free + -dom → freedom. Oba e z free zostają. Tak samo king → kingdom."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "fredom z jednym e to 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 1
+  },
+  {
+    "id": "wf-n-quiet-neighbourhood",
+    "type": "word-formation",
+    "text": "We live in a quiet ___ with lots of parks, so it's a great place to bring up children.",
+    "gaps": [
+      {
+        "base": "NEIGHBOUR",
+        "correct": ["neighbourhood"],
+        "accepted": ["neighborhood"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po a quiet stoi rzeczownik w liczbie pojedynczej."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Mieszkamy w spokojnej okolicy z parkami, czyli w dzielnicy, okolicy = neighbourhood."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "neighbour + -hood → neighbourhood. Pisownia amerykańska neighborhood też się liczy."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "neighbours to sąsiedzi, czyli ludzie, a nie miejsce. Do tego po a nie może stać liczba mnoga."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-n-teenagers-boredom",
+    "type": "word-formation",
+    "text": "Many teenagers say that ___ is the main reason why they spend so many hours on their phones.",
+    "gaps": [
+      {
+        "base": "BORE",
+        "correct": ["boredom"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Luka jest podmiotem dla is, więc stoi w niej rzeczownik w liczbie pojedynczej. Nie ma przed nim a ani the, a policzalny rzeczownik w liczbie pojedynczej nie może stać sam. Zostaje rzeczownik niepoliczalny."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Nastolatki siedzą w telefonach, bo nie mają co robić, czyli z nudów = boredom."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "bore + -dom → boredom. Końcówka zaczyna się od spółgłoski, więc e z bore zostaje: bore-dom."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "boring i bored to przymiotniki, a podmiotem musi być rzeczownik."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-n-grandfather-strength",
+    "type": "word-formation",
+    "text": "After the operation, it took my grandfather several months to get his ___ back.",
+    "gaps": [
+      {
+        "base": "STRONG",
+        "correct": ["strength"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po his stoi rzeczownik: get something back = odzyskać coś."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Po operacji dziadek był słaby i odzyskiwał siły = strength."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "strong → strength: o zmienia się w e i dochodzi -th. ng zostaje na swoim miejscu: stre-ng-th."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "strenght to 0 pkt. Najpierw ng, potem th: stre-ng-th."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-n-bridge-length",
+    "type": "word-formation",
+    "text": "The ___ of the new bridge is almost two kilometres.",
+    "gaps": [
+      {
+        "base": "LONG",
+        "correct": ["length"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po The i przed of stoi rzeczownik, podmiot dla is."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Dwa kilometry to miara, czyli długość = length."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "long → length: o zmienia się w e i dochodzi -th."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "lenght to 0 pkt. Najpierw ng, potem th: le-ng-th."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-n-old-town-width",
+    "type": "word-formation",
+    "text": "The road through the old town is only four metres in ___, so two buses can't pass each other.",
+    "gaps": [
+      {
+        "base": "WIDE",
+        "correct": ["width"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po przyimku in stoi rzeczownik. four metres in ... = cztery metry czego? Tak podaje się wymiary."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Dwa autobusy nie mogą się minąć, więc chodzi o to, ile droga ma w poprzek, czyli o szerokość = width."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "wide gubi końcowe e i dostaje -th: wide → width. W wymowie i robi się krótkie, jak w with."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "widht to 0 pkt. Najpierw zostaje d z wide, a dopiero potem -th: wid-th. widths też nie pasuje, bo w wymiarach mówi się in width bez -s."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-n-class-photo-height",
+    "type": "word-formation",
+    "text": "Because of his ___, my brother always has to stand at the back in class photos.",
+    "gaps": [
+      {
+        "base": "HIGH",
+        "correct": ["height"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po Because of his stoi rzeczownik."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Brat stoi z tyłu, bo jest wysoki, czyli chodzi o jego wzrost = height."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "high → height: po h dochodzi e, a na końcu t. To słowo kończy się na -t, a nie na -th."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "hight i heigth to 0 pkt. highness to tytuł (Your Highness), a nie wzrost."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 3
+  },
+  {
+    "id": "wf-n-short-marriage",
+    "type": "word-formation",
+    "text": "Their ___ ended after only two years, but they still get on well and often meet for coffee.",
+    "gaps": [
+      {
+        "base": "MARRY",
+        "correct": ["marriage"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po Their stoi rzeczownik, podmiot dla ended."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Coś trwało tylko dwa lata i się skończyło, a ta para nadal się lubi. Chodzi o małżeństwo = marriage."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "marry: y zmienia się w i i dochodzi -age: marry → marriage."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "marrige (bez i) to 0 pkt. married to przymiotnik albo forma czasownika i nie może być podmiotem."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-n-sudden-refusal",
+    "type": "word-formation",
+    "text": "Her sudden ___ to help us came as a complete surprise, because she had never said no to us before.",
+    "gaps": [
+      {
+        "base": "REFUSE",
+        "correct": ["refusal"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po Her sudden stoi rzeczownik, bo przymiotnik sudden musi coś określać. Cała grupa jest podmiotem dla came."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Nigdy wcześniej nam nie odmówiła, a nagle nie chciała pomóc, czyli odmowa = refusal. refusal to do something = odmowa zrobienia czegoś."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "refuse gubi e i dostaje -al: refuse → refusal. Tak samo arrive → arrival, propose → proposal."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "refusing po przymiotniku sudden nie pasuje, bo przymiotnik określa rzeczownik, a nie formę -ing."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-n-species-survival",
+    "type": "word-formation",
+    "text": "The ___ of many animal species depends on protecting the forests where they live.",
+    "gaps": [
+      {
+        "base": "SURVIVE",
+        "correct": ["survival"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po The i przed of stoi rzeczownik, a depends pokazuje liczbę pojedynczą."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Od ochrony lasów zależy, czy gatunki przetrwają, czyli ich przetrwanie = survival."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "survive gubi e i dostaje -al: survive → survival."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "survivors to ludzie albo zwierzęta, które przeżyły, i do tego w liczbie mnogiej, a czasownik to depends."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-n-trip-failure",
+    "type": "word-formation",
+    "text": "The school trip was a complete ___ because nobody had checked the weather forecast and it rained all day.",
+    "gaps": [
+      {
+        "base": "FAIL",
+        "correct": ["failure"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po a complete stoi rzeczownik w liczbie pojedynczej."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Wycieczka się nie udała, czyli była porażką = failure."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "fail + -ure → failure."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "failing to forma -ing i po a complete nie pasuje."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 1
+  },
+  {
+    "id": "wf-n-exam-pressure",
+    "type": "word-formation",
+    "text": "Many students feel under a lot of ___ in the weeks before their final exams.",
+    "gaps": [
+      {
+        "base": "PRESS",
+        "correct": ["pressure"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po a lot of stoi rzeczownik."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Przed egzaminami uczniowie czują presję = pressure. be/feel under pressure = być pod presją."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "press + -ure → pressure. Podwójne s zostaje."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "presure z jednym s to 0 pkt."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 1
+  },
+  {
+    "id": "wf-n-starter-choice",
+    "type": "word-formation",
+    "text": "You can have either soup or salad as a starter. It's your ___.",
+    "gaps": [
+      {
+        "base": "CHOOSE",
+        "correct": ["choice"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po your stoi rzeczownik."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Możesz wziąć zupę albo sałatkę, decyzja należy do ciebie: it's your choice = twój wybór."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "choose → choice: oo zmienia się w oi, a s w c. To nieregularna para, trzeba ją zapamiętać."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "choise to 0 pkt. chose to czas przeszły od choose, a nie rzeczownik."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-n-team-loss",
+    "type": "word-formation",
+    "text": "The team's third ___ in a row left the fans feeling very disappointed.",
+    "gaps": [
+      {
+        "base": "LOSE",
+        "correct": ["loss"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po The team's third stoi rzeczownik w liczbie pojedynczej: trzecia z rzędu."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Kibice są rozczarowani, bo drużyna przegrała trzeci raz z rzędu, czyli to kolejna porażka = loss."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "lose → loss: e znika, a s się podwaja."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "loose (luźny) i lost (forma czasownika) to 0 pkt. losses nie pasuje, bo third mówi o jednej porażce."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-n-plane-safety",
+    "type": "word-formation",
+    "text": "For your own ___, please keep your seatbelt fastened until the plane has come to a complete stop.",
+    "gaps": [
+      {
+        "base": "SAFE",
+        "correct": ["safety"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po your own stoi rzeczownik: for your own ... = dla twojego własnego ..."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Załoga prosi, żeby nie odpinać pasów, dopóki samolot się nie zatrzyma, bo wcześniej to niebezpieczne. Chodzi o bezpieczeństwo = safety. for your own safety to stały zwrot z ogłoszeń."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "safe + -ty → safety. Końcówka zaczyna się od spółgłoski, więc e z safe zostaje: safe-ty."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "safty bez e to 0 pkt. safely to przysłówek (bezpiecznie) i po your own nie pasuje."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 1
+  },
+  {
+    "id": "wf-n-character-death",
+    "type": "word-formation",
+    "text": "The ___ of the main character in the final episode upset millions of viewers.",
+    "gaps": [
+      {
+        "base": "DIE",
+        "correct": ["death"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po The i przed of stoi rzeczownik, podmiot dla upset."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Widzów zasmuciło to, że bohater zginął, czyli jego śmierć = death."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "die → death: to nieregularna para. Rdzeń zmienia się w dea, a na końcu jest -th. Przymiotnik dead ma ten sam rdzeń."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "dead to przymiotnik (martwy), a dying to forma -ing. Żadne z nich nie pasuje między The a of."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-n-money-proof",
+    "type": "word-formation",
+    "text": "The police suspected him, but they had no ___ that he had taken the money.",
+    "gaps": [
+      {
+        "base": "PROVE",
+        "correct": ["proof"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po had no stoi rzeczownik."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Policja go podejrzewała, ale nie mogła tego udowodnić, czyli nie miała dowodu = proof."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "prove → proof: o podwaja się w oo, v zmienia się w f, a końcowe e znika: pro-ve → proo-f."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "prof z jednym o i proove to 0 pkt. Czasownik prove (udowodnić) ma jedno o i v, a rzeczownik proof ma oo i f. proofs też nie pasuje, bo dowód w tym znaczeniu jest niepoliczalny."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-n-class-behaviour",
+    "type": "word-formation",
+    "text": "The teacher praised the class for their excellent ___ during the visit to the museum.",
+    "gaps": [
+      {
+        "base": "BEHAVE",
+        "correct": ["behaviour"],
+        "accepted": ["behavior"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po their excellent stoi rzeczownik."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Nauczyciel chwali klasę za to, jak się zachowywała, czyli za zachowanie = behaviour."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "behave → behaviour: e znika i dochodzi -iour. Pisownia amerykańska behavior też się liczy."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "behavour i behaviur to 0 pkt. W brytyjskiej pisowni na końcu jest -iour."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  },
+  {
+    "id": "wf-n-useful-advice",
+    "type": "word-formation",
+    "text": "My uncle gave me some really useful ___ about finding my first job.",
+    "gaps": [
+      {
+        "base": "ADVISE",
+        "correct": ["advice"],
+        "steps": [
+          {
+            "label_pl": "miejsce w zdaniu",
+            "text_pl": "Po some really useful stoi rzeczownik."
+          },
+          {
+            "label_pl": "znaczenie",
+            "text_pl": "Wujek podpowiedział mi, jak szukać pierwszej pracy, czyli udzielił mi dobrych rad = advice."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "advise → advice: s zmienia się w c. Czasownik wymawia się z dźwiękiem z, a rzeczownik z dźwiękiem s."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "advice jest niepoliczalny, więc advices to 0 pkt. Jedna rada to a piece of advice."
+          }
+        ]
+      }
+    ],
+    "tags": ["word-formation"],
+    "difficulty": 2
+  }
+]

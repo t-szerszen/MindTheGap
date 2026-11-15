@@ -1,0 +1,903 @@
+{
+  "id": "nouns-pronouns",
+  "category": "grammar",
+  "title_pl": "Rzeczowniki i zaimki",
+  "summary_pl": "Policzalne i niepoliczalne (advice, news, furniture), nieregularna liczba mnoga, rzeczowniki zbiorowe, 's i of, a friend of mine, rzeczowniki złożone, zaimki zwrotne, each other, one / ones i różnica między There is a It is.",
+  "blocks": [
+    {
+      "type": "text",
+      "md_pl": "Zanim wstawisz przed rzeczownikiem *a*, *many* albo *much*, a po nim *is* albo *are*, musisz wiedzieć, jak **angielski** traktuje ten rzeczownik. Polski dzieli rzeczy na sztuki inaczej, więc tego nie przetłumaczysz z głowy.\n\n- **policzalny** (*countable*): coś, co występuje w osobnych sztukach. Ma *a / an* i liczbę mnogą: *a chair, two chairs*.\n- **niepoliczalny** (*uncountable*): masa, substancja, pojęcie albo cała kategoria rzeczy. Nie ma *a / an* ani *-s*, a czasownik stoi w liczbie pojedynczej: *The furniture is new*.\n\nCzęsty błąd dotyczy słów, które po polsku mają liczbę mnogą (*rady, informacje, meble, badania*), a po angielsku są niepoliczalne."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "sygnał",
+          "text_pl": "Spójrz na słowa wokół rzeczownika. a / an, many, few, these, liczebnik → policzalny. much, little, a piece of, czasownik is / was bez a / an przed rzeczownikiem → niepoliczalny."
+        },
+        {
+          "step_pl": "znaczenie",
+          "text_pl": "Zapytaj, czy słowo nazywa jedną sztukę, czy całą kategorię albo masę. furniture to wszystkie meble razem, a chair to jedno krzesło."
+        },
+        {
+          "step_pl": "forma",
+          "text_pl": "Niepoliczalny: bez a / an, bez -s, czasownik w liczbie pojedynczej, zaimek it. Jedną sztukę liczysz przez a piece of: a piece of furniture."
+        },
+        {
+          "step_pl": "pułapka",
+          "text_pl": "Nie przenoś liczby z polskiego. „Dobre wiadomości są” to po angielsku The news is good."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": ["cecha", "policzalne: chair", "niepoliczalne: furniture"],
+      "rows": [
+        ["a / an", "a chair", "nie ma (nie: a furniture)"],
+        ["liczba mnoga", "two chairs", "nie ma (nie: furnitures)"],
+        ["czasownik", "The chairs are new.", "The furniture is new."],
+        ["zaimek", "they, them, these", "it, this"],
+        ["ile?", "many, a few, few, a number of", "much, a little, little, an amount of"],
+        ["pasuje do obu", "some, any, no, a lot of, lots of", "some, any, no, a lot of, lots of"]
+      ]
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "a / two / several",
+          "role": "signal"
+        },
+        {
+          "text": "piece / pieces",
+          "role": "neutral"
+        },
+        {
+          "text": "of",
+          "role": "particle"
+        },
+        {
+          "text": "advice / furniture / news",
+          "role": "object"
+        }
+      ],
+      "example": {
+        "en": "She gave me two pieces of advice that really helped.",
+        "pl": "Dała mi dwie rady, które naprawdę pomogły."
+      }
+    },
+    {
+      "type": "text",
+      "md_pl": "**-s dostaje piece, nigdy rzeczownik niepoliczalny:** *three pieces of furniture*, nie *three piece of furnitures*.\n\nCzęsto prościej jest wziąć zwykłe słowo policzalne o podobnym znaczeniu: *a tip* (rada, wskazówka), *a suitcase* (walizka), *a study* (jedno badanie), *a table* (stół zamiast ogólnego „mebla”)."
+    },
+    {
+      "type": "table",
+      "headers": ["angielski", "po polsku", "jedna sztuka", "przykład"],
+      "rows": [
+        ["advice", "rada, rady", "a piece of advice, a tip", "Can you give me some advice?"],
+        [
+          "information",
+          "informacja, informacje",
+          "a piece of information",
+          "This information is out of date."
+        ],
+        ["news", "wiadomość, wiadomości", "a piece of news", "The news was a shock to everyone."],
+        ["furniture", "mebel, meble", "a piece of furniture", "We need some new furniture."],
+        ["equipment", "sprzęt", "a piece of equipment", "The equipment is very expensive."],
+        [
+          "luggage / baggage",
+          "bagaż",
+          "a piece of luggage, a suitcase",
+          "How much luggage have you got?"
+        ],
+        [
+          "research",
+          "badania",
+          "a study, a piece of research",
+          "There isn't much research on this."
+        ],
+        [
+          "homework",
+          "praca domowa, zadania domowe",
+          "a piece of homework, an exercise",
+          "I've got too much homework."
+        ],
+        ["evidence", "dowód, dowody", "a piece of evidence", "The police found new evidence."],
+        ["progress", "postęp, postępy", "brak", "You've made a lot of progress."],
+        [
+          "accommodation",
+          "zakwaterowanie, noclegi",
+          "a place to stay",
+          "Accommodation in London is expensive."
+        ],
+        [
+          "traffic",
+          "ruch uliczny, korki",
+          "a traffic jam (korek)",
+          "There's a lot of traffic today."
+        ],
+        ["weather", "pogoda", "brak", "What awful weather! (nie: What an awful weather!)"],
+        ["hair", "włosy", "a hair (jeden włos)", "Her hair is really long."]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**Końcówka -s nie zawsze oznacza liczbę mnogą.** *news* i nazwy dziedzin (*maths, physics, economics, politics, athletics*) łączą się z czasownikiem w liczbie pojedynczej (wyjątek: *politics* w znaczeniu „poglądy polityczne” → *His politics are…*): *The news is good. Maths is my favourite subject.*\n\nOdwrotnie *police* i *people*: nie mają -s, a czasownik zawsze stoi w liczbie mnogiej: *The police are here. People are friendly.*"
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Niepoliczalne: ogólnie",
+          "md_pl": "Mówisz o zjawisku, masie albo czynności, bez dzielenia na sztuki.",
+          "examples": [
+            {
+              "en": "I'm looking for work.",
+              "pl": "Szukam pracy."
+            },
+            {
+              "en": "Travel broadens the mind.",
+              "pl": "Podróże kształcą."
+            },
+            {
+              "en": "She gave me some good advice.",
+              "pl": "Dała mi kilka dobrych rad."
+            }
+          ]
+        },
+        {
+          "title": "Policzalne: jedna rzecz",
+          "md_pl": "Mówisz o jednej sztuce, którą da się policzyć. Wtedy wolno użyć *a* i liczby mnogiej.",
+          "examples": [
+            {
+              "en": "I'm looking for a job.",
+              "pl": "Szukam pracy (konkretnej posady)."
+            },
+            {
+              "en": "We went on a trip to Malta.",
+              "pl": "Pojechaliśmy na wycieczkę na Maltę."
+            },
+            {
+              "en": "She gave me a few good tips.",
+              "pl": "Dała mi kilka dobrych wskazówek."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Kiedy potrzebujesz *a* albo liczby mnogiej, zamień słowo niepoliczalne na policzalne o podobnym znaczeniu: *work → a job*, *travel → a trip*, *advice → a tip*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**To samo słowo, dwa znaczenia.** Część rzeczowników bywa i policzalna, i niepoliczalna, ale wtedy znaczy co innego. Niepoliczalne to materiał albo pojęcie, policzalne to jedna konkretna rzecz."
+    },
+    {
+      "type": "table",
+      "headers": ["słowo", "niepoliczalne", "policzalne"],
+      "rows": [
+        ["paper", "papier: I need some paper.", "gazeta albo referat: I bought a paper."],
+        [
+          "glass",
+          "szkło: The table is made of glass.",
+          "szklanka: a glass of water; glasses = okulary"
+        ],
+        [
+          "experience",
+          "doświadczenie (praktyka): She has a lot of experience.",
+          "przeżycie: It was an amazing experience."
+        ],
+        ["time", "czas: I haven't got much time.", "raz: I've been there three times."],
+        ["room", "miejsce: Is there room for one more?", "pokój: a double room"],
+        ["hair", "włosy: She has long hair.", "jeden włos: There's a hair in my soup!"],
+        [
+          "work",
+          "praca, robota: I've got a lot of work.",
+          "dzieło: a work of art, the works of Chopin"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Tylko liczba mnoga.** Rzeczy z dwóch części (*trousers, jeans, shorts, pyjamas, glasses, scissors, headphones*) i kilka innych słów (*clothes, goods, belongings, surroundings, outskirts*) łączą się z czasownikiem w liczbie mnogiej: *My jeans are too long.*\n\nPrzy rzeczach z dwóch części (*jeans, scissors, glasses*) jedną sztukę liczysz przez *a pair of*. Wtedy czasownik zgadza się z *pair*: *This pair of jeans is too long. I need two pairs of trousers.*"
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "Where are my glasses? I can't see a thing.",
+          "pl": "Gdzie są moje okulary? Nic nie widzę."
+        },
+        {
+          "en": "I bought two pairs of shorts for the holiday.",
+          "pl": "Kupiłem na wakacje dwie pary szortów."
+        },
+        {
+          "en": "All my clothes are still in the suitcase.",
+          "pl": "Wszystkie moje ubrania są jeszcze w walizce."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Liczba mnoga: pisownia i wyjątki.** Większość rzeczowników dostaje po prostu -s. Kilka grup zmienia pisownię, a kilkanaście słów trzeba po prostu znać na pamięć."
+    },
+    {
+      "type": "table",
+      "headers": ["reguła", "przykłady", "wyjątki i uwagi"],
+      "rows": [
+        [
+          "-s, -ss, -sh, -ch, -x → -es",
+          "bus → buses, dish → dishes, church → churches, box → boxes",
+          "stomach → stomachs (ch czytane jak k)"
+        ],
+        [
+          "spółgłoska + y → -ies",
+          "city → cities, baby → babies, country → countries",
+          "samogłoska + y → -ys: day → days, key → keys"
+        ],
+        [
+          "-f / -fe → -ves",
+          "knife → knives, life → lives, shelf → shelves, half → halves, thief → thieves",
+          "roof → roofs, chief → chiefs, belief → beliefs"
+        ],
+        [
+          "-o → -oes",
+          "potato → potatoes, tomato → tomatoes, hero → heroes",
+          "photo → photos, piano → pianos, radio → radios, video → videos"
+        ],
+        [
+          "zmiana samogłoski",
+          "man → men, woman → women, foot → feet, tooth → teeth, mouse → mice",
+          "w złożeniach też: policeman → policemen"
+        ],
+        [
+          "inna końcówka albo inne słowo",
+          "child → children, person → people",
+          "persons tylko w języku urzędowym"
+        ],
+        [
+          "ta sama forma",
+          "sheep, deer, fish (fishes = gatunki ryb), species, series, aircraft, means",
+          "one TV series, two TV series"
+        ],
+        [
+          "z greki i łaciny",
+          "criterion → criteria, phenomenon → phenomena, crisis → crises, analysis → analyses",
+          "criteria i phenomena to już liczba mnoga: one criterion, two criteria"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Liczba mnoga w złożeniach z łącznikiem.** -s dostaje główny rzeczownik, czyli ten, który mówi, kim albo czym coś jest:\n\n- *a passer-by → passers-by* (to ludzie, którzy przechodzą),\n- *a mother-in-law → mothers-in-law*,\n- *a runner-up → runners-up*.\n\nJeśli w środku nie ma rzeczownika (czasownik + partykuła), -s idzie na koniec: *a grown-up → grown-ups*, *an add-on → add-ons*, *a check-in → check-ins*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Rzeczowniki zbiorowe** (*team, family, class, staff, government, company, audience, band, crew*) nazywają grupę ludzi. W brytyjskim angielskim czasownik może stać po nich w obu liczbach. Decyduje to, jak patrzysz na grupę."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "Grupa jako całość",
+          "md_pl": "Myślisz o grupie jak o jednej instytucji. Czasownik w liczbie pojedynczej, zaimek *it, its*.",
+          "examples": [
+            {
+              "en": "The government has announced its plans.",
+              "pl": "Rząd ogłosił swoje plany."
+            },
+            {
+              "en": "Our class is the biggest in the school.",
+              "pl": "Nasza klasa jest największa w szkole."
+            }
+          ]
+        },
+        {
+          "title": "Grupa jako ludzie",
+          "md_pl": "Myślisz o członkach grupy, o każdym z osobna. Czasownik w liczbie mnogiej, zaimek *they, their*. Bardzo typowe dla brytyjskiego.",
+          "examples": [
+            {
+              "en": "The team are celebrating in the dressing room.",
+              "pl": "Drużyna świętuje w szatni."
+            },
+            {
+              "en": "My family are all early risers.",
+              "pl": "W mojej rodzinie wszyscy wcześnie wstają."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Obie formy są poprawne, ale trzymaj się jednej w całym zdaniu: *has … its* albo *have … their*. W amerykańskim prawie zawsze jest liczba pojedyncza. *police* i *people* (= ludzie) to co innego: zawsze liczba mnoga."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "**a number of** + liczba mnoga + czasownik w liczbie mnogiej (= sporo, kilka): *A number of students have complained.*\n\n**the number of** + liczba mnoga + czasownik w liczbie pojedynczej (= liczba czegoś): *The number of students has grown.* Tu podmiotem jest *number*, a nie *students*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Czyje? 's albo of.** Końcówkę 's dokładasz do właściciela, który jest osobą, zwierzęciem, firmą, krajem albo określeniem czasu: *my brother's car, the dog's bowl, Poland's capital, today's news*. Przy rzeczach, częściach czegoś i długich nazwach zwykle mówisz *of*."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "właściciel",
+          "role": "object"
+        },
+        {
+          "text": "'s / '",
+          "role": "particle"
+        },
+        {
+          "text": "rzecz",
+          "role": "neutral"
+        }
+      ],
+      "example": {
+        "en": "My parents' flat is on the top floor.",
+        "pl": "Mieszkanie moich rodziców jest na ostatnim piętrze."
+      }
+    },
+    {
+      "type": "table",
+      "headers": ["właściciel", "forma", "przykład"],
+      "rows": [
+        ["jedna osoba", "+ 's", "my sister's room (pokój siostry)"],
+        ["liczba mnoga z -s", "+ sam apostrof", "my sisters' room (pokój sióstr)"],
+        ["liczba mnoga bez -s", "+ 's", "the children's toys, women's rights, people's opinions"],
+        ["imię na -s", "+ 's albo sam apostrof", "James's car / James' car"],
+        ["dwie osoby, wspólna rzecz", "'s tylko przy drugiej", "Tom and Ania's flat"],
+        ["dwie osoby, osobne rzeczy", "'s przy każdej", "Tom's and Ania's phones"],
+        ["czas", "+ 's albo sam apostrof", "today's news, a week's holiday, two weeks' holiday"],
+        [
+          "sklep, gabinet, czyjś dom",
+          "+ 's bez rzeczownika",
+          "at the doctor's, at the hairdresser's, at Kasia's"
+        ]
+      ]
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "rzecz / część",
+          "role": "neutral"
+        },
+        {
+          "text": "of",
+          "role": "particle"
+        },
+        {
+          "text": "the + rzecz / długa nazwa",
+          "role": "object"
+        }
+      ],
+      "example": {
+        "en": "I didn't understand the end of the film.",
+        "pl": "Nie zrozumiałem zakończenia filmu."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "**Kiedy of.** Przy częściach rzeczy i położeniu: *the end of the film, the top of the page, the back of the bus*. Przy długim właścicielu: *the name of the girl I met at the party*, a nie *the girl I met at the party's name*.\n\nPrzy rzeczach często wystarczy rzeczownik złożony: *the car door, a table leg* zamiast *the door of the car*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**a friend of mine.** Po polsku mówisz „mój kolega” albo „jeden z moich kolegów”. Po angielsku nie wolno postawić obok siebie dwóch określników: *a my friend* i *this my bike* są błędne. Dlatego mówisz *a / this / that* + rzeczownik + *of* + zaimek samodzielny (*mine, yours, his, hers, ours, theirs*) albo imię z 's.\n\nPrzy imieniu spotkasz oba warianty: *a friend of Tom's* i *a friend of Tom*. Przy zaimku w tej konstrukcji tylko *of mine*, nie *of me* (uwaga: *a photo of me* to coś innego — zdjęcie, na którym jestem)."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "a / this / that",
+          "role": "signal"
+        },
+        {
+          "text": "friend / bike",
+          "role": "neutral"
+        },
+        {
+          "text": "of",
+          "role": "particle"
+        },
+        {
+          "text": "mine / yours / Ola's",
+          "role": "object"
+        }
+      ],
+      "example": {
+        "en": "A friend of mine works at the airport.",
+        "pl": "Mój znajomy pracuje na lotnisku."
+      }
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "Is that new bike of yours broken again?",
+          "pl": "Ten twój nowy rower znowu jest zepsuty?"
+        },
+        {
+          "en": "She's a cousin of Ola's, so she'll probably come to the party.",
+          "pl": "To kuzynka Oli, więc pewnie przyjdzie na imprezę."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Rzeczowniki złożone.** Dwa rzeczowniki obok siebie: pierwszy działa jak przymiotnik i mówi, jaki to jest albo do czego służy, drugi mówi, czym to jest. Dlatego pierwszy zwykle zostaje w liczbie pojedynczej, a -s dostaje drugi: *a bus stop → bus stops*, *a shoe shop* (nie *shoes shop*), *a ticket office*.\n\nWyjątki to słowa, które i tak występują w liczbie mnogiej: *a clothes shop, a sports centre*. Pisownia bywa różna: razem (*toothbrush, bedroom*), osobno (*bus stop, car park*) albo z łącznikiem (*passer-by*). Tego nie wyprowadzisz z reguły, sprawdzaj w słowniku."
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "rzeczownik 1 (jaki?, bez -s)",
+          "role": "neutral"
+        },
+        {
+          "text": "rzeczownik 2 (co?, tu -s)",
+          "role": "object"
+        }
+      ],
+      "example": {
+        "en": "There are two bus stops outside our school.",
+        "pl": "Przed naszą szkołą są dwa przystanki autobusowe."
+      }
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "a coffee cup",
+          "md_pl": "Filiżanka **do** kawy. Główne słowo to *cup*, a *coffee* mówi, do czego służy. Może być pusta.",
+          "examples": [
+            {
+              "en": "These coffee cups were a present from my aunt.",
+              "pl": "Te filiżanki do kawy dostałam od cioci."
+            }
+          ]
+        },
+        {
+          "title": "a cup of coffee",
+          "md_pl": "Filiżanka **z** kawą. Mówisz o ilości: tyle kawy, ile mieści filiżanka.",
+          "examples": [
+            {
+              "en": "I always have a cup of coffee before my first lesson.",
+              "pl": "Przed pierwszą lekcją zawsze piję filiżankę kawy."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "W złożeniu znaczenie niesie **drugie** słowo: *a horse race* to wyścig (konny), a *a racehorse* to koń (wyścigowy)."
+    },
+    {
+      "type": "text",
+      "md_pl": "**Liczba + rzeczownik przed innym rzeczownikiem** też działa jak przymiotnik, więc nie dostaje -s i ma łącznik: *a ten-minute walk, a five-star hotel, a two-hour exam, a sixteen-year-old girl*. Po *be* liczba zostaje zwykłą liczbą: *She is sixteen years old*.\n\nTo samo możesz powiedzieć formą dzierżawczą, ale wtedy bez *a*: *ten minutes' walk*."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "The school is a ten-minute walk from the station.",
+          "pl": "Szkoła jest dziesięć minut piechotą od dworca."
+        },
+        {
+          "en": "We had a three-hour exam on Monday.",
+          "pl": "W poniedziałek mieliśmy trzygodzinny egzamin."
+        },
+        {
+          "en": "A sixteen-year-old girl won the competition.",
+          "pl": "Konkurs wygrała szesnastoletnia dziewczyna."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**Zaimki: kto, kogo, czyj.** Angielski nie odmienia rzeczowników przez przypadki, ale zaimki tak. Forma zależy od miejsca w zdaniu: podmiot (*I*), dopełnienie (*me*), przed rzeczownikiem (*my bag*), samodzielnie (*It's mine*)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "osoba",
+        "podmiot",
+        "dopełnienie",
+        "przed rzeczownikiem",
+        "samodzielnie",
+        "-self"
+      ],
+      "rows": [
+        ["ja", "I", "me", "my", "mine", "myself"],
+        ["ty", "you", "you", "your", "yours", "yourself"],
+        ["on", "he", "him", "his", "his", "himself"],
+        ["ona", "she", "her", "her", "hers", "herself"],
+        ["ono (rzecz, zwierzę)", "it", "it", "its", "brak", "itself"],
+        ["my", "we", "us", "our", "ours", "ourselves"],
+        ["wy", "you", "you", "your", "yours", "yourselves"],
+        ["oni, one", "they", "them", "their", "theirs", "themselves"]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**its czy it's?** Żaden zaimek dzierżawczy nie ma apostrofu (wyjątek: *one's*): *its, yours, hers, ours, theirs*. Apostrof w *it's* oznacza skrót od *it is* albo *it has*: *It's raining. The dog has hurt its paw.*"
+    },
+    {
+      "type": "text",
+      "md_pl": "**Zaimki zwrotne (-self, -selves)** wstawiasz, kiedy czynność wraca do osoby, która ją wykonuje. Podmiot i dopełnienie to wtedy ta sama osoba: *She cut herself. Help yourself! We really enjoyed ourselves.*"
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "podmiot",
+          "role": "subject"
+        },
+        {
+          "text": "verb",
+          "role": "verb"
+        },
+        {
+          "text": "myself / herself / themselves",
+          "role": "object"
+        }
+      ],
+      "example": {
+        "en": "I cut myself while I was making dinner.",
+        "pl": "Skaleczyłem się, kiedy robiłem obiad."
+      }
+    },
+    {
+      "type": "text",
+      "md_pl": "**To samo -self w roli „sam”.** Na końcu zdania podkreśla, że ktoś zrobił coś osobiście, bez pomocy: *I painted my room myself.* Zaraz po rzeczowniku znaczy „we własnej osobie”: *The headteacher herself came to congratulate us.*\n\n**by myself** to „sam, w pojedynkę”, czyli to samo co *on my own*: *My grandad lives by himself.*"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "sygnał",
+          "text_pl": "W polskim zdaniu jest „się”? To jeszcze nic nie przesądza. Po angielsku może to być -self, each other albo nic."
+        },
+        {
+          "step_pl": "czy wraca do tej samej osoby?",
+          "text_pl": "Ktoś robi coś samemu sobie (skaleczyć się, przedstawić się, nauczyć się czegoś samemu) → -self: cut yourself, introduce yourself, teach yourself."
+        },
+        {
+          "step_pl": "czy działa w obie strony?",
+          "text_pl": "Dwie osoby lub więcej robią coś sobie nawzajem (znać się, kochać się, pomagać sobie) → each other: They help each other."
+        },
+        {
+          "step_pl": "czy to tylko część czasownika?",
+          "text_pl": "„Się” należy do polskiego czasownika (relaksować się, czuć się, skupić się, spotkać się) → po angielsku nic: relax, feel, concentrate, meet."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": ["po polsku", "po angielsku", "nie: …"],
+      "rows": [
+        ["zrelaksować się", "relax", "relax myself"],
+        ["czuć się dobrze, czuć się zmęczonym", "feel fine, feel tired", "feel myself tired"],
+        ["skupić się na czymś", "concentrate on sth", "concentrate myself on"],
+        ["spotkać się z kimś", "meet sb", "meet myself with sb"],
+        ["kłócić się", "argue, have an argument", "argue ourselves"],
+        [
+          "przebrać się, ubrać się",
+          "get changed, get dressed",
+          "change myself (to „zmienić siebie”)"
+        ],
+        ["zgubić się", "get lost", "lose myself (to „zatracić się”)"],
+        ["pobrać się", "get married", "marry ourselves"]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**enjoy w zdaniu oznajmującym zawsze z dopełnieniem.** *We enjoyed the concert* albo *We enjoyed ourselves* (dobrze się bawiliśmy). Samo *We enjoyed* jest błędne. Tu -self jest potrzebne, a przy *relax* zbędne.\n\nCodzienne czynności (*wash, shave, dress*) zwykle mówisz bez -self: *I got up, washed and got dressed.* -self dodajesz, kiedy to wysiłek: *He's only three, but he can dress himself.*"
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "themselves",
+          "md_pl": "Każdy robi coś **samemu sobie**. Czynność wraca do tej samej osoby.",
+          "examples": [
+            {
+              "en": "Ania and Ola looked at themselves in the mirror.",
+              "pl": "Ania i Ola przejrzały się w lustrze (każda patrzyła na siebie)."
+            }
+          ]
+        },
+        {
+          "title": "each other / one another",
+          "md_pl": "Robią coś sobie **nawzajem**: A wobec B i B wobec A.",
+          "examples": [
+            {
+              "en": "Ania and Ola looked at each other and burst out laughing.",
+              "pl": "Ania i Ola spojrzały na siebie i wybuchnęły śmiechem."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "*each other* i *one another* znaczą to samo. Tradycyjnie *each other* mówi się o dwóch osobach, a *one another* o większej grupie, ale dziś oba są poprawne w obu sytuacjach; *one another* brzmi trochę bardziej oficjalnie. Forma dzierżawcza to *each other's*: *They often borrow each other's clothes.*"
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "We've known each other since primary school.",
+          "pl": "Znamy się od podstawówki."
+        },
+        {
+          "en": "My brother and I hardly talk to each other these days.",
+          "pl": "Z bratem prawie ze sobą teraz nie rozmawiamy."
+        },
+        {
+          "en": "Members of the club are expected to help one another.",
+          "pl": "Od członków klubu oczekuje się, że będą sobie pomagać."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "md_pl": "**one / ones zamiast powtarzania rzeczownika.** Kiedy nie chcesz drugi raz mówić tego samego policzalnego rzeczownika, wstawiasz *one* (liczba pojedyncza) albo *ones* (liczba mnoga): *I don't like this jacket. Can I see the black one? These shoes are too small. Have you got any bigger ones?*"
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "the / this / which",
+          "role": "signal"
+        },
+        {
+          "text": "(przymiotnik)",
+          "role": "neutral"
+        },
+        {
+          "text": "one / ones",
+          "role": "object"
+        }
+      ],
+      "example": {
+        "en": "Which bag is yours? The black one or the one by the door?",
+        "pl": "Która torba jest twoja? Ta czarna czy ta przy drzwiach?"
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "a",
+          "role": "signal"
+        },
+        {
+          "text": "przymiotnik",
+          "role": "neutral"
+        },
+        {
+          "text": "one",
+          "role": "object"
+        }
+      ],
+      "example": {
+        "en": "I've lost my umbrella, so I need to buy a new one.",
+        "pl": "Zgubiłem parasol, więc muszę kupić nowy."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "md_pl": "**Gdzie one nie pasuje.**\n\n- Przy niepoliczalnych: *I prefer white chocolate to dark* (nie: *dark one*).\n- Samo *a one* bez przymiotnika: *I need a pen. Have you got one?* (nie: *a one*). Z przymiotnikiem już tak: *a red one*.\n- W liczbie mnogiej bez przymiotnika mówisz *some / any*: *I need some stamps. Have you got any?*\n- Zamiast *my one, your one* lepiej mówić *mine, yours*."
+    },
+    {
+      "type": "text",
+      "md_pl": "**one i you bezosobowo** znaczą „człowiek, każdy”. *One* jest bardzo formalne: *One should always read the small print.* Na co dzień mówisz *you*: *You never know what might happen.*"
+    },
+    {
+      "type": "text",
+      "md_pl": "**There is czy It is?** Po polsku mówisz po prostu „jest” i podmiot nie jest potrzebny. Po angielsku zdanie bez podmiotu jest błędne (*Is cold*), więc musisz wybrać: *there* albo *it*."
+    },
+    {
+      "type": "comparison",
+      "columns": [
+        {
+          "title": "There is / There are",
+          "md_pl": "Mówisz, że coś **istnieje** albo **gdzieś jest**. Rzeczownik pojawia się zwykle pierwszy raz. Po polsku: jest, są, było, znajduje się.",
+          "examples": [
+            {
+              "en": "There's a new café opposite the school.",
+              "pl": "Naprzeciwko szkoły jest nowa kawiarnia."
+            },
+            {
+              "en": "There were a lot of people at the concert.",
+              "pl": "Na koncercie było dużo ludzi."
+            }
+          ]
+        },
+        {
+          "title": "It is",
+          "md_pl": "*it* odnosi się do czegoś, o czym już mówisz, albo jest pustym podmiotem przy pogodzie, czasie, odległości i ocenie sytuacji.",
+          "examples": [
+            {
+              "en": "It's a nice café, but it's quite expensive.",
+              "pl": "To fajna kawiarnia, ale dość droga."
+            },
+            {
+              "en": "It's freezing today.",
+              "pl": "Dziś jest strasznie zimno."
+            },
+            {
+              "en": "It's ten kilometres to the nearest town.",
+              "pl": "Do najbliższego miasta jest dziesięć kilometrów."
+            }
+          ]
+        }
+      ],
+      "takeaway_pl": "Pytanie kontrolne: czy informujesz, że **coś jest** (rzeczownik po *be*)? → *there*. Opisujesz pogodę, czas, odległość albo coś, o czym już była mowa? → *it*."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "step_pl": "sygnał",
+          "text_pl": "Po polsku „jest / są / było” + rzeczownik, często z miejscem: w lodówce jest mleko, na ulicy było dużo ludzi."
+        },
+        {
+          "step_pl": "znaczenie",
+          "text_pl": "Informujesz, że coś istnieje albo gdzieś się znajduje → There."
+        },
+        {
+          "step_pl": "forma",
+          "text_pl": "Czasownik zgadza się z rzeczownikiem PO nim: There is a problem. There are two problems. There is a lot of traffic (traffic jest niepoliczalne)."
+        },
+        {
+          "step_pl": "czas",
+          "text_pl": "Czas niesie be, a there zostaje bez zmian: There was, There have been, There will be, There used to be, There is going to be."
+        }
+      ]
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "There",
+          "role": "subject"
+        },
+        {
+          "text": "is / are / was / have been",
+          "role": "verb"
+        },
+        {
+          "text": "rzeczownik (decyduje o liczbie)",
+          "role": "object"
+        },
+        {
+          "text": "miejsce / czas",
+          "role": "neutral"
+        }
+      ],
+      "example": {
+        "en": "There have been three accidents on this road since January.",
+        "pl": "Od stycznia na tej drodze były trzy wypadki."
+      }
+    },
+    {
+      "type": "formula",
+      "parts": [
+        {
+          "text": "It",
+          "role": "subject"
+        },
+        {
+          "text": "is / was",
+          "role": "verb"
+        },
+        {
+          "text": "pogoda / godzina / odległość / ocena",
+          "role": "neutral"
+        }
+      ],
+      "example": {
+        "en": "It's getting dark, so let's head home.",
+        "pl": "Robi się ciemno, więc wracajmy do domu."
+      }
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "en": "It's twenty past eight. We're going to be late!",
+          "pl": "Jest dwadzieścia po ósmej. Spóźnimy się!"
+        },
+        {
+          "en": "How far is it from here to the beach?",
+          "pl": "Jak daleko jest stąd na plażę?"
+        },
+        {
+          "en": "It takes about an hour to get there by train.",
+          "pl": "Pociągiem jedzie się tam około godziny."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "md_pl": "W mowie potocznej usłyszysz *There's two problems*. W zadaniach i w wypracowaniu pisz *There are two problems*: czasownik zgadza się z rzeczownikiem po nim."
+    },
+    {
+      "type": "callout",
+      "variant": "matura",
+      "md_pl": "**Jak to sprawdzają.** Rzeczowniki i zaimki rzadko są celem całej luki, ale co roku wracają jako pułapka w drugiej warstwie zadania:\n\n- w zad. 9 z lat 2023-2026 w 5 z 16 pozycji trzeba było dobrze dobrać liczbę, przedimek albo określnik, np. *any doubts* w liczbie mnogiej albo *idea* w liczbie pojedynczej, bo w zdaniu było *it*,\n- w słowotwórstwie (zad. 8) traci się punkt za liczbę mnogą po *a* (*a preferences*) i w stałych połączeniach bez liczby mnogiej (*take action*, nie *take actions*),\n- przy wyrazach w nawiasie sam zmieniasz ich formę: *child → children's*, *piece → pieces*, a *advice* i *equipment* zostają bez -s,\n- w zadaniach otwartych liczy się pełna poprawność: jedno zbędne -s albo brak apostrofu to 0 pkt.\n\nJeśli taka luka trafi się w zadaniu z wyborem (zad. 7), cztery opcje będą z tej samej klasy, np. *information / informations*, *is / are*, *it / there*. Szukaj słowa, od którego zależy forma. Przy limicie wyrazów *Peter's*, *children's* i skróty (*there's*, *isn't*) liczą się jako jeden wyraz, a *each other's* jako dwa."
+    },
+    {
+      "type": "table",
+      "headers": ["źle", "dobrze", "dlaczego"],
+      "rows": [
+        [
+          "Can you give me an advice?",
+          "Can you give me some advice?",
+          "advice jest niepoliczalne: bez a i bez -s. Jedna rada: a piece of advice."
+        ],
+        [
+          "The news are terrible.",
+          "The news is terrible.",
+          "news ma -s, ale jest niepoliczalne, więc is."
+        ],
+        [
+          "We bought new furnitures.",
+          "We bought new furniture.",
+          "furniture to cała kategoria, nie sztuki."
+        ],
+        ["My hair are wet.", "My hair is wet.", "hair (włosy na głowie) jest niepoliczalne."],
+        [
+          "The police is coming.",
+          "The police are coming.",
+          "police zawsze łączy się z liczbą mnogą."
+        ],
+        ["two passer-bys", "two passers-by", "-s dostaje główny rzeczownik: passer."],
+        [
+          "a ten-minutes break",
+          "a ten-minute break",
+          "liczba + rzeczownik przed rzeczownikiem działa jak przymiotnik, więc bez -s."
+        ],
+        [
+          "a shoes shop",
+          "a shoe shop",
+          "pierwszy rzeczownik w złożeniu zostaje w liczbie pojedynczej."
+        ],
+        ["a my friend", "a friend of mine", "a i my nie mogą stać obok siebie."],
+        [
+          "the childrens' room",
+          "the children's room",
+          "children to już liczba mnoga bez -s, więc dostaje 's."
+        ],
+        [
+          "The company changed it's name.",
+          "The company changed its name.",
+          "it's = it is / it has. Dzierżawcze its nie ma apostrofu."
+        ],
+        [
+          "I feel myself tired.",
+          "I feel tired.",
+          "feel, relax, concentrate i meet nie biorą -self."
+        ],
+        [
+          "We know ourselves for years.",
+          "We have known each other for years.",
+          "„Znamy się” to wzajemność, więc each other. Od lat do teraz: have known."
+        ],
+        [
+          "It was a lot of traffic.",
+          "There was a lot of traffic.",
+          "informujesz, że coś było, więc there. traffic jest niepoliczalne: was."
+        ],
+        [
+          "Is very cold today.",
+          "It's very cold today.",
+          "zdanie musi mieć podmiot. Przy pogodzie to it."
+        ]
+      ]
+    }
+  ]
+}
