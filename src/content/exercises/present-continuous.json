@@ -1,0 +1,522 @@
+[
+  {
+    "id": "prc-winter-coat-question",
+    "type": "gap-fill",
+    "sentence": "Why ___ (you / wear) a winter coat? It's at least 25 degrees outside!",
+    "correct": ["are you wearing"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "It's at least 25 degrees outside! — mówisz o upale, który jest teraz, i o tym, co widzisz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz o to, co ta osoba ma na sobie w tej chwili. Czynność trwa teraz, to nie jest jej zwyczaj."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Why do you wear…? pytałoby o zwyczaj (czemu w ogóle nosisz płaszcz?), a zdziwienie dotyczy dzisiejszej sytuacji."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Why + are + you + V-ing → Why are you wearing…?"
+      }
+    ],
+    "tags": ["present-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "prc-no-meat-challenge",
+    "type": "gap-fill",
+    "sentence": "No burger for me, thanks — I ___ (not / eat) meat at the moment; it's part of a challenge my class is doing.",
+    "correct": ["am not eating"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "at the moment + it's part of a challenge — chodzi o ten okres, nie o całe życie."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Niejedzenie mięsa trwa teraz i skończy się razem z wyzwaniem. Sytuacja tymczasowa → Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "I don't eat meat brzmiałoby jak stała zasada (jestem wegetarianinem). Tu to tylko „na razie”."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "am + not + V-ing → am not eating (skrót: I'm not eating)."
+      }
+    ],
+    "tags": ["present-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "prc-dentist-thursday",
+    "type": "gap-fill",
+    "sentence": "I can't come to the cinema on Thursday — I ___ (see) the dentist at four, and I booked the appointment weeks ago.",
+    "correct": ["am seeing", "am going to see", "will be seeing"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "on Thursday, at four i I booked the appointment weeks ago — konkretny termin i rezerwacja."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Wizyta będzie w przyszłości, ale jest już umówiona i zapisana. Plan ustalony wcześniej to typowe miejsce na Present Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "see w znaczeniu „iść do (lekarza)” to czynność, więc -ing jest poprawne. am going to see i will be seeing też pasują, ale samo will see brzmiałoby jak decyzja podjęta teraz."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "am + V-ing → am seeing."
+      }
+    ],
+    "tags": ["present-continuous", "be-going-to", "future-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "prc-cousin-work-placement",
+    "type": "gap-fill",
+    "sentence": "My cousin ___ (stay) with us until his work placement at the hospital in town finishes in June, so the bathroom is always busy in the mornings.",
+    "correct": ["is staying"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "until his work placement … finishes in June + so the bathroom is always busy — kuzyn mieszka u was już teraz, ale tylko do czerwca."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pobyt już trwa i ma z góry wyznaczony koniec: skończy się razem z praktykami. Sytuacja tymczasowa, która trwa teraz → Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Present Simple (stays) pasowałby do czegoś stałego albo powtarzalnego, np. He stays with us every summer. has been staying liczyłby, jak długo pobyt trwa do teraz, a until … in June patrzy w przód, na jego koniec — to się ze sobą gryzie."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "is + V-ing → is staying."
+      }
+    ],
+    "tags": ["present-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "prc-heavy-box-offer",
+    "type": "gap-fill",
+    "sentence": "That box looks really heavy — hang on, I ___ (carry) it up the stairs for you.",
+    "correct": ["will carry", "shall carry"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "hang on + That box looks really heavy — reagujesz na to, co widzisz w tej chwili."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Decyzja i propozycja pomocy rodzą się w chwili mówienia. Samo noszenie będzie za moment, w przyszłości."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Present Continuous na przyszłość wymaga planu ustalonego wcześniej. Tu nic nie było ustalone — postanawiasz teraz, więc will."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "will + V1 → will carry (skrót: I'll carry; bardzo oficjalnie po brytyjsku także I shall carry)."
+      }
+    ],
+    "tags": ["future-simple", "present-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "prc-sports-centre-built",
+    "type": "gap-fill",
+    "sentence": "A new sports centre ___ (build) right next to our school, so the noise during lessons is unbearable.",
+    "correct": ["is being built"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "so the noise during lessons is unbearable — hałas jest teraz, więc budowa też trwa teraz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Budowa się zaczęła i jeszcze się nie skończyła. Ważne jest centrum, a nie to, kto je buduje, więc strona bierna."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "has been built znaczyłoby, że budynek już stoi — wtedy nie byłoby hałasu. build jest nieregularny: build – built – built."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "is + being + V3 → is being built."
+      }
+    ],
+    "tags": ["present-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "prc-car-still-repaired",
+    "type": "gap-fill",
+    "sentence": "___ (your car / still / repair)? You've been taking the bus for weeks!",
+    "correct": ["is your car still being repaired"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "still — „nadal”, czyli coś jeszcze trwa."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz, czy naprawa trwa teraz. Auto nie naprawia się samo — robi to mechanik, a ważne jest auto, więc strona bierna."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "for weeks dotyczy autobusu (You've been taking…). W luce pytasz tylko o to, co dzieje się z autem teraz."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Is + podmiot + still + being + V3 → Is your car still being repaired? still stoi za podmiotem."
+      }
+    ],
+    "tags": ["present-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "prc-driver-questioned",
+    "type": "gap-fill",
+    "sentence": "The driver who caused the crash ___ (question) by the police at the moment, so we still don't know exactly what happened.",
+    "correct": ["is being questioned"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "at the moment + we still don't know — przesłuchanie trwa teraz i jeszcze się nie skończyło."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Kierowca nie przesłuchuje, tylko jest przesłuchiwany — robi to policja (by the police). Strona bierna + coś w toku → is being + V3."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "is questioned (bez being) to Present Simple w stronie biernej, czyli coś, co dzieje się regularnie. has been questioned znaczyłoby, że przesłuchanie już się skończyło, a at the moment mówi, że trwa."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "is + being + V3 → is being questioned."
+      }
+    ],
+    "tags": ["present-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "prc-flatmate-forever-borrowing",
+    "type": "gap-fill",
+    "sentence": "Honestly, my flatmate ___ (forever / borrow) my charger without asking — I've had to buy a second one!",
+    "correct": ["is forever borrowing"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "forever w znaczeniu „wiecznie” + Honestly… i wykrzyknik — mówiący jest zirytowany."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pożyczanie powtarza się tak często, że wydaje się ciągle w toku. Continuous z forever dodaje emocję: to denerwuje."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Present Simple z always (He always borrows) to neutralny nawyk. forever w znaczeniu „ciągle” łączy się z formą -ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "is + forever + V-ing → is forever borrowing. forever stoi między is a V-ing."
+      }
+    ],
+    "tags": ["present-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "prc-dad-lying-sofa",
+    "type": "gap-fill",
+    "sentence": "Dad can't come to the phone — he ___ (lie) on the sofa with a terrible headache.",
+    "correct": ["is lying", "has been lying"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "can't come to the phone — tłumaczysz, co tata robi w tej chwili."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Leżenie trwa teraz, w trakcie rozmowy, i jest tymczasowe."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Pisownia: lie → lying (-ie zmienia się w -y). Nie lieing ani laying — lay to inny czasownik (kłaść coś). has been lying też ujdzie (leży już od jakiegoś czasu), ale nic w zdaniu nie liczy czasu trwania, chodzi po prostu o to, co tata robi teraz."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "is + V-ing → is lying."
+      }
+    ],
+    "tags": ["present-continuous", "present-perfect-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "prc-parents-travelling",
+    "type": "gap-fill",
+    "sentence": "My parents ___ (travel) around Portugal at the moment, so I've got the whole flat to myself.",
+    "correct": ["are travelling", "are traveling"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "at the moment + so I've got the whole flat to myself — rodziców teraz nie ma."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Podróż trwa teraz i jest tymczasowa — skończy się, gdy wrócą."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Pisownia: w brytyjskim angielskim końcowe -l po jednej samogłosce się podwaja: travelling. W amerykańskim: traveling. Obie są poprawne, tylko trzymaj się jednej w całym tekście."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "are + V-ing → are travelling."
+      }
+    ],
+    "tags": ["present-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "prc-darker-by-the-minute",
+    "type": "gap-fill",
+    "sentence": "It ___ (get) darker by the minute — we'd better find the path back to the car before we get lost.",
+    "correct": ["is getting"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "darker by the minute — z minuty na minutę, zmiana trwa na twoich oczach. we'd better… — trzeba zareagować teraz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Robi się coraz ciemniej i ten proces jeszcze się nie skończył. Zmiana w toku → Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "get w znaczeniu „stawać się” to zmiana, a nie stan, więc -ing jest naturalne. Present Simple (gets) opisywałby coś, co dzieje się regularnie."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "is + V-ing → is getting (get ma jedną sylabę i kończy się na jedną samogłoskę + spółgłoskę, więc t się podwaja; ale eat → eating, bo przed t stoją dwie samogłoski)."
+      }
+    ],
+    "tags": ["present-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "prc-cycle-lanes-still-growing",
+    "type": "gap-fill",
+    "sentence": "The new cycle lanes opened in September, and the number of students who cycle to school ___ (still / grow) — by eight every morning there's no room left in the bike racks.",
+    "correct": ["is still growing"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "still — „nadal”, czyli wzrost jeszcze się nie skończył. no room left in the bike racks — skutki widać teraz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Liczba rowerzystów zaczęła rosnąć we wrześniu i rośnie dalej. To zmiana, która trwa → Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "opened in September to przeszłość, ale luka mówi o tym, co dzieje się z liczbą teraz. grew zamknąłby wzrost w przeszłości, a Present Simple (still grows) brzmiałby jak stały fakt, nie jak zmiana w toku."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "is + still + V-ing → is still growing. still stoi między is a V-ing."
+      }
+    ],
+    "tags": ["present-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "prc-zosia-what-time",
+    "type": "gap-fill",
+    "sentence": "What time ___ (you / meet) Zosia on Saturday? Dad's driving into town around noon and could give you a lift.",
+    "correct": ["are you meeting", "are you going to meet", "will you be meeting"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "on Saturday + Zosia — konkretny dzień i konkretna osoba. Pytasz o spotkanie, które już jest umówione."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Spotkanie będzie w przyszłości, ale zostało ustalone wcześniej. Plan umówiony z kimś to typowe miejsce na Present Continuous, także w pytaniu."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po polsku „O której spotykasz się z Zosią?”, ale What time do you meet…? pasowałoby do stałego rozkładu. are you going to meet i will you be meeting też są poprawne, a samo will you meet brzmi tak, jakbyś prosił o decyzję teraz."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "What time + are + you + V-ing → What time are you meeting…?"
+      }
+    ],
+    "tags": ["present-continuous", "be-going-to", "future-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "prc-mum-fridays",
+    "type": "gap-fill",
+    "sentence": "Mum ___ (work) from home on Fridays, so she can always pick me up after school.",
+    "correct": ["works"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "on Fridays (liczba mnoga) = w każdy piątek. Do tego always — coś regularnego."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "To stały rozkład tygodnia mamy, a nie coś, co dzieje się teraz albo tylko na razie."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "on Friday (jeden piątek) z ustalonym planem dałoby Present Continuous: Mum is working from home on Friday. Tu jest on Fridays i nic nie mówi, że to tylko na jakiś czas, więc stały zwyczaj. Gdyby było np. this month, chodziłoby o tymczasowy układ: Mum is working from home on Fridays this month."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "she + V1 + -s → works."
+      }
+    ],
+    "tags": ["present-simple", "present-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "prc-pierogi-lunch",
+    "type": "gap-fill",
+    "sentence": "Can I call you back in ten minutes? We ___ (have) lunch and my mouth is full of pierogi.",
+    "correct": ["are having"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Can I call you back…? + my mouth is full — rozmowa przerywa coś, co trwa właśnie teraz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Obiad trwa w chwili telefonu i za kilka minut się skończy."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "have w znaczeniu „mieć, posiadać” nie ma formy -ing. Ale have lunch = jeść, czyli czynność — i wtedy -ing jest poprawne."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "are + V-ing → are having (nieme -e znika: have → having)."
+      }
+    ],
+    "tags": ["present-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "prc-smell-of-smoke",
+    "type": "gap-fill",
+    "sentence": "You ___ (smell) of smoke — have you been sitting by a bonfire all evening?",
+    "correct": ["smell"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "You ___ of smoke + have you been sitting by a bonfire? — czujesz od kogoś zapach teraz, w tej chwili."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Zapach jest teraz, ale to stan: ta osoba pachnie dymem. Sama niczego nie robi i niczego nie wącha."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "smell ma dwa znaczenia. „wąchać” to czynność i ma -ing (Why are you smelling the milk?). „pachnieć” to stan i zostaje w Present Simple, nawet gdy chodzi o teraz. smell of = pachnieć czymś."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "you + V1 → smell (bez -s, bo podmiot to you)."
+      }
+    ],
+    "tags": ["present-simple", "present-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "prc-friend-ignoring-remember",
+    "type": "gap-fill",
+    "sentence": "My best friend is ignoring me at the moment, and I honestly ___ (not / remember) doing anything to upset her.",
+    "correct": ["do not remember"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "at the moment i is ignoring obok — wszystko dzieje się teraz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Nie pamiętasz teraz, ale „pamiętać” to stan w głowie, a nie czynność, którą się zaczyna i kończy."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Continuous w pierwszej części zdania kusi, żeby wpisać am not remembering. ignore to czynność, więc tam -ing pasuje, ale remember to czasownik stanu i zostaje w Present Simple, nawet przy at the moment. doing po remember to nie czas, tylko wspomnienie czegoś, co było (remember doing = pamiętać, że się coś zrobiło)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "do + not + V1 → do not remember (skrót: don't remember)."
+      }
+    ],
+    "tags": ["present-simple", "present-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "prc-black-clouds",
+    "type": "gap-fill",
+    "sentence": "Look at those black clouds over the hills — it ___ (rain) any minute, so let's head back.",
+    "correct": ["is going to rain", "will rain"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Look at those black clouds — dowód widzisz teraz, ale deszczu jeszcze nie ma. any minute = lada chwila."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Przewidujesz coś, co zaraz się stanie, na podstawie tego, co widać teraz → be going to. will rain też uchodzi, ale przy dowodzie przed oczami naturalniejsze jest be going to."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Look! często zapowiada Present Continuous, ale tu patrzysz na chmury, a nie na padający deszcz. Present Continuous na przyszłość działa tylko dla umówionych planów — pogody nikt nie umawia."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "is + going to + V1 → is going to rain."
+      }
+    ],
+    "tags": ["be-going-to", "future-simple", "present-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "prc-guitar-how-long",
+    "type": "gap-fill",
+    "sentence": "How long ___ (you / learn) to play the guitar? You sound like a professional!",
+    "correct": ["have you been learning"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "How long — pytasz, jak długo coś trwa od początku do teraz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Nauka zaczęła się w przeszłości i trwa do dziś. Present Continuous widzi tylko teraz i nie policzy czasu trwania."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po polsku „Jak długo uczysz się grać?” jest w czasie teraźniejszym, ale How long are you learning…? to tu błąd. How long are you staying? pyta o przyszłość (na ile zostajesz) — to inna sytuacja."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "How long + have + you + been + V-ing → How long have you been learning…?"
+      }
+    ],
+    "tags": ["present-perfect-continuous", "present-continuous"],
+    "difficulty": 3
+  }
+]
