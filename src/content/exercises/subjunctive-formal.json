@@ -1,0 +1,621 @@
+[
+  {
+    "id": "subj-counsellor-suggest",
+    "type": "gap-fill",
+    "sentence": "I was so stressed before my mock exams that my form teacher ___ (suggest / I / talk) to the school counsellor.",
+    "correct": [
+      "suggested that I talk",
+      "suggested I talk",
+      "suggested that I should talk",
+      "suggested I should talk",
+      "suggested that I talked",
+      "suggested I talked"
+    ],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Wychowawca coś proponuje, a całość dzieje się w przeszłości (was so stressed). Zdanie po suggest nie opisuje faktu, tylko to, co według niego powinno się stać."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "suggest + (that) + podmiot + V1, po brytyjsku też should + V1. V1 nie cofa się w czasie, choć suggested jest w przeszłości."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "suggested (that) I talk albo suggested (that) I should talk. Najdłuższa wersja ma 5 wyrazów, więc się mieści. W luźnym brytyjskim usłyszysz też suggested I talked."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "suggested me to talk to kalka z „zaproponowała mi, żebym”. Po suggest nie ma osoby + to, a I zostaje podmiotem zdania z that."
+      }
+    ],
+    "tags": ["subjunctive-formal"],
+    "difficulty": 2
+  },
+  {
+    "id": "subj-fans-demand",
+    "type": "gap-fill",
+    "sentence": "Hundreds of angry fans gathered outside the stadium and demanded that the club ___ (not / sell) its best player to their biggest rivals.",
+    "correct": ["not sell", "should not sell"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "demanded = zażądali. Zdanie z that mówi, czego chcą kibice, a nie co klub robi."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "demand + that + podmiot + V1: ta sama forma dla każdej osoby, bez czasu. Przeczenie to samo not przed V1, bez do, does i did."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "the club not sell (formalnie) albo the club should not sell (po brytyjsku). To dwie pewne wersje."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "doesn't sell i sells to czas teraźniejszy, który nie pasuje do demanded. demanded the club not to sell też nie działa: demand nie łączy się z osobą + to."
+      }
+    ],
+    "tags": ["subjunctive-formal"],
+    "difficulty": 2
+  },
+  {
+    "id": "subj-kwt-train-tickets",
+    "type": "key-word-transformation",
+    "source": "You absolutely must book your train tickets at least two weeks before the trip.",
+    "keyWord": "ESSENTIAL",
+    "target": "It ___ your train tickets at least two weeks before the trip.",
+    "correct": [
+      "is essential that you book",
+      "is essential you book",
+      "is essential to book",
+      "is absolutely essential to book",
+      "is absolutely essential you book",
+      "is essential you should book"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "absolutely must = to konieczne. Zdanie docelowe zaczyna się od It, więc szukasz wzoru It is + przymiotnik."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "It is essential that + podmiot + V1 (bez will, bez -s). Krócej: It is essential to + V1."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "is essential that you book (5 wyrazów) albo is essential to book. Z should mieści się tylko bez that: is essential you should book. that you should book to już 6 wyrazów."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "is essential that you will book to błąd: will przewiduje przyszłość, a tu chodzi o wymóg. is essential booking też nie działa."
+      }
+    ],
+    "tags": ["subjunctive-formal"],
+    "difficulty": 1
+  },
+  {
+    "id": "subj-kwt-zosia-experiment",
+    "type": "key-word-transformation",
+    "source": "\"Why don't we ask Mr Nowak to explain the experiment again?\" Zosia said to us.",
+    "keyWord": "SUGGESTED",
+    "target": "Zosia ___ Mr Nowak to explain the experiment again.",
+    "correct": [
+      "suggested that we ask",
+      "suggested we ask",
+      "suggested that we should ask",
+      "suggested we should ask",
+      "suggested asking",
+      "suggested that we asked",
+      "suggested we asked"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Why don't we…? to propozycja, a Zosia mówi do nas, więc chodzi o nas wszystkich. W relacji taka propozycja to suggest."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "suggest + (that) + podmiot + V1 albo should + V1. Bez podmiotu: suggest + -ing."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "suggested (that) we ask, suggested (that) we should ask albo suggested asking. Każda wersja mieści się w 5 wyrazach."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "suggested us to ask i suggested to ask to błędy: po suggest nie stoi bezokolicznik z to."
+      }
+    ],
+    "tags": ["subjunctive-formal", "reported-speech"],
+    "difficulty": 2
+  },
+  {
+    "id": "subj-kwt-bridge-floods",
+    "type": "key-word-transformation",
+    "source": "\"The bridge must be closed to all traffic for at least a month,\" the safety inspector said after the floods.",
+    "keyWord": "BE",
+    "target": "After the floods, the safety inspector recommended ___ to all traffic for at least a month.",
+    "correct": ["that the bridge be closed", "the bridge be closed", "the bridge should be closed"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "recommended = zalecił. To, co ma się stać z mostem, jest zaleceniem, a nie faktem."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "recommend + (that) + podmiot + V1. Most nie zamknie się sam, więc strona bierna: be + V3. To samo be stoi przy każdej osobie i w każdym czasie."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "(that) the bridge be closed albo the bridge should be closed. Z that i should naraz wychodzi 6 wyrazów, czyli za dużo."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Słowo BE musi stać w tej formie, więc was closed i is closed odpadają, a closing the bridge nie ma BE wcale. Nie gub the: bridge to policzalny rzeczownik w liczbie pojedynczej."
+      }
+    ],
+    "tags": ["subjunctive-formal", "passive-voice"],
+    "difficulty": 3
+  },
+  {
+    "id": "subj-trip-entrance",
+    "type": "choice",
+    "text": "Trip information: it is essential that every participant ___ at the main entrance by 7.30 a.m., as the coach will leave exactly on time.",
+    "gaps": [
+      {
+        "options": ["be", "will be", "to be", "being"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "it is essential that = koniecznie trzeba, żeby. Zdanie z that opisuje wymóg."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Po essential that stoi V1 dla każdej osoby, także po every participant: be."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "will be to przewidywanie, a nie wymóg. to be i being nie mogą być orzeczeniem po podmiocie."
+          }
+        ]
+      }
+    ],
+    "tags": ["subjunctive-formal"],
+    "difficulty": 1
+  },
+  {
+    "id": "subj-canteen-letter",
+    "type": "choice",
+    "title": "A letter from the student council",
+    "text": "I am writing on behalf of the student council about the school canteen. Many students feel that lunches have become too expensive, so we would like to propose that the canteen ___ a cheaper set menu. We also believe it is important that every student ___ access to free drinking water during the day. Finally, we would request that our proposals ___ at the next staff meeting.",
+    "gaps": [
+      {
+        "options": ["introduce", "introducing", "to introduce", "will introduce"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "would like to propose that = propozycja. Zdanie z that opisuje, co według was ma się stać."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Po propose that + podmiot stoi V1 bez zmian, także przy the canteen (it): introduce."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "introducing pasowałoby tylko bez podmiotu (propose introducing a cheaper menu). to introduce nie zrobi orzeczenia, a will to przewidywanie, nie propozycja."
+          }
+        ]
+      },
+      {
+        "options": ["have", "had", "having", "to have"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "it is important that = na tym wam zależy, to ma być spełnione."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Po important that stoi V1: every student have. Brak -s jest celowy, bo to nie fakt, tylko to, co powinno być. Po brytyjsku też every student should have."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "had to forma przeszła, a list dotyczy teraz. having i to have nie mogą być orzeczeniem po podmiocie."
+          }
+        ]
+      },
+      {
+        "options": ["be discussed", "discuss", "to be discussed", "being discussed"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "we would request that = formalna prośba. Propozycje nie dyskutują same, więc potrzebna strona bierna."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Tryb łączący w stronie biernej: be + V3 → be discussed."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "discuss to strona czynna: propozycje miałyby same coś omawiać. to be discussed i being discussed nie mogą być orzeczeniem po our proposals."
+          }
+        ]
+      }
+    ],
+    "tags": ["subjunctive-formal"],
+    "difficulty": 3
+  },
+  {
+    "id": "subj-blood-tests",
+    "type": "choice",
+    "text": "The latest blood tests suggest that my grandad ___ much healthier than he was a year ago, so his doctor is very pleased.",
+    "gaps": [
+      {
+        "options": ["is", "be", "being", "were"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "Podmiotem są wyniki badań. Wyniki niczego nie proponują, tylko coś pokazują: suggest = wskazywać, że tak jest."
+          },
+          {
+            "label_pl": "struktura",
+            "text_pl": "suggest w znaczeniu „wskazywać” przekazuje fakt, więc dalej stoi zwykły czas. Tryb łączący (that + V1) jest tylko wtedy, gdy ktoś proponuje, co ma się stać."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Fakt o teraz → Present Simple: my grandad is."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "be wygląda na „formę po suggest”, ale wtedy badania proponowałyby, żeby dziadek był zdrowszy. were to forma nierealna, a tu chodzi o prawdziwy stan."
+          }
+        ]
+      }
+    ],
+    "tags": ["subjunctive-formal"],
+    "difficulty": 3
+  },
+  {
+    "id": "subj-jacket-sales",
+    "type": "choice",
+    "text": "I know you love that jacket, but if I ___ you, I'd wait for the sales — it will probably be half price in January.",
+    "gaps": [
+      {
+        "options": ["were", "am", "would be", "had been"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "if I … you: nie możesz być drugą osobą, więc warunek jest nierealny. Dalej I'd wait, czyli rada."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Nierealne teraz → forma przeszła. Przy be w stałym zwrocie z radą: If I were you."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "am robi z tego warunek realny. would nie wchodzi do części z if, a had been dotyczy przeszłości."
+          }
+        ]
+      }
+    ],
+    "tags": ["subjunctive-formal", "conditionals"],
+    "difficulty": 1
+  },
+  {
+    "id": "subj-kwt-cafe-manager",
+    "type": "key-word-transformation",
+    "source": "Marek isn't the manager of the café, but he keeps giving the rest of us orders.",
+    "keyWord": "WERE",
+    "target": "Marek keeps giving the rest of us orders ___ the manager of the café.",
+    "correct": [
+      "as if he were",
+      "as though he were",
+      "just as if he were",
+      "just as though he were"
+    ],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "isn't the manager, but…: porównujesz jego zachowanie do sytuacji, która nie jest prawdą."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "as if / as though + forma przeszła = jakby (a wcale tak nie jest). Przy be staranna forma to were dla każdej osoby."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "as if he were albo as though he were (4 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Słowo klucz WERE wymusza formę nierealną, więc as if he is i as if he was odpadają. like he was to luźna mowa i też nie ma w niej WERE."
+      }
+    ],
+    "tags": ["subjunctive-formal"],
+    "difficulty": 2
+  },
+  {
+    "id": "subj-grandma-hug",
+    "type": "gap-fill",
+    "sentence": "When I told Grandma I had failed my driving test, she hugged me ___ (as / I / be) still a little child.",
+    "correct": ["as if I were", "as though I were", "as if I was", "as though I was"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Zdawałeś na prawo jazdy, więc nie jesteś małym dzieckiem. Babcia zachowuje się tak, jakby było inaczej."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "as if / as though + forma przeszła pokazuje, że porównanie jest nierealne. Przytulanie i „bycie dzieckiem” dzieją się w tym samym czasie, więc wystarczy Past Simple, bez had."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "as if I were (staranniej) albo as if I was (luźniej). Zamiast if może stać though."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Samo as I was znaczyłoby „bo byłem jeszcze dzieckiem”, a to inny sens. Do as musisz dodać if albo though."
+      }
+    ],
+    "tags": ["subjunctive-formal"],
+    "difficulty": 2
+  },
+  {
+    "id": "subj-clean-flat",
+    "type": "choice",
+    "text": "The flat was so clean and empty when we moved in that it looked as if nobody ___ there for years.",
+    "gaps": [
+      {
+        "options": ["had lived", "has lived", "lives", "would live"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "was, moved in i looked to przeszłość. „Nikt tu nie mieszkał” dotyczy okresu jeszcze przed wprowadzką."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "as if + coś wcześniejszego niż chwila w opowieści → Past Perfect: had lived."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "has lived i lives nie pasują do opowieści o przeszłości. would live mówiłoby o czymś późniejszym, a tu chodzi o lata przed wprowadzką."
+          }
+        ]
+      }
+    ],
+    "tags": ["subjunctive-formal", "past-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "subj-brother-bike",
+    "type": "gap-fill",
+    "sentence": "My little brother keeps borrowing my bike without asking. I ___ (rather / he / ask) me first.",
+    "correct": ["would rather he asked"],
+    "accepted": ["'d rather he asked"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "keeps borrowing without asking: denerwuje cię zachowanie kogoś innego. Mówisz, co wolałbyś teraz i na przyszłość."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "would rather + inna osoba + Past Simple. Forma przeszła nie znaczy tu przeszłości, tylko „to moje życzenie, a nie fakt”."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "would rather he asked (4 wyrazy). he zostaje podmiotem, ask zmienia się w asked."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "would rather him to ask to pomieszanie z prefer (I'd prefer him to ask). would rather he asks ma czas teraźniejszy, a tu potrzebna forma przeszła."
+      }
+    ],
+    "tags": ["subjunctive-formal"],
+    "difficulty": 2
+  },
+  {
+    "id": "subj-train-gdansk",
+    "type": "choice",
+    "text": "I'd rather ___ the train than drive all the way to Gdańsk in this snow.",
+    "gaps": [
+      {
+        "options": ["take", "to take", "taking", "took"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "I'd rather, a jechać będę ja sam: po rather nie ma nowej osoby."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "would rather + V1 bez to: take. Druga część po than też ma V1 (than drive)."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "took pasuje tylko z nową osobą (I'd rather you took the train). to take i taking to wzorce po prefer, nie po rather."
+          }
+        ]
+      }
+    ],
+    "tags": ["subjunctive-formal"],
+    "difficulty": 1
+  },
+  {
+    "id": "subj-kwt-new-job",
+    "type": "key-word-transformation",
+    "source": "You told everyone about my new job, but I didn't want you to.",
+    "keyWord": "RATHER",
+    "target": "I'd ___ anyone about my new job.",
+    "correct": ["rather you had not told"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "You told everyone: to już się stało. I didn't want you to: wolałbyś, żeby było inaczej."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "would rather + inna osoba + Past Perfect, gdy chodzi o coś, co już się stało (jak po wish). 'd w I'd to tu would, więc go nie powtarzasz."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "rather you had not told (hadn't told): 5 wyrazów razem z RATHER. Przeczenie, bo w rzeczywistości powiedziałeś."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "rather you did not tell mówi o teraz albo o przyszłości, a sprawa jest już zamknięta. rather you not to tell to pomieszanie z prefer."
+      }
+    ],
+    "tags": ["subjunctive-formal", "past-perfect"],
+    "difficulty": 3
+  },
+  {
+    "id": "subj-homework-copy",
+    "type": "gap-fill",
+    "sentence": "Mr Kowalski checks every answer really carefully, so you ___ (better / not / copy) your homework from the internet.",
+    "correct": ["had better not copy"],
+    "accepted": ["'d better not copy"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Nauczyciel wszystko sprawdza: to ostrzeżenie w konkretnej sytuacji, z ukrytym „bo inaczej będą kłopoty”."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "had better + V1 bez to. Choć jest had, mówisz o teraz i o przyszłości. Przeczenie stoi po better."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had better not copy (4 wyrazy) albo 'd better not copy."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "had better not to copy to błąd, a hadn't better copy spotyka się rzadko, więc go nie używaj. Samo better bez had to bardzo luźna mowa: w zadaniu i w wypracowaniu pisz had albo 'd."
+      }
+    ],
+    "tags": ["subjunctive-formal", "modal-verbs"],
+    "difficulty": 1
+  },
+  {
+    "id": "subj-secret-apologise",
+    "type": "choice",
+    "text": "You told Ola's secret to the whole class? You'd ___ apologise to her before she hears about it from someone else.",
+    "gaps": [
+      {
+        "options": ["better", "rather", "prefer", "should"],
+        "answer": 0,
+        "steps": [
+          {
+            "label_pl": "sygnał",
+            "text_pl": "before she hears about it from someone else: pilna rada z ostrzeżeniem w tle, zrób to, zanim będzie gorzej."
+          },
+          {
+            "label_pl": "forma",
+            "text_pl": "Rada na konkretną sytuację → had better + V1. 'd to tu had: You'd better apologise."
+          },
+          {
+            "label_pl": "pułapka",
+            "text_pl": "You'd rather = ty wolałbyś, czyli mówi o twoich chęciach, a nie daje rady. Po prefer potrzebne jest to, a should nie łączy się ze skrótem 'd."
+          }
+        ]
+      }
+    ],
+    "tags": ["subjunctive-formal", "modal-verbs"],
+    "difficulty": 2
+  },
+  {
+    "id": "subj-cctv-insisted",
+    "type": "gap-fill",
+    "sentence": "Although the CCTV footage showed him near the shop, Adam insisted that he ___ (be) at home all evening.",
+    "correct": ["had been", "was"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Although the CCTV footage showed him…: Adam się broni. insist znaczy tu „upierać się, że tak było”, a nie „nalegać, żeby…”."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "insist + twierdzenie o fakcie → zwykły czas, jak w mowie zależnej. Tryb łączący (that + V1) stoi tylko przy żądaniu."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Wieczór był wcześniej niż jego zapewnienia → had been. Samo was też jest poprawne, bo kolejność widać z kontekstu."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "he be at home znaczyłoby, że Adam żąda, żeby był w domu, a to nie ma tu sensu. is nie pasuje do opowieści w przeszłości."
+      }
+    ],
+    "tags": ["subjunctive-formal", "reported-speech", "past-perfect"],
+    "difficulty": 3
+  },
+  {
+    "id": "subj-proposal-lessons",
+    "type": "gap-fill",
+    "sentence": "The head teacher has finally accepted the student council's ___ (proposal / lessons / start) half an hour later in winter.",
+    "correct": [
+      "proposal that lessons start",
+      "proposal that lessons should start",
+      "proposal for lessons to start",
+      "proposal that the lessons start"
+    ],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "proposal = propozycja, czyli coś, co ma się dopiero stać. Po rzeczownikach proposal, suggestion, demand i recommendation działa ten sam mechanizm co po czasownikach."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "proposal + that + podmiot + V1 (albo should + V1). Druga możliwość: proposal for + ktoś + to + V1."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "proposal that lessons start, proposal that lessons should start albo proposal for lessons to start. Każda wersja ma najwyżej 5 wyrazów."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "proposal lessons to start nie działa: między rzeczownikiem a nowym podmiotem musi stać that albo for. will start nie pasuje, bo to propozycja, a nie przewidywanie."
+      }
+    ],
+    "tags": ["subjunctive-formal"],
+    "difficulty": 3
+  },
+  {
+    "id": "subj-airline-position",
+    "type": "gap-fill",
+    "sentence": "Your flight was cancelled and nobody offered you a hotel? ___ (I / be / your / position), I would contact the airline and ask for compensation.",
+    "correct": ["If I were in your position", "If I was in your position"],
+    "maxWords": 6,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "I would contact…: dajesz radę. Nie jesteś w sytuacji tej osoby, więc warunek jest nierealny."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "If + forma przeszła, would + V1. Przy be staranna forma to were dla każdej osoby. Do position potrzebny jest przyimek: in your position."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "If I were in your position (6 wyrazów). W luźnym stylu też If I was, ale w liście i w wypracowaniu pisz were."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "If I am in your position robi z tego warunek realny, a If I would be wstawia would do części z if. Bez in (If I were your position) zdanie traci sens."
+      }
+    ],
+    "tags": ["subjunctive-formal", "conditionals"],
+    "difficulty": 2,
+    "accepted": ["Were I in your position"]
+  }
+]
