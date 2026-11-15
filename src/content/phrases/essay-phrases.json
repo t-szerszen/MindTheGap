@@ -1,0 +1,535 @@
+{
+  "id": "essay-phrases",
+  "category": "essay-phrases",
+  "title_pl": "Zwroty do rozprawki",
+  "items": [
+    {
+      "en": "in recent years",
+      "pl": "w ostatnich latach",
+      "meaning_pl": "dobry początek wstępu; zwykle z present perfect, bo chodzi o zmianę, która trwa do dziś",
+      "example": {
+        "en": "In recent years, online shopping has become part of everyday life.",
+        "pl": "W ostatnich latach zakupy w internecie stały się częścią codziennego życia."
+      },
+      "register": "neutral",
+      "tags": ["wstęp"]
+    },
+    {
+      "en": "a growing number of",
+      "pl": "coraz więcej",
+      "meaning_pl": "po nim rzeczownik w liczbie mnogiej, a czasownik zwykle też w mnogiej: a growing number of people are…",
+      "example": {
+        "en": "A growing number of teenagers are choosing to study abroad.",
+        "pl": "Coraz więcej nastolatków decyduje się na studia za granicą."
+      },
+      "register": "formal",
+      "tags": ["wstęp"]
+    },
+    {
+      "en": "the subject of heated debate",
+      "pl": "przedmiot gorących dyskusji",
+      "meaning_pl": "pokazuje, że temat jest sporny; dobre przejście do tezy w rozprawce za i przeciw",
+      "example": {
+        "en": "Homework has long been the subject of heated debate among parents and teachers.",
+        "pl": "Prace domowe od dawna są przedmiotem gorących dyskusji wśród rodziców i nauczycieli."
+      },
+      "register": "formal",
+      "tags": ["wstęp"]
+    },
+    {
+      "en": "both advantages and disadvantages",
+      "pl": "zarówno zalety, jak i wady",
+      "meaning_pl": "najprostsza teza w rozprawce za i przeciw: od razu zapowiada obie strony",
+      "example": {
+        "en": "Like most new ideas, a four-day school week has both advantages and disadvantages.",
+        "pl": "Jak większość nowych pomysłów, czterodniowy tydzień szkolny ma zarówno zalety, jak i wady."
+      },
+      "register": "neutral",
+      "tags": ["wstęp"]
+    },
+    {
+      "en": "it is often argued that",
+      "pl": "często twierdzi się, że",
+      "meaning_pl": "przytaczasz cudzy pogląd; w rozprawce z opinią po nim musi przyjść twoje stanowisko, bo sama cudza opinia nie jest tezą",
+      "example": {
+        "en": "It is often argued that school uniforms reduce the pressure on students to wear expensive clothes.",
+        "pl": "Często twierdzi się, że mundurki szkolne zmniejszają presję na uczniów, by nosili drogie ubrania."
+      },
+      "register": "formal",
+      "tags": ["wstęp"]
+    },
+    {
+      "en": "this essay will discuss",
+      "pl": "w tej rozprawce omówię",
+      "meaning_pl": "zapowiada strukturę tylko wtedy, gdy dopiszesz, co dokładnie omówisz, np. obie strony",
+      "example": {
+        "en": "This essay will discuss both the benefits and the risks of working while still at school.",
+        "pl": "W tej rozprawce omówię zarówno korzyści, jak i zagrożenia związane z pracą w czasie nauki w szkole."
+      },
+      "register": "formal",
+      "tags": ["wstęp"]
+    },
+    {
+      "en": "in my view",
+      "pl": "moim zdaniem",
+      "meaning_pl": "brzmi poważniej niż I think; na początku zdania po nim przecinek",
+      "example": {
+        "en": "In my view, schools should teach young people how to manage money.",
+        "pl": "Moim zdaniem szkoły powinny uczyć młodych ludzi zarządzania pieniędzmi."
+      },
+      "register": "neutral",
+      "tags": ["opinia"]
+    },
+    {
+      "en": "I firmly believe that",
+      "pl": "jestem głęboko przekonany, że",
+      "meaning_pl": "mocne stanowisko; dobre do tezy w rozprawce z opinią",
+      "example": {
+        "en": "I firmly believe that every student should learn first aid.",
+        "pl": "Jestem głęboko przekonany, że każdy uczeń powinien nauczyć się pierwszej pomocy."
+      },
+      "register": "formal",
+      "tags": ["opinia"]
+    },
+    {
+      "en": "as far as I am concerned",
+      "pl": "jeśli o mnie chodzi",
+      "meaning_pl": "uwaga na formę: as far as I am concerned, nie as far as I concern",
+      "example": {
+        "en": "As far as I am concerned, a gap year is a valuable experience.",
+        "pl": "Jeśli o mnie chodzi, rok przerwy to cenne doświadczenie."
+      },
+      "register": "neutral",
+      "tags": ["opinia"]
+    },
+    {
+      "en": "it seems to me that",
+      "pl": "wydaje mi się, że",
+      "meaning_pl": "łagodniejsza opinia, gdy nie chcesz brzmieć zbyt kategorycznie",
+      "example": {
+        "en": "It seems to me that many teenagers spend more time online than they realise.",
+        "pl": "Wydaje mi się, że wielu nastolatków spędza w internecie więcej czasu, niż zdaje sobie z tego sprawę."
+      },
+      "register": "neutral",
+      "tags": ["opinia"]
+    },
+    {
+      "en": "I am in favour of",
+      "pl": "jestem za",
+      "meaning_pl": "po of rzeczownik albo forma -ing; brytyjska pisownia favour",
+      "example": {
+        "en": "I am in favour of giving students more choice of subjects.",
+        "pl": "Jestem za tym, żeby dać uczniom większy wybór przedmiotów."
+      },
+      "register": "neutral",
+      "tags": ["opinia"]
+    },
+    {
+      "en": "I am strongly opposed to",
+      "pl": "jestem zdecydowanie przeciwny",
+      "meaning_pl": "to jest tu przyimkiem, więc po nim rzeczownik albo -ing: opposed to banning, nie opposed to ban",
+      "example": {
+        "en": "I am strongly opposed to banning phones during breaks.",
+        "pl": "Jestem zdecydowanie przeciwny zakazowi telefonów na przerwach."
+      },
+      "register": "formal",
+      "tags": ["opinia"]
+    },
+    {
+      "en": "there is no doubt that",
+      "pl": "nie ma wątpliwości, że",
+      "meaning_pl": "podkreśla pewność; używaj przy faktach, a nie przy spornych opiniach",
+      "example": {
+        "en": "There is no doubt that regular exercise improves mood.",
+        "pl": "Nie ma wątpliwości, że regularny ruch poprawia nastrój."
+      },
+      "register": "neutral",
+      "tags": ["opinia"]
+    },
+    {
+      "en": "what is more",
+      "pl": "co więcej",
+      "meaning_pl": "dokładasz mocniejszy argument; w rozprawce pełna forma, nie what's more",
+      "example": {
+        "en": "The new library is closer to the school. What is more, it stays open until late in the evening.",
+        "pl": "Nowa biblioteka jest bliżej szkoły. Co więcej, jest otwarta do późnego wieczora."
+      },
+      "register": "neutral",
+      "tags": ["dodawanie"]
+    },
+    {
+      "en": "furthermore",
+      "pl": "ponadto",
+      "meaning_pl": "formalne dodanie kolejnego argumentu na początku zdania, po nim przecinek",
+      "example": {
+        "en": "Cycling to school is cheap. Furthermore, it helps students stay fit.",
+        "pl": "Jazda rowerem do szkoły jest tania. Ponadto pomaga uczniom utrzymać formę."
+      },
+      "register": "formal",
+      "tags": ["dodawanie"]
+    },
+    {
+      "en": "not only",
+      "pl": "nie tylko",
+      "meaning_pl": "na początku zdania wymaga inwersji: Not only does it…, but it also…",
+      "example": {
+        "en": "Not only does volunteering help others, but it also builds confidence.",
+        "pl": "Wolontariat nie tylko pomaga innym, ale też buduje pewność siebie."
+      },
+      "register": "formal",
+      "tags": ["dodawanie"]
+    },
+    {
+      "en": "another advantage is that",
+      "pl": "kolejną zaletą jest to, że",
+      "meaning_pl": "prosty sposób, żeby zacząć drugi aspekt w akapicie; tak samo another drawback is that",
+      "example": {
+        "en": "Another advantage is that students can learn at their own pace.",
+        "pl": "Kolejną zaletą jest to, że uczniowie mogą uczyć się we własnym tempie."
+      },
+      "register": "neutral",
+      "tags": ["dodawanie"]
+    },
+    {
+      "en": "equally important is",
+      "pl": "równie ważne jest",
+      "meaning_pl": "szyk przestawny: najpierw equally important is, potem to, co jest ważne",
+      "example": {
+        "en": "Equally important is the chance to meet people from other countries.",
+        "pl": "Równie ważna jest możliwość poznania ludzi z innych krajów."
+      },
+      "register": "formal",
+      "tags": ["dodawanie"]
+    },
+    {
+      "en": "apart from that",
+      "pl": "poza tym",
+      "meaning_pl": "dodajesz coś z innej strony; mniej formalne niż furthermore",
+      "example": {
+        "en": "The course is expensive. Apart from that, it takes place far from the city centre.",
+        "pl": "Kurs jest drogi. Poza tym odbywa się daleko od centrum."
+      },
+      "register": "neutral",
+      "tags": ["dodawanie"]
+    },
+    {
+      "en": "on top of that",
+      "pl": "na dodatek",
+      "meaning_pl": "dość potoczne: w artykule może być, w rozprawce lepiej what is more",
+      "example": {
+        "en": "The train was late, and on top of that, it was overcrowded.",
+        "pl": "Pociąg się spóźnił, a na dodatek był przepełniony."
+      },
+      "register": "informal",
+      "tags": ["dodawanie"]
+    },
+    {
+      "en": "nevertheless",
+      "pl": "mimo to, niemniej jednak",
+      "meaning_pl": "kontrast do całego poprzedniego zdania; formalniejsze niż but",
+      "example": {
+        "en": "The plan is expensive. Nevertheless, many residents support it.",
+        "pl": "Plan jest drogi. Mimo to wielu mieszkańców go popiera."
+      },
+      "register": "formal",
+      "tags": ["kontrast"]
+    },
+    {
+      "en": "even though",
+      "pl": "mimo że",
+      "meaning_pl": "mocniejsze niż although; po nim pełne zdanie",
+      "example": {
+        "en": "Even though the tickets were expensive, the concert sold out in a day.",
+        "pl": "Mimo że bilety były drogie, koncert wyprzedał się w jeden dzień."
+      },
+      "register": "neutral",
+      "tags": ["kontrast"]
+    },
+    {
+      "en": "in spite of the fact that",
+      "pl": "pomimo tego, że",
+      "meaning_pl": "po in spite of albo despite pełne zdanie może przyjść tylko z the fact that",
+      "example": {
+        "en": "In spite of the fact that it was raining, the match went ahead.",
+        "pl": "Pomimo tego, że padało, mecz się odbył."
+      },
+      "register": "formal",
+      "tags": ["kontrast"]
+    },
+    {
+      "en": "while it is true that",
+      "pl": "choć prawdą jest, że",
+      "meaning_pl": "przyznajesz rację drugiej stronie, a w tym samym zdaniu stawiasz swój argument",
+      "example": {
+        "en": "While it is true that online lessons save time, they make it harder to ask questions.",
+        "pl": "Choć prawdą jest, że lekcje online oszczędzają czas, utrudniają zadawanie pytań."
+      },
+      "register": "formal",
+      "tags": ["kontrast"]
+    },
+    {
+      "en": "on the contrary",
+      "pl": "wręcz przeciwnie",
+      "meaning_pl": "zaprzecza temu, co padło przed chwilą; to nie jest on the other hand (z drugiej strony)",
+      "example": {
+        "en": "The ban did not make breaks boring. On the contrary, students started talking to each other more.",
+        "pl": "Zakaz nie sprawił, że przerwy stały się nudne. Wręcz przeciwnie, uczniowie zaczęli więcej ze sobą rozmawiać."
+      },
+      "register": "neutral",
+      "tags": ["kontrast"]
+    },
+    {
+      "en": "whereas",
+      "pl": "podczas gdy, natomiast",
+      "meaning_pl": "zestawia dwa różne fakty w jednym zdaniu",
+      "example": {
+        "en": "Some students work to pay for their hobbies, whereas others need the money to help their families.",
+        "pl": "Niektórzy uczniowie pracują, żeby opłacić swoje hobby, natomiast inni potrzebują pieniędzy, żeby pomóc rodzinie."
+      },
+      "register": "formal",
+      "tags": ["kontrast"]
+    },
+    {
+      "en": "admittedly",
+      "pl": "trzeba przyznać, że",
+      "meaning_pl": "przyznajesz, że druga strona ma trochę racji, zanim ją odeprzesz",
+      "example": {
+        "en": "Admittedly, fitness trackers can motivate people to move more.",
+        "pl": "Trzeba przyznać, że opaski sportowe mogą motywować do większego ruchu."
+      },
+      "register": "formal",
+      "tags": ["kontrast"]
+    },
+    {
+      "en": "because of",
+      "pl": "z powodu, przez",
+      "meaning_pl": "po because of rzeczownik, a po samym because pełne zdanie",
+      "example": {
+        "en": "Many flights were cancelled because of the storm.",
+        "pl": "Wiele lotów odwołano z powodu burzy."
+      },
+      "register": "neutral",
+      "tags": ["przyczyna"]
+    },
+    {
+      "en": "owing to",
+      "pl": "z powodu, ze względu na",
+      "meaning_pl": "formalne; po nim rzeczownik, tak jak po due to",
+      "example": {
+        "en": "Owing to the heavy traffic, the bus arrived twenty minutes late.",
+        "pl": "Z powodu dużego ruchu autobus spóźnił się dwadzieścia minut."
+      },
+      "register": "formal",
+      "tags": ["przyczyna"]
+    },
+    {
+      "en": "the main reason for this is that",
+      "pl": "głównym powodem jest to, że",
+      "meaning_pl": "wyjaśniasz przyczynę tego, co padło w poprzednim zdaniu; po the reason (for this) is w formalnym tekście dajesz that, nie because, za to this is because… jest poprawne",
+      "example": {
+        "en": "Many students live with their parents while studying. The main reason for this is that renting a flat is expensive.",
+        "pl": "Wielu studentów mieszka z rodzicami w czasie studiów. Głównym powodem jest to, że wynajem mieszkania jest drogi."
+      },
+      "register": "neutral",
+      "tags": ["przyczyna"]
+    },
+    {
+      "en": "this is largely because",
+      "pl": "wynika to głównie z tego, że",
+      "meaning_pl": "po because pełne zdanie z przyczyną",
+      "example": {
+        "en": "Many teenagers skip breakfast. This is largely because they get up at the last minute.",
+        "pl": "Wielu nastolatków nie je śniadania. Wynika to głównie z tego, że wstają w ostatniej chwili."
+      },
+      "register": "neutral",
+      "tags": ["przyczyna"]
+    },
+    {
+      "en": "for instance",
+      "pl": "na przykład",
+      "meaning_pl": "to samo co for example; na początku zdania po nim przecinek",
+      "example": {
+        "en": "Some jobs teach useful skills. For instance, working in a shop teaches you how to deal with customers.",
+        "pl": "Niektóre prace uczą przydatnych umiejętności. Na przykład praca w sklepie uczy, jak radzić sobie z klientami."
+      },
+      "register": "neutral",
+      "tags": ["przykład"]
+    },
+    {
+      "en": "such as",
+      "pl": "taki jak",
+      "meaning_pl": "po nim rzeczowniki, nie całe zdanie",
+      "example": {
+        "en": "Outdoor activities such as hiking or cycling are good for both body and mind.",
+        "pl": "Zajęcia na świeżym powietrzu, takie jak wędrówki czy jazda na rowerze, są dobre i dla ciała, i dla umysłu."
+      },
+      "register": "neutral",
+      "tags": ["przykład"]
+    },
+    {
+      "en": "a good example of this is",
+      "pl": "dobrym przykładem jest",
+      "meaning_pl": "przykład zaraz po argumencie zamienia ogólnik w konkret",
+      "example": {
+        "en": "Technology can make learning easier. A good example of this is a language app that reminds you to practise every day.",
+        "pl": "Technologia może ułatwiać naukę. Dobrym przykładem jest aplikacja językowa, która codziennie przypomina o ćwiczeniu."
+      },
+      "register": "neutral",
+      "tags": ["przykład"]
+    },
+    {
+      "en": "to illustrate this",
+      "pl": "dla przykładu",
+      "meaning_pl": "formalne wprowadzenie dłuższego przykładu",
+      "example": {
+        "en": "Working long hours can harm students' results at school. To illustrate this, consider a student who works twenty hours a week: they have hardly any time left for homework.",
+        "pl": "Praca przez wiele godzin może szkodzić wynikom uczniów w szkole. Dla przykładu weźmy ucznia, który pracuje dwadzieścia godzin w tygodniu: prawie nie ma już czasu na prace domowe."
+      },
+      "register": "formal",
+      "tags": ["przykład"]
+    },
+    {
+      "en": "particularly true of",
+      "pl": "dotyczy to szczególnie",
+      "meaning_pl": "zawęża argument do jednej grupy; zwykle This is particularly true of + rzeczownik",
+      "example": {
+        "en": "Sleep is essential for learning. This is particularly true of students preparing for exams.",
+        "pl": "Sen jest niezbędny do nauki. Dotyczy to szczególnie uczniów, którzy przygotowują się do egzaminów."
+      },
+      "register": "formal",
+      "tags": ["przykład"]
+    },
+    {
+      "en": "consequently",
+      "pl": "w konsekwencji",
+      "meaning_pl": "formalny odpowiednik so na początku zdania",
+      "example": {
+        "en": "The factory closed down. Consequently, many people lost their jobs.",
+        "pl": "Fabrykę zamknięto. W konsekwencji wiele osób straciło pracę."
+      },
+      "register": "formal",
+      "tags": ["skutek"]
+    },
+    {
+      "en": "this means that",
+      "pl": "to oznacza, że",
+      "meaning_pl": "tłumaczysz, co wynika z poprzedniego zdania",
+      "example": {
+        "en": "Most lessons are recorded. This means that students can watch them again before a test.",
+        "pl": "Większość lekcji jest nagrywana. To oznacza, że uczniowie mogą je obejrzeć jeszcze raz przed sprawdzianem."
+      },
+      "register": "neutral",
+      "tags": ["skutek"]
+    },
+    {
+      "en": "lead to",
+      "pl": "prowadzić do",
+      "meaning_pl": "to jest tu przyimkiem: po nim rzeczownik albo -ing, nie bezokolicznik (lead to losing, nie lead to lose); za to lead someone to do something (skłonić kogoś do czegoś) jest poprawne, np. This led me to change my mind",
+      "example": {
+        "en": "Too much screen time can lead to poor sleep.",
+        "pl": "Zbyt dużo czasu przed ekranem może prowadzić do złego snu."
+      },
+      "register": "neutral",
+      "tags": ["skutek"]
+    },
+    {
+      "en": "result in",
+      "pl": "skutkować",
+      "meaning_pl": "result in = skutek, a result from = przyczyna (wynikać z)",
+      "example": {
+        "en": "A total ban could result in students hiding their phones instead of switching them off.",
+        "pl": "Całkowity zakaz mógłby skutkować tym, że uczniowie chowaliby telefony, zamiast je wyłączać."
+      },
+      "register": "formal",
+      "tags": ["skutek"]
+    },
+    {
+      "en": "have a significant impact on",
+      "pl": "mieć znaczący wpływ na",
+      "meaning_pl": "impact on, nie impact for; dobra zamiana na wciąż powtarzane affect",
+      "example": {
+        "en": "Part-time jobs can have a significant impact on students' grades.",
+        "pl": "Praca dorywcza może mieć znaczący wpływ na oceny uczniów."
+      },
+      "register": "formal",
+      "tags": ["skutek"]
+    },
+    {
+      "en": "for this reason",
+      "pl": "z tego powodu",
+      "meaning_pl": "skutek tego, co padło w poprzednim zdaniu",
+      "example": {
+        "en": "Public transport in small towns is often limited. For this reason, many families need two cars.",
+        "pl": "Komunikacja w małych miastach jest często ograniczona. Z tego powodu wiele rodzin potrzebuje dwóch samochodów."
+      },
+      "register": "neutral",
+      "tags": ["skutek"]
+    },
+    {
+      "en": "all in all",
+      "pl": "podsumowując, ogólnie rzecz biorąc",
+      "meaning_pl": "neutralny początek zakończenia; dalej musi przyjść wniosek",
+      "example": {
+        "en": "All in all, the benefits of the project clearly outweigh its costs.",
+        "pl": "Podsumowując, korzyści z projektu wyraźnie przewyższają jego koszty."
+      },
+      "register": "neutral",
+      "tags": ["podsumowanie"]
+    },
+    {
+      "en": "in conclusion",
+      "pl": "na zakończenie, podsumowując",
+      "meaning_pl": "formalne otwarcie zakończenia; samo nie wystarczy, bo po nim ma być wniosek, a nie kopia wstępu",
+      "example": {
+        "en": "In conclusion, a four-day school week would bring more problems than benefits.",
+        "pl": "Podsumowując, czterodniowy tydzień szkolny przyniósłby więcej problemów niż korzyści."
+      },
+      "register": "formal",
+      "tags": ["podsumowanie"]
+    },
+    {
+      "en": "taking everything into consideration",
+      "pl": "biorąc wszystko pod uwagę",
+      "meaning_pl": "pokazuje, że wniosek wynika z obu stron; pasuje do rozprawki za i przeciw",
+      "example": {
+        "en": "Taking everything into consideration, I believe the new rules are fair.",
+        "pl": "Biorąc wszystko pod uwagę, uważam, że nowe zasady są sprawiedliwe."
+      },
+      "register": "formal",
+      "tags": ["podsumowanie"]
+    },
+    {
+      "en": "on balance",
+      "pl": "po rozważeniu wszystkich za i przeciw",
+      "meaning_pl": "wniosek po zważeniu argumentów; po nim zwykle twoja ocena",
+      "example": {
+        "en": "On balance, studying abroad is worth the effort.",
+        "pl": "Po rozważeniu wszystkich za i przeciw studia za granicą są warte wysiłku."
+      },
+      "register": "formal",
+      "tags": ["podsumowanie"]
+    },
+    {
+      "en": "outweigh",
+      "pl": "przeważać nad",
+      "meaning_pl": "bez przyimka: the advantages outweigh the disadvantages, nie outweigh over",
+      "example": {
+        "en": "In my opinion, the advantages of remote work outweigh the disadvantages.",
+        "pl": "Moim zdaniem zalety pracy zdalnej przeważają nad wadami."
+      },
+      "register": "neutral",
+      "tags": ["podsumowanie"]
+    },
+    {
+      "en": "for all these reasons",
+      "pl": "z tych wszystkich powodów",
+      "meaning_pl": "zbiera argumenty z rozwinięcia przed wnioskiem; dobre w rozprawce z opinią",
+      "example": {
+        "en": "For all these reasons, I am convinced that cities should invest in cycle lanes.",
+        "pl": "Z tych wszystkich powodów jestem przekonany, że miasta powinny inwestować w ścieżki rowerowe."
+      },
+      "register": "neutral",
+      "tags": ["podsumowanie"]
+    }
+  ]
+}
