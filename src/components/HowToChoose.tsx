@@ -1,22 +1,30 @@
-import { useState } from 'react'
-import { Button } from '../../components/Controls'
-import { Doodle } from '../../components/Ink'
-import { pl } from '../../i18n/pl'
+import { useState, type ReactNode } from 'react'
+import { pl } from '../i18n/pl'
+import { Button } from './Controls'
+import { Doodle } from './Ink'
 
-type Step = { step_pl: string; text_pl: string }
+type Step = { key: string; text: ReactNode }
 
-// kroki pojawiają się po kolei, jakby ktoś je dopisywał na kartce
-export function HowToChoose({ steps }: { steps: Step[] }) {
+// kroki pojawiają się po kolei, jakby ktoś je dopisywał na kartce (czasy i gramatyka)
+export function HowToChoose({
+  title,
+  hint,
+  steps,
+}: {
+  title: string
+  hint: string
+  steps: Step[]
+}) {
   const [shown, setShown] = useState(1)
   const t = pl.tenses
   const done = shown >= steps.length
   return (
     <section className="sk alt tsec choose" aria-labelledby="choose-h">
       <h2 id="choose-h" className="h-m">
-        {t.choose}
+        {title}
       </h2>
       <p className="note ink" style={{ fontSize: 14 }}>
-        {t.chooseHint}
+        {hint}
       </p>
       <ol className="steps" style={{ marginTop: 6 }} aria-live="polite">
         {steps.map((s, i) => {
@@ -27,8 +35,8 @@ export function HowToChoose({ steps }: { steps: Step[] }) {
               <div className={`step ${on ? 'on' : 'ghost'}`}>
                 <span className="step-n">{i + 1}</span>
                 <span>
-                  <span className="step-k">{s.step_pl}</span>
-                  <span className="step-t">{on ? s.text_pl : '…'}</span>
+                  <span className="step-k">{s.key}</span>
+                  <span className="step-t">{on ? s.text : '…'}</span>
                 </span>
               </div>
             </li>

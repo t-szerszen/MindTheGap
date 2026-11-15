@@ -1,6 +1,7 @@
 import { Suspense } from 'react'
 import { Link, useParams } from 'react-router'
 import { FormulaParts } from '../../components/Formula'
+import { HowToChoose } from '../../components/HowToChoose'
 import { Doodle, Scribble } from '../../components/Ink'
 import { Icon } from '../../components/Icon'
 import { Card, Sticky, type Tilt } from '../../components/Paper'
@@ -11,7 +12,6 @@ import { getTense, getTenses, useExercises } from '../../lib/content'
 import { signalPhrases } from '../../lib/text/signals'
 import { ExampleLine } from './ExampleLine'
 import { FormsSection } from './FormsSection'
-import { HowToChoose } from './HowToChoose'
 import { TenseTabs } from './TenseTabs'
 
 const tilts: Tilt[] = [-1, 1, 0, -2, 2]
@@ -92,7 +92,12 @@ export function TensePage() {
             </dl>
           </section>
 
-          <HowToChoose key={tense.id} steps={tense.howToChoose} />
+          <HowToChoose
+            key={tense.id}
+            title={t.choose}
+            hint={t.chooseHint}
+            steps={tense.howToChoose.map((s) => ({ key: s.step_pl, text: s.text_pl }))}
+          />
 
           {tense.modals && (
             <section className="tsec" aria-labelledby="modal-h">
