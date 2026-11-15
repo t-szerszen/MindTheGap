@@ -1,0 +1,205 @@
+{
+  "id": "phrasal-put",
+  "category": "phrasal-verbs",
+  "title_pl": "Phrasal verbs z put",
+  "items": [
+    {
+      "en": "put sth off / put off sth",
+      "pl": "odkładać coś na później, przełożyć",
+      "meaning_pl": "przesuwasz coś na później, często dlatego, że ci się nie chce. Po nim -ing: put off doing sth. Rzeczownik może stać przed albo po off, ale zaimek tylko w środku: put it off, nigdy *put off it",
+      "example": {
+        "en": "Don't put off revising until the last week before the exam.",
+        "pl": "Nie odkładaj powtórek na ostatni tydzień przed egzaminem."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "czas", "plany"]
+    },
+    {
+      "en": "put sb off (sth / doing sth)",
+      "pl": "zniechęcić kogoś (do czegoś), odstraszyć",
+      "meaning_pl": "coś sprawia, że tracisz ochotę na coś albo kogoś. Osoba zwykle stoi między put a off: put me off, put him off. Pułapka: put sb off (zniechęcić) i put sth off (przełożyć) wyglądają tak samo, znaczenie zależy od dopełnienia",
+      "example": {
+        "en": "Don't let one bad mark put you off studying chemistry.",
+        "pl": "Nie pozwól, żeby jedna zła ocena zniechęciła cię do nauki chemii."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "emocje", "szkoła"]
+    },
+    {
+      "en": "put sth on / put on sth (clothes)",
+      "pl": "założyć, włożyć (ubranie)",
+      "meaning_pl": "to czynność ubierania się. Stan to wear: put on = zakładasz, wear = masz na sobie. Z zaimkiem: put it on. Przeciwieństwo: take sth off",
+      "example": {
+        "en": "Put your coat on, it's freezing outside.",
+        "pl": "Załóż płaszcz, na dworze jest lodowato."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "ubrania"]
+    },
+    {
+      "en": "put sth on / put on sth (device, music)",
+      "pl": "włączyć (urządzenie), puścić (muzykę, film)",
+      "meaning_pl": "w BrE codzienne 'włączyć' urządzenie albo puścić muzykę czy film, czyli to samo co turn on / switch on. Typowe: put the kettle on (nastawić wodę na herbatę). Z zaimkiem: put it on",
+      "example": {
+        "en": "I'll put the kettle on and we can talk over a cup of tea.",
+        "pl": "Nastawię wodę i pogadamy przy herbacie."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "dom", "technologia"]
+    },
+    {
+      "en": "put on weight",
+      "pl": "przytyć",
+      "meaning_pl": "dosł. 'nałożyć na siebie wagę'. Też z liczbą: put on two kilos. Da się powiedzieć put weight on, ale zwykle mówi się put on weight. Przeciwieństwo to lose weight, nie *put off weight",
+      "example": {
+        "en": "He put on a lot of weight after he stopped doing sport.",
+        "pl": "Bardzo przytył, kiedy przestał uprawiać sport."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "zdrowie"]
+    },
+    {
+      "en": "put sth out / put out sth",
+      "pl": "zgasić (ogień, świecę, papierosa)",
+      "meaning_pl": "sprawiasz, że coś przestaje się palić: put out a fire, a candle, a cigarette. Formalnie: extinguish. Z zaimkiem: put it out",
+      "example": {
+        "en": "It took the firefighters three hours to put the fire out.",
+        "pl": "Strażakom ugaszenie pożaru zajęło trzy godziny."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "środowisko", "wypadki"]
+    },
+    {
+      "en": "put sb up",
+      "pl": "przenocować kogoś, przyjąć kogoś do siebie",
+      "meaning_pl": "dajesz komuś nocleg u siebie w domu. Osoba stoi między put a up: put me up, put my cousin up. Nie myl z put up with (znosić)",
+      "example": {
+        "en": "My aunt can put us up for a few nights when we visit London.",
+        "pl": "Ciocia może nas przenocować przez kilka nocy, kiedy pojedziemy do Londynu."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "podróże", "dom"]
+    },
+    {
+      "en": "put sth up / put up sth (tent, poster)",
+      "pl": "rozbić (namiot), postawić, powiesić (plakat)",
+      "meaning_pl": "stawiasz coś pionowo albo wieszasz na ścianie: put up a tent, a fence, posters, shelves. Z zaimkiem: put it up. Przeciwieństwo: take sth down",
+      "example": {
+        "en": "It started raining just as we were putting up the tent.",
+        "pl": "Zaczęło padać akurat, kiedy rozbijaliśmy namiot."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "podróże", "dom"]
+    },
+    {
+      "en": "put sth up / put up sth (price)",
+      "pl": "podnieść (cenę, czynsz)",
+      "meaning_pl": "w BrE 'podwyższyć' ceny, czynsz albo opłaty: put up prices, put the rent up. Neutralnie też raise albo increase. Przeciwieństwo: bring sth down. Z zaimkiem: put it up",
+      "example": {
+        "en": "Our landlord is putting the rent up again in January.",
+        "pl": "Właściciel znowu podnosi nam czynsz w styczniu."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "zakupy", "pieniądze"]
+    },
+    {
+      "en": "put up with sb/sth",
+      "pl": "znosić, tolerować kogoś/coś",
+      "meaning_pl": "akceptujesz coś nieprzyjemnego, bo nie masz wyjścia. Trzy części i nic nie wchodzi do środka: put up with it, nigdy *put it up with. Podobnie: stand, tolerate",
+      "example": {
+        "en": "I don't know how you put up with all that noise from the building site.",
+        "pl": "Nie wiem, jak znosisz cały ten hałas z budowy."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "emocje", "dom"]
+    },
+    {
+      "en": "put sth down / put down sth",
+      "pl": "odłożyć, położyć (coś, co trzymasz)",
+      "meaning_pl": "kładziesz coś, co masz w ręce, np. na stół albo podłogę. Z zaimkiem: put it down. W BrE put the phone down = odłożyć słuchawkę, rozłączyć się",
+      "example": {
+        "en": "Put your pens down, please. The exam is over.",
+        "pl": "Odłóżcie, proszę, długopisy. Egzamin się skończył."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "szkoła"]
+    },
+    {
+      "en": "put sb down",
+      "pl": "poniżać kogoś, dogryzać komuś",
+      "meaning_pl": "krytykujesz kogoś tak, żeby poczuł się głupi albo gorszy. Osoba zwykle stoi między put a down: put her down, put people down",
+      "example": {
+        "en": "A good coach never puts players down in front of the whole team.",
+        "pl": "Dobry trener nigdy nie poniża zawodników przy całej drużynie."
+      },
+      "register": "informal",
+      "tags": ["rozdzielny", "relacje", "sport"]
+    },
+    {
+      "en": "put sth away / put away sth",
+      "pl": "schować, odłożyć na miejsce",
+      "meaning_pl": "chowasz coś tam, gdzie zwykle leży: do szafy, szuflady, na półkę. Z zaimkiem: put them away. Różnica: put down = położyć gdziekolwiek, put away = schować na swoje miejsce",
+      "example": {
+        "en": "Can you put the dishes away before Mum gets home?",
+        "pl": "Możesz pochować naczynia, zanim mama wróci?"
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "dom"]
+    },
+    {
+      "en": "put sth back / put back sth",
+      "pl": "odłożyć z powrotem, odstawić",
+      "meaning_pl": "kładziesz coś tam, skąd to wziąłeś. Z zaimkiem: put it back. W BrE też 'przesunąć na później', często z nową datą: The match was put back to Sunday",
+      "example": {
+        "en": "Please put the books back on the shelf when you've finished.",
+        "pl": "Odłóż, proszę, książki z powrotem na półkę, kiedy skończysz."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "dom", "szkoła"]
+    },
+    {
+      "en": "put sb through (to sb)",
+      "pl": "połączyć kogoś (telefonicznie) z kimś",
+      "meaning_pl": "ktoś przełącza twoją rozmowę do innej osoby albo działu, np. w firmie czy hotelu. Osoba zawsze między put a through: put me through, I'll put you through. Do kogo: to sb",
+      "example": {
+        "en": "Could you put me through to the sales department, please?",
+        "pl": "Czy mogłaby mnie pani połączyć z działem sprzedaży?"
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "telefon", "praca"]
+    },
+    {
+      "en": "put sth forward / put forward sth",
+      "pl": "przedstawić, zgłosić (pomysł, propozycję)",
+      "meaning_pl": "proponujesz coś do dyskusji: put forward an idea, a plan, a proposal. Pasuje do rozprawki i listu formalnego. Długie dopełnienie zwykle stoi po forward, zaimek w środku: put it forward",
+      "example": {
+        "en": "Several students put forward ideas for making our school greener.",
+        "pl": "Kilkoro uczniów przedstawiło pomysły, jak uczynić naszą szkołę bardziej ekologiczną."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "dyskusja", "rozprawka"]
+    },
+    {
+      "en": "put sth together / put together sth",
+      "pl": "złożyć, zmontować; przygotować",
+      "meaning_pl": "łączysz części w całość: mebel, model, rower. Przenośnie też przygotować coś z kilku elementów: put together a team, a plan, a presentation. Z zaimkiem: put it together",
+      "example": {
+        "en": "It took us all afternoon to put the new wardrobe together.",
+        "pl": "Złożenie nowej szafy zajęło nam całe popołudnie."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "dom", "praca"]
+    },
+    {
+      "en": "put sth aside / put aside sth",
+      "pl": "odkładać (pieniądze), oszczędzać na coś",
+      "meaning_pl": "odkładasz pieniądze albo czas na konkretny cel: put aside £20 a week. Przenośnie: put aside your differences = odłożyć spory na bok. Z zaimkiem: put it aside",
+      "example": {
+        "en": "I put aside part of my pocket money every month for a summer trip.",
+        "pl": "Co miesiąc odkładam część kieszonkowego na letni wyjazd."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "pieniądze"]
+    }
+  ]
+}

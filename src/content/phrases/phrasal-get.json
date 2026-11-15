@@ -1,0 +1,205 @@
+{
+  "id": "phrasal-get",
+  "category": "phrasal-verbs",
+  "title_pl": "Phrasal verbs z get",
+  "items": [
+    {
+      "en": "get up / get sb up",
+      "pl": "wstawać; budzić kogoś (i wyciągać z łóżka)",
+      "meaning_pl": "Bez dopełnienia: wstać z łóżka (samo przebudzenie to wake up). Z osobą: obudzić kogoś i postawić na nogi. Osoba idzie do środka: get the kids up, a zaimek zawsze w środku: get them up (nie: get up them)",
+      "example": {
+        "en": "I usually get up at six on school days, but my mum has to get my brother up because he never hears his alarm.",
+        "pl": "W dni szkolne zwykle wstaję o szóstej, ale mama musi budzić brata, bo nigdy nie słyszy budzika."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "codzienność"]
+    },
+    {
+      "en": "get on / get off sth (bus, train, plane, bike)",
+      "pl": "wsiadać do / wysiadać z (autobusu, pociągu, samolotu); wsiadać na / zsiadać z (roweru)",
+      "meaning_pl": "On, bo w autobusie czy pociągu możesz chodzić, jesteś 'na pokładzie', a na rowerze siedzisz na wierzchu. Nierozdzielny: get off the bus, get off it (nie: get the bus off). Może być bez dopełnienia: The bus stopped and we got on. Do samochodu mówimy get in / get out of",
+      "example": {
+        "en": "Get off the bus at the third stop and you'll see the school on your left.",
+        "pl": "Wysiądź z autobusu na trzecim przystanku, a zobaczysz szkołę po lewej."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "transport", "podróże"]
+    },
+    {
+      "en": "get in / get into sth, get out of sth (car, taxi)",
+      "pl": "wsiadać do / wysiadać z (samochodu, taksówki)",
+      "meaning_pl": "In, bo w aucie siedzisz w środku i nie możesz chodzić. Get in sam albo get in the car / get into the car; wysiadanie zawsze z of: get out of the car. Nierozdzielny: get into it (nie: get it into)",
+      "example": {
+        "en": "When the taxi finally arrived, we got in quickly because it was pouring with rain.",
+        "pl": "Kiedy taksówka w końcu przyjechała, szybko wsiedliśmy, bo lało jak z cebra."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "transport", "podróże"]
+    },
+    {
+      "en": "get on (well) with sb",
+      "pl": "dogadywać się z kimś, mieć z kimś dobre relacje",
+      "meaning_pl": "Bardzo częste w BrE (w AmE częściej get along with sb). Dwie partykuły, osoba zawsze na końcu: get on well with her (nie: get her on with). 'well' stawiasz po 'on'. Bez osoby: We get on really well",
+      "example": {
+        "en": "I get on really well with my stepdad, although we never agree about football.",
+        "pl": "Świetnie dogaduję się z ojczymem, chociaż nigdy nie zgadzamy się w sprawie piłki."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "relacje", "rodzina"]
+    },
+    {
+      "en": "get on with sth",
+      "pl": "wziąć się za coś, robić coś dalej",
+      "meaning_pl": "Zacząć albo kontynuować coś, co się przerwało, zwykle pracę. Po with rzecz, nie osoba (z osobą to 'dogadywać się'). Nierozdzielny: get on with it. Get on with it! = no dalej, rób to wreszcie",
+      "example": {
+        "en": "Stop checking your phone and get on with your revision.",
+        "pl": "Przestań sprawdzać telefon i weź się za powtórki."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "nauka", "praca"]
+    },
+    {
+      "en": "get on (How are you getting on?)",
+      "pl": "radzić sobie, iść (komuś)",
+      "meaning_pl": "Brytyjskie pytanie o postępy: How are you getting on at your new school? = Jak ci idzie w nowej szkole? How did you get on? = Jak ci poszło? Bez dopełnienia, więc nie ma czego rozdzielać",
+      "example": {
+        "en": "How did you get on in your driving test? — I passed!",
+        "pl": "Jak ci poszło na egzaminie na prawo jazdy? — Zdane!"
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "rozmowa"]
+    },
+    {
+      "en": "get over sth",
+      "pl": "dojść do siebie po czymś, przeboleć coś",
+      "meaning_pl": "Wyzdrowieć po chorobie albo pogodzić się z czymś przykrym (rozstanie, porażka, szok). Nierozdzielny: get over it, get over her (nie: get it over). Pułapka: get sth over with znaczy coś zupełnie innego",
+      "example": {
+        "en": "It took Ola months to get over losing the final, but now she's training again.",
+        "pl": "Ola przez wiele miesięcy dochodziła do siebie po przegranym finale, ale teraz znowu trenuje."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "uczucia", "zdrowie"]
+    },
+    {
+      "en": "get sth over with",
+      "pl": "mieć coś z głowy, odbębnić coś",
+      "meaning_pl": "Zrobić coś nieprzyjemnego, żeby już było po wszystkim. Dopełnienie zawsze w środku: get it over with, get the test over with (nie: get over with it). Typowe w mowie",
+      "example": {
+        "en": "Let's do the hardest task first and get it over with.",
+        "pl": "Zróbmy najpierw najtrudniejsze zadanie i miejmy to z głowy."
+      },
+      "register": "informal",
+      "tags": ["rozdzielny", "obowiązki"]
+    },
+    {
+      "en": "get through sth",
+      "pl": "przetrwać coś, przebrnąć przez coś",
+      "meaning_pl": "Przejść do końca przez trudny okres albo dużo pracy. W BrE też: zdać egzamin (get through the exam). Nierozdzielny: get through it. Z osobą w środku zmienia się sens: get sb through sth = pomóc komuś coś przetrwać",
+      "example": {
+        "en": "My friends really helped me get through my first year at a new school.",
+        "pl": "Przyjaciele naprawdę pomogli mi przetrwać pierwszy rok w nowej szkole."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "trudności", "szkoła"]
+    },
+    {
+      "en": "get through (to sb)",
+      "pl": "dodzwonić się (do kogoś); dotrzeć do kogoś",
+      "meaning_pl": "Przez telefon: połączyć się z kimś. Drugi sens: sprawić, że ktoś wreszcie zrozumie (I just can't get through to him). Nierozdzielny: get through to her (nie: get her through)",
+      "example": {
+        "en": "I tried to phone the school office all morning, but I couldn't get through.",
+        "pl": "Cały ranek próbowałem zadzwonić do sekretariatu szkoły, ale nie mogłem się dodzwonić."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "telefon", "komunikacja"]
+    },
+    {
+      "en": "get back (from sth)",
+      "pl": "wracać",
+      "meaning_pl": "Wrócić do domu albo z wyjazdu. Bez dopełnienia: get back home (bez to przed home), get back from Spain. Nie mylić z get sth back = odzyskać",
+      "example": {
+        "en": "We got back from the school trip late on Sunday evening.",
+        "pl": "Wróciliśmy z wycieczki szkolnej późno w niedzielę wieczorem."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "podróże"]
+    },
+    {
+      "en": "get sth back / get back sth",
+      "pl": "odzyskać coś, dostać coś z powrotem",
+      "meaning_pl": "Rozdzielny: get my money back albo get back my money. Zaimek tylko w środku: get it back (nie: get back it). Typowe przy reklamacji: get your money back = get a refund",
+      "example": {
+        "en": "The headphones broke after a week, so I took them back to the shop and got my money back.",
+        "pl": "Słuchawki zepsuły się po tygodniu, więc oddałem je do sklepu i odzyskałem pieniądze."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "zakupy"]
+    },
+    {
+      "en": "get away with sth",
+      "pl": "uniknąć kary za coś, ujść na sucho",
+      "meaning_pl": "Zrobić coś złego i nie ponieść konsekwencji. Dwie partykuły, nic nie wchodzi do środka: get away with it. Po with rzeczownik albo -ing: get away with cheating",
+      "example": {
+        "en": "He copied his essay from the internet and thought he would get away with it.",
+        "pl": "Ściągnął wypracowanie z internetu i myślał, że ujdzie mu to na sucho."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "kara", "szkoła"]
+    },
+    {
+      "en": "get sth across (to sb)",
+      "pl": "przekazać coś (komuś), sprawić, że ktoś zrozumie",
+      "meaning_pl": "Jasno przekazać myśl albo przesłanie. Dopełnienie zwykle w środku: get your point across, get the message across; zaimek zawsze w środku: get it across. Przydatne w rozprawce i artykule",
+      "example": {
+        "en": "The campaign uses short videos to get its message across to teenagers.",
+        "pl": "Kampania wykorzystuje krótkie filmy, żeby przekazać swoje przesłanie nastolatkom."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "komunikacja", "media"]
+    },
+    {
+      "en": "get sb down",
+      "pl": "przygnębiać kogoś, dołować",
+      "meaning_pl": "Podmiotem jest to, co odbiera ci humor: The weather gets me down. Osoba zawsze w środku: get me down (nie: get down me). Nie mylić z get down to sth = wziąć się do czegoś",
+      "example": {
+        "en": "The short, dark days in November really get me down.",
+        "pl": "Krótkie, ciemne listopadowe dni naprawdę mnie dołują."
+      },
+      "register": "informal",
+      "tags": ["rozdzielny", "uczucia"]
+    },
+    {
+      "en": "get down to sth / get down to doing sth",
+      "pl": "wziąć się (na poważnie) do czegoś",
+      "meaning_pl": "Wreszcie zacząć coś robić na serio. 'to' jest tu przyimkiem, więc po nim rzeczownik albo -ing: get down to work, get down to revising (nie: to revise). Nierozdzielny",
+      "example": {
+        "en": "If you want a good result in May, you need to get down to some serious revision now.",
+        "pl": "Jeśli chcesz mieć dobry wynik w maju, musisz teraz na poważnie wziąć się za powtórki."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "nauka"]
+    },
+    {
+      "en": "get by (on / in sth)",
+      "pl": "dawać sobie radę, wiązać koniec z końcem",
+      "meaning_pl": "Radzić sobie, mając tylko tyle, ile trzeba: get by on £800 a month (pieniądze), get by in German (podstawowy język). Bez dopełnienia, więc nie ma czego rozdzielać",
+      "example": {
+        "en": "My cousin is studying in Manchester and gets by on about £800 a month.",
+        "pl": "Mój kuzyn studiuje w Manchesterze i jakoś wiąże koniec z końcem, mając około 800 funtów miesięcznie."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "pieniądze"]
+    },
+    {
+      "en": "get round to sth / get round to doing sth",
+      "pl": "znaleźć wreszcie czas na coś, zabrać się za coś odkładanego",
+      "meaning_pl": "Zrobić w końcu coś, co od dawna odkładasz; często z never albo not yet. 'to' jest tu przyimkiem, więc -ing: get round to reading (nie: to read). W AmE get around to. Nierozdzielny",
+      "example": {
+        "en": "I bought that book in June, but I still haven't got round to reading it.",
+        "pl": "Kupiłem tę książkę w czerwcu, ale wciąż nie znalazłem czasu, żeby ją przeczytać."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "czas", "odkładanie"]
+    }
+  ]
+}

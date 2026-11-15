@@ -1,0 +1,205 @@
+{
+  "id": "phrasal-bring",
+  "category": "phrasal-verbs",
+  "title_pl": "Phrasal verbs z bring",
+  "items": [
+    {
+      "en": "bring sb up / bring up sb (a child)",
+      "pl": "wychować (dziecko)",
+      "meaning_pl": "ktoś wychowuje dziecko. Zaimek tylko w środku: bring him up, nigdy bring up him. Często w stronie biernej: I was brought up in Gdańsk. Pułapka: o sobie bez strony biernej mówisz I grew up (dorastałem), a nie I brought up",
+      "example": {
+        "en": "My grandparents brought me up because my parents worked abroad.",
+        "pl": "Wychowali mnie dziadkowie, bo rodzice pracowali za granicą."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "pułapka", "rodzina"]
+    },
+    {
+      "en": "bring sth up / bring up sth (a subject)",
+      "pl": "poruszyć (temat), wspomnieć o czymś",
+      "meaning_pl": "zaczynasz rozmowę o jakimś temacie albo problemie: bring up a subject / an issue. Zaimek tylko w środku: bring it up. Bardziej formalny synonim: raise",
+      "example": {
+        "en": "If you have a problem with the project, bring it up at the next meeting.",
+        "pl": "Jeśli masz problem z projektem, porusz go na następnym spotkaniu."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "rozmowa", "szkoła"]
+    },
+    {
+      "en": "bring sth back / bring back sth (return)",
+      "pl": "przynieść z powrotem, oddać; przywieźć (z podróży)",
+      "meaning_pl": "coś wraca tam, gdzie jest mówiący; też przywieźć coś z wyjazdu: bring sth back from Italy. Zaimek tylko w środku: bring it back. Pułapka: oddać coś do sklepu to take sth back, bo ruch jest od mówiącego",
+      "example": {
+        "en": "You can borrow my dictionary, but please bring it back on Friday.",
+        "pl": "Możesz pożyczyć mój słownik, ale przynieś mi go z powrotem w piątek."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "pułapka", "codzienność"]
+    },
+    {
+      "en": "bring back memories (of sth)",
+      "pl": "przywoływać wspomnienia, przypominać (przeszłość)",
+      "meaning_pl": "zdjęcie, piosenka albo zapach sprawia, że przypominasz sobie przeszłość. Podmiotem jest to, co przypomina, a nie ty: the song brings back memories. Rzeczownik memories stoi zwykle po back",
+      "example": {
+        "en": "The smell of fresh bread always brings back memories of my grandma's kitchen.",
+        "pl": "Zapach świeżego chleba zawsze przywołuje wspomnienia z kuchni mojej babci."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "emocje", "rodzina"]
+    },
+    {
+      "en": "bring sth back / bring back sth (a law, a custom)",
+      "pl": "przywrócić (prawo, zwyczaj)",
+      "meaning_pl": "przywracasz coś, co kiedyś już istniało: przepis, karę, zwyczaj. Częste w rozprawkach: bring back national service. Zaimek tylko w środku: bring it back",
+      "example": {
+        "en": "Some politicians want to bring back compulsory military service.",
+        "pl": "Niektórzy politycy chcą przywrócić obowiązkową służbę wojskową."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "polityka", "rozprawka"]
+    },
+    {
+      "en": "bring about sth / bring sth about",
+      "pl": "spowodować, doprowadzić do czegoś, przynieść (zmiany)",
+      "meaning_pl": "coś powoduje zmianę, zwykle dużą: bring about change / reform / an improvement. Dopełnienie stoi zwykle po about, bo jest długie; zaimek w środku: bring it about. W rozprawce brzmi lepiej niż samo cause",
+      "example": {
+        "en": "The internet has brought about huge changes in the way we learn.",
+        "pl": "Internet przyniósł ogromne zmiany w tym, jak się uczymy."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "rozprawka", "technologia"]
+    },
+    {
+      "en": "bring sth in / bring in sth (a law, a rule)",
+      "pl": "wprowadzić (przepis, zakaz)",
+      "meaning_pl": "rząd, szkoła albo firma wprowadza nową zasadę: bring in a law / a ban / a fee. Zaimek tylko w środku: bring it in. Synonim: introduce",
+      "example": {
+        "en": "Our school brought in a ban on mobile phones during breaks.",
+        "pl": "Nasza szkoła wprowadziła zakaz korzystania z telefonów na przerwach."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "szkoła", "polityka"]
+    },
+    {
+      "en": "bring sth in / bring in sth (money)",
+      "pl": "przynosić (pieniądze, dochód)",
+      "meaning_pl": "praca, firma albo wydarzenie daje pieniądze: bring in £500 a month. Kwota albo money stoi zwykle po in. Podobnie bring in tourists / customers, czyli przyciągać turystów, klientów",
+      "example": {
+        "en": "The summer festival brings in a lot of money for our town.",
+        "pl": "Letni festiwal przynosi naszemu miastu dużo pieniędzy."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "pieniądze", "praca"]
+    },
+    {
+      "en": "bring sth out / bring out sth (a product, an album)",
+      "pl": "wydać, wypuścić na rynek",
+      "meaning_pl": "firma, zespół albo pisarz wypuszcza coś nowego: bring out a new album / book / phone. Zaimek tylko w środku: bring it out. Synonimy: release, launch",
+      "example": {
+        "en": "My favourite band is bringing out a new album in March.",
+        "pl": "Mój ulubiony zespół wydaje nowy album w marcu."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "kultura", "zakupy"]
+    },
+    {
+      "en": "bring out the best / the worst in sb",
+      "pl": "wydobywać z kogoś to, co najlepsze / najgorsze",
+      "meaning_pl": "sytuacja albo inna osoba sprawia, że widać twoje najlepsze albo najgorsze cechy. Najczęstszy szyk: the best / the worst po out, a osoba po in",
+      "example": {
+        "en": "A good coach brings out the best in every player.",
+        "pl": "Dobry trener wydobywa z każdego zawodnika to, co najlepsze."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "charakter", "sport"]
+    },
+    {
+      "en": "bring sth down / bring down sth (prices, costs)",
+      "pl": "obniżyć (ceny, koszty)",
+      "meaning_pl": "coś sprawia, że poziom spada: bring down prices / costs / sb's temperature. Zaimek tylko w środku: bring them down. Przeciwieństwo przy cenach: put prices up",
+      "example": {
+        "en": "The new supermarket has brought prices down in our area.",
+        "pl": "Nowy supermarket obniżył ceny w naszej okolicy."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "pieniądze", "zakupy"]
+    },
+    {
+      "en": "bring down sb/sth (a government, a leader)",
+      "pl": "obalić (rząd), doprowadzić do upadku",
+      "meaning_pl": "skandal, protesty albo kryzys sprawiają, że rząd albo przywódca traci władzę. Zaimek tylko w środku: bring it down, bring him down",
+      "example": {
+        "en": "Mass protests brought down the government after only six months.",
+        "pl": "Masowe protesty obaliły rząd już po sześciu miesiącach."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "polityka"]
+    },
+    {
+      "en": "bring sth forward / bring forward sth (a date)",
+      "pl": "przesunąć na wcześniej, przyspieszyć (termin)",
+      "meaning_pl": "wydarzenie ma być wcześniej, niż planowano. Myśl o kalendarzu: termin przybliża się do teraz. Pułapka: na później to put sth back albo put sth off. Zaimek tylko w środku: bring it forward",
+      "example": {
+        "en": "Our English test has been brought forward to Monday, so we have less time to revise.",
+        "pl": "Sprawdzian z angielskiego przesunięto na wcześniej, na poniedziałek, więc mamy mniej czasu na powtórkę."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "pułapka", "BrE", "szkoła"]
+    },
+    {
+      "en": "bring on sth / bring sth on (an illness, pain)",
+      "pl": "wywołać (chorobę, ból)",
+      "meaning_pl": "coś powoduje coś złego, zwykle problem zdrowotny: bring on a headache / an asthma attack. Z zaimkiem w środku: What brought it on? Zwrot bring sth on yourself = sam jesteś sobie winien",
+      "example": {
+        "en": "Spending too long in front of a screen can bring on headaches.",
+        "pl": "Zbyt długie siedzenie przed ekranem może wywoływać bóle głowy."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "zdrowie", "technologia"]
+    },
+    {
+      "en": "bring sb round (to sth) (persuade)",
+      "pl": "przekonać kogoś (do czegoś)",
+      "meaning_pl": "przekonujesz kogoś, kto był przeciw: bring sb round to your point of view. Osoba stoi w środku: bring my parents round. Po amerykańsku around. Kiedy ktoś sam zmienia zdanie, mówimy come round",
+      "example": {
+        "en": "My parents didn't like the idea of a gap year at first, but I managed to bring them round.",
+        "pl": "Na początku rodzicom nie podobał się pomysł roku przerwy, ale udało mi się ich przekonać."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "BrE", "dyskusja", "rodzina"]
+    },
+    {
+      "en": "bring sb round (make conscious)",
+      "pl": "ocucić (kogoś)",
+      "meaning_pl": "przywracasz komuś przytomność po omdleniu. Osoba stoi w środku: bring her round. Mechanizm: bring = ktoś robi to komuś; kiedy ktoś sam odzyskuje przytomność, mówimy come round",
+      "example": {
+        "en": "She fainted in the heat, but a nurse quickly brought her round.",
+        "pl": "Zemdlała z gorąca, ale pielęgniarka szybko ją ocuciła."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "BrE", "zdrowie"]
+    },
+    {
+      "en": "bring sb/sth along",
+      "pl": "przyprowadzić, przynieść ze sobą",
+      "meaning_pl": "zabierasz kogoś albo coś ze sobą w miejsce, do którego idziesz: bring a friend along. Along znaczy tu ze sobą. Zaimek tylko w środku: bring her along",
+      "example": {
+        "en": "You can bring your sister along to the party if you like.",
+        "pl": "Jeśli chcesz, możesz przyprowadzić siostrę na imprezę."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "czas wolny", "relacje"]
+    },
+    {
+      "en": "bring sb together / bring together sb",
+      "pl": "łączyć, zbliżać (ludzi); zgromadzić",
+      "meaning_pl": "coś sprawia, że ludzie się spotykają albo czują się sobie bliżsi. Długi rzeczownik zwykle po together: bring together musicians from all over the world. Zaimek tylko w środku: bring them together",
+      "example": {
+        "en": "Sport brings people together, whatever language they speak.",
+        "pl": "Sport łączy ludzi bez względu na to, jakim językiem mówią."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "relacje", "sport"]
+    }
+  ]
+}

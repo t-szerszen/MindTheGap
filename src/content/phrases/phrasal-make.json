@@ -1,0 +1,205 @@
+{
+  "id": "phrasal-make",
+  "category": "phrasal-verbs",
+  "title_pl": "Phrasal verbs z make",
+  "items": [
+    {
+      "en": "make sth up / make up sth (invent)",
+      "pl": "wymyślić, zmyślić (historię, wymówkę)",
+      "meaning_pl": "tworzysz coś, czego nie było: a story, an excuse, a song. Rzeczownik może stać po up albo w środku (make up an excuse / make an excuse up), ale zaimek tylko w środku: make it up, nigdy make up it. Często o kłamstwie",
+      "example": {
+        "en": "I don't believe his story about the broken bus. I think he made it up.",
+        "pl": "Nie wierzę w jego historię o zepsutym autobusie. Myślę, że ją zmyślił."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "kłamstwo", "szkoła"]
+    },
+    {
+      "en": "make up (with sb)",
+      "pl": "pogodzić się (z kimś)",
+      "meaning_pl": "kończycie kłótnię i znowu jesteście w zgodzie. Bez dopełnienia (they made up) albo z with + osoba (make up with your sister). Nie ma czego rozdzielać, osoba zawsze stoi po with",
+      "example": {
+        "en": "Ola and her brother argued about the car all morning, but they made up before dinner.",
+        "pl": "Ola i jej brat kłócili się o samochód cały ranek, ale przed obiadem się pogodzili."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "relacje", "rodzina"]
+    },
+    {
+      "en": "make up sth (form a whole) / be made up of sth",
+      "pl": "stanowić (część całości); be made up of: składać się z",
+      "meaning_pl": "części razem tworzą całość: women make up 60% of the staff. Dopełnienie (liczba, procent, część) stoi zawsze po up. W stronie biernej patrzysz od całości: the team is made up of ... = drużyna składa się z ... Nie używa się tu formy -ing",
+      "example": {
+        "en": "Students make up almost half of the town's population.",
+        "pl": "Studenci stanowią prawie połowę mieszkańców miasta."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "liczby", "społeczeństwo", "rozprawka"]
+    },
+    {
+      "en": "make up your mind / make your mind up",
+      "pl": "zdecydować się",
+      "meaning_pl": "podejmujesz decyzję po namyśle. Obie kolejności są poprawne, a your mind (my, his, their...) to stała część wyrażenia. Często dalej about albo whether/what: make up my mind what to study",
+      "example": {
+        "en": "I still can't make up my mind whether to study law or medicine.",
+        "pl": "Wciąż nie mogę się zdecydować, czy studiować prawo, czy medycynę."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "decyzje", "edukacja"]
+    },
+    {
+      "en": "make up the difference / make up the time",
+      "pl": "dołożyć brakującą kwotę; odrobić (czas)",
+      "meaning_pl": "uzupełniasz to, czego brakuje do pełnej kwoty albo do wymaganego czasu: up = do pełna. Rzeczownik zwykle po up, zaimek w środku: I'll make it up tomorrow. Nie myl z make up for sth (zrekompensować coś złego)",
+      "example": {
+        "en": "The trip costs £300. My parents will pay £200 and I'll make up the difference from my summer job.",
+        "pl": "Wycieczka kosztuje 300 funtów. Rodzice zapłacą 200, a resztę dołożę z pracy wakacyjnej."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "pieniądze", "praca"]
+    },
+    {
+      "en": "make up for sth",
+      "pl": "nadrobić, zrekompensować coś",
+      "meaning_pl": "coś dobrego równoważy coś złego albo stratę: make up for lost time, make up for a mistake. Trzyczłonowy i nierozdzielny, więc zaimek idzie na koniec, po for: make up for it. Po for może stać forma -ing: make up for being late",
+      "example": {
+        "en": "The hotel was quite far from the beach, but the amazing view made up for it.",
+        "pl": "Hotel był dość daleko od plaży, ale niesamowity widok to wynagradzał."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "trzyczłonowy", "podróże"]
+    },
+    {
+      "en": "make it up to sb",
+      "pl": "wynagrodzić coś komuś",
+      "meaning_pl": "zawiodłeś kogoś i chcesz mu to oddać czymś miłym. it jest stałe i stoi zawsze w środku, osoba po to: I'll make it up to you. Nie myl z make up with sb (pogodzić się) ani z make up for sth (coś rekompensuje coś)",
+      "example": {
+        "en": "I'm really sorry I missed your birthday party. I'll make it up to you, I promise.",
+        "pl": "Bardzo przepraszam, że nie było mnie na twoich urodzinach. Wynagrodzę ci to, obiecuję."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "stałe it", "przeprosiny", "relacje"]
+    },
+    {
+      "en": "make up a bed (for sb)",
+      "pl": "pościelić (komuś) łóżko, przygotować posłanie",
+      "meaning_pl": "kładziesz pościel, żeby ktoś mógł spać, zwykle gość. Nie myl z make the bed = posłać łóżko rano, po spaniu. Zaimek w środku: make it up",
+      "example": {
+        "en": "When my cousin came to stay, we made up a bed for him on the sofa.",
+        "pl": "Kiedy kuzyn przyjechał do nas na kilka dni, pościeliliśmy mu na kanapie."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "dom", "rodzina"]
+    },
+    {
+      "en": "make sth out / make out sth (see, hear, read)",
+      "pl": "dostrzec, dosłyszeć, odczytać (z trudem)",
+      "meaning_pl": "widzisz albo słyszysz coś z trudem, bo jest daleko, ciemno albo niewyraźnie. Prawie zawsze z can/could: we could just make out ... Zaimek tylko w środku: I can't make it out",
+      "example": {
+        "en": "It was getting dark, but we could just make out the path through the forest.",
+        "pl": "Robiło się ciemno, ale wciąż mogliśmy z trudem dostrzec ścieżkę przez las."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "zmysły", "przyroda"]
+    },
+    {
+      "en": "make out what/why ... / make sb out (understand)",
+      "pl": "zrozumieć, rozgryźć",
+      "meaning_pl": "próbujesz coś zrozumieć i ci nie wychodzi, zwykle z can't/couldn't. Po out często całe pytanie: make out why/what ... Osoba stoi w środku: I can't make him out = nie mogę go rozgryźć",
+      "example": {
+        "en": "I can't make out why she left the party without saying goodbye.",
+        "pl": "Nie rozumiem, dlaczego wyszła z imprezy bez pożegnania."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "rozmowa", "relacje"]
+    },
+    {
+      "en": "make out (that) ...",
+      "pl": "twierdzić, udawać, że ...",
+      "meaning_pl": "ktoś mówi, że coś jest prawdą, a zwykle nie jest. Po out stoi całe zdanie, często z that: he made out that he was ill. Bywa też bez dopełnienia: it isn't as hard as people make out",
+      "example": {
+        "en": "Jack made out that he had read the whole book, but he couldn't answer a single question about it.",
+        "pl": "Jack udawał, że przeczytał całą książkę, ale nie umiał odpowiedzieć na ani jedno pytanie na jej temat."
+      },
+      "register": "informal",
+      "tags": ["nierozdzielny", "kłamstwo", "szkoła"]
+    },
+    {
+      "en": "make sb/sth out to be sth",
+      "pl": "przedstawiać kogoś/coś jako ...",
+      "meaning_pl": "to samo co make out (that), ale osoba albo rzecz stoi w środku, a po out idzie to be + przymiotnik albo rzeczownik. Najczęściej w porównaniu: not as bad as people make it out to be",
+      "example": {
+        "en": "The new maths teacher isn't as strict as everyone made her out to be.",
+        "pl": "Nowa matematyczka nie jest aż tak surowa, jak wszyscy mówili."
+      },
+      "register": "informal",
+      "tags": ["rozdzielny", "opinia", "szkoła"]
+    },
+    {
+      "en": "make for sth (move towards)",
+      "pl": "skierować się, ruszyć (do)",
+      "meaning_pl": "idziesz w stronę jakiegoś miejsca, często szybko: make for the exit, make for home. Nierozdzielny: miejsce zawsze stoi po for",
+      "example": {
+        "en": "As soon as the concert ended, everyone made for the exit.",
+        "pl": "Gdy tylko koncert się skończył, wszyscy ruszyli do wyjścia."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "ruch", "kultura"]
+    },
+    {
+      "en": "make for sth (result in)",
+      "pl": "sprzyjać czemuś, dawać w efekcie",
+      "meaning_pl": "coś sprawia, że wynik jest właśnie taki. Po for zwykle rzeczownik z przymiotnikiem: make for easier reading, make for a better atmosphere. Nierozdzielny; przydaje się w rozprawce do pokazania skutku",
+      "example": {
+        "en": "Small classes make for better communication between teachers and students.",
+        "pl": "Małe klasy sprzyjają lepszemu kontaktowi między nauczycielami a uczniami."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "skutek", "edukacja", "rozprawka"]
+    },
+    {
+      "en": "make off",
+      "pl": "uciec, zwiać (w pośpiechu)",
+      "meaning_pl": "ktoś szybko odjeżdża albo ucieka, zwykle żeby nie dać się złapać. Bez dopełnienia; częste w wiadomościach o przestępstwach: they made off in a stolen car",
+      "example": {
+        "en": "The burglars made off before the police arrived.",
+        "pl": "Włamywacze uciekli, zanim przyjechała policja."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "przestępczość"]
+    },
+    {
+      "en": "make off with sth",
+      "pl": "ukraść coś i uciec",
+      "meaning_pl": "kradniesz coś i zwiewasz z tym. Trzyczłonowy i nierozdzielny: to, co skradzione, stoi po with (made off with £500, made off with it)",
+      "example": {
+        "en": "Thieves broke into the shop and made off with laptops worth £20,000.",
+        "pl": "Złodzieje włamali się do sklepu i uciekli z laptopami wartymi 20 000 funtów."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "trzyczłonowy", "przestępczość"]
+    },
+    {
+      "en": "make sth into sth",
+      "pl": "przerobić coś na coś, zrobić z czegoś coś",
+      "meaning_pl": "zmieniasz coś w coś innego. Pierwsza rzecz stoi zawsze w środku: make the garage into a gym. Bardzo częsta strona bierna: the book was made into a film = książkę zekranizowano",
+      "example": {
+        "en": "Her first novel was made into a popular TV series.",
+        "pl": "Jej pierwszą powieść przerobiono na popularny serial."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "strona bierna", "kultura", "media"]
+    },
+    {
+      "en": "make sth of sb/sth (What do you make of ...?)",
+      "pl": "co sądzisz o ...?",
+      "meaning_pl": "pytasz o czyjąś opinię albo wrażenie. Zwykle z what, a osoba lub rzecz stoi po of: What do you make of him? I don't know what to make of it = nie wiem, co o tym myśleć",
+      "example": {
+        "en": "What did you make of the new head teacher's speech?",
+        "pl": "Co sądzisz o przemówieniu nowego dyrektora?"
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "opinia", "rozmowa", "szkoła"]
+    }
+  ]
+}

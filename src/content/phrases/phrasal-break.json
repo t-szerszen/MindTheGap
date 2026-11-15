@@ -1,0 +1,205 @@
+{
+  "id": "phrasal-break",
+  "category": "phrasal-verbs",
+  "title_pl": "Phrasal verbs z break",
+  "items": [
+    {
+      "en": "break down (car, machine)",
+      "pl": "zepsuć się (o samochodzie, maszynie)",
+      "meaning_pl": "coś samo przestaje działać: samochód, autobus, winda, pralka. Nie ma dopełnienia, więc nie ma czego rozdzielać: the car broke down, nie he broke down the car. Gdy to ty coś psujesz, mówisz po prostu break sth. Rzeczownik: a breakdown (awaria)",
+      "example": {
+        "en": "Our coach broke down on the motorway, so we got to Berlin four hours late.",
+        "pl": "Nasz autokar zepsuł się na autostradzie, więc dojechaliśmy do Berlina z czterogodzinnym opóźnieniem."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "podróże", "technologia"]
+    },
+    {
+      "en": "break down (in tears)",
+      "pl": "załamać się, rozpłakać się",
+      "meaning_pl": "ktoś traci panowanie nad emocjami i zaczyna płakać. Ten sam mechanizm co z samochodem: coś w środku przestaje działać. Bez dopełnienia; często dodajesz in tears. Rzeczownik: a nervous breakdown (załamanie nerwowe)",
+      "example": {
+        "en": "When the coach told her she hadn't been picked for the team, she broke down in tears.",
+        "pl": "Kiedy trener powiedział jej, że nie dostała się do składu, rozpłakała się."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "emocje"]
+    },
+    {
+      "en": "break down (talks, a marriage)",
+      "pl": "załamać się, rozpaść się, zakończyć się fiaskiem",
+      "meaning_pl": "rozmowy, negocjacje albo związek przestają działać i się kończą. Podmiotem jest ta rzecz (talks, negotiations, their marriage), nie ludzie. Bez dopełnienia. Rzeczownik: the breakdown of talks / of a marriage",
+      "example": {
+        "en": "Talks between the teachers and the government broke down, so the strike went on.",
+        "pl": "Rozmowy nauczycieli z rządem zakończyły się fiaskiem, więc strajk trwał dalej."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "społeczeństwo", "relacje"]
+    },
+    {
+      "en": "break sth down / break down sth (into parts)",
+      "pl": "rozbić coś na części, podzielić; rozłożyć coś (np. substancję)",
+      "meaning_pl": "dzielisz coś dużego na mniejsze kawałki: zadanie, koszty, dane (break sth down into sth). Rzeczownik po down albo w środku (break down the task / break the task down), zaimek tylko w środku: break it down. W biologii i ekologii też bez dopełnienia: plastic takes hundreds of years to break down (rozkłada się)",
+      "example": {
+        "en": "Revising for the whole exam seemed impossible, so I broke it down into small daily tasks.",
+        "pl": "Powtórka do całego egzaminu wydawała się niewykonalna, więc rozbiłem ją na małe codzienne zadania."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "szkoła", "nauka", "środowisko"]
+    },
+    {
+      "en": "break sth down / break down sth (a door)",
+      "pl": "wyważyć (drzwi)",
+      "meaning_pl": "uderzasz w coś tak mocno, że to się wali: prawie zawsze chodzi o drzwi. Rzeczownik po down albo w środku (break down the door / break the door down), zaimek tylko w środku: break it down",
+      "example": {
+        "en": "The flat was full of smoke, so the firefighters had to break the door down.",
+        "pl": "Mieszkanie było pełne dymu, więc strażacy musieli wyważyć drzwi."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "dom", "wypadki"]
+    },
+    {
+      "en": "break up (with sb)",
+      "pl": "zerwać (z kimś), rozstać się",
+      "meaning_pl": "kończy się związek. Osobę dodajesz przez with i nic nie rozdzielasz: she broke up with him, nigdy she broke him up. Para też może być podmiotem: they broke up last year. To samo co split up. Rzeczownik: a break-up (rozstanie)",
+      "example": {
+        "en": "Kasia broke up with her boyfriend because he never had time for her.",
+        "pl": "Kasia zerwała z chłopakiem, bo nigdy nie miał dla niej czasu."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "trzyczłonowy", "relacje", "życie prywatne"]
+    },
+    {
+      "en": "break up (for the holidays)",
+      "pl": "kończyć zajęcia przed feriami albo wakacjami",
+      "meaning_pl": "brytyjskie: szkoła kończy semestr i zaczyna się przerwa. Podmiotem są uczniowie albo szkoła, okazję dodajesz przez for: we break up for Christmas next Friday. Bez dopełnienia. Przez telefon break up znaczy coś jeszcze innego: You're breaking up! (przerywa ci, słabo cię słychać)",
+      "example": {
+        "en": "We break up for the summer at the end of June, and I've already found a holiday job.",
+        "pl": "Rok szkolny kończymy pod koniec czerwca, a ja już mam załatwioną pracę na wakacje."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "szkoła", "BrE"]
+    },
+    {
+      "en": "break sth up / break up sth (a fight, a party)",
+      "pl": "rozdzielić (bijących się), rozpędzić (tłum), przerwać (imprezę)",
+      "meaning_pl": "ktoś z zewnątrz przerywa bójkę, demonstrację albo imprezę i ludzie się rozchodzą. Rzeczownik po up albo w środku, zaimek tylko w środku: break it up. Break it up! krzyczysz do ludzi, którzy się biją. Bez dopełnienia: the party broke up at midnight (impreza skończyła się i goście się rozeszli)",
+      "example": {
+        "en": "Two boys started a fight in the corridor, and a teacher ran over to break it up.",
+        "pl": "Dwóch chłopaków wdało się w bójkę na korytarzu i nauczyciel podbiegł, żeby ich rozdzielić."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "szkoła", "społeczeństwo"]
+    },
+    {
+      "en": "break into sth / break in (burglary)",
+      "pl": "włamać się (do czegoś)",
+      "meaning_pl": "wchodzisz siłą, żeby coś ukraść. Z miejscem: break into a house / a car, zaimek po into: break into it, nic nie rozdzielasz. Bez miejsca: burglars broke in. Często w stronie biernej: our car was broken into. Rzeczownik: a break-in (włamanie)",
+      "example": {
+        "en": "Someone broke into our car last night and stole my dad's laptop.",
+        "pl": "Ktoś wczoraj w nocy włamał się do naszego samochodu i ukradł laptopa taty."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "przestępczość", "strona bierna"]
+    },
+    {
+      "en": "break into sth (a run, a smile, song)",
+      "pl": "nagle zacząć (biec, się uśmiechać, śpiewać)",
+      "meaning_pl": "coś zaczyna się nagle, jakby wybuchło: break into a run, a smile, song, applause. Po into stoi rzeczownik, nie forma -ing. Nierozdzielne. Inne znaczenie: break into a market / into journalism (wejść na rynek, przebić się w jakiejś branży)",
+      "example": {
+        "en": "When we saw our bus at the stop, we broke into a run.",
+        "pl": "Kiedy zobaczyliśmy nasz autobus na przystanku, puściliśmy się biegiem."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "opowiadanie"]
+    },
+    {
+      "en": "break out (war, fire, disease)",
+      "pl": "wybuchnąć (o wojnie, pożarze, epidemii)",
+      "meaning_pl": "coś groźnego zaczyna się nagle: a war, a fire, a fight, an epidemic. Podmiotem jest samo zdarzenie, nie ludzie. Bez dopełnienia i bez strony biernej: a fire broke out, nie was broken out. Rzeczownik: an outbreak (of war / of a disease)",
+      "example": {
+        "en": "A fire broke out in the school kitchen, but nobody was hurt.",
+        "pl": "W szkolnej kuchni wybuchł pożar, ale nikomu nic się nie stało."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "wydarzenia", "zdrowie"]
+    },
+    {
+      "en": "break out (of sth) (escape)",
+      "pl": "uciec (z więzienia, z zamknięcia)",
+      "meaning_pl": "wydostajesz się siłą z miejsca, w którym cię zamknięto. Skąd: of sth (break out of prison), zaimek po of: break out of it. W przenośni: break out of a routine (wyrwać się z rutyny)",
+      "example": {
+        "en": "Two prisoners broke out of the prison at night by climbing over the wall.",
+        "pl": "Dwóch więźniów uciekło nocą z więzienia, przechodząc przez mur."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "przestępczość"]
+    },
+    {
+      "en": "break out in sth (spots, a rash, a sweat)",
+      "pl": "dostać (wysypki, krost), oblać się (potem)",
+      "meaning_pl": "na skórze nagle coś się pojawia: break out in spots, in a rash, in a cold sweat. Podmiotem jest osoba albo jej skóra. Nie myl z break out of: in = co pojawia się na tobie, of = skąd uciekasz",
+      "example": {
+        "en": "When I read the first question on the test, I broke out in a cold sweat.",
+        "pl": "Kiedy przeczytałem pierwsze pytanie na sprawdzianie, oblałem się zimnym potem."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "zdrowie", "emocje"]
+    },
+    {
+      "en": "break sth off / break off sth (a piece)",
+      "pl": "odłamać (kawałek)",
+      "meaning_pl": "oddzielasz kawałek od całości: break off a piece of chocolate. Rzeczownik po off albo w środku, zaimek tylko w środku: break it off. Bez dopełnienia część odpada sama: the handle broke off (ucho się odłamało)",
+      "example": {
+        "en": "She broke off a piece of chocolate and gave it to her little brother.",
+        "pl": "Odłamała kawałek czekolady i dała go młodszemu bratu."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "jedzenie", "dom"]
+    },
+    {
+      "en": "break sth off / break off sth (an engagement, talks)",
+      "pl": "zerwać (zaręczyny, rozmowy, kontakty)",
+      "meaning_pl": "nagle kończysz coś, co trwało: an engagement, talks, relations, contact. Zaimek w środku: they broke it off. Mechanizm ten sam co z kawałkiem czekolady: nagle coś odcinasz. Tu zrywasz coś, a z kimś zrywasz przez break up with sb. Bez dopełnienia break off to też nagle przerwać w pół zdania: he broke off in the middle of a sentence",
+      "example": {
+        "en": "They got engaged in May, but broke off the engagement just two months later.",
+        "pl": "Zaręczyli się w maju, ale już po dwóch miesiącach zerwali zaręczyny."
+      },
+      "register": "neutral",
+      "tags": ["rozdzielny", "relacje", "polityka"]
+    },
+    {
+      "en": "break through (sth)",
+      "pl": "przebić się, przedrzeć się (przez coś)",
+      "meaning_pl": "pokonujesz przeszkodę i wychodzisz na drugą stronę: break through the barriers, the sun broke through the clouds. Zaimek po through: break through it, nie rozdzielasz. Rzeczownik a breakthrough to przełom, np. w nauce: a medical breakthrough, make a breakthrough",
+      "example": {
+        "en": "After the final whistle, the fans broke through the barriers and ran onto the pitch.",
+        "pl": "Po końcowym gwizdku kibice przedarli się przez barierki i wbiegli na boisko."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "sport", "nauka"]
+    },
+    {
+      "en": "break away (from sb/sth)",
+      "pl": "oderwać się, odłączyć się (od kogoś, czegoś), wyrwać się (komuś)",
+      "meaning_pl": "odchodzisz od grupy, do której należałeś, albo wyrywasz się komuś, kto cię trzyma. Od kogo, od czego: from: break away from a party (odłączyć się od partii). W sporcie: zawodnik odrywa się od reszty i ucieka. Nierozdzielne",
+      "example": {
+        "en": "In the last kilometre, Nowak broke away from the other cyclists and won the race.",
+        "pl": "Na ostatnim kilometrze Nowak oderwał się od reszty kolarzy i wygrał wyścig."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "sport", "polityka"]
+    },
+    {
+      "en": "break with sth (tradition, the past)",
+      "pl": "zerwać z czymś (z tradycją, z przeszłością)",
+      "meaning_pl": "świadomie przestajesz robić coś tak, jak robiło się zawsze. Najczęściej break with tradition. Formalne, dobre do rozprawki. Nierozdzielne: break with it. Rozstanie z chłopakiem albo dziewczyną to break up with sb, nie break with",
+      "example": {
+        "en": "Many couples today break with tradition and choose a small wedding with just their closest friends.",
+        "pl": "Wiele par zrywa dziś z tradycją i wybiera skromny ślub tylko z najbliższymi przyjaciółmi."
+      },
+      "register": "formal",
+      "tags": ["nierozdzielny", "rozprawka", "kultura", "życie prywatne"]
+    }
+  ]
+}

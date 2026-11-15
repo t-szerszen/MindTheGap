@@ -1,0 +1,205 @@
+{
+  "id": "phrasal-go",
+  "category": "phrasal-verbs",
+  "title_pl": "Phrasal verbs z go",
+  "items": [
+    {
+      "en": "go on (doing sth) / go on with sth",
+      "pl": "kontynuować, robić coś dalej",
+      "meaning_pl": "Go on + -ing = dalej robić to samo. Pułapka: go on to do sth = potem zająć się czymś nowym (She went on to study law). Go samo nie bierze dopełnienia, więc nic nie wchodzi między go a on: go on with it (nie: go it on). Tak samo działają wszystkie czasowniki z tego zestawu",
+      "example": {
+        "en": "The teacher asked us to be quiet, but the boys at the back went on talking.",
+        "pl": "Nauczycielka poprosiła nas o ciszę, ale chłopcy z tyłu dalej rozmawiali."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "szkoła"]
+    },
+    {
+      "en": "go on (What's going on?)",
+      "pl": "dziać się",
+      "meaning_pl": "Podmiotem jest sytuacja, nie osoba: What's going on? = Co się dzieje? Często w formie ciągłej. Bez dopełnienia, więc nie ma czego rozdzielać. Bardzo typowe w mowie",
+      "example": {
+        "en": "There were police cars everywhere, but nobody knew what was going on.",
+        "pl": "Wszędzie stały radiowozy, ale nikt nie wiedział, co się dzieje."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "rozmowa"]
+    },
+    {
+      "en": "go off (alarm, bomb)",
+      "pl": "zadzwonić, włączyć się (budzik, alarm); wybuchnąć (bomba)",
+      "meaning_pl": "Pułapka: przy budziku i alarmie off nie znaczy wyłączenia, tylko to, że nagle zaczyna hałasować. Podmiotem jest urządzenie, bez dopełnienia: My alarm went off (nie: I went off my alarm)",
+      "example": {
+        "en": "My alarm didn't go off this morning, so I was late for my first lesson.",
+        "pl": "Rano nie zadzwonił mi budzik, więc spóźniłem się na pierwszą lekcję."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "codzienność"]
+    },
+    {
+      "en": "go off (food, milk)",
+      "pl": "zepsuć się (o jedzeniu)",
+      "meaning_pl": "Brytyjskie, o jedzeniu i piciu, które przestaje być świeże. Często w present perfect: The milk has gone off. Można też powiedzieć This milk is off. Bez dopełnienia. O zepsutym sprzęcie tak nie mówimy (tam break down, stop working)",
+      "example": {
+        "en": "Don't drink that milk. It's gone off and it smells awful.",
+        "pl": "Nie pij tego mleka. Zepsuło się i okropnie śmierdzi."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "jedzenie"]
+    },
+    {
+      "en": "go off sb/sth",
+      "pl": "przestać kogoś/coś lubić, odechcieć się czegoś",
+      "meaning_pl": "Brytyjskie, potoczne: coś ci się kiedyś podobało, a teraz już nie. Osoba albo rzecz zawsze po off: I've gone off it (nie: I've gone it off). Nie myl z go off bez dopełnienia (budzik, jedzenie)",
+      "example": {
+        "en": "I used to love fast food, but I've completely gone off it since I started training.",
+        "pl": "Kiedyś uwielbiałem fast foody, ale odkąd zacząłem trenować, zupełnie mi się odechciało."
+      },
+      "register": "informal",
+      "tags": ["nierozdzielny", "upodobania", "jedzenie"]
+    },
+    {
+      "en": "go out (for a meal / to the cinema)",
+      "pl": "wychodzić (z domu, żeby się rozerwać)",
+      "meaning_pl": "Wyjść gdzieś dla przyjemności: do kina, na pizzę, na imprezę. Cel dodajesz przez for (go out for a pizza) albo to (go out to the cinema). Bez dopełnienia, więc nic nie wchodzi do środka",
+      "example": {
+        "en": "We don't go out much during the week because we've got so much homework.",
+        "pl": "W tygodniu rzadko gdzieś wychodzimy, bo mamy mnóstwo zadań domowych."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "czas wolny"]
+    },
+    {
+      "en": "go out with sb",
+      "pl": "chodzić z kimś (być parą)",
+      "meaning_pl": "Być z kimś w związku. Pułapka: polskie 'chodzić z kimś' to go out with, nie walk with. Osoba na końcu, po with: go out with him (nie: go him out with). Bez osoby: They've been going out for a year. Uwaga: go out with friends to zwykle po prostu wyjście ze znajomymi, rozstrzyga kontekst",
+      "example": {
+        "en": "Kasia has been going out with Tomek since the school trip to Kraków.",
+        "pl": "Kasia chodzi z Tomkiem od wycieczki szkolnej do Krakowa."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "relacje"]
+    },
+    {
+      "en": "go out (light, fire)",
+      "pl": "zgasnąć",
+      "meaning_pl": "Światło albo ogień przestaje się palić samo z siebie. Bez dopełnienia. Jeśli to ty gasisz, mówisz put out (ogień) albo turn off / switch off (światło), a nie go out",
+      "example": {
+        "en": "During the storm all the lights went out and we had to find some candles.",
+        "pl": "W czasie burzy zgasły wszystkie światła i musieliśmy poszukać świec."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "dom"]
+    },
+    {
+      "en": "go through sth (a difficult time)",
+      "pl": "przechodzić przez coś, przeżywać coś (trudnego)",
+      "meaning_pl": "Doświadczyć czegoś ciężkiego: choroby, rozstania, trudnego okresu. Typowo go through a difficult / hard time. Nierozdzielny: go through it (nie: go it through). Porównaj get through sth = przetrwać coś, przebrnąć do końca",
+      "example": {
+        "en": "My best friend went through a really hard time when her parents got divorced.",
+        "pl": "Moja najlepsza przyjaciółka przeszła naprawdę ciężki okres, kiedy jej rodzice się rozwiedli."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "uczucia", "życie prywatne"]
+    },
+    {
+      "en": "go through sth (check carefully)",
+      "pl": "przejrzeć, przeszukać coś dokładnie",
+      "meaning_pl": "Sprawdzać coś po kolei, punkt po punkcie: odpowiedzi, dokumenty, torbę, kieszenie. Nierozdzielny: Let's go through it together (nie: go it through)",
+      "example": {
+        "en": "Before you hand in the test, go through your answers and check your spelling.",
+        "pl": "Zanim oddasz test, przejrzyj odpowiedzi i sprawdź pisownię."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "nauka", "szkoła"]
+    },
+    {
+      "en": "go over sth",
+      "pl": "przejrzeć, powtórzyć, omówić coś",
+      "meaning_pl": "Dokładnie przejrzeć albo powtórzyć coś, żeby sprawdzić lub zapamiętać: notatki, plan, błędy. Bliskie go through, ale przy powtarzaniu materiału częściej go over. Rzecz zawsze po over: go over it (nie: go it over)",
+      "example": {
+        "en": "The night before the exam I went over my notes one more time.",
+        "pl": "Wieczorem przed egzaminem jeszcze raz przejrzałam notatki."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "nauka"]
+    },
+    {
+      "en": "go up / go down (prices, numbers)",
+      "pl": "rosnąć / spadać (o cenach, liczbach, temperaturze)",
+      "meaning_pl": "Cena czy liczba rośnie albo spada sama. Jeśli ktoś ją podnosi, mówisz put sth up (put prices up), nie go. O ile, mówisz przez by: Prices went up by 10%. Bez dopełnienia. W rozprawce bardziej formalnie: rise / fall",
+      "example": {
+        "en": "Bus fares have gone up again, and the number of passengers has gone down.",
+        "pl": "Ceny biletów autobusowych znowu wzrosły, a liczba pasażerów spadła."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "zakupy", "liczby"]
+    },
+    {
+      "en": "go down well / badly (with sb)",
+      "pl": "zostać dobrze / źle przyjętym (przez kogoś), spodobać się / nie spodobać się",
+      "meaning_pl": "O pomyśle, decyzji, żarcie: jak ludzie to przyjęli. Podmiotem jest rzecz, a osoba stoi na końcu po with: The idea went down well with the class. Często z very: didn't go down very well",
+      "example": {
+        "en": "The new rule about phones in class didn't go down well with the students.",
+        "pl": "Nowa zasada dotycząca telefonów na lekcjach nie spodobała się uczniom."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "opinie", "szkoła"]
+    },
+    {
+      "en": "go ahead (with sth)",
+      "pl": "odbyć się (zgodnie z planem); zabrać się za coś; śmiało!",
+      "meaning_pl": "Wydarzenie dochodzi do skutku mimo przeszkód: The match went ahead despite the rain. Z with: zacząć zaplanowaną rzecz (go ahead with the plan). Samo Go ahead! = proszę, śmiało (pozwolenie). Bez dopełnienia bezpośredniego, rzecz tylko po with",
+      "example": {
+        "en": "Despite the heavy rain, the school sports day went ahead as planned.",
+        "pl": "Mimo ulewy szkolny dzień sportu odbył się zgodnie z planem."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "wydarzenia", "plany"]
+    },
+    {
+      "en": "go with sth",
+      "pl": "pasować do czegoś",
+      "meaning_pl": "Dwie rzeczy dobrze razem wyglądają albo smakują: ubrania, kolory, potrawy. Rzecz po with: it goes with it. Pułapka: o rozmiarze (dobrze leży) mówisz fit, a o tym, że komuś w czymś dobrze, suit",
+      "example": {
+        "en": "I like these trainers, but I'm not sure they go with my new jacket.",
+        "pl": "Podobają mi się te adidasy, ale nie jestem pewien, czy pasują do mojej nowej kurtki."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "ubrania", "zakupy"]
+    },
+    {
+      "en": "go for sth / Go for it!",
+      "pl": "wybrać coś, zdecydować się na coś; śmiało, spróbuj!",
+      "meaning_pl": "Przy wyborze, np. w restauracji albo w sklepie: I'll go for the pasta. Go for it! to zachęta, żeby ktoś spróbował czegoś trudnego. Nierozdzielny: go for it (nie: go it for). W formalnym tekście lepiej choose albo opt for",
+      "example": {
+        "en": "I couldn't decide between the two phones, so in the end I went for the cheaper one.",
+        "pl": "Nie mogłem się zdecydować między dwoma telefonami, więc w końcu wybrałem tańszy."
+      },
+      "register": "informal",
+      "tags": ["nierozdzielny", "zakupy", "decyzje"]
+    },
+    {
+      "en": "go without (sth)",
+      "pl": "obywać się bez czegoś",
+      "meaning_pl": "Radzić sobie bez czegoś, czego się potrzebuje albo chce: jedzenia, snu, telefonu. Rzecz po without: go without it. Może stać bez rzeczy, jeśli wiadomo, o co chodzi: If there's no money for it, we'll have to go without",
+      "example": {
+        "en": "During the hiking trip we had to go without our phones for three days.",
+        "pl": "Na wyprawie w góry przez trzy dni musieliśmy się obywać bez telefonów."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "codzienność", "technologia"]
+    },
+    {
+      "en": "go by (time)",
+      "pl": "mijać, upływać (o czasie)",
+      "meaning_pl": "Podmiotem jest czas: days, weeks, years. Bez dopełnienia. Częste w opowiadaniach: As time went by... = z czasem... Znaczy to samo co pass",
+      "example": {
+        "en": "As the weeks went by, I started to feel more confident at my new school.",
+        "pl": "W miarę jak mijały tygodnie, zacząłem czuć się pewniej w nowej szkole."
+      },
+      "register": "neutral",
+      "tags": ["nierozdzielny", "bez dopełnienia", "czas", "opowiadanie"]
+    }
+  ]
+}
