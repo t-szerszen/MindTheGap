@@ -5,35 +5,39 @@
   "group": "future",
   "aspect": "continuous",
   "tabLabel": ["Fut.", "Cont."],
-  "oneLiner_pl": "w trakcie, w danym momencie przyszłości",
+  "oneLiner_pl": "czynność będzie W TRAKCIE w danym momencie przyszłości albo wydarzy się w normalnym biegu rzeczy, bez decyzji podejmowanej teraz",
   "timeline": {
-    "now": 0.45,
+    "now": 0.65,
     "marks": [
       {
         "kind": "span",
-        "from": 0.66,
-        "to": 0.9,
-        "label": "will be doing"
+        "from": 0.74,
+        "to": 0.96,
+        "label": "in progress"
       },
       {
         "kind": "point",
-        "from": 0.78,
-        "label": "at 10 tomorrow"
+        "from": 0.85,
+        "label": "8 p.m. tomorrow"
       }
     ]
   },
   "howToChoose": [
     {
       "step_pl": "sygnał",
-      "text_pl": "Widzisz this time tomorrow, this time next week, at 10 a.m. on Monday?"
+      "text_pl": "Szukasz konkretnej chwili w przyszłości (this time tomorrow, this time next week, at 8 p.m. tonight) albo drugiego zdarzenia w przyszłości po when (when you arrive). Inne tropy: anyway (i tak), grzeczne pytanie Will you be…? i oficjalne komunikaty (We will shortly be landing)."
     },
     {
       "step_pl": "relacja w czasie",
-      "text_pl": "Czynność będzie w trakcie w konkretnym momencie przyszłości."
+      "text_pl": "Pytasz: co będzie TRWAŁO w tamtej chwili? Czynność zacznie się wcześniej i jeszcze się nie skończy, a moment wypadnie w jej środku. Drugie znaczenie: coś i tak się wydarzy w normalnym biegu rzeczy — nikt tego teraz nie postanawia, nie obiecuje ani nie proponuje."
+    },
+    {
+      "step_pl": "pułapka",
+      "text_pl": "by + czas (by Friday, by then, by the time…) zwykle pyta, co będzie GOTOWE → Future Perfect. will be + V-ing zostaje tylko wtedy, gdy coś będzie wtedy akurat w toku. Decyzja w chwili mówienia, propozycja, obietnica, prośba → zwykłe will + V1. Czasowniki stanu (know, believe, understand, have = mieć) nie biorą -ing: this time tomorrow I'll know, nie I'll be knowing. A w zdaniu czasowym po when, while, as soon as nie ma will, nawet o przyszłości: when you arrive, while you're waiting."
     },
     {
       "step_pl": "forma",
-      "text_pl": "will be + V-ing: I'll be working."
+      "text_pl": "will be + V-ing, tak samo dla każdej osoby (I / she / they will be working). Skrót: 'll be. Przeczenie: won't be + V-ing. Pytanie: Will + podmiot + be + V-ing? Strony biernej w praktyce się nie używa."
     }
   ],
   "forms": {
@@ -54,9 +58,10 @@
           }
         ],
         "example": {
-          "en": "This time next week we'll be lying on a beach.",
-          "pl": "W przyszłym tygodniu o tej porze będziemy leżeć na plaży."
-        }
+          "en": "This time next week we'll be lying on a beach in Crete.",
+          "pl": "Za tydzień o tej porze będziemy leżeć na plaży na Krecie."
+        },
+        "note_pl": "Dwa klocki: will przenosi całość w przyszłość, a be + V-ing robi z tego czynność w toku — ten sam kawałek co w Present Continuous (am / is / are + V-ing) i Past Continuous (was / were + V-ing). Po will zawsze stoi bezokolicznik be, więc nie ma am / is / are i forma jest ta sama dla każdej osoby. Pisownia -ing jak zwykle: lie → lying, sit → sitting, w brytyjskim travel → travelling (w amerykańskim traveling). W brytyjskim, bardziej formalnie, z I / we spotkasz też shall be (We shall be landing shortly), ale will jest zawsze poprawne."
       },
       "negative": {
         "pattern": [
@@ -82,9 +87,10 @@
           }
         ],
         "example": {
-          "en": "I won't be using the car tonight, so you can take it.",
-          "pl": "Nie będę dziś wieczorem korzystać z auta, więc możesz je wziąć."
-        }
+          "en": "Sorry, I won't be coming to training tomorrow — I've got a dentist's appointment.",
+          "pl": "Przepraszam, nie będzie mnie jutro na treningu — mam wizytę u dentysty."
+        },
+        "note_pl": "not stoi zaraz po will, przed be. Skrót: won't be. won't be + V-ing to spokojna informacja o planach. Samo I won't come może zabrzmieć jak odmowa (nie przyjdę, bo nie chcę), bo will niesie też chęć i wolę, a will be + V-ing tego nie ma."
       },
       "question": {
         "pattern": [
@@ -110,9 +116,10 @@
           }
         ],
         "example": {
-          "en": "Will you be using the laptop tonight?",
-          "pl": "Będziesz dziś wieczorem korzystać z laptopa?"
-        }
+          "en": "Will you be watching the match tonight?",
+          "pl": "Będziesz dziś oglądać mecz?"
+        },
+        "note_pl": "Przed podmiot idzie tylko will, a be i V-ing zostają za nim. Krótka odpowiedź: Yes, I will. / No, I won't. To pytanie tylko o plany, więc brzmi delikatniej niż Will you + V1?, które często jest prośbą albo zaproszeniem: Will you watch it with me? = Obejrzysz ze mną?"
       },
       "whQuestion": {
         "pattern": [
@@ -142,56 +149,315 @@
           }
         ],
         "example": {
-          "en": "What will you be doing at 8 p.m. on Saturday?",
-          "pl": "Co będziesz robić w sobotę o 20?"
-        }
+          "en": "What will you be doing this time next week?",
+          "pl": "Co będziesz robić za tydzień o tej porze?"
+        },
+        "note_pl": "Gdy pytasz o podmiot (Who? What?), nie ma przestawienia: Who will be looking after the dog while you're away? Grzeczne pytanie o długość pobytu też ma tę formę: How long will you be staying?"
       }
     },
     "passive": null,
-    "passiveNote_pl": "Strona bierna (will be being + V3) prawie nie występuje — w praktyce zostajesz przy stronie czynnej albo używasz will be + V3."
+    "passiveNote_pl": "Bierna will be being + V3 (The room will be being cleaned at ten) jest gramatycznie możliwa, ale bardzo rzadka i brzmi ciężko — na maturze jej nie używaj. Gdy chcesz pokazać, że coś będzie w toku, przejdź na stronę czynną: They'll be cleaning the room at ten. Gdy wystarczy sam fakt, że coś się stanie, bierzesz zwykłą bierną od will: The room will be cleaned at ten."
   },
+  "modals": [
+    {
+      "modal": "might / may be",
+      "pattern": [
+        {
+          "text": "Subject",
+          "role": "subject"
+        },
+        {
+          "text": "might / may",
+          "role": "aux"
+        },
+        {
+          "text": "be",
+          "role": "aux"
+        },
+        {
+          "text": "V-ing",
+          "role": "verb"
+        }
+      ],
+      "example": {
+        "en": "This time next year I might be studying in Edinburgh.",
+        "pl": "Za rok o tej porze może będę studiować w Edynburgu."
+      },
+      "note_pl": "To nie jest Future Continuous, tylko struktura modalna z tym samym kawałkiem be + V-ing. Zamiast will (jestem pewny) stawiasz might albo may (możliwe, ale nie wiem na pewno). Dalej chodzi o czynność w toku w przyszłości."
+    },
+    {
+      "modal": "should be",
+      "pattern": [
+        {
+          "text": "Subject",
+          "role": "subject"
+        },
+        {
+          "text": "should",
+          "role": "aux"
+        },
+        {
+          "text": "be",
+          "role": "aux"
+        },
+        {
+          "text": "V-ing",
+          "role": "verb"
+        }
+      ],
+      "example": {
+        "en": "Don't worry, the guests should be arriving any minute now.",
+        "pl": "Spokojnie, goście powinni się zjawić lada chwila."
+      },
+      "note_pl": "Też struktura modalna z be + V-ing. should znaczy tu „tak powinno być według planu”, a nie radę: mówisz, czego się spodziewasz."
+    }
+  ],
   "uses": [
     {
-      "title_pl": "W trakcie w danym momencie przyszłości",
-      "explanation_pl": "O tej konkretnej porze czynność będzie trwała.",
+      "title_pl": "W trakcie w konkretnej chwili przyszłości",
+      "explanation_pl": "Podajesz chwilę w przyszłości (this time tomorrow, at 8 p.m. tonight, this time next year) i mówisz, co wtedy będzie TRWAŁO. Czynność zacznie się przed tą chwilą i w tej chwili jeszcze się nie skończy. To ten sam pomysł co w Past Continuous (At 8 p.m. yesterday I was studying), tylko przesunięty do przodu. Porównaj: At 8 p.m. I'll have dinner = kolacja zacznie się o 20. At 8 p.m. I'll be having dinner = o 20 będę w trakcie kolacji.",
       "examples": [
         {
-          "en": "At 10 a.m. tomorrow I'll be taking my English exam.",
-          "pl": "Jutro o 10 będę pisać egzamin z angielskiego."
+          "en": "This time tomorrow I'll be flying to Rome.",
+          "pl": "Jutro o tej porze będę leciał do Rzymu."
+        },
+        {
+          "en": "At 8 p.m. tonight we'll be watching the final at Kuba's, so don't call.",
+          "pl": "Dziś o 20 będziemy oglądać finał u Kuby, więc nie dzwoń."
+        },
+        {
+          "en": "This time next year I'll be studying at university.",
+          "pl": "Za rok o tej porze będę już studiować."
         }
       ]
     },
     {
-      "title_pl": "Uprzejme pytanie o plany",
-      "explanation_pl": "Pytasz o czyjeś plany, zanim o coś poprosisz.",
+      "title_pl": "Tło dla innego zdarzenia w przyszłości (when…)",
+      "explanation_pl": "Dłuższa czynność będzie w toku, kiedy wydarzy się coś krótkiego. Krótkie zdarzenie idzie po when w Present Simple (bez will, bo to zdanie czasowe), a to, co będzie trwało — w will be + V-ing. Układ jak w przeszłości (I was cooking when you arrived), tylko przesunięty do przodu. Gdy obie rzeczy będą trwały równocześnie, w zdaniu z while zwykle stoi Present Continuous (while you're painting), czasem Present Simple (while you're away, while you wait) — nigdy will, choć po polsku mówisz w przyszłym.",
       "examples": [
         {
-          "en": "Will you be going to the shops later? Could you get some milk?",
-          "pl": "Będziesz później w sklepie? Mógłbyś kupić mleko?"
+          "en": "When you get home, I'll probably be cooking dinner.",
+          "pl": "Kiedy wrócisz do domu, pewnie będę robić kolację."
+        },
+        {
+          "en": "Don't come at six — when you arrive, I'll still be getting ready.",
+          "pl": "Nie przychodź o szóstej — kiedy przyjdziesz, będę się jeszcze szykować."
+        },
+        {
+          "en": "While you're painting the kitchen, I'll be clearing out the garage.",
+          "pl": "Kiedy ty będziesz malować kuchnię, ja będę sprzątać garaż."
+        }
+      ]
+    },
+    {
+      "title_pl": "Coś, co i tak się wydarzy (nikt teraz nie postanawia)",
+      "explanation_pl": "will + V1 często brzmi jak decyzja podjęta teraz, propozycja albo obietnica. will be + V-ing mówi tylko, że coś wydarzy się w normalnym biegu rzeczy, niezależnie od tej rozmowy: tak wypada w planie dnia i nikt niczego teraz nie postanawia. Dlatego łatwo tym zaproponować pomoc tak, żeby nie brzmiało to jak przysługa ani kłopot: „i tak tam będę”. Tak samo brzmią oficjalne komunikaty, np. w samolocie i na dworcu. will + V1 zwykle też jest tu poprawne (The bus will go through Tarnów anyway), tylko mniej podkreśla, że to wypada samo.",
+      "examples": [
+        {
+          "en": "Our team bus will be going through Tarnów anyway, so we can drop you off at home.",
+          "pl": "Nasz autokar i tak będzie jechał przez Tarnów, więc możemy cię podrzucić pod dom."
+        },
+        {
+          "en": "I'll be passing the chemist's on my way home — do you need anything?",
+          "pl": "W drodze do domu będę przechodzić koło apteki — potrzebujesz czegoś?"
+        },
+        {
+          "en": "We will shortly be landing at Kraków Airport. Please fasten your seatbelts.",
+          "pl": "Za chwilę wylądujemy na lotnisku w Krakowie. Prosimy zapiąć pasy."
+        }
+      ]
+    },
+    {
+      "title_pl": "Grzeczne pytanie o plany (Will you be…?)",
+      "explanation_pl": "Will you + V1? często brzmi jak prośba albo zaproszenie: Will you come to the meeting? = Przyjdziesz? (chcę, żebyś przyszedł). Will you be + V-ing? pyta tylko o plany — nie naciskasz, więc rozmówca może spokojnie powiedzieć „nie”. Dlatego tak się pyta, zanim o coś poprosisz, i tak mówią recepcjoniści czy kelnerzy. Pytanie w Present Continuous (Are you using the car tonight?) też jest poprawne i często słyszane.",
+      "examples": [
+        {
+          "en": "Will you be using the car tonight? If not, could I borrow it?",
+          "pl": "Będziesz dziś wieczorem jeździć autem? Jeśli nie, mógłbym je pożyczyć?"
+        },
+        {
+          "en": "Will you be eating with us tonight, or are you going out?",
+          "pl": "Będziesz dziś jadł z nami, czy gdzieś wychodzisz?"
+        },
+        {
+          "en": "How long will you be staying with us, madam?",
+          "pl": "Na jak długo zatrzyma się pani u nas?"
+        }
+      ]
+    },
+    {
+      "title_pl": "Przypuszczenie, co dzieje się teraz",
+      "explanation_pl": "will bywa też przypuszczeniem o teraźniejszości: That'll be the postman (to pewnie listonosz). Z be + V-ing zgadujesz, co ktoś właśnie ROBI, choć tego nie widzisz. Po polsku dodajesz wtedy „pewnie”. Jeśli wiesz to na pewno (widzisz, słyszysz), wystarczy Present Continuous.",
+      "examples": [
+        {
+          "en": "Don't ring Grandma now — she'll be watching her favourite series.",
+          "pl": "Nie dzwoń teraz do babci — pewnie ogląda swój ulubiony serial."
+        },
+        {
+          "en": "It's half past eight, so the match will be starting about now.",
+          "pl": "Jest wpół do dziewiątej, więc mecz pewnie właśnie się zaczyna."
         }
       ]
     }
   ],
   "signalWords": [
     {
-      "word": "this time tomorrow"
+      "word": "this time tomorrow",
+      "note_pl": "jutro o tej porze. Uwaga: czasownik stanu zostaje w will + V1 (This time tomorrow I'll know the answer), a z by przed tym (by this time tomorrow) pytasz, co będzie gotowe → Future Perfect"
     },
     {
-      "word": "this time next week"
+      "word": "this time next week / this time next year",
+      "note_pl": "za tydzień / za rok o tej porze. Podobnie in a week's time (częściej w brytyjskim, w amerykańskim zwykle in a week), gdy mówisz, co wtedy będzie w toku: In a week's time we'll be skiing in the Tatras. Samo in a week's time nie wybiera formy (I'll ring you in a week's time). By this time next year → Future Perfect"
     },
     {
-      "word": "at 10 a.m. tomorrow"
+      "word": "at 8 p.m. tonight / at noon tomorrow",
+      "note_pl": "konkretna chwila: co wtedy będzie TRWAŁO? Jeśli coś się o tej godzinie zacznie albo stanie, to will + V1 (I'll ring you at noon tomorrow) albo Present Simple z rozkładu (The film starts at 8 p.m.). Umówione spotkanie o tej godzinie → najczęściej Present Continuous: I'm seeing the dentist at noon tomorrow"
     },
     {
-      "word": "all day tomorrow"
+      "word": "all day tomorrow / all weekend",
+      "note_pl": "przez cały dzień / weekend — podkreślasz, że będzie trwało. will + V1 też jest poprawne, gdy tylko stwierdzasz fakt"
+    },
+    {
+      "word": "when / while",
+      "note_pl": "przy dwóch zdarzeniach w przyszłości: krótkie po when w Present Simple (when you arrive), to, co będzie trwało, w will be + V-ing. W zdaniu czasowym po when i while nie ma will: while you're waiting, nie while you'll be waiting. Uwaga: w pytaniu zależnym (I don't know when…, I wonder when…) will zostaje: I don't know when she'll be arriving"
+    },
+    {
+      "word": "anyway",
+      "note_pl": "i tak — coś wydarzy się niezależnie od rozmowy: I'll be going into town anyway. will + V1 (I'll go into town anyway) też jest poprawne, will be + V-ing tylko mocniej pokazuje, że to wypada samo. Nie jest sygnałem anyway na początku zdania, gdy zmieniasz albo zamykasz temat: Anyway, how was your trip? (No dobra, a jak wycieczka?)"
+    },
+    {
+      "word": "Will you be…?",
+      "note_pl": "grzeczne pytanie o plany, często przed prośbą. Will you + V1? często jest prośbą albo zaproszeniem (Will you help me?), zwłaszcza gdy chodzi o coś, co zależy od woli rozmówcy"
     }
   ],
   "relatedTenses": [
     {
+      "id": "future-simple",
+      "relation_pl": "will + V1 to całe zdarzenie: decyzja w chwili mówienia, propozycja, obietnica, prośba albo zwykła prognoza. will be + V-ing to czynność w toku w danej chwili albo coś, co i tak się wydarzy, bez decyzji czy obietnicy w chwili mówienia. Pytanie kontrolne: czy ktoś tu coś postanawia albo o coś prosi? Tak → will + V1. Chodzi o to, co będzie trwało w danym momencie? → will be + V-ing. Czasowniki stanu (know, believe, understand) zostają w will + V1.",
+      "contrast": [
+        {
+          "en": "When Dad gets home, we'll watch the film.",
+          "pl": "Kiedy tata wróci, obejrzymy film (zaczniemy po jego powrocie)."
+        },
+        {
+          "en": "When Dad gets home, we'll be watching the film.",
+          "pl": "Kiedy tata wróci, będziemy akurat oglądać film (będziemy w trakcie)."
+        },
+        {
+          "en": "Will you come to my party?",
+          "pl": "Przyjdziesz na moją imprezę? (zaproszenie, chcę, żebyś przyszedł)"
+        },
+        {
+          "en": "Will you be coming to the party?",
+          "pl": "Będziesz na imprezie? (tylko pytam o plany)"
+        }
+      ]
+    },
+    {
       "id": "future-perfect",
-      "relation_pl": "Continuous — wtedy będzie w trakcie. Perfect — do tego czasu będzie już gotowe."
+      "relation_pl": "Oba patrzą na moment w przyszłości. Future Continuous: w tej chwili czynność będzie W TOKU. Future Perfect: do tej chwili będzie już GOTOWA. Sygnał by (by ten o'clock, by then, by the time…) zwykle prowadzi do Future Perfect, ale nie zawsze: gdy coś będzie wtedy akurat trwało, zostaje will be + V-ing (By the time I'm thirty, I'll be living abroad).",
+      "contrast": [
+        {
+          "en": "At noon we'll be climbing Giewont.",
+          "pl": "W południe będziemy akurat wchodzić na Giewont (w trakcie)."
+        },
+        {
+          "en": "By noon we'll have climbed Giewont.",
+          "pl": "Do południa wejdziemy na Giewont (będziemy już na szczycie)."
+        },
+        {
+          "en": "This time next year I'll be taking driving lessons.",
+          "pl": "Za rok o tej porze będę chodzić na jazdy (w trakcie kursu)."
+        },
+        {
+          "en": "By this time next year I'll have passed my driving test.",
+          "pl": "Za rok o tej porze będę już mieć zdane prawo jazdy (gotowe)."
+        }
+      ]
+    },
+    {
+      "id": "present-continuous",
+      "relation_pl": "Ten sam mechanizm be + V-ing, tylko will przesuwa go w przyszłość: am / is / are → will be. Przy planach obie formy często są poprawne: Present Continuous mówi o tym, co sam ustaliłeś (umówione, zapisane w kalendarzu), a will be + V-ing brzmi bardziej neutralnie — tak po prostu wypada. Gdy mówisz, co będzie w toku w konkretnej chwili przyszłości (this time tomorrow), bierzesz will be + V-ing. A w zdaniu czasowym po when i while zwykle Present Continuous zastępuje Future Continuous: while you're waiting.",
+      "contrast": [
+        {
+          "en": "Right now I'm revising for my chemistry test.",
+          "pl": "Teraz uczę się do sprawdzianu z chemii."
+        },
+        {
+          "en": "This time tomorrow I'll be revising for my chemistry test.",
+          "pl": "Jutro o tej porze będę się uczyć do sprawdzianu z chemii."
+        },
+        {
+          "en": "I'm meeting Ola at six — we've booked a table.",
+          "pl": "O szóstej spotykam się z Olą — zarezerwowaliśmy stolik (umówione)."
+        },
+        {
+          "en": "I'll be seeing Ola at school anyway, so I'll ask her.",
+          "pl": "I tak zobaczę Olę w szkole, więc ją zapytam (wydarzy się samo)."
+        }
+      ]
+    },
+    {
+      "id": "be-going-to",
+      "relation_pl": "be going to to zamiar (postanowiłeś wcześniej, chcesz to zrobić) albo przewidywanie z tego, co widzisz teraz. will be + V-ing nic nie mówi o zamiarze: pokazuje czynność w toku w danej chwili albo coś, co i tak się wydarzy. Istnieje też be going to be + V-ing i znaczy prawie to samo co will be + V-ing: This time tomorrow I'm going to be flying to Rome.",
+      "contrast": [
+        {
+          "en": "I'm going to see Kasia tomorrow — I want to apologise.",
+          "pl": "Jutro zamierzam pójść do Kasi — chcę ją przeprosić (zamiar, cel)."
+        },
+        {
+          "en": "I'll be seeing Kasia tomorrow anyway — shall I give her a message?",
+          "pl": "I tak jutro zobaczę Kasię — mam jej coś przekazać? (wydarzy się samo)"
+        },
+        {
+          "en": "This summer I'm going to learn to drive.",
+          "pl": "Tego lata zamierzam nauczyć się jeździć autem (postanowienie)."
+        },
+        {
+          "en": "This time next summer I'll be driving my own car.",
+          "pl": "Przyszłego lata o tej porze będę już jeździć własnym autem (w toku)."
+        }
+      ]
     }
   ],
-  "commonMistakes": [],
-  "maturaTips_pl": []
+  "commonMistakes": [
+    {
+      "wrong": "This time tomorrow I'll travel across the Alps by train.",
+      "right": "This time tomorrow I'll be travelling across the Alps by train.",
+      "why_pl": "this time tomorrow wskazuje chwilę, w której czynność będzie w toku → will be + V-ing. will + V1 pokazuje całe zdarzenie albo decyzję, a nie to, co będzie wtedy trwało."
+    },
+    {
+      "wrong": "At ten I will working on my project.",
+      "right": "At ten I will be working on my project.",
+      "why_pl": "Brakuje be. Forma z -ing zawsze potrzebuje be, a po will to be stoi w bezokoliczniku: will be working. Nie ma też will am working — po will nigdy nie stoi am / is / are."
+    },
+    {
+      "wrong": "When you'll arrive, I'll be waiting at the station.",
+      "right": "When you arrive, I'll be waiting at the station.",
+      "why_pl": "W zdaniu czasowym po when, while, as soon as, before, after i until nie ma will, nawet gdy chodzi o przyszłość. Przyszłość pokazuje już zdanie główne, więc w zdaniu czasowym stoi Present Simple albo Present Continuous (while you're waiting). Po polsku mówisz „kiedy przyjedziesz”, stąd błąd."
+    },
+    {
+      "wrong": "This time next month I'll be knowing which university I've got into.",
+      "right": "This time next month I'll know which university I've got into.",
+      "why_pl": "know to stan, a nie czynność. Stan nie ma „środka”, więc nie bierze -ing, nawet przy this time next month. Tak samo believe, understand, belong i have w znaczeniu „mieć”."
+    },
+    {
+      "wrong": "By the end of the week I'll be reading all five books.",
+      "right": "By the end of the week I'll have read all five books.",
+      "why_pl": "by + czas i liczba skończonych rzeczy (all five books) pytają o wynik: co będzie gotowe do tego czasu → Future Perfect (will have + V3). will be + V-ing pokazuje tylko czynność w toku i nie mówi, że coś jest skończone."
+    },
+    {
+      "wrong": "Someone's at the door! — Don't worry, I'll be getting it.",
+      "right": "Someone's at the door! — Don't worry, I'll get it.",
+      "why_pl": "To decyzja w chwili mówienia → will + V1. will be + V-ing nie wyraża decyzji ani propozycji: mówi, że coś będzie w toku albo i tak się wydarzy."
+    }
+  ],
+  "maturaTips_pl": [
+    "Przy this time tomorrow albo at + godzina w przyszłości zapytaj, co dzieje się w tej chwili. Czynność będzie w toku → will be + V-ing. Będzie gotowa (zwykle z by) → will have + V3. Dopiero się zacznie albo to rozkład → will + V1 albo Present Simple (The film starts at eight), a umówione spotkanie → najczęściej Present Continuous (I'm meeting Ola at eight).",
+    "Nie każde polskie „będę + -ć” to will be + V-ing. Obietnica „Będę do ciebie pisać codziennie” to I'll write to you every day (will + V1). Patrz na sens: czy chodzi o to, co będzie trwało w konkretnej chwili?",
+    "W formalnym liście will be + V-ing brzmi rzeczowo i grzecznie, gdy informujesz o swoich planach: I will be arriving on 15 July. Pytając o plany adresata, napisz Will you be…?, a nie Will you…?, które może zabrzmieć jak prośba.",
+    "Po when, while, as soon as, before i until nie ma will, choć po polsku jest czas przyszły: When you get there, we'll be having dinner. Zanim wpiszesz will w lukę, sprawdź, czy przed nią nie stoi jeden z tych spójników. Uwaga: chodzi tylko o zdanie czasowe. W pytaniu zależnym po I don't know, I wonder, Can you tell me will zostaje: I don't know when she'll be arriving. Test: jeśli when znaczy tu „o której, kiedy?” wewnątrz innego zdania, to pytanie zależne.",
+    "Czasowniki stanu (know, understand, believe, belong) zostają w will + V1 nawet przy this time tomorrow. Zanim dopiszesz -ing, zapytaj: czy ta czynność może mieć „środek”?",
+    "W mowie zależnej po said / told will be + V-ing zwykle cofa się do would be + V-ing, a określenie czasu też się zmienia: „I'll be working late tomorrow” → She said she would be working late the next day. Pytanie: „Will you be using the car tonight?” → He asked if I would be using the car that evening (szyk jak w zdaniu oznajmującym)."
+  ]
 }
