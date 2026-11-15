@@ -1,0 +1,524 @@
+[
+  {
+    "id": "pac-who-on-phone",
+    "type": "gap-fill",
+    "sentence": "Who ___ (you / talk) to on the phone when I came in? You hung up as soon as you saw me.",
+    "correct": ["were you talking"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "when I came in + You hung up as soon as you saw me — rozmowa jeszcze trwała, kiedy wszedłem."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Moje wejście to krótkie zdarzenie, które wpadło w środek rozmowy. Pytasz o czynność w toku w tamtej chwili → Past Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Who did you talk to znaczyłoby, że rozmowa zaczęła się dopiero po moim wejściu. had you been talking liczyłoby, jak długo rozmowa trwała przed moim wejściem, a tu nie ma for ani since. Pytasz tylko, z kim akurat rozmawiałeś."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Pytanie z Wh-: Who + were + you + V-ing, przyimek to zostaje na końcu → were you talking."
+      }
+    ],
+    "tags": ["past-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "pac-beach-this-time",
+    "type": "gap-fill",
+    "sentence": "This time last week we ___ (lie) on a beach in Crete, and now we're back at school.",
+    "correct": ["were lying"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "this time last week — dokładnie ta pora, tylko tydzień temu."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Zdanie mówi, co trwało w tamtej chwili. Leżenie na plaży było w toku → Past Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Pisownia: lie → lying (ie zmienia się w y), nie lieing. Nie pisz też laying — to od lay, czyli „kłaść coś”."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "we → were + V-ing → were lying."
+      }
+    ],
+    "tags": ["past-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "pac-shower-doorbell",
+    "type": "gap-fill",
+    "sentence": "Sorry I didn't open the door — I ___ (have) a shower when you rang the bell.",
+    "correct": ["was having"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "when you rang the bell — krótkie zdarzenie w Past Simple."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Prysznic już trwał, a dzwonek wpadł w jego środek. Dłuższe tło → Past Continuous, krótkie przerwanie → Past Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "I had a shower when you rang znaczyłoby: najpierw zadzwoniłeś, potem poszedłem pod prysznic. A have a shower to czynność (nie posiadanie), więc -ing jest w porządku."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "I → was + V-ing → was having."
+      }
+    ],
+    "tags": ["past-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "pac-dad-making-dinner",
+    "type": "gap-fill",
+    "sentence": "At about seven, while Dad ___ (make) dinner, Mum was helping my little brother with his maths homework.",
+    "correct": ["was making"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "at about seven + while + druga czynność w toku (was helping)."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Obie czynności trwały w tej samej chwili i żadna nie przerywa drugiej, więc obie są w Past Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Nie patrz tylko na while, patrz na at about seven: liczy się, co działo się w tej chwili. made pokazałoby całe gotowanie od początku do końca, a nie jego środek."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Dad (he) → was + V-ing. make traci e przed -ing → was making."
+      }
+    ],
+    "tags": ["past-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "pac-sleeping-midnight-call",
+    "type": "gap-fill",
+    "sentence": "___ (you / sleep) when I called you at midnight? I'm really sorry if I woke you up.",
+    "correct": ["Were you sleeping"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "when I called + if I woke you up — telefon mógł wpaść w środek snu."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz, co trwało w chwili telefonu → Past Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Did you sleep pytałoby, czy w ogóle spałeś (np. tej nocy albo czy dobrze), a nie co robiłeś akurat w chwili telefonu."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Pytanie: Were + you + V-ing. you zawsze z were → Were you sleeping."
+      }
+    ],
+    "tags": ["past-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "pac-tom-not-studying",
+    "type": "gap-fill",
+    "sentence": "At 3 a.m. the light in Tom's room was still on, but he ___ (not / study) — he was chatting with his friends online.",
+    "correct": ["was not studying"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "at 3 a.m. + druga część: he was chatting — czynność w toku w tej samej chwili."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "O 3 w nocy coś trwało, tylko nie nauka. Przeczenie dotyczy czynności w toku → Past Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "didn't study brzmiałoby jak fakt o całej nocy („w ogóle się nie uczył”), a tu chodzi o to, co działo się akurat o 3 — obok was chatting."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "he → was + not + V-ing. study zostawia y → was not studying (skrót: wasn't studying)."
+      }
+    ],
+    "tags": ["past-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "pac-balloons-surprise-party",
+    "type": "gap-fill",
+    "sentence": "While Kuba was setting up the speakers, the rest of us ___ (blow up) balloons, so when Zosia arrived an hour early, nothing was ready for her surprise party.",
+    "correct": ["were blowing up"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "While Kuba was setting up — w tym samym czasie działo się coś drugiego. so when Zosia arrived an hour early, nothing was ready — Zosia wpadła w środek przygotowań i nic nie było skończone."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Dwie czynności szły równolegle i żadna nie przerywa drugiej. Obie jeszcze trwały, kiedy przyszła Zosia, więc obie są w Past Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "while stoi przy pierwszej czynności, ale luka to druga, równoległa, i ona też trwała. blew up brzmiałoby jak skończone dmuchanie, czyli balony gotowe, a zdanie mówi, że nic nie było gotowe."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "the rest of us (= we) → were + V-ing, up zostaje za czasownikiem → were blowing up."
+      }
+    ],
+    "tags": ["past-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "pac-penalties-power-cut",
+    "type": "gap-fill",
+    "sentence": "We ___ (watch) the penalty shoot-out on TV when the power went off in the whole street, so we had to check the result on our phones.",
+    "correct": ["were watching"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "when the power went off — krótkie zdarzenie w Past Simple. so we had to check the result — końca karnych nie zobaczyliśmy."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Oglądanie już trwało, a brak prądu przerwał je w środku. Przerwana czynność → Past Continuous, to, co przerywa → Past Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "watched pokazałoby całe oglądanie od początku do końca, a końca nie widzieliśmy, skoro wynik sprawdzaliśmy w telefonach. Albo kolejność: najpierw wysiadł prąd, potem oglądaliśmy, a bez prądu się nie da."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "we → were + V-ing → were watching."
+      }
+    ],
+    "tags": ["past-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "pac-photo-fountain",
+    "type": "gap-fill",
+    "sentence": "What ___ (you / do) when this photo was taken? You look as if you're about to fall into the fountain!",
+    "correct": ["were you doing"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "when this photo was taken — jedno pstryknięcie, jedna chwila. You look as if you're about to fall — zdjęcie złapało cię w ruchu."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz, co akurat trwało w chwili robienia zdjęcia → Past Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "What did you do when the photo was taken? pytałoby, co zrobiłeś po zrobieniu zdjęcia (np. czy wpadłeś do fontanny). A tu chodzi o to, w trakcie czego złapał cię aparat."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Pytanie z Wh-: What + were + you + V-ing. do jest tu zwykłym czasownikiem, więc też dostaje -ing → were you doing."
+      }
+    ],
+    "tags": ["past-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "pac-cinema-not-raining",
+    "type": "gap-fill",
+    "sentence": "As we came out of the cinema at about ten, it ___ (not / rain) any more, so we decided to walk home instead of waiting for the bus.",
+    "correct": ["was not raining"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "As we came out of the cinema at about ten — konkretna chwila. any more — wcześniej padało."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "as znaczy tu „w chwili, gdy”. Wyjście z kina to krótkie zdarzenie, a w tle opisujesz pogodę w tej chwili: deszcz już nie trwał. Przeczenie czynności w toku → Past Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "didn't rain any more brzmi jak fakt o całym dalszym wieczorze, a decyzja zapadła po tym, co było widać przy wyjściu. hadn't rained znaczyłoby, że wcześniej w ogóle nie padało, a any more mówi, że padało."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "it → was + not + V-ing → was not raining (skrót: wasn't raining)."
+      }
+    ],
+    "tags": ["past-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "pac-hotel-room-cleaned",
+    "type": "gap-fill",
+    "sentence": "When we got to the hotel, our room ___ (still / clean), so we left our bags at reception and went for a walk.",
+    "correct": ["was still being cleaned"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "When we got to the hotel + still + so we left our bags — nie dało się jeszcze wejść."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Sprzątanie trwało w chwili przyjazdu → Past Continuous. Pokój nie sprząta sam, ktoś go sprząta → strona bierna."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Bez being (was cleaned) znika „w trakcie”: wychodzi całe sprzątanie jako jedno zdarzenie albo pokój już sprzątnięty, a wtedy moglibyśmy wejść. still i so we left our bags pokazują, że sprzątanie jeszcze trwało. A was still cleaning znaczyłoby, że to pokój coś sprzątał."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "was + still + being + V3 → was still being cleaned."
+      }
+    ],
+    "tags": ["past-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "pac-being-followed",
+    "type": "gap-fill",
+    "sentence": "I had the strange feeling that I ___ (follow), so I turned around, but the street was empty.",
+    "correct": ["was being followed"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "so I turned around — odwróciłem się, bo coś (moim zdaniem) działo się w tamtej chwili."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Śledzenie trwało w tym momencie → Past Continuous. To ktoś mnie śledził, nie ja kogoś → strona bierna."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "had been followed przesuwa śledzenie przed tamtą chwilę (ktoś mnie śledził wcześniej). A odwracam się, bo sprawdzam, czy ktoś idzie za mną właśnie wtedy → w toku, więc was being followed."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "was + being + V3 → was being followed."
+      }
+    ],
+    "tags": ["past-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "pac-meeting-ola-cancelled",
+    "type": "gap-fill",
+    "sentence": "I ___ (meet) Ola for coffee at five, but she texted me at the last minute to cancel.",
+    "correct": ["was meeting", "was going to meet"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "at five + but she texted me to cancel — plan, który się nie udał."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Spotkanie było ustalone w przeszłości, ale do niego nie doszło. To plan widziany z przeszłości, a nie zdarzenie."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "met nie pasuje, bo spotkania nie było. Ustalony plan → was meeting (jak I'm meeting, tylko cofnięte w przeszłość). Zamiar → was going to meet. Oba są poprawne."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "was + V-ing → was meeting albo was going to + V1 → was going to meet."
+      }
+    ],
+    "tags": ["past-continuous", "be-going-to"],
+    "difficulty": 3
+  },
+  {
+    "id": "pac-volleyball-three-hours",
+    "type": "gap-fill",
+    "sentence": "Yesterday we ___ (play) volleyball on the beach for three hours and then went for a pizza.",
+    "correct": ["played"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "yesterday + for three hours + and then went — zamknięty odcinek czasu, a po nim kolejne zdarzenie."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Granie zaczęło się i skończyło, potem była pizza. Całość od początku do końca, jedno po drugim → Past Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po polsku „graliśmy przez trzy godziny” kusi, żeby wpisać Continuous. Ale were playing pokazuje tylko środek czynności, a tu liczy się cały, zamknięty odcinek przed pizzą. Podana długość całej czynności zwykle idzie z Past Simple."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "play + -ed (y po samogłosce zostaje) → played."
+      }
+    ],
+    "tags": ["past-simple", "past-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "pac-not-know-what-to-say",
+    "type": "gap-fill",
+    "sentence": "At that moment I ___ (not / know) what to say, so I just smiled and nodded.",
+    "correct": ["did not know"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "At that moment — wygląda jak sygnał czynności w toku."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Ale know to stan (wiedza w głowie), a nie czynność. Stan nie ma „środka”, więc nie bierze -ing i zostaje w Past Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "wasn't knowing to błąd, choć po polsku „nie wiedziałem” brzmi jak coś, co trwało."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "did + not + V1 → did not know (skrót: didn't know)."
+      }
+    ],
+    "tags": ["past-simple", "past-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "pac-car-broke-down",
+    "type": "gap-fill",
+    "sentence": "While we were driving through the mountains, the car suddenly ___ (break) down.",
+    "correct": ["broke"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "While we were driving — tło w toku. suddenly — coś się nagle stało."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Awaria to krótkie zdarzenie, które przerwało jazdę → Past Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Samo while nie znaczy, że luka ma być w Continuous. while stoi przy tle (were driving), a luka to przerwanie."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "break – broke – broken (nieregularny) → broke."
+      }
+    ],
+    "tags": ["past-simple", "past-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "pac-midnight-rocket",
+    "type": "gap-fill",
+    "sentence": "At exactly midnight the first rocket ___ (explode) over the river, and everyone started hugging and wishing each other a happy new year.",
+    "correct": ["exploded"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "At exactly midnight — konkretna chwila, która kusi Continuous. and everyone started hugging — następne zdarzenie, po kolei."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Wybuch rakiety trwa ułamek sekundy, nie ma środka, w którym coś by się działo. O północy po prostu się wydarzył, a zaraz po nim ludzie zaczęli się przytulać → Past Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Sama godzina nie decyduje. at midnight we were dancing = o północy coś trwało; at midnight the rocket exploded = coś stało się dokładnie wtedy. was exploding brzmiałoby, jakby wybuch ciągnął się w czasie."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "explode + -d (regularny) → exploded."
+      }
+    ],
+    "tags": ["past-simple", "past-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "pac-kasia-already-eaten",
+    "type": "gap-fill",
+    "sentence": "When Kasia finally turned up, we ___ (already / eat) everything, so she had to make herself a sandwich.",
+    "correct": ["had already eaten"],
+    "accepted": ["'d already eaten"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "When Kasia finally turned up + already + so she had to make herself a sandwich."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Jedzenie skończyło się PRZED jej przyjściem i nic nie zostało. Przeszłość przed przeszłością → Past Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "were eating znaczyłoby, że byliśmy w trakcie jedzenia — wtedy coś by jeszcze zostało. Past Continuous = w trakcie, Past Perfect = już po."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had + already + V3. eat – ate – eaten → had already eaten."
+      }
+    ],
+    "tags": ["past-perfect", "past-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "pac-train-left-before",
+    "type": "gap-fill",
+    "sentence": "I got to the platform at ten past eight, but my train ___ (leave) ten minutes before, so I had to wait an hour for the next one.",
+    "correct": ["had left"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "at ten past eight + ten minutes before — dziesięć minut przed tamtą chwilą, czyli o ósmej."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Odjazd był wcześniej niż moje dotarcie na peron. Coś, co stało się przed inną chwilą w przeszłości → Past Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Konkretna godzina kusi Past Continuous, ale was leaving znaczyłoby, że pociąg akurat odjeżdżał, kiedy dotarłem. Uważaj też na before i ago: ten minutes ago liczy od teraz (Past Simple), ten minutes before liczy od chwili w przeszłości (Past Perfect)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had + V3. leave – left – left → had left."
+      }
+    ],
+    "tags": ["past-perfect", "past-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "pac-bus-waiting-hour",
+    "type": "gap-fill",
+    "sentence": "We ___ (wait) for over an hour when the bus finally came, so we were frozen.",
+    "correct": ["had been waiting", "had waited"],
+    "accepted": ["'d been waiting", "'d waited"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "for over an hour + when the bus finally came — liczysz czas DO chwili w przeszłości."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Czekanie trwało ponad godzinę aż do przyjazdu autobusu. Długość czegoś, co trwało do chwili w przeszłości → Past Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "were waiting pokazuje tylko, co trwało w danej chwili, i nie liczy czasu do niej (for over an hour). had waited też jest poprawne, ale Continuous lepiej podkreśla samo czekanie."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "had + been + V-ing → had been waiting."
+      }
+    ],
+    "tags": ["past-perfect-continuous", "past-perfect", "past-continuous"],
+    "difficulty": 3
+  }
+]
