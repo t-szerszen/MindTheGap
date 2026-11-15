@@ -1,0 +1,524 @@
+[
+  {
+    "id": "ppc-cinema-since-half-six",
+    "type": "gap-fill",
+    "sentence": "Where are you? I ___ (wait) outside the cinema since half past six, and the film starts in five minutes!",
+    "correct": ["have been waiting"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "since half past six — od wpół do siódmej, czyli od punktu w przeszłości. Where are you? — czekanie dalej trwa."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Czekanie zaczęło się o 18.30 i trwa aż do teraz → Present Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po polsku „czekam od wpół do siódmej” jest w teraźniejszym, ale I am waiting since… to błąd: Present Continuous nie liczy czasu od przeszłości. wait to czynność w toku, więc naturalnie brzmi forma ciągła, a nie have waited."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "I + have + been + V-ing → have been waiting."
+      }
+    ],
+    "tags": ["present-perfect-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "ppc-concert-queue-how-long",
+    "type": "gap-fill",
+    "sentence": "How long ___ (they / queue) for these concert tickets? The queue goes right round the block!",
+    "correct": ["have they been queuing"],
+    "accepted": ["have they been queueing"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "How long…? i The queue goes… (teraz) — ludzie dalej stoją w kolejce."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz o czas od chwili, gdy stanęli, aż do teraz → Present Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "for these concert tickets to nie okres, tylko „po bilety” — to for niczego nie liczy. How long are they queuing? to błąd: How long w znaczeniu „od jak dawna” wymaga have been. queue to słowo brytyjskie, Amerykanin powie wait in line. Pisownia queuing i queueing — obie są poprawne."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "have + they + been + V-ing → have they been queuing."
+      }
+    ],
+    "tags": ["present-perfect-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "ppc-pouring-since-friday",
+    "type": "gap-fill",
+    "sentence": "It ___ (pour) since Friday night, and the river in the town centre is getting dangerously high.",
+    "correct": ["has been pouring"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "since Friday night — od piątkowej nocy. is getting dangerously high — poziom rzeki rośnie teraz, czyli ulewa dalej trwa."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Ulewa zaczęła się w piątek w nocy i trwa aż do teraz → Present Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Friday night kusi Past Simple, ale stoi po since, więc liczy czas od tamtej chwili do teraz. it's pouring znaczy „leje”, ale samo it is pouring since… to błąd: Present Continuous nie liczy czasu od przeszłości."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "it → has + been + V-ing → has been pouring."
+      }
+    ],
+    "tags": ["present-perfect-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "ppc-dad-coffee-lately",
+    "type": "gap-fill",
+    "sentence": "Dad ___ (try) to give up coffee lately, which is why he's so grumpy in the mornings.",
+    "correct": ["has been trying"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "lately — ostatnio, czyli okres od niedawna do teraz. he's so grumpy in the mornings — skutek widać teraz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Rzucanie kawy zaczęło się niedawno i wciąż trwa: tata dalej się powstrzymuje i dlatego rano jest nie w sosie. Czynność od niedawna do teraz → Present Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po polsku „ostatnio próbuje” jest w teraźniejszym, ale lately obejmuje okres aż do teraz i łączy się z formą Perfect, więc nie is trying. has tried brzmiałoby jak zamknięty fakt („spróbował”, może bez skutku), a tu wysiłek jeszcze trwa."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Dad = he → has + been + V-ing → has been trying."
+      }
+    ],
+    "tags": ["present-perfect-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "ppc-zosia-chatting-phone",
+    "type": "gap-fill",
+    "sentence": "Can you tell Zosia to get off the phone? She ___ (chat) to her best friend for over two hours, and I need to ring Grandma.",
+    "correct": ["has been chatting"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "for over two hours i get off the phone — rozmowa dalej trwa."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Rozmowa zaczęła się ponad dwie godziny temu i trwa do teraz. Liczysz, jak długo → Present Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po polsku „gada od ponad dwóch godzin” jest w teraźniejszym, ale she is chatting for two hours to błąd. chat to i ring to brytyjskie, po amerykańsku częściej chat with i call."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "she → has + been + V-ing → has been chatting (chat → chatting: podwajasz t)."
+      }
+    ],
+    "tags": ["present-perfect-continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "ppc-room-all-this-time",
+    "type": "gap-fill",
+    "sentence": "Open the door! You've hardly left your room since breakfast — what ___ (you / do) in there all this time?",
+    "correct": ["have you been doing"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Open the door! — rozmówca dalej siedzi w pokoju. since breakfast i all this time — cały czas od śniadania do teraz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Pytasz o czynność, która wypełniała cały ten okres aż do teraz → Present Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "What have you done? pytałoby o efekt (co zrobiłeś, co jest gotowe) i często brzmi jak „co ty narobiłeś?”. What are you doing? pytałoby tylko o tę chwilę, a nie o cały czas od śniadania. What were you doing? też odpada: mówisz przez zamknięte drzwi, więc pobyt w pokoju jeszcze się nie skończył."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "what + have + you + been + V-ing → have you been doing."
+      }
+    ],
+    "tags": ["present-perfect-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "ppc-translating-article",
+    "type": "gap-fill",
+    "sentence": "I ___ (translate) this article since lunchtime, and I'm still only on the second page.",
+    "correct": ["have been translating"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "since lunchtime i I'm still only on the second page — od obiadu do teraz, a praca jeszcze trwa."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Tłumaczenie zaczęło się w przeszłości i się nie skończyło. Liczy się czynność i jej czas → Present Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "I have translated this article znaczyłoby, że tłumaczenie jest gotowe — a ty jesteś dopiero na drugiej stronie. have + V3 to wynik, have been + V-ing to czynność, która mogła się jeszcze nie skończyć."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "I + have + been + V-ing → have been translating."
+      }
+    ],
+    "tags": ["present-perfect-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "ppc-mrs-lis-retiring",
+    "type": "gap-fill",
+    "sentence": "Mrs Lis is retiring in June. She ___ (teach) chemistry at our school for over thirty years, so we're organising a big farewell party for her.",
+    "correct": ["has been teaching", "has taught"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "for over thirty years i is retiring in June — dalej uczy, odejdzie dopiero w czerwcu."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Uczenie zaczęło się ponad trzydzieści lat temu i trwa do teraz → Present Perfect Continuous albo Present Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "teach działa jak live, work i study: przy for / since oba czasy są poprawne i znaczą prawie to samo. Past Simple (taught) byłby błędem, bo ona jeszcze nie odeszła."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "she → has + been + V-ing → has been teaching; albo has + V3 (teach – taught – taught) → has taught."
+      }
+    ],
+    "tags": ["present-perfect-continuous", "present-perfect"],
+    "difficulty": 2
+  },
+  {
+    "id": "ppc-sister-moaning-boss",
+    "type": "gap-fill",
+    "sentence": "Ever since my sister started her new job, she ___ (moan) about her boss non-stop.",
+    "correct": ["has been moaning"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Ever since my sister started… — od chwili, gdy zaczęła pracę, aż do teraz. non-stop — bez przerwy."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Narzekanie zaczęło się w przeszłości i ciągnie się do dziś → Present Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Po since stoi Past Simple (started), bo to punkt startowy, jeden moment. Ale zdanie główne liczy czas od tego punktu do teraz, więc ani moans, ani moaned. moan to potoczne brytyjskie „marudzić, narzekać”."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "she → has + been + V-ing → has been moaning."
+      }
+    ],
+    "tags": ["present-perfect-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "ppc-baby-not-crying-long",
+    "type": "gap-fill",
+    "sentence": "Can you hear the baby? Don't worry, he ___ (not / cry) for long — he was fast asleep when I last checked on him, and that was only five minutes ago.",
+    "correct": ["has not been crying"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Can you hear the baby? — płacz słychać teraz. he was fast asleep… only five minutes ago — pięć minut temu jeszcze spał."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Płacz zaczął się najwyżej pięć minut temu i trwa do teraz. Mówisz, że ta czynność NIE trwa jeszcze długo → Present Perfect Continuous w przeczeniu."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "hasn't cried for long tu nie pasuje: przeczenie w Present Perfect z for zwykle mówi, ile czasu minęło od ostatniego razu (I haven't cried for years = od lat nie płakałem). won't cry for long byłoby przewidywaniem, a uzasadnienie (pięć minut temu jeszcze spał) mówi, ile płacz już trwa. didn't cry for long odpada, bo płacz słychać teraz, a isn't crying for long to błąd: Present Continuous nie liczy czasu do teraz."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "he → has + not + been + V-ing → has not been crying (hasn't been crying)."
+      }
+    ],
+    "tags": ["present-perfect-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "ppc-flat-looking-three-months",
+    "type": "gap-fill",
+    "sentence": "We ___ (look) for a flat to rent for three months, but everything near the university is far too expensive.",
+    "correct": ["have been looking"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "for three months — okres. but everything… is far too expensive — dalej szukacie."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Szukanie zaczęło się trzy miesiące temu i trwa do teraz → Present Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "W zdaniu są dwa for. look for = szukać — to for niczego nie liczy. Czas liczy dopiero for three months. Po polsku „szukamy od trzech miesięcy” jest w teraźniejszym, ale we are looking… for three months to błąd. flat to brytyjskie „mieszkanie”, po amerykańsku apartment."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "we → have + been + V-ing → have been looking."
+      }
+    ],
+    "tags": ["present-perfect-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "ppc-how-long-going-out",
+    "type": "gap-fill",
+    "sentence": "Do you know how long Zuza ___ (go out) with Tymek? I only found out about them yesterday.",
+    "correct": ["has been going out"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "how long — od jak dawna, aż do teraz. I only found out about them yesterday — są parą także teraz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Chodzenie ze sobą zaczęło się w przeszłości i trwa do teraz → Present Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "To pytanie pośrednie (Do you know how long…?), więc po how long szyk jest jak w zdaniu oznajmującym: how long Zuza has been going out, a nie how long has Zuza been going out. go out with = chodzić z kimś, być parą. is going out odpada, bo how long liczy tu czas do teraz."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Zuza = she → has + been + V-ing + out → has been going out."
+      }
+    ],
+    "tags": ["present-perfect-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "ppc-who-awful-music",
+    "type": "gap-fill",
+    "sentence": "Who ___ (play) that awful music all morning? I can't hear myself think!",
+    "correct": ["has been playing"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "all morning i I can't hear myself think — muzyka gra od rana i dalej ją słychać."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Czynność trwa od rana do teraz → Present Perfect Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "Who is playing…? pasuje tylko do samej chwili, a all morning liczy czas od rana, więc Present Continuous odpada. Who jest tu podmiotem (kto gra?), więc nie ma przestawienia szyku, a Who traktujesz jak he / she → has, nie have."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "who + has + been + V-ing → has been playing."
+      }
+    ],
+    "tags": ["present-perfect-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "ppc-kuba-eleven-goals",
+    "type": "gap-fill",
+    "sentence": "Since the start of the season, Kuba ___ (score) eleven goals for our school team, and we're only halfway through it.",
+    "correct": ["has scored"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Since the start of the season — okres do teraz, a sezon jeszcze trwa. Ale ważniejsze jest eleven goals — liczba."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Liczysz, ile goli jest już strzelonych od początku sezonu do teraz. Liczba gotowych rzeczy to wynik → Present Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "since kusi has been scoring, ale forma ciągła mówi o samej czynności i nie łączy się z liczbą gotowych rzeczy. He's been playing really well lately byłoby dobrze — bez liczby. Past Simple (scored) też odpada, bo sezon się nie skończył."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Kuba = he → has + V3 (score – scored – scored) → has scored."
+      }
+    ],
+    "tags": ["present-perfect", "present-perfect-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "ppc-fence-at-last",
+    "type": "gap-fill",
+    "sentence": "At last! I ___ (paint) the whole fence — it's taken me three weekends, but it looks brilliant now.",
+    "correct": ["have painted"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "At last! i the whole fence — całość skończona. it looks brilliant now — efekt widać teraz."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Malowanie jest zakończone, a liczy się wynik teraz → Present Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "three weekends kusi have been painting, ale forma ciągła znaczyłaby, że wciąż malujesz albo że liczy się sama czynność (np. tłumaczysz, skąd masz farbę na rękach). Tu cieszysz się z gotowego płotu."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "I + have + V3 (paint – painted – painted) → have painted."
+      }
+    ],
+    "tags": ["present-perfect", "present-perfect-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "ppc-farmhouse-belonged",
+    "type": "gap-fill",
+    "sentence": "This farmhouse ___ (belong) to my mum's family for over a hundred and fifty years, and nobody wants to sell it.",
+    "correct": ["has belonged"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "for over a hundred and fifty years — okres od przeszłości do teraz. nobody wants to sell it — dom dalej należy do rodziny."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Stan zaczął się w przeszłości i trwa do teraz → forma Perfect."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "belong to czasownik stanu, a stan nie bierze -ing — także tu, więc nie has been belonging, tylko Present Perfect. Po polsku „należy od 150 lat” jest w teraźniejszym, ale belongs for 150 years też jest błędem."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "the farmhouse = it → has + V3 → has belonged."
+      }
+    ],
+    "tags": ["present-perfect", "present-perfect-continuous"],
+    "difficulty": 3
+  },
+  {
+    "id": "ppc-pool-closed-since-march",
+    "type": "gap-fill",
+    "sentence": "The swimming pool near our school ___ (close) since March because of a leak in the roof, so all our PE lessons are outdoors now.",
+    "correct": ["has been closed"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "since March — od marca do teraz. so all our PE lessons are outdoors now — basen dalej jest nieczynny."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Basen jest zamknięty od marca i to trwa. Stan od przeszłości do teraz → Present Perfect od be: has been + closed."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "since kusi has been closing, ale to znaczyłoby, że basen ciągle jest „w trakcie zamykania się”. Tu closed to stan (zamknięty), jak w The pool is closed. Po polsku „jest zamknięty od marca” jest w teraźniejszym, ale is closed since March to błąd."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "the pool = it → has + been + closed → has been closed."
+      }
+    ],
+    "tags": ["present-perfect", "present-perfect-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "ppc-brother-saving-iceland",
+    "type": "gap-fill",
+    "sentence": "My brother ___ (save up) for a trip to Iceland at the moment, so he hardly ever goes out with his friends.",
+    "correct": ["is saving up"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "at the moment — w tym okresie, na razie."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Odkładanie pieniędzy trwa teraz i jest tymczasowe (do wyjazdu). Nie liczysz, od kiedy → Present Continuous."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "for nie liczy tu czasu: save up for = odkładać na coś. Bez okresu (for two months, since…) nie ma powodu do have been, a has been saving up z at the moment się gryzie, bo at the moment patrzy tylko na teraz."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "he → is + V-ing + up → is saving up (nieme -e znika)."
+      }
+    ],
+    "tags": ["present-continuous", "present-perfect-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "ppc-bartek-bike-after-accident",
+    "type": "gap-fill",
+    "sentence": "After his accident, Bartek ___ (not / ride) a bike for over a year, but now he cycles to school every day.",
+    "correct": ["did not ride"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "for over a year — okres. but now he cycles to school every day — dziś już jeździ, więc tamten okres się zamknął."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Przerwa w jeżdżeniu zaczęła się po wypadku i skończyła się w przeszłości, ponad rok później. Zamknięty okres, nawet z podaną długością → Past Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "for over a year i przeczenie kuszą hasn't ridden albo hasn't been riding. Ale forma Perfect liczy czas aż do teraz i znaczyłaby, że Bartek dalej nie jeździ, a on jeździ codziennie. Past Perfect też odpada: nie ma późniejszego momentu w przeszłości, do którego coś liczysz."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "did + not + V1 → did not ride (didn't ride). ride – rode – ridden, ale po did zawsze V1."
+      }
+    ],
+    "tags": ["past-simple", "present-perfect-continuous"],
+    "difficulty": 2
+  },
+  {
+    "id": "ppc-kacper-piano-every-day",
+    "type": "gap-fill",
+    "sentence": "Kacper ___ (practise) the piano for forty-five minutes every day after school, and his mum always sets a timer so that he doesn't stop early.",
+    "correct": ["practises"],
+    "accepted": ["practices"],
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "every day after school i his mum always sets a timer — tak jest zawsze, codziennie."
+      },
+      {
+        "label_pl": "relacja w czasie",
+        "text_pl": "Ćwiczenie na pianinie to stały nawyk, który się powtarza → Present Simple."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "for forty-five minutes kusi has been practising, ale to for mówi, ile trwa jedno codzienne ćwiczenie, a nie liczy czasu od przeszłości do teraz. Od jak dawna ćwiczy? → has been practising since… Ile trwa jedno ćwiczenie? → Present Simple."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Kacper = he → practise + -s → practises. practise to brytyjska pisownia czasownika, po amerykańsku practice → practices."
+      }
+    ],
+    "tags": ["present-simple", "present-perfect-continuous"],
+    "difficulty": 2
+  }
+]
