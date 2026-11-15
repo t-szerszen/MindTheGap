@@ -608,6 +608,8 @@ export const pl = {
     check: 'Sprawdź wszystko',
     score: (good: number, total: number) => `${good} / ${total} pkt`,
     again: 'Od nowa',
+    timer: 'zegar',
+    took: (time: string) => `czas ${time}`,
     notSaved: 'Nie jesteś zalogowany — wynik nie trafi do postępu.',
   },
   exam: {

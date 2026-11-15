@@ -10,6 +10,7 @@ import { addAttempt } from '../../lib/db/attempts'
 import { addMockResult } from '../../lib/db/mocks'
 import { gradeExercise, partKeys } from '../../lib/exercises/check'
 import { buildMock, partsFromIds, total, type MockPart } from '../../lib/exercises/mock'
+import { formatClock } from '../../lib/clock'
 import { useAuth } from '../auth/useAuth'
 import { ExerciseItem } from '../exercises/ExerciseItem'
 
@@ -37,10 +38,6 @@ export function ExamRunPage() {
     )
   // key z lokacji: „Nowy arkusz” z tym samym adresem losuje od nowa
   return <Run key={key} build={build} setId={mock?.id ?? 'random'} title={mock?.title_pl} />
-}
-
-function fmt(s: number) {
-  return `${String(Math.floor(s / 60)).padStart(2, '0')}:${String(s % 60).padStart(2, '0')}`
 }
 
 function Run({
@@ -111,7 +108,7 @@ function Run({
           <div className="hdr">
             <h1 className="h-l">{title ?? t.random}</h1>
             <span className={`hand exam-time${seconds > TARGET ? ' red' : ''}`} aria-label={t.time}>
-              {fmt(seconds)}
+              {formatClock(seconds)}
             </span>
           </div>
           <p className="note ink small">{t.timeHint}</p>

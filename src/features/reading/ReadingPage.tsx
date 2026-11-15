@@ -1,12 +1,13 @@
-import { Fragment, useState, type ReactNode } from 'react'
+import { Fragment, useEffect, useState, type ReactNode } from 'react'
 import { Link, useParams } from 'react-router'
-import { Button } from '../../components/Controls'
+import { Button, TagButton } from '../../components/Controls'
 import { Icon } from '../../components/Icon'
 import { Mark } from '../../components/Ink'
 import { NotFound } from '../../components/States'
 import type { ReadingSet, ReadingTask } from '../../content/schema'
 import { pl } from '../../i18n/pl'
 import { countWords } from '../../lib/answers/words'
+import { formatClock } from '../../lib/clock'
 import { useReadingSets } from '../../lib/content'
 import { addAttempt } from '../../lib/db/attempts'
 import {
@@ -36,6 +37,14 @@ function Reading({ set }: { set: ReadingSet }) {
   const { user } = useAuth()
   const [answers, setAnswers] = useState<Record<string, string>>({})
   const [checked, setChecked] = useState(false)
+  // zegar domyślnie wyłączony: czytanie ma być spokojne, chyba że ktoś chce się sprawdzić na czas
+  const [timer, setTimer] = useState(false)
+  const [seconds, setSeconds] = useState(0)
+  useEffect(() => {
+    if (!timer || checked) return
+    const id = setInterval(() => setSeconds((s) => s + 1), 1000)
+    return () => clearInterval(id)
+  }, [timer, checked])
   const get = (k: string) => answers[k] ?? ''
   const results = checked ? gradeReading(set, get) : null
   const res = (k: string) => results?.find((r) => r.key === k)
@@ -80,9 +89,22 @@ function Reading({ set }: { set: ReadingSet }) {
             {set.examTask ? t.examTask(set.examTask) : t.genres[set.texts[0]!.genre]} ·{' '}
             {pl.themes[set.theme]} · {t.points(total)}
           </p>
-          <h1 className="h-l" lang="en">
-            {set.title}
-          </h1>
+          <div className="hdr">
+            <h1 className="h-l" lang="en">
+              {set.title}
+            </h1>
+            <TagButton
+              pressed={timer}
+              onClick={() => {
+                setTimer(!timer)
+                setSeconds(0)
+              }}
+            >
+              <Icon name="clock" size="s" />
+              {timer && <span className="sr-only">{t.timer}</span>}
+              <span className="reading-clock">{timer ? formatClock(seconds) : t.timer}</span>
+            </TagButton>
+          </div>
         </header>
 
         {set.texts.map((text, xi) => (
@@ -160,11 +182,15 @@ function Reading({ set }: { set: ReadingSet }) {
         <div className="stack" style={{ gap: 8, marginTop: 18 }}>
           {results ? (
             <>
-              <p className="h-m">{t.score(results.filter((r) => r.ok).length, results.length)}</p>
+              <p className="h-m">
+                {t.score(results.filter((r) => r.ok).length, results.length)}
+                {timer && <span className="note ink"> · {t.took(formatClock(seconds))}</span>}
+              </p>
               <Button
                 onClick={() => {
                   setAnswers({})
                   setChecked(false)
+                  setSeconds(0)
                 }}
               >
                 {t.again}
