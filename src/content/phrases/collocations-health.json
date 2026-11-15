@@ -1,0 +1,249 @@
+{
+  "id": "collocations-health",
+  "category": "collocations",
+  "title_pl": "Kolokacje: zdrowie",
+  "items": [
+    {
+      "en": "catch a cold",
+      "pl": "przeziębić się",
+      "meaning_pl": "cold to tu policzalne przeziębienie, więc a cold; sam stan to have a cold. Uwaga: I'm cold znaczy 'zimno mi', a nie 'jestem przeziębiony'. Z grypą: catch flu albo catch the flu",
+      "example": {
+        "en": "I caught a cold after waiting for the bus in the rain without a jacket.",
+        "pl": "Przeziębiłem się po tym, jak czekałem na autobus w deszczu bez kurtki."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "choroby"]
+    },
+    {
+      "en": "a sore throat",
+      "pl": "ból gardła",
+      "meaning_pl": "sore to bolący, podrażniony: sore throat, sore eyes, sore muscles. Końcówka -ache pasuje do head, tooth, stomach, back, ear, ale z gardłem mówimy sore throat",
+      "example": {
+        "en": "I've had a sore throat since Monday, so I'm drinking lots of tea with honey.",
+        "pl": "Od poniedziałku boli mnie gardło, więc piję dużo herbaty z miodem."
+      },
+      "register": "neutral",
+      "tags": ["adj+noun", "objawy"]
+    },
+    {
+      "en": "a splitting headache",
+      "pl": "rozsadzający ból głowy",
+      "meaning_pl": "splitting dosłownie 'rozłupujący', czyli bardzo silny ból; headache jest policzalne, więc a headache, have a headache",
+      "example": {
+        "en": "After six hours of revising in a stuffy room, I had a splitting headache.",
+        "pl": "Po sześciu godzinach powtórek w dusznym pokoju głowa mi pękała."
+      },
+      "register": "neutral",
+      "tags": ["adj+noun", "objawy"]
+    },
+    {
+      "en": "feel sick",
+      "pl": "mieć mdłości, być niedobrze",
+      "meaning_pl": "pułapka: w brytyjskim angielskim feel sick to przede wszystkim mdłości, a be sick to wymiotować. Ogólnie chory to ill: I feel ill, she's ill. Przed rzeczownikiem pasuje sick: a sick child, sick leave",
+      "example": {
+        "en": "The ferry was rocking so much that half the passengers felt sick.",
+        "pl": "Prom tak się kołysał, że połowa pasażerów miała mdłości."
+      },
+      "register": "neutral",
+      "tags": ["verb+adj", "objawy", "pułapka"]
+    },
+    {
+      "en": "be seriously ill",
+      "pl": "być ciężko chorym",
+      "meaning_pl": "polskie 'ciężko chory' to seriously ill, nie heavily ill. Mocniej: critically ill (stan krytyczny), terminally ill (nieuleczalnie chory). Tak samo z urazami: seriously injured",
+      "example": {
+        "en": "When her grandfather became seriously ill, she visited him in hospital every weekend.",
+        "pl": "Kiedy jej dziadek ciężko zachorował, odwiedzała go w szpitalu w każdy weekend."
+      },
+      "register": "neutral",
+      "tags": ["adverb+adj", "choroby", "pułapka"]
+    },
+    {
+      "en": "see a doctor",
+      "pl": "pójść do lekarza",
+      "meaning_pl": "see znaczy tu 'pójść do kogoś po poradę'; po brytyjsku też go to the doctor's (z 's, bo chodzi o gabinet). Lekarz rodzinny w Wielkiej Brytanii to GP",
+      "example": {
+        "en": "If the pain doesn't go away in a few days, you should see a doctor.",
+        "pl": "Jeśli ból nie minie w ciągu kilku dni, powinieneś pójść do lekarza."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "leczenie"]
+    },
+    {
+      "en": "take medicine / medication",
+      "pl": "brać leki",
+      "meaning_pl": "leki się bierze (take), nawet syrop, a nie pije (drink). medicine w znaczeniu 'lekarstwo' zwykle niepoliczalne: some medicine. medication brzmi bardziej oficjalnie, a be on medication to brać leki na stałe",
+      "example": {
+        "en": "You shouldn't take any medicine without reading the leaflet first.",
+        "pl": "Nie powinieneś brać żadnych leków bez wcześniejszego przeczytania ulotki."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "leczenie", "pułapka"]
+    },
+    {
+      "en": "side effects",
+      "pl": "skutki uboczne",
+      "meaning_pl": "prawie zawsze w liczbie mnogiej; typowo have / cause side effects, serious side effects. Działa też w przenośni: skutek uboczny decyzji albo zmiany",
+      "example": {
+        "en": "Like most drugs, this one can cause side effects such as headaches and tiredness.",
+        "pl": "Jak większość leków, ten może wywoływać skutki uboczne, na przykład bóle głowy i zmęczenie."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "leczenie", "rozprawka"]
+    },
+    {
+      "en": "be in hospital / be taken to hospital",
+      "pl": "leżeć w szpitalu / zostać zabranym do szpitala",
+      "meaning_pl": "po brytyjsku bez przedimka, kiedy chodzi o pacjenta: be in hospital, go into hospital, be taken to hospital; formalnie be admitted to hospital. Amerykanie mówią in the hospital",
+      "example": {
+        "en": "After the accident, the cyclist was taken to hospital with a broken arm.",
+        "pl": "Po wypadku rowerzystę zabrano do szpitala ze złamaną ręką."
+      },
+      "register": "neutral",
+      "tags": ["prep+noun", "leczenie", "brytyjski"]
+    },
+    {
+      "en": "have an operation (on sth)",
+      "pl": "przejść operację (czegoś)",
+      "meaning_pl": "pacjent has an operation, a lekarz performs an operation albo operates on sb; nie make an operation. Operowane miejsce po on: an operation on my knee. Formalnie: undergo surgery",
+      "example": {
+        "en": "My brother had an operation on his knee after a skiing accident.",
+        "pl": "Mój brat przeszedł operację kolana po wypadku na nartach."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "leczenie"]
+    },
+    {
+      "en": "make a full recovery (from sth)",
+      "pl": "całkowicie wrócić do zdrowia (po czymś)",
+      "meaning_pl": "recovery to rzeczownik od recover; z nim czasownik make, nie do. Sam czasownik też łączy się z from: recover from an illness",
+      "example": {
+        "en": "She broke her leg last winter, but she has made a full recovery.",
+        "pl": "Zeszłej zimy złamała nogę, ale całkowicie wróciła do zdrowia."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "leczenie"]
+    },
+    {
+      "en": "sprain / break your ankle",
+      "pl": "skręcić / złamać kostkę",
+      "meaning_pl": "po angielsku z zaimkiem dzierżawczym: I sprained my ankle, a nie the ankle, choć po polsku mówimy samo 'skręciłem kostkę'. Tak samo break your leg / arm. Uwaga: Break a leg! to idiom 'połamania nóg' przed występem",
+      "example": {
+        "en": "She sprained her ankle during the match and couldn't train for two weeks.",
+        "pl": "Skręciła kostkę podczas meczu i przez dwa tygodnie nie mogła trenować."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "urazy", "sport"]
+    },
+    {
+      "en": "a chronic illness",
+      "pl": "przewlekła choroba",
+      "meaning_pl": "chronic to przewlekły, czyli trwający długo albo wracający; przeciwieństwo to acute (ostry). Pasuje też do disease i pain: chronic disease, chronic pain",
+      "example": {
+        "en": "Living with a chronic illness such as diabetes often means taking medication every day.",
+        "pl": "Życie z przewlekłą chorobą, taką jak cukrzyca, często oznacza codzienne branie leków."
+      },
+      "register": "neutral",
+      "tags": ["adj+noun", "choroby"]
+    },
+    {
+      "en": "exercise regularly",
+      "pl": "regularnie ćwiczyć",
+      "meaning_pl": "czasownik exercise opisujemy przysłówkiem regularly; po brytyjsku też take regular exercise albo do exercise, ale nie make exercise. Ruch ogólnie to niepoliczalne exercise: get enough exercise",
+      "example": {
+        "en": "People who exercise regularly tend to sleep better and feel less stressed.",
+        "pl": "Ludzie, którzy regularnie ćwiczą, zwykle lepiej śpią i czują się mniej zestresowani."
+      },
+      "register": "neutral",
+      "tags": ["verb+adverb", "tryb życia", "rozprawka"]
+    },
+    {
+      "en": "a sedentary lifestyle",
+      "pl": "siedzący tryb życia",
+      "meaning_pl": "sedentary to 'siedzący, z małą ilością ruchu'; słowo dość formalne, typowe dla tekstów o zdrowiu i rozprawek. Zwykle lead / have a sedentary lifestyle, przeciwieństwo: an active lifestyle",
+      "example": {
+        "en": "Many teenagers lead a sedentary lifestyle, spending hours in front of screens every day.",
+        "pl": "Wielu nastolatków prowadzi siedzący tryb życia i codziennie spędza godziny przed ekranami."
+      },
+      "register": "formal",
+      "tags": ["adj+noun", "tryb życia", "rozprawka"]
+    },
+    {
+      "en": "lose weight / put on weight",
+      "pl": "schudnąć / przytyć",
+      "meaning_pl": "bez przedimka i bez on przy lose: lose weight, nie lose on weight ani lose a weight. Przytyć to put on weight, trochę bardziej formalnie gain weight",
+      "example": {
+        "en": "He put on a lot of weight over the winter, but lost it again when he started cycling to school.",
+        "pl": "Przez zimę mocno przytył, ale znowu schudł, kiedy zaczął jeździć do szkoły rowerem."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "tryb życia", "pułapka"]
+    },
+    {
+      "en": "get enough sleep",
+      "pl": "wysypiać się",
+      "meaning_pl": "sleep jako rzeczownik jest tu niepoliczalne, więc bez a; brak snu to lack of sleep, a porządny, przespany sen to a good night's sleep",
+      "example": {
+        "en": "If you don't get enough sleep before an exam, you won't be able to think clearly.",
+        "pl": "Jeśli nie wyśpisz się przed egzaminem, nie będziesz w stanie jasno myśleć."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "tryb życia"]
+    },
+    {
+      "en": "boost your immune system",
+      "pl": "wzmocnić odporność",
+      "meaning_pl": "boost to 'podkręcić, wzmocnić'; polskie 'odporność' to tu najczęściej immune system. Przeciwieństwo: weaken the immune system. Częste w artykułach o zdrowiu i w reklamach",
+      "example": {
+        "en": "Regular exercise and enough sleep can help boost your immune system.",
+        "pl": "Regularne ćwiczenia i odpowiednia ilość snu mogą pomóc wzmocnić odporność."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "tryb życia"]
+    },
+    {
+      "en": "mental health",
+      "pl": "zdrowie psychiczne",
+      "meaning_pl": "polskie 'psychiczny' to tu mental, nie psychic (psychic to ktoś z nadprzyrodzonymi zdolnościami, np. jasnowidz). W parze: physical and mental health, mental health problems",
+      "example": {
+        "en": "Spending too much time on social media can harm teenagers' mental health.",
+        "pl": "Spędzanie zbyt dużo czasu w mediach społecznościowych może szkodzić zdrowiu psychicznemu nastolatków."
+      },
+      "register": "neutral",
+      "tags": ["adj+noun", "samopoczucie", "pułapka", "rozprawka"]
+    },
+    {
+      "en": "cope with stress",
+      "pl": "radzić sobie ze stresem",
+      "meaning_pl": "cope with to radzić sobie z czymś trudnym, zawsze z with; podobnie deal with stress. Zmniejszyć stres: reduce / relieve stress, a być w stresie: be under (a lot of) stress",
+      "example": {
+        "en": "Some students cope with exam stress by going for a run every evening.",
+        "pl": "Niektórzy uczniowie radzą sobie ze stresem przed egzaminami, biegając co wieczór."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "samopoczucie", "rozprawka"]
+    },
+    {
+      "en": "a heavy smoker",
+      "pl": "nałogowy palacz",
+      "meaning_pl": "heavy znaczy tu 'dużo, nałogowo', nie strong; tak samo a heavy drinker. Rzucić palenie: give up / quit smoking (po nich forma -ing)",
+      "example": {
+        "en": "My uncle was a heavy smoker for twenty years before he finally gave up.",
+        "pl": "Mój wujek przez dwadzieścia lat był nałogowym palaczem, zanim w końcu rzucił."
+      },
+      "register": "neutral",
+      "tags": ["adj+noun", "uzależnienia", "pułapka"]
+    },
+    {
+      "en": "life expectancy",
+      "pl": "średnia długość życia",
+      "meaning_pl": "przewidywana przeciętna długość życia w danym kraju albo grupie; często z rise / increase / fall. Typowe dla tekstów z danymi i rozprawek",
+      "example": {
+        "en": "In most European countries, life expectancy has increased over the past fifty years.",
+        "pl": "W większości krajów europejskich średnia długość życia wzrosła w ciągu ostatnich pięćdziesięciu lat."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "statystyki", "rozprawka"]
+    }
+  ]
+}

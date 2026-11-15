@@ -1,0 +1,238 @@
+{
+  "id": "collocations-science",
+  "category": "collocations",
+  "title_pl": "Kolokacje: nauka i technika",
+  "items": [
+    {
+      "en": "carry out research (into / on sth)",
+      "pl": "prowadzić badania (nad czymś)",
+      "meaning_pl": "research jest niepoliczalne, mimo że po polsku mówimy „badania”: nie a research, nie researches, czasownik w liczbie pojedynczej (research is). Jedno badanie to a study. Formalniej conduct research, potocznie do research.",
+      "example": {
+        "en": "Scientists at the university are carrying out research into the effects of social media on teenagers.",
+        "pl": "Naukowcy z uniwersytetu prowadzą badania nad wpływem mediów społecznościowych na nastolatków."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "badania", "pułapka"]
+    },
+    {
+      "en": "do / carry out an experiment (on sth)",
+      "pl": "przeprowadzić eksperyment / doświadczenie",
+      "meaning_pl": "Z experiment idzie do albo carry out (formalnie conduct, perform), nigdy make. Polskie „zrobić eksperyment” kusi, żeby powiedzieć make, a to błąd.",
+      "example": {
+        "en": "In chemistry we did an experiment to see how quickly salt dissolves in warm water.",
+        "pl": "Na chemii robiliśmy doświadczenie, żeby sprawdzić, jak szybko sól rozpuszcza się w ciepłej wodzie."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "badania", "pułapka"]
+    },
+    {
+      "en": "make a discovery",
+      "pl": "dokonać odkrycia",
+      "meaning_pl": "Z discovery zawsze make (nie do). Discovery to odkrycie czegoś, co już istniało, np. leku w naturze; invention to wynalazek, coś, czego wcześniej nie było.",
+      "example": {
+        "en": "Alexander Fleming made one of the most important discoveries in medicine when he noticed that a mould could kill bacteria.",
+        "pl": "Alexander Fleming dokonał jednego z najważniejszych odkryć w medycynie, gdy zauważył, że pleśń może zabijać bakterie."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "odkrycia", "pułapka"]
+    },
+    {
+      "en": "make a breakthrough (in sth)",
+      "pl": "dokonać przełomu (w czymś)",
+      "meaning_pl": "breakthrough to nagłe, bardzo ważne odkrycie po długiej pracy. Czasownik make albo achieve, typowe przymiotniki: a major / significant breakthrough. Po nim in: a breakthrough in cancer research.",
+      "example": {
+        "en": "Scientists hope to make a breakthrough in the treatment of cancer within the next decade.",
+        "pl": "Naukowcy mają nadzieję dokonać przełomu w leczeniu raka w ciągu najbliższej dekady."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "odkrycia", "medycyna"]
+    },
+    {
+      "en": "find a cure for sth",
+      "pl": "znaleźć lekarstwo na coś",
+      "meaning_pl": "cure to sposób wyleczenia choroby, a nie konkretna tabletka (to a medicine albo a drug). Polskie „na” to tu for, nie on: a cure for cancer.",
+      "example": {
+        "en": "Despite years of research, scientists still haven't found a cure for the common cold.",
+        "pl": "Mimo wielu lat badań naukowcy wciąż nie znaleźli lekarstwa na zwykłe przeziębienie."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "medycyna", "pułapka"]
+    },
+    {
+      "en": "studies show / research suggests (that ...)",
+      "pl": "badania pokazują / sugerują, że...",
+      "meaning_pl": "Gotowy początek argumentu w rozprawce. Studies to liczba mnoga, więc show; research jest niepoliczalne, więc suggests z -s. Suggest brzmi ostrożniej niż show.",
+      "example": {
+        "en": "Recent studies show that teenagers who use their phones late at night sleep less.",
+        "pl": "Najnowsze badania pokazują, że nastolatki, które używają telefonów późno w nocy, śpią krócej."
+      },
+      "register": "neutral",
+      "tags": ["noun+verb", "badania", "rozprawka"]
+    },
+    {
+      "en": "scientifically proven",
+      "pl": "naukowo udowodniony",
+      "meaning_pl": "Przysłówek scientifically stoi przed proven, tak jak po polsku „naukowo” przed „udowodniony”. Przed rzeczownikiem używa się formy proven: a proven method.",
+      "example": {
+        "en": "Before you believe that a product works, check if its effects have been scientifically proven.",
+        "pl": "Zanim uwierzysz, że jakiś produkt działa, sprawdź, czy jego działanie zostało naukowo udowodnione."
+      },
+      "register": "neutral",
+      "tags": ["adverb+adjective", "badania", "rozprawka"]
+    },
+    {
+      "en": "side effects",
+      "pl": "skutki uboczne",
+      "meaning_pl": "Zwykle w liczbie mnogiej. Typowo have side effects, serious / unpleasant side effects. Pasuje do leków, ale też do technologii, gdy piszesz o jej minusach.",
+      "example": {
+        "en": "Like most medicines, this drug can have unpleasant side effects, such as headaches.",
+        "pl": "Jak większość leków, ten preparat może wywoływać nieprzyjemne skutki uboczne, np. bóle głowy."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "medycyna"]
+    },
+    {
+      "en": "animal testing",
+      "pl": "testy na zwierzętach",
+      "meaning_pl": "Typowy temat rozprawki o etyce nauki. Wersja z czasownikiem: test sth on animals. Polskie „na zwierzętach” to on animals, nie at.",
+      "example": {
+        "en": "Animal testing for cosmetics has been banned in the European Union.",
+        "pl": "W Unii Europejskiej testowanie kosmetyków na zwierzętach jest zakazane."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "etyka", "rozprawka"]
+    },
+    {
+      "en": "cutting-edge / state-of-the-art technology",
+      "pl": "najnowocześniejsza technologia",
+      "meaning_pl": "Oba znaczą „najnowszy, z samej czołówki”. Przed rzeczownikiem piszemy z łącznikami. State-of-the-art często też ze sprzętem: state-of-the-art equipment.",
+      "example": {
+        "en": "The hospital uses cutting-edge technology to diagnose diseases earlier.",
+        "pl": "Szpital wykorzystuje najnowocześniejszą technologię, żeby wcześniej wykrywać choroby."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "technologia"]
+    },
+    {
+      "en": "advance rapidly",
+      "pl": "szybko się rozwijać",
+      "meaning_pl": "rapidly to formalniejsze „szybko”, typowe z advance, develop, change, grow. Rzeczownik advances jest policzalny: advances in technology, technological advances (inaczej niż niepoliczalne progress).",
+      "example": {
+        "en": "Artificial intelligence has advanced so rapidly that many jobs may soon change completely.",
+        "pl": "Sztuczna inteligencja rozwinęła się tak szybko, że wiele zawodów może się wkrótce całkowicie zmienić."
+      },
+      "register": "neutral",
+      "tags": ["verb+adverb", "technologia", "rozprawka"]
+    },
+    {
+      "en": "widely used / widely available",
+      "pl": "powszechnie używany / dostępny",
+      "meaning_pl": "Przysłówek widely, nie wide: widely used, widely known, widely accepted. Dobre do opisu, jak bardzo coś się rozpowszechniło.",
+      "example": {
+        "en": "Online translators are now widely used by students, but they still make mistakes.",
+        "pl": "Tłumacze internetowe są dziś powszechnie używane przez uczniów, ale nadal popełniają błędy."
+      },
+      "register": "neutral",
+      "tags": ["adverb+adjective", "technologia"]
+    },
+    {
+      "en": "user-friendly (app / website)",
+      "pl": "łatwy w obsłudze, przyjazny dla użytkownika",
+      "meaning_pl": "Przymiotnik z łącznikiem, przydaje się w recenzji albo opisie urządzenia. Tak samo budowane są eco-friendly i child-friendly.",
+      "example": {
+        "en": "The new banking app is very user-friendly, so even my grandparents can use it.",
+        "pl": "Nowa aplikacja bankowa jest bardzo łatwa w obsłudze, więc nawet moi dziadkowie potrafią z niej korzystać."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "urządzenia", "recenzja"]
+    },
+    {
+      "en": "have access to sth / access sth",
+      "pl": "mieć dostęp do czegoś / uzyskać dostęp do czegoś",
+      "meaning_pl": "Rzeczownik access jest niepoliczalny i łączy się z to: have access to the internet (nie an access). Czasownik access stoi bez przyimka: access the internet, nie access to the internet.",
+      "example": {
+        "en": "Not every student has access to a computer at home.",
+        "pl": "Nie każdy uczeń ma dostęp do komputera w domu."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "internet", "pułapka"]
+    },
+    {
+      "en": "collect / store personal data",
+      "pl": "zbierać / przechowywać dane osobowe",
+      "meaning_pl": "data nie ma -s. W zwykłym języku łączy się z czasownikiem w liczbie pojedynczej (data is), w tekstach naukowych bywa też liczba mnoga (data are).",
+      "example": {
+        "en": "Many apps collect personal data without users realising it.",
+        "pl": "Wiele aplikacji zbiera dane osobowe, a użytkownicy nawet nie zdają sobie z tego sprawy."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "prywatność", "internet"]
+    },
+    {
+      "en": "pose a threat (to sb / sth)",
+      "pl": "stanowić zagrożenie (dla kogoś / czegoś)",
+      "meaning_pl": "Formalna kolokacja do rozprawki. Pose znaczy tu „stanowić”. Make a threat to coś innego: grozić komuś. Po threat idzie to: a threat to privacy.",
+      "example": {
+        "en": "Hackers pose a serious threat to companies that store their customers' data.",
+        "pl": "Hakerzy stanowią poważne zagrożenie dla firm, które przechowują dane swoich klientów."
+      },
+      "register": "formal",
+      "tags": ["verb+noun", "bezpieczeństwo", "rozprawka"]
+    },
+    {
+      "en": "raise concerns (about sth)",
+      "pl": "budzić obawy (co do czegoś)",
+      "meaning_pl": "raise ma dopełnienie (coś wywołuje obawy), a rise nie (ceny rosną). Często w stronie biernej: concerns have been raised about... Po concerns idzie about albo over.",
+      "example": {
+        "en": "The use of facial recognition cameras in public places has raised concerns about privacy.",
+        "pl": "Używanie kamer rozpoznających twarze w miejscach publicznych wzbudziło obawy o prywatność."
+      },
+      "register": "formal",
+      "tags": ["verb+noun", "prywatność", "rozprawka", "pułapka"]
+    },
+    {
+      "en": "spread fake news / misinformation",
+      "pl": "rozpowszechniać fałszywe informacje",
+      "meaning_pl": "Fake news i misinformation są niepoliczalne: fake news is, bez a. Jedna fałszywa wiadomość to a piece of fake news.",
+      "example": {
+        "en": "It is very easy to spread fake news on social media, so always check your sources.",
+        "pl": "W mediach społecznościowych bardzo łatwo jest rozpowszechniać fałszywe informacje, więc zawsze sprawdzaj źródła."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "media", "internet"]
+    },
+    {
+      "en": "go viral",
+      "pl": "stać się viralem, błyskawicznie rozejść się w sieci",
+      "meaning_pl": "Mówi się o filmiku, zdjęciu czy wpisie, który nagle udostępniają miliony ludzi. Czasownik go jak w go wrong, go mad, w przeszłości went viral.",
+      "example": {
+        "en": "Her video about saving energy at home went viral and got millions of views.",
+        "pl": "Jej filmik o oszczędzaniu energii w domu stał się viralem i miał miliony wyświetleń."
+      },
+      "register": "neutral",
+      "tags": ["verb+adjective", "media", "internet"]
+    },
+    {
+      "en": "screen time",
+      "pl": "czas przed ekranem",
+      "meaning_pl": "Czas spędzony przy telefonie, komputerze czy telewizorze. Niepoliczalne, bez a. Typowe czasowniki: limit / reduce screen time.",
+      "example": {
+        "en": "Many parents try to limit their children's screen time to two hours a day.",
+        "pl": "Wielu rodziców stara się ograniczać dzieciom czas przed ekranem do dwóch godzin dziennie."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "zdrowie", "rozprawka"]
+    },
+    {
+      "en": "household appliances",
+      "pl": "sprzęt AGD, urządzenia domowe",
+      "meaning_pl": "appliance to urządzenie elektryczne w domu, np. pralka czy lodówka. Device to raczej mniejsze urządzenie, np. telefon, a gadget to drobny gadżet.",
+      "example": {
+        "en": "Modern household appliances, such as dishwashers and washing machines, save us a lot of time.",
+        "pl": "Nowoczesny sprzęt AGD, taki jak zmywarki i pralki, oszczędza nam mnóstwo czasu."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "urządzenia", "dom"]
+    }
+  ]
+}

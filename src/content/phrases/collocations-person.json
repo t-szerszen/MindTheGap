@@ -1,0 +1,249 @@
+{
+  "id": "collocations-person",
+  "category": "collocations",
+  "title_pl": "Kolokacje: człowiek",
+  "items": [
+    {
+      "en": "lose your temper",
+      "pl": "stracić panowanie nad sobą, wybuchnąć złością",
+      "meaning_pl": "nagle się zdenerwować i to pokazać (krzyk, trzaskanie drzwiami); temper znaczy tu opanowanie, więc można je stracić albo zachować (keep your temper); uwaga: have a bad temper to coś innego, czyli być porywczym",
+      "example": {
+        "en": "My dad rarely loses his temper, but when he does, everyone goes quiet.",
+        "pl": "Mój tata rzadko traci panowanie nad sobą, ale kiedy już się zdenerwuje, wszyscy milkną."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "emocje", "charakter"]
+    },
+    {
+      "en": "hurt sb's feelings",
+      "pl": "zranić czyjeś uczucia",
+      "meaning_pl": "powiedzieć albo zrobić coś, przez co komuś jest przykro; feelings zawsze w liczbie mnogiej",
+      "example": {
+        "en": "I didn't mean to hurt your feelings – I was just being honest.",
+        "pl": "Nie chciałem zranić twoich uczuć – byłem po prostu szczery."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "emocje", "relacje"]
+    },
+    {
+      "en": "boost sb's confidence",
+      "pl": "dodać komuś pewności siebie",
+      "meaning_pl": "boost = podbić, wzmocnić; confidence to tu pewność siebie; gdy jej brakuje, mówimy lack confidence",
+      "example": {
+        "en": "Winning the debating competition really boosted her confidence.",
+        "pl": "Wygrana w turnieju debat naprawdę dodała jej pewności siebie."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "charakter", "emocje"]
+    },
+    {
+      "en": "set a good example (to sb)",
+      "pl": "dawać (komuś) dobry przykład",
+      "meaning_pl": "zachowywać się tak, żeby inni mogli cię naśladować; czasownik set; give an example znaczy coś innego: podać przykład, np. w rozprawce",
+      "example": {
+        "en": "Older siblings should set a good example to younger ones.",
+        "pl": "Starsze rodzeństwo powinno dawać dobry przykład młodszemu."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "wychowanie", "etyka"]
+    },
+    {
+      "en": "bear a grudge (against sb)",
+      "pl": "chować urazę (do kogoś)",
+      "meaning_pl": "długo pamiętać komuś krzywdę i dalej być na niego złym; zamiast bear można powiedzieć hold",
+      "example": {
+        "en": "She never bears a grudge, even when people treat her unfairly.",
+        "pl": "Nigdy nie chowa urazy, nawet gdy ludzie traktują ją niesprawiedliwie."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "charakter", "relacje"]
+    },
+    {
+      "en": "take responsibility for sth",
+      "pl": "wziąć odpowiedzialność za coś",
+      "meaning_pl": "przyznać, że to twoja sprawa albo wina, i ponieść skutki; przyimek for, jak polskie „za”",
+      "example": {
+        "en": "A mature person takes responsibility for their mistakes instead of blaming others.",
+        "pl": "Dojrzały człowiek bierze odpowiedzialność za swoje błędy, zamiast obwiniać innych."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "etyka", "charakter"]
+    },
+    {
+      "en": "fulfil your potential",
+      "pl": "w pełni wykorzystać swoje możliwości",
+      "meaning_pl": "osiągnąć wszystko, na co cię stać; pisownia brytyjska fulfil (amerykańska fulfill); podobnie: reach your full potential",
+      "example": {
+        "en": "Good teachers help every student fulfil their potential.",
+        "pl": "Dobrzy nauczyciele pomagają każdemu uczniowi w pełni wykorzystać swoje możliwości."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "umiejętności", "rozwój"]
+    },
+    {
+      "en": "make a good impression (on sb)",
+      "pl": "zrobić dobre wrażenie (na kimś)",
+      "meaning_pl": "czasownik make, nie do; osobę dodajesz przez on; często: make a good first impression",
+      "example": {
+        "en": "If you want to make a good impression at the interview, arrive on time.",
+        "pl": "Jeśli chcesz zrobić dobre wrażenie na rozmowie kwalifikacyjnej, przyjdź punktualnie."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "wygląd", "relacje"]
+    },
+    {
+      "en": "bear a striking resemblance to sb",
+      "pl": "być uderzająco podobnym do kogoś",
+      "meaning_pl": "bardzo przypominać kogoś wyglądem; bear znaczy tu mieć, a striking to uderzający; brzmi pisemnie, w rozmowie prościej: look just like sb",
+      "example": {
+        "en": "He bears a striking resemblance to his grandfather at the same age.",
+        "pl": "Jest uderzająco podobny do swojego dziadka, kiedy ten był w jego wieku."
+      },
+      "register": "formal",
+      "tags": ["verb+noun", "adjective+noun", "wygląd"]
+    },
+    {
+      "en": "earn sb's respect",
+      "pl": "zdobyć czyjś szacunek",
+      "meaning_pl": "earn (zarobić, zapracować) pokazuje, że szacunek trzeba sobie wypracować zachowaniem; odwrotnie: lose sb's respect",
+      "example": {
+        "en": "Our coach earned the team's respect because he was always fair.",
+        "pl": "Nasz trener zdobył szacunek drużyny, bo zawsze był sprawiedliwy."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "relacje", "charakter"]
+    },
+    {
+      "en": "burst into tears",
+      "pl": "wybuchnąć płaczem",
+      "meaning_pl": "nagle zacząć płakać; przyimek into; przy śmiechu inna konstrukcja: burst out laughing",
+      "example": {
+        "en": "When Tom heard that he had failed his driving test, he burst into tears.",
+        "pl": "Kiedy Tom usłyszał, że oblał egzamin na prawo jazdy, wybuchnął płaczem."
+      },
+      "register": "neutral",
+      "tags": ["verb+prep+noun", "emocje"]
+    },
+    {
+      "en": "have a good sense of humour",
+      "pl": "mieć dobre poczucie humoru",
+      "meaning_pl": "po polsku bez przedimka, po angielsku have a (good) sense of humour, a przy zaimku: her sense of humour; pisownia brytyjska humour",
+      "example": {
+        "en": "What I like most about my best friend is her great sense of humour.",
+        "pl": "W mojej najlepszej przyjaciółce najbardziej lubię jej świetne poczucie humoru."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "charakter"]
+    },
+    {
+      "en": "have a vivid imagination",
+      "pl": "mieć bujną wyobraźnię",
+      "meaning_pl": "vivid = żywy, barwny; wyobraźnia to imagination, a nie fantasy (fantasy to marzenie albo gatunek literacki)",
+      "example": {
+        "en": "As a child, he had such a vivid imagination that he invented a whole world of his own.",
+        "pl": "Jako dziecko miał tak bujną wyobraźnię, że wymyślił sobie cały własny świat."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "charakter", "zainteresowania"]
+    },
+    {
+      "en": "low self-esteem",
+      "pl": "niska samoocena, niskie poczucie własnej wartości",
+      "meaning_pl": "niepoliczalne, bez a; typowo: have / suffer from low self-esteem; odwrotnie: high self-esteem",
+      "example": {
+        "en": "Constant criticism can lead to low self-esteem in teenagers.",
+        "pl": "Ciągła krytyka może prowadzić do niskiej samooceny u nastolatków."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "emocje", "problemy"]
+    },
+    {
+      "en": "face a moral dilemma",
+      "pl": "stanąć przed dylematem moralnym",
+      "meaning_pl": "musieć wybrać między dwiema opcjami, z których żadna nie jest w pełni dobra; czasownik face (stawić czoła)",
+      "example": {
+        "en": "Students face a moral dilemma when they see a friend cheating in an exam.",
+        "pl": "Uczniowie stają przed dylematem moralnym, kiedy widzą, że kolega ściąga na egzaminie."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "verb+noun", "etyka"]
+    },
+    {
+      "en": "a short attention span",
+      "pl": "krótki czas skupienia uwagi",
+      "meaning_pl": "attention span to czas, przez jaki potrafisz się na czymś skupić; częsty temat w tekstach o technologii i mediach społecznościowych",
+      "example": {
+        "en": "Many teachers believe that constant scrolling leads to a short attention span.",
+        "pl": "Wielu nauczycieli uważa, że ciągłe scrollowanie sprawia, że krócej potrafimy się skupić."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "umiejętności", "technologia"]
+    },
+    {
+      "en": "peer pressure",
+      "pl": "presja rówieśników",
+      "meaning_pl": "peer = rówieśnik; niepoliczalne, bez a; typowo: give in to peer pressure (ulec) i resist peer pressure (oprzeć się)",
+      "example": {
+        "en": "Many teenagers start smoking because they give in to peer pressure.",
+        "pl": "Wielu nastolatków zaczyna palić, bo ulega presji rówieśników."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "relacje", "problemy"]
+    },
+    {
+      "en": "role model",
+      "pl": "wzór do naśladowania",
+      "meaning_pl": "osoba, na której ktoś się wzoruje; typowo: be a (good) role model for sb",
+      "example": {
+        "en": "Sports stars should remember that they are role models for millions of young fans.",
+        "pl": "Gwiazdy sportu powinny pamiętać, że są wzorem do naśladowania dla milionów młodych fanów."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "wychowanie", "etyka"]
+    },
+    {
+      "en": "body language",
+      "pl": "mowa ciała",
+      "meaning_pl": "gesty, postawa i mimika, które zdradzają emocje bez słów; niepoliczalne, bez a",
+      "example": {
+        "en": "His body language showed that he was nervous, even though he was smiling.",
+        "pl": "Jego mowa ciała pokazywała, że się denerwuje, chociaż się uśmiechał."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "wygląd", "emocje"]
+    },
+    {
+      "en": "deeply regret sth / doing sth",
+      "pl": "głęboko czegoś żałować",
+      "meaning_pl": "deeply to typowe wzmocnienie przy uczuciach; regret + -ing = żałujesz tego, co już zrobiłeś; regret to + bezokolicznik to formalne „z przykrością informuję”",
+      "example": {
+        "en": "I deeply regret not spending more time with my grandparents.",
+        "pl": "Głęboko żałuję, że nie spędzałem więcej czasu z dziadkami."
+      },
+      "register": "neutral",
+      "tags": ["verb+adverb", "emocje"]
+    },
+    {
+      "en": "bitterly disappointed",
+      "pl": "ogromnie rozczarowany, bardzo zawiedziony",
+      "meaning_pl": "bitterly (gorzko) wzmacnia przykre uczucia, mocniej niż very; nie łączy się z pozytywnymi emocjami",
+      "example": {
+        "en": "The fans were bitterly disappointed when the concert was cancelled at the last minute.",
+        "pl": "Fani byli ogromnie rozczarowani, kiedy koncert odwołano w ostatniej chwili."
+      },
+      "register": "neutral",
+      "tags": ["adverb+adjective", "emocje"]
+    },
+    {
+      "en": "highly skilled",
+      "pl": "świetnie wyszkolony, wysoko wykwalifikowany",
+      "meaning_pl": "highly nie znaczy tu „wysoko” dosłownie, tylko „bardzo”; tak samo highly qualified, highly intelligent",
+      "example": {
+        "en": "She's a highly skilled pianist who has been playing since she was five.",
+        "pl": "Jest świetną, bardzo biegłą pianistką, która gra od piątego roku życia."
+      },
+      "register": "neutral",
+      "tags": ["adverb+adjective", "umiejętności"]
+    }
+  ]
+}

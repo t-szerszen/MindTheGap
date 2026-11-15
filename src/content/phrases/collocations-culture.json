@@ -1,0 +1,249 @@
+{
+  "id": "collocations-culture",
+  "category": "collocations",
+  "title_pl": "Kolokacje: kultura i media",
+  "items": [
+    {
+      "en": "put on a play / an exhibition",
+      "pl": "wystawić sztukę / zorganizować wystawę",
+      "meaning_pl": "put on = przygotować coś i pokazać publiczności: sztukę, koncert, wystawę. Przy wystawie często też hold an exhibition. Nie „make a play”.",
+      "example": {
+        "en": "Our drama club puts on a play every spring.",
+        "pl": "Nasze kółko teatralne co wiosnę wystawia sztukę."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "teatr", "wydarzenia"]
+    },
+    {
+      "en": "give a performance / a concert",
+      "pl": "wystąpić, zagrać koncert",
+      "meaning_pl": "Występ i koncert się daje (give), nie robi: give a concert, nie „make a concert”. O aktorze: give a brilliant performance = świetnie zagrać.",
+      "example": {
+        "en": "The actor gave an outstanding performance as a young soldier.",
+        "pl": "Aktor znakomicie zagrał młodego żołnierza."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "teatr", "muzyka"]
+    },
+    {
+      "en": "play the lead role (in sth)",
+      "pl": "grać główną rolę (w czymś)",
+      "meaning_pl": "Główna rola = the lead (albo leading) role, drugoplanowa = a supporting role. Krócej: star in a film = grać główną rolę w filmie.",
+      "example": {
+        "en": "She plays the lead role in a new crime series.",
+        "pl": "Gra główną rolę w nowym serialu kryminalnym."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "film"]
+    },
+    {
+      "en": "release an album / a film",
+      "pl": "wydać płytę / wprowadzić film na ekrany",
+      "meaning_pl": "release = wypuścić na rynek: płytę, piosenkę, film, grę. Przy książce mówi się publish.",
+      "example": {
+        "en": "The band released their first album while they were still at school.",
+        "pl": "Zespół wydał pierwszą płytę, kiedy jego członkowie jeszcze chodzili do szkoły."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "muzyka", "film"]
+    },
+    {
+      "en": "get rave / mixed reviews",
+      "pl": "zebrać entuzjastyczne / mieszane recenzje",
+      "meaning_pl": "rave review = bardzo entuzjastyczna recenzja, mixed reviews = jedni krytycy chwalą, inni krytykują. Zamiast get może być receive. Dzieło chwalone przez krytyków jest critically acclaimed.",
+      "example": {
+        "en": "The play got rave reviews, so tickets are hard to find.",
+        "pl": "Sztuka zebrała entuzjastyczne recenzje, więc trudno o bilety."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "recenzja"]
+    },
+    {
+      "en": "a box-office hit / success",
+      "pl": "przebój kinowy, sukces kasowy",
+      "meaning_pl": "box office = kasa biletowa, więc at the box office = pod względem sprzedanych biletów. Przed rzeczownikiem z łącznikiem: a box-office hit. Przeciwieństwo: a flop (klapa).",
+      "example": {
+        "en": "The film was a box-office hit, even though the critics didn't like it.",
+        "pl": "Film był przebojem kinowym, chociaż krytykom się nie podobał."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "film"]
+    },
+    {
+      "en": "sell out / a sold-out concert",
+      "pl": "wyprzedać się / wyprzedany koncert",
+      "meaning_pl": "Po angielsku bilety same się wyprzedają, bez odpowiednika „się”: tickets sold out. Przed rzeczownikiem sold-out z łącznikiem, po be bez łącznika: the concert is sold out.",
+      "example": {
+        "en": "Tickets for their concert in Warsaw sold out in less than an hour.",
+        "pl": "Bilety na ich koncert w Warszawie wyprzedały się w niecałą godzinę."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "muzyka", "pułapka"]
+    },
+    {
+      "en": "a standing ovation",
+      "pl": "owacja na stojąco",
+      "meaning_pl": "Publiczność daje owację: give sb a standing ovation. Artysta ją dostaje: get / receive a standing ovation.",
+      "example": {
+        "en": "When the concert ended, the audience gave the orchestra a standing ovation.",
+        "pl": "Kiedy koncert się skończył, publiczność nagrodziła orkiestrę owacją na stojąco."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "teatr", "muzyka"]
+    },
+    {
+      "en": "perform / broadcast live",
+      "pl": "występować / transmitować na żywo",
+      "meaning_pl": "live jako przysłówek i przymiotnik czyta się /laɪv/, inaczej niż czasownik live /lɪv/. Przed rzeczownikiem: live music, a live broadcast.",
+      "example": {
+        "en": "The final will be broadcast live on national television.",
+        "pl": "Finał będzie transmitowany na żywo w ogólnopolskiej telewizji."
+      },
+      "register": "neutral",
+      "tags": ["verb+adverb", "media", "wymowa"]
+    },
+    {
+      "en": "highly recommend sth (to sb)",
+      "pl": "gorąco coś (komuś) polecać",
+      "meaning_pl": "highly znaczy tu „bardzo”, nie „wysoko”. Bezpieczny szyk: recommend sth to sb. Typowe zakończenie recenzji.",
+      "example": {
+        "en": "I would highly recommend this book to anyone interested in history.",
+        "pl": "Gorąco polecam tę książkę każdemu, kto interesuje się historią."
+      },
+      "register": "neutral",
+      "tags": ["verb+adverb", "recenzja"]
+    },
+    {
+      "en": "a gripping plot / story",
+      "pl": "wciągająca fabuła / historia",
+      "meaning_pl": "gripping = trzymający w napięciu, nie da się oderwać. plot = fabuła, czyli to, co się dzieje. Gdzie i kiedy toczy się akcja: the story is set in…",
+      "example": {
+        "en": "The plot is so gripping that I finished the book in one weekend.",
+        "pl": "Fabuła jest tak wciągająca, że skończyłem książkę w jeden weekend."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "recenzja", "książki"]
+    },
+    {
+      "en": "a thought-provoking film / book",
+      "pl": "film / książka dające do myślenia",
+      "meaning_pl": "thought-provoking = taki, który zmusza do myślenia. Dobre słowo do recenzji i rozprawki zamiast ogranego interesting.",
+      "example": {
+        "en": "It's a thought-provoking documentary about the effects of social media on teenagers.",
+        "pl": "To dający do myślenia dokument o wpływie mediów społecznościowych na nastolatków."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "recenzja", "rozprawka"]
+    },
+    {
+      "en": "hit the headlines",
+      "pl": "trafić na pierwsze strony gazet",
+      "meaning_pl": "headline = tytuł artykułu na górze strony. hit the headlines albo make headlines = o kimś lub czymś nagle robi się głośno w mediach.",
+      "example": {
+        "en": "The singer hit the headlines when she cancelled her world tour.",
+        "pl": "O piosenkarce zrobiło się głośno, kiedy odwołała światową trasę koncertową."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "media"]
+    },
+    {
+      "en": "media coverage",
+      "pl": "relacje w mediach, nagłośnienie",
+      "meaning_pl": "coverage = to, jak media relacjonują jakiś temat. Niepoliczalne: a lot of coverage, bez a i bez -s. Czasownik: the media covered the story.",
+      "example": {
+        "en": "The protest received a lot of media coverage.",
+        "pl": "Protest był szeroko relacjonowany w mediach."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "media", "pułapka"]
+    },
+    {
+      "en": "a reliable source (of information)",
+      "pl": "wiarygodne źródło (informacji)",
+      "meaning_pl": "reliable = godny zaufania, przeciwieństwo: unreliable. Przydaje się w rozprawce o mediach i dezinformacji.",
+      "example": {
+        "en": "Before you share an article, check if it comes from a reliable source.",
+        "pl": "Zanim udostępnisz artykuł, sprawdź, czy pochodzi z wiarygodnego źródła."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "media", "rozprawka"]
+    },
+    {
+      "en": "spread fake news / false information",
+      "pl": "rozpowszechniać fałszywe informacje",
+      "meaning_pl": "news i information są niepoliczalne: fake news is…, information bez -s i bez an. Jedna wiadomość = a piece of news / information.",
+      "example": {
+        "en": "Social media makes it easy to spread fake news.",
+        "pl": "Media społecznościowe ułatwiają szerzenie fałszywych informacji."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "media", "pułapka"]
+    },
+    {
+      "en": "go viral",
+      "pl": "stać się viralem, błyskawicznie obiec internet",
+      "meaning_pl": "O filmiku, poście czy zdjęciu, które ludzie masowo udostępniają. Budowa go + przymiotnik, tak jak go wrong.",
+      "example": {
+        "en": "Her video went viral and got millions of views in a few days.",
+        "pl": "Jej filmik stał się viralem i w kilka dni zdobył miliony wyświetleń."
+      },
+      "register": "neutral",
+      "tags": ["verb+adjective", "internet"]
+    },
+    {
+      "en": "invade sb's privacy",
+      "pl": "naruszać czyjąś prywatność",
+      "meaning_pl": "invade = wtargnąć, wkroczyć bez pozwolenia. Rzeczownik: an invasion of privacy. Typowy temat rozprawki o paparazzi i celebrytach.",
+      "example": {
+        "en": "Many celebrities feel that photographers constantly invade their privacy.",
+        "pl": "Wielu celebrytów uważa, że fotografowie ciągle naruszają ich prywatność."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "media", "rozprawka"]
+    },
+    {
+      "en": "keep a tradition alive / carry on a tradition",
+      "pl": "kultywować / podtrzymywać tradycję",
+      "meaning_pl": "Polskie „kultywować tradycję” oddaje się jako keep a tradition alive albo carry on a tradition. Cultivate z tradycją to kalka, lepiej jej unikać.",
+      "example": {
+        "en": "In many Polish villages, people still keep old Christmas traditions alive.",
+        "pl": "W wielu polskich wsiach ludzie wciąż kultywują dawne tradycje bożonarodzeniowe."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "tradycje", "pułapka"]
+    },
+    {
+      "en": "cultural heritage",
+      "pl": "dziedzictwo kulturowe",
+      "meaning_pl": "heritage = to, co dostajemy od poprzednich pokoleń: zabytki, język, zwyczaje. Typowe czasowniki: preserve / protect our cultural heritage.",
+      "example": {
+        "en": "Museums help to preserve our cultural heritage for future generations.",
+        "pl": "Muzea pomagają zachować nasze dziedzictwo kulturowe dla przyszłych pokoleń."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "tradycje", "rozprawka"]
+    },
+    {
+      "en": "a household name",
+      "pl": "ktoś, kogo zna każdy; znane nazwisko",
+      "meaning_pl": "household = gospodarstwo domowe, czyli nazwisko znane w każdym domu. Najczęściej become a household name.",
+      "example": {
+        "en": "After winning the talent show, she became a household name almost overnight.",
+        "pl": "Po wygraniu talent show niemal z dnia na dzień stała się znana w całym kraju."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "sława"]
+    },
+    {
+      "en": "reach a wide audience",
+      "pl": "dotrzeć do szerokiej publiczności",
+      "meaning_pl": "audience = publiczność, widzowie albo słuchacze jako jedna grupa, więc a large audience, nie „many audience”. Często w stopniu wyższym: reach a wider audience.",
+      "example": {
+        "en": "Thanks to streaming platforms, independent films can now reach a much wider audience.",
+        "pl": "Dzięki platformom streamingowym filmy niezależne mogą dziś dotrzeć do dużo szerszej publiczności."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "media", "rozprawka"]
+    }
+  ]
+}

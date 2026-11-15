@@ -1,0 +1,249 @@
+{
+  "id": "collocations-sport",
+  "category": "collocations",
+  "title_pl": "Kolokacje: sport",
+  "items": [
+    {
+      "en": "play football / do judo / go skiing",
+      "pl": "grać w piłkę / trenować judo / jeździć na nartach",
+      "meaning_pl": "play przy grach z piłką i rywalem (football, tennis, chess). do przy sportach bez piłki: sztuki walki, yoga, athletics, gymnastics. go przy czynnościach z -ing (swimming, cycling, running). Bez the: play tennis, nie play the tennis.",
+      "example": {
+        "en": "I play volleyball at school, do karate twice a week and go cycling at weekends.",
+        "pl": "W szkole gram w siatkówkę, dwa razy w tygodniu trenuję karate, a w weekendy jeżdżę na rowerze."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "uprawianie sportu", "pułapka"]
+    },
+    {
+      "en": "take regular exercise",
+      "pl": "regularnie ćwiczyć, regularnie się ruszać",
+      "meaning_pl": "exercise w znaczeniu ruch jest niepoliczalne: take / do / get exercise, bez a i bez -s. Nie make exercise. Policzalne exercises to konkretne ćwiczenia, np. stretching exercises. Take exercise jest typowo brytyjskie.",
+      "example": {
+        "en": "Teenagers who take regular exercise usually sleep better and find it easier to concentrate.",
+        "pl": "Nastolatki, które regularnie ćwiczą, zwykle lepiej śpią i łatwiej się koncentrują."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "zdrowie", "BrE", "pułapka"]
+    },
+    {
+      "en": "keep fit / stay in shape",
+      "pl": "utrzymywać formę, dbać o kondycję",
+      "meaning_pl": "fit to przymiotnik: sprawny, w formie. Keep fit jest bardzo brytyjskie. Get in shape = dojść do formy, be out of shape = nie mieć kondycji.",
+      "example": {
+        "en": "My grandad goes swimming every morning to keep fit.",
+        "pl": "Mój dziadek co rano chodzi na basen, żeby utrzymać formę."
+      },
+      "register": "neutral",
+      "tags": ["verb+adjective", "zdrowie", "BrE"]
+    },
+    {
+      "en": "support a team",
+      "pl": "kibicować drużynie",
+      "meaning_pl": "Po brytyjsku support = być kibicem jakiejś drużyny na stałe; kibic to a supporter albo a fan. Cheer sb on = głośno dopingować w czasie meczu.",
+      "example": {
+        "en": "My whole family supports the local football club, so we go to every home match.",
+        "pl": "Cała moja rodzina kibicuje miejscowemu klubowi piłkarskiemu, więc chodzimy na każdy mecz u siebie."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "kibice", "BrE"]
+    },
+    {
+      "en": "win a match / beat an opponent",
+      "pl": "wygrać mecz / pokonać rywala",
+      "meaning_pl": "win + to, co zdobywasz: match, race, competition, medal. beat + osoba albo drużyna, którą pokonujesz: beat Spain, beat sb at tennis. Nie „win Spain”. Formy: beat – beat – beaten.",
+      "example": {
+        "en": "Our school team beat the favourites 3-1 and won the tournament.",
+        "pl": "Nasza szkolna drużyna pokonała faworytów 3:1 i wygrała turniej."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "wynik", "pułapka"]
+    },
+    {
+      "en": "score a goal",
+      "pl": "strzelić gola, zdobyć bramkę",
+      "meaning_pl": "score = trafić, zdobyć punkt albo gola (score points też). shoot = tylko oddać strzał (shoot at goal), więc nie „shoot a goal”. Gol samobójczy to an own goal.",
+      "example": {
+        "en": "He scored the winning goal two minutes before the final whistle.",
+        "pl": "Strzelił zwycięskiego gola dwie minuty przed końcowym gwizdkiem."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "wynik", "piłka nożna"]
+    },
+    {
+      "en": "end in a draw",
+      "pl": "zakończyć się remisem",
+      "meaning_pl": "draw jako rzeczownik = remis. Jako czasownik: draw 1-1 (with sb) = zremisować 1:1 (z kimś). Remis 0:0 to a goalless draw.",
+      "example": {
+        "en": "The match ended in a 1-1 draw, so both teams got one point.",
+        "pl": "Mecz zakończył się remisem 1:1, więc obie drużyny dostały po punkcie."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "wynik"]
+    },
+    {
+      "en": "qualify for sth",
+      "pl": "zakwalifikować się do / na coś",
+      "meaning_pl": "Zawsze z for, choć po polsku mówimy „do” albo „na”: qualify for the final, for the World Cup, for the Olympics.",
+      "example": {
+        "en": "Only the top two teams in each group qualify for the next round.",
+        "pl": "Do kolejnej rundy kwalifikują się tylko dwie najlepsze drużyny z każdej grupy."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "zawody", "przyimek"]
+    },
+    {
+      "en": "win a (gold) medal",
+      "pl": "zdobyć (złoty) medal",
+      "meaning_pl": "Medal się wygrywa: win a medal, nie gain a medal. Kolory bez of: a gold / silver / bronze medal. Medalista to po brytyjsku medallist (dwa l).",
+      "example": {
+        "en": "She won a silver medal at the European Championships when she was only seventeen.",
+        "pl": "Zdobyła srebrny medal na mistrzostwach Europy, gdy miała zaledwie siedemnaście lat."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "zawody", "pułapka"]
+    },
+    {
+      "en": "break / set a record",
+      "pl": "pobić / ustanowić rekord",
+      "meaning_pl": "break = pobić rekord, który już istnieje. set = ustanowić nowy. hold the record = być rekordzistą. A record has stood for ten years = rekord trzyma się od dziesięciu lat.",
+      "example": {
+        "en": "The young swimmer broke the world record, which had stood for ten years.",
+        "pl": "Młoda pływaczka pobiła rekord świata, który utrzymywał się przez dziesięć lat."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "wyniki"]
+    },
+    {
+      "en": "suffer / sustain an injury",
+      "pl": "doznać kontuzji, odnieść uraz",
+      "meaning_pl": "Polska kontuzja to po angielsku injury, a kontuzjowany to injured. Contusion to termin medyczny (stłuczenie), w sporcie się go nie używa. suffer jest neutralne, sustain bardziej formalne. Wracać do zdrowia po kontuzji = recover from an injury.",
+      "example": {
+        "en": "He suffered a serious knee injury and had to miss the rest of the season.",
+        "pl": "Doznał poważnej kontuzji kolana i musiał opuścić resztę sezonu."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "kontuzje", "false friend"]
+    },
+    {
+      "en": "pull a muscle",
+      "pl": "naciągnąć mięsień",
+      "meaning_pl": "pull = naciągnąć, czyli uszkodzić mięsień zbyt mocnym rozciągnięciem. Typowy skutek braku rozgrzewki (warm up = rozgrzać się).",
+      "example": {
+        "en": "I pulled a muscle in my leg because I didn't warm up before the race.",
+        "pl": "Naciągnąłem mięsień w nodze, bo nie rozgrzałem się przed biegiem."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "kontuzje"]
+    },
+    {
+      "en": "host the Olympic Games / the World Cup",
+      "pl": "być gospodarzem igrzysk olimpijskich / mistrzostw świata",
+      "meaning_pl": "host = organizować imprezę jako gospodarz; the host country / the host city = kraj / miasto gospodarz. The Olympic Games (albo the Olympics) to liczba mnoga: the Olympic Games are.",
+      "example": {
+        "en": "Many cities want to host the Olympic Games, but the costs are enormous.",
+        "pl": "Wiele miast chce być gospodarzem igrzysk olimpijskich, ale koszty są ogromne."
+      },
+      "register": "neutral",
+      "tags": ["verb+noun", "imprezy sportowe"]
+    },
+    {
+      "en": "performance-enhancing drugs",
+      "pl": "środki dopingujące, doping",
+      "meaning_pl": "Dosłownie: środki poprawiające wyniki. Słowo doping też istnieje (a doping scandal), ale w tekstach częściej są drugs albo banned substances. Wpaść na dopingu = test positive for sth albo fail a drugs test.",
+      "example": {
+        "en": "Athletes who take performance-enhancing drugs risk both their health and their careers.",
+        "pl": "Sportowcy, którzy biorą środki dopingujące, ryzykują zarówno zdrowie, jak i karierę."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "doping", "rozprawka"]
+    },
+    {
+      "en": "a narrow / comfortable victory",
+      "pl": "minimalne / pewne zwycięstwo",
+      "meaning_pl": "narrow = o włos, niewielką różnicą (a narrow defeat = minimalna porażka). comfortable = pewne, z zapasem. Bardzo wysoka porażka to a crushing defeat.",
+      "example": {
+        "en": "After a narrow victory in the semi-final, they lost the final by four goals.",
+        "pl": "Po minimalnym zwycięstwie w półfinale przegrali finał różnicą czterech bramek."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "wynik"]
+    },
+    {
+      "en": "fierce competition / rivalry",
+      "pl": "zacięta rywalizacja, ostra konkurencja",
+      "meaning_pl": "fierce = zacięty, ostry. Uwaga: competition bez a to rywalizacja (niepoliczalne), a competition to konkretne zawody. Competition for places = walka o miejsce w składzie.",
+      "example": {
+        "en": "There is fierce competition for places in the national team.",
+        "pl": "O miejsce w kadrze narodowej toczy się zacięta rywalizacja."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "zawody", "pułapka"]
+    },
+    {
+      "en": "a personal best",
+      "pl": "rekord życiowy, życiówka",
+      "meaning_pl": "Najlepszy wynik danej osoby w historii, skrót PB. Mówi się run / set / achieve a personal best. Rekord świata czy kraju to po prostu record.",
+      "example": {
+        "en": "I finished tenth, but I was happy because I ran a personal best.",
+        "pl": "Skończyłem na dziesiątym miejscu, ale byłem zadowolony, bo pobiłem swój rekord życiowy."
+      },
+      "register": "neutral",
+      "tags": ["adjective+noun", "wyniki"]
+    },
+    {
+      "en": "sports facilities",
+      "pl": "obiekty sportowe, zaplecze sportowe",
+      "meaning_pl": "facilities zwykle w liczbie mnogiej = obiekty, zaplecze. Po brytyjsku przed rzeczownikiem zwykle sports z -s: sports centre, sports hall, sports club. O imprezach mówi się też sporting event.",
+      "example": {
+        "en": "Our town needs better sports facilities, such as a swimming pool and a sports hall.",
+        "pl": "Nasze miasto potrzebuje lepszych obiektów sportowych, na przykład basenu i hali sportowej."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "obiekty sportowe", "BrE"]
+    },
+    {
+      "en": "sports equipment",
+      "pl": "sprzęt sportowy",
+      "meaning_pl": "equipment jest niepoliczalne: bez -s i bez an. Jedna rzecz to a piece of equipment. Strój drużyny (koszulka, spodenki, buty) to po brytyjsku kit, np. football kit.",
+      "example": {
+        "en": "You can hire all the sports equipment you need at the centre, so you don't have to buy anything.",
+        "pl": "Cały potrzebny sprzęt sportowy można wypożyczyć na miejscu, więc nie trzeba niczego kupować."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "sprzęt", "pułapka"]
+    },
+    {
+      "en": "team spirit",
+      "pl": "duch zespołu, duch drużyny",
+      "meaning_pl": "Niepoliczalne, bez a. Typowy argument w rozprawce o sportach drużynowych (team sports): uczą współpracy i budują ducha zespołu (build team spirit).",
+      "example": {
+        "en": "Team sports teach young people how to cooperate and help to build team spirit.",
+        "pl": "Sporty drużynowe uczą młodych ludzi współpracy i pomagają budować ducha zespołu."
+      },
+      "register": "neutral",
+      "tags": ["noun+noun", "korzyści", "rozprawka"]
+    },
+    {
+      "en": "train hard",
+      "pl": "ciężko trenować",
+      "meaning_pl": "hard jest tu przysłówkiem bez -ly. Pułapka: hardly znaczy prawie wcale, czyli coś zupełnie innego. Trenować przed czymś = train for sth.",
+      "example": {
+        "en": "She trained hard for months to prepare for the marathon.",
+        "pl": "Przez całe miesiące ciężko trenowała, żeby przygotować się do maratonu."
+      },
+      "register": "neutral",
+      "tags": ["verb+adverb", "pułapka"]
+    },
+    {
+      "en": "play fair",
+      "pl": "grać fair, postępować uczciwie",
+      "meaning_pl": "fair jest tu przysłówkiem, bez -ly. Działa też poza sportem: postępować uczciwie. Rzeczownik to fair play, a przeciwieństwo to cheat = oszukiwać.",
+      "example": {
+        "en": "Coaches should teach children to play fair and respect their opponents.",
+        "pl": "Trenerzy powinni uczyć dzieci gry fair i szacunku dla przeciwników."
+      },
+      "register": "neutral",
+      "tags": ["verb+adverb", "fair play"]
+    }
+  ]
+}
