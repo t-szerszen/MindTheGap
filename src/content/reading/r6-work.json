@@ -1,0 +1,244 @@
+{
+  "id": "r6-work",
+  "type": "reading-set",
+  "examTask": 6,
+  "title": "Changing the way we work",
+  "theme": "work",
+  "texts": [
+    {
+      "title": "The year the machines came",
+      "genre": "memoir",
+      "paragraphs": [
+        {
+          "text": "I was nineteen when I started at Hollis & Webb, a firm of insurance brokers above a shoe shop in Leicester. My job, as far as I could tell, was to carry things: files from one floor to another, tea to whoever asked loudest, and bad news from the accounts department to Mr Pryce, who had worked there since before I was born. He was the one who taught me the ropes. He kept every client's details on cards in a long wooden drawer, and he could find any of them, he claimed, with his eyes shut."
+        },
+        {
+          "text": "The computers arrived in the March of my second year. There were four of them, beige and humming, and they were put in the room where we used to eat lunch. A young man from the supplier spent a single afternoon showing us how they worked and then left us his phone number, which nobody ever rang. Most of the office was convinced that within a year the machines would be doing our jobs and we would be doing nothing at all, somewhere else. I believed it too, and I started reading the job adverts in the evening paper."
+        },
+        {
+          "text": "Mr Pryce did not say much. For several weeks he went on using his drawer, and I assumed he had simply decided to ignore the whole thing until he retired. Then one Friday I came back late from the post office and found him alone in the old lunch room, typing the cards into the computer one by one, with two fingers. He had been staying behind every evening, he admitted, because he did not want the younger staff to see him struggle. 'Better to look a fool in an empty room,' he said."
+        },
+        {
+          "text": "Nobody lost their job that year, as it turned out. The firm took on more clients instead, because the work went faster, and by the summer it was Mr Pryce, not me, whom people asked when the screen froze. I stayed at Hollis & Webb for another six years. When I finally left, he gave me one of the old cards from the drawer. He had filled it in on my first day, as if I were a client: my name in his careful handwriting, and the date I had started."
+        }
+      ]
+    },
+    {
+      "title": "Thursdays without the ping",
+      "genre": "article",
+      "paragraphs": [
+        {
+          "text": "When Lanternfield, a software company with about ninety employees in Bristol, announced last spring that internal emails, chat messages and meetings would be banned every Thursday, several staff assumed it was a joke. Ten months later, the rule is still in place, and the company's director, Priya Raman, says she has no plans to drop it."
+        },
+        {
+          "text": "The idea grew out of a simple experiment. Raman asked a group of volunteers to keep a diary of how often they were interrupted during an ordinary working day. The average was once every eleven minutes. 'Nobody can write good code like that,' she says. 'You spend half the morning trying to remember what you were doing before the last message arrived.'"
+        },
+        {
+          "text": "Supporters of the scheme say the difference is obvious. Developers report finishing tasks on Thursdays that would normally take them two or three days, and several say they now look forward to the end of the week rather than dreading it. 'It's the one day when I go home feeling I've actually built something,' says Tom Ellery, who has been with the company for six years. There has also been an unexpected benefit: because people know they cannot ask questions on Thursday, they plan their work more carefully on Wednesday."
+        },
+        {
+          "text": "Not everyone is convinced, however. The customer support team, who still have to answer clients by phone and email, say the rule has created two classes of employee. 'On Thursdays we're the only ones working normally, and we can't get answers from anyone,' says one adviser. Others complain that the messages do not disappear but simply wait, so Friday mornings now begin with an inbox that is twice its usual size. Raman admits the system is not perfect. Her team is now testing a 'red button' that lets support staff contact a developer in a genuine emergency."
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "kind": "mc",
+      "text": 1,
+      "items": [
+        {
+          "question": "What do we learn about the narrator's early days at Hollis & Webb?",
+          "options": [
+            {
+              "text": "The narrator was trained to use the card system by someone from the accounts department.",
+              "wrong_pl": "Pomylone kto komu. Dział księgowości to tylko źródło złych wiadomości: „bad news from the accounts department to Mr Pryce”. Wszystkiego uczył Mr Pryce: „He was the one who taught me the ropes”."
+            },
+            {
+              "text": "Most of the narrator's work involved running errands for other people."
+            },
+            {
+              "text": "The narrator had to tell clients when there was a problem with their accounts.",
+              "wrong_pl": "Słowo z tekstu w innym znaczeniu. „Accounts” w tekście to dział księgowości (the accounts department), a nie konta klientów. Złe wiadomości szły do Mr Pryce'a, a nie do klientów."
+            },
+            {
+              "text": "The narrator could find any client's card without looking.",
+              "wrong_pl": "To nie narrator, tylko Mr Pryce, i to jest jego twierdzenie, a nie fakt: „he could find any of them, he claimed, with his eyes shut”."
+            }
+          ],
+          "answer": 1,
+          "why_pl": "„My job… was to carry things: files from one floor to another, tea to whoever asked loudest, and bad news…”. Noszenie akt, herbaty i wiadomości dla innych to właśnie running errands, czyli bieganie z drobnymi sprawami."
+        },
+        {
+          "question": "What happened when the computers arrived?",
+          "options": [
+            {
+              "text": "Someone from the supplier spent several days training the staff.",
+              "wrong_pl": "Pułapka liczbowa. Szkolenie trwało jedno popołudnie: „spent a single afternoon showing us how they worked”."
+            },
+            {
+              "text": "It soon became clear that some employees would lose their jobs.",
+              "wrong_pl": "Przekonanie podane jako fakt. Biuro było o tym przekonane („Most of the office was convinced”), ale w ostatnim akapicie: „Nobody lost their job that year”."
+            },
+            {
+              "text": "The staff often phoned the supplier when they needed help.",
+              "wrong_pl": "Odwrotnie: zostawił numer, „which nobody ever rang”. Nikt ani razu nie zadzwonił."
+            },
+            {
+              "text": "The narrator started looking for a different job."
+            }
+          ],
+          "answer": 3,
+          "why_pl": "„I believed it too, and I started reading the job adverts in the evening paper.” Narrator bał się, że komputery zabiorą mu pracę, więc zaczął przeglądać ogłoszenia o pracy, czyli szukać innej."
+        },
+        {
+          "question": "Why had Mr Pryce been staying late at the office?",
+          "options": [
+            {
+              "text": "He wanted to avoid using the computers until he retired.",
+              "wrong_pl": "To było tylko założenie narratora („I assumed he had simply decided to ignore the whole thing until he retired”), które okazało się błędne: Pryce po godzinach właśnie uczył się komputera."
+            },
+            {
+              "text": "He had been asked to teach the younger staff in the evenings.",
+              "wrong_pl": "Wręcz przeciwnie: został, „because he did not want the younger staff to see him struggle”. Młodsi mieli go nie widzieć, a nie uczyć się od niego."
+            },
+            {
+              "text": "He was waiting for the narrator to come back from the post office.",
+              "wrong_pl": "Zła kolejność i zły powód. Narrator wrócił późno z poczty i przypadkiem go zastał. Pryce zostawał „every evening”, niezależnie od tego."
+            },
+            {
+              "text": "He wanted to practise without his colleagues watching him."
+            }
+          ],
+          "answer": 3,
+          "why_pl": "„He had been staying behind every evening… because he did not want the younger staff to see him struggle.” Do tego „Better to look a fool in an empty room”: wolał ćwiczyć, kiedy nikt nie patrzy."
+        },
+        {
+          "question": "What do we learn from the last paragraph?",
+          "options": [
+            {
+              "text": "The narrator's fears about the computers turned out to be justified.",
+              "wrong_pl": "Obawy się nie sprawdziły: „Nobody lost their job that year, as it turned out”, a firma wzięła nawet więcej klientów."
+            },
+            {
+              "text": "Mr Pryce became the person his colleagues turned to with computer problems."
+            },
+            {
+              "text": "Mr Pryce gave the narrator a card he had just written for the occasion.",
+              "wrong_pl": "Słowo „card” w innym znaczeniu. To była stara karta klienta z szuflady („one of the old cards from the drawer”), wypełniona pierwszego dnia, z imieniem i datą, a nie kartka z życzeniami."
+            },
+            {
+              "text": "The narrator left the firm a year after the computers arrived.",
+              "wrong_pl": "Pułapka liczbowa. Narrator został „for another six years”, a nie rok."
+            }
+          ],
+          "answer": 1,
+          "why_pl": "„By the summer it was Mr Pryce, not me, whom people asked when the screen froze.” Gdy komputer się zawieszał, ludzie szli po pomoc do Pryce'a, czyli to on stał się tym, do kogo zwracano się z problemami."
+        }
+      ]
+    },
+    {
+      "kind": "gap",
+      "text": 2,
+      "maxWords": 6,
+      "layout": "note",
+      "items": [
+        {
+          "heading": "Quiet Thursdays: advantages",
+          "sentence": "Developers can finish in one day tasks that would usually take them ___ .",
+          "correct": ["two or three days"],
+          "accepted": [
+            "two to three days",
+            "2 or 3 days",
+            "2 to 3 days",
+            "2-3 days",
+            "two-three days",
+            "between two and three days",
+            "two or three days to finish",
+            "two or three days to complete"
+          ],
+          "why_pl": "„finishing tasks on Thursdays that would normally take them two or three days”. Liczba musi być dokładna: samo „several days”, „a long time” czy „longer” jest za ogólne i nie dostaje punktu. „Three days” bez „two or” też nie, bo zmienia informację."
+        },
+        {
+          "heading": "Quiet Thursdays: advantages",
+          "sentence": "People organise their work better on Wednesdays, knowing that questions ___ the next day.",
+          "correct": ["cannot be asked"],
+          "accepted": [
+            "will not be allowed",
+            "are not allowed",
+            "will not be permitted",
+            "are not permitted",
+            "are banned",
+            "will be banned",
+            "will not be possible",
+            "are not possible",
+            "will be impossible",
+            "are impossible",
+            "cannot be sent",
+            "must not be asked",
+            "are forbidden",
+            "will be forbidden",
+            "will not be answered",
+            "cannot be answered"
+          ],
+          "why_pl": "„because people know they cannot ask questions on Thursday, they plan their work more carefully on Wednesday”. W zdaniu podmiotem są „questions”, więc trzeba przejść na stronę bierną: cannot be asked (albo are not allowed / are banned). „Cannot ask” nie pasuje gramatycznie, bo pytania same nie pytają. Samo „wait” też nie, bo po nim nie ma „until”."
+        },
+        {
+          "heading": "Quiet Thursdays: disadvantages",
+          "sentence": "Support staff feel the rule has split the workforce into ___ .",
+          "correct": ["two classes"],
+          "accepted": [
+            "two classes of employee",
+            "two classes of employees",
+            "two classes of staff",
+            "two groups",
+            "two groups of employees",
+            "two groups of staff",
+            "two categories",
+            "two categories of employees",
+            "two kinds of employees",
+            "two types of employees",
+            "2 classes",
+            "2 groups",
+            "two classes of workers",
+            "two groups of workers",
+            "two kinds of staff",
+            "two types of staff",
+            "two kinds of employee",
+            "two types of employee",
+            "two categories of staff",
+            "two separate groups",
+            "two different groups",
+            "two sorts of employees"
+          ],
+          "why_pl": "„the rule has created two classes of employee”. Trzeba podać, że chodzi o dwie grupy. Samo „classes” albo „groups” bez liczby jest za ogólne, a „support and developers” to już interpretacja, której tekst wprost nie daje."
+        },
+        {
+          "heading": "Quiet Thursdays: disadvantages",
+          "sentence": "Friday mornings begin with inboxes that have grown to ___ .",
+          "correct": ["twice their usual size"],
+          "accepted": [
+            "twice the usual size",
+            "twice their normal size",
+            "twice the normal size",
+            "double their usual size",
+            "double the usual size",
+            "double their normal size",
+            "double the normal size",
+            "two times their usual size",
+            "two times the usual size",
+            "twice their size",
+            "double their size",
+            "twice the size",
+            "double the size",
+            "twice what they usually are",
+            "twice the size they usually are",
+            "two times their normal size",
+            "two times the normal size"
+          ],
+          "why_pl": "„Friday mornings now begin with an inbox that is twice its usual size”. Po „grown to” potrzebna jest grupa nominalna z wielkością, a „its” trzeba zmienić na „their”, bo skrzynek jest wiele. „Twice its usual size” dostaje 0 za niezgodność liczby. „Twice as big” nie pasuje po „grown to”, a „a bigger size” jest za ogólne."
+        }
+      ]
+    }
+  ]
+}

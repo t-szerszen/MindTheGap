@@ -1,19 +1,33 @@
 import { describe, expect, it } from 'vitest'
 import type { ReadingSet } from '../../content/schema'
-import { gradeReading, itemKey } from './grade'
+import { attemptTags, gradeReading, itemKey } from './grade'
 
 const set: ReadingSet = {
   id: 'r1',
   type: 'reading-set',
   title: 'Test',
-  genre: 'article',
   theme: 'culture',
-  paragraphs: [
-    { key: 'A', text: 'One. ___ Two.' },
-    { key: 'B', text: 'Three.' },
+  texts: [
+    {
+      genre: 'article',
+      paragraphs: [
+        { key: 'A', text: 'One. ___ Two.' },
+        { key: 'B', text: 'Three.' },
+      ],
+    },
   ],
   tasks: [
-    { kind: 'mc', items: [{ question: 'Q?', options: ['a', 'b', 'c'], answer: 1, why_pl: 'x' }] },
+    {
+      kind: 'mc',
+      items: [
+        {
+          question: 'Q?',
+          options: [{ text: 'a' }, { text: 'b' }, { text: 'c' }],
+          answer: 1,
+          why_pl: 'x',
+        },
+      ],
+    },
     { kind: 'paragraph-match', items: [{ statement: 'S', answer: 'B', why_pl: 'x' }] },
     {
       kind: 'sentence-insert',
@@ -45,5 +59,42 @@ describe('gradeReading', () => {
     expect(r.map((x) => x.ok)).toEqual([true, false, true, true, true])
     answers[itemKey(4, 0)] = 'far far too expensive'
     expect(gradeReading(set, (k) => answers[k] ?? '')[4]!.ok).toBe(false)
+  })
+
+  it('luka: powód zera, wariant z accepted i luka bez limitu', () => {
+    const gap = (maxWords?: number): ReadingSet => ({
+      ...set,
+      tasks: [
+        {
+          kind: 'gap',
+          ...(maxWords ? { maxWords } : {}),
+          items: [
+            {
+              sentence: 'She used ___.',
+              correct: ['white glue'],
+              accepted: ['some white glue'],
+              why_pl: 'x',
+            },
+          ],
+        },
+      ],
+      texts: [{ genre: 'article', paragraphs: [{ text: 'x' }] }],
+    })
+    const one = (s: ReadingSet, v: string) => gradeReading(s, () => v)[0]!
+    expect(one(gap(2), 'some white glue')).toMatchObject({ ok: false, reason: 'too-long' })
+    expect(one(gap(3), 'some white glue')).toEqual({ key: 't0-0', ok: true })
+    expect(one(gap(3), 'glue')).toMatchObject({ ok: false, reason: 'wrong' })
+    expect(one(gap(3), '')).toMatchObject({ ok: false, reason: 'empty' })
+    // 2026: bez limitu liczy się tylko treść
+    expect(one(gap(), 'some white glue').ok).toBe(true)
+    expect(one(gap(), 'glue').reason).toBe('wrong')
+  })
+
+  it('tag z numerem zadania idzie przed tagami gramatyki', () => {
+    expect(attemptTags({ examTask: 5, tags: ['relative-clauses'] })).toEqual([
+      'reading-5',
+      'relative-clauses',
+    ])
+    expect(attemptTags({})).toEqual(['reading'])
   })
 })

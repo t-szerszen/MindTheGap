@@ -1,7 +1,6 @@
 import type { Exercise } from '../../content/schema'
 import { isCorrect } from '../answers'
 import { checkLimited, type LimitCheck } from '../answers/words'
-import { splitBlanks } from './gap'
 
 // każda luka to osobny punkt, jak na maturze: cloze z 6 lukami = 6 punktów.
 // Odpowiedzi trzymam pod kluczem części: "id" dla zadań z jedną luką, "id#2" dla drugiej luki w tekście.
@@ -57,16 +56,3 @@ function limited(key: string, r: LimitCheck): PartResult {
 }
 
 export const points = (ex: Exercise) => partKeys(ex).length
-
-// krótki opis zadania do listy ostatnich prób na stronie startowej
-export function exerciseLabel(ex: Exercise) {
-  switch (ex.type) {
-    case 'gap-fill':
-      return ex.sentence.replace(/___ \(([^)]+)\)/, '___')
-    case 'key-word-transformation':
-      return ex.source
-    case 'choice':
-    case 'word-formation':
-      return ex.title ?? `${splitBlanks(ex.text)[0]!.trim().slice(0, 70)}…`
-  }
-}

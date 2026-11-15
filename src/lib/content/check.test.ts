@@ -4,6 +4,7 @@ import type {
   FormSet,
   GapFillExercise,
   GrammarTopic,
+  ReadingSet,
   Tense,
   Topic,
 } from '../../content/schema'
@@ -224,5 +225,22 @@ describe('checkContent: gramatyka', () => {
       ],
     })
     expect(errors).toHaveLength(4)
+  })
+})
+
+describe('checkContent: czytanie', () => {
+  const set = (words: number): ReadingSet => ({
+    id: 'r5',
+    type: 'reading-set',
+    examTask: 5,
+    title: 'T',
+    theme: 'nature',
+    texts: [{ genre: 'article', paragraphs: [{ text: Array(words).fill('word').join(' ') }] }],
+    tasks: [{ kind: 'true-false', items: [{ statement: 'S', answer: true, why_pl: 'x' }] }],
+  })
+
+  it('pilnuje długości tekstu do zadania', () => {
+    expect(checkContent({ ...base, reading: [set(400)] })).toEqual([])
+    expect(checkContent({ ...base, reading: [set(120)] }).join()).toMatch(/120 wyrazów/)
   })
 })

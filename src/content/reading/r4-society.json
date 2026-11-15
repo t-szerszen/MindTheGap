@@ -1,0 +1,63 @@
+{
+  "id": "r4-society",
+  "type": "reading-set",
+  "examTask": 4,
+  "title": "Lessons from the repair table",
+  "theme": "society",
+  "texts": [
+    {
+      "title": "Lessons from the repair table",
+      "genre": "blog",
+      "paragraphs": [
+        {
+          "key": "A",
+          "text": "When our town's repair café opened in the back room of the library two winters ago, I signed up as a volunteer mainly because I was bored. I had retired from my job as an electrician and missed having something to take apart. The rules are simple: once a month, anyone can bring in a broken object, and one of us will try to mend it while they watch. We don't charge anything, although there is a jar by the door for donations, which covers spare parts and the biscuits."
+        },
+        {
+          "key": "B",
+          "text": "What surprised me most was not the objects but the people. I had imagined a room full of pensioners like me, but on a typical Saturday a good third of our visitors are under thirty. Many of them tell me they have never seen the inside of a kettle or a lamp, simply because nobody ever showed them. Last month a student called Priya brought in a hairdryer and left forty minutes later having replaced the switch herself. All I did was hold the torch."
+        },
+        {
+          "key": "C",
+          "text": "Of course, we can't save everything. Some modern gadgets are glued shut or held together with screws that have unusual heads, as if the manufacturer would rather you didn't look inside. In those cases, honesty is the best policy: I explain what's wrong and why it can't be done, and most people are grateful just to know. One man last spring was so annoyed that his three-year-old electric toothbrush couldn't be opened that he wrote to the company. He's still waiting for a reply."
+        },
+        {
+          "key": "D",
+          "text": "People often ask whether a monthly event in a small town really makes any difference. We keep a notebook of every repair, and by our own count we have stopped more than six hundred items from going to the tip. That's not going to change the world. What I never saw coming, though, is what happens in the queue. Neighbours who had lived on the same street for years without speaking start chatting while they wait their turn, and two of them now run a gardening group together. If you ask me, that's worth as much as all the toasters put together."
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "kind": "paragraph-match",
+      "items": [
+        {
+          "statement": "In which paragraph does the writer describe a visitor who managed a repair almost entirely on her own?",
+          "answer": "B",
+          "why_pl": "B: Priya „left forty minutes later having replaced the switch herself. All I did was hold the torch”. Sama wymieniła włącznik, autor tylko świecił latarką. Kusi A, bo tam jest mowa o tym, że goście patrzą, jak wolontariusz naprawia, ale to ogólna zasada, a nie przykład kogoś, kto zrobił to sam."
+        },
+        {
+          "statement": "In which paragraph does the writer suggest that some products are deliberately made difficult to fix?",
+          "answer": "C",
+          "why_pl": "C: „glued shut… as if the manufacturer would rather you didn't look inside”. Producent celowo utrudnia zajrzenie do środka. Kusi B, bo tam też jest „the inside of a kettle”, ale młodzi nie widzieli wnętrza czajnika, bo nikt im nie pokazał, a nie przez konstrukcję sprzętu."
+        },
+        {
+          "statement": "In which paragraph does the writer explain where the money for materials comes from?",
+          "answer": "A",
+          "why_pl": "A: „a jar by the door for donations, which covers spare parts and the biscuits”. Części kupuje się z datków. Kusi D, bo tam jest notes i liczba 600, co wygląda jak rozliczenie, ale to liczba naprawionych rzeczy, a nie pieniądze."
+        },
+        {
+          "statement": "In which paragraph does the writer mention that the event has brought people living nearby closer together?",
+          "answer": "D",
+          "why_pl": "D: „Neighbours who had lived on the same street for years without speaking start chatting… two of them now run a gardening group together”. Sąsiedzi się poznali i coś razem robią. Kusi B, bo zaczyna się od „What surprised me most was… the people”, ale chodzi tam o wiek gości, a nie o relacje między nimi."
+        },
+        {
+          "statement": "In which paragraph does the writer admit to being wrong about who would come to the café?",
+          "answer": "B",
+          "why_pl": "B: „I had imagined a room full of pensioners like me, but… a good third of our visitors are under thirty”. Autor spodziewał się emerytów, a przychodzą też młodzi. Kusi A, bo tam autor mówi, że sam jest na emeryturze, ale nic o tym, kogo się spodziewał. Akapit B pasuje dwa razy: raz o Priyi, raz o wieku gości."
+        }
+      ]
+    }
+  ]
+}

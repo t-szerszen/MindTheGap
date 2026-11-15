@@ -1,0 +1,255 @@
+{
+  "id": "r6-repair-cafe",
+  "type": "reading-set",
+  "examTask": 6,
+  "title": "Things worth mending",
+  "theme": "society",
+  "texts": [
+    {
+      "title": "Nobody gets the answers",
+      "genre": "article",
+      "paragraphs": [
+        {
+          "text": "Every Wednesday after the last lesson, Room 14 at Hollingford Academy stops being a physics lab and turns into a workshop. On the benches lie a bicycle with a slipping chain, a pair of headphones that only work in one ear and a desk fan that rattles like a train. All of them have been brought in by students and staff. The Fix-It Club, which meets here, is run entirely by students aged fourteen to seventeen. They decide which jobs to take on, keep the toolboxes in order and, when a repair is beyond them, tell the owner so."
+        },
+        {
+          "text": "The club began after a school trip. Two years ago a group of fifteen-year-olds visited a repair café, a kind of event that started in Amsterdam in 2009 and has since spread around the world. Afterwards, one of them, Ella Brooks, now seventeen, asked her physics teacher, Daniel Okafor, whether the school could have something similar. He agreed, on one condition: the students would have to run it themselves. 'I was happy to give them a room and a key,' he says. 'I wasn't going to give them the answers.'"
+        },
+        {
+          "text": "That turned out to be harder than it sounds. In the first weeks, Okafor admits, he kept walking over to the benches whenever someone looked stuck. Then he noticed that the students stopped trying as soon as he came near and simply waited for him to take over. These days he sits at his desk marking homework and only gets up if something looks unsafe. 'The first lamp I opened, I put back together with two screws left over,' says Ella. 'It didn't work. I took it apart again the next week, and the week after. The third time, it switched on. Nobody told me how. I'd just stopped being scared of getting it wrong.'"
+        },
+        {
+          "text": "The members say the club is not only about saving money or cutting waste, although both matter to them. Jamal Hussain, fifteen, admits that before he joined he hardly ever spoke in class. 'Now people bring me their stuff and ask what I think,' he says. 'You can't be shy when someone's waiting to hear if their bike will work.' Some parents worried at first that the club would take time away from exam revision. Okafor thinks the opposite is true, but accepts that the proof will only come with this summer's results. What he has already seen is that club members are more willing to attempt difficult problems in lessons, because they are used to the idea that a first try is rarely the last."
+        }
+      ]
+    },
+    {
+      "title": "Twenty past six",
+      "genre": "novel",
+      "paragraphs": [
+        {
+          "text": "The watch had stopped at twenty past six, and for almost a year I let it stay that way. It had been Grandad's, a heavy steel thing with a scratched face, and Mum had given it to me after the funeral without saying much. I kept it in the drawer by my bed. Sometimes I took it out and turned the little crown, half hoping it would start again on its own, but the hands never moved."
+        },
+        {
+          "text": "It was Mr Kowal from the flat downstairs who finally did something about it. He noticed it on my wrist one morning by the bins (I had started wearing it, dead as it was) and asked if he could have a look. I said no at first. I didn't want a stranger's fingers inside it. Then he told me he had been a watchmaker for thirty years, until his eyesight got worse, and that he still kept his tools in a biscuit tin under the sink."
+        },
+        {
+          "text": "His kitchen smelt of coffee and oil. He laid a white towel on the table, 'so nothing escapes', and opened the back of the watch with a tool no bigger than a pencil. I had expected a mess of wires. Instead there was a tiny, perfect city of wheels, and in the middle of it a single hair-thin spring, bent out of shape. 'Someone has dropped this,' he said. 'Not recently. A long time ago.' I thought of Grandad on his allotment, always kneeling, always wiping his hands on his trousers. It made sense."
+        },
+        {
+          "text": "Mr Kowal did not have the right spring, so he ordered one from a dealer in Leeds, and for nine days I checked the post more often than I checked my phone. When it arrived, he let me hold the magnifying glass while he fitted it. My hands were shaking more than his. Then he wound the crown, and we both heard it: a quick, dry ticking, like someone tapping a fingernail on a table. I didn't reset it straight away. For a minute I let it run from twenty past six, as if it were simply carrying on from where it had left off."
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "kind": "mc",
+      "text": 1,
+      "items": [
+        {
+          "question": "How did the Fix-It Club begin?",
+          "options": [
+            {
+              "text": "A student suggested it after seeing a similar event."
+            },
+            {
+              "text": "Mr Okafor wanted to copy a café he had visited in Amsterdam.",
+              "wrong_pl": "Pomylone, kto co zrobił. Na wycieczce byli uczniowie („a group of fifteen-year-olds visited a repair café”), a pomysł zgłosiła Ella. Amsterdam to tylko miejsce, gdzie w 2009 zaczęły się takie kawiarnie; tekst nie mówi, że nauczyciel tam był."
+            },
+            {
+              "text": "The school asked students to organise an after-school activity.",
+              "wrong_pl": "Odwrotny kierunek. To uczennica pytała nauczyciela: „asked her physics teacher … whether the school could have something similar”. Szkoła o nic nie prosiła."
+            },
+            {
+              "text": "Mr Okafor needed help with broken equipment in the physics lab.",
+              "wrong_pl": "Pracownia fizyczna pojawia się tylko jako miejsce spotkań („stops being a physics lab”). Nic nie mówi, że nauczyciel potrzebował pomocy przy sprzęcie."
+            }
+          ],
+          "answer": 0,
+          "why_pl": "A: po wycieczce do repair café („visited a repair café”) Ella „asked her physics teacher … whether the school could have something similar”. Pomysł wyszedł od uczennicy, która widziała podobne wydarzenie."
+        },
+        {
+          "question": "Why did Mr Okafor change the way he behaves during club meetings?",
+          "options": [
+            {
+              "text": "He had too much homework to mark to help everyone.",
+              "wrong_pl": "Pomylona przyczyna ze skutkiem. Sprawdzanie zeszytów to to, co robi teraz („These days he sits at his desk marking homework”), a nie powód zmiany."
+            },
+            {
+              "text": "A student complained that he kept taking over the repairs.",
+              "wrong_pl": "Nikt się nie skarżył. Sam to zauważył: „Then he noticed that the students stopped trying”."
+            },
+            {
+              "text": "He realised that his presence made students give up too quickly."
+            },
+            {
+              "text": "One of the repairs done by the students had turned out to be unsafe.",
+              "wrong_pl": "„Unsafe” pada tylko jako warunek, kiedy wstaje od biurka („only gets up if something looks unsafe”). Tekst nie mówi o żadnej niebezpiecznej naprawie."
+            }
+          ],
+          "answer": 2,
+          "why_pl": "C: „the students stopped trying as soon as he came near and simply waited for him to take over”. Gdy podchodził, uczniowie przestawali próbować, więc odsunął się i siedzi przy biurku."
+        },
+        {
+          "question": "What does Ella's story about the lamp show?",
+          "options": [
+            {
+              "text": "Mr Okafor finally explained to her what she had done wrong.",
+              "wrong_pl": "Ella mówi wprost: „Nobody told me how”. Nauczyciel nic jej nie tłumaczył."
+            },
+            {
+              "text": "She had to buy two extra screws before the lamp would work.",
+              "wrong_pl": "Zwrot „left over” znaczy „zostały, były zbędne”, a nie „brakowało”. Ella miała dwie śruby za dużo, bo nie włożyła ich z powrotem, i nic nie kupowała."
+            },
+            {
+              "text": "She managed it once she was no longer afraid of making mistakes."
+            },
+            {
+              "text": "The lamp worked at first but stopped working a week later.",
+              "wrong_pl": "Zła kolejność. Za pierwszym razem lampa nie działała („It didn't work”), zaświeciła się dopiero za trzecim („The third time, it switched on”)."
+            }
+          ],
+          "answer": 2,
+          "why_pl": "C: „The third time, it switched on. … I'd just stopped being scared of getting it wrong.” Udało się za trzecim podejściem, kiedy przestała się bać pomyłek."
+        },
+        {
+          "question": "What can be concluded from the last paragraph?",
+          "options": [
+            {
+              "text": "The club has already improved its members' exam results.",
+              "wrong_pl": "To przekonanie nauczyciela podane jako fakt. Okafor sam przyznaje, że dowód dopiero będzie: „the proof will only come with this summer's results”."
+            },
+            {
+              "text": "Jamal joined the club because he wanted to be less shy.",
+              "wrong_pl": "Tekst mówi, jaki Jamal był przed klubem i jaki jest teraz, ale nie podaje, dlaczego się zapisał. Pewność siebie to skutek, nie powód."
+            },
+            {
+              "text": "The members care mainly about how much money they save.",
+              "wrong_pl": "Członkowie mówią, że klub „is not only about saving money or cutting waste”. Pieniądze są ważne, ale nie najważniejsze."
+            },
+            {
+              "text": "It is too early to say whether the club affects exam results."
+            }
+          ],
+          "answer": 3,
+          "why_pl": "D: Okafor „accepts that the proof will only come with this summer's results”. Wyników jeszcze nie ma, więc nie wiadomo, czy klub pomaga na egzaminach."
+        }
+      ]
+    },
+    {
+      "kind": "gap",
+      "text": 2,
+      "maxWords": 6,
+      "layout": "summary",
+      "items": [
+        {
+          "sentence": "For almost a year, the narrator kept Grandad's old watch in a drawer, half hoping that it would ___ without anyone's help.",
+          "correct": ["start again", "start working again", "start ticking again"],
+          "accepted": [
+            "start",
+            "start running again",
+            "start moving again",
+            "start to work again",
+            "start up again",
+            "start again on its own",
+            "start again by itself",
+            "begin working again",
+            "begin to work again",
+            "begin ticking again",
+            "work again",
+            "tick again",
+            "run again",
+            "move again",
+            "restart",
+            "come back to life",
+            "come to life again",
+            "start going again",
+            "get going again",
+            "start working",
+            "start ticking",
+            "start running",
+            "start moving",
+            "begin working",
+            "begin ticking",
+            "start going",
+            "begin to tick again"
+          ],
+          "why_pl": "„half hoping it would start again on its own”. Po „would” trzeba bezokolicznika bez „to”, więc „start again” albo podobnie. „On its own” zastąpiło w zdaniu „without anyone's help”, ale dopisanie go nie szkodzi. Nie uznajemy „be repaired” ani „be fixed”: narrator liczył, że ruszy sam, a nie że ktoś go naprawi."
+        },
+        {
+          "sentence": "At first the narrator turned down Mr Kowal's offer, but changed their mind when he explained that repairing watches had been ___ for thirty years.",
+          "correct": ["his job", "his profession", "his work"],
+          "accepted": [
+            "his occupation",
+            "his trade",
+            "his career",
+            "his livelihood",
+            "what he did for a living",
+            "how he earned a living",
+            "how he earned his living",
+            "how he made a living",
+            "how he made his living",
+            "his way of earning a living",
+            "his line of work",
+            "what he did",
+            "his living",
+            "his main job",
+            "his full-time job",
+            "what he did for work",
+            "his paid work"
+          ],
+          "why_pl": "„he had been a watchmaker for thirty years”. Trzeba zmienić formę: z „był zegarmistrzem” robi się „naprawianie zegarków było jego zawodem”, czyli „his job / his profession”. Bez „his” zdanie jest niegramatyczne. „His hobby” to 0: zegarmistrz to zawód, nie hobby."
+        },
+        {
+          "sentence": "Looking at the bent spring, Mr Kowal could tell that the watch had been ___ a long time before.",
+          "correct": ["dropped"],
+          "accepted": [
+            "dropped by someone",
+            "dropped by somebody",
+            "dropped at some point",
+            "damaged by a fall",
+            "damaged by being dropped",
+            "damaged when it was dropped",
+            "dropped on the floor",
+            "dropped on the ground",
+            "dropped once",
+            "knocked or dropped"
+          ],
+          "why_pl": "„Someone has dropped this … A long time ago.” W zdaniu jest strona bierna („had been ___”), więc imiesłów „dropped”. Nie uznajemy „dropped by the grandfather”: to tylko domysł narratora („It made sense”), Mr Kowal tego nie mówi. Samo „damaged” albo „broken” jest za ogólne, bo trzeba powiedzieć, co się zegarkowi stało. „Damaged by a fall” przechodzi, bo to mówi."
+        },
+        {
+          "sentence": "When the watch was working again, instead of ___ straight away, the narrator let it carry on from twenty past six.",
+          "correct": [
+            "resetting it",
+            "setting it to the right time",
+            "setting it to the correct time"
+          ],
+          "accepted": [
+            "resetting the watch",
+            "resetting the time",
+            "resetting the hands",
+            "setting the right time",
+            "setting the correct time",
+            "setting it right",
+            "putting it right",
+            "changing the time",
+            "correcting the time",
+            "adjusting it",
+            "adjusting the time",
+            "moving the hands",
+            "setting the hands",
+            "resetting it to the right time",
+            "setting it",
+            "setting the time",
+            "fixing the time",
+            "resetting the clock",
+            "resetting it to the correct time",
+            "putting it to the right time"
+          ],
+          "why_pl": "„I didn't reset it straight away.” Po „instead of” musi być forma -ing, więc „resetting it”, a nie „reset it”. Uznajemy też inne sposoby powiedzenia „ustawić właściwą godzinę”. Nie uznajemy „winding it”: nakręcił go Mr Kowal, i to wcześniej."
+        }
+      ]
+    }
+  ]
+}

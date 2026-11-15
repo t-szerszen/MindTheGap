@@ -1,0 +1,228 @@
+{
+  "id": "r6-dark-sky",
+  "type": "reading-set",
+  "examTask": 6,
+  "title": "Looking up",
+  "theme": "science",
+  "texts": [
+    {
+      "title": "There she goes",
+      "genre": "novel",
+      "paragraphs": [
+        {
+          "text": "Dad had promised me the Milky Way, and for the first two hours on Carrow Fell it felt like a promise he had made without checking. The cloud sat over the valley like a lid. Around us, a dozen strangers in thick coats moved about in the dark, setting up telescopes by the dim red light of their head torches. Nobody used white light; a woman with a clipboard had told us at the gate that one careless torch could ruin everyone's eyes for half an hour."
+        },
+        {
+          "text": "I was cold and fourteen and, I had decided, not interested in astronomy. I said so, quite loudly. Dad just poured me more tea from the flask and said that the sky would make up its mind in its own time."
+        },
+        {
+          "text": "Around eleven, a man beside us called out, 'There she goes,' and I looked up expecting a shooting star. Instead, the cloud was simply pulling apart, like a curtain someone was opening very slowly. And behind it was more sky than I had known existed. It wasn't black at all. It was crowded, grainy, almost untidy, with a pale band running across it that I first mistook for another thin cloud. 'That's it,' Dad said quietly. 'That's us. We're inside that.'"
+        },
+        {
+          "text": "I didn't understand what he meant until later, when the woman with the clipboard explained that the band was our own galaxy seen from the inside, edge on, like looking along a plate from its rim. At the time I just stood there with my mouth open and my tea going cold."
+        },
+        {
+          "text": "On the drive home I pretended to be asleep so that I wouldn't have to admit anything. But at the next service station I asked Dad, as casually as I could, when the next clear night was forecast."
+        }
+      ]
+    },
+    {
+      "title": "Switching off to look up",
+      "genre": "article",
+      "paragraphs": [
+        {
+          "text": "For most of human history, a clear night meant a sky full of stars. Today, many people who live in or near cities have never seen the Milky Way with their own eyes. The reason is not that the stars have gone anywhere, but that the sky above us is no longer properly dark. Streetlights, car parks, advertising screens and security lamps send light upwards and sideways, where it is scattered in the air and turns the night sky into a dull orange glow. Astronomers call this skyglow."
+        },
+        {
+          "text": "Unlike most forms of pollution, light pollution is easy to reverse: switch the light off and the problem disappears at once. In practice, of course, nobody is suggesting that towns should return to total darkness. Instead, campaigners argue for better lighting rather than less: lamps that point down at the pavement instead of up at the clouds, warmer colours instead of harsh bluish white, and timers or motion sensors so that empty streets are not lit all night."
+        },
+        {
+          "text": "The benefits are not only for stargazers. Many night-flying insects, including moths, are drawn towards artificial lights and circle them until they are exhausted, which means they are not feeding or pollinating plants. Migrating birds, many of which travel at night, can become disoriented by brightly lit buildings. There is also evidence that bright light late in the evening can disturb human sleep, although researchers stress that the screens in our bedrooms probably matter more than the streetlights outside."
+        },
+        {
+          "text": "Some places have turned their darkness into an attraction. Areas that meet strict standards can apply to be recognised as official dark sky places, and several in Britain now run stargazing evenings, especially in winter, when nights are long. Local businesses have noticed the difference: hotels and cafés that once closed for the quiet season now advertise 'dark sky breaks'. For visitors who arrive expecting to see everything immediately, there is one piece of advice. It takes around twenty minutes for human eyes to adjust properly to the dark, and a single glance at a phone screen can undo most of that."
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "kind": "mc",
+      "text": 1,
+      "items": [
+        {
+          "question": "What does the narrator say about the first two hours on Carrow Fell?",
+          "options": [
+            {
+              "text": "It seemed that her father might not be able to keep his promise."
+            },
+            {
+              "text": "Her father admitted that he had not checked the weather forecast.",
+              "wrong_pl": "Tata niczego nie przyznaje. „A promise he had made without checking” to wrażenie narratorki („it felt like”), a nie jego słowa."
+            },
+            {
+              "text": "The telescopes had to be covered to protect them from the cloud.",
+              "wrong_pl": "Dosłowne czytanie porównania. „The cloud sat over the valley like a lid” znaczy, że chmury zakrywały niebo jak pokrywka. Nikt niczego nie przykrywał, ludzie właśnie rozstawiali teleskopy."
+            },
+            {
+              "text": "Some visitors were annoying others by using white torches.",
+              "wrong_pl": "Odwrotnie: „Nobody used white light”. O białej latarce mówi tylko ostrzeżenie kobiety przy bramie, czyli coś, co mogłoby się stać."
+            }
+          ],
+          "answer": 0,
+          "why_pl": "A: „it felt like a promise he had made without checking” i „The cloud sat over the valley like a lid”. Tata obiecał Drogę Mleczną, a niebo było zasłonięte, więc wyglądało na to, że obietnica się nie spełni."
+        },
+        {
+          "question": "While they were waiting, the narrator",
+          "options": [
+            {
+              "text": "tried to hide how excited she really was.",
+              "wrong_pl": "Zła kolejność. Ukrywa emocje dopiero w drodze do domu („I pretended to be asleep so that I wouldn't have to admit anything”). Podczas czekania była po prostu znudzona."
+            },
+            {
+              "text": "made it clear to others that she was bored."
+            },
+            {
+              "text": "was upset because her father had forgotten the tea.",
+              "wrong_pl": "Herbata była: „Dad just poured me more tea from the flask”. Tata niczego nie zapomniał."
+            },
+            {
+              "text": "had already decided to take up astronomy.",
+              "wrong_pl": "Odwrotnie. Zdecydowała, że astronomia jej nie interesuje: „I had decided, not interested in astronomy”."
+            }
+          ],
+          "answer": 1,
+          "why_pl": "B: „not interested in astronomy. I said so, quite loudly”. Osoba opowiadająca mówi głośno, że astronomia jej nie interesuje, czyli pokazuje wszystkim swoje znudzenie."
+        },
+        {
+          "question": "When the man called out 'There she goes',",
+          "options": [
+            {
+              "text": "a shooting star appeared, just as the narrator had expected.",
+              "wrong_pl": "Oczekiwanie podane jako fakt. Narratorka spodziewała się spadającej gwiazdy („expecting a shooting star”), ale zaraz potem jest „Instead”: chodziło o coś innego."
+            },
+            {
+              "text": "the sky was being covered by a thick curtain of cloud.",
+              "wrong_pl": "Dosłowne i odwrócone czytanie porównania. „Like a curtain someone was opening” znaczy, że chmury się rozsuwały i odsłaniały niebo, a nie je zasłaniały."
+            },
+            {
+              "text": "the clouds were starting to clear."
+            },
+            {
+              "text": "a thin cloud was moving across the stars.",
+              "wrong_pl": "Jasny pas narratorka tylko wzięła na początku za chmurę („I first mistook for another thin cloud”). To była Droga Mleczna, co wyjaśnia akapit 4."
+            }
+          ],
+          "answer": 2,
+          "why_pl": "C: „Instead, the cloud was simply pulling apart, like a curtain someone was opening very slowly”. Chmury się rozchodziły, czyli niebo zaczęło się przejaśniać."
+        },
+        {
+          "question": "The last paragraph shows that the narrator",
+          "options": [
+            {
+              "text": "openly told her father how much she had enjoyed the night.",
+              "wrong_pl": "Odwrotnie: udawała, że śpi, właśnie po to, żeby niczego nie przyznać („so that I wouldn't have to admit anything”)."
+            },
+            {
+              "text": "wanted to go stargazing again but did not say so directly."
+            },
+            {
+              "text": "asked her father to explain the Milky Way to her once more.",
+              "wrong_pl": "Pomylone, kto co robi. Drogę Mleczną wyjaśniła kobieta z notesem („the woman with the clipboard explained”), a ojca narratorka pyta o prognozę pogody."
+            },
+            {
+              "text": "complained that the next clear night was too far away.",
+              "wrong_pl": "Tekst nie mówi, kiedy jest następna pogodna noc ani że narratorka narzeka. Ona tylko pyta, kiedy ją zapowiadają."
+            }
+          ],
+          "answer": 1,
+          "why_pl": "B: pyta, „as casually as I could”, kiedy będzie następna pogodna noc. Nie mówi wprost, że chce wrócić, ale pytanie o pogodę to pokazuje. Pasuje też do tego, że wcześniej nie chciała niczego przyznać."
+        }
+      ]
+    },
+    {
+      "kind": "gap",
+      "text": 2,
+      "layout": "sentences",
+      "items": [
+        {
+          "sentence": "Many people in cities have never seen the Milky Way, even though the stars are ___.",
+          "correct": ["still there", "still in the sky"],
+          "accepted": [
+            "still up there",
+            "still above us",
+            "still in the same place",
+            "still where they were",
+            "still where they always were",
+            "still where they have always been",
+            "still in the sky above us",
+            "still there in the sky",
+            "there",
+            "still present",
+            "still up in the sky",
+            "still in the night sky",
+            "still above them",
+            "still above our heads"
+          ],
+          "why_pl": "„The reason is not that the stars have gone anywhere”. Gwiazdy nigdzie nie zniknęły, czyli dalej tam są. Po „are” potrzebny jest opis miejsca: „still there”. Nie uznajemy „still visible”: przez skyglow właśnie ich nie widać. „Not gone anywhere” nie pasuje gramatycznie po „are”."
+        },
+        {
+          "sentence": "Moths that circle a lamp until they are exhausted are kept from ___.",
+          "correct": ["feeding or pollinating plants", "feeding and pollinating plants"],
+          "accepted": [
+            "feeding or pollinating",
+            "feeding and pollinating",
+            "pollinating plants or feeding",
+            "pollinating plants and feeding",
+            "feeding or pollinating flowers",
+            "feeding and pollinating flowers",
+            "eating or pollinating plants",
+            "eating and pollinating plants",
+            "feeding",
+            "pollinating plants",
+            "pollinating flowers",
+            "eating"
+          ],
+          "why_pl": "„which means they are not feeding or pollinating plants”. Po „kept from” musi być forma -ing, więc „feeding or pollinating plants”. Jedna z dwóch czynności też jest prawdziwa i wystarcza. Nie uznajemy „flying” ani „sleeping”: tego w tekście nie ma, a ćmy przecież latają wokół lampy."
+        },
+        {
+          "sentence": "According to researchers, when it comes to sleep, ___ are probably a bigger problem than streetlights.",
+          "correct": ["the screens in our bedrooms", "screens in bedrooms"],
+          "accepted": [
+            "screens in our bedrooms",
+            "the screens in bedrooms",
+            "the screens in people's bedrooms",
+            "screens in people's bedrooms",
+            "the screens in their bedrooms",
+            "screens in their bedrooms",
+            "the screens people have in their bedrooms",
+            "screens people have in their bedrooms",
+            "bedroom screens",
+            "screens",
+            "the screens",
+            "the screens in our bedroom",
+            "screens in the bedroom",
+            "the screens in the bedroom",
+            "screens in our bedroom"
+          ],
+          "why_pl": "„researchers stress that the screens in our bedrooms probably matter more than the streetlights outside”. Po luce jest „are”, więc liczba mnoga. Samo „screens” jest za ogólne, bo w tekście chodzi o ekrany w sypialniach, a reklamowe ekrany z akapitu 1 właśnie świecą na zewnątrz. „Bright light” to 0: to ono szkodzi, a ekrany są tu porównane z latarniami."
+        },
+        {
+          "sentence": "Some hotels and cafés that used to ___ during the quiet season now advertise breaks for stargazers.",
+          "correct": ["close", "shut"],
+          "accepted": [
+            "close down",
+            "shut down",
+            "be closed",
+            "be shut",
+            "stay closed",
+            "remain closed",
+            "close their doors",
+            "shut their doors"
+          ],
+          "why_pl": "„hotels and cafés that once closed for the quiet season”. Po „used to” trzeba bezokolicznika bez końcówki, więc „close”, a nie „closed”. „Be empty” to 0: tekst mówi, że były zamknięte, a nie że stały puste."
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link, useLocation, useNavigate, useSearchParams } from 'react-router'
 import { Button, Progress } from '../../components/Controls'
 import { PencilLine } from '../../components/Ink'
@@ -63,6 +63,11 @@ function Session({ initial }: { initial: SavedSession }) {
     .map((id) => exercises.find((e) => e.id === id))
     .filter((e): e is Exercise => !!e)
   const tags = new URLSearchParams(state.query).get('tags')?.split(',').filter(Boolean) ?? []
+
+  // zapis od razu przy starcie, żeby dało się wrócić do serii, nawet jak nic jeszcze nie wpisano
+  useEffect(() => {
+    if (initial.ids.length) saveSession(initial)
+  }, [initial])
 
   function update(next: SavedSession) {
     setState(next)
