@@ -1,0 +1,677 @@
+[
+  {
+    "id": "g4-train-later-timetable",
+    "type": "gap-fill",
+    "sentence": "Sorry I'm late! My train from Kraków arrived forty minutes ___ (late / timetable) said it would.",
+    "correct": ["later than the timetable"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Pociąg przyjechał po czasie, a dalej jest said it would, czyli porównanie z tym, co obiecywał rozkład."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Porównanie dwóch rzeczy to stopień wyższy + than: later than."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "late → later. timetable to konkretny rozkład tego pociągu, więc the: later than the timetable (4 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "more late ✗ i later then ✗: then znaczy „wtedy”, a porównuje than."
+      }
+    ],
+    "tags": ["adjectives-adverbs", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "g4-easier-way-addresses",
+    "type": "gap-fill",
+    "sentence": "Why are you copying all these addresses by hand? There must be ___ (easy / way / do) it than that!",
+    "correct": [
+      "an easier way to do",
+      "an easier way of doing",
+      "easier ways to do",
+      "easier ways of doing"
+    ],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "than that na końcu: porównujesz jakiś sposób z przepisywaniem ręcznie, więc stopień wyższy."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "easy → easier. Przed way trzeba przedimka, a easier zaczyna się od samogłoski: an easier way."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Po way idzie to + bezokolicznik albo of + -ing: an easier way to do albo an easier way of doing (po 5 wyrazów)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "a easier ✗ (przed samogłoską an), easier way bez przedimka ✗ (way jest policzalne; w liczbie mnogiej easier ways to do też jest dobrze), more easy ✗."
+      }
+    ],
+    "tags": ["adjectives-adverbs", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "g4-sooner-we-leave",
+    "type": "gap-fill",
+    "sentence": "___ (soon / we / leave), the less time we'll spend stuck in traffic on the motorway.",
+    "correct": ["The sooner we leave"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Druga część zaczyna się od the less: jedna rzecz rośnie razem z drugą. To układ the + stopień wyższy, the + stopień wyższy."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "soon → sooner, przed nim the: The sooner we leave (4 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "W tej części nie ma will, chociaż chodzi o przyszłość: The sooner we will leave ✗. Działa jak zdanie z if."
+      }
+    ],
+    "tags": ["adjectives-adverbs", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "g4-get-up-later-used-to",
+    "type": "gap-fill",
+    "sentence": "Now that I live just five minutes from school, I get up ___ (much / late / I / use) to.",
+    "correct": ["much later than I used"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Now that: kiedyś mieszkałem dalej, teraz bliżej. Porównujesz dziś z przeszłością, a to po luce zostawia miejsce na used to."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Stopień wyższy + than + zdanie: later than I used to (niż kiedyś)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "late → later, much wzmacnia przed nim, use → used: much later than I used (5 wyrazów, to stoi już w zdaniu)."
+      },
+      {
+        "label_pl": "liczenie",
+        "text_pl": "Wszystkie cztery słowa z nawiasu plus than to 5. Nie ma miejsca na nic więcej."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "much more late ✗, than I use ✗ (w twierdzeniu jest used to, z -d)."
+      }
+    ],
+    "tags": ["adjectives-adverbs", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "g4-ola-same-age",
+    "type": "gap-fill",
+    "sentence": "Ola is ___ (same / age / Kuba), but she's already at university because she started school a year early.",
+    "correct": ["the same age as Kuba"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "but she's already at university: są w tym samym wieku, a mimo to Ola jest dalej. Porównujesz dwie rzeczy, które są równe."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "the same + rzeczownik + as: the same age as."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "the same age as Kuba (5 wyrazów)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "same bez the ✗, the same age like ✗, the same age than ✗. Po the same stoi as."
+      }
+    ],
+    "tags": ["adjectives-adverbs", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "g4-harder-and-harder-room",
+    "type": "gap-fill",
+    "sentence": "Rents in Warsaw keep rising, and it's getting ___ (hard / hard / find) a cheap room for students.",
+    "correct": ["harder and harder to find"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "keep rising i getting: sytuacja zmienia się krok po kroku. Dwa razy hard w nawiasie to ten sam przymiotnik powtórzony."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Stopień wyższy + and + stopień wyższy znaczy „coraz bardziej”: harder and harder."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po przymiotniku idzie to + bezokolicznik: harder and harder to find (5 wyrazów)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "more and more hard ✗: krótki przymiotnik dostaje -er. Przy przymiotnikach more and more stoi tylko przy długich (more and more expensive)."
+      }
+    ],
+    "tags": ["adjectives-adverbs", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "g4-fewer-people-festival",
+    "type": "gap-fill",
+    "sentence": "Because of the cold rain, ___ (few / people / come) to last weekend's open-air festival than the year before.",
+    "correct": ["fewer people came"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "than the year before: porównanie, więc stopień wyższy od few."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "few → fewer, bo people da się policzyć. Festiwal był w ostatni weekend, więc came: fewer people came (3 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "less people ✗ w poprawnej pisanej angielszczyźnie: less idzie z niepoliczalnymi (less rain), fewer z policzalnymi."
+      }
+    ],
+    "tags": ["adjectives-adverbs", "key-word-transformations"],
+    "difficulty": 2,
+    "accepted": ["far fewer people came"]
+  },
+  {
+    "id": "g4-such-nice-weather",
+    "type": "gap-fill",
+    "sentence": "We had ___ (such / nice / weather) last Sunday that we ate lunch in the garden for the first time this year.",
+    "correct": ["such nice weather"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "such … that: tak ładna pogoda, że aż zjedliśmy w ogrodzie."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "such stoi przed przymiotnikiem z rzeczownikiem. a/an wchodzi tylko przed rzeczownik policzalny w lp."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "weather jest niepoliczalne, więc bez a: such nice weather (3 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "such a nice weather ✗. Z a byłoby dobrze tylko z policzalnym: such a nice day."
+      }
+    ],
+    "tags": ["articles-determiners", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "g4-cousin-useful-advice",
+    "type": "gap-fill",
+    "sentence": "My cousin has lived in London for years, so she gave me ___ (lot / useful / advice) about renting a flat there.",
+    "correct": ["a lot of useful advice", "lots of useful advice"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "lot w nawiasie to „dużo”, a advice to rada."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "a lot of albo lots of + rzeczownik: a lot of useful advice (5 wyrazów) albo lots of useful advice (4)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "advice jest niepoliczalne: advices ✗ i an advice ✗. Jedna rada to a piece of advice."
+      }
+    ],
+    "tags": ["nouns-pronouns", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "g4-hand-luggage-piece",
+    "type": "gap-fill",
+    "sentence": "With most budget airlines, you can take only ___ (one / piece / hand / luggage) on board without paying extra.",
+    "correct": ["one piece of hand luggage"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "piece w nawiasie: chodzi o jedną sztukę czegoś, czego nie liczy się bezpośrednio."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "luggage jest niepoliczalne, więc sztukę liczysz przez piece of: one piece of luggage."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "hand stoi przed luggage jak przymiotnik: one piece of hand luggage (5 wyrazów)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "one hand luggage ✗ i luggages ✗. Do słowa niepoliczalnego nie dodajesz one ani -s."
+      }
+    ],
+    "tags": ["nouns-pronouns", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "g4-police-two-men",
+    "type": "gap-fill",
+    "sentence": "The police ___ (look / for / two / men) who broke into a jeweller's in Wrocław on Monday night. Anyone with information should call 112.",
+    "correct": ["are looking for two men"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Anyone with information should call: poszukiwania trwają teraz, więc present continuous."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "police łączy się z czasownikiem w lm, tak jak people: are looking for two men (5 wyrazów)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "The police is looking ✗. police nie ma -s, a mimo to jest liczbą mnogą."
+      }
+    ],
+    "tags": ["nouns-pronouns", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "g4-rich-higher-taxes",
+    "type": "gap-fill",
+    "sentence": "Many people believe that ___ (rich / should / pay) higher taxes than everyone else.",
+    "correct": ["the rich should pay", "rich people should pay"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Mowa ogólnie o całej grupie ludzi (bogaci), nie o konkretnych osobach."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "the + przymiotnik nazywa całą grupę: the rich = bogaci. Działa jak lm: the rich are."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "the rich should pay albo bez the z rzeczownikiem: rich people should pay (po 4 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "rich should pay ✗ (sam przymiotnik bez the i bez rzeczownika), the riches ✗ (to „bogactwa”). the rich people znaczy konkretnych bogaczy, o których już była mowa, więc tu nie pasuje."
+      }
+    ],
+    "tags": ["articles-determiners", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "g4-hiking-tatras",
+    "type": "gap-fill",
+    "sentence": "Last summer my family ___ (go / hike / Tatras) for a week and stayed in a mountain hostel in Zakopane.",
+    "correct": ["went hiking in the Tatras"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Last summer: zamknięta przeszłość, więc go → went."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Aktywności na -ing po go: go hiking, go skiing. Miejsce wędrówki to in."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Nazwy pasm górskich mają the: in the Tatras. Razem went hiking in the Tatras (5 wyrazów)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "in Tatras ✗ (brak the), went to hike ✗ (wychodzi 6 wyrazów), went hike ✗."
+      }
+    ],
+    "tags": ["articles-determiners", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "g4-number-teenagers-library",
+    "type": "gap-fill",
+    "sentence": "Since the new library opened, ___ (number / teenager / borrow) books in our town has almost doubled.",
+    "correct": ["the number of teenagers borrowing"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Po luce has, czyli czasownik w lp. Podmiotem jest liczba, a nie sami nastolatkowie."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "the number of + lm znaczy „liczba czegoś” i bierze czasownik w lp. a number of znaczy „kilka, wiele” i bierze lm."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "teenager → teenagers, borrow → borrowing (skrócone who borrow): the number of teenagers borrowing (5 wyrazów)."
+      },
+      {
+        "label_pl": "liczenie",
+        "text_pl": "the number of teenagers who borrow to 6 wyrazów, więc za dużo. Forma -ing mieści się w limicie."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "a number of teenagers has ✗: a number of łączy się z have, a w zdaniu stoi has."
+      }
+    ],
+    "tags": ["articles-determiners", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "g4-hardly-any-time-castle",
+    "type": "gap-fill",
+    "sentence": "The guided tour took so long that we had ___ (hardly / time / look) around the castle gardens before the gates closed.",
+    "correct": ["hardly any time to look", "hardly enough time to look"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "took so long … before the gates closed: czasu prawie nie było."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "hardly samo w sobie jest przeczeniem, więc dalej stoi any, nie no: hardly any time. Pasuje też hardly enough time (ledwo starczyło czasu)."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Po time idzie to + bezokolicznik: hardly any time to look (5 wyrazów), around stoi już w zdaniu."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "hardly no time ✗ to podwójne przeczenie."
+      }
+    ],
+    "tags": ["articles-determiners", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "g4-cousins-both-speak",
+    "type": "gap-fill",
+    "sentence": "I've got two cousins in Toronto, and ___ (both / them / speak) Polish fluently even though they were born in Canada.",
+    "correct": ["both of them speak"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "two cousins: dwie osoby, więc both."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "both przed zaimkiem potrzebuje of: both of them."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Mówią po polsku na stałe, więc present simple. them w podmiocie to „oni”, czyli lm bez -s: both of them speak (4 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "both them ✗ (brak of), both of them speaks ✗ (both to zawsze lm)."
+      }
+    ],
+    "tags": ["articles-determiners", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "g4-ferry-unlikely-fog",
+    "type": "gap-fill",
+    "sentence": "Look at that fog! The ferry ___ (like / leave) on time, so let's go and get a coffee.",
+    "correct": ["is unlikely to leave", "is not likely to leave"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Mgła i let's go and get a coffee: spodziewasz się, że prom NIE wypłynie o czasie. To zdanie przeczące, chociaż w nawiasie nie ma not."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Prawdopodobieństwo w przyszłości: be likely to + bezokolicznik. like zmienia się w przymiotnik likely."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Przeczenie dajesz przedrostkiem albo przez not: is unlikely to leave (4 wyrazy) albo is not likely to leave (5)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "is likely to leave ✗ odwraca sens: wtedy kawa nie miałaby uzasadnienia. is like to leave ✗: like nie jest przymiotnikiem, potrzebne jest likely."
+      }
+    ],
+    "tags": ["word-formation", "key-word-transformations"],
+    "difficulty": 3,
+    "accepted": ["is very unlikely to leave", "is highly unlikely to leave"]
+  },
+  {
+    "id": "g4-parents-never-doubts",
+    "type": "gap-fill",
+    "sentence": "From the moment I told my parents I wanted to study in Scotland, they ___ (never / have / doubt / about) my choice, and that really helped me.",
+    "correct": ["never had doubts about"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "about po doubt: czasownik doubt łączy się bezpośrednio z dopełnieniem (doubt sth), więc z about musi tu stać rzeczownik."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "have doubts about sth = mieć wątpliwości co do czegoś. doubt staje się rzeczownikiem i dostaje -s: doubts."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Opowieść jest w przeszłości (told, helped), więc have → had: never had doubts about (4 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "never doubted about ✗: przy czasowniku doubt nie ma about. never had any doubts about byłoby dobrze, ale ma 5 wyrazów, a limit to 4."
+      }
+    ],
+    "tags": ["word-formation", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "g4-grandpa-difficulty-stairs",
+    "type": "gap-fill",
+    "sentence": "Since his knee operation in March, Grandpa ___ (have / difficult / walk) up the stairs to his flat on the third floor.",
+    "correct": ["has had difficulty walking"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Since + moment w przeszłości: kłopot trwa od marca do dziś, więc present perfect: has had."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "have difficulty + -ing = mieć trudność z czymś. Po have potrzebny jest rzeczownik, więc difficult → difficulty."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "has had difficulty walking (4 wyrazy). Wersja z in (difficulty in walking) jest poprawna, ale ma 5 wyrazów."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "has difficulty ✗ (since wymaga present perfect), has had difficult to walk ✗ (przymiotnik po have nie działa)."
+      }
+    ],
+    "tags": ["word-formation", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "g4-charity-fair-success",
+    "type": "gap-fill",
+    "sentence": "Last Saturday's charity fair at our school ___ (be / big / succeed): we raised over 3,000 złoty for the local animal shelter.",
+    "correct": ["was a big success"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Last Saturday: zamknięta przeszłość, więc was."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Po be stoi tu rzeczownik „sukces”: succeed → success. To policzalne użycie (jeden udany kiermasz), więc z a."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "was a big success (4 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "was big success ✗ (brak a), was a big successful ✗ (przymiotnik bez rzeczownika), was a big succeed ✗."
+      }
+    ],
+    "tags": ["word-formation", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "g4-no-choice-airport",
+    "type": "gap-fill",
+    "sentence": "Our flight was cancelled and every hotel nearby was full, so we had ___ (no / choose / but / wait) at the airport until the morning.",
+    "correct": ["no choice but to wait"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "had no: po have i no musi stać rzeczownik, więc choose → choice."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "have no choice but to + bezokolicznik = nie mieć innego wyjścia, jak tylko…"
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "no choice but to wait (5 wyrazów)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "no choose ✗ (czasownik zamiast rzeczownika), no choice but wait ✗ i but waiting ✗: w tym zwrocie po but stoi to."
+      }
+    ],
+    "tags": ["word-formation", "key-word-transformations"],
+    "difficulty": 3
+  },
+  {
+    "id": "g4-strike-commuters-unable",
+    "type": "gap-fill",
+    "sentence": "Because of yesterday's train strike, thousands of commuters ___ (able / get) to work, so many offices in Warsaw were half empty.",
+    "correct": ["were unable to get", "were not able to get"],
+    "maxWords": 5,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Strajk i puste biura: ludzie NIE dojechali. Zdanie jest przeczące, chociaż w nawiasie nie ma not."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "be able to + bezokolicznik, a w przeczeniu be unable to albo be not able to."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "yesterday i commuters (lm), więc were: were unable to get (4 wyrazy) albo were not able to get (5)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "were able to get ✗ odwraca sens. were disable ✗: disabled znaczy „niepełnosprawny”."
+      }
+    ],
+    "tags": ["word-formation", "key-word-transformations"],
+    "difficulty": 2
+  },
+  {
+    "id": "g4-kasia-brother-either",
+    "type": "gap-fill",
+    "sentence": "Kasia doesn't eat meat, and her younger brother ___ (not / either), so their mum usually cooks vegetarian dinners.",
+    "correct": ["does not either"],
+    "maxWords": 3,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Pierwsza część jest przecząca (doesn't eat), a brat robi to samo: on też nie je."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "W przeczeniu „też” to either na końcu, nie too. Czasownik zastępujesz posiłkowym: does not either."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "brother to he, więc does: does not either (3 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "does not too ✗ i does either ✗. Ten sam sens daje neither does he, ale tam nie ma not."
+      }
+    ],
+    "tags": ["articles-determiners", "key-word-transformations"],
+    "difficulty": 1
+  },
+  {
+    "id": "g4-brother-hardly-ever-helps",
+    "type": "gap-fill",
+    "sentence": "My brother ___ (hard / ever / help) with the washing-up: there's always a match on TV or a game he has to finish.",
+    "correct": ["hardly ever helps"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "there's always a match … or a game: wymówka jest zawsze, więc brat prawie nigdy nie pomaga."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "„prawie nigdy” to hardly ever. hard → hardly zmienia znaczenie: hard to „ciężko”, hardly to „prawie nie”."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "Zwyczaj, więc present simple, brother to he: hardly ever helps (3 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "doesn't hardly ever help ✗ (podwójne przeczenie), hard ever helps ✗."
+      }
+    ],
+    "tags": ["adjectives-adverbs", "key-word-transformations"],
+    "difficulty": 3,
+    "accepted": ["hardly ever helps out"]
+  },
+  {
+    "id": "g4-train-gdansk-less-driving",
+    "type": "gap-fill",
+    "sentence": "Taking the train to Gdańsk costs ___ (much / little / drive) there, especially if you have a student discount.",
+    "correct": ["much less than driving"],
+    "maxWords": 4,
+    "steps": [
+      {
+        "label_pl": "sygnał",
+        "text_pl": "Porównujesz koszt pociągu z kosztem jazdy autem, więc stopień wyższy + than."
+      },
+      {
+        "label_pl": "forma",
+        "text_pl": "little ma nieregularny stopień wyższy: less. much przed nim wzmacnia: much less than."
+      },
+      {
+        "label_pl": "struktura",
+        "text_pl": "Porównujesz z czynnością, która jest podmiotem jak Taking the train, więc -ing: driving. Razem much less than driving (4 wyrazy)."
+      },
+      {
+        "label_pl": "pułapka",
+        "text_pl": "much littler ✗, much less than drive ✗, much fewer ✗ (fewer tylko przed policzalnym rzeczownikiem)."
+      }
+    ],
+    "tags": ["adjectives-adverbs", "key-word-transformations"],
+    "difficulty": 2
+  }
+]
