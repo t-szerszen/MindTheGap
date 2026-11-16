@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { Link, useLocation } from 'react-router'
-import { Button, LineField } from '../../components/Controls'
+import { Button, LineArea, LineField } from '../../components/Controls'
 import { Icon } from '../../components/Icon'
 import { pl } from '../../i18n/pl'
 import { addWord } from '../../lib/db/words'
@@ -36,8 +36,16 @@ function translateCached(text: string) {
   return p
 }
 
-// numerki luk, etykiety dla czytnika i polskie wstawki nie wchodzą do przykładu
-const skip = 'sup, .sr, .para-key, [aria-hidden="true"], [lang]:not([lang^="en"])'
+// numerki luk, etykiety dla czytnika, podpowiedzi typu (go) i polskie wstawki nie wchodzą do przykładu
+const skip = 'sup, .sr, .para-key, .ex-base, [aria-hidden="true"], [lang]:not([lang^="en"])'
+
+// po sprawdzeniu luka dostaje dobrą odpowiedź, żeby przykład był całym zdaniem
+function gapText(input: HTMLInputElement) {
+  if (input.classList.contains('ok') && input.value.trim()) return input.value.trim()
+  // przy złej odpowiedzi zaraz za polem stoi .fix z poprawną, ona wejdzie jako zwykły tekst
+  if (input.nextElementSibling?.classList.contains('fix')) return ''
+  return '___'
+}
 
 function visibleText(block: Element, range: Range) {
   const walker = document.createTreeWalker(block, NodeFilter.SHOW_TEXT | NodeFilter.SHOW_ELEMENT)
@@ -47,7 +55,7 @@ function visibleText(block: Element, range: Range) {
   for (let n = walker.nextNode(); n; n = walker.nextNode()) {
     if (n instanceof Element) {
       // luka w zdaniu z ćwiczenia
-      if (n instanceof HTMLInputElement) text += '___'
+      if (n instanceof HTMLInputElement) text += gapText(n)
       continue
     }
     const hidden = n.parentElement?.closest(skip)
@@ -245,6 +253,7 @@ function PickCard({
   const [busy, setBusy] = useState(true)
   const [error, setError] = useState<TranslateErrorKind | null>(null)
   const [tag, setTag] = useState('')
+  const [sentence, setSentence] = useState(example === term ? '' : example)
   const [saved, setSaved] = useState(false)
 
   useEffect(() => {
@@ -278,7 +287,7 @@ function PickCard({
       term,
       translation,
       direction: 'en-pl',
-      example,
+      example: sentence,
       tags: parseTags(tag),
       source: 'text',
     })
@@ -316,14 +325,27 @@ function PickCard({
         {error && <p className="note pick-msg">{pl.translator.errors[error]}</p>}
       </div>
 
-      {example && example !== term && (
-        <div className="pick-example">
-          <p className="field-label">{t.example}</p>
-          <p className="small" lang="en">
-            {example}
-          </p>
-        </div>
-      )}
+      {user
+        ? !saved && (
+            <LineArea
+              className="pick-example"
+              label={t.example}
+              value={sentence}
+              rows={2}
+              placeholder={t.examplePlaceholder}
+              onChange={(e) => setSentence(e.target.value)}
+              lang="en"
+            />
+          )
+        : example &&
+          example !== term && (
+            <div className="pick-example">
+              <p className="field-label">{t.example}</p>
+              <p className="small" lang="en">
+                {example}
+              </p>
+            </div>
+          )}
 
       {!user ? (
         <p className="note pick-msg">

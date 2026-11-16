@@ -78,8 +78,7 @@
   }
   .topbar .logo {
     display: none;
-    padding-bottom: 8px;
-    white-space: nowrap;
+    padding-bottom: 6px;
   }
   .viewport {
     width: 100%;
@@ -142,7 +141,7 @@
 }
 @media (min-width: 1200px) {
   .topbar .logo {
-    display: block;
+    display: inline-flex;
   }
 }
 
@@ -196,22 +195,16 @@
   box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.55);
 }
 .home-label-in {
+  width: 100%;
   border: 1.5px solid var(--pen-blue);
   outline: 1px solid var(--pen-blue);
   outline-offset: 3px;
   border-radius: 6px;
-  padding: 8px 10px 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2px;
+  padding: 8px 8px 10px;
+  gap: 4px;
 }
-.home-name {
-  flex: 1;
-  min-height: 25px;
-  font-size: 25px;
-  line-height: 1;
-  border-bottom: 1.5px dotted var(--pencil);
+.home-label-in .logo-tag {
+  white-space: normal;
 }
 .home-sheet {
   flex: 1;
@@ -395,8 +388,8 @@
 }
 
 /* gramatyka: ta sama kartka i indeks co w czasach */
-.grammar-tabs {
-  /* przekładek jest więcej niż czasów, więc indeks się przewija; padding, żeby wysunięta karta się nie ucinała */
+.tense-tabs {
+  /* przekładek jest dużo, więc indeks się przewija; padding, żeby wysunięta karta się nie ucinała */
   width: 54px;
   margin-left: -8px;
   padding-left: 8px;
@@ -405,7 +398,7 @@
   overscroll-behavior: contain;
   scrollbar-width: none;
 }
-.grammar-tabs::-webkit-scrollbar {
+.tense-tabs::-webkit-scrollbar {
   display: none;
 }
 .gr-subnav {
@@ -453,7 +446,7 @@
   padding: 18px 16px 16px;
 }
 @media (min-width: 760px) {
-  .grammar-tabs {
+  .tense-tabs {
     width: 64px;
     max-height: calc(100dvh - 150px);
   }
@@ -677,6 +670,8 @@
   position: relative;
   inset: auto;
   grid-area: 1 / 1;
+  /* Safari w 3D nie zawsze rozciąga tył do wysokości przodu, więc obie strony dostają ją wprost */
+  min-height: min(450px, 58dvh);
 }
 .deck-under {
   position: absolute;
@@ -704,6 +699,57 @@
 }
 .review-face .body-l {
   overflow-wrap: break-word;
+}
+.spell-row {
+  align-items: flex-end;
+  gap: 12px;
+  margin-top: 20px;
+}
+.spell-pad {
+  margin-top: 18px;
+}
+.spell-res {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+.spell-res .mark {
+  position: static;
+  width: 26px;
+  height: 26px;
+  flex: none;
+}
+.spell-res.ok {
+  color: var(--pen-green);
+}
+.spell-res.close {
+  color: var(--ink-2);
+}
+.spell-res s {
+  color: var(--pen-red);
+}
+.spell-lines {
+  margin-top: 6px;
+  list-style: none;
+}
+.spell-lines li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 32px;
+  font-size: 22px;
+  border-bottom: 1px dashed var(--faint);
+}
+.spell-lines .mark {
+  position: static;
+  width: 22px;
+  height: 22px;
+  flex: none;
+}
+.spell-lines .bad .pen {
+  color: var(--pen-red);
 }
 .answer-grid {
   display: grid;
@@ -1969,6 +2015,11 @@
 .pick-example .small {
   font-size: 15px;
   color: var(--ink-2);
+}
+.pick-example .line-area {
+  min-height: 52px;
+  font-size: 16px;
+  line-height: 26px;
 }
 .pick-pop .note {
   font-size: 14px;

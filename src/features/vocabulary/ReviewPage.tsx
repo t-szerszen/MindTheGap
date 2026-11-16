@@ -12,6 +12,7 @@ import { DRAG_START_PX, swipeAnswer, swipeProgress } from '../../lib/swipe'
 import { englishSide, polishSide } from '../../lib/vocab'
 import { useAuth } from '../auth/useAuth'
 import { useWords } from './useWords'
+import { SpellPad } from './SpellPad'
 import { WordStats } from './WordStats'
 
 type Dir = 'pl-en' | 'en-pl'
@@ -83,7 +84,8 @@ export function ReviewPage() {
 
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
-      if (!flipped) return
+      // strzałki w polu do pisania przesuwają kursor, a nie oceniają kartę
+      if (!flipped || e.target instanceof HTMLInputElement) return
       if (e.key === 'ArrowRight') answer(true)
       if (e.key === 'ArrowLeft') answer(false)
     }
@@ -258,7 +260,15 @@ export function ReviewPage() {
                 </button>
               </div>
 
-              <div style={{ marginTop: 26 }}>
+              <SpellPad
+                key={card.id + dir}
+                answer={back ?? ''}
+                lang={pl2en ? 'en' : 'pl'}
+                flipped={flipped}
+                onReveal={() => setFlipped(true)}
+              />
+
+              <div style={{ marginTop: 22 }}>
                 {flipped ? (
                   <div className="answer-grid">
                     <Button variant="pink" onClick={() => answer(false)}>

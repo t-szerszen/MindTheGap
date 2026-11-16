@@ -16,11 +16,12 @@ export function AccountSection() {
         <>
           <div className="row" style={{ gap: 14, marginTop: 12 }}>
             <span aria-hidden="true" className="circ avatar">
-              {(user.name || user.email).slice(0, 1).toUpperCase()}
+              <Icon name="user" size="l" />
             </span>
             <div className="grow">
-              <p className="h-s">{user.name || t.noName}</p>
-              <p className="small muted">{pl.auth.signedInAs(user.email)}</p>
+              <p className="h-s">{pl.auth.signedIn}</p>
+              <p className="small muted">{user.email}</p>
+              <p className="small muted">{pl.auth.synced}</p>
             </div>
           </div>
           <div className="row wrap" style={{ gap: 18, marginTop: 12 }}>

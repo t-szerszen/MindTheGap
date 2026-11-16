@@ -3,9 +3,9 @@ import { Icon } from '../../components/Icon'
 import { Scribble } from '../../components/Ink'
 import { NotFound } from '../../components/States'
 import { pl } from '../../i18n/pl'
-import { useExercises, useGrammarTabs, useTopics } from '../../lib/content'
+import { getTenses, useExercises, useGrammarTabs, useTopics } from '../../lib/content'
 import { BlockView } from './BlockView'
-import { topicHome } from './hub'
+import { practiceTags, topicHome } from './hub'
 
 export function TopicPage() {
   const { id = '' } = useParams()
@@ -14,7 +14,11 @@ export function TopicPage() {
   const tabs = useGrammarTabs()
   if (!topic) return <NotFound />
   const t = pl.topics
-  const practice = exercises.filter((e) => e.tags.includes(topic.id)).length
+  const tags = practiceTags(
+    topic.id,
+    getTenses().map((x) => x.id),
+  )
+  const practice = exercises.filter((e) => e.tags.some((x) => tags.includes(x))).length
   const home = topicHome(topic.category)
   // „cała teoria” z trybów warunkowych wraca na ich przekładkę, nie na „Wish”
   const tab = tabs.find((x) => x.id === topic.id) ?? tabs.find((x) => x.topic === topic.id)
@@ -46,7 +50,7 @@ export function TopicPage() {
         {practice > 0 && (
           <Link
             className="btn btn-primary btn-block"
-            to={`/exercises/session?tags=${topic.id}`}
+            to={`/exercises/session?tags=${tags.join(',')}`}
             style={{ marginTop: 26 }}
           >
             <Icon name="pencil" />

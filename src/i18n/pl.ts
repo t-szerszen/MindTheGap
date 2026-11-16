@@ -9,6 +9,9 @@ export function plural(n: number, one: string, few: string, many: string) {
   return many
 }
 
+// ok. 20 sekund na kartę, ale nigdy mniej niż minuta
+const reviewMinutes = (n: number) => Math.max(1, Math.round(n / 3))
+
 const rtf = new Intl.RelativeTimeFormat('pl', { numeric: 'auto' })
 const DAY = 24 * 60 * 60 * 1000
 
@@ -43,26 +46,24 @@ export const pl = {
     toDark: 'Motyw jasny — przełącz na ciemny',
   },
   home: {
-    notebook: 'Zeszyt',
-    subject: 'do języka angielskiego · matura',
-    nameLabel: 'imię:',
+    tagline: 'maturalny angielski',
     title: 'Na dziś',
-    continue: 'Kontynuuj ćwiczenia',
-    continueSub: 'rozpoczęta seria',
+    continue: 'Dokończ ćwiczenia',
+    continueSub: (n: number) => `zostało ${n} ${plural(n, 'zadanie', 'zadania', 'zadań')}`,
     next: 'Dalej',
     start: 'Zacznij ćwiczenia',
     startSub: 'zdania z lukami, bez podpowiedzi czasu',
-    reviewTitle: 'Powtórz zapisane',
+    reviewTitle: 'Fiszki do powtórki',
     due: (n: number) =>
       n
-        ? `${n} ${plural(n, 'fiszka czeka', 'fiszki czekają', 'fiszek czeka')} na powtórkę`
+        ? `${n} ${plural(n, 'karta czeka', 'karty czekają', 'kart czeka')} · ok. ${reviewMinutes(n)} ${plural(reviewMinutes(n), 'minuta', 'minuty', 'minut')}`
         : 'Wszystko powtórzone na dziś',
     saved: (n: number) => `${n} ${plural(n, 'słówko', 'słówka', 'słówek')} w fiszkach`,
     example: (w: string) => `np. „${w}”`,
-    reviewLink: 'Powtórka',
-    streak: 'Seria',
+    reviewLink: 'Powtórz',
+    streak: 'Twoja seria',
     streakDays: (n: number) =>
-      n ? `${n} ${plural(n, 'dzień', 'dni', 'dni')} z rzędu!` : 'Zacznij serię dzisiaj',
+      n ? `${n} ${plural(n, 'dzień', 'dni', 'dni')} z rzędu` : 'Zacznij serię dzisiaj',
     tallyLabel: (n: number, today: boolean) =>
       `${n} ${plural(n, 'kreska', 'kreski', 'kresek')}: ${n} ${plural(n, 'dzień', 'dni', 'dni')} nauki z rzędu${today ? ', ostatni dzisiaj' : ''}`,
     weekLabel: 'Ten tydzień',
@@ -82,7 +83,7 @@ export const pl = {
     correctForm: 'poprawnie:',
     loginTitle: 'Zaloguj się',
     loginText:
-      'Fiszki, seria i postęp wymagają konta, żeby były te same na telefonie i komputerze. Teoria, ćwiczenia i tłumacz działają bez niego.',
+      'Fiszki, tłumacz, seria i postęp wymagają konta, żeby były te same na telefonie i komputerze. Teoria i ćwiczenia działają bez niego.',
     goTenses: 'Czasy od podstaw',
     goTranslator: 'Tłumacz',
     examsTitle: 'Do matury',
@@ -121,7 +122,6 @@ export const pl = {
     deepl: 'Tłumacz (DeepL)',
     deeplLeft: (left: string, limit: string) => `W tym miesiącu zostało ${left} z ${limit} znaków.`,
     deeplUsed: 'Zużycie limitu znaków DeepL',
-    noName: 'Bez imienia',
     loggedOut: 'Nie jesteś zalogowany — teoria działa, ale fiszki i postęp wymagają konta.',
     exams: 'Odliczanie do matury',
     examsHint: 'Zaznaczone matury widać na stronie Start, najbliższa na górze.',
@@ -221,25 +221,23 @@ export const pl = {
   auth: {
     eyebrow: 'Konto',
     loginTitle: 'Zaloguj się',
-    registerTitle: 'Załóż konto',
     why: 'żeby fiszki i postęp były te same na telefonie i komputerze',
-    name: 'Imię (na okładkę)',
     email: 'E-mail',
     password: 'Hasło',
-    passwordHint: 'co najmniej 6 znaków',
     loginBtn: 'Zaloguj się',
-    registerBtn: 'Załóż konto',
-    toRegister: 'Nie mam konta',
-    toLogin: 'Mam już konto',
+    closed:
+      'Rejestracja jest na razie zamknięta — nowych kont nie zakładamy. Teoria i ćwiczenia działają bez logowania.',
     forgot: 'Nie pamiętam hasła',
     resetSent: 'Wysłałem link do zmiany hasła — sprawdź skrzynkę (i spam).',
     busy: 'Chwila…',
     logout: 'Wyloguj się',
-    signedInAs: (email: string) => `zalogowano: ${email}`,
+    signedIn: 'Zalogowano',
+    synced: 'fiszki i postępy masz na każdym urządzeniu',
     notConfigured:
       'Logowanie nie jest jeszcze skonfigurowane (brak VITE_FIREBASE_* w .env). Teoria i ćwiczenia działają bez konta.',
     gateTitle: 'Tu potrzebne jest konto',
     gateText: 'Fiszki, zapisane słówka i postęp trzymam w chmurze, żeby były na każdym urządzeniu.',
+    gateTranslator: 'Tłumacz ma mały miesięczny limit znaków, więc działa tylko po zalogowaniu.',
     gateBtn: 'Zaloguj się',
     errors: {
       'auth/invalid-email': 'To nie wygląda na adres e-mail.',
@@ -272,9 +270,8 @@ export const pl = {
     groups: { sentences: 'zdania', verbs: 'czasowniki', words: 'słowa' },
     groupNames: { sentences: 'Zdania', verbs: 'Czasowniki', words: 'Słowa' },
     soonTab: (label: string) => `${label} — wkrótce`,
-    soonTitle: 'Rozdział w przygotowaniu',
-    soonText:
-      'Dostanie ten sam układ co reszta: skalę, budowę, kiedy używamy, przykłady i „jak wybrać”.',
+    soonTitle: 'Ten temat jeszcze piszemy',
+    soonText: 'Będzie wyglądał jak tryby warunkowe: skala, budowa, przykłady i „jak wybrać”.',
     soonLink: 'Na razie: tryby warunkowe',
     subtypes: 'Podtyp',
     time: (t: string) => `czas: ${t}`,
@@ -328,7 +325,7 @@ export const pl = {
   },
   translator: {
     eyebrow: 'Tłumacz',
-    title: 'Zapisz, co nowe',
+    title: 'Przetłumacz i zapisz',
     swap: (from: string, to: string) => `Zamień kierunek tłumaczenia, teraz ${from} na ${to}`,
     sourceLabel: { 'pl-en': 'Po polsku', 'en-pl': 'Po angielsku' },
     placeholder: { 'pl-en': 'Wpisz zdanie albo słówko…', 'en-pl': 'Type a word or a sentence…' },
@@ -364,7 +361,7 @@ export const pl = {
     sort: { newest: 'najnowsze', accuracy: 'najsłabsze', due: 'do powtórki' },
     tagsLabel: 'Filtruj według etykiety',
     allTags: 'wszystkie',
-    review: (n: number) => `Powtórka · ${n} ${plural(n, 'karta', 'karty', 'kart')}`,
+    review: (n: number) => `Powtórz · ${n} ${plural(n, 'karta', 'karty', 'kart')}`,
     nothingDue: 'Wszystko powtórzone',
     noCards: 'Nic do powtórki',
     leeches: (n: number) => `Uciekinierzy (${n})`,
@@ -381,9 +378,8 @@ export const pl = {
     confirmDelete: 'Usunąć na zawsze?',
     confirmYes: 'Tak, usuń',
     confirmNo: 'Zostaw',
-    empty: 'Nie masz jeszcze zapisanych słówek.',
-    emptyHint:
-      'Dodaj pierwsze przyciskiem „Dodaj słówko” albo zapisz coś w tłumaczu. Każda fiszka trafi potem do powtórki.',
+    empty: 'Tu na razie pusto.',
+    emptyHint: 'Dodaj pierwsze słówko albo zapisz coś w tłumaczu — wszystko trafi do powtórki.',
     toTranslator: 'Do tłumacza',
     noResults: 'Nic tu nie ma — spróbuj innego słowa albo etykiety.',
     saveTitle: 'Do fiszek',
@@ -397,7 +393,7 @@ export const pl = {
     sources: { translator: 'z tłumacza', topic: 'z tematu', own: 'własne', text: 'z tekstu' },
     newCard: {
       title: 'Nowa fiszka',
-      sub: 'wpisz sam — bez tłumacza',
+      sub: 'wpisz własne słówko',
       close: 'Zamknij formularz',
       english: 'Po angielsku *',
       polish: 'Po polsku *',
@@ -434,7 +430,7 @@ export const pl = {
     eyebrow: 'Ćwiczenia',
     title: 'Ułóż serię',
     intro: 'Uzupełnij luki. Polecenie stoi nad każdym zadaniem, jak w arkuszu.',
-    introHint: 'Bez podpowiedzi, której struktury szukasz — sygnał jest w zdaniu.',
+    introHint: 'Nie mówimy, której struktury szukasz — wskazówka jest w zdaniu.',
     mode: 'Tryb',
     modes: { random: 'losowo', weak: 'słabe punkty' },
     weakNeedsLogin:
@@ -504,7 +500,7 @@ export const pl = {
     keyIs: 'Klucz:',
     points: (good: number, total: number) => `${good} / ${total} pkt`,
     check: 'Sprawdź',
-    checkAll: 'Sprawdź wszystkie wpisane',
+    checkAll: 'Sprawdź wszystko',
     result: 'Wynik',
     checkedOf: (done: number) => `/ ${done} pkt`,
     why: (name: string) => `Dlaczego ${name}?`,
@@ -706,10 +702,22 @@ export const pl = {
     swipeHint: 'przesuń kartę: w prawo = wiedziałem, w lewo = nie wiedziałem',
     example: 'przykład',
     stats: 'statystyki',
-    endTitle: 'Koniec talii!',
+    spell: {
+      label: { en: 'Napisz po angielsku', pl: 'Napisz po polsku' },
+      placeholder: 'z głowy, potem sprawdź',
+      check: 'Sprawdź',
+      result: {
+        ok: 'Dobrze napisane!',
+        close: 'Prawie — porównaj z kartą:',
+        wrong: 'Inaczej niż na karcie:',
+      },
+      practice: 'Przećwicz pisownię',
+      practiceHint: 'przepisz i Enter',
+    },
+    endTitle: 'To wszystkie karty na dziś',
     endText: (k: number, n: number) =>
-      `Wiedziałeś ${k} z ${n}. Te, których nie wiedziałeś, wrócą jutro na górę stosu.`,
-    toList: 'Do listy słówek',
+      `Znasz ${k} z ${n}. Te z „Nie wiedziałem” pokażemy jutro jako pierwsze.`,
+    toList: 'Wróć do fiszek',
     nothingDue: 'Wszystko powtórzone!',
     nextDue: (label: string) => `Następna powtórka: ${label}.`,
     noWords: 'Najpierw zapisz kilka słówek w tłumaczu.',
@@ -722,6 +730,7 @@ export const pl = {
     translating: 'Tłumaczę…',
     translationHint: 'Tłumaczenie z automatu — popraw, jeśli trzeba.',
     example: 'Przykład z tekstu',
+    examplePlaceholder: 'zdanie ze słówkiem, możesz poprawić',
     tag: 'Etykieta',
     tagPlaceholder: 'opcjonalnie',
     save: 'Zapisz',

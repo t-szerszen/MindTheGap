@@ -13,7 +13,7 @@ export function GrammarTabs({
   soon: (tab: GrammarTab) => boolean
 }) {
   return (
-    <nav className="itabs tense-tabs grammar-tabs" aria-label={pl.grammar.indexTitle}>
+    <nav className="itabs tense-tabs" aria-label={pl.grammar.indexTitle}>
       {tabs.map((t, i) => {
         const groupBreak = i > 0 && tabs[i - 1]!.group !== t.group
         const isSoon = soon(t)

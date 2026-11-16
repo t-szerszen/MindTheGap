@@ -4,18 +4,14 @@ import { Button, LineField } from '../../components/Controls'
 import { Scribble } from '../../components/Ink'
 import { Sticky } from '../../components/Paper'
 import { pl } from '../../i18n/pl'
-import { authErrorCode, register, resetPassword, signIn } from '../../lib/db/auth'
+import { authErrorCode, resetPassword, signIn } from '../../lib/db/auth'
 import { useAuth } from './useAuth'
 
-type Mode = 'login' | 'register'
-
 export function LoginPage() {
-  const { user, configured, refresh } = useAuth()
+  const { user, configured } = useAuth()
   const navigate = useNavigate()
   const location = useLocation()
   const from = (location.state as { from?: string } | null)?.from ?? '/'
-  const [mode, setMode] = useState<Mode>('login')
-  const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [busy, setBusy] = useState(false)
@@ -31,11 +27,7 @@ export function LoginPage() {
     setError('')
     setInfo('')
     try {
-      if (mode === 'login') await signIn(email, password)
-      else {
-        await register(email, password, name)
-        refresh()
-      }
+      await signIn(email, password)
       navigate(from, { replace: true })
     } catch (err) {
       setError(t.errors[authErrorCode(err)] ?? t.unknownError)
@@ -59,11 +51,16 @@ export function LoginPage() {
     <div className="sheet squared plain page-in">
       <div className="measure stack" style={{ maxWidth: 460 }}>
         <p className="eyebrow">{t.eyebrow}</p>
-        <h1 className="h-l">{mode === 'login' ? t.loginTitle : t.registerTitle}</h1>
+        <h1 className="h-l">{t.loginTitle}</h1>
         <Scribble width={180} />
         <p className="note blue" style={{ marginTop: 6 }}>
           {t.why}
         </p>
+        {configured && (
+          <p className="small" style={{ marginTop: 10 }}>
+            {t.closed}
+          </p>
+        )}
 
         {!configured ? (
           <Sticky color="p" tilt={-1} tape={{ color: 'y' }} style={{ marginTop: 24 }}>
@@ -82,14 +79,6 @@ export function LoginPage() {
             className="stack login-card"
             noValidate
           >
-            {mode === 'register' && (
-              <LineField
-                label={t.name}
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                autoComplete="given-name"
-              />
-            )}
             <LineField
               label={t.email}
               type="email"
@@ -101,41 +90,28 @@ export function LoginPage() {
               required
             />
             <LineField
-              label={mode === 'register' ? `${t.password} · ${t.passwordHint}` : t.password}
+              label={t.password}
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              autoComplete={mode === 'login' ? 'current-password' : 'new-password'}
+              autoComplete="current-password"
               required
             />
             <p className="note" aria-live="polite" style={{ minHeight: 21 }}>
               {error || <span className="blue">{info}</span>}
             </p>
             <Button type="submit" variant="primary" block disabled={busy}>
-              {busy ? t.busy : mode === 'login' ? t.loginBtn : t.registerBtn}
+              {busy ? t.busy : t.loginBtn}
             </Button>
-            <div className="row wrap" style={{ justifyContent: 'space-between', marginTop: 4 }}>
+            <div className="row" style={{ justifyContent: 'flex-end', marginTop: 4 }}>
               <button
                 type="button"
-                className="link-pen"
-                onClick={() => {
-                  setMode(mode === 'login' ? 'register' : 'login')
-                  setError('')
-                  setInfo('')
-                }}
+                className="link-pen red"
+                onClick={forgot}
+                disabled={!email.includes('@')}
               >
-                {mode === 'login' ? t.toRegister : t.toLogin}
+                {t.forgot}
               </button>
-              {mode === 'login' && (
-                <button
-                  type="button"
-                  className="link-pen red"
-                  onClick={forgot}
-                  disabled={!email.includes('@')}
-                >
-                  {t.forgot}
-                </button>
-              )}
             </div>
           </Sticky>
         )}

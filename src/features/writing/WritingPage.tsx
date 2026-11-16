@@ -67,6 +67,7 @@ export function WritingPage() {
             className="line-area"
             rows={4}
             value={draft.plan}
+            readOnly={draft.submitted}
             placeholder={t.planPlaceholder}
             onChange={(e) => update({ plan: e.target.value })}
           />

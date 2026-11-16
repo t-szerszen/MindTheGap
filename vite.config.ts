@@ -37,10 +37,10 @@ export default defineConfig(({ mode }) => {
       react(),
       VitePWA({
         registerType: 'autoUpdate',
-        includeAssets: ['icon.svg', 'apple-touch-icon.png'],
+        includeAssets: ['favicon.svg', 'favicon-32.png', 'apple-touch-icon.png'],
         manifest: {
           name: 'Mind the Gap',
-          short_name: 'Mind the Gap',
+          short_name: 'Mind the gap',
           description: 'Zeszyt do angielskiego przed maturą: czasy, tłumacz, fiszki, ćwiczenia.',
           lang: 'pl',
           start_url: '.',
@@ -49,9 +49,14 @@ export default defineConfig(({ mode }) => {
           background_color: '#F7F0E1',
           theme_color: '#F7F0E1',
           icons: [
-            { src: 'pwa-192.png', sizes: '192x192', type: 'image/png' },
-            { src: 'pwa-512.png', sizes: '512x512', type: 'image/png' },
-            { src: 'pwa-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
+            { src: 'icon-192.png', sizes: '192x192', type: 'image/png' },
+            { src: 'icon-512.png', sizes: '512x512', type: 'image/png' },
+            {
+              src: 'icon-maskable-512.png',
+              sizes: '512x512',
+              type: 'image/png',
+              purpose: 'maskable',
+            },
           ],
         },
         workbox: {

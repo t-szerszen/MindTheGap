@@ -1,11 +1,12 @@
+import type { CSSProperties } from 'react'
 import { Link } from 'react-router'
 import { Icon } from '../../components/Icon'
-import { Hl } from '../../components/Ink'
+import { Logo } from '../../components/Logo'
 import { ThemePill } from '../../components/ThemePill'
 import { pl } from '../../i18n/pl'
 
 // okładka zeszytu z naklejką, jak w projekcie
-export function Cover({ name }: { name?: string }) {
+export function Cover() {
   return (
     <header className="cover home-cover">
       <span className="home-band" aria-hidden="true" />
@@ -16,26 +17,12 @@ export function Cover({ name }: { name?: string }) {
         </Link>
       </div>
       <div className="home-label r-1">
-        <div className="home-label-in">
-          <p className="eyebrow" style={{ letterSpacing: '.32em' }}>
-            {pl.home.notebook}
-          </p>
-          <p className="h-xl" style={{ fontSize: 46 }} lang="en">
-            Mind the{' '}
-            <Hl draw delay={350}>
-              Gap
-            </Hl>
-          </p>
-          <p className="note ink" style={{ fontSize: 14 }}>
-            {pl.home.subject}
-          </p>
-          <p className="row" style={{ gap: 8, width: '100%', marginTop: 4 }}>
-            <span className="note ink" style={{ fontSize: 14 }}>
-              {pl.home.nameLabel}
-            </span>
-            <span className="pen home-name">{name ?? ''}</span>
-          </p>
-        </div>
+        <Logo
+          stack
+          tagline={pl.home.tagline}
+          className="home-label-in"
+          style={{ '--lm': '60px', '--lw': '44px' } as CSSProperties}
+        />
       </div>
     </header>
   )
