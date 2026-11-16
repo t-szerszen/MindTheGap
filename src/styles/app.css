@@ -670,6 +670,8 @@
   position: relative;
   inset: auto;
   grid-area: 1 / 1;
+  /* Safari w 3D nie zawsze rozciąga tył do wysokości przodu, więc obie strony dostają ją wprost */
+  min-height: min(450px, 58dvh);
 }
 .deck-under {
   position: absolute;
