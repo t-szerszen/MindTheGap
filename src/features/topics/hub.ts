@@ -40,3 +40,10 @@ export function practiceGroup(category: Topic['category']): PracticeGroup {
   if (home !== 'more') return home
   return category === 'exam' || category === 'writing' ? 'exam' : 'vocabulary'
 }
+
+// temat „wszystkie czasy razem” to w ćwiczeniach skrót do wszystkich czasów naraz, nie osobny tag
+export const ALL_TENSES = 'tenses-overview'
+
+export function practiceTags(topicId: string, tenseIds: string[]) {
+  return topicId === ALL_TENSES ? tenseIds : [topicId]
+}

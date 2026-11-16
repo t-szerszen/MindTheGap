@@ -9,7 +9,7 @@ import type { NoteColor } from '../../components/Paper'
 import { pl } from '../../i18n/pl'
 import { getTenses, useExercises, useReadingSets, useTopics } from '../../lib/content'
 import { filterExercises, type SessionMode } from '../../lib/exercises/session'
-import { practiceGroup, practiceGroups, type PracticeGroup } from '../topics/hub'
+import { ALL_TENSES, practiceGroup, practiceGroups, type PracticeGroup } from '../topics/hub'
 import { useAuth } from '../auth/useAuth'
 import { loadSession, sessionProgress } from './savedSession'
 import { useAttempts } from './useAttempts'
@@ -67,11 +67,21 @@ export function ExercisesPage() {
       if (has(x.id)) byGroup[practiceGroup(x.category)].push({ id: x.id, label: x.title_pl })
     return practiceGroups.map((g) => ({ id: g, chips: byGroup[g] })).filter((g) => g.chips.length)
   }, [exercises, topics])
+  const tenseIds = useMemo(() => getTenses().map((x) => x.id), [])
+  const allTenses = tenseIds.every((id) => tags.includes(id))
   const matching = filterExercises(exercises, tags, level || undefined, types).length
   const presentTypes = typeOrder.filter((ty) => exercises.some((e) => e.type === ty))
   const progress = saved && sessionProgress(saved)
 
   function toggle(tag: string) {
+    if (tag === ALL_TENSES) {
+      setTags((cur) =>
+        allTenses
+          ? cur.filter((x) => !tenseIds.includes(x))
+          : [...cur, ...tenseIds.filter((x) => !cur.includes(x))],
+      )
+      return
+    }
     setTags((cur) => (cur.includes(tag) ? cur.filter((x) => x !== tag) : [...cur, tag]))
   }
 
@@ -187,7 +197,7 @@ export function ExercisesPage() {
                 {g.chips.map((x) => (
                   <TagButton
                     key={x.id}
-                    pressed={tags.includes(x.id)}
+                    pressed={x.id === ALL_TENSES ? allTenses : tags.includes(x.id)}
                     color={groupColor[g.id]}
                     onClick={() => toggle(x.id)}
                   >
