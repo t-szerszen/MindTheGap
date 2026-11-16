@@ -1970,6 +1970,11 @@
   font-size: 15px;
   color: var(--ink-2);
 }
+.pick-example .line-area {
+  min-height: 52px;
+  font-size: 16px;
+  line-height: 26px;
+}
 .pick-pop .note {
   font-size: 14px;
 }

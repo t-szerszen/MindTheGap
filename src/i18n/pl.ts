@@ -722,6 +722,7 @@ export const pl = {
     translating: 'Tłumaczę…',
     translationHint: 'Tłumaczenie z automatu — popraw, jeśli trzeba.',
     example: 'Przykład z tekstu',
+    examplePlaceholder: 'zdanie ze słówkiem, możesz poprawić',
     tag: 'Etykieta',
     tagPlaceholder: 'opcjonalnie',
     save: 'Zapisz',
