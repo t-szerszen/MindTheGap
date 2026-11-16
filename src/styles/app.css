@@ -700,6 +700,57 @@
 .review-face .body-l {
   overflow-wrap: break-word;
 }
+.spell-row {
+  align-items: flex-end;
+  gap: 12px;
+  margin-top: 20px;
+}
+.spell-pad {
+  margin-top: 18px;
+}
+.spell-res {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+.spell-res .mark {
+  position: static;
+  width: 26px;
+  height: 26px;
+  flex: none;
+}
+.spell-res.ok {
+  color: var(--pen-green);
+}
+.spell-res.close {
+  color: var(--ink-2);
+}
+.spell-res s {
+  color: var(--pen-red);
+}
+.spell-lines {
+  margin-top: 6px;
+  list-style: none;
+}
+.spell-lines li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 32px;
+  font-size: 22px;
+  border-bottom: 1px dashed var(--faint);
+}
+.spell-lines .mark {
+  position: static;
+  width: 22px;
+  height: 22px;
+  flex: none;
+}
+.spell-lines .bad .pen {
+  color: var(--pen-red);
+}
 .answer-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

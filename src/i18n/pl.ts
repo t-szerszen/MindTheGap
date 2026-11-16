@@ -705,6 +705,18 @@ export const pl = {
     swipeHint: 'przesuń kartę: w prawo = wiedziałem, w lewo = nie wiedziałem',
     example: 'przykład',
     stats: 'statystyki',
+    spell: {
+      label: { en: 'Napisz po angielsku', pl: 'Napisz po polsku' },
+      placeholder: 'z głowy, potem sprawdź',
+      check: 'Sprawdź',
+      result: {
+        ok: 'Dobrze napisane!',
+        close: 'Prawie — porównaj z kartą:',
+        wrong: 'Inaczej niż na karcie:',
+      },
+      practice: 'Przećwicz pisownię',
+      practiceHint: 'przepisz i Enter',
+    },
     endTitle: 'To wszystkie karty na dziś',
     endText: (k: number, n: number) =>
       `Znasz ${k} z ${n}. Te z „Nie wiedziałem” pokażemy jutro jako pierwsze.`,
