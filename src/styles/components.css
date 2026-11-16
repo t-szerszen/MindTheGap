@@ -1944,3 +1944,61 @@ body {
   animation-delay: 0s !important;
   transition-duration: 1ms !important;
 }
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--lg-gap, 10px);
+  color: var(--ink);
+  text-decoration: none;
+}
+.logo-mark {
+  flex: none;
+  display: block;
+  width: var(--lm, 44px);
+  height: var(--lm, 44px);
+}
+.logo-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+.logo-word {
+  font-family: var(--f-hand);
+  font-weight: 700;
+  font-size: var(--lw, 28px);
+  line-height: 1;
+  white-space: nowrap;
+}
+.logo-gap {
+  position: relative;
+  display: inline-block;
+  padding: 0 0.12em;
+  color: var(--pen-blue);
+}
+.logo-gap::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -0.02em;
+  height: max(2px, 0.08em);
+  background: var(--pen-red);
+  border-radius: 2px 3px 2px 3px;
+  rotate: -1.5deg;
+}
+.logo-tag {
+  font-family: var(--f-note);
+  font-size: var(--lt, 14px);
+  line-height: 1.2;
+  color: var(--ink-2);
+  white-space: nowrap;
+}
+.logo.stack {
+  flex-direction: column;
+}
+.logo.stack .logo-txt {
+  align-items: center;
+  text-align: center;
+}

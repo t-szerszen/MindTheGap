@@ -43,9 +43,7 @@ export const pl = {
     toDark: 'Motyw jasny — przełącz na ciemny',
   },
   home: {
-    notebook: 'Zeszyt',
-    subject: 'do języka angielskiego · matura',
-    nameLabel: 'imię:',
+    tagline: 'angielski do matury, po kawałku',
     title: 'Na dziś',
     continue: 'Kontynuuj ćwiczenia',
     continueSub: 'rozpoczęta seria',

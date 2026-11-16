@@ -71,7 +71,7 @@ export function HomePage() {
 
   return (
     <div className="home">
-      <Cover name={user?.name} />
+      <Cover />
       <div className="sheet ruled page-in home-sheet">
         <div className="measure stack">
           <div className="hdr">

@@ -5,8 +5,8 @@ self.addEventListener('push', (event) => {
   event.waitUntil(
     self.registration.showNotification('Mind the Gap', {
       body: 'Dziś jeszcze nic. Zrób chociaż 5 minut: jedną serię albo fiszki.',
-      icon: new URL('pwa-192.png', scope).href,
-      badge: new URL('pwa-192.png', scope).href,
+      icon: new URL('icon-192.png', scope).href,
+      badge: new URL('icon-192.png', scope).href,
       tag: 'reminder',
       lang: 'pl',
     }),

@@ -1,11 +1,11 @@
-import { Suspense, useEffect, useState } from 'react'
+import { Suspense, useEffect, useState, type CSSProperties } from 'react'
 import { Link, Outlet, useLocation } from 'react-router'
 import { topicHome } from '../features/topics/hub'
 import { PickWord } from '../features/vocabulary/PickWord'
 import { pl } from '../i18n/pl'
 import { topicStore } from '../lib/content'
 import { Icon, type IconName } from './Icon'
-import { Hl } from './Ink'
+import { Logo } from './Logo'
 import { Grain } from './Paper'
 import { Loading } from './States'
 import { ThemePill } from './ThemePill'
@@ -94,9 +94,7 @@ export function Shell() {
   return (
     <div className="app desk">
       <header className="topbar">
-        <p className="logo h-m" lang="en">
-          Mind the <Hl>Gap</Hl>
-        </p>
+        <Logo className="top-logo" style={{ '--lm': '40px', '--lw': '30px' } as CSSProperties} />
         <nav className="toptabs" aria-label={pl.nav.label}>
           {sections.map((s) => (
             <Link
