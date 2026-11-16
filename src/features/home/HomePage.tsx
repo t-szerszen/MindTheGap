@@ -42,7 +42,7 @@ function ExercisesCard() {
         )}
       </span>
       <span className="small muted" style={{ display: 'block' }}>
-        {open ? t.continueSub : t.startSub}
+        {open ? t.continueSub(p.total - p.done) : t.startSub}
       </span>
       {open && (
         <span style={{ display: 'block', margin: '8px 0' }}>
