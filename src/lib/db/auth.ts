@@ -1,10 +1,8 @@
 import {
-  createUserWithEmailAndPassword,
   onAuthStateChanged,
   sendPasswordResetEmail,
   signInWithEmailAndPassword,
   signOut,
-  updateProfile,
 } from 'firebase/auth'
 import { FirebaseError } from 'firebase/app'
 import { getAuthInstance } from './firebase'
@@ -32,12 +30,6 @@ export async function signIn(email: string, password: string) {
   await signInWithEmailAndPassword(need(), email.trim(), password)
 }
 
-export async function register(email: string, password: string, name: string) {
-  const auth = need()
-  const cred = await createUserWithEmailAndPassword(auth, email.trim(), password)
-  if (name.trim()) await updateProfile(cred.user, { displayName: name.trim() })
-}
-
 export async function resetPassword(email: string) {
   await sendPasswordResetEmail(need(), email.trim())
 }
@@ -49,10 +41,4 @@ export async function logOut() {
 export function authErrorCode(e: unknown) {
   if (e instanceof FirebaseError) return e.code
   return 'unknown'
-}
-
-// po updateProfile Firebase nie odpala onAuthStateChanged, więc imię trzeba doczytać ręcznie
-export function currentUser(): AppUser | null {
-  const u = getAuthInstance()?.currentUser
-  return u ? { uid: u.uid, email: u.email ?? '', name: u.displayName ?? '' } : null
 }

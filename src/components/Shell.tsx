@@ -1,6 +1,7 @@
 import { Suspense, useEffect, useState, type CSSProperties } from 'react'
 import { Link, Outlet, useLocation } from 'react-router'
 import { topicHome } from '../features/topics/hub'
+import { useAuth } from '../features/auth/useAuth'
 import { PickWord } from '../features/vocabulary/PickWord'
 import { pl } from '../i18n/pl'
 import { topicStore } from '../lib/content'
@@ -82,6 +83,7 @@ function currentSection(list: Section[], pathname: string) {
 }
 
 export function Shell() {
+  const { user } = useAuth()
   const { pathname } = useLocation()
   const onTopic = pathname.startsWith('/topics/')
   // po odświeżeniu na temacie treść jeszcze się ładuje, a od niej zależy podświetlona przekładka
@@ -136,7 +138,8 @@ export function Shell() {
           </Link>
         ))}
       </nav>
-      <PickWord />
+      {/* tłumaczenie zaznaczenia zjada limit DeepL, więc tylko po zalogowaniu */}
+      {user && <PickWord />}
       <Grain />
     </div>
   )

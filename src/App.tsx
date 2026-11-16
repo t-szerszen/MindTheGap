@@ -4,6 +4,7 @@ import { Shell } from './components/Shell'
 import { AuthProvider } from './features/auth/AuthProvider'
 import { LoginPage } from './features/auth/LoginPage'
 import { RequireAuth } from './features/auth/RequireAuth'
+import { pl } from './i18n/pl'
 import { AttemptsProvider } from './features/exercises/AttemptsProvider'
 import { ExercisesPage } from './features/exercises/ExercisesPage'
 import { ProgressPage } from './features/exercises/ProgressPage'
@@ -46,7 +47,14 @@ export function App() {
                 <Route path="tenses/:id" element={<TensePage />} />
                 <Route path="grammar" element={<GrammarIndexPage />} />
                 <Route path="grammar/:id" element={<GrammarPage />} />
-                <Route path="translator" element={<TranslatorPage />} />
+                <Route
+                  path="translator"
+                  element={
+                    <RequireAuth text={pl.auth.gateTranslator}>
+                      <TranslatorPage />
+                    </RequireAuth>
+                  }
+                />
                 <Route
                   path="words"
                   element={

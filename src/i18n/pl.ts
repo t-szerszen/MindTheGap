@@ -83,7 +83,7 @@ export const pl = {
     correctForm: 'poprawnie:',
     loginTitle: 'Zaloguj się',
     loginText:
-      'Fiszki, seria i postęp wymagają konta, żeby były te same na telefonie i komputerze. Teoria, ćwiczenia i tłumacz działają bez niego.',
+      'Fiszki, tłumacz, seria i postęp wymagają konta, żeby były te same na telefonie i komputerze. Teoria i ćwiczenia działają bez niego.',
     goTenses: 'Czasy od podstaw',
     goTranslator: 'Tłumacz',
     examsTitle: 'Do matury',
@@ -221,16 +221,12 @@ export const pl = {
   auth: {
     eyebrow: 'Konto',
     loginTitle: 'Zaloguj się',
-    registerTitle: 'Załóż konto',
     why: 'żeby fiszki i postęp były te same na telefonie i komputerze',
-    name: 'Imię (na okładkę)',
     email: 'E-mail',
     password: 'Hasło',
-    passwordHint: 'co najmniej 6 znaków',
     loginBtn: 'Zaloguj się',
-    registerBtn: 'Załóż konto',
-    toRegister: 'Nie mam konta',
-    toLogin: 'Mam już konto',
+    closed:
+      'Rejestracja jest na razie zamknięta — nowych kont nie zakładamy. Teoria i ćwiczenia działają bez logowania.',
     forgot: 'Nie pamiętam hasła',
     resetSent: 'Wysłałem link do zmiany hasła — sprawdź skrzynkę (i spam).',
     busy: 'Chwila…',
@@ -241,6 +237,7 @@ export const pl = {
       'Logowanie nie jest jeszcze skonfigurowane (brak VITE_FIREBASE_* w .env). Teoria i ćwiczenia działają bez konta.',
     gateTitle: 'Tu potrzebne jest konto',
     gateText: 'Fiszki, zapisane słówka i postęp trzymam w chmurze, żeby były na każdym urządzeniu.',
+    gateTranslator: 'Tłumacz ma mały miesięczny limit znaków, więc działa tylko po zalogowaniu.',
     gateBtn: 'Zaloguj się',
     errors: {
       'auth/invalid-email': 'To nie wygląda na adres e-mail.',
