@@ -46,7 +46,7 @@ export const pl = {
     toDark: 'Motyw jasny — przełącz na ciemny',
   },
   home: {
-    tagline: 'angielski do matury, po kawałku',
+    tagline: 'maturalny angielski',
     title: 'Na dziś',
     continue: 'Dokończ ćwiczenia',
     continueSub: (n: number) => `zostało ${n} ${plural(n, 'zadanie', 'zadania', 'zadań')}`,
